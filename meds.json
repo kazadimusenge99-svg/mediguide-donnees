@@ -1,5 +1,5 @@
 {
- "version": 20,
+ "version": 21,
  "dateMiseAJour": "2026-10-28",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -2612,7 +2612,8 @@
    "posologieAdulte": [
     "Protocole Zuspan (IV) : 4 g IV en 15 à 20 min, puis 1 g par heure en perfusion pendant 24 h après l'accouchement ou la dernière crise",
     "Protocole Pritchard (IM) : 4 g IV + 10 g IM (5 g dans chaque fesse), puis 5 g IM toutes les 4 h",
-    "Récidive de convulsions : 2 g IV supplémentaires"
+    "Récidive de convulsions : 2 g IV supplémentaires",
+    "Neuroprotection fœtale (accouchement imminent avant 32 SA) : 4 g IV en 20 à 30 min, puis 1 g/h jusqu'à l'accouchement (maximum 24 h)"
    ],
    "posologieEnfant": [
     "Asthme aigu grave : 25 à 50 mg/kg IV en 20 min (max 2 g) — en milieu hospitalier"
@@ -4500,7 +4501,7 @@
     "Réactions allergiques sévères (relais)"
    ],
    "posologieAdulte": [
-    "Maturation fœtale : 6 mg IM toutes les 12 h, 4 doses",
+    "Maturation pulmonaire fœtale (24 à 34 SA, accouchement probable dans les 7 jours) : 6 mg IM toutes les 12 h, 4 doses, une seule cure",
     "Œdème cérébral : 10 mg IV puis 4 mg toutes les 6 h",
     "NVPO : 4 mg IV à l'induction",
     "COVID-19 sévère : 6 mg/jour pendant 10 jours"
@@ -4964,14 +4965,15 @@
    "classe": "cardio",
    "formes": "Capsule 10 mg (libération immédiate) ; comprimé LP 20 et 30 mg",
    "indications": [
-    "Hypertension sévère de la grossesse (≥ 160/110)",
-    "Hypertension artérielle chronique (forme LP)",
-    "Tocolyse (menace d'accouchement prématuré)"
+    "Tocolyse de la menace d'accouchement prématuré (24 à 34 SA) : tocolytique de référence (OMS 2022)",
+    "Hypertension sévère de la grossesse (PA ≥ 160/110 mmHg)",
+    "Hypertension artérielle chronique (forme LP)"
    ],
    "posologieAdulte": [
-    "HTA sévère de la grossesse : 10 mg par voie orale (avaler, ne pas croquer ni donner en sublingual), à répéter après 30 à 60 min si TA ≥ 160/110 (selon le protocole)",
-    "Entretien : LP 20 à 30 mg 1 à 2 fois par jour (max 120 mg/j)",
-    "Tocolyse : protocole spécifique"
+    "Tocolyse : forme à libération immédiate 10 mg par voie orale, à répéter toutes les 15 min si les contractions persistent (maximum 4 doses, soit 40 mg la première heure), puis 20 mg toutes les 6 h ; durée totale 48 h",
+    "HTA sévère de la grossesse : 10 mg par voie orale (avaler), à répéter après 30 à 60 min si la PA reste ≥ 160/110 mmHg ; objectif 140-150/90-100 mmHg",
+    "Entretien de l'HTA : forme LP 20 à 30 mg 1 à 2 fois par jour (maximum 120 mg/j)",
+    "Ne jamais donner en sublingual ni ouvrir la capsule : chute brutale de la PA, hypoperfusion placentaire et risque de mort fœtale"
    ],
    "posologieEnfant": [
     "Avis spécialisé (0,25 à 0,5 mg/kg)"
@@ -4979,10 +4981,16 @@
    "contreIndications": [
     "Choc cardiogénique",
     "Infarctus récent (< 1 mois)",
-    "Angor instable"
+    "Angor instable",
+    "PA systolique < 90 mmHg",
+    "Premier trimestre de grossesse",
+    "Tocolyse : chorioamniotite, hémorragie, pré-éclampsie sévère, souffrance fœtale, âge gestationnel ≥ 34 SA"
    ],
    "precautions": [
     "Objectif tensionnel : 140–150/90–100 mmHg, sans baisse brutale (risque fœtal)",
+    "Tocolyse : mesurer la PA et le pouls maternels avant chaque prise et surveiller les bruits du cœur fœtal",
+    "Ne pas associer au salbutamol IV ni à un autre inhibiteur calcique ; avec le sulfate de magnésium, risque d'hypotension et de faiblesse musculaire (arrêter la tocolyse quand le magnésium est débuté)",
+    "Insuffisance hépatique : réduire la dose ; arrêter en cas de douleur thoracique",
     "Associée au sulfate de magnésium : surveiller TA (hypotension)",
     "Interactions : rifampicine (inefficacité), jus de pamplemousse"
    ],
@@ -4990,10 +4998,12 @@
     "Céphalées, bouffées de chaleur",
     "Tachycardie réflexe, palpitations",
     "Hypotension",
-    "Œdèmes des chevilles"
+    "Œdèmes des chevilles",
+    "Nausées, vertiges",
+    "Hyperplasie gingivale (traitement prolongé)"
    ],
-   "grossesse": "Utilisable (HTA sévère de la grossesse).",
-   "motsCles": "HTA sévère, pré-éclampsie, éclampsie, hypertension grossesse, tocolyse, menace d'accouchement prématuré"
+   "grossesse": "Utilisable aux 2e et 3e trimestres : tocolytique et antihypertenseur de la grossesse. Éviter au 1er trimestre. Allaitement : faible passage dans le lait ; plusieurs références l'autorisent, MSF conseille de l'éviter.",
+   "motsCles": "HTA sévère, pré-éclampsie, éclampsie, hypertension grossesse, tocolyse, menace d'accouchement prématuré, MAP, contractions, accouchement prématuré, tocolytique, Adalate"
   },
   {
    "id": 93,
@@ -34390,10 +34400,13 @@
    ],
    "diagnostic": [
     "Œufs dans les urines (filtration) ou les selles",
-    "Bandelette urinaire (hématurie) en zone d'endémie"
+    "Bandelette urinaire (hématurie) en zone d'endémie",
+    "Échographie : paroi vésicale épaissie, fibrose périportale du foie"
    ],
    "traitement": [
-    "Praziquantel 40 mg/kg en dose unique (ou en 2 prises)",
+    "Praziquantel 40 mg/kg en dose unique (ou en 2 prises le même jour), au cours d'un repas, chez l'adulte et l'enfant ; la femme enceinte et allaitante peut être traitée (OMS)",
+    "Jeune enfant (3 mois à 6 ans) : arpraziquantel pédiatrique si disponible",
+    "Contrôler les œufs 1 à 2 mois après si les symptômes persistent ; retraiter si nécessaire",
     "Traitement de masse selon le programme national"
    ],
    "gravite": [
@@ -34548,22 +34561,31 @@
     "Fièvre, toux, expectorations, douleur thoracique",
     "Dyspnée, tachypnée",
     "Râles crépitants à l'auscultation",
-    "Gravité : FR ≥ 30/min, confusion, TA basse, SpO2 < 90 %"
+    "Gravité : FR ≥ 30/min, confusion, TA basse, SpO2 < 90 %",
+    "Sujet âgé : confusion, chute, parfois sans fièvre"
    ],
    "diagnostic": [
     "Diagnostic clinique ; radiographie si disponible",
     "TDR paludisme en zone d'endémie",
-    "Penser à la tuberculose si toux > 2 semaines, au VIH"
+    "Penser à la tuberculose si toux > 2 semaines, au VIH",
+    "SpO₂ systématique",
+    "Score CRB-65 (onglet Outils) pour décider de l'hospitalisation",
+    "Test VIH ; GeneXpert sur crachats si toux de plus de 2 semaines ou VIH"
    ],
    "traitement": [
     "Forme simple : amoxicilline 1 g 3 fois par jour pendant 5 jours (allergie : érythromycine ou doxycycline)",
     "Forme sévère : hospitaliser, oxygène, ceftriaxone IV (± macrolide)",
-    "Paracétamol, hydratation"
+    "Paracétamol, hydratation",
+    "CRB-65 à 0 : traitement ambulatoire ; 1 à 2 : évaluer l'hospitalisation ; 3 à 4 : hospitalisation urgente",
+    "Forme sévère : ceftriaxone 1 à 2 g IV une fois par jour + azithromycine 500 mg/j (ou érythromycine), 5 à 7 jours au total avec relais oral dès l'amélioration",
+    "Pneumonie d'inhalation (alcool, troubles de conscience, vomissements) : amoxicilline-acide clavulanique",
+    "Réévaluer à 48-72 h ; en cas d'échec, penser tuberculose, pneumocystose (VIH), empyème"
    ],
    "gravite": [
     "Confusion, FR ≥ 30/min, TA systolique < 90 mmHg, SpO2 < 90 %",
     "Âge > 65 ans, comorbidités",
-    "Absence d'amélioration à 48–72 h"
+    "Absence d'amélioration à 48–72 h",
+    "Épanchement pleural purulent (empyème) : drainage"
    ],
    "prevention": [
     "Vaccination (pneumocoque chez les personnes à risque)",
@@ -34675,17 +34697,20 @@
    ],
    "diagnostic": [
     "Otoscopie",
-    "Rechercher une mastoïdite (gonflement douloureux derrière l'oreille)"
+    "Rechercher une mastoïdite (gonflement douloureux derrière l'oreille)",
+    "Distinguer de l'otite séreuse (tympan terne, sans fièvre ni douleur) : pas d'antibiotique"
    ],
    "traitement": [
     "Antalgique (paracétamol)",
-    "Amoxicilline pendant 5 jours (plus long avant 2 ans)",
+    "Amoxicilline 30 mg/kg 3 fois par jour pendant 5 jours (amoxicilline-acide clavulanique en cas d'échec après 48-72 h)",
     "Otorrhée : assécher le conduit par mèches plusieurs fois par jour",
-    "Otite chronique : nettoyage et assèchement, gouttes antibiotiques selon disponibilité"
+    "Otite chronique : nettoyage et assèchement, gouttes antibiotiques selon disponibilité",
+    "Tympan perforé : pas de gouttes ototoxiques ; gouttes de ciprofloxacine si disponibles"
    ],
    "gravite": [
     "Mastoïdite → antibiotique IV (ceftriaxone) et référence",
-    "Signes méningés"
+    "Signes méningés",
+    "Paralysie faciale, vertiges, céphalées intenses"
    ],
    "prevention": [
     "Allaitement, vaccination (pneumocoque, Hib)"
@@ -34791,17 +34816,23 @@
    "signes": [
     "Selles glaireuses et sanglantes, fréquentes",
     "Fièvre, douleurs abdominales, ténesme",
-    "Déshydratation possible"
+    "Déshydratation possible",
+    "Nourrisson : fièvre élevée, parfois convulsions"
    ],
    "diagnostic": [
     "Diagnostic clinique",
-    "Penser à l'amibiase (adulte, sans fièvre) si échec du traitement"
+    "Penser à l'amibiase (adulte, sans fièvre) si échec du traitement",
+    "Évaluer la déshydratation et l'état nutritionnel",
+    "Coproculture en cas d'épidémie (résistances aux antibiotiques)"
    ],
    "traitement": [
     "Ciprofloxacine 3 jours (enfant 15 mg/kg 2 fois par jour) ; alternative : azithromycine ou ceftriaxone (forme sévère)",
     "Réhydratation (SRO), zinc chez l'enfant",
     "Poursuivre l'alimentation",
-    "Revoir après 48 h"
+    "Revoir après 48 h",
+    "Adulte : ciprofloxacine 500 mg 2 fois par jour pendant 3 jours",
+    "Femme enceinte : azithromycine ou ceftriaxone (éviter la ciprofloxacine)",
+    "Pas d'amélioration après 48 h : changer d'antibiotique (azithromycine, ou ceftriaxone 50 à 100 mg/kg/j pendant 3 jours), puis penser à l'amibiase"
    ],
    "gravite": [
     "Déshydratation sévère, fièvre élevée, convulsions",
@@ -34809,7 +34840,8 @@
     "Absence d'amélioration après 48 h"
    ],
    "prevention": [
-    "Lavage des mains, hygiène de l'eau et des aliments"
+    "Lavage des mains, hygiène de l'eau et des aliments",
+    "Allaitement maternel, latrines, notification en cas d'épidémie"
    ],
    "medicaments": [
     "Ciprofloxacine",
@@ -34828,16 +34860,21 @@
    "resume": "Infection par Entamoeba histolytica, responsable de dysenterie et parfois d'abcès du foie.",
    "signes": [
     "Dysenterie peu ou pas fébrile, douleurs abdominales",
+    "Selles glairo-sanglantes, ténesme, état général souvent conservé",
+    "Abcès : altération de l'état général, épanchement pleural droit possible",
     "Abcès amibien du foie : fièvre, douleur de l'hypocondre droit, hépatomégalie douloureuse"
    ],
    "diagnostic": [
     "Examen des selles (formes hématophages)",
-    "Échographie si abcès suspecté"
+    "Échographie si abcès suspecté",
+    "NFS (hyperleucocytose en cas d'abcès)",
+    "Sérologie amibienne si disponible"
    ],
    "traitement": [
-    "Métronidazole 5 jours (dysenterie) ou 7 à 10 jours (abcès du foie)",
+    "Métronidazole : adulte 500 mg 3 fois par jour, enfant 10 à 15 mg/kg 3 fois par jour ; 5 jours (colite), 7 à 10 jours (abcès du foie)",
+    "Ensuite, si disponible : amœbicide de contact (diloxanide furoate 500 mg 3 fois par jour pendant 10 jours) pour éliminer les kystes",
     "Réhydratation",
-    "Drainage d'un abcès volumineux selon avis"
+    "Ponction-drainage écho-guidée si abcès volumineux (> 5 à 10 cm), du lobe gauche ou sans amélioration après 72 h"
    ],
    "gravite": [
     "Abcès du foie menaçant de se rompre",
@@ -34869,7 +34906,7 @@
     "Proposer un test VIH et un test de syphilis"
    ],
    "traitement": [
-    "Traiter gonocoque ET chlamydia : ceftriaxone IM en dose unique (ou céfixime selon le protocole national) + azithromycine 1 g en dose unique (ou doxycycline 7 jours)",
+    "Traiter gonocoque ET chlamydia : ceftriaxone 1 g IM en dose unique (OMS 2024 ; céfixime 800 mg oral si injection impossible) + doxycycline 100 mg 2 fois par jour pendant 7 jours (ou azithromycine 1 g en dose unique, notamment chez la femme enceinte)",
     "Traiter le(s) partenaire(s)",
     "Abstinence ou préservatif pendant 7 jours",
     "Revoir après 7 jours si persistance"
@@ -35030,6 +35067,8 @@
    ],
    "traitement": [
     "Benzoate de benzyle ou perméthrine 5 % sur tout le corps ; traiter tout l'entourage le même jour",
+    "Perméthrine 5 % : appliquer du cou aux pieds (et cuir chevelu chez le nourrisson), laisser 8 à 12 h, répéter après 7 jours",
+    "Ivermectine 200 µg/kg en dose unique, à répéter après 7 jours",
     "Ivermectine orale (gale profuse, collectivités, échec) chez l'enfant ≥ 15 kg",
     "Laver le linge et la literie",
     "Traiter d'abord une surinfection (cloxacilline ou céfalexine)",
@@ -35608,14 +35647,17 @@
     "Nouveau-né : léthargie, refus de téter, trémulations"
    ],
    "diagnostic": [
-    "Glycémie capillaire"
+    "Glycémie capillaire",
+    "Seuils : < 3 mmol/l (0,54 g/l) chez l'enfant malade et au cours du paludisme grave ; < 2,5 mmol/l (0,45 g/l) chez le nouveau-né ; < 3,9 mmol/l (0,7 g/l) chez le diabétique traité"
    ],
    "traitement": [
     "Patient conscient : sucre ou boisson sucrée, puis repas",
     "Patient inconscient : enfant : glucose 10 % 2 à 5 ml/kg IV ; adulte : glucose 50 % 50 ml IV (ou G10 % 250 ml)",
     "Puis perfusion de glucose 10 % et contrôle à 15–30 min",
     "Rechercher la cause (sulfamide hypoglycémiant : surveillance prolongée, paludisme grave, sepsis)",
-    "Alcoolique ou dénutri : thiamine avant le glucose"
+    "Alcoolique ou dénutri : thiamine avant le glucose",
+    "Pas d'accès veineux : glucose 10 % ou eau sucrée par sonde nasogastrique ; chez l'enfant, sucre humidifié sous la langue en attendant",
+    "Diabétique sous insuline : glucagon 0,5 mg (enfant < 25 kg) ou 1 mg IM si disponible"
    ],
    "gravite": [
     "Hypoglycémie récidivante",
@@ -35961,21 +36003,26 @@
    "diagnostic": [
     "ECG le plus tôt possible",
     "Troponine si disponible",
-    "Rechercher : embolie pulmonaire (dyspnée, tachycardie, phlébite), pneumonie, péricardite"
+    "Rechercher : embolie pulmonaire (dyspnée, tachycardie, phlébite), pneumonie, péricardite",
+    "ECG : sus-décalage du segment ST ≥ 1 mm dans 2 dérivations contiguës = infarctus à reperfuser",
+    "Score HEART (onglet Outils) pour une douleur thoracique non expliquée"
    ],
    "traitement": [
     "Repos, oxygène si SpO2 < 90 %",
     "Aspirine 160 à 300 mg à croquer (sauf allergie)",
     "Dinitrate d'isosorbide sublingual si TA systolique > 90 mmHg",
     "Morphine si douleur intense",
-    "Si SCA confirmé : clopidogrel, héparine (énoxaparine), bêtabloquant, statine ; transfert vers un centre spécialisé"
+    "Si SCA confirmé : clopidogrel, héparine (énoxaparine), bêtabloquant, statine ; transfert vers un centre spécialisé",
+    "Infarctus avec sus-décalage ST de moins de 12 h sans angioplastie accessible : thrombolyse (streptokinase ou altéplase) en l'absence de contre-indication",
+    "Énoxaparine 1 mg/kg SC toutes les 12 h (adapter à la fonction rénale)"
    ],
    "gravite": [
     "Choc, troubles du rythme, OAP",
     "Douleur persistante malgré les nitrés"
    ],
    "prevention": [
-    "Contrôle de la TA, du diabète, du cholestérol, arrêt du tabac"
+    "Contrôle de la TA, du diabète, du cholestérol, arrêt du tabac",
+    "Après un SCA : aspirine au long cours, statine, bêtabloquant et IEC selon la fonction cardiaque"
    ],
    "medicaments": [
     "Acide acétylsalicylique (aspirine)",
@@ -36868,19 +36915,23 @@
    "diagnostic": [
     "Définition de cas (fièvre + ictère) ; prélèvement sanguin pour confirmation",
     "Notifier",
-    "Éliminer paludisme, hépatites, leptospirose"
+    "Éliminer paludisme, hépatites, leptospirose",
+    "Confirmation par sérologie (IgM) ou PCR au laboratoire national de référence (INRB)"
    ],
    "traitement": [
     "Pas de traitement antiviral : soins de support (réhydratation, paracétamol ; pas d'aspirine ni d'AINS)",
     "Traiter le paludisme associé",
-    "Moustiquaire pour éviter la transmission"
+    "Moustiquaire pour éviter la transmission",
+    "Hospitaliser les formes avec ictère ou saignement : corriger l'hypoglycémie, vitamine K, plasma si troubles de la coagulation",
+    "Isoler sous moustiquaire pendant les 5 premiers jours de fièvre"
    ],
    "gravite": [
     "Ictère, saignements, troubles de conscience, oligurie"
    ],
    "prevention": [
     "Vaccination (PEV à 9 mois, campagnes de riposte) ; une dose protège à vie",
-    "Lutte contre les Aedes"
+    "Lutte contre les Aedes",
+    "Vaccin contre-indiqué avant 6 mois ; prudence après 60 ans et en cas d'immunodépression sévère"
    ],
    "medicaments": [
     "Paracétamol",
@@ -37341,19 +37392,22 @@
     "Toux pouvant durer plusieurs semaines"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; contexte épidémique, non vacciné"
+    "Diagnostic clinique ; contexte épidémique, non vacciné",
+    "Hyperlymphocytose à la NFS ; PCR sur aspiration nasopharyngée si disponible"
    ],
    "traitement": [
     "Azithromycine 5 jours (10 mg/kg le 1er jour puis 5 mg/kg/j ; 10 mg/kg/j chez le nourrisson < 6 mois) ou érythromycine 14 jours",
     "Hospitaliser le nourrisson < 6 mois : surveillance des apnées, oxygène, alimentation fractionnée",
-    "Prophylaxie des contacts proches (nourrissons, femmes enceintes)"
+    "Prophylaxie des contacts proches (nourrissons, femmes enceintes)",
+    "Isolement respiratoire pendant les 5 premiers jours d'antibiotique"
    ],
    "gravite": [
     "Apnées, cyanose, convulsions",
     "Pneumonie, déshydratation, malnutrition"
    ],
    "prevention": [
-    "Vaccination (PEV : pentavalent) ; vaccination de la femme enceinte si disponible"
+    "Vaccination (PEV : pentavalent) ; vaccination de la femme enceinte si disponible",
+    "Vaccination du nourrisson à 6, 10 et 14 semaines (pentavalent) et rattrapage des enfants non vaccinés"
    ],
    "medicaments": [
     "Azithromycine",
@@ -37463,23 +37517,33 @@
     "Retard de règles, petits saignements",
     "Douleur pelvienne unilatérale",
     "Rupture : douleur brutale, malaise, pâleur, douleur de l'épaule, choc",
-    "Défense abdominale, douleur au toucher vaginal (cul-de-sac)"
+    "Défense abdominale, douleur au toucher vaginal (cul-de-sac)",
+    "Douleur à la mobilisation du col",
+    "Distension abdominale et matité des flancs (hémopéritoine)"
    ],
    "diagnostic": [
     "Test de grossesse positif + utérus vide à l'échographie",
-    "Ponction du cul-de-sac de Douglas (sang incoagulable) si échographie indisponible"
+    "Ponction du cul-de-sac de Douglas (sang incoagulable) si échographie indisponible",
+    "Y penser devant toute femme en âge de procréer avec douleur abdominale, saignement ou malaise",
+    "β-hCG quantitatif si disponible : β-hCG > 1 500 à 2 000 UI/l avec utérus vide à l'échographie = forte suspicion",
+    "Échographie : masse latéro-utérine, épanchement dans le cul-de-sac de Douglas"
    ],
    "traitement": [
     "GEU rompue : réanimation (2 voies veineuses, remplissage, transfusion), laparotomie en urgence",
     "GEU non rompue : chirurgie ou méthotrexate en milieu spécialisé",
-    "Anti-D si Rh négatif"
+    "Anti-D si Rh négatif",
+    "Méthotrexate 50 mg/m² IM en dose unique seulement si GEU non rompue, patiente stable, β-hCG < 5 000 UI/l et suivi des β-hCG possible",
+    "En l'absence de sang disponible : autotransfusion du sang de l'hémopéritoine (recueilli et filtré) selon le protocole de la structure"
    ],
    "gravite": [
     "Choc hémorragique",
-    "Douleur intense, malaise"
+    "Douleur intense, malaise",
+    "Tachycardie, hypotension, pâleur, douleur de l'épaule (hémorragie interne)"
    ],
    "prevention": [
-    "Traitement des infections génitales hautes (IST)"
+    "Traitement des infections génitales hautes (IST)",
+    "Consultation précoce en début de grossesse après un antécédent de GEU ou d'infection génitale haute",
+    "Contraception"
    ],
    "medicaments": [
     "Ringer lactate",
@@ -37505,10 +37569,11 @@
     "Choc dans les formes graves"
    ],
    "diagnostic": [
-    "Examen clinique ; rechercher une rétention placentaire, une mastite, une infection urinaire, de la plaie (césarienne), un paludisme"
+    "Examen clinique ; rechercher une rétention placentaire, une mastite, une infection urinaire, de la plaie (césarienne), un paludisme",
+    "Rechercher un sepsis (qSOFA, onglet Outils) ; hémoculture avant l'antibiotique si possible"
    ],
    "traitement": [
-    "Ampicilline + gentamicine + métronidazole IV jusqu'à 48 h sans fièvre (ou amoxicilline-acide clavulanique)",
+    "Ampicilline 2 g IV toutes les 6 h + gentamicine 5 mg/kg IV une fois par jour + métronidazole 500 mg IV toutes les 8 h, jusqu'à 48 h sans fièvre (ou amoxicilline-acide clavulanique)",
     "Évacuer une rétention (AMIU)",
     "Remplissage si choc ; ocytocine si utérus mou",
     "Poursuivre l'allaitement"
@@ -37516,10 +37581,13 @@
    "gravite": [
     "Sepsis, choc",
     "Abcès pelvien, péritonite",
-    "Absence d'amélioration après 48 h"
+    "Absence d'amélioration après 48 h",
+    "Défense abdominale (péritonite)",
+    "Contractures (tétanos post-abortum chez la femme non vaccinée)"
    ],
    "prevention": [
-    "Asepsie de l'accouchement, limiter les touchers vaginaux, antibioprophylaxie de la césarienne, gestion des ruptures prolongées des membranes"
+    "Asepsie de l'accouchement, limiter les touchers vaginaux, antibioprophylaxie de la césarienne, gestion des ruptures prolongées des membranes",
+    "Vaccination antitétanique de la femme enceinte"
    ],
    "medicaments": [
     "Ampicilline",
@@ -37537,31 +37605,46 @@
    "nom": "Menace d'accouchement prématuré et rupture prématurée des membranes",
    "categorie": "grossesse",
    "synonymes": "MAP, contractions avant terme, rupture de la poche des eaux, RPM, perte de liquide",
-   "resume": "Contractions utérines efficaces ou rupture des membranes avant 37 semaines.",
+   "resume": "Contractions utérines régulières avec modification du col avant 37 SA (MAP), ou rupture des membranes avant le début du travail (RPM). Objectifs : retarder l'accouchement d'au moins 48 h pour les corticoïdes et le transfert, prévenir et traiter l'infection, préparer l'accueil du prématuré.",
    "signes": [
     "Contractions régulières douloureuses avant 37 SA, modification du col",
     "Écoulement de liquide clair par le vagin (rupture des membranes)",
-    "Fièvre, liquide malodorant (chorioamniotite)"
+    "Fièvre, liquide malodorant (chorioamniotite)",
+    "Pesanteur pelvienne, douleurs lombaires, pertes muqueuses ou sanglantes",
+    "Col raccourci, ramolli ou ouvert (un seul toucher vaginal, aucun en cas de rupture)"
    ],
    "diagnostic": [
     "Confirmer l'âge gestationnel",
     "Examen au spéculum (liquide) ; éviter les touchers vaginaux répétés si rupture",
-    "Rechercher infection urinaire, paludisme"
+    "Rechercher infection urinaire, paludisme",
+    "Évaluer la gravité : fréquence des contractions, état du col, saignement, membranes (indice de Baumgarten dans l'onglet Outils)",
+    "Rupture des membranes : liquide visible au spéculum (faire tousser la patiente), test à la nitrazine si disponible ; pas de toucher vaginal",
+    "Rechercher la cause : infection urinaire (bandelette), paludisme (TDR), vaginose, grossesse multiple, hydramnios, placenta praevia, hématome rétroplacentaire",
+    "Température et pouls maternels, bruits du cœur fœtal, présentation"
    ],
    "traitement": [
-    "Corticoïdes anténatals (dexaméthasone 6 mg IM toutes les 12 h, 4 doses) entre 24 et 34 SA si accouchement probable dans les 7 jours et soins néonatals adaptés",
-    "Tocolyse par nifédipine 48 h pour permettre les corticoïdes ou le transfert",
-    "Rupture des membranes : érythromycine 250 mg 4 fois par jour pendant 10 jours (ou jusqu'à l'accouchement)",
-    "Sulfate de magnésium pour la neuroprotection fœtale avant 32 SA",
-    "Chorioamniotite : antibiotiques IV et accouchement"
+    "Repos en milieu de soins ; traiter la cause (infection urinaire, paludisme)",
+    "Tocolyse si 24 à moins de 34 SA, membranes intactes, col < 5 cm, sans infection ni souffrance fœtale : nifédipine orale à libération immédiate 10 mg, à répéter toutes les 15 min tant que les contractions persistent (maximum 4 doses, soit 40 mg la première heure), puis 20 mg toutes les 6 h pendant 48 h. Jamais en sublingual",
+    "Pendant la tocolyse : PA et pouls maternels avant chaque prise, bruits du cœur fœtal ; arrêter si PAS < 90 mmHg, douleur thoracique ou souffrance fœtale",
+    "Contre-indications à la tocolyse : âge gestationnel ≥ 34 SA, travail avancé (col ≥ 5 cm), chorioamniotite, hémorragie, pré-éclampsie sévère, souffrance ou mort fœtale, malformation létale",
+    "Corticoïdes anténatals entre 24 et 34 SA (OMS 2022) si l'accouchement est probable dans les 7 jours et que le nouveau-né peut recevoir des soins adaptés : dexaméthasone 6 mg IM toutes les 12 h, 4 doses (une seule cure). Infection maternelle sévère : débuter d'abord les antibiotiques",
+    "Neuroprotection fœtale si l'accouchement est imminent avant 32 SA : sulfate de magnésium 4 g IV en 20 à 30 min, puis 1 g/h jusqu'à l'accouchement (maximum 24 h) ; arrêter alors la nifédipine (risque d'hypotension)",
+    "Rupture prématurée des membranes : érythromycine 250 mg 4 fois par jour pendant 10 jours ou jusqu'à l'accouchement ; éviter l'amoxicilline-acide clavulanique (entérocolite du nouveau-né) ; pas de tocolyse prolongée",
+    "Chorioamniotite (fièvre, liquide fétide, tachycardie fœtale, utérus douloureux) : ampicilline 2 g IV toutes les 6 h + gentamicine 5 mg/kg IV une fois par jour, pas de tocolyse, accouchement",
+    "Échec ou travail avancé : accoucher dans une structure capable de réanimer le nouveau-né (pas de ventouse avant 34 SA) ; chaleur, méthode kangourou, allaitement précoce"
    ],
    "gravite": [
     "Fièvre, liquide malodorant",
     "Saignements",
-    "Accouchement imminent → préparer la réanimation néonatale"
+    "Accouchement imminent → préparer la réanimation néonatale",
+    "Tachycardie fœtale, liquide fétide (chorioamniotite)",
+    "Procidence du cordon"
    ],
    "prevention": [
-    "CPN de qualité, traitement des infections urinaires et du paludisme"
+    "CPN de qualité, traitement des infections urinaires et du paludisme",
+    "Dépister et traiter la bactériurie asymptomatique",
+    "Femmes à risque (antécédent d'accouchement prématuré, grossesse multiple, hydramnios) : CPN rapprochées, repos",
+    "Espacement des naissances (planification familiale)"
    ],
    "medicaments": [
     "Dexaméthasone",
@@ -37673,7 +37756,8 @@
     "Forme chronique : antalgiques, kinésithérapie, avis spécialisé"
    ],
    "gravite": [
-    "Nouveau-né (transmission à l'accouchement), sujet âgé, formes neurologiques"
+    "Nouveau-né (transmission à l'accouchement), sujet âgé, formes neurologiques",
+    "Accouchement pendant la phase fébrile : surveiller le nouveau-né pendant 7 jours (transmission périnatale)"
    ],
    "prevention": [
     "Lutte contre les moustiques Aedes"
@@ -38265,7 +38349,9 @@
     "Furosémide en cas d'œdèmes ou de surcharge",
     "Antihypertenseur (amlodipine ou nifédipine) si HTA",
     "Pénicilline (ou amoxicilline) pour éradiquer le streptocoque",
-    "Évolution habituellement favorable en quelques semaines"
+    "Évolution habituellement favorable en quelques semaines",
+    "Surveillance quotidienne du poids, de la diurèse et de la TA",
+    "Corticoïdes non indiqués"
    ],
    "gravite": [
     "Encéphalopathie hypertensive (céphalées, convulsions, troubles visuels)",
