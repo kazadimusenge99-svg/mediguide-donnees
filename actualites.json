@@ -1,1 +1,129 @@
-{"dateActualites":"27 octobre 2026","dateIsoActualites":"2026-10-27","actualites":[{"etiquette":"ALERTE · URGENCE INTERNATIONALE","titre":"Ebola Bundibugyo","lieu":"RDC (8 provinces) · cas importés au Kenya et au Nigeria","chiffre":"10 060 cas confirmés · 4 887 décès","texte":"17e épidémie d'Ebola en RDC, épicentre en Ituri et au Nord-Kivu. Aucun vaccin ni traitement spécifique homologué contre le virus Bundibugyo.","details":["Déclarée le 15 mai 2026 ; urgence de santé publique de portée internationale (OMS) depuis le 17 mai","Létalité d'environ 49 % ; Ituri 7 211 cas, Nord-Kivu 2 309 cas, nouveaux cas aussi dans la Tshopo (bilan du 25 octobre)","Le vaccin Ervebo et les anticorps ansuvimab et REGN-EB3 visent le virus Zaïre : pas d'efficacité démontrée contre Bundibugyo ; essai vaccinal TUMAINI lancé à Bunia le 23 octobre","Toute fièvre avec contact, voyage en zone touchée ou saignement : isoler, se protéger (EPI), alerter, prélever pour PCR","Suivi des contacts encore insuffisant (environ 80 %, objectif 95 %) ; enterrements dignes et sécurisés indispensables"],"couleur":"#B71C1C","icone":"🦠","pathologie":63,"source":"OMS, Disease Outbreak News du 23/10/2026 ; ministère de la Santé de la RDC (bilan du 25/10/2026)","pictogramme":"virus"},{"etiquette":"ÉPIDÉMIE EN HAUSSE","titre":"Choléra en RDC","lieu":"21 provinces · Sud-Kivu, Nord-Kivu et Haut-Katanga en tête","chiffre":"51 400 cas suspects · 1 487 décès en 2026","texte":"Hausse de 17 % en une semaine fin septembre ; le Sud-Kivu, le Nord-Kivu et le Haut-Katanga concentrent près de 60 % des cas.","details":["Semaine du 21 au 28 septembre : 2 932 cas suspects et 86 décès (létalité 2,9 %)","Plus de 125 000 cas suspects depuis janvier 2025","Réhydratation précoce (SRO, Ringer lactate), azithromycine ou doxycycline dans les formes sévères, chloration de l'eau (solutions chlorées 0,05 % et 0,5 %)","Vaccination orale anticholérique en préparation dans les zones touchées"],"couleur":"#0277BD","icone":"💧","pathologie":19,"source":"OMS, via ONU Info du 14/10/2026 ; MSF (Kwango, juillet 2026)","pictogramme":"goutte"},{"etiquette":"SURVEILLANCE","titre":"Mpox en Afrique","lieu":"11 pays avec transmission active · Madagascar, Angola, Kenya, RDC","chiffre":"1 153 cas confirmés en 6 semaines","texte":"Transmission stable (environ 200 cas par semaine en Afrique). Madagascar connaît la plus grande épidémie du monde depuis décembre 2025.","details":["Période du 6 juillet au 16 août 2026 : Madagascar 785 cas, Angola 184, Kenya 94, RDC 41","Depuis janvier 2025 : 52 424 cas confirmés et 238 décès dans 35 pays africains","L'OMS a prolongé ses recommandations permanentes jusqu'en août 2027","Isolement des cas, soins des lésions, recherche du VIH, vaccination MVA-BN des contacts selon le programme"],"couleur":"#6A1B9A","icone":"🔴","pathologie":64,"source":"OMS, rapport publié le 14/09/2026","pictogramme":"virus"},{"etiquette":"SITUATION HUMANITAIRE","titre":"Malnutrition infantile","lieu":"RDC · Nord-Kivu","chiffre":"26 millions de personnes en insécurité alimentaire","texte":"Plus de 33 000 enfants malnutris pris en charge de janvier à août 2026 dans cinq structures soutenues par MSF au Nord-Kivu.","details":["Près de 4 millions de personnes en crise alimentaire au Nord-Kivu","Dépister chaque enfant (PB, œdèmes) : PB < 115 mm ou œdèmes bilatéraux = malnutrition aiguë sévère","Les enfants malnutris sont plus exposés à la rougeole, au choléra et au paludisme grave : vérifier la vaccination"],"couleur":"#E65100","icone":"🥣","pathologie":30,"source":"MSF, communiqué du 26/10/2026","pictogramme":"pomme"},{"etiquette":"PREMIÈRE CAUSE DE CONSULTATION","titre":"Paludisme","lieu":"RDC · tout le pays","chiffre":"Plus de 280 000 cas traités par MSF au Nord-Kivu en 2025","texte":"Le paludisme reste la première cause de morbidité en RDC : tester toute fièvre (TDR) et traiter sans délai.","details":["En 2025, au Nord-Kivu : plus de 255 000 cas simples et plus de 26 000 cas graves traités par MSF","Paludisme grave : artésunate IV ou IM, puis CTA de 3 jours","Une fièvre en zone Ebola doit aussi faire penser à Ebola (TDR paludisme ET précautions)"],"couleur":"#2E7D32","icone":"🦟","pathologie":2,"source":"MSF, communiqué du 26/10/2026","pictogramme":"moustique"},{"etiquette":"DANS LE MONDE","titre":"Rougeole","lieu":"Bangladesh, Mexique, États-Unis, Europe","chiffre":"22 116 cas confirmés et 1 040 décès au Bangladesh","texte":"Résurgence mondiale de la rougeole liée à la baisse de la couverture vaccinale.","details":["Mexique : 13 645 cas confirmés en 2026 ; États-Unis : 3 887 ; Canada : 1 121","En RDC, les enfants malnutris sont particulièrement vulnérables","Vitamine A à tout enfant atteint, vaccination RR à 9 et 15 mois, riposte vaccinale autour des cas"],"couleur":"#C62828","icone":"🌡️","pathologie":12,"source":"ECDC, rapport de la semaine 41 (3 au 9 octobre 2026)","pictogramme":"thermometre"},{"etiquette":"DANS LE MONDE","titre":"Dengue et chikungunya","lieu":"Transmission locale jusqu'en Europe","chiffre":"146 cas autochtones de chikungunya en France","texte":"Les arboviroses transmises par le moustique tigre s'étendent : 68 cas autochtones de dengue en Italie, 1 855 cas de virus du Nil occidental en Europe.","details":["Penser à la dengue devant une fièvre avec douleurs, éruption ou saignements, même au retour de voyage","Dengue : pas d'AINS ni d'aspirine, surveiller les signes d'alerte","Lutte contre les gîtes larvaires (eau stagnante)"],"couleur":"#00838F","icone":"🦟","pathologie":89,"source":"ECDC, rapport de la semaine 41 (situation au 7 octobre 2026)","pictogramme":"moustique"}]}
+{
+ "dateActualites": "27 octobre 2026",
+ "dateIsoActualites": "2026-10-27",
+ "actualites": [
+  {
+   "etiquette": "ALERTE · URGENCE INTERNATIONALE",
+   "titre": "Ebola Bundibugyo",
+   "lieu": "RDC (8 provinces) · cas importés au Kenya et au Nigeria",
+   "chiffre": "10 060 cas confirmés · 4 887 décès",
+   "texte": "17e épidémie d'Ebola en RDC, épicentre en Ituri et au Nord-Kivu. Aucun vaccin ni traitement spécifique homologué contre le virus Bundibugyo.",
+   "details": [
+    "Déclarée le 15 mai 2026 ; urgence de santé publique de portée internationale (OMS) depuis le 17 mai",
+    "Létalité d'environ 49 % ; Ituri 7 211 cas, Nord-Kivu 2 309 cas, nouveaux cas aussi dans la Tshopo (bilan du 25 octobre)",
+    "Le vaccin Ervebo et les anticorps ansuvimab et REGN-EB3 visent le virus Zaïre : pas d'efficacité démontrée contre Bundibugyo ; essai vaccinal TUMAINI lancé à Bunia le 23 octobre",
+    "Toute fièvre avec contact, voyage en zone touchée ou saignement : isoler, se protéger (EPI), alerter, prélever pour PCR",
+    "Suivi des contacts encore insuffisant (environ 80 %, objectif 95 %) ; enterrements dignes et sécurisés indispensables"
+   ],
+   "couleur": "#B71C1C",
+   "icone": "🦠",
+   "pathologie": 63,
+   "source": "OMS, Disease Outbreak News du 23/10/2026 ; ministère de la Santé de la RDC (bilan du 25/10/2026)",
+   "pictogramme": "virus"
+  },
+  {
+   "etiquette": "ÉPIDÉMIE EN HAUSSE",
+   "titre": "Choléra en RDC",
+   "lieu": "21 provinces · Sud-Kivu, Nord-Kivu et Haut-Katanga en tête",
+   "chiffre": "51 400 cas suspects · 1 487 décès en 2026",
+   "texte": "Hausse de 17 % en une semaine fin septembre ; le Sud-Kivu, le Nord-Kivu et le Haut-Katanga concentrent près de 60 % des cas.",
+   "details": [
+    "Semaine du 21 au 28 septembre : 2 932 cas suspects et 86 décès (létalité 2,9 %)",
+    "Plus de 125 000 cas suspects depuis janvier 2025",
+    "Réhydratation précoce (SRO, Ringer lactate), azithromycine ou doxycycline dans les formes sévères, chloration de l'eau (solutions chlorées 0,05 % et 0,5 %)",
+    "Vaccination orale anticholérique en préparation dans les zones touchées"
+   ],
+   "couleur": "#0277BD",
+   "icone": "💧",
+   "pathologie": 19,
+   "source": "OMS, via ONU Info du 14/10/2026 ; MSF (Kwango, juillet 2026)",
+   "pictogramme": "goutte"
+  },
+  {
+   "etiquette": "SURVEILLANCE",
+   "titre": "Mpox en Afrique",
+   "lieu": "11 pays avec transmission active · Madagascar, Angola, Kenya, RDC",
+   "chiffre": "1 153 cas confirmés en 6 semaines",
+   "texte": "Transmission stable (environ 200 cas par semaine en Afrique). Madagascar connaît la plus grande épidémie du monde depuis décembre 2025.",
+   "details": [
+    "Période du 6 juillet au 16 août 2026 : Madagascar 785 cas, Angola 184, Kenya 94, RDC 41",
+    "Depuis janvier 2025 : 52 424 cas confirmés et 238 décès dans 35 pays africains",
+    "L'OMS a prolongé ses recommandations permanentes jusqu'en août 2027",
+    "Isolement des cas, soins des lésions, recherche du VIH, vaccination MVA-BN des contacts selon le programme"
+   ],
+   "couleur": "#6A1B9A",
+   "icone": "🔴",
+   "pathologie": 64,
+   "source": "OMS, rapport publié le 14/09/2026",
+   "pictogramme": "virus"
+  },
+  {
+   "etiquette": "SITUATION HUMANITAIRE",
+   "titre": "Malnutrition infantile",
+   "lieu": "RDC · Nord-Kivu",
+   "chiffre": "26 millions de personnes en insécurité alimentaire",
+   "texte": "Plus de 33 000 enfants malnutris pris en charge de janvier à août 2026 dans cinq structures soutenues par MSF au Nord-Kivu.",
+   "details": [
+    "Près de 4 millions de personnes en crise alimentaire au Nord-Kivu",
+    "Dépister chaque enfant (PB, œdèmes) : PB < 115 mm ou œdèmes bilatéraux = malnutrition aiguë sévère",
+    "Les enfants malnutris sont plus exposés à la rougeole, au choléra et au paludisme grave : vérifier la vaccination"
+   ],
+   "couleur": "#E65100",
+   "icone": "🥣",
+   "pathologie": 30,
+   "source": "MSF, communiqué du 26/10/2026",
+   "pictogramme": "pomme"
+  },
+  {
+   "etiquette": "PREMIÈRE CAUSE DE CONSULTATION",
+   "titre": "Paludisme",
+   "lieu": "RDC · tout le pays",
+   "chiffre": "Plus de 280 000 cas traités par MSF au Nord-Kivu en 2025",
+   "texte": "Le paludisme reste la première cause de morbidité en RDC : tester toute fièvre (TDR) et traiter sans délai.",
+   "details": [
+    "En 2025, au Nord-Kivu : plus de 255 000 cas simples et plus de 26 000 cas graves traités par MSF",
+    "Paludisme grave : artésunate IV ou IM, puis CTA de 3 jours",
+    "Une fièvre en zone Ebola doit aussi faire penser à Ebola (TDR paludisme ET précautions)"
+   ],
+   "couleur": "#2E7D32",
+   "icone": "🦟",
+   "pathologie": 2,
+   "source": "MSF, communiqué du 26/10/2026",
+   "pictogramme": "moustique"
+  },
+  {
+   "etiquette": "DANS LE MONDE",
+   "titre": "Rougeole",
+   "lieu": "Bangladesh, Mexique, États-Unis, Europe",
+   "chiffre": "22 116 cas confirmés et 1 040 décès au Bangladesh",
+   "texte": "Résurgence mondiale de la rougeole liée à la baisse de la couverture vaccinale.",
+   "details": [
+    "Mexique : 13 645 cas confirmés en 2026 ; États-Unis : 3 887 ; Canada : 1 121",
+    "En RDC, les enfants malnutris sont particulièrement vulnérables",
+    "Vitamine A à tout enfant atteint, vaccination RR à 9 et 15 mois, riposte vaccinale autour des cas"
+   ],
+   "couleur": "#C62828",
+   "icone": "🌡️",
+   "pathologie": 12,
+   "source": "ECDC, rapport de la semaine 41 (3 au 9 octobre 2026)",
+   "pictogramme": "thermometre"
+  },
+  {
+   "etiquette": "DANS LE MONDE",
+   "titre": "Dengue et chikungunya",
+   "lieu": "Transmission locale jusqu'en Europe",
+   "chiffre": "146 cas autochtones de chikungunya en France",
+   "texte": "Les arboviroses transmises par le moustique tigre s'étendent : 68 cas autochtones de dengue en Italie, 1 855 cas de virus du Nil occidental en Europe.",
+   "details": [
+    "Penser à la dengue devant une fièvre avec douleurs, éruption ou saignements, même au retour de voyage",
+    "Dengue : pas d'AINS ni d'aspirine, surveiller les signes d'alerte",
+    "Lutte contre les gîtes larvaires (eau stagnante)"
+   ],
+   "couleur": "#00838F",
+   "icone": "🦟",
+   "pathologie": 89,
+   "source": "ECDC, rapport de la semaine 41 (situation au 7 octobre 2026)",
+   "pictogramme": "moustique"
+  }
+ ]
+}
