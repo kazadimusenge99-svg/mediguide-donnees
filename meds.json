@@ -1,5 +1,5 @@
 {
- "version": 22,
+ "version": 23,
  "dateMiseAJour": "2026-10-29",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -33998,7 +33998,11 @@
     "1re dose sous observation ; redonner si vomissement dans les 30 min",
     "Paracétamol contre la fièvre",
     "Femme enceinte au 1er trimestre : artéméther-luméfantrine",
-    "Revoir après 3 jours si la fièvre persiste"
+    "Revoir après 3 jours si la fièvre persiste",
+    "Doses d'artéméther-luméfantrine (20/120 mg), 6 prises en 3 jours (H0, H8, puis matin et soir J2 et J3) : 5 à 14 kg 1 comprimé, 15 à 24 kg 2, 25 à 34 kg 3, 35 kg et plus 4 ; avec un aliment gras ou du lait",
+    "Doses d'artésunate-amodiaquine, 1 prise par jour pendant 3 jours : 4,5 à 8 kg 25/67,5 mg, 9 à 17 kg 50/135 mg, 18 à 35 kg 100/270 mg, 36 kg et plus 2 × 100/270 mg",
+    "TDR négatif : ne pas donner d'antipaludique, rechercher une autre cause de fièvre",
+    "Signes de danger (impossibilité de boire, vomissements répétés, convulsions, léthargie, détresse respiratoire, ictère) : traiter comme un paludisme grave"
    ],
    "gravite": [
     "Impossibilité de boire ou de téter, vomissements répétés",
@@ -34052,7 +34056,11 @@
     "Convulsions : diazépam ou midazolam",
     "Paracétamol, prise en charge du coma (position latérale, aspiration)",
     "Relais par une CTA complète de 3 jours dès que la voie orale est possible",
-    "Surveiller l'Hb jusqu'à J30 (hémolyse retardée)"
+    "Surveiller l'Hb jusqu'à J30 (hémolyse retardée)",
+    "Artésunate : reconstituer avec la solution de bicarbonate fournie, puis diluer ; IM dans la face antérieure de la cuisse si pas de voie veineuse",
+    "Quinine si l'artésunate est indisponible : dose de charge 20 mg/kg en 4 h (sauf quinine ou méfloquine dans les 24 h), puis 10 mg/kg toutes les 8 h, en perfusion dans du glucosé 5 % ou 10 % (risque d'hypoglycémie)",
+    "Surveillance : conscience (Glasgow ou Blantyre), glycémie toutes les 4 h, diurèse, fréquence respiratoire, hémoglobine ; éviter la surcharge hydrique",
+    "Rechercher et traiter une infection bactérienne associée (ceftriaxone chez l'enfant en choc ou comateux selon le protocole)"
    ],
    "gravite": [
     "Coma, convulsions persistantes",
@@ -34098,7 +34106,11 @@
     "Forme non compliquée : ciprofloxacine 7 jours, ou azithromycine 7 jours, ou céfixime 7 à 14 jours (selon les résistances locales)",
     "Forme sévère : ceftriaxone IV 10 à 14 jours",
     "Femme enceinte : ceftriaxone ou azithromycine",
-    "Paracétamol, hydratation, alimentation"
+    "Paracétamol, hydratation, alimentation",
+    "Doses : ciprofloxacine 500 mg 2 fois par jour (enfant 15 mg/kg 2 fois par jour) ; azithromycine 1 g par jour (enfant 20 mg/kg par jour) ; ceftriaxone 2 g par jour (enfant 75 mg/kg par jour)",
+    "Forme sévère avec troubles de conscience ou choc : dexaméthasone 3 mg/kg IV puis 1 mg/kg toutes les 6 h pendant 48 h",
+    "Perforation intestinale (douleur brutale, défense, choc, souvent en 2e ou 3e semaine) : chirurgie en urgence, ceftriaxone + métronidazole",
+    "Revoir à 72 h : si la fièvre persiste, penser à une résistance, à une complication ou à un autre diagnostic"
    ],
    "gravite": [
     "Douleur abdominale intense, défense (perforation intestinale) → chirurgie",
@@ -34139,7 +34151,10 @@
     "Ceftriaxone IV : 100 mg/kg/jour chez l'enfant (max 4 g), 4 g/jour chez l'adulte, pendant 5 à 7 jours (méningocoque) ou 10 à 14 jours (pneumocoque)",
     "Nouveau-né : ampicilline + gentamicine (ou ceftriaxone selon le protocole) pendant 21 jours",
     "En épidémie de méningocoque : ceftriaxone en dose unique ou 5 jours selon le protocole",
-    "Traiter les convulsions, la fièvre ; assurer l'hydratation (restriction aux 2/3 si signes d'œdème cérébral)"
+    "Traiter les convulsions, la fièvre ; assurer l'hydratation (restriction aux 2/3 si signes d'œdème cérébral)",
+    "Ne jamais retarder l'antibiotique pour la ponction lombaire ; pas de ponction en cas de coma profond, signes de localisation, purpura étendu ou choc",
+    "Surveillance : conscience, convulsions, hydratation, natrémie si possible ; contrôler l'audition à la sortie (surdité fréquente)",
+    "Chimioprophylaxie des contacts proches d'un méningocoque : ciprofloxacine 500 mg en dose unique chez l'adulte, ou ceftriaxone en dose unique ; notification immédiate"
    ],
    "gravite": [
     "Coma, convulsions répétées",
@@ -34185,7 +34200,11 @@
     "Prise supervisée, pesée mensuelle et adaptation des doses",
     "Pyridoxine si VIH, grossesse, dénutrition",
     "VIH : ARV dans les 2 semaines (sauf méningite tuberculeuse) et cotrimoxazole",
-    "Contrôle des crachats à 2, 5 et 6 mois"
+    "Contrôle des crachats à 2, 5 et 6 mois",
+    "Doses adultes en comprimés combinés RHZE (75/150/400/275 mg) en phase intensive : 30 à 39 kg 2 comprimés, 40 à 54 kg 3, 55 à 70 kg 4, plus de 70 kg 5 ; même nombre de comprimés RH en phase de continuation",
+    "Effets indésirables : ictère ou vomissements (arrêter et référer, hépatite), troubles de la vision (éthambutol), fourmillements (pyridoxine), urines orange (normal, rifampicine)",
+    "Enquête autour du cas : dépister tous les contacts ; traitement préventif pour les enfants de moins de 5 ans et les personnes vivant avec le VIH sans tuberculose active",
+    "Absence de prise : relance rapide à domicile ; crachats positifs à 2 mois : rechercher une résistance (GeneXpert)"
    ],
    "gravite": [
     "Hémoptysie abondante, détresse respiratoire",
@@ -34233,7 +34252,10 @@
     "Cotrimoxazole en prophylaxie selon le protocole",
     "Traitement préventif de la tuberculose (isoniazide) si pas de tuberculose active",
     "Charge virale à 6 mois puis chaque année ; soutien à l'observance",
-    "PTME : ARV pour la mère, névirapine (± AZT) pour le nouveau-né"
+    "PTME : ARV pour la mère, névirapine (± AZT) pour le nouveau-né",
+    "Bilan initial : CD4 (maladie avancée si < 200/mm³), antigène cryptococcique sérique et TB-LAM urinaire si CD4 < 200 ou malade, AgHBs, créatinine, test de grossesse",
+    "Charge virale ≥ 1 000 copies/ml : renforcer l'observance pendant 3 mois puis contrôler ; si toujours ≥ 1 000 sous dolutégravir : avis pour un changement de ligne",
+    "Dépistage du cancer du col chez la femme (IVA) et dépistage de la tuberculose à chaque visite"
    ],
    "gravite": [
     "Signes de tuberculose, de méningite (céphalées, raideur, confusion), dyspnée",
@@ -34286,7 +34308,10 @@
     "Parage de la plaie",
     "Contrôle des spasmes : diazépam (doses répétées), voire phénobarbital",
     "Sonde nasogastrique pour l'alimentation et l'hydratation",
-    "Vaccination antitétanique (la maladie n'immunise pas)"
+    "Vaccination antitétanique (la maladie n'immunise pas)",
+    "Doses : métronidazole 500 mg IV toutes les 8 h (enfant 10 mg/kg toutes les 8 h) ; diazépam 0,1 à 0,2 mg/kg IV toutes les 1 à 4 h selon les spasmes",
+    "Formes graves (spasmes laryngés, instabilité tensionnelle) : sulfate de magnésium possible, en soins intensifs si disponibles",
+    "Nouveau-né : alimentation au lait maternel tiré par sonde, maintien au chaud ; vacciner la mère"
    ],
    "gravite": [
     "Spasmes laryngés, apnées",
@@ -34330,7 +34355,11 @@
     "Catégorie III : vaccination + immunoglobuline antirabique infiltrée dans la plaie",
     "Ne pas suturer d'emblée",
     "Prévention du tétanos",
-    "Antibiotique (amoxicilline-acide clavulanique) si plaie profonde, de la main ou infectée"
+    "Antibiotique (amoxicilline-acide clavulanique) si plaie profonde, de la main ou infectée",
+    "Catégorie I (léchage sur peau saine) : pas de traitement",
+    "Vaccin (OMS 2018) : voie intradermique, 2 points à J0, J3 et J7 ; ou voie intramusculaire à J0, J3, J7 et entre J14 et J28",
+    "Immunoglobuline antirabique : humaine 20 UI/kg ou équine 40 UI/kg, infiltrée au maximum dans et autour de toutes les plaies",
+    "Si l'animal (chien, chat) reste en bonne santé après 10 jours d'observation, la vaccination peut être arrêtée"
    ],
    "gravite": [
     "Signes de rage déclarée → soins palliatifs, isolement",
@@ -34484,7 +34513,10 @@
     "Paracétamol, hydratation, alimentation, allaitement",
     "Désinfection oculaire, tétracycline pommade si conjonctivite purulente",
     "Traiter les complications : amoxicilline (pneumonie), SRO (diarrhée), nystatine (muguet)",
-    "Isolement"
+    "Isolement",
+    "Doses de vitamine A : moins de 6 mois 50 000 UI, 6 à 11 mois 100 000 UI, 12 mois et plus 200 000 UI",
+    "Hospitaliser si : pneumonie, déshydratation, stomatite empêchant de boire, troubles de conscience, malnutrition, nourrisson de moins de 6 mois",
+    "Vacciner les contacts non vaccinés (de 6 mois à 15 ans) dans les 72 h ; notifier"
    ],
    "gravite": [
     "Pneumonie sévère, détresse respiratoire",
@@ -34525,10 +34557,13 @@
     "Éliminer un paludisme (TDR), rechercher une malnutrition"
    ],
    "traitement": [
-    "Pneumonie (respiration rapide et/ou tirage) : amoxicilline orale 40 mg/kg 2 fois par jour pendant 3 à 5 jours",
+    "Pneumonie (respiration rapide et/ou tirage, sans signe de danger) : amoxicilline orale 40 mg/kg 2 fois par jour pendant 5 jours (3 jours si seulement respiration rapide, en zone de faible prévalence du VIH)",
     "Pneumonie sévère : hospitaliser, oxygène, ampicilline (ou benzylpénicilline) + gentamicine IV, ou ceftriaxone",
     "Sifflements : salbutamol",
-    "Paracétamol, poursuite de l'allaitement et de l'alimentation"
+    "Paracétamol, poursuite de l'allaitement et de l'alimentation",
+    "Doses IV : ampicilline 50 mg/kg toutes les 6 h + gentamicine 7,5 mg/kg une fois par jour pendant au moins 5 jours ; relais oral par amoxicilline dès l'amélioration",
+    "Traitement ambulatoire : revoir l'enfant après 2 jours",
+    "Échec à 48 h : ceftriaxone ; penser au staphylocoque (cloxacilline), à la tuberculose et, chez le nourrisson exposé au VIH, à la pneumocystose"
    ],
    "gravite": [
     "Signes de danger : incapacité de boire, vomissements, convulsions, léthargie",
@@ -34622,7 +34657,10 @@
     "Salbutamol en aérosol-doseur avec chambre d'inhalation : 2 à 10 bouffées toutes les 20 min pendant 1 h",
     "Crise sévère : oxygène, prednisolone (ou hydrocortisone IV), salbutamol en nébulisation",
     "Crise très grave : ajouter sulfate de magnésium IV, envisager l'adrénaline",
-    "Après la crise : corticoïde oral 3 à 5 jours ; traitement de fond (béclométasone) si crises fréquentes"
+    "Après la crise : corticoïde oral 3 à 5 jours ; traitement de fond (béclométasone) si crises fréquentes",
+    "Doses : prednisolone 1 à 2 mg/kg par jour (maximum 40 mg ; adulte 40 à 50 mg) pendant 3 à 5 jours ; sulfate de magnésium IV adulte 2 g en 20 min, enfant 40 mg/kg (maximum 2 g)",
+    "Avant la sortie : vérifier la technique d'inhalation avec chambre, remettre un plan d'action écrit, revoir dans la semaine",
+    "Critères de gravité nécessitant l'hospitalisation : SpO₂ < 92 %, impossibilité de parler, absence d'amélioration après 1 h de salbutamol"
    ],
    "gravite": [
     "Silence auscultatoire, cyanose, épuisement",
@@ -34664,7 +34702,10 @@
    "traitement": [
     "Angine probablement streptococcique : amoxicilline pendant 6 jours, ou pénicilline V 10 jours, ou benzathine benzylpénicilline IM en dose unique (allergie : azithromycine)",
     "Paracétamol ou ibuprofène",
-    "Angine virale : traitement symptomatique uniquement"
+    "Angine virale : traitement symptomatique uniquement",
+    "Doses : amoxicilline 50 mg/kg par jour en 2 prises (adulte 1 g 2 fois par jour) pendant 6 jours ; benzathine benzylpénicilline < 30 kg 600 000 UI, ≥ 30 kg 1,2 MUI IM",
+    "Score de Centor (onglet Outils) pour décider de l'antibiotique",
+    "Phlegmon péri-amygdalien (trismus, voix étouffée, luette déviée) : drainage et antibiotique IV, avis ORL"
    ],
    "gravite": [
     "Abcès périamygdalien (trismus, voix étouffée, bombement) → drainage",
@@ -34743,7 +34784,11 @@
     "Plan B (modérée) : SRO 75 ml/kg en 4 h, puis réévaluer",
     "Plan C (sévère) : Ringer lactate IV 100 ml/kg (30 ml/kg puis 70 ml/kg)",
     "Malnutrition aiguë sévère : ReSoMal, protocole spécifique",
-    "Pas d'antidiarrhéique ni d'antibiotique en routine"
+    "Pas d'antidiarrhéique ni d'antibiotique en routine",
+    "Doses de zinc : moins de 6 mois 10 mg par jour, 6 mois et plus 20 mg par jour, pendant 10 à 14 jours",
+    "Plan A : SRO après chaque selle liquide : moins de 2 ans 50 à 100 ml, 2 à 10 ans 100 à 200 ml, plus grands et adultes à volonté",
+    "Plan C chez le nourrisson de moins de 12 mois : 30 ml/kg en 1 h, puis 70 ml/kg en 5 h (adulte et enfant plus âgé : 30 ml/kg en 30 min, puis 70 ml/kg en 2 h 30)",
+    "Réévaluer toutes les 1 à 2 h ; passer au plan B puis A dès l'amélioration ; sang dans les selles : voir dysenterie"
    ],
    "gravite": [
     "Déshydratation sévère, choc",
@@ -35027,7 +35072,10 @@
     "Femme enceinte : céfalexine, amoxicilline-acide clavulanique ou nitrofurantoïne (sauf à terme), 7 jours",
     "Pyélonéphrite : ceftriaxone IV ou IM puis relais oral (ciprofloxacine ou céfixime), 10 à 14 jours au total",
     "Enfant fébrile : céfixime ou ceftriaxone",
-    "Boire abondamment"
+    "Boire abondamment",
+    "Doses : nitrofurantoïne 100 mg 2 fois par jour pendant 5 jours ; fosfomycine 3 g en dose unique ; ceftriaxone 1 g par jour (pyélonéphrite)",
+    "Homme : traiter comme une infection compliquée (7 à 14 jours), rechercher une prostatite",
+    "Pyélonéphrite fébrile sans amélioration à 72 h : échographie (obstacle, abcès)"
    ],
    "gravite": [
     "Pyélonéphrite chez la femme enceinte, l'enfant < 2 ans",
@@ -35155,7 +35203,11 @@
     "Brûlure étendue (> 10 % enfant, > 15 % adulte) : remplissage par Ringer lactate (formule de Parkland : 4 ml × poids × % surface, la moitié dans les 8 premières heures)",
     "Pansements stériles avec sulfadiazine argentique",
     "Prévention du tétanos",
-    "Nutrition renforcée"
+    "Nutrition renforcée",
+    "Évaluer la surface brûlée : paume de la main du patient = 1 % ; chez l'enfant, utiliser la table de Lund et Browder ; score ABSI dans l'onglet Outils",
+    "Enfant : ajouter les besoins d'entretien (glucosé) à la formule de Parkland",
+    "Surveiller la diurèse (objectif 0,5 ml/kg/h chez l'adulte, 1 ml/kg/h chez l'enfant) pour adapter le remplissage",
+    "Brûlure circulaire d'un membre ou du thorax : incisions de décharge ; brûlure du visage ou fumées inhalées : surveiller les voies aériennes"
    ],
    "gravite": [
     "Brûlure étendue, profonde ou circulaire (membres, thorax)",
@@ -35238,7 +35290,10 @@
     "Déshydratation : ReSoMal (pas de perfusion sauf choc)",
     "Antibiotiques systématiques ; antipaludique si TDR positif",
     "Vitamine A si rougeole ou signes oculaires ; acide folique ; vaccination rougeole",
-    "Fer seulement en phase de réhabilitation"
+    "Fer seulement en phase de réhabilitation",
+    "F-75 en phase de stabilisation : 130 ml/kg par jour en 8 repas (100 ml/kg par jour si œdèmes sévères)",
+    "ATPE en phase de réhabilitation et en ambulatoire : environ 200 kcal/kg par jour, selon la table du protocole national",
+    "Critères de sortie : poids pour la taille ≥ −2 z-scores ou périmètre brachial ≥ 125 mm, sans œdèmes depuis au moins 2 semaines (courbes de croissance dans l'onglet Outils)"
    ],
    "gravite": [
     "Perte d'appétit, vomissements",
@@ -35290,7 +35345,9 @@
     "Maintien au chaud (peau à peau), alimentation au lait maternel (sonde si besoin)",
     "Glucose si hypoglycémie",
     "Oxygène si nécessaire",
-    "Omphalite localisée : soins locaux à la chlorhexidine + cloxacilline"
+    "Omphalite localisée : soins locaux à la chlorhexidine + cloxacilline",
+    "Doses : ampicilline 50 mg/kg toutes les 12 h la 1re semaine, puis toutes les 8 h ; gentamicine une fois par jour, 5 mg/kg (3 mg/kg chez le faible poids de naissance la 1re semaine)",
+    "Hospitalisation impossible (OMS, infection bactérienne grave possible) : gentamicine IM 2 jours + amoxicilline orale 7 jours, avec suivi rapproché"
    ],
    "gravite": [
     "Apnées, convulsions",
@@ -35337,7 +35394,10 @@
     "Fièvre : antibiotique (ceftriaxone ou amoxicilline) et traitement d'un paludisme",
     "Anémie aiguë mal tolérée : transfusion",
     "Oxygène si hypoxie",
-    "Suivi au long cours : acide folique, pénicilline V jusqu'à 5 ans, prophylaxie antipaludique, vaccinations, hydroxyurée"
+    "Suivi au long cours : acide folique, pénicilline V jusqu'à 5 ans, prophylaxie antipaludique, vaccinations, hydroxyurée",
+    "Syndrome thoracique aigu (douleur thoracique, fièvre, toux, hypoxie) : oxygène, ceftriaxone + macrolide, transfusion, antalgiques et spirométrie incitative",
+    "Séquestration splénique (rate qui grossit vite, anémie brutale) ou AVC : transfusion en urgence",
+    "Hydroxyurée de fond : 15 à 20 mg/kg par jour dès 9 mois, avec surveillance de la NFS"
    ],
    "gravite": [
     "Fièvre ≥ 38,5 °C",
@@ -35382,7 +35442,9 @@
    "traitement": [
     "Transfusion si Hb < 4 g/dl, ou < 6 g/dl avec signes de gravité (enfant) ; adulte selon la tolérance",
     "Traiter la cause : paludisme, déparasitage (albendazole)",
-    "Carence en fer : fer + acide folique pendant 3 mois (pas pendant une infection aiguë ni en phase initiale de malnutrition)"
+    "Carence en fer : fer + acide folique pendant 3 mois (pas pendant une infection aiguë ni en phase initiale de malnutrition)",
+    "Volume : sang total 20 ml/kg ou culot globulaire 10 ml/kg en 3 à 4 h (outil Transfusion dans l'onglet Outils) ; furosémide 1 mg/kg si signes de surcharge",
+    "Contrôler l'hémoglobine après la transfusion et à 1 mois"
    ],
    "gravite": [
     "Détresse respiratoire, insuffisance cardiaque",
@@ -35426,7 +35488,10 @@
     "TA ≥ 160/110 : nifédipine orale, hydralazine IV ou labétalol (objectif 140–150/90–100)",
     "Accouchement selon le terme et l'état maternel (seul traitement curatif)",
     "Surveillance : réflexes, FR, diurèse",
-    "Traitement de fond : méthyldopa ou nifédipine LP"
+    "Traitement de fond : méthyldopa ou nifédipine LP",
+    "Pré-éclampsie sans signe de gravité : surveillance de la PA, de la protéinurie et du fœtus ; accouchement à 37 SA",
+    "Post-partum : surveiller la PA au moins 72 h (une éclampsie peut survenir après l'accouchement)",
+    "Grossesse suivante : aspirine 75 à 150 mg le soir dès 12 SA et calcium si l'apport alimentaire est faible"
    ],
    "gravite": [
     "Convulsions, troubles de conscience",
@@ -35474,7 +35539,10 @@
     "Misoprostol 800 µg sublingual si l'ocytocine est insuffisante ou indisponible",
     "Délivrance artificielle si rétention, suture des déchirures",
     "Transfusion selon les pertes",
-    "Compression bimanuelle, tamponnement par ballonnet ; chirurgie si échec"
+    "Compression bimanuelle, tamponnement par ballonnet ; chirurgie si échec",
+    "Mesurer les pertes avec un sac de recueil gradué : alerte dès 300 ml avec signes anormaux, hémorragie à 500 ml ; appliquer d'emblée l'ensemble des mesures (OMS 2023, E-MOTIVE)",
+    "Ocytocine : 10 UI IV lente ou IM, puis 20 UI dans 1 litre à 60 gouttes par minute",
+    "Prévention chez toutes les femmes : ocytocine 10 UI IM (ou carbétocine 100 µg) dès la naissance"
    ],
    "gravite": [
     "Choc hémorragique",
@@ -35522,7 +35590,9 @@
     "Hémorragie : contrôle du saignement, transfusion",
     "Sepsis : antibiotiques dans l'heure (ceftriaxone), noradrénaline si persistance malgré le remplissage",
     "Anaphylaxie : adrénaline IM",
-    "Malnutrition aiguë sévère : protocole de remplissage spécifique"
+    "Malnutrition aiguë sévère : protocole de remplissage spécifique",
+    "Surveillance : pouls, PA, temps de recoloration, conscience, diurèse (sonde), signes de surcharge (crépitants, gros foie) ; objectif PAM ≥ 65 mmHg",
+    "Enfant malnutri ou anémié : remplissage plus lent (10 à 15 ml/kg en 1 h) et réévaluation"
    ],
    "gravite": [
     "Absence de réponse au remplissage",
@@ -35567,7 +35637,9 @@
     "Remplissage par NaCl 0,9 % ou Ringer lactate",
     "Salbutamol si bronchospasme",
     "Après stabilisation : antihistaminique et corticoïde (hydrocortisone)",
-    "Surveillance au moins 6 à 12 h"
+    "Surveillance au moins 6 à 12 h",
+    "Doses d'adrénaline IM : adulte et plus de 12 ans 0,5 mg, 6 à 12 ans 0,3 mg, moins de 6 ans 0,15 mg (ampoule 1 mg/ml)",
+    "Choc réfractaire après 2 doses : perfusion d'adrénaline en réanimation"
    ],
    "gravite": [
     "Persistance de l'hypotension ou du bronchospasme malgré 2 à 3 doses d'adrénaline",
@@ -35610,7 +35682,9 @@
     "Crise > 5 min : diazépam IV ou intrarectal, ou midazolam buccal/IM ; renouveler une fois après 10 min",
     "Persistance : phénobarbital IV (charge 15 à 20 mg/kg)",
     "Femme enceinte : sulfate de magnésium",
-    "Traiter la cause (paludisme grave, méningite) ; paracétamol si fièvre"
+    "Traiter la cause (paludisme grave, méningite) ; paracétamol si fièvre",
+    "Doses : diazépam 0,5 mg/kg intrarectal (maximum 10 mg) ou 0,2 à 0,3 mg/kg IV lent ; midazolam buccal 0,3 mg/kg (maximum 10 mg) ; phénobarbital 20 mg/kg IV en 20 min",
+    "Surveiller la respiration après les benzodiazépines (ballon et oxygène à portée de main)"
    ],
    "gravite": [
     "Dépression respiratoire après benzodiazépines",
@@ -35699,7 +35773,8 @@
     "Paralysie : ventilation assistée, néostigmine + atropine selon le protocole",
     "Antalgique (paracétamol, morphine ; pas d'aspirine ni d'AINS)",
     "Prévention du tétanos",
-    "Antibiotique seulement si infection"
+    "Antibiotique seulement si infection",
+    "Test de coagulation sur tube sec (TCST20) à l'arrivée puis toutes les 6 h ; nouvelle dose de sérum si le sang reste incoagulable"
    ],
    "gravite": [
     "Sang incoagulable, saignements",
@@ -35783,7 +35858,9 @@
     "Traitement si TA ≥ 140/90 persistante (≥ 130/80 si diabète ou maladie cardiovasculaire selon le protocole) : amlodipine ou hydrochlorothiazide en 1re intention, ou IEC/sartan (diabète, protéinurie)",
     "Associer 2 médicaments si non contrôlée ; objectif < 140/90",
     "Statine si risque élevé",
-    "Suivi mensuel jusqu'au contrôle, puis tous les 3 mois"
+    "Suivi mensuel jusqu'au contrôle, puis tous les 3 mois",
+    "Doses : amlodipine 5 mg par jour (maximum 10 mg) ; hydrochlorothiazide 12,5 à 25 mg par jour ; énalapril 5 à 20 mg par jour",
+    "Pas d'IEC ni de sartan chez la femme enceinte ou qui souhaite une grossesse (nifédipine LP, méthyldopa)"
    ],
    "gravite": [
     "TA ≥ 180/110 avec signes d'atteinte d'organe (douleur thoracique, déficit neurologique, OAP, troubles visuels, confusion) : urgence hypertensive → hospitaliser",
@@ -35826,7 +35903,8 @@
     "Chronique : restriction sodée, furosémide pour les œdèmes ; IEC (énalapril) ou sartan, bêtabloquant (bisoprolol) à doses progressives, spironolactone",
     "FA rapide : digoxine ou bisoprolol, anticoagulation",
     "Traiter la cause (HTA, anémie)",
-    "Pesée régulière"
+    "Pesée régulière",
+    "Doses dans l'OAP : furosémide 40 à 80 mg IV, à répéter selon la diurèse et la dyspnée"
    ],
    "gravite": [
     "OAP, détresse respiratoire, SpO2 basse",
@@ -35874,7 +35952,10 @@
     "Ajouter un sulfamide (gliclazide préféré) si objectif non atteint ; insuline si échec ou glycémies très élevées",
     "Objectif : glycémie à jeun 0,8 à 1,3 g/l",
     "Contrôler la TA (IEC si protéinurie), statine après 40 ans",
-    "Examen des pieds à chaque visite"
+    "Examen des pieds à chaque visite",
+    "Metformine : débuter à 500 mg par jour au repas, augmenter progressivement jusqu'à 1 g 2 fois par jour ; contre-indiquée si DFG < 30 ml/min",
+    "Insuline NPH au coucher : 10 UI (0,1 à 0,2 UI/kg), ajustée de 2 UI tous les 3 jours selon la glycémie à jeun",
+    "HbA1c tous les 3 à 6 mois si disponible (objectif < 7 %) ; dépister chaque année la rétinopathie et l'atteinte rénale"
    ],
    "gravite": [
     "Glycémie > 3 g/l avec vomissements, déshydratation, troubles de conscience (acidocétose, état hyperosmolaire)",
@@ -35922,7 +36003,8 @@
     "Insuline rapide IV 0,1 UI/kg/h (enfant 0,05 à 0,1) après la première heure de remplissage",
     "Potassium dans les perfusions dès que la diurèse est présente et K < 5,5",
     "Ajouter du glucose quand la glycémie < 2,5 g/l",
-    "Surveillance horaire glycémie, conscience ; traiter l'infection"
+    "Surveillance horaire glycémie, conscience ; traiter l'infection",
+    "Pas de bicarbonate en routine ; rechercher et traiter la cause (infection, arrêt de l'insuline)"
    ],
    "gravite": [
     "Coma, choc",
@@ -35965,7 +36047,9 @@
     "Rien par la bouche avant test de déglutition",
     "Ischémie confirmée (ou sans scanner, si non grave, selon protocole) : aspirine 300 mg puis 75–100 mg/j",
     "Prévention des escarres et des thromboses, kinésithérapie précoce",
-    "Prévention secondaire : contrôle de l'HTA, statine, antiagrégant"
+    "Prévention secondaire : contrôle de l'HTA, statine, antiagrégant",
+    "Scores ROSIER et NIHSS dans l'onglet Outils",
+    "Thrombolyse seulement dans un centre équipé d'un scanner, dans les 4 h 30 après le début des symptômes"
    ],
    "gravite": [
     "Coma, aggravation rapide",
@@ -36097,7 +36181,7 @@
    "traitement": [
     "Arrêter les AINS, l'alcool, le tabac",
     "Oméprazole 20 mg/j pendant 4 à 8 semaines",
-    "Éradication d'H. pylori : oméprazole + amoxicilline + clarithromycine (ou métronidazole) pendant 14 jours",
+    "Éradication d'H. pylori pendant 14 jours : oméprazole 20 mg 2 fois par jour + amoxicilline 1 g 2 fois par jour + clarithromycine 500 mg 2 fois par jour (ou métronidazole 500 mg 2 fois par jour)",
     "Hémorragie : oméprazole IV, remplissage, transfusion, avis chirurgical"
    ],
    "gravite": [
@@ -36213,7 +36297,8 @@
     "Traitement de fond si 2 crises ou plus : phénobarbital, carbamazépine (crises partielles) ou valproate (crises généralisées, éviter chez la femme en âge de procréer) ; un seul médicament, à dose progressive",
     "Traitement prolongé (au moins 2 ans sans crise avant d'envisager un arrêt progressif)",
     "Éducation : observance, éviter feu, eau et hauteurs",
-    "Crise prolongée : diazépam ou midazolam"
+    "Crise prolongée : diazépam ou midazolam",
+    "Femme en âge de procréer : éviter le valproate, contraception adaptée (le phénobarbital et la carbamazépine réduisent l'effet des contraceptifs oraux), acide folique"
    ],
    "gravite": [
     "Crise > 5 min ou répétée sans reprise de conscience (état de mal)",
@@ -36699,7 +36784,8 @@
     "Soins des lésions (lavage, antiseptique) ; antibiotique si surinfection (cloxacilline, amoxicilline-acide clavulanique)",
     "Lésions oculaires : avis ophtalmologique",
     "Lésions buccales : bains de bouche, alimentation adaptée",
-    "Les antiviraux (técovirimat) n'ont pas montré de bénéfice contre le clade I (essai PALM007 en RDC)"
+    "Les antiviraux (técovirimat) n'ont pas montré de bénéfice contre le clade I (essai PALM007 en RDC)",
+    "Proposer un test VIH ; surveillance rapprochée des enfants, des femmes enceintes et des personnes immunodéprimées"
    ],
    "gravite": [
     "Lésions oculaires, pneumonie, encéphalite",
@@ -37720,7 +37806,8 @@
    "traitement": [
     "Sans signe d'alerte : repos, boissons abondantes, paracétamol ; PAS d'aspirine ni d'AINS ; revoir chaque jour",
     "Avec signes d'alerte : hospitaliser, perfusion de cristalloïdes adaptée à l'hématocrite et à la diurèse (prudence : risque de surcharge)",
-    "Dengue sévère (choc) : remplissage 10 à 20 ml/kg, transfusion si hémorragie"
+    "Dengue sévère (choc) : remplissage 10 à 20 ml/kg, transfusion si hémorragie",
+    "Phase critique (entre le 3e et le 7e jour, quand la fièvre baisse) : revoir chaque jour, hématocrite et plaquettes si possible"
    ],
    "gravite": [
     "Signes d'alerte",
@@ -41461,7 +41548,9 @@
     "Noradrénaline si hypotension persistante",
     "Oxygène",
     "Contrôle du foyer (drainage, chirurgie)",
-    "Antipaludique si TDR positif"
+    "Antipaludique si TDR positif",
+    "Doses : gentamicine 5 mg/kg IV une fois par jour ; métronidazole 500 mg IV toutes les 8 h ; cloxacilline 2 g IV toutes les 6 h",
+    "Réévaluer à 48-72 h : adapter selon l'évolution et les cultures ; durée habituelle 7 à 10 jours"
    ],
    "gravite": [
     "Choc, lactates > 4 mmol/l",
