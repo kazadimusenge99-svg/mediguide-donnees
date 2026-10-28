@@ -1,6 +1,6 @@
 {
- "version": 21,
- "dateMiseAJour": "2026-10-28",
+ "version": 22,
+ "dateMiseAJour": "2026-10-29",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
   "OMS – Lignes directrices pour le paludisme",
@@ -36321,6 +36321,8 @@
    ],
    "traitement": [
     "Vitamine A à J1, J2 et J15 (dose selon l'âge)",
+    "Doses de vitamine A (J1, J2 et J15) : moins de 6 mois 50 000 UI, 6 à 11 mois 100 000 UI, 12 mois et plus 200 000 UI",
+    "Femme en âge de procréer sans atteinte de la cornée : 10 000 UI par jour pendant 2 semaines (les fortes doses sont tératogènes)",
     "Atteinte cornéenne : tétracycline pommade et protection de l'œil (pansement), urgence",
     "Traiter la malnutrition et la rougeole"
    ],
@@ -36350,6 +36352,7 @@
     "Chronique : mesure de la pression oculaire et fond d'œil (ophtalmologie)"
    ],
    "traitement": [
+    "Ne jamais dilater la pupille d'un œil suspect de glaucome aigu (atropine, tropicamide)",
     "Glaucome aigu : acétazolamide 500 mg puis 250 mg toutes les 6 h, pilocarpine 2 % répétée, timolol, antalgiques et antiémétiques ; référence urgente en ophtalmologie (laser ou chirurgie)",
     "Chronique : collyre (timolol) à vie, suivi spécialisé"
    ],
@@ -36608,7 +36611,8 @@
     "Paracétamol, morphine si douleur persistante",
     "Butylscopolamine en complément",
     "Boissons modérées pendant la crise",
-    "Filtrer les urines pour récupérer le calcul"
+    "Filtrer les urines pour récupérer le calcul",
+    "Doses : diclofénac 75 mg IM (une fois), ou ibuprofène 400 mg 3 fois par jour ; calcul < 5 mm : élimination spontanée fréquente"
    ],
    "gravite": [
     "Fièvre (pyélonéphrite sur obstacle : urgence, antibiotique et drainage)",
@@ -37787,7 +37791,9 @@
     "Forme simple : repos, hydratation, paracétamol, isolement",
     "Grippe sévère ou à risque : oseltamivir 5 jours, idéalement dans les 48 h",
     "COVID-19 sévère (SpO2 < 90 %) : oxygène, dexaméthasone 6 mg/j 10 jours, prévention des thromboses (énoxaparine)",
-    "Antibiotiques seulement si surinfection bactérienne"
+    "Antibiotiques seulement si surinfection bactérienne",
+    "Doses : oseltamivir adulte 75 mg 2 fois par jour pendant 5 jours ; enfant selon le poids (≤ 15 kg : 30 mg, 15 à 23 kg : 45 mg, 23 à 40 kg : 60 mg, 2 fois par jour)",
+    "Personnes à risque de forme grave : femmes enceintes, plus de 60 ans, maladies chroniques, VIH avancé, enfants de moins de 2 ans"
    ],
    "gravite": [
     "Dyspnée, SpO2 < 90 %, confusion",
@@ -37864,7 +37870,8 @@
     "Toilette douce, éviter les savons agressifs",
     "Poussées : hydrocortisone crème 1 à 2 fois par jour, quelques jours",
     "Antihistaminique si prurit gênant la nuit",
-    "Surinfection : cloxacilline ou céfalexine"
+    "Surinfection : cloxacilline ou céfalexine",
+    "Lésions suintantes : bains ou compresses de permanganate de potassium dilué (1 pour 10 000), puis émollient"
    ],
    "gravite": [
     "Eczéma étendu, surinfecté avec fièvre",
@@ -37894,24 +37901,30 @@
    "resume": "Éruption de plaques rouges en relief, mobiles et très prurigineuses, souvent d'origine allergique (médicament, aliment, piqûre) ou infectieuse.",
    "signes": [
     "Plaques rouges en relief, fugaces (< 24 h), qui démangent",
-    "Œdème du visage, des lèvres (angio-œdème)"
+    "Œdème du visage, des lèvres (angio-œdème)",
+    "Urticaire chronique : plaques presque tous les jours pendant plus de 6 semaines"
    ],
    "diagnostic": [
     "Rechercher une cause (médicament récent, aliment, infection, parasite)",
-    "Rechercher des signes d'anaphylaxie (gêne respiratoire, malaise, hypotension)"
+    "Rechercher des signes d'anaphylaxie (gêne respiratoire, malaise, hypotension)",
+    "Urticaire chronique : rechercher une parasitose (anguillulose, ankylostome : éosinophilie), une maladie de la thyroïde, un facteur physique (froid, pression)"
    ],
    "traitement": [
     "Arrêter la cause suspectée",
     "Antihistaminique : loratadine (non sédatif) ou chlorphénamine",
     "Calamine locale",
     "Formes sévères : prednisolone 3 à 5 jours",
-    "Anaphylaxie : adrénaline IM immédiatement"
+    "Anaphylaxie : adrénaline IM immédiatement",
+    "Doses : loratadine 10 mg/jour (enfant de moins de 30 kg : 5 mg/jour) ; chlorphénamine 4 mg 3 à 4 fois par jour (sédatif)",
+    "Forme sévère ou angio-œdème sans signe respiratoire : prednisolone 0,5 à 1 mg/kg/jour (adulte 40 mg) pendant 3 à 5 jours",
+    "Urticaire chronique : antihistaminique non sédatif tous les jours (la dose peut être augmentée selon l'avis spécialisé), traiter une parasitose (albendazole, ivermectine)"
    ],
    "gravite": [
     "Gêne respiratoire, voix rauque, œdème de la gorge, malaise, hypotension → anaphylaxie"
    ],
    "prevention": [
-    "Éviter l'allergène identifié ; noter l'allergie médicamenteuse dans le carnet"
+    "Éviter l'allergène identifié ; noter l'allergie médicamenteuse dans le carnet",
+    "Remettre une carte ou noter dans le carnet le médicament responsable"
    ],
    "medicaments": [
     "Loratadine",
@@ -38434,7 +38447,8 @@
     "Vider progressivement et surveiller la diurèse (polyurie de levée d'obstacle)",
     "Traiter une infection urinaire",
     "Arrêter les médicaments en cause",
-    "Avis chirurgical (prostate, sténose)"
+    "Avis chirurgical (prostate, sténose)",
+    "Ne jamais forcer en cas de résistance ; gel de lidocaïne dans l'urètre avant le sondage"
    ],
    "gravite": [
     "Sondage impossible → cathéter sus-pubien",
@@ -38471,7 +38485,10 @@
    "traitement": [
     "Lévothyroxine à dose progressive (plus prudente chez le sujet âgé ou cardiaque), ajustée selon la TSH",
     "Hypothyroïdie congénitale : traitement le plus tôt possible",
-    "Goitre par carence en iode : sel iodé ; goitre volumineux compressif : chirurgie"
+    "Goitre par carence en iode : sel iodé ; goitre volumineux compressif : chirurgie",
+    "Doses : lévothyroxine adulte 25 à 50 µg/jour, à augmenter de 25 µg toutes les 4 à 6 semaines selon la TSH (sujet âgé ou cardiaque : débuter à 12,5 à 25 µg) ; nouveau-né 10 à 15 µg/kg/jour",
+    "Grossesse : augmenter la dose dès le début (environ 30 %) et contrôler la TSH chaque trimestre",
+    "À prendre le matin à jeun, à distance du fer et du calcium"
    ],
    "gravite": [
     "Coma myxœdémateux (hypothermie, troubles de conscience)",
@@ -38506,7 +38523,9 @@
     "Propranolol pour les symptômes",
     "Carbimazole (propylthiouracile au 1er trimestre de grossesse) pendant 12 à 18 mois, avec surveillance de l'hémogramme",
     "Prévenir le patient : fièvre ou mal de gorge = arrêt et NFS (agranulocytose)",
-    "Chirurgie ou iode radioactif si rechute (centres spécialisés)"
+    "Chirurgie ou iode radioactif si rechute (centres spécialisés)",
+    "Doses : carbimazole 20 à 40 mg/jour, puis diminution progressive selon la T4 ; propranolol 20 à 40 mg 3 fois par jour (sauf asthme)",
+    "Orage thyroïdien : propylthiouracile, puis solution de Lugol 1 h après, propranolol, hydrocortisone 100 mg IV toutes les 8 h, refroidissement et réhydratation, en soins intensifs"
    ],
    "gravite": [
     "Orage thyroïdien : fièvre, agitation, tachycardie extrême, insuffisance cardiaque → urgence",
@@ -38797,6 +38816,7 @@
    "synonymes": "brucellose, fièvre de Malte, fièvre ondulante",
    "resume": "Infection transmise par le lait cru et le contact avec les animaux d'élevage (bovins, chèvres).",
    "signes": [
+    "Fièvre souvent vespérale avec sueurs abondantes, parfois sans autre signe pendant des semaines",
     "Fièvre prolongée ou ondulante, sueurs nocturnes",
     "Fatigue, douleurs articulaires et lombaires",
     "Hépatosplénomégalie",
@@ -38805,18 +38825,23 @@
    "diagnostic": [
     "Contexte (éleveurs, lait cru)",
     "Sérologie (Rose Bengale) si disponible",
-    "Éliminer tuberculose, paludisme, typhoïde"
+    "Éliminer tuberculose, paludisme, typhoïde",
+    "Hémocultures (culture prolongée, prévenir le laboratoire) si disponibles",
+    "NFS : leucocytes normaux ou bas"
    ],
    "traitement": [
     "Adulte : doxycycline 100 mg 2 fois par jour pendant 6 semaines + gentamicine 5 mg/kg/j pendant 7 jours (ou + rifampicine 6 semaines)",
     "Enfant < 8 ans : cotrimoxazole + rifampicine 6 semaines",
-    "Femme enceinte : rifampicine (± cotrimoxazole après 12 SA, avis)"
+    "Femme enceinte : rifampicine (± cotrimoxazole après 12 SA, avis)",
+    "Atteinte vertébrale (spondylite) ou endocardite : traitement prolongé (3 mois ou plus), avis spécialisé",
+    "Paracétamol, repos ; suivi en fin de traitement (rechutes possibles)"
    ],
    "gravite": [
     "Atteinte vertébrale, endocardite, neurobrucellose"
    ],
    "prevention": [
-    "Faire bouillir le lait, protection lors des mises bas"
+    "Faire bouillir le lait, protection lors des mises bas",
+    "Port de gants lors des mises bas et des abattages, vaccination du bétail"
    ],
    "medicaments": [
     "Doxycycline",
@@ -38878,7 +38903,8 @@
    ],
    "diagnostic": [
     "Diagnostic clinique et épidémiologique",
-    "TDR paludisme"
+    "TDR paludisme",
+    "Penser au typhus devant une fièvre dans une prison, un camp de déplacés ou en présence de poux"
    ],
    "traitement": [
     "Doxycycline 100 mg 2 fois par jour pendant 5 à 7 jours (ou 200 mg en dose unique pour le typhus épidémique), y compris chez l'enfant et dans les formes graves",
@@ -39027,7 +39053,8 @@
    "signes": [
     "Écoulement nasal (clair puis épais, parfois purulent : ce n'est pas un signe d'infection bactérienne)",
     "Obstruction nasale, éternuements",
-    "Mal de gorge, toux, fièvre modérée"
+    "Mal de gorge, toux, fièvre modérée",
+    "Nourrisson : gêne pour téter et dormir à cause du nez bouché"
    ],
    "diagnostic": [
     "Diagnostic clinique",
@@ -39037,14 +39064,21 @@
    "traitement": [
     "Lavage du nez au sérum physiologique, moucher",
     "Paracétamol si fièvre ou douleur",
-    "Pas d'antibiotique, pas de décongestionnant ni d'antitussif chez l'enfant"
+    "Pas d'antibiotique, pas de décongestionnant ni d'antitussif chez l'enfant",
+    "Nourrisson : désobstruction nasale au sérum physiologique avant les tétées, fractionner les repas",
+    "Miel (enfant de plus d'un an) pour calmer la toux",
+    "Durée normale : 7 à 10 jours ; la toux peut persister 2 à 3 semaines"
    ],
    "gravite": [
     "Respiration rapide, tirage (pneumonie)",
-    "Fièvre > 3 jours, otalgie, douleur du visage"
+    "Fièvre > 3 jours, otalgie, douleur du visage",
+    "Nourrisson de moins de 2 mois avec fièvre : référer",
+    "Gêne respiratoire, refus de boire, léthargie"
    ],
    "prevention": [
-    "Lavage des mains"
+    "Lavage des mains",
+    "Éviter la fumée (tabac, cuisine au bois dans la pièce)",
+    "Allaitement maternel"
    ],
    "medicaments": [
     "Chlorure de sodium 0,9 % (sérum physiologique)",
@@ -39176,15 +39210,18 @@
     "Absence de réponse à l'adrénaline nébulisée"
    ],
    "diagnostic": [
-    "Diagnostic clinique"
+    "Diagnostic clinique",
+    "À la différence du croup viral : fièvre élevée, aspect toxique et absence d'amélioration sous adrénaline nébulisée et dexaméthasone"
    ],
    "traitement": [
     "Oxygène, aspiration des sécrétions",
     "Ceftriaxone + cloxacilline IV pendant 10 jours (ou amoxicilline-acide clavulanique)",
-    "Intubation si obstruction"
+    "Intubation si obstruction",
+    "Doses : ceftriaxone 50 mg/kg/jour (maximum 2 g) + cloxacilline 50 mg/kg toutes les 6 h IV"
    ],
    "gravite": [
-    "Détresse respiratoire, choc"
+    "Détresse respiratoire, choc",
+    "Obstruction par des membranes purulentes : intubation ou trachéotomie en urgence"
    ],
    "prevention": [
     "Vaccination contre la rougeole"
@@ -39223,7 +39260,8 @@
     "Toux > 2 semaines (tuberculose)"
    ],
    "prevention": [
-    "Arrêt du tabac, éviter la fumée de cuisine"
+    "Arrêt du tabac, éviter la fumée de cuisine",
+    "Vaccination contre la grippe des personnes à risque"
    ],
    "medicaments": [
     "Paracétamol",
@@ -39640,7 +39678,8 @@
    ],
    "diagnostic": [
     "Diagnostic clinique",
-    "Forme sévère ou étendue chez l'adulte : proposer un test VIH"
+    "Forme sévère ou étendue chez l'adulte : proposer un test VIH",
+    "Diagnostics différentiels : psoriasis, teigne du cuir chevelu de l'enfant"
    ],
    "traitement": [
     "Lavage au savon doux",
@@ -39745,7 +39784,8 @@
    "traitement": [
     "Protection contre le soleil et la poussière (lunettes, chapeau)",
     "Larmes artificielles ou sérum physiologique si irritation",
-    "Chirurgie si gêne visuelle ou progression vers l'axe visuel (récidives fréquentes)"
+    "Chirurgie si gêne visuelle ou progression vers l'axe visuel (récidives fréquentes)",
+    "Poussée inflammatoire : collyre corticoïde de courte durée uniquement sur avis ophtalmologique"
    ],
    "gravite": [
     "Atteinte de la zone pupillaire"
@@ -39770,19 +39810,24 @@
    ],
    "diagnostic": [
     "Mesure de l'acuité visuelle",
-    "Éliminer un glaucome, un rétinoblastome chez l'enfant (pupille blanche)"
+    "Éliminer un glaucome, un rétinoblastome chez l'enfant (pupille blanche)",
+    "Rechercher le reflet rouge (ophtalmoscope ou lampe) chez tous les nourrissons : un reflet absent ou blanc impose un avis ophtalmologique urgent",
+    "Acuité visuelle < 3/10 du meilleur œil : indication habituelle de chirurgie chez l'adulte"
    ],
    "traitement": [
     "Chirurgie (extraction du cristallin et implant) : seul traitement efficace",
     "Orienter vers un programme de chirurgie de la cataracte",
-    "Enfant : chirurgie urgente (risque d'amblyopie définitive)"
+    "Enfant : chirurgie urgente (risque d'amblyopie définitive)",
+    "En attendant la chirurgie : lunettes adaptées, éclairage, prévention des chutes",
+    "Après chirurgie : collyres prescrits, ne pas frotter l'œil, consulter en urgence si douleur ou baisse de vision"
    ],
    "gravite": [
     "Cataracte de l'enfant",
     "Douleur, œil rouge (glaucome secondaire)"
    ],
    "prevention": [
-    "Vaccination contre la rubéole (cataracte congénitale), contrôle du diabète"
+    "Vaccination contre la rubéole (cataracte congénitale), contrôle du diabète",
+    "Lunettes de soleil, arrêt du tabac, prudence avec les corticoïdes au long cours"
    ],
    "medicaments": [
     "Vaccin rougeole-rubéole (RR)"
@@ -40270,17 +40315,20 @@
    "diagnostic": [
     "Diagnostic clinique ; ponction à l'aiguille (pus)",
     "Échographie si disponible",
-    "Test VIH"
+    "Test VIH",
+    "NFS, hémocultures si disponibles"
    ],
    "traitement": [
     "Incision et drainage chirurgical de l'abcès",
     "Cloxacilline IV puis orale (ou amoxicilline-acide clavulanique) pendant 10 à 14 jours ; clindamycine si allergie ou SARM",
-    "Antalgiques"
+    "Antalgiques",
+    "Doses : cloxacilline 50 mg/kg (adulte 2 g) IV toutes les 6 h, relais oral dès la disparition de la fièvre"
    ],
    "gravite": [
     "Sepsis, choc",
     "Abcès multiples",
-    "Atteinte proche d'une articulation"
+    "Atteinte proche d'une articulation",
+    "Arthrite septique de l'articulation voisine"
    ],
    "prevention": [
     "Soins des plaies"
@@ -40788,7 +40836,8 @@
     "Retirer de l'exposition, oxygène pur à haut débit, réanimation",
     "Formes graves : hydroxocobalamine IV 70 mg/kg (Cyanokit) si disponible, ou nitrite de sodium IV puis thiosulfate de sodium (éviter le nitrite si intoxication au CO associée)",
     "Convulsions : diazépam",
-    "Intoxication alimentaire par le manioc : voir Konzo"
+    "Intoxication alimentaire par le manioc : voir Konzo",
+    "Dose d'hydroxocobalamine : adulte 5 g IV en 15 minutes, à répéter une fois si nécessaire ; enfant 70 mg/kg"
    ],
    "gravite": [
     "Coma, convulsions, choc, acidose"
@@ -42285,7 +42334,9 @@
    "traitement": [
     "Praziquantel 5 à 10 mg/kg en dose unique, ou niclosamide 2 g (enfant selon le poids)",
     "Hygiène des mains (T. solium : risque de cysticercose pour le patient et son entourage)",
-    "Traiter les membres de la famille infectés"
+    "Traiter les membres de la famille infectés",
+    "Niclosamide (à mâcher à jeun) : adulte et enfant de plus de 6 ans 2 g, 2 à 6 ans 1 g, moins de 2 ans 500 mg ; à préférer en cas de ténia du porc",
+    "Neurocysticercose suspectée (convulsions) : ne pas donner de praziquantel sans avis (réaction inflammatoire cérébrale)"
    ],
    "gravite": [
     "Convulsions (neurocysticercose)"
@@ -42483,7 +42534,8 @@
     "Poussées : AINS courts, prednisolone à faible dose",
     "Paracétamol",
     "Kinésithérapie, maintien de l'activité",
-    "Supplément en acide folique sous méthotrexate"
+    "Supplément en acide folique sous méthotrexate",
+    "Méthotrexate : 7,5 à 15 mg UNE fois par semaine (jamais tous les jours), avec acide folique 5 mg une fois par semaine à un autre jour ; NFS et transaminases régulières ; contraception efficace (tératogène)"
    ],
    "gravite": [
     "Atteinte d'organe (poumon, vascularite)",
@@ -42722,7 +42774,8 @@
    ],
    "diagnostic": [
     "Diagnostic clinique",
-    "Rechercher un asthme associé"
+    "Rechercher un asthme associé",
+    "Distinguer d'une rhinite infectieuse (fièvre, écoulement purulent d'un seul côté, douleur faciale)"
    ],
    "traitement": [
     "Éviter les allergènes (poussière, literie lavée, aération)",
@@ -42730,7 +42783,8 @@
     "Antihistaminique (loratadine)",
     "Corticoïde nasal (budésonide) si symptômes persistants",
     "Décongestionnant (xylométazoline) uniquement quelques jours",
-    "Traiter l'asthme associé"
+    "Traiter l'asthme associé",
+    "Doses : loratadine 10 mg/jour (enfant de 2 à 12 ans de moins de 30 kg : 5 mg/jour)"
    ],
    "gravite": [
     "Asthme non contrôlé",
@@ -42754,6 +42808,7 @@
    "synonymes": "oreillons, parotidite, joues gonflées",
    "resume": "Infection virale de l'enfant et de l'adulte jeune, touchant les glandes salivaires, parfois les testicules, le pancréas ou les méninges.",
    "signes": [
+    "Incubation de 16 à 18 jours ; contagieux 2 jours avant et 5 jours après le début du gonflement",
     "Fièvre, gonflement douloureux d'une ou des deux parotides (devant l'oreille)",
     "Douleur à la mastication",
     "Complications : orchite (homme après la puberté), méningite, pancréatite, surdité"
@@ -42768,7 +42823,9 @@
     "Éviction scolaire 5 jours après le début du gonflement"
    ],
    "gravite": [
-    "Méningite, surdité, pancréatite"
+    "Méningite, surdité, pancréatite",
+    "Orchite des deux côtés (risque d'infertilité)",
+    "Raideur de nuque, vomissements (méningite)"
    ],
    "prevention": [
     "Vaccination ROR là où elle est disponible"
