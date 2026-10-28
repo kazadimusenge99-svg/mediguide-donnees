@@ -1,5 +1,5 @@
 {
- "version": 18,
+ "version": 19,
  "dateMiseAJour": "2026-10-28",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -22474,26 +22474,27 @@
   96,
   28
  ],
- "dateActualites": "27 octobre 2026",
- "dateIsoActualites": "2026-10-27",
+ "dateActualites": "28 octobre 2026",
+ "dateIsoActualites": "2026-10-28",
  "actualites": [
   {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
-   "lieu": "RDC (8 provinces) · cas importés au Kenya et au Nigeria",
+   "lieu": "RDC (8 provinces) · Kenya (9 cas) · cas importé au Nigeria",
    "chiffre": "10 060 cas confirmés · 4 887 décès",
    "texte": "17e épidémie d'Ebola en RDC, épicentre en Ituri et au Nord-Kivu. Aucun vaccin ni traitement spécifique homologué contre le virus Bundibugyo.",
    "details": [
     "Déclarée le 15 mai 2026 ; urgence de santé publique de portée internationale (OMS) depuis le 17 mai",
-    "Létalité d'environ 49 % ; Ituri 7 211 cas, Nord-Kivu 2 309 cas, nouveaux cas aussi dans la Tshopo (bilan du 25 octobre)",
+    "Bilan INSP du 25 octobre : létalité 48,6 %, 2 684 guéris ; Ituri 7 211 cas, Nord-Kivu 2 309, Haut-Uélé 436, Tshopo 83 ; 96 nouveaux cas en un jour",
+    "Kenya : 9 cas confirmés dont 2 décès au 26 octobre (un seul foyer) ; Nigeria : cas importé confirmé à Abuja le 20 octobre, évacué à Genève",
     "Le vaccin Ervebo et les anticorps ansuvimab et REGN-EB3 visent le virus Zaïre : pas d'efficacité démontrée contre Bundibugyo ; essai vaccinal TUMAINI lancé à Bunia le 23 octobre",
     "Toute fièvre avec contact, voyage en zone touchée ou saignement : isoler, se protéger (EPI), alerter, prélever pour PCR",
-    "Suivi des contacts encore insuffisant (environ 80 %, objectif 95 %) ; enterrements dignes et sécurisés indispensables"
+    "Suivi des contacts encore insuffisant (81,6 %, objectif 95 %) ; enterrements dignes et sécurisés indispensables"
    ],
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "OMS, Disease Outbreak News du 23/10/2026 ; ministère de la Santé de la RDC (bilan du 25/10/2026)",
+   "source": "INSP RDC, rapport du 26/10/2026 (bilan au 25/10) ; OMS, Disease Outbreak News du 23/10/2026 et point Kenya du 26/10/2026",
    "pictogramme": "virus"
   },
   {
@@ -22505,13 +22506,14 @@
    "details": [
     "Semaine du 21 au 28 septembre : 2 932 cas suspects et 86 décès (létalité 2,9 %)",
     "Plus de 125 000 cas suspects depuis janvier 2025",
+    "Nouveaux foyers au Nord-Kivu fin octobre : 5 décès en moins d'une semaine à Masisi (Ufamandu 1), 9 cas à la prison centrale de Walikale",
     "Réhydratation précoce (SRO, Ringer lactate), azithromycine ou doxycycline dans les formes sévères, chloration de l'eau (solutions chlorées 0,05 % et 0,5 %)",
     "Vaccination orale anticholérique en préparation dans les zones touchées"
    ],
    "couleur": "#0277BD",
    "icone": "💧",
    "pathologie": 19,
-   "source": "OMS, via ONU Info du 14/10/2026 ; MSF (Kwango, juillet 2026)",
+   "source": "OMS, via ONU Info du 14/10/2026 ; actualite.cd du 27/10/2026 (Masisi, Walikale)",
    "pictogramme": "goutte"
   },
   {
@@ -31974,6 +31976,405 @@
    "bonne": 1,
    "explication": "4 ml/kg/h pour les 10 premiers kg (40) + 2 ml/kg/h pour les 5 kg suivants (10) = 50 ml/h (1 250 ml/jour).",
    "pathologie": -1
+  }
+ ],
+ "dateIsoCas": "2026-10-28",
+ "casCliniques": [
+  {
+   "id": "palu-grave-enfant",
+   "titre": "Enfant fébrile qui convulse",
+   "theme": "paludisme",
+   "niveau": "Niveau 1",
+   "presentation": "Garçon de 3 ans, 13 kg, amené pour fièvre depuis 3 jours. Il a convulsé à la maison et reste somnolent : il localise la douleur mais ne fixe pas le regard (score de Blantyre 3).",
+   "etapes": [
+    {
+     "info": "TDR paludisme positif. Glycémie capillaire : 2,1 mmol/l (38 mg/dl).",
+     "question": "Quel est le premier geste ?",
+     "options": [
+      "Paracétamol en suppositoire et surveillance",
+      "Glucose 10 % : 5 ml/kg en IV (ou par sonde gastrique)",
+      "Attendre la goutte épaisse avant tout traitement",
+      "Quinine orale"
+     ],
+     "bonne": 1,
+     "explication": "Toute glycémie < 3 mmol/l au cours d'un paludisme grave doit être corrigée immédiatement : glucose 10 % 5 ml/kg, puis contrôle à 30 minutes."
+    },
+    {
+     "info": "La glycémie est remontée à 5,4 mmol/l.",
+     "question": "Quel antipaludique prescrire ?",
+     "options": [
+      "Artésunate IV ou IM 3 mg/kg à H0, H12, H24 puis toutes les 24 h",
+      "Artéméther-luméfantrine orale",
+      "Artésunate 1 mg/kg une fois par jour",
+      "Chloroquine IM"
+     ],
+     "bonne": 0,
+     "explication": "L'artésunate parentéral est le traitement de référence. Chez l'enfant de moins de 20 kg, la dose est de 3 mg/kg par prise (2,4 mg/kg au-delà)."
+    },
+    {
+     "info": "Après 24 heures, l'enfant est conscient, boit et mange.",
+     "question": "Quelle est la suite du traitement ?",
+     "options": [
+      "Arrêter tout traitement",
+      "Poursuivre l'artésunate IV pendant 7 jours",
+      "Relais par une CTA orale complète de 3 jours",
+      "Quinine orale pendant 7 jours"
+     ],
+     "bonne": 2,
+     "explication": "Dès que la voie orale est possible (après au moins 24 h d'artésunate), on donne une CTA complète de 3 jours pour éviter les rechutes."
+    }
+   ],
+   "conclusion": "Paludisme grave avec troubles de conscience et hypoglycémie : corriger l'hypoglycémie, artésunate parentéral au moins 24 h, puis CTA complète de 3 jours. Surveiller glycémie, conscience, hémoglobine et diurèse.",
+   "pathologie": 2,
+   "source": "OMS, Directives paludisme 2023 ; MSF, Guide clinique et thérapeutique"
+  },
+  {
+   "id": "cholera-plan-c",
+   "titre": "Diarrhée « eau de riz » en période d'épidémie",
+   "theme": "epidemies",
+   "niveau": "Niveau 1",
+   "presentation": "Homme de 30 ans, 60 kg, arrivé au centre de traitement du choléra. Diarrhée aqueuse abondante depuis 8 heures, vomissements. Il est léthargique, le pouls radial est imperceptible, les yeux sont enfoncés et le pli cutané persiste.",
+   "etapes": [
+    {
+     "info": "",
+     "question": "Quel est le degré de déshydratation et le plan de traitement ?",
+     "options": [
+      "Déshydratation modérée : SRO 75 ml/kg en 4 h (plan B)",
+      "Pas de déshydratation : plan A à domicile",
+      "Déshydratation sévère : perfusion IV rapide (plan C)",
+      "Déshydratation sévère : SRO par sonde uniquement"
+     ],
+     "bonne": 2,
+     "explication": "Léthargie et pouls imperceptible signent une déshydratation sévère : plan C, perfusion IV immédiate."
+    },
+    {
+     "info": "Deux voies veineuses sont posées.",
+     "question": "Quel soluté et quel débit ?",
+     "options": [
+      "Ringer lactate 100 ml/kg en 3 h : 30 ml/kg en 30 min puis 70 ml/kg en 2 h 30",
+      "Glucosé 5 % : 2 litres en 24 h",
+      "Ringer lactate 20 ml/kg en 1 h puis arrêt",
+      "Chlorure de sodium 0,9 % : 500 ml en 6 h"
+     ],
+     "bonne": 0,
+     "explication": "Chez l'adulte et l'enfant de plus d'un an : 30 ml/kg en 30 minutes puis 70 ml/kg en 2 h 30, soit 6 litres environ pour 60 kg. Réévaluer toutes les 30 minutes."
+    },
+    {
+     "info": "Au bout de 3 heures, le pouls est bien frappé, le patient est conscient et peut boire.",
+     "question": "Que faire maintenant ?",
+     "options": [
+      "Arrêter toute réhydratation",
+      "SRO selon les pertes et doxycycline 300 mg en dose unique",
+      "Amoxicilline pendant 7 jours",
+      "Lopéramide pour arrêter la diarrhée"
+     ],
+     "bonne": 1,
+     "explication": "On poursuit avec les SRO pour compenser les pertes. L'antibiotique (doxycycline dose unique) est indiqué en cas de déshydratation sévère ; les antidiarrhéiques sont contre-indiqués."
+    }
+   ],
+   "conclusion": "Déshydratation sévère du choléra : plan C au Ringer lactate (100 ml/kg en 3 h chez l'adulte), SRO dès que possible, doxycycline dose unique, notification et mesures d'hygiène.",
+   "pathologie": 19,
+   "source": "OMS, prise en charge du choléra ; GTFCC"
+  },
+  {
+   "id": "eclampsie",
+   "titre": "Convulsion à 36 semaines",
+   "theme": "obstetrique",
+   "niveau": "Niveau 2",
+   "presentation": "Femme de 22 ans, primigeste, 36 SA, amenée pour céphalées intenses et troubles visuels. PA 170/112 mmHg, protéinurie +++ à la bandelette. Pendant l'examen, elle fait une crise convulsive tonico-clonique.",
+   "etapes": [
+    {
+     "info": "La patiente est mise en position latérale de sécurité, sous oxygène.",
+     "question": "Quel médicament donner en premier ?",
+     "options": [
+      "Diazépam 10 mg IV",
+      "Sulfate de magnésium 4 g IV en 15 à 20 minutes, puis entretien",
+      "Furosémide 40 mg IV",
+      "Phénobarbital 200 mg IM"
+     ],
+     "bonne": 1,
+     "explication": "Le sulfate de magnésium est l'anticonvulsivant de référence de l'éclampsie : il prévient les récidives mieux que le diazépam."
+    },
+    {
+     "info": "L'entretien est poursuivi à 1 g/h.",
+     "question": "Quels signes surveiller pour détecter un surdosage ?",
+     "options": [
+      "Réflexes rotuliens, fréquence respiratoire et diurèse",
+      "Température et glycémie",
+      "Rythme cardiaque fœtal seul",
+      "Taux d'hémoglobine"
+     ],
+     "bonne": 0,
+     "explication": "Arrêter la perfusion si les réflexes rotuliens disparaissent, si la FR < 16/min ou si la diurèse < 30 ml/h. Antidote : gluconate de calcium 1 g IV lent."
+    },
+    {
+     "info": "Une heure plus tard, la PA reste à 168/110 mmHg.",
+     "question": "Quelle conduite pour la pression artérielle ?",
+     "options": [
+      "Pas de traitement, le magnésium suffit",
+      "Ramener vite la PA à 110/70 mmHg",
+      "Antihypertenseur (nifédipine orale, hydralazine ou labétalol IV) avec un objectif de 140-150/90-100 mmHg",
+      "Diurétique IV"
+     ],
+     "bonne": 2,
+     "explication": "Une PA ≥ 160/110 doit être traitée sans délai, mais sans chute brutale qui réduirait la perfusion placentaire."
+    },
+    {
+     "info": "La patiente est stable, sans nouvelle crise.",
+     "question": "Quel est le traitement définitif ?",
+     "options": [
+      "Attendre le terme de 40 SA",
+      "Accouchement dans les 12 heures après stabilisation",
+      "Césarienne immédiate pendant la crise",
+      "Sortie avec antihypertenseur oral"
+     ],
+     "bonne": 1,
+     "explication": "L'accouchement est le seul traitement définitif. Il est organisé après stabilisation (voie basse possible), avec poursuite du magnésium 24 h après l'accouchement."
+    }
+   ],
+   "conclusion": "Éclampsie : sulfate de magnésium (dose de charge puis entretien 24 h), surveillance de la toxicité, contrôle tensionnel progressif et accouchement après stabilisation.",
+   "pathologie": 34,
+   "source": "OMS, Prise en charge des complications de la grossesse ; MSF, Soins obstétricaux et néonatals essentiels"
+  },
+  {
+   "id": "pneumonie-enfant",
+   "titre": "Toux et respiration rapide chez un nourrisson",
+   "theme": "pediatrie",
+   "niveau": "Niveau 1",
+   "presentation": "Fillette de 18 mois, 10 kg, toux depuis 3 jours. Elle boit bien, pas de convulsion ni de léthargie. FR 54/min, tirage sous-costal, SpO₂ 95 % à l'air.",
+   "etapes": [
+    {
+     "info": "",
+     "question": "Comment classer et traiter cette enfant ?",
+     "options": [
+      "Pneumonie : amoxicilline orale 40 mg/kg deux fois par jour pendant 5 jours",
+      "Pneumonie grave : hospitalisation et ceftriaxone",
+      "Simple rhume : antitussif",
+      "Asthme : corticoïdes oraux seuls"
+     ],
+     "bonne": 0,
+     "explication": "Respiration rapide (≥ 40/min de 12 mois à 5 ans) et tirage sous-costal sans signe général de danger : pneumonie traitée par amoxicilline orale, avec contrôle à 2 jours."
+    },
+    {
+     "info": "Au contrôle du 2e jour, elle ne peut plus boire et la SpO₂ est à 88 %.",
+     "question": "Quelle conduite ?",
+     "options": [
+      "Continuer l'amoxicilline orale",
+      "Hospitalisation, oxygène, ampicilline (ou pénicilline) + gentamicine IV",
+      "Ajouter du salbutamol et revoir dans 2 jours",
+      "Ciprofloxacine orale"
+     ],
+     "bonne": 1,
+     "explication": "Incapacité de boire et SpO₂ < 90 % : pneumonie grave. Oxygène pour une SpO₂ ≥ 90 % et antibiothérapie injectable."
+    },
+    {
+     "info": "",
+     "question": "Quelle dose de gentamicine pour 10 kg ?",
+     "options": [
+      "10 mg trois fois par jour",
+      "150 mg une fois par jour",
+      "75 mg une fois par jour (7,5 mg/kg/jour)",
+      "7,5 mg une fois par jour"
+     ],
+     "bonne": 2,
+     "explication": "Gentamicine 7,5 mg/kg en une injection par jour, soit 75 mg pour 10 kg. Toujours vérifier le calcul avec l'outil « Dose selon le poids »."
+    }
+   ],
+   "conclusion": "Selon la PCIME, le tirage sous-costal sans signe de danger se traite par amoxicilline orale ; l'apparition d'un signe de danger ou d'une hypoxie impose l'hospitalisation, l'oxygène et un traitement injectable.",
+   "pathologie": 13,
+   "source": "OMS, PCIME (révision 2014) ; Pocket Book of Hospital Care for Children"
+  },
+  {
+   "id": "morsure-serpent",
+   "titre": "Morsure de serpent au champ",
+   "theme": "urgences",
+   "niveau": "Niveau 2",
+   "presentation": "Cultivateur de 40 ans mordu à la cheville il y a 2 heures. Le gonflement remonte jusqu'au genou. Il saigne des gencives.",
+   "etapes": [
+    {
+     "info": "Un garrot serré a été posé au village.",
+     "question": "Quels gestes de premier secours sont adaptés ?",
+     "options": [
+      "Inciser et aspirer la plaie",
+      "Serrer davantage le garrot",
+      "Appliquer de la glace et des herbes",
+      "Retirer progressivement le garrot sous surveillance, immobiliser le membre, rassurer"
+     ],
+     "bonne": 3,
+     "explication": "Pas d'incision, d'aspiration ni de garrot artériel. On immobilise le membre et on retire le garrot avec précaution, prêt à traiter une aggravation."
+    },
+    {
+     "info": "Test de coagulation sur tube sec (TCST20) : le sang n'est pas coagulé après 20 minutes.",
+     "question": "Faut-il donner du sérum antivenimeux ?",
+     "options": [
+      "Oui : sérum antivenimeux polyvalent IV, avec adrénaline prête en cas de réaction",
+      "Non : il suffit de surveiller",
+      "Oui, mais en injection autour de la morsure",
+      "Non : vitamine K seule"
+     ],
+     "bonne": 0,
+     "explication": "Un trouble de la coagulation est une indication formelle du sérum antivenimeux, en perfusion IV, dans une structure capable de traiter une anaphylaxie."
+    },
+    {
+     "info": "Le sérum a été administré.",
+     "question": "Comment évaluer son efficacité ?",
+     "options": [
+      "Pas de contrôle nécessaire",
+      "Refaire le TCST20 6 heures après : s'il reste anormal, redonner une dose",
+      "Mesurer la glycémie toutes les heures",
+      "Contrôler seulement la température"
+     ],
+     "bonne": 1,
+     "explication": "On répète le test de coagulation 6 heures après chaque dose et on renouvelle le sérum tant que le sang ne coagule pas."
+    }
+   ],
+   "conclusion": "Envenimation avec trouble de la coagulation : immobiliser, sérum antivenimeux IV adapté à la région avec adrénaline prête, contrôle du test de coagulation et nouvelle dose si nécessaire.",
+   "pathologie": 40,
+   "source": "OMS, Guidelines for the management of snakebites ; MSF, Guide clinique et thérapeutique"
+  },
+  {
+   "id": "organophosphores",
+   "titre": "Agriculteur en détresse après un traitement des champs",
+   "theme": "pharmaco",
+   "niveau": "Niveau 2",
+   "presentation": "Homme de 35 ans trouvé confus après avoir pulvérisé un insecticide. Pupilles en tête d'épingle, salivation abondante, râles bronchiques, sueurs, FC 48/min, vomissements.",
+   "etapes": [
+    {
+     "info": "",
+     "question": "Quel est le diagnostic le plus probable ?",
+     "options": [
+      "Intoxication aux organophosphorés (syndrome cholinergique)",
+      "Paludisme grave",
+      "Overdose aux opioïdes",
+      "Méningite"
+     ],
+     "bonne": 0,
+     "explication": "Myosis, hypersalivation, bronchorrhée, bradycardie et sueurs après exposition à un insecticide : syndrome muscarinique d'une intoxication aux organophosphorés."
+    },
+    {
+     "info": "Les vêtements ont été retirés et la peau lavée par un soignant protégé.",
+     "question": "Quel antidote donner et comment ?",
+     "options": [
+      "Naloxone 0,4 mg IV",
+      "Atropine 1 à 2 mg IV, dose doublée toutes les 5 minutes jusqu'à poumons secs, FC > 80 et PAS > 80 mmHg",
+      "Diazépam seul",
+      "Atropine 0,5 mg une seule fois"
+     ],
+     "bonne": 1,
+     "explication": "L'atropine est donnée à doses croissantes, parfois très élevées, jusqu'à disparition de la bronchorrhée. Une tachycardie modérée n'est pas une contre-indication."
+    },
+    {
+     "info": "Le patient est stabilisé sous atropine.",
+     "question": "Quelle surveillance ?",
+     "options": [
+      "Sortie le jour même",
+      "Surveillance rapprochée au moins 48 à 72 heures (récidive, faiblesse respiratoire retardée)",
+      "Surveillance de la glycémie seule",
+      "Aucune, l'atropine suffit"
+     ],
+     "bonne": 1,
+     "explication": "Les rechutes et le syndrome intermédiaire (paralysie respiratoire retardée) imposent une surveillance prolongée ; chercher aussi une intention suicidaire."
+    }
+   ],
+   "conclusion": "Syndrome cholinergique : protéger le personnel, décontaminer, oxygène, atropine à doses croissantes jusqu'à assèchement bronchique, pralidoxime si disponible, surveillance prolongée.",
+   "pathologie": 172,
+   "source": "OMS, prise en charge des intoxications par pesticides ; MSF"
+  },
+  {
+   "id": "meningite-purpura",
+   "titre": "Fièvre et taches violacées",
+   "theme": "urgences",
+   "niveau": "Niveau 2",
+   "presentation": "Garçon de 6 ans, fièvre à 39,8 °C depuis 12 heures, vomissements, raideur de nuque. Apparition de taches violacées qui ne s'effacent pas à la pression sur les jambes. FC 140/min, temps de recoloration 4 secondes.",
+   "etapes": [
+    {
+     "info": "",
+     "question": "Quelle est la priorité ?",
+     "options": [
+      "Faire d'abord une ponction lombaire",
+      "Attendre les résultats de la NFS",
+      "Ceftriaxone 100 mg/kg IV ou IM immédiatement",
+      "Paracétamol et surveillance"
+     ],
+     "bonne": 2,
+     "explication": "Un purpura fébrile qui s'étend est une urgence absolue : antibiotique sans attendre aucun examen."
+    },
+    {
+     "info": "Le temps de recoloration reste à 4 secondes après l'antibiotique.",
+     "question": "Quelle autre mesure immédiate ?",
+     "options": [
+      "Remplissage par 10 à 20 ml/kg de soluté isotonique, oxygène, réévaluation",
+      "Restriction hydrique",
+      "Corticoïdes oraux",
+      "Transfusion systématique"
+     ],
+     "bonne": 0,
+     "explication": "Signes de choc : remplissage prudent et oxygène, avec surveillance étroite et transfert en soins intensifs si possible."
+    },
+    {
+     "info": "Le diagnostic de méningocoque est confirmé.",
+     "question": "Que proposer aux personnes vivant sous le même toit ?",
+     "options": [
+      "Rien",
+      "Ciprofloxacine en dose unique (ou rifampicine) et information sur les signes d'alerte",
+      "Amoxicilline pendant 10 jours",
+      "Vaccin seul, sans antibiotique"
+     ],
+     "bonne": 1,
+     "explication": "Une chimioprophylaxie en dose unique est proposée aux contacts proches, avec notification aux autorités sanitaires."
+    }
+   ],
+   "conclusion": "Purpura fébrile avec signes de choc : antibiotique immédiat (ceftriaxone), remplissage, réanimation ; la ponction lombaire ne doit pas retarder le traitement. Prophylaxie de l'entourage proche.",
+   "pathologie": 4,
+   "source": "OMS, prise en charge de la méningite ; MSF, Guide clinique et thérapeutique"
+  },
+  {
+   "id": "mas-compliquee",
+   "titre": "Nourrisson œdémateux qui ne mange plus",
+   "theme": "pediatrie",
+   "niveau": "Niveau 2",
+   "presentation": "Fille de 14 mois, 6,2 kg, périmètre brachial 108 mm, œdèmes des pieds et des jambes (++). Elle refuse l'ATPE au test de l'appétit. Température 35,2 °C.",
+   "etapes": [
+    {
+     "info": "",
+     "question": "Quelle prise en charge ?",
+     "options": [
+      "Traitement ambulatoire avec ATPE",
+      "Hospitalisation (unité nutritionnelle intensive) et lait F-75",
+      "Perfusion de glucosé et retour à domicile",
+      "Régime normal et vitamines"
+     ],
+     "bonne": 1,
+     "explication": "Œdèmes, échec du test de l'appétit et hypothermie : malnutrition aiguë sévère compliquée, à traiter en hospitalisation avec F-75."
+    },
+    {
+     "info": "L'enfant est réchauffée (contact peau à peau, couverture).",
+     "question": "Quel traitement anti-infectieux ?",
+     "options": [
+      "Aucun sans fièvre",
+      "Amoxicilline orale seule",
+      "Ampicilline + gentamicine (antibiothérapie systématique)",
+      "Ceftriaxone uniquement en cas de diarrhée"
+     ],
+     "bonne": 2,
+     "explication": "Les enfants sévèrement malnutris compliqués reçoivent systématiquement des antibiotiques, même sans fièvre : l'infection est souvent silencieuse."
+    },
+    {
+     "info": "Elle a des selles liquides sans signe de choc.",
+     "question": "Comment la réhydrater ?",
+     "options": [
+      "Ringer lactate 30 ml/kg en 30 minutes",
+      "SRO standard à volonté",
+      "ReSoMal par voie orale ou sonde, par petites quantités, avec surveillance",
+      "Pas de réhydratation"
+     ],
+     "bonne": 2,
+     "explication": "Chez l'enfant malnutri, on utilise le ReSoMal par voie orale ; la perfusion est réservée au choc, à débit réduit, car le risque de surcharge cardiaque est élevé."
+    }
+   ],
+   "conclusion": "Malnutrition aiguë sévère compliquée : hospitalisation, réchauffement, prévention de l'hypoglycémie, antibiotiques systématiques, F-75 puis transition progressive ; réhydratation prudente par ReSoMal.",
+   "pathologie": 30,
+   "source": "OMS, prise en charge de la malnutrition aiguë sévère ; protocole national PCIMA"
   }
  ],
  "pathologies": [
