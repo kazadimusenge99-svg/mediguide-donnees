@@ -35,6 +35,13 @@ for p in meds["pathologies"]:
     for d in p.get("medicaments", []):
         if d not in dcis: err(f"pathologie {p['id']} : médicament inconnu « {d} » (utiliser la DCI exacte)")
 
+# --- symptômes (dans meds.json) ---
+for y in meds.get("symptomes", []):
+    for k in ("id", "nom", "pictogramme", "couleur", "resume", "alarme", "questions", "examens", "orientations", "conduite"):
+        if k not in y: err(f"symptôme {y.get('id')} : champ {k} manquant")
+    for o in y.get("orientations", []):
+        if o.get("pathologie") not in pid: err(f"symptôme {y.get('id')} : pathologie {o.get('pathologie')} inexistante")
+
 # --- actualites.json ---
 a = json.load(open("actualites.json", encoding="utf-8"))
 if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", a.get("dateIsoActualites", "")): err("actualites.json : dateIsoActualites invalide")

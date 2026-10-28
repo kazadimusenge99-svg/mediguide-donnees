@@ -1,5 +1,5 @@
 {
- "version": 19,
+ "version": 20,
  "dateMiseAJour": "2026-10-28",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -31976,6 +31976,1594 @@
    "bonne": 1,
    "explication": "4 ml/kg/h pour les 10 premiers kg (40) + 2 ml/kg/h pour les 5 kg suivants (10) = 50 ml/h (1 250 ml/jour).",
    "pathologie": -1
+  }
+ ],
+ "symptomes": [
+  {
+   "id": "fievre",
+   "nom": "Fièvre",
+   "pictogramme": "thermometre",
+   "couleur": "#C62828",
+   "resume": "Température ≥ 37,5 °C (axillaire) ou ≥ 38 °C (rectale). En RDC, toute fièvre impose d'abord un test de paludisme.",
+   "alarme": [
+    "Troubles de la conscience, convulsions",
+    "Détresse respiratoire, SpO₂ < 90 %",
+    "Pouls rapide et faible, extrémités froides, TRC > 3 s",
+    "Raideur de nuque, purpura",
+    "Saignements",
+    "Nourrisson de moins de 2 mois",
+    "Contact avec un cas d'Ebola ou de fièvre hémorragique"
+   ],
+   "questions": [
+    "Durée de la fièvre (plus de 7 jours : penser typhoïde, tuberculose, VIH)",
+    "Voyage, zone d'épidémie, contact avec un malade",
+    "Toux, diarrhée, brûlures urinaires, douleur localisée",
+    "Éruption, ictère, raideur de nuque",
+    "Statut vaccinal (rougeole), VIH, grossesse"
+   ],
+   "examens": [
+    "TDR ou goutte épaisse pour le paludisme (systématique)",
+    "NFS si disponible",
+    "Bandelette urinaire",
+    "Hémoculture, ponction lombaire selon l'orientation",
+    "Test VIH si fièvre prolongée"
+   ],
+   "orientations": [
+    {
+     "pathologie": 1,
+     "indice": "TDR positif, sans signe de gravité"
+    },
+    {
+     "pathologie": 2,
+     "indice": "TDR positif avec un signe de gravité"
+    },
+    {
+     "pathologie": 4,
+     "indice": "raideur de nuque, bombement de la fontanelle, purpura"
+    },
+    {
+     "pathologie": 13,
+     "indice": "toux et respiration rapide chez l'enfant"
+    },
+    {
+     "pathologie": 14,
+     "indice": "toux, douleur thoracique, crépitants"
+    },
+    {
+     "pathologie": 25,
+     "indice": "brûlures mictionnelles, douleur lombaire"
+    },
+    {
+     "pathologie": 3,
+     "indice": "fièvre progressive de plus de 5 jours, douleurs abdominales"
+    },
+    {
+     "pathologie": 89,
+     "indice": "fièvre, douleurs musculaires intenses, éruption"
+    },
+    {
+     "pathologie": 12,
+     "indice": "éruption, toux, conjonctivite, enfant non vacciné"
+    },
+    {
+     "pathologie": 186,
+     "indice": "fièvre avec hypotension ou confusion"
+    },
+    {
+     "pathologie": 63,
+     "indice": "fièvre avec contact ou séjour en zone d'épidémie"
+    },
+    {
+     "pathologie": 120,
+     "indice": "fièvre sans orientation évidente"
+    }
+   ],
+   "conduite": [
+    "Paracétamol 15 mg/kg toutes les 6 h (pas d'aspirine chez l'enfant ni en cas de suspicion de dengue)",
+    "Hydratation",
+    "Traiter la cause ; ne pas donner d'antipaludique si le TDR est négatif",
+    "Référer en urgence s'il existe un signe d'alarme"
+   ]
+  },
+  {
+   "id": "toux",
+   "nom": "Toux et difficultés respiratoires",
+   "pictogramme": "poumons",
+   "couleur": "#0277BD",
+   "resume": "Motif très fréquent. Chez l'enfant, compter la fréquence respiratoire sur une minute entière et rechercher un tirage.",
+   "alarme": [
+    "Cyanose, SpO₂ < 90 %",
+    "Tirage sous-costal marqué, stridor au repos",
+    "Incapacité de boire, léthargie, convulsions",
+    "Hémoptysie abondante",
+    "Silence auscultatoire, impossibilité de parler (asthme grave)"
+   ],
+   "questions": [
+    "Durée : aiguë (< 3 semaines) ou chronique (≥ 2 semaines : penser tuberculose)",
+    "Fièvre, sifflements, crachats purulents ou sanglants",
+    "Amaigrissement, sueurs nocturnes, contact tuberculeux, VIH",
+    "Quintes avec reprise inspiratoire (coqueluche)",
+    "Tabac, BPCO, insuffisance cardiaque"
+   ],
+   "examens": [
+    "SpO₂",
+    "Fréquence respiratoire",
+    "Recherche de tuberculose (GeneXpert, crachats) si toux ≥ 2 semaines",
+    "Radiographie du thorax si disponible",
+    "Test VIH"
+   ],
+   "orientations": [
+    {
+     "pathologie": 13,
+     "indice": "respiration rapide ou tirage chez l'enfant"
+    },
+    {
+     "pathologie": 14,
+     "indice": "fièvre, douleur thoracique, crépitants"
+    },
+    {
+     "pathologie": 81,
+     "indice": "nourrisson de moins de 2 ans, sibilants, premier épisode"
+    },
+    {
+     "pathologie": 15,
+     "indice": "sifflements, épisodes répétés, terrain allergique"
+    },
+    {
+     "pathologie": 5,
+     "indice": "toux de plus de 2 semaines, amaigrissement, sueurs"
+    },
+    {
+     "pathologie": 82,
+     "indice": "quintes, reprise inspiratoire bruyante, vomissements"
+    },
+    {
+     "pathologie": 125,
+     "indice": "toux aboyante, stridor, enfant"
+    },
+    {
+     "pathologie": 43,
+     "indice": "essoufflement à l'effort, œdèmes, orthopnée"
+    },
+    {
+     "pathologie": 129,
+     "indice": "fumeur, toux chronique productive"
+    },
+    {
+     "pathologie": 91,
+     "indice": "fièvre, courbatures, contexte épidémique"
+    }
+   ],
+   "conduite": [
+    "Oxygène si SpO₂ < 90 %",
+    "Amoxicilline orale si pneumonie sans signe de gravité (PCIME)",
+    "Salbutamol si sibilants",
+    "Isoler et rechercher la tuberculose si toux prolongée"
+   ]
+  },
+  {
+   "id": "diarrhee",
+   "nom": "Diarrhée",
+   "pictogramme": "goutte",
+   "couleur": "#0277BD",
+   "resume": "Au moins 3 selles liquides par jour. Le danger principal est la déshydratation, surtout chez l'enfant et en cas de choléra.",
+   "alarme": [
+    "Léthargie, inconscience",
+    "Incapacité de boire",
+    "Yeux très enfoncés, pli cutané persistant (> 2 s)",
+    "Pouls faible ou imperceptible",
+    "Sang dans les selles avec fièvre élevée",
+    "Malnutrition sévère associée"
+   ],
+   "questions": [
+    "Durée (persistante si ≥ 14 jours)",
+    "Aspect : aqueuse « eau de riz », glairo-sanglante",
+    "Vomissements, fièvre, douleurs",
+    "Cas similaires dans l'entourage (épidémie)",
+    "Statut VIH, malnutrition"
+   ],
+   "examens": [
+    "Évaluation de la déshydratation (plans A, B, C de l'OMS)",
+    "Glycémie si léthargie",
+    "Examen des selles si dysenterie ou diarrhée persistante",
+    "Test rapide du choléra en contexte d'épidémie"
+   ],
+   "orientations": [
+    {
+     "pathologie": 18,
+     "indice": "diarrhée aqueuse, évaluer la déshydratation"
+    },
+    {
+     "pathologie": 19,
+     "indice": "selles « eau de riz » abondantes, épidémie, adulte déshydraté"
+    },
+    {
+     "pathologie": 20,
+     "indice": "sang dans les selles, fièvre, ténesme"
+    },
+    {
+     "pathologie": 21,
+     "indice": "selles glairo-sanglantes sans fièvre importante"
+    },
+    {
+     "pathologie": 147,
+     "indice": "diarrhée persistante, VIH"
+    },
+    {
+     "pathologie": 30,
+     "indice": "enfant maigre ou œdémateux"
+    },
+    {
+     "pathologie": 3,
+     "indice": "fièvre prolongée avec troubles digestifs"
+    }
+   ],
+   "conduite": [
+    "SRO et poursuite de l'alimentation (plan A ou B)",
+    "Plan C (Ringer lactate IV) si déshydratation sévère",
+    "Zinc 10 à 14 jours chez l'enfant",
+    "Antibiotique seulement si sang dans les selles ou choléra grave",
+    "Pas d'antidiarrhéique chez l'enfant"
+   ]
+  },
+  {
+   "id": "vomissements",
+   "nom": "Vomissements",
+   "pictogramme": "estomac",
+   "couleur": "#8D6E63",
+   "resume": "Symptôme non spécifique : rechercher une cause grave (méningite, occlusion, acidocétose, grossesse, intoxication).",
+   "alarme": [
+    "Vomissements en jet avec céphalées ou fièvre (méningite, hypertension intracrânienne)",
+    "Vomissements verts ou fécaloïdes, ventre distendu (occlusion)",
+    "Sang dans les vomissements",
+    "Déshydratation sévère",
+    "Troubles de la conscience"
+   ],
+   "questions": [
+    "Grossesse possible",
+    "Diarrhée associée, douleur abdominale",
+    "Céphalées, raideur de nuque",
+    "Diabète, prise de médicaments ou de toxiques",
+    "Traumatisme crânien"
+   ],
+   "examens": [
+    "Test de grossesse",
+    "Glycémie, bandelette urinaire (cétones)",
+    "Examen de l'abdomen",
+    "Évaluation de la déshydratation"
+   ],
+   "orientations": [
+    {
+     "pathologie": 18,
+     "indice": "avec diarrhée"
+    },
+    {
+     "pathologie": 60,
+     "indice": "douleur abdominale, défense, arrêt des matières"
+    },
+    {
+     "pathologie": 4,
+     "indice": "fièvre, céphalées, raideur de nuque"
+    },
+    {
+     "pathologie": 45,
+     "indice": "diabétique, soif, respiration profonde"
+    },
+    {
+     "pathologie": 2,
+     "indice": "fièvre, vomissements répétés empêchant le traitement oral"
+    },
+    {
+     "pathologie": 49,
+     "indice": "douleur épigastrique, sang noir"
+    },
+    {
+     "pathologie": 41,
+     "indice": "ingestion de produit"
+    }
+   ],
+   "conduite": [
+    "Réhydratation par petites quantités fréquentes",
+    "Antiémétique (métoclopramide ou ondansétron) si besoin chez l'adulte",
+    "Rechercher et traiter la cause ; référer si signe d'alarme"
+   ]
+  },
+  {
+   "id": "douleur-abdominale",
+   "nom": "Douleur abdominale",
+   "pictogramme": "estomac",
+   "couleur": "#8D6E63",
+   "resume": "Identifier d'abord une urgence chirurgicale, une grossesse extra-utérine ou une cause médicale grave.",
+   "alarme": [
+    "Défense ou contracture abdominale",
+    "Ventre distendu, arrêt des matières et des gaz",
+    "Choc, pâleur, malaise (hémorragie interne)",
+    "Femme en âge de procréer avec retard de règles",
+    "Fièvre élevée avec douleur localisée"
+   ],
+   "questions": [
+    "Siège : épigastre, fosse iliaque droite, hypogastre, lombes",
+    "Début brutal ou progressif",
+    "Retard de règles, pertes vaginales",
+    "Troubles urinaires, ictère, vomissements",
+    "Antécédent de chirurgie (occlusion sur bride)"
+   ],
+   "examens": [
+    "Test de grossesse chez toute femme en âge de procréer",
+    "Bandelette urinaire",
+    "NFS, échographie si disponible",
+    "Recherche de sang occulte ou de méléna"
+   ],
+   "orientations": [
+    {
+     "pathologie": 60,
+     "indice": "défense, contracture, occlusion"
+    },
+    {
+     "pathologie": 85,
+     "indice": "retard de règles, douleur pelvienne, malaise"
+    },
+    {
+     "pathologie": 154,
+     "indice": "douleur pelvienne, fièvre, pertes"
+    },
+    {
+     "pathologie": 155,
+     "indice": "femme, douleur basse"
+    },
+    {
+     "pathologie": 62,
+     "indice": "douleur lombaire brutale irradiant vers les organes génitaux"
+    },
+    {
+     "pathologie": 49,
+     "indice": "douleur épigastrique rythmée par les repas"
+    },
+    {
+     "pathologie": 25,
+     "indice": "brûlures mictionnelles, fièvre"
+    },
+    {
+     "pathologie": 3,
+     "indice": "fièvre prolongée"
+    },
+    {
+     "pathologie": 32,
+     "indice": "patient drépanocytaire"
+    },
+    {
+     "pathologie": 11,
+     "indice": "enfant, douleurs vagues récidivantes"
+    }
+   ],
+   "conduite": [
+    "Ne pas donner de purge ; antalgiques autorisés (ils ne masquent pas le diagnostic)",
+    "Voie veineuse et avis chirurgical si signe d'alarme",
+    "Rien par la bouche en cas de suspicion chirurgicale"
+   ]
+  },
+  {
+   "id": "cephalees",
+   "nom": "Céphalées",
+   "pictogramme": "cerveau",
+   "couleur": "#3949AB",
+   "resume": "La plupart sont bénignes ; rechercher systématiquement les signes d'une cause grave.",
+   "alarme": [
+    "Céphalée brutale, « la pire de sa vie »",
+    "Fièvre avec raideur de nuque",
+    "Déficit neurologique, convulsions, confusion",
+    "Grossesse ou post-partum avec PA élevée",
+    "Céphalée progressive avec vomissements (hypertension intracrânienne)",
+    "Patient VIH"
+   ],
+   "questions": [
+    "Mode de début, ancienneté, évolution",
+    "Fièvre, vomissements, troubles visuels",
+    "Pression artérielle",
+    "Grossesse",
+    "Traumatisme récent"
+   ],
+   "examens": [
+    "Pression artérielle",
+    "TDR paludisme si fièvre",
+    "Bandelette urinaire (protéinurie) chez la femme enceinte",
+    "Ponction lombaire si suspicion de méningite (après examen neurologique)"
+   ],
+   "orientations": [
+    {
+     "pathologie": 114,
+     "indice": "céphalées récidivantes, examen normal"
+    },
+    {
+     "pathologie": 4,
+     "indice": "fièvre et raideur de nuque"
+    },
+    {
+     "pathologie": 1,
+     "indice": "fièvre en zone d'endémie"
+    },
+    {
+     "pathologie": 34,
+     "indice": "grossesse, PA ≥ 140/90, protéinurie"
+    },
+    {
+     "pathologie": 205,
+     "indice": "PA ≥ 180/110 avec atteinte d'organe"
+    },
+    {
+     "pathologie": 46,
+     "indice": "déficit brutal"
+    },
+    {
+     "pathologie": 71,
+     "indice": "VIH avancé, céphalées progressives"
+    },
+    {
+     "pathologie": 99,
+     "indice": "douleur faciale, écoulement nasal purulent"
+    },
+    {
+     "pathologie": 97,
+     "indice": "après un choc"
+    }
+   ],
+   "conduite": [
+    "Paracétamol ou ibuprofène pour les céphalées simples",
+    "Mesurer la PA et la température",
+    "Référer en urgence devant un signe d'alarme"
+   ]
+  },
+  {
+   "id": "convulsions",
+   "nom": "Convulsions",
+   "pictogramme": "cerveau",
+   "couleur": "#3949AB",
+   "resume": "Urgence : arrêter la crise, protéger les voies aériennes, mesurer la glycémie et chercher la cause.",
+   "alarme": [
+    "Crise de plus de 5 minutes ou crises répétées sans reprise de conscience",
+    "Fièvre avec troubles de conscience (paludisme grave, méningite)",
+    "Grossesse ou post-partum (éclampsie)",
+    "Traumatisme crânien",
+    "Nourrisson de moins de 6 mois"
+   ],
+   "questions": [
+    "Durée, type de crise, premier épisode ou épilepsie connue",
+    "Fièvre, âge (convulsion fébrile entre 6 mois et 5 ans)",
+    "Grossesse",
+    "Prise de toxiques, sevrage d'alcool",
+    "Traumatisme"
+   ],
+   "examens": [
+    "Glycémie capillaire immédiate",
+    "TDR paludisme",
+    "Pression artérielle et protéinurie chez la femme enceinte",
+    "Ponction lombaire selon le contexte"
+   ],
+   "orientations": [
+    {
+     "pathologie": 38,
+     "indice": "crise en cours ou prolongée"
+    },
+    {
+     "pathologie": 2,
+     "indice": "fièvre en zone d'endémie"
+    },
+    {
+     "pathologie": 4,
+     "indice": "fièvre et raideur de nuque"
+    },
+    {
+     "pathologie": 34,
+     "indice": "grossesse, PA élevée"
+    },
+    {
+     "pathologie": 39,
+     "indice": "glycémie < 3 mmol/l"
+    },
+    {
+     "pathologie": 52,
+     "indice": "crises récidivantes sans fièvre"
+    },
+    {
+     "pathologie": 118,
+     "indice": "première crise de l'adulte, zone d'élevage porcin"
+    },
+    {
+     "pathologie": 7,
+     "indice": "contractures et spasmes, conscience conservée"
+    }
+   ],
+   "conduite": [
+    "Position latérale de sécurité, ne rien mettre dans la bouche",
+    "Diazépam 0,5 mg/kg en intrarectal (enfant) ou 10 mg IV lent (adulte) si crise > 5 minutes",
+    "Glucose 10 % 5 ml/kg si hypoglycémie",
+    "Sulfate de magnésium si éclampsie"
+   ]
+  },
+  {
+   "id": "trouble-conscience",
+   "nom": "Troubles de la conscience, coma",
+   "pictogramme": "alerte",
+   "couleur": "#B71C1C",
+   "resume": "Urgence vitale : assurer voies aériennes, respiration et circulation avant toute recherche de cause.",
+   "alarme": [
+    "Glasgow ≤ 8 (protéger les voies aériennes)",
+    "Respiration irrégulière ou lente",
+    "Choc",
+    "Pupilles asymétriques",
+    "Purpura, raideur de nuque"
+   ],
+   "questions": [
+    "Mode d'installation",
+    "Fièvre, convulsions",
+    "Diabète, insuffisance rénale ou hépatique",
+    "Toxiques, alcool, médicaments",
+    "Traumatisme"
+   ],
+   "examens": [
+    "Glycémie capillaire (toujours en premier)",
+    "TDR paludisme",
+    "Pression artérielle, SpO₂, température",
+    "Score de Glasgow ou de Blantyre"
+   ],
+   "orientations": [
+    {
+     "pathologie": 39,
+     "indice": "glycémie basse"
+    },
+    {
+     "pathologie": 2,
+     "indice": "fièvre en zone d'endémie"
+    },
+    {
+     "pathologie": 4,
+     "indice": "fièvre, raideur de nuque"
+    },
+    {
+     "pathologie": 46,
+     "indice": "déficit d'un côté"
+    },
+    {
+     "pathologie": 45,
+     "indice": "diabète, respiration profonde"
+    },
+    {
+     "pathologie": 41,
+     "indice": "prise de toxique"
+    },
+    {
+     "pathologie": 97,
+     "indice": "après un choc"
+    },
+    {
+     "pathologie": 163,
+     "indice": "confusion fluctuante chez le sujet âgé"
+    },
+    {
+     "pathologie": 184,
+     "indice": "fièvre, convulsions, troubles du comportement"
+    }
+   ],
+   "conduite": [
+    "Position latérale de sécurité, oxygène",
+    "Glucose IV si glycémie < 3 mmol/l",
+    "Traitement présomptif du paludisme grave en zone d'endémie si TDR positif",
+    "Transfert vers une structure de référence"
+   ]
+  },
+  {
+   "id": "dyspnee",
+   "nom": "Essoufflement (dyspnée)",
+   "pictogramme": "poumons",
+   "couleur": "#0277BD",
+   "resume": "Évaluer immédiatement la gravité (fréquence respiratoire, SpO₂, tirage, capacité à parler).",
+   "alarme": [
+    "SpO₂ < 90 %, cyanose",
+    "Fréquence respiratoire > 30/min chez l'adulte",
+    "Impossibilité de parler, épuisement",
+    "Douleur thoracique associée",
+    "Choc ou troubles de la conscience"
+   ],
+   "questions": [
+    "Début brutal ou progressif",
+    "Fièvre, toux, sifflements",
+    "Œdèmes des jambes, orthopnée",
+    "Douleur thoracique, immobilisation récente",
+    "Anémie, grossesse"
+   ],
+   "examens": [
+    "SpO₂",
+    "Pression artérielle, fréquence cardiaque",
+    "Hémoglobine",
+    "ECG et radiographie si disponibles"
+   ],
+   "orientations": [
+    {
+     "pathologie": 14,
+     "indice": "fièvre, toux, crépitants"
+    },
+    {
+     "pathologie": 15,
+     "indice": "sifflements, antécédents"
+    },
+    {
+     "pathologie": 43,
+     "indice": "œdèmes, orthopnée, crépitants bilatéraux"
+    },
+    {
+     "pathologie": 48,
+     "indice": "début brutal, jambe gonflée, immobilisation"
+    },
+    {
+     "pathologie": 33,
+     "indice": "pâleur intense"
+    },
+    {
+     "pathologie": 37,
+     "indice": "après piqûre, aliment ou médicament"
+    },
+    {
+     "pathologie": 45,
+     "indice": "respiration rapide et profonde chez un diabétique"
+    },
+    {
+     "pathologie": 122,
+     "indice": "stridor, corps étranger"
+    }
+   ],
+   "conduite": [
+    "Position assise, oxygène",
+    "Salbutamol si sibilants",
+    "Adrénaline IM si anaphylaxie",
+    "Référer si signe de gravité"
+   ]
+  },
+  {
+   "id": "douleur-thoracique",
+   "nom": "Douleur thoracique",
+   "pictogramme": "coeur",
+   "couleur": "#D32F2F",
+   "resume": "Éliminer d'abord les causes qui tuent : syndrome coronarien, embolie pulmonaire, dissection, pneumothorax.",
+   "alarme": [
+    "Douleur constrictive irradiant au bras ou à la mâchoire",
+    "Sueurs, malaise, hypotension",
+    "Dyspnée, SpO₂ basse",
+    "Douleur déchirante irradiant dans le dos",
+    "Syncope"
+   ],
+   "questions": [
+    "Caractère de la douleur, durée, facteurs déclenchants",
+    "Facteurs de risque cardiovasculaire",
+    "Immobilisation, chirurgie récente, jambe gonflée",
+    "Fièvre, toux (pneumonie)",
+    "Douleur à la palpation (pariétale)"
+   ],
+   "examens": [
+    "ECG le plus tôt possible",
+    "Troponine si disponible",
+    "SpO₂, pression artérielle aux deux bras",
+    "Radiographie du thorax"
+   ],
+   "orientations": [
+    {
+     "pathologie": 47,
+     "indice": "douleur constrictive, facteurs de risque"
+    },
+    {
+     "pathologie": 48,
+     "indice": "dyspnée brutale, tachycardie"
+    },
+    {
+     "pathologie": 14,
+     "indice": "fièvre, toux, douleur à l'inspiration"
+    },
+    {
+     "pathologie": 49,
+     "indice": "brûlure épigastrique"
+    },
+    {
+     "pathologie": 133,
+     "indice": "brûlure rétrosternale après les repas"
+    },
+    {
+     "pathologie": 32,
+     "indice": "syndrome thoracique aigu chez le drépanocytaire"
+    }
+   ],
+   "conduite": [
+    "Repos, oxygène si SpO₂ < 90 %",
+    "Aspirine 300 mg à croquer si suspicion de syndrome coronarien (sans contre-indication)",
+    "Transfert médicalisé si signe d'alarme"
+   ]
+  },
+  {
+   "id": "ictere",
+   "nom": "Ictère (jaunisse)",
+   "pictogramme": "pomme",
+   "couleur": "#F9A825",
+   "resume": "Coloration jaune de la peau et des yeux : distinguer la cause hémolytique, hépatique ou obstructive.",
+   "alarme": [
+    "Troubles de la conscience (insuffisance hépatique)",
+    "Saignements",
+    "Fièvre élevée avec frissons (angiocholite, paludisme grave)",
+    "Nouveau-né jaune dans les 24 premières heures ou jaune jusqu'aux paumes",
+    "Grossesse"
+   ],
+   "questions": [
+    "Âge (nouveau-né ?)",
+    "Fièvre, douleur de l'hypochondre droit",
+    "Urines foncées, selles décolorées",
+    "Alcool, médicaments, plantes",
+    "Vaccination, transfusions, VIH"
+   ],
+   "examens": [
+    "TDR paludisme",
+    "Hémoglobine",
+    "Bilirubine, transaminases si disponibles",
+    "Test de l'hépatite B (AgHBs)",
+    "Échographie abdominale"
+   ],
+   "orientations": [
+    {
+     "pathologie": 121,
+     "indice": "démarche générale"
+    },
+    {
+     "pathologie": 79,
+     "indice": "nouveau-né"
+    },
+    {
+     "pathologie": 2,
+     "indice": "fièvre, anémie, zone d'endémie"
+    },
+    {
+     "pathologie": 151,
+     "indice": "fièvre, fatigue, épidémie liée à l'eau"
+    },
+    {
+     "pathologie": 75,
+     "indice": "AgHBs positif"
+    },
+    {
+     "pathologie": 111,
+     "indice": "ascite, alcool, hépatite chronique"
+    },
+    {
+     "pathologie": 32,
+     "indice": "anémie hémolytique chez le drépanocytaire"
+    },
+    {
+     "pathologie": 70,
+     "indice": "fièvre, saignements, non vacciné"
+    },
+    {
+     "pathologie": 116,
+     "indice": "fièvre, douleurs musculaires, contact avec l'eau souillée"
+    }
+   ],
+   "conduite": [
+    "Ne pas donner de paracétamol à forte dose ni de médicaments hépatotoxiques sans avis",
+    "Photothérapie chez le nouveau-né selon le taux",
+    "Référer si signe d'alarme"
+   ]
+  },
+  {
+   "id": "paleur",
+   "nom": "Pâleur et anémie",
+   "pictogramme": "goutte",
+   "couleur": "#AD1457",
+   "resume": "La pâleur des paumes et des conjonctives oriente vers une anémie ; évaluer sa tolérance et sa cause.",
+   "alarme": [
+    "Dyspnée, tachycardie, insuffisance cardiaque",
+    "Hémoglobine < 5 g/dl (enfant) ou < 7 g/dl mal tolérée",
+    "Saignement actif",
+    "Troubles de la conscience"
+   ],
+   "questions": [
+    "Fièvre (paludisme)",
+    "Saignements : règles abondantes, selles noires, post-partum",
+    "Drépanocytose connue",
+    "Alimentation, grossesse, vers intestinaux",
+    "VIH, tuberculose"
+   ],
+   "examens": [
+    "Hémoglobine",
+    "TDR paludisme",
+    "Test d'Emmel ou électrophorèse si suspicion de drépanocytose",
+    "Examen des selles"
+   ],
+   "orientations": [
+    {
+     "pathologie": 33,
+     "indice": "hémoglobine très basse ou mal tolérée"
+    },
+    {
+     "pathologie": 2,
+     "indice": "fièvre, enfant"
+    },
+    {
+     "pathologie": 32,
+     "indice": "antécédents familiaux, crises douloureuses"
+    },
+    {
+     "pathologie": 11,
+     "indice": "ankylostomes, enfant d'âge scolaire"
+    },
+    {
+     "pathologie": 157,
+     "indice": "règles abondantes"
+    },
+    {
+     "pathologie": 49,
+     "indice": "selles noires"
+    },
+    {
+     "pathologie": 30,
+     "indice": "enfant malnutri"
+    },
+    {
+     "pathologie": 224,
+     "indice": "pâleur avec saignements, infections, ganglions"
+    }
+   ],
+   "conduite": [
+    "Transfusion si anémie sévère mal tolérée",
+    "Traiter le paludisme et déparasiter",
+    "Fer et acide folique si carence",
+    "Rechercher et arrêter un saignement"
+   ]
+  },
+  {
+   "id": "oedemes",
+   "nom": "Œdèmes",
+   "pictogramme": "goutte",
+   "couleur": "#00838F",
+   "resume": "Gonflement des tissus : préciser s'il est localisé (une jambe) ou généralisé (cœur, rein, foie, nutrition).",
+   "alarme": [
+    "Dyspnée avec œdèmes (œdème pulmonaire)",
+    "Grossesse avec PA élevée",
+    "Une seule jambe gonflée et douloureuse (thrombose)",
+    "Enfant œdémateux et maigre",
+    "Œdème du visage et des lèvres après exposition (anaphylaxie)"
+   ],
+   "questions": [
+    "Localisation (jambes, visage, généralisé)",
+    "Dyspnée, orthopnée",
+    "Urines mousseuses ou foncées",
+    "Alcool, hépatite",
+    "Alimentation de l'enfant"
+   ],
+   "examens": [
+    "Pression artérielle",
+    "Bandelette urinaire (protéinurie, hématurie)",
+    "Périmètre brachial chez l'enfant",
+    "Créatinine, albumine si disponibles"
+   ],
+   "orientations": [
+    {
+     "pathologie": 43,
+     "indice": "dyspnée, orthopnée, turgescence jugulaire"
+    },
+    {
+     "pathologie": 104,
+     "indice": "œdèmes du visage, protéinurie massive"
+    },
+    {
+     "pathologie": 105,
+     "indice": "urines foncées, PA élevée, enfant"
+    },
+    {
+     "pathologie": 111,
+     "indice": "gros ventre, ictère"
+    },
+    {
+     "pathologie": 30,
+     "indice": "œdèmes bilatéraux chez l'enfant (kwashiorkor)"
+    },
+    {
+     "pathologie": 34,
+     "indice": "grossesse, PA élevée"
+    },
+    {
+     "pathologie": 48,
+     "indice": "une seule jambe"
+    },
+    {
+     "pathologie": 67,
+     "indice": "lymphœdème chronique"
+    }
+   ],
+   "conduite": [
+    "Rechercher et traiter la cause ; diurétique seulement après diagnostic",
+    "Ne pas réhydrater par voie IV rapide un enfant malnutri œdémateux"
+   ]
+  },
+  {
+   "id": "eruption",
+   "nom": "Éruption cutanée",
+   "pictogramme": "virus",
+   "couleur": "#6A1B9A",
+   "resume": "Décrire l'éruption (taches, vésicules, purpura) et rechercher fièvre et signes de gravité.",
+   "alarme": [
+    "Purpura qui ne s'efface pas à la pression avec fièvre",
+    "Décollement de la peau, atteinte des muqueuses (réaction médicamenteuse grave)",
+    "Œdème du visage, gêne respiratoire",
+    "Nourrisson ou patient immunodéprimé fébrile"
+   ],
+   "questions": [
+    "Fièvre, âge, vaccination",
+    "Type de lésions et répartition",
+    "Prurit",
+    "Nouveau médicament dans les 3 semaines",
+    "Cas similaires dans l'entourage"
+   ],
+   "examens": [
+    "Pression sur les lésions (test du verre)",
+    "Température",
+    "Test VIH selon le contexte",
+    "Prélèvement de vésicule (PCR mpox) si suspicion"
+   ],
+   "orientations": [
+    {
+     "pathologie": 12,
+     "indice": "fièvre, toux, conjonctivite puis éruption du visage vers le corps"
+    },
+    {
+     "pathologie": 95,
+     "indice": "vésicules d'âges différents"
+    },
+    {
+     "pathologie": 64,
+     "indice": "vésicules et pustules, ganglions, contact"
+    },
+    {
+     "pathologie": 4,
+     "indice": "purpura fébrile"
+    },
+    {
+     "pathologie": 94,
+     "indice": "plaques qui démangent et migrent"
+    },
+    {
+     "pathologie": 26,
+     "indice": "démangeaisons nocturnes, sillons entre les doigts"
+    },
+    {
+     "pathologie": 89,
+     "indice": "fièvre et éruption, douleurs musculaires"
+    },
+    {
+     "pathologie": 27,
+     "indice": "croûtes jaunâtres, plaque rouge chaude"
+    },
+    {
+     "pathologie": 93,
+     "indice": "lésions sèches ou suintantes récidivantes"
+    }
+   ],
+   "conduite": [
+    "Antibiotique immédiat si purpura fébrile",
+    "Arrêter tout médicament suspect",
+    "Isoler en cas de rougeole, varicelle ou mpox",
+    "Antihistaminique si urticaire"
+   ]
+  },
+  {
+   "id": "prurit",
+   "nom": "Démangeaisons (prurit)",
+   "pictogramme": "pansement",
+   "couleur": "#AD6A2C",
+   "resume": "Rechercher une cause cutanée (gale, mycose, eczéma) ou générale (ictère, VIH, filariose).",
+   "alarme": [
+    "Prurit généralisé avec ictère",
+    "Lésions infectées avec fièvre",
+    "Plusieurs membres de la famille atteints (gale)"
+   ],
+   "questions": [
+    "Démangeaisons nocturnes, entourage atteint",
+    "Localisation",
+    "Ictère, amaigrissement",
+    "Statut VIH",
+    "Zone d'endémie de l'onchocercose"
+   ],
+   "examens": [
+    "Examen de toute la peau",
+    "Test VIH selon le contexte",
+    "Bilan hépatique si ictère"
+   ],
+   "orientations": [
+    {
+     "pathologie": 26,
+     "indice": "démangeaisons nocturnes, entourage atteint"
+    },
+    {
+     "pathologie": 92,
+     "indice": "plaques arrondies, cuir chevelu"
+    },
+    {
+     "pathologie": 93,
+     "indice": "lésions sèches, terrain atopique"
+    },
+    {
+     "pathologie": 94,
+     "indice": "plaques fugaces"
+    },
+    {
+     "pathologie": 67,
+     "indice": "prurit chronique en zone d'endémie"
+    },
+    {
+     "pathologie": 136,
+     "indice": "cuir chevelu"
+    },
+    {
+     "pathologie": 6,
+     "indice": "prurigo chronique"
+    }
+   ],
+   "conduite": [
+    "Traiter tous les contacts en même temps en cas de gale",
+    "Antihistaminique pour soulager",
+    "Couper les ongles, prévenir la surinfection"
+   ]
+  },
+  {
+   "id": "saignement",
+   "nom": "Saignements anormaux",
+   "pictogramme": "goutte",
+   "couleur": "#B71C1C",
+   "resume": "Évaluer d'abord l'état hémodynamique, puis la cause (locale, obstétricale, trouble de la coagulation, fièvre hémorragique).",
+   "alarme": [
+    "Choc (pouls rapide, PA basse, pâleur, sueurs)",
+    "Saignement après accouchement",
+    "Saignements multiples avec fièvre (fièvre hémorragique)",
+    "Morsure de serpent",
+    "Hémoptysie abondante"
+   ],
+   "questions": [
+    "Siège du saignement",
+    "Grossesse, accouchement récent",
+    "Fièvre, contact avec un malade",
+    "Anticoagulants, morsure de serpent",
+    "Antécédents personnels ou familiaux de saignement"
+   ],
+   "examens": [
+    "Hémoglobine, groupe sanguin",
+    "Test de coagulation sur tube sec (TCST20)",
+    "Plaquettes",
+    "Test de grossesse"
+   ],
+   "orientations": [
+    {
+     "pathologie": 35,
+     "indice": "après l'accouchement"
+    },
+    {
+     "pathologie": 84,
+     "indice": "grossesse débutante"
+    },
+    {
+     "pathologie": 85,
+     "indice": "douleur pelvienne, retard de règles"
+    },
+    {
+     "pathologie": 40,
+     "indice": "morsure, sang incoagulable"
+    },
+    {
+     "pathologie": 63,
+     "indice": "fièvre, saignements, zone d'épidémie"
+    },
+    {
+     "pathologie": 89,
+     "indice": "fièvre, saignements, signes d'alerte"
+    },
+    {
+     "pathologie": 100,
+     "indice": "saignement du nez"
+    },
+    {
+     "pathologie": 157,
+     "indice": "règles abondantes ou irrégulières"
+    },
+    {
+     "pathologie": 210,
+     "indice": "garçon, hématomes, saignements articulaires"
+    },
+    {
+     "pathologie": 194,
+     "indice": "pétéchies, plaquettes basses"
+    }
+   ],
+   "conduite": [
+    "Compression du point de saignement",
+    "Voie veineuse, remplissage, transfusion si choc",
+    "Ocytocine et massage utérin après l'accouchement",
+    "Isoler et protéger en cas de suspicion de fièvre hémorragique"
+   ]
+  },
+  {
+   "id": "urinaire",
+   "nom": "Brûlures urinaires et troubles mictionnels",
+   "pictogramme": "goutte",
+   "couleur": "#C2185B",
+   "resume": "Distinguer l'infection basse (cystite), l'infection haute (pyélonéphrite), l'IST et la rétention.",
+   "alarme": [
+    "Fièvre avec douleur lombaire (pyélonéphrite)",
+    "Grossesse",
+    "Rétention : globe vésical douloureux",
+    "Sang dans les urines avec caillots"
+   ],
+   "questions": [
+    "Fièvre, douleur lombaire",
+    "Écoulement urétral ou vaginal (IST)",
+    "Grossesse",
+    "Homme âgé : difficultés pour uriner",
+    "Zone d'endémie de la bilharziose (hématurie)"
+   ],
+   "examens": [
+    "Bandelette urinaire (leucocytes, nitrites, sang)",
+    "Examen cytobactériologique des urines si disponible",
+    "Test de grossesse"
+   ],
+   "orientations": [
+    {
+     "pathologie": 25,
+     "indice": "brûlures, envies fréquentes, fièvre si atteinte haute"
+    },
+    {
+     "pathologie": 22,
+     "indice": "écoulement par le méat"
+    },
+    {
+     "pathologie": 23,
+     "indice": "pertes anormales"
+    },
+    {
+     "pathologie": 10,
+     "indice": "sang en fin de miction, enfant"
+    },
+    {
+     "pathologie": 153,
+     "indice": "homme, fièvre, douleur périnéale"
+    },
+    {
+     "pathologie": 107,
+     "indice": "impossibilité d'uriner, globe"
+    },
+    {
+     "pathologie": 62,
+     "indice": "douleur lombaire brutale"
+    }
+   ],
+   "conduite": [
+    "Boire abondamment",
+    "Antibiotique adapté selon le site de l'infection",
+    "Traiter le partenaire en cas d'IST",
+    "Sonde urinaire en cas de rétention"
+   ]
+  },
+  {
+   "id": "ecoulement-genital",
+   "nom": "Écoulement génital et plaie génitale",
+   "pictogramme": "genre",
+   "couleur": "#C2185B",
+   "resume": "Prise en charge syndromique des IST selon l'OMS ; toujours proposer le dépistage du VIH et traiter le partenaire.",
+   "alarme": [
+    "Douleur abdominale basse avec fièvre chez la femme",
+    "Grossesse",
+    "Violence sexuelle",
+    "Plaie génitale avec ganglions inguinaux fistulisés"
+   ],
+   "questions": [
+    "Type d'écoulement, odeur, prurit",
+    "Plaie génitale douloureuse ou non",
+    "Partenaire symptomatique",
+    "Rapports non protégés, violence sexuelle",
+    "Grossesse"
+   ],
+   "examens": [
+    "Examen au spéculum chez la femme",
+    "Test VIH, syphilis (TDR)",
+    "Test de grossesse"
+   ],
+   "orientations": [
+    {
+     "pathologie": 22,
+     "indice": "écoulement purulent chez l'homme"
+    },
+    {
+     "pathologie": 23,
+     "indice": "pertes anormales chez la femme"
+    },
+    {
+     "pathologie": 24,
+     "indice": "plaie génitale"
+    },
+    {
+     "pathologie": 154,
+     "indice": "douleur pelvienne, fièvre"
+    },
+    {
+     "pathologie": 74,
+     "indice": "pertes blanches épaisses et prurit"
+    },
+    {
+     "pathologie": 156,
+     "indice": "excroissances"
+    },
+    {
+     "pathologie": 181,
+     "indice": "agression"
+    }
+   ],
+   "conduite": [
+    "Traitement syndromique le jour même",
+    "Traiter le ou les partenaires",
+    "Préservatifs, dépistage du VIH et de la syphilis",
+    "Prophylaxie post-exposition dans les 72 h en cas de violence sexuelle"
+   ]
+  },
+  {
+   "id": "douleur-articulaire",
+   "nom": "Douleurs articulaires et osseuses",
+   "pictogramme": "os",
+   "couleur": "#795548",
+   "resume": "Une articulation chaude, rouge et douloureuse avec fièvre est une arthrite septique jusqu'à preuve du contraire.",
+   "alarme": [
+    "Monoarthrite fébrile",
+    "Enfant qui ne marche plus ou ne bouge plus un membre",
+    "Drépanocytaire avec douleur intense",
+    "Douleur après traumatisme avec déformation"
+   ],
+   "questions": [
+    "Nombre d'articulations atteintes",
+    "Fièvre",
+    "Drépanocytose connue",
+    "Angine récente (rhumatisme articulaire aigu)",
+    "Âge, crises antérieures (goutte)"
+   ],
+   "examens": [
+    "Température",
+    "NFS, vitesse de sédimentation, CRP si disponibles",
+    "Radiographie",
+    "Ponction articulaire en milieu spécialisé"
+   ],
+   "orientations": [
+    {
+     "pathologie": 61,
+     "indice": "fièvre, articulation ou os douloureux"
+    },
+    {
+     "pathologie": 32,
+     "indice": "crise vaso-occlusive"
+    },
+    {
+     "pathologie": 203,
+     "indice": "polyarthrite migratrice, enfant, angine récente"
+    },
+    {
+     "pathologie": 110,
+     "indice": "gros orteil, crise brutale"
+    },
+    {
+     "pathologie": 90,
+     "indice": "fièvre et douleurs articulaires intenses"
+    },
+    {
+     "pathologie": 213,
+     "indice": "atteinte symétrique des petites articulations"
+    },
+    {
+     "pathologie": 98,
+     "indice": "traumatisme"
+    },
+    {
+     "pathologie": 115,
+     "indice": "douleur mécanique chronique"
+    }
+   ],
+   "conduite": [
+    "Antalgiques adaptés à l'intensité",
+    "Antibiotique et avis chirurgical si arthrite septique",
+    "Hydratation et antalgiques puissants en cas de crise drépanocytaire"
+   ]
+  },
+  {
+   "id": "amaigrissement",
+   "nom": "Amaigrissement",
+   "pictogramme": "pomme",
+   "couleur": "#E65100",
+   "resume": "Une perte de poids non expliquée impose la recherche du VIH, de la tuberculose, du diabète et d'un cancer.",
+   "alarme": [
+    "Perte de plus de 10 % du poids",
+    "Enfant avec périmètre brachial < 115 mm ou œdèmes",
+    "Fièvre et toux prolongées",
+    "Diarrhée chronique"
+   ],
+   "questions": [
+    "Durée et importance de la perte",
+    "Appétit conservé ou non",
+    "Toux, fièvre, sueurs nocturnes",
+    "Soif et urines abondantes",
+    "Diarrhée, troubles de déglutition"
+   ],
+   "examens": [
+    "Poids, IMC, périmètre brachial",
+    "Test VIH",
+    "Recherche de tuberculose",
+    "Glycémie",
+    "Hémoglobine"
+   ],
+   "orientations": [
+    {
+     "pathologie": 5,
+     "indice": "toux, sueurs nocturnes"
+    },
+    {
+     "pathologie": 6,
+     "indice": "test positif"
+    },
+    {
+     "pathologie": 178,
+     "indice": "CD4 < 200, infections opportunistes"
+    },
+    {
+     "pathologie": 44,
+     "indice": "soif, polyurie, glycémie élevée"
+    },
+    {
+     "pathologie": 30,
+     "indice": "enfant"
+    },
+    {
+     "pathologie": 109,
+     "indice": "palpitations, tremblements, appétit conservé"
+    },
+    {
+     "pathologie": 235,
+     "indice": "sang dans les selles, troubles du transit"
+    },
+    {
+     "pathologie": 66,
+     "indice": "fièvre prolongée, grosse rate"
+    }
+   ],
+   "conduite": [
+    "Dépister le VIH et la tuberculose",
+    "Prise en charge nutritionnelle",
+    "Référer pour bilan si aucune cause n'est trouvée"
+   ]
+  },
+  {
+   "id": "douleur-oeil",
+   "nom": "Œil rouge ou douloureux, baisse de vision",
+   "pictogramme": "oeil",
+   "couleur": "#00838F",
+   "resume": "Un œil rouge et douloureux avec baisse de vision est une urgence ophtalmologique.",
+   "alarme": [
+    "Baisse brutale de la vision",
+    "Douleur intense, nausées (glaucome aigu)",
+    "Traumatisme, corps étranger, produit chimique",
+    "Nouveau-né avec yeux qui coulent du pus"
+   ],
+   "questions": [
+    "Un ou deux yeux",
+    "Écoulement, démangeaisons",
+    "Traumatisme",
+    "Vision diminuée",
+    "Port de lentilles, carence en vitamine A"
+   ],
+   "examens": [
+    "Acuité visuelle de chaque œil",
+    "Examen à la lumière (cornée, pupille)",
+    "Test à la fluorescéine si disponible"
+   ],
+   "orientations": [
+    {
+     "pathologie": 29,
+     "indice": "œil rouge, écoulement, vision normale"
+    },
+    {
+     "pathologie": 141,
+     "indice": "épidémie, les deux yeux"
+    },
+    {
+     "pathologie": 56,
+     "indice": "douleur, vision floue, pupille fixe"
+    },
+    {
+     "pathologie": 57,
+     "indice": "traumatisme, ulcère de cornée"
+    },
+    {
+     "pathologie": 54,
+     "indice": "paupières, cils frottant la cornée"
+    },
+    {
+     "pathologie": 55,
+     "indice": "enfant malnutri, cécité nocturne"
+    },
+    {
+     "pathologie": 142,
+     "indice": "paupières gonflées, fièvre"
+    }
+   ],
+   "conduite": [
+    "Lavage abondant à l'eau propre en cas de produit chimique",
+    "Pas de collyre corticoïde sans examen ophtalmologique",
+    "Référer en urgence si baisse de vision"
+   ]
+  },
+  {
+   "id": "douleur-gorge-oreille",
+   "nom": "Mal de gorge, mal d'oreille",
+   "pictogramme": "thermometre",
+   "couleur": "#0277BD",
+   "resume": "Fréquent et souvent viral ; rechercher les complications et la diphtérie chez le non-vacciné.",
+   "alarme": [
+    "Difficulté à respirer ou à avaler sa salive, stridor",
+    "Fausse membrane grisâtre adhérente (diphtérie)",
+    "Gonflement derrière l'oreille (mastoïdite)",
+    "Torticolis fébrile"
+   ],
+   "questions": [
+    "Fièvre, toux, écoulement nasal",
+    "Écoulement d'oreille et durée",
+    "Vaccination",
+    "Âge"
+   ],
+   "examens": [
+    "Examen de la gorge et des tympans",
+    "Score de Centor (ou McIsaac) pour l'angine",
+    "Test rapide streptococcique si disponible"
+   ],
+   "orientations": [
+    {
+     "pathologie": 16,
+     "indice": "fièvre, amygdales rouges ou blanches"
+    },
+    {
+     "pathologie": 123,
+     "indice": "nez qui coule, toux"
+    },
+    {
+     "pathologie": 17,
+     "indice": "douleur d'oreille, tympan bombé"
+    },
+    {
+     "pathologie": 101,
+     "indice": "écoulement prolongé"
+    },
+    {
+     "pathologie": 124,
+     "indice": "fausse membrane, non vacciné"
+    },
+    {
+     "pathologie": 126,
+     "indice": "enfant qui bave, assis penché en avant"
+    },
+    {
+     "pathologie": 99,
+     "indice": "douleur faciale"
+    }
+   ],
+   "conduite": [
+    "Paracétamol",
+    "Amoxicilline si angine bactérienne probable ou otite moyenne aiguë de l'enfant",
+    "Ne pas examiner la gorge d'un enfant en détresse (épiglottite)"
+   ]
+  },
+  {
+   "id": "enfant-pleure",
+   "nom": "Nourrisson qui ne tète plus",
+   "pictogramme": "bebe",
+   "couleur": "#EF6C00",
+   "resume": "Chez le nourrisson de moins de 2 mois, l'arrêt des tétées est un signe de danger : penser au sepsis néonatal.",
+   "alarme": [
+    "Ne tète plus, léthargie",
+    "Convulsions",
+    "Température > 37,5 °C ou < 35,5 °C",
+    "Respiration rapide (≥ 60/min) ou tirage marqué",
+    "Ictère des paumes et des plantes",
+    "Ombilic rouge et purulent"
+   ],
+   "questions": [
+    "Âge, prématurité, poids de naissance",
+    "Accouchement : rupture prolongée des membranes, fièvre maternelle",
+    "Vaccinations reçues",
+    "Selles, vomissements"
+   ],
+   "examens": [
+    "Température, fréquence respiratoire",
+    "Glycémie",
+    "Évaluation PCIME du nourrisson"
+   ],
+   "orientations": [
+    {
+     "pathologie": 31,
+     "indice": "signes de danger chez le nouveau-né"
+    },
+    {
+     "pathologie": 77,
+     "indice": "démarche d'évaluation"
+    },
+    {
+     "pathologie": 79,
+     "indice": "nouveau-né jaune"
+    },
+    {
+     "pathologie": 80,
+     "indice": "prématuré"
+    },
+    {
+     "pathologie": 4,
+     "indice": "fontanelle bombée, convulsions"
+    },
+    {
+     "pathologie": 13,
+     "indice": "respiration rapide, tirage"
+    }
+   ],
+   "conduite": [
+    "Première dose d'antibiotique (ampicilline + gentamicine) avant transfert",
+    "Maintenir au chaud (peau à peau)",
+    "Prévenir l'hypoglycémie (lait maternel, sonde)",
+    "Référer en urgence"
+   ]
+  },
+  {
+   "id": "douleur",
+   "nom": "Douleur (évaluation et traitement)",
+   "pictogramme": "pansement",
+   "couleur": "#558B2F",
+   "resume": "Toute douleur doit être évaluée (échelle numérique, EVA, FLACC chez l'enfant) et traitée selon les paliers de l'OMS.",
+   "alarme": [
+    "Douleur thoracique, abdominale aiguë ou céphalée brutale : rechercher une urgence",
+    "Douleur intense non soulagée",
+    "Douleur avec fièvre et signe local"
+   ],
+   "questions": [
+    "Siège, intensité, type (nociceptive ou neuropathique)",
+    "Retentissement sur le sommeil et l'alimentation",
+    "Traitements déjà pris",
+    "Insuffisance rénale ou hépatique, grossesse"
+   ],
+   "examens": [
+    "Échelle de douleur (score FLACC dans l'onglet Outils)",
+    "Réévaluation après chaque traitement"
+   ],
+   "orientations": [
+    {
+     "pathologie": 58,
+     "indice": "paliers de l'OMS"
+    },
+    {
+     "pathologie": 189,
+     "indice": "douleur chronique, cancer"
+    },
+    {
+     "pathologie": 32,
+     "indice": "crise douloureuse"
+    },
+    {
+     "pathologie": 62,
+     "indice": "douleur lombaire"
+    },
+    {
+     "pathologie": 60,
+     "indice": "douleur abdominale aiguë"
+    },
+    {
+     "pathologie": 115,
+     "indice": "douleur mécanique"
+    }
+   ],
+   "conduite": [
+    "Paracétamol, puis AINS si pas de contre-indication, puis morphine orale si douleur intense",
+    "Réévaluer régulièrement",
+    "Traiter la cause"
+   ]
   }
  ],
  "dateIsoCas": "2026-10-28",
