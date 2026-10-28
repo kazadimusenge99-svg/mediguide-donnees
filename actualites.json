@@ -1,24 +1,25 @@
 {
- "dateActualites": "27 octobre 2026",
- "dateIsoActualites": "2026-10-27",
+ "dateActualites": "28 octobre 2026",
+ "dateIsoActualites": "2026-10-28",
  "actualites": [
   {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
-   "lieu": "RDC (8 provinces) · cas importés au Kenya et au Nigeria",
+   "lieu": "RDC (8 provinces) · Kenya (9 cas) · cas importé au Nigeria",
    "chiffre": "10 060 cas confirmés · 4 887 décès",
    "texte": "17e épidémie d'Ebola en RDC, épicentre en Ituri et au Nord-Kivu. Aucun vaccin ni traitement spécifique homologué contre le virus Bundibugyo.",
    "details": [
     "Déclarée le 15 mai 2026 ; urgence de santé publique de portée internationale (OMS) depuis le 17 mai",
-    "Létalité d'environ 49 % ; Ituri 7 211 cas, Nord-Kivu 2 309 cas, nouveaux cas aussi dans la Tshopo (bilan du 25 octobre)",
+    "Bilan INSP du 25 octobre : létalité 48,6 %, 2 684 guéris ; Ituri 7 211 cas, Nord-Kivu 2 309, Haut-Uélé 436, Tshopo 83 ; 96 nouveaux cas en un jour",
+    "Kenya : 9 cas confirmés dont 2 décès au 26 octobre (un seul foyer) ; Nigeria : cas importé confirmé à Abuja le 20 octobre, évacué à Genève",
     "Le vaccin Ervebo et les anticorps ansuvimab et REGN-EB3 visent le virus Zaïre : pas d'efficacité démontrée contre Bundibugyo ; essai vaccinal TUMAINI lancé à Bunia le 23 octobre",
     "Toute fièvre avec contact, voyage en zone touchée ou saignement : isoler, se protéger (EPI), alerter, prélever pour PCR",
-    "Suivi des contacts encore insuffisant (environ 80 %, objectif 95 %) ; enterrements dignes et sécurisés indispensables"
+    "Suivi des contacts encore insuffisant (81,6 %, objectif 95 %) ; enterrements dignes et sécurisés indispensables"
    ],
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "OMS, Disease Outbreak News du 23/10/2026 ; ministère de la Santé de la RDC (bilan du 25/10/2026)",
+   "source": "INSP RDC, rapport du 26/10/2026 (bilan au 25/10) ; OMS, Disease Outbreak News du 23/10/2026 et point Kenya du 26/10/2026",
    "pictogramme": "virus"
   },
   {
@@ -30,13 +31,14 @@
    "details": [
     "Semaine du 21 au 28 septembre : 2 932 cas suspects et 86 décès (létalité 2,9 %)",
     "Plus de 125 000 cas suspects depuis janvier 2025",
+    "Nouveaux foyers au Nord-Kivu fin octobre : 5 décès en moins d'une semaine à Masisi (Ufamandu 1), 9 cas à la prison centrale de Walikale",
     "Réhydratation précoce (SRO, Ringer lactate), azithromycine ou doxycycline dans les formes sévères, chloration de l'eau (solutions chlorées 0,05 % et 0,5 %)",
     "Vaccination orale anticholérique en préparation dans les zones touchées"
    ],
    "couleur": "#0277BD",
    "icone": "💧",
    "pathologie": 19,
-   "source": "OMS, via ONU Info du 14/10/2026 ; MSF (Kwango, juillet 2026)",
+   "source": "OMS, via ONU Info du 14/10/2026 ; actualite.cd du 27/10/2026 (Masisi, Walikale)",
    "pictogramme": "goutte"
   },
   {
