@@ -13,3 +13,4 @@ Règles :
 - Toujours lancer `python3 outils/valider.py` avant de publier ; ne jamais publier un fichier qui échoue.
 - Ne jamais renuméroter ni supprimer une fiche : les identifiants sont utilisés par les favoris et les liens.
 - Toute modification d'une fiche de `meds.json` incrémente `version`, met à jour `dateMiseAJour` et est inscrite dans `corrections.json` avec sa source.
+- Les modifications de fiches (`meds.json`) sont préparées sur une branche `propositions-<date>` et ne sont fusionnées dans `main` qu'après validation explicite du médecin responsable. Les cas cliniques et les actualités sont publiés directement.
