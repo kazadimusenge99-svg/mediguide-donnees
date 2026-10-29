@@ -1,5 +1,5 @@
 {
- "version": 23,
+ "version": 24,
  "dateMiseAJour": "2026-10-29",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -32142,6 +32142,10 @@
     {
      "pathologie": 91,
      "indice": "fièvre, courbatures, contexte épidémique"
+    },
+    {
+     "pathologie": 242,
+     "indice": "aggravation rapide, orthopnée, crépitants, crachats mousseux"
     }
    ],
    "conduite": [
@@ -32589,6 +32593,10 @@
    ],
    "orientations": [
     {
+     "pathologie": 242,
+     "indice": "aggravation rapide, orthopnée, crépitants, crachats mousseux"
+    },
+    {
      "pathologie": 14,
      "indice": "fièvre, toux, crépitants"
     },
@@ -32881,6 +32889,10 @@
     {
      "pathologie": 67,
      "indice": "lymphœdème chronique"
+    },
+    {
+     "pathologie": 242,
+     "indice": "œdèmes avec essoufflement qui s'aggrave rapidement, prise de poids"
     }
    ],
    "conduite": [
@@ -35899,6 +35911,7 @@
     "Rechercher la cause : HTA, valvulopathie, anémie, troubles du rythme, grossesse (cardiomyopathie du péripartum)"
    ],
    "traitement": [
+    "Décompensation aiguë (OAP, surcharge, choc cardiogénique) : voir la fiche « Insuffisance cardiaque aiguë décompensée »",
     "OAP : position assise, oxygène, furosémide IV, dinitrate d'isosorbide si TA conservée",
     "Chronique : restriction sodée, furosémide pour les œdèmes ; IEC (énalapril) ou sartan, bêtabloquant (bisoprolol) à doses progressives, spironolactone",
     "FA rapide : digoxine ou bisoprolol, anticoagulation",
@@ -43831,6 +43844,83 @@
     "Glucose 10 %",
     "Gluconate de calcium 10 %",
     "Bicarbonate de sodium 8,4 % / 4,2 %"
+   ]
+  },
+  {
+   "id": 242,
+   "nom": "Insuffisance cardiaque aiguë décompensée",
+   "categorie": "cardio",
+   "synonymes": "insuffisance cardiaque aiguë, décompensation cardiaque, ICA, OAP, œdème aigu du poumon, œdème pulmonaire, choc cardiogénique, surcharge, dyspnée aiguë, cœur gauche, cœur droit",
+   "resume": "Aggravation rapide (en quelques heures ou jours) des signes d'insuffisance cardiaque, souvent chez un cardiaque connu, parfois révélatrice. Urgence vitale : l'œdème aigu du poumon et le choc cardiogénique peuvent tuer en quelques heures. Toujours chercher le facteur déclenchant (arrêt du traitement, excès de sel, poussée hypertensive, infection, anémie, arythmie, infarctus, grossesse).",
+   "signes": [
+    "Dyspnée qui s'aggrave, orthopnée (dort assis), réveils nocturnes par étouffement",
+    "OAP : détresse respiratoire, polypnée, sueurs, angoisse, crépitants bilatéraux montant vers les sommets, toux avec crachats mousseux parfois rosés, sibilants possibles (« asthme cardiaque »)",
+    "Congestion droite : turgescence jugulaire, reflux hépato-jugulaire, foie gros et douloureux, œdèmes des membres inférieurs prenant le godet, ascite, prise de poids rapide",
+    "Signes de bas débit (hypoperfusion) : extrémités froides, marbrures, TRC > 3 s, oligurie, confusion, PA pincée ou basse",
+    "Classer le patient au lit : « chaud et humide » (congestion, bonne perfusion : le plus fréquent), « froid et humide » (congestion et bas débit : le plus grave), « froid et sec » (bas débit sans congestion : penser à l'hypovolémie)"
+   ],
+   "diagnostic": [
+    "Diagnostic d'abord clinique : ne pas retarder le traitement pour les examens",
+    "Dès l'arrivée : SpO₂, fréquence respiratoire, PA, pouls, température, glycémie capillaire, diurèse",
+    "ECG : infarctus ou ischémie (sus-décalage ST : voir la fiche Syndrome coronarien aigu), fibrillation atriale rapide, bloc de haut degré, hypertrophie ventriculaire gauche",
+    "Échographie au lit si disponible : lignes B pulmonaires diffuses (œdème), épanchement pleural, fonction du ventricule gauche, valvulopathie (rhumatismale), épanchement péricardique (tamponnade), veine cave dilatée",
+    "Radiographie du thorax : cardiomégalie, redistribution vasculaire, opacités en « ailes de papillon », lignes de Kerley, épanchement ; élimine une pneumonie ou un pneumothorax",
+    "Biologie : hémoglobine, créatinine, ionogramme (potassium, sodium), troponine et BNP ou NT-proBNP si disponibles (BNP < 100 pg/ml ou NT-proBNP < 300 pg/ml rendent le diagnostic très peu probable), test de grossesse chez la femme jeune",
+    "Facteurs déclenchants à rechercher (CHAMPIT) : syndrome Coronarien, poussée Hypertensive, Arythmie, cause Mécanique (valve, rupture), embolie Pulmonaire, Infection, Traitement arrêté ou Toxique (excès de sel, AINS, alcool) ; et aussi anémie, grossesse ou post-partum, hyperthyroïdie, insuffisance rénale",
+    "Diagnostics différentiels : pneumonie, crise d'asthme ou exacerbation de BPCO, embolie pulmonaire, sepsis, surcharge par insuffisance rénale ou perfusions excessives, anémie sévère isolée"
+   ],
+   "traitement": [
+    "Position assise, jambes pendantes ; voie veineuse, scope si disponible, surveillance rapprochée ; arrêter tout soluté salé inutile",
+    "Oxygène si SpO₂ < 90 % (objectif 94 à 98 %, 88 à 92 % en cas de BPCO) ; si la détresse persiste : ventilation non invasive (CPAP 5 à 10 cmH₂O) là où elle existe",
+    "Furosémide IV, sans attendre si congestion : patient qui n'en prenait pas 40 mg IV (enfant 1 mg/kg) ; patient déjà sous furosémide : dose IV égale à 1 à 2 fois sa dose orale quotidienne",
+    "Réévaluer le diurétique à 2 h et 6 h : objectif d'au moins 100 à 150 ml d'urine par heure ; si la réponse est insuffisante, doubler la dose IV (jusqu'à 200 mg par prise chez l'adulte) ; congestion résistante : ajouter hydrochlorothiazide 25 à 50 mg par voie orale, sous contrôle du potassium",
+    "Dérivés nitrés si PA systolique > 110 mmHg : trinitrine 0,4 mg sublinguale toutes les 5 à 10 min, ou dinitrate d'isosorbide 1 à 2 mg IV en bolus toutes les 5 à 10 min puis perfusion de 1 à 10 mg/h selon la PA ; arrêter si PA systolique < 90 mmHg ; contre-indiqués après sildénafil (24 à 48 h) et en cas de rétrécissement aortique serré",
+    "OAP de la poussée hypertensive (PA très élevée, début brutal) : les nitrés à fortes doses sont le traitement principal, le diurétique vient en complément ; abaisser la PA d'environ 25 % dans les premières heures, pas plus",
+    "Morphine : pas d'utilisation systématique (plus de recours à l'intubation) ; au plus 2 à 3 mg IV pour une angoisse ou une douleur intense, avec surveillance de la respiration",
+    "Choc cardiogénique (PA systolique < 90 mmHg avec signes de bas débit) : ni nitrés ni diurétique tant que la PA est basse ; si pas de congestion pulmonaire, épreuve de remplissage prudente de 250 ml de sérum physiologique en 15 à 30 min ; noradrénaline 0,05 à 0,5 µg/kg/min (de préférence à la dopamine), dobutamine 2 à 20 µg/kg/min si disponible ; dopamine 5 à 10 µg/kg/min si c'est le seul médicament disponible ; transfert en réanimation",
+    "Fibrillation atriale rapide : cardioversion électrique si instabilité ; sinon digoxine 0,25 à 0,5 mg IV puis 0,25 mg toutes les 6 h (maximum 1 mg le premier jour, réduire si insuffisance rénale) ou amiodarone 300 mg IV en 1 h ; pas de bêtabloquant ni de vérapamil IV en pleine décompensation ; anticoagulation",
+    "Syndrome coronarien aigu associé : traitement de la fiche Syndrome coronarien aigu et transfert pour revascularisation si possible",
+    "Anémie sévère en cause : transfuser lentement du culot globulaire (10 ml/kg en 3 à 4 h) avec furosémide 20 à 40 mg IV",
+    "Prévention de la thrombose : énoxaparine 4 000 UI (40 mg) SC une fois par jour pendant l'alitement, sauf contre-indication",
+    "Traitement de fond pendant la crise : poursuivre le bêtabloquant sauf choc ou bas débit (réduire la dose de moitié si PA basse) ; suspendre temporairement IEC, sartan et spironolactone en cas d'hypotension, de potassium > 5,5 mmol/l ou d'aggravation rénale importante",
+    "Surveillance : FR, SpO₂, PA et pouls toutes les 15 à 30 min au début ; diurèse horaire (sonde si choc) ; poids chaque matin sur la même balance ; bilan entrées-sorties ; créatinine et potassium chaque jour (compenser une hypokaliémie avec du chlorure de potassium)",
+    "Une augmentation modérée de la créatinine sous diurétique n'impose pas l'arrêt si la congestion régresse",
+    "Avant la sortie (patient stable, sans congestion) : relais par furosémide oral à la plus petite dose efficace ; débuter ou reprendre IEC (énalapril 2,5 mg 2 fois par jour) ou sartan, bêtabloquant (bisoprolol 1,25 mg par jour), spironolactone 25 mg par jour et empagliflozine 10 mg par jour si la fraction d'éjection est réduite, puis augmenter progressivement",
+    "Éducation à la sortie : sel limité (moins de 5 g par jour, pas de bouillon en cube), pesée quotidienne, consulter si prise de 2 kg en 3 jours ou essoufflement qui revient ; revoir le patient dans 1 à 2 semaines",
+    "Cardiomyopathie du péripartum (dernier mois de grossesse ou mois suivant l'accouchement) : pas d'IEC pendant la grossesse ; après l'accouchement, discuter la bromocriptine avec anticoagulation sur avis spécialisé ; contre-indiquer une nouvelle grossesse si la fonction ne se normalise pas"
+   ],
+   "gravite": [
+    "SpO₂ < 90 % malgré l'oxygène, FR > 30/min, épuisement respiratoire, troubles de la conscience : ventilation non invasive ou intubation",
+    "PA systolique < 90 mmHg avec extrémités froides, oligurie ou confusion : choc cardiogénique (mortalité élevée)",
+    "Fréquence cardiaque > 130/min ou < 40/min, douleur thoracique, modification du segment ST",
+    "Diurèse < 0,5 ml/kg/h malgré le furosémide, potassium > 5,5 mmol/l ou créatinine qui double",
+    "Absence d'amélioration après 6 h de traitement bien conduit : référer vers un service de soins intensifs ou de cardiologie"
+   ],
+   "prevention": [
+    "Observance du traitement de fond, ne pas arrêter les médicaments sans avis",
+    "Régime pauvre en sel ; liquides limités à 1,5 l par jour en cas d'hyponatrémie ou de congestion persistante",
+    "Éviter les AINS (ibuprofène, diclofénac) et l'alcool",
+    "Contrôle de l'HTA, traitement de l'anémie et des infections",
+    "Prévention du rhumatisme articulaire aigu (traitement des angines) et prophylaxie par benzathine benzylpénicilline après un RAA",
+    "Vaccination antigrippale et antipneumococcique si disponible"
+   ],
+   "medicaments": [
+    "Furosémide",
+    "Oxygène",
+    "Trinitrine (nitroglycérine)",
+    "Dinitrate d'isosorbide",
+    "Hydrochlorothiazide",
+    "Chlorure de potassium (KCl) injectable",
+    "Morphine",
+    "Noradrénaline (norépinéphrine)",
+    "Dopamine",
+    "Digoxine",
+    "Amiodarone",
+    "Énoxaparine",
+    "Bisoprolol",
+    "Énalapril",
+    "Spironolactone",
+    "Empagliflozine"
    ]
   }
  ]
