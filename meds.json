@@ -1,6 +1,6 @@
 {
- "version": 24,
- "dateMiseAJour": "2026-10-29",
+ "version": 25,
+ "dateMiseAJour": "2026-10-30",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
   "OMS – Lignes directrices pour le paludisme",
@@ -41010,7 +41010,8 @@
    ],
    "traitement": [
     "Schéma de 6 mois BPaLM (≥ 14 ans) : bédaquiline + prétomanide + linézolide 600 mg + moxifloxacine (sans moxifloxacine si résistance aux fluoroquinolones)",
-    "Schéma oral de 9 mois (enfant, femme enceinte, si BPaLM impossible) : bédaquiline + lévofloxacine + linézolide + clofazimine ± cyclosérine/éthionamide selon le protocole",
+    "Schéma oral de 6 mois BDLLfxC (tous âges, y compris enfant, femme enceinte ou allaitante et PVVIH, avec ou sans résistance aux fluoroquinolones) : bédaquiline + délamanid + linézolide + lévofloxacine + clofazimine (lévofloxacine retirée si résistance aux fluoroquinolones confirmée)",
+    "Schéma oral de 9 mois (seulement si la résistance aux fluoroquinolones est exclue ; enfant et femme enceinte compris) : bédaquiline + linézolide + pyrazinamide, associés à moxifloxacine (BLMZ), à lévofloxacine + clofazimine (BLLfxCZ) ou à délamanid + lévofloxacine (BDLLfxZ), selon le protocole national",
     "Traitement sous observation directe, soutien nutritionnel et social",
     "Suivi mensuel : crachats (culture), ECG, NFS, vision et neuropathie (linézolide)",
     "ARV chez les PVVIH dans les 2 semaines"
