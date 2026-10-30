@@ -1,401 +1,413 @@
 {
- "dateIsoCas": "2026-10-28",
+ "dateIsoCas": "2026-10-30",
  "casCliniques": [
   {
-   "id": "palu-grave-enfant",
-   "titre": "Enfant fébrile qui convulse",
-   "theme": "paludisme",
-   "niveau": "Niveau 1",
-   "presentation": "Garçon de 3 ans, 13 kg, amené pour fièvre depuis 3 jours. Il a convulsé à la maison et reste somnolent : il localise la douleur mais ne fixe pas le regard (score de Blantyre 3).",
-   "etapes": [
-    {
-     "info": "TDR paludisme positif. Glycémie capillaire : 2,1 mmol/l (38 mg/dl).",
-     "question": "Quel est le premier geste ?",
-     "options": [
-      "Paracétamol en suppositoire et surveillance",
-      "Glucose 10 % : 5 ml/kg en IV (ou par sonde gastrique)",
-      "Attendre la goutte épaisse avant tout traitement",
-      "Quinine orale"
-     ],
-     "bonne": 1,
-     "explication": "Toute glycémie < 3 mmol/l au cours d'un paludisme grave doit être corrigée immédiatement : glucose 10 % 5 ml/kg, puis contrôle à 30 minutes."
-    },
-    {
-     "info": "La glycémie est remontée à 5,4 mmol/l.",
-     "question": "Quel antipaludique prescrire ?",
-     "options": [
-      "Artésunate IV ou IM 3 mg/kg à H0, H12, H24 puis toutes les 24 h",
-      "Artéméther-luméfantrine orale",
-      "Artésunate 1 mg/kg une fois par jour",
-      "Chloroquine IM"
-     ],
-     "bonne": 0,
-     "explication": "L'artésunate parentéral est le traitement de référence. Chez l'enfant de moins de 20 kg, la dose est de 3 mg/kg par prise (2,4 mg/kg au-delà)."
-    },
-    {
-     "info": "Après 24 heures, l'enfant est conscient, boit et mange.",
-     "question": "Quelle est la suite du traitement ?",
-     "options": [
-      "Arrêter tout traitement",
-      "Poursuivre l'artésunate IV pendant 7 jours",
-      "Relais par une CTA orale complète de 3 jours",
-      "Quinine orale pendant 7 jours"
-     ],
-     "bonne": 2,
-     "explication": "Dès que la voie orale est possible (après au moins 24 h d'artésunate), on donne une CTA complète de 3 jours pour éviter les rechutes."
-    }
-   ],
-   "conclusion": "Paludisme grave avec troubles de conscience et hypoglycémie : corriger l'hypoglycémie, artésunate parentéral au moins 24 h, puis CTA complète de 3 jours. Surveiller glycémie, conscience, hémoglobine et diurèse.",
-   "pathologie": 2,
-   "source": "OMS, Directives paludisme 2023 ; MSF, Guide clinique et thérapeutique"
-  },
-  {
-   "id": "cholera-plan-c",
-   "titre": "Diarrhée « eau de riz » en période d'épidémie",
+   "id": "2026-10-30-ebola-suspect",
+   "titre": "Fièvre après des funérailles en Ituri",
    "theme": "epidemies",
    "niveau": "Niveau 1",
-   "presentation": "Homme de 30 ans, 60 kg, arrivé au centre de traitement du choléra. Diarrhée aqueuse abondante depuis 8 heures, vomissements. Il est léthargique, le pouls radial est imperceptible, les yeux sont enfoncés et le pli cutané persiste.",
+   "presentation": "Femme de 34 ans, 58 kg, vue au centre de santé près de Bunia. Fièvre à 39,2 °C depuis 2 jours, fatigue intense, céphalées, douleurs musculaires, deux selles liquides. Elle a participé il y a 10 jours à la toilette mortuaire d'un oncle décédé de « fièvre avec saignements ». Pas de saignement visible.",
    "etapes": [
     {
      "info": "",
-     "question": "Quel est le degré de déshydratation et le plan de traitement ?",
+     "question": "Quelle est la première conduite à tenir ?",
      "options": [
-      "Déshydratation modérée : SRO 75 ml/kg en 4 h (plan B)",
-      "Pas de déshydratation : plan A à domicile",
-      "Déshydratation sévère : perfusion IV rapide (plan C)",
-      "Déshydratation sévère : SRO par sonde uniquement"
-     ],
-     "bonne": 2,
-     "explication": "Léthargie et pouls imperceptible signent une déshydratation sévère : plan C, perfusion IV immédiate."
-    },
-    {
-     "info": "Deux voies veineuses sont posées.",
-     "question": "Quel soluté et quel débit ?",
-     "options": [
-      "Ringer lactate 100 ml/kg en 3 h : 30 ml/kg en 30 min puis 70 ml/kg en 2 h 30",
-      "Glucosé 5 % : 2 litres en 24 h",
-      "Ringer lactate 20 ml/kg en 1 h puis arrêt",
-      "Chlorure de sodium 0,9 % : 500 ml en 6 h"
+      "La placer en zone d'isolement, se protéger (EPI), alerter l'équipe de riposte",
+      "L'examiner en salle commune puis la renvoyer avec du paracétamol",
+      "Poser une perfusion et injecter un antipaludique IM avant toute alerte",
+      "La transférer en taxi-moto vers l'hôpital général"
      ],
      "bonne": 0,
-     "explication": "Chez l'adulte et l'enfant de plus d'un an : 30 ml/kg en 30 minutes puis 70 ml/kg en 2 h 30, soit 6 litres environ pour 60 kg. Réévaluer toutes les 30 minutes."
+     "explication": "Fièvre + contact avec un décès suspect en zone d'épidémie : c'est un cas suspect de maladie à virus Ebola selon la définition de cas. Isolement immédiat, EPI complet, limitation des gestes invasifs, notification sans délai à la zone de santé et prélèvement pour PCR par une équipe protégée. Le transport se fait uniquement par l'ambulance de la riposte."
     },
     {
-     "info": "Au bout de 3 heures, le pouls est bien frappé, le patient est conscient et peut boire.",
-     "question": "Que faire maintenant ?",
+     "info": "Le TDR paludisme, réalisé avec protection, est positif.",
+     "question": "Comment interpréter ce résultat ?",
      "options": [
-      "Arrêter toute réhydratation",
-      "SRO selon les pertes et doxycycline 300 mg en dose unique",
-      "Amoxicilline pendant 7 jours",
-      "Lopéramide pour arrêter la diarrhée"
-     ],
-     "bonne": 1,
-     "explication": "On poursuit avec les SRO pour compenser les pertes. L'antibiotique (doxycycline dose unique) est indiqué en cas de déshydratation sévère ; les antidiarrhéiques sont contre-indiqués."
-    }
-   ],
-   "conclusion": "Déshydratation sévère du choléra : plan C au Ringer lactate (100 ml/kg en 3 h chez l'adulte), SRO dès que possible, doxycycline dose unique, notification et mesures d'hygiène.",
-   "pathologie": 19,
-   "source": "OMS, prise en charge du choléra ; GTFCC"
-  },
-  {
-   "id": "eclampsie",
-   "titre": "Convulsion à 36 semaines",
-   "theme": "obstetrique",
-   "niveau": "Niveau 2",
-   "presentation": "Femme de 22 ans, primigeste, 36 SA, amenée pour céphalées intenses et troubles visuels. PA 170/112 mmHg, protéinurie +++ à la bandelette. Pendant l'examen, elle fait une crise convulsive tonico-clonique.",
-   "etapes": [
-    {
-     "info": "La patiente est mise en position latérale de sécurité, sous oxygène.",
-     "question": "Quel médicament donner en premier ?",
-     "options": [
-      "Diazépam 10 mg IV",
-      "Sulfate de magnésium 4 g IV en 15 à 20 minutes, puis entretien",
-      "Furosémide 40 mg IV",
-      "Phénobarbital 200 mg IM"
-     ],
-     "bonne": 1,
-     "explication": "Le sulfate de magnésium est l'anticonvulsivant de référence de l'éclampsie : il prévient les récidives mieux que le diazépam."
-    },
-    {
-     "info": "L'entretien est poursuivi à 1 g/h.",
-     "question": "Quels signes surveiller pour détecter un surdosage ?",
-     "options": [
-      "Réflexes rotuliens, fréquence respiratoire et diurèse",
-      "Température et glycémie",
-      "Rythme cardiaque fœtal seul",
-      "Taux d'hémoglobine"
-     ],
-     "bonne": 0,
-     "explication": "Arrêter la perfusion si les réflexes rotuliens disparaissent, si la FR < 16/min ou si la diurèse < 30 ml/h. Antidote : gluconate de calcium 1 g IV lent."
-    },
-    {
-     "info": "Une heure plus tard, la PA reste à 168/110 mmHg.",
-     "question": "Quelle conduite pour la pression artérielle ?",
-     "options": [
-      "Pas de traitement, le magnésium suffit",
-      "Ramener vite la PA à 110/70 mmHg",
-      "Antihypertenseur (nifédipine orale, hydralazine ou labétalol IV) avec un objectif de 140-150/90-100 mmHg",
-      "Diurétique IV"
-     ],
-     "bonne": 2,
-     "explication": "Une PA ≥ 160/110 doit être traitée sans délai, mais sans chute brutale qui réduirait la perfusion placentaire."
-    },
-    {
-     "info": "La patiente est stable, sans nouvelle crise.",
-     "question": "Quel est le traitement définitif ?",
-     "options": [
-      "Attendre le terme de 40 SA",
-      "Accouchement dans les 12 heures après stabilisation",
-      "Césarienne immédiate pendant la crise",
-      "Sortie avec antihypertenseur oral"
-     ],
-     "bonne": 1,
-     "explication": "L'accouchement est le seul traitement définitif. Il est organisé après stabilisation (voie basse possible), avec poursuite du magnésium 24 h après l'accouchement."
-    }
-   ],
-   "conclusion": "Éclampsie : sulfate de magnésium (dose de charge puis entretien 24 h), surveillance de la toxicité, contrôle tensionnel progressif et accouchement après stabilisation.",
-   "pathologie": 34,
-   "source": "OMS, Prise en charge des complications de la grossesse ; MSF, Soins obstétricaux et néonatals essentiels"
-  },
-  {
-   "id": "pneumonie-enfant",
-   "titre": "Toux et respiration rapide chez un nourrisson",
-   "theme": "pediatrie",
-   "niveau": "Niveau 1",
-   "presentation": "Fillette de 18 mois, 10 kg, toux depuis 3 jours. Elle boit bien, pas de convulsion ni de léthargie. FR 54/min, tirage sous-costal, SpO₂ 95 % à l'air.",
-   "etapes": [
-    {
-     "info": "",
-     "question": "Comment classer et traiter cette enfant ?",
-     "options": [
-      "Pneumonie : amoxicilline orale 40 mg/kg deux fois par jour pendant 5 jours",
-      "Pneumonie grave : hospitalisation et ceftriaxone",
-      "Simple rhume : antitussif",
-      "Asthme : corticoïdes oraux seuls"
-     ],
-     "bonne": 0,
-     "explication": "Respiration rapide (≥ 40/min de 12 mois à 5 ans) et tirage sous-costal sans signe général de danger : pneumonie traitée par amoxicilline orale, avec contrôle à 2 jours."
-    },
-    {
-     "info": "Au contrôle du 2e jour, elle ne peut plus boire et la SpO₂ est à 88 %.",
-     "question": "Quelle conduite ?",
-     "options": [
-      "Continuer l'amoxicilline orale",
-      "Hospitalisation, oxygène, ampicilline (ou pénicilline) + gentamicine IV",
-      "Ajouter du salbutamol et revoir dans 2 jours",
-      "Ciprofloxacine orale"
-     ],
-     "bonne": 1,
-     "explication": "Incapacité de boire et SpO₂ < 90 % : pneumonie grave. Oxygène pour une SpO₂ ≥ 90 % et antibiothérapie injectable."
-    },
-    {
-     "info": "",
-     "question": "Quelle dose de gentamicine pour 10 kg ?",
-     "options": [
-      "10 mg trois fois par jour",
-      "150 mg une fois par jour",
-      "75 mg une fois par jour (7,5 mg/kg/jour)",
-      "7,5 mg une fois par jour"
-     ],
-     "bonne": 2,
-     "explication": "Gentamicine 7,5 mg/kg en une injection par jour, soit 75 mg pour 10 kg. Toujours vérifier le calcul avec l'outil « Dose selon le poids »."
-    }
-   ],
-   "conclusion": "Selon la PCIME, le tirage sous-costal sans signe de danger se traite par amoxicilline orale ; l'apparition d'un signe de danger ou d'une hypoxie impose l'hospitalisation, l'oxygène et un traitement injectable.",
-   "pathologie": 13,
-   "source": "OMS, PCIME (révision 2014) ; Pocket Book of Hospital Care for Children"
-  },
-  {
-   "id": "morsure-serpent",
-   "titre": "Morsure de serpent au champ",
-   "theme": "urgences",
-   "niveau": "Niveau 2",
-   "presentation": "Cultivateur de 40 ans mordu à la cheville il y a 2 heures. Le gonflement remonte jusqu'au genou. Il saigne des gencives.",
-   "etapes": [
-    {
-     "info": "Un garrot serré a été posé au village.",
-     "question": "Quels gestes de premier secours sont adaptés ?",
-     "options": [
-      "Inciser et aspirer la plaie",
-      "Serrer davantage le garrot",
-      "Appliquer de la glace et des herbes",
-      "Retirer progressivement le garrot sous surveillance, immobiliser le membre, rassurer"
+      "Le diagnostic de paludisme explique tout : lever l'isolement",
+      "Le TDR est forcément faux, ne pas traiter",
+      "Refaire un TDR le lendemain avant toute décision",
+      "Traiter le paludisme mais maintenir l'isolement jusqu'au résultat de la PCR Ebola"
      ],
      "bonne": 3,
-     "explication": "Pas d'incision, d'aspiration ni de garrot artériel. On immobilise le membre et on retire le garrot avec précaution, prêt à traiter une aggravation."
+     "explication": "En zone d'endémie, un TDR positif n'exclut pas Ebola (co-infection fréquente, antigènes persistants). On donne la CTA (artéméther-luméfantrine, 4 comprimés par prise, 6 prises en 3 jours), mais l'isolement est maintenu jusqu'à ce que la PCR Ebola soit négative."
     },
     {
-     "info": "Test de coagulation sur tube sec (TCST20) : le sang n'est pas coagulé après 20 minutes.",
-     "question": "Faut-il donner du sérum antivenimeux ?",
+     "info": "La PCR confirme le virus Bundibugyo. La patiente est admise au centre de traitement Ebola.",
+     "question": "Quel traitement est indiqué ?",
      "options": [
-      "Oui : sérum antivenimeux polyvalent IV, avec adrénaline prête en cas de réaction",
-      "Non : il suffit de surveiller",
-      "Oui, mais en injection autour de la morsure",
-      "Non : vitamine K seule"
+      "Ansuvimab (anticorps monoclonal) en perfusion unique",
+      "Vaccination immédiate par Ervebo",
+      "Soins de support optimisés et inclusion dans un essai clinique si disponible",
+      "Ibuprofène contre la fièvre et les douleurs"
      ],
-     "bonne": 0,
-     "explication": "Un trouble de la coagulation est une indication formelle du sérum antivenimeux, en perfusion IV, dans une structure capable de traiter une anaphylaxie."
+     "bonne": 2,
+     "explication": "Ansuvimab, REGN-EB3 et le vaccin Ervebo visent le virus Zaïre ; leur efficacité n'est pas démontrée contre le virus Bundibugyo. Ce sont les soins de support qui réduisent la mortalité : réhydratation orale ou IV (Ringer lactate), correction des électrolytes et de la glycémie, paracétamol (pas d'AINS ni d'aspirine en raison du risque hémorragique), nutrition, soutien psychologique."
     },
     {
-     "info": "Le sérum a été administré.",
-     "question": "Comment évaluer son efficacité ?",
+     "info": "",
+     "question": "Que faire pour les personnes ayant participé à la toilette mortuaire ?",
      "options": [
-      "Pas de contrôle nécessaire",
-      "Refaire le TCST20 6 heures après : s'il reste anormal, redonner une dose",
-      "Mesurer la glycémie toutes les heures",
-      "Contrôler seulement la température"
+      "Rien tant qu'elles n'ont pas de symptômes",
+      "Les lister comme contacts et les suivre chaque jour pendant 21 jours",
+      "Leur prescrire une antibiothérapie préventive",
+      "Les hospitaliser toutes en isolement"
      ],
      "bonne": 1,
-     "explication": "On répète le test de coagulation 6 heures après chaque dose et on renouvelle le sérum tant que le sang ne coagule pas."
+     "explication": "Chaque contact est listé et suivi quotidiennement (température, symptômes) pendant 21 jours après la dernière exposition ; tout symptôme impose isolement et test. Le suivi des contacts reste insuffisant dans l'épidémie actuelle (environ 82 % pour un objectif de 95 %) : c'est un levier majeur, avec les enterrements dignes et sécurisés."
     }
    ],
-   "conclusion": "Envenimation avec trouble de la coagulation : immobiliser, sérum antivenimeux IV adapté à la région avec adrénaline prête, contrôle du test de coagulation et nouvelle dose si nécessaire.",
-   "pathologie": 40,
-   "source": "OMS, Guidelines for the management of snakebites ; MSF, Guide clinique et thérapeutique"
+   "conclusion": "Toute fièvre avec contact, voyage en zone touchée ou saignement est un cas suspect d'Ebola : isoler, se protéger, alerter, prélever. Un TDR paludisme positif n'écarte pas Ebola. Contre le virus Bundibugyo, il n'existe pas de traitement spécifique homologué : les soins de support optimisés sauvent des vies.",
+   "pathologie": 63,
+   "source": "OMS, Disease Outbreak News 2026 ; INSP RDC, rapports de situation d'octobre 2026 ; OMS, Optimized supportive care for Ebola virus disease (2019)"
   },
   {
-   "id": "organophosphores",
-   "titre": "Agriculteur en détresse après un traitement des champs",
-   "theme": "pharmaco",
-   "niveau": "Niveau 2",
-   "presentation": "Homme de 35 ans trouvé confus après avoir pulvérisé un insecticide. Pupilles en tête d'épingle, salivation abondante, râles bronchiques, sueurs, FC 48/min, vomissements.",
+   "id": "2026-10-30-hpp-atonie",
+   "titre": "Saignement abondant après l'accouchement",
+   "theme": "obstetrique",
+   "niveau": "Niveau 1",
+   "presentation": "Femme de 29 ans, 5e accouchement, 62 kg, accouchée il y a 20 minutes d'un garçon de 3,9 kg après un travail de 14 heures. Elle a reçu 10 UI d'ocytocine IM à la naissance. Le sac de recueil gradué contient 550 ml de sang. Pouls 112/min, TA 100/60 mmHg. L'utérus est mou, au-dessus de l'ombilic.",
    "etapes": [
     {
      "info": "",
      "question": "Quel est le diagnostic le plus probable ?",
      "options": [
-      "Intoxication aux organophosphorés (syndrome cholinergique)",
-      "Paludisme grave",
-      "Overdose aux opioïdes",
-      "Méningite"
+      "Rupture utérine",
+      "Inversion utérine",
+      "Saignement normal des suites de couches",
+      "Atonie utérine (hémorragie du post-partum)"
      ],
-     "bonne": 0,
-     "explication": "Myosis, hypersalivation, bronchorrhée, bradycardie et sueurs après exposition à un insecticide : syndrome muscarinique d'une intoxication aux organophosphorés."
+     "bonne": 3,
+     "explication": "Une perte de 500 ml ou plus dans les 24 h après un accouchement par voie basse définit l'hémorragie du post-partum. Utérus mou et augmenté de volume, grande multiparité, gros enfant et travail prolongé orientent vers l'atonie utérine, cause de la grande majorité des HPP."
     },
-    {
-     "info": "Les vêtements ont été retirés et la peau lavée par un soignant protégé.",
-     "question": "Quel antidote donner et comment ?",
-     "options": [
-      "Naloxone 0,4 mg IV",
-      "Atropine 1 à 2 mg IV, dose doublée toutes les 5 minutes jusqu'à poumons secs, FC > 80 et PAS > 80 mmHg",
-      "Diazépam seul",
-      "Atropine 0,5 mg une seule fois"
-     ],
-     "bonne": 1,
-     "explication": "L'atropine est donnée à doses croissantes, parfois très élevées, jusqu'à disparition de la bronchorrhée. Une tachycardie modérée n'est pas une contre-indication."
-    },
-    {
-     "info": "Le patient est stabilisé sous atropine.",
-     "question": "Quelle surveillance ?",
-     "options": [
-      "Sortie le jour même",
-      "Surveillance rapprochée au moins 48 à 72 heures (récidive, faiblesse respiratoire retardée)",
-      "Surveillance de la glycémie seule",
-      "Aucune, l'atropine suffit"
-     ],
-     "bonne": 1,
-     "explication": "Les rechutes et le syndrome intermédiaire (paralysie respiratoire retardée) imposent une surveillance prolongée ; chercher aussi une intention suicidaire."
-    }
-   ],
-   "conclusion": "Syndrome cholinergique : protéger le personnel, décontaminer, oxygène, atropine à doses croissantes jusqu'à assèchement bronchique, pralidoxime si disponible, surveillance prolongée.",
-   "pathologie": 172,
-   "source": "OMS, prise en charge des intoxications par pesticides ; MSF"
-  },
-  {
-   "id": "meningite-purpura",
-   "titre": "Fièvre et taches violacées",
-   "theme": "urgences",
-   "niveau": "Niveau 2",
-   "presentation": "Garçon de 6 ans, fièvre à 39,8 °C depuis 12 heures, vomissements, raideur de nuque. Apparition de taches violacées qui ne s'effacent pas à la pression sur les jambes. FC 140/min, temps de recoloration 4 secondes.",
-   "etapes": [
     {
      "info": "",
-     "question": "Quelle est la priorité ?",
+     "question": "Quelle conduite immédiate ?",
      "options": [
-      "Faire d'abord une ponction lombaire",
-      "Attendre les résultats de la NFS",
-      "Ceftriaxone 100 mg/kg IV ou IM immédiatement",
-      "Paracétamol et surveillance"
-     ],
-     "bonne": 2,
-     "explication": "Un purpura fébrile qui s'étend est une urgence absolue : antibiotique sans attendre aucun examen."
-    },
-    {
-     "info": "Le temps de recoloration reste à 4 secondes après l'antibiotique.",
-     "question": "Quelle autre mesure immédiate ?",
-     "options": [
-      "Remplissage par 10 à 20 ml/kg de soluté isotonique, oxygène, réévaluation",
-      "Restriction hydrique",
-      "Corticoïdes oraux",
-      "Transfusion systématique"
+      "Massage utérin, ocytocine 10 UI IV lente, acide tranexamique 1 g IV en 10 min, remplissage, vidange vésicale et examen des voies génitales, simultanément",
+      "Massage utérin seul et réévaluation dans 1 heure",
+      "Misoprostol 200 µg par voie orale et surveillance",
+      "Transfert immédiat sans traitement préalable"
      ],
      "bonne": 0,
-     "explication": "Signes de choc : remplissage prudent et oxygène, avec surveillance étroite et transfert en soins intensifs si possible."
+     "explication": "Selon l'OMS (2023, approche E-MOTIVE), l'ensemble des mesures est appliqué d'emblée : massage utérin, ocytocine 10 UI IV lente puis perfusion de 20 UI dans 1 litre, acide tranexamique 1 g IV en 10 minutes (dans les 3 heures après la naissance), 2 voies veineuses et Ringer lactate, vidange vésicale, recherche de déchirures et de rétention placentaire."
     },
     {
-     "info": "Le diagnostic de méningocoque est confirmé.",
-     "question": "Que proposer aux personnes vivant sous le même toit ?",
+     "info": "Après 15 minutes, l'utérus reste mou et le saignement continue (900 ml au total).",
+     "question": "Quelle est l'étape suivante ?",
      "options": [
-      "Rien",
-      "Ciprofloxacine en dose unique (ou rifampicine) et information sur les signes d'alerte",
-      "Amoxicilline pendant 10 jours",
-      "Vaccin seul, sans antibiotique"
+      "Deuxième dose d'ocytocine de 10 UI IM et attente",
+      "Furosémide IV",
+      "Misoprostol 800 µg par voie sublinguale et compression bimanuelle de l'utérus pendant la préparation de la référence",
+      "Arrêter la perfusion pour éviter une surcharge"
      ],
-     "bonne": 1,
-     "explication": "Une chimioprophylaxie en dose unique est proposée aux contacts proches, avec notification aux autorités sanitaires."
+     "bonne": 2,
+     "explication": "Si l'ocytocine ne suffit pas : misoprostol 800 µg sublingual, compression bimanuelle (ou tamponnement par ballonnet), et référence urgente vers un centre capable de transfuser et d'opérer. Une deuxième dose d'acide tranexamique de 1 g peut être donnée si le saignement persiste après 30 minutes."
     }
    ],
-   "conclusion": "Purpura fébrile avec signes de choc : antibiotique immédiat (ceftriaxone), remplissage, réanimation ; la ponction lombaire ne doit pas retarder le traitement. Prophylaxie de l'entourage proche.",
-   "pathologie": 4,
-   "source": "OMS, prise en charge de la méningite ; MSF, Guide clinique et thérapeutique"
+   "conclusion": "HPP par atonie utérine : mesurer les pertes, déclencher d'emblée l'ensemble des mesures (massage, ocytocine, acide tranexamique, remplissage, examen) puis misoprostol, compression bimanuelle et référence si échec. La prévention par ocytocine 10 UI IM à chaque naissance reste indispensable.",
+   "pathologie": 35,
+   "source": "OMS, Recommandations sur la prise en charge de l'hémorragie du post-partum (2023) ; MSF, Soins obstétricaux et néonatals essentiels"
   },
   {
-   "id": "mas-compliquee",
-   "titre": "Nourrisson œdémateux qui ne mange plus",
+   "id": "2026-10-30-sepsis-neonatal",
+   "titre": "Nouveau-né qui ne tète plus",
    "theme": "pediatrie",
    "niveau": "Niveau 2",
-   "presentation": "Fille de 14 mois, 6,2 kg, périmètre brachial 108 mm, œdèmes des pieds et des jambes (++). Elle refuse l'ATPE au test de l'appétit. Température 35,2 °C.",
+   "presentation": "Nouveau-né de 4 jours, poids de naissance 3,0 kg, poids actuel 2,8 kg, né à domicile après une rupture des membranes de 30 heures. Il ne tète plus depuis 12 heures. Température 38,4 °C, fréquence respiratoire 68/min avec tirage sous-costal marqué, peu de mouvements spontanés.",
    "etapes": [
     {
      "info": "",
-     "question": "Quelle prise en charge ?",
+     "question": "Comment classer cet enfant ?",
      "options": [
-      "Traitement ambulatoire avec ATPE",
-      "Hospitalisation (unité nutritionnelle intensive) et lait F-75",
-      "Perfusion de glucosé et retour à domicile",
-      "Régime normal et vitamines"
+      "Infection bactérienne locale",
+      "Infection bactérienne grave possible (sepsis néonatal)",
+      "Simple déshydratation",
+      "Ictère physiologique"
      ],
      "bonne": 1,
-     "explication": "Œdèmes, échec du test de l'appétit et hypothermie : malnutrition aiguë sévère compliquée, à traiter en hospitalisation avec F-75."
+     "explication": "Incapacité à téter, fièvre ≥ 37,5 °C, respiration rapide ≥ 60/min, tirage sous-costal marqué et mouvements diminués sont des signes de danger PCIME : infection bactérienne grave possible. La rupture prolongée des membranes est un facteur de risque. Hospitalisation urgente."
     },
     {
-     "info": "L'enfant est réchauffée (contact peau à peau, couverture).",
-     "question": "Quel traitement anti-infectieux ?",
+     "info": "Glycémie capillaire : 2,0 mmol/l.",
+     "question": "Quelle antibiothérapie débuter ?",
      "options": [
-      "Aucun sans fièvre",
+      "Ampicilline 140 mg IV toutes les 12 h + gentamicine 14 mg IV une fois par jour",
       "Amoxicilline orale seule",
-      "Ampicilline + gentamicine (antibiothérapie systématique)",
-      "Ceftriaxone uniquement en cas de diarrhée"
+      "Ciprofloxacine IV",
+      "Gentamicine 21 mg toutes les 8 h"
      ],
-     "bonne": 2,
-     "explication": "Les enfants sévèrement malnutris compliqués reçoivent systématiquement des antibiotiques, même sans fièvre : l'infection est souvent silencieuse."
+     "bonne": 0,
+     "explication": "En 1re semaine de vie : ampicilline 50 mg/kg toutes les 12 h (2,8 kg × 50 = 140 mg) et gentamicine 5 mg/kg une fois par jour (2,8 × 5 = 14 mg). Corriger aussi l'hypoglycémie (glucose 10 % 2 ml/kg IV), maintenir au chaud (peau à peau) et poursuivre le lait maternel par sonde."
     },
     {
-     "info": "Elle a des selles liquides sans signe de choc.",
-     "question": "Comment la réhydrater ?",
+     "info": "À 48 heures, l'enfant tète mieux. L'hémoculture est négative. La ponction lombaire est normale.",
+     "question": "Quelle durée de traitement ?",
      "options": [
-      "Ringer lactate 30 ml/kg en 30 minutes",
-      "SRO standard à volonté",
-      "ReSoMal par voie orale ou sonde, par petites quantités, avec surveillance",
-      "Pas de réhydratation"
+      "Arrêt dès que l'enfant tète",
+      "21 jours",
+      "Au moins 7 à 10 jours d'antibiothérapie",
+      "Relais par cotrimoxazole pendant 1 mois"
      ],
      "bonne": 2,
-     "explication": "Chez l'enfant malnutri, on utilise le ReSoMal par voie orale ; la perfusion est réservée au choc, à débit réduit, car le risque de surcharge cardiaque est élevé."
+     "explication": "Le sepsis néonatal se traite au moins 7 à 10 jours ; la durée est de 21 jours en cas de méningite. Ici la PL est normale. Le passage de l'ampicilline à toutes les 8 h se fait à partir du 8e jour de vie."
     }
    ],
-   "conclusion": "Malnutrition aiguë sévère compliquée : hospitalisation, réchauffement, prévention de l'hypoglycémie, antibiotiques systématiques, F-75 puis transition progressive ; réhydratation prudente par ReSoMal.",
-   "pathologie": 30,
-   "source": "OMS, prise en charge de la malnutrition aiguë sévère ; protocole national PCIMA"
+   "conclusion": "Les signes de danger du nouveau-né imposent une hospitalisation et une bi-antibiothérapie ampicilline + gentamicine adaptée à l'âge et au poids, avec correction de l'hypoglycémie, chaleur et alimentation au lait maternel.",
+   "pathologie": 31,
+   "source": "OMS, Pocket Book of Hospital Care for Children (2e éd.) ; PCIME ; MSF, Guide clinique et thérapeutique"
+  },
+  {
+   "id": "2026-10-30-shigellose-enfant",
+   "titre": "Diarrhée sanglante chez un enfant de 2 ans",
+   "theme": "antibiotiques",
+   "niveau": "Niveau 1",
+   "presentation": "Fille de 2 ans, 12 kg, amenée pour diarrhée avec sang et glaires depuis 2 jours, fièvre à 38,6 °C, douleurs abdominales. Elle boit avidement ; le pli cutané s'efface lentement. Pas de signe de danger. Plusieurs enfants du quartier ont la même diarrhée.",
+   "etapes": [
+    {
+     "info": "",
+     "question": "Quel est l'état d'hydratation et la conduite à tenir ?",
+     "options": [
+      "Pas de déshydratation : plan A",
+      "Déshydratation sévère : plan C",
+      "Arrêter l'alimentation",
+      "Signes évidents de déshydratation : plan B (SRO 75 ml/kg en 4 h)"
+     ],
+     "bonne": 3,
+     "explication": "Enfant qui boit avidement avec pli cutané qui s'efface lentement : signes évidents de déshydratation (plan B). SRO 75 ml/kg sur 4 h, soit environ 900 ml, puis réévaluation. Zinc 20 mg par jour pendant 10 à 14 jours. Poursuivre l'allaitement et l'alimentation."
+    },
+    {
+     "info": "",
+     "question": "Quel antibiotique prescrire ?",
+     "options": [
+      "Aucun : la diarrhée sanglante guérit seule",
+      "Ciprofloxacine 180 mg 2 fois par jour pendant 3 jours",
+      "Métronidazole d'emblée",
+      "Amoxicilline 250 mg 3 fois par jour pendant 5 jours"
+     ],
+     "bonne": 1,
+     "explication": "Une diarrhée sanglante de l'enfant est traitée d'abord comme une shigellose : ciprofloxacine 15 mg/kg 2 fois par jour pendant 3 jours (12 kg × 15 = 180 mg, maximum 500 mg par dose). L'amoxicilline n'est pas efficace sur les shigelles ; le métronidazole d'emblée n'est pas indiqué (l'amibiase est rare chez le jeune enfant)."
+    },
+    {
+     "info": "Revue à 48 heures : toujours du sang dans les selles et de la fièvre, mais elle boit bien.",
+     "question": "Quelle est la suite ?",
+     "options": [
+      "Poursuivre la ciprofloxacine 7 jours",
+      "Ajouter du lopéramide",
+      "Changer d'antibiotique : azithromycine (ou ceftriaxone si forme sévère)",
+      "Arrêter tout antibiotique"
+     ],
+     "bonne": 2,
+     "explication": "Absence d'amélioration à 48 h : suspecter une résistance et changer pour l'azithromycine (ou ceftriaxone 50 à 100 mg/kg/j pendant 3 jours si forme sévère). Si l'échec persiste, penser à l'amibiase. Les antidiarrhéiques (lopéramide) sont contre-indiqués chez l'enfant."
+    }
+   ],
+   "conclusion": "Diarrhée sanglante de l'enfant : évaluer et corriger la déshydratation, zinc, poursuite de l'alimentation, ciprofloxacine 3 jours, contrôle à 48 h et changement d'antibiotique en cas d'échec. Plusieurs cas groupés doivent être notifiés.",
+   "pathologie": 20,
+   "source": "OMS, Pocket Book of Hospital Care for Children ; PCIME ; MSF, Guide clinique et thérapeutique"
+  },
+  {
+   "id": "2026-10-30-cryptococcose-vih",
+   "titre": "Céphalées chez un patient VIH perdu de vue",
+   "theme": "vihtb",
+   "niveau": "Niveau 2",
+   "presentation": "Homme de 38 ans, 50 kg, séropositif pour le VIH, sans traitement antirétroviral depuis 1 an. Céphalées progressives depuis 2 semaines, vomissements, fièvre modérée. Glasgow 15, pas de déficit moteur, raideur de nuque discrète. CD4 : 48/mm³.",
+   "etapes": [
+    {
+     "info": "",
+     "question": "Quel examen réaliser en priorité ?",
+     "options": [
+      "Antigène cryptococcique (CrAg) sanguin puis ponction lombaire avec mesure de la pression d'ouverture",
+      "Goutte épaisse seule",
+      "Scanner cérébral obligatoire avant tout traitement",
+      "Radiographie du crâne"
+     ],
+     "bonne": 0,
+     "explication": "Maladie à VIH avancée (CD4 < 200) avec céphalées : rechercher la cryptococcose par CrAg sérique (test rapide) puis ponction lombaire (CrAg dans le LCR, encre de Chine, pression d'ouverture). L'absence de scanner ne doit pas retarder la PL en l'absence de signe de localisation."
+    },
+    {
+     "info": "CrAg positif dans le LCR. Pression d'ouverture : 32 cm d'eau.",
+     "question": "Quel traitement d'induction ?",
+     "options": [
+      "Fluconazole 200 mg par jour seul",
+      "Démarrer immédiatement le TLD et attendre",
+      "Ceftriaxone 2 g par jour pendant 10 jours",
+      "Amphotéricine B liposomale 500 mg en dose unique + flucytosine 1 250 mg toutes les 6 h + fluconazole 1 200 mg par jour pendant 14 jours"
+     ],
+     "bonne": 3,
+     "explication": "Schéma OMS 2022 : amphotéricine B liposomale 10 mg/kg en dose unique (50 kg → 500 mg), flucytosine 100 mg/kg/j en 4 prises (25 mg/kg × 50 = 1 250 mg toutes les 6 h) et fluconazole 1 200 mg/j pendant 14 jours. Hydratation et supplémentation en potassium. Une pression ≥ 25 cm d'eau impose des ponctions lombaires évacuatrices répétées."
+    },
+    {
+     "info": "",
+     "question": "Quand débuter le traitement antirétroviral ?",
+     "options": [
+      "Le jour même",
+      "4 à 6 semaines après le début du traitement antifongique",
+      "Après 6 mois de fluconazole",
+      "Jamais avant la négativation du CrAg"
+     ],
+     "bonne": 1,
+     "explication": "Dans la méningite à cryptocoque, un démarrage immédiat des ARV augmente la mortalité (syndrome inflammatoire de reconstitution immunitaire). L'OMS recommande de débuter les ARV 4 à 6 semaines après le début du traitement antifongique. Consolidation par fluconazole 800 mg/j pendant 8 semaines, puis entretien à 200 mg/j."
+    }
+   ],
+   "conclusion": "Chez tout patient VIH avec CD4 < 200 et céphalées, rechercher la cryptococcose (CrAg, PL). Induction par amphotéricine liposomale dose unique + flucytosine + fluconazole, ponctions évacuatrices si hypertension intracrânienne, ARV différés de 4 à 6 semaines.",
+   "pathologie": 71,
+   "source": "OMS, Guidelines for diagnosing, preventing and managing cryptococcal disease (2022) ; MSF, Guide clinique et thérapeutique"
+  },
+  {
+   "id": "2026-10-30-anaphylaxie-injection",
+   "titre": "Malaise juste après une injection",
+   "theme": "pharmaco",
+   "niveau": "Niveau 1",
+   "presentation": "Homme de 45 ans, 70 kg, reçoit au centre de santé une injection IM de benzathine benzylpénicilline pour une syphilis. Cinq minutes plus tard : prurit, urticaire généralisée, gêne respiratoire avec sifflements, sensation de malaise. Pouls 128/min, TA 75/40 mmHg.",
+   "etapes": [
+    {
+     "info": "",
+     "question": "Quel est le diagnostic ?",
+     "options": [
+      "Anaphylaxie (choc anaphylactique)",
+      "Malaise vagal",
+      "Crise d'asthme isolée",
+      "Crise d'angoisse"
+     ],
+     "bonne": 0,
+     "explication": "Atteinte cutanée, respiratoire et hypotension survenant dans les minutes suivant l'exposition à un allergène : anaphylaxie avec choc. Le malaise vagal associe bradycardie et pâleur, sans urticaire ni bronchospasme."
+    },
+    {
+     "info": "",
+     "question": "Quel est le traitement de première intention ?",
+     "options": [
+      "Hydrocortisone 100 mg IV",
+      "Chlorphénamine IM",
+      "Adrénaline 0,5 mg IM (0,5 ml de la solution à 1 mg/ml) dans la face antérolatérale de la cuisse",
+      "Adrénaline 1 mg IV directe"
+     ],
+     "bonne": 2,
+     "explication": "L'adrénaline IM est le seul traitement vital de première intention : 0,01 mg/kg, maximum 0,5 mg chez l'adulte, dans la cuisse, à répéter toutes les 5 minutes si besoin. Le bolus IV de 1 mg est réservé à l'arrêt cardiaque (risque de troubles du rythme). Antihistaminiques et corticoïdes ne viennent qu'après stabilisation."
+    },
+    {
+     "info": "Le patient est allongé jambes surélevées, sous oxygène. Cinq minutes après la première dose, la TA est à 80/50 mmHg.",
+     "question": "Quelle conduite ?",
+     "options": [
+      "Attendre 30 minutes l'effet de l'adrénaline",
+      "Le faire asseoir et lui donner à boire",
+      "Lui proposer de rentrer à domicile dès que la TA remonte",
+      "Deuxième dose d'adrénaline 0,5 mg IM et remplissage par NaCl 0,9 % ou Ringer lactate"
+     ],
+     "bonne": 3,
+     "explication": "Répéter l'adrénaline IM toutes les 5 minutes tant que persistent les signes de choc, avec remplissage (par exemple 1 litre de cristalloïde rapidement chez l'adulte). Salbutamol si bronchospasme persistant. Surveillance au moins 6 à 12 heures (réaction biphasique possible) et allergie notée dans le dossier et sur le carnet du patient."
+    },
+    {
+     "info": "",
+     "question": "Comment traiter la syphilis à l'avenir ?",
+     "options": [
+      "Réessayer la benzathine benzylpénicilline à demi-dose",
+      "Doxycycline 100 mg 2 fois par jour pendant 14 jours",
+      "Amoxicilline orale",
+      "Aucun traitement"
+     ],
+     "bonne": 1,
+     "explication": "Chez l'adulte non enceinte allergique à la pénicilline, l'alternative OMS pour la syphilis précoce est la doxycycline 100 mg 2 fois par jour pendant 14 jours. Chez la femme enceinte, une désensibilisation à la pénicilline est préférable. Tout centre qui injecte des pénicillines doit disposer d'adrénaline prête à l'emploi."
+    }
+   ],
+   "conclusion": "L'anaphylaxie se traite par adrénaline IM sans délai (0,5 mg chez l'adulte), répétée toutes les 5 minutes, avec position, oxygène et remplissage. Les antihistaminiques et corticoïdes sont secondaires. Une trousse d'urgence doit être disponible à chaque poste d'injection.",
+   "pathologie": 37,
+   "source": "OMS, Pocket Book of Hospital Care for Children ; World Allergy Organization, Anaphylaxis Guidance (2020) ; OMS, Recommandations sur le traitement de la syphilis (2016)"
+  },
+  {
+   "id": "2026-10-30-palu-grossesse-t1",
+   "titre": "Fièvre au 1er trimestre de grossesse",
+   "theme": "paludisme",
+   "niveau": "Niveau 1",
+   "presentation": "Femme de 24 ans, 58 kg, enceinte de 10 semaines (première consultation prénatale). Fièvre depuis 24 heures, frissons, céphalées. Elle boit, marche, est consciente, sans vomissements répétés ni saignement. TA 110/70 mmHg, température 38,8 °C, conjonctives normalement colorées.",
+   "etapes": [
+    {
+     "info": "TDR paludisme positif (P. falciparum). Aucun signe de gravité.",
+     "question": "Quel traitement prescrire ?",
+     "options": [
+      "Quinine orale + clindamycine pendant 7 jours obligatoirement",
+      "Primaquine",
+      "Sulfadoxine-pyriméthamine (SP) en dose unique",
+      "Artéméther-luméfantrine 4 comprimés par prise, 6 prises sur 3 jours"
+     ],
+     "bonne": 3,
+     "explication": "Depuis 2022, l'OMS recommande l'artéméther-luméfantrine au 1er trimestre de grossesse (efficacité et sécurité au moins égales à la quinine). Dose pour 35 kg et plus : 4 comprimés de 20/120 mg à H0, H8, puis matin et soir à J2 et J3, avec un repas gras. La SP sert au TPIp à partir du 2e trimestre, pas au traitement curatif. La primaquine est contre-indiquée pendant la grossesse."
+    },
+    {
+     "info": "",
+     "question": "Quel conseil donner pour la fièvre ?",
+     "options": [
+      "Paracétamol 1 g toutes les 6 à 8 h si besoin (max 4 g/j)",
+      "Ibuprofène 400 mg 3 fois par jour",
+      "Aspirine 500 mg",
+      "Aucun traitement de la fièvre"
+     ],
+     "bonne": 0,
+     "explication": "Le paracétamol est l'antipyrétique de choix pendant la grossesse. Les AINS sont à éviter, surtout au 3e trimestre."
+    },
+    {
+     "info": "",
+     "question": "Quelles mesures de prévention organiser pour la suite de la grossesse ?",
+     "options": [
+      "Aucune, elle est maintenant immunisée",
+      "SP chaque semaine dès maintenant",
+      "Moustiquaire imprégnée d'insecticide, TPIp à la SP à partir de 13 semaines puis chaque mois jusqu'à l'accouchement",
+      "Chloroquine hebdomadaire"
+     ],
+     "bonne": 2,
+     "explication": "Prévention : dormir sous moustiquaire imprégnée et TPIp par SP (3 comprimés de 500/25 mg) à chaque consultation à partir de 13 semaines, à au moins 1 mois d'intervalle, jusqu'à l'accouchement. La SP est contre-indiquée chez la femme VIH+ sous cotrimoxazole. Revoir la patiente si la fièvre persiste au 3e jour ou si des signes de danger apparaissent."
+    }
+   ],
+   "conclusion": "Paludisme simple au 1er trimestre : artéméther-luméfantrine 3 jours (OMS 2022), paracétamol, puis prévention par moustiquaire et TPIp à la SP dès 13 semaines. Tout signe de gravité impose l'artésunate parentéral, quel que soit le trimestre.",
+   "pathologie": 1,
+   "source": "OMS, Directives sur le paludisme (2022 et mises à jour) ; PNLP RDC ; MSF, Guide clinique et thérapeutique"
+  },
+  {
+   "id": "2026-10-30-glasgow-trauma",
+   "titre": "Accident de moto et somnolence",
+   "theme": "scores",
+   "niveau": "Niveau 2",
+   "presentation": "Homme de 22 ans, 65 kg, conducteur de taxi-moto sans casque, amené 1 heure après une chute. Il ouvre les yeux à la douleur, prononce des mots inappropriés et retire le membre stimulé (flexion d'évitement). Plaie du scalp pariétale droite. Pouls 88/min, TA 135/80 mmHg, SpO2 95 % à l'air ambiant. Pupilles égales et réactives.",
+   "etapes": [
+    {
+     "info": "",
+     "question": "Quel est son score de Glasgow ?",
+     "options": [
+      "E3 V4 M5 = 12",
+      "E2 V3 M4 = 9",
+      "E2 V2 M4 = 8",
+      "E1 V3 M5 = 9"
+     ],
+     "bonne": 1,
+     "explication": "Ouverture des yeux à la douleur = 2 ; mots inappropriés = 3 ; retrait du membre en évitement = 4 (la localisation serait 5). Score = 9/15 : traumatisme crânien modéré (9 à 12). Le score doit être répété et noté régulièrement."
+    },
+    {
+     "info": "Une heure plus tard : il n'ouvre plus les yeux, émet des sons incompréhensibles et présente une flexion anormale (décortication). Pupille droite dilatée.",
+     "question": "Que signifie cette évolution ?",
+     "options": [
+      "Aggravation : Glasgow 1 + 2 + 3 = 6 avec signe d'engagement",
+      "Amélioration : Glasgow 9",
+      "Évolution normale après un traumatisme",
+      "Crise d'épilepsie simple"
+     ],
+     "bonne": 0,
+     "explication": "E1 V2 M3 = 6. Une baisse du Glasgow de 2 points ou plus et une mydriase unilatérale signent un engagement, très évocateur d'un hématome extradural ou sous-dural. C'est une urgence neurochirurgicale."
+    },
+    {
+     "info": "",
+     "question": "Quelle conduite immédiate ?",
+     "options": [
+      "Diazépam IV pour calmer le patient",
+      "Surveillance simple jusqu'au lendemain",
+      "Ponction lombaire",
+      "Protéger les voies aériennes (Glasgow ≤ 8), oxygène, maintenir la TA systolique ≥ 110 mmHg, tête à 30°, osmothérapie (mannitol ou NaCl 3 %) et référence neurochirurgicale urgente"
+     ],
+     "bonne": 3,
+     "explication": "Glasgow ≤ 8 : protection des voies aériennes (position latérale de sécurité, intubation si possible), oxygène, prévention de l'hypoxie et de l'hypotension, tête surélevée à 30° en axe, mannitol 20 % 0,5 à 1 g/kg ou NaCl 3 % devant les signes d'engagement, et transfert neurochirurgical immédiat. Les sédatifs masquent la surveillance ; la PL est contre-indiquée. Penser au rachis cervical, suturer la plaie et vérifier la vaccination antitétanique."
+    }
+   ],
+   "conclusion": "Le score de Glasgow, répété et décomposé (E, V, M), guide la gravité et détecte l'aggravation. Une chute de 2 points ou une mydriase unilatérale impose la protection des voies aériennes, l'osmothérapie et la référence neurochirurgicale urgente.",
+   "pathologie": 97,
+   "source": "OMS, Prise en charge des urgences et des traumatismes (Basic Emergency Care, 2018) ; MSF, Guide clinique et thérapeutique"
   }
  ]
 }
