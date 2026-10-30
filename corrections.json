@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "date": "2026-10-30",
+  "cible": "pathologie",
+  "id": 173,
+  "champ": "traitement",
+  "valeur": [
+   "Schéma de 6 mois BPaLM (≥ 14 ans) : bédaquiline + prétomanide + linézolide 600 mg + moxifloxacine (sans moxifloxacine si résistance aux fluoroquinolones)",
+   "Schéma oral de 6 mois BDLLfxC (tous âges, y compris enfant, femme enceinte ou allaitante et PVVIH, avec ou sans résistance aux fluoroquinolones) : bédaquiline + délamanid + linézolide + lévofloxacine + clofazimine (lévofloxacine retirée si résistance aux fluoroquinolones confirmée)",
+   "Schéma oral de 9 mois (seulement si la résistance aux fluoroquinolones est exclue ; enfant et femme enceinte compris) : bédaquiline + linézolide + pyrazinamide, associés à moxifloxacine (BLMZ), à lévofloxacine + clofazimine (BLLfxCZ) ou à délamanid + lévofloxacine (BDLLfxZ), selon le protocole national",
+   "Traitement sous observation directe, soutien nutritionnel et social",
+   "Suivi mensuel : crachats (culture), ECG, NFS, vision et neuropathie (linézolide)",
+   "ARV chez les PVVIH dans les 2 semaines"
+  ],
+  "source": "OMS, Consolidated guidelines on tuberculosis, Module 4: treatment and care (mise à jour 2025 ; 2e édition 2026), recommandations 1.2 (BDLLfxC) et 2.2-2.3 (schémas de 9 mois BLMZ, BLLfxCZ, BDLLfxZ) : https://tbksp.who.int/en/node/2976 ; https://tbksp.who.int/en/node/2977 ; https://www.who.int/publications/i/item/9789240125124",
+  "motif": "Le schéma de 9 mois de la fiche ne correspondait à aucun schéma OMS (absence de pyrazinamide, cyclosérine/éthionamide relevant des schémas longs, pas d'exigence d'exclure la résistance aux fluoroquinolones) ; ajout du schéma de 6 mois BDLLfxC recommandé par l'OMS pour tous les âges, y compris enfant et femme enceinte."
+ }
+]
