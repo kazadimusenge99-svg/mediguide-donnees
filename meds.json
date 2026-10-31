@@ -1,5 +1,5 @@
 {
- "version": 30,
+ "version": 31,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -34745,43 +34745,60 @@
    "nom": "Pneumonie de l'enfant",
    "categorie": "enfant",
    "synonymes": "pneumonie, toux, respiration rapide, tirage, IRA",
-   "resume": "Infection aiguë du poumon, première cause de mortalité de l'enfant de moins de 5 ans. Classification selon la PCIME.",
+   "resume": "Infection aiguë du poumon, première cause infectieuse de décès de l'enfant de moins de 5 ans en RDC. Le plus souvent due au pneumocoque, à Haemophilus influenzae b, au staphylocoque (après rougeole ou infection de peau) ou à des virus (VRS). La PCIME permet de la reconnaître sans radiographie, par le comptage de la fréquence respiratoire et la recherche du tirage. L'oxygène et l'amoxicilline orale sauvent la plupart des enfants.",
    "signes": [
-    "Toux ou difficulté respiratoire",
-    "Respiration rapide : ≥ 60/min (< 2 mois), ≥ 50/min (2 à 11 mois), ≥ 40/min (1 à 5 ans)",
-    "Tirage sous-costal",
-    "Pneumonie sévère : SpO2 < 90 %, cyanose, geignement, incapacité de boire, convulsions, léthargie"
+    "Toux ou difficulté respiratoire, souvent avec fièvre",
+    "Respiration rapide (compter sur 1 minute entière, enfant calme) : ≥ 60/min avant 2 mois, ≥ 50/min de 2 à 11 mois, ≥ 40/min de 1 à 5 ans",
+    "Tirage sous-costal (le bas du thorax rentre à l'inspiration)",
+    "Battement des ailes du nez, geignement, crépitants, souffle tubaire",
+    "Pneumonie sévère : SpO₂ < 90 %, cyanose centrale, détresse respiratoire sévère (hochement de tête, geignement, tirage très marqué), signe général de danger (incapable de boire, vomit tout, convulsions, léthargie)",
+    "Sifflements : penser bronchiolite ou asthme (tester un bronchodilatateur)",
+    "Toux de plus de 14 jours : tuberculose, coqueluche, corps étranger, asthme"
    ],
    "diagnostic": [
-    "Compter la fréquence respiratoire sur 1 minute, enfant calme",
-    "Oxymètre de pouls si disponible",
-    "Éliminer un paludisme (TDR), rechercher une malnutrition"
+    "Compter la fréquence respiratoire, rechercher le tirage, mesurer la SpO₂ (oxymètre de pouls) chez tout enfant qui tousse",
+    "Rechercher les signes généraux de danger, la malnutrition (périmètre brachial, œdèmes) et l'anémie ; TDR paludisme si fièvre (traiter les deux si besoin)",
+    "Sifflements avec respiration rapide ou tirage : salbutamol inhalé (2 bouffées avec chambre) ou nébulisé jusqu'à 3 fois à 20 min d'intervalle, puis reclasser",
+    "Radiographie seulement en cas de pneumonie sévère ne répondant pas au traitement ou de suspicion de complication (épanchement, abcès, pneumothorax, tuberculose)",
+    "Statut VIH de l'enfant et de la mère (pneumocystose chez le nourrisson exposé)"
    ],
    "traitement": [
-    "Pneumonie (respiration rapide et/ou tirage, sans signe de danger) : amoxicilline orale 40 mg/kg 2 fois par jour pendant 5 jours (3 jours si seulement respiration rapide, en zone de faible prévalence du VIH)",
-    "Pneumonie sévère : hospitaliser, oxygène, ampicilline (ou benzylpénicilline) + gentamicine IV, ou ceftriaxone",
-    "Sifflements : salbutamol",
-    "Paracétamol, poursuite de l'allaitement et de l'alimentation",
-    "Doses IV : ampicilline 50 mg/kg toutes les 6 h + gentamicine 7,5 mg/kg une fois par jour pendant au moins 5 jours ; relais oral par amoxicilline dès l'amélioration",
-    "Traitement ambulatoire : revoir l'enfant après 2 jours",
-    "Échec à 48 h : ceftriaxone ; penser au staphylocoque (cloxacilline), à la tuberculose et, chez le nourrisson exposé au VIH, à la pneumocystose"
+    "Pneumonie (respiration rapide et/ou tirage, sans signe de danger) : amoxicilline orale 40 mg/kg 2 fois par jour pendant 5 jours ; 3 jours suffisent en cas de respiration rapide seule chez un enfant sans VIH",
+    "Expliquer comment donner l'amoxicilline et revoir l'enfant après 2 à 3 jours (plus tôt s'il s'aggrave)",
+    "Pneumonie sévère : hospitaliser ; ampicilline 50 mg/kg (ou benzylpénicilline 50 000 UI/kg) IV ou IM toutes les 6 h + gentamicine 7,5 mg/kg une fois par jour, pendant au moins 5 jours ; relais oral par amoxicilline dès l'amélioration pour un total de 7 à 10 jours",
+    "Ceftriaxone 80 mg/kg par jour (maximum 2 g) en 2e intention ou en cas d'échec après 48 h ; suspicion de staphylocoque (pustules, rougeole récente, pneumatocèles, épanchement) : cloxacilline 50 mg/kg toutes les 6 h + gentamicine",
+    "Oxygène si SpO₂ < 90 % (ou cyanose, tirage sévère, incapacité de boire sans oxymètre) : lunettes nasales 0,5 à 1 l/min avant 2 mois, 1 à 2 l/min après ; objectif SpO₂ ≥ 90 % (≥ 94 % en cas de choc ou de convulsions) ; arrêter quand la SpO₂ reste ≥ 90 % à l'air pendant 15 min",
+    "Nourrisson exposé ou infecté par le VIH avec pneumonie sévère : ajouter cotrimoxazole à forte dose (pneumocystose), prednisolone si hypoxie ; débuter les ARV",
+    "Sifflements : salbutamol ; fièvre : paracétamol",
+    "Poursuite de l'allaitement et de l'alimentation (petites quantités fréquentes) ; sonde gastrique si l'enfant ne peut boire ; liquides d'entretien sans excès (risque d'œdème)",
+    "Épanchement pleural purulent : ponction, drainage thoracique, cloxacilline + gentamicine ; pneumothorax compressif : exsufflation à l'aiguille",
+    "Échec après 48 h : vérifier la prise, penser au staphylocoque, à la tuberculose, au VIH, à un corps étranger, à une cardiopathie ou au paludisme",
+    "Pneumonie chez l'enfant malnutri sévère : traiter comme une pneumonie sévère et prendre en charge la malnutrition"
    ],
    "gravite": [
-    "Signes de danger : incapacité de boire, vomissements, convulsions, léthargie",
-    "SpO2 < 90 %, cyanose → oxygène et hospitalisation",
-    "Échec après 48 h de traitement"
+    "Signes généraux de danger : incapable de boire ou de téter, vomit tout, convulsions, léthargie ou inconscience",
+    "SpO₂ < 90 %, cyanose, geignement, hochement de tête : oxygène et hospitalisation",
+    "Nourrisson de moins de 2 mois, malnutrition sévère, VIH",
+    "Échec après 48 h de traitement",
+    "Épanchement, pneumothorax, choc"
    ],
    "prevention": [
-    "Vaccination (pneumocoque, Hib, rougeole, coqueluche)",
-    "Allaitement exclusif jusqu'à 6 mois",
-    "Réduction de la fumée domestique"
+    "Vaccinations du PEV : pneumococcique conjugué, pentavalent (Hib, coqueluche), rougeole",
+    "Allaitement exclusif jusqu'à 6 mois, bonne alimentation, vitamine A",
+    "Réduire la fumée domestique (cuisine à l'extérieur, foyers améliorés) et le tabagisme passif",
+    "Lavage des mains",
+    "Cotrimoxazole chez les nourrissons exposés au VIH",
+    "Traitement précoce par les agents communautaires (amoxicilline)"
    ],
    "medicaments": [
     "Amoxicilline",
     "Ampicilline",
+    "Benzylpénicilline (pénicilline G)",
     "Gentamicine",
     "Ceftriaxone",
-    "Benzylpénicilline (pénicilline G)",
+    "Cloxacilline",
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
+    "Prednisolone",
     "Oxygène",
     "Salbutamol",
     "Paracétamol"
@@ -37756,42 +37773,66 @@
    "nom": "Évaluation de l'enfant malade (PCIME)",
    "categorie": "enfant",
    "synonymes": "PCIME, enfant malade, signes de danger, PCIMNE",
-   "resume": "Démarche de Prise en Charge Intégrée des Maladies de l'Enfant (2 mois à 5 ans) : rechercher systématiquement les signes généraux de danger, puis classer chaque symptôme.",
+   "resume": "Démarche de prise en charge intégrée des maladies de l'enfant (PCIME) de l'OMS et de l'UNICEF pour l'enfant de 2 mois à 5 ans (le nourrisson de moins de 2 mois a sa propre grille : voir la fiche Sepsis néonatal). Chaque enfant est évalué de façon systématique : signes généraux de danger, symptômes principaux, état nutritionnel, anémie, vaccination. Chaque problème est classé par couleur (rouge : référer en urgence ; jaune : traiter sur place ; vert : conseils à domicile). Utilisée dans les centres de santé et, dans sa version communautaire, par les agents de santé communautaires.",
    "signes": [
-    "Signes généraux de danger : incapable de boire ou de téter ; vomit tout ; a convulsé ; convulse maintenant ; léthargique ou inconscient",
-    "Symptômes principaux à évaluer : toux ou difficulté respiratoire, diarrhée, fièvre, problème d'oreille",
-    "Toujours vérifier : malnutrition (PB, œdèmes), anémie (pâleur palmaire), vaccinations, vitamine A, déparasitage"
+    "Signes généraux de danger : incapable de boire ou de téter ; vomit tout ce qu'il consomme ; a eu des convulsions pendant cette maladie ; convulse maintenant ; léthargique ou inconscient",
+    "Symptômes principaux : toux ou difficulté respiratoire (fréquence respiratoire, tirage, stridor, sifflement, SpO₂) ; diarrhée (durée, sang, déshydratation) ; fièvre (paludisme, rougeole, raideur de nuque) ; problème d'oreille (douleur, écoulement, gonflement derrière l'oreille)",
+    "Toujours vérifier : malnutrition (poids pour la taille, périmètre brachial, œdèmes des deux pieds), anémie (pâleur palmaire), statut VIH, vaccinations, vitamine A, déparasitage, alimentation",
+    "Autres problèmes : rechercher et traiter (peau, yeux, bouche, maltraitance)"
    ],
    "diagnostic": [
-    "Peser, mesurer la température, compter la fréquence respiratoire",
-    "TDR paludisme si fièvre",
-    "Classer selon les tableaux PCIME (rouge = référer, jaune = traiter, vert = conseils)"
+    "Accueillir, demander l'âge et le motif, rechercher d'abord les signes de danger (référence immédiate si présents)",
+    "Peser, mesurer la température, compter la fréquence respiratoire, mesurer le périmètre brachial",
+    "TDR paludisme chez tout enfant fébrile ; SpO₂ si toux ou difficulté respiratoire",
+    "Classer chaque symptôme selon les tableaux : rouge (grave), jaune (modéré), vert (léger)",
+    "Évaluer l'alimentation (allaitement, aliments de complément) chez l'enfant de moins de 2 ans, anémié ou malnutri"
    ],
    "traitement": [
-    "Classification grave (rouge) : 1re dose d'antibiotique (ceftriaxone ou ampicilline + gentamicine), artésunate si paludisme grave, prévention de l'hypoglycémie (lait ou eau sucrée), référence urgente",
-    "Traitements de base : SRO + zinc, amoxicilline, CTA, paracétamol, vitamine A selon les classifications",
-    "Conseils à la mère : alimentation, signes de retour immédiat, visite de suivi"
+    "Classification rouge (référer en urgence) : traitements pré-référence puis transfert : 1re dose d'antibiotique (ceftriaxone 80 mg/kg IM ou ampicilline + gentamicine), artésunate IM ou rectal si fièvre ou paludisme grave possible, prévention de l'hypoglycémie (lait maternel, lait ou eau sucrée par la bouche ou la sonde), garder l'enfant au chaud, diazépam intrarectal si convulsions, SRO pendant le trajet si diarrhée ; note de référence",
+    "Pneumonie : amoxicilline 40 mg/kg 2 fois par jour pendant 5 jours",
+    "Diarrhée : SRO (plan A ou B) + zinc 10 à 14 jours ; dysenterie : ciprofloxacine 15 mg/kg 2 fois par jour pendant 3 jours",
+    "Paludisme confirmé : CTA selon le poids ; fièvre : paracétamol",
+    "Otite aiguë : amoxicilline 5 jours, assécher l'oreille par mèche ; otite chronique : mèche et gouttes de quinolone",
+    "Rougeole : vitamine A ; anémie (pâleur palmaire) : fer 14 jours, albendazole ou mébendazole si plus d'un an et pas reçu depuis 6 mois, CTA si paludisme",
+    "Malnutrition aiguë modérée : conseils et programme de supplémentation ; malnutrition sévère sans complication : ATPE en ambulatoire (voir la fiche Malnutrition aiguë sévère)",
+    "Vaccinations manquantes, vitamine A (tous les 6 mois de 6 à 59 mois), déparasitage : à donner le jour même",
+    "Conseils à la mère : donner plus à boire, continuer l'allaitement et l'alimentation, signes de retour immédiat (ne peut pas boire, plus malade, fièvre, respiration rapide ou difficile, sang dans les selles), date de la visite de suivi",
+    "Visites de suivi : 2 à 3 jours (pneumonie, dysenterie, paludisme si fièvre persiste), 5 jours (diarrhée persistante, otite), 14 jours (anémie, problème d'alimentation), selon le tableau",
+    "Vérifier que la mère sait donner les médicaments : faire la 1re dose devant elle"
    ],
    "gravite": [
     "Tout signe général de danger",
-    "Respiration rapide avec tirage ou SpO2 < 90 %",
-    "Déshydratation sévère, malnutrition compliquée, anémie sévère, raideur de nuque"
+    "Toux avec tirage marqué, stridor au repos ou SpO₂ < 90 %",
+    "Déshydratation sévère, diarrhée persistante avec déshydratation",
+    "Fièvre avec raideur de nuque ou signe de danger (maladie fébrile très grave)",
+    "Gonflement douloureux derrière l'oreille (mastoïdite)",
+    "Malnutrition avec complication, anémie sévère (pâleur palmaire intense)"
    ],
    "prevention": [
-    "Vaccination, allaitement, moustiquaire, supplémentation en vitamine A, déparasitage, suivi de la croissance"
+    "Vaccination complète selon le PEV",
+    "Allaitement exclusif jusqu'à 6 mois puis aliments de complément adaptés",
+    "Moustiquaire imprégnée",
+    "Supplémentation en vitamine A et déparasitage tous les 6 mois",
+    "Suivi de la croissance, eau potable et lavage des mains",
+    "Prise en charge communautaire (agents de santé communautaires formés)"
    ],
    "medicaments": [
     "Amoxicilline",
     "Ceftriaxone",
     "Ampicilline",
     "Gentamicine",
+    "Ciprofloxacine",
     "Artésunate (injectable)",
     "Artéméther + luméfantrine",
     "Sels de réhydratation orale (SRO)",
     "Zinc (sulfate)",
     "Paracétamol",
     "Vitamine A (rétinol)",
-    "Albendazole"
+    "Sulfate ferreux",
+    "Albendazole",
+    "Mébendazole",
+    "Diazépam",
+    "Aliment thérapeutique prêt à l'emploi (ATPE)"
    ]
   },
   {
@@ -37799,34 +37840,54 @@
    "nom": "Réanimation du nouveau-né",
    "categorie": "enfant",
    "synonymes": "réanimation néonatale, nouveau-né qui ne respire pas, asphyxie, HBB, minute d'or",
-   "resume": "Environ 1 nouveau-né sur 10 a besoin d'aide pour respirer à la naissance. La ventilation au ballon dans la première minute (« minute d'or ») sauve la plupart d'entre eux (programme Helping Babies Breathe).",
+   "resume": "Environ 1 nouveau-né sur 10 a besoin d'aide pour commencer à respirer à la naissance, et 1 sur 100 d'une réanimation plus poussée. L'asphyxie à la naissance est l'une des trois premières causes de décès néonatal en RDC. Sécher, stimuler et, si le bébé ne respire pas, ventiler au ballon et au masque dans la première minute (« minute d'or », programme Helping Babies Breathe) suffit à sauver la plupart d'entre eux. Chaque naissance doit être préparée.",
    "signes": [
-    "Ne pleure pas, ne respire pas ou respire mal (gasps)",
-    "Hypotonie, pâleur ou cyanose",
-    "Fréquence cardiaque < 100/min"
+    "À la naissance : le bébé ne pleure pas, ne respire pas ou respire mal (gasps), est mou (hypotonique), pâle ou cyanosé",
+    "Fréquence cardiaque < 100/min (auscultation ou palpation de la base du cordon)",
+    "Liquide amniotique méconial, travail prolongé ou dystocique, prématurité, souffrance fœtale, hémorragie maternelle : risque accru",
+    "Après réanimation : encéphalopathie (léthargie, hypotonie, difficultés à téter, convulsions, apnées)"
    ],
    "diagnostic": [
-    "Évaluation immédiate à la naissance : pleure-t-il ? respire-t-il ?",
-    "Fréquence cardiaque (auscultation ou palpation du cordon)"
+    "Évaluation immédiate : le bébé pleure-t-il ? respire-t-il bien ? quel est son tonus ?",
+    "Après le séchage : respire-t-il ?",
+    "Pendant la ventilation : la poitrine se soulève-t-elle ? fréquence cardiaque à 1 min de ventilation, puis toutes les 30 s à 1 min",
+    "SpO₂ au poignet droit si oxymètre disponible",
+    "Score d'Apgar à 1 et 5 min pour la documentation (ne guide pas les gestes)",
+    "Glycémie et température après la réanimation"
    ],
    "traitement": [
-    "Préparer avant chaque naissance : table chaude, linges secs, ballon-masque taille 0 et 1, aspirateur",
-    "Sécher et stimuler, garder au chaud (peau à peau)",
-    "Si pas de respiration : dégager les voies aériennes (aspiration seulement si sécrétions obstructives), puis ventilation au ballon-masque dans la minute, 40 insufflations/min, air ambiant (≥ 35 SA)",
-    "Si FC < 60/min après 30 s de ventilation efficace : compressions thoraciques (3 compressions : 1 insufflation) en milieu équipé, oxygène",
-    "Clampage du cordon après 1 à 3 min chez le nouveau-né qui respire",
-    "Arrêter si aucune activité cardiaque après 10 min de réanimation efficace"
+    "Préparer avant chaque naissance : aide identifiée, table chaude, 2 linges secs, bonnet, ballon autogonflable (250 à 500 ml) et masques taille 0 et 1 testés, aspirateur (poire), horloge, gants, ciseaux et ligatures stériles",
+    "Sécher immédiatement et vigoureusement en frottant le dos, retirer le linge mouillé, peau à peau sur la mère, couvrir, bonnet",
+    "S'il ne respire pas après le séchage et la stimulation : positionner la tête en légère extension, aspirer bouche puis nez seulement si sécrétions qui obstruent (ou méconium épais), couper le cordon si nécessaire, et ventiler au ballon et au masque avant la fin de la 1re minute, 40 à 60 insufflations par minute, en air ambiant (21 à 30 % d'oxygène avant 35 semaines)",
+    "Poitrine qui ne se soulève pas : MR SOPA : réajuster le masque, repositionner la tête, aspirer, ouvrir la bouche, augmenter la pression, envisager une autre interface",
+    "FC < 100/min malgré 1 min de ventilation efficace : poursuivre et améliorer la ventilation, demander de l'aide",
+    "FC < 60/min après 30 s de ventilation efficace : compressions thoraciques (pouces sur le tiers inférieur du sternum, 1/3 de la profondeur du thorax), 3 compressions pour 1 insufflation (90 compressions et 30 insufflations par minute), oxygène 100 %",
+    "FC toujours < 60/min malgré compressions et ventilation : adrénaline 0,01 à 0,03 mg/kg IV par la veine ombilicale (0,1 à 0,3 ml/kg de la solution à 0,1 mg/ml, c'est-à-dire 1 ampoule de 1 mg diluée dans 10 ml), à répéter toutes les 3 à 5 min ; par voie endotrachéale 0,05 à 0,1 mg/kg si pas de voie veineuse",
+    "Suspicion d'hypovolémie (hémorragie) : sérum physiologique 10 ml/kg en 5 à 10 min",
+    "Bébé qui respire bien : clampage retardé du cordon (1 à 3 min), peau à peau, mise au sein dans l'heure",
+    "Liquide méconial chez un bébé vigoureux : pas d'aspiration systématique",
+    "Arrêter la réanimation si aucune activité cardiaque après 10 min (au plus 20 min) de réanimation efficace ; arrêter la ventilation si le bébé ne respire pas spontanément et a une FC normale après 20 min : discuter avec un senior",
+    "Après réanimation : surveillance rapprochée (respiration, FC, couleur, température, glycémie) pendant au moins 6 h, maintien au chaud (éviter l'hyperthermie), allaitement précoce ou sonde ; convulsions : phénobarbital 20 mg/kg IV ; pas de refroidissement thérapeutique hors unité de réanimation néonatale",
+    "Soins essentiels : vitamine K1, pommade de tétracycline dans les yeux, chlorhexidine sur le cordon, vaccins de naissance",
+    "Informer et soutenir les parents ; noter tous les gestes et les heures"
    ],
    "gravite": [
-    "Absence de reprise respiratoire malgré la ventilation",
-    "Convulsions, hypotonie après réanimation (encéphalopathie) → soins néonatals"
+    "Absence de respiration spontanée malgré une ventilation efficace",
+    "FC < 60/min malgré compressions",
+    "Convulsions, hypotonie, troubles de la succion après la réanimation (encéphalopathie) : soins néonatals",
+    "Prématuré, détresse respiratoire, infection maternelle",
+    "Hypothermie, hypoglycémie"
    ],
    "prevention": [
-    "Suivi du travail par partogramme, accouchement assisté par un personnel qualifié"
+    "Consultations prénatales, suivi du travail par partogramme, accouchement assisté par un personnel qualifié et formé à la réanimation",
+    "Matériel de réanimation vérifié et disponible à chaque accouchement",
+    "Formation et exercices réguliers (Helping Babies Breathe)",
+    "Référence à temps des grossesses à risque"
    ],
    "medicaments": [
     "Oxygène",
     "Adrénaline (épinéphrine)",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Glucose 10 %",
     "Phénobarbital",
     "Vitamine K1 (phytoménadione)",
@@ -37839,39 +37900,51 @@
    "nom": "Ictère du nouveau-né",
    "categorie": "enfant",
    "synonymes": "jaunisse du nouveau-né, ictère néonatal, bilirubine",
-   "resume": "Coloration jaune de la peau fréquente et souvent bénigne (ictère physiologique), mais pouvant devenir toxique pour le cerveau (ictère nucléaire).",
+   "resume": "Coloration jaune de la peau et des yeux par excès de bilirubine, très fréquente la première semaine (60 % des nouveau-nés à terme, 80 % des prématurés). Souvent physiologique et bénigne, elle peut devenir toxique pour le cerveau (ictère nucléaire, séquelles définitives) lorsqu'elle monte vite ou très haut : incompatibilité de groupe sanguin, déficit en G6PD (fréquent en RDC), infection, prématurité. Un ictère prolongé avec selles décolorées doit faire rechercher une atrésie des voies biliaires (urgence chirurgicale avant 2 mois).",
    "signes": [
-    "Coloration jaune de la peau et des yeux, progressant de la tête vers les pieds",
-    "Signes de gravité : ictère dans les 24 premières heures, ictère des paumes et plantes, nouveau-né léthargique, refus de téter, hypertonie, cri aigu (encéphalopathie)"
+    "Coloration jaune débutant au visage et progressant vers les pieds (zones de Kramer : visage, thorax, abdomen, jambes, paumes et plantes) ; appuyer sur la peau à la lumière du jour",
+    "Ictère physiologique : apparaît après 24 h, maximum vers J3 à J5, disparaît avant J14 chez un bébé qui tète bien",
+    "Signes de gravité : ictère dans les 24 premières heures, ictère des paumes et des plantes, montée rapide, bébé léthargique, qui tète mal",
+    "Encéphalopathie : somnolence, hypotonie puis hypertonie, cri aigu, opisthotonos, fièvre, convulsions",
+    "Cholestase : ictère prolongé (> 14 jours à terme, > 21 jours chez le prématuré), selles décolorées (blanc, mastic), urines foncées"
    ],
    "diagnostic": [
-    "Examen à la lumière du jour (pression sur la peau)",
-    "Bilirubine (transcutanée ou sanguine) à comparer aux courbes selon l'âge en heures et le terme",
-    "Rechercher : incompatibilité de groupe (mère O ou Rh négatif), infection, déficit en G6PD, prématurité"
+    "Bilirubine transcutanée ou sanguine chez tout nouveau-né ictérique, à reporter sur la courbe selon l'âge en heures et le terme ; l'estimation visuelle est peu fiable sur peau noire (regarder les conjonctives, les gencives, les paumes)",
+    "Seuils indicatifs de photothérapie chez le nouveau-né à terme sans facteur de risque : environ 12 mg/dl (200 µmol/l) à 24 h, 15 mg/dl (260) à 48 h, 18 mg/dl (310) à 72 h, 20 mg/dl (340) après 96 h ; seuils plus bas en cas de prématurité, d'hémolyse, de déficit en G6PD, d'infection ou d'albumine basse",
+    "Rechercher la cause : groupe sanguin et Rhésus de la mère et de l'enfant, test de Coombs direct, hémoglobine et réticulocytes, test G6PD, signes d'infection, hématome, allaitement insuffisant (perte de poids > 10 %)",
+    "Ictère prolongé : bilirubine conjuguée (> 1 mg/dl ou > 20 % du total : cholestase), couleur des selles (carte colorimétrique), TSH, infection urinaire, échographie hépatique"
    ],
    "traitement": [
-    "Allaitement fréquent (8 à 12 fois par jour)",
-    "Photothérapie selon les seuils de bilirubine (lumière bleue, yeux protégés, nouveau-né nu, hydratation)",
-    "Exsanguinotransfusion si bilirubine très élevée ou signes neurologiques (centre spécialisé)",
-    "Traiter une infection (sepsis)",
-    "Ictère prolongé > 14 jours, selles décolorées : rechercher une cholestase (atrésie des voies biliaires)"
+    "Allaitement fréquent (8 à 12 tétées par jour), aide à la mise au sein, tirage du lait si besoin ; complément de lait si perte de poids importante",
+    "Photothérapie selon les seuils : bébé nu (couche minimale), yeux protégés, lampe à 30 à 50 cm, changer de position, poursuivre l'allaitement, surveiller la température et l'hydratation ; contrôler la bilirubine toutes les 6 à 12 h (4 à 6 h si proche du seuil d'exsanguinotransfusion) ; arrêter quand la bilirubine est nettement sous le seuil ; contrôle 12 à 24 h après l'arrêt si hémolyse",
+    "L'exposition au soleil n'est pas un traitement fiable (risque de brûlure et d'hypothermie)",
+    "Bilirubine proche du seuil d'exsanguinotransfusion (environ 5 mg/dl au-dessus du seuil de photothérapie, ou 25 mg/dl chez le nouveau-né à terme) ou signes d'encéphalopathie : photothérapie intensive immédiate et transfert pour exsanguinotransfusion (160 ml/kg de sang compatible)",
+    "Incompatibilité Rhésus ou ABO avec bilirubine qui monte malgré la photothérapie : immunoglobulines IV 0,5 à 1 g/kg si disponibles",
+    "Infection suspectée : traitement du sepsis néonatal (ampicilline + gentamicine)",
+    "Déficit en G6PD : éviter naphtaline (boules antimites), henné, certaines plantes et médicaments oxydants ; informer la famille",
+    "Cholestase ou selles décolorées : référence urgente en chirurgie pédiatrique (intervention de Kasai avant 60 jours en cas d'atrésie des voies biliaires), vitamine K1",
+    "Avant la sortie : évaluer l'ictère de chaque nouveau-né, expliquer les signes de gravité, revoir dans les 48 à 72 h ceux qui sortent avant 72 h de vie"
    ],
    "gravite": [
-    "Ictère < 24 h de vie",
-    "Ictère des paumes et plantes",
-    "Signes neurologiques (léthargie, hypertonie, opisthotonos)",
-    "Selles blanches, urines foncées"
+    "Ictère dans les 24 premières heures",
+    "Ictère des paumes et des plantes, bilirubine proche des seuils",
+    "Léthargie, refus de téter, hypertonie, cri aigu, opisthotonos (encéphalopathie)",
+    "Prématuré, hémolyse, infection",
+    "Selles blanches, urines foncées (cholestase)"
    ],
    "prevention": [
     "Allaitement précoce et fréquent",
-    "Anti-D chez la mère Rh négatif",
-    "Examen de chaque nouveau-né avant la sortie"
+    "Groupe sanguin et Rhésus en CPN ; immunoglobuline anti-D dans les 72 h après l'accouchement chez la mère Rhésus négatif dont l'enfant est Rhésus positif",
+    "Examen de chaque nouveau-né avant la sortie et à J3-J5",
+    "Dépistage du déficit en G6PD là où il est disponible, éviter les produits oxydants"
    ],
    "medicaments": [
     "Ampicilline",
     "Gentamicine",
     "Vitamine K1 (phytoménadione)",
-    "Immunoglobuline anti-D"
+    "Immunoglobuline anti-D",
+    "Immunoglobulines humaines normales (IgIV)",
+    "Sang total"
    ]
   },
   {
@@ -37879,43 +37952,58 @@
    "nom": "Prématurité et faible poids de naissance",
    "categorie": "enfant",
    "synonymes": "prématuré, faible poids de naissance, petit poids, méthode kangourou, couveuse",
-   "resume": "Nouveau-né né avant 37 semaines ou pesant moins de 2 500 g. Risques : hypothermie, hypoglycémie, infections, apnées, difficultés d'alimentation.",
+   "resume": "Nouveau-né né avant 37 semaines d'aménorrhée (prématuré) ou pesant moins de 2 500 g (faible poids de naissance, prématuré ou petit pour l'âge gestationnel). Première cause de décès néonatal en RDC. Les risques sont l'hypothermie, l'hypoglycémie, les infections, les apnées, la détresse respiratoire, les difficultés d'alimentation et l'ictère. La méthode mère kangourou immédiate, le lait maternel et la prévention des infections réduisent fortement la mortalité (OMS 2022).",
    "signes": [
-    "Poids < 2 500 g, âge gestationnel < 37 SA",
-    "Hypothermie (< 36,5 °C), difficultés de succion",
-    "Apnées, détresse respiratoire",
-    "Ictère plus fréquent"
+    "Poids < 2 500 g (très faible poids < 1 500 g, extrême < 1 000 g), âge gestationnel < 37 semaines (score de Ballard, date des dernières règles, échographie précoce)",
+    "Peau fine et rouge, lanugo, oreilles molles, peu de plis plantaires, organes génitaux immatures",
+    "Hypothermie (< 36,5 °C), succion et déglutition faibles (avant 32 à 34 semaines)",
+    "Apnées (pauses respiratoires > 20 s ou avec bradycardie ou cyanose), détresse respiratoire",
+    "Ictère plus précoce et plus intense ; hypoglycémie ; infections"
    ],
    "diagnostic": [
-    "Peser, mesurer la température régulièrement, glycémie",
-    "Rechercher des signes d'infection"
+    "Peser à la naissance, mesurer la taille et le périmètre crânien, estimer l'âge gestationnel ; reporter sur les courbes (Fenton ou INTERGROWTH-21st)",
+    "Température toutes les 4 à 6 h, glycémie à 1 à 2 h de vie puis avant les repas les premiers jours (traiter si < 45 mg/dl)",
+    "Rechercher les signes d'infection (voir la fiche Sepsis néonatal), de détresse respiratoire, d'ictère",
+    "Bilirubine si ictère ; hémoglobine (anémie du prématuré)",
+    "Moins de 32 semaines ou moins de 1 500 g : dépistage de la rétinopathie du prématuré vers 4 à 6 semaines de vie ; échographie transfontanellaire si disponible"
    ],
    "traitement": [
-    "Méthode mère kangourou (peau à peau continu) dès que possible, même avant stabilisation selon l'OMS",
-    "Lait maternel exclusif : au sein, à la tasse ou par sonde (60 à 80 ml/kg/j au départ, augmentation progressive jusqu'à 150 à 180 ml/kg/j)",
-    "Prévenir l'hypoglycémie",
-    "Apnées du prématuré : citrate de caféine",
-    "Vitamine K à la naissance ; fer à partir de 4 à 6 semaines",
-    "Antibiotiques si signes d'infection",
-    "Oxygène prudent (SpO2 90 à 95 %)"
+    "Méthode mère kangourou dès la naissance pour tout bébé de moins de 2 000 g, même avant stabilisation (OMS 2022) : peau à peau continu 8 à 24 h par jour sur la poitrine de la mère (ou d'un proche), bonnet, couverture",
+    "Clampage retardé du cordon (au moins 1 min) si le bébé n'a pas besoin de réanimation",
+    "Lait maternel exclusif (lait de la mère, ou lait de donneuse) : au sein si la succion est bonne, sinon à la tasse ou à la cuillère, ou par sonde gastrique avant 32 semaines ; volumes : 60 à 80 ml/kg/jour le 1er jour, augmentation de 20 à 30 ml/kg/jour jusqu'à 150 à 180 ml/kg/jour (jusqu'à 200 si la croissance est insuffisante), en 8 à 12 repas",
+    "Très faible poids ou bébé incapable de s'alimenter : perfusion de glucosé 10 % (60 à 80 ml/kg/jour le 1er jour), relayée progressivement par le lait",
+    "Prévenir l'hypoglycémie (alimentation précoce et fréquente) et l'hypothermie (température 36,5 à 37,5 °C : kangourou, incubateur ou lampe si nécessaire)",
+    "Apnées : stimulation, ventilation au ballon si besoin ; citrate de caféine 20 mg/kg en dose de charge puis 5 à 10 mg/kg par jour (traitement et prévention avant 34 semaines)",
+    "Détresse respiratoire : PPC (CPAP à bulles) et oxygène prudent avec cible SpO₂ 90 à 95 % (l'excès d'oxygène abîme la rétine) ; voir la fiche Maladie des membranes hyalines",
+    "Vitamine K1 à la naissance (0,5 mg IM si < 1 500 g, 1 mg sinon)",
+    "Suppléments : vitamine D 400 UI par jour ; fer 2 à 4 mg/kg par jour à partir de 2 semaines (très faible poids) ou 4 à 6 semaines jusqu'à 6 mois",
+    "Infection : antibiotiques selon la fiche Sepsis néonatal ; hygiène des mains stricte, limiter les gestes invasifs",
+    "Ictère : photothérapie à des seuils plus bas que chez le bébé à terme",
+    "Sortie : bébé qui s'alimente bien au sein, prend du poids (15 à 20 g/kg/jour), température stable en kangourou, mère confiante ; suivi rapproché (poids chaque semaine au début)",
+    "Suivi : croissance, développement psychomoteur, vision (rétinopathie), audition ; vaccinations à l'âge chronologique (BCG, polio, hépatite B dès la naissance)"
    ],
    "gravite": [
-    "Apnées répétées, détresse respiratoire",
+    "Apnées répétées, détresse respiratoire, SpO₂ basse",
     "Hypothermie persistante, refus de téter",
-    "Signes d'infection, ictère important"
+    "Signes d'infection, ictère important",
+    "Poids < 1 500 g ou < 32 semaines : unité de néonatologie",
+    "Ventre gonflé, vomissements bilieux, selles sanglantes (entérocolite ulcéronécrosante) : arrêter l'alimentation, antibiotiques, avis chirurgical"
    ],
    "prevention": [
-    "Consultations prénatales, prévention et traitement du paludisme et des infections pendant la grossesse",
-    "Corticoïdes anténatals (dexaméthasone) en cas de menace d'accouchement prématuré"
+    "Consultations prénatales, prévention et traitement du paludisme (TPIp), des infections urinaires et génitales, de l'anémie et de l'hypertension pendant la grossesse",
+    "Espacement des naissances, nutrition maternelle, arrêt du tabac",
+    "Corticoïdes anténatals (dexaméthasone) entre 24 et 34 semaines en cas de menace d'accouchement prématuré, sulfate de magnésium avant 32 semaines",
+    "Accouchement dans une structure capable de prendre en charge le prématuré"
    ],
    "medicaments": [
     "Citrate de caféine",
     "Vitamine K1 (phytoménadione)",
+    "Vitamine D (ergocalciférol / cholécalciférol)",
     "Sulfate ferreux",
+    "Glucose 10 %",
+    "Oxygène",
     "Ampicilline",
     "Gentamicine",
-    "Oxygène",
-    "Glucose 10 %",
     "Dexaméthasone",
     "Surfactant pulmonaire (poractant alfa, béractant)",
     "Poudre de micronutriments multiples",
@@ -39839,32 +39927,42 @@
    "nom": "Laryngotrachéite (croup)",
    "categorie": "enfant",
    "synonymes": "croup, laryngite, toux aboyante, stridor, faux croup",
-   "resume": "Infection virale du larynx de l'enfant de 6 mois à 3 ans, avec une toux caractéristique « aboyante ».",
+   "resume": "Infection virale (surtout parainfluenza) du larynx et de la trachée de l'enfant de 6 mois à 3 ans, plus fréquente la nuit et en saison froide. Elle se reconnaît à une toux rauque « aboyante » et à un stridor. Le plus souvent bénigne, elle répond rapidement à une dose unique de dexaméthasone ; l'adrénaline nébulisée est réservée aux formes sévères.",
    "signes": [
-    "Toux rauque « aboyante », voix enrouée",
-    "Stridor inspiratoire, souvent la nuit",
-    "Fièvre modérée, rhume précédent",
-    "Formes graves : stridor au repos, tirage, agitation, cyanose"
+    "Rhume pendant 1 à 2 jours, fièvre modérée",
+    "Toux rauque « aboyante », voix enrouée, stridor inspiratoire (bruit à l'inspiration), souvent de survenue nocturne",
+    "Légère : stridor seulement quand l'enfant pleure ou s'agite, pas de tirage",
+    "Modérée : stridor au repos, tirage",
+    "Sévère : stridor au repos important, tirage marqué, agitation ou somnolence, cyanose, épuisement ; le stridor peut diminuer quand l'enfant s'épuise (signe inquiétant)"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Éliminer : corps étranger, épiglottite (fièvre élevée, salive qui coule, enfant assis penché en avant), diphtérie"
+    "Diagnostic clinique : ne pas examiner la gorge à l'abaisse-langue si on suspecte une épiglottite ; garder l'enfant calme dans les bras de sa mère",
+    "SpO₂",
+    "Éliminer : corps étranger (début brutal, sans fièvre, pendant un repas ou un jeu), épiglottite (fièvre élevée, salive qui coule, enfant assis penché en avant, pas de toux), trachéite bactérienne (aspect toxique), diphtérie (fausses membranes, enfant non vacciné), abcès rétropharyngé, œdème allergique",
+    "Rougeole associée (croup post-rougeole plus sévère)"
    ],
    "traitement": [
-    "Forme légère (stridor seulement à l'agitation) : dexaméthasone 0,15 mg/kg per os dose unique, calmer l'enfant",
-    "Forme modérée à sévère : dexaméthasone 0,6 mg/kg (max 16 mg), adrénaline nébulisée (0,5 ml/kg de la solution à 1 mg/ml, max 5 ml), oxygène, surveillance au moins 2 h après l'adrénaline",
-    "Pas d'antibiotique"
+    "Forme légère : dexaméthasone 0,15 mg/kg par voie orale en dose unique (ou prednisolone 1 mg/kg) ; calmer l'enfant, liquides ; traitement à domicile avec explication des signes de retour",
+    "Forme modérée : dexaméthasone 0,15 à 0,6 mg/kg (maximum 16 mg) orale ou IM ; observation 2 à 4 h",
+    "Forme sévère : adrénaline nébulisée 0,5 ml/kg de la solution à 1 mg/ml (maximum 5 ml), non diluée ou avec du sérum physiologique, à répéter si nécessaire ; dexaméthasone 0,6 mg/kg ; oxygène si SpO₂ < 92 % ; l'effet de l'adrénaline dure environ 2 h : surveillance d'au moins 2 à 4 h après la dernière nébulisation (rebond possible)",
+    "Hospitaliser si : stridor au repos persistant après traitement, besoin de plus d'une nébulisation d'adrénaline, âge < 6 mois, SpO₂ basse, famille éloignée",
+    "Signes d'épuisement ou d'obstruction : préparer l'intubation par un personnel expérimenté (sonde d'un calibre inférieur à l'habituel)",
+    "Pas d'antibiotique (infection virale), pas d'humidification ni de sirop antitussif ; paracétamol si fièvre",
+    "Croup récidivant : avis ORL (sténose, reflux, allergie)"
    ],
    "gravite": [
     "Stridor au repos, tirage important",
-    "Agitation, cyanose, épuisement",
-    "Rebond après adrénaline"
+    "Agitation, somnolence, cyanose, épuisement, SpO₂ < 92 %",
+    "Rebond après adrénaline",
+    "Âge < 6 mois"
    ],
    "prevention": [
-    "Vaccination (rougeole, diphtérie, Hib)"
+    "Vaccinations (rougeole, diphtérie, Hib)",
+    "Lavage des mains, éviter la fumée"
    ],
    "medicaments": [
     "Dexaméthasone",
+    "Prednisolone",
     "Adrénaline (épinéphrine)",
     "Oxygène",
     "Paracétamol"
@@ -39875,31 +39973,41 @@
    "nom": "Épiglottite",
    "categorie": "enfant",
    "synonymes": "épiglottite, salive qui coule, Haemophilus",
-   "resume": "Infection bactérienne grave de l'épiglotte (Haemophilus influenzae b surtout), pouvant obstruer brutalement les voies aériennes.",
+   "resume": "Infection bactérienne de l'épiglotte et des tissus voisins, surtout due à Haemophilus influenzae b chez l'enfant non vacciné (rare depuis le vaccin pentavalent), aux streptocoques et au staphylocoque chez l'enfant plus âgé et l'adulte. Elle peut obstruer brutalement les voies aériennes et tuer en quelques heures : c'est une urgence absolue.",
    "signes": [
-    "Début brutal, fièvre élevée, état toxique",
-    "Enfant assis, penché en avant, bouche ouverte, salive qui coule, ne peut pas avaler",
-    "Stridor discret, voix étouffée, peu de toux"
+    "Début brutal (quelques heures), fièvre élevée, aspect toxique",
+    "Enfant assis, penché en avant, menton tendu, bouche ouverte, salive qui coule (ne peut pas avaler)",
+    "Voix étouffée (« patate chaude »), stridor discret, peu ou pas de toux (contrairement au croup)",
+    "Agitation puis épuisement, cyanose",
+    "Adulte : mal de gorge intense, douleur à la déglutition disproportionnée par rapport à l'aspect de la gorge"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "NE PAS allonger l'enfant ni examiner la gorge avec un abaisse-langue (risque d'arrêt respiratoire)"
+    "Diagnostic clinique : NE PAS allonger l'enfant, NE PAS examiner la gorge avec un abaisse-langue, éviter toute manœuvre qui l'effraie (piqûre) avant que les voies aériennes soient sécurisées (risque d'arrêt respiratoire)",
+    "Radiographie latérale du cou (« signe du pouce ») seulement si l'enfant est stable et accompagné",
+    "Hémocultures après sécurisation des voies aériennes",
+    "Statut vaccinal (Hib)"
    ],
    "traitement": [
-    "Laisser l'enfant dans la position qu'il choisit, dans les bras de sa mère",
-    "Oxygène",
-    "Ceftriaxone IV ou IM (50 à 100 mg/kg/jour) pendant 5 à 10 jours",
-    "Préparer l'intubation ou la trachéotomie (personnel expérimenté)"
+    "Laisser l'enfant dans la position qu'il choisit, dans les bras de sa mère ; oxygène sans forcer le masque",
+    "Préparer immédiatement l'intubation par le personnel le plus expérimenté (au bloc si possible, sonde de petit calibre) ou la trachéotomie ; ballon et masque à portée (la ventilation au masque est souvent possible) ; ponction cricothyroïdienne à l'aiguille si intubation impossible et arrêt imminent",
+    "Ceftriaxone IV ou IM 50 à 100 mg/kg par jour (adulte 2 g) pendant 7 à 10 jours, après sécurisation des voies aériennes",
+    "Paracétamol, hydratation IV une fois l'enfant protégé",
+    "Transfert médicalisé vers un centre équipé, accompagné d'un soignant capable de ventiler",
+    "Contacts du foyer d'un cas à Hib avec un enfant de moins de 4 ans non vacciné : rifampicine 20 mg/kg par jour (maximum 600 mg) pendant 4 jours"
    ],
    "gravite": [
-    "Toute épiglottite est une urgence : référence immédiate en milieu équipé"
+    "Toute épiglottite est une urgence : référence immédiate en milieu équipé",
+    "Cyanose, épuisement, troubles de conscience : arrêt respiratoire imminent"
    ],
    "prevention": [
-    "Vaccination Hib (pentavalent)"
+    "Vaccination Hib (pentavalent à 6, 10 et 14 semaines)",
+    "Chimioprophylaxie des contacts à risque"
    ],
    "medicaments": [
     "Ceftriaxone",
     "Oxygène",
+    "Paracétamol",
+    "Rifampicine",
     "Vaccin pentavalent (DTC-HepB-Hib)"
    ]
   },
@@ -39908,34 +40016,42 @@
    "nom": "Trachéite bactérienne",
    "categorie": "enfant",
    "synonymes": "trachéite, croup bactérien, stridor fébrile",
-   "resume": "Surinfection bactérienne de la trachée (staphylocoque, streptocoque, pneumocoque), souvent après un croup viral ou une rougeole.",
+   "resume": "Surinfection bactérienne de la trachée (staphylocoque doré, streptocoques, pneumocoque, Moraxella), souvent après un croup viral, une grippe ou une rougeole, chez l'enfant de moins de 6 ans. Des sécrétions purulentes épaisses et des membranes peuvent obstruer la trachée : c'est une cause de détresse respiratoire grave qui nécessite souvent une intubation.",
    "signes": [
-    "Croup qui s'aggrave avec fièvre élevée et aspect toxique",
-    "Stridor, toux, sécrétions purulentes",
-    "Absence de réponse à l'adrénaline nébulisée"
+    "Croup qui s'aggrave après quelques jours avec fièvre élevée et aspect toxique",
+    "Stridor, toux productive, sécrétions purulentes, détresse respiratoire",
+    "Absence d'amélioration sous adrénaline nébulisée et dexaméthasone",
+    "L'enfant peut être allongé (contrairement à l'épiglottite) et ne bave pas"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "À la différence du croup viral : fièvre élevée, aspect toxique et absence d'amélioration sous adrénaline nébulisée et dexaméthasone"
+    "Diagnostic clinique ; à la différence du croup viral : fièvre élevée, aspect toxique et absence de réponse à l'adrénaline et à la dexaméthasone",
+    "Radiographie : trachée irrégulière, rétrécie ; endoscopie (membranes, pus) si disponible",
+    "NFS (hyperleucocytose), hémocultures, prélèvement trachéal"
    ],
    "traitement": [
-    "Oxygène, aspiration des sécrétions",
-    "Ceftriaxone + cloxacilline IV pendant 10 jours (ou amoxicilline-acide clavulanique)",
-    "Intubation si obstruction",
-    "Doses : ceftriaxone 50 mg/kg/jour (maximum 2 g) + cloxacilline 50 mg/kg toutes les 6 h IV"
+    "Oxygène, aspiration des sécrétions, position confortable",
+    "Ceftriaxone 50 mg/kg par jour (maximum 2 g) + cloxacilline 50 mg/kg toutes les 6 h IV pendant 10 à 14 jours (ou amoxicilline + acide clavulanique) ; suspicion de staphylocoque résistant à la méticilline : clindamycine 10 mg/kg toutes les 8 h ou vancomycine",
+    "Intubation (par un personnel expérimenté) si obstruction ou épuisement ; aspirations fréquentes par la sonde ; extraction endoscopique des membranes si disponible",
+    "Relais oral (amoxicilline + acide clavulanique) après amélioration",
+    "Hydratation, paracétamol"
    ],
    "gravite": [
-    "Détresse respiratoire, choc",
-    "Obstruction par des membranes purulentes : intubation ou trachéotomie en urgence"
+    "Détresse respiratoire, choc toxique",
+    "Obstruction par des membranes purulentes : intubation ou trachéotomie en urgence",
+    "Pneumonie associée"
    ],
    "prevention": [
-    "Vaccination contre la rougeole"
+    "Vaccination contre la rougeole et la grippe",
+    "Traitement précoce des infections respiratoires"
    ],
    "medicaments": [
     "Ceftriaxone",
     "Cloxacilline",
     "Amoxicilline + acide clavulanique",
-    "Oxygène"
+    "Clindamycine",
+    "Vancomycine",
+    "Oxygène",
+    "Paracétamol"
    ]
   },
   {
@@ -40059,36 +40175,48 @@
    "nom": "Staphylococcie pleuro-pulmonaire",
    "categorie": "enfant",
    "synonymes": "staphylocoque, pneumonie bulleuse, pyopneumothorax, empyème de l'enfant",
-   "resume": "Pneumonie grave à Staphylococcus aureus du nourrisson, souvent après une rougeole ou une infection cutanée, avec bulles et épanchement purulent.",
+   "resume": "Pneumonie grave à Staphylococcus aureus, surtout chez le nourrisson et le jeune enfant, souvent après une rougeole, une varicelle ou une infection de la peau (furoncle, impétigo, pustules). Elle évolue vite vers des bulles (pneumatocèles), un épanchement purulent (empyème) ou un pyopneumothorax. Le traitement associe une antibiothérapie antistaphylococcique prolongée et le drainage.",
    "signes": [
-    "Fièvre élevée, état toxique, détresse respiratoire",
-    "Ballonnement abdominal",
-    "Infection cutanée associée ou récente (furoncle, impétigo)",
-    "Aggravation brutale : pneumothorax, empyème"
+    "Fièvre élevée, aspect toxique, détresse respiratoire sévère, geignement",
+    "Ballonnement abdominal (iléus), vomissements",
+    "Infection cutanée associée ou récente (furoncle, impétigo, pustules, abcès), rougeole récente",
+    "Aggravation brutale : pneumothorax (asymétrie, hypersonorité, déviation de la trachée), empyème (matité d'un côté)",
+    "Ostéomyélite ou arthrite associées (diffusion par le sang)"
    ],
    "diagnostic": [
-    "Radiographie si disponible : bulles, épanchement, pyopneumothorax",
-    "Ponction pleurale"
+    "Radiographie : opacités rapidement évolutives, bulles (pneumatocèles), épanchement, pyopneumothorax",
+    "Échographie pleurale si disponible",
+    "Ponction pleurale : pus (culture, Gram : cocci en amas)",
+    "NFS, hémocultures",
+    "Rechercher la porte d'entrée cutanée et d'autres foyers (os, articulations, péricarde)"
    ],
    "traitement": [
-    "Cloxacilline IV 50 mg/kg toutes les 6 h + gentamicine, relais oral (amoxicilline-acide clavulanique) pour 3 semaines au total",
-    "Clindamycine si SARM suspecté",
-    "Drainage thoracique si empyème ou pneumothorax compressif",
-    "Oxygène"
+    "Cloxacilline IV 50 mg/kg toutes les 6 h (maximum 2 g par dose) + gentamicine 7,5 mg/kg une fois par jour ; relais oral (cloxacilline ou amoxicilline + acide clavulanique) après amélioration, pour 3 semaines au total (4 à 6 semaines si empyème compliqué ou foyer osseux)",
+    "Staphylocoque résistant à la méticilline suspecté ou prouvé : clindamycine 10 mg/kg toutes les 8 h ou vancomycine 15 mg/kg toutes les 6 h",
+    "Drainage thoracique si empyème ou pyopneumothorax ; pneumothorax compressif : exsufflation à l'aiguille en urgence (2e espace intercostal, ligne médioclaviculaire) puis drain",
+    "Oxygène, hydratation, alimentation (sonde si besoin), paracétamol",
+    "Soins de la porte d'entrée cutanée",
+    "Les pneumatocèles régressent en quelques semaines ; ne pas les drainer sauf compression",
+    "Kinésithérapie après le drainage"
    ],
    "gravite": [
-    "Détresse respiratoire, pneumothorax",
-    "Choc septique"
+    "Détresse respiratoire, pneumothorax compressif",
+    "Choc septique",
+    "Épanchement péricardique",
+    "Malnutrition, rougeole"
    ],
    "prevention": [
-    "Soins des infections cutanées, vaccination rougeole"
+    "Soins précoces des infections cutanées, hygiène",
+    "Vaccination contre la rougeole"
    ],
    "medicaments": [
     "Cloxacilline",
     "Gentamicine",
     "Clindamycine",
+    "Vancomycine",
     "Amoxicilline + acide clavulanique",
-    "Oxygène"
+    "Oxygène",
+    "Paracétamol"
    ]
   },
   {
@@ -41837,41 +41965,56 @@
    "nom": "Tuberculose de l'enfant",
    "categorie": "enfant",
    "synonymes": "tuberculose pédiatrique, tuberculose enfant, contact tuberculeux, enfant qui maigrit",
-   "resume": "La tuberculose de l'enfant est souvent paucibacillaire et difficile à confirmer : le diagnostic repose sur l'association des signes, du contact et de l'évolution.",
+   "resume": "La tuberculose de l'enfant est fréquente en RDC, souvent contractée auprès d'un adulte du foyer. Paucibacillaire, elle est difficile à confirmer : le diagnostic repose sur l'association des signes, du contact et de l'évolution, aidée par les algorithmes de décision de l'OMS. Le jeune enfant (moins de 5 ans) et l'enfant vivant avec le VIH ou malnutri font plus souvent des formes graves (méningite, miliaire).",
    "signes": [
-    "Toux > 2 semaines, fièvre, perte de poids ou cassure de la courbe de croissance, fatigue, moins de jeux",
-    "Contact avec un adulte tuberculeux",
-    "Ganglions cervicaux, wheezing persistant",
-    "Formes graves du jeune enfant : méningite, miliaire"
+    "Toux persistante de plus de 2 semaines qui ne cède pas aux antibiotiques, fièvre prolongée, sueurs",
+    "Perte de poids ou cassure de la courbe de croissance, malnutrition qui ne répond pas à la prise en charge nutritionnelle",
+    "Fatigue, l'enfant joue moins",
+    "Contact avec un adulte tuberculeux (surtout dans le foyer)",
+    "Ganglions cervicaux fermes indolores, sifflement persistant asymétrique (compression bronchique)",
+    "Formes graves du jeune enfant : méningite (irritabilité, vomissements, somnolence, convulsions), miliaire ; mal de Pott (bosse dans le dos), arthrite, péricardite"
    ],
    "diagnostic": [
-    "Algorithmes de décision de l'OMS (score selon signes, contact, radiographie)",
-    "GeneXpert Ultra sur crachats, aspiration gastrique, aspiration nasopharyngée ou selles",
-    "Radiographie du thorax",
-    "IDR ou IGRA (infection)",
-    "Test VIH, évaluation nutritionnelle"
+    "GeneXpert Ultra sur crachats (ou expectoration induite), aspiration gastrique, aspiration nasopharyngée ou selles",
+    "Radiographie du thorax : ganglions médiastinaux, opacité, miliaire, épanchement",
+    "Algorithmes de décision de l'OMS (scores selon les signes, le contact et la radiographie) pour débuter le traitement sans confirmation",
+    "IDR à la tuberculine ou IGRA (preuve d'infection, non indispensables)",
+    "Test VIH et évaluation nutritionnelle systématiques",
+    "Ponction lombaire si signes neurologiques",
+    "TB-LAM urinaire si VIH"
    ],
    "traitement": [
-    "Formes non graves (sans cavité, sans atteinte étendue) : 4 mois (2 RHZ(E) + 2 RH) chez l'enfant de 3 mois à 16 ans",
-    "Formes graves : 6 mois (2 RHZE + 4 RH) ; méningite : schéma intensif",
-    "Comprimés dispersibles en association fixe selon le poids",
-    "Pyridoxine si malnutrition ou VIH",
-    "Prise en charge nutritionnelle",
-    "Traitement préventif des autres enfants contacts"
+    "Formes non graves (ganglions périphériques ou intrathoraciques sans obstruction, lésion limitée sans caverne, pas de miliaire) chez l'enfant de 3 mois à 16 ans : 4 mois (2 mois RHZ(E) puis 2 mois RH)",
+    "Formes graves : 6 mois (2 RHZE + 4 RH) ; méningite : schéma intensif de 6 mois (isoniazide et rifampicine à forte dose, pyrazinamide, éthionamide) ou 12 mois ; ostéo-articulaire : 12 mois",
+    "Comprimés dispersibles RHZ (75/50/150 mg) ± éthambutol 100 mg selon le poids : 4 à 7 kg 1 comprimé, 8 à 11 kg 2, 12 à 15 kg 3, 16 à 24 kg 4, 25 kg et plus doses adultes ; dissoudre dans un peu d'eau",
+    "Corticoïdes (prednisolone 2 mg/kg par jour pendant 4 semaines puis décroissance) : méningite, péricardite, compression bronchique par les ganglions",
+    "Pyridoxine si malnutrition ou VIH ; prise en charge nutritionnelle",
+    "VIH : cotrimoxazole, ARV dans les 2 semaines (dolutégravir 2 fois par jour pendant la rifampicine)",
+    "Traitement supervisé par un parent formé, pesée chaque mois et adaptation des doses",
+    "Réponse attendue en 2 mois (prise de poids, disparition de la fièvre et de la toux)",
+    "Traitement préventif de tous les autres enfants contacts, et recherche du cas source adulte"
    ],
    "gravite": [
     "Méningite, miliaire",
-    "Détresse respiratoire",
-    "Malnutrition aiguë sévère"
+    "Détresse respiratoire, compression des voies aériennes",
+    "Malnutrition aiguë sévère",
+    "VIH",
+    "Mal de Pott avec faiblesse des jambes"
    ],
    "prevention": [
-    "BCG à la naissance ; traitement préventif de tout enfant contact < 5 ans (ou tout âge si VIH) après élimination d'une tuberculose active"
+    "BCG à la naissance (protège contre la méningite et la miliaire)",
+    "Traitement préventif de tout enfant contact de moins de 5 ans (et de tout âge si VIH) après élimination d'une tuberculose active",
+    "Dépistage et traitement des adultes tuberculeux du foyer"
    ],
    "medicaments": [
     "RHZ pédiatrique (+ éthambutol)",
     "RHZE (rifampicine + isoniazide + pyrazinamide + éthambutol)",
-    "Pyridoxine (vitamine B6)",
     "Isoniazide (INH)",
+    "Éthionamide",
+    "Pyridoxine (vitamine B6)",
+    "Prednisolone",
+    "Isoniazide + rifapentine (3HP / 1HP)",
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
     "Vaccin BCG"
    ]
   },
@@ -43454,29 +43597,39 @@
    "nom": "Énurésie de l'enfant",
    "categorie": "enfant",
    "synonymes": "énurésie, pipi au lit, incontinence nocturne",
-   "resume": "Émissions d'urine involontaires pendant le sommeil après 5 ans. Le plus souvent bénigne et spontanément résolutive.",
+   "resume": "Émissions involontaires d'urine pendant le sommeil chez un enfant de 5 ans ou plus, au moins une fois par mois. Elle touche environ 15 % des enfants de 5 ans et guérit spontanément chez 15 % des enfants chaque année. Elle est le plus souvent primaire (l'enfant n'a jamais été propre la nuit) et isolée, liée à une maturation lente, à une production d'urine nocturne importante et à un sommeil profond. Elle n'est jamais volontaire : punir aggrave le problème.",
    "signes": [
-    "Mouillage du lit plusieurs nuits par mois",
-    "Énurésie secondaire (après au moins 6 mois de propreté) : rechercher un stress, une infection, un diabète",
-    "Signes diurnes (urgences, fuites) : trouble vésical"
+    "Mouillage du lit plusieurs nuits par mois après 5 ans",
+    "Énurésie primaire (jamais propre) ou secondaire (après au moins 6 mois de propreté : rechercher un stress, une infection, un diabète, des abus)",
+    "Signes diurnes associés (envies urgentes, fuites dans la journée, mictions très fréquentes ou rares, jet faible) : trouble de la vessie, malformation",
+    "Constipation fréquemment associée",
+    "Ronflement, apnées du sommeil (grosses amygdales et végétations)"
    ],
    "diagnostic": [
-    "Bandelette urinaire (glucose, infection)",
-    "Rechercher constipation, ronflement, diabète, drépanocytose (urines diluées), maltraitance"
+    "Interrogatoire : fréquence, horaires, boissons du soir, signes diurnes, selles, ronflement, antécédents familiaux, retentissement ; calendrier mictionnel sur quelques jours",
+    "Examen : abdomen (fécalome), organes génitaux, colonne lombaire (fossette, touffe de poils : anomalie de la moelle), examen neurologique des jambes",
+    "Bandelette urinaire (glucose, infection, densité)",
+    "Rechercher diabète, drépanocytose (urines diluées), infection urinaire, maltraitance",
+    "Échographie si signes diurnes importants"
    ],
    "traitement": [
-    "Rassurer, ne pas punir ni humilier",
-    "Uriner avant le coucher, limiter les boissons le soir, calendrier des nuits sèches (récompenses)",
-    "Traiter la constipation",
-    "Alarme d'énurésie si disponible",
-    "Desmopressine au coucher (≥ 5 ans) avec restriction hydrique, 3 mois puis réévaluation"
+    "Rassurer l'enfant et la famille (fréquent, guérit), ne jamais punir ni humilier, impliquer l'enfant (changer ses draps sans reproche)",
+    "Mesures simples : boire suffisamment dans la journée et peu après le repas du soir, éviter les boissons sucrées ou caféinées le soir, uriner avant le coucher, accès facile aux toilettes la nuit, calendrier des nuits sèches avec récompenses",
+    "Traiter la constipation (régime riche en fibres, eau, lactulose) ; traiter une infection urinaire",
+    "Alarme d'énurésie (si disponible) pendant 2 à 3 mois : traitement le plus efficace à long terme",
+    "Desmopressine au coucher (à partir de 5 à 6 ans) : 120 à 240 µg en lyophilisat ou 0,2 à 0,4 mg en comprimé ; pas de boisson 1 h avant et 8 h après la prise (risque d'hyponatrémie : céphalées, vomissements, convulsions) ; 3 mois puis arrêt progressif pour vérifier la guérison",
+    "Énurésie avec signes diurnes : mictions programmées toutes les 2 à 3 h, rééducation ; avis spécialisé si malformation ou trouble neurologique suspecté",
+    "Ronflement important : avis ORL"
    ],
    "gravite": [
-    "Énurésie secondaire avec soif et amaigrissement (diabète)",
-    "Signes neurologiques"
+    "Énurésie secondaire avec soif, urines abondantes et amaigrissement (diabète)",
+    "Signes neurologiques, anomalie de la colonne",
+    "Jet faible, infections urinaires répétées (malformation)",
+    "Signes de maltraitance ou d'abus"
    ],
    "prevention": [
-    "Information des familles"
+    "Information des familles sur l'apprentissage de la propreté sans contrainte",
+    "Prise en charge précoce de la constipation"
    ],
    "medicaments": [
     "Desmopressine",
@@ -43656,36 +43809,43 @@
    "nom": "Maladie des membranes hyalines (détresse respiratoire du prématuré)",
    "categorie": "enfant",
    "synonymes": "maladie des membranes hyalines, MMH, détresse respiratoire du prématuré, surfactant",
-   "resume": "Détresse respiratoire du prématuré liée au manque de surfactant pulmonaire, d'autant plus fréquente que la naissance est précoce.",
+   "resume": "Détresse respiratoire du prématuré due au manque de surfactant pulmonaire, d'autant plus fréquente que la naissance est précoce (plus de la moitié des enfants nés avant 30 semaines). Elle débute dès les premières heures de vie et s'aggrave pendant 24 à 48 h. Les corticoïdes anténatals la préviennent ; la PPC (CPAP), y compris la PPC à bulles fabriquée sur place, et le surfactant la traitent.",
    "signes": [
-    "Polypnée, geignement expiratoire, battement des ailes du nez, tirage dès les premières heures de vie",
-    "Cyanose",
-    "Aggravation sur 24 à 48 h"
+    "Prématuré, détresse respiratoire dès la naissance ou dans les premières heures : polypnée (> 60/min), geignement expiratoire, battement des ailes du nez, tirage sous-costal et intercostal, balancement thoraco-abdominal",
+    "Cyanose, SpO₂ basse",
+    "Aggravation sur 24 à 48 h puis amélioration vers 72 h si l'enfant est soutenu",
+    "Score de Silverman (0 à 10) pour suivre l'évolution"
    ],
    "diagnostic": [
-    "Âge gestationnel, score de Silverman",
-    "Saturation",
-    "Radiographie si disponible",
-    "Éliminer une infection néonatale (antibiotiques), une hypothermie, une hypoglycémie"
+    "Âge gestationnel, score de Silverman, SpO₂",
+    "Radiographie si disponible : aspect granité diffus, bronchogramme aérien, poumons de petit volume",
+    "Éliminer : infection néonatale (antibiotiques en attendant), hypothermie, hypoglycémie, pneumothorax, inhalation méconiale, tachypnée transitoire (bébé à terme né par césarienne, évolution rapide favorable), cardiopathie, hernie diaphragmatique"
    ],
    "traitement": [
-    "Prévention : corticoïdes anténatals (dexaméthasone 6 mg IM toutes les 12 h, 4 doses) en cas de menace d'accouchement entre 24 et 34 semaines",
-    "Ventilation en pression positive continue (PPC, y compris PPC à bulles) dès la naissance",
-    "Oxygène avec cible SpO₂ 90 à 95 %",
-    "Surfactant si disponible et personnel formé",
-    "Thermorégulation (méthode kangourou quand stable), glycémie, alimentation",
-    "Antibiotiques si infection non exclue"
+    "Prévention : corticoïdes anténatals (dexaméthasone 6 mg IM toutes les 12 h, 4 doses) en cas de menace d'accouchement entre 24 et 34 semaines (OMS 2022), sulfate de magnésium avant 32 semaines (neuroprotection)",
+    "PPC (CPAP) dès la naissance ou dès les premiers signes chez le prématuré : pression de 5 à 8 cm d'eau, par lunettes ou canules nasales ; la PPC à bulles fonctionne avec une source d'oxygène ou d'air et un flacon d'eau",
+    "Oxygène avec cible SpO₂ 90 à 95 % (éviter l'hyperoxie : rétinopathie)",
+    "Surfactant (poractant alfa 200 mg/kg) si disponible et personnel formé, quand le besoin en oxygène dépasse 30 à 40 % sous PPC (instillation par sonde, puis retour sous PPC)",
+    "Citrate de caféine (20 mg/kg puis 5 à 10 mg/kg par jour) pour les apnées et faciliter le sevrage de la PPC",
+    "Thermorégulation (incubateur, méthode kangourou dès que stable), glycémie, perfusion de glucosé 10 % (60 à 80 ml/kg le 1er jour) puis lait maternel par sonde",
+    "Antibiotiques (ampicilline + gentamicine) si une infection n'est pas exclue, arrêtés à 48 h si l'évolution, la CRP et l'hémoculture le permettent",
+    "Surveillance continue : SpO₂, FR, FC, score de Silverman, température, glycémie, ventre (distension sous PPC : sonde gastrique ouverte), nez (lésions des narines)",
+    "Aggravation brutale : penser au pneumothorax (exsufflation) ; épuisement ou apnées malgré la PPC : ventilation mécanique si disponible"
    ],
    "gravite": [
-    "Apnées, épuisement, SpO₂ basse malgré la PPC",
-    "Pneumothorax"
+    "Apnées, épuisement, SpO₂ basse malgré la PPC et l'oxygène",
+    "Pneumothorax",
+    "Choc, infection",
+    "Prématurité extrême (< 28 semaines)"
    ],
    "prevention": [
-    "Corticoïdes anténatals, prévention de la prématurité"
+    "Corticoïdes anténatals, prévention et traitement de la menace d'accouchement prématuré",
+    "Accouchement dans une structure disposant d'une PPC"
    ],
    "medicaments": [
     "Surfactant pulmonaire (poractant alfa, béractant)",
     "Dexaméthasone",
+    "Sulfate de magnésium",
     "Oxygène",
     "Citrate de caféine",
     "Ampicilline",
@@ -43698,38 +43858,55 @@
    "nom": "Canal artériel persistant et cardiopathies congénitales du nouveau-né",
    "categorie": "enfant",
    "synonymes": "canal artériel, cardiopathie congénitale, souffle du nouveau-né, cyanose du nouveau-né",
-   "resume": "Malformations cardiaques présentes à la naissance. Certaines dépendent du canal artériel pour survivre (maintenir ouvert) ; chez le prématuré, le canal resté ouvert peut au contraire surcharger les poumons (fermer).",
+   "resume": "Malformations du cœur présentes à la naissance (environ 8 pour 1 000 naissances). Certaines cardiopathies graves dépendent du canal artériel pour survivre (circulation ductodépendante) : le bébé se dégrade brutalement quand le canal se ferme, vers la fin de la 1re semaine ; il faut alors le maintenir ouvert par l'alprostadil. Chez le prématuré, au contraire, un canal resté ouvert peut surcharger les poumons et doit parfois être fermé par un médicament. Les autres cardiopathies relèvent de la chirurgie, souvent via des programmes humanitaires.",
    "signes": [
-    "Cyanose ne s'améliorant pas sous oxygène",
+    "Cyanose centrale (lèvres, langue) qui ne s'améliore pas sous oxygène",
     "Souffle cardiaque",
-    "Polypnée, difficultés à téter, sueurs, mauvaise prise de poids (insuffisance cardiaque)",
-    "Pouls fémoraux faibles (coarctation)",
-    "Prématuré : souffle continu, pouls bondissants, dépendance à la ventilation"
+    "Polypnée, difficultés à téter, sueurs pendant la tétée, mauvaise prise de poids, gros foie (insuffisance cardiaque)",
+    "Pouls fémoraux faibles ou absents, différence de PA entre bras et jambes (coarctation)",
+    "Choc ou cyanose brutale vers 3 à 10 jours de vie (fermeture du canal)",
+    "Prématuré : souffle continu, pouls bondissants, précordium hyperdynamique, besoin croissant d'oxygène ou de ventilation",
+    "Malaise de Fallot : cyanose intense brutale, agitation",
+    "Trisomie 21 (canal atrioventriculaire)"
    ],
    "diagnostic": [
-    "SpO₂ main droite et pied (dépistage)",
-    "Échographie cardiaque",
-    "Radiographie, ECG"
+    "Dépistage par oxymétrie après 24 h de vie : SpO₂ < 90 % ou < 95 % à la main droite et au pied, ou différence > 3 % sur 3 mesures : échographie cardiaque",
+    "Échographie cardiaque (diagnostic de référence)",
+    "Radiographie (taille du cœur, poumons), ECG",
+    "Test d'hyperoxie (SpO₂ qui ne monte pas sous oxygène : cardiopathie cyanogène plutôt que maladie pulmonaire)",
+    "Glycémie, recherche d'infection"
    ],
    "traitement": [
-    "Cardiopathie ductodépendante suspectée : alprostadil en perfusion continue (risque d'apnées) et transfert en cardiologie pédiatrique",
-    "Canal artériel significatif du prématuré : ibuprofène (ou paracétamol) en cure de 3 jours, restriction hydrique modérée",
-    "Insuffisance cardiaque : furosémide, alimentation enrichie",
-    "Chirurgie en centre spécialisé (programmes humanitaires)"
+    "Cardiopathie ductodépendante suspectée (cyanose sévère ou choc dans les premiers jours) : alprostadil en perfusion continue 0,05 à 0,1 µg/kg/min, puis réduire à la dose minimale efficace (0,01 à 0,05 µg/kg/min) ; risque d'apnées, de fièvre et d'hypotension : ballon prêt, surveillance continue ; transfert en cardiologie pédiatrique",
+    "Canal artériel significatif du prématuré : ibuprofène 10 mg/kg puis 5 mg/kg à 24 h et 48 h (IV ou oral), ou paracétamol 15 mg/kg toutes les 6 h pendant 3 à 7 jours ; contre-indications de l'ibuprofène : insuffisance rénale, saignement, plaquettes basses, entérocolite ; restriction hydrique modérée",
+    "Insuffisance cardiaque du nourrisson : furosémide 1 mg/kg 1 à 2 fois par jour, spironolactone, énalapril (avis), alimentation enrichie fractionnée (150 kcal/kg/jour), fer ; oxygène prudent",
+    "Malaise de Fallot : position genoux contre la poitrine, oxygène, calmer l'enfant, morphine 0,1 mg/kg, sérum physiologique 10 ml/kg, propranolol en prévention",
+    "Prévention de l'endocardite (hygiène dentaire) ; vaccinations à jour ; traitement de l'anémie (aggravée chez le cyanosé)",
+    "Chirurgie ou cathétérisme en centre spécialisé (programmes humanitaires de chirurgie cardiaque pédiatrique)"
    ],
    "gravite": [
-    "Cyanose profonde, choc à la fermeture du canal (2e semaine)",
-    "Insuffisance cardiaque"
+    "Cyanose profonde, choc à la fermeture du canal (souvent 2e semaine)",
+    "Insuffisance cardiaque, mauvaise prise de poids",
+    "Apnées sous alprostadil",
+    "Malaise de Fallot répété"
    ],
    "prevention": [
-    "Vaccination contre la rubéole, contrôle du diabète maternel, échographie prénatale"
+    "Vaccination contre la rubéole des femmes en âge de procréer",
+    "Contrôle du diabète maternel, acide folique, éviter l'alcool et les médicaments tératogènes",
+    "Échographie prénatale",
+    "Dépistage par oxymétrie des nouveau-nés"
    ],
    "medicaments": [
     "Alprostadil (prostaglandine E1)",
     "Ibuprofène IV néonatal",
-    "Furosémide",
     "Paracétamol",
-    "Oxygène"
+    "Furosémide",
+    "Spironolactone",
+    "Énalapril",
+    "Propranolol",
+    "Morphine",
+    "Oxygène",
+    "Sulfate ferreux"
    ]
   },
   {
@@ -44571,34 +44748,43 @@
    "nom": "Mucoviscidose",
    "categorie": "enfant",
    "synonymes": "mucoviscidose, fibrose kystique, CFTR, test de la sueur",
-   "resume": "Maladie génétique touchant les poumons et le pancréas. Plus rare en Afrique subsaharienne mais sous-diagnostiquée (souvent confondue avec la malnutrition ou la tuberculose).",
+   "resume": "Maladie génétique (transmission autosomique récessive, gène CFTR) qui épaissit les sécrétions des poumons, du pancréas, du foie et de l'intestin. Plus rare en Afrique subsaharienne mais sous-diagnostiquée, souvent confondue avec la malnutrition, la tuberculose ou un asthme sévère. Le diagnostic précoce, la kinésithérapie, les enzymes pancréatiques et la nutrition améliorent nettement la survie ; les modulateurs de CFTR transforment le pronostic des patients éligibles.",
    "signes": [
-    "Infections pulmonaires et toux chroniques, bronchectasies",
-    "Diarrhée graisseuse, mauvaise prise de poids malgré l'appétit",
-    "Iléus méconial à la naissance",
-    "Sueur salée, déshydratation avec hyponatrémie par temps chaud",
-    "Polypes nasaux"
+    "Toux chronique productive, infections pulmonaires répétées, sifflements, bronchectasies, hippocratisme digital",
+    "Diarrhée graisseuse, selles abondantes et nauséabondes, ventre gonflé, mauvaise prise de poids malgré un bon appétit",
+    "Iléus méconial à la naissance (occlusion), prolapsus rectal",
+    "Sueur très salée (goût salé de la peau), déshydratation avec hyponatrémie par temps chaud",
+    "Polypes nasaux, sinusites",
+    "Plus tard : diabète, atteinte du foie, infertilité masculine, occlusion intestinale distale"
    ],
    "diagnostic": [
-    "Test de la sueur (chlore élevé)",
+    "Test de la sueur : chlore ≥ 60 mmol/l (diagnostic), 30 à 59 (intermédiaire)",
     "Génotypage CFTR",
-    "Élastase fécale (insuffisance pancréatique)"
+    "Élastase fécale (insuffisance pancréatique)",
+    "Examen des crachats (Staphylococcus aureus, Pseudomonas aeruginosa) ; radiographie ou scanner thoracique ; spirométrie après 6 ans",
+    "Éliminer tuberculose, VIH, malnutrition d'autre cause, déficit immunitaire"
    ],
    "traitement": [
-    "Kinésithérapie respiratoire quotidienne",
-    "Traitement des infections (Staphylococcus aureus, Pseudomonas)",
-    "Enzymes pancréatiques à chaque repas, régime hypercalorique, vitamines A, D, E, K, supplément en sel",
-    "Modulateurs de CFTR si mutation éligible (élexacaftor/tézacaftor/ivacaftor, ivacaftor)",
-    "Vaccinations (grippe, pneumocoque)",
-    "Suivi en centre spécialisé"
+    "Kinésithérapie respiratoire quotidienne (drainage, techniques de toux, activité physique) ; sérum salé hypertonique à 3 à 7 % en nébulisation après salbutamol",
+    "Infections : traitement précoce selon les germes (amoxicilline + acide clavulanique pour le staphylocoque) ; première colonisation à Pseudomonas : éradication par ciprofloxacine orale associée à un antibiotique inhalé ; exacerbation sévère : antibiotiques IV antipseudomonas (ceftazidime + amikacine) pendant 14 jours",
+    "Azithromycine au long cours 3 fois par semaine chez les patients colonisés par Pseudomonas",
+    "Enzymes pancréatiques à chaque repas et collation (1 000 à 2 500 unités de lipase/kg par repas, maximum 10 000/kg par jour)",
+    "Régime hypercalorique (120 à 150 % des apports habituels), riche en graisses ; supplément en sel (surtout par temps chaud) ; vitamines A, D, E et K",
+    "Modulateurs de CFTR si mutation éligible (élexacaftor/tézacaftor/ivacaftor dès 2 ans, ivacaftor)",
+    "Vaccinations (grippe chaque année, pneumocoque, rougeole)",
+    "Dépistage annuel du diabète à partir de 10 ans, surveillance du foie ; suivi dans un centre spécialisé",
+    "Conseil génétique de la famille, dépistage de la fratrie"
    ],
    "gravite": [
-    "Insuffisance respiratoire, hémoptysie",
-    "Déshydratation hyponatrémique",
-    "Occlusion intestinale"
+    "Insuffisance respiratoire, hémoptysie, pneumothorax",
+    "Déshydratation hyponatrémique (fortes chaleurs, diarrhée)",
+    "Occlusion intestinale",
+    "Malnutrition sévère"
    ],
    "prevention": [
-    "Conseil génétique"
+    "Conseil génétique des familles touchées",
+    "Dépistage néonatal là où il est disponible",
+    "Éviter la fumée de tabac"
    ],
    "medicaments": [
     "Enzymes pancréatiques",
@@ -44606,11 +44792,15 @@
     "Ivacaftor",
     "Amoxicilline + acide clavulanique",
     "Ciprofloxacine",
+    "Ceftazidime",
+    "Amikacine",
+    "Azithromycine",
     "Chlorure de sodium hypertonique 3 %",
     "Salbutamol",
     "Vitamine A (rétinol)",
     "Vitamine D (ergocalciférol / cholécalciférol)",
-    "Vitamine K1 (phytoménadione)"
+    "Vitamine K1 (phytoménadione)",
+    "Vaccin antigrippal (inactivé)"
    ]
   },
   {
