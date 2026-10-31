@@ -1,5 +1,5 @@
 {
- "version": 34,
+ "version": 35,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -35030,46 +35030,61 @@
    "nom": "Diarrhée aiguë et déshydratation",
    "categorie": "digestif",
    "synonymes": "diarrhée, gastro-entérite, déshydratation, selles liquides",
-   "resume": "Au moins 3 selles liquides par jour depuis moins de 14 jours. Le risque principal est la déshydratation, surtout chez l'enfant.",
+   "resume": "Au moins 3 selles liquides par jour depuis moins de 14 jours. Deuxième cause de décès de l'enfant de moins de 5 ans en RDC. Causes : rotavirus et autres virus (les plus fréquents chez le nourrisson), bactéries (E. coli, Shigella, Salmonella, Campylobacter, choléra), parasites (Giardia, Cryptosporidium, amibes). Le risque principal est la déshydratation ; les SRO à faible osmolarité, le zinc et la poursuite de l'alimentation suffisent dans la grande majorité des cas. Les antibiotiques sont réservés à la dysenterie, au choléra grave et aux parasites confirmés.",
    "signes": [
-    "Selles liquides fréquentes, parfois vomissements, fièvre",
-    "Déshydratation modérée : agitation, yeux enfoncés, soif, pli cutané qui s'efface lentement",
-    "Déshydratation sévère : léthargie, incapacité de boire, pli cutané très lent (> 2 s), pouls faible"
+    "Selles liquides fréquentes, parfois vomissements, fièvre, douleurs abdominales",
+    "Pas de déshydratation visible (plan A)",
+    "Déshydratation modérée (plan B, au moins 2 signes) : agitation ou irritabilité, yeux enfoncés, boit avidement, pli cutané qui s'efface lentement",
+    "Déshydratation sévère (plan C, au moins 2 signes) : léthargie ou inconscience, yeux enfoncés, boit difficilement ou pas du tout, pli cutané qui s'efface très lentement (> 2 s) ; choc (pouls faible, extrémités froides)",
+    "Sang dans les selles : dysenterie",
+    "Diarrhée de plus de 14 jours : diarrhée persistante",
+    "Diagnostics à ne pas manquer : invagination intestinale (nourrisson, pleurs paroxystiques, selles « gelée de groseille »), appendicite, paludisme, infection urinaire, pneumonie, acidocétose, intoxication"
    ],
    "diagnostic": [
-    "Évaluer le degré de déshydratation (plans A, B, C de l'OMS)",
-    "Sang dans les selles : dysenterie",
-    "Rechercher une malnutrition"
+    "Évaluer le degré de déshydratation (plans A, B, C de l'OMS) et peser l'enfant",
+    "Rechercher du sang dans les selles, une malnutrition (périmètre brachial, œdèmes), une fièvre (TDR paludisme)",
+    "Pas d'examen de selles en routine ; coproculture en cas d'épidémie, de diarrhée sanglante grave ou chez l'immunodéprimé",
+    "Déshydratation sévère ou perfusion : glycémie, ionogramme (sodium, potassium) et créatinine si disponibles",
+    "Adulte : test VIH si diarrhée persistante ou récidivante ; penser au choléra en contexte épidémique"
    ],
    "traitement": [
-    "Plan A (pas de déshydratation) : SRO après chaque selle, zinc 10 à 14 jours, poursuite de l'alimentation et de l'allaitement",
-    "Plan B (modérée) : SRO 75 ml/kg en 4 h, puis réévaluer",
-    "Plan C (sévère) : Ringer lactate IV 100 ml/kg (30 ml/kg puis 70 ml/kg)",
-    "Malnutrition aiguë sévère : ReSoMal, protocole spécifique",
-    "Pas d'antidiarrhéique ni d'antibiotique en routine",
-    "Doses de zinc : moins de 6 mois 10 mg par jour, 6 mois et plus 20 mg par jour, pendant 10 à 14 jours",
-    "Plan A : SRO après chaque selle liquide : moins de 2 ans 50 à 100 ml, 2 à 10 ans 100 à 200 ml, plus grands et adultes à volonté",
-    "Plan C chez le nourrisson de moins de 12 mois : 30 ml/kg en 1 h, puis 70 ml/kg en 5 h (adulte et enfant plus âgé : 30 ml/kg en 30 min, puis 70 ml/kg en 2 h 30)",
-    "Réévaluer toutes les 1 à 2 h ; passer au plan B puis A dès l'amélioration ; sang dans les selles : voir dysenterie"
+    "Plan A (pas de déshydratation) : SRO après chaque selle liquide (moins de 2 ans 50 à 100 ml, 2 à 10 ans 100 à 200 ml, plus grands et adultes à volonté) ; préparer 1 sachet dans 1 litre d'eau propre, à utiliser dans les 24 h",
+    "Zinc pendant 10 à 14 jours chez l'enfant : moins de 6 mois 10 mg par jour, 6 mois et plus 20 mg par jour",
+    "Poursuivre l'allaitement et l'alimentation habituelle adaptée à l'âge, puis un repas supplémentaire par jour pendant 2 semaines",
+    "Plan B (déshydratation modérée) : SRO 75 ml/kg en 4 h sous surveillance au centre de santé, en petites gorgées ou à la cuillère, puis réévaluer ; vomissements : attendre 10 min et reprendre plus lentement",
+    "Plan C (déshydratation sévère) : Ringer lactate IV 100 ml/kg : nourrisson de moins de 12 mois 30 ml/kg en 1 h puis 70 ml/kg en 5 h ; enfant plus âgé et adulte 30 ml/kg en 30 min puis 70 ml/kg en 2 h 30 ; sans voie veineuse : SRO par sonde gastrique 20 ml/kg/h pendant 6 h ; donner des SRO dès que le patient peut boire ; réévaluer toutes les 1 à 2 h et passer au plan B puis A dès l'amélioration",
+    "Malnutrition aiguë sévère : ReSoMal 5 ml/kg toutes les 30 min pendant 2 h, puis 5 à 10 ml/kg/h ; pas de perfusion sauf choc (voir la fiche Malnutrition aiguë sévère)",
+    "Vomissements gênant la réhydratation orale chez l'enfant de plus de 6 mois : ondansétron 0,15 mg/kg en dose unique possible",
+    "Pas d'antidiarrhéique (lopéramide) chez l'enfant, ni d'antibiotique en routine ; chez l'adulte sans sang ni fièvre, lopéramide possible",
+    "Antibiotique seulement si : sang dans les selles (voir Dysenterie), choléra avec déshydratation sévère, giardiase ou amibiase confirmées",
+    "Diarrhée persistante de l'enfant : réduire le lait animal (yaourt, bouillies), aliments riches en énergie, vitamine A, zinc, micronutriments ; rechercher VIH et malnutrition ; référer si déshydratation",
+    "Expliquer les signes de retour immédiat : ne peut pas boire, vomit tout, sang dans les selles, plus malade, fièvre"
    ],
    "gravite": [
     "Déshydratation sévère, choc",
     "Sang dans les selles",
     "Vomissements incoercibles",
     "Diarrhée > 14 jours (persistante)",
-    "Malnutrition"
+    "Malnutrition, nourrisson de moins de 2 mois",
+    "Ventre distendu et douloureux, selles sanglantes avec pleurs (invagination)",
+    "Convulsions (hypo- ou hypernatrémie, hypoglycémie)"
    ],
    "prevention": [
     "Allaitement exclusif jusqu'à 6 mois",
-    "Eau potable, lavage des mains, latrines",
-    "Vaccination contre le rotavirus et la rougeole"
+    "Eau potable (chloration, ébullition), lavage des mains au savon, latrines, hygiène alimentaire",
+    "Vaccination contre le rotavirus (6 et 10 semaines) et la rougeole",
+    "Supplémentation en vitamine A",
+    "SRO et zinc disponibles à domicile et chez les agents communautaires"
    ],
    "medicaments": [
     "Sels de réhydratation orale (SRO)",
     "Zinc (sulfate)",
     "Ringer lactate",
     "ReSoMal (sels de réhydratation pour malnutris)",
-    "Ondansétron"
+    "Ondansétron",
+    "Lopéramide",
+    "Vitamine A (rétinol)",
+    "Vaccin antirotavirus"
    ]
   },
   {
@@ -35141,36 +35156,45 @@
    "nom": "Dysenterie bacillaire (shigellose)",
    "categorie": "digestif",
    "synonymes": "dysenterie, diarrhée sanglante, shigelle",
-   "resume": "Diarrhée avec sang dans les selles, principalement due à Shigella. Grave chez l'enfant et le malnutri.",
+   "resume": "Diarrhée avec sang visible dans les selles, due surtout à Shigella (S. flexneri, S. sonnei ; S. dysenteriae type 1 responsable d'épidémies graves), parfois à Campylobacter, Salmonella ou E. coli entéro-invasif. Grave chez l'enfant de moins de 5 ans, le malnutri et la personne âgée (déshydratation, convulsions, perforation, syndrome hémolytique et urémique). Un antibiotique est toujours indiqué ; la résistance aux antibiotiques augmente.",
    "signes": [
-    "Selles glaireuses et sanglantes, fréquentes",
-    "Fièvre, douleurs abdominales, ténesme",
+    "Selles glaireuses et sanglantes fréquentes, en petite quantité",
+    "Fièvre, douleurs abdominales en crampes, ténesme (envie douloureuse et inefficace d'aller à la selle)",
     "Déshydratation possible",
-    "Nourrisson : fièvre élevée, parfois convulsions"
+    "Nourrisson : fièvre élevée, léthargie, parfois convulsions",
+    "Complications : prolapsus rectal, mégacôlon toxique, perforation, hypoglycémie, septicémie, syndrome hémolytique et urémique (pâleur, urines rares, pétéchies), arthrite réactionnelle"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Penser à l'amibiase (adulte, sans fièvre) si échec du traitement",
-    "Évaluer la déshydratation et l'état nutritionnel",
-    "Coproculture en cas d'épidémie (résistances aux antibiotiques)"
+    "Diagnostic clinique : sang visible dans les selles",
+    "Évaluer la déshydratation et l'état nutritionnel ; glycémie si troubles de conscience",
+    "Coproculture et antibiogramme en cas d'épidémie (choix de l'antibiotique) ou d'échec",
+    "Penser à l'amibiase (adulte, peu de fièvre, formes hématophages) si échec du traitement",
+    "NFS, créatinine si pâleur ou oligurie (syndrome hémolytique et urémique)",
+    "Notifier les cas groupés de diarrhée sanglante"
    ],
    "traitement": [
-    "Ciprofloxacine 3 jours (enfant 15 mg/kg 2 fois par jour) ; alternative : azithromycine ou ceftriaxone (forme sévère)",
-    "Réhydratation (SRO), zinc chez l'enfant",
-    "Poursuivre l'alimentation",
-    "Revoir après 48 h",
-    "Adulte : ciprofloxacine 500 mg 2 fois par jour pendant 3 jours",
+    "Ciprofloxacine pendant 3 jours : enfant 15 mg/kg 2 fois par jour, adulte 500 mg 2 fois par jour",
+    "Alternatives (résistance, femme enceinte, échec) : azithromycine 10 mg/kg par jour (adulte 500 mg) pendant 3 jours ; ceftriaxone 50 à 100 mg/kg par jour (adulte 1 à 2 g) IV ou IM pendant 3 à 5 jours (formes sévères, nourrisson)",
     "Femme enceinte : azithromycine ou ceftriaxone (éviter la ciprofloxacine)",
-    "Pas d'amélioration après 48 h : changer d'antibiotique (azithromycine, ou ceftriaxone 50 à 100 mg/kg/j pendant 3 jours), puis penser à l'amibiase"
+    "Réhydratation (SRO selon le plan), zinc chez l'enfant pendant 10 à 14 jours, poursuite de l'allaitement et de l'alimentation (petits repas fréquents)",
+    "Paracétamol si fièvre",
+    "Pas d'antidiarrhéique ni d'antispasmodique (risque de mégacôlon)",
+    "Revoir après 48 h : pas d'amélioration (fièvre, nombre de selles, sang, appétit) : changer d'antibiotique (azithromycine ou ceftriaxone), puis penser à l'amibiase (métronidazole)",
+    "Hospitaliser : nourrisson de moins de 2 mois, malnutrition sévère, déshydratation sévère, convulsions, aspect toxique",
+    "Syndrome hémolytique et urémique : hospitalisation, transfusion, prise en charge de l'insuffisance rénale (dialyse)",
+    "Prolapsus rectal : réduction douce, traiter la cause"
    ],
    "gravite": [
-    "Déshydratation sévère, fièvre élevée, convulsions",
-    "Malnutrition, nourrisson < 2 mois",
-    "Absence d'amélioration après 48 h"
+    "Déshydratation sévère, fièvre élevée, convulsions, troubles de conscience",
+    "Malnutrition, nourrisson < 2 mois, sujet âgé",
+    "Absence d'amélioration après 48 h",
+    "Ventre distendu, douloureux (mégacôlon, perforation)",
+    "Pâleur, urines rares, pétéchies (syndrome hémolytique et urémique)"
    ],
    "prevention": [
-    "Lavage des mains, hygiène de l'eau et des aliments",
-    "Allaitement maternel, latrines, notification en cas d'épidémie"
+    "Lavage des mains au savon, hygiène de l'eau et des aliments",
+    "Allaitement maternel, latrines",
+    "Notification et investigation des épidémies, surveillance des résistances"
    ],
    "medicaments": [
     "Ciprofloxacine",
@@ -35178,6 +35202,7 @@
     "Ceftriaxone",
     "Sels de réhydratation orale (SRO)",
     "Zinc (sulfate)",
+    "Paracétamol",
     "Métronidazole"
    ]
   },
@@ -36614,36 +36639,51 @@
    "nom": "Ulcère gastroduodénal et gastrite",
    "categorie": "digestif",
    "synonymes": "ulcère, gastrite, brûlures d'estomac, épigastralgies, Helicobacter",
-   "resume": "Lésion de la muqueuse de l'estomac ou du duodénum, liée surtout à Helicobacter pylori et aux AINS/aspirine.",
+   "resume": "Perte de substance de la muqueuse de l'estomac ou du duodénum, due surtout à Helicobacter pylori (infection très fréquente en Afrique) et aux AINS et à l'aspirine. Il peut se compliquer d'hémorragie digestive, de perforation ou de sténose. L'éradication d'H. pylori guérit l'ulcère et prévient les récidives ; chez un patient de plus de 45 à 55 ans ou avec des signes d'alarme, il faut rechercher un cancer de l'estomac.",
    "signes": [
-    "Douleur ou brûlure épigastrique, rythmée par les repas",
-    "Nausées, ballonnements",
-    "Complications : hématémèse, méléna (selles noires), perforation (douleur brutale, ventre dur)"
+    "Douleur ou brûlure épigastrique, rythmée par les repas (calmée par l'alimentation dans l'ulcère duodénal), réveils nocturnes",
+    "Nausées, ballonnements, satiété rapide",
+    "Complications : hématémèse (vomissements de sang rouge ou « marc de café »), méléna (selles noires, goudronneuses), malaise, pâleur ; perforation (douleur brutale en coup de poignard, ventre de bois, choc) ; sténose (vomissements alimentaires tardifs, amaigrissement)",
+    "Signes d'alarme : âge > 45 à 55 ans, amaigrissement, anémie, vomissements répétés, difficulté à avaler, masse, antécédent familial de cancer de l'estomac"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; fibroscopie si disponible (surtout après 50 ans, amaigrissement, anémie, vomissements)",
-    "Test H. pylori si disponible"
+    "Diagnostic clinique ; fibroscopie si disponible (signes d'alarme, âge > 45 à 55 ans, hémorragie, échec du traitement) avec biopsies",
+    "Test H. pylori : antigène dans les selles ou test respiratoire (arrêter l'oméprazole 2 semaines avant), ou biopsies ; la sérologie ne permet pas de contrôler l'éradication",
+    "Hémorragie : hémoglobine, groupe sanguin, urée, score de Glasgow-Blatchford",
+    "Perforation : radiographie debout (air sous les coupoles)",
+    "Hémoglobine et ferritine si anémie"
    ],
    "traitement": [
-    "Arrêter les AINS, l'alcool, le tabac",
-    "Oméprazole 20 mg/j pendant 4 à 8 semaines",
-    "Éradication d'H. pylori pendant 14 jours : oméprazole 20 mg 2 fois par jour + amoxicilline 1 g 2 fois par jour + clarithromycine 500 mg 2 fois par jour (ou métronidazole 500 mg 2 fois par jour)",
-    "Hémorragie : oméprazole IV, remplissage, transfusion, avis chirurgical"
+    "Arrêter les AINS et l'aspirine (si possible), l'alcool, le tabac",
+    "Éradication d'H. pylori pendant 14 jours : oméprazole 20 à 40 mg 2 fois par jour + amoxicilline 1 g 2 fois par jour + clarithromycine 500 mg 2 fois par jour ; ou oméprazole + amoxicilline + métronidazole 500 mg 2 fois par jour (résistance fréquente au métronidazole) ; quadrithérapie (oméprazole + amoxicilline + clarithromycine + métronidazole) si résistances élevées",
+    "Allergie à la pénicilline : oméprazole + clarithromycine + métronidazole",
+    "Contrôle de l'éradication 4 semaines après la fin (antigène dans les selles) si possible",
+    "Après éradication : oméprazole 20 mg par jour pendant 4 semaines (ulcère duodénal) à 8 semaines (ulcère gastrique, avec fibroscopie de contrôle)",
+    "Hémorragie digestive : 2 voies veineuses, remplissage prudent, transfusion si Hb < 7 g/dl (< 8 si maladie cardiaque), oméprazole 80 mg IV puis 40 mg IV 2 fois par jour, à jeun ; fibroscopie dans les 24 h (traitement endoscopique) ; chirurgie si l'hémorragie persiste ; l'acide tranexamique n'est pas recommandé",
+    "Perforation : à jeun, sonde gastrique, perfusion, oméprazole IV, antibiotiques (ceftriaxone + métronidazole), chirurgie en urgence (suture)",
+    "Sténose : sonde, rééquilibration, fibroscopie, chirurgie",
+    "AINS indispensable chez un patient à risque (plus de 65 ans, antécédent d'ulcère, corticoïdes, anticoagulant) : associer l'oméprazole"
    ],
    "gravite": [
-    "Hématémèse, méléna, anémie",
+    "Hématémèse, méléna, anémie, malaise, choc",
     "Douleur brutale, ventre de bois (perforation)",
-    "Vomissements répétés (sténose), amaigrissement"
+    "Vomissements répétés (sténose), amaigrissement, masse (cancer)"
    ],
    "prevention": [
-    "Éviter l'automédication par AINS ; protéger par IPP si AINS indispensable"
+    "Éviter l'automédication par AINS et aspirine ; protéger par oméprazole si un AINS est indispensable chez un patient à risque",
+    "Arrêt du tabac et de l'alcool",
+    "Hygiène de l'eau (transmission d'H. pylori)"
    ],
    "medicaments": [
     "Oméprazole",
     "Amoxicilline",
     "Clarithromycine",
     "Métronidazole",
-    "Concentré de globules rouges (culot globulaire)"
+    "Hydroxyde d'aluminium + hydroxyde de magnésium",
+    "Ceftriaxone",
+    "Ringer lactate",
+    "Concentré de globules rouges (culot globulaire)",
+    "Sulfate ferreux"
    ]
   },
   {
@@ -39649,33 +39689,50 @@
    "nom": "Cirrhose et ascite",
    "categorie": "digestif",
    "synonymes": "cirrhose, ascite, gros ventre, maladie du foie, varices",
-   "resume": "Atteinte chronique du foie (hépatite B, C, alcool) avec complications : ascite, hémorragie digestive, encéphalopathie, infections.",
+   "resume": "Atteinte chronique et diffuse du foie, avec fibrose et nodules, aboutissant à une insuffisance hépatique et une hypertension portale. En RDC, les causes principales sont les hépatites B (± D) et C, l'alcool, la stéatose métabolique ; la schistosomiase cause une hypertension portale sans cirrhose. Complications : ascite, infection du liquide d'ascite, hémorragie par rupture de varices, encéphalopathie, insuffisance rénale et cancer du foie. Traiter la cause peut stabiliser ou améliorer la maladie.",
    "signes": [
-    "Fatigue, amaigrissement, ictère",
-    "Ascite (gros ventre), œdèmes",
-    "Angiomes stellaires, circulation veineuse abdominale",
-    "Hématémèse ou méléna (varices)",
-    "Confusion, somnolence (encéphalopathie)"
+    "Fatigue, amaigrissement, fonte musculaire, perte d'appétit",
+    "Ictère, angiomes stellaires, rougeur des paumes, ongles blancs, gynécomastie",
+    "Ascite (gros ventre, matité des flancs), œdèmes des jambes, circulation veineuse visible sur l'abdomen, grosse rate",
+    "Saignements faciles, ecchymoses",
+    "Hématémèse ou méléna (varices œsophagiennes)",
+    "Encéphalopathie : inversion du rythme du sommeil, confusion, tremblements des mains (astérixis), somnolence, coma",
+    "Infection du liquide d'ascite : fièvre, douleur abdominale, aggravation de l'état ou de l'encéphalopathie, parfois peu de signes"
    ],
    "diagnostic": [
-    "Bilan : hépatite B et C, VIH, Hb, plaquettes, échographie",
-    "Ponction d'ascite si fièvre ou douleur abdominale (infection)"
+    "Bilan de la cause : AgHBs (et anticorps anti-VHD si positif), anticorps anti-VHC, consommation d'alcool, VIH, glycémie et poids (stéatose), recherche de schistosomiase",
+    "Sévérité : hémoglobine, plaquettes, bilirubine, albumine, TP ou INR, créatinine, sodium (scores de Child-Pugh et MELD) ; APRI",
+    "Échographie abdominale : foie dysmorphique, ascite, grosse rate, thrombose porte, nodule suspect (alpha-fœtoprotéine)",
+    "Ponction d'ascite diagnostique à toute nouvelle ascite et à chaque hospitalisation, fièvre, douleur ou aggravation : polynucléaires ≥ 250/mm³ = infection ; protéines, culture en flacons d'hémoculture",
+    "Fibroscopie pour rechercher les varices si disponible"
    ],
    "traitement": [
-    "Arrêt total de l'alcool ; traiter l'hépatite B (ténofovir) ou C",
-    "Ascite : régime peu salé, spironolactone ± furosémide ; ponction évacuatrice avec albumine si ascite tendue",
-    "Prévention des hémorragies : propranolol",
-    "Encéphalopathie : lactulose",
-    "Infection du liquide d'ascite : ceftriaxone",
-    "Éviter AINS, sédatifs, médicaments hépatotoxiques"
+    "Arrêt total de l'alcool (thiamine chez l'alcoolique) ; traiter la cause : ténofovir (hépatite B), antiviraux à action directe (hépatite C), praziquantel (schistosomiase)",
+    "Ascite : régime limité en sel (environ 5 g de sel par jour, sans restriction protéique), spironolactone 100 mg par jour ± furosémide 40 mg, à augmenter par paliers (rapport 100/40, maximum 400/160) ; objectif de perte de poids 0,5 kg par jour (1 kg si œdèmes) ; surveiller sodium, potassium et créatinine",
+    "Ascite tendue : ponction évacuatrice ; si plus de 5 litres retirés, perfuser de l'albumine humaine 6 à 8 g par litre retiré",
+    "Infection du liquide d'ascite : ceftriaxone 2 g par jour (ou céfotaxime) pendant 5 à 7 jours + albumine 1,5 g/kg le 1er jour et 1 g/kg le 3e jour ; ensuite prophylaxie au long cours (ciprofloxacine ou cotrimoxazole)",
+    "Prévention de la 1re hémorragie si grosses varices : propranolol 20 à 40 mg 2 fois par jour, adapté pour une fréquence cardiaque de 55 à 60/min, ou ligature endoscopique",
+    "Hémorragie par varices : réanimation, transfusion prudente (Hb cible 7 à 8 g/dl), ceftriaxone 1 g par jour pendant 7 jours, vasoconstricteur et ligature endoscopique en urgence si disponibles, sonde de tamponnement en dernier recours ; lactulose pour prévenir l'encéphalopathie",
+    "Encéphalopathie : lactulose 20 à 30 ml 2 à 4 fois par jour (objectif 2 à 3 selles molles par jour), rechercher et traiter le facteur déclenchant (infection, hémorragie, constipation, sédatifs, hypokaliémie, déshydratation)",
+    "Nutrition : protéines 1,2 à 1,5 g/kg par jour, collation le soir, repas fractionnés",
+    "Vitamine K1 si TP bas",
+    "Médicaments à éviter : AINS, aminosides, sédatifs et benzodiazépines ; paracétamol autorisé jusqu'à 2 g par jour",
+    "Vaccinations hépatites A et B, pneumocoque, grippe",
+    "Dépistage du cancer du foie par échographie tous les 6 mois",
+    "Soins palliatifs aux stades avancés"
    ],
    "gravite": [
     "Hémorragie digestive, choc",
-    "Confusion, coma",
-    "Fièvre et douleur abdominale"
+    "Confusion, coma (encéphalopathie)",
+    "Fièvre et douleur abdominale (infection du liquide d'ascite)",
+    "Insuffisance rénale (oligurie, créatinine en hausse), hyponatrémie sévère",
+    "Ictère qui s'aggrave"
    ],
    "prevention": [
-    "Vaccination contre l'hépatite B, dépistage et traitement des hépatites, prévention de l'alcoolisme"
+    "Vaccination contre l'hépatite B à la naissance, dépistage et traitement des hépatites B et C",
+    "Prévention de l'alcoolisme",
+    "Prévention et traitement de la schistosomiase",
+    "Lutte contre l'obésité et le diabète"
    ],
    "medicaments": [
     "Spironolactone",
@@ -39683,9 +39740,16 @@
     "Propranolol",
     "Lactulose",
     "Ceftriaxone",
+    "Céfotaxime",
+    "Ciprofloxacine",
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
     "Albumine humaine",
     "Ténofovir (TDF)",
-    "Vitamine K1 (phytoménadione)"
+    "Sofosbuvir + velpatasvir",
+    "Vitamine K1 (phytoménadione)",
+    "Thiamine (vitamine B1)",
+    "Praziquantel",
+    "Concentré de globules rouges (culot globulaire)"
    ]
   },
   {
@@ -40118,41 +40182,61 @@
    "nom": "Ictère (démarche diagnostique)",
    "categorie": "digestif",
    "synonymes": "ictère, jaunisse, yeux jaunes, urines foncées",
-   "resume": "Coloration jaune de la peau et des conjonctives par excès de bilirubine. Trois mécanismes : hémolyse, atteinte du foie, obstacle sur les voies biliaires.",
+   "resume": "Coloration jaune de la peau et des conjonctives par excès de bilirubine (visible au-delà de 2,5 à 3 mg/dl), à rechercher à la lumière du jour sur les conjonctives et le palais chez le patient à peau noire. Trois mécanismes : hémolyse (pré-hépatique), atteinte du foie (hépatique) et obstacle sur les voies biliaires (cholestase). En RDC, les causes les plus fréquentes sont le paludisme, la drépanocytose, le déficit en G6PD, les hépatites virales et médicamenteuses, l'alcool, et les causes infectieuses graves (fièvre jaune, leptospirose, sepsis, fièvres hémorragiques). Le nouveau-né a sa propre fiche.",
    "signes": [
     "Conjonctives et peau jaunes",
-    "Hémolyse : pâleur, urines foncées, selles normales, splénomégalie (paludisme, drépanocytose, G6PD)",
-    "Hépatite : fatigue, nausées, urines foncées, foie sensible",
-    "Obstacle : selles décolorées, urines foncées, démangeaisons, douleur de l'hypochondre droit, parfois fièvre (angiocholite)"
+    "Hémolyse : pâleur, fatigue, urines foncées (couleur thé ou coca), selles de couleur normale, grosse rate (paludisme, drépanocytose, déficit en G6PD après un médicament ou un aliment oxydant)",
+    "Hépatite : fatigue, nausées, perte d'appétit, urines foncées, foie sensible, parfois fièvre initiale",
+    "Obstacle : selles décolorées, urines foncées, démangeaisons, douleur de l'hypochondre droit ; fièvre avec frissons et ictère (angiocholite : triade de Charcot) ; amaigrissement et ictère progressif sans douleur (cancer du pancréas ou des voies biliaires)",
+    "Signes d'insuffisance hépatique : confusion, saignements, ascite",
+    "Fièvre élevée avec ictère et saignements : fièvre jaune, leptospirose, fièvre hémorragique (isoler)"
    ],
    "diagnostic": [
-    "TDR paludisme, hémoglobine",
-    "Contexte : médicaments (antituberculeux, névirapine, paracétamol), alcool, grossesse, contacts",
-    "Sérologies hépatites B et C ; hépatite A et E selon le contexte",
-    "Échographie si disponible",
-    "Penser à la fièvre jaune, la leptospirose, la fièvre hémorragique"
+    "TDR paludisme, hémoglobine, frottis sanguin, réticulocytes, test G6PD et électrophorèse de l'hémoglobine si hémolyse",
+    "Contexte : médicaments (antituberculeux, névirapine, éfavirenz, cotrimoxazole, paracétamol en surdose, plantes et traitements traditionnels), alcool, grossesse, voyage, contacts, transfusions, vaccination contre la fièvre jaune",
+    "Bilirubine totale et conjuguée, transaminases (très élevées : hépatite), phosphatases alcalines et GGT (cholestase), TP ou INR, albumine, glycémie, créatinine",
+    "Sérologies : AgHBs, anticorps anti-VHC, IgM anti-VHA et anti-VHE selon le contexte ; prélèvement fièvre jaune selon la définition de cas",
+    "Échographie : voies biliaires dilatées (obstacle : calcul, ascaris, tumeur), foie de cirrhose, abcès, tumeur",
+    "Grossesse : HELLP, stéatose aiguë gravidique, cholestase gravidique, hépatite E"
    ],
    "traitement": [
-    "Traiter la cause",
-    "Arrêter les médicaments hépatotoxiques si hépatite médicamenteuse",
-    "Éviter les médicaments métabolisés par le foie et l'alcool",
-    "Angiocholite : antibiotique (ceftriaxone + métronidazole) et référence chirurgicale"
+    "Traiter la cause : paludisme (CTA ou artésunate), crise drépanocytaire, sepsis ; arrêter tout médicament potentiellement toxique pour le foie (antituberculeux : reprise progressive après normalisation, voir la fiche Tuberculose)",
+    "Déficit en G6PD : arrêter le produit déclenchant, transfusion si anémie sévère",
+    "Hépatite virale : repos, alimentation normale, pas d'alcool (voir les fiches Hépatites)",
+    "Surdose de paracétamol : N-acétylcystéine IV le plus tôt possible (dans les 8 h si possible, utile jusqu'à 24 h et plus)",
+    "Angiocholite : ceftriaxone + métronidazole IV, réhydratation, drainage des voies biliaires (endoscopie ou chirurgie) en urgence si sepsis ; ascaris des voies biliaires : albendazole et antispasmodique",
+    "Cholestase avec TP bas : vitamine K1 10 mg IV ou IM ; démangeaisons : antihistaminique",
+    "Éviter l'alcool, les sédatifs et les médicaments métabolisés par le foie ; paracétamol à dose réduite (maximum 2 g par jour)",
+    "Insuffisance hépatique aiguë (confusion, INR > 1,5) : hospitalisation, glycémie toutes les 4 h, glucosé 10 %, lactulose, recherche d'infection, transfert vers un centre spécialisé",
+    "Obstacle tumoral : avis chirurgical"
    ],
    "gravite": [
-    "Troubles de conscience, saignements (insuffisance hépatique)",
-    "Fièvre avec frissons et douleur (angiocholite)",
-    "Grossesse (hépatite E, stéatose aiguë gravidique)",
-    "Anémie sévère"
+    "Troubles de conscience, saignements, hypoglycémie (insuffisance hépatique)",
+    "Fièvre avec frissons et douleur de l'hypochondre droit (angiocholite)",
+    "Grossesse (hépatite E, stéatose aiguë gravidique, HELLP)",
+    "Anémie sévère (hémolyse)",
+    "Fièvre avec saignements (isoler)",
+    "Insuffisance rénale associée (leptospirose, paludisme grave)"
    ],
    "prevention": [
-    "Vaccination hépatite B et fièvre jaune ; eau potable (hépatites A et E)"
+    "Vaccination contre l'hépatite B et la fièvre jaune",
+    "Eau potable et hygiène (hépatites A et E)",
+    "Prudence avec les médicaments toxiques pour le foie, surveillance des transaminases",
+    "Prévention du paludisme",
+    "Information sur le déficit en G6PD"
    ],
    "medicaments": [
     "Vitamine K1 (phytoménadione)",
     "Ceftriaxone",
     "Métronidazole",
+    "N-acétylcystéine",
     "Artéméther + luméfantrine",
+    "Artésunate (injectable)",
     "Lactulose",
+    "Glucose 10 %",
+    "Albendazole",
+    "Butylscopolamine (butylbromure d'hyoscine)",
+    "Chlorphénamine (chlorphéniramine)",
     "Iotroxate de méglumine"
    ]
   },
@@ -40726,31 +40810,47 @@
    "nom": "Reflux gastro-œsophagien et dyspepsie",
    "categorie": "digestif",
    "synonymes": "brûlures d'estomac, reflux, RGO, dyspepsie, aigreurs, pyrosis",
-   "resume": "Brûlures remontant de l'estomac vers la gorge (reflux) ou gêne de la partie haute de l'abdomen après les repas (dyspepsie).",
+   "resume": "Reflux gastro-œsophagien : remontée du contenu acide de l'estomac dans l'œsophage, responsable de brûlures et de régurgitations, parfois d'une œsophagite. Dyspepsie : douleur ou gêne de la partie haute de l'abdomen, le plus souvent fonctionnelle, parfois liée à H. pylori, à un ulcère ou aux AINS. Très fréquents ; l'enjeu est de reconnaître les signes d'alarme qui imposent une fibroscopie (cancer de l'œsophage ou de l'estomac).",
    "signes": [
-    "Brûlure rétro-sternale remontante, régurgitations acides, aggravées en position couchée",
-    "Dyspepsie : douleur ou pesanteur épigastrique, ballonnement, satiété rapide"
+    "Reflux : brûlure derrière le sternum remontant vers la gorge (pyrosis), régurgitations acides, aggravées après les repas, en se penchant ou en position couchée",
+    "Signes atypiques : toux chronique, enrouement, asthme nocturne, douleur thoracique",
+    "Dyspepsie : douleur ou pesanteur épigastrique, ballonnement, satiété rapide, nausées",
+    "Nourrisson : régurgitations fréquentes, physiologiques chez un bébé qui grossit bien",
+    "Signes d'alarme : âge > 45 à 55 ans au 1er épisode, amaigrissement, vomissements répétés, difficulté ou douleur à avaler, anémie, sang dans les vomissements ou les selles, masse"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Signes d'alarme à rechercher : âge > 45 ans à la 1re fois, amaigrissement, vomissements répétés, difficulté à avaler, anémie, sang dans les selles ou les vomissements"
+    "Diagnostic clinique ; essai de traitement",
+    "Signes d'alarme : fibroscopie (cancer, ulcère, œsophagite sévère, candidose chez la personne vivant avec le VIH)",
+    "Test H. pylori (antigène dans les selles) dans la dyspepsie sans signe d'alarme, région de forte prévalence",
+    "Douleur thoracique d'effort ou chez un patient à risque : ECG (éliminer une origine cardiaque)",
+    "Médicaments en cause : AINS, aspirine, doxycycline et fer (œsophagite s'ils sont avalés sans eau ou couché), chlorure de potassium"
    ],
    "traitement": [
-    "Règles hygiéno-diététiques : repas légers, pas de repas tardif, surélever la tête du lit, arrêt tabac et alcool, éviter AINS et aspirine",
-    "Antiacide après les repas",
-    "Oméprazole 20 mg/jour pendant 4 à 8 semaines si symptômes fréquents",
-    "Dyspepsie persistante : traiter Helicobacter pylori (voir ulcère)"
+    "Règles hygiéno-diététiques : repas légers et non tardifs (3 h avant le coucher), surélever la tête du lit, perdre du poids si surpoids, arrêter le tabac et l'alcool, éviter les repas très gras, épicés, le café si mal toléré ; éviter AINS et aspirine",
+    "Antiacide (hydroxyde d'aluminium et de magnésium) après les repas et au coucher pour les symptômes occasionnels",
+    "Symptômes fréquents ou œsophagite : oméprazole 20 mg par jour 30 min avant le petit-déjeuner pendant 4 à 8 semaines (40 mg si œsophagite sévère), puis diminuer ou prendre à la demande",
+    "Dyspepsie : rechercher et traiter H. pylori (voir la fiche Ulcère gastroduodénal) ; sinon oméprazole 4 semaines ; métoclopramide si satiété rapide et nausées (traitement court)",
+    "Femme enceinte : règles hygiéno-diététiques, antiacide ; oméprazole si nécessaire",
+    "Nourrisson avec régurgitations simples : rassurer, position verticale après les tétées, ne pas suralimenter ; pas de médicament si l'enfant grossit bien",
+    "Comprimés irritants (doxycycline, fer) : avaler avec un grand verre d'eau, rester debout 30 min"
    ],
    "gravite": [
-    "Signes d'alarme : référence (endoscopie)"
+    "Signes d'alarme : référence pour fibroscopie",
+    "Hémorragie digestive",
+    "Difficulté à avaler progressive (cancer de l'œsophage)",
+    "Nourrisson qui ne grossit pas, vomissements en jet (sténose du pylore), vomissements verts"
    ],
    "prevention": [
-    "Éviter AINS, alcool, tabac"
+    "Éviter AINS, alcool et tabac",
+    "Poids normal",
+    "Repas légers le soir"
    ],
    "medicaments": [
     "Oméprazole",
     "Hydroxyde d'aluminium + hydroxyde de magnésium",
-    "Métoclopramide"
+    "Métoclopramide",
+    "Amoxicilline",
+    "Clarithromycine"
    ]
   },
   {
@@ -43236,33 +43336,48 @@
    "nom": "Constipation",
    "categorie": "digestif",
    "synonymes": "constipation, selles dures, ne va pas à la selle",
-   "resume": "Selles rares (< 3 par semaine), dures ou difficiles à évacuer. Fréquente sous opioïdes, pendant la grossesse, chez la personne âgée ou alitée.",
+   "resume": "Selles rares (moins de 3 par semaine), dures, ou difficiles à évacuer. Très fréquente : enfants (constipation fonctionnelle, apprentissage de la propreté), grossesse, personnes âgées ou alitées, traitement par opioïdes, fer ou anticholinergiques. Une constipation récente chez l'adulte de plus de 50 ans ou avec des signes d'alarme doit faire rechercher un cancer colorectal ; en Afrique, le volvulus du côlon sigmoïde est une cause fréquente d'occlusion de l'adulte.",
    "signes": [
-    "Selles rares, dures, efforts d'expulsion",
-    "Ballonnement, douleurs abdominales",
-    "Fécalome chez la personne âgée (fausse diarrhée)"
+    "Selles rares, dures, en billes, efforts d'expulsion, sensation d'évacuation incomplète",
+    "Ballonnement, douleurs abdominales, perte d'appétit",
+    "Fécalome chez la personne âgée : fausse diarrhée (liquide qui contourne le bouchon), rétention urinaire, confusion",
+    "Enfant : retenue des selles, selles volumineuses qui bouchent les toilettes, souillures, douleurs, fissure anale avec sang rouge",
+    "Signes d'alarme : sang dans les selles, amaigrissement, anémie, constipation récente après 50 ans, alternance diarrhée-constipation, antécédent familial de cancer colorectal ; occlusion : vomissements, ventre très distendu, arrêt des gaz"
    ],
    "diagnostic": [
-    "Rechercher : médicaments (opioïdes, fer, anticholinergiques), déshydratation, hypothyroïdie, alitement",
-    "Signes d'alarme : sang dans les selles, amaigrissement, constipation récente après 50 ans, vomissements avec ventre distendu (occlusion)"
+    "Interrogatoire : alimentation (fibres, eau), activité, médicaments (opioïdes, fer, calcium, antidépresseurs, antiacides à l'aluminium), maladies (hypothyroïdie, diabète, Parkinson, dépression), grossesse",
+    "Examen de l'abdomen, de l'anus (fissure, hémorroïdes) et toucher rectal (fécalome, masse)",
+    "Signes d'alarme : NFS, recherche de sang, coloscopie si disponible",
+    "Occlusion : radiographie de l'abdomen debout (niveaux, « grain de café » du volvulus)",
+    "Nouveau-né ou nourrisson avec retard d'émission du méconium (> 48 h), ventre distendu et mauvaise croissance : maladie de Hirschsprung (biopsie rectale) ; hypothyroïdie"
    ],
    "traitement": [
-    "Boissons, fibres (fruits, légumes, céréales complètes), activité physique",
-    "Laxatif osmotique : lactulose",
-    "Laxatif stimulant : séné (sous opioïdes : en prévention systématique)",
-    "Fécalome : lavement, extraction manuelle",
-    "Enfant : rassurer, alimentation, lactulose ; rechercher une fissure anale"
+    "Boire suffisamment (1,5 à 2 litres par jour), alimentation riche en fibres (fruits, légumes, haricots, céréales complètes, feuilles de manioc), activité physique, aller à la selle à heure fixe après un repas, position avec les pieds surélevés",
+    "Laxatif osmotique en 1re intention : lactulose 15 à 30 ml par jour chez l'adulte (enfant 1 à 2 ml/kg par jour), effet en 1 à 2 jours, possible pendant la grossesse",
+    "Laxatif stimulant si besoin : séné 7,5 à 15 mg au coucher ; docusate pour ramollir les selles",
+    "Sous opioïdes (morphine) : séné + docusate ou lactulose en prévention systématique dès le début",
+    "Fécalome : lavement (eau tiède ou huile) ou extraction manuelle douce, puis laxatif d'entretien",
+    "Enfant : rassurer, désimpaction par lactulose à forte dose ou lavement, puis lactulose d'entretien pendant plusieurs mois, installation régulière aux toilettes, calendrier et récompenses, sans punition ; fissure anale : bains de siège, gel de lidocaïne, ramollir les selles",
+    "Volvulus du sigmoïde : détorsion par sonde rectale ou endoscopie si pas de signe d'ischémie, chirurgie (urgente si nécrose, programmée ensuite pour éviter la récidive)",
+    "Traiter la cause (hypothyroïdie, adapter les médicaments)"
    ],
    "gravite": [
-    "Vomissements, ventre distendu, arrêt des gaz (occlusion) → référence chirurgicale"
+    "Vomissements, ventre distendu, arrêt des gaz (occlusion) : référence chirurgicale",
+    "Sang dans les selles, amaigrissement, anémie (cancer)",
+    "Nouveau-né avec retard du méconium",
+    "Fécalome avec rétention urinaire et confusion chez le sujet âgé"
    ],
    "prevention": [
-    "Alimentation riche en fibres, hydratation"
+    "Alimentation riche en fibres, hydratation, activité physique",
+    "Laxatif préventif sous opioïdes",
+    "Apprentissage de la propreté sans contrainte"
    ],
    "medicaments": [
     "Lactulose",
     "Séné (sennosides)",
-    "Docusate sodique"
+    "Docusate sodique",
+    "Lidocaïne (lignocaïne)",
+    "Lévothyroxine"
    ]
   },
   {
@@ -44269,42 +44384,63 @@
    "nom": "Maladies inflammatoires chroniques de l'intestin",
    "categorie": "digestif",
    "synonymes": "MICI, rectocolite hémorragique, maladie de Crohn, diarrhée sanglante chronique",
-   "resume": "Rectocolite hémorragique et maladie de Crohn : diarrhées chroniques inflammatoires de l'adulte jeune, évoluant par poussées. Toujours éliminer d'abord les causes infectieuses fréquentes en Afrique.",
+   "resume": "Rectocolite hémorragique (atteinte continue du rectum et du côlon) et maladie de Crohn (atteinte segmentaire de tout le tube digestif, souvent l'iléon, avec fistules) : maladies inflammatoires chroniques de l'adulte jeune, évoluant par poussées. Moins fréquentes en Afrique mais en augmentation et souvent diagnostiquées tard. Il faut toujours éliminer d'abord les causes infectieuses fréquentes (amibiase, shigellose, schistosomiase, tuberculose intestinale, VIH), et dépister la tuberculose et l'hépatite B avant tout immunosuppresseur.",
    "signes": [
-    "Diarrhée chronique, souvent sanglante, douleurs abdominales",
-    "Amaigrissement, fièvre, anémie",
-    "Crohn : fistules, abcès périanaux",
-    "Manifestations articulaires, cutanées, oculaires"
+    "Rectocolite : diarrhée chronique sanglante et glaireuse, envies urgentes, ténesme, douleurs abdominales, réveils nocturnes",
+    "Crohn : diarrhée chronique (souvent sans sang), douleurs de la fosse iliaque droite, masse, amaigrissement, fièvre, retard de croissance chez l'enfant, aphtes buccaux ; fistules et abcès autour de l'anus ; sténoses (occlusion)",
+    "Signes généraux : fatigue, anémie, dénutrition",
+    "Manifestations extra-intestinales : douleurs articulaires, érythème noueux, œil rouge (uvéite), lésions du foie",
+    "Poussée grave : plus de 6 selles sanglantes par jour, fièvre > 37,8 °C, pouls > 90/min, Hb < 10,5 g/dl (critères de Truelove et Witts)"
    ],
    "diagnostic": [
-    "Éliminer : amibiase, shigellose, schistosomiase, tuberculose intestinale, VIH, Clostridioides difficile (examens de selles, test VIH)",
-    "Coloscopie et biopsies (milieu spécialisé)"
+    "Éliminer : amibiase et shigellose (selles fraîches, coprocultures), schistosomiase intestinale (Kato-Katz), tuberculose intestinale (iléo-cæcale : GeneXpert, radiographie du thorax, IDR), VIH (et CMV), Clostridioides difficile après antibiotiques, Yersinia",
+    "NFS, CRP, ferritine, albumine ; calprotectine fécale si disponible",
+    "Coloscopie avec biopsies (milieu spécialisé) ; échographie ou scanner (Crohn : épaississement de l'iléon, abcès)",
+    "Poussée grave : radiographie de l'abdomen (côlon dilaté > 6 cm : colectasie)",
+    "Avant immunosuppresseurs ou biothérapie : tuberculose (IDR ou IGRA, radiographie), AgHBs, VHC, VIH, vaccinations"
    ],
    "traitement": [
-    "Rectocolite hémorragique : sulfasalazine (ou mésalazine) en poussée et en entretien",
-    "Poussée modérée à sévère : prednisolone 40 mg/jour puis diminution",
-    "Poussée grave : hospitalisation, corticoïdes IV, réhydratation, transfusion",
-    "Crohn : corticoïdes, puis immunosuppresseurs (avis spécialisé)",
-    "Correction de la dénutrition et de l'anémie (fer)"
+    "Rectocolite légère à modérée : mésalazine 2,4 à 4,8 g par jour ou sulfasalazine 2 à 4 g par jour (avec acide folique), plus traitement local (suppositoires ou lavements) si atteinte du rectum ; maintenu en entretien",
+    "Poussée modérée à sévère : prednisolone 40 mg par jour puis diminution de 5 mg par semaine sur 8 semaines (avec calcium et vitamine D) ; pas de corticoïdes au long cours",
+    "Poussée grave : hospitalisation, méthylprednisolone 60 mg par jour ou hydrocortisone 100 mg toutes les 6 h IV, réhydratation, correction du potassium, transfusion si besoin, prévention des thromboses par énoxaparine (risque élevé), arrêt des opioïdes et anticholinergiques ; sans amélioration à J3-J5 : traitement de sauvetage (ciclosporine, biothérapie) ou colectomie (chirurgien)",
+    "Maladie de Crohn : corticoïdes en poussée, puis immunosuppresseur d'entretien (azathioprine 2 à 2,5 mg/kg par jour avec surveillance de la NFS et des transaminases, ou méthotrexate) ; biothérapie (adalimumab, ustékinumab) dans les formes sévères, en milieu spécialisé ; lésions de l'anus : métronidazole ou ciprofloxacine, drainage des abcès",
+    "Correction de la dénutrition (supplément nutritionnel), de l'anémie (fer, IV si sévère), de la carence en vitamine B12 (atteinte de l'iléon)",
+    "Arrêt du tabac (aggrave la maladie de Crohn) ; éviter les AINS",
+    "Vaccinations avant immunosuppression (hépatite B, pneumocoque, grippe ; pas de vaccins vivants sous immunosuppresseurs)",
+    "Surveillance du cancer colorectal par coloscopie après 8 ans d'évolution",
+    "Soutien psychologique, éducation thérapeutique"
    ],
    "gravite": [
-    "Poussée grave (> 6 selles sanglantes/jour, fièvre, tachycardie)",
-    "Distension du côlon, perforation"
+    "Poussée grave (> 6 selles sanglantes par jour, fièvre, tachycardie, anémie)",
+    "Distension du côlon (colectasie), perforation, hémorragie",
+    "Occlusion (sténose), abcès, fistules",
+    "Infection sous immunosuppresseur (tuberculose, CMV)",
+    "Thrombose veineuse"
    ],
    "prevention": [
-    "Arrêt du tabac (Crohn)"
+    "Arrêt du tabac (Crohn)",
+    "Dépistage de la tuberculose et de l'hépatite B avant immunosuppression",
+    "Suivi régulier pour prévenir les poussées"
    ],
    "medicaments": [
     "Sulfasalazine",
     "Prednisolone",
+    "Méthylprednisolone",
     "Hydrocortisone (injectable)",
-    "Métronidazole",
-    "Sulfate ferreux",
     "Azathioprine",
     "Mercaptopurine (6-MP)",
+    "Méthotrexate",
     "Adalimumab",
     "Ustékinumab",
-    "Méthylprednisolone"
+    "Ciclosporine",
+    "Métronidazole",
+    "Ciprofloxacine",
+    "Énoxaparine",
+    "Sulfate ferreux",
+    "Acide folique",
+    "Hydroxocobalamine (vitamine B12)",
+    "Carbonate de calcium",
+    "Vitamine D (ergocalciférol / cholécalciférol)"
    ]
   },
   {
