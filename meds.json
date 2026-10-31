@@ -1,5 +1,5 @@
 {
- "version": 36,
+ "version": 37,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -35614,41 +35614,51 @@
    "nom": "Malnutrition aiguë sévère",
    "categorie": "sang",
    "synonymes": "MAS, malnutrition, kwashiorkor, marasme, PCIMA, maigreur",
-   "resume": "Déficit nutritionnel aigu grave de l'enfant, associé à une mortalité élevée. Prise en charge selon le protocole national PCIMA.",
+   "resume": "Déficit nutritionnel aigu grave de l'enfant (émaciation sévère ou œdèmes nutritionnels), associé à une mortalité 9 à 12 fois plus élevée. La RDC compte parmi les pays les plus touchés au monde. La prise en charge suit le protocole national PCIMA (OMS 2023) : traitement ambulatoire par ATPE pour les enfants sans complication qui ont de l'appétit, hospitalisation (phase de stabilisation au F-75) pour les autres. Infections, hypoglycémie et hypothermie sont souvent silencieuses ; la réhydratation et l'alimentation doivent être prudentes.",
    "signes": [
-    "Périmètre brachial (PB) < 115 mm (6 à 59 mois)",
-    "Rapport poids/taille < −3 Z-scores",
-    "Œdèmes bilatéraux prenant le godet (kwashiorkor)",
-    "Complications : perte d'appétit, infection, hypothermie, hypoglycémie, déshydratation, anémie sévère"
+    "Enfant de 6 à 59 mois : périmètre brachial < 115 mm, ou poids pour la taille < −3 z-scores, ou œdèmes bilatéraux prenant le godet (pieds, puis jambes, puis visage et généralisés)",
+    "Marasme : maigreur extrême, peau sur les os, « visage de vieillard » ; kwashiorkor : œdèmes, lésions de la peau (desquamation, plaies), cheveux décolorés et cassants, apathie",
+    "Complications : perte d'appétit (test de l'appétit à l'ATPE échoué), vomissements, fièvre ou hypothermie (< 35,5 °C), hypoglycémie, léthargie, convulsions, déshydratation, pneumonie, anémie sévère, lésions cutanées étendues, signes oculaires (xérophtalmie)",
+    "Nourrisson de moins de 6 mois : maigreur visible, poids pour la taille < −3, ou incapacité à téter efficacement"
    ],
    "diagnostic": [
-    "Mesure du PB, du poids et de la taille ; recherche des œdèmes",
-    "Test de l'appétit avec l'ATPE",
-    "Rechercher les complications médicales, le VIH, la tuberculose"
+    "Mesurer le périmètre brachial, le poids et la taille (courbes OMS dans l'onglet Outils), rechercher les œdèmes (pression du pouce 3 s sur le dos du pied)",
+    "Test de l'appétit avec l'ATPE (sous observation)",
+    "Rechercher les complications : température, FR, conscience, glycémie, hémoglobine, déshydratation (difficile à évaluer : se fier à l'histoire de diarrhée et aux signes de choc)",
+    "TDR paludisme, test VIH, recherche de tuberculose (contact, toux, radiographie), bandelette urinaire",
+    "Évaluer l'allaitement, la situation familiale, la santé de la mère"
    ],
    "traitement": [
-    "Sans complication et appétit conservé : traitement ambulatoire par ATPE + amoxicilline 7 jours + suivi hebdomadaire",
-    "Avec complication : hospitalisation ; F-75 (stabilisation), puis F-100 ou ATPE",
-    "Prévenir et traiter hypoglycémie, hypothermie",
-    "Déshydratation : ReSoMal (pas de perfusion sauf choc)",
-    "Antibiotiques systématiques ; antipaludique si TDR positif",
-    "Vitamine A si rougeole ou signes oculaires ; acide folique ; vaccination rougeole",
-    "Fer seulement en phase de réhabilitation",
-    "F-75 en phase de stabilisation : 130 ml/kg par jour en 8 repas (100 ml/kg par jour si œdèmes sévères)",
-    "ATPE en phase de réhabilitation et en ambulatoire : environ 200 kcal/kg par jour, selon la table du protocole national",
-    "Critères de sortie : poids pour la taille ≥ −2 z-scores ou périmètre brachial ≥ 125 mm, sans œdèmes depuis au moins 2 semaines (courbes de croissance dans l'onglet Outils)"
+    "Sans complication, appétit conservé : traitement ambulatoire par ATPE (environ 150 à 200 kcal/kg par jour selon la table du protocole national), amoxicilline 7 jours, suivi hebdomadaire (poids, PB, œdèmes, appétit) ; albendazole à la 2e visite ; vaccination contre la rougeole ; vitamine A seulement si signes oculaires ou rougeole (l'ATPE en contient)",
+    "Avec complication, œdèmes sévères, échec du test de l'appétit ou âge < 6 mois : hospitalisation",
+    "Hypoglycémie (< 54 mg/dl ou suspicion) : glucose 10 % 5 ml/kg IV ou 50 ml de glucose 10 % (ou d'eau sucrée) par la bouche ou la sonde, puis repas de F-75 toutes les 2 h jour et nuit",
+    "Hypothermie : peau à peau avec la mère (kangourou), couvertures, bonnet, pièce chaude ; repas fréquents",
+    "Déshydratation sans choc : ReSoMal 5 ml/kg toutes les 30 min pendant 2 h, puis 5 à 10 ml/kg/h pendant 4 à 10 h, réévalué chaque heure (arrêter si le foie grossit, la FR ou le pouls augmentent) ; pas de perfusion",
+    "Choc : Ringer lactate glucosé 15 ml/kg en 1 h, réévaluer ; si amélioration, répéter puis relais par ReSoMal ; sinon transfusion 10 ml/kg de culot en 3 h",
+    "Antibiotiques systématiques : ampicilline 50 mg/kg toutes les 6 h + gentamicine 7,5 mg/kg par jour pendant 7 jours (ceftriaxone si pas d'amélioration en 48 h ou méningite) ; antipaludique si TDR positif",
+    "Phase de stabilisation : F-75 130 ml/kg par jour en 8 à 12 repas (100 ml/kg par jour si œdèmes sévères), à la tasse ou par sonde ; pas de fer à cette phase",
+    "Phase de transition puis de réhabilitation dès le retour de l'appétit et la fonte des œdèmes : ATPE ou F-100, progressivement à volonté ; fer (sauf ATPE qui en contient)",
+    "Anémie sévère (Hb < 4 g/dl ou < 6 g/dl avec détresse) : culot globulaire 10 ml/kg en 3 h (furosémide si surcharge)",
+    "Lésions cutanées : soins locaux, bains de permanganate",
+    "Stimulation affective et jeux, soutien et éducation nutritionnelle de la mère, poursuite de l'allaitement",
+    "Nourrisson de moins de 6 mois : soutenir l'allaitement (technique de supplémentation par succion avec F-100 dilué), prise en charge de la mère",
+    "Critères de sortie : poids pour la taille ≥ −2 z-scores ou périmètre brachial ≥ 125 mm, sans œdèmes depuis au moins 2 semaines ; relais par un programme de supplémentation et suivi"
    ],
    "gravite": [
     "Perte d'appétit, vomissements",
-    "Hypothermie, hypoglycémie, léthargie",
+    "Hypothermie, hypoglycémie, léthargie, convulsions",
     "Détresse respiratoire, anémie sévère",
     "Œdèmes généralisés",
-    "Choc → protocole de perfusion spécifique"
+    "Choc : protocole de perfusion spécifique",
+    "Aggravation à la réalimentation (syndrome de renutrition : œdèmes, insuffisance cardiaque)",
+    "Absence de prise de poids : rechercher tuberculose, VIH, autre infection"
    ],
    "prevention": [
-    "Allaitement exclusif jusqu'à 6 mois, diversification adaptée",
-    "Dépistage communautaire (PB)",
-    "Vaccination, déparasitage"
+    "Allaitement exclusif jusqu'à 6 mois, aliments de complément adaptés et diversifiés",
+    "Dépistage communautaire par le périmètre brachial (y compris par les mères)",
+    "Prise en charge de la malnutrition modérée (supplémentation)",
+    "Vaccination, déparasitage, vitamine A, eau potable",
+    "Prévention et traitement des infections, espacement des naissances"
    ],
    "medicaments": [
     "Aliment thérapeutique prêt à l'emploi (ATPE)",
@@ -35658,10 +35668,15 @@
     "Amoxicilline",
     "Ampicilline",
     "Gentamicine",
+    "Ceftriaxone",
     "Vitamine A (rétinol)",
     "Acide folique",
     "Glucose 10 %",
-    "Albendazole"
+    "Ringer lactate",
+    "Concentré de globules rouges (culot globulaire)",
+    "Albendazole",
+    "Permanganate de potassium",
+    "Vaccin rougeole-rubéole (RR)"
    ]
   },
   {
@@ -35759,38 +35774,52 @@
    "nom": "Drépanocytose (crise)",
    "categorie": "sang",
    "synonymes": "drépanocytose, anémie falciforme, SS, crise vaso-occlusive, CVO",
-   "resume": "Maladie génétique de l'hémoglobine (HbSS), fréquente en RDC, responsable de crises douloureuses, d'anémie et d'infections graves.",
+   "resume": "Maladie génétique de l'hémoglobine (forme SS surtout, aussi SC et S-bêta-thalassémie), très fréquente en RDC (1 à 2 % des naissances, environ 40 000 nouveau-nés par an). Elle provoque des crises douloureuses, une anémie chronique, des infections graves (pneumocoque, salmonelles, paludisme) et des complications aiguës mortelles (syndrome thoracique, séquestration splénique, AVC). Le dépistage néonatal, la pénicilline, les vaccins, l'acide folique et l'hydroxyurée (sûre et efficace en Afrique, essai REACH) changent le pronostic.",
    "signes": [
-    "Crise vaso-occlusive : douleurs osseuses, articulaires, abdominales ; syndrome pied-main chez le nourrisson",
-    "Anémie aiguë : pâleur, fatigue, splénomégalie (séquestration splénique)",
-    "Syndrome thoracique aigu : douleur thoracique, fièvre, dyspnée",
-    "AVC, priapisme",
-    "Infections graves (pneumocoque, salmonelle)"
+    "Crise vaso-occlusive : douleurs osseuses, articulaires, dorsales, thoraciques ou abdominales intenses ; chez le nourrisson, syndrome pied-main (mains et pieds gonflés et douloureux)",
+    "Anémie aiguë : pâleur, fatigue, essoufflement ; séquestration splénique (rate qui grossit vite, choc) ; crise aplasique (parvovirus, réticulocytes bas)",
+    "Syndrome thoracique aigu : douleur thoracique, fièvre, toux, essoufflement, hypoxie, nouvelle opacité",
+    "Infection : fièvre ≥ 38,5 °C (urgence avant 5 ans), ostéomyélite (salmonelle)",
+    "AVC : déficit, troubles de la parole, convulsions ; priapisme (érection douloureuse prolongée)",
+    "Complications chroniques : ictère, calculs biliaires, ulcères de jambe, nécrose de la tête du fémur, atteinte rénale, rétinopathie, retard de croissance et de puberté, hypertension pulmonaire"
    ],
    "diagnostic": [
-    "Électrophorèse ou test rapide de l'hémoglobine",
-    "Hémoglobine, TDR paludisme, recherche d'infection"
+    "Électrophorèse de l'hémoglobine ou test rapide (dépistage néonatal, dès 6 semaines)",
+    "Lors d'une crise : hémoglobine (comparer au taux habituel), réticulocytes, TDR paludisme, NFS, hémocultures si fièvre, radiographie du thorax si signes respiratoires, SpO₂",
+    "Créatinine, bandelette urinaire (protéinurie) chaque année",
+    "Doppler transcrânien de 2 à 16 ans là où il existe (risque d'AVC)",
+    "Fond d'œil (forme SC), échographie (calculs, rate)"
    ],
    "traitement": [
-    "Crise douloureuse : hydratation (orale ou IV), antalgiques par paliers (paracétamol, ibuprofène, morphine), réchauffement",
-    "Fièvre : antibiotique (ceftriaxone ou amoxicilline) et traitement d'un paludisme",
-    "Anémie aiguë mal tolérée : transfusion",
-    "Oxygène si hypoxie",
-    "Suivi au long cours : acide folique, pénicilline V jusqu'à 5 ans, prophylaxie antipaludique, vaccinations, hydroxyurée",
-    "Syndrome thoracique aigu (douleur thoracique, fièvre, toux, hypoxie) : oxygène, ceftriaxone + macrolide, transfusion, antalgiques et spirométrie incitative",
-    "Séquestration splénique (rate qui grossit vite, anémie brutale) ou AVC : transfusion en urgence",
-    "Hydroxyurée de fond : 15 à 20 mg/kg par jour dès 9 mois, avec surveillance de la NFS"
+    "Crise douloureuse : antalgie dans les 30 min, par paliers et à heures fixes : paracétamol + ibuprofène (sauf atteinte rénale, déshydratation ou ulcère), puis morphine orale 0,2 à 0,4 mg/kg ou IV 0,1 mg/kg titrée toutes les 2 à 4 h ; hydratation orale ou IV (1 à 1,5 fois les besoins, sans surcharge) ; réchauffement ; spirométrie incitative ; oxygène si SpO₂ < 95 %",
+    "Fièvre : hémocultures, ceftriaxone 50 à 75 mg/kg (adulte 2 g) dès la suspicion, traitement d'un paludisme ; ostéomyélite : ceftriaxone ou ciprofloxacine (salmonelle) + cloxacilline, durée prolongée",
+    "Syndrome thoracique aigu : oxygène, ceftriaxone + macrolide (azithromycine), antalgiques, hydratation prudente, spirométrie incitative, transfusion (simple si Hb basse, échange si grave)",
+    "Séquestration splénique : transfusion urgente prudente 5 à 10 ml/kg de culot (la rate relargue le sang) ; splénectomie après récidive",
+    "Crise aplasique : transfusion",
+    "AVC : transfusion d'échange (ou simple pour Hb ≤ 10 g/dl) en urgence, puis programme transfusionnel ou hydroxyurée",
+    "Priapisme > 4 h : hydratation, antalgiques, uriner, ponction-lavage des corps caverneux (urologue)",
+    "Transfusion : objectif Hb ≤ 10 g/dl (pas plus : hyperviscosité) ; surcharge en fer : déférasirox",
+    "Suivi au long cours : acide folique 1 à 5 mg par jour ; pénicilline V jusqu'à au moins 5 ans (125 mg 2 fois par jour avant 3 ans, 250 mg 2 fois par jour de 3 à 5 ans) ; vaccins (pneumococcique conjugué puis polysaccharidique à 2 ans, Hib, méningocoque, typhoïde, grippe) ; prévention du paludisme (moustiquaire, chimioprévention selon le protocole national)",
+    "Hydroxyurée pour tous les enfants dès 9 mois et les adultes symptomatiques : 15 à 20 mg/kg par jour, augmentée de 5 mg/kg toutes les 8 semaines jusqu'à la dose maximale tolérée (maximum 35 mg/kg), NFS tous les 1 à 3 mois (neutrophiles > 1 000 à 1 500/mm³, plaquettes > 80 000) ; contraception (tératogène)",
+    "Éducation : boire beaucoup, éviter le froid, la déshydratation, les efforts intenses ; palper la rate ; consulter en urgence si fièvre, pâleur, douleur thoracique ou déficit",
+    "Grossesse : suivi à haut risque (acide folique, aspirine à faible dose, prévention du paludisme)",
+    "Albuminurie : IEC ; ulcères de jambe : soins locaux, compression",
+    "Conseil génétique, soutien scolaire et psychologique"
    ],
    "gravite": [
     "Fièvre ≥ 38,5 °C",
     "Pâleur brutale, rate qui grossit (séquestration)",
-    "Douleur thoracique, dyspnée",
-    "Signes neurologiques (AVC), priapisme > 4 h → urgence"
+    "Douleur thoracique, essoufflement, SpO₂ basse (syndrome thoracique)",
+    "Signes neurologiques (AVC)",
+    "Priapisme > 4 h",
+    "Douleur non soulagée par les antalgiques"
    ],
    "prevention": [
-    "Dépistage néonatal, conseil génétique",
-    "Pénicilline V, vaccinations, moustiquaire",
-    "Hydroxyurée"
+    "Dépistage néonatal et conseil génétique (test des couples)",
+    "Pénicilline V, vaccinations, moustiquaire, chimioprévention du paludisme",
+    "Hydroxyurée",
+    "Éducation des familles",
+    "Suivi régulier dans un centre de référence"
    ],
    "medicaments": [
     "Hydroxyurée (hydroxycarbamide)",
@@ -35800,9 +35829,14 @@
     "Ibuprofène",
     "Morphine",
     "Ceftriaxone",
+    "Azithromycine",
+    "Ciprofloxacine",
+    "Cloxacilline",
     "Concentré de globules rouges (culot globulaire)",
     "Oxygène",
-    "Déférasirox"
+    "Déférasirox",
+    "Vaccin pneumococcique conjugué (PCV13 / PCV10)",
+    "Ringer lactate"
    ]
   },
   {
@@ -35810,43 +35844,62 @@
    "nom": "Anémie sévère",
    "categorie": "sang",
    "synonymes": "anémie, pâleur, Hb basse, manque de sang",
-   "resume": "Baisse importante de l'hémoglobine, fréquente en RDC (paludisme, carence en fer, vers, drépanocytose, hémorragies).",
+   "resume": "Baisse importante de l'hémoglobine : < 7 g/dl chez l'enfant de 6 à 59 mois et la femme enceinte, < 8 g/dl chez les autres adultes. Très fréquente en RDC : paludisme, carence en fer, ankylostomes, schistosomiase, drépanocytose, malnutrition, hémorragies (obstétricales, digestives), VIH, tuberculose, déficit en G6PD, leucémies. Elle tue par insuffisance cardiaque et hypoxie, surtout chez l'enfant et la femme enceinte ; la transfusion est vitale dans certains cas mais doit être réservée aux indications strictes (sécurité transfusionnelle).",
    "signes": [
-    "Pâleur palmaire et conjonctivale intense",
-    "Fatigue, essoufflement, tachycardie",
-    "Décompensation : détresse respiratoire, insuffisance cardiaque, troubles de conscience"
+    "Pâleur palmaire, des conjonctives, de la langue et des ongles",
+    "Fatigue, essoufflement à l'effort, palpitations, tachycardie, vertiges, céphalées",
+    "Souffle cardiaque",
+    "Décompensation : détresse respiratoire (respiration profonde : acidose), insuffisance cardiaque (gros foie, œdèmes, galop), troubles de conscience, choc",
+    "Orientation : fièvre (paludisme), ictère et urines foncées (hémolyse), saignement, grosse rate, ongles en cuillère (fer), glossite, ganglions et pétéchies (leucémie)"
    ],
    "diagnostic": [
-    "Hémoglobine (ou hématocrite)",
+    "Hémoglobine ou hématocrite (HemoCue)",
     "TDR paludisme",
-    "Rechercher une hémorragie, une drépanocytose, une malnutrition, des vers"
+    "NFS avec volume globulaire moyen (microcytaire : fer, thalassémie ; macrocytaire : folates, B12 ; normocytaire : hémolyse, saignement aigu, maladie chronique), frottis, réticulocytes",
+    "Rechercher : hémorragie (selles, règles, post-partum), drépanocytose (test rapide), malnutrition, vers (examen des selles), schistosomiase, test VIH, tuberculose, déficit en G6PD, insuffisance rénale",
+    "Pancytopénie ou cellules anormales : leucémie, aplasie (avis spécialisé, myélogramme)",
+    "Groupe sanguin et compatibilité avant transfusion"
    ],
    "traitement": [
-    "Transfusion si Hb < 4 g/dl, ou < 6 g/dl avec signes de gravité (enfant) ; adulte selon la tolérance",
-    "Traiter la cause : paludisme, déparasitage (albendazole)",
-    "Carence en fer : fer + acide folique pendant 3 mois (pas pendant une infection aiguë ni en phase initiale de malnutrition)",
-    "Volume : sang total 20 ml/kg ou culot globulaire 10 ml/kg en 3 à 4 h (outil Transfusion dans l'onglet Outils) ; furosémide 1 mg/kg si signes de surcharge",
+    "Transfusion chez l'enfant : si Hb < 4 g/dl, ou < 6 g/dl avec signes de gravité (détresse respiratoire, choc, troubles de conscience, insuffisance cardiaque, forte parasitémie) ; l'enfant stable avec Hb entre 4 et 6 g/dl sans signe de gravité peut être surveillé de près sans transfusion immédiate (essai TRACT)",
+    "Adulte : transfuser si Hb < 7 g/dl avec symptômes (< 8 en cas de maladie cardiaque), hémorragie active ou décompensation ; femme enceinte proche du terme avec Hb < 7",
+    "Volume : sang total 20 ml/kg ou culot globulaire 10 ml/kg en 3 à 4 h (outil Transfusion dans l'onglet Outils) ; surveiller pouls, FR et température toutes les 15 min au début ; insuffisance cardiaque : transfusion lente de culot (5 ml/kg/h) avec furosémide 1 mg/kg",
+    "Traiter la cause : paludisme (CTA ou artésunate), déparasitage (albendazole), schistosomiase (praziquantel), arrêt d'un saignement, arrêt d'un médicament oxydant (G6PD)",
+    "Carence en fer : sulfate ferreux (enfant 3 mg/kg par jour de fer élément ; adulte 60 à 120 mg de fer élément par jour, soit 1 à 2 comprimés de 200 mg) pendant 3 mois après normalisation de l'Hb, avec acide folique ; à prendre à distance du thé et du lait ; pas pendant la phase aiguë d'une infection ni pendant la stabilisation de la malnutrition ; fer IV si intolérance ou anémie sévère au 3e trimestre",
+    "Carence en folates : acide folique 5 mg par jour ; carence en B12 : hydroxocobalamine 1 000 µg IM",
+    "Insuffisance rénale chronique : fer et époétine",
+    "Enfant sorti de l'hôpital après une anémie sévère : chimioprévention du paludisme post-sortie (CTA à 2, 6 et 10 semaines)",
     "Contrôler l'hémoglobine après la transfusion et à 1 mois"
    ],
    "gravite": [
-    "Détresse respiratoire, insuffisance cardiaque",
-    "Troubles de conscience",
-    "Hémorragie active"
+    "Détresse respiratoire, insuffisance cardiaque, troubles de conscience, choc",
+    "Hémorragie active",
+    "Femme enceinte proche du terme",
+    "Réaction transfusionnelle : fièvre, frissons, urticaire, dyspnée, douleur lombaire, urines rouges (arrêter la transfusion)"
    ],
    "prevention": [
-    "Moustiquaire, déparasitage, fer et acide folique pendant la grossesse",
-    "Alimentation riche en fer"
+    "Moustiquaire, prévention et traitement rapide du paludisme",
+    "Déparasitage régulier, chaussures, latrines",
+    "Fer et acide folique pendant la grossesse, espacement des naissances, gestion active de la délivrance",
+    "Alimentation riche en fer (viande, poisson, haricots, feuilles vertes comme le pondu) avec vitamine C, micronutriments chez l'enfant",
+    "Dépistage de la drépanocytose",
+    "Sécurité transfusionnelle et dons de sang volontaires"
    ],
    "medicaments": [
     "Sang total",
     "Concentré de globules rouges (culot globulaire)",
+    "Sulfate ferreux",
     "Fer + acide folique",
     "Acide folique",
+    "Hydroxocobalamine (vitamine B12)",
     "Albendazole",
+    "Praziquantel",
     "Furosémide",
     "Artéméther + luméfantrine",
+    "Artésunate (injectable)",
+    "Dihydroartémisinine + pipéraquine (DHA-PPQ)",
     "Poudre de micronutriments multiples",
-    "Hydroxocobalamine (vitamine B12)"
+    "Époétine (agent stimulant l'érythropoïèse)"
    ]
   },
   {
@@ -36437,49 +36490,61 @@
    "nom": "Diabète de type 2",
    "categorie": "endocrino",
    "synonymes": "diabète, sucre dans le sang, glycémie élevée",
-   "resume": "Hyperglycémie chronique liée à une résistance à l'insuline. En forte augmentation ; complications cardiovasculaires, rénales, oculaires et des pieds.",
+   "resume": "Hyperglycémie chronique liée à une résistance à l'insuline et à un déficit progressif de sa sécrétion. En forte augmentation en RDC avec l'urbanisation, la sédentarité et l'alimentation riche en sucres et féculents raffinés ; plus de la moitié des diabétiques l'ignorent. Complications : cardiovasculaires (infarctus, AVC), rénales, oculaires (cécité), nerveuses, plaies des pieds et amputations, infections (tuberculose). Penser au diabète de type 1 chez le sujet jeune et mince et au diabète cétosique de l'adulte africain.",
    "signes": [
-    "Souvent sans symptôme",
-    "Soif, polyurie, amaigrissement, fatigue",
-    "Infections répétées (peau, urines, mycoses)",
-    "Complications : plaies des pieds, baisse de la vision, neuropathie"
+    "Souvent sans symptôme (découverte lors d'un dépistage)",
+    "Soif, urines abondantes, réveils nocturnes pour uriner, amaigrissement, fatigue, vision floue",
+    "Infections répétées : peau, urines, mycoses génitales, tuberculose ; cicatrisation lente",
+    "Complications : fourmillements et brûlures des pieds, perte de sensibilité (neuropathie), plaies des pieds, baisse de la vision, troubles de l'érection, œdèmes et urines mousseuses (atteinte rénale), douleur thoracique ou déficit (atteinte des artères)",
+    "Type 1 ou forme cétosique : début rapide, amaigrissement important, cétose ou acidocétose"
    ],
    "diagnostic": [
-    "Glycémie à jeun ≥ 1,26 g/l (7 mmol/l) à 2 reprises, ou glycémie ≥ 2 g/l avec symptômes",
-    "HbA1c ≥ 6,5 % si disponible",
-    "Bilan : TA, créatinine, protéinurie, examen des pieds et du fond d'œil"
+    "Glycémie à jeun ≥ 126 mg/dl (7 mmol/l) à 2 reprises ; ou glycémie à n'importe quel moment ≥ 200 mg/dl (11,1 mmol/l) avec symptômes ; ou HbA1c ≥ 6,5 % ; ou glycémie 2 h après 75 g de glucose ≥ 200 mg/dl",
+    "Prédiabète : glycémie à jeun 100 à 125 mg/dl ou HbA1c 5,7 à 6,4 %",
+    "Cétonurie à la bandelette (type 1, forme cétosique, décompensation)",
+    "Bilan initial puis annuel : PA, poids et tour de taille, créatinine et protéinurie ou albuminurie, cholestérol, examen des pieds (monofilament, pouls, déformations, plaies), fond d'œil, ECG ; dépistage de la tuberculose",
+    "Dépister : adultes de plus de 40 ans, surpoids, HTA, antécédents familiaux, diabète gestationnel antérieur, tuberculose, personnes vivant avec le VIH"
    ],
    "traitement": [
-    "Alimentation équilibrée, activité physique, perte de poids",
-    "Metformine en 1re intention (progressivement)",
-    "Ajouter un sulfamide (gliclazide préféré) si objectif non atteint ; insuline si échec ou glycémies très élevées",
-    "Objectif : glycémie à jeun 0,8 à 1,3 g/l",
-    "Contrôler la TA (IEC si protéinurie), statine après 40 ans",
-    "Examen des pieds à chaque visite",
-    "Metformine : débuter à 500 mg par jour au repas, augmenter progressivement jusqu'à 1 g 2 fois par jour ; contre-indiquée si DFG < 30 ml/min",
-    "Insuline NPH au coucher : 10 UI (0,1 à 0,2 UI/kg), ajustée de 2 UI tous les 3 jours selon la glycémie à jeun",
-    "HbA1c tous les 3 à 6 mois si disponible (objectif < 7 %) ; dépister chaque année la rétinopathie et l'atteinte rénale"
+    "Éducation et mode de vie pour tous : réduire les boissons sucrées, le sucre, les portions de féculents raffinés (riz blanc, pain blanc, foufou) ; plus de légumes, légumineuses, céréales complètes ; activité physique 150 min par semaine ; perte de 5 à 10 % du poids si surpoids ; arrêt du tabac",
+    "Metformine en 1re intention : débuter à 500 mg par jour au repas, augmenter progressivement jusqu'à 1 g 2 fois par jour ; réduire à 1 g par jour si débit de filtration 30 à 44 ml/min et avec le dolutégravir ; arrêter si < 30 ml/min, en cas de vomissements, de déshydratation ou d'injection de produit de contraste",
+    "2e intention : sulfamide (gliclazide 40 à 160 mg 1 à 2 fois par jour, préféré au glibenclamide chez le sujet âgé et l'insuffisant rénal : moins d'hypoglycémies) ; empagliflozine 10 mg par jour en cas de maladie cardiovasculaire, d'insuffisance cardiaque ou de maladie rénale ; sémaglutide si obésité ou maladie cardiovasculaire, selon la disponibilité",
+    "Insuline si échec des comprimés, glycémies très élevées (> 300 mg/dl) ou amaigrissement, type 1, grossesse : NPH au coucher 10 UI (0,1 à 0,2 UI/kg), ajustée de 2 UI tous les 3 jours selon la glycémie à jeun ; puis schéma à 2 injections ou basal-bolus",
+    "Objectifs : HbA1c < 7 % (< 8 % chez le sujet âgé fragile ou à risque d'hypoglycémie), glycémie à jeun 80 à 130 mg/dl ; HbA1c tous les 3 à 6 mois si disponible",
+    "PA < 130/80 (IEC ou sartan si albuminurie) ; statine (simvastatine 20 à 40 mg) après 40 ans ; aspirine seulement en prévention secondaire",
+    "Pieds : examen à chaque visite, chaussures adaptées, ne jamais marcher pieds nus, soins des ongles ; plaie : décharge, soins, antibiotique si infection, avis chirurgical précoce",
+    "Autosurveillance glycémique (insuline), apprentissage de l'injection, conservation de l'insuline au frais (pot en terre, réfrigérateur) ; reconnaître et traiter l'hypoglycémie",
+    "Règles en cas de maladie : boire, poursuivre l'insuline, contrôler la glycémie plus souvent, consulter si vomissements",
+    "Douleur neuropathique : amitriptyline 10 à 25 mg le soir",
+    "Dépistage annuel de la rétinopathie (fond d'œil) et de l'atteinte rénale"
    ],
    "gravite": [
-    "Glycémie > 3 g/l avec vomissements, déshydratation, troubles de conscience (acidocétose, état hyperosmolaire)",
+    "Glycémie > 300 mg/dl avec vomissements, déshydratation, respiration rapide ou troubles de conscience (acidocétose, état hyperosmolaire) : urgence",
     "Hypoglycémie sévère",
-    "Plaie du pied infectée"
+    "Plaie du pied infectée, nécrose, crépitation (gangrène)",
+    "Douleur thoracique, déficit neurologique",
+    "Baisse brutale de la vision"
    ],
    "prevention": [
     "Alimentation saine, activité physique, poids normal",
-    "Dépistage chez les personnes à risque"
+    "Dépistage chez les personnes à risque, programme de prévention chez les prédiabétiques (mode de vie, metformine)",
+    "Dépistage du diabète gestationnel",
+    "Approvisionnement régulier en insuline et en médicaments"
    ],
    "medicaments": [
     "Metformine",
     "Gliclazide",
     "Glibenclamide",
     "Insuline humaine (rapide et NPH)",
-    "Énalapril",
-    "Simvastatine",
-    "Acide acétylsalicylique (aspirine)",
     "Insuline à action prolongée (analogue : glargine)",
     "Empagliflozine",
     "Sémaglutide (agoniste du GLP-1)",
+    "Énalapril",
+    "Losartan",
+    "Simvastatine",
+    "Acide acétylsalicylique (aspirine)",
+    "Amitriptyline",
+    "Glucose 10 %",
     "Bévacizumab"
    ]
   },
@@ -36488,42 +36553,61 @@
    "nom": "Acidocétose diabétique",
    "categorie": "endocrino",
    "synonymes": "acidocétose, coma diabétique, cétose",
-   "resume": "Complication aiguë grave du diabète (souvent de type 1, parfois révélatrice) : hyperglycémie, cétose et acidose. Urgence vitale.",
+   "resume": "Complication aiguë grave du diabète par manque d'insuline : hyperglycémie, cétose et acidose métabolique avec déshydratation importante. Souvent révélatrice d'un diabète de type 1 chez l'enfant et l'adulte jeune, ou déclenchée par l'arrêt de l'insuline (rupture, coût), une infection (paludisme, pneumonie, infection urinaire), une grossesse ou un infarctus. Urgence vitale ; chez l'enfant, le risque d'œdème cérébral impose une réhydratation prudente. L'état hyperosmolaire, chez le diabétique de type 2 âgé, associe une glycémie très élevée et une déshydratation extrême sans cétose importante.",
    "signes": [
-    "Polyurie, soif intense, amaigrissement",
-    "Nausées, vomissements, douleurs abdominales",
-    "Respiration ample et rapide (Kussmaul), odeur acétonique de l'haleine",
-    "Déshydratation, troubles de conscience, coma"
+    "Soif intense, urines abondantes, amaigrissement rapide, fatigue",
+    "Nausées, vomissements, douleurs abdominales (pouvant simuler une urgence chirurgicale)",
+    "Respiration ample et rapide (Kussmaul), odeur de pomme (acétone) de l'haleine",
+    "Déshydratation : yeux enfoncés, bouche sèche, pouls rapide, PA basse",
+    "Somnolence, confusion, coma",
+    "Enfant : céphalées, vomissements, bradycardie, HTA ou baisse de conscience pendant le traitement (œdème cérébral)",
+    "État hyperosmolaire : déshydratation majeure, confusion, convulsions, glycémie souvent > 600 mg/dl"
    ],
    "diagnostic": [
-    "Glycémie très élevée (souvent > 2,5 g/l)",
-    "Corps cétoniques dans les urines (bandelette)",
-    "Ionogramme (potassium), créatinine si disponibles",
-    "Rechercher un facteur déclenchant (infection, arrêt de l'insuline, paludisme)"
+    "Glycémie > 200 mg/dl (souvent > 300) ou diabète connu",
+    "Cétonurie ≥ ++ à la bandelette (ou cétonémie ≥ 3 mmol/l)",
+    "Acidose : pH < 7,3 ou bicarbonates < 15 à 18 mmol/l si disponibles",
+    "Ionogramme (potassium : souvent normal ou élevé au départ malgré un déficit total), créatinine, NFS, ECG (potassium)",
+    "Rechercher le facteur déclenchant : TDR paludisme, bandelette urinaire, radiographie, hémocultures, test de grossesse, ECG chez l'adulte",
+    "Évaluer la déshydratation et la conscience (Glasgow)"
    ],
    "traitement": [
-    "Réhydratation : NaCl 0,9 % 1 L en 1 h (adulte), puis selon l'état ; enfant : 10 ml/kg puis correction sur 48 h (prudence : œdème cérébral)",
-    "Insuline rapide IV 0,1 UI/kg/h (enfant 0,05 à 0,1) après la première heure de remplissage",
-    "Potassium dans les perfusions dès que la diurèse est présente et K < 5,5",
-    "Ajouter du glucose quand la glycémie < 2,5 g/l",
-    "Surveillance horaire glycémie, conscience ; traiter l'infection",
-    "Pas de bicarbonate en routine ; rechercher et traiter la cause (infection, arrêt de l'insuline)"
+    "Adulte, réhydratation : sérum physiologique 1 litre en 1 h (500 ml en 15 min si PA systolique < 90 mmHg), puis 1 litre en 2 h, 1 litre en 2 h, 1 litre en 4 h, 1 litre en 4 h, 1 litre en 6 h, à adapter à l'âge, au cœur et à la diurèse",
+    "Enfant : bolus de 10 ml/kg en 30 min si mauvaise perfusion (à répéter si choc), puis correction du déficit (5 à 10 %) en plus des besoins d'entretien, régulièrement sur 24 à 48 h ; pas de remplissage rapide sans choc",
+    "Insuline rapide IV en perfusion continue 0,1 UI/kg/h (enfant 0,05 à 0,1 UI/kg/h), débutée après la 1re heure de réhydratation, sans bolus ; sans pousse-seringue : insuline rapide IM ou SC 0,1 UI/kg toutes les heures (ou 0,2 UI/kg toutes les 2 h) selon le protocole",
+    "Objectif : baisse de la glycémie de 50 à 75 mg/dl par heure ; quand la glycémie est < 250 mg/dl (14 mmol/l), ajouter du glucosé 10 % (ou passer au glucosé-salé) en poursuivant l'insuline jusqu'à disparition de l'acidose",
+    "Potassium : si K < 3,5 mmol/l, compenser avant l'insuline ; si 3,5 à 5,5, ajouter 40 mmol de KCl par litre (20 à 40 mmol/l chez l'enfant) ; si > 5,5, pas de potassium ; sans ionogramme, ajouter le potassium dès la 2e heure si la diurèse est présente et l'ECG normal",
+    "Pas de bicarbonate en routine (seulement pH < 6,9 avec choc, discuté)",
+    "Sonde gastrique si vomissements ou coma ; prévention des thromboses chez l'adulte",
+    "Surveillance horaire : glycémie, conscience, pouls, PA, diurèse ; potassium et cétonurie toutes les 2 à 4 h",
+    "Œdème cérébral de l'enfant : réduire les perfusions, tête surélevée, mannitol 0,5 à 1 g/kg en 15 min ou sérum salé à 3 % 2,5 à 5 ml/kg, réanimation",
+    "Résolution (pH > 7,3, bicarbonates > 15 à 18, patient qui mange) : insuline SC avec le repas, en poursuivant la perfusion 30 min à 1 h après la 1re injection",
+    "Traiter la cause : antipaludique, antibiotique",
+    "État hyperosmolaire : réhydratation plus lente, insuline à faible dose (0,05 UI/kg/h) seulement quand la glycémie ne baisse plus avec les liquides, prévention des thromboses",
+    "Éducation avant la sortie : ne jamais arrêter l'insuline, même malade ; contrôler les cétones si glycémie > 250 mg/dl"
    ],
    "gravite": [
     "Coma, choc",
-    "Céphalées et troubles de conscience chez l'enfant sous traitement (œdème cérébral)",
-    "Hypokaliémie"
+    "Céphalées, troubles de conscience, bradycardie chez l'enfant sous traitement (œdème cérébral)",
+    "Hypokaliémie (troubles du rythme), hypoglycémie sous traitement",
+    "Enfant de moins de 5 ans, grossesse"
    ],
    "prevention": [
-    "Éducation : ne jamais arrêter l'insuline, même en cas de maladie",
-    "Surveillance glycémique"
+    "Éducation : ne jamais arrêter l'insuline, règles en cas de maladie, surveillance glycémique et cétonurie",
+    "Accès continu et gratuit à l'insuline pour les diabétiques de type 1",
+    "Reconnaissance précoce du diabète chez l'enfant (soif, urines abondantes, amaigrissement)"
    ],
    "medicaments": [
     "Insuline humaine (rapide et NPH)",
     "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Chlorure de potassium (KCl) injectable",
+    "Glucose 10 %",
     "Glucose 5 % (sérum glucosé isotonique)",
-    "Glucosé-salé (G5 % + NaCl)"
+    "Glucosé-salé (G5 % + NaCl)",
+    "Mannitol 20 %",
+    "Chlorure de sodium hypertonique 3 %",
+    "Énoxaparine",
+    "Bicarbonate de sodium 8,4 % / 4,2 %"
    ]
   },
   {
@@ -36531,48 +36615,65 @@
    "nom": "Accident vasculaire cérébral (AVC)",
    "categorie": "neuro",
    "synonymes": "AVC, attaque cérébrale, paralysie, hémiplégie",
-   "resume": "Déficit neurologique brutal par obstruction (ischémie) ou rupture (hémorragie) d'un vaisseau cérébral. L'HTA est la cause principale.",
+   "resume": "Déficit neurologique brutal dû à l'obstruction (ischémie, 70 à 80 %) ou à la rupture (hémorragie, plus fréquente en Afrique qu'ailleurs) d'un vaisseau cérébral. L'HTA est la cause principale ; chez l'adulte jeune en Afrique, penser aussi au VIH, à la drépanocytose, à la cardiopathie rhumatismale (embolies), à la syphilis, à la méningite tuberculeuse et à la grossesse. « Le temps, c'est du cerveau » : la prise en charge précoce dans une unité organisée réduit la mortalité et le handicap.",
    "signes": [
-    "Déficit brutal : paralysie ou faiblesse d'un côté du corps, visage asymétrique",
-    "Troubles de la parole",
-    "Troubles de la vision, de l'équilibre",
-    "Céphalées brutales, vomissements, troubles de conscience (hémorragie)"
+    "Déficit brutal : paralysie ou faiblesse d'un côté du corps (bras, jambe), visage asymétrique, engourdissement",
+    "Troubles de la parole (difficulté à parler ou à comprendre)",
+    "Troubles de la vision (perte d'un champ visuel, vision double), vertiges, troubles de l'équilibre et de la marche",
+    "Hémorragie : céphalées brutales, vomissements, troubles de conscience, PA très élevée",
+    "Hémorragie méningée : céphalée brutale « en coup de tonnerre », raideur de nuque",
+    "Accident ischémique transitoire : déficit qui disparaît en moins de 24 h (souvent quelques minutes), annonçant un AVC"
    ],
    "diagnostic": [
-    "Diagnostic clinique (test VITE : Visage, Inertie d'un membre, Trouble de la parole, En urgence)",
-    "Glycémie (une hypoglycémie peut simuler un AVC)",
-    "Scanner si disponible (distinguer ischémie et hémorragie)"
+    "Diagnostic clinique (test VITE : Visage, Inertie d'un membre, Trouble de la parole, En urgence ; scores ROSIER et NIHSS dans l'onglet Outils) ; noter l'heure de début ou l'heure où le patient a été vu normal pour la dernière fois",
+    "Glycémie capillaire immédiate (une hypoglycémie peut simuler un AVC) ; PA, SpO₂, température",
+    "Scanner cérébral si disponible : distinguer ischémie et hémorragie (indispensable avant thrombolyse ou anticoagulation)",
+    "ECG (fibrillation auriculaire), échographie cardiaque (valvulopathie, thrombus) ; NFS, créatinine, test VIH, sérologie syphilis, électrophorèse de l'hémoglobine chez l'enfant et le jeune ; cholestérol",
+    "Différentiels : hypoglycémie, crise d'épilepsie avec déficit post-critique, méningite ou encéphalite, paludisme grave, abcès ou toxoplasmose cérébrale, tumeur, hématome sous-dural, migraine"
    ],
    "traitement": [
-    "Position semi-assise, voies aériennes libres, oxygène si SpO2 < 94 %",
-    "Corriger hypoglycémie et fièvre",
-    "Ne pas faire baisser brutalement la TA (sauf ≥ 220/120 ou selon avis)",
-    "Rien par la bouche avant test de déglutition",
-    "Ischémie confirmée (ou sans scanner, si non grave, selon protocole) : aspirine 300 mg puis 75–100 mg/j",
-    "Prévention des escarres et des thromboses, kinésithérapie précoce",
-    "Prévention secondaire : contrôle de l'HTA, statine, antiagrégant",
-    "Scores ROSIER et NIHSS dans l'onglet Outils",
-    "Thrombolyse seulement dans un centre équipé d'un scanner, dans les 4 h 30 après le début des symptômes"
+    "Voies aériennes libres, position tête à 30° ou latérale si troubles de conscience, oxygène si SpO₂ < 94 % ; corriger l'hypoglycémie, la fièvre (paracétamol) et la déshydratation (sérum physiologique, pas de glucosé)",
+    "Rien par la bouche avant un test de déglutition (gorgées d'eau) ; sonde gastrique si trouble de la déglutition (prévention de la pneumonie d'inhalation)",
+    "PA : ischémie sans thrombolyse : ne traiter que si > 220/120 (baisse de 15 % en 24 h) ; avant thrombolyse : < 185/110 ; hémorragie : PA systolique cible 140 à 160 mmHg ; reprendre les antihypertenseurs habituels après 24 à 72 h",
+    "Ischémie de moins de 4 h 30 dans un centre équipé d'un scanner : thrombolyse par altéplase 0,9 mg/kg (maximum 90 mg, 10 % en bolus, le reste en 1 h) en l'absence de contre-indication",
+    "Ischémie confirmée : aspirine 160 à 300 mg dans les 24 à 48 h (après la thrombolyse : attendre 24 h), puis 75 à 100 mg par jour ; AVC mineur ou accident transitoire : aspirine + clopidogrel pendant 21 jours puis un seul antiagrégant ; sans scanner : l'aspirine expose à un risque si l'AVC est hémorragique, décision selon le protocole local et la clinique",
+    "Hémorragie : pas d'antiagrégant ni d'anticoagulant ; sous warfarine : vitamine K1 + plasma frais congelé ; avis neurochirurgical (hématome cérébelleux compressif, hydrocéphalie)",
+    "Soins : glycémie 140 à 180 mg/dl, retournement toutes les 2 h et matelas (escarres), soins de la bouche, sonde urinaire seulement si nécessaire, mobilisation précoce progressive et kinésithérapie dès le 2e jour, prévention des thromboses (énoxaparine après 24 à 48 h si ischémie et alitement), orthophonie",
+    "Prévention secondaire : PA < 130/80, statine (simvastatine 40 mg), antiagrégant au long cours (ischémie), anticoagulation si fibrillation auriculaire (4 à 14 jours après l'AVC selon la taille ; warfarine si valvulopathie rhumatismale), arrêt du tabac, équilibre du diabète",
+    "Enfant drépanocytaire : transfusion d'échange (ou simple) en urgence, puis programme transfusionnel ou hydroxyurée",
+    "Rééducation, aides techniques, dépistage de la dépression, soutien des aidants"
    ],
    "gravite": [
     "Coma, aggravation rapide",
     "Céphalée brutale très intense (hémorragie méningée)",
-    "Troubles de la déglutition (pneumopathie d'inhalation)"
+    "Troubles de la déglutition (pneumopathie d'inhalation)",
+    "Signes d'engagement (pupille dilatée)",
+    "Convulsions",
+    "Fièvre (infection associée)"
    ],
    "prevention": [
-    "Dépistage et traitement de l'HTA et du diabète, arrêt du tabac",
-    "Anticoagulation de la fibrillation atriale"
+    "Dépistage et traitement de l'HTA et du diabète, arrêt du tabac, réduction de l'alcool et du sel",
+    "Anticoagulation de la fibrillation auriculaire",
+    "Prévention et traitement du RAA",
+    "Dépistage du risque d'AVC chez l'enfant drépanocytaire (Doppler transcrânien) et hydroxyurée",
+    "Information de la population sur les signes d'alerte"
    ],
    "medicaments": [
     "Acide acétylsalicylique (aspirine)",
     "Clopidogrel",
+    "Altéplase (rt-PA)",
     "Simvastatine",
     "Amlodipine",
     "Énalapril",
-    "Héparine sodique (non fractionnée)",
+    "Labétalol",
     "Énoxaparine",
+    "Héparine sodique (non fractionnée)",
+    "Warfarine",
+    "Vitamine K1 (phytoménadione)",
+    "Plasma frais congelé (PFC)",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Oxygène",
-    "Altéplase (rt-PA)",
+    "Paracétamol",
     "Polypilule cardiovasculaire"
    ]
   },
@@ -36829,42 +36930,61 @@
    "nom": "Épilepsie",
    "categorie": "neuro",
    "synonymes": "épilepsie, crises, convulsions, kifafa",
-   "resume": "Crises convulsives récurrentes non provoquées. Fréquente en RDC (paludisme cérébral, méningites, traumatismes, onchocercose). Stigmatisation importante.",
+   "resume": "Maladie caractérisée par des crises récurrentes non provoquées (au moins 2 crises à plus de 24 h d'intervalle, ou 1 crise avec un risque élevé de récidive). Fréquente en RDC (environ 1 à 2 % de la population) : séquelles de paludisme cérébral, de méningites, d'encéphalites, de souffrance à la naissance, de traumatismes crâniens, neurocysticercose, épilepsie associée à l'onchocercose (syndrome du hochement de tête). 70 % des patients sont contrôlés par un seul médicament peu coûteux ; la stigmatisation est un obstacle majeur (OMS mhGAP).",
    "signes": [
-    "Crises généralisées tonico-cloniques (perte de connaissance, chute, mouvements, morsure de langue)",
-    "Crises partielles (mouvements d'un membre, absences, comportements automatiques)",
-    "Au moins 2 crises non provoquées"
+    "Crises généralisées tonico-cloniques : perte de connaissance, chute, raidissement puis secousses, morsure de langue sur le côté, perte d'urine, confusion et sommeil après",
+    "Crises focales : secousses d'un membre ou d'un côté du visage, sensations anormales, gestes automatiques (mâchonnement, manipulation), regard fixe, avec ou sans perte de contact ; peuvent se généraliser",
+    "Absences de l'enfant : brèves suspensions du contact (quelques secondes), nombreuses par jour, baisse des résultats scolaires",
+    "Myoclonies : secousses brèves des bras, au réveil",
+    "Syndrome du hochement de tête (zones d'onchocercose) : chutes répétées de la tête, retard de croissance et intellectuel"
    ],
    "diagnostic": [
-    "Description des crises par un témoin",
-    "Éliminer une crise provoquée (fièvre, hypoglycémie, infection, sevrage alcoolique, éclampsie)",
-    "Examen neurologique"
+    "Description précise des crises par un témoin (vidéo sur téléphone utile) : début, durée, mouvements, couleur, morsure, perte d'urine, récupération",
+    "Éliminer une crise provoquée : fièvre (convulsion fébrile, paludisme, méningite), hypoglycémie, sevrage alcoolique, éclampsie, intoxication, traumatisme",
+    "Différentiels : syncope (pâleur, récupération rapide), crise psychogène, trouble du rythme cardiaque, hypoglycémie, migraine",
+    "Examen neurologique et du développement ; EEG et scanner ou IRM si disponibles (crises focales, déficit, début à l'âge adulte) ; sérologie et scanner (neurocysticercose) ; test VIH",
+    "Rechercher dépression, anxiété, troubles cognitifs"
    ],
    "traitement": [
-    "Traitement de fond si 2 crises ou plus : phénobarbital, carbamazépine (crises partielles) ou valproate (crises généralisées, éviter chez la femme en âge de procréer) ; un seul médicament, à dose progressive",
-    "Traitement prolongé (au moins 2 ans sans crise avant d'envisager un arrêt progressif)",
-    "Éducation : observance, éviter feu, eau et hauteurs",
-    "Crise prolongée : diazépam ou midazolam",
-    "Femme en âge de procréer : éviter le valproate, contraception adaptée (le phénobarbital et la carbamazépine réduisent l'effet des contraceptifs oraux), acide folique"
+    "Traitement de fond après 2 crises non provoquées (ou une seule si risque élevé de récidive : lésion cérébrale, EEG anormal), en monothérapie à dose progressive, jusqu'à la dose minimale efficace : phénobarbital adulte 60 mg le soir, augmenté jusqu'à 180 mg si nécessaire ; enfant 2 à 3 mg/kg par jour (maximum 6 mg/kg)",
+    "Carbamazépine (crises focales) : adulte 100 à 200 mg 2 fois par jour, augmentée jusqu'à 400 à 1 200 mg par jour ; enfant 5 mg/kg par jour augmenté jusqu'à 10 à 20 mg/kg par jour ; aggrave absences et myoclonies",
+    "Valproate (crises généralisées, absences, myoclonies) : adulte 500 mg par jour augmenté jusqu'à 1 à 2 g ; enfant 15 à 30 mg/kg par jour ; à éviter chez la fille et la femme en âge de procréer (malformations, troubles du développement de l'enfant)",
+    "Femme en âge de procréer : lamotrigine (à augmenter très lentement : 25 mg par jour pendant 2 semaines ; arrêt si éruption) ou lévétiracétam en priorité ; acide folique ; contraception adaptée (phénobarbital, carbamazépine et phénytoïne réduisent l'efficacité de la pilule et de l'implant : préférer DMPA ou DIU)",
+    "Absences : éthosuximide ou valproate",
+    "Interactions : phénobarbital, carbamazépine et phénytoïne diminuent l'effet des ARV (dolutégravir 2 fois par jour avec la carbamazépine), de la warfarine, des contraceptifs et de nombreux médicaments",
+    "Grossesse : ne pas arrêter le traitement ; acide folique 5 mg par jour avant et pendant la grossesse ; vitamine K1 au nouveau-né ; allaitement possible",
+    "Éducation : prise régulière, ne jamais arrêter brutalement (état de mal), éviter le manque de sommeil et l'alcool ; sécurité (ne pas cuisiner seul près du feu, pas de baignade seul, éviter les hauteurs, pas de conduite tant que les crises persistent) ; conduite à tenir pendant une crise pour la famille (mettre sur le côté, ne rien mettre dans la bouche) ; diazépam intrarectal ou midazolam buccal à domicile si crises prolongées",
+    "Échec d'un 1er médicament bien pris à dose suffisante : changer de médicament (introduire le 2e avant de retirer le 1er) ; vérifier le diagnostic et l'observance ; avis spécialisé",
+    "Arrêt progressif sur 2 à 3 mois envisageable après 2 ans sans crise",
+    "Zones d'onchocercose : ivermectine de masse (réduit les nouveaux cas)",
+    "Lutte contre la stigmatisation : école, travail, mariage"
    ],
    "gravite": [
-    "Crise > 5 min ou répétée sans reprise de conscience (état de mal)",
-    "Déficit neurologique, fièvre, céphalées intenses",
-    "Femme enceinte épileptique (adapter le traitement, acide folique)"
+    "Crise > 5 min ou répétées sans reprise de conscience (état de mal)",
+    "Déficit neurologique, fièvre, céphalées intenses (cause aiguë)",
+    "Femme enceinte épileptique (adapter le traitement, acide folique)",
+    "Brûlures, noyade, traumatismes lors des crises",
+    "Éruption cutanée sous carbamazépine, lamotrigine ou phénytoïne (Stevens-Johnson)",
+    "Idées suicidaires"
    ],
    "prevention": [
-    "Prévention du paludisme et des méningites, soins obstétricaux, prévention des traumatismes crâniens"
+    "Prévention du paludisme et des méningites (vaccins), soins obstétricaux de qualité (asphyxie), prévention des traumatismes crâniens",
+    "Traitement de masse de l'onchocercose",
+    "Lutte contre la cysticercose"
    ],
    "medicaments": [
     "Phénobarbital",
     "Carbamazépine",
     "Valproate de sodium",
+    "Lamotrigine",
+    "Lévétiracétam",
     "Phénytoïne",
+    "Éthosuximide",
     "Diazépam",
     "Midazolam",
     "Acide folique",
-    "Lamotrigine",
-    "Éthosuximide"
+    "Vitamine K1 (phytoménadione)",
+    "Ivermectine"
    ]
   },
   {
@@ -39684,37 +39804,52 @@
    "nom": "Hypothyroïdie et goitre",
    "categorie": "endocrino",
    "synonymes": "hypothyroïdie, goitre, thyroïde, carence en iode, crétinisme",
-   "resume": "Insuffisance de production d'hormones thyroïdiennes. En RDC, la carence en iode (goitre endémique) reste une cause importante, avec un risque de retard mental chez l'enfant.",
+   "resume": "Insuffisance de production d'hormones thyroïdiennes. En RDC, la carence en iode (goitre endémique, aggravée par la consommation de manioc mal roui riche en thiocyanates) reste une cause importante, avec un risque de retard mental et de crétinisme chez l'enfant dont la mère était carencée. Autres causes : thyroïdite auto-immune (Hashimoto), ablation chirurgicale, iode radioactif, médicaments (amiodarone, lithium), hypothyroïdie congénitale.",
    "signes": [
-    "Fatigue, frilosité, prise de poids, constipation",
-    "Peau sèche, voix rauque, ralentissement",
-    "Goitre (augmentation de volume du cou)",
-    "Nouveau-né : ictère prolongé, hypotonie, grosse langue, retard de développement"
+    "Fatigue, frilosité, prise de poids, constipation, crampes",
+    "Peau sèche et épaissie, cheveux secs, voix rauque, visage bouffi, ralentissement physique et intellectuel, dépression",
+    "Règles abondantes ou irrégulières, infertilité",
+    "Bradycardie, œdème infiltré",
+    "Goitre : augmentation de volume du cou, parfois nodulaire, avec gêne pour avaler ou respirer s'il est volumineux",
+    "Nouveau-né et nourrisson : ictère prolongé, hypotonie, grosse langue, hernie ombilicale, constipation, cri rauque, retard de développement",
+    "Coma myxœdémateux (sujet âgé, froid, infection, sédatifs) : hypothermie, troubles de conscience, bradycardie, hypoventilation"
    ],
    "diagnostic": [
-    "TSH élevée (et T4 basse)",
-    "Échographie si nodule",
-    "Bilan de la carence en iode (sel iodé)"
+    "TSH élevée (hypothyroïdie primaire) avec T4 libre basse (hypothyroïdie franche) ou normale (infraclinique)",
+    "Anticorps anti-TPO si disponibles",
+    "Échographie du cou si goitre ou nodule ; ponction à l'aiguille fine d'un nodule suspect",
+    "Évaluer la carence en iode de la zone (consommation de sel iodé)",
+    "Dépistage néonatal (TSH au talon) là où il existe ; TSH chez la femme enceinte à risque (goitre, antécédents)",
+    "Bilan : NFS (anémie), cholestérol, natrémie"
    ],
    "traitement": [
-    "Lévothyroxine à dose progressive (plus prudente chez le sujet âgé ou cardiaque), ajustée selon la TSH",
-    "Hypothyroïdie congénitale : traitement le plus tôt possible",
-    "Goitre par carence en iode : sel iodé ; goitre volumineux compressif : chirurgie",
-    "Doses : lévothyroxine adulte 25 à 50 µg/jour, à augmenter de 25 µg toutes les 4 à 6 semaines selon la TSH (sujet âgé ou cardiaque : débuter à 12,5 à 25 µg) ; nouveau-né 10 à 15 µg/kg/jour",
-    "Grossesse : augmenter la dose dès le début (environ 30 %) et contrôler la TSH chaque trimestre",
-    "À prendre le matin à jeun, à distance du fer et du calcium"
+    "Lévothyroxine, en une prise le matin à jeun, 30 min avant le petit-déjeuner, à distance du fer, du calcium et des antiacides : adulte 1,6 µg/kg par jour chez le sujet jeune sans maladie cardiaque, ou débuter à 25 à 50 µg par jour et augmenter de 25 µg toutes les 4 à 6 semaines selon la TSH ; sujet âgé ou cardiaque : débuter à 12,5 à 25 µg",
+    "Contrôle de la TSH 6 à 8 semaines après chaque changement, puis chaque année ; objectif TSH normale",
+    "Hypothyroïdie infraclinique : traiter si TSH > 10 mUI/l, grossesse ou désir de grossesse, symptômes",
+    "Grossesse : augmenter la dose dès le début (environ 30 %) et contrôler la TSH chaque trimestre ; revenir à la dose antérieure après l'accouchement",
+    "Hypothyroïdie congénitale : lévothyroxine 10 à 15 µg/kg par jour le plus tôt possible (idéalement dans les 2 premières semaines), comprimé écrasé dans un peu de lait ; suivi du développement",
+    "Rifampicine, carbamazépine, phénytoïne, fer, calcium, oméprazole : augmentent les besoins",
+    "Coma myxœdémateux : soins intensifs, hydrocortisone 100 mg IV toutes les 8 h avant la lévothyroxine, lévothyroxine à forte dose (200 à 400 µg en dose de charge, par sonde si IV indisponible), réchauffement passif, glucose, traitement de l'infection, ventilation",
+    "Goitre par carence en iode : sel iodé ; huile iodée chez les femmes enceintes et les enfants dans les zones de forte carence selon le programme ; goitre volumineux compressif ou nodule suspect : chirurgie"
    ],
    "gravite": [
     "Coma myxœdémateux (hypothermie, troubles de conscience)",
-    "Goitre compressif (gêne respiratoire, difficulté à avaler)"
+    "Goitre compressif (gêne respiratoire, difficulté à avaler, voix modifiée)",
+    "Nodule dur, ganglions, croissance rapide (cancer)",
+    "Nouveau-né hypothyroïdien non traité (retard mental définitif)",
+    "Angor au début du traitement chez le sujet âgé"
    ],
    "prevention": [
-    "Consommation de sel iodé",
-    "Dépistage néonatal si disponible"
+    "Consommation de sel iodé par toute la famille ; contrôle de l'iodation du sel",
+    "Rouissage correct du manioc",
+    "Dépistage néonatal si disponible",
+    "Supplémentation en iode des femmes enceintes en zone de carence"
    ],
    "medicaments": [
     "Lévothyroxine",
-    "Iode (huile iodée et sel iodé)"
+    "Iode (huile iodée et sel iodé)",
+    "Hydrocortisone (injectable)",
+    "Glucose 10 %"
    ]
   },
   {
@@ -39722,38 +39857,57 @@
    "nom": "Hyperthyroïdie",
    "categorie": "endocrino",
    "synonymes": "hyperthyroïdie, Basedow, thyroïde, goitre toxique, thyrotoxicose",
-   "resume": "Excès d'hormones thyroïdiennes (maladie de Basedow, goitre nodulaire toxique).",
+   "resume": "Excès d'hormones thyroïdiennes : maladie de Basedow (auto-immune, la plus fréquente chez l'adulte jeune), goitre multinodulaire toxique (sujet âgé, zones de carence en iode, notamment après l'introduction du sel iodé), adénome toxique, thyroïdites (subaiguë douloureuse, du post-partum), surcharge en iode ou amiodarone. Les complications cardiaques (fibrillation auriculaire, insuffisance cardiaque) et l'orage thyroïdien font la gravité.",
    "signes": [
-    "Amaigrissement malgré un bon appétit, palpitations, tremblements",
-    "Nervosité, sueurs, intolérance à la chaleur, diarrhée",
-    "Goitre ; yeux exorbités (Basedow)",
-    "Fibrillation atriale chez le sujet âgé"
+    "Amaigrissement malgré un bon appétit, palpitations, tachycardie, tremblements fins",
+    "Nervosité, insomnie, sueurs, intolérance à la chaleur, diarrhée, faiblesse musculaire",
+    "Règles rares",
+    "Goitre (diffus et souple dans la maladie de Basedow, nodulaire dans le goitre toxique), souffle sur le goitre",
+    "Maladie de Basedow : yeux exorbités, rétraction des paupières, yeux rouges, vision double",
+    "Sujet âgé : fibrillation auriculaire, insuffisance cardiaque, amaigrissement, apathie",
+    "Thyroïdite subaiguë : goitre douloureux, fièvre, après une virose"
    ],
    "diagnostic": [
-    "TSH effondrée, T4 élevée",
-    "Hémogramme avant traitement"
+    "TSH effondrée, T4 libre (et T3) élevées",
+    "Anticorps anti-récepteur de la TSH (Basedow) si disponibles ; échographie (nodules, vascularisation) ; scintigraphie (centres spécialisés)",
+    "NFS et transaminases avant le traitement (référence)",
+    "ECG (fibrillation auriculaire)",
+    "Grossesse : test de grossesse chez la femme jeune (le choix du médicament en dépend)",
+    "Score de Burch et Wartofsky si orage thyroïdien suspecté"
    ],
    "traitement": [
-    "Propranolol pour les symptômes",
-    "Carbimazole (propylthiouracile au 1er trimestre de grossesse) pendant 12 à 18 mois, avec surveillance de l'hémogramme",
-    "Prévenir le patient : fièvre ou mal de gorge = arrêt et NFS (agranulocytose)",
-    "Chirurgie ou iode radioactif si rechute (centres spécialisés)",
-    "Doses : carbimazole 20 à 40 mg/jour, puis diminution progressive selon la T4 ; propranolol 20 à 40 mg 3 fois par jour (sauf asthme)",
-    "Orage thyroïdien : propylthiouracile, puis solution de Lugol 1 h après, propranolol, hydrocortisone 100 mg IV toutes les 8 h, refroidissement et réhydratation, en soins intensifs"
+    "Symptômes : propranolol 20 à 40 mg 3 à 4 fois par jour (pas d'asthme ; vérapamil si contre-indication)",
+    "Maladie de Basedow : carbimazole 20 à 40 mg par jour (jusqu'à 60 mg si forme sévère), puis diminution progressive selon la T4 libre jusqu'à 5 à 15 mg par jour, pendant 12 à 18 mois ; contrôle de la T4 libre toutes les 4 à 6 semaines",
+    "Grossesse : propylthiouracile 50 à 150 mg 3 fois par jour au 1er trimestre, puis carbimazole à partir du 2e trimestre, à la plus faible dose efficace (suivi spécialisé, risque pour le fœtus)",
+    "Prévenir le patient : fièvre, mal de gorge ou ulcérations buccales = arrêt immédiat et NFS (agranulocytose) ; ictère = arrêt (hépatite, surtout sous PTU) ; éruption cutanée fréquente",
+    "Rechute, goitre toxique, adénome : traitement définitif par chirurgie (thyroïdectomie après retour à l'euthyroïdie et préparation par solution de Lugol 7 à 10 jours) ou iode radioactif (centres spécialisés, pas pendant la grossesse) ; lévothyroxine à vie ensuite",
+    "Atteinte des yeux : arrêt du tabac, larmes artificielles, lunettes de soleil, sommeil tête surélevée ; forme active sévère : corticoïdes, avis ophtalmologique",
+    "Thyroïdite subaiguë : ibuprofène ou prednisolone, propranolol ; pas d'antithyroïdien",
+    "Fibrillation auriculaire : bêtabloquant, anticoagulation selon le risque",
+    "Orage thyroïdien (soins intensifs) : propylthiouracile 500 à 1 000 mg en charge puis 250 mg toutes les 4 h (ou carbimazole), solution de Lugol 5 à 10 gouttes toutes les 6 à 8 h débutée 1 h après l'antithyroïdien, propranolol 60 à 80 mg toutes les 4 h, hydrocortisone 100 mg IV toutes les 8 h, refroidissement, paracétamol (pas d'aspirine), réhydratation, traitement du facteur déclenchant (infection)"
    ],
    "gravite": [
-    "Orage thyroïdien : fièvre, agitation, tachycardie extrême, insuffisance cardiaque → urgence",
-    "Fièvre ou angine sous antithyroïdien"
+    "Orage thyroïdien : fièvre élevée, agitation, confusion, tachycardie extrême, vomissements, insuffisance cardiaque : urgence",
+    "Fièvre ou angine sous antithyroïdien (agranulocytose)",
+    "Fibrillation auriculaire, insuffisance cardiaque",
+    "Baisse de la vision (neuropathie optique de la maladie de Basedow)",
+    "Grossesse"
    ],
    "prevention": [
-    "Suivi régulier"
+    "Suivi régulier sous traitement",
+    "Surveillance de la fonction thyroïdienne lors de l'introduction du sel iodé dans les zones de carence et sous amiodarone"
    ],
    "medicaments": [
     "Carbimazole",
     "Propylthiouracile (PTU)",
     "Propranolol",
+    "Vérapamil",
+    "Solution de Lugol",
     "Hydrocortisone (injectable)",
-    "Solution de Lugol"
+    "Prednisolone",
+    "Ibuprofène",
+    "Paracétamol",
+    "Lévothyroxine"
    ]
   },
   {
@@ -39939,40 +40093,61 @@
    "nom": "Céphalées et migraine",
    "categorie": "neuro",
    "synonymes": "maux de tête, céphalée, migraine, mal de tête",
-   "resume": "Les céphalées sont le plus souvent bénignes (tension, migraine), mais certaines révèlent une urgence (méningite, paludisme, HTA sévère, hémorragie).",
+   "resume": "Les céphalées sont l'un des motifs de consultation les plus fréquents. Le plus souvent primaires et bénignes (céphalée de tension, migraine), elles peuvent révéler une urgence : méningite, paludisme grave, hémorragie méningée, HTA sévère ou pré-éclampsie, intoxication au monoxyde de carbone (braseros dans les pièces fermées), abcès ou toxoplasmose cérébrale (VIH), tumeur. La recherche des signes d'alerte est la clé.",
    "signes": [
-    "Migraine : céphalée pulsatile d'un côté, nausées, gêne à la lumière et au bruit, crises de 4 à 72 h",
-    "Céphalée de tension : en casque, pression, sans nausées",
-    "Signes d'alerte : céphalée brutale « la pire de ma vie », fièvre avec raideur de nuque, déficit neurologique, confusion, céphalée chez la femme enceinte avec HTA"
+    "Migraine : céphalée pulsatile, souvent d'un côté, modérée à sévère, aggravée par l'effort, avec nausées ou vomissements, gêne à la lumière et au bruit, crises de 4 à 72 h ; aura visuelle (zigzags lumineux) chez certains",
+    "Céphalée de tension : douleur en casque ou en étau, des deux côtés, sans nausées, liée au stress et à la fatigue",
+    "Algie vasculaire : douleur atroce autour d'un œil, larmoiement, nez qui coule, crises de 15 min à 3 h, souvent la nuit",
+    "Céphalée par abus d'antalgiques : céphalée quotidienne chez un patient qui prend des antalgiques plus de 10 à 15 jours par mois",
+    "Signes d'alerte : céphalée brutale « la pire de ma vie » ; fièvre avec raideur de nuque ou purpura ; déficit neurologique, convulsions, confusion ; céphalée progressive, matinale, avec vomissements ; début après 50 ans ; personne vivant avec le VIH ; femme enceinte ou en post-partum avec HTA ; plusieurs personnes du même foyer (monoxyde de carbone) ; douleur de la tempe avec troubles visuels après 50 ans"
    ],
    "diagnostic": [
-    "Température, TA, examen neurologique et des méninges",
-    "TDR paludisme si fièvre",
-    "Grossesse : protéinurie (pré-éclampsie)"
+    "Interrogatoire précis (début, évolution, caractère, signes associés, médicaments pris, fréquence)",
+    "Température, PA, examen neurologique, recherche de raideur de nuque, fond d'œil (œdème papillaire), examen des sinus, des dents et des yeux",
+    "TDR paludisme si fièvre ; ponction lombaire si fièvre et raideur ou suspicion d'hémorragie méningée ; scanner si signe d'alerte",
+    "Grossesse : protéinurie (pré-éclampsie)",
+    "VIH : antigène cryptococcique, scanner",
+    "Après 50 ans avec douleur temporale : VS ou CRP (maladie de Horton, risque de cécité)"
    ],
    "traitement": [
-    "Crise de migraine : paracétamol, ibuprofène ou aspirine dès le début, avec métoclopramide si nausées ; repos au calme",
-    "Prévention si crises fréquentes : propranolol ou amitriptyline",
-    "Céphalée de tension : paracétamol, gestion du stress",
-    "Éviter l'abus d'antalgiques (céphalées chroniques)"
+    "Crise de migraine : traiter tôt : aspirine 1 g, ibuprofène 400 à 600 mg ou paracétamol 1 g, associés au métoclopramide 10 mg si nausées ; repos au calme et dans l'obscurité ; sumatriptan 50 à 100 mg si échec (pas en cas de maladie cardiovasculaire ou d'HTA non contrôlée) ; éviter les opioïdes ; ne pas prendre d'antalgiques plus de 10 jours par mois",
+    "Traitement de fond si plus de 4 crises par mois ou crises très invalidantes : propranolol 40 à 160 mg par jour ou amitriptyline 10 à 50 mg le soir ; valproate chez l'homme ; évaluer après 2 à 3 mois ; agenda des crises",
+    "Céphalée de tension : paracétamol ou ibuprofène ponctuellement, gestion du stress, sommeil, exercice, massages ; forme chronique : amitriptyline à faible dose",
+    "Abus d'antalgiques : sevrage des antalgiques avec soutien, traitement de fond",
+    "Algie vasculaire : oxygène pur 12 à 15 l/min pendant 15 min, sumatriptan ; vérapamil en traitement de fond (avis spécialisé)",
+    "Maladie de Horton suspectée : prednisolone 1 mg/kg en urgence sans attendre les examens",
+    "Intoxication au monoxyde de carbone : oxygène à haut débit, aération, examen de toute la famille",
+    "Hypertension intracrânienne idiopathique (femme obèse, œdème papillaire) : perte de poids, acétazolamide, surveillance visuelle",
+    "Traiter la cause : paludisme, sinusite, HTA, troubles de la réfraction chez l'enfant (lunettes)"
    ],
    "gravite": [
-    "Céphalée brutale et intense",
-    "Fièvre et raideur de nuque",
+    "Céphalée brutale et intense (hémorragie méningée)",
+    "Fièvre et raideur de nuque (méningite)",
     "Déficit neurologique, convulsions, confusion",
-    "Femme enceinte avec HTA"
+    "Femme enceinte avec HTA",
+    "Œdème papillaire",
+    "VIH",
+    "Plusieurs personnes du même foyer (monoxyde de carbone)"
    ],
    "prevention": [
-    "Sommeil régulier, hydratation, éviter les facteurs déclenchants"
+    "Sommeil régulier, repas réguliers, hydratation, activité physique, gestion du stress",
+    "Éviter les facteurs déclenchants identifiés (agenda)",
+    "Limiter les antalgiques à moins de 10 jours par mois",
+    "Ne jamais utiliser de brasero dans une pièce fermée"
    ],
    "medicaments": [
     "Paracétamol",
     "Ibuprofène",
     "Acide acétylsalicylique (aspirine)",
     "Métoclopramide",
+    "Sumatriptan",
     "Propranolol",
     "Amitriptyline",
-    "Sumatriptan"
+    "Valproate de sodium",
+    "Vérapamil",
+    "Oxygène",
+    "Prednisolone",
+    "Acétazolamide"
    ]
   },
   {
@@ -40966,33 +41141,46 @@
    "nom": "Scorbut et lésions buccales carentielles",
    "categorie": "sang",
    "synonymes": "scorbut, carence en vitamine C, gencives qui saignent, perlèche, glossite",
-   "resume": "Carences vitaminiques des populations privées de fruits et légumes frais (camps, prisons, malnutrition) : vitamine C (scorbut) et vitamines B (perlèche, glossite).",
+   "resume": "Carences vitaminiques des populations privées de fruits, de légumes frais et d'aliments variés : camps de déplacés et de réfugiés dépendant de rations sèches, prisons, malnutrition, alcoolisme, régimes très restrictifs. Vitamine C (scorbut), vitamines du groupe B : thiamine (béribéri), riboflavine (perlèche, glossite), niacine (pellagre, fiche dédiée). Elles surviennent souvent en même temps et en épidémies en situation de crise.",
    "signes": [
-    "Scorbut : gencives gonflées qui saignent, déchaussement des dents, hémorragies sous la peau, douleurs des membres (l'enfant refuse de bouger), mauvaise cicatrisation",
-    "Carence en B2/B3 : perlèche (fissures aux coins de la bouche), langue rouge et lisse (glossite)"
+    "Scorbut : gencives gonflées, violacées, qui saignent, déchaussement des dents ; petites hémorragies autour des poils, ecchymoses, hématomes ; douleurs des membres (l'enfant refuse de bouger, pseudo-paralysie) ; mauvaise cicatrisation, fatigue, anémie",
+    "Carence en riboflavine (B2) : perlèche (fissures aux coins de la bouche), lèvres rouges et fissurées, langue rouge et lisse (glossite), yeux irrités",
+    "Béribéri (B1) : forme humide avec insuffisance cardiaque (œdèmes, essoufflement) ; forme sèche avec neuropathie (fourmillements, faiblesse des jambes) ; béribéri du nourrisson allaité par une mère carencée (cri rauque, vomissements, insuffisance cardiaque brutale) ; encéphalopathie de Wernicke chez l'alcoolique (confusion, troubles de la marche, paralysie des yeux)",
+    "Autres signes associés : glossite et anémie (fer, B12, folates)"
    ],
    "diagnostic": [
-    "Diagnostic clinique et contexte alimentaire",
-    "Rechercher d'autres carences (pellagre, béribéri, anémie)"
+    "Diagnostic clinique et contexte alimentaire (ration sans aliments frais, cas groupés dans une population)",
+    "Réponse rapide au traitement (confirme le diagnostic)",
+    "Rechercher d'autres carences (pellagre, anémie, xérophtalmie) et une malnutrition",
+    "Radiographie des os longs chez l'enfant (scorbut) si doute"
    ],
    "traitement": [
-    "Scorbut : acide ascorbique (vitamine C) 250 mg 4 fois par jour pendant 1 semaine (enfant 100 mg 3 fois par jour), puis dose d'entretien",
-    "Lésions buccales : multivitamines du groupe B, nicotinamide, soins de bouche",
-    "Améliorer la ration alimentaire"
+    "Scorbut : acide ascorbique (vitamine C) adulte 250 mg 4 fois par jour (1 g par jour) pendant 1 semaine, puis 250 mg par jour ; enfant 100 mg 3 fois par jour pendant 1 semaine puis 100 mg par jour, jusqu'à guérison (1 à 3 mois) et amélioration de l'alimentation",
+    "Carence en B2 : riboflavine 5 à 10 mg par jour (ou multivitamines du groupe B) pendant plusieurs semaines ; soins de bouche (chlorhexidine), traiter une candidose associée",
+    "Béribéri : thiamine 100 mg IV ou IM par jour pendant quelques jours puis 10 à 50 mg par jour par voie orale ; béribéri du nourrisson : thiamine 25 à 50 mg IV lente ou IM, et traiter la mère ; encéphalopathie de Wernicke : thiamine 100 à 500 mg IV 3 fois par jour, avant tout apport de glucose",
+    "Pellagre : nicotinamide (voir la fiche Pellagre)",
+    "Améliorer la ration alimentaire : fruits (agrumes, mangues, goyaves), légumes frais, légumineuses, céréales complètes ou enrichies ; en situation de crise, supplémentation de masse et rations enrichies",
+    "Traiter l'alcoolisme"
    ],
    "gravite": [
-    "Hémorragies importantes",
-    "Malnutrition associée"
+    "Hémorragies importantes, anémie sévère",
+    "Insuffisance cardiaque (béribéri humide, nourrisson)",
+    "Confusion et troubles de la marche (Wernicke)",
+    "Malnutrition associée",
+    "Épidémie dans une population (alerte nutritionnelle)"
    ],
    "prevention": [
-    "Ration alimentaire diversifiée (fruits, légumes frais), supplémentation en situation de crise"
+    "Ration alimentaire diversifiée (fruits et légumes frais), aliments enrichis (farines, huile) et supplémentation en micronutriments en situation de crise",
+    "Surveillance nutritionnelle des camps et prisons",
+    "Thiamine préventive chez l'alcoolique"
    ],
    "medicaments": [
     "Acide ascorbique (vitamine C)",
-    "Nicotinamide (vitamine PP)",
+    "Riboflavine (vitamine B2)",
     "Thiamine (vitamine B1)",
+    "Nicotinamide (vitamine PP)",
     "Chlorhexidine",
-    "Riboflavine (vitamine B2)"
+    "Poudre de micronutriments multiples"
    ]
   },
   {
@@ -43493,38 +43681,53 @@
    "nom": "Maladie de Parkinson",
    "categorie": "neuro",
    "synonymes": "Parkinson, tremblement, rigidité, lenteur, syndrome parkinsonien",
-   "resume": "Maladie dégénérative du cerveau de la personne âgée, associant tremblement de repos, lenteur et rigidité. Toujours éliminer un parkinsonisme médicamenteux.",
+   "resume": "Maladie dégénérative du cerveau (perte des neurones à dopamine), surtout après 60 ans, associant lenteur des mouvements, tremblement de repos et rigidité, puis troubles de la marche, de l'équilibre et de nombreux symptômes non moteurs. Toujours éliminer un syndrome parkinsonien dû aux médicaments (neuroleptiques, métoclopramide) ou à une intoxication (manganèse chez les mineurs du Katanga). La lévodopa améliore nettement la qualité de vie.",
    "signes": [
-    "Tremblement de repos, souvent d'un côté au début",
-    "Lenteur des mouvements (bradykinésie), écriture qui rétrécit",
-    "Rigidité, visage peu expressif, marche à petits pas, chutes",
-    "Troubles du sommeil, constipation, dépression"
+    "Lenteur des mouvements (bradykinésie), gestes moins amples, écriture qui rétrécit",
+    "Tremblement de repos (main « qui émiette du pain »), souvent d'un côté au début, disparaissant au mouvement",
+    "Rigidité, visage peu expressif, voix faible et monotone, clignements rares",
+    "Marche à petits pas, bras qui ne balancent plus, posture penchée en avant, blocages, chutes (stade avancé)",
+    "Symptômes non moteurs : constipation, perte de l'odorat, troubles du sommeil, dépression, anxiété, hypotension en position debout, troubles urinaires, troubles cognitifs et hallucinations (tardifs)",
+    "Évocateurs d'une autre cause : début symétrique rapide, chutes précoces, absence de réponse à la lévodopa, âge < 40 ans (maladie de Wilson : anneau de Kayser-Fleischer)"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Éliminer un syndrome parkinsonien dû aux neuroleptiques (halopéridol, chlorpromazine), au métoclopramide, à la flunarizine",
-    "Parkinsonisme après une intoxication (manganèse dans les mines)"
+    "Diagnostic clinique : bradykinésie avec tremblement de repos ou rigidité ; bonne réponse à la lévodopa en faveur",
+    "Éliminer un syndrome parkinsonien médicamenteux (halopéridol, chlorpromazine, fluphénazine, rispéridone, métoclopramide, flunarizine) : régresse en quelques semaines à mois après l'arrêt",
+    "Exposition au manganèse (mines), séquelles d'encéphalite, AVC multiples, hydrocéphalie",
+    "Différentiel : tremblement essentiel (tremblement d'action, des deux mains, antécédents familiaux, amélioré par l'alcool)"
    ],
    "traitement": [
-    "Lévodopa + carbidopa débutée à faible dose et augmentée progressivement selon la gêne",
-    "Kinésithérapie, prévention des chutes",
-    "Traiter la dépression, la constipation",
-    "Hallucinations : réduire les doses, quétiapine à faible dose (pas d'halopéridol)",
-    "Arrêter les médicaments responsables si parkinsonisme induit (bipéridène pour les effets des neuroleptiques)"
+    "Lévodopa + carbidopa à faible dose (50/12,5 mg ou un demi-comprimé de 100/25 mg 3 fois par jour), augmentée progressivement toutes les 1 à 2 semaines selon la gêne (souvent 300 à 600 mg de lévodopa par jour en 3 à 4 prises) ; prendre 30 min avant les repas (les protéines diminuent l'absorption) ou avec un peu de nourriture au début si nausées",
+    "Effets indésirables : nausées, hypotension orthostatique, mouvements involontaires (dyskinésies) et fluctuations après quelques années (fractionner les prises), hallucinations",
+    "Ne jamais arrêter brutalement (syndrome grave avec fièvre et rigidité) ; reprendre rapidement en cas d'hospitalisation ou de jeûne (sonde gastrique)",
+    "Bipéridène possible chez le sujet jeune avec tremblement prédominant ; à éviter chez le sujet âgé (confusion, rétention)",
+    "Kinésithérapie, exercice régulier (marche, danse), prévention des chutes (aménagement du domicile, canne) ; orthophonie (voix, déglutition)",
+    "Constipation : fibres, eau, lactulose, séné",
+    "Hypotension orthostatique : se lever lentement, boire, augmenter le sel, bas de contention ; fludrocortisone si nécessaire",
+    "Dépression : traitement adapté (fluoxétine)",
+    "Hallucinations ou psychose : réduire les autres médicaments, puis quétiapine à faible dose (12,5 à 50 mg le soir) ; jamais d'halopéridol ni de métoclopramide",
+    "Syndrome parkinsonien médicamenteux : arrêter ou réduire le médicament responsable ; bipéridène 2 mg 1 à 3 fois par jour pour les effets extrapyramidaux des neuroleptiques",
+    "Soutien des aidants ; soins palliatifs aux stades avancés"
    ],
    "gravite": [
-    "Chutes répétées, troubles de la déglutition",
-    "Arrêt brutal du traitement (syndrome malin)"
+    "Chutes répétées, fractures",
+    "Troubles de la déglutition (pneumopathie d'inhalation, dénutrition)",
+    "Arrêt brutal du traitement (fièvre, rigidité extrême, confusion)",
+    "Hallucinations, confusion"
    ],
    "prevention": [
-    "Prudence avec les neuroleptiques chez la personne âgée"
+    "Prudence avec les neuroleptiques et le métoclopramide chez la personne âgée",
+    "Protection des mineurs exposés au manganèse"
    ],
    "medicaments": [
     "Lévodopa + carbidopa",
     "Bipéridène",
     "Quétiapine",
+    "Fluoxétine",
+    "Fludrocortisone",
     "Séné (sennosides)",
-    "Lactulose"
+    "Lactulose",
+    "Propranolol"
    ]
   },
   {
@@ -43532,36 +43735,49 @@
    "nom": "Myasthénie",
    "categorie": "neuro",
    "synonymes": "myasthénie, ptosis, faiblesse musculaire, diplopie, fatigabilité",
-   "resume": "Maladie auto-immune de la jonction neuromusculaire : faiblesse musculaire qui augmente à l'effort et s'améliore au repos.",
+   "resume": "Maladie auto-immune de la jonction entre le nerf et le muscle (anticorps contre le récepteur de l'acétylcholine) : faiblesse musculaire fluctuante qui augmente à l'effort et s'améliore au repos. Touche surtout la femme jeune et l'homme après 60 ans ; un thymome est présent dans 10 à 15 % des cas. La crise myasthénique (atteinte respiratoire et de la déglutition) est une urgence vitale. De nombreux médicaments courants peuvent l'aggraver.",
    "signes": [
-    "Paupières qui tombent (ptosis), vision double, surtout le soir",
-    "Fatigabilité des bras, des jambes, de la mastication, de la parole",
-    "Crise myasthénique : troubles de la déglutition et de la respiration"
+    "Paupières qui tombent (ptosis), vision double, surtout le soir ou après l'effort ; forme oculaire pure possible",
+    "Fatigabilité des bras, des jambes, de la nuque, de la mastication (mâchoire qui tombe pendant le repas), de la déglutition (fausses routes, reflux par le nez) et de la parole (voix nasonnée qui s'éteint)",
+    "Pas de troubles de la sensibilité, réflexes normaux",
+    "Crise myasthénique : essoufflement, toux faible, impossibilité d'avaler la salive, voix éteinte",
+    "Facteurs aggravants : infection, chirurgie, grossesse et post-partum, médicaments, arrêt du traitement"
    ],
    "diagnostic": [
-    "Diagnostic clinique (test de la glace sur le ptosis)",
-    "Anticorps anti-récepteur de l'acétylcholine si disponible",
-    "Rechercher un thymome (radiographie, scanner)"
+    "Diagnostic clinique : faiblesse fluctuante fatigable ; test de la glace (poche de glace 2 min sur la paupière : amélioration du ptosis)",
+    "Anticorps anti-récepteur de l'acétylcholine (ou anti-MuSK) si disponibles ; électromyogramme (stimulation répétitive)",
+    "Test à la néostigmine (avec atropine) en milieu équipé",
+    "Radiographie ou scanner du thorax (thymome) ; TSH (maladie thyroïdienne associée)",
+    "Mesurer la capacité respiratoire (capacité vitale, compter à voix haute en une expiration)",
+    "Différentiels : botulisme, syndrome de Guillain-Barré, AVC du tronc cérébral, envenimation neurotoxique (cobra, mamba), intoxication aux organophosphorés"
    ],
    "traitement": [
-    "Pyridostigmine 30 à 60 mg 3 à 4 fois par jour",
-    "Corticoïdes (prednisolone à dose progressive) et immunosuppresseurs en milieu spécialisé",
-    "Crise myasthénique : hospitalisation, surveillance de la ventilation, immunoglobulines IV ou échanges plasmatiques",
-    "Éviter les médicaments aggravants : aminosides, fluoroquinolones, magnésium IV, bêtabloquants, certains curares"
+    "Pyridostigmine 30 à 60 mg 3 à 4 fois par jour (maximum 120 mg toutes les 4 h), à adapter aux symptômes ; effets : crampes abdominales, diarrhée, salivation (excès : crise cholinergique)",
+    "Corticoïdes (forme généralisée ou gênante) : prednisolone débutée à faible dose (10 à 20 mg un jour sur deux) et augmentée progressivement jusqu'à 1 mg/kg (une aggravation transitoire est possible au début), puis décroissance lente ; protection gastrique, calcium et vitamine D",
+    "Immunosuppresseur d'épargne : azathioprine 2 à 3 mg/kg par jour (effet après plusieurs mois, surveillance de la NFS et des transaminases)",
+    "Thymectomie : thymome, et forme généralisée avec anticorps anti-récepteur chez l'adulte de moins de 65 ans (centre spécialisé)",
+    "Crise myasthénique : hospitalisation en soins intensifs, surveillance de la capacité vitale et de la déglutition ; intubation si capacité vitale < 20 ml/kg, toux inefficace ou encombrement ; immunoglobulines IV 2 g/kg sur 2 à 5 jours ou échanges plasmatiques ; traitement de l'infection déclenchante ; corticoïdes",
+    "Médicaments à éviter ou à utiliser avec grande prudence : aminosides (gentamicine), fluoroquinolones, macrolides (azithromycine), sulfate de magnésium IV, bêtabloquants, quinine et chloroquine, curares, pénicillamine, statines ; remettre la liste au patient",
+    "Grossesse : suivi spécialisé (sulfate de magnésium contre-indiqué en cas d'éclampsie : préférer d'autres anticonvulsivants), surveillance du nouveau-né (myasthénie néonatale transitoire)"
    ],
    "gravite": [
-    "Troubles de la déglutition, faiblesse respiratoire (crise myasthénique)"
+    "Troubles de la déglutition, faiblesse respiratoire, voix éteinte (crise myasthénique) : urgence",
+    "Excès de pyridostigmine (salivation, crampes, faiblesse accrue : crise cholinergique)",
+    "Infection, chirurgie, accouchement"
    ],
    "prevention": [
-    "Liste des médicaments contre-indiqués remise au patient"
+    "Liste des médicaments contre-indiqués remise au patient et notée dans son carnet",
+    "Traitement rapide des infections",
+    "Vaccination antigrippale et antipneumococcique (pas de vaccins vivants sous immunosuppresseurs)"
    ],
    "medicaments": [
     "Pyridostigmine",
-    "Prednisolone",
-    "Immunoglobulines humaines normales (IgIV)",
     "Néostigmine",
+    "Prednisolone",
+    "Méthylprednisolone",
     "Azathioprine",
-    "Méthylprednisolone"
+    "Immunoglobulines humaines normales (IgIV)",
+    "Atropine"
    ]
   },
   {
@@ -43569,39 +43785,50 @@
    "nom": "Syndrome de Guillain-Barré",
    "categorie": "neuro",
    "synonymes": "Guillain-Barré, paralysie ascendante, polyradiculonévrite, paralysie flasque aiguë",
-   "resume": "Paralysie aiguë des nerfs périphériques, souvent après une infection (diarrhée, virose). Elle peut atteindre les muscles respiratoires.",
+   "resume": "Atteinte inflammatoire aiguë des nerfs périphériques (polyradiculonévrite), d'origine auto-immune, souvent 1 à 4 semaines après une infection (diarrhée à Campylobacter, virose, Zika, dengue, VIH) ou parfois une vaccination. La paralysie progresse pendant 2 à 4 semaines puis récupère lentement. 20 à 30 % des patients ont besoin d'une ventilation ; la surveillance respiratoire et autonome et les immunoglobulines précoces réduisent la mortalité et les séquelles.",
    "signes": [
-    "Faiblesse des deux jambes qui monte en quelques jours, symétrique",
-    "Réflexes abolis",
-    "Fourmillements, douleurs",
-    "Atteinte du visage, de la déglutition, de la respiration",
-    "Instabilité tensionnelle et du rythme cardiaque"
+    "Faiblesse des deux jambes, symétrique, qui monte en quelques jours vers les bras, le tronc et le visage",
+    "Réflexes ostéotendineux diminués ou abolis",
+    "Fourmillements des mains et des pieds, douleurs dorsales ou des membres souvent intenses",
+    "Atteinte des nerfs crâniens : paralysie faciale bilatérale, troubles de la déglutition et de la parole",
+    "Atteinte respiratoire : essoufflement, toux faible, voix courte, respiration paradoxale",
+    "Dysautonomie : variations de la PA, tachycardie ou bradycardie, troubles du rythme, rétention urinaire, iléus"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Ponction lombaire : protéines élevées sans cellules (après 1 semaine)",
-    "Paralysie flasque aiguë < 15 ans : notification et prélèvements de selles (polio)",
-    "Éliminer : polio, konzo, compression médullaire, hypokaliémie, botulisme"
+    "Diagnostic clinique ; ponction lombaire après la 1re semaine : protéines élevées sans cellules (dissociation albumino-cytologique) ; des cellules > 50/mm³ font penser au VIH ou à une autre cause",
+    "Électromyogramme si disponible",
+    "Potassium (paralysie hypokaliémique), glycémie, test VIH",
+    "Paralysie flasque aiguë avant 15 ans : notification et 2 prélèvements de selles (poliomyélite)",
+    "Différentiels : poliomyélite (asymétrique, fièvre), compression de la moelle (niveau sensitif, troubles sphinctériens précoces : mal de Pott), myélite, konzo (paralysie spastique), botulisme (paralysie descendante, pupilles dilatées), hypokaliémie, envenimation neurotoxique, diphtérie, intoxication aux organophosphorés, myasthénie"
    ],
    "traitement": [
-    "Hospitalisation, surveillance de la capacité respiratoire (compter à voix haute, capacité vitale) et de la déglutition",
-    "Immunoglobulines IV 0,4 g/kg/jour pendant 5 jours (ou échanges plasmatiques) dans les 2 premières semaines si la marche est impossible",
-    "Prévention des thromboses (énoxaparine), des escarres",
-    "Kinésithérapie",
-    "Antalgiques pour les douleurs neuropathiques (amitriptyline, carbamazépine)"
+    "Hospitalisation, surveillance de la respiration toutes les 2 à 4 h : compter à voix haute en une expiration (< 20 : danger), capacité vitale (intubation si < 20 ml/kg ou chute de 30 %), toux, déglutition ; ECG et PA (dysautonomie)",
+    "Immunoglobulines IV 0,4 g/kg par jour pendant 5 jours (2 g/kg au total) ou échanges plasmatiques, dans les 2 premières semaines (jusqu'à 4) si la marche sans aide est impossible ; pas de corticoïdes (inefficaces)",
+    "Troubles de la déglutition : rien par la bouche, sonde gastrique, aspiration",
+    "Ventilation mécanique en réanimation si atteinte respiratoire",
+    "Douleurs : paracétamol, amitriptyline ou carbamazépine (douleurs neuropathiques), morphine si nécessaire",
+    "Prévention des thromboses (énoxaparine), des escarres (retournement toutes les 2 h), des rétractions (positionnement, kinésithérapie passive dès le début), soins des yeux (paralysie faciale), sonde urinaire si rétention, laxatifs",
+    "Soutien psychologique (patient conscient et paralysé), communication",
+    "Rééducation prolongée ; récupération sur des semaines à des mois ; séquelles chez 20 % des patients"
    ],
    "gravite": [
-    "Troubles respiratoires, de la déglutition → ventilation",
-    "Troubles du rythme"
+    "Troubles respiratoires (voix courte, toux faible, comptage < 20), troubles de la déglutition : ventilation",
+    "Troubles du rythme, variations brutales de la PA",
+    "Progression rapide en moins de 7 jours, atteinte faciale et bulbaire"
    ],
    "prevention": [
-    "Aucune prévention spécifique"
+    "Pas de prévention spécifique",
+    "Hygiène alimentaire et de l'eau (Campylobacter)",
+    "Surveillance des paralysies flasques aiguës"
    ],
    "medicaments": [
     "Immunoglobulines humaines normales (IgIV)",
     "Énoxaparine",
     "Amitriptyline",
-    "Paracétamol"
+    "Carbamazépine",
+    "Paracétamol",
+    "Morphine",
+    "Lactulose"
    ]
   },
   {
@@ -43609,36 +43836,48 @@
    "nom": "Purpura thrombopénique immunologique (PTI)",
    "categorie": "sang",
    "synonymes": "PTI, thrombopénie, purpura, plaquettes basses, pétéchies",
-   "resume": "Destruction auto-immune des plaquettes, souvent après une virose chez l'enfant (guérison spontanée fréquente), plus chronique chez l'adulte.",
+   "resume": "Destruction auto-immune des plaquettes, avec plaquettes < 100 000/mm³ sans autre anomalie. Chez l'enfant, souvent quelques semaines après une virose ou un vaccin, avec guérison spontanée en quelques semaines à mois dans 70 à 80 % des cas ; chez l'adulte, évolution plus souvent chronique. Les hémorragies graves sont rares. Il faut d'abord éliminer les causes fréquentes de thrombopénie en Afrique : paludisme, dengue, VIH, médicaments, leucémie.",
    "signes": [
-    "Pétéchies, ecchymoses, saignements des gencives ou du nez chez un patient en bon état général",
-    "Pas de gros foie, de grosse rate ni de ganglions"
+    "Pétéchies (petits points rouges qui ne s'effacent pas à la pression), ecchymoses spontanées ou au moindre choc, chez un patient en bon état général",
+    "Saignements des gencives, du nez, règles abondantes, sang dans les urines ou les selles",
+    "Pas de fièvre, pas de gros foie, de grosse rate ni de ganglions (sinon penser à une autre cause)",
+    "Hémorragie grave rare : intracrânienne (céphalées, troubles de conscience), digestive"
    ],
    "diagnostic": [
-    "NFS : plaquettes basses isolées, frottis normal",
-    "Éliminer : paludisme, dengue, VIH, leucémie (autres lignées anormales), médicaments, CIVD"
+    "NFS : plaquettes basses isolées, hémoglobine et globules blancs normaux (sauf saignement), frottis normal (vérifier l'absence d'agrégats de plaquettes : fausse thrombopénie)",
+    "Éliminer : paludisme (TDR), dengue, VIH, hépatite C, H. pylori chez l'adulte, médicaments (quinine, cotrimoxazole, héparine, rifampicine), leucémie et aplasie (autres lignées anormales, myélogramme), lupus, hypersplénisme, CIVD, microangiopathie (schizocytes)",
+    "Myélogramme si anomalie des autres lignées, signes atypiques, âge > 60 ans ou avant une splénectomie",
+    "Groupe sanguin"
    ],
    "traitement": [
-    "Enfant sans saignement important : surveillance seulement, éviter l'aspirine et les AINS, pas d'injections IM",
-    "Saignement muqueux important : prednisolone 2 mg/kg/jour (max 60 mg) pendant 4 à 7 jours, ou immunoglobulines IV 1 g/kg",
-    "Hémorragie grave : transfusion de plaquettes + immunoglobulines IV + corticoïdes",
-    "Adulte : prednisolone 1 mg/kg, test VIH"
+    "Enfant sans saignement ou avec saignement cutané seul : surveillance, quelle que soit la numération ; éviter l'aspirine, les AINS et les injections IM ; éviter les sports de contact ; expliquer les signes d'alerte",
+    "Enfant avec saignement muqueux important : prednisolone 2 mg/kg par jour (maximum 60 mg) pendant 5 à 7 jours (ou 4 mg/kg par jour pendant 4 jours), ou immunoglobulines IV 0,8 à 1 g/kg en dose unique",
+    "Adulte avec plaquettes < 30 000/mm³ ou saignement : dexaméthasone 40 mg par jour pendant 4 jours (1 à 3 cures), ou prednisolone 1 mg/kg par jour pendant 1 à 2 semaines puis décroissance (au plus 6 semaines) ; immunoglobulines IV si saignement ou besoin d'une remontée rapide",
+    "Hémorragie grave (intracrânienne, digestive) : transfusion de plaquettes + immunoglobulines IV + méthylprednisolone 1 g par jour pendant 3 jours + acide tranexamique",
+    "Saignements muqueux modérés : acide tranexamique ; règles abondantes : traitement hormonal",
+    "Traiter une cause : ARV (VIH), éradication d'H. pylori, arrêt d'un médicament",
+    "PTI chronique (plus de 12 mois) ou réfractaire : rituximab, agonistes du récepteur de la thrombopoïétine, splénectomie (après vaccination antipneumococcique, méningococcique et Hib) en milieu spécialisé",
+    "Grossesse : plaquettes > 50 000 pour l'accouchement (> 70 000 pour une anesthésie péridurale) ; surveiller les plaquettes du nouveau-né"
    ],
    "gravite": [
     "Saignement intracrânien (céphalées, troubles de conscience)",
-    "Hémorragie digestive ou abondante"
+    "Hémorragie digestive ou abondante",
+    "Plaquettes < 10 000/mm³ avec saignements muqueux",
+    "Traumatisme crânien"
    ],
    "prevention": [
-    "Éviter AINS et aspirine"
+    "Éviter AINS, aspirine et injections IM",
+    "Vaccinations avant une éventuelle splénectomie"
    ],
    "medicaments": [
     "Prednisolone",
+    "Dexaméthasone",
+    "Méthylprednisolone",
     "Immunoglobulines humaines normales (IgIV)",
     "Concentré plaquettaire",
     "Acide tranexamique",
-    "Dexaméthasone",
     "Rituximab",
-    "Méthylprednisolone"
+    "Paracétamol"
    ]
   },
   {
@@ -43646,31 +43885,43 @@
    "nom": "Spasticité et soins du blessé médullaire",
    "categorie": "neuro",
    "synonymes": "spasticité, paraplégie, tétraplégie, blessé médullaire, raideur, contractures",
-   "resume": "Raideur musculaire et spasmes après une lésion du cerveau ou de la moelle (traumatisme, mal de Pott, AVC, infirmité motrice cérébrale), avec des complications évitables.",
+   "resume": "Raideur musculaire et spasmes après une lésion du cerveau ou de la moelle épinière : traumatisme de la colonne (accidents de moto, chutes d'arbres, éboulements dans les mines), mal de Pott, tumeur, AVC, infirmité motrice cérébrale de l'enfant. Les complications du blessé médullaire (escarres, infections urinaires, rétractions, thromboses, dépression) sont évitables et causent la plupart des décès secondaires. La réadaptation à base communautaire permet le retour à une vie active.",
    "signes": [
-    "Muscles raides, spasmes douloureux, contractures",
-    "Paraplégie : perte de la marche, de la sensibilité, troubles urinaires et digestifs",
-    "Complications : escarres, infections urinaires, rétention, constipation, thromboses, dépression"
+    "Muscles raides, résistance à l'étirement, spasmes douloureux, contractures et déformations (pieds équins, genoux fléchis)",
+    "Paraplégie (jambes) ou tétraplégie (4 membres) : perte de la force et de la sensibilité sous le niveau de la lésion, troubles urinaires (rétention, fuites), constipation, troubles sexuels",
+    "Complications : escarres (sacrum, talons, ischions, hanches), infections urinaires, calculs, rétention, constipation et fécalome, thromboses, ostéoporose et fractures, douleurs, dépression",
+    "Dysréflexie autonome (lésion au-dessus de la 6e vertèbre thoracique) : poussée brutale de PA, céphalées intenses, sueurs et rougeur au-dessus de la lésion, bradycardie, déclenchée par une vessie pleine, un fécalome ou une escarre"
    ],
    "diagnostic": [
-    "Cause de la lésion (traumatisme, tuberculose vertébrale, tumeur)",
-    "Rechercher les facteurs qui aggravent la spasticité : escarre, infection urinaire, constipation, ongle incarné"
+    "Préciser la cause et le niveau de la lésion (examen de la sensibilité et de la force) : traumatisme, tuberculose vertébrale (radiographie, GeneXpert), tumeur, myélite (VIH, HTLV-1, schistosomiase)",
+    "Rechercher les facteurs qui aggravent la spasticité : escarre, infection urinaire, constipation, ongle incarné, fracture méconnue, vêtements serrés",
+    "Bandelette urinaire si fièvre ou aggravation (la bactériurie sans symptôme ne se traite pas) ; échographie rénale et vésicale (rétention, calculs, dilatation)"
    ],
    "traitement": [
-    "Kinésithérapie, étirements quotidiens, positionnement",
-    "Baclofène progressif (jamais d'arrêt brutal) ; diazépam le soir en complément",
-    "Prévention des escarres : retournement toutes les 2 h, matelas, peau sèche",
-    "Vessie : sondages intermittents propres",
-    "Intestin : programme d'exonération, laxatifs",
-    "Prévention des thromboses en phase aiguë",
-    "Réadaptation, aides techniques, soutien"
+    "Phase aiguë du traumatisme : immobilisation, retournement en bloc, maintien d'une bonne PA, sonde urinaire, prévention des thromboses (énoxaparine pendant 8 à 12 semaines), kinésithérapie respiratoire si lésion haute ; pas de corticoïdes ; chirurgie de stabilisation si disponible",
+    "Spasticité : kinésithérapie, étirements quotidiens, positionnement, attelles et orthèses ; baclofène 5 mg 3 fois par jour, augmenté progressivement jusqu'à 20 mg 3 à 4 fois par jour (jamais d'arrêt brutal : convulsions, hallucinations) ; diazépam 2 à 5 mg le soir en complément ; toxine botulique pour une spasticité localisée (centre spécialisé)",
+    "Traiter les facteurs déclenchants (escarre, infection, constipation)",
+    "Prévention des escarres : retournement toutes les 2 h au lit, soulèvement toutes les 15 à 30 min au fauteuil, coussin et matelas adaptés, peau propre et sèche, inspection quotidienne (miroir), nutrition riche en protéines ; escarre : décharge totale, soins locaux, chirurgie des escarres profondes",
+    "Vessie : sondages intermittents propres 4 à 6 fois par jour (enseigner au patient ou à la famille), boissons suffisantes ; infection urinaire symptomatique (fièvre, urines troubles et malodorantes, aggravation de la spasticité) : antibiotique selon la bandelette et la culture (nitrofurantoïne pour une cystite)",
+    "Intestin : programme d'exonération quotidien ou un jour sur deux à heure fixe après un repas (stimulation digitale), fibres, eau, séné ou lactulose",
+    "Dysréflexie autonome : asseoir le patient, desserrer les vêtements, vider la vessie (vérifier la sonde), évacuer un fécalome, rechercher une escarre ; si PA systolique > 150 mmHg persistante : nifédipine 10 mg ou trinitrine",
+    "Douleurs neuropathiques : amitriptyline, carbamazépine",
+    "Dépression : dépistage et traitement (risque suicidaire) ; soutien psychologique et sexualité, fertilité",
+    "Réadaptation : fauteuil roulant et coussin adaptés, transferts, autonomie, adaptation du domicile, scolarisation ou reprise d'une activité, réadaptation à base communautaire ; mal de Pott : traitement antituberculeux",
+    "Enfant infirme moteur cérébral : kinésithérapie, positionnement, nutrition (troubles de la déglutition), traitement de l'épilepsie, scolarisation"
    ],
    "gravite": [
-    "Escarre infectée, sepsis urinaire",
-    "Dysréflexie autonome (lésion haute : HTA brutale, céphalées) : vider la vessie et le rectum"
+    "Escarre infectée, ostéite, sepsis urinaire",
+    "Dysréflexie autonome (lésion haute : HTA brutale, céphalées) : vider la vessie et le rectum en urgence",
+    "Thrombose, embolie pulmonaire",
+    "Insuffisance respiratoire (lésion cervicale)",
+    "Idées suicidaires"
    ],
    "prevention": [
-    "Sécurité routière et au travail, traitement précoce du mal de Pott"
+    "Sécurité routière (casque) et au travail (mines, chantiers, cueillette en hauteur)",
+    "Traitement précoce du mal de Pott",
+    "Formation des familles aux soins préventifs",
+    "Transport sûr des blessés du rachis"
    ],
    "medicaments": [
     "Baclofène",
@@ -43678,7 +43929,12 @@
     "Énoxaparine",
     "Séné (sennosides)",
     "Lactulose",
-    "Nitrofurantoïne"
+    "Nitrofurantoïne",
+    "Nifédipine",
+    "Trinitrine (nitroglycérine)",
+    "Amitriptyline",
+    "Carbamazépine",
+    "RHZE (rifampicine + isoniazide + pyrazinamide + éthambutol)"
    ]
   },
   {
@@ -44286,36 +44542,48 @@
    "nom": "Insuffisance surrénale",
    "categorie": "endocrino",
    "synonymes": "insuffisance surrénale, Addison, crise surrénale, hyperplasie congénitale des surrénales",
-   "resume": "Défaut de production de cortisol (et d'aldostérone) : maladie d'Addison (tuberculose surrénalienne, auto-immune, VIH), arrêt brutal d'une corticothérapie, hyperplasie congénitale du nouveau-né. La crise surrénale est mortelle.",
+   "resume": "Défaut de production de cortisol (et d'aldostérone dans les formes primaires). Causes : tuberculose des surrénales (fréquente en RDC), VIH (CMV, infections), auto-immunité, hémorragie des surrénales (méningococcémie), médicaments ; et surtout insuffisance surrénale secondaire après l'arrêt brutal d'une corticothérapie prolongée (y compris l'usage de dexaméthasone ou de crèmes et comprimés de corticoïdes achetés sans ordonnance pour grossir ou éclaircir la peau). Hyperplasie congénitale des surrénales chez le nouveau-né. La crise surrénale est mortelle sans hydrocortisone.",
    "signes": [
-    "Fatigue, amaigrissement, nausées, douleurs abdominales",
-    "Hypotension, malaises orthostatiques",
-    "Mélanodermie (Addison)",
-    "Crise aiguë : choc, vomissements, hypoglycémie, confusion",
-    "Nouveau-né : ambiguïté sexuelle (fille), vomissements, déshydratation, choc vers 2 semaines"
+    "Fatigue intense, faiblesse, amaigrissement, perte d'appétit, nausées, douleurs abdominales, attirance pour le sel",
+    "Hypotension, vertiges en se levant, malaises",
+    "Mélanodermie (peau et muqueuses plus foncées, plis des mains, gencives, cicatrices) dans la maladie d'Addison",
+    "Crise aiguë (souvent déclenchée par une infection, une chirurgie, un arrêt du traitement) : choc résistant au remplissage, vomissements, douleurs abdominales, fièvre, hypoglycémie, confusion, coma",
+    "Nouveau-né : organes génitaux ambigus chez la fille, vomissements, mauvaise prise de poids, déshydratation et choc vers 1 à 3 semaines (perte de sel)"
    ],
    "diagnostic": [
-    "Natrémie basse, kaliémie élevée, hypoglycémie",
-    "Cortisol le matin (bas)",
-    "Rechercher une tuberculose, un VIH, une prise prolongée de corticoïdes"
+    "Sodium bas, potassium élevé (forme primaire), glycémie basse, urée élevée",
+    "Cortisol du matin (8 h) : < 3 µg/dl (83 nmol/l) = insuffisance probable, > 15 µg/dl l'élimine ; test au Synacthène si disponible",
+    "Ne jamais retarder l'hydrocortisone en cas de crise : prélever le cortisol puis traiter",
+    "Rechercher la cause : tuberculose (radiographie, GeneXpert), VIH, prise prolongée de corticoïdes (interroger sur les produits achetés)",
+    "Nouveau-né : 17-hydroxyprogestérone, ionogramme, échographie pelvienne"
    ],
    "traitement": [
-    "Crise surrénale : hydrocortisone 100 mg IV immédiatement (enfant 50 mg/m² ou 2 mg/kg), puis 50 mg toutes les 6 h ; NaCl 0,9 % 1 litre rapide ; glucose si hypoglycémie",
-    "Traitement d'entretien : hydrocortisone 15 à 25 mg/jour en 2 à 3 prises + fludrocortisone 50 à 200 µg/jour (Addison)",
-    "Doubler ou tripler l'hydrocortisone en cas de fièvre, de maladie ; injectable si vomissements",
-    "Carte de patient"
+    "Crise surrénale : hydrocortisone 100 mg IV immédiatement (enfant 50 à 100 mg/m², environ 2 mg/kg ; nourrisson 25 mg), puis 50 mg toutes les 6 h IV ou IM (200 mg par jour) ; sérum physiologique 1 litre en 1 h puis selon l'état (enfant 20 ml/kg) ; glucose 10 % si hypoglycémie ; traiter le facteur déclenchant ; réduire progressivement vers la dose d'entretien en 1 à 3 jours",
+    "Entretien (maladie d'Addison) : hydrocortisone 15 à 25 mg par jour en 2 à 3 prises (2/3 le matin, 1/3 en début d'après-midi) ; enfant 8 à 10 mg/m² par jour ; + fludrocortisone 50 à 200 µg par jour (forme primaire), adaptée à la PA, au sodium et au potassium",
+    "Règles en cas de maladie : doubler ou tripler la dose d'hydrocortisone si fièvre > 38 °C ou maladie ; vomissements : hydrocortisone 100 mg IM et consulter ; chirurgie : 100 mg à l'induction puis 50 mg toutes les 6 h",
+    "Rifampicine (tuberculose) : doubler la dose d'hydrocortisone pendant le traitement",
+    "Grossesse : augmenter la dose au 3e trimestre, couverture pendant l'accouchement",
+    "Carte ou bracelet de patient sous corticoïdes ; ampoule d'hydrocortisone à domicile ; éducation de la famille",
+    "Hyperplasie congénitale du nouveau-né : hydrocortisone + fludrocortisone + supplément de sel, suivi spécialisé (croissance, organes génitaux)",
+    "Arrêt d'une corticothérapie de plus de 3 semaines : décroissance progressive sur plusieurs semaines ; couverture par hydrocortisone en cas de stress dans les mois qui suivent"
    ],
    "gravite": [
-    "Choc, hypoglycémie, troubles de conscience"
+    "Choc, hypoglycémie, troubles de conscience : hydrocortisone sans attendre",
+    "Vomissements empêchant la prise orale",
+    "Nouveau-né avec déshydratation et choc (perte de sel)"
    ],
    "prevention": [
-    "Ne jamais arrêter brutalement une corticothérapie prolongée (décroissance progressive)"
+    "Ne jamais arrêter brutalement une corticothérapie prolongée (décroissance progressive)",
+    "Lutte contre l'usage de corticoïdes sans ordonnance (pour grossir, dépigmentation)",
+    "Éducation des patients traités et de leur famille"
    ],
    "medicaments": [
     "Hydrocortisone (injectable)",
     "Fludrocortisone",
     "Chlorure de sodium 0,9 % (sérum physiologique)",
-    "Glucose 10 %"
+    "Glucose 10 %",
+    "Prednisolone",
+    "Dexaméthasone"
    ]
   },
   {
@@ -44323,46 +44591,60 @@
    "nom": "Hémophilie et troubles héréditaires de la coagulation",
    "categorie": "sang",
    "synonymes": "hémophilie, saignement prolongé, hémarthrose, maladie de Willebrand",
-   "resume": "Déficit héréditaire en facteur VIII (hémophilie A) ou IX (hémophilie B), touchant presque uniquement les garçons ; la maladie de Willebrand touche les deux sexes.",
+   "resume": "Déficit héréditaire en facteur VIII (hémophilie A, 80 %) ou IX (hémophilie B), transmis par les femmes conductrices et touchant presque uniquement les garçons ; la maladie de Willebrand, plus fréquente, touche les deux sexes. En RDC, la plupart des hémophiles ne sont pas diagnostiqués ou le sont après une circoncision compliquée. Les hémarthroses répétées détruisent les articulations ; les hémorragies intracrâniennes et de la gorge sont mortelles. Les concentrés de facteurs sont disponibles par les programmes d'aide humanitaire de la Fédération mondiale de l'hémophilie.",
    "signes": [
-    "Saignements prolongés après la circoncision, une injection, une chute de dent",
-    "Hémarthroses (genou, coude, cheville) : douleur, gonflement",
-    "Hématomes musculaires",
-    "Saignements graves : intracrâniens, gorge, abdomen",
-    "Willebrand : saignements des muqueuses, règles abondantes"
+    "Saignements prolongés après la circoncision, une injection, une vaccination, une chute de dent, une extraction ou une plaie",
+    "Hémarthroses (genou, coude, cheville) : picotements puis douleur, gonflement, chaleur, articulation bloquée ; séquelles : arthropathie, raideur, boiterie",
+    "Hématomes musculaires profonds (psoas : douleur de l'aine, hanche fléchie ; avant-bras, mollet : risque de syndrome des loges)",
+    "Saignements graves : intracrânien (après un choc même léger), gorge et cou (obstruction), abdomen",
+    "Maladie de Willebrand : saignements des muqueuses (nez, gencives), règles très abondantes, saignements après accouchement ou chirurgie"
    ],
    "diagnostic": [
-    "Antécédents familiaux (oncles maternels)",
-    "TCA allongé, plaquettes et TP normaux (hémophilie)",
-    "Dosage des facteurs (laboratoire de référence)"
+    "Antécédents familiaux (oncles, cousins ou frères du côté maternel)",
+    "TCA allongé, plaquettes et TP normaux (hémophilie) ; temps de saignement allongé (Willebrand)",
+    "Dosage des facteurs VIII et IX, facteur Willebrand (laboratoire de référence) ; sévérité : sévère < 1 %, modérée 1 à 5 %, mineure 5 à 40 %",
+    "Recherche d'inhibiteur (anticorps) si mauvaise réponse au facteur",
+    "Dépistage des femmes conductrices de la famille",
+    "VIH, hépatites B et C chez les patients déjà transfusés"
    ],
    "traitement": [
-    "Saignement : facteur VIII (A) ou IX (B) le plus tôt possible (à domicile si possible)",
-    "En l'absence de concentrés : cryoprécipité (A, Willebrand) ou plasma frais congelé (A et B)",
-    "Hémophilie A mineure, Willebrand de type 1 : desmopressine",
-    "Acide tranexamique pour les saignements des muqueuses et les soins dentaires",
-    "Glace, repos, compression, immobilisation",
-    "Pas d'injection IM, pas d'AINS ni d'aspirine (paracétamol)",
-    "Kinésithérapie",
-    "Enregistrement auprès de la Fédération mondiale de l'hémophilie (dons de facteurs)"
+    "Saignement : facteur le plus tôt possible (idéalement à domicile dès les premiers signes) ; facteur VIII : 1 UI/kg augmente le taux de 2 % ; facteur IX : 1 UI/kg augmente le taux de 1 %",
+    "Hémarthrose ou hématome musculaire simple : viser 40 à 60 % (facteur VIII 20 à 30 UI/kg) pendant 1 à 3 jours ; psoas ou saignement menaçant : 80 à 100 % au début puis maintien plusieurs jours",
+    "Hémorragie intracrânienne, de la gorge, digestive, chirurgie : 80 à 100 % (facteur VIII 50 UI/kg, facteur IX 100 UI/kg) puis maintien pendant 7 à 14 jours ; tout traumatisme crânien même léger : facteur avant le scanner",
+    "Sans concentré : cryoprécipité (facteur VIII et Willebrand ; pas de facteur IX) environ 1 poche pour 10 kg, ou plasma frais congelé 10 à 15 ml/kg (hémophilie A et B)",
+    "Hémophilie A mineure et Willebrand de type 1 : desmopressine 0,3 µg/kg IV ou SC en 30 min (restriction hydrique 24 h, pas avant 2 ans)",
+    "Acide tranexamique 15 à 25 mg/kg 3 fois par jour pour les saignements des muqueuses, les soins dentaires et les règles abondantes (pas en cas d'hématurie)",
+    "Repos, glace, compression, surélévation, immobilisation brève de l'articulation, puis kinésithérapie précoce pour récupérer la mobilité",
+    "Pas d'injection IM (vaccins en sous-cutané avec aiguille fine et compression 5 min), pas d'AINS ni d'aspirine (paracétamol, tramadol)",
+    "Circoncision et chirurgie seulement sous couverture de facteur",
+    "Prophylaxie (facteur plusieurs fois par semaine ou émicizumab SC 1 fois par semaine à 1 fois par mois pour l'hémophilie A) selon les programmes de dons",
+    "Enregistrement auprès de l'association nationale et de la Fédération mondiale de l'hémophilie ; carte de patient ; éducation de la famille ; hygiène dentaire ; soutien scolaire",
+    "Femme conductrice ou Willebrand : traitement des règles abondantes, accouchement dans une structure équipée (éviter la ventouse et les forceps pour un garçon potentiellement hémophile)"
    ],
    "gravite": [
-    "Traumatisme crânien même léger, céphalées",
-    "Saignement de la gorge ou du cou",
-    "Douleur abdominale, hématome du psoas"
+    "Traumatisme crânien même léger, céphalées, vomissements, somnolence",
+    "Saignement de la gorge ou du cou (obstruction des voies aériennes)",
+    "Douleur abdominale, hématome du psoas",
+    "Syndrome des loges (douleur intense, membre tendu)",
+    "Mauvaise réponse au facteur (inhibiteur)"
    ],
    "prevention": [
-    "Dépistage familial, carte de patient, vaccination hépatite B (en SC)"
+    "Dépistage familial et conseil génétique, diagnostic avant la circoncision dans les familles touchées",
+    "Carte de patient",
+    "Vaccination hépatite B (en sous-cutané)",
+    "Prophylaxie par facteur ou émicizumab là où elle est disponible"
    ],
    "medicaments": [
     "Facteur VIII de coagulation",
     "Facteur IX de coagulation",
+    "Émicizumab",
     "Cryoprécipité",
     "Plasma frais congelé (PFC)",
     "Desmopressine",
     "Acide tranexamique",
     "Paracétamol",
-    "Émicizumab"
+    "Tramadol",
+    "Vaccin hépatite B"
    ]
   },
   {
@@ -45687,38 +45969,54 @@
    "nom": "Sclérose en plaques",
    "categorie": "neuro",
    "synonymes": "SEP, sclérose en plaques, névrite optique, démyélinisation",
-   "resume": "Maladie inflammatoire du système nerveux central de l'adulte jeune, évoluant par poussées. Plus rare en Afrique ; éliminer d'abord les causes infectieuses (VIH, syphilis, HTLV-1, tuberculose).",
+   "resume": "Maladie inflammatoire et démyélinisante du système nerveux central de l'adulte jeune (plus souvent la femme), évoluant par poussées puis parfois de façon progressive. Plus rare en Afrique subsaharienne, mais sous-diagnostiquée. Avant de retenir le diagnostic, il faut éliminer les causes infectieuses et carentielles fréquentes (VIH, syphilis, HTLV-1, tuberculose, schistosomiase, carence en vitamine B12) et la neuromyélite optique, maladie proche mais plus fréquente chez les personnes d'ascendance africaine, dont le traitement diffère.",
    "signes": [
-    "Baisse de vision d'un œil douloureuse (névrite optique)",
-    "Engourdissements, faiblesse d'un membre, troubles de l'équilibre",
-    "Vision double, troubles urinaires",
-    "Fatigue",
-    "Poussées régressant en quelques semaines"
+    "Baisse de vision d'un œil, douloureuse aux mouvements de l'œil (névrite optique)",
+    "Engourdissements, fourmillements, faiblesse d'un ou plusieurs membres, troubles de l'équilibre et de la marche",
+    "Vision double, vertiges, troubles urinaires (urgences, fuites, rétention), troubles sexuels",
+    "Fatigue importante, troubles cognitifs, dépression, douleurs",
+    "Poussées qui s'installent en quelques jours et régressent en quelques semaines ; aggravation transitoire avec la chaleur ou la fièvre",
+    "Neuromyélite optique : névrite optique sévère ou bilatérale, myélite étendue (paraplégie), hoquet et vomissements incoercibles"
    ],
    "diagnostic": [
-    "IRM cérébrale et médullaire",
+    "IRM cérébrale et médullaire (lésions disséminées dans l'espace et le temps, critères de McDonald)",
     "Ponction lombaire (bandes oligoclonales)",
-    "Éliminer : VIH, syphilis, HTLV-1 (paraparésie spastique tropicale), carence en B12, compression médullaire, neuromyélite optique"
+    "Potentiels évoqués visuels si disponibles",
+    "Éliminer : VIH, syphilis (sérologie sang et LCR), HTLV-1 (paraparésie spastique tropicale), carence en vitamine B12, tuberculose, schistosomiase médullaire, compression médullaire (mal de Pott), lupus, konzo, neuromyélite optique (anticorps anti-aquaporine 4)"
    ],
    "traitement": [
-    "Poussée invalidante : méthylprednisolone 1 g/jour IV pendant 3 à 5 jours",
-    "Traitement de fond (formes récurrentes) : acétate de glatiramère, cladribine, rituximab selon la disponibilité et l'activité",
-    "Symptômes : spasticité (baclofène), troubles urinaires, fatigue, douleurs",
-    "Rééducation"
+    "Avant les corticoïdes : déparasitage (ivermectine contre l'anguillule), recherche de tuberculose",
+    "Poussée invalidante : méthylprednisolone 1 g par jour IV pendant 3 à 5 jours (ou équivalent oral à forte dose) ; pas de corticoïdes pour une poussée légère",
+    "Traitement de fond des formes récurrentes, selon la disponibilité et l'activité de la maladie, en milieu spécialisé : acétate de glatiramère, cladribine, rituximab",
+    "Neuromyélite optique : rituximab ou azathioprine (certains traitements de la sclérose en plaques l'aggravent)",
+    "Symptômes : spasticité (kinésithérapie, baclofène) ; troubles urinaires (mictions programmées, sondages intermittents) ; fatigue (organisation, exercice) ; douleurs (amitriptyline, carbamazépine) ; dépression (fluoxétine)",
+    "Rééducation, maintien de l'activité professionnelle, soutien psychologique",
+    "Vitamine D si carence ; arrêt du tabac",
+    "Grossesse possible (moins de poussées pendant la grossesse, plus dans les 3 mois après) ; adapter le traitement de fond (certains sont tératogènes)"
    ],
    "gravite": [
     "Atteinte respiratoire ou de la déglutition",
-    "Poussée sévère"
+    "Poussée sévère (perte de la vision, paraplégie)",
+    "Infection sous traitement immunosuppresseur",
+    "Rétention urinaire"
    ],
    "prevention": [
-    "Aucune prévention spécifique"
+    "Pas de prévention spécifique",
+    "Vaccinations avant un traitement immunosuppresseur"
    ],
    "medicaments": [
     "Méthylprednisolone",
+    "Prednisolone",
     "Acétate de glatiramère",
     "Cladribine",
     "Rituximab",
-    "Baclofène"
+    "Azathioprine",
+    "Baclofène",
+    "Amitriptyline",
+    "Carbamazépine",
+    "Fluoxétine",
+    "Ivermectine",
+    "Vitamine D (ergocalciférol / cholécalciférol)"
    ]
   },
   {
