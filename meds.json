@@ -1,5 +1,5 @@
 {
- "version": 27,
+ "version": 28,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -34130,43 +34130,60 @@
    "nom": "Fièvre typhoïde",
    "categorie": "infections",
    "synonymes": "typhoïde, salmonellose, fièvre entérique",
-   "resume": "Infection systémique à Salmonella Typhi ou Paratyphi, transmise par l'eau et les aliments contaminés.",
+   "resume": "Infection généralisée à Salmonella enterica sérotype Typhi (ou Paratyphi A, B, C), transmise par l'eau et les aliments souillés par les selles d'un malade ou d'un porteur. Fréquente en RDC, surtout en saison des pluies et dans les quartiers sans eau potable. Sans traitement, des complications graves surviennent dans 10 à 15 % des cas (perforation intestinale, hémorragie, encéphalopathie). La résistance aux fluoroquinolones augmente en Afrique.",
    "signes": [
-    "Fièvre progressive et prolongée (> 7 jours), céphalées, asthénie",
-    "Douleurs abdominales, constipation ou diarrhée",
-    "Pouls dissocié (relativement lent pour la fièvre), splénomégalie",
-    "Troubles de conscience (tuphos) dans les formes graves"
+    "Fièvre d'installation progressive, en plateau, durant plus de 5 à 7 jours",
+    "Céphalées, grande fatigue, perte d'appétit, insomnie",
+    "Douleurs abdominales, constipation (adulte) ou diarrhée (enfant, VIH), ventre ballonné et sensible",
+    "Langue saburrale, pouls relativement lent pour la fièvre, rate palpable",
+    "Taches rosées sur le tronc (rarement visibles sur peau noire)",
+    "Formes graves : prostration, confusion, délire, « tuphos », toux, ictère",
+    "Complications vers la 2e ou 3e semaine : perforation de l'iléon, hémorragie digestive, myocardite, hépatite, cholécystite, ostéomyélite (drépanocytaire)"
    ],
    "diagnostic": [
-    "Diagnostic surtout clinique",
-    "Hémoculture si disponible (le test de Widal est peu fiable)",
-    "Éliminer un paludisme (TDR)"
+    "Diagnostic souvent clinique ; hémoculture (positive surtout la 1re semaine), coproculture plus tardive ; myéloculture la plus sensible",
+    "Le test de Widal et les tests rapides sont peu fiables : ne pas traiter sur un Widal isolé",
+    "TDR paludisme systématique (le paludisme peut coexister)",
+    "NFS : leucocytes normaux ou bas, plaquettes basses ; transaminases modérément élevées",
+    "Douleur abdominale aiguë : radiographie debout (pneumopéritoine) ou échographie",
+    "Différentiels : paludisme, tuberculose, brucellose, leptospirose, rickettsiose, abcès hépatique, endocardite, VIH"
    ],
    "traitement": [
-    "Forme non compliquée : ciprofloxacine 7 jours, ou azithromycine 7 jours, ou céfixime 7 à 14 jours (selon les résistances locales)",
-    "Forme sévère : ceftriaxone IV 10 à 14 jours",
-    "Femme enceinte : ceftriaxone ou azithromycine",
-    "Paracétamol, hydratation, alimentation",
-    "Doses : ciprofloxacine 500 mg 2 fois par jour (enfant 15 mg/kg 2 fois par jour) ; azithromycine 1 g par jour (enfant 20 mg/kg par jour) ; ceftriaxone 2 g par jour (enfant 75 mg/kg par jour)",
-    "Forme sévère avec troubles de conscience ou choc : dexaméthasone 3 mg/kg IV puis 1 mg/kg toutes les 6 h pendant 48 h",
-    "Perforation intestinale (douleur brutale, défense, choc, souvent en 2e ou 3e semaine) : chirurgie en urgence, ceftriaxone + métronidazole",
-    "Revoir à 72 h : si la fièvre persiste, penser à une résistance, à une complication ou à un autre diagnostic"
+    "Forme non compliquée (ambulatoire) : azithromycine 1 g par jour (enfant 20 mg/kg par jour, maximum 1 g) pendant 7 jours ; ou ciprofloxacine 500 mg 2 fois par jour (enfant 15 mg/kg 2 fois par jour) pendant 7 jours si la souche est sensible ; ou céfixime 10 mg/kg 2 fois par jour (adulte 200 à 400 mg 2 fois par jour) pendant 10 à 14 jours",
+    "Forme sévère (vomissements, troubles de conscience, complications) : ceftriaxone 2 g par jour IV (enfant 80 mg/kg par jour, maximum 2 g ; jusqu'à 100 mg/kg en cas de forme grave) pendant 10 à 14 jours, relais oral (azithromycine) dès l'amélioration",
+    "Femme enceinte : ceftriaxone ou azithromycine (pas de ciprofloxacine sauf absence d'alternative)",
+    "Troubles de conscience ou choc (typhoïde grave) : dexaméthasone 3 mg/kg IV en 30 min, puis 1 mg/kg toutes les 6 h pendant 48 h",
+    "Perforation intestinale (douleur brutale, défense, choc, souvent en 2e ou 3e semaine) : réanimation, chirurgie en urgence (suture ou résection, iléostomie), ceftriaxone + métronidazole",
+    "Hémorragie digestive : transfusion, surveillance ; chirurgie si l'hémorragie persiste",
+    "Mesures générales : paracétamol, hydratation, alimentation légère et fréquente ; pas d'aspirine ; pas d'antidiarrhéique",
+    "La fièvre peut mettre 4 à 6 jours à disparaître sous traitement efficace ; revoir à 72 h : aggravation ou complication, penser à une résistance (changer pour ceftriaxone ou azithromycine)",
+    "Rechute dans 5 à 10 % des cas : nouveau traitement",
+    "Porteur chronique (selles positives plus de 12 mois, manipulateur d'aliments) : ciprofloxacine 4 semaines ; lithiase biliaire : cholécystectomie",
+    "Déclarer les cas groupés (surveillance épidémiologique)"
    ],
    "gravite": [
-    "Douleur abdominale intense, défense (perforation intestinale) → chirurgie",
-    "Rectorragies (hémorragie digestive)",
-    "Troubles de conscience, choc"
+    "Douleur abdominale brutale, défense, choc : perforation intestinale, chirurgie",
+    "Rectorragies, méléna (hémorragie digestive)",
+    "Confusion, délire, coma, convulsions",
+    "Choc, myocardite (troubles du rythme), ictère",
+    "Enfant malnutri, drépanocytaire ou patient vivant avec le VIH"
    ],
    "prevention": [
-    "Eau potable, lavage des mains, hygiène alimentaire",
-    "Vaccination dans certaines zones"
+    "Eau potable (chloration, ébullition), assainissement et latrines",
+    "Lavage des mains au savon, hygiène alimentaire, laver fruits et légumes",
+    "Vaccin typhoïdique conjugué (dose unique dès 6 mois) dans les zones d'endémie et les épidémies",
+    "Dépistage et traitement des porteurs manipulant des aliments"
    ],
    "medicaments": [
-    "Ciprofloxacine",
     "Azithromycine",
+    "Ciprofloxacine",
     "Céfixime",
     "Ceftriaxone",
-    "Paracétamol"
+    "Métronidazole",
+    "Dexaméthasone",
+    "Paracétamol",
+    "Ringer lactate",
+    "Vaccin typhoïdique conjugué (TCV)"
    ]
   },
   {
@@ -34174,46 +34191,63 @@
    "nom": "Méningite bactérienne",
    "categorie": "infections",
    "synonymes": "méningite, méningocoque, pneumocoque, raideur de nuque",
-   "resume": "Infection des méninges (méningocoque, pneumocoque, Haemophilus ; streptocoque B et E. coli chez le nouveau-né). Urgence : traiter sans attendre.",
+   "resume": "Infection des méninges, urgence absolue : chaque heure de retard aux antibiotiques augmente la mortalité et les séquelles (surdité, épilepsie, retard). Germes : méningocoque (épidémies dans la ceinture africaine de la méningite, dont le nord de la RDC), pneumocoque, Haemophilus influenzae b ; streptocoque B, E. coli et Listeria chez le nouveau-né. Chez la personne vivant avec le VIH, penser aussi au cryptocoque et à la tuberculose.",
    "signes": [
-    "Fièvre, céphalées intenses, vomissements",
-    "Raideur de nuque, photophobie",
-    "Troubles de conscience, convulsions",
-    "Purpura (méningocoque)",
-    "Nourrisson : fontanelle bombée, refus de téter, hypotonie, cri plaintif"
+    "Fièvre, céphalées intenses, vomissements, photophobie",
+    "Raideur de nuque, signes de Kernig et de Brudzinski (souvent absents chez le nourrisson et le vieillard)",
+    "Troubles de conscience, agitation, convulsions, déficit focal",
+    "Purpura (taches qui ne s'effacent pas à la pression) : méningocoque, urgence extrême",
+    "Nourrisson : fièvre ou hypothermie, refus de téter, irritabilité, cri aigu, somnolence, fontanelle bombée, convulsions, hypotonie de la nuque"
    ],
    "diagnostic": [
-    "Ponction lombaire si possible (LCR trouble, analyse) sans retarder les antibiotiques",
-    "Éliminer un paludisme grave (TDR)",
-    "En épidémie : diagnostic clinique"
+    "Ne jamais retarder l'antibiotique : hémoculture et ponction lombaire si possible avant, mais sans perdre de temps",
+    "Différer la ponction lombaire en cas de coma profond, signes de localisation, œdème papillaire, convulsions prolongées, choc, purpura étendu ou troubles de la coagulation",
+    "LCR bactérien : trouble, plus de 1 000 leucocytes/mm³ à polynucléaires, protéines > 1 g/l, glucose < 40 % de la glycémie ; Gram, test au latex ou test rapide, culture",
+    "LCR à lymphocytes : penser tuberculose, cryptocoque (antigène, encre de Chine), virus, méningite décapitée",
+    "TDR paludisme et glycémie systématiques ; antigène cryptococcique et test VIH chez l'adulte",
+    "En épidémie : diagnostic clinique, ponction pour les premiers cas (identification du sérogroupe)"
    ],
    "traitement": [
-    "Ceftriaxone IV : 100 mg/kg/jour chez l'enfant (max 4 g), 4 g/jour chez l'adulte, pendant 5 à 7 jours (méningocoque) ou 10 à 14 jours (pneumocoque)",
-    "Nouveau-né : ampicilline + gentamicine (ou ceftriaxone selon le protocole) pendant 21 jours",
-    "En épidémie de méningocoque : ceftriaxone en dose unique ou 5 jours selon le protocole",
-    "Traiter les convulsions, la fièvre ; assurer l'hydratation (restriction aux 2/3 si signes d'œdème cérébral)",
-    "Ne jamais retarder l'antibiotique pour la ponction lombaire ; pas de ponction en cas de coma profond, signes de localisation, purpura étendu ou choc",
-    "Surveillance : conscience, convulsions, hydratation, natrémie si possible ; contrôler l'audition à la sortie (surdité fréquente)",
-    "Chimioprophylaxie des contacts proches d'un méningocoque : ciprofloxacine 500 mg en dose unique chez l'adulte, ou ceftriaxone en dose unique ; notification immédiate"
+    "Ceftriaxone IV (ou IM) dès la suspicion : enfant 100 mg/kg par jour (maximum 4 g) en 1 ou 2 injections, adulte 2 g toutes les 12 h",
+    "Durée selon le germe : méningocoque 5 à 7 jours ; Haemophilus 7 à 10 jours ; pneumocoque 10 à 14 jours ; sans germe identifié : 10 jours",
+    "Plus de 50 ans, immunodéprimé, femme enceinte (Listeria) : ajouter ampicilline 2 g toutes les 4 h (21 jours si Listeria)",
+    "Nouveau-né : ampicilline + gentamicine, ou céfotaxime + ampicilline (voir la fiche Sepsis néonatal) ; au moins 14 jours (21 jours si bacille Gram négatif)",
+    "Contexte d'épidémie à méningocoque (protocole OMS) : ceftriaxone 100 mg/kg IM en dose unique (maximum 4 g) à partir de 2 mois ; 2e dose ou traitement de 5 jours si pas d'amélioration après 24 h, coma ou convulsions ; avant 2 mois : traitement complet",
+    "Dexaméthasone 0,15 mg/kg (adulte 10 mg) toutes les 6 h pendant 2 à 4 jours, débutée juste avant ou avec la 1re dose d'antibiotique, chez l'enfant de plus de 6 semaines et l'adulte, hors épidémie à méningocoque ; pas chez le nouveau-né",
+    "Convulsions : diazépam ou midazolam, puis phénobarbital ; corriger une hypoglycémie",
+    "Liquides : besoins d'entretien normaux (pas de restriction systématique) ; choc : remplissage 10 à 20 ml/kg ; surveiller la natrémie si possible",
+    "Fièvre et douleur : paracétamol ; tête surélevée à 30°, position latérale si troubles de conscience, sonde gastrique, nutrition précoce",
+    "Surveillance toutes les 3 h au début : conscience, pupilles, convulsions, pouls, PA, FR ; périmètre crânien chez le nourrisson",
+    "Avant la sortie : test d'audition (surdité dans 10 à 30 % des cas après pneumocoque) ; suivi du développement de l'enfant",
+    "Chimioprophylaxie des contacts proches d'un méningocoque (foyer, contact rapproché dans les 7 jours) : ciprofloxacine en dose unique (adulte 500 mg, enfant 20 mg/kg, maximum 500 mg), ou ceftriaxone IM dose unique (adulte 250 mg, enfant de moins de 15 ans 125 mg), ou rifampicine 2 jours",
+    "Déclaration immédiate de tout cas suspect (surveillance des épidémies, seuils d'alerte)"
    ],
    "gravite": [
-    "Coma, convulsions répétées",
-    "Purpura extensif, choc",
-    "Signes de focalisation neurologique"
+    "Coma, convulsions répétées, déficit focal, pupilles inégales (hypertension intracrânienne)",
+    "Purpura extensif, choc (méningococcémie fulminante)",
+    "Nourrisson de moins de 2 mois, malnutrition, drépanocytose, VIH",
+    "Détérioration après 48 h : abcès, empyème, hydrocéphalie, germe résistant"
    ],
    "prevention": [
-    "Vaccination (méningocoque A/ACWY, pneumocoque, Hib)",
-    "Chimioprophylaxie des contacts proches selon le germe"
+    "Vaccins : pentavalent (Hib), pneumococcique conjugué, méningococcique conjugué (MenAfriVac, Men5CV) selon le PEV et les campagnes",
+    "Chimioprophylaxie des contacts d'un cas de méningocoque",
+    "Surveillance hebdomadaire des cas dans la ceinture de la méningite et riposte vaccinale",
+    "Splénectomisés et drépanocytaires : vaccination et pénicilline"
    ],
    "medicaments": [
     "Ceftriaxone",
+    "Céfotaxime",
     "Ampicilline",
     "Gentamicine",
-    "Chloramphénicol",
-    "Diazépam",
-    "Paracétamol",
     "Benzylpénicilline (pénicilline G)",
-    "Céfotaxime"
+    "Chloramphénicol",
+    "Dexaméthasone",
+    "Ciprofloxacine",
+    "Rifampicine",
+    "Diazépam",
+    "Phénobarbital",
+    "Paracétamol",
+    "Vaccin méningococcique conjugué (MenAfriVac / Men5CV)"
    ]
   },
   {
@@ -34330,47 +34364,61 @@
    "nom": "Tétanos",
    "categorie": "infections",
    "synonymes": "trismus, tétanos néonatal, contractures",
-   "resume": "Toxi-infection à Clostridium tetani contaminant une plaie (ou le cordon du nouveau-né). Le tétanos déclaré est grave ; la vaccination le prévient totalement.",
+   "resume": "Toxi-infection due à la toxine de Clostridium tetani, dont les spores contaminent une plaie (même minime), un cordon ombilical, un avortement non médicalisé ou une injection. Le tétanos déclaré tue 10 à 50 % des patients (plus de 50 % chez le nouveau-né) malgré le traitement. La maladie n'immunise pas : la vaccination la prévient totalement.",
    "signes": [
-    "Trismus (difficulté à ouvrir la bouche), rire sardonique",
-    "Raideur de la nuque, du dos (opisthotonos), de l'abdomen",
-    "Spasmes douloureux déclenchés par le bruit, la lumière, le toucher",
-    "Nouveau-né (3 à 14 jours) : ne peut plus téter, spasmes, raideur"
+    "Incubation de 3 à 21 jours ; plus elle est courte, plus le tétanos est grave",
+    "Trismus (impossibilité d'ouvrir la bouche), difficultés à avaler, rire sardonique",
+    "Contractures permanentes de la nuque, du dos (opisthotonos), de l'abdomen (ventre de bois), des membres",
+    "Spasmes paroxystiques très douloureux déclenchés par le bruit, la lumière, le toucher ; conscience conservée",
+    "Spasmes du larynx ou des muscles respiratoires : asphyxie",
+    "Instabilité du système nerveux autonome : sueurs, tachycardie, poussées d'HTA, fièvre",
+    "Tétanos néonatal (3 à 14 jours de vie) : le bébé tétait puis ne peut plus téter, pleurs incessants, raideur, spasmes, poings serrés"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Rechercher une porte d'entrée (plaie, cordon, avortement, injection)"
+    "Diagnostic clinique : un trismus fébrile ou non avec contractures suffit",
+    "Rechercher la porte d'entrée : plaie, cordon, avortement, injection, otite, ulcère",
+    "Statut vaccinal ; vaccination de la mère pour le nouveau-né",
+    "Différentiels : abcès dentaire ou amygdalien (trismus), méningite, tétanie hypocalcémique, réaction aux neuroleptiques (métoclopramide, halopéridol), rage, intoxication à la strychnine"
    ],
    "traitement": [
-    "Hospitaliser dans une pièce calme et sombre",
-    "Immunoglobuline antitétanique 500 UI IM",
-    "Métronidazole 7 à 10 jours",
-    "Parage de la plaie",
-    "Contrôle des spasmes : diazépam (doses répétées), voire phénobarbital",
-    "Sonde nasogastrique pour l'alimentation et l'hydratation",
-    "Vaccination antitétanique (la maladie n'immunise pas)",
-    "Doses : métronidazole 500 mg IV toutes les 8 h (enfant 10 mg/kg toutes les 8 h) ; diazépam 0,1 à 0,2 mg/kg IV toutes les 1 à 4 h selon les spasmes",
-    "Formes graves (spasmes laryngés, instabilité tensionnelle) : sulfate de magnésium possible, en soins intensifs si disponibles",
-    "Nouveau-né : alimentation au lait maternel tiré par sonde, maintien au chaud ; vacciner la mère"
+    "Hospitaliser dans une pièce calme et sombre, limiter les manipulations ; regrouper les soins après une dose de sédatif",
+    "Immunoglobuline humaine antitétanique 500 UI IM en dose unique (nouveau-né et adulte), le plus tôt possible",
+    "Métronidazole 500 mg IV ou oral toutes les 8 h (enfant 10 mg/kg toutes les 8 h) pendant 7 à 10 jours ; alternative : benzylpénicilline",
+    "Parage chirurgical de la plaie (après l'immunoglobuline et la sédation) ; chez le nouveau-né, soins du cordon, sans exciser l'ombilic",
+    "Contrôle des spasmes : diazépam 0,1 à 0,3 mg/kg IV toutes les 1 à 4 h (ou en perfusion continue, ou par sonde gastrique), en adaptant à la disparition des spasmes provoqués sans dépression respiratoire ; phénobarbital ou midazolam en complément",
+    "Formes graves (spasmes généralisés, dysautonomie) : sulfate de magnésium (adulte 5 g IV puis 2 g/h, en surveillant les réflexes rotuliens, la FR et la diurèse), en soins intensifs si disponibles ; morphine pour la douleur et la dysautonomie",
+    "Voies aériennes : aspiration des sécrétions, oxygène ; trachéotomie précoce si spasmes laryngés ou encombrement",
+    "Sonde gastrique dès le début : alimentation riche en énergie (lait maternel tiré chez le nouveau-né), hydratation",
+    "Prévention des complications : changements de position toutes les 2 à 3 h (escarres), kinésithérapie respiratoire, énoxaparine chez l'adulte, soins de bouche et des yeux, sonde urinaire si rétention",
+    "La maladie dure 3 à 4 semaines ; diminuer les sédatifs progressivement",
+    "Vaccination antitétanique pendant l'hospitalisation (1re dose) puis à 1 mois et 6 mois : la maladie n'immunise pas ; vacciner la mère d'un nouveau-né atteint",
+    "Déclarer tout cas de tétanos néonatal"
    ],
    "gravite": [
-    "Spasmes laryngés, apnées",
-    "Spasmes incontrôlables, fièvre élevée",
-    "Nouveau-né : pronostic très sévère"
+    "Spasmes laryngés, apnées, cyanose",
+    "Spasmes généralisés, fréquents, incontrôlables",
+    "Incubation < 7 jours, début des spasmes < 48 h après le trismus",
+    "Fièvre élevée, tachycardie, instabilité tensionnelle",
+    "Nouveau-né, sujet âgé, tétanos après avortement"
    ],
    "prevention": [
-    "Vaccination (PEV, femmes enceintes : Td)",
-    "Accouchement propre, soins du cordon (chlorhexidine)",
-    "Parage des plaies et rappel vaccinal"
+    "Vaccination complète : PEV (pentavalent 3 doses + rappels), femmes en âge de procréer (Td 5 doses), femmes enceintes",
+    "Accouchement propre, cordon coupé avec instrument stérile, chlorhexidine sur le cordon, rien d'autre sur l'ombilic",
+    "Plaie propre et minime : vaccin si moins de 3 doses ou dernière dose de plus de 10 ans",
+    "Plaie souillée ou profonde : parage, vaccin si dernière dose de plus de 5 ans, et immunoglobuline antitétanique 250 UI (500 UI si plaie très souillée ou de plus de 24 h) si moins de 3 doses ou statut inconnu"
    ],
    "medicaments": [
     "Immunoglobuline humaine antitétanique",
     "Vaccin antitétanique (Td / VAT)",
     "Métronidazole",
+    "Benzylpénicilline (pénicilline G)",
     "Diazépam",
-    "Phénobarbital",
     "Midazolam",
-    "Benzylpénicilline (pénicilline G)"
+    "Phénobarbital",
+    "Sulfate de magnésium",
+    "Morphine",
+    "Énoxaparine",
+    "Polyvidone iodée 10 %"
    ]
   },
   {
@@ -34378,45 +34426,57 @@
    "nom": "Exposition à la rage (morsure animale)",
    "categorie": "infections",
    "synonymes": "rage, morsure de chien, morsure animale",
-   "resume": "La rage déclarée est mortelle à 100 %. Après une morsure ou griffure par un animal suspect, la prophylaxie post-exposition est une urgence.",
+   "resume": "La rage déclarée est mortelle dans presque 100 % des cas ; elle est presque toujours transmise par la morsure d'un chien en RDC, plus rarement par un chat, une chauve-souris ou un autre mammifère. Après une exposition, le lavage de la plaie, la vaccination et l'immunoglobuline sont efficaces s'ils sont faits rapidement : la prophylaxie post-exposition est une urgence, quel que soit le délai depuis la morsure.",
    "signes": [
-    "Catégorie I : contact ou léchage sur peau saine",
-    "Catégorie II : morsure légère ou griffure sans saignement",
-    "Catégorie III : morsure ou griffure transdermique, léchage sur muqueuse ou peau lésée, contact avec une chauve-souris",
-    "Rage déclarée : agitation, hydrophobie, aérophobie, paralysie (pas de traitement curatif)"
+    "Catégorie I : contact, caresse, léchage sur peau saine",
+    "Catégorie II : mordillement de la peau nue, griffure ou érosion superficielle sans saignement",
+    "Catégorie III : morsure ou griffure qui traverse la peau, léchage sur une muqueuse ou une peau lésée, tout contact avec une chauve-souris",
+    "Rage déclarée (incubation de 2 semaines à plusieurs mois, plus courte pour les morsures de la tête) : douleur ou fourmillements au site de morsure, fièvre, puis forme furieuse (agitation, hydrophobie, aérophobie, hypersalivation, spasmes) ou paralytique (paralysie ascendante), coma et décès"
    ],
    "diagnostic": [
-    "Évaluer la catégorie d'exposition",
-    "Renseignements sur l'animal (vacciné ? observable 10 jours ?)"
+    "Évaluer la catégorie d'exposition, le siège (tête, cou, mains : plus dangereux) et le nombre de plaies",
+    "Renseignements sur l'animal : comportement anormal, errant, vacciné ou non, possibilité de l'observer 10 jours ; animal mort : envoyer la tête au laboratoire vétérinaire si possible",
+    "Vaccinations antirabiques antérieures du patient",
+    "Statut vaccinal antitétanique"
    ],
    "traitement": [
-    "Lavage immédiat de la plaie 15 min à l'eau et au savon, puis antiseptique",
+    "Lavage immédiat et prolongé (15 min) de toutes les plaies à l'eau et au savon, rinçage, puis polyvidone iodée ou alcool",
+    "Catégorie I : pas de traitement",
     "Catégorie II : vaccination antirabique",
-    "Catégorie III : vaccination + immunoglobuline antirabique infiltrée dans la plaie",
-    "Ne pas suturer d'emblée",
-    "Prévention du tétanos",
-    "Antibiotique (amoxicilline-acide clavulanique) si plaie profonde, de la main ou infectée",
-    "Catégorie I (léchage sur peau saine) : pas de traitement",
-    "Vaccin (OMS 2018) : voie intradermique, 2 points à J0, J3 et J7 ; ou voie intramusculaire à J0, J3, J7 et entre J14 et J28",
-    "Immunoglobuline antirabique : humaine 20 UI/kg ou équine 40 UI/kg, infiltrée au maximum dans et autour de toutes les plaies",
-    "Si l'animal (chien, chat) reste en bonne santé après 10 jours d'observation, la vaccination peut être arrêtée"
+    "Catégorie III : vaccination + immunoglobuline antirabique",
+    "Vaccin (OMS 2018) : voie intradermique 0,1 ml en 2 points à J0, J3 et J7 ; ou voie intramusculaire (deltoïde, face antérolatérale de la cuisse chez le petit enfant, jamais la fesse) à J0, J3, J7 et entre J14 et J28 (ou schéma 2-1-1 : 2 doses à J0, 1 à J7, 1 à J21)",
+    "Immunoglobuline antirabique : humaine 20 UI/kg ou équine 40 UI/kg (ou anticorps monoclonaux), le plus tôt possible et au plus tard 7 jours après la 1re dose de vaccin ; infiltrer la plus grande quantité possible dans et autour de toutes les plaies ; si le volume est insuffisant pour des plaies multiples, diluer dans du sérum physiologique ; pas d'injection du reste à distance",
+    "Personne déjà correctement vaccinée : 1 dose IM (ou 1 point intradermique) à J0 et J3, sans immunoglobuline",
+    "Grossesse, allaitement, nourrisson, immunodépression : pas de contre-indication ; immunodéprimé : schéma complet avec immunoglobuline même en catégorie II",
+    "Ne pas suturer d'emblée ; si suture nécessaire (visage, plaie béante), la faire après l'infiltration d'immunoglobuline et de façon lâche",
+    "Prévention du tétanos selon le statut vaccinal",
+    "Antibiotique préventif 3 à 5 jours (amoxicilline + acide clavulanique) si plaie profonde, de la main, du visage, morsure de chat ou patient immunodéprimé ; plaie infectée : 7 à 10 jours",
+    "Chien ou chat qui reste en bonne santé après 10 jours d'observation, ou analyse négative du cerveau de l'animal : la vaccination peut être arrêtée",
+    "Rage déclarée : pas de traitement curatif ; soins palliatifs dans une pièce calme, sédation (diazépam, midazolam), morphine, hydratation ; protection du personnel (gants, masque, lunettes) ; vaccination des soignants exposés à la salive",
+    "Déclarer toute morsure par un animal suspect et tout cas de rage"
    ],
    "gravite": [
-    "Signes de rage déclarée → soins palliatifs, isolement",
-    "Plaie très profonde ou du visage → chirurgie"
+    "Morsures multiples, profondes, de la tête, du cou ou des mains : catégorie III et délai d'incubation court",
+    "Plaie délabrée ou du visage : chirurgie",
+    "Signes de rage déclarée : soins palliatifs, isolement",
+    "Infection de la plaie, ténosynovite, arthrite"
    ],
    "prevention": [
-    "Vaccination des chiens",
-    "Éducation des enfants",
-    "Pré-exposition pour les personnes à risque"
+    "Vaccination des chiens et des chats (au moins 70 % des chiens pour interrompre la transmission), contrôle des chiens errants",
+    "Éducation des enfants (ne pas approcher les animaux inconnus, signaler toute morsure)",
+    "Vaccination préventive (J0 et J7) des vétérinaires, agents de laboratoire et personnes très exposées",
+    "Disponibilité du vaccin et de l'immunoglobuline dans les centres de référence"
    ],
    "medicaments": [
     "Vaccin antirabique",
+    "Immunoglobuline antirabique",
     "Polyvidone iodée 10 %",
     "Amoxicilline + acide clavulanique",
     "Vaccin antitétanique (Td / VAT)",
     "Immunoglobuline humaine antitétanique",
-    "Immunoglobuline antirabique"
+    "Diazépam",
+    "Midazolam",
+    "Morphine"
    ]
   },
   {
@@ -37100,34 +37160,51 @@
    "nom": "Ulcère de Buruli",
    "categorie": "infections",
    "synonymes": "Buruli, ulcère de Buruli, Mycobacterium ulcerans",
-   "resume": "Infection de la peau à Mycobacterium ulcerans, dans des zones humides, provoquant des ulcères étendus et des séquelles si elle est traitée tard.",
+   "resume": "Infection de la peau et des tissus sous-cutanés par Mycobacterium ulcerans, dans des zones proches des rivières et marécages (en RDC : Kongo Central, Maniema, Kasaï, Équateur). Touche surtout les enfants de moins de 15 ans. Indolore au début, elle est souvent négligée et laisse alors de grandes pertes de substance, des rétractions et des handicaps ; traitée tôt par antibiotiques, elle guérit souvent sans chirurgie.",
    "signes": [
-    "Nodule ou plaque indolore, œdème",
-    "Ulcère indolore à bords décollés, à fond blanc-jaunâtre",
-    "Atteinte des membres surtout, chez l'enfant",
-    "Séquelles : rétractions, handicaps"
+    "Formes de début, indolores : nodule ferme sous la peau, plaque indurée, œdème diffus d'un membre (souvent pris pour une cellulite)",
+    "Ulcère indolore à bords décollés (sous-minés), fond blanc jaunâtre, peau autour pigmentée ; patient peu fébrile",
+    "Localisation surtout aux membres, parfois au visage ou au tronc",
+    "Atteinte osseuse (ostéomyélite) ou articulaire",
+    "Séquelles : rétractions, ankyloses, amputations, cicatrices",
+    "Catégorie I : lésion unique < 5 cm ; II : 5 à 15 cm ; III : > 15 cm, lésions multiples, sites critiques (œil, organes génitaux, articulation) ou os"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; PCR sur écouvillon ou biopsie si possible",
-    "Éliminer d'autres ulcères (tropical, drépanocytaire)"
+    "Diagnostic clinique en zone d'endémie ; confirmer par PCR (IS2404) sur écouvillon du bord décollé de l'ulcère ou ponction à l'aiguille fine d'un nodule ou d'une plaque",
+    "Recherche de bacilles acido-alcoolo-résistants (Ziehl) ; histologie si biopsie",
+    "Test VIH systématique (formes plus graves)",
+    "Radiographie si atteinte osseuse suspectée",
+    "Différentiels : ulcère tropical (douloureux, rapide), ulcère drépanocytaire ou veineux, leishmaniose, mycétome, cancer, pyomyosite, lipome"
    ],
    "traitement": [
-    "Rifampicine seule (comprimé simple, pas la combinaison RHZE) 10 mg/kg/j (max 600 mg) + clarithromycine 7,5 mg/kg 2 fois par jour pendant 8 semaines (OMS)",
-    "Pansements, prévention des rétractions (kinésithérapie)",
-    "Chirurgie (greffe) pour les grandes pertes de substance",
-    "Prévention du tétanos"
+    "Antibiotiques pendant 8 semaines (OMS) pour toutes les catégories : rifampicine 10 mg/kg une fois par jour (maximum 600 mg) + clarithromycine 7,5 mg/kg 2 fois par jour (maximum 1 g par jour) ; utiliser la rifampicine en comprimé seul, pas les associations antituberculeuses",
+    "Alternative chez l'adulte : rifampicine + moxifloxacine 400 mg par jour ; chez la femme enceinte : rifampicine + clarithromycine",
+    "Aggravation transitoire pendant le traitement (réaction paradoxale) : fréquente, ne signifie pas un échec ; poursuivre les antibiotiques",
+    "Pansements réguliers non adhérents, en milieu humide ; nettoyage au sérum physiologique ; éviter les produits caustiques",
+    "Prévention des incapacités dès le 1er jour : positionnement, attelles, mobilisation active et passive des articulations, kinésithérapie",
+    "Chirurgie (après au moins 4 semaines d'antibiotiques) : excision des tissus nécrosés et greffe de peau pour les grandes pertes de substance ; libération des rétractions",
+    "Prévention du tétanos ; nutrition, traitement de l'anémie ; soutien scolaire et psychosocial de l'enfant hospitalisé",
+    "Surveillance : NFS et transaminases (rifampicine), interactions (rifampicine et ARV, contraceptifs) ; suivi 12 mois après la guérison (récidive)"
    ],
    "gravite": [
-    "Ulcère très étendu, atteinte articulaire ou osseuse",
-    "Surinfection"
+    "Lésion étendue (catégorie III), multiple ou sur un site critique (œil, organes génitaux, articulation)",
+    "Ostéomyélite",
+    "Surinfection bactérienne, sepsis, tétanos",
+    "Co-infection par le VIH"
    ],
    "prevention": [
-    "Dépistage précoce dans les zones d'endémie"
+    "Dépistage précoce actif dans les villages d'endémie (agents communautaires, écoles), traitement des lésions débutantes",
+    "Vêtements protégeant les membres lors des travaux près de l'eau, soins rapides des petites plaies",
+    "Vaccin BCG (protection partielle et courte)"
    ],
    "medicaments": [
+    "Rifampicine",
     "Clarithromycine",
+    "Moxifloxacine",
     "Vaccin antitétanique (Td / VAT)",
-    "Paracétamol"
+    "Paracétamol",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
+    "Polyvidone iodée 10 %"
    ]
   },
   {
@@ -37135,35 +37212,53 @@
    "nom": "Lèpre",
    "categorie": "infections",
    "synonymes": "lèpre, Hansen, tache insensible",
-   "resume": "Infection chronique à Mycobacterium leprae atteignant la peau et les nerfs. Guérissable par la polychimiothérapie ; le diagnostic précoce évite les invalidités.",
+   "resume": "Infection chronique par Mycobacterium leprae, transmise par voie respiratoire lors de contacts prolongés. Elle atteint la peau et les nerfs périphériques ; les lésions nerveuses entraînent des pertes de sensibilité, des plaies, des déformations et des handicaps évitables. La RDC fait partie des pays qui déclarent le plus de nouveaux cas. Guérissable par la polychimiothérapie (PCT), gratuite.",
    "signes": [
-    "Tache(s) cutanée(s) claire(s) ou rougeâtre(s) avec perte de sensibilité",
-    "Nerfs périphériques épaissis, douloureux",
-    "Perte de sensibilité, faiblesse des mains et des pieds, plaies indolores",
-    "Paucibacillaire : 1 à 5 taches ; multibacillaire : > 5 taches ou atteinte nerveuse"
+    "Signes cardinaux OMS : tache claire (hypopigmentée) ou rougeâtre avec perte nette de sensibilité ; nerf périphérique augmenté de volume avec perte de sensibilité ou faiblesse des muscles qu'il commande ; bacilles dans un frottis cutané",
+    "Nerfs à palper : cubital (coude), médian, radial, sciatique poplité externe (genou), tibial postérieur (cheville), auriculaire (cou)",
+    "Engourdissement, fourmillements, brûlures indolores des mains et des pieds, faiblesse (main en griffe, pied tombant), plaies plantaires",
+    "Formes multibacillaires : nodules, infiltration du visage et des lobes d'oreilles, perte des sourcils, nez bouché",
+    "Atteinte des yeux : impossibilité de fermer les paupières (lagophtalmie), œil rouge, baisse de vision",
+    "Paucibacillaire : 1 à 5 taches sans bacilles ; multibacillaire : plus de 5 taches, atteinte nerveuse ou frottis positif"
    ],
    "diagnostic": [
-    "Diagnostic clinique (signes cardinaux OMS) ; frottis cutané si disponible",
-    "Évaluer le handicap (yeux, mains, pieds)"
+    "Diagnostic clinique : au moins un signe cardinal ; tester la sensibilité de chaque tache (pointe de stylo à bille, coton) en comparant avec la peau saine",
+    "Frottis cutané (lobes d'oreilles, lésions) si disponible",
+    "Évaluation du handicap (degrés OMS 0, 1, 2) des yeux, des mains et des pieds à l'entrée et à la fin du traitement ; test des fonctions nerveuses (sensibilité au monofilament, force)",
+    "Différentiels : pityriasis versicolor, vitiligo (sensibilité normale), dartres, eczéma, mycoses, neuropathie diabétique"
    ],
    "traitement": [
-    "Polychimiothérapie OMS (rifampicine + clofazimine + dapsone) : 6 mois (paucibacillaire), 12 mois (multibacillaire)",
-    "Réactions lépreuses avec névrite : prednisolone, avis spécialisé",
-    "Prévention des invalidités : soins des pieds, auto-examen, chaussures adaptées",
-    "Prophylaxie des contacts par rifampicine en dose unique selon le programme"
+    "PCT OMS à 3 médicaments pour toutes les formes : paucibacillaire 6 mois (6 plaquettes en 9 mois maximum), multibacillaire 12 mois (12 plaquettes en 18 mois maximum)",
+    "Adulte : chaque mois, sous supervision, rifampicine 600 mg + clofazimine 300 mg ; chaque jour, clofazimine 50 mg + dapsone 100 mg",
+    "Enfant de 10 à 14 ans : chaque mois rifampicine 450 mg + clofazimine 150 mg ; chaque jour dapsone 50 mg et clofazimine 50 mg un jour sur deux ; moins de 10 ans : doses selon le poids (rifampicine 10 mg/kg par mois, dapsone 2 mg/kg par jour)",
+    "Effets indésirables : coloration brun-rouge de la peau (clofazimine, réversible), urines orange (rifampicine), anémie hémolytique et réaction d'hypersensibilité grave à la dapsone (fièvre, éruption, ictère : arrêter)",
+    "Réaction de type 1 (reverse) : taches qui deviennent rouges et gonflées, névrite (douleur, nouvelle faiblesse) : prednisolone 40 mg par jour (1 mg/kg) puis décroissance sur 12 à 20 semaines ; repos du membre, attelle",
+    "Réaction de type 2 (érythème noueux lépreux) : nodules douloureux, fièvre, névrite, iritis, orchite : prednisolone ; formes récidivantes : clofazimine 300 mg par jour (au maximum 12 mois) ou thalidomide (jamais chez une femme en âge de procréer sans contraception sûre)",
+    "Poursuivre la PCT pendant les réactions ; une réaction peut survenir après la fin du traitement",
+    "Prévention des invalidités : auto-examen quotidien des mains, pieds et yeux, trempage et huilage de la peau sèche, chaussures protectrices, soins des plaies, exercices ; lagophtalmie : protéger l'œil la nuit, chirurgie",
+    "Groupes d'autosoins, réadaptation, chirurgie réparatrice ; soutien contre la stigmatisation",
+    "Examen de tous les contacts du foyer et du voisinage"
    ],
    "gravite": [
-    "Névrite aiguë (douleur, perte de force récente) → corticoïdes urgents",
-    "Atteinte oculaire (lagophtalmie)",
-    "Plaies infectées"
+    "Névrite aiguë : douleur d'un nerf, perte de force ou de sensibilité récente (moins de 6 mois) : corticoïdes en urgence",
+    "Atteinte oculaire : lagophtalmie, œil rouge douloureux (iridocyclite), baisse de vision",
+    "Plaies plantaires infectées, ostéite",
+    "Réaction de type 2 sévère (fièvre, orchite, néphrite)",
+    "Hypersensibilité à la dapsone"
    ],
    "prevention": [
-    "Dépistage des contacts, lutte contre la stigmatisation"
+    "Dépistage précoce et examen des contacts",
+    "Prophylaxie des contacts par rifampicine en dose unique (adulte 600 mg, 10 à 14 ans 450 mg, 6 à 9 ans 300 mg) à partir de 2 ans, après exclusion de la lèpre et de la tuberculose",
+    "Vaccin BCG",
+    "Lutte contre la stigmatisation et information des communautés"
    ],
    "medicaments": [
     "Polychimiothérapie de la lèpre (rifampicine + clofazimine + dapsone)",
+    "Rifampicine",
+    "Clofazimine",
     "Prednisolone",
-    "Thalidomide"
+    "Thalidomide",
+    "Paracétamol"
    ]
   },
   {
@@ -39041,33 +39136,55 @@
    "nom": "Leptospirose",
    "categorie": "infections",
    "synonymes": "leptospirose, maladie des rats, fièvre et ictère",
-   "resume": "Infection bactérienne transmise par l'urine des rongeurs (eau, boue), surtout après les inondations.",
+   "resume": "Zoonose bactérienne (Leptospira) transmise par l'urine des rongeurs et d'autres animaux, à travers la peau lésée ou les muqueuses au contact de l'eau ou de la boue contaminées. Risque élevé après les inondations, chez les agriculteurs (rizières), égoutiers, éleveurs, pêcheurs et en milieu urbain insalubre. Le plus souvent bénigne, elle peut évoluer vers une forme ictéro-hémorragique (maladie de Weil) ou une hémorragie pulmonaire mortelles.",
    "signes": [
-    "Fièvre brutale, céphalées, douleurs musculaires intenses (mollets)",
-    "Rougeur des yeux (suffusion conjonctivale)",
-    "Formes graves : ictère, insuffisance rénale, hémorragies pulmonaires"
+    "Incubation de 2 à 30 jours (souvent 5 à 14)",
+    "Fièvre brutale, frissons, céphalées intenses, douleurs musculaires très vives (mollets, lombes)",
+    "Rougeur des yeux sans pus (suffusion conjonctivale), très évocatrice",
+    "Nausées, vomissements, diarrhée, douleurs abdominales, toux",
+    "Forme grave (maladie de Weil) : ictère flamboyant, insuffisance rénale, saignements, myocardite",
+    "Hémorragie pulmonaire : toux sanglante, détresse respiratoire (mortalité élevée)",
+    "Méningite à liquide clair"
    ],
    "diagnostic": [
-    "Contexte d'exposition (eau, boue, rats)",
-    "TDR paludisme ; sérologie ou PCR si disponible"
+    "Contexte d'exposition (eau, boue, rats, inondations) dans les 30 jours",
+    "TDR paludisme (diagnostic différentiel majeur), hémoculture",
+    "Biologie : plaquettes basses, créatinine élevée, potassium souvent bas, bilirubine très élevée avec transaminases peu élevées, CPK élevées, protéines et sang dans les urines",
+    "Confirmation : PCR sur le sang la 1re semaine, sérologie (IgM ELISA, test de micro-agglutination) après 5 à 7 jours, tests rapides",
+    "Différentiels : paludisme, dengue, fièvre jaune, hépatites virales, typhoïde, rickettsioses, fièvres hémorragiques"
    ],
    "traitement": [
-    "Forme modérée : doxycycline 100 mg 2 fois par jour pendant 7 jours (amoxicilline chez l'enfant < 8 ans et la femme enceinte)",
-    "Forme grave : benzylpénicilline ou ceftriaxone IV pendant 7 jours, réhydratation, prise en charge de l'insuffisance rénale"
+    "Débuter le traitement sur la suspicion clinique, sans attendre la confirmation",
+    "Forme modérée : doxycycline 100 mg 2 fois par jour pendant 7 jours ; enfant de moins de 8 ans et femme enceinte : amoxicilline 25 à 50 mg/kg par jour en 3 prises (adulte 500 mg 3 fois par jour) ou azithromycine 3 jours",
+    "Forme grave : benzylpénicilline 1,5 MUI IV toutes les 6 h (enfant 50 000 UI/kg toutes les 6 h) ou ceftriaxone 1 à 2 g par jour (enfant 80 mg/kg par jour) pendant 7 jours",
+    "Réaction de Jarisch-Herxheimer possible après la 1re dose (frissons, fièvre, hypotension) : surveillance, remplissage",
+    "Réhydratation prudente ; surveiller la diurèse et la créatinine chaque jour ; insuffisance rénale (souvent à diurèse conservée avec hypokaliémie) : compenser le potassium, dialyse si anurie ou hyperkaliémie",
+    "Saignements : transfusion de plaquettes ou de plasma selon disponibilité ; hémorragie pulmonaire : oxygène, ventilation en réanimation",
+    "Paracétamol pour la fièvre et les douleurs (pas d'AINS ni d'aspirine)",
+    "Déclarer les cas groupés (après inondation)"
    ],
    "gravite": [
-    "Ictère, oligurie, saignements, détresse respiratoire"
+    "Ictère, oligurie ou anurie, créatinine en hausse",
+    "Toux sanglante, détresse respiratoire (hémorragie pulmonaire)",
+    "Saignements, plaquettes très basses",
+    "Hypotension, troubles du rythme (myocardite)",
+    "Troubles de conscience"
    ],
    "prevention": [
-    "Lutte contre les rats, bottes et gants lors de l'exposition à l'eau sale",
-    "Doxycycline 200 mg/semaine en prophylaxie lors d'une exposition à haut risque"
+    "Lutte contre les rats (stockage des aliments, ordures), assainissement",
+    "Bottes et gants lors des travaux dans l'eau ou la boue, protection des plaies",
+    "Éviter de se baigner dans les eaux stagnantes après les inondations",
+    "Doxycycline 200 mg une fois par semaine pendant une exposition à haut risque (secouristes, inondations)"
    ],
    "medicaments": [
     "Doxycycline",
     "Amoxicilline",
+    "Azithromycine",
     "Benzylpénicilline (pénicilline G)",
     "Ceftriaxone",
-    "Paracétamol"
+    "Paracétamol",
+    "Ringer lactate",
+    "Chlorure de potassium (KCl) injectable"
    ]
   },
   {
@@ -39075,40 +39192,54 @@
    "nom": "Brucellose",
    "categorie": "infections",
    "synonymes": "brucellose, fièvre de Malte, fièvre ondulante",
-   "resume": "Infection transmise par le lait cru et le contact avec les animaux d'élevage (bovins, chèvres).",
+   "resume": "Zoonose bactérienne (Brucella) transmise par le lait cru, le fromage frais non pasteurisé, la viande peu cuite et le contact avec les animaux d'élevage infectés (bovins, chèvres, moutons, porcs), surtout lors des mises bas et des avortements. Présente dans les zones pastorales de l'Est de la RDC (Ituri, Kivu). Maladie souvent chronique et trompeuse, qui exige un traitement de plusieurs semaines pour éviter les rechutes.",
    "signes": [
-    "Fièvre souvent vespérale avec sueurs abondantes, parfois sans autre signe pendant des semaines",
-    "Fièvre prolongée ou ondulante, sueurs nocturnes",
-    "Fatigue, douleurs articulaires et lombaires",
-    "Hépatosplénomégalie",
-    "Complications : spondylite, orchite, endocardite"
+    "Fièvre souvent vespérale, ondulante (périodes de fièvre de quelques jours à semaines séparées de rémissions), avec sueurs nocturnes abondantes à odeur particulière, parfois sans autre signe",
+    "Grande fatigue, perte de poids, douleurs articulaires et musculaires, céphalées",
+    "Gros foie, grosse rate, ganglions",
+    "Localisations : atteinte de la colonne lombaire (spondylodiscite, douleurs du dos), sacro-iliite, arthrite du genou ou de la hanche ; orchi-épididymite ; endocardite (cause principale de décès) ; neurobrucellose (méningite, encéphalite) ; avortement chez la femme enceinte",
+    "Forme chronique : asthénie, douleurs, dépression"
    ],
    "diagnostic": [
-    "Contexte (éleveurs, lait cru)",
-    "Sérologie (Rose Bengale) si disponible",
-    "Éliminer tuberculose, paludisme, typhoïde",
-    "Hémocultures (culture prolongée, prévenir le laboratoire) si disponibles",
-    "NFS : leucocytes normaux ou bas"
+    "Contexte : éleveur, boucher, vétérinaire, laborantin, consommation de lait cru",
+    "Sérologie : test au Rose Bengale (dépistage), séro-agglutination de Wright (positive à partir de 1/160)",
+    "Hémocultures (croissance lente : prévenir le laboratoire, incubation prolongée, risque de contamination du personnel) ; culture de la moelle",
+    "NFS : leucocytes normaux ou bas ; transaminases ; imagerie du rachis si douleurs (radiographie, IRM) ; échographie cardiaque si souffle",
+    "Différentiels : tuberculose (surtout rachidienne), paludisme, typhoïde, leishmaniose, lymphome, endocardite d'autre cause"
    ],
    "traitement": [
-    "Adulte : doxycycline 100 mg 2 fois par jour pendant 6 semaines + gentamicine 5 mg/kg/j pendant 7 jours (ou + rifampicine 6 semaines)",
-    "Enfant < 8 ans : cotrimoxazole + rifampicine 6 semaines",
-    "Femme enceinte : rifampicine (± cotrimoxazole après 12 SA, avis)",
-    "Atteinte vertébrale (spondylite) ou endocardite : traitement prolongé (3 mois ou plus), avis spécialisé",
-    "Paracétamol, repos ; suivi en fin de traitement (rechutes possibles)"
+    "Adulte et enfant de plus de 8 ans, forme non compliquée : doxycycline 100 mg 2 fois par jour pendant 6 semaines + gentamicine 5 mg/kg par jour IM ou IV pendant 7 jours (ou streptomycine 1 g par jour 2 à 3 semaines)",
+    "Alternative orale : doxycycline 6 semaines + rifampicine 600 à 900 mg par jour (15 mg/kg) pendant 6 semaines",
+    "Enfant de moins de 8 ans : cotrimoxazole (8 à 10 mg/kg par jour de triméthoprime en 2 prises) + rifampicine 15 à 20 mg/kg par jour pendant 6 semaines, ou + gentamicine 7 jours",
+    "Femme enceinte : rifampicine 900 mg par jour pendant 6 semaines, éventuellement avec cotrimoxazole entre 13 et 36 semaines (avis spécialisé)",
+    "Spondylodiscite : doxycycline + rifampicine pendant au moins 3 mois, avec gentamicine les 2 premières semaines ; repos, antalgiques ; drainage d'un abcès",
+    "Neurobrucellose : doxycycline + rifampicine + ceftriaxone pendant 3 à 6 mois",
+    "Endocardite : association de 3 antibiotiques et chirurgie valvulaire, avis spécialisé",
+    "Paracétamol, repos, nutrition",
+    "Rifampicine : interactions (contraceptifs, ARV), urines orange",
+    "Suivi : clinique à la fin du traitement et à 3, 6 et 12 mois (rechutes dans 5 à 15 % des cas)",
+    "Signaler les cas aux services vétérinaires (enquête sur le troupeau)"
    ],
    "gravite": [
-    "Atteinte vertébrale, endocardite, neurobrucellose"
+    "Endocardite (souffle, insuffisance cardiaque)",
+    "Neurobrucellose (troubles de conscience, méningite, déficit)",
+    "Spondylodiscite avec abcès, déficit neurologique",
+    "Avortement chez la femme enceinte"
    ],
    "prevention": [
-    "Faire bouillir le lait, protection lors des mises bas",
-    "Port de gants lors des mises bas et des abattages, vaccination du bétail"
+    "Faire bouillir ou pasteuriser le lait, éviter les fromages frais au lait cru",
+    "Gants et protection lors des mises bas, avortements d'animaux et abattages ; ne pas manipuler les placentas à mains nues",
+    "Vaccination et dépistage du bétail, abattage des animaux infectés",
+    "Précautions de sécurité au laboratoire"
    ],
    "medicaments": [
     "Doxycycline",
     "Gentamicine",
+    "Streptomycine",
     "Rifampicine",
-    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)"
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
+    "Ceftriaxone",
+    "Paracétamol"
    ]
   },
   {
@@ -39173,34 +39304,50 @@
    "nom": "Rickettsioses (typhus)",
    "categorie": "infections",
    "synonymes": "rickettsiose, typhus, fièvre à tiques, fièvre boutonneuse, tache noire",
-   "resume": "Infections transmises par les poux (typhus épidémique, prisons et camps), les tiques ou les puces.",
+   "resume": "Infections par des bactéries intracellulaires (Rickettsia) transmises par les poux de corps (typhus épidémique, R. prowazekii), les tiques (fièvres boutonneuses : fièvre à tiques africaine, R. africae ; fièvre boutonneuse méditerranéenne, R. conorii) ou les puces (typhus murin). Le typhus épidémique cause des épidémies meurtrières dans les prisons et les camps de déplacés de la région des Grands Lacs. La doxycycline est efficace et doit être donnée sur la suspicion.",
    "signes": [
-    "Fièvre élevée, céphalées intenses, douleurs",
-    "Éruption maculopapuleuse",
-    "Escarre noire au point de piqûre (tache noire, fièvres à tiques)",
-    "Typhus épidémique : confusion, toux, contexte de poux"
+    "Fièvre élevée brutale, céphalées très intenses, douleurs musculaires, fatigue",
+    "Fièvres à tiques : escarre noire indolore au point de piqûre (tache noire), ganglion satellite ; éruption maculopapuleuse ou vésiculeuse touchant souvent les paumes et les plantes",
+    "Typhus épidémique : éruption débutant au tronc et épargnant le visage, les paumes et les plantes ; confusion, stupeur (« typhos »), toux, hypotension ; contexte de poux",
+    "Typhus murin : forme modérée, contexte de rats et de puces",
+    "Complications : pneumonie, myocardite, encéphalite, insuffisance rénale, gangrène des extrémités"
    ],
    "diagnostic": [
-    "Diagnostic clinique et épidémiologique",
-    "TDR paludisme",
-    "Penser au typhus devant une fièvre dans une prison, un camp de déplacés ou en présence de poux"
+    "Diagnostic clinique et épidémiologique ; ne pas attendre de confirmation pour traiter",
+    "Penser au typhus devant une fièvre dans une prison, un camp de déplacés, une population sans eau pour se laver, ou en présence de poux",
+    "Chercher l'escarre (cuir chevelu, aisselles, plis, organes génitaux)",
+    "TDR paludisme ; NFS (plaquettes basses), sodium bas, transaminases élevées",
+    "Sérologie (souvent rétrospective) ou PCR sur l'escarre si disponible",
+    "Différentiels : paludisme, typhoïde, méningococcémie, rougeole, dengue, leptospirose, fièvres récurrentes"
    ],
    "traitement": [
-    "Doxycycline 100 mg 2 fois par jour pendant 5 à 7 jours (ou 200 mg en dose unique pour le typhus épidémique), y compris chez l'enfant et dans les formes graves",
-    "Alternative : chloramphénicol",
-    "Épouillage en cas de typhus"
+    "Doxycycline 100 mg 2 fois par jour (enfant 2,2 mg/kg 2 fois par jour, maximum 100 mg) jusqu'à 3 jours après la disparition de la fièvre, au moins 5 à 7 jours ; la doxycycline est le traitement de choix aussi chez l'enfant de moins de 8 ans et dans les formes graves (traitement court, pas de coloration dentaire significative)",
+    "Typhus épidémique en situation d'épidémie : doxycycline 200 mg en dose unique (enfant 4 mg/kg)",
+    "Alternatives : chloramphénicol 50 à 75 mg/kg par jour en 4 prises ; azithromycine chez la femme enceinte (formes modérées)",
+    "La fièvre disparaît en 24 à 72 h ; absence d'amélioration : revoir le diagnostic",
+    "Forme grave : hospitalisation, remplissage prudent, oxygène, surveillance rénale",
+    "Typhus épidémique : épouillage du patient et de l'entourage (poudre insecticide sur les vêtements, lavage du linge à plus de 60 °C ou isolement des vêtements dans un sac pendant 2 semaines) ; déclaration immédiate",
+    "Tiques : retirer la tique avec une pince, sans l'écraser, en tirant doucement"
    ],
    "gravite": [
-    "Troubles de conscience, choc, atteinte pulmonaire"
+    "Troubles de conscience, convulsions",
+    "Hypotension, choc, insuffisance rénale",
+    "Détresse respiratoire, pneumonie",
+    "Gangrène des extrémités",
+    "Sujet âgé, malnutrition"
    ],
    "prevention": [
-    "Lutte contre les poux (vêtements lavés, insecticides) et les tiques"
+    "Lutte contre les poux : accès à l'eau et au savon, lavage du linge, épouillage collectif dans les camps et les prisons",
+    "Lutte contre les tiques (vêtements longs, répulsifs, inspection du corps après la brousse) et les puces (rats)",
+    "Surveillance des fièvres dans les collectivités"
    ],
    "medicaments": [
     "Doxycycline",
     "Chloramphénicol",
+    "Azithromycine",
     "Paracétamol",
-    "Perméthrine 5 %"
+    "Perméthrine 5 %",
+    "Ringer lactate"
    ]
   },
   {
@@ -39208,37 +39355,50 @@
    "nom": "Fièvre (démarche diagnostique)",
    "categorie": "infections",
    "synonymes": "fièvre, hyperthermie, température, corps chaud, fièvre prolongée",
-   "resume": "Température ≥ 38 °C. La démarche cherche d'abord les signes de gravité, puis une cause traitable (paludisme en premier en zone d'endémie).",
+   "resume": "Température axillaire ≥ 37,5 °C ou rectale ≥ 38 °C. La fièvre est un signe, pas une maladie : la démarche cherche d'abord les signes de gravité, puis une cause traitable, en commençant par le paludisme en zone d'endémie, sans oublier que plusieurs infections peuvent coexister. Une fièvre de plus de 7 jours, une fièvre chez le nourrisson de moins de 2 mois ou une fièvre avec saignements demandent une démarche particulière.",
    "signes": [
-    "Température axillaire ≥ 37,5 °C ou rectale ≥ 38 °C",
-    "Signes associés orientant la cause : toux et polypnée (pneumonie), raideur de nuque (méningite), brûlures urinaires, diarrhée, éruption, ictère, douleur osseuse ou articulaire, otalgie",
-    "Fièvre > 7 jours : typhoïde, tuberculose, VIH, brucellose, abcès, endocardite, leishmaniose"
+    "Mesurer la température (axillaire + 0,5 °C ≈ rectale) ; le sujet âgé, le malnutri et le nouveau-né peuvent faire une hypothermie à la place",
+    "Orientation selon les signes associés : toux, polypnée, tirage (pneumonie) ; raideur de nuque, troubles de conscience (méningite, paludisme grave) ; brûlures urinaires, douleur lombaire (pyélonéphrite) ; diarrhée sanglante (dysenterie) ; douleur et écoulement d'oreille (otite) ; gorge rouge (angine) ; éruption (rougeole, varicelle, dengue, méningococcie, réaction médicamenteuse) ; ictère (paludisme, hépatite, leptospirose, fièvre jaune, angiocholite, crise drépanocytaire) ; douleur osseuse ou articulaire (ostéomyélite, arthrite) ; ganglions (tuberculose, VIH)",
+    "Contextes particuliers : post-partum ou post-abortum (endométrite), postopératoire (infection du site, thrombose), VIH (tuberculose, cryptocoque, pneumocystose, salmonellose), drépanocytose (infection grave)",
+    "Fièvre de plus de 7 jours : typhoïde, tuberculose, VIH, brucellose, abcès profond, endocardite, leishmaniose, THA, lymphome, maladie inflammatoire"
    ],
    "diagnostic": [
-    "TDR ou goutte épaisse paludisme chez tout patient fébrile en zone d'endémie",
-    "Examen complet : gorge, oreilles, poumons, abdomen, peau, articulations, nuque",
-    "Selon l'orientation : bandelette urinaire, NFS, hémoculture, ponction lombaire, radiographie",
-    "Nourrisson < 2 mois : toute fièvre est grave (sepsis néonatal)"
+    "TDR ou goutte épaisse chez tout patient fébrile en zone d'endémie ; un test positif n'exclut pas une autre infection associée",
+    "Examen complet du patient déshabillé : gorge, oreilles, poumons, cœur (souffle), abdomen, peau, articulations, nuque, ganglions ; peser l'enfant",
+    "Selon l'orientation : bandelette urinaire, NFS, CRP, hémoculture, ponction lombaire, radiographie du thorax, GeneXpert, test VIH",
+    "Fièvre prolongée : NFS, hémocultures répétées, VIH, tuberculose (GeneXpert, radiographie), échographie abdominale (abcès, ganglions), échographie cardiaque, sérologie brucellose, rK39 si séjour en zone de kala-azar, recherche de THA",
+    "Fièvre avec saignements, contexte d'épidémie (Ebola, Marburg, fièvre jaune) : isoler immédiatement, protection du personnel, alerte",
+    "Nourrisson de moins de 2 mois : toute fièvre est une infection bactérienne grave possible (voir la fiche Sepsis néonatal)"
    ],
    "traitement": [
-    "Traiter la cause (antipaludique si TDR positif)",
-    "Paracétamol si fièvre mal tolérée ; découvrir l'enfant, faire boire",
-    "Pas d'antibiotique « à l'aveugle » sans foyer, sauf signe de gravité ou nourrisson < 2 mois",
-    "Revoir à 48 h si la fièvre persiste"
+    "Traiter la cause : antipaludique si TDR positif, antibiotique adapté au foyer trouvé",
+    "Enfant fébrile avec signe de danger, TDR positif ou négatif : 1re dose d'artésunate et de ceftriaxone, puis transfert (PCIME)",
+    "Pas d'antibiotique « à l'aveugle » sans foyer chez un patient sans signe de gravité : paracétamol et nouvelle évaluation à 48 h ; fièvre persistante plus de 7 jours : référer pour bilan",
+    "Paracétamol 15 mg/kg toutes les 6 h (maximum 60 mg/kg par jour ; adulte 1 g toutes les 6 h, maximum 4 g, 2 g si dénutrition ou alcool) si la fièvre est mal tolérée",
+    "Ibuprofène 10 mg/kg toutes les 8 h en alternative, pas avant 3 mois, ni en cas de dengue suspectée, de déshydratation, de varicelle ou d'ulcère",
+    "Découvrir l'enfant, faire boire souvent, poursuivre l'allaitement ; pas d'enveloppement froid, d'alcool ni de bain glacé",
+    "Fièvre chez la personne vivant avec le VIH : rechercher systématiquement la tuberculose (TB-LAM, GeneXpert) et l'antigène cryptococcique si CD4 bas",
+    "Fièvre chez le drépanocytaire de moins de 5 ans : antibiotique (ceftriaxone ou amoxicilline) après prélèvements, même sans foyer",
+    "Expliquer à la famille les signes qui doivent faire revenir immédiatement"
    ],
    "gravite": [
-    "Signes de danger chez l'enfant (incapable de boire, vomit tout, convulsions, léthargie)",
+    "Enfant : incapable de boire ou téter, vomit tout, convulsions, léthargie ou inconscience",
     "Troubles de conscience, raideur de nuque, purpura",
-    "Détresse respiratoire, choc",
-    "Nourrisson < 2 mois"
+    "Détresse respiratoire, SpO₂ < 90 %, choc (extrémités froides, TRC > 3 s)",
+    "Saignements",
+    "Nourrisson de moins de 2 mois",
+    "Malnutrition sévère, drépanocytose, VIH avancé, neutropénie (chimiothérapie)",
+    "Fièvre > 40 °C mal tolérée ou fièvre > 7 jours"
    ],
    "prevention": [
-    "Moustiquaire imprégnée, vaccination à jour"
+    "Moustiquaire imprégnée, vaccinations à jour (PEV), eau potable et hygiène",
+    "Consulter dans les 24 h devant toute fièvre de l'enfant"
    ],
    "medicaments": [
     "Paracétamol",
     "Ibuprofène",
     "Artéméther + luméfantrine",
+    "Artésunate (injectable)",
     "Ceftriaxone",
     "Amoxicilline"
    ]
@@ -40302,35 +40462,48 @@
    "nom": "Fièvres récurrentes (borrélioses)",
    "categorie": "infections",
    "synonymes": "fièvre récurrente, borréliose, Borrelia, poux, tiques",
-   "resume": "Infections à Borrelia transmises par les poux de corps (épidémies dans les camps et prisons) ou par les tiques, avec des accès fébriles qui se répètent.",
+   "resume": "Infections à spirochètes du genre Borrelia : fièvre récurrente à poux (B. recurrentis), épidémique dans les camps, prisons et populations déplacées (Éthiopie, Soudan, Soudan du Sud, Burundi) ; fièvre récurrente à tiques (B. duttonii), endémique en Afrique de l'Est et centrale, dont la RDC et la Tanzanie, transmise par les tiques molles des maisons en terre. Les accès fébriles se répètent ; la forme à tiques est grave chez la femme enceinte (avortement, mort néonatale).",
    "signes": [
-    "Accès de fièvre élevée brutale avec frissons, céphalées, douleurs, durant quelques jours, séparés de périodes sans fièvre",
-    "Splénomégalie, ictère, saignements",
-    "Atteinte neurologique (forme à tiques)"
+    "Accès de fièvre élevée brutale (39 à 40 °C), frissons, céphalées, douleurs musculaires et articulaires, durant 3 à 7 jours, se terminant brutalement par des sueurs et une chute de tension",
+    "Rechutes après 5 à 10 jours sans fièvre : 1 à 2 rechutes pour la forme à poux, jusqu'à 10 pour la forme à tiques",
+    "Grosse rate, gros foie, ictère",
+    "Saignements (nez, pétéchies, crachats), toux",
+    "Forme à tiques : atteinte neurologique (méningite, paralysie faciale, troubles de conscience)",
+    "Femme enceinte : avortement, accouchement prématuré, infection du nouveau-né"
    ],
    "diagnostic": [
-    "Frottis sanguin ou goutte épaisse prélevés pendant la fièvre (spirochètes visibles)",
-    "TDR paludisme (diagnostic différentiel)"
+    "Frottis sanguin ou goutte épaisse prélevés pendant la fièvre : spirochètes visibles (parfois découverts lors de la recherche de paludisme) ; moins de bactéries dans la forme à tiques : répéter les examens",
+    "Contexte : poux de corps, camp ou prison (forme à poux) ; maison en terre, tiques (forme à tiques)",
+    "NFS : plaquettes basses ; TDR paludisme",
+    "Différentiels : paludisme, typhus, typhoïde, leptospirose, fièvre jaune, méningite"
    ],
    "traitement": [
-    "Forme à poux : doxycycline 100 mg (ou 200 mg) dose unique ; enfant et femme enceinte : érythromycine dose unique",
-    "Forme à tiques : doxycycline 5 à 10 jours (érythromycine chez l'enfant et la femme enceinte)",
-    "Surveiller la réaction de Jarisch-Herxheimer (frissons, chute de TA 1 à 4 h après la 1re dose) : remplissage",
-    "Épouillage de la population"
+    "Forme à poux : doxycycline 100 mg (ou 200 mg) en dose unique ; enfant et femme enceinte : érythromycine 500 mg en dose unique (enfant de moins de 5 ans 250 mg) ; ou doxycycline chez l'enfant (4 mg/kg)",
+    "Forme à tiques : doxycycline 100 mg 2 fois par jour pendant 7 à 10 jours ; enfant et femme enceinte : érythromycine 500 mg 4 fois par jour (enfant 12,5 mg/kg 4 fois par jour) pendant 10 jours ; atteinte neurologique : ceftriaxone 2 g par jour (enfant 75 mg/kg) pendant 10 à 14 jours",
+    "Réaction de Jarisch-Herxheimer (frissons intenses, fièvre, chute de TA, 1 à 4 h après la 1re dose) : fréquente ; garder le patient en observation au moins 6 h, voie veineuse, remplissage au Ringer lactate, paracétamol",
+    "Hydratation, paracétamol ; traiter les saignements et l'anémie",
+    "Forme à poux : épouillage de tous les patients et de leur entourage (perméthrine sur les vêtements, lavage du linge à chaud) ; déclarer les cas (épidémie)",
+    "Forme à tiques : traiter les maisons (insecticide), crépir les murs et sols"
    ],
    "gravite": [
-    "Réaction de Jarisch-Herxheimer, choc",
-    "Ictère, hémorragies",
-    "Atteinte neurologique"
+    "Réaction de Jarisch-Herxheimer sévère, choc",
+    "Ictère, saignements, myocardite",
+    "Atteinte neurologique",
+    "Femme enceinte, nouveau-né",
+    "Malnutrition, épidémie en camp"
    ],
    "prevention": [
-    "Lutte contre les poux de corps et les tiques"
+    "Lutte contre les poux de corps (eau, savon, lavage du linge, épouillage collectif)",
+    "Lutte contre les tiques dans l'habitat (sols cimentés, insecticides, moustiquaires imprégnées)",
+    "Traitement préventif par doxycycline des personnes exposées lors d'une épidémie selon les autorités"
    ],
    "medicaments": [
     "Doxycycline",
     "Érythromycine",
+    "Ceftriaxone",
     "Perméthrine 5 %",
-    "Ringer lactate"
+    "Ringer lactate",
+    "Paracétamol"
    ]
   },
   {
@@ -41691,38 +41864,58 @@
    "nom": "Encéphalites virales (dont herpétique)",
    "categorie": "infections",
    "synonymes": "encéphalite, encéphalite herpétique, troubles de conscience fébriles, convulsions fébriles adulte",
-   "resume": "Inflammation du cerveau d'origine virale. L'encéphalite herpétique est la plus fréquente des formes graves sporadiques et se traite par aciclovir.",
+   "resume": "Inflammation du cerveau d'origine virale. L'encéphalite herpétique (HSV-1) est la plus fréquente des encéphalites sporadiques graves ; sans aciclovir, la mortalité dépasse 70 %. Autres causes : rougeole, varicelle, VIH, cytomégalovirus (immunodéprimé), arbovirus, rage ; encéphalites post-infectieuses (ADEM) et auto-immunes. En zone tropicale, le paludisme grave, la méningite bactérienne, la tuberculose et la THA doivent être traités ou exclus en même temps.",
    "signes": [
     "Fièvre, céphalées",
-    "Troubles du comportement, confusion, troubles de la parole, hallucinations",
-    "Convulsions, troubles de conscience, déficit focal"
+    "Troubles du comportement, confusion, désorientation, troubles de la mémoire et du langage (aphasie), hallucinations olfactives ou gustatives (herpès, lobe temporal)",
+    "Convulsions, souvent focales, état de mal",
+    "Troubles de conscience, coma",
+    "Déficit moteur, paralysie des nerfs crâniens",
+    "Encéphalite auto-immune (anti-NMDA) : femme jeune, troubles psychiatriques puis mouvements anormaux, convulsions, dysautonomie",
+    "Nouveau-né : herpès néonatal (vésicules, sepsis, convulsions)"
    ],
    "diagnostic": [
-    "Ponction lombaire (lymphocytes, protéines élevées, glucose normal) ; PCR HSV si disponible",
-    "TDR paludisme (paludisme grave), glycémie",
-    "Imagerie si disponible",
-    "Éliminer méningite bactérienne, abcès, toxoplasmose (VIH), rage, trypanosomiase"
+    "Ponction lombaire (après imagerie si signes de localisation ou d'hypertension intracrânienne) : lymphocytes, protéines modérément élevées, glucose normal ; parfois globules rouges (herpès) ; PCR HSV si disponible",
+    "TDR paludisme, glycémie, test VIH systématiques",
+    "Scanner ou IRM : lésions temporales (herpès), œdème ; EEG si disponible",
+    "Éliminer : méningite bactérienne, paludisme grave, abcès cérébral, toxoplasmose et cryptocoque (VIH), tuberculose, rage, THA, troubles métaboliques, intoxication",
+    "Natrémie (sécrétion inappropriée d'ADH fréquente)"
    ],
    "traitement": [
-    "Aciclovir IV 10 mg/kg toutes les 8 h pendant 14 à 21 jours (enfant 3 mois à 12 ans : 10 à 15 mg/kg ; nouveau-né : 20 mg/kg toutes les 8 h), à débuter dès la suspicion",
-    "Traiter en même temps une méningite bactérienne et un paludisme grave en attendant",
-    "Convulsions : diazépam puis phénobarbital ou lévétiracétam",
-    "Hydratation sans excès, position, prévention des escarres"
+    "Aciclovir IV dès la suspicion, sans attendre les examens : adulte 10 mg/kg toutes les 8 h pendant 14 jours (21 jours chez l'immunodéprimé) ; enfant de 3 mois à 12 ans 15 à 20 mg/kg toutes les 8 h ; nouveau-né 20 mg/kg toutes les 8 h pendant 21 jours",
+    "Perfusion lente sur 1 h, bonne hydratation (risque d'insuffisance rénale par cristaux) ; réduire la dose si insuffisance rénale ; surveiller la créatinine",
+    "En attendant les résultats : ceftriaxone (méningite bactérienne) et artésunate (paludisme grave si TDR positif ou impossible)",
+    "Convulsions : diazépam ou midazolam, puis phénobarbital 20 mg/kg ou lévétiracétam 20 à 40 mg/kg IV, puis traitement d'entretien",
+    "Hypertension intracrânienne : tête surélevée à 30°, éviter les solutés hypotoniques, mannitol 0,5 à 1 g/kg si engagement",
+    "Soins du patient comateux : liberté des voies aériennes, position latérale, sonde gastrique, nutrition, prévention des escarres et des thromboses, soins des yeux",
+    "Encéphalite post-infectieuse (ADEM) ou auto-immune : corticoïdes à fortes doses (méthylprednisolone), avis spécialisé ; rechercher un tératome ovarien (anti-NMDA)",
+    "VIH : encéphalite à CMV (ganciclovir), leucoencéphalopathie : ARV",
+    "Rééducation précoce (kinésithérapie, orthophonie), suivi des séquelles cognitives et de l'épilepsie"
    ],
    "gravite": [
-    "Coma, état de mal",
-    "Œdème cérébral"
+    "Coma, état de mal épileptique",
+    "Signes d'engagement cérébral (pupille dilatée, respiration irrégulière)",
+    "Hyponatrémie sévère",
+    "Nouveau-né, immunodéprimé",
+    "Retard de l'aciclovir : séquelles lourdes (mémoire, langage, épilepsie)"
    ],
    "prevention": [
-    "Vaccination (rougeole, rage post-exposition)"
+    "Vaccinations : rougeole, varicelle (là où disponible) ; prophylaxie de la rage après exposition",
+    "Traitement ARV précoce chez les personnes vivant avec le VIH",
+    "Accouchement par césarienne si lésions d'herpès génital actives au moment du travail"
    ],
    "medicaments": [
     "Aciclovir",
     "Ceftriaxone",
     "Artésunate (injectable)",
     "Diazépam",
+    "Midazolam",
     "Phénobarbital",
-    "Lévétiracétam"
+    "Lévétiracétam",
+    "Mannitol 20 %",
+    "Méthylprednisolone",
+    "Valganciclovir (ganciclovir)",
+    "Paracétamol"
    ]
   },
   {
@@ -43182,33 +43375,51 @@
    "nom": "Oreillons",
    "categorie": "infections",
    "synonymes": "oreillons, parotidite, joues gonflées",
-   "resume": "Infection virale de l'enfant et de l'adulte jeune, touchant les glandes salivaires, parfois les testicules, le pancréas ou les méninges.",
+   "resume": "Infection virale contagieuse (paramyxovirus) de l'enfant et de l'adulte jeune, transmise par les gouttelettes et la salive. Elle touche surtout les glandes salivaires (parotides), parfois les testicules, les ovaires, le pancréas, les méninges ou l'oreille interne. Généralement bénigne chez l'enfant, plus sévère chez l'adulte. Le vaccin ROR n'est pas inclus dans le PEV de routine en RDC (vaccin rougeole-rubéole).",
    "signes": [
-    "Incubation de 16 à 18 jours ; contagieux 2 jours avant et 5 jours après le début du gonflement",
-    "Fièvre, gonflement douloureux d'une ou des deux parotides (devant l'oreille)",
-    "Douleur à la mastication",
-    "Complications : orchite (homme après la puberté), méningite, pancréatite, surdité"
+    "Incubation de 16 à 18 jours (12 à 25) ; contagieux 2 jours avant à 5 jours après le début du gonflement",
+    "Fièvre modérée, malaise, puis gonflement douloureux d'une ou des deux parotides (devant et sous l'oreille, effaçant l'angle de la mâchoire), oreille décollée",
+    "Douleur à la mastication et aux aliments acides ; orifice du canal de Sténon rouge, sans pus",
+    "Orchite (20 à 30 % des hommes après la puberté) : 4 à 10 jours après la parotidite, testicule gonflé, très douloureux, fièvre",
+    "Ovarite, mastite",
+    "Méningite (céphalées, raideur de nuque, vomissements), le plus souvent bénigne ; encéphalite rare",
+    "Pancréatite (douleur abdominale haute, vomissements)",
+    "Surdité brutale, souvent d'un seul côté et définitive"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Éliminer une parotidite bactérienne (pus au canal de Sténon), une obstruction salivaire, un VIH (parotidite chronique)"
+    "Diagnostic clinique, surtout en contexte d'épidémie",
+    "Amylase élevée (non spécifique) ; PCR salivaire ou sérologie IgM si confirmation nécessaire (épidémie)",
+    "Ponction lombaire si signes méningés (liquide clair à lymphocytes)",
+    "Différentiels : parotidite bactérienne (pus au canal de Sténon, sujet âgé déshydraté), calcul salivaire, ganglion cervical, parotidite chronique du VIH, tumeur, abcès dentaire"
    ],
    "traitement": [
-    "Paracétamol, alimentation liquide ou molle, hygiène buccale",
-    "Orchite : repos, suspensoir, antalgiques",
-    "Éviction scolaire 5 jours après le début du gonflement"
+    "Pas de traitement antiviral ; paracétamol ou ibuprofène, compresses chaudes ou froides sur les parotides",
+    "Alimentation liquide ou molle, éviter les aliments acides, bonne hydratation, hygiène buccale (rinçages)",
+    "Orchite : repos au lit, suspensoir ou slip serré, glace, antalgiques (ibuprofène), parfois corticoïdes pour la douleur ; elle guérit en 1 à 2 semaines ; atrophie testiculaire possible",
+    "Méningite : hospitalisation si doute avec une méningite bactérienne (ceftriaxone en attendant le résultat de la ponction)",
+    "Pancréatite : à jeun, perfusion, antalgiques",
+    "Parotidite bactérienne (pus) : cloxacilline ou amoxicilline + acide clavulanique, hydratation",
+    "Éviction scolaire ou du travail 5 jours après le début du gonflement",
+    "Femme enceinte au 1er trimestre : risque de fausse couche, suivi",
+    "Contrôle de l'audition si plainte de l'enfant"
    ],
    "gravite": [
-    "Méningite, surdité, pancréatite",
-    "Orchite des deux côtés (risque d'infertilité)",
-    "Raideur de nuque, vomissements (méningite)"
+    "Raideur de nuque, vomissements, troubles de conscience (méningite, encéphalite)",
+    "Orchite des deux côtés (risque d'hypofertilité)",
+    "Douleur abdominale intense (pancréatite)",
+    "Baisse brutale de l'audition"
    ],
    "prevention": [
-    "Vaccination ROR là où elle est disponible"
+    "Vaccin rougeole-oreillons-rubéole (2 doses) là où il est disponible",
+    "Isolement du malade pendant 5 jours après le début du gonflement",
+    "Lavage des mains, ne pas partager couverts et verres"
    ],
    "medicaments": [
     "Paracétamol",
     "Ibuprofène",
+    "Cloxacilline",
+    "Amoxicilline + acide clavulanique",
+    "Ceftriaxone",
     "Vaccin rougeole-oreillons-rubéole (ROR)"
    ]
   },
