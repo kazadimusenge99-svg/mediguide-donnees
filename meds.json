@@ -1,5 +1,5 @@
 {
- "version": 39,
+ "version": 40,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -35675,38 +35675,57 @@
    "nom": "Conjonctivite",
    "categorie": "yeux",
    "synonymes": "conjonctivite, yeux rouges, œil qui coule, ophtalmie",
-   "resume": "Inflammation de la conjonctive, bactérienne, virale ou allergique. Chez le nouveau-né, la conjonctivite purulente peut être gonococcique (urgence).",
+   "resume": "Inflammation de la conjonctive (œil rouge sans baisse de vision), bactérienne, virale (la plus fréquente, souvent en épidémies) ou allergique. Chez le nouveau-né, la conjonctivite purulente peut être due au gonocoque (urgence : risque de perforation de la cornée et de cécité) ou à Chlamydia. Il faut savoir reconnaître les urgences qui se présentent aussi par un œil rouge (kératite, uvéite, glaucome aigu, corps étranger) et éviter les collyres corticoïdes et les médicaments traditionnels.",
    "signes": [
-    "Œil rouge, larmoiement, sensation de sable",
-    "Sécrétions purulentes (bactérienne)",
-    "Prurit, œdème des paupières (allergique)",
-    "Nouveau-né : pus abondant, œdème des paupières dans les premiers jours"
+    "Œil rouge, larmoiement, sensation de sable, paupières collées le matin, vision normale",
+    "Bactérienne : sécrétions purulentes jaunes, souvent un œil puis l'autre",
+    "Virale : sécrétions claires, ganglion devant l'oreille, rhume, contexte épidémique",
+    "Allergique : démangeaisons intenses, œdème des paupières, larmoiement, des 2 côtés, rhinite allergique ; conjonctivite printanière (garçon, démangeaisons, sécrétions filantes, nodules au bord de la cornée)",
+    "Gonococcique : pus très abondant qui revient dès qu'on l'essuie, paupières très gonflées",
+    "Nouveau-né : pus et œdème des paupières dans les 2 à 5 premiers jours (gonocoque) ou entre 5 et 14 jours (Chlamydia)"
    ],
    "diagnostic": [
-    "Éliminer un corps étranger, une kératite (douleur intense, baisse de vision), un glaucome aigu",
-    "Trachome : follicules, cicatrices de la paupière supérieure"
+    "Mesurer l'acuité visuelle",
+    "Éliminer : corps étranger (retourner la paupière supérieure), kératite (douleur intense, photophobie, baisse de vision, tache sur la cornée à la fluorescéine), uvéite (douleur, rougeur autour de la cornée, pupille petite ou irrégulière), glaucome aigu (œil dur, pupille moyenne, vomissements), cellulite orbitaire",
+    "Trachome : follicules et cicatrices de la paupière supérieure",
+    "Prélèvement (Gram) si conjonctivite du nouveau-né ou hyperpurulente",
+    "Usage de médicaments traditionnels dans l'œil"
    ],
    "traitement": [
-    "Nettoyage des yeux au sérum physiologique",
-    "Bactérienne : tétracycline pommade 2 fois par jour pendant 7 jours",
-    "Nouveau-né avec conjonctivite purulente : ceftriaxone IM dose unique + nettoyage fréquent ; traiter la mère et son partenaire",
-    "Trachome : azithromycine dose unique (ou tétracycline pommade 6 semaines)"
+    "Nettoyage des yeux au sérum physiologique ou à l'eau bouillie refroidie plusieurs fois par jour, de l'angle interne vers l'extérieur, compresse différente pour chaque œil ; lavage des mains",
+    "Bactérienne : tétracycline pommade 1 % 2 à 4 fois par jour pendant 7 jours, ou azithromycine collyre 1,5 % 2 fois par jour pendant 3 jours",
+    "Virale : soins locaux, compresses fraîches ; pas d'antibiotique sauf surinfection (voir la fiche Kérato-conjonctivite virale)",
+    "Allergique : compresses froides, éviter de frotter, antihistaminique oral ; conjonctivite printanière : avis ophtalmologique",
+    "Adulte avec conjonctivite hyperpurulente (gonocoque) : ceftriaxone 1 g IM en dose unique + lavages fréquents, traitement des partenaires",
+    "Conjonctivite à inclusions de l'adulte (Chlamydia) : azithromycine 1 g ou doxycycline 7 jours",
+    "Nouveau-né avec conjonctivite purulente : ceftriaxone 50 mg/kg IM en dose unique (maximum 125 mg) + lavages au sérum physiologique toutes les heures jusqu'à disparition du pus ; Chlamydia : érythromycine 12,5 mg/kg 4 fois par jour pendant 14 jours ou azithromycine 20 mg/kg par jour pendant 3 jours ; traiter la mère et son partenaire",
+    "Trachome : azithromycine en dose unique (voir la fiche dédiée)",
+    "Jamais de collyre corticoïde sans avis ophtalmologique (aggrave herpès et infections fongiques, glaucome, cataracte) ; ne pas utiliser de médicaments traditionnels, de lait ou d'urine dans l'œil"
    ],
    "gravite": [
-    "Baisse de la vision, douleur intense, opacité de la cornée",
-    "Conjonctivite purulente du nouveau-né"
+    "Baisse de la vision, douleur intense, photophobie, opacité de la cornée (kératite, ulcère)",
+    "Conjonctivite purulente du nouveau-né",
+    "Pus très abondant (gonocoque)",
+    "Œil dur et douloureux (glaucome aigu)",
+    "Absence d'amélioration après 3 à 5 jours"
    ],
    "prevention": [
-    "Prophylaxie oculaire à la naissance (tétracycline pommade)",
-    "Lavage du visage, hygiène"
+    "Prophylaxie oculaire à la naissance (tétracycline pommade 1 % dans les 2 yeux)",
+    "Lavage du visage et des mains, linge personnel",
+    "Dépistage et traitement des IST pendant la grossesse",
+    "Pas de médicaments traditionnels dans les yeux"
    ],
    "medicaments": [
     "Tétracycline pommade ophtalmique 1 %",
+    "Azithromycine collyre 1,5 %",
+    "Gentamicine collyre 0,3 %",
+    "Ofloxacine collyre 0,3 %",
     "Ceftriaxone",
     "Azithromycine",
     "Érythromycine",
-    "Azithromycine collyre 1,5 %",
-    "Gentamicine collyre 0,3 %"
+    "Doxycycline",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
+    "Loratadine"
    ]
   },
   {
@@ -36989,36 +37008,52 @@
    "nom": "Dépression",
    "categorie": "mentale",
    "synonymes": "dépression, tristesse, déprime, idées suicidaires",
-   "resume": "Trouble fréquent, souvent méconnu, aggravé par les conflits, la perte et la pauvreté. Prise en charge selon le guide mhGAP de l'OMS.",
+   "resume": "Trouble de l'humeur fréquent (au moins 5 % des adultes), souvent méconnu car exprimé par des plaintes physiques (douleurs, fatigue, insomnie). Aggravée par les conflits, les violences, les deuils, la pauvreté, les maladies chroniques (VIH, tuberculose, diabète, épilepsie) et le post-partum. Elle est une cause majeure d'incapacité et de suicide. La prise en charge par les soignants non spécialistes (guide mhGAP de l'OMS) associe soutien psychosocial, interventions psychologiques simples et, si nécessaire, antidépresseur.",
    "signes": [
-    "Tristesse ou perte d'intérêt la plupart du temps depuis au moins 2 semaines",
-    "Fatigue, troubles du sommeil et de l'appétit",
-    "Difficultés de concentration, sentiment d'inutilité ou de culpabilité",
+    "Tristesse, humeur basse ou perte d'intérêt et de plaisir la plupart du temps, depuis au moins 2 semaines",
+    "Fatigue, manque d'énergie, ralentissement ou agitation",
+    "Troubles du sommeil (insomnie ou hypersomnie) et de l'appétit (perte ou prise de poids)",
+    "Difficultés de concentration et de décision, sentiment d'inutilité, de culpabilité, désespoir",
     "Idées de mort ou suicidaires",
-    "Plaintes physiques multiples (douleurs) sans cause retrouvée"
+    "Plaintes physiques multiples (douleurs, céphalées, « corps lourd », palpitations) sans cause retrouvée",
+    "Retentissement : travail, école, famille, soins des enfants",
+    "Dépression du post-partum : dans l'année suivant l'accouchement, difficulté à s'occuper du bébé",
+    "Dépression sévère avec symptômes psychotiques (idées délirantes de culpabilité, de ruine)"
    ],
    "diagnostic": [
-    "Entretien bienveillant ; rechercher systématiquement les idées suicidaires",
-    "Éliminer une cause organique (hypothyroïdie, anémie, VIH) ou un trouble bipolaire",
-    "Rechercher l'usage d'alcool ou de drogues"
+    "Entretien bienveillant, en privé, en laissant le temps ; poser directement la question des idées suicidaires (cela n'augmente pas le risque) : idées, plan, moyens, tentatives antérieures",
+    "Éliminer une cause physique ou médicamenteuse : hypothyroïdie, anémie, VIH, tuberculose, douleur chronique, AVC, éfavirenz, corticoïdes",
+    "Rechercher un trouble bipolaire (épisodes antérieurs d'excitation) avant tout antidépresseur, l'usage d'alcool ou de drogues, des violences",
+    "Distinguer d'un deuil normal (tristesse en vagues, liée au défunt, sans perte de l'estime de soi)"
    ],
    "traitement": [
-    "Soutien psychosocial, psychoéducation, activation comportementale, résolution de problèmes",
-    "Formes modérées à sévères : antidépresseur (fluoxétine 20 mg/j ; amitriptyline si ISRS indisponible, attention au surdosage) pendant 9 à 12 mois après amélioration",
-    "Revoir régulièrement (chaque semaine au début)",
-    "Mobiliser l'entourage et les ressources communautaires"
+    "Pour tous : psychoéducation (la dépression est une maladie fréquente qui se soigne), réduire le stress, reprendre des activités agréables et une activité physique, maintenir les liens sociaux, dormir régulièrement, éviter l'alcool",
+    "Interventions psychologiques en 1re intention, y compris par des agents formés : activation comportementale, gestion des problèmes (Problem Management Plus), thérapie interpersonnelle en groupe, thérapie cognitivo-comportementale",
+    "Dépression modérée à sévère : antidépresseur en plus : fluoxétine 20 mg le matin (10 mg chez le sujet âgé), augmentée à 40 mg après 2 à 4 semaines si nécessaire (maximum 60 mg) ; effet après 2 à 6 semaines ; amitriptyline 25 mg le soir, augmentée jusqu'à 100 à 150 mg si la fluoxétine n'est pas disponible (dangereuse en surdosage : délivrer de petites quantités ; pas chez le cardiaque ni le sujet âgé)",
+    "Poursuivre 9 à 12 mois après l'amélioration, puis arrêter progressivement sur 4 semaines",
+    "Adolescent de 12 ans et plus : interventions psychologiques d'abord ; fluoxétine seulement en complément, avec surveillance des idées suicidaires ; pas d'antidépresseur avant 12 ans",
+    "Grossesse et allaitement : interventions psychologiques ; si un antidépresseur est nécessaire, fluoxétine à la plus faible dose",
+    "Symptômes psychotiques : ajouter un antipsychotique, avis spécialisé",
+    "Revoir chaque semaine au début (effets indésirables, idées suicidaires, observance), puis chaque mois",
+    "Mobiliser l'entourage et les ressources communautaires (groupes de soutien, leaders religieux), lutter contre la stigmatisation"
    ],
    "gravite": [
-    "Idées ou plan suicidaire, tentative récente → ne pas laisser seul, sécuriser l'environnement, avis spécialisé",
+    "Idées ou plan suicidaire, tentative récente : ne pas laisser seul, retirer les moyens (pesticides, médicaments, cordes), impliquer la famille, plan de sécurité, avis spécialisé, suivi très rapproché",
     "Symptômes psychotiques",
-    "Refus de s'alimenter"
+    "Refus de s'alimenter ou de boire",
+    "Dépression du post-partum avec risque pour le bébé",
+    "Virage maniaque sous antidépresseur"
    ],
    "prevention": [
-    "Soutien social, prévention des violences, prise en charge précoce des traumatismes"
+    "Soutien social, prévention des violences, soutien parental",
+    "Prise en charge précoce des traumatismes et des deuils compliqués",
+    "Dépistage de la dépression chez les personnes atteintes de maladies chroniques et pendant la grossesse et le post-partum",
+    "Restriction de l'accès aux pesticides"
    ],
    "medicaments": [
     "Fluoxétine",
-    "Amitriptyline"
+    "Amitriptyline",
+    "Clomipramine"
    ]
   },
   {
@@ -37026,36 +37061,55 @@
    "nom": "Épisode psychotique aigu et agitation",
    "categorie": "mentale",
    "synonymes": "psychose, folie, délire, hallucinations, agitation, schizophrénie",
-   "resume": "Perte de contact avec la réalité (délire, hallucinations, comportement désorganisé). Toujours rechercher une cause médicale à une agitation.",
+   "resume": "Perte de contact avec la réalité : idées délirantes, hallucinations, discours et comportement désorganisés, souvent avec agitation. Causes : psychose aiguë brève, premier épisode de schizophrénie, épisode maniaque, psychose du post-partum, psychose induite par le cannabis, les amphétamines ou le sevrage alcoolique — mais aussi de nombreuses causes médicales (paludisme cérébral, méningite, encéphalite, VIH, hypoglycémie, épilepsie, intoxication) qu'il faut toujours rechercher. La prise en charge doit être sûre, respectueuse des droits du patient et éviter toute contention inhumaine (chaînes).",
    "signes": [
-    "Idées délirantes, hallucinations (entend des voix)",
-    "Comportement désorganisé, discours incohérent",
-    "Agitation, agressivité ou repli",
-    "Manie : euphorie, insomnie, hyperactivité"
+    "Idées délirantes (persécution, ensorcellement, grandeur, mystiques), hallucinations (entend des voix, voit des choses)",
+    "Comportement désorganisé, discours incohérent, propos étranges",
+    "Agitation, agressivité, ou au contraire repli, mutisme, immobilité (catatonie)",
+    "Insomnie, négligence de l'hygiène, refus de s'alimenter",
+    "Manie : euphorie ou irritabilité, insomnie sans fatigue, hyperactivité, logorrhée, idées de grandeur",
+    "Psychose du post-partum (dans les semaines suivant l'accouchement) : confusion, délire concernant le bébé, risque pour la mère et l'enfant",
+    "Évocateurs d'une cause médicale (confusion) : fièvre, désorientation, fluctuation, troubles de conscience, signes neurologiques, début brutal après 40 ans"
    ],
    "diagnostic": [
-    "Éliminer une cause organique : hypoglycémie, hypoxie, fièvre, paludisme cérébral, méningite, VIH, intoxication, sevrage alcoolique, épilepsie",
-    "Évaluer le danger pour le patient et l'entourage"
+    "Éliminer une cause organique : glycémie capillaire, température, SpO₂, TDR paludisme, signes méningés, examen neurologique, test VIH ; interroger sur les drogues, l'alcool, les médicaments (corticoïdes, éfavirenz), l'épilepsie, un traumatisme",
+    "Évaluer le danger pour le patient et l'entourage (violence, suicide, fugue), et pour le bébé en post-partum",
+    "Histoire auprès de la famille : début, épisodes antérieurs, traitements",
+    "Ponction lombaire, NFS, créatinine selon l'orientation"
    ],
    "traitement": [
-    "Approche calme, sécuriser les lieux, impliquer la famille",
-    "Agitation sévère : halopéridol 2 à 5 mg IM (ou chlorpromazine), éventuellement avec diazépam ; surveiller la respiration",
-    "Psychose : antipsychotique oral (halopéridol, rispéridone, chlorpromazine) à la dose minimale efficace",
-    "Symptômes extrapyramidaux : bipéridène",
-    "Suivi au long cours, observance, soutien familial"
+    "Approche calme, parler doucement, ne pas contredire le délire, sécuriser les lieux (retirer les objets dangereux), impliquer un proche de confiance, nombre suffisant de soignants",
+    "Proposer d'abord un traitement oral si le patient accepte : halopéridol 5 mg ou rispéridone 2 mg ou olanzapine 10 mg, éventuellement avec prométhazine 25 mg",
+    "Agitation sévère dangereuse : halopéridol 2 à 5 mg IM (maximum 20 mg par jour) associé à la prométhazine 25 à 50 mg IM, ou midazolam 5 à 10 mg IM ; à répéter après 30 à 60 min si nécessaire ; doses réduites chez le sujet âgé ; surveiller la respiration, la PA, la température et la conscience",
+    "Le diazépam ne doit pas être donné en IM (absorption imprévisible) : voie orale ou IV lente",
+    "Contention physique en dernier recours, la plus courte possible, sous surveillance rapprochée, avec respect de la dignité ; jamais de chaînes",
+    "Dystonie aiguë (torticolis, yeux révulsés, langue tirée) : bipéridène 2 à 5 mg IM ou IV",
+    "Psychose : antipsychotique oral à la dose minimale efficace (halopéridol 1,5 à 10 mg, rispéridone 1 à 6 mg, olanzapine 5 à 20 mg par jour) ; poursuivre au moins 12 mois après la rémission d'un 1er épisode",
+    "Manie : antipsychotique ± thymorégulateur (voir la fiche Trouble bipolaire), arrêt des antidépresseurs",
+    "Psychose du post-partum : hospitalisation, antipsychotique, surveillance du bébé, soutien",
+    "Cause organique : la traiter (le traitement antipsychotique est alors temporaire)",
+    "Suivi au long cours, observance, psychoéducation et soutien de la famille"
    ],
    "gravite": [
     "Danger immédiat pour soi ou autrui",
-    "Fièvre, rigidité, confusion sous neuroleptique (syndrome malin)",
-    "Cause organique suspectée"
+    "Fièvre, rigidité, sueurs, confusion sous neuroleptique (syndrome malin : arrêter, refroidir, hydrater, réanimation)",
+    "Cause organique suspectée (confusion, fièvre)",
+    "Psychose du post-partum",
+    "Refus de boire et de manger"
    ],
    "prevention": [
-    "Lutte contre l'usage de cannabis et d'alcool ; suivi régulier des patients connus"
+    "Lutte contre l'usage de cannabis, d'amphétamines et d'alcool",
+    "Suivi régulier des patients connus et observance",
+    "Repérage des signes de rechute par la famille",
+    "Soins de santé mentale intégrés aux soins primaires"
    ],
    "medicaments": [
     "Halopéridol",
-    "Chlorpromazine",
     "Rispéridone",
+    "Olanzapine",
+    "Chlorpromazine",
+    "Prométhazine",
+    "Midazolam",
     "Diazépam",
     "Bipéridène",
     "Glucose 10 %"
@@ -37128,37 +37182,51 @@
    "nom": "Troubles anxieux et psychotraumatisme",
    "categorie": "mentale",
    "synonymes": "anxiété, stress, traumatisme, ESPT, cauchemars, angoisse, violences",
-   "resume": "Réactions de stress, anxiété et trouble de stress post-traumatique (ESPT), fréquents après violences, conflits armés, violences sexuelles ou deuils.",
+   "resume": "Réactions de stress aiguës, troubles anxieux (anxiété généralisée, attaques de panique) et trouble de stress post-traumatique (ESPT), très fréquents après les violences, les conflits armés (Est de la RDC), les violences sexuelles, les catastrophes et les deuils. La plupart des réactions aiguës s'améliorent avec un soutien simple ; l'ESPT et l'anxiété persistante répondent bien aux interventions psychologiques. Les benzodiazépines au long cours sont à éviter.",
    "signes": [
-    "Reviviscences (souvenirs intrusifs, cauchemars), évitement, hypervigilance",
-    "Anxiété, palpitations, troubles du sommeil",
-    "Plaintes physiques multiples",
-    "Irritabilité, repli"
+    "Réaction de stress aiguë (premiers jours ou semaines) : peur, tristesse, agitation, sidération, troubles du sommeil, plaintes physiques",
+    "ESPT (plus d'un mois après un événement traumatique) : reviviscences (souvenirs intrusifs, cauchemars, flash-back), évitement des rappels de l'événement, hypervigilance (sursauts, sentiment de danger permanent), troubles du sommeil, irritabilité",
+    "Anxiété généralisée : inquiétudes excessives et incontrôlables, tension, fatigue, troubles du sommeil, palpitations, tremblements, plaintes digestives",
+    "Attaques de panique : peur intense brutale avec palpitations, étouffement, douleur thoracique, sensation de mort imminente",
+    "Plaintes physiques multiples, repli, consommation d'alcool",
+    "Enfant : cauchemars, régression (énurésie), peur de la séparation, troubles du comportement, baisse scolaire"
    ],
    "diagnostic": [
-    "Écoute active ; rechercher une dépression, des idées suicidaires, l'usage d'alcool",
-    "Violences sexuelles : prise en charge médicale urgente (PPE VIH, contraception d'urgence, IST) dans les 72 h"
+    "Écoute active et bienveillante, sans forcer le récit ; rechercher une dépression, des idées suicidaires, l'usage d'alcool ou de drogues, la sécurité actuelle (violences en cours)",
+    "Éliminer une cause physique des symptômes anxieux : hyperthyroïdie, hypoglycémie, troubles du rythme, asthme, sevrage alcoolique, médicaments (salbutamol, corticoïdes), caféine",
+    "Violences sexuelles : prise en charge médicale urgente dans les 72 h (PEP VIH, contraception d'urgence, prévention des IST)",
+    "Évaluer le retentissement sur la vie quotidienne"
    ],
    "traitement": [
-    "Premiers secours psychologiques : sécurité, écoute, besoins de base, lien avec les proches",
-    "Psychoéducation, techniques de relaxation, soutien psychosocial",
-    "ESPT : thérapies centrées sur le trauma ; fluoxétine si symptômes sévères ou dépression associée",
-    "Éviter les benzodiazépines au long cours"
+    "Premiers secours psychologiques après un événement : assurer la sécurité et les besoins de base, écouter sans forcer, réconforter, relier aux proches, aux services et à l'information ; ne pas pousser à raconter (« débriefing » déconseillé)",
+    "Pas de benzodiazépines ni d'antidépresseurs pour une réaction de stress aiguë",
+    "Psychoéducation (réactions normales face à un événement anormal), techniques de relaxation et de respiration lente, activité physique, routines, soutien social et communautaire",
+    "ESPT : thérapies centrées sur le trauma (thérapie cognitivo-comportementale, EMDR), programmes simplifiés délivrés par des agents formés (Problem Management Plus, Self-Help Plus)",
+    "Fluoxétine (débuter à 10 mg puis 20 mg, jusqu'à 40 mg) si les interventions psychologiques ne sont pas disponibles ou échouent, ou en cas de dépression associée ; amitriptyline en alternative",
+    "Anxiété généralisée et trouble panique : psychoéducation, gestion du stress, résolution de problèmes, thérapie cognitivo-comportementale ; fluoxétine si persistance ; benzodiazépine seulement pour quelques jours en cas de crise sévère",
+    "Enfant : soutien de l'aidant, retour à l'école et aux activités, espaces amis des enfants, interventions familiales",
+    "Survivants de violences : orientation vers les services médicaux, juridiques, de protection et de soutien économique"
    ],
    "gravite": [
     "Idées suicidaires",
-    "Incapacité de fonctionner au quotidien",
-    "Symptômes psychotiques"
+    "Incapacité de fonctionner au quotidien (travail, soins des enfants)",
+    "Symptômes psychotiques",
+    "Abus d'alcool ou de drogues associé",
+    "Violences en cours (sécurité)"
    ],
    "prevention": [
-    "Soutien communautaire, protection, prise en charge rapide des survivants de violences"
+    "Soutien communautaire, protection des populations, prise en charge rapide des survivants de violences",
+    "Renforcement des liens sociaux et des moyens de subsistance après les crises",
+    "Formation des agents aux premiers secours psychologiques"
    ],
    "medicaments": [
     "Fluoxétine",
+    "Amitriptyline",
+    "Diazépam",
     "Ténofovir + lamivudine + dolutégravir (TLD)",
+    "Lévonorgestrel (contraception d'urgence)",
     "Ceftriaxone",
-    "Azithromycine",
-    "Vaccin antitétanique (Td / VAT)"
+    "Azithromycine"
    ]
   },
   {
@@ -37166,31 +37234,39 @@
    "nom": "Trachome",
    "categorie": "yeux",
    "synonymes": "trachome, cécité, cils retournés, trichiasis",
-   "resume": "Kératoconjonctivite chronique à Chlamydia trachomatis, transmise par les mains, les mouches et le linge ; première cause infectieuse de cécité.",
+   "resume": "Kératoconjonctivite chronique à Chlamydia trachomatis, transmise par les mains, le linge, les mouches et les sécrétions oculaires, surtout entre jeunes enfants dans les communautés sans accès à l'eau et à l'assainissement. Les infections répétées entraînent des cicatrices de la paupière, qui retournent les cils vers l'œil (trichiasis) et finissent par rendre la cornée opaque : première cause infectieuse de cécité. La RDC compte des districts endémiques ; l'OMS vise son élimination grâce à la stratégie CHANCE (SAFE).",
    "signes": [
-    "Conjonctivite chronique, follicules sur la paupière supérieure (TF)",
-    "Inflammation intense (TI)",
-    "Cicatrices (TS), puis cils qui frottent la cornée (trichiasis, TT)",
-    "Opacité cornéenne et cécité"
+    "Enfants : conjonctivite chronique, rougeur, sécrétions, follicules blancs sur la face interne de la paupière supérieure",
+    "Inflammation trachomateuse intense (paupière épaissie)",
+    "Adultes (surtout femmes, en contact avec les enfants) : cicatrices blanches de la paupière supérieure, puis cils retournés qui frottent la cornée (trichiasis) : douleur, larmoiement, sensation de corps étranger, photophobie",
+    "Opacité de la cornée, baisse de la vision, cécité"
    ],
    "diagnostic": [
-    "Examen de la face interne de la paupière supérieure (classification simplifiée OMS)"
+    "Examen de la face interne de la paupière supérieure retournée, avec une loupe (×2,5) et un bon éclairage ; classification simplifiée de l'OMS : TF (au moins 5 follicules), TI (inflammation intense), TS (cicatrices), TT (au moins un cil touchant le globe ou épilé), CO (opacité de la cornée)",
+    "Enquêtes de prévalence dans les districts (TF chez les enfants de 1 à 9 ans, TT chez les adultes)"
    ],
    "traitement": [
-    "Azithromycine en dose unique (20 mg/kg, max 1 g) ou tétracycline pommade 2 fois par jour pendant 6 semaines",
-    "Trichiasis : chirurgie (rotation de la paupière)",
-    "Stratégie CHANCE : Chirurgie, Antibiotiques, Nettoyage du visage, Changement de l'environnement"
+    "Trachome actif (TF, TI) : azithromycine en dose unique (20 mg/kg, maximum 1 g) ; ou tétracycline pommade 1 % 2 fois par jour pendant 6 semaines (enfant de moins de 6 mois, femme enceinte selon le protocole) ; traiter toute la famille",
+    "Distribution de masse d'azithromycine (une fois par an pendant plusieurs années) dans les districts où le TF dépasse 10 % chez les enfants de 1 à 9 ans",
+    "Trichiasis : chirurgie de rotation de la paupière (rotation tarsale bilamellaire ou postérieure) par un opérateur formé, gratuite dans les programmes ; en attente ou pour 1 à 2 cils loin de la cornée : épilation régulière avec une pince de qualité",
+    "Stratégie CHANCE : CHirurgie du trichiasis, ANtibiotiques, Nettoyage du visage, Changement de l'environnement (eau, latrines, lutte contre les mouches)",
+    "Opacité de la cornée : réadaptation visuelle"
    ],
    "gravite": [
-    "Trichiasis, baisse de la vision → chirurgie"
+    "Trichiasis (risque de cécité) : chirurgie",
+    "Opacité de la cornée, baisse de la vision",
+    "Infection de la cornée sur trichiasis"
    ],
    "prevention": [
-    "Lavage du visage des enfants, eau, latrines, lutte contre les mouches",
-    "Distribution de masse d'azithromycine"
+    "Lavage quotidien du visage des enfants à l'eau et au savon",
+    "Accès à l'eau, latrines, gestion des déchets et des excréments animaux (mouches)",
+    "Distribution de masse d'azithromycine",
+    "Éducation sanitaire dans les écoles"
    ],
    "medicaments": [
     "Azithromycine",
-    "Tétracycline pommade ophtalmique 1 %"
+    "Tétracycline pommade ophtalmique 1 %",
+    "Lidocaïne (lignocaïne)"
    ]
   },
   {
@@ -37198,31 +37274,41 @@
    "nom": "Xérophtalmie (carence en vitamine A)",
    "categorie": "yeux",
    "synonymes": "xérophtalmie, cécité nocturne, carence en vitamine A, kératomalacie",
-   "resume": "Atteinte oculaire due à la carence en vitamine A, favorisée par la malnutrition et la rougeole. Peut évoluer rapidement vers la cécité.",
+   "resume": "Atteinte oculaire due à la carence en vitamine A, favorisée par la malnutrition, la rougeole, la diarrhée et les infections répétées, chez le jeune enfant (et la femme enceinte ou allaitante carencée). Elle peut évoluer en quelques jours vers la fonte de la cornée et une cécité définitive ; la carence augmente aussi la mortalité infantile. La vitamine A à forte dose est un traitement d'urgence.",
    "signes": [
-    "Cécité nocturne (l'enfant ne voit plus le soir)",
-    "Sécheresse de la conjonctive, taches de Bitot",
-    "Sécheresse et ulcération de la cornée, kératomalacie (fonte de la cornée)"
+    "Cécité nocturne (XN) : l'enfant ne voit plus le soir, se cogne, reste assis à la tombée de la nuit (premier signe)",
+    "Sécheresse de la conjonctive (X1A), taches de Bitot : taches blanchâtres, mousseuses, triangulaires, sur la conjonctive près de la cornée (X1B)",
+    "Sécheresse et aspect terne de la cornée (X2)",
+    "Ulcération de la cornée (X3A), puis kératomalacie : fonte rapide de la cornée (X3B), perforation",
+    "Cicatrices de la cornée (XS)",
+    "Signes associés : malnutrition, rougeole récente, diarrhée, peau sèche, infections fréquentes"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; rechercher malnutrition et rougeole"
+    "Diagnostic clinique ; interroger sur la vision au crépuscule",
+    "Examiner la cornée avec une lampe, sans appuyer sur l'œil (risque de perforation)",
+    "Rechercher malnutrition (périmètre brachial, œdèmes), rougeole, diarrhée, VIH"
    ],
    "traitement": [
-    "Vitamine A à J1, J2 et J15 (dose selon l'âge)",
-    "Doses de vitamine A (J1, J2 et J15) : moins de 6 mois 50 000 UI, 6 à 11 mois 100 000 UI, 12 mois et plus 200 000 UI",
-    "Femme en âge de procréer sans atteinte de la cornée : 10 000 UI par jour pendant 2 semaines (les fortes doses sont tératogènes)",
-    "Atteinte cornéenne : tétracycline pommade et protection de l'œil (pansement), urgence",
-    "Traiter la malnutrition et la rougeole"
+    "Vitamine A à J1, J2 et J15 (ou à la sortie), quelle que soit la supplémentation antérieure : moins de 6 mois 50 000 UI, 6 à 11 mois 100 000 UI, 12 mois et plus (et adulte) 200 000 UI ; capsule ouverte et le contenu déposé dans la bouche",
+    "Femme en âge de procréer sans atteinte de la cornée (cécité nocturne, taches de Bitot) : 10 000 UI par jour ou 25 000 UI par semaine pendant 4 semaines (les fortes doses sont tératogènes) ; atteinte de la cornée : dose complète de 200 000 UI même pendant la grossesse",
+    "Atteinte cornéenne : urgence ; tétracycline pommade 1 % 3 fois par jour, protection de l'œil par une coque ou un pansement sans appuyer, atropine collyre si possible, avis ophtalmologique",
+    "Traiter la malnutrition, la rougeole, la diarrhée et les infections",
+    "Alimentation riche en vitamine A : huile de palme rouge, feuilles vertes foncées (pondu, amarante), mangues, papayes, patates douces à chair orange, foie, œufs, lait"
    ],
    "gravite": [
-    "Ulcération ou opacité de la cornée → urgence (risque de cécité)"
+    "Ulcération ou opacité de la cornée, kératomalacie : urgence (risque de cécité en quelques jours)",
+    "Malnutrition aiguë sévère, rougeole",
+    "Mortalité élevée associée"
    ],
    "prevention": [
-    "Supplémentation en vitamine A de 6 à 59 mois, allaitement, aliments riches en vitamine A (huile de palme, légumes verts, mangues)"
+    "Supplémentation en vitamine A tous les 6 mois de 6 à 59 mois (campagnes, consultations)",
+    "Allaitement maternel ; aliments riches en vitamine A et huile enrichie",
+    "Vaccination contre la rougeole, prévention de la diarrhée et de la malnutrition"
    ],
    "medicaments": [
     "Vitamine A (rétinol)",
-    "Tétracycline pommade ophtalmique 1 %"
+    "Tétracycline pommade ophtalmique 1 %",
+    "Aliment thérapeutique prêt à l'emploi (ATPE)"
    ]
   },
   {
@@ -37230,34 +37316,48 @@
    "nom": "Glaucome",
    "categorie": "yeux",
    "synonymes": "glaucome, tension de l'œil, œil rouge douloureux",
-   "resume": "Atteinte du nerf optique liée à la pression intraoculaire. Le glaucome chronique est silencieux ; le glaucome aigu est une urgence.",
+   "resume": "Atteinte progressive du nerf optique, le plus souvent liée à une pression intraoculaire élevée, avec perte irréversible du champ visuel. Le glaucome chronique à angle ouvert est fréquent, précoce et sévère chez les personnes d'ascendance africaine, et silencieux jusqu'au stade avancé : c'est la 2e cause de cécité en Afrique. Le glaucome aigu par fermeture de l'angle est une urgence. Le glaucome congénital du nourrisson nécessite une chirurgie rapide.",
    "signes": [
-    "Glaucome aigu : œil rouge très douloureux, baisse brutale de la vision, halos colorés, céphalées, vomissements, pupille moyenne aréactive, œil dur",
-    "Glaucome chronique : perte progressive du champ visuel, sans douleur"
+    "Glaucome chronique : aucun symptôme au début ; perte progressive du champ visuel périphérique (se cogne, ne voit pas sur les côtés), puis baisse de la vision centrale et cécité",
+    "Glaucome aigu : œil rouge très douloureux, baisse brutale de la vision, halos colorés autour des lumières, céphalées, nausées et vomissements (peut faire penser à une urgence digestive), cornée trouble, pupille moyenne aréactive, œil dur comme une bille",
+    "Glaucome congénital : gros yeux, cornée trouble ou bleutée, larmoiement, photophobie chez le nourrisson",
+    "Glaucome secondaire : après corticoïdes prolongés (collyres, crèmes), uvéite, traumatisme, diabète"
    ],
    "diagnostic": [
-    "Glaucome aigu : diagnostic clinique (palpation, pupille)",
-    "Chronique : mesure de la pression oculaire et fond d'œil (ophtalmologie)"
+    "Glaucome aigu : diagnostic clinique (palpation de l'œil à travers la paupière, pupille, cornée trouble)",
+    "Chronique : mesure de la pression intraoculaire (> 21 mmHg), fond d'œil (excavation de la papille), champ visuel, en ophtalmologie",
+    "Dépistage après 40 ans, et dès 30 ans en cas d'antécédents familiaux",
+    "Interroger sur les corticoïdes et les médicaments anticholinergiques"
    ],
    "traitement": [
     "Ne jamais dilater la pupille d'un œil suspect de glaucome aigu (atropine, tropicamide)",
-    "Glaucome aigu : acétazolamide 500 mg puis 250 mg toutes les 6 h, pilocarpine 2 % répétée, timolol, antalgiques et antiémétiques ; référence urgente en ophtalmologie (laser ou chirurgie)",
-    "Chronique : collyre (timolol) à vie, suivi spécialisé"
+    "Glaucome aigu : acétazolamide 500 mg IV ou oral puis 250 mg toutes les 6 h (pas en cas d'allergie aux sulfamides, prudence chez le drépanocytaire) ; timolol collyre 0,5 % ; pilocarpine collyre 2 % (dès que la pression commence à baisser) ; mannitol 1 à 2 g/kg IV si la pression reste très élevée ; antalgiques et antiémétiques ; patient allongé ; référence urgente en ophtalmologie pour iridotomie au laser ou chirurgie (et traitement préventif de l'autre œil)",
+    "Glaucome chronique : traitement à vie pour stopper l'évolution (la vision perdue ne revient pas) : latanoprost 1 goutte le soir (1re intention ; fonce l'iris) ou timolol 0,5 % 1 goutte 2 fois par jour (pas en cas d'asthme ou de bradycardie) ; associations si nécessaire ; trabéculoplastie au laser ou chirurgie filtrante (trabéculectomie), souvent préférée en Afrique quand l'observance ou le coût des collyres posent problème",
+    "Apprendre à instiller les collyres (comprimer l'angle interne de l'œil 1 min), suivi régulier de la pression et du champ visuel ; examiner la famille",
+    "Glaucome congénital : chirurgie urgente",
+    "Éviter les médicaments anticholinergiques (antihistaminiques sédatifs, antidépresseurs tricycliques) en cas d'angle étroit",
+    "Malvoyance : réadaptation visuelle"
    ],
    "gravite": [
-    "Glaucome aigu (urgence)",
-    "Baisse de vision"
+    "Glaucome aigu (urgence : la vision peut être perdue en quelques heures)",
+    "Baisse de vision, champ visuel très réduit",
+    "Nourrisson avec gros yeux troubles",
+    "Mauvaise observance du traitement"
    ],
    "prevention": [
-    "Dépistage après 40 ans, surtout en cas d'antécédents familiaux"
+    "Dépistage après 40 ans (pression oculaire et fond d'œil), surtout en cas d'antécédents familiaux",
+    "Éviter les collyres et crèmes corticoïdes au long cours sans surveillance",
+    "Observance des traitements"
    ],
    "medicaments": [
     "Acétazolamide",
     "Pilocarpine collyre 2 %",
     "Timolol collyre 0,5 %",
+    "Latanoprost collyre",
+    "Mannitol 20 %",
     "Paracétamol",
     "Métoclopramide",
-    "Latanoprost collyre"
+    "Morphine"
    ]
   },
   {
@@ -37265,42 +37365,59 @@
    "nom": "Traumatisme de l'œil et kératite",
    "categorie": "yeux",
    "synonymes": "corps étranger œil, kératite, ulcère de cornée, œil blessé, brûlure oculaire",
-   "resume": "Corps étranger, plaie, brûlure chimique ou infection de la cornée (kératite bactérienne, fongique, herpétique) menaçant la vision.",
+   "resume": "Corps étranger, abrasion, plaie perforante, contusion, brûlure chimique (chaux, ciment, produits ménagers, batteries) ou infection de la cornée (kératite bactérienne, fongique après un traumatisme végétal en milieu agricole, herpétique, ou après usage de médicaments traditionnels). Ces situations menacent la vision et sont souvent vues tard ; le lavage immédiat d'une brûlure chimique et la protection d'un œil perforé sont des gestes qui sauvent la vue.",
    "signes": [
-    "Douleur, larmoiement, photophobie, sensation de corps étranger",
+    "Douleur, larmoiement, photophobie, sensation de corps étranger, paupière qui se ferme",
     "Baisse de la vision",
-    "Tache blanche sur la cornée (ulcère), pus dans la chambre antérieure",
-    "Plaie du globe : pupille déformée, issue de contenu"
+    "Corps étranger visible sur la cornée ou sous la paupière supérieure",
+    "Ulcère de cornée : tache blanche ou grise sur la cornée, pus dans la chambre antérieure (hypopion), œil très rouge ; kératite fongique : lésion à bords flous avec lésions satellites, après un traumatisme par une branche ou une feuille",
+    "Plaie perforante : pupille déformée (en poire), issue de contenu de l'œil, chambre antérieure aplatie, baisse importante de la vision",
+    "Contusion : sang dans la chambre antérieure (hyphéma), pupille dilatée, vision double (fracture de l'orbite)",
+    "Brûlure chimique : douleur intense, conjonctive blanche (ischémie, signe grave), cornée trouble",
+    "Kératite des soudeurs (coup d'arc) : douleur intense des 2 yeux quelques heures après"
    ],
    "diagnostic": [
-    "Mesurer l'acuité visuelle",
-    "Examen après anesthésie de surface (tétracaïne), fluorescéine si disponible",
-    "Brûlure chimique : ne pas attendre l'examen, laver"
+    "Mesurer l'acuité visuelle de chaque œil (élément médico-légal et pronostique)",
+    "Brûlure chimique : ne pas attendre l'examen, laver d'abord",
+    "Examen après anesthésie de surface (tétracaïne), retournement de la paupière supérieure, fluorescéine (abrasion et ulcère verts à la lumière bleue) si disponible ; ne pas appuyer sur un œil suspect de perforation",
+    "Radiographie de l'orbite si corps étranger métallique intraoculaire suspecté (marteau sur métal)",
+    "Grattage de l'ulcère pour examen direct et culture si disponible"
    ],
    "traitement": [
-    "Brûlure chimique : lavage abondant immédiat au sérum physiologique ou à l'eau propre pendant 30 min",
-    "Corps étranger superficiel : retrait après anesthésie de surface, pommade antibiotique, revoir à 24 h",
-    "Ulcère de cornée : antibiotique local intensif, référence ophtalmologique",
-    "Plaie perforante : ne pas appuyer, protéger l'œil par une coque, antibiotique et antitétanique, référence urgente",
-    "Ne jamais remettre de collyre anesthésiant au patient ; pas de corticoïde local"
+    "Brûlure chimique : lavage abondant immédiat à l'eau propre ou au sérum physiologique pendant au moins 30 min (plusieurs litres), paupières écartées et retournées, retrait des particules (chaux) ; puis antibiotique local et référence urgente",
+    "Corps étranger superficiel : retrait après anesthésie de surface avec un coton humide ou la pointe d'une aiguille (soignant formé), pommade antibiotique, revoir à 24 h",
+    "Abrasion de la cornée : pommade tétracycline 3 fois par jour pendant 3 à 5 jours, antalgiques ; guérison en 24 à 48 h",
+    "Ulcère bactérien : ofloxacine collyre 0,3 % 1 goutte toutes les heures jour et nuit pendant 48 h puis diminution progressive ; kératite fongique : natamycine collyre 5 % toutes les heures ; kératite herpétique : aciclovir oral 400 mg 5 fois par jour ; référence ophtalmologique ; jamais de corticoïde local",
+    "Plaie perforante : ne pas appuyer, ne rien mettre dans l'œil, protéger par une coque rigide, à jeun, antalgique et antiémétique (éviter les efforts de vomissement), antibiotique oral (ciprofloxacine ou lévofloxacine), prévention du tétanos, référence chirurgicale urgente dans les 24 h",
+    "Hyphéma : repos, tête surélevée à 30°, coque protectrice, pas d'aspirine ni d'AINS, référence (contrôle de la pression oculaire ; drépanocytaire à risque)",
+    "Fracture de l'orbite : ne pas se moucher, référence",
+    "Ne jamais remettre de collyre anesthésiant au patient (il abîme la cornée) ; arrêter tout médicament traditionnel dans l'œil"
    ],
    "gravite": [
     "Plaie perforante, baisse importante de la vision",
-    "Ulcère de cornée, pus dans l'œil",
-    "Brûlure chimique"
+    "Ulcère de cornée, pus dans l'œil (hypopion)",
+    "Brûlure chimique (surtout par base : chaux, ciment) avec conjonctive blanche",
+    "Hyphéma, corps étranger intraoculaire",
+    "Endophtalmie (douleur, baisse de vision après chirurgie ou plaie)"
    ],
    "prevention": [
-    "Lunettes de protection (travaux, agriculture)"
+    "Lunettes de protection (travaux de construction, soudure, agriculture, coupe de bois)",
+    "Stockage sécurisé des produits chimiques",
+    "Pas de médicaments traditionnels dans les yeux",
+    "Consultation rapide après tout traumatisme de l'œil"
    ],
    "medicaments": [
     "Tétracaïne collyre 0,5 %",
+    "Fluorescéine (collyre ou bandelettes)",
     "Tétracycline pommade ophtalmique 1 %",
+    "Ofloxacine collyre 0,3 %",
+    "Natamycine collyre 5 %",
     "Aciclovir",
+    "Ciprofloxacine",
+    "Lévofloxacine",
     "Vaccin antitétanique (Td / VAT)",
     "Paracétamol",
-    "Fluorescéine (collyre ou bandelettes)",
-    "Ofloxacine collyre 0,3 %",
-    "Natamycine collyre 5 %"
+    "Chlorure de sodium 0,9 % (sérum physiologique)"
    ]
   },
   {
@@ -39791,38 +39908,50 @@
    "nom": "Infections dentaires (abcès, cellulite)",
    "categorie": "yeux",
    "synonymes": "abcès dentaire, mal de dent, carie, cellulite de la face, rage de dents",
-   "resume": "Infection d'origine dentaire (carie, dent de sagesse) pouvant s'étendre aux tissus du visage et du cou.",
+   "resume": "Infections d'origine dentaire (carie profonde atteignant la pulpe, maladie parodontale, dent de sagesse en éruption) pouvant former un abcès puis s'étendre aux tissus du visage et du cou (cellulite), jusqu'à l'angine de Ludwig qui menace les voies aériennes. Le traitement principal est le drainage et le traitement de la dent ; les antibiotiques ne sont qu'un complément en cas d'extension ou de signes généraux.",
    "signes": [
-    "Douleur dentaire intense, dent sensible à la percussion",
-    "Gonflement de la gencive ou du visage",
-    "Fièvre, difficulté à ouvrir la bouche (trismus)",
-    "Cellulite grave : gonflement du cou, difficulté à avaler ou à respirer"
+    "Douleur dentaire intense, pulsatile, dent sensible à la percussion et à la mastication, impression de dent « longue »",
+    "Abcès : gonflement de la gencive, parfois fistule qui laisse sortir du pus",
+    "Cellulite : gonflement chaud et douloureux de la joue, de la région sous la mâchoire ou autour de l'œil, fièvre, difficulté à ouvrir la bouche (trismus)",
+    "Péricoronarite : gencive gonflée et douloureuse autour d'une dent de sagesse, trismus, mauvaise haleine",
+    "Angine de Ludwig : gonflement dur des 2 côtés sous la mâchoire et du plancher de la bouche, langue soulevée, salive qui coule, voix étouffée, difficulté à avaler et à respirer"
    ],
    "diagnostic": [
-    "Examen de la bouche",
-    "Rechercher les signes de gravité (cou, plancher de la bouche, état général)"
+    "Examen de la bouche avec un bon éclairage (dent cariée, mobile, gencive)",
+    "Rechercher les signes de gravité : gonflement du cou ou du plancher de la bouche, trismus marqué, fièvre élevée, difficulté à avaler ou à respirer, extension vers l'œil",
+    "Radiographie dentaire si disponible",
+    "Infections répétées ou graves : glycémie, test VIH"
    ],
    "traitement": [
-    "Traitement de la cause : drainage de l'abcès, soins ou extraction de la dent",
-    "Antalgiques (ibuprofène, paracétamol)",
-    "Antibiotique si fièvre, cellulite ou extension : amoxicilline (± métronidazole) 5 à 7 jours ; clindamycine si allergie",
-    "Bains de bouche à la chlorhexidine"
+    "Traitement de la cause : drainage de l'abcès (incision sous anesthésie locale), ouverture de la dent ou extraction ; c'est le geste le plus important",
+    "Antalgiques : ibuprofène 400 mg + paracétamol 1 g (l'association est la plus efficace)",
+    "Bains de bouche à la chlorhexidine 0,12 à 0,2 % ou à l'eau salée tiède",
+    "Antibiotique seulement si fièvre, cellulite, extension, trismus, immunodépression ou impossibilité de drainer rapidement : amoxicilline 500 mg à 1 g 3 fois par jour (enfant 25 mg/kg 2 fois par jour) pendant 5 jours, ± métronidazole 500 mg 3 fois par jour ; amoxicilline + acide clavulanique en alternative ; clindamycine si allergie",
+    "Péricoronarite : nettoyage, chlorhexidine, métronidazole si fièvre, extraction de la dent de sagesse à distance",
+    "Angine de Ludwig ou cellulite étendue : urgence ; hospitalisation, surveillance des voies aériennes (intubation difficile : personnel expérimenté, trachéotomie possible), antibiotiques IV (amoxicilline + acide clavulanique, ou ceftriaxone + métronidazole, ou clindamycine), drainage chirurgical, extraction de la dent",
+    "Pas d'antibiotique pour une simple douleur dentaire sans signe d'infection étendue"
    ],
    "gravite": [
-    "Gonflement du cou ou du plancher buccal, difficulté à respirer ou à avaler (angine de Ludwig) → urgence, antibiotique IV",
-    "Trismus important, fièvre élevée"
+    "Gonflement du cou ou du plancher buccal, difficulté à respirer ou à avaler (angine de Ludwig) : urgence, antibiotique IV et drainage",
+    "Trismus important, fièvre élevée",
+    "Gonflement de l'œil (thrombophlébite)",
+    "Diabète, VIH"
    ],
    "prevention": [
-    "Hygiène bucco-dentaire, brossage, peu de sucre, soins précoces des caries"
+    "Hygiène bucco-dentaire : brossage 2 fois par jour avec un dentifrice fluoré, peu de sucre",
+    "Soins précoces des caries",
+    "Contrôle dentaire régulier"
    ],
    "medicaments": [
     "Amoxicilline",
     "Métronidazole",
     "Amoxicilline + acide clavulanique",
     "Clindamycine",
+    "Ceftriaxone",
     "Ibuprofène",
     "Paracétamol",
     "Chlorhexidine",
+    "Lidocaïne (lignocaïne)",
     "Fluorures (dentifrice et vernis fluoré)"
    ]
   },
@@ -39831,38 +39960,54 @@
    "nom": "Stomatites et noma",
    "categorie": "yeux",
    "synonymes": "stomatite, aphtes, gingivite, noma, cancrum oris, plaie de la bouche",
-   "resume": "Inflammations de la bouche (herpès, candidose, aphtes, carences). Le noma est une gangrène foudroyante du visage chez l'enfant malnutri, maladie tropicale négligée : il doit être reconnu au stade de gingivite.",
+   "resume": "Inflammations et ulcérations de la bouche : herpès, candidose, aphtes, carences, rougeole, syndrome mains-pieds-bouche, mucite des chimiothérapies, lésions du VIH. Le noma (cancrum oris), reconnu par l'OMS comme maladie tropicale négligée en 2023, est une gangrène foudroyante de la bouche et du visage chez le jeune enfant malnutri, souvent après une rougeole ou un paludisme ; mortel dans 90 % des cas sans traitement, il doit être reconnu et traité dès le stade de gingivite.",
    "signes": [
-    "Stomatite : ulcérations douloureuses, difficulté à manger",
-    "Noma, stade précoce : gingivite ulcéro-nécrotique (gencive qui saigne, mauvaise haleine, douleur), gonflement de la joue",
-    "Noma évolué : nécrose noire de la joue ou des lèvres, perforation"
+    "Stomatite : ulcérations douloureuses, difficulté à manger et à boire, salivation, mauvaise haleine",
+    "Aphtes : petites ulcérations rondes douloureuses à fond jaune et bord rouge, récidivantes",
+    "Noma, stade précoce : gingivite ulcéro-nécrotique (gencive rouge qui saigne, ulcérée, douleur, haleine fétide, salivation abondante), fièvre ; puis gonflement de la joue ou de la lèvre",
+    "Noma évolué : tache noire sur la joue ou les lèvres, nécrose qui s'étend rapidement et se détache, perforation du visage, chute des dents ; puis cicatrices avec constriction des mâchoires et défigurement",
+    "Contexte : enfant de 2 à 6 ans malnutri, rougeole, paludisme, diarrhée, VIH, mauvaise hygiène buccale"
    ],
    "diagnostic": [
-    "Examiner la bouche de tout enfant malnutri ou après rougeole",
-    "Rechercher malnutrition, rougeole, VIH"
+    "Examiner la bouche de tout enfant malnutri, après une rougeole, ou ayant une haleine fétide",
+    "Rechercher malnutrition (périmètre brachial, œdèmes), rougeole, paludisme, VIH",
+    "Ulcération buccale persistant plus de 2 à 3 semaines chez l'adulte (tabac, alcool) : biopsie (cancer)",
+    "Lésions violacées : sarcome de Kaposi",
+    "Déclaration des cas de noma"
    ],
    "traitement": [
-    "Stomatite : hydratation, alimentation adaptée, antalgiques ; herpès sévère : aciclovir ; candidose : nystatine",
-    "Noma (dès la gingivite) : amoxicilline + métronidazole 7 à 10 jours, bains de bouche à la chlorhexidine, renutrition (ATPE ou F-75/F-100), vitamine A, hydratation, antalgiques",
-    "Référer vers un centre spécialisé (chirurgie reconstructrice ultérieure)"
+    "Stomatite : hydratation, alimentation froide et molle, antalgiques (paracétamol), bains de bouche (eau salée, chlorhexidine) ; herpès sévère : aciclovir ; candidose : nystatine ou miconazole ; aphtes : chlorhexidine, antalgiques ; aphtes géants ou récidivants : test VIH, avis",
+    "Noma (dès la gingivite) : urgence ; amoxicilline (ou amoxicilline + acide clavulanique) 80 à 100 mg/kg par jour + métronidazole 30 mg/kg par jour, par voie orale ou IV, pendant 7 à 10 jours ; nettoyage doux de la bouche et des plaies plusieurs fois par jour à la chlorhexidine ou au sérum physiologique, retrait doux des tissus morts ; renutrition (F-75, F-100 ou ATPE selon le protocole, par sonde si l'enfant ne peut pas manger), vitamine A, hydratation, antalgiques (y compris morphine) ; traiter rougeole, paludisme, VIH, parasitoses",
+    "Kinésithérapie précoce de l'ouverture de la bouche (prévention de la constriction des mâchoires)",
+    "Référer vers un centre spécialisé ; chirurgie reconstructrice 12 à 18 mois après la phase aiguë",
+    "Soutien psychosocial de l'enfant et de la famille"
    ],
    "gravite": [
-    "Gonflement de la joue, nécrose",
+    "Gonflement de la joue, tache noire, nécrose (noma)",
     "Incapacité de boire, déshydratation",
-    "Malnutrition aiguë sévère"
+    "Malnutrition aiguë sévère",
+    "Sepsis"
    ],
    "prevention": [
-    "Prévention de la malnutrition, vaccination contre la rougeole, hygiène buccale"
+    "Prévention de la malnutrition, allaitement maternel",
+    "Vaccination contre la rougeole",
+    "Hygiène buccale (brossage dès l'apparition des dents)",
+    "Formation des agents de santé et des familles à reconnaître la gingivite",
+    "Traitement précoce des infections"
    ],
    "medicaments": [
     "Amoxicilline",
+    "Amoxicilline + acide clavulanique",
     "Métronidazole",
     "Chlorhexidine",
     "Aciclovir",
     "Nystatine",
+    "Miconazole (crème 2 % et gel buccal)",
     "Vitamine A (rétinol)",
     "Aliment thérapeutique prêt à l'emploi (ATPE)",
-    "Paracétamol"
+    "Lait thérapeutique F-75",
+    "Paracétamol",
+    "Morphine"
    ]
   },
   {
@@ -40322,36 +40467,52 @@
    "nom": "Alcoolisme et sevrage alcoolique",
    "categorie": "mentale",
    "synonymes": "alcool, alcoolisme, sevrage, delirium tremens, ivresse",
-   "resume": "Dépendance à l'alcool ; le sevrage brutal (hospitalisation, arrêt) peut provoquer des convulsions et un delirium tremens mortel.",
+   "resume": "Usage nocif et dépendance à l'alcool (bières, alcools artisanaux comme le lotoko ou le kasiksi, parfois frelatés au méthanol). Conséquences : accidents, violences, maladies du foie, pancréatite, cardiomyopathie, tuberculose, VIH, dépression, suicide, carences (thiamine). Le sevrage brutal (hospitalisation, arrêt volontaire) peut provoquer des convulsions et un delirium tremens mortel ; l'encéphalopathie de Wernicke se prévient par la thiamine donnée avant le glucose.",
    "signes": [
-    "Sevrage (6 à 24 h après le dernier verre) : tremblements, sueurs, anxiété, tachycardie, insomnie",
+    "Dépendance : besoin irrésistible de boire, perte de contrôle, tolérance, boire le matin, poursuite malgré les conséquences",
+    "Sevrage (6 à 24 h après le dernier verre) : tremblements, sueurs, anxiété, agitation, tachycardie, HTA, nausées, insomnie",
     "Convulsions (12 à 48 h)",
-    "Delirium tremens (48 à 72 h) : confusion, hallucinations, fièvre, agitation",
-    "Encéphalopathie de Wernicke : confusion, troubles de la marche, troubles oculomoteurs"
+    "Delirium tremens (48 à 72 h) : confusion, désorientation, hallucinations (visuelles, souvent d'animaux), agitation, fièvre, sueurs profuses, tachycardie ; mortel sans traitement",
+    "Encéphalopathie de Wernicke : confusion, troubles de la marche (ataxie), paralysie des mouvements des yeux ou nystagmus ; évolution vers le syndrome de Korsakoff (troubles graves de la mémoire)"
    ],
    "diagnostic": [
-    "Évaluer la consommation (questionnaire AUDIT)",
-    "Glycémie, rechercher traumatisme crânien, infection, hémorragie digestive"
+    "Évaluer la consommation (questionnaire AUDIT ou AUDIT-C ; quantité, fréquence, heure du dernier verre)",
+    "Score de sevrage (CIWA-Ar) si disponible",
+    "Glycémie ; rechercher un traumatisme crânien, une infection (pneumonie, méningite), une hémorragie digestive, une pancréatite, une insuffisance hépatique, une hypokaliémie, une intoxication associée (méthanol)",
+    "Bilan : transaminases, GGT, NFS (macrocytose), créatinine, ionogramme, AgHBs, VIH, tuberculose",
+    "Rechercher dépression et idées suicidaires"
    ],
    "traitement": [
-    "Thiamine 100 à 500 mg IV/IM AVANT tout apport de glucose, puis par voie orale",
-    "Diazépam : 10 à 20 mg par voie orale toutes les 1 à 2 h selon les symptômes (ou schéma fixe dégressif sur 5 à 7 jours)",
-    "Hydratation, alimentation, environnement calme",
-    "Après le sevrage : entretiens motivationnels, soutien, groupes d'entraide"
+    "Thiamine à tous les patients alcooliques : 100 mg par jour par voie orale ; avant tout apport de glucose et en cas de suspicion de Wernicke : 100 à 500 mg IV ou IM 3 fois par jour pendant 3 à 5 jours",
+    "Sevrage : diazépam 10 à 20 mg par voie orale toutes les 1 à 2 h selon les symptômes jusqu'à apaisement, ou schéma fixe dégressif (10 à 20 mg 4 fois par jour le 1er jour, puis diminution progressive sur 5 à 7 jours) ; insuffisance hépatique sévère ou sujet âgé : lorazépam à plus faible dose",
+    "Hydratation, alimentation, correction du potassium et du magnésium, environnement calme et éclairé, surveillance (conscience, pouls, PA, température)",
+    "Convulsions de sevrage : diazépam ; pas de phénytoïne",
+    "Delirium tremens : hospitalisation, benzodiazépines à doses élevées et répétées, réhydratation IV, thiamine, recherche et traitement d'une infection ; halopéridol seulement en complément si hallucinations ou agitation persistantes",
+    "Après le sevrage : entretiens motivationnels et intervention brève, objectif d'abstinence ou de réduction, prise en charge de la dépression, soutien familial, groupes d'entraide",
+    "Médicaments du maintien de l'abstinence : naltrexone 50 mg par jour (pas en cas d'insuffisance hépatique ni de prise d'opioïdes) ou acamprosate 666 mg 3 fois par jour (adapter à la fonction rénale), pendant 3 à 12 mois",
+    "Acide folique, vitamines du groupe B, nutrition",
+    "Femme enceinte : arrêt complet de l'alcool (syndrome d'alcoolisation fœtale) avec soutien"
    ],
    "gravite": [
     "Delirium tremens, convulsions",
-    "Wernicke",
-    "Hémorragie digestive, traumatisme associé"
+    "Encéphalopathie de Wernicke",
+    "Hémorragie digestive, pancréatite, insuffisance hépatique, traumatisme associé",
+    "Idées suicidaires",
+    "Intoxication au méthanol associée (troubles visuels, acidose)"
    ],
    "prevention": [
-    "Information sur les risques, dépistage et intervention brève"
+    "Information sur les risques, dépistage systématique (AUDIT) et intervention brève dans les soins primaires",
+    "Politiques de réduction de l'accès et du marketing de l'alcool, contrôle des alcools artisanaux",
+    "Prévention chez les adolescents et les femmes enceintes"
    ],
    "medicaments": [
     "Thiamine (vitamine B1)",
     "Diazépam",
-    "Glucose 10 %",
+    "Lorazépam",
     "Halopéridol",
+    "Glucose 10 %",
+    "Chlorure de potassium (KCl) injectable",
+    "Sulfate de magnésium",
     "Acide folique",
     "Naltrexone",
     "Acamprosate"
@@ -41773,29 +41934,36 @@
    "nom": "Kérato-conjonctivite virale épidémique",
    "categorie": "yeux",
    "synonymes": "conjonctivite virale, adénovirus, Apollo, œil rouge épidémique",
-   "resume": "Conjonctivite très contagieuse à adénovirus (ou entérovirus), survenant en épidémies, parfois avec atteinte de la cornée.",
+   "resume": "Conjonctivite très contagieuse due aux adénovirus (kératoconjonctivite épidémique) ou aux entérovirus (conjonctivite hémorragique aiguë, appelée « Apollo » en Afrique de l'Ouest), survenant en épidémies dans les écoles, les familles et parfois les centres de soins. Elle guérit en 1 à 3 semaines ; les antibiotiques sont inutiles. L'hygiène est essentielle pour limiter l'épidémie.",
    "signes": [
-    "Œil rouge, larmoiement, sensation de sable, paupières gonflées",
-    "Souvent un œil puis l'autre",
-    "Ganglion devant l'oreille",
-    "Atteinte de la cornée : douleur, photophobie, baisse de vision"
+    "Œil rouge, larmoiement abondant, sensation de sable, paupières gonflées, sécrétions claires",
+    "Souvent un œil puis l'autre quelques jours après",
+    "Ganglion douloureux devant l'oreille, rhume, fièvre légère",
+    "Conjonctivite hémorragique : taches de sang sous la conjonctive, début brutal",
+    "Fausses membranes sur la paupière",
+    "Atteinte de la cornée (adénovirus) : douleur, photophobie, vision floue pendant des semaines",
+    "Contagieuse pendant 10 à 14 jours"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; contexte épidémique",
-    "Éliminer une conjonctivite bactérienne (pus épais), un glaucome aigu, une kératite"
+    "Diagnostic clinique ; contexte épidémique (plusieurs cas dans la famille ou l'école)",
+    "Mesurer l'acuité visuelle",
+    "Éliminer une conjonctivite bactérienne (pus épais), une conjonctivite du nouveau-né, un glaucome aigu, une kératite herpétique (lésion en arborescence à la fluorescéine), une uvéite"
    ],
    "traitement": [
-    "Nettoyage des yeux à l'eau propre ou au sérum physiologique",
-    "Compresses fraîches",
-    "Pas de corticoïde collyre",
-    "Pommade tétracycline seulement si surinfection",
-    "Hygiène stricte des mains, linge personnel (très contagieuse)"
+    "Nettoyage des yeux à l'eau propre ou au sérum physiologique, compresses fraîches, larmes artificielles ; antalgique (paracétamol)",
+    "Pas d'antibiotique (sauf surinfection bactérienne avec pus : tétracycline pommade) ; pas de collyre corticoïde (sauf avis ophtalmologique pour une atteinte cornéenne persistante gênant la vision) ; pas de médicaments traditionnels",
+    "Hygiène stricte : lavage des mains fréquent, ne pas toucher ses yeux, linge et serviettes personnels, éviter les piscines ; éviction de l'école ou du travail tant que l'œil coule (environ 1 semaine)",
+    "Centres de soins : lavage des mains entre chaque patient, désinfection du matériel d'examen (tonomètre, lampe), personnel atteint écarté",
+    "Nouveau-né atteint : avis ophtalmologique"
    ],
    "gravite": [
-    "Douleur importante, baisse de vision, photophobie (kératite) → référence ophtalmologique"
+    "Douleur importante, baisse de vision, photophobie (atteinte de la cornée) : référence ophtalmologique",
+    "Nouveau-né",
+    "Surinfection bactérienne"
    ],
    "prevention": [
-    "Lavage des mains, ne pas partager les serviettes, éviction des collectivités pendant quelques jours"
+    "Lavage des mains, ne pas partager les serviettes, éviction des collectivités pendant quelques jours",
+    "Hygiène stricte dans les centres de soins ophtalmologiques"
    ],
    "medicaments": [
     "Chlorure de sodium 0,9 % (sérum physiologique)",
@@ -41808,33 +41976,48 @@
    "nom": "Cellulite périorbitaire et orbitaire",
    "categorie": "yeux",
    "synonymes": "cellulite orbitaire, œil gonflé, paupière gonflée, cellulite préseptale",
-   "resume": "Infection des tissus autour de l'œil. La forme orbitaire (derrière le septum) menace la vue et la vie.",
+   "resume": "Infection des tissus autour de l'œil. La cellulite périorbitaire (préseptale), en avant du septum orbitaire, est fréquente chez l'enfant et généralement bénigne ; la cellulite orbitaire, en arrière du septum, souvent compliquant une ethmoïdite chez l'enfant ou une infection dentaire chez l'adulte, menace la vision et la vie (abcès, thrombophlébite du sinus caverneux, méningite, abcès cérébral). Chez l'enfant, une exophtalmie sans fièvre doit faire penser à une tumeur (lymphome de Burkitt, rhabdomyosarcome, rétinoblastome évolué).",
    "signes": [
-    "Paupière rouge, chaude, gonflée, fièvre",
-    "Forme orbitaire : œil qui avance (exophtalmie), douleur aux mouvements de l'œil, mouvements limités, baisse de vision",
-    "Souvent après une sinusite, une plaie ou une piqûre"
+    "Paupière rouge, chaude, gonflée, douloureuse, souvent d'un seul côté ; fièvre",
+    "Cellulite préseptale : œil blanc, mobilité de l'œil et vision normales",
+    "Cellulite orbitaire : œil qui avance (exophtalmie), douleur aux mouvements de l'œil, mouvements limités (vision double), chémosis (conjonctive gonflée), baisse de la vision, réflexe pupillaire anormal",
+    "Porte d'entrée : sinusite (rhume, écoulement purulent), infection dentaire, plaie ou piqûre de la paupière, orgelet",
+    "Thrombophlébite du sinus caverneux : atteinte des 2 yeux, céphalées, troubles de conscience"
    ],
    "diagnostic": [
-    "Examen clinique : mobilité de l'œil, acuité visuelle, réflexes pupillaires",
-    "Rechercher une sinusite, une infection dentaire"
+    "Examen clinique répété : mobilité de l'œil, acuité visuelle, vision des couleurs, réflexes pupillaires (pupille d'Argyll), position de l'œil",
+    "Rechercher une sinusite, une infection dentaire, une plaie",
+    "Scanner des orbites et des sinus si signes orbitaires, si la vision baisse ou en l'absence d'amélioration en 24 à 48 h (abcès sous-périosté)",
+    "NFS, hémocultures",
+    "Différentiels : œdème allergique ou piqûre (pas de fièvre, démangeaisons), conjonctivite, dacryocystite (gonflement de l'angle interne), orgelet ou chalazion, tumeur de l'orbite (enfant sans fièvre)"
    ],
    "traitement": [
-    "Périorbitaire (préseptale) simple : amoxicilline-acide clavulanique per os 7 à 10 jours",
-    "Orbitaire : ceftriaxone + cloxacilline IV (+ métronidazole si origine dentaire ou sinusienne), 10 à 14 jours au total",
-    "Référence si collection (drainage chirurgical)"
+    "Cellulite préseptale simple de l'enfant de plus d'un an en bon état : amoxicilline + acide clavulanique oral pendant 7 à 10 jours, réévaluation à 24 à 48 h ; décongestionnant et lavages du nez si sinusite",
+    "Nourrisson de moins d'un an, état toxique ou cellulite orbitaire : hospitalisation, ceftriaxone (50 à 100 mg/kg par jour ; adulte 2 g) + cloxacilline (50 mg/kg toutes les 6 h ; adulte 2 g) IV, + métronidazole si origine dentaire, sinusite chronique ou atteinte intracrânienne ; relais oral après amélioration, 10 à 14 jours au total (3 semaines si abcès)",
+    "Surveillance de la vision et des pupilles toutes les 4 h",
+    "Abcès sous-périosté ou orbitaire, baisse de la vision ou absence d'amélioration en 48 h : drainage chirurgical (ORL ou ophtalmologie)",
+    "Traiter l'infection dentaire (extraction) ou la sinusite",
+    "Prévention du tétanos si plaie"
    ],
    "gravite": [
-    "Baisse de vision, exophtalmie, ophtalmoplégie",
-    "Troubles de conscience, signes méningés (thrombophlébite du sinus caverneux)"
+    "Baisse de vision, exophtalmie, ophtalmoplégie, anomalie pupillaire",
+    "Troubles de conscience, signes méningés, atteinte des 2 yeux (thrombophlébite du sinus caverneux)",
+    "Nourrisson",
+    "Exophtalmie sans fièvre chez l'enfant (tumeur)"
    ],
    "prevention": [
-    "Traitement des sinusites et des infections dentaires"
+    "Traitement des sinusites et des infections dentaires",
+    "Vaccination Hib et pneumococcique",
+    "Soins des plaies du visage"
    ],
    "medicaments": [
     "Amoxicilline + acide clavulanique",
     "Ceftriaxone",
     "Cloxacilline",
-    "Métronidazole"
+    "Métronidazole",
+    "Paracétamol",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
+    "Xylométazoline nasale"
    ]
   },
   {
@@ -41842,29 +42025,37 @@
    "nom": "Ptérygion",
    "categorie": "yeux",
    "synonymes": "ptérygion, voile sur l'œil, chair sur l'œil",
-   "resume": "Repli triangulaire de la conjonctive qui avance sur la cornée, favorisé par le soleil, le vent et la poussière.",
+   "resume": "Repli triangulaire de la conjonctive, charnu et vascularisé, qui avance du côté du nez (parfois de la tempe) sur la cornée, favorisé par l'exposition prolongée au soleil (rayons ultraviolets), au vent et à la poussière. Très fréquent en zone tropicale chez les travailleurs en plein air. Bénin, il peut gêner la vision s'il atteint la pupille. Il faut le distinguer d'une néoplasie de la surface de l'œil (carcinome de la conjonctive), fréquente en Afrique chez les personnes vivant avec le VIH.",
    "signes": [
-    "Membrane triangulaire, souvent du côté du nez, avançant vers la pupille",
-    "Irritation, rougeur, sensation de corps étranger",
-    "Baisse de vision s'il atteint la pupille"
+    "Membrane triangulaire rose ou rouge, souvent du côté du nez, avançant vers la pupille",
+    "Irritation, rougeur, sensation de corps étranger, larmoiement, surtout après exposition au soleil ou à la poussière",
+    "Baisse de vision s'il atteint la pupille ou déforme la cornée (astigmatisme)",
+    "Pinguécula : petit nodule jaunâtre de la conjonctive, sans extension sur la cornée",
+    "Lésion suspecte de néoplasie : masse gélatineuse, blanche (leucoplasie) ou très vascularisée, au bord de la cornée, croissance rapide, sujet jeune ou vivant avec le VIH"
    ],
    "diagnostic": [
-    "Diagnostic clinique"
+    "Diagnostic clinique ; mesurer l'acuité visuelle",
+    "Toute lésion atypique, rapidement évolutive ou récidivante : biopsie (carcinome épidermoïde de la conjonctive), test VIH"
    ],
    "traitement": [
-    "Protection contre le soleil et la poussière (lunettes, chapeau)",
+    "Protection contre le soleil et la poussière (lunettes de soleil enveloppantes, chapeau à large bord)",
     "Larmes artificielles ou sérum physiologique si irritation",
-    "Chirurgie si gêne visuelle ou progression vers l'axe visuel (récidives fréquentes)",
-    "Poussée inflammatoire : collyre corticoïde de courte durée uniquement sur avis ophtalmologique"
+    "Chirurgie si gêne visuelle, progression vers l'axe visuel ou gêne importante : exérèse avec greffe de conjonctive (autogreffe), qui réduit fortement les récidives (fréquentes après une exérèse simple) ; examen histologique de la pièce",
+    "Poussée inflammatoire : collyre corticoïde de courte durée uniquement sur avis ophtalmologique",
+    "Néoplasie de la conjonctive : exérèse large en milieu spécialisé, traitement complémentaire, ARV si VIH"
    ],
    "gravite": [
-    "Atteinte de la zone pupillaire"
+    "Atteinte de la zone pupillaire, baisse de vision",
+    "Lésion atypique (néoplasie : biopsie)",
+    "Récidive agressive après chirurgie"
    ],
    "prevention": [
-    "Lunettes de soleil, chapeau"
+    "Lunettes de soleil, chapeau, protection contre la poussière lors du travail en plein air"
    ],
    "medicaments": [
-    "Chlorure de sodium 0,9 % (sérum physiologique)"
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
+    "Prednisolone collyre 1 %",
+    "Ténofovir + lamivudine + dolutégravir (TLD)"
    ]
   },
   {
@@ -41872,35 +42063,45 @@
    "nom": "Cataracte",
    "categorie": "yeux",
    "synonymes": "cataracte, œil blanc, baisse de vision, pupille blanche",
-   "resume": "Opacification du cristallin, première cause de cécité dans le monde, curable par la chirurgie.",
+   "resume": "Opacification du cristallin, première cause de cécité dans le monde et en Afrique, surtout liée à l'âge, mais aussi au diabète, aux traumatismes, aux corticoïdes, à l'exposition aux ultraviolets, au tabac ; cataracte congénitale chez l'enfant (rubéole maternelle, génétique). Elle se guérit par une chirurgie courte et peu coûteuse avec implant, réalisée lors de programmes ou de campagnes. Chez l'enfant, la chirurgie est urgente pour éviter une perte définitive de la vision (amblyopie).",
    "signes": [
-    "Baisse progressive et indolore de la vision, éblouissement",
-    "Pupille grise ou blanche",
-    "Enfant : leucocorie (reflet blanc), strabisme, nystagmus (cataracte congénitale : rubéole)"
+    "Baisse progressive et indolore de la vision, de loin et de près ; vision floue ou voilée, éblouissement par les lumières, couleurs ternes, vision double d'un œil",
+    "Pupille grise ou blanche (stade avancé)",
+    "Enfant : reflet blanc dans la pupille (leucocorie), strabisme, mouvements anormaux des yeux (nystagmus), enfant qui ne fixe pas, retard de développement",
+    "Cataracte traumatique après un choc ou une plaie de l'œil"
    ],
    "diagnostic": [
-    "Mesure de l'acuité visuelle",
-    "Éliminer un glaucome, un rétinoblastome chez l'enfant (pupille blanche)",
-    "Rechercher le reflet rouge (ophtalmoscope ou lampe) chez tous les nourrissons : un reflet absent ou blanc impose un avis ophtalmologique urgent",
-    "Acuité visuelle < 3/10 du meilleur œil : indication habituelle de chirurgie chez l'adulte"
+    "Mesure de l'acuité visuelle de chaque œil (échelle de Snellen ou à E)",
+    "Examen à la lampe : reflet rouge pupillaire diminué ou absent",
+    "Rechercher le reflet rouge (ophtalmoscope ou lampe) chez tous les nourrissons : un reflet absent ou blanc impose un avis ophtalmologique urgent (cataracte congénitale, rétinoblastome)",
+    "Éliminer un glaucome, une atteinte de la rétine (diabète) ou du nerf optique ; glycémie",
+    "Acuité visuelle < 3/10 du meilleur œil : indication habituelle de chirurgie chez l'adulte (ou gêne dans la vie quotidienne)"
    ],
    "traitement": [
-    "Chirurgie (extraction du cristallin et implant) : seul traitement efficace",
-    "Orienter vers un programme de chirurgie de la cataracte",
-    "Enfant : chirurgie urgente (risque d'amblyopie définitive)",
-    "En attendant la chirurgie : lunettes adaptées, éclairage, prévention des chutes",
-    "Après chirurgie : collyres prescrits, ne pas frotter l'œil, consulter en urgence si douleur ou baisse de vision"
+    "Chirurgie (extraction du cristallin et pose d'un implant intraoculaire), seul traitement efficace : technique manuelle à petite incision (MSICS) ou phacoémulsification ; quelques minutes sous anesthésie locale",
+    "Orienter vers un programme ou une campagne de chirurgie de la cataracte ; lever les obstacles (coût, transport, accompagnant, peur)",
+    "Enfant : chirurgie urgente (dans les premières semaines de vie pour une cataracte congénitale bilatérale), suivie de correction optique et de rééducation de l'amblyopie ; suivi prolongé",
+    "En attendant la chirurgie : lunettes adaptées, bon éclairage, prévention des chutes",
+    "Après chirurgie : collyres prescrits (antibiotique et corticoïde pendant 4 à 6 semaines), ne pas frotter l'œil, protection la nuit, lunettes pour la vision de près ; consulter en urgence si douleur, rougeur importante ou baisse de vision dans les jours suivants (endophtalmie) ; voile tardif de la capsule : traitement au laser"
    ],
    "gravite": [
-    "Cataracte de l'enfant",
-    "Douleur, œil rouge (glaucome secondaire)"
+    "Cataracte de l'enfant (risque d'amblyopie définitive)",
+    "Douleur, œil rouge (glaucome secondaire à une cataracte évoluée)",
+    "Douleur et baisse de vision après chirurgie (endophtalmie : urgence)",
+    "Leucocorie (exclure un rétinoblastome)"
    ],
    "prevention": [
     "Vaccination contre la rubéole (cataracte congénitale), contrôle du diabète",
-    "Lunettes de soleil, arrêt du tabac, prudence avec les corticoïdes au long cours"
+    "Lunettes de soleil et chapeau, arrêt du tabac, prudence avec les corticoïdes au long cours",
+    "Protection contre les traumatismes oculaires",
+    "Dépistage de la baisse de vision chez les personnes âgées"
    ],
    "medicaments": [
-    "Vaccin rougeole-rubéole (RR)"
+    "Vaccin rougeole-rubéole (RR)",
+    "Tétracaïne collyre 0,5 %",
+    "Prednisolone collyre 1 %",
+    "Ofloxacine collyre 0,3 %",
+    "Lidocaïne (lignocaïne)"
    ]
   },
   {
@@ -42785,33 +42986,43 @@
    "nom": "Insomnie",
    "categorie": "mentale",
    "synonymes": "insomnie, troubles du sommeil, ne dort pas",
-   "resume": "Difficulté à s'endormir ou à rester endormi, souvent secondaire à un problème (douleur, anxiété, dépression, alcool, deuil).",
+   "resume": "Difficulté à s'endormir, réveils nocturnes ou réveil trop précoce, avec retentissement dans la journée, au moins 3 nuits par semaine. Très souvent secondaire : douleur, toux, prurit, envies d'uriner la nuit, anxiété, dépression, psychotraumatisme, alcool, café, médicaments (corticoïdes, salbutamol, éfavirenz, dolutégravir pris le soir), conditions de vie (bruit, insécurité, promiscuité). La prise en charge repose sur le traitement de la cause et les règles d'hygiène du sommeil ; les somnifères ne sont qu'un traitement de courte durée.",
    "signes": [
-    "Difficultés d'endormissement, réveils nocturnes ou trop précoces",
-    "Fatigue et irritabilité le jour"
+    "Difficultés d'endormissement, réveils nocturnes ou trop précoces, sommeil non réparateur",
+    "Fatigue, somnolence, irritabilité, difficultés de concentration le jour",
+    "Évocateurs d'une autre cause : ronflement fort avec pauses respiratoires et somnolence diurne (apnées du sommeil) ; besoin de bouger les jambes le soir (impatiences, carence en fer) ; cauchemars (psychotraumatisme) ; ne dort pas mais n'est pas fatigué, hyperactif (manie) ; réveil précoce avec tristesse (dépression)"
    ],
    "diagnostic": [
-    "Rechercher une cause : douleur, toux, prurit, dépression, anxiété, psychotraumatisme, alcool, café, médicaments (corticoïdes, éfavirenz), conditions de vie (bruit, insécurité)"
+    "Agenda du sommeil sur 1 à 2 semaines",
+    "Rechercher une cause : douleur, toux, prurit (gale), envies d'uriner la nuit (prostate, diabète, insuffisance cardiaque), reflux, dépression, anxiété, psychotraumatisme, manie, alcool, café, thé, tabac, médicaments (corticoïdes, salbutamol, éfavirenz, dolutégravir, fluoxétine le soir), travail de nuit, conditions de vie",
+    "Ferritine si impatiences ; obésité et ronflement : apnées du sommeil"
    ],
    "traitement": [
-    "Traiter la cause",
-    "Règles d'hygiène du sommeil : horaires réguliers, éviter café, thé, alcool et tabac le soir, activité physique dans la journée",
-    "Écoute, techniques de relaxation",
-    "Si nécessaire, traitement court (< 2 semaines) : prométhazine 25 à 50 mg le soir, ou benzodiazépine quelques jours (diazépam 2 à 5 mg)",
-    "Dépression associée : amitriptyline ou fluoxétine"
+    "Traiter la cause (antalgique, traitement de la toux ou du prurit, de la dépression, de l'anxiété) ; prendre le dolutégravir et la fluoxétine le matin",
+    "Règles d'hygiène du sommeil : horaires de coucher et de lever réguliers, ne pas rester au lit éveillé plus de 20 min (se lever et faire une activité calme), éviter la sieste longue ; éviter café, thé, colas, alcool et tabac le soir ; repas léger le soir ; activité physique dans la journée (pas juste avant le coucher) ; chambre calme, sombre, fraîche ; limiter les écrans le soir",
+    "Thérapie cognitivo-comportementale de l'insomnie (contrôle du stimulus, restriction du temps passé au lit) : traitement de référence de l'insomnie chronique",
+    "Écoute, techniques de relaxation et de respiration",
+    "Si nécessaire, traitement court (moins de 2 semaines, de préférence quelques nuits) : prométhazine 25 à 50 mg le soir, ou diazépam 2 à 5 mg le soir quelques jours ; éviter les benzodiazépines chez le sujet âgé (chutes, confusion) et au long cours (dépendance)",
+    "Dépression associée : amitriptyline à faible dose le soir ou fluoxétine le matin",
+    "Apnées du sommeil : perte de poids, éviter l'alcool et les sédatifs, avis spécialisé (pression positive continue)"
    ],
    "gravite": [
     "Idées suicidaires",
-    "Signes de psychose ou de manie (ne dort pas sans fatigue)"
+    "Signes de psychose ou de manie (ne dort pas sans fatigue)",
+    "Somnolence au volant ou au travail (accidents)",
+    "Dépendance aux somnifères"
    ],
    "prevention": [
-    "Hygiène du sommeil"
+    "Hygiène du sommeil",
+    "Prise en charge précoce de la douleur, de l'anxiété et de la dépression",
+    "Prescription prudente et courte des somnifères"
    ],
    "medicaments": [
     "Prométhazine",
     "Diazépam",
     "Amitriptyline",
-    "Fluoxétine"
+    "Fluoxétine",
+    "Sulfate ferreux"
    ]
   },
   {
@@ -42819,33 +43030,45 @@
    "nom": "État confusionnel (delirium)",
    "categorie": "mentale",
    "synonymes": "confusion, delirium, désorientation, agitation confuse",
-   "resume": "Trouble aigu et fluctuant de la conscience et de l'attention, toujours lié à une cause organique à rechercher en urgence.",
+   "resume": "Trouble aigu (heures à jours) et fluctuant de la conscience, de l'attention et de la cognition, toujours lié à une cause organique qu'il faut rechercher en urgence. Très fréquent chez le sujet âgé hospitalisé, l'enfant fébrile et le patient gravement malade ; il augmente la mortalité. La forme « hypoactive » (patient calme, somnolent) passe souvent inaperçue. Ce n'est pas une maladie psychiatrique : les antipsychotiques ne traitent pas la cause.",
    "signes": [
-    "Début brutal, désorientation dans le temps et l'espace, attention perturbée",
-    "Fluctuation dans la journée, aggravation le soir",
-    "Agitation ou au contraire somnolence, hallucinations visuelles"
+    "Début brutal, désorientation dans le temps et l'espace, inattention (ne peut pas suivre une conversation ni compter à rebours)",
+    "Fluctuation dans la journée, aggravation le soir et la nuit, inversion du rythme veille-sommeil",
+    "Forme agitée : agitation, agressivité, hallucinations visuelles, idées de persécution, arrachage des perfusions",
+    "Forme hypoactive : somnolence, apathie, ralentissement",
+    "Signes de la cause : fièvre, déshydratation, globe vésical, signes neurologiques, ictère, odeur d'alcool"
    ],
    "diagnostic": [
-    "Rechercher une cause : hypoglycémie (glycémie immédiate), paludisme grave, méningite, sepsis, hypoxie, déshydratation, troubles électrolytiques, sevrage ou intoxication (alcool, médicaments), rétention urinaire, AVC, VIH avancé"
+    "Méthode d'évaluation de la confusion (CAM) : début aigu et fluctuant + inattention + pensée désorganisée ou trouble de la conscience",
+    "Rechercher la cause en urgence : glycémie capillaire immédiate, SpO₂, température, PA ; paludisme grave (TDR), méningite, encéphalite, sepsis (pneumonie, infection urinaire), hypoxie, déshydratation, troubles électrolytiques (sodium, calcium), insuffisance rénale ou hépatique, sevrage ou intoxication (alcool, benzodiazépines, médicaments anticholinergiques, opioïdes), rétention urinaire, fécalome, douleur, AVC, traumatisme crânien, VIH avancé (cryptocoque, toxoplasmose)",
+    "Revoir tous les médicaments",
+    "Différentiels : démence (installation progressive, attention conservée au début), psychose, dépression"
    ],
    "traitement": [
-    "Traiter la cause en urgence (glucose si hypoglycémie, thiamine chez l'alcoolique)",
-    "Environnement calme, éclairé, présence d'un proche",
-    "Agitation dangereuse : halopéridol à faible dose (0,5 à 2 mg) ; benzodiazépine seulement en cas de sevrage alcoolique",
-    "Arrêter les médicaments en cause"
+    "Traiter la cause en urgence : glucose si hypoglycémie (thiamine avant chez l'alcoolique), oxygène, réhydratation, antibiotiques, antipaludique, sondage d'un globe vésical, traitement de la douleur et de la constipation",
+    "Arrêter ou réduire les médicaments en cause (sédatifs, anticholinergiques, opioïdes, corticoïdes)",
+    "Mesures non médicamenteuses (les plus efficaces) : environnement calme et éclairé le jour, sombre la nuit, présence d'un proche, réorientation fréquente (horloge, calendrier, explications), lunettes et appareils auditifs, hydratation et alimentation, mobilisation précoce, respect du sommeil ; éviter les contentions et les sondes inutiles",
+    "Agitation dangereuse ou hallucinations angoissantes : halopéridol à faible dose (0,5 à 1 mg chez le sujet âgé, 1 à 2 mg chez l'adulte) oral ou IM, à répéter si nécessaire, pour la durée la plus courte ; quétiapine à faible dose en cas de maladie de Parkinson ; benzodiazépine seulement en cas de sevrage alcoolique ou de benzodiazépines (elles aggravent les autres confusions)",
+    "Surveillance rapprochée (conscience, chutes, alimentation) ; la confusion peut durer plusieurs jours après la correction de la cause ; informer la famille"
    ],
    "gravite": [
     "Troubles de conscience, fièvre, signes neurologiques",
-    "Agitation dangereuse"
+    "Agitation dangereuse, chutes",
+    "Sujet âgé (mortalité élevée)",
+    "Confusion qui persiste malgré le traitement de la cause"
    ],
    "prevention": [
-    "Prudence avec les médicaments sédatifs chez le sujet âgé"
+    "Prudence avec les médicaments sédatifs et anticholinergiques chez le sujet âgé",
+    "Hydratation, mobilisation, réorientation, lunettes et appareils auditifs à l'hôpital",
+    "Traitement rapide des infections et de la douleur"
    ],
    "medicaments": [
     "Glucose 10 %",
     "Thiamine (vitamine B1)",
     "Halopéridol",
+    "Quétiapine",
     "Diazépam",
+    "Oxygène",
     "Artésunate (injectable)",
     "Ceftriaxone"
    ]
@@ -42855,41 +43078,52 @@
    "nom": "Psychoses chroniques (schizophrénie)",
    "categorie": "mentale",
    "synonymes": "schizophrénie, psychose chronique, délire, hallucinations",
-   "resume": "Troubles psychotiques durables (plus de 6 mois) avec délire, hallucinations et désorganisation, débutant souvent chez l'adulte jeune.",
+   "resume": "Troubles psychotiques durables (plus de 6 mois) avec idées délirantes, hallucinations, désorganisation, puis souvent repli et apathie, débutant chez l'adolescent ou l'adulte jeune. Ils touchent environ 1 % de la population. Avec un traitement antipsychotique régulier et un soutien psychosocial, beaucoup de patients vivent dans leur communauté. Les patients sont trop souvent enchaînés ou maltraités : leurs droits doivent être respectés.",
    "signes": [
-    "Idées délirantes, hallucinations auditives",
-    "Discours et comportement désorganisés",
-    "Repli, apathie, négligence de soi",
-    "Rechutes en cas d'arrêt du traitement"
+    "Idées délirantes (persécution, ensorcellement, influence, idées mystiques ou de grandeur), hallucinations surtout auditives (voix qui commentent ou ordonnent)",
+    "Discours et comportement désorganisés, propos incompréhensibles",
+    "Signes « négatifs » : repli, apathie, perte d'intérêt, pauvreté du discours, négligence de l'hygiène et de soi",
+    "Troubles cognitifs (attention, mémoire)",
+    "Rechutes, surtout en cas d'arrêt du traitement ou de consommation de cannabis"
    ],
    "diagnostic": [
-    "Diagnostic clinique (durée > 6 mois)",
-    "Éliminer une cause organique (épilepsie, VIH, syphilis, paludisme cérébral), une prise de cannabis ou d'autres drogues, un trouble bipolaire"
+    "Diagnostic clinique (durée > 6 mois) avec l'aide de la famille",
+    "Éliminer une cause organique : épilepsie, VIH, syphilis, séquelles de paludisme cérébral ou de méningite, trypanosomiase, maladie thyroïdienne ; consommation de cannabis ou d'autres drogues ; trouble bipolaire, dépression avec symptômes psychotiques",
+    "Bilan avant traitement : poids, PA, glycémie (risque métabolique), test de grossesse"
    ],
    "traitement": [
-    "Antipsychotique à la dose minimale efficace, en monothérapie : rispéridone 2 à 4 mg/jour, halopéridol 2 à 10 mg/jour, olanzapine 5 à 10 mg/jour ou chlorpromazine",
-    "Traitement d'au moins 1 à 2 ans après un 1er épisode, souvent prolongé",
-    "Formes injectables retard si observance difficile",
-    "Effets extrapyramidaux : bipéridène",
-    "Psychoéducation de la famille, réinsertion, lutte contre la stigmatisation (pas d'enchaînement)"
+    "Antipsychotique en monothérapie, à la dose minimale efficace, augmenté progressivement : rispéridone 2 à 4 mg par jour (jusqu'à 6 mg), halopéridol 2 à 10 mg par jour, olanzapine 5 à 10 mg par jour (jusqu'à 20 mg ; prise de poids), ou chlorpromazine 75 à 300 mg par jour ; évaluer l'efficacité après 4 à 6 semaines à dose suffisante",
+    "Durée : au moins 12 mois après la rémission d'un 1er épisode ; souvent plusieurs années ou au long cours après plusieurs épisodes",
+    "Forme injectable retard si observance difficile : fluphénazine décanoate 12,5 à 50 mg IM toutes les 2 à 4 semaines (dose test de 12,5 mg) ou palipéridone palmitate mensuel",
+    "Schizophrénie résistante (échec de 2 antipsychotiques bien conduits) : clozapine en milieu spécialisé, avec surveillance régulière de la NFS (agranulocytose)",
+    "Effets extrapyramidaux (raideur, tremblement) : réduire la dose, bipéridène 1 à 2 mg 2 fois par jour ; akathisie (impossibilité de rester en place) : propranolol ; surveiller poids, glycémie et PA (antipsychotiques de 2e génération)",
+    "Psychoéducation du patient et de la famille (maladie, traitement, signes de rechute), soutien familial, réadaptation et réinsertion (activité, travail), lutte contre la stigmatisation ; jamais d'enchaînement",
+    "Prise en charge du cannabis et de l'alcool",
+    "Grossesse : poursuivre un antipsychotique (halopéridol, olanzapine), suivi rapproché"
    ],
    "gravite": [
     "Risque suicidaire ou de violence",
     "Refus de s'alimenter",
-    "Syndrome malin des neuroleptiques (fièvre, rigidité, confusion)"
+    "Syndrome malin des neuroleptiques (fièvre, rigidité, confusion, sueurs) : arrêt et urgence",
+    "Rechute après arrêt du traitement",
+    "Errance, maltraitance"
    ],
    "prevention": [
-    "Suivi régulier, soutien familial, éviter le cannabis"
+    "Suivi régulier, soutien familial, observance du traitement",
+    "Éviter le cannabis",
+    "Repérage précoce des premiers épisodes",
+    "Soins de santé mentale de proximité et respect des droits"
    ],
    "medicaments": [
     "Rispéridone",
     "Halopéridol",
     "Olanzapine",
     "Chlorpromazine",
-    "Bipéridène",
     "Fluphénazine décanoate",
     "Palipéridone palmitate",
-    "Clozapine"
+    "Clozapine",
+    "Bipéridène",
+    "Propranolol"
    ]
   },
   {
@@ -42897,36 +43131,47 @@
    "nom": "Trouble bipolaire",
    "categorie": "mentale",
    "synonymes": "bipolaire, manie, maniaco-dépressif, épisode maniaque",
-   "resume": "Alternance d'épisodes maniaques (excitation) et dépressifs, séparés de périodes normales.",
+   "resume": "Maladie de l'humeur caractérisée par des épisodes maniaques (excitation) ou hypomaniaques et des épisodes dépressifs, séparés de périodes normales. Elle débute souvent chez l'adulte jeune ; le risque de suicide est élevé. Un traitement thymorégulateur au long cours prévient les rechutes. Un antidépresseur seul peut déclencher un épisode maniaque.",
    "signes": [
-    "Épisode maniaque : humeur euphorique ou irritable, hyperactivité, besoin de sommeil diminué, logorrhée, idées de grandeur, dépenses excessives, comportements à risque",
-    "Épisodes dépressifs (voir Dépression)"
+    "Épisode maniaque (au moins 1 semaine) : humeur euphorique ou irritable, hyperactivité, besoin de sommeil très diminué sans fatigue, logorrhée, fuite des idées, idées de grandeur, distractibilité, dépenses excessives, comportements sexuels ou à risque, parfois idées délirantes et agressivité",
+    "Hypomanie : forme moins sévère sans retentissement majeur",
+    "Épisodes dépressifs (voir la fiche Dépression)",
+    "Épisodes mixtes (agitation et tristesse)",
+    "Rechutes favorisées par le manque de sommeil, le post-partum, les antidépresseurs, le cannabis, l'arrêt du traitement"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; antécédents d'épisodes",
-    "Éliminer une cause organique ou toxique (cannabis, corticoïdes, éfavirenz), une hyperthyroïdie"
+    "Diagnostic clinique ; antécédents d'épisodes maniaques ou dépressifs, antécédents familiaux",
+    "Éliminer une cause organique ou toxique : cannabis, amphétamines, corticoïdes, éfavirenz, hyperthyroïdie, VIH, épilepsie, tumeur cérébrale",
+    "Avant lithium : créatinine, TSH, ECG, test de grossesse ; avant valproate : transaminases, NFS, test de grossesse"
    ],
    "traitement": [
-    "Épisode maniaque : antipsychotique (halopéridol, rispéridone, olanzapine ou quétiapine) ± benzodiazépine pour l'agitation ; arrêter les antidépresseurs",
-    "Traitement de fond (thymorégulateur) : valproate (sauf femme en âge de procréer), carbamazépine, lithium (si lithémie possible), quétiapine",
-    "Dépression bipolaire : éviter l'antidépresseur seul (risque de virage maniaque) ; quétiapine ou thymorégulateur",
-    "Psychoéducation, régularité du sommeil"
+    "Épisode maniaque : antipsychotique (halopéridol 5 à 10 mg, rispéridone 2 à 6 mg, olanzapine 10 à 20 mg ou quétiapine 300 à 800 mg par jour) ou thymorégulateur ; benzodiazépine (diazépam) quelques jours pour l'agitation et l'insomnie ; arrêter les antidépresseurs ; hospitalisation si danger ou désorganisation",
+    "Traitement de fond (thymorégulateur), au moins 2 ans après un épisode, souvent au long cours : lithium (lithémie cible 0,6 à 1 mmol/l, seulement si la surveillance des taux, de la créatinine et de la TSH est possible) ; valproate 500 mg augmenté jusqu'à 1 à 2 g par jour (pas chez la fille ni la femme en âge de procréer) ; carbamazépine 400 à 600 mg par jour (interactions) ; quétiapine ou olanzapine",
+    "Lithium : toxicité (tremblement grossier, vomissements, diarrhée, ataxie, confusion) favorisée par la déshydratation, les AINS, les diurétiques et les IEC : arrêter et doser",
+    "Dépression bipolaire : éviter l'antidépresseur seul (risque de virage maniaque) ; quétiapine ou thymorégulateur (lamotrigine en prévention des dépressions) ; antidépresseur seulement associé à un thymorégulateur, sur avis",
+    "Grossesse : éviter valproate et carbamazépine, prudence avec le lithium ; préférer un antipsychotique ; surveillance renforcée du post-partum (rechute fréquente)",
+    "Psychoéducation : reconnaître les signes précoces de rechute (insomnie, excitation), régularité du sommeil, éviter alcool et cannabis, observance ; implication de la famille"
    ],
    "gravite": [
-    "Risque suicidaire",
-    "Agitation dangereuse, refus de s'alimenter"
+    "Risque suicidaire (surtout en phase dépressive ou mixte)",
+    "Agitation dangereuse, comportements à risque, refus de s'alimenter",
+    "Intoxication au lithium",
+    "Post-partum"
    ],
    "prevention": [
-    "Observance du traitement de fond, sommeil régulier, pas d'alcool ni de cannabis"
+    "Observance du traitement de fond, sommeil régulier, pas d'alcool ni de cannabis",
+    "Repérage précoce des rechutes par le patient et la famille",
+    "Prudence avec les antidépresseurs chez les patients ayant des antécédents d'excitation"
    ],
    "medicaments": [
     "Halopéridol",
     "Rispéridone",
     "Olanzapine",
     "Quétiapine",
+    "Lithium (carbonate)",
     "Valproate de sodium",
     "Carbamazépine",
-    "Lithium (carbonate)",
+    "Lamotrigine",
     "Diazépam"
    ]
   },
@@ -44546,38 +44791,51 @@
    "nom": "Dépendance aux opioïdes",
    "categorie": "mentale",
    "synonymes": "héroïne, opioïdes, toxicomanie, drogue injectable, substitution, overdose, surdose",
-   "resume": "Usage compulsif d'héroïne ou d'opioïdes médicamenteux (tramadol détourné, codéine), avec risque de surdose, de VIH et d'hépatites (injection).",
+   "resume": "Usage compulsif d'héroïne ou d'opioïdes médicamenteux détournés (tramadol, très répandu chez les jeunes en Afrique, codéine des sirops, morphine), malgré les conséquences. Risques : surdose mortelle, infections par l'injection (VIH, hépatites B et C, abcès, endocardite), tuberculose, troubles psychiatriques, problèmes sociaux et judiciaires. Le traitement de substitution (méthadone, buprénorphine) est le plus efficace pour réduire les décès et les rechutes ; la réduction des risques en fait partie.",
    "signes": [
-    "Besoin irrésistible, perte de contrôle, poursuite malgré les conséquences",
-    "Sevrage : bâillements, larmoiement, rhinorrhée, sueurs, chair de poule, mydriase, douleurs, diarrhée, agitation",
-    "Surdose : coma, respiration lente, myosis serré"
+    "Besoin irrésistible, perte de contrôle, tolérance, temps important consacré à la consommation, poursuite malgré les conséquences",
+    "Sevrage (quelques heures après la dernière prise, maximum à 2 à 3 jours) : bâillements, larmoiement, écoulement nasal, sueurs, chair de poule, pupilles dilatées, douleurs musculaires, crampes abdominales, diarrhée, vomissements, agitation, insomnie",
+    "Surdose : coma, respiration lente ou absente, pupilles très petites (myosis serré), cyanose",
+    "Tramadol à forte dose : convulsions, syndrome sérotoninergique",
+    "Traces d'injection, abcès, veines thrombosées"
    ],
    "diagnostic": [
-    "Évaluation de la consommation et des risques (injection, partage du matériel)",
-    "Dépistage VIH, hépatites B et C, tuberculose",
-    "Rechercher une dépression"
+    "Évaluation de la consommation (produits, quantités, voie, injection, partage du matériel), des surdoses antérieures et des risques",
+    "Échelle de sevrage (COWS)",
+    "Dépistage du VIH, des hépatites B et C, de la syphilis et de la tuberculose ; examen de la peau et du cœur (endocardite)",
+    "Rechercher dépression, troubles anxieux, idées suicidaires, autres consommations (alcool, benzodiazépines)",
+    "Test de grossesse"
    ],
    "traitement": [
-    "Surdose : naloxone (0,4 à 2 mg IV/IM/intranasal, répétée), ventilation au ballon",
-    "Traitement de substitution : méthadone ou buprénorphine (le plus efficace pour réduire décès et rechutes)",
-    "Réduction des risques : matériel d'injection stérile, naloxone remise aux proches",
-    "Soutien psychosocial",
+    "Surdose : stimuler, libérer les voies aériennes, ventilation au ballon et oxygène ; naloxone 0,4 mg IV, IM ou SC (ou 2 à 4 mg intranasal), à répéter toutes les 2 à 3 min jusqu'à une respiration efficace (jusqu'à 10 mg) ; surveiller au moins 2 h (la naloxone agit moins longtemps que la méthadone : rechute possible)",
+    "Traitement de substitution aux opioïdes (TSO) : méthadone débutée à 10 à 30 mg par jour (maximum 40 mg le 1er jour), augmentée de 5 à 10 mg tous les quelques jours, entretien habituel 60 à 120 mg par jour, sous observation au début ; ou buprénorphine débutée à l'apparition d'un sevrage modéré (4 mg, jusqu'à 8 à 12 mg le 1er jour), entretien 8 à 24 mg par jour",
+    "Méthadone : allongement du QT (ECG), interactions (la rifampicine, l'éfavirenz et la névirapine diminuent ses taux : augmenter la dose) ; dangereuse pour les enfants (stockage sécurisé)",
+    "Sevrage sans substitution : traitements symptomatiques (paracétamol, lopéramide, prométhazine pour l'insomnie et l'anxiété) ou diminution progressive de la buprénorphine ; risque élevé de surdose après le sevrage (perte de tolérance)",
     "Naltrexone après sevrage complet chez les patients très motivés",
-    "Femme enceinte : substitution plutôt que sevrage"
+    "Réduction des risques : matériel d'injection stérile, naloxone remise aux usagers et à leurs proches, préservatifs, PrEP",
+    "Traitement du VIH, des hépatites et de la tuberculose ; soutien psychosocial, logement, insertion",
+    "Femme enceinte : substitution (méthadone ou buprénorphine) plutôt que sevrage ; surveillance du syndrome de sevrage du nouveau-né (irritabilité, troubles de la succion, diarrhée)"
    ],
    "gravite": [
     "Surdose (coma, apnée)",
-    "Infections graves (endocardite, abcès)",
-    "Idées suicidaires"
+    "Infections graves (endocardite, abcès, septicémie, VIH)",
+    "Convulsions sous tramadol",
+    "Idées suicidaires",
+    "Grossesse"
    ],
    "prevention": [
-    "Prescription prudente des opioïdes, accès à la naloxone, programmes d'échange de seringues"
+    "Prescription et dispensation prudentes des opioïdes et du tramadol, contrôle de la vente illicite",
+    "Accès à la naloxone et aux programmes d'échange de seringues",
+    "Information des jeunes"
    ],
    "medicaments": [
     "Méthadone",
     "Buprénorphine (substitution)",
     "Naloxone",
-    "Naltrexone"
+    "Naltrexone",
+    "Paracétamol",
+    "Lopéramide",
+    "Prométhazine"
    ]
   },
   {
@@ -44585,35 +44843,44 @@
    "nom": "Sevrage tabagique",
    "categorie": "mentale",
    "synonymes": "tabac, arrêter de fumer, cigarette, nicotine, tabagisme",
-   "resume": "Le tabac est la première cause de décès évitable. Un conseil bref à chaque consultation et un traitement médicamenteux multiplient les chances d'arrêt.",
+   "resume": "Le tabac (cigarettes, chicha, tabac à chiquer ou à priser) est la première cause de décès évitable : cancers (poumon, bouche, gorge, œsophage, vessie, col), maladies cardiovasculaires, BPCO, tuberculose plus grave, complications de la grossesse. Un conseil bref à chaque consultation et un traitement médicamenteux (substituts nicotiniques, varénicline, bupropion, cytisine : tous recommandés par l'OMS en 2024) multiplient les chances d'arrêt. Arrêter apporte des bénéfices à tout âge.",
    "signes": [
-    "Consommation quotidienne de tabac (cigarettes, chicha, tabac à chiquer)",
-    "Dépendance : 1re cigarette dans les 30 min après le réveil, envies fortes",
-    "Sevrage : irritabilité, anxiété, troubles du sommeil, augmentation de l'appétit (2 à 4 semaines)"
+    "Consommation quotidienne de tabac sous toutes ses formes ; exposition au tabagisme passif",
+    "Dépendance : 1re cigarette dans les 30 min après le réveil, plus de 10 cigarettes par jour, envies fortes, échecs antérieurs",
+    "Sevrage (2 à 4 semaines) : envies impérieuses, irritabilité, anxiété, troubles du sommeil et de la concentration, augmentation de l'appétit et prise de poids modérée, toux transitoire"
    ],
    "diagnostic": [
-    "Demander systématiquement : « Fumez-vous ? »",
-    "Évaluer la motivation et la dépendance",
-    "Rechercher les maladies liées (BPCO, coronaropathie, tuberculose)"
+    "Demander systématiquement : « Fumez-vous ou utilisez-vous du tabac ? » et l'inscrire dans le dossier",
+    "Évaluer la motivation et la dépendance (test de Fagerström)",
+    "Rechercher les maladies liées (BPCO, coronaropathie, HTA, tuberculose, cancers) et les autres consommations (alcool, cannabis)",
+    "Grossesse"
    ],
    "traitement": [
-    "Conseil bref (méthode des 5 A : demander, conseiller, évaluer, aider, organiser le suivi)",
-    "Fixer une date d'arrêt",
-    "Substituts nicotiniques (patch + forme orale) ou varénicline (le plus efficace) ou bupropion",
-    "Suivi rapproché les premières semaines",
-    "Rechute : ne pas culpabiliser, recommencer"
+    "Conseil bref (méthode des 5 A) : demander, conseiller l'arrêt de façon claire et personnalisée, évaluer la motivation, aider (date d'arrêt, traitement, gestion des envies), organiser le suivi ; si pas prêt : entretien motivationnel (5 R)",
+    "Fixer une date d'arrêt dans les 2 semaines, informer l'entourage, retirer cigarettes et briquets, identifier les situations à risque (café, alcool, stress) et des alternatives",
+    "Substituts nicotiniques : patch (21 mg par 24 h si plus de 10 cigarettes par jour, puis diminution sur 8 à 12 semaines) associé à une forme orale (gomme, pastille) pour les envies",
+    "Varénicline (le plus efficace) : 0,5 mg par jour les jours 1 à 3, 0,5 mg 2 fois par jour les jours 4 à 7, puis 1 mg 2 fois par jour pendant 12 semaines, à débuter 1 à 2 semaines avant la date d'arrêt",
+    "Cytisine (peu coûteuse) : schéma dégressif sur 25 jours selon la notice",
+    "Bupropion 150 mg par jour pendant 3 jours puis 150 mg 2 fois par jour pendant 7 à 12 semaines (contre-indiqué en cas d'épilepsie, de troubles alimentaires, de sevrage alcoolique)",
+    "Suivi rapproché les premières semaines (visites, téléphone, SMS)",
+    "Rechute : ne pas culpabiliser, analyser la situation, recommencer",
+    "Femme enceinte : soutien comportemental intensif ; substituts nicotiniques si nécessaire",
+    "Activité physique et alimentation équilibrée pour limiter la prise de poids"
    ],
    "gravite": [
-    "Dépression, idées suicidaires pendant le sevrage"
+    "Dépression, idées suicidaires pendant le sevrage (rares) : réévaluer",
+    "Tabagisme chez la femme enceinte ou le patient tuberculeux, cardiaque ou BPCO (bénéfice majeur de l'arrêt)"
    ],
    "prevention": [
-    "Information des jeunes, environnements sans tabac"
+    "Information des jeunes, interdiction de la publicité et de la vente aux mineurs, taxes",
+    "Environnements sans tabac (écoles, structures de santé, transports)",
+    "Soignants non-fumeurs servant d'exemple"
    ],
    "medicaments": [
     "Substituts nicotiniques",
     "Varénicline",
-    "Bupropion",
-    "Cytisine"
+    "Cytisine",
+    "Bupropion"
    ]
   },
   {
@@ -44621,28 +44888,34 @@
    "nom": "Trouble obsessionnel-compulsif (TOC)",
    "categorie": "mentale",
    "synonymes": "TOC, obsessions, compulsions, rituels, lavage des mains, vérifications",
-   "resume": "Pensées envahissantes et angoissantes (obsessions) et gestes répétitifs pour les neutraliser (compulsions), qui prennent plus d'une heure par jour ou gênent la vie.",
+   "resume": "Pensées, images ou impulsions envahissantes et angoissantes (obsessions) et gestes ou actes mentaux répétitifs destinés à les neutraliser (compulsions), qui prennent plus d'une heure par jour ou gênent la vie. Il débute souvent dans l'enfance ou l'adolescence, touche 1 à 2 % de la population et est souvent caché par honte. La thérapie d'exposition et les antidépresseurs ISRS à dose élevée sont efficaces.",
    "signes": [
-    "Obsessions : peur de la contamination, du malheur, pensées interdites, besoin d'ordre",
-    "Compulsions : lavages, vérifications, comptages, rangements, prières répétées",
-    "Le patient reconnaît souvent le caractère excessif"
+    "Obsessions : peur de la contamination (saleté, microbes, maladies), peur de causer un malheur, doutes (porte, gaz), pensées interdites (agressives, sexuelles, religieuses), besoin d'ordre et de symétrie",
+    "Compulsions : lavages répétés (mains rouges et abîmées), vérifications, comptages, rangements, répétitions, prières ou ablutions répétées, besoin d'être rassuré",
+    "Le patient reconnaît souvent le caractère excessif ; anxiété majeure si les rituels sont empêchés ; évitement",
+    "Retentissement : retards, isolement, conflits familiaux, échec scolaire"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Rechercher une dépression associée, des tics",
-    "Distinguer d'une psychose (conviction délirante)"
+    "Diagnostic clinique ; poser des questions directes (« Avez-vous des pensées qui reviennent sans cesse ? des gestes que vous devez répéter ? »)",
+    "Rechercher une dépression associée (fréquente), des tics, des idées suicidaires",
+    "Distinguer d'une psychose (conviction délirante, pas de critique), d'une personnalité perfectionniste, de pratiques religieuses normales (partagées par la communauté et sans souffrance), d'un trouble anxieux"
    ],
    "traitement": [
-    "Psychoéducation",
-    "Thérapie cognitivo-comportementale (exposition avec prévention de la réponse) si accessible",
-    "ISRS à dose élevée : fluoxétine 40 à 60 mg/jour, effet en 8 à 12 semaines, traitement d'au moins 1 an",
-    "Clomipramine en 2e intention"
+    "Psychoéducation du patient et de la famille (maladie fréquente qui se soigne ; la famille ne doit pas participer aux rituels ni rassurer sans cesse)",
+    "Thérapie cognitivo-comportementale avec exposition et prévention de la réponse (s'exposer progressivement à la situation redoutée sans faire le rituel), traitement le plus efficace, si accessible",
+    "ISRS à dose élevée : fluoxétine débutée à 20 mg, augmentée jusqu'à 40 à 60 mg par jour (maximum 80 mg) ; effet en 8 à 12 semaines ; poursuivre au moins 1 à 2 ans après l'amélioration, puis arrêt très progressif",
+    "Clomipramine en 2e intention (25 mg puis augmentation progressive jusqu'à 150 mg par jour ; effets anticholinergiques, dangereuse en surdosage)",
+    "Enfant et adolescent : thérapie d'abord ; ISRS en complément sur avis",
+    "Traiter une dépression associée ; suivi régulier"
    ],
    "gravite": [
-    "Idées suicidaires, dépression sévère"
+    "Idées suicidaires, dépression sévère",
+    "Rituels qui empêchent toute activité, lésions de la peau par les lavages",
+    "Symptômes psychotiques"
    ],
    "prevention": [
-    "Repérage précoce"
+    "Repérage précoce, notamment chez l'enfant et l'adolescent",
+    "Information des enseignants et des familles"
    ],
    "medicaments": [
     "Fluoxétine",
@@ -45840,39 +46113,52 @@
    "nom": "Carie dentaire et santé bucco-dentaire",
    "categorie": "yeux",
    "synonymes": "carie, mal de dents, dent cariée, hygiène bucco-dentaire, fluor",
-   "resume": "Destruction progressive des dents par les acides des bactéries de la plaque, favorisée par le sucre. Non soignée, elle conduit à la douleur, à l'abcès et à la perte de la dent.",
+   "resume": "Destruction progressive des dents par les acides produits par les bactéries de la plaque à partir des sucres. Maladie la plus fréquente au monde, en forte augmentation en Afrique avec la consommation de boissons et d'aliments sucrés. Non soignée, elle conduit à la douleur, à l'abcès, à la cellulite et à la perte des dents, avec un retentissement sur l'alimentation, la scolarité et le travail. La prévention (fluor, réduction du sucre) et les soins simples et peu invasifs sont très efficaces.",
    "signes": [
-    "Tache blanche puis brune, cavité",
-    "Douleur au froid, au sucré (réversible)",
-    "Douleur spontanée, nocturne, pulsatile (atteinte de la pulpe)",
-    "Abcès : gonflement de la gencive ou de la joue, fièvre"
+    "Tache blanche crayeuse (carie débutante, réversible), puis brune ou noire, puis cavité",
+    "Douleur provoquée par le froid, le sucré, brève (atteinte réversible)",
+    "Douleur spontanée, intense, nocturne, pulsatile, prolongée (atteinte de la pulpe)",
+    "Abcès : gonflement de la gencive ou de la joue, fistule, fièvre",
+    "Jeune enfant : caries des incisives supérieures (biberon de boissons sucrées la nuit)",
+    "Maladie des gencives : gencives rouges qui saignent au brossage, mauvaise haleine, déchaussement"
    ],
    "diagnostic": [
-    "Examen de la bouche avec un bon éclairage",
-    "Rechercher un abcès, une cellulite (voir infections dentaires)"
+    "Examen de la bouche avec un bon éclairage, sonde et miroir",
+    "Rechercher un abcès, une cellulite (voir la fiche Infections dentaires)",
+    "Évaluer le risque carieux (sucres, hygiène, fluor, salive) et l'état des gencives",
+    "Radiographie dentaire si disponible"
    ],
    "traitement": [
-    "Prévention : brossage 2 fois par jour avec un dentifrice fluoré, réduction des sucres entre les repas",
-    "Carie débutante : vernis fluoré, fluorure diamine d'argent (arrête la carie, noircit la lésion)",
-    "Cavité : obturation (ciment verre ionomère par technique atraumatique, composite)",
-    "Atteinte de la pulpe ou abcès : extraction ou dévitalisation, antibiotique si signes d'infection étendue",
-    "Douleur : paracétamol, ibuprofène"
+    "Prévention : brossage 2 fois par jour pendant 2 min avec un dentifrice fluoré (1 000 à 1 500 ppm ; une trace avant 3 ans, la taille d'un petit pois de 3 à 6 ans), surtout le soir ; réduire les sucres, surtout entre les repas (moins de 10 %, idéalement 5 % des apports) ; pas de biberon sucré au coucher",
+    "Vernis fluoré 2 à 4 fois par an chez les enfants à risque",
+    "Carie débutante ou chez le jeune enfant : fluorure diamine d'argent 38 % 1 à 2 fois par an (arrête la carie, noircit la lésion)",
+    "Cavité : obturation par ciment verre ionomère selon la technique atraumatique (retrait du tissu carié avec des instruments manuels, sans fraise), ou composite",
+    "Atteinte de la pulpe ou abcès : extraction (sous anesthésie locale à la lidocaïne avec adrénaline) ou traitement de la racine ; pulpotomie chez l'enfant ; antibiotique seulement si signes d'infection étendue",
+    "Douleur : paracétamol, ibuprofène",
+    "Maladie des gencives : brossage soigneux, détartrage, bains de bouche à la chlorhexidine quelques jours ; rechercher un diabète, un VIH (gingivite nécrosante)",
+    "Femme enceinte : soins dentaires possibles et recommandés (2e trimestre)"
    ],
    "gravite": [
-    "Cellulite de la face, trismus, fièvre (voir infections dentaires)"
+    "Cellulite de la face, trismus, fièvre (voir Infections dentaires)",
+    "Douleur empêchant de manger, dénutrition de l'enfant",
+    "Gingivite nécrosante (noma au début chez l'enfant malnutri)"
    ],
    "prevention": [
-    "Dentifrice fluoré, limitation des boissons sucrées, contrôle dentaire"
+    "Dentifrice fluoré pour toute la famille, limitation des boissons et aliments sucrés, eau à volonté",
+    "Brossage supervisé des enfants (à l'école)",
+    "Contrôle dentaire régulier",
+    "Arrêt du tabac"
    ],
    "medicaments": [
     "Fluorures (dentifrice et vernis fluoré)",
     "Fluorure diamine d'argent 38 %",
     "Ciment verre ionomère (CVI)",
     "Résine composite (restauration dentaire)",
+    "Lidocaïne (lignocaïne)",
     "Paracétamol",
     "Ibuprofène",
     "Amoxicilline",
-    "Lidocaïne (lignocaïne)"
+    "Chlorhexidine"
    ]
   },
   {
@@ -46658,35 +46944,48 @@
    "nom": "Rétinopathie diabétique et dégénérescence maculaire",
    "categorie": "yeux",
    "synonymes": "rétinopathie diabétique, DMLA, œdème maculaire, baisse de vision diabétique, rétinopathie du prématuré",
-   "resume": "Atteintes de la rétine responsables de cécité : rétinopathie diabétique (et du prématuré), dégénérescence maculaire liée à l'âge (DMLA).",
+   "resume": "Atteintes de la rétine responsables de malvoyance et de cécité : rétinopathie diabétique (en forte augmentation avec le diabète en Afrique), rétinopathie hypertensive et drépanocytaire, rétinopathie du prématuré (qui augmente avec la survie des grands prématurés), dégénérescence maculaire liée à l'âge (DMLA). Longtemps silencieuses, elles se dépistent par le fond d'œil et se traitent par le laser et les injections intravitréennes avant la perte de vision.",
    "signes": [
-    "Longtemps sans symptôme (rétinopathie diabétique)",
-    "Baisse de vision progressive ou brutale, déformation des lignes droites (DMLA, œdème maculaire)",
-    "Prématuré : aucun symptôme (dépistage)"
+    "Rétinopathie diabétique : longtemps sans symptôme ; baisse de vision progressive (œdème maculaire) ou brutale (hémorragie dans le vitré, décollement de rétine)",
+    "DMLA : baisse de la vision centrale, lignes droites déformées, tache sombre au centre (vision périphérique conservée)",
+    "Décollement de rétine : éclairs, corps flottants nombreux, voile qui s'étend",
+    "Occlusion artérielle : perte brutale et indolore de la vision d'un œil (urgence)",
+    "Prématuré : aucun symptôme (dépistage indispensable)"
    ],
    "diagnostic": [
-    "Fond d'œil dilaté (tropicamide) au diagnostic du diabète puis chaque année",
-    "Dépistage par photographie rétinienne",
-    "Prématuré < 32 semaines ou < 1 500 g : dépistage à 4 à 6 semaines de vie"
+    "Fond d'œil après dilatation (tropicamide) : au diagnostic du diabète de type 2, 5 ans après le début du diabète de type 1, puis chaque année (plus souvent si rétinopathie ou grossesse) ; dépistage par photographie rétinienne là où il existe",
+    "Rétinopathie diabétique : microanévrysmes, hémorragies, exsudats, puis néovaisseaux (rétinopathie proliférante) ; œdème maculaire",
+    "Grille d'Amsler pour l'autosurveillance de la DMLA",
+    "Prématuré de moins de 32 semaines ou de moins de 1 500 g (ou instable sous oxygène) : dépistage à 4 à 6 semaines de vie par un ophtalmologiste",
+    "Drépanocytose (surtout SC) : fond d'œil régulier"
    ],
    "traitement": [
-    "Équilibre du diabète, de la TA et des lipides",
-    "Photocoagulation au laser (rétinopathie proliférante)",
-    "Injections intravitréennes d'anti-VEGF (bévacizumab) pour l'œdème maculaire et la DMLA exsudative",
-    "Rétinopathie du prématuré : laser ou bévacizumab ; limiter l'oxygène (SpO₂ 90 à 95 %)"
+    "Équilibre du diabète (HbA1c < 7 %), de la PA (< 130/80) et du cholestérol (statine) ; traitement de l'anémie et de l'atteinte rénale ; arrêt du tabac",
+    "Rétinopathie proliférante ou préproliférante sévère : photocoagulation panrétinienne au laser",
+    "Œdème maculaire et DMLA exsudative : injections intravitréennes d'anti-VEGF (bévacizumab, souvent chaque mois au début) en milieu spécialisé",
+    "Hémorragie du vitré persistante, décollement de rétine : chirurgie (vitrectomie) ; décollement de rétine : chirurgie urgente",
+    "Rétinopathie du prématuré : laser ou bévacizumab dans les 72 h quand le traitement est indiqué ; prévention par un oxygène contrôlé (SpO₂ 90 à 95 %)",
+    "DMLA sèche : pas de traitement curatif ; arrêt du tabac, alimentation riche en légumes verts",
+    "Malvoyance : réadaptation visuelle, aides optiques, éclairage, orientation"
    ],
    "gravite": [
-    "Baisse brutale de vision (hémorragie, décollement de rétine)"
+    "Baisse brutale de vision (hémorragie, décollement de rétine, occlusion artérielle) : urgence",
+    "Rétinopathie proliférante",
+    "Grossesse chez une diabétique (aggravation)",
+    "Prématuré non dépisté"
    ],
    "prevention": [
-    "Contrôle du diabète et de la TA ; oxygène contrôlé chez le prématuré"
+    "Contrôle du diabète et de la PA ; fond d'œil annuel chez tous les diabétiques",
+    "Oxygène contrôlé et dépistage chez le prématuré",
+    "Arrêt du tabac"
    ],
    "medicaments": [
     "Bévacizumab",
     "Tropicamide collyre",
     "Metformine",
     "Insuline humaine (rapide et NPH)",
-    "Associations fixes antihypertensives"
+    "Associations fixes antihypertensives",
+    "Simvastatine"
    ]
   },
   {
