@@ -1,5 +1,5 @@
 {
- "version": 41,
+ "version": 42,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -44501,53 +44501,77 @@
    "nom": "Soins palliatifs et symptômes de fin de vie",
    "categorie": "cancers",
    "synonymes": "soins palliatifs, fin de vie, cancer avancé, sida avancé, confort, râles agoniques",
-   "resume": "Soins centrés sur le confort et la dignité des patients atteints de maladie incurable (cancer, VIH avancé, insuffisance d'organe), et soutien de leur famille.",
+   "resume": "Soins qui améliorent la qualité de vie des patients atteints de maladie grave évolutive (cancer, VIH avancé, insuffisance cardiaque, rénale ou respiratoire, démence, AVC grave) et de leur famille, par la prévention et le soulagement de la douleur et des autres souffrances physiques, psychologiques, sociales et spirituelles. Ils doivent commencer dès le diagnostic, en parallèle des traitements spécifiques, et se poursuivre jusqu'au deuil. La morphine orale, peu coûteuse et sûre quand elle est bien utilisée, est indispensable : la douleur non soulagée reste très fréquente en Afrique.",
    "signes": [
-    "Douleur",
-    "Essoufflement",
-    "Nausées, vomissements, constipation",
-    "Anxiété, confusion, insomnie",
-    "Plaies malodorantes",
-    "Râles agoniques (encombrement) dans les dernières heures"
+    "Douleur (nociceptive ou neuropathique : brûlures, décharges électriques)",
+    "Essoufflement, toux",
+    "Nausées, vomissements, constipation, perte d'appétit, bouche sèche, mycoses buccales",
+    "Fatigue, faiblesse",
+    "Anxiété, dépression, confusion, agitation, insomnie",
+    "Plaies tumorales malodorantes, escarres",
+    "Lymphœdème",
+    "Hoquet, prurit",
+    "Derniers jours : patient alité, très faible, somnolent, ne mange et ne boit presque plus, difficultés à avaler les comprimés, extrémités froides, respiration irrégulière, râles (encombrement)"
    ],
    "diagnostic": [
-    "Évaluer chaque symptôme et ses causes traitables",
-    "Échelles de douleur",
-    "Discuter avec le patient et la famille des objectifs de soins"
+    "Évaluer chaque symptôme (intensité par une échelle de 0 à 10, échelle des visages ou FLACC chez l'enfant), ses causes traitables (constipation, infection, hypercalcémie, effet d'un médicament) et son retentissement",
+    "Évaluer les besoins psychologiques, sociaux, spirituels et financiers, et les souhaits du patient (lieu de soins, de décès, rites)",
+    "Discuter avec le patient et la famille du pronostic et des objectifs de soins ; éviter les examens et traitements qui n'apportent pas de confort",
+    "Reconnaître la phase terminale (derniers jours)"
    ],
    "traitement": [
-    "Douleur : échelle OMS, morphine orale toutes les 4 h (débuter 2,5 à 5 mg chez l'adulte) avec doses supplémentaires, ajuster chaque jour ; toujours associer un laxatif (séné ± lactulose)",
-    "Dyspnée : morphine à faible dose, ventilateur, position assise, oxygène si hypoxie",
-    "Nausées : métoclopramide ou halopéridol à faible dose",
-    "Anxiété, agitation terminale : diazépam ou midazolam, halopéridol",
-    "Râles agoniques : scopolamine ou butylscopolamine, position latérale",
-    "Plaies malodorantes : métronidazole local",
-    "Soutien psychologique, spirituel et social ; deuil"
+    "Douleur : approche OMS : par voie orale, à heures fixes, adaptée à chaque patient ; paracétamol ± AINS pour la douleur légère ; douleur modérée à sévère : morphine orale d'emblée (solution ou comprimés à libération immédiate) : adulte 2,5 à 5 mg toutes les 4 h (2,5 mg chez le sujet âgé ou insuffisant rénal), enfant 0,2 à 0,3 mg/kg toutes les 4 h ; double dose au coucher ; doses supplémentaires (1/6 de la dose quotidienne) si douleur entre les prises ; augmenter de 30 à 50 % par jour selon les besoins (pas de dose maximale) ; passer à la morphine à libération prolongée toutes les 12 h une fois stabilisé ; voie SC si le patient ne peut plus avaler (dose orale divisée par 2)",
+    "Toujours associer un laxatif (séné ± lactulose ou docusate) ; métoclopramide ou halopéridol 0,5 à 1 mg les premiers jours si nausées ; la somnolence initiale disparaît en quelques jours ; dépression respiratoire rare si les doses sont augmentées progressivement",
+    "Insuffisance rénale : réduire la dose et espacer, ou préférer le fentanyl ou la méthadone (spécialiste)",
+    "Douleur neuropathique : amitriptyline 10 à 25 mg le soir, ou carbamazépine ; dexaméthasone en cas de compression nerveuse",
+    "Douleur osseuse : AINS, radiothérapie antalgique (une séance), acide zolédronique",
+    "Dyspnée : position assise, ventilateur ou air frais sur le visage, morphine à faible dose (2,5 mg toutes les 4 h), oxygène seulement si hypoxie, ponction d'un épanchement, traitement de l'anxiété",
+    "Nausées : métoclopramide 10 mg 3 fois par jour (cause digestive), halopéridol 0,5 à 1,5 mg (cause médicamenteuse ou métabolique), cyclizine, dexaméthasone (hypertension intracrânienne, occlusion)",
+    "Occlusion intestinale inopérable : arrêt des prokinétiques, butylscopolamine, dexaméthasone, halopéridol, morphine SC, aspiration si vomissements",
+    "Anxiété, agitation terminale : écoute et présence ; diazépam ou midazolam 2,5 à 5 mg SC ; halopéridol si délire ; rechercher une rétention urinaire, une douleur, un fécalome",
+    "Plaies malodorantes : nettoyage, métronidazole (écrasé en local ou par voie orale), pansements absorbants, charbon ; saignement de plaie : compression, acide tranexamique local",
+    "Bouche : soins de bouche réguliers, nystatine ou fluconazole si mycose",
+    "Derniers jours : arrêter les traitements inutiles, voie SC (aiguille à demeure) pour la morphine, le midazolam et l'halopéridol ; râles : position latérale, butylscopolamine 20 mg SC toutes les 4 à 8 h ou scopolamine, rassurer la famille (ce n'est pas une souffrance) ; ne pas forcer l'alimentation ni l'hydratation ; soins de bouche",
+    "Hémorragie terminale massive : rester auprès du patient, linges foncés, midazolam SC ou IV pour la détresse",
+    "Soutien de la famille, préparation au décès, respect des rites et des croyances, accompagnement du deuil ; soins à domicile avec les agents communautaires et les familles formées"
    ],
    "gravite": [
-    "Douleur non contrôlée",
-    "Détresse respiratoire, hémorragie terminale (midazolam, linges foncés)"
+    "Douleur non contrôlée (réévaluer chaque jour, avis)",
+    "Compression médullaire, hypercalcémie, occlusion (urgences palliatives dont le traitement améliore le confort)",
+    "Détresse respiratoire",
+    "Hémorragie terminale",
+    "Épuisement de la famille",
+    "Idées suicidaires"
    ],
    "prevention": [
-    "Accès à la morphine orale, formation des soignants et des familles"
+    "Accès à la morphine orale dans toutes les structures (approvisionnement, formation, réglementation adaptée)",
+    "Formation des soignants et des familles",
+    "Intégration des soins palliatifs dans les soins primaires, les services VIH et d'oncologie"
    ],
    "medicaments": [
     "Morphine",
+    "Paracétamol",
+    "Ibuprofène",
     "Séné (sennosides)",
     "Lactulose",
+    "Docusate sodique",
     "Métoclopramide",
     "Halopéridol",
+    "Cyclizine",
     "Diazépam",
     "Midazolam",
     "Hyoscine bromhydrate (scopolamine)",
     "Butylscopolamine (butylbromure d'hyoscine)",
     "Dexaméthasone",
+    "Amitriptyline",
+    "Carbamazépine",
     "Métronidazole",
     "Fentanyl",
     "Méthadone",
-    "Cyclizine",
-    "Docusate sodique",
-    "Acide zolédronique"
+    "Acide zolédronique",
+    "Acide tranexamique",
+    "Nystatine",
+    "Fluconazole"
    ]
   },
   {
@@ -46283,34 +46307,42 @@
    "nom": "Lymphome de Burkitt",
    "categorie": "cancers",
    "synonymes": "Burkitt, tumeur de la mâchoire, lymphome africain, masse abdominale de l'enfant",
-   "resume": "Lymphome très rapide, cancer le plus fréquent de l'enfant en Afrique équatoriale (lié au paludisme et au virus d'Epstein-Barr). Il est curable dans la majorité des cas avec un protocole adapté (GFAOP) et peu coûteux.",
+   "resume": "Lymphome B à croissance extrêmement rapide (la tumeur double en 24 à 48 h), cancer le plus fréquent de l'enfant en Afrique équatoriale, dont la RDC (forme endémique liée au paludisme et au virus d'Epstein-Barr). Il existe aussi une forme de l'adulte, associée au VIH. Il est curable chez la majorité des enfants avec des protocoles adaptés et peu coûteux (GFAOP, à base de cyclophosphamide), à condition de commencer vite et de prévenir le syndrome de lyse tumorale.",
    "signes": [
-    "Enfant de 3 à 12 ans",
-    "Tumeur de la mâchoire déformant le visage, déchaussement des dents",
-    "Masse abdominale rapidement croissante, ascite",
-    "Atteinte des reins, des ovaires, de la moelle, du système nerveux (paraplégie, paralysies faciales)"
+    "Enfant de 3 à 12 ans, garçon plus souvent",
+    "Tumeur de la mâchoire (maxillaire ou mandibule) déformant le visage, dents qui bougent, exophtalmie",
+    "Masse abdominale rapidement croissante, ascite, douleurs abdominales, parfois invagination",
+    "Atteinte des reins, des ovaires, des testicules, de la thyroïde, des seins chez l'adolescente",
+    "Atteinte du système nerveux : paralysie faciale ou des nerfs crâniens, paraplégie brutale (compression médullaire), cellules tumorales dans le LCR",
+    "Fièvre, amaigrissement"
    ],
    "diagnostic": [
-    "Cytoponction de la tumeur (cellules caractéristiques) ou biopsie",
-    "Bilan d'extension : échographie abdominale, myélogramme, ponction lombaire",
-    "Créatinine, potassium, acide urique, phosphore, LDH",
-    "Test VIH (Burkitt de l'adulte)"
+    "Cytoponction de la tumeur ou du liquide d'ascite, à l'aiguille fine (cellules en « ciel étoilé », très basophiles) ; biopsie si possible ; ne pas retarder le traitement",
+    "Bilan d'extension (stade de Murphy) : échographie abdominale, radiographie du thorax, myélogramme, ponction lombaire (cytologie du LCR)",
+    "Biologie avant traitement : créatinine, potassium, acide urique, phosphore, calcium, LDH (reflet de la masse tumorale), NFS ; test VIH ; TDR paludisme",
+    "Différentiels : abcès dentaire, ostéomyélite de la mâchoire, tumeur de Wilms, neuroblastome, tuberculose abdominale, rhabdomyosarcome"
    ],
    "traitement": [
-    "Prévention du syndrome de lyse AVANT la chimiothérapie : hyperhydratation (3 l/m²/jour), allopurinol ou rasburicase, surveillance biologique et de la diurèse",
-    "Protocole GFAOP : cyclophosphamide IV et méthotrexate + cytarabine intrathécaux (cures répétées) ; formes avancées : protocole intensifié (vincristine, doxorubicine)",
-    "Traitement de la douleur, nutrition, prévention des infections",
-    "Orientation rapide vers un centre de cancérologie (les cancers de l'enfant sont souvent curables)",
-    "Annonce, soutien psychologique et social, prise en charge de la douleur dès le diagnostic"
+    "Prévention du syndrome de lyse AVANT et pendant les premiers jours de chimiothérapie : hyperhydratation (3 l/m² par jour), allopurinol 10 mg/kg par jour (ou rasburicase si disponible et masse importante), pas de potassium dans les perfusions ; surveillance de la diurèse, du poids, du potassium, de la créatinine, du phosphore et du calcium toutes les 12 à 24 h ; furosémide si diurèse insuffisante après hydratation ; dialyse si insuffisance rénale",
+    "Protocole GFAOP : stades localisés : cyclophosphamide IV (40 mg/kg puis 60 mg/kg) aux jours 1, 8 et 15 ± 2 autres cures, avec méthotrexate et cytarabine (ou hydrocortisone) en intrathécal ; stades avancés (atteinte de la moelle ou du SNC) : protocole intensifié (cyclophosphamide, vincristine, méthotrexate, doxorubicine, prednisolone, cytarabine) dans un centre équipé",
+    "Burkitt de l'adulte et associé au VIH : protocoles intensifs (± rituximab) et ARV",
+    "Soins de support : nutrition, antiémétiques (ondansétron), traitement de la douleur (morphine), déparasitage, traitement du paludisme, transfusions, prévention et traitement rapide de la neutropénie fébrile ; soins de bouche",
+    "Suivi régulier après la rémission (rechute surtout dans la première année)",
+    "Orientation rapide vers un centre de cancérologie pédiatrique (la plupart des cancers de l'enfant sont curables quand ils sont traités tôt) ; ne pas commencer de corticoïdes avant le diagnostic",
+    "Annonce, soutien psychologique, social et financier de la famille, prévention de l'abandon de traitement ; traitement de la douleur dès le diagnostic"
    ],
    "gravite": [
-    "Syndrome de lyse tumorale (oligurie, hyperkaliémie)",
-    "Compression médullaire",
+    "Syndrome de lyse tumorale (oligurie, hyperkaliémie, troubles du rythme, convulsions)",
+    "Compression médullaire (paraplégie) : urgence",
     "Neutropénie fébrile",
-    "Détresse respiratoire (épanchement)"
+    "Détresse respiratoire (épanchement pleural, masse)",
+    "Occlusion ou invagination intestinale",
+    "Abandon du traitement"
    ],
    "prevention": [
-    "Lutte contre le paludisme"
+    "Lutte contre le paludisme (moustiquaires, vaccin)",
+    "Formation des agents de santé à reconnaître précocement la tumeur de la mâchoire et la masse abdominale",
+    "Dépistage et traitement du VIH"
    ],
    "medicaments": [
     "Cyclophosphamide",
@@ -46318,11 +46350,14 @@
     "Cytarabine",
     "Vincristine",
     "Doxorubicine",
-    "Rasburicase",
-    "Allopurinol",
     "Prednisolone",
+    "Rituximab",
+    "Allopurinol",
+    "Rasburicase",
+    "Furosémide",
     "Ondansétron",
-    "Morphine"
+    "Morphine",
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)"
    ]
   },
   {
@@ -46330,51 +46365,68 @@
    "nom": "Leucémies aiguës",
    "categorie": "cancers",
    "synonymes": "leucémie, LAL, LAM, leucémie aiguë promyélocytaire, cancer du sang",
-   "resume": "Prolifération de cellules immatures dans la moelle. La leucémie aiguë lymphoblastique (LAL) est le cancer le plus fréquent de l'enfant dans le monde ; la leucémie aiguë promyélocytaire (LAP) est une urgence hémorragique très curable par l'ATRA.",
+   "resume": "Prolifération maligne de cellules immatures (blastes) dans la moelle osseuse, qui envahit le sang et empêche la production normale des globules. La leucémie aiguë lymphoblastique (LAL) est le cancer le plus fréquent de l'enfant dans le monde (pic entre 2 et 5 ans) ; elle guérit dans plus de 80 % des cas dans les pays à revenu élevé, avec des protocoles adaptés possibles en Afrique. La leucémie aiguë myéloïde (LAM) touche plutôt l'adulte. La leucémie aiguë promyélocytaire (LAP) est une urgence hémorragique, très curable par l'ATRA et l'arsenic.",
    "signes": [
-    "Pâleur, fatigue (anémie)",
-    "Fièvre, infections",
-    "Saignements, pétéchies (thrombopénie)",
-    "Douleurs osseuses, boiterie",
+    "Pâleur, fatigue, essoufflement (anémie)",
+    "Fièvre, infections répétées ou graves (neutropénie)",
+    "Saignements : pétéchies, ecchymoses, saignements des gencives et du nez (thrombopénie)",
+    "Douleurs osseuses, boiterie, refus de marcher chez l'enfant",
     "Ganglions, gros foie, grosse rate",
+    "Gencives hypertrophiées (LAM monocytaire)",
+    "Masse médiastinale avec toux et œdème du visage (LAL T)",
+    "Céphalées, paralysies (atteinte du SNC)",
+    "Gros testicule",
     "LAP : hémorragies graves (CIVD)"
    ],
    "diagnostic": [
-    "NFS et frottis (blastes), myélogramme",
-    "Éliminer : paludisme, VIH, aplasie, drépanocytose",
-    "Bilan de lyse, coagulation (fibrinogène pour la LAP)"
+    "NFS et frottis sanguin : anémie, thrombopénie, globules blancs bas, normaux ou très élevés avec blastes",
+    "Myélogramme : plus de 20 % de blastes ; immunophénotypage (LAL B ou T, LAM), cytogénétique si disponibles",
+    "Bilan : créatinine, potassium, acide urique, phosphore, LDH ; coagulation (TP, fibrinogène : CIVD de la LAP) ; ponction lombaire (au moment de la 1re injection intrathécale) ; radiographie du thorax ; sérologies VIH, hépatites",
+    "Éliminer : paludisme, VIH, infections virales (mononucléose), aplasie médullaire, drépanocytose, malnutrition avec carence, rhumatisme (douleurs osseuses) ; pas de corticoïdes avant le diagnostic (ils faussent le diagnostic et favorisent la lyse)"
    ],
    "traitement": [
-    "LAP suspectée (frottis, CIVD) : ATRA immédiatement, transfusions de plaquettes et de plasma, puis arsenic",
-    "LAL : protocoles par phases (induction : corticoïdes, vincristine, asparaginase, anthracycline ; intrathécal ; consolidation ; entretien de 2 ans par mercaptopurine et méthotrexate)",
-    "LAM : cytarabine + daunorubicine",
-    "Prévention du syndrome de lyse, soins de support (transfusions, antibiotiques, antifongiques)",
-    "Orientation rapide vers un centre de cancérologie (les cancers de l'enfant sont souvent curables)",
-    "Annonce, soutien psychologique et social, prise en charge de la douleur dès le diagnostic"
+    "LAP suspectée (frottis évocateur, CIVD) : ATRA immédiatement (45 mg/m² par jour), sans attendre la confirmation ; transfusions de plaquettes (> 30 à 50 000/mm³) et de plasma frais congelé ; puis trioxyde d'arsenic (ou arsenic oral) avec l'ATRA ; surveiller le syndrome de différenciation (fièvre, dyspnée, œdèmes : dexaméthasone)",
+    "LAL : protocoles par phases et par groupes de risque (adaptés : GFAOP, protocoles nationaux) : induction (prednisolone ou dexaméthasone, vincristine, asparaginase, ± anthracycline) ; méthotrexate intrathécal (prévention de l'atteinte du SNC) ; consolidation ; intensification ; entretien oral pendant 2 ans au total (mercaptopurine quotidienne + méthotrexate hebdomadaire) ; LAL Philadelphie positive : imatinib associé",
+    "LAM : induction par cytarabine + daunorubicine (« 7 + 3 »), puis consolidations par cytarabine à forte dose ; allogreffe pour les formes à haut risque ; traitements moins intensifs chez le sujet âgé",
+    "Prévention du syndrome de lyse (hyperhydratation, allopurinol ou rasburicase)",
+    "Soins de support : transfusions de globules rouges et de plaquettes, traitement immédiat de la neutropénie fébrile, prophylaxie au cotrimoxazole (pneumocystose) pendant la LAL, antifongiques, déparasitage, nutrition, soins de bouche",
+    "Orientation rapide vers un centre de cancérologie pédiatrique (la plupart des cancers de l'enfant sont curables quand ils sont traités tôt) ; ne pas commencer de corticoïdes avant le diagnostic",
+    "Annonce, soutien psychologique, social et financier de la famille, prévention de l'abandon de traitement ; traitement de la douleur dès le diagnostic"
    ],
    "gravite": [
-    "Hémorragie (LAP), neutropénie fébrile, hyperleucocytose (troubles neurologiques, respiratoires)",
-    "Syndrome de lyse"
+    "Hémorragie (LAP, thrombopénie sévère)",
+    "Neutropénie fébrile, sepsis",
+    "Hyperleucocytose > 100 000/mm³ (troubles neurologiques, respiratoires : hydratation, cytoréduction par hydroxyurée, pas de transfusion de globules rouges rapide)",
+    "Syndrome de lyse",
+    "Compression des voies aériennes (masse médiastinale)",
+    "Abandon du traitement"
    ],
    "prevention": [
-    "Aucune prévention spécifique"
+    "Aucune prévention spécifique",
+    "Reconnaissance précoce (pâleur, fièvre, saignements, douleurs osseuses) et NFS avec frottis",
+    "Éviter l'exposition au benzène et aux radiations"
    ],
    "medicaments": [
     "Acide tout-trans-rétinoïque (ATRA, trétinoïne)",
     "Trioxyde d'arsenic",
+    "Realgar-Indigo naturalis (arsenic oral)",
     "Vincristine",
     "Asparaginase (native et pégylée)",
     "Daunorubicine",
     "Cytarabine",
     "Mercaptopurine (6-MP)",
+    "Thioguanine (6-TG)",
     "Méthotrexate",
     "Prednisolone",
     "Dexaméthasone",
+    "Imatinib",
     "Blinatumomab",
-    "Concentré plaquettaire",
+    "Hydroxyurée (hydroxycarbamide)",
     "Allopurinol",
-    "Thioguanine (6-TG)",
-    "Realgar-Indigo naturalis (arsenic oral)"
+    "Concentré plaquettaire",
+    "Plasma frais congelé (PFC)",
+    "Concentré de globules rouges (culot globulaire)",
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)"
    ]
   },
   {
@@ -46382,37 +46434,52 @@
    "nom": "Rétinoblastome",
    "categorie": "cancers",
    "synonymes": "rétinoblastome, reflet blanc de la pupille, leucocorie, œil de chat, cancer de l'œil de l'enfant",
-   "resume": "Cancer de la rétine du jeune enfant (avant 5 ans), parfois héréditaire et bilatéral. Diagnostiqué tôt, il guérit dans plus de 90 % des cas ; tardivement (œil exorbité), il est souvent mortel.",
+   "resume": "Cancer de la rétine du jeune enfant, le plus souvent avant 5 ans ; héréditaire dans environ 40 % des cas (forme souvent bilatérale, révélée plus tôt). Diagnostiqué tôt, il guérit dans plus de 95 % des cas dans les pays riches, mais en Afrique il est souvent découvert au stade d'œil exorbité, avec une mortalité élevée. Le signe d'alerte, le reflet blanc de la pupille, peut être reconnu par les parents (photos au flash) et par tout soignant.",
    "signes": [
-    "Reflet blanc dans la pupille (leucocorie), visible sur les photos au flash",
-    "Strabisme",
-    "Œil rouge, douloureux, gros œil",
-    "Formes tardives : exophtalmie, masse orbitaire"
+    "Reflet blanc dans la pupille (leucocorie, « œil de chat »), parfois visible seulement sur les photos au flash ou dans certaines lumières",
+    "Strabisme récent",
+    "Baisse de vision (l'enfant se cogne, ne suit pas les objets)",
+    "Œil rouge, douloureux, gros œil (glaucome), inflammation de l'orbite",
+    "Formes tardives : exophtalmie, masse orbitaire qui sort de l'œil, atteinte cérébrale (vomissements, convulsions), métastases (os, moelle)",
+    "Antécédents familiaux"
    ],
    "diagnostic": [
-    "Examen du reflet rouge à chaque consultation de l'enfant",
-    "Fond d'œil sous dilatation par un ophtalmologiste",
-    "Échographie oculaire, imagerie de l'orbite et du cerveau"
+    "Examen du reflet rouge à chaque consultation du nourrisson et du jeune enfant (lampe ou ophtalmoscope dans la pénombre, les 2 yeux en même temps) ; tout reflet blanc ou asymétrique = référence urgente",
+    "Fond d'œil sous dilatation (tropicamide) par un ophtalmologiste, sous anesthésie générale chez l'enfant",
+    "Échographie oculaire (masse avec calcifications) ; scanner ou IRM de l'orbite et du cerveau (nerf optique)",
+    "Formes avancées : ponction lombaire, myélogramme, radiographies osseuses",
+    "Ne pas faire de biopsie de l'œil (dissémination)",
+    "Examen des yeux des frères et sœurs ; conseil génétique"
    ],
    "traitement": [
-    "Référence URGENTE en ophtalmologie pédiatrique",
-    "Selon le stade : énucléation, chimiothérapie (carboplatine, étoposide, vincristine), traitements locaux (laser, cryothérapie)",
-    "Prothèse oculaire",
-    "Examen des frères et sœurs et conseil génétique",
-    "Orientation rapide vers un centre de cancérologie (les cancers de l'enfant sont souvent curables)",
-    "Annonce, soutien psychologique et social, prise en charge de la douleur dès le diagnostic"
+    "Référence URGENTE en ophtalmologie pédiatrique et en oncologie pédiatrique",
+    "Forme unilatérale avancée (le plus fréquent en Afrique) : énucléation (ablation de l'œil) avec une longue partie du nerf optique, examen histologique ; chimiothérapie adjuvante si facteurs de risque (atteinte du nerf optique, de la choroïde, de la sclère)",
+    "Forme bilatérale ou petite tumeur : chimiothérapie (vincristine + étoposide + carboplatine) pour réduire les tumeurs, puis traitements locaux (laser, cryothérapie, curiethérapie) pour préserver l'œil et la vision",
+    "Atteinte de l'orbite ou du nerf optique : chimiothérapie, chirurgie, radiothérapie ; forme métastatique : chimiothérapie intensive ou soins palliatifs",
+    "Prothèse oculaire après énucléation",
+    "Surveillance prolongée (risque de seconds cancers dans les formes héréditaires : ostéosarcome)",
+    "Orientation rapide vers un centre de cancérologie pédiatrique (la plupart des cancers de l'enfant sont curables quand ils sont traités tôt) ; ne pas commencer de corticoïdes avant le diagnostic",
+    "Annonce, soutien psychologique, social et financier de la famille, prévention de l'abandon de traitement ; traitement de la douleur dès le diagnostic"
    ],
    "gravite": [
-    "Extension orbitaire ou cérébrale"
+    "Extension à l'orbite ou au cerveau",
+    "Glaucome, œil douloureux",
+    "Retard de diagnostic",
+    "Refus de l'énucléation par la famille (expliquer que l'œil n'est pas récupérable et que la vie est en jeu)"
    ],
    "prevention": [
-    "Dépistage du reflet rouge chez tous les nourrissons"
+    "Dépistage du reflet rouge chez tous les nourrissons (naissance, 6 semaines, puis lors des visites)",
+    "Information des parents (photos au flash)",
+    "Examen régulier des frères et sœurs et des enfants des survivants"
    ],
    "medicaments": [
     "Carboplatine",
     "Étoposide",
     "Vincristine",
-    "Tropicamide collyre"
+    "Tropicamide collyre",
+    "Morphine",
+    "Paracétamol",
+    "Ondansétron"
    ]
   },
   {
@@ -46420,35 +46487,49 @@
    "nom": "Néphroblastome (tumeur de Wilms)",
    "categorie": "cancers",
    "synonymes": "néphroblastome, tumeur de Wilms, masse du rein, gros ventre de l'enfant",
-   "resume": "Cancer du rein de l'enfant (1 à 5 ans), découvert le plus souvent par une masse abdominale ; guérissable dans la majorité des cas.",
+   "resume": "Cancer du rein de l'enfant, le plus souvent entre 1 et 5 ans, plus fréquent chez les enfants d'ascendance africaine. Il est découvert par une masse abdominale, souvent par la mère pendant la toilette. Avec un protocole adapté (chimiothérapie préopératoire, néphrectomie, chimiothérapie postopératoire : SIOP-PODC, GFAOP), il guérit dans 70 à 90 % des cas, même en Afrique, si le traitement est complet.",
    "signes": [
-    "Masse du flanc, ferme, ne traversant pas la ligne médiane, souvent découverte par la mère",
-    "Hématurie, hypertension",
-    "Douleur abdominale, fièvre"
+    "Masse du flanc ou de l'abdomen, ferme, lisse, ne dépassant généralement pas la ligne médiane, souvent indolore et découverte par hasard",
+    "Augmentation du volume du ventre",
+    "Hématurie, HTA (céphalées, irritabilité), fièvre, douleurs abdominales",
+    "Anomalies associées : absence d'iris (aniridie), hémihypertrophie, malformations urogénitales",
+    "Formes avancées : amaigrissement, toux (métastases pulmonaires)"
    ],
    "diagnostic": [
-    "Échographie abdominale (masse rénale)",
-    "Radiographie ou scanner du thorax (métastases pulmonaires)",
-    "Ne PAS palper de façon répétée ni biopsier en routine (rupture)"
+    "Échographie abdominale : masse développée aux dépens du rein, recherche d'un thrombus dans la veine rénale ou cave, état du rein opposé",
+    "Radiographie ou scanner du thorax (métastases pulmonaires) ; scanner abdominal si disponible",
+    "NFS, créatinine, bandelette urinaire, PA",
+    "Ne PAS palper l'abdomen de façon répétée (risque de rupture) ; pas de biopsie en routine (diagnostic sur l'imagerie chez l'enfant de 6 mois à 6 ans selon la SIOP)",
+    "Différentiels : neuroblastome (enfant plus jeune, masse qui dépasse la ligne médiane, calcifications), lymphome de Burkitt, hydronéphrose, rein polykystique, abcès"
    ],
    "traitement": [
-    "Chimiothérapie préopératoire (protocole SIOP/GFAOP : vincristine + dactinomycine ± doxorubicine), puis néphrectomie, puis chimiothérapie postopératoire selon le stade",
-    "Radiothérapie dans certains stades",
-    "Orientation rapide vers un centre de cancérologie (les cancers de l'enfant sont souvent curables)",
-    "Annonce, soutien psychologique et social, prise en charge de la douleur dès le diagnostic"
+    "Chimiothérapie préopératoire (protocole SIOP-PODC/GFAOP) : vincristine + dactinomycine pendant 4 semaines pour une tumeur localisée, + doxorubicine pendant 6 semaines si métastases ; réduit la taille de la tumeur et le risque de rupture",
+    "Néphrectomie totale élargie par voie transpéritonéale par un chirurgien expérimenté, avec prélèvement des ganglions ; éviter toute rupture",
+    "Chimiothérapie postopératoire selon le stade et l'histologie (vincristine + dactinomycine ± doxorubicine) ; radiothérapie du flanc ou des poumons dans certains stades",
+    "Traitement de l'HTA ; nutrition, déparasitage, traitement du paludisme ; prévention de la neutropénie fébrile",
+    "Suivi : échographie abdominale et radiographie du thorax réguliers pendant plusieurs années, PA et fonction rénale (rein unique)",
+    "Orientation rapide vers un centre de cancérologie pédiatrique (la plupart des cancers de l'enfant sont curables quand ils sont traités tôt) ; ne pas commencer de corticoïdes avant le diagnostic",
+    "Annonce, soutien psychologique, social et financier de la famille, prévention de l'abandon de traitement ; traitement de la douleur dès le diagnostic"
    ],
    "gravite": [
-    "Rupture tumorale (douleur, choc)",
-    "Hypertension sévère"
+    "Rupture tumorale (douleur abdominale brutale, choc, anémie) : urgence chirurgicale",
+    "HTA sévère",
+    "Métastases pulmonaires",
+    "Malnutrition, abandon du traitement"
    ],
    "prevention": [
-    "Aucune prévention ; examen de l'abdomen de l'enfant"
+    "Aucune prévention ; examen de l'abdomen de l'enfant lors des consultations",
+    "Information des parents sur la consultation rapide devant toute masse abdominale"
    ],
    "medicaments": [
     "Vincristine",
     "Dactinomycine (actinomycine D)",
     "Doxorubicine",
-    "Morphine"
+    "Cyclophosphamide",
+    "Étoposide",
+    "Amlodipine",
+    "Morphine",
+    "Ondansétron"
    ]
   },
   {
@@ -46456,31 +46537,40 @@
    "nom": "Lymphome de Hodgkin",
    "categorie": "cancers",
    "synonymes": "Hodgkin, lymphome, ganglions du cou, adénopathie chronique",
-   "resume": "Lymphome de l'adolescent et de l'adulte jeune, très curable par chimiothérapie (ABVD). Les adénopathies chroniques font d'abord rechercher la tuberculose.",
+   "resume": "Lymphome touchant surtout l'adolescent et l'adulte jeune (et l'enfant plus jeune en Afrique, souvent lié au virus d'Epstein-Barr), plus fréquent chez la personne vivant avec le VIH. Il est très curable (plus de 80 %) par chimiothérapie ABVD ± radiothérapie. En Afrique, les adénopathies chroniques font d'abord rechercher la tuberculose, mais une adénopathie qui ne répond pas ou sans preuve de tuberculose doit être biopsiée : le traitement antituberculeux d'épreuve retarde souvent le diagnostic.",
    "signes": [
-    "Ganglions indolores, fermes, du cou ou du médiastin",
-    "Fièvre, sueurs nocturnes, amaigrissement, prurit",
-    "Toux, dyspnée (masse médiastinale)"
+    "Ganglions indolores, fermes, élastiques, du cou (souvent sus-claviculaires), parfois des aisselles, augmentant progressivement de volume",
+    "Masse médiastinale : toux sèche, dyspnée, douleur thoracique",
+    "Signes généraux (symptômes B) : fièvre prolongée inexpliquée, sueurs nocturnes abondantes, amaigrissement > 10 % en 6 mois",
+    "Prurit généralisé, douleurs ganglionnaires après la prise d'alcool",
+    "Grosse rate, gros foie"
    ],
    "diagnostic": [
-    "Biopsie ganglionnaire (examen anatomopathologique)",
-    "Éliminer tuberculose ganglionnaire (GeneXpert sur ponction), VIH",
-    "Radiographie du thorax, échographie, NFS, VS"
+    "Biopsie ganglionnaire chirurgicale (ganglion entier) avec examen anatomopathologique et immunohistochimie (cellules de Reed-Sternberg, CD15, CD30) ; la cytoponction ne suffit pas",
+    "Éliminer : tuberculose ganglionnaire (GeneXpert et cytologie sur ponction), VIH, toxoplasmose, mononucléose, lymphome non hodgkinien, métastases",
+    "Bilan d'extension (stade d'Ann Arbor) : radiographie du thorax (rapport médiastino-thoracique), échographie ou scanner du thorax, de l'abdomen et du bassin, NFS, VS, albumine, LDH, créatinine, transaminases ; biopsie de moelle si symptômes B ou cytopénies ; test VIH, hépatites B et C",
+    "Bilan avant chimiothérapie : fonction cardiaque (échographie : doxorubicine), fonction respiratoire (bléomycine), test de grossesse ; conservation de la fertilité discutée"
    ],
    "traitement": [
-    "ABVD (doxorubicine, bléomycine, vinblastine, dacarbazine) 4 à 6 cycles ± radiothérapie",
-    "Alternatives à faible coût : ChlVPP (chlorambucil, vinblastine, procarbazine, prednisolone)",
-    "Réfractaire : protocoles de rattrapage, pembrolizumab",
-    "Surveillance de la toxicité pulmonaire de la bléomycine",
-    "Orientation rapide vers un centre de cancérologie (les cancers de l'enfant sont souvent curables)",
-    "Annonce, soutien psychologique et social, prise en charge de la douleur dès le diagnostic"
+    "ABVD (doxorubicine, bléomycine, vinblastine, dacarbazine) tous les 14 jours : 2 à 4 cycles + radiothérapie pour les stades localisés, 6 cycles pour les stades avancés ; ne pas retarder les cures pour une neutropénie sans fièvre",
+    "Enfant : protocoles pédiatriques (OEPA/COPDAC, ou adaptés GFAOP)",
+    "Alternatives à faible coût si ABVD indisponible : ChlVPP (chlorambucil, vinblastine, procarbazine, prednisolone) par voie orale",
+    "Réfractaire ou en rechute : chimiothérapie de rattrapage et autogreffe, brentuximab, pembrolizumab (centres spécialisés)",
+    "Personne vivant avec le VIH : ARV associés (éviter les interactions), prophylaxie au cotrimoxazole",
+    "Surveiller la toxicité pulmonaire de la bléomycine (toux, dyspnée : arrêter) ; antiémétiques (ondansétron, dexaméthasone)",
+    "Suivi au long cours : rechutes, toxicité cardiaque, hypothyroïdie après radiothérapie du cou, seconds cancers (sein chez la femme irradiée), fertilité",
+    "Orientation vers un centre de cancérologie et décision en réunion pluridisciplinaire",
+    "Annonce, soutien psychologique et social, prise en charge de la douleur et des symptômes dès le diagnostic ; soins palliatifs intégrés tôt dans les formes avancées"
    ],
    "gravite": [
-    "Compression médiastinale (dyspnée, œdème du visage)",
-    "Neutropénie fébrile"
+    "Compression médiastinale (dyspnée, œdème du visage et du cou, veines du cou dilatées : syndrome cave supérieur) : urgence ; prudence avec l'anesthésie générale",
+    "Neutropénie fébrile",
+    "Toux et dyspnée sous bléomycine"
    ],
    "prevention": [
-    "Aucune"
+    "Aucune prévention spécifique",
+    "Biopsie rapide des adénopathies persistantes sans preuve de tuberculose",
+    "Dépistage et traitement du VIH"
    ],
    "medicaments": [
     "Doxorubicine",
@@ -46490,7 +46580,10 @@
     "Chlorambucil",
     "Procarbazine",
     "Prednisolone",
-    "Pembrolizumab"
+    "Pembrolizumab",
+    "Ondansétron",
+    "Dexaméthasone",
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)"
    ]
   },
   {
@@ -46498,31 +46591,43 @@
    "nom": "Lymphomes non hodgkiniens de l'adulte",
    "categorie": "cancers",
    "synonymes": "lymphome, LNH, lymphome diffus à grandes cellules, lymphome VIH",
-   "resume": "Groupe de lymphomes, plus fréquents chez la personne vivant avec le VIH. Le lymphome diffus à grandes cellules B est curable par R-CHOP.",
+   "resume": "Groupe hétérogène de lymphomes, agressifs (lymphome diffus à grandes cellules B, le plus fréquent ; Burkitt ; lymphome plasmablastique ; lymphome primitif du cerveau) ou indolents (folliculaire, de la zone marginale, leucémie lymphoïde chronique). Ils sont beaucoup plus fréquents chez la personne vivant avec le VIH, surtout si les CD4 sont bas. Le lymphome diffus à grandes cellules B est curable dans plus de 50 % des cas par R-CHOP, y compris chez les patients VIH sous ARV.",
    "signes": [
-    "Ganglions qui grossissent, masse abdominale ou ORL",
-    "Fièvre, sueurs, amaigrissement",
-    "Atteinte cérébrale (VIH)"
+    "Ganglions qui grossissent rapidement (formes agressives) ou lentement (formes indolentes), dans une ou plusieurs régions",
+    "Masse abdominale, ORL (amygdale, cavum), osseuse, cutanée, testiculaire",
+    "Symptômes B : fièvre, sueurs nocturnes, amaigrissement",
+    "Grosse rate, anémie, infections (atteinte de la moelle)",
+    "Atteinte cérébrale (VIH) : céphalées, troubles du comportement, déficit",
+    "Leucémie lymphoïde chronique : sujet âgé, lymphocytose découverte sur une NFS, ganglions, grosse rate"
    ],
    "diagnostic": [
-    "Biopsie (anatomopathologie, immunohistochimie)",
-    "Test VIH, hépatite B (avant rituximab)",
-    "Bilan d'extension, LDH"
+    "Biopsie ganglionnaire ou de la masse (anatomopathologie et immunohistochimie : CD20, Ki-67) ; la cytoponction peut orienter mais ne suffit pas",
+    "Test VIH, CD4 et charge virale ; AgHBs et anticorps anti-HBc avant rituximab (réactivation de l'hépatite B : prophylaxie par ténofovir) ; VHC",
+    "Bilan d'extension : scanner ou échographie et radiographie du thorax, biopsie de moelle, LDH, NFS, créatinine, acide urique ; ponction lombaire si risque d'atteinte du SNC",
+    "Échographie cardiaque avant doxorubicine",
+    "Éliminer : tuberculose ganglionnaire, sarcome de Kaposi ganglionnaire, maladie de Castleman (VIH), lymphome de Hodgkin"
    ],
    "traitement": [
-    "Lymphome agressif : R-CHOP (rituximab, cyclophosphamide, doxorubicine, vincristine, prednisolone) 6 cycles",
-    "Lymphomes indolents : surveillance ou rituximab, chlorambucil, bendamustine",
-    "LLC : chlorambucil, ibrutinib, fludarabine",
-    "Débuter ou optimiser les ARV chez les PVVIH, prophylaxie au cotrimoxazole",
-    "Orientation rapide vers un centre de cancérologie (les cancers de l'enfant sont souvent curables)",
-    "Annonce, soutien psychologique et social, prise en charge de la douleur dès le diagnostic"
+    "Lymphome agressif (diffus à grandes cellules B) : R-CHOP (rituximab, cyclophosphamide, doxorubicine, vincristine, prednisolone) tous les 21 jours, 6 cycles ; CHOP seul si rituximab indisponible ; méthotrexate intrathécal si risque d'atteinte du SNC",
+    "Patient âgé ou fragile : R-mini-CHOP ; formes réfractaires : protocoles de rattrapage en centre spécialisé",
+    "Lymphomes indolents : surveillance s'il n'y a pas de symptômes ; sinon rituximab, chlorambucil oral (peu coûteux), bendamustine",
+    "Leucémie lymphoïde chronique symptomatique : chlorambucil ± rituximab, ibrutinib, fludarabine",
+    "Personne vivant avec le VIH : débuter ou optimiser les ARV (TLD) sans attendre, prophylaxie au cotrimoxazole, fluconazole selon les CD4 ; chimiothérapie à dose complète si l'état le permet",
+    "Prévention du syndrome de lyse (hydratation, allopurinol), antiémétiques, prévention et traitement rapide de la neutropénie fébrile (G-CSF si disponible)",
+    "Orientation vers un centre de cancérologie et décision en réunion pluridisciplinaire",
+    "Annonce, soutien psychologique et social, prise en charge de la douleur et des symptômes dès le diagnostic ; soins palliatifs intégrés tôt dans les formes avancées"
    ],
    "gravite": [
-    "Syndrome de lyse, compression",
-    "Neutropénie fébrile"
+    "Syndrome de lyse tumorale",
+    "Compression médullaire, syndrome cave supérieur, compression des voies aériennes",
+    "Neutropénie fébrile",
+    "Réactivation de l'hépatite B sous rituximab",
+    "Atteinte cérébrale"
    ],
    "prevention": [
-    "Traitement précoce du VIH"
+    "Dépistage et traitement précoce du VIH (les ARV réduisent fortement le risque de lymphome)",
+    "Vaccination contre l'hépatite B ; traitement de l'hépatite C",
+    "Biopsie rapide des adénopathies inexpliquées"
    ],
    "medicaments": [
     "Rituximab",
@@ -46530,11 +46635,16 @@
     "Doxorubicine",
     "Vincristine",
     "Prednisolone",
+    "Méthotrexate",
     "Bendamustine",
     "Chlorambucil",
     "Ibrutinib",
     "Fludarabine",
-    "Allopurinol"
+    "Allopurinol",
+    "Ténofovir + lamivudine + dolutégravir (TLD)",
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
+    "Filgrastim (G-CSF)",
+    "Ondansétron"
    ]
   },
   {
@@ -46542,30 +46652,42 @@
    "nom": "Leucémie myéloïde chronique",
    "categorie": "cancers",
    "synonymes": "LMC, leucémie myéloïde chronique, grosse rate, hyperleucocytose, chromosome Philadelphie",
-   "resume": "Leucémie de l'adulte jeune et d'âge moyen, transformée par les inhibiteurs de tyrosine kinase (imatinib) en maladie chronique contrôlée. Des programmes d'accès gratuit existent.",
+   "resume": "Leucémie due à une anomalie acquise d'une cellule souche (chromosome Philadelphie, gène de fusion BCR-ABL), touchant l'adulte jeune et d'âge moyen (plus jeune en Afrique qu'en Europe). Non traitée, elle évolue en quelques années vers une leucémie aiguë mortelle (crise blastique). Les inhibiteurs de tyrosine kinase (imatinib), pris par voie orale chaque jour, en ont fait une maladie chronique contrôlée avec une espérance de vie presque normale. Des programmes d'accès gratuit (Max Foundation) existent en RDC.",
    "signes": [
-    "Grosse rate (pesanteur abdominale), fatigue, amaigrissement, sueurs",
-    "Parfois découverte sur une NFS",
-    "Phase accélérée ou blastique : fièvre, saignements"
+    "Phase chronique (90 % au diagnostic) : grosse rate parfois énorme (pesanteur, douleur du flanc gauche, satiété rapide), fatigue, amaigrissement, sueurs, fièvre modérée ; parfois découverte sur une NFS",
+    "Signes de leucostase si leucocytes très élevés : céphalées, troubles visuels, dyspnée, priapisme",
+    "Goutte",
+    "Phase accélérée ou blastique : fièvre, anémie et saignements qui s'aggravent, douleurs osseuses, augmentation de la rate malgré le traitement"
    ],
    "diagnostic": [
-    "NFS : hyperleucocytose avec myélémie, basophilie",
-    "Recherche du transcrit BCR-ABL (PCR) ou chromosome Philadelphie",
-    "Éliminer paludisme chronique, splénomégalie tropicale"
+    "NFS et frottis : hyperleucocytose souvent > 100 000/mm³ avec myélémie (tous les stades de maturation des granuleux), basophilie, plaquettes normales ou augmentées ; pourcentage de blastes (phase)",
+    "Confirmation par recherche du transcrit BCR-ABL (PCR sur sang) ou du chromosome Philadelphie (caryotype) ; nécessaire pour l'accès aux programmes",
+    "Myélogramme selon le contexte",
+    "Créatinine, acide urique, transaminases, test de grossesse",
+    "Éliminer : splénomégalie palustre hyperimmune, schistosomiase, leishmaniose viscérale, drépanocytose, autres syndromes myéloprolifératifs, réaction leucémoïde (infection)"
    ],
    "traitement": [
-    "Imatinib 400 mg/jour à vie (accès via Max Foundation)",
-    "Échec ou intolérance : dasatinib, nilotinib",
-    "Hydroxyurée en attendant le diagnostic moléculaire ou si leucocytose très élevée",
-    "Suivi NFS puis PCR BCR-ABL tous les 3 mois",
-    "Observance indispensable"
+    "Imatinib 400 mg par jour en phase chronique (600 à 800 mg en phase accélérée), à prendre au cours d'un repas avec un grand verre d'eau, à vie (un arrêt n'est envisageable qu'après une réponse moléculaire profonde et prolongée, en centre spécialisé) ; inscription au programme d'accès (Max Foundation)",
+    "Effets indésirables : œdèmes autour des yeux, crampes, nausées, éruption, cytopénies au début ; ne pas arrêter sans avis ; éviter le jus de pamplemousse et les interactions (rifampicine, certains antifongiques et ARV)",
+    "Échec ou intolérance : dasatinib ou nilotinib (2e génération)",
+    "Hydroxyurée (500 mg à 2 g par jour) en attendant la confirmation moléculaire ou en cas de leucocytose très élevée ; allopurinol et hydratation au début",
+    "Suivi : NFS toutes les 2 semaines jusqu'à la réponse hématologique, puis tous les 3 mois ; PCR BCR-ABL tous les 3 mois (objectif < 10 % à 3 mois, < 1 % à 12 mois, < 0,1 % ensuite)",
+    "Observance indispensable (cause principale d'échec)",
+    "Grossesse : l'imatinib est tératogène (contraception efficace ; projet de grossesse à discuter avec le spécialiste)",
+    "Phase blastique : traitement comme une leucémie aiguë + inhibiteur de tyrosine kinase",
+    "Orientation vers un centre de cancérologie et décision en réunion pluridisciplinaire",
+    "Annonce, soutien psychologique et social, prise en charge de la douleur et des symptômes dès le diagnostic ; soins palliatifs intégrés tôt dans les formes avancées"
    ],
    "gravite": [
-    "Phase blastique",
-    "Leucostase (troubles neurologiques, priapisme)"
+    "Phase accélérée ou blastique",
+    "Leucostase (troubles neurologiques, respiratoires, priapisme) : hydratation, hydroxyurée, leucaphérèse si disponible",
+    "Infarctus ou rupture de rate",
+    "Mauvaise observance"
    ],
    "prevention": [
-    "Aucune"
+    "Aucune prévention",
+    "NFS devant toute grosse rate inexpliquée",
+    "Éviter l'exposition aux radiations ionisantes"
    ],
    "medicaments": [
     "Imatinib",
@@ -46580,35 +46702,47 @@
    "nom": "Myélome multiple",
    "categorie": "cancers",
    "synonymes": "myélome, douleurs osseuses, Kahler, insuffisance rénale et anémie",
-   "resume": "Cancer des plasmocytes de l'adulte de plus de 50 ans (plus fréquent chez les personnes d'origine africaine) : douleurs osseuses, anémie, insuffisance rénale, hypercalcémie.",
+   "resume": "Cancer des plasmocytes de la moelle osseuse, de l'adulte de plus de 50 ans (souvent plus jeune en Afrique), 2 fois plus fréquent chez les personnes d'ascendance africaine. Il produit une immunoglobuline anormale (pic monoclonal) et détruit les os. Les atteintes caractéristiques (« CRAB ») sont l'hypercalcémie, l'insuffisance rénale, l'anémie et les lésions osseuses. Souvent diagnostiqué tard en Afrique, il est aujourd'hui traité par des associations orales (thalidomide, lénalidomide, bortézomib) qui prolongent nettement la survie.",
    "signes": [
-    "Douleurs osseuses (dos), fractures pathologiques",
-    "Fatigue, anémie",
-    "Insuffisance rénale",
-    "Hypercalcémie (soif, confusion, constipation)",
-    "Infections répétées",
-    "Compression médullaire"
+    "Douleurs osseuses (dos, côtes, bassin), souvent mécaniques puis permanentes ; fractures pathologiques, tassements vertébraux avec perte de taille",
+    "Fatigue, pâleur (anémie)",
+    "Insuffisance rénale (souvent révélatrice), urines mousseuses",
+    "Hypercalcémie : soif, polyurie, constipation, nausées, confusion, somnolence",
+    "Infections répétées (pneumonies)",
+    "Compression médullaire : douleur du dos, faiblesse des jambes, troubles urinaires",
+    "Hyperviscosité : saignements, troubles visuels, céphalées",
+    "Neuropathie, amaigrissement"
    ],
    "diagnostic": [
-    "Électrophorèse des protéines (pic monoclonal), protéinurie",
-    "Radiographies (lacunes osseuses)",
-    "Calcémie, créatinine, NFS",
-    "Myélogramme"
+    "VS très élevée, NFS (anémie, rouleaux d'hématies sur le frottis), calcémie corrigée, créatinine, albumine, protéines totales (élevées), LDH",
+    "Électrophorèse des protéines sériques (pic monoclonal) et immunofixation ; protéinurie (chaînes légères, protéinurie de Bence Jones) ; chaînes légères libres sériques si disponibles",
+    "Radiographies du squelette (lacunes « à l'emporte-pièce » du crâne, du bassin, des os longs, tassements) ou scanner corps entier à faible dose",
+    "Myélogramme : plus de 10 % de plasmocytes",
+    "Différentiels : métastases osseuses (prostate, sein), tuberculose vertébrale, hyperparathyroïdie, insuffisance rénale d'autre cause"
    ],
    "traitement": [
-    "Hydratation, traitement de l'hypercalcémie (NaCl, acide zolédronique)",
-    "Chimiothérapie : melphalan + prednisolone ± thalidomide ou bortézomib ; lénalidomide + dexaméthasone ; greffe chez le sujet jeune",
-    "Acide zolédronique mensuel",
-    "Antalgiques, radiothérapie antalgique",
-    "Prévention des thromboses (thalidomide, lénalidomide), du zona (bortézomib)"
+    "Urgences : hydratation abondante (NaCl 0,9 % 2 à 3 l par jour), arrêt des AINS et des produits de contraste ; hypercalcémie : NaCl 0,9 % puis acide zolédronique 4 mg IV (dose adaptée à la fonction rénale) ; compression médullaire : dexaméthasone 16 mg par jour et radiothérapie ou chirurgie en urgence",
+    "Traitement spécifique selon l'âge et l'état : association à base de bortézomib (bortézomib + thalidomide ou cyclophosphamide + dexaméthasone) ; lénalidomide + dexaméthasone ; melphalan + prednisolone + thalidomide chez le sujet âgé (oral, peu coûteux) ; autogreffe de cellules souches chez le patient jeune en centre spécialisé ; dexaméthasone seule en attendant les autres médicaments",
+    "Thalidomide et lénalidomide : contraception stricte (tératogènes), prévention des thromboses (aspirine ou héparine) ; thalidomide : neuropathie, constipation",
+    "Bortézomib : prophylaxie du zona par aciclovir, neuropathie",
+    "Acide zolédronique toutes les 4 semaines pendant 2 ans (prévention des complications osseuses ; examen dentaire avant : ostéonécrose de la mâchoire)",
+    "Douleur : paracétamol, morphine (éviter les AINS), radiothérapie antalgique, corset, cimentoplastie",
+    "Anémie : transfusion, érythropoïétine si disponible",
+    "Vaccinations (pneumocoque, grippe), traitement rapide des infections",
+    "Orientation vers un centre de cancérologie et décision en réunion pluridisciplinaire",
+    "Annonce, soutien psychologique et social, prise en charge de la douleur et des symptômes dès le diagnostic ; soins palliatifs intégrés tôt dans les formes avancées"
    ],
    "gravite": [
-    "Compression médullaire (paraplégie)",
-    "Hypercalcémie, insuffisance rénale aiguë",
-    "Infections"
+    "Compression médullaire (paraplégie) : urgence",
+    "Hypercalcémie sévère (confusion, coma)",
+    "Insuffisance rénale aiguë",
+    "Infections graves",
+    "Hyperviscosité",
+    "Fracture pathologique"
    ],
    "prevention": [
-    "Aucune"
+    "Aucune prévention",
+    "Électrophorèse des protéines devant une VS très élevée inexpliquée, une anémie avec insuffisance rénale ou des douleurs osseuses chez l'adulte âgé"
    ],
    "medicaments": [
     "Melphalan",
@@ -46617,9 +46751,13 @@
     "Bortézomib",
     "Lénalidomide",
     "Dexaméthasone",
+    "Cyclophosphamide",
     "Acide zolédronique",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Morphine",
-    "Aciclovir"
+    "Paracétamol",
+    "Aciclovir",
+    "Époétine (agent stimulant l'érythropoïèse)"
    ]
   },
   {
@@ -46627,32 +46765,44 @@
    "nom": "Sarcome de Kaposi",
    "categorie": "cancers",
    "synonymes": "Kaposi, sarcome de Kaposi, taches violacées, VIH",
-   "resume": "Tumeur vasculaire liée au virus HHV-8, très fréquente chez la personne vivant avec le VIH en Afrique centrale et de l'Est ; il existe aussi une forme endémique de l'enfant et de l'homme âgé.",
+   "resume": "Tumeur vasculaire liée au virus HHV-8, très fréquente en Afrique centrale et de l'Est. La forme associée au VIH (la plus fréquente, cancer définissant le SIDA) peut être grave avec atteinte viscérale ; il existe aussi une forme endémique (enfant avec atteinte ganglionnaire, homme âgé avec atteinte des jambes). Les ARV sont la base du traitement ; la chimiothérapie (paclitaxel ou doxorubicine liposomale) est nécessaire pour les formes étendues.",
    "signes": [
-    "Taches, plaques ou nodules violacés de la peau (jambes, visage), de la bouche (palais)",
-    "Œdème des jambes",
-    "Atteinte des ganglions, du poumon (toux, hémoptysie, épanchement), du tube digestif"
+    "Taches, plaques ou nodules violacés, brun foncé ou noirs sur une peau foncée, indolores, sur les jambes, les pieds, le visage (nez), le tronc, les organes génitaux",
+    "Lésions de la bouche (palais, gencives) : signe fréquent d'atteinte viscérale",
+    "Œdème des jambes, des organes génitaux ou du visage (atteinte lymphatique), parfois énorme et douloureux",
+    "Atteinte des ganglions (forme de l'enfant)",
+    "Atteinte pulmonaire : toux, dyspnée, hémoptysie, épanchement pleural sanglant",
+    "Atteinte digestive : saignements, douleurs, occlusion",
+    "Ulcérations et surinfections des lésions"
    ],
    "diagnostic": [
-    "Diagnostic clinique, biopsie si doute",
+    "Diagnostic clinique le plus souvent ; biopsie cutanée si doute (et si disponible)",
     "Test VIH, CD4, charge virale",
-    "Radiographie du thorax",
-    "Éliminer la tuberculose et l'angiomatose bacillaire"
+    "Radiographie du thorax (infiltrats, épanchement) ; NFS (anémie) ; recherche de sang dans les selles",
+    "Éliminer la tuberculose (toujours, en cas d'atteinte pulmonaire ou ganglionnaire), l'angiomatose bacillaire (bartonellose : traitement par azithromycine ou doxycycline), le lymphome, les mycoses profondes",
+    "Stade : limité (peau seule, peu de lésions) ou avancé (atteinte étendue, œdème, lésions buccales ulcérées, atteinte viscérale) ; évaluer l'état général"
    ],
    "traitement": [
-    "ARV pour tous (forme limitée : les ARV seuls peuvent suffire)",
-    "Forme étendue, viscérale ou œdémateuse : chimiothérapie (OMS) : doxorubicine liposomale pégylée ou paclitaxel ; alternatives : bléomycine + vincristine (BV), étoposide oral",
-    "Soins de l'œdème (contention, soins de peau)",
-    "Radiothérapie locale",
-    "Douleur"
+    "ARV pour tous les patients VIH, sans délai (TLD) ; prophylaxie au cotrimoxazole ; les ARV seuls peuvent suffire dans les formes limitées",
+    "Forme étendue, viscérale, œdémateuse ou évoluant malgré les ARV : chimiothérapie (OMS 2014) en plus des ARV : paclitaxel 100 mg/m² toutes les 2 semaines ou doxorubicine liposomale pégylée 20 mg/m² toutes les 3 semaines, 6 cycles ou plus selon la réponse ; alternatives : bléomycine + vincristine (BV), étoposide oral, vinblastine",
+    "Corticoïdes à éviter (aggravent le Kaposi)",
+    "Syndrome inflammatoire de restauration immunitaire (aggravation après le début des ARV) : poursuivre les ARV et débuter la chimiothérapie",
+    "Soins de l'œdème : surélévation, contention adaptée, soins de peau et prévention des surinfections ; radiothérapie locale pour les lésions gênantes ou douloureuses ; injections locales de vinblastine pour les lésions buccales",
+    "Traitement de la douleur (morphine), de l'anémie, des surinfections",
+    "Forme endémique de l'enfant : chimiothérapie (vincristine + bléomycine)",
+    "Orientation vers un centre de cancérologie et décision en réunion pluridisciplinaire",
+    "Annonce, soutien psychologique et social, prise en charge de la douleur et des symptômes dès le diagnostic ; soins palliatifs intégrés tôt dans les formes avancées"
    ],
    "gravite": [
-    "Atteinte pulmonaire (insuffisance respiratoire, hémoptysie)",
-    "Œdème massif, surinfections",
-    "Syndrome inflammatoire de restauration immunitaire"
+    "Atteinte pulmonaire (insuffisance respiratoire, hémoptysie, épanchement)",
+    "Hémorragie digestive",
+    "Œdème massif avec surinfection",
+    "Syndrome inflammatoire de restauration immunitaire",
+    "CD4 très bas avec infections associées"
    ],
    "prevention": [
-    "Dépistage et traitement précoce du VIH"
+    "Dépistage et traitement précoce du VIH",
+    "Examen de la peau et de la bouche de toutes les personnes vivant avec le VIH"
    ],
    "medicaments": [
     "Doxorubicine liposomale pégylée",
@@ -46662,6 +46812,7 @@
     "Vinblastine",
     "Étoposide",
     "Ténofovir + lamivudine + dolutégravir (TLD)",
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
     "Morphine"
    ]
   },
@@ -46670,33 +46821,40 @@
    "nom": "Cancer du col de l'utérus",
    "categorie": "cancers",
    "synonymes": "cancer du col, col de l'utérus, IVA, saignements après rapports, VPH",
-   "resume": "Premier cancer de la femme dans de nombreux pays d'Afrique, causé par les papillomavirus (VPH), plus fréquent et plus précoce chez la femme vivant avec le VIH. Il est évitable par la vaccination et le dépistage.",
+   "resume": "Premier ou deuxième cancer de la femme en Afrique subsaharienne, dont la RDC, et première cause de décès par cancer chez la femme dans de nombreux pays. Causé par la persistance des papillomavirus humains (VPH) à haut risque, transmis sexuellement ; 6 fois plus fréquent et plus précoce chez la femme vivant avec le VIH. Il est évitable : vaccination contre le VPH des filles, dépistage et traitement des lésions précancéreuses (stratégie OMS d'élimination 90-70-90).",
    "signes": [
-    "Lésions précancéreuses : aucun symptôme (d'où le dépistage)",
-    "Cancer : saignements après les rapports, entre les règles ou après la ménopause, pertes malodorantes",
-    "Stade avancé : douleurs pelviennes, insuffisance rénale (obstruction des uretères), fistules"
+    "Lésions précancéreuses et cancer débutant : aucun symptôme (d'où l'importance du dépistage)",
+    "Cancer : saignements après les rapports sexuels, entre les règles ou après la ménopause, pertes vaginales abondantes et malodorantes, douleurs pendant les rapports",
+    "Stade avancé : douleurs pelviennes, lombaires, des jambes, œdème des jambes, anémie, insuffisance rénale (obstruction des uretères), fistules vésico-vaginales ou recto-vaginales (fuites d'urines ou de selles par le vagin), amaigrissement"
    ],
    "diagnostic": [
-    "Dépistage : test VPH (de préférence) ou inspection visuelle à l'acide acétique (IVA), dès 30 ans (25 ans si VIH), tous les 5 à 10 ans (3 à 5 ans si VIH)",
-    "Biopsie de toute lésion suspecte",
-    "Stadification clinique (FIGO), échographie rénale"
+    "Dépistage : test VPH (de préférence, auto-prélèvement possible) ou inspection visuelle à l'acide acétique (IVA) ; à partir de 30 ans tous les 5 à 10 ans ; femmes vivant avec le VIH à partir de 25 ans tous les 3 à 5 ans ; test VPH positif : triage par IVA puis traitement",
+    "Examen au spéculum et toucher vaginal et rectal de toute femme ayant des saignements anormaux",
+    "Biopsie de toute lésion suspecte ou visible",
+    "Stadification clinique (FIGO) : examen pelvien, échographie rénale (hydronéphrose), radiographie du thorax ; IRM ou scanner si disponibles",
+    "NFS, créatinine, test VIH"
    ],
    "traitement": [
-    "Lésion précancéreuse : « dépister et traiter » immédiatement par thermo-ablation ou cryothérapie (ou résection à l'anse)",
-    "Cancer débutant : chirurgie (hystérectomie élargie)",
-    "Cancer localement avancé : radiochimiothérapie (cisplatine hebdomadaire + radiothérapie et curiethérapie)",
-    "Stade métastatique : chimiothérapie (carboplatine + paclitaxel), soins palliatifs",
-    "Orientation rapide vers un centre de cancérologie (les cancers de l'enfant sont souvent curables)",
-    "Annonce, soutien psychologique et social, prise en charge de la douleur dès le diagnostic"
+    "Lésion précancéreuse : « dépister et traiter » au cours de la même visite si possible : thermo-ablation (ou cryothérapie) si la lésion est éligible ; résection à l'anse diathermique (RAD/LEEP) si lésion étendue ou pénétrant le canal ; contrôle à 1 an",
+    "Cancer débutant (stades IA à IB2) : chirurgie (hystérectomie élargie avec curage ganglionnaire) ; conisation dans les stades très précoces chez la femme jeune",
+    "Cancer localement avancé (IB3 à IVA) : radiochimiothérapie (radiothérapie externe + curiethérapie, avec cisplatine 40 mg/m² chaque semaine) ; chimiothérapie seule si la radiothérapie n'est pas accessible, en attendant",
+    "Stade métastatique ou récidive : chimiothérapie (carboplatine + paclitaxel ± bévacizumab), radiothérapie palliative ; soins palliatifs (douleur, odeur, saignements, fistules)",
+    "Femme vivant avec le VIH : ARV, dépistage plus fréquent",
+    "Hydronéphrose avec insuffisance rénale : dérivation urinaire (néphrostomie) selon le projet de soins",
+    "Orientation vers un centre de cancérologie et décision en réunion pluridisciplinaire",
+    "Annonce, soutien psychologique et social, prise en charge de la douleur et des symptômes dès le diagnostic ; soins palliatifs intégrés tôt dans les formes avancées"
    ],
    "gravite": [
-    "Saignement abondant (tamponnement, acide tranexamique, transfusion)",
+    "Saignement vaginal abondant : tamponnement vaginal serré, acide tranexamique, transfusion, radiothérapie hémostatique",
     "Insuffisance rénale obstructive",
-    "Douleur rebelle"
+    "Douleur rebelle",
+    "Fistules",
+    "Anémie sévère"
    ],
    "prevention": [
-    "Vaccination VPH des filles de 9 à 14 ans",
-    "Dépistage de toutes les femmes, prioritairement les femmes vivant avec le VIH"
+    "Vaccination contre le VPH des filles de 9 à 14 ans (une ou deux doses), avant le début de la vie sexuelle",
+    "Dépistage de toutes les femmes de 30 à 49 ans (prioritairement les femmes vivant avec le VIH dès 25 ans) et traitement des lésions",
+    "Préservatifs, arrêt du tabac, traitement du VIH"
    ],
    "medicaments": [
     "Cisplatine",
@@ -46706,7 +46864,9 @@
     "Pembrolizumab",
     "Acide tranexamique",
     "Morphine",
-    "Vaccin anti-papillomavirus (VPH)"
+    "Vaccin anti-papillomavirus (VPH)",
+    "Concentré de globules rouges (culot globulaire)",
+    "Ondansétron"
    ]
   },
   {
@@ -46714,52 +46874,62 @@
    "nom": "Cancer du sein",
    "categorie": "cancers",
    "synonymes": "cancer du sein, nodule du sein, boule dans le sein",
-   "resume": "Premier cancer de la femme dans le monde. En Afrique, il touche souvent des femmes plus jeunes et est découvert tardivement : l'examen clinique des seins et l'accès rapide au diagnostic sauvent des vies.",
+   "resume": "Cancer le plus fréquent dans le monde et première cause de décès par cancer chez la femme. En Afrique, il touche des femmes plus jeunes (souvent avant 50 ans), avec plus de formes agressives (triple négatives), et il est le plus souvent découvert à un stade avancé, avec une survie faible. L'initiative mondiale de l'OMS (GBCI) vise un diagnostic dans les 60 jours et un traitement complet : l'examen clinique des seins, l'accès rapide à la biopsie et l'achèvement du traitement sauvent des vies. Il touche aussi l'homme (1 %).",
    "signes": [
-    "Nodule dur, indolore, mal limité",
-    "Rétraction du mamelon, écoulement sanglant",
-    "Peau en peau d'orange, ulcération",
-    "Ganglions de l'aisselle",
-    "Métastases : douleurs osseuses, toux, foie"
+    "Nodule du sein dur, indolore, mal limité, parfois fixé à la peau ou au muscle",
+    "Rétraction de la peau ou du mamelon, écoulement sanglant du mamelon, eczéma du mamelon (maladie de Paget)",
+    "Peau d'orange, rougeur et chaleur de tout le sein (cancer inflammatoire, souvent confondu avec une mastite), ulcération, masse bourgeonnante",
+    "Ganglions de l'aisselle ou au-dessus de la clavicule, œdème du bras",
+    "Métastases : douleurs osseuses, fractures, toux, dyspnée (épanchement pleural), gros foie, ictère, céphalées, convulsions"
    ],
    "diagnostic": [
-    "Examen clinique des seins",
-    "Échographie, mammographie",
-    "Biopsie avec récepteurs hormonaux et HER2",
-    "Bilan d'extension"
+    "Examen clinique des 2 seins et des aisselles (par un soignant formé)",
+    "Imagerie : échographie (femme jeune, nodule), mammographie (après 40 ans)",
+    "Biopsie au trocart (microbiopsie) avant tout traitement : type histologique, grade, récepteurs hormonaux (œstrogènes, progestérone) et HER2 (immunohistochimie) ; la cytoponction seule ne suffit pas",
+    "Bilan d'extension selon le stade : radiographie du thorax, échographie du foie, scintigraphie ou radiographies osseuses, NFS, transaminases, calcémie, créatinine",
+    "Échographie cardiaque avant anthracyclines ou trastuzumab",
+    "Mastite qui ne guérit pas après 1 à 2 semaines d'antibiotiques chez une femme qui n'allaite pas : biopsie"
    ],
    "traitement": [
-    "Chirurgie (mastectomie ou tumorectomie + curage)",
-    "Chimiothérapie (AC : doxorubicine + cyclophosphamide, puis docétaxel ou paclitaxel)",
-    "Radiothérapie",
-    "Récepteurs hormonaux positifs : tamoxifène (non ménopausée) ou anastrozole (ménopausée) pendant 5 à 10 ans",
-    "HER2 positif : trastuzumab",
-    "Métastases osseuses : acide zolédronique",
-    "Soins palliatifs",
-    "Orientation rapide vers un centre de cancérologie (les cancers de l'enfant sont souvent curables)",
-    "Annonce, soutien psychologique et social, prise en charge de la douleur dès le diagnostic"
+    "Stade précoce : chirurgie (tumorectomie avec radiothérapie, ou mastectomie) + exploration de l'aisselle (ganglion sentinelle ou curage)",
+    "Stade localement avancé (fréquent en Afrique) : chimiothérapie première (néoadjuvante) pour réduire la tumeur, puis mastectomie avec curage, puis radiothérapie",
+    "Chimiothérapie : AC (doxorubicine + cyclophosphamide) 4 cycles puis paclitaxel (hebdomadaire) ou docétaxel ; CMF ou capécitabine en alternative",
+    "Récepteurs hormonaux positifs : hormonothérapie 5 à 10 ans : tamoxifène 20 mg par jour (femme non ménopausée ; peu coûteux) ; anastrozole ou létrozole (ménopausée, avec calcium et vitamine D) ; suppression ovarienne (goséréline ou ovariectomie) chez la femme jeune à haut risque",
+    "HER2 positif : trastuzumab pendant 1 an avec la chimiothérapie (biosimilaires moins coûteux) ; surveiller la fonction cardiaque",
+    "Métastatique : hormonothérapie si récepteurs positifs (souvent en 1re ligne), chimiothérapie (capécitabine, paclitaxel, vinorelbine, gemcitabine) ; métastases osseuses : acide zolédronique, radiothérapie antalgique ; soins palliatifs",
+    "Soins de support : antiémétiques, prévention des infections, lymphœdème du bras (exercices, éviter les prises de sang et de tension de ce côté), prothèse mammaire, soutien psychologique et groupes de patientes",
+    "Contraception non hormonale pendant le traitement ; grossesse et allaitement à discuter avec l'oncologue",
+    "Orientation vers un centre de cancérologie et décision en réunion pluridisciplinaire",
+    "Annonce, soutien psychologique et social, prise en charge de la douleur et des symptômes dès le diagnostic ; soins palliatifs intégrés tôt dans les formes avancées"
    ],
    "gravite": [
-    "Compression médullaire, hypercalcémie",
-    "Neutropénie fébrile"
+    "Compression médullaire, hypercalcémie, métastases cérébrales",
+    "Neutropénie fébrile",
+    "Plaie tumorale hémorragique ou surinfectée",
+    "Épanchement pleural avec dyspnée",
+    "Abandon du traitement"
    ],
    "prevention": [
-    "Sensibilisation, examen clinique des seins, consultation rapide devant tout nodule"
+    "Sensibilisation, connaissance de ses seins, examen clinique des seins par des soignants formés, consultation rapide devant tout nodule",
+    "Allaitement maternel prolongé, activité physique, limitation de l'alcool et de l'obésité",
+    "Femmes à haut risque (antécédents familiaux, mutations BRCA) : surveillance spécialisée"
    ],
    "medicaments": [
     "Doxorubicine",
     "Cyclophosphamide",
     "Docétaxel",
     "Paclitaxel",
+    "Capécitabine",
+    "Vinorelbine",
+    "Gemcitabine",
     "Tamoxifène",
     "Anastrozole",
     "Létrozole",
     "Trastuzumab",
-    "Capécitabine",
     "Acide zolédronique",
     "Morphine",
-    "Vinorelbine",
-    "Gemcitabine"
+    "Ondansétron",
+    "Dexaméthasone"
    ]
   },
   {
@@ -46767,32 +46937,42 @@
    "nom": "Cancer de la prostate",
    "categorie": "cancers",
    "synonymes": "cancer de la prostate, PSA, prostate, difficulté à uriner homme âgé",
-   "resume": "Cancer fréquent de l'homme âgé, plus fréquent et plus agressif chez les hommes d'origine africaine, souvent découvert au stade métastatique (os).",
+   "resume": "Cancer le plus fréquent de l'homme en Afrique subsaharienne. Il est plus fréquent, plus précoce et plus agressif chez les hommes d'ascendance africaine. Il est souvent découvert au stade métastatique (os), avec des douleurs osseuses ou une paraplégie. Les formes localisées peuvent guérir ; les formes métastatiques sont contrôlées pendant des années par la suppression des androgènes (castration chirurgicale ou médicamenteuse).",
    "signes": [
-    "Troubles urinaires (aussi dans l'adénome bénin)",
-    "Douleurs osseuses (dos, bassin)",
-    "Rétention urinaire, insuffisance rénale",
-    "Compression médullaire (paraplégie)"
+    "Stade précoce : aucun symptôme",
+    "Troubles urinaires (jet faible, envies fréquentes, levers nocturnes, rétention) : souvent dus à un adénome bénin associé",
+    "Sang dans les urines ou le sperme",
+    "Stade avancé : douleurs osseuses (dos, bassin, côtes), fractures, anémie, amaigrissement, insuffisance rénale (obstruction des uretères), œdème des jambes",
+    "Compression médullaire : douleur du dos, faiblesse des jambes, troubles urinaires, paraplégie"
    ],
    "diagnostic": [
-    "Toucher rectal (prostate dure, irrégulière)",
-    "PSA",
-    "Biopsie",
-    "Scintigraphie ou radiographies osseuses"
+    "Toucher rectal : prostate dure, irrégulière, nodulaire, parfois fixée",
+    "PSA (à interpréter selon l'âge ; très élevé en cas de métastases) ; infection et rétention l'augmentent aussi",
+    "Biopsies de la prostate (score de Gleason/ISUP) ; chez un homme âgé avec métastases osseuses et PSA très élevé, le traitement peut débuter si la biopsie n'est pas accessible",
+    "Bilan d'extension : scintigraphie osseuse ou radiographies (lésions condensantes), échographie rénale, créatinine, NFS, calcémie, phosphatases alcalines",
+    "Différentiels : hypertrophie bénigne de la prostate, prostatite, tuberculose urogénitale, schistosomiase, myélome (lésions osseuses)"
    ],
    "traitement": [
-    "Localisé : surveillance, chirurgie ou radiothérapie",
-    "Métastatique : castration (leuproréline avec bicalutamide les premières semaines, ou orchidectomie bilatérale, peu coûteuse et immédiate)",
-    "Résistance à la castration : abiratérone + prednisolone, docétaxel",
-    "Métastases osseuses : radiothérapie antalgique, acide zolédronique",
-    "Antalgie"
+    "Localisé : selon l'âge, l'état de santé et le risque : surveillance active (faible risque), prostatectomie totale, ou radiothérapie ± hormonothérapie de courte durée",
+    "Localement avancé : radiothérapie + hormonothérapie de 18 mois à 3 ans",
+    "Métastatique : suppression des androgènes à vie : orchidectomie bilatérale (pulpectomie : peu coûteuse, effet immédiat, sans problème d'observance) ou agonistes de la LH-RH (leuproréline, goséréline) toutes les 1 à 3 mois, avec bicalutamide 50 mg par jour pendant les 2 à 4 premières semaines pour éviter la poussée initiale (flare) ; ajouter docétaxel ou abiratérone + prednisolone dès le départ chez les patients en bon état (survie prolongée)",
+    "Résistance à la castration (PSA qui remonte) : abiratérone + prednisolone, enzalutamide, docétaxel",
+    "Métastases osseuses : radiothérapie antalgique (une séance), acide zolédronique, calcium et vitamine D, antalgiques (morphine)",
+    "Effets de la castration : bouffées de chaleur, perte de libido, ostéoporose, diabète, risque cardiovasculaire : activité physique, surveillance",
+    "Rétention urinaire : sondage, résection endoscopique si nécessaire",
+    "Orientation vers un centre de cancérologie et décision en réunion pluridisciplinaire",
+    "Annonce, soutien psychologique et social, prise en charge de la douleur et des symptômes dès le diagnostic ; soins palliatifs intégrés tôt dans les formes avancées"
    ],
    "gravite": [
-    "Compression médullaire (urgence : dexaméthasone, radiothérapie ou chirurgie)",
-    "Rétention, insuffisance rénale"
+    "Compression médullaire : urgence (dexaméthasone 16 mg par jour immédiatement, puis radiothérapie ou chirurgie ; castration chirurgicale en urgence si pas encore traité)",
+    "Rétention urinaire, insuffisance rénale obstructive",
+    "Hypercalcémie",
+    "Fracture pathologique",
+    "Anémie sévère"
    ],
    "prevention": [
-    "Information des hommes ; dépistage individuel discuté après 50 ans (45 ans chez les hommes d'origine africaine)"
+    "Information des hommes ; dépistage individuel (PSA et toucher rectal) discuté à partir de 50 ans, et dès 45 ans chez les hommes d'ascendance africaine ou avec des antécédents familiaux",
+    "Consultation rapide en cas de douleurs osseuses ou de troubles urinaires"
    ],
    "medicaments": [
     "Leuproréline",
@@ -46800,9 +46980,11 @@
     "Abiratérone",
     "Docétaxel",
     "Prednisolone",
-    "Acide zolédronique",
     "Dexaméthasone",
-    "Morphine"
+    "Acide zolédronique",
+    "Morphine",
+    "Carbonate de calcium",
+    "Vitamine D (ergocalciférol / cholécalciférol)"
    ]
   },
   {
@@ -46810,33 +46992,43 @@
    "nom": "Cancer colorectal",
    "categorie": "cancers",
    "synonymes": "cancer du côlon, cancer du rectum, sang dans les selles, cancer colorectal",
-   "resume": "Cancer en augmentation en Afrique, souvent chez des adultes jeunes, découvert tardivement (occlusion, anémie).",
+   "resume": "Cancer du côlon et du rectum, en augmentation rapide en Afrique avec l'urbanisation (alimentation pauvre en fibres, riche en viande transformée, sédentarité, obésité, alcool, tabac). Il touche souvent des adultes jeunes (moins de 50 ans) et est découvert tardivement (occlusion, anémie, métastases), car le sang dans les selles est souvent attribué aux hémorroïdes, à l'amibiase ou à la schistosomiase. Diagnostiqué tôt, il est souvent guérissable par la chirurgie.",
    "signes": [
-    "Sang dans les selles, troubles du transit récents",
-    "Anémie ferriprive inexpliquée",
-    "Douleurs abdominales, amaigrissement",
-    "Occlusion, masse abdominale"
+    "Sang dans les selles (rouge ou mélangé, ou selles noires), troubles du transit récents et persistants (constipation, diarrhée, alternance), selles plus fines",
+    "Anémie par carence en fer inexpliquée (surtout chez l'homme ou la femme ménopausée), fatigue",
+    "Douleurs abdominales, ballonnements, amaigrissement",
+    "Cancer du rectum : besoins pressants, sensation d'évacuation incomplète, faux besoins avec glaires et sang",
+    "Complications : occlusion intestinale, perforation, masse abdominale, gros foie (métastases), ascite"
    ],
    "diagnostic": [
-    "Toucher rectal",
-    "Coloscopie et biopsies",
-    "Bilan d'extension (échographie hépatique, scanner)",
-    "Éliminer : hémorroïdes, amibiase, schistosomiase, tuberculose intestinale"
+    "Toucher rectal (tumeur du bas rectum palpable)",
+    "Coloscopie avec biopsies (référence) ; rectoscopie pour le rectum ; lavement baryté si la coloscopie n'est pas disponible",
+    "Recherche de sang dans les selles (test immunologique) pour orienter",
+    "NFS, ferritine, fonction hépatique, ACE (marqueur de suivi)",
+    "Bilan d'extension : scanner thoraco-abdomino-pelvien, à défaut échographie du foie et radiographie du thorax ; IRM pelvienne pour le rectum",
+    "Éliminer : hémorroïdes (ne pas attribuer un saignement aux hémorroïdes sans examen chez l'adulte de plus de 40 ans ou avec signes d'alerte), amibiase, schistosomiase, tuberculose intestinale, maladie inflammatoire"
    ],
    "traitement": [
-    "Chirurgie (colectomie)",
-    "Chimiothérapie adjuvante (FOLFOX ou CAPOX : 5-FU ou capécitabine + oxaliplatine)",
-    "Rectum : radiochimiothérapie avant la chirurgie",
-    "Métastatique : FOLFOX, FOLFIRI ± bévacizumab, soins palliatifs",
-    "Orientation rapide vers un centre de cancérologie (les cancers de l'enfant sont souvent curables)",
-    "Annonce, soutien psychologique et social, prise en charge de la douleur dès le diagnostic"
+    "Côlon : colectomie avec curage ganglionnaire ; chimiothérapie adjuvante pour les stades III et certains stades II : FOLFOX (fluorouracile + acide folinique + oxaliplatine) ou CAPOX (capécitabine + oxaliplatine) pendant 3 à 6 mois ; capécitabine seule chez le sujet âgé",
+    "Rectum : radiochimiothérapie préopératoire (capécitabine ou fluorouracile) ou radiothérapie courte pour les tumeurs localement avancées, puis exérèse totale du mésorectum ; stomie temporaire ou définitive",
+    "Métastatique : chimiothérapie (FOLFOX, FOLFIRI avec irinotécan, capécitabine) ± bévacizumab ; chirurgie des métastases hépatiques isolées en centre spécialisé ; soins palliatifs",
+    "Occlusion : chirurgie en urgence (stomie de dérivation ou résection) ; prothèse colique si disponible",
+    "Anémie : fer, transfusion si nécessaire",
+    "Éducation et appareillage des patients stomisés ; nutrition",
+    "Suivi : examen clinique, ACE, imagerie et coloscopie selon le protocole pendant 5 ans",
+    "Dépistage des parents au 1er degré (coloscopie dès 40 ans ou 10 ans avant l'âge du diagnostic du parent)",
+    "Orientation vers un centre de cancérologie et décision en réunion pluridisciplinaire",
+    "Annonce, soutien psychologique et social, prise en charge de la douleur et des symptômes dès le diagnostic ; soins palliatifs intégrés tôt dans les formes avancées"
    ],
    "gravite": [
-    "Occlusion, perforation",
-    "Hémorragie digestive"
+    "Occlusion, perforation (péritonite) : urgence chirurgicale",
+    "Hémorragie digestive abondante",
+    "Anémie sévère",
+    "Métastases hépatiques avec ictère"
    ],
    "prevention": [
-    "Alimentation riche en fibres, activité physique ; coloscopie en cas d'antécédents familiaux"
+    "Alimentation riche en fibres, fruits, légumes et céréales complètes ; limitation de la viande rouge et transformée, de l'alcool ; activité physique ; arrêt du tabac ; maintien d'un poids sain",
+    "Coloscopie en cas d'antécédents familiaux ou de polypes ; examen rapide de tout saignement rectal chez l'adulte"
    ],
    "medicaments": [
     "Fluorouracile (5-FU)",
@@ -46846,7 +47038,8 @@
     "Irinotécan",
     "Bévacizumab",
     "Sulfate ferreux",
-    "Morphine"
+    "Morphine",
+    "Ondansétron"
    ]
   },
   {
@@ -46854,38 +47047,51 @@
    "nom": "Tumeurs germinales et trophoblastiques",
    "categorie": "cancers",
    "synonymes": "cancer du testicule, tumeur germinale, môle hydatiforme, choriocarcinome, testicule dur",
-   "resume": "Cancers du testicule (homme jeune) et tumeurs trophoblastiques après une grossesse (môle, choriocarcinome) : très chimiosensibles et curables même au stade métastatique.",
+   "resume": "Deux groupes de cancers très sensibles à la chimiothérapie et curables même au stade métastatique, qui ne doivent pas être manqués : les tumeurs germinales du testicule (homme de 15 à 40 ans ; aussi de l'ovaire chez la jeune fille et du médiastin) et les maladies trophoblastiques gestationnelles (môle hydatiforme, plus fréquente en Afrique, et ses suites : tumeur trophoblastique persistante, choriocarcinome) survenant après une grossesse. Le suivi de la βhCG après une môle permet de les dépister.",
    "signes": [
-    "Testicule dur, augmenté de volume, indolore",
-    "Gynécomastie",
-    "Après une grossesse ou une môle : saignements persistants, utérus trop gros, βhCG qui ne baisse pas, métastases pulmonaires (toux, hémoptysie)"
+    "Testicule : augmentation de volume, induration ou nodule dur indolore d'un testicule, pesanteur ; parfois douleur ; gynécomastie ; testicule non descendu (risque accru)",
+    "Métastases : douleurs lombaires (ganglions rétropéritonéaux), toux, hémoptysie, dyspnée (poumons), masse du cou",
+    "Ovaire : masse abdomino-pelvienne rapidement croissante chez une jeune fille, douleur aiguë (torsion)",
+    "Môle hydatiforme : saignements au 1er trimestre, vomissements importants, utérus plus gros que l'âge de la grossesse, absence d'activité cardiaque fœtale, prééclampsie précoce, hyperthyroïdie, expulsion de vésicules",
+    "Tumeur trophoblastique : saignements persistants après une môle, une fausse couche ou un accouchement, βhCG qui ne baisse pas ou remonte, métastases pulmonaires (toux, hémoptysie), vaginales, cérébrales"
    ],
    "diagnostic": [
-    "Échographie testiculaire, marqueurs (βhCG, alpha-fœtoprotéine, LDH)",
-    "Môle : échographie pelvienne, βhCG répétés après l'évacuation",
-    "Radiographie du thorax"
+    "Testicule : échographie scrotale ; marqueurs avant toute chirurgie : βhCG, alpha-fœtoprotéine, LDH ; scanner (ou échographie abdominale et radiographie du thorax) pour l'extension ; ne jamais biopsier par voie scrotale",
+    "Môle : échographie pelvienne (aspect en « flocons de neige » ou en « grappe de raisin »), βhCG très élevée, examen histologique du produit d'aspiration",
+    "Tumeur trophoblastique : βhCG en plateau (3 dosages sur 3 semaines) ou en hausse (2 dosages sur 2 semaines) après évacuation ; radiographie du thorax, échographie hépatique, scanner cérébral si métastases ; score pronostique FIGO/OMS",
+    "Différentiels : orchi-épididymite, hydrocèle, tuberculose génitale, grossesse (βhCG)"
    ],
    "traitement": [
-    "Testicule : orchidectomie par voie inguinale, puis chimiothérapie BEP (bléomycine, étoposide, cisplatine) selon le stade",
-    "Môle : aspiration, suivi de la βhCG jusqu'à normalisation, contraception",
-    "Tumeur trophoblastique persistante : méthotrexate (avec acide folinique) ou dactinomycine ; haut risque : polychimiothérapie",
-    "Orientation rapide vers un centre de cancérologie (les cancers de l'enfant sont souvent curables)",
-    "Annonce, soutien psychologique et social, prise en charge de la douleur dès le diagnostic"
+    "Testicule : orchidectomie par voie inguinale (jamais par le scrotum) ; puis selon le type (séminome ou non) et le stade : surveillance, carboplatine (séminome localisé), chimiothérapie BEP (bléomycine, étoposide, cisplatine) 3 ou 4 cycles pour les stades avancés ; radiothérapie pour certains séminomes ; chirurgie des masses résiduelles ; conservation du sperme si possible avant traitement",
+    "Tumeurs germinales de l'ovaire : chirurgie conservatrice de la fertilité, puis BEP",
+    "Môle : évacuation par aspiration (AMIU ou aspiration électrique), sous perfusion d'ocytocine après le début de l'aspiration ; immunoglobuline anti-D si Rhésus négatif ; βhCG chaque semaine jusqu'à 3 dosages négatifs, puis chaque mois pendant 6 mois ; contraception efficace pendant le suivi (contraceptif oral ou injectable)",
+    "Tumeur trophoblastique à bas risque : méthotrexate 50 mg IM aux jours 1, 3, 5 et 7 avec acide folinique aux jours 2, 4, 6 et 8, toutes les 2 semaines, ou dactinomycine, jusqu'à normalisation de la βhCG puis 2 à 3 cycles de consolidation ; haut risque : polychimiothérapie (EMA-CO : étoposide, méthotrexate, dactinomycine, cyclophosphamide, vincristine) en centre spécialisé",
+    "Suivi prolongé de la βhCG et des marqueurs",
+    "Orientation vers un centre de cancérologie et décision en réunion pluridisciplinaire",
+    "Annonce, soutien psychologique et social, prise en charge de la douleur et des symptômes dès le diagnostic ; soins palliatifs intégrés tôt dans les formes avancées"
    ],
    "gravite": [
-    "Hémorragie",
-    "Métastases cérébrales"
+    "Hémorragie utérine abondante (môle, choriocarcinome)",
+    "Métastases cérébrales ou pulmonaires étendues (insuffisance respiratoire)",
+    "Torsion d'une tumeur de l'ovaire",
+    "Perdue de vue du suivi de la βhCG"
    ],
    "prevention": [
-    "Autopalpation des testicules ; suivi de la βhCG après toute môle"
+    "Autopalpation des testicules ; chirurgie précoce (avant 1 à 2 ans) d'un testicule non descendu",
+    "Suivi systématique de la βhCG après toute môle et devant tout saignement persistant après une grossesse"
    ],
    "medicaments": [
     "Bléomycine",
     "Étoposide",
     "Cisplatine",
+    "Carboplatine",
     "Méthotrexate",
     "Folinate de calcium (acide folinique)",
     "Dactinomycine (actinomycine D)",
+    "Cyclophosphamide",
+    "Vincristine",
+    "Ocytocine",
+    "Immunoglobuline anti-D",
     "Contraceptif oral combiné (éthinylestradiol + lévonorgestrel)"
    ]
   },
@@ -46894,41 +47100,58 @@
    "nom": "Soins de support en cancérologie (neutropénie fébrile, syndrome de lyse, nausées, hypercalcémie)",
    "categorie": "cancers",
    "synonymes": "neutropénie fébrile, fièvre chimiothérapie, syndrome de lyse, hypercalcémie maligne, nausées chimiothérapie, extravasation, compression médullaire",
-   "resume": "Complications fréquentes et souvent mortelles des cancers et de leurs traitements, qui doivent être reconnues dans tout service, pas seulement en oncologie.",
+   "resume": "Complications fréquentes et souvent mortelles des cancers et de leurs traitements, qui doivent être reconnues et traitées dans tout service (urgences, pédiatrie, médecine), pas seulement en oncologie : neutropénie fébrile, syndrome de lyse tumorale, hypercalcémie, compression médullaire, syndrome cave supérieur, nausées et vomissements de la chimiothérapie, extravasation, mucite. Le traitement rapide de la neutropénie fébrile (antibiotique dans l'heure) est la mesure qui sauve le plus de vies pendant la chimiothérapie.",
    "signes": [
-    "Neutropénie fébrile : fièvre ≥ 38,3 °C (ou 38 °C 1 h) avec neutrophiles < 500/mm³, souvent sans foyer",
-    "Syndrome de lyse : oligurie, troubles du rythme, convulsions (K, phosphore, acide urique élevés, calcium bas)",
-    "Hypercalcémie : soif, confusion, constipation",
-    "Nausées et vomissements",
-    "Compression médullaire : douleur du dos, faiblesse des jambes",
-    "Extravasation : douleur, rougeur au point de perfusion"
+    "Neutropénie fébrile : fièvre ≥ 38,3 °C une fois (ou ≥ 38 °C pendant 1 h) avec neutrophiles < 500/mm³ (ou attendus sous ce seuil), souvent 7 à 14 jours après la chimiothérapie, souvent sans foyer visible ; frissons, hypotension",
+    "Syndrome de lyse : dans les heures ou jours suivant le début du traitement (Burkitt, leucémies, gros lymphomes) : oligurie, nausées, crampes, troubles du rythme, convulsions",
+    "Hypercalcémie : soif, polyurie, constipation, nausées, confusion, somnolence, coma",
+    "Compression médullaire : douleur du dos, puis faiblesse des jambes, troubles sensitifs, urinaires",
+    "Syndrome cave supérieur : œdème du visage et du cou, veines dilatées, dyspnée",
+    "Mucite : douleurs et ulcérations de la bouche, impossibilité de manger",
+    "Extravasation : douleur, brûlure, rougeur, gonflement au point de perfusion"
    ],
    "diagnostic": [
-    "NFS, hémocultures, bilan de lyse (K, phosphore, acide urique, créatinine, calcium)",
-    "Calcémie corrigée par l'albumine",
-    "Examen neurologique"
+    "Neutropénie fébrile : NFS, hémocultures (périphérique et sur cathéter), ECBU, radiographie du thorax selon les signes, TDR paludisme ; examen complet (bouche, peau, cathéter, périnée sans toucher rectal) ; ne pas attendre les résultats pour traiter ; score de risque (MASCC)",
+    "Lyse : potassium, phosphore, acide urique, calcium, créatinine, LDH toutes les 6 à 12 h chez les patients à risque",
+    "Calcémie corrigée par l'albumine (Ca corrigé = Ca mesuré + 0,025 × (40 – albumine en g/l), en mmol/l)",
+    "Compression médullaire : examen neurologique, IRM en urgence si disponible (sinon scanner, radiographies)",
+    "Syndrome cave : radiographie du thorax, scanner"
    ],
    "traitement": [
-    "Neutropénie fébrile : antibiotique IV DANS L'HEURE (ceftriaxone ± amikacine, ou pipéracilline-tazobactam ; ajouter vancomycine si cathéter ou peau) ; G-CSF dans certains cas",
-    "Syndrome de lyse : hyperhydratation, rasburicase (ou allopurinol), traitement de l'hyperkaliémie, dialyse",
-    "Nausées : ondansétron + dexaméthasone ± aprépitant (avant la chimiothérapie)",
-    "Hypercalcémie : NaCl 0,9 % 2 à 4 l/jour, acide zolédronique 4 mg",
-    "Compression médullaire : dexaméthasone 16 mg/jour, radiothérapie ou chirurgie en urgence",
-    "Extravasation : arrêter, aspirer, froid (anthracyclines) ou chaud (vinca-alcaloïdes)"
+    "Neutropénie fébrile : antibiotique IV DANS L'HEURE : ceftriaxone (± amikacine), ou pipéracilline + tazobactam, ou céfépime selon l'écologie ; méropénem si choc ou BLSE connue ; ajouter la vancomycine si infection de cathéter, de peau, mucite sévère ou choc ; antifongique (amphotéricine B, fluconazole selon le contexte) si fièvre persistante au-delà de 4 à 7 jours ; patients à faible risque (adulte stable) : relais oral (amoxicilline + acide clavulanique + ciprofloxacine) ; G-CSF dans certains cas ; isolement, hygiène des mains",
+    "Syndrome de lyse : prévention par hyperhydratation (3 l/m² par jour), allopurinol (ou rasburicase si risque élevé ou acide urique élevé ; pas en cas de déficit en G6PD), pas de potassium dans les perfusions ; hyperkaliémie : gluconate de calcium, insuline + glucose, salbutamol ; hyperphosphatémie : réduire les apports ; hypocalcémie symptomatique seulement : calcium ; dialyse si insuffisance rénale ou hyperkaliémie réfractaire",
+    "Hypercalcémie : NaCl 0,9 % 2 à 4 l par jour, puis acide zolédronique 4 mg IV en 15 min (adapter à la fonction rénale) ; furosémide seulement après réhydratation ; corticoïdes si lymphome ou myélome",
+    "Compression médullaire : dexaméthasone 16 mg par jour (IV ou oral) immédiatement, puis radiothérapie ou chirurgie de décompression en urgence ; repos strict si instabilité, prévention des escarres et des thromboses",
+    "Syndrome cave supérieur : position assise, oxygène, dexaméthasone (lymphome), chimiothérapie ou radiothérapie urgentes selon la cause ; biopsie avant les corticoïdes si possible",
+    "Nausées et vomissements : prévention avant la chimiothérapie selon son potentiel émétisant : ondansétron + dexaméthasone, + aprépitant pour le cisplatine et AC ; métoclopramide ou halopéridol en secours ; olanzapine pour les nausées réfractaires",
+    "Mucite : soins de bouche fréquents (bicarbonate, eau salée), antalgiques (morphine si nécessaire), traitement des mycoses (nystatine, fluconazole) et de l'herpès (aciclovir), nutrition",
+    "Extravasation : arrêter la perfusion, aspirer, retirer le cathéter, surélever ; compresses froides (anthracyclines) ou chaudes (vinca-alcaloïdes) ; antidote selon le produit, avis",
+    "Cyclophosphamide et ifosfamide à forte dose : hydratation et mesna (prévention de la cystite hémorragique)",
+    "Anémie et thrombopénie : transfusions selon les seuils"
    ],
    "gravite": [
-    "Choc septique",
-    "Hyperkaliémie, insuffisance rénale",
-    "Paraplégie"
+    "Choc septique chez un patient neutropénique",
+    "Hyperkaliémie, insuffisance rénale aiguë (lyse)",
+    "Paraplégie (compression médullaire)",
+    "Hypercalcémie avec troubles de conscience",
+    "Syndrome cave supérieur avec détresse respiratoire"
    ],
    "prevention": [
-    "Prophylaxie primaire par G-CSF si risque élevé, hydratation préventive, antiémétiques adaptés"
+    "Éducation des patients et des familles : consulter immédiatement en cas de fièvre pendant la chimiothérapie, carte d'alerte",
+    "Prophylaxie primaire par G-CSF si le risque de neutropénie fébrile est élevé",
+    "Hydratation préventive et allopurinol avant le traitement des tumeurs à risque de lyse",
+    "Antiémétiques adaptés à chaque protocole",
+    "Hygiène des mains et de la bouche, soins des cathéters"
    ],
    "medicaments": [
     "Ceftriaxone",
     "Amikacine",
     "Pipéracilline + tazobactam",
+    "Méropénem",
     "Vancomycine",
+    "Amoxicilline + acide clavulanique",
+    "Ciprofloxacine",
+    "Fluconazole",
     "Filgrastim (G-CSF)",
     "Pegfilgrastim",
     "Rasburicase",
@@ -46936,9 +47159,17 @@
     "Ondansétron",
     "Dexaméthasone",
     "Aprépitant",
+    "Métoclopramide",
     "Acide zolédronique",
     "Chlorure de sodium 0,9 % (sérum physiologique)",
-    "Mesna"
+    "Furosémide",
+    "Gluconate de calcium 10 %",
+    "Insuline humaine (rapide et NPH)",
+    "Glucose 10 %",
+    "Mesna",
+    "Aciclovir",
+    "Nystatine",
+    "Morphine"
    ]
   },
   {
