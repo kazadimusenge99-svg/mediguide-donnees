@@ -1,5 +1,5 @@
 {
- "version": 26,
+ "version": 27,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -33993,51 +33993,59 @@
    "nom": "Paludisme simple",
    "categorie": "paludisme",
    "synonymes": "malaria, palu, fièvre",
-   "resume": "Infection par Plasmodium (surtout P. falciparum en RDC), transmise par l'anophèle. Toute fièvre en zone d'endémie doit faire rechercher un paludisme.",
+   "resume": "Infection par Plasmodium (P. falciparum dans plus de 90 % des cas en RDC), transmise par la piqûre de l'anophèle femelle. Première cause de consultation et de décès de l'enfant en RDC. Toute fièvre en zone d'endémie impose un test (TDR ou goutte épaisse) avant tout traitement ; un paludisme simple mal traité peut devenir grave en quelques heures, surtout chez l'enfant de moins de 5 ans et la femme enceinte.",
    "signes": [
-    "Fièvre ou antécédent de fièvre dans les 48 h",
-    "Frissons, sueurs, céphalées, courbatures",
-    "Nausées, vomissements, douleurs abdominales, diarrhée (surtout chez l'enfant)",
-    "Absence de signe de gravité"
+    "Fièvre ou antécédent de fièvre dans les 48 dernières heures (peut manquer chez l'adulte semi-immun)",
+    "Frissons, sueurs, céphalées, courbatures, fatigue",
+    "Chez l'enfant : vomissements, diarrhée, douleurs abdominales, refus de manger, toux",
+    "Pâleur modérée, rate parfois palpable",
+    "Absence de tout signe de gravité (le patient boit, mange, marche, est conscient et ne vomit pas tout)"
    ],
    "diagnostic": [
-    "Test de diagnostic rapide (TDR) ou goutte épaisse avant tout traitement",
-    "TDR négatif : rechercher une autre cause de fièvre",
-    "Rechercher systématiquement les signes de gravité"
+    "Confirmer avant de traiter : TDR (HRP2 ou HRP2/pLDH) ou goutte épaisse et frottis",
+    "Le TDR HRP2 reste positif 2 à 6 semaines après un paludisme traité : chez un patient traité récemment, faire une goutte épaisse",
+    "TDR négatif : pas d'antipaludique ; rechercher une autre cause (infection respiratoire, urinaire, ORL, typhoïde, méningite, dengue)",
+    "Rechercher systématiquement les signes de gravité et peser l'enfant (dose selon le poids)",
+    "Femme en âge de procréer : demander la date des dernières règles"
    ],
    "traitement": [
-    "CTA de première intention pendant 3 jours (artéméther-luméfantrine ou artésunate-amodiaquine selon le PNLP ; alternatives : DHA-pipéraquine, artésunate-pyronaridine)",
-    "1re dose sous observation ; redonner si vomissement dans les 30 min",
-    "Paracétamol contre la fièvre",
-    "Femme enceinte au 1er trimestre : artéméther-luméfantrine",
-    "Revoir après 3 jours si la fièvre persiste",
-    "Doses d'artéméther-luméfantrine (20/120 mg), 6 prises en 3 jours (H0, H8, puis matin et soir J2 et J3) : 5 à 14 kg 1 comprimé, 15 à 24 kg 2, 25 à 34 kg 3, 35 kg et plus 4 ; avec un aliment gras ou du lait",
-    "Doses d'artésunate-amodiaquine, 1 prise par jour pendant 3 jours : 4,5 à 8 kg 25/67,5 mg, 9 à 17 kg 50/135 mg, 18 à 35 kg 100/270 mg, 36 kg et plus 2 × 100/270 mg",
-    "TDR négatif : ne pas donner d'antipaludique, rechercher une autre cause de fièvre",
-    "Signes de danger (impossibilité de boire, vomissements répétés, convulsions, léthargie, détresse respiratoire, ictère) : traiter comme un paludisme grave"
+    "CTA pendant 3 jours selon le PNLP : artéméther-luméfantrine (AL) ou artésunate-amodiaquine (ASAQ) ; alternatives OMS : dihydroartémisinine-pipéraquine, artésunate-pyronaridine",
+    "Artéméther-luméfantrine (20/120 mg), 6 prises : H0, H8, puis matin et soir les jours 2 et 3 ; 5 à 14 kg : 1 comprimé par prise, 15 à 24 kg : 2, 25 à 34 kg : 3, 35 kg et plus : 4 ; avec un aliment gras ou du lait",
+    "Artésunate-amodiaquine, 1 prise par jour pendant 3 jours : 4,5 à 8 kg : 25/67,5 mg ; 9 à 17 kg : 50/135 mg ; 18 à 35 kg : 100/270 mg ; 36 kg et plus : 2 × 100/270 mg",
+    "Nourrisson de moins de 5 kg : CTA à la même dose en mg/kg que pour 5 kg (artéméther-luméfantrine 1 comprimé par prise), sous surveillance",
+    "Femme enceinte : artéméther-luméfantrine à tous les trimestres, y compris le 1er (OMS 2022) ; autre CTA possible aux 2e et 3e trimestres",
+    "Donner la 1re dose devant le soignant ; vomissement dans les 30 min : redonner la dose entière ; entre 30 et 60 min : redonner une demi-dose ; vomissements répétés : traiter comme un paludisme grave",
+    "Fièvre : paracétamol 15 mg/kg toutes les 6 h (adulte 1 g) ; déshabiller l'enfant, faire boire ; pas d'aspirine chez l'enfant",
+    "Expliquer à la famille : terminer les 3 jours même si la fièvre disparaît, et revenir immédiatement en cas de signe de danger",
+    "Revoir à J3 si la fièvre persiste ; fièvre qui réapparaît dans les 28 jours : goutte épaisse ; échec confirmé : traiter avec une CTA différente",
+    "Co-infection fréquente chez l'enfant : traiter aussi une pneumonie, une diarrhée ou une malnutrition associées (PCIME)",
+    "Agents de santé communautaires : TDR et CTA à domicile, artésunate rectal avant transfert de l'enfant de moins de 6 ans qui ne peut pas avaler"
    ],
    "gravite": [
-    "Impossibilité de boire ou de téter, vomissements répétés",
-    "Convulsions, léthargie, coma, prostration",
-    "Détresse respiratoire",
-    "Pâleur intense (anémie sévère), ictère",
-    "Urines foncées ou rares, saignements",
-    "Choc → traiter comme un paludisme grave"
+    "Impossibilité de boire ou de téter, vomissements de tout ce qui est avalé",
+    "Convulsions, somnolence, léthargie, coma, prostration (ne peut ni s'asseoir ni marcher)",
+    "Respiration rapide ou difficile",
+    "Pâleur palmaire intense, ictère, urines foncées (coca) ou rares",
+    "Saignements, extrémités froides, choc",
+    "Tout signe de gravité : traiter comme un paludisme grave (artésunate injectable ou rectal) et transférer"
    ],
    "prevention": [
-    "Moustiquaire imprégnée d'insecticide pour toute la famille",
-    "Traitement préventif intermittent (SP) pendant la grossesse",
-    "Chimioprévention selon le programme national"
+    "Moustiquaire imprégnée d'insecticide à longue durée d'action pour toute la famille, chaque nuit",
+    "Pulvérisations intradomiciliaires et assainissement autour de la maison",
+    "Traitement préventif intermittent par SP chez la femme enceinte dès 13 semaines",
+    "Chimioprévention du nourrisson et vaccin antipaludique là où ils sont introduits",
+    "Consulter dans les 24 h devant toute fièvre"
    ],
    "medicaments": [
     "Artéméther + luméfantrine",
     "Artésunate + amodiaquine (ASAQ)",
     "Dihydroartémisinine + pipéraquine (DHA-PPQ)",
     "Artésunate + pyronaridine",
+    "Artésunate + méfloquine (ASMQ)",
+    "Artésunate + sulfadoxine-pyriméthamine (AS+SP)",
     "Paracétamol",
     "Sulfadoxine + pyriméthamine (SP)",
-    "Artésunate + méfloquine (ASMQ)",
-    "Artésunate + sulfadoxine-pyriméthamine (AS+SP)"
+    "Artésunate (injectable)"
    ]
   },
   {
@@ -34045,56 +34053,76 @@
    "nom": "Paludisme grave",
    "categorie": "paludisme",
    "synonymes": "neuropaludisme, paludisme cérébral, malaria grave, palu grave",
-   "resume": "Paludisme à P. falciparum avec au moins un signe de gravité ou de défaillance d'organe. Urgence vitale : la mortalité est élevée sans traitement rapide.",
+   "resume": "Paludisme (presque toujours à P. falciparum) avec au moins un critère de gravité OMS ou une défaillance d'organe. Urgence vitale : la mortalité dépasse 10 à 20 % et la plupart des décès surviennent dans les 24 premières heures. Le traitement repose sur l'artésunate injectable, à débuter immédiatement, et sur la correction des complications.",
    "signes": [
-    "Troubles de conscience, coma, convulsions répétées, prostration",
-    "Détresse respiratoire (acidose, OAP)",
-    "Anémie sévère (Hb < 5 g/dl chez l'enfant, < 7 chez l'adulte)",
-    "Hypoglycémie (< 0,4 g/l)",
-    "Ictère, hémoglobinurie (urines coca), insuffisance rénale",
-    "Choc, saignements anormaux"
+    "Troubles de la conscience (Glasgow < 11 chez l'adulte, Blantyre < 3 chez l'enfant), coma",
+    "Prostration : incapable de s'asseoir, de se tenir debout ou de téter",
+    "Plus de 2 convulsions en 24 h",
+    "Détresse respiratoire : respiration profonde (acidose), polypnée, OAP",
+    "Anémie sévère : Hb ≤ 5 g/dl chez l'enfant, ≤ 7 g/dl chez l'adulte",
+    "Hypoglycémie < 40 mg/dl (2,2 mmol/l)",
+    "Ictère, urines coca (hémoglobinurie), oligurie ou anurie",
+    "Choc : PA systolique < 80 mmHg chez l'adulte, < 70 mmHg chez l'enfant, extrémités froides",
+    "Saignements (nez, gencives, points de ponction, hématémèse)",
+    "Femme enceinte : risque accru d'hypoglycémie, d'OAP, de fausse couche et de mort fœtale"
    ],
    "diagnostic": [
-    "TDR ou goutte épaisse (ne pas retarder le traitement)",
-    "Glycémie capillaire systématique",
-    "Hémoglobine, groupe sanguin si anémie",
-    "Rechercher une méningite (ponction lombaire si possible) en cas de coma ou convulsions"
+    "TDR ou goutte épaisse ; ne jamais retarder l'artésunate pour attendre le résultat si la clinique est évocatrice",
+    "Glycémie capillaire à l'arrivée puis toutes les 4 h (toutes les heures si coma)",
+    "Hémoglobine ou hématocrite, groupe sanguin et compatibilité",
+    "Créatinine, bilirubine, lactates et bicarbonates si disponibles ; parasitémie > 10 % = critère de gravité",
+    "Ponction lombaire dès que l'état le permet devant un coma ou des convulsions (méningite associée) ; sinon traiter aussi la méningite",
+    "Hémocultures si disponibles ; SpO₂ ; test de grossesse chez la femme jeune",
+    "Diagnostics différentiels : méningite, sepsis, encéphalite, typhoïde, hypoglycémie d'autre cause"
    ],
    "traitement": [
-    "Artésunate IV ou IM : 2,4 mg/kg (3 mg/kg si < 20 kg) à H0, H12, H24 puis 1 fois par jour ; à défaut quinine IV",
-    "Pré-transfert (si injection impossible) : artésunate rectal",
-    "Corriger l'hypoglycémie : glucose 10 %",
-    "Transfusion si anémie sévère mal tolérée",
-    "Convulsions : diazépam ou midazolam",
-    "Paracétamol, prise en charge du coma (position latérale, aspiration)",
-    "Relais par une CTA complète de 3 jours dès que la voie orale est possible",
-    "Surveiller l'Hb jusqu'à J30 (hémolyse retardée)",
-    "Artésunate : reconstituer avec la solution de bicarbonate fournie, puis diluer ; IM dans la face antérieure de la cuisse si pas de voie veineuse",
-    "Quinine si l'artésunate est indisponible : dose de charge 20 mg/kg en 4 h (sauf quinine ou méfloquine dans les 24 h), puis 10 mg/kg toutes les 8 h, en perfusion dans du glucosé 5 % ou 10 % (risque d'hypoglycémie)",
-    "Surveillance : conscience (Glasgow ou Blantyre), glycémie toutes les 4 h, diurèse, fréquence respiratoire, hémoglobine ; éviter la surcharge hydrique",
-    "Rechercher et traiter une infection bactérienne associée (ceftriaxone chez l'enfant en choc ou comateux selon le protocole)"
+    "Artésunate IV (ou IM dans la face antérieure de la cuisse) : 2,4 mg/kg (3 mg/kg chez l'enfant de moins de 20 kg) à H0, H12 et H24, puis une fois par jour jusqu'à ce que la voie orale soit possible ; au moins 24 h (3 doses)",
+    "Préparation : dissoudre la poudre dans le bicarbonate fourni, puis diluer dans du sérum physiologique ou du glucosé 5 % (IV : 10 mg/ml ; IM : 20 mg/ml) ; utiliser dans l'heure",
+    "À défaut d'artésunate : artéméther IM 3,2 mg/kg à J1 puis 1,6 mg/kg par jour ; en dernier recours quinine : dose de charge 20 mg/kg en 4 h (sauf quinine ou méfloquine dans les 24 h), puis 10 mg/kg toutes les 8 h, toujours dans du glucosé",
+    "Relais obligatoire par une CTA complète de 3 jours dès que le patient mange (pas de méfloquine après un neuropaludisme)",
+    "Avant transfert, si l'injection est impossible : artésunate rectal 10 mg/kg chez l'enfant de moins de 6 ans (6 à 13 kg : 100 mg ; 14 à 19 kg : 200 mg), puis transfert sans délai pour le traitement complet",
+    "Hypoglycémie : glucose 10 % 5 ml/kg IV chez l'enfant (adulte : 50 ml de glucose 50 % dilué ou 250 ml de glucose 10 %), puis perfusion de glucosé 10 % ; contrôler 15 à 30 min après",
+    "Liquides : besoins d'entretien seulement (enfant environ 3 à 4 ml/kg/h, adulte 1 à 2 ml/kg/h) ; pas de remplissage rapide en dehors du choc (risque d'OAP et de décès)",
+    "Transfusion : enfant si Hb < 4 g/dl, ou < 6 g/dl avec détresse respiratoire, choc ou forte parasitémie (sang total 20 ml/kg ou culot 10 ml/kg) ; adulte si Hb < 7 g/dl",
+    "Convulsions : diazépam 0,5 mg/kg intrarectal ou 0,2 à 0,3 mg/kg IV, ou midazolam buccal 0,3 mg/kg ; pas de phénobarbital préventif",
+    "Enfant en coma ou en choc : antibiotique à large spectre associé (ceftriaxone 80 à 100 mg/kg par jour) car une bactériémie accompagne souvent le paludisme grave",
+    "Coma : position latérale de sécurité, aspiration, sonde gastrique, changer de position toutes les 2 h, soins des yeux et de la bouche, sonde urinaire",
+    "Insuffisance rénale (anurie malgré une hydratation correcte) : dialyse si disponible ; OAP : position assise, oxygène, furosémide",
+    "À éviter : corticoïdes, mannitol, héparine, adrénaline en routine",
+    "Surveillance : conscience, pouls, PA, FR, SpO₂ et diurèse toutes les 4 h (plus souvent au début), glycémie toutes les 4 h, hémoglobine chaque jour",
+    "Après artésunate : contrôler l'hémoglobine à J7, J14 et J28 (hémolyse retardée possible)",
+    "Après un neuropaludisme : rechercher des séquelles (vision, audition, motricité, épilepsie, troubles du comportement)"
    ],
    "gravite": [
-    "Coma, convulsions persistantes",
-    "Choc, détresse respiratoire",
-    "Anurie",
-    "Saignements → réanimation, transfert"
+    "Coma profond, convulsions répétées ou état de mal",
+    "Choc, acidose (respiration profonde), OAP",
+    "Anurie, saignements diffus",
+    "Femme enceinte, enfant malnutri ou de moins de 5 ans, patient vivant avec le VIH : mortalité plus élevée",
+    "Transfert vers un service capable de transfuser et de surveiller la glycémie"
    ],
    "prevention": [
-    "Prévention du paludisme simple (moustiquaires)",
-    "Traitement rapide de tout paludisme simple"
+    "Diagnostic et traitement rapides de tout paludisme simple",
+    "Moustiquaires imprégnées",
+    "Agents de santé communautaires formés à l'artésunate rectal",
+    "Chimioprévention après la sortie chez l'enfant hospitalisé pour anémie sévère",
+    "Vaccin antipaludique là où il est disponible"
    ],
    "medicaments": [
     "Artésunate (injectable)",
+    "Artéméther injectable (IM)",
     "Quinine",
+    "Artéméther + luméfantrine",
+    "Artésunate + amodiaquine (ASAQ)",
     "Glucose 10 %",
+    "Glucose hypertonique 30 % / 50 %",
     "Diazépam",
     "Midazolam",
     "Sang total",
     "Concentré de globules rouges (culot globulaire)",
+    "Ceftriaxone",
     "Paracétamol",
-    "Artéméther + luméfantrine",
-    "Artéméther injectable (IM)"
+    "Furosémide",
+    "Oxygène"
    ]
   },
   {
@@ -34396,36 +34424,51 @@
    "nom": "Trypanosomiase humaine africaine (maladie du sommeil)",
    "categorie": "paludisme",
    "synonymes": "maladie du sommeil, THA, trypanosomiase, tsé-tsé",
-   "resume": "Infection à Trypanosoma brucei gambiense transmise par la mouche tsé-tsé. La RDC concentre la majorité des cas mondiaux ; la prise en charge suit le PNLTHA.",
+   "resume": "Infection par Trypanosoma brucei gambiense transmise par la mouche tsé-tsé, au bord des rivières et en forêt. La RDC compte la majorité des cas mondiaux. Maladie chronique (mois ou années) : phase lymphatico-sanguine (stade 1), puis neurologique (stade 2), mortelle sans traitement. Le fexinidazole oral a simplifié la prise en charge ; tout cas est déclaré et pris en charge selon le PNLTHA.",
    "signes": [
-    "Stade 1 : fièvre intermittente, céphalées, adénopathies cervicales postérieures, prurit",
-    "Stade 2 (neurologique) : troubles du sommeil (somnolence diurne, insomnie nocturne), troubles du comportement, troubles moteurs",
-    "Évolution vers le coma et le décès sans traitement"
+    "Stade 1 : fièvre intermittente, céphalées, fatigue, prurit, ganglions cervicaux postérieurs mous et mobiles (signe de Winterbottom), hépatosplénomégalie, œdème du visage",
+    "Stade 2 : troubles du sommeil (somnolence le jour, insomnie la nuit), troubles du comportement (agressivité, apathie, hallucinations), confusion, tremblements, troubles de la marche, convulsions",
+    "Amaigrissement, aménorrhée, impuissance",
+    "Stade final : cachexie, coma, décès",
+    "Penser à la THA devant tout trouble psychiatrique ou du sommeil chez une personne d'un foyer connu"
    ],
    "diagnostic": [
-    "Dépistage sérologique (CATT, test rapide) puis confirmation parasitologique (sang, ganglion)",
-    "Ponction lombaire pour déterminer le stade (leucocytes, trypanosomes dans le LCR)"
+    "Dépistage : test rapide ou CATT (actif dans les villages, passif dans les centres de santé)",
+    "Confirmation parasitologique obligatoire : ponction de ganglion, sang (goutte épaisse, techniques de concentration mAECT ou mHCT)",
+    "Ponction lombaire (stade) si signes neurologiques ou psychiatriques, ou si le traitement envisagé l'exige : stade 2 si leucocytes > 5/µl ou trypanosomes dans le LCR ; stade 2 sévère si leucocytes > 100/µl",
+    "Rechercher aussi paludisme, VIH, tuberculose et malnutrition"
    ],
    "traitement": [
-    "Stade 1 et stade 2 non sévère : fexinidazole 10 jours (prise avec un repas)",
-    "Stade 2 sévère (leucocytes LCR > 100/µl) : NECT (nifurtimox-éflornithine)",
-    "Suivre le protocole du PNLTHA (d'autres médicaments comme l'acoziborole peuvent être déployés)",
-    "Suivi post-traitement selon le programme"
+    "Fexinidazole oral 10 jours, stade 1 et stade 2 non sévère (leucocytes du LCR < 100/µl), à partir de 6 ans et 20 kg : 35 kg et plus : 1 800 mg par jour les jours 1 à 4 puis 1 200 mg les jours 5 à 10 ; 20 à 34 kg : 1 200 mg puis 600 mg",
+    "Fexinidazole : à prendre dans les 30 min après le repas principal, sous observation directe ; redonner la dose si vomissement dans les 30 min ; hospitaliser ou suivre de près (troubles psychiatriques, vomissements)",
+    "Stade 2 sévère (leucocytes > 100/µl), enfant de moins de 6 ans ou de moins de 20 kg au stade 2, et échec du fexinidazole : NECT ; nifurtimox 15 mg/kg par jour oral en 3 prises pendant 10 jours + éflornithine 400 mg/kg par jour IV en 2 perfusions de 2 h (toutes les 12 h) pendant 7 jours",
+    "Stade 1 chez l'enfant de moins de 6 ans ou de moins de 20 kg : pentamidine 4 mg/kg IM une fois par jour pendant 7 jours (patient allongé, glycémie et PA après l'injection)",
+    "Acoziborole en dose unique : selon les recommandations OMS et la disponibilité dans le programme",
+    "Traitement des troubles associés : paludisme, déparasitage, nutrition, convulsions (diazépam, phénobarbital)",
+    "Suivi : contrôle clinique ; ponction lombaire de contrôle seulement en cas de réapparition des symptômes (rechute)",
+    "Le mélarsoprol et la suramine ne concernent que la forme à T. b. rhodesiense (Afrique de l'Est), absente de RDC"
    ],
    "gravite": [
-    "Troubles neurologiques sévères, coma",
-    "Dénutrition sévère"
+    "Troubles neurologiques sévères, convulsions, coma",
+    "Dénutrition sévère, troubles de la déglutition",
+    "Encéphalopathie, convulsions ou troubles psychiatriques aigus sous traitement",
+    "Femme enceinte : traiter (fexinidazole ou pentamidine selon le stade, avis du programme)"
    ],
    "prevention": [
-    "Dépistage actif dans les foyers",
-    "Lutte antivectorielle (pièges à tsé-tsé)"
+    "Dépistage actif de la population dans les foyers et traitement de tous les cas (réservoir humain)",
+    "Pièges et écrans imprégnés contre les tsé-tsé (« tiny targets »)",
+    "Vêtements couvrants, éviter les bords de rivières aux heures d'activité de la mouche",
+    "Dépistage des membres de la famille d'un cas"
    ],
    "medicaments": [
     "Fexinidazole",
+    "Nifurtimox + éflornithine (NECT)",
     "Pentamidine",
     "Suramine",
     "Mélarsoprol",
-    "Nifurtimox + éflornithine (NECT)"
+    "Diazépam",
+    "Phénobarbital",
+    "Albendazole"
    ]
   },
   {
@@ -34433,35 +34476,55 @@
    "nom": "Schistosomiase (bilharziose)",
    "categorie": "paludisme",
    "synonymes": "bilharziose, schistosomiase, sang dans les urines",
-   "resume": "Infection par des vers (Schistosoma) contractée lors de contacts avec l'eau douce contaminée. En RDC : formes intestinale (S. mansoni) et urinaire (S. haematobium).",
+   "resume": "Infection par des vers (Schistosoma) dont les larves traversent la peau lors du contact avec l'eau douce (baignade, lessive, pêche, rizières). En RDC : forme intestinale et hépatique (S. mansoni, la plus répandue), forme urinaire et génitale (S. haematobium, surtout dans le sud-est et le Katanga), S. intercalatum. Les enfants d'âge scolaire sont les plus atteints ; les complications chroniques (fibrose du foie, vessie, organes génitaux) sont évitables par le traitement précoce.",
    "signes": [
-    "Forme urinaire : hématurie terminale, brûlures mictionnelles",
-    "Forme intestinale : douleurs abdominales, diarrhée parfois sanglante, hépatosplénomégalie",
-    "Complications tardives : hypertension portale, hématémèse, atteinte rénale, cancer de la vessie"
+    "Phase d'invasion : prurit après la baignade (dermatite) ; fièvre de Katayama 3 à 8 semaines après : fièvre, urticaire, toux, diarrhée, éosinophilie",
+    "Forme urinaire : hématurie terminale, brûlures, envies fréquentes ; plus tard rétrécissement de l'uretère, hydronéphrose, insuffisance rénale, cancer de la vessie",
+    "Forme génitale de la femme : pertes, saignements après les rapports, douleurs pelviennes, infertilité ; lésions du col (« grains de sable ») qui facilitent l'infection par le VIH",
+    "Forme génitale de l'homme : hémospermie, douleur testiculaire",
+    "Forme intestinale : douleurs abdominales, diarrhée parfois sanglante, anémie ; forme hépatosplénique : gros foie gauche dur, grosse rate, ascite tardive, hématémèse par varices (sans ictère)",
+    "Retard de croissance et anémie chez l'enfant",
+    "Rarement : atteinte de la moelle épinière (paraplégie brutale)"
    ],
    "diagnostic": [
-    "Œufs dans les urines (filtration) ou les selles",
-    "Bandelette urinaire (hématurie) en zone d'endémie",
-    "Échographie : paroi vésicale épaissie, fibrose périportale du foie"
+    "Forme urinaire : bandelette (hématurie), filtration des urines de fin de matinée (œufs à éperon terminal)",
+    "Forme intestinale : selles (Kato-Katz, 2 à 3 échantillons) ; test urinaire CCA rapide pour S. mansoni si disponible",
+    "NFS : éosinophilie, anémie",
+    "Échographie : paroi vésicale épaissie, polypes, hydronéphrose ; fibrose périportale (« en tuyau de pipe »), grosse rate, signes d'hypertension portale",
+    "Femme : examen du col au spéculum si symptômes génitaux",
+    "Créatinine si hydronéphrose"
    ],
    "traitement": [
-    "Praziquantel 40 mg/kg en dose unique (ou en 2 prises le même jour), au cours d'un repas, chez l'adulte et l'enfant ; la femme enceinte et allaitante peut être traitée (OMS)",
-    "Jeune enfant (3 mois à 6 ans) : arpraziquantel pédiatrique si disponible",
-    "Contrôler les œufs 1 à 2 mois après si les symptômes persistent ; retraiter si nécessaire",
-    "Traitement de masse selon le programme national"
+    "Praziquantel 40 mg/kg en dose unique (ou en 2 prises à 4 h d'intervalle le même jour), avec de la nourriture, chez l'adulte et l'enfant à partir de 2 ans ; femme enceinte (après le 1er trimestre en traitement de masse) et allaitante : traiter",
+    "Enfant de 3 mois à 6 ans : arpraziquantel pédiatrique 50 mg/kg en dose unique si disponible ; sinon praziquantel écrasé",
+    "Effets indésirables fréquents et bénins (douleurs abdominales, nausées, vertiges, urticaire), plus marqués si forte infestation : prévenir et prendre avec un repas",
+    "Fièvre de Katayama : praziquantel, à répéter 6 à 8 semaines plus tard (inefficace sur les formes jeunes) ; prednisolone 0,5 à 1 mg/kg par jour quelques jours si symptômes marqués",
+    "Atteinte de la moelle épinière : praziquantel + prednisolone 1 mg/kg par jour (puis décroissance) en urgence",
+    "Hypertension portale : propranolol pour prévenir les hémorragies ; hématémèse : réanimation, transfusion, ligature endoscopique des varices si disponible",
+    "Hydronéphrose, sténoses : avis urologique ; anémie : fer",
+    "Contrôle 1 à 2 mois après le traitement si les symptômes persistent (examen des urines ou des selles) ; retraiter si des œufs sont encore présents",
+    "Traitement de masse (programme national) : praziquantel à tous les enfants d'âge scolaire, et aux adultes exposés dans les zones de forte endémie"
    ],
    "gravite": [
-    "Hématémèse (varices œsophagiennes)",
-    "Rétention urinaire, insuffisance rénale"
+    "Hématémèse (rupture de varices œsophagiennes)",
+    "Hématurie abondante avec caillots, rétention d'urine, insuffisance rénale",
+    "Paraplégie brutale (myélite à schistosomes) : urgence",
+    "Signes génitaux chez la femme jeune (infertilité, VIH)"
    ],
    "prevention": [
-    "Éviter les baignades en eau stagnante",
-    "Latrines, eau potable",
-    "Traitement de masse des enfants d'âge scolaire"
+    "Éviter le contact avec les eaux stagnantes ou lentes (baignade, lessive) ; points d'eau protégés",
+    "Latrines (ne pas uriner ni déféquer dans l'eau)",
+    "Traitement de masse régulier par praziquantel",
+    "Lutte contre les mollusques hôtes intermédiaires",
+    "Éducation des enfants"
    ],
    "medicaments": [
     "Praziquantel",
-    "Oxamniquine"
+    "Oxamniquine",
+    "Prednisolone",
+    "Propranolol",
+    "Sulfate ferreux",
+    "Fer + acide folique"
    ]
   },
   {
@@ -34469,39 +34532,54 @@
    "nom": "Géohelminthiases (vers intestinaux)",
    "categorie": "paludisme",
    "synonymes": "vers, verminose, ascaris, ankylostome, oxyure, anguillule",
-   "resume": "Infections par les vers transmis par le sol : ascaris, ankylostomes, trichocéphales, ainsi que oxyures et anguillules. Cause fréquente d'anémie et de retard de croissance.",
+   "resume": "Infections par les vers transmis par le sol contaminé par les selles : ascaris, ankylostomes, trichocéphales, ainsi qu'oxyures et anguillules. Très fréquentes chez l'enfant en RDC, elles causent anémie, malnutrition, retard de croissance et baisse des performances scolaires. L'anguillulose peut devenir mortelle chez la personne immunodéprimée ou sous corticoïdes.",
    "signes": [
-    "Douleurs abdominales, troubles digestifs",
-    "Anémie (ankylostomes), retard de croissance",
-    "Prurit anal (oxyures)",
-    "Rejet de vers",
-    "Anguillulose : diarrhée, éruption serpigineuse ; forme grave chez l'immunodéprimé ou sous corticoïdes"
+    "Souvent peu de symptômes ; douleurs abdominales, nausées, ballonnement, diarrhée, appétit perturbé",
+    "Ascaris : rejet de vers ronds par la bouche ou l'anus ; toux et sifflements au passage pulmonaire (syndrome de Löffler) ; occlusion, angiocholite ou pancréatite par paquet de vers",
+    "Ankylostome : anémie ferriprive (pâleur, fatigue, essoufflement), œdèmes par perte de protéines ; démangeaisons au point de pénétration (pieds)",
+    "Trichocéphale : diarrhée glairo-sanglante chronique, prolapsus rectal chez l'enfant fortement infesté",
+    "Oxyure : démangeaisons anales nocturnes, vulvite chez la fillette, insomnie",
+    "Anguillule : diarrhée chronique, urticaire, éruption serpigineuse rapide (larva currens) ; forme disséminée sous corticoïdes ou avec HTLV-1 : sepsis à Gram négatif, méningite, détresse respiratoire"
    ],
    "diagnostic": [
-    "Examen des selles si disponible",
-    "Traitement présomptif en zone d'endémie"
+    "Traitement présomptif possible en zone d'endémie sans examen",
+    "Examen des selles (Kato-Katz, examen direct) ; scotch-test anal le matin pour les oxyures",
+    "Anguillule : techniques spéciales (Baermann, culture), éosinophilie ; à rechercher avant une corticothérapie prolongée ou une chimiothérapie",
+    "NFS : anémie microcytaire, éosinophilie",
+    "Occlusion : radiographie (niveaux, paquet de vers), échographie"
    ],
    "traitement": [
-    "Albendazole 400 mg en dose unique (200 mg de 12 à 23 mois) ou mébendazole 500 mg en dose unique",
-    "Oxyurose : renouveler après 2 à 4 semaines, traiter toute la famille",
-    "Anguillulose : ivermectine 200 µg/kg (ou albendazole 3 jours)",
-    "Traiter l'anémie (fer)"
+    "Albendazole 400 mg en dose unique (200 mg de 12 à 23 mois), ou mébendazole 500 mg en dose unique dès 1 an ; à mâcher ou écraser chez l'enfant",
+    "Trichocéphalose importante : albendazole 400 mg par jour pendant 3 jours (ou mébendazole 100 mg 2 fois par jour pendant 3 jours) ; l'association albendazole + ivermectine est plus efficace",
+    "Oxyurose : albendazole 400 mg (ou mébendazole 100 mg), à répéter 2 semaines plus tard ; traiter toute la famille le même jour, ongles courts, lavage des mains et du linge",
+    "Anguillulose : ivermectine 200 µg/kg en dose unique (2 jours de suite si possible) ; à défaut albendazole 400 mg 2 fois par jour pendant 7 jours",
+    "Anguillulose disséminée : ivermectine 200 µg/kg par jour jusqu'à 2 semaines après la négativation des selles, arrêt ou réduction des corticoïdes, antibiotique contre les entérobactéries (ceftriaxone)",
+    "Avant des corticoïdes prolongés chez une personne ayant vécu en zone d'endémie : ivermectine préventive",
+    "Occlusion par ascaris sans signe de péritonite : sonde gastrique, perfusion, à jeun ; antihelminthique après la levée de l'occlusion ; chirurgie si échec ou péritonite",
+    "Anémie : sulfate ferreux 3 mois (fer + acide folique chez la femme enceinte) ; prise en charge nutritionnelle",
+    "Femme enceinte : déparasitage possible après le 1er trimestre (albendazole ou mébendazole), pas d'ivermectine"
    ],
    "gravite": [
-    "Occlusion intestinale par ascaris → chirurgie",
-    "Anguillulose disséminée (immunodéprimé)"
+    "Occlusion intestinale, vomissements de vers, ictère ou douleur biliaire (migration dans les voies biliaires)",
+    "Anémie sévère (ankylostome), insuffisance cardiaque",
+    "Anguillulose disséminée : fièvre, choc, méningite chez un patient sous corticoïdes ou immunodéprimé (mortalité élevée)",
+    "Prolapsus rectal"
    ],
    "prevention": [
-    "Lavage des mains, port de chaussures, latrines",
-    "Déparasitage tous les 6 mois des enfants (selon programme)"
+    "Latrines et usage systématique, lavage des mains au savon avant de manger et après les toilettes",
+    "Port de chaussures",
+    "Laver les légumes, couper les ongles",
+    "Déparasitage préventif tous les 6 mois des enfants de 1 à 14 ans et des femmes enceintes après le 1er trimestre (programme national, campagnes avec la vitamine A)"
    ],
    "medicaments": [
     "Albendazole",
     "Mébendazole",
     "Ivermectine",
-    "Fer + acide folique",
     "Pyrantel",
-    "Lévamisole"
+    "Lévamisole",
+    "Sulfate ferreux",
+    "Fer + acide folique",
+    "Ceftriaxone"
    ]
   },
   {
@@ -34914,37 +34992,50 @@
    "nom": "Amibiase",
    "categorie": "paludisme",
    "synonymes": "amibe, dysenterie amibienne, abcès du foie",
-   "resume": "Infection par Entamoeba histolytica, responsable de dysenterie et parfois d'abcès du foie.",
+   "resume": "Infection par Entamoeba histolytica, transmise par l'eau et les aliments souillés. Le plus souvent asymptomatique (porteurs de kystes) ; elle peut causer une dysenterie amibienne et, chez l'adulte jeune surtout, un abcès du foie. Chez l'enfant, une dysenterie est le plus souvent due à Shigella : l'amibiase n'est traitée en première intention que si des formes hématophages sont vues ou après échec du traitement de la shigellose.",
    "signes": [
-    "Dysenterie peu ou pas fébrile, douleurs abdominales",
-    "Selles glairo-sanglantes, ténesme, état général souvent conservé",
-    "Abcès : altération de l'état général, épanchement pleural droit possible",
-    "Abcès amibien du foie : fièvre, douleur de l'hypocondre droit, hépatomégalie douloureuse"
+    "Colite amibienne : début progressif, selles glairo-sanglantes fréquentes, douleurs abdominales, ténesme, peu ou pas de fièvre, état général conservé",
+    "Formes graves : colite fulminante (fièvre, ventre distendu, déshydratation), amoebome (masse), perforation",
+    "Abcès du foie : fièvre, douleur de l'hypochondre droit irradiant à l'épaule, hépatomégalie très douloureuse à l'ébranlement, altération de l'état général ; la diarrhée est souvent absente au moment de l'abcès",
+    "Toux, épanchement pleural droit ; frottement péricardique (abcès du lobe gauche)"
    ],
    "diagnostic": [
-    "Examen des selles (formes hématophages)",
-    "Échographie si abcès suspecté",
-    "NFS (hyperleucocytose en cas d'abcès)",
-    "Sérologie amibienne si disponible"
+    "Selles fraîches examinées dans l'heure : formes hématophages d'E. histolytica (les kystes seuls ne prouvent pas la maladie)",
+    "Abcès : échographie (lésion hypoéchogène, souvent unique, du lobe droit) ; NFS (hyperleucocytose), CRP ; sérologie amibienne très sensible si disponible",
+    "Distinguer de l'abcès à pyogènes (sujet âgé, diabétique, lithiase biliaire, abcès multiples) et du carcinome hépatocellulaire",
+    "Dysenterie fébrile de l'enfant : penser d'abord à la shigellose"
    ],
    "traitement": [
-    "Métronidazole : adulte 500 mg 3 fois par jour, enfant 10 à 15 mg/kg 3 fois par jour ; 5 jours (colite), 7 à 10 jours (abcès du foie)",
-    "Ensuite, si disponible : amœbicide de contact (diloxanide furoate 500 mg 3 fois par jour pendant 10 jours) pour éliminer les kystes",
-    "Réhydratation",
-    "Ponction-drainage écho-guidée si abcès volumineux (> 5 à 10 cm), du lobe gauche ou sans amélioration après 72 h"
+    "Colite : métronidazole 500 mg 3 fois par jour (enfant 10 à 15 mg/kg 3 fois par jour) pendant 5 à 7 jours ; ou tinidazole 2 g par jour (enfant 50 mg/kg, maximum 2 g) pendant 3 jours",
+    "Abcès du foie : métronidazole 750 mg 3 fois par jour (enfant 15 mg/kg 3 fois par jour) pendant 7 à 10 jours (IV si vomissements), ou tinidazole 2 g par jour pendant 5 jours ; amélioration attendue en 72 h",
+    "Puis amœbicide de contact pour éliminer les kystes : paromomycine 25 à 35 mg/kg par jour en 3 prises pendant 7 jours, ou diloxanide furoate 500 mg 3 fois par jour (enfant 7 mg/kg 3 fois par jour) pendant 10 jours",
+    "Porteur asymptomatique de kystes d'E. histolytica : amœbicide de contact seul",
+    "Ponction-aspiration échoguidée de l'abcès si : diamètre > 5 à 10 cm, lobe gauche (risque de rupture dans le péricarde), absence d'amélioration après 3 à 5 jours, doute avec un abcès à pyogènes",
+    "Doute avec un abcès à pyogènes : ajouter ceftriaxone + métronidazole en attendant",
+    "Réhydratation (SRO ou perfusion), paracétamol ; pas de lopéramide ni d'antispasmodique dans une dysenterie",
+    "Éviter l'alcool pendant le métronidazole et 48 h après (effet antabuse)",
+    "Surveillance de l'abcès : fièvre et douleur en 3 à 5 jours ; l'image échographique peut persister des mois sans signifier un échec"
    ],
    "gravite": [
-    "Abcès du foie menaçant de se rompre",
-    "Péritonite"
+    "Colite fulminante, mégacôlon toxique, perforation intestinale, péritonite : chirurgie",
+    "Abcès volumineux ou du lobe gauche, rupture dans la plèvre, le péricarde (tamponnade) ou le péritoine",
+    "Déshydratation, choc"
    ],
    "prevention": [
-    "Hygiène de l'eau et des aliments, lavage des mains"
+    "Eau de boisson traitée (ébullition, chloration, filtration)",
+    "Lavage des mains au savon, latrines",
+    "Laver les fruits et légumes, cuire les aliments",
+    "Traiter les porteurs de kystes travaillant dans l'alimentation"
    ],
    "medicaments": [
     "Métronidazole",
-    "Sels de réhydratation orale (SRO)",
+    "Tinidazole",
+    "Paromomycine",
     "Diloxanide (furoate)",
-    "Tinidazole"
+    "Ceftriaxone",
+    "Sels de réhydratation orale (SRO)",
+    "Ringer lactate",
+    "Paracétamol"
    ]
   },
   {
@@ -36902,39 +36993,53 @@
    "nom": "Leishmaniose viscérale (kala-azar)",
    "categorie": "paludisme",
    "synonymes": "leishmaniose, kala-azar",
-   "resume": "Infection parasitaire (Leishmania) transmise par les phlébotomes, mortelle sans traitement. Rare en RDC, fréquente dans d'autres pays d'Afrique de l'Est.",
+   "resume": "Infection parasitaire (Leishmania donovani en Afrique de l'Est) transmise par les phlébotomes, qui atteint la rate, le foie et la moelle osseuse. Mortelle sans traitement. Rare en RDC mais fréquente au Soudan du Sud, au Soudan, en Éthiopie, au Kenya et en Ouganda : à évoquer chez les personnes venant de ces régions. La co-infection par le VIH aggrave le pronostic et favorise les rechutes.",
    "signes": [
-    "Fièvre prolongée (> 2 semaines)",
-    "Splénomégalie importante, hépatomégalie",
-    "Amaigrissement, pâleur (anémie)",
-    "Adénopathies, saignements"
+    "Fièvre prolongée (plus de 2 semaines), irrégulière, parfois 2 pics par jour",
+    "Grosse rate (souvent énorme), foie augmenté",
+    "Amaigrissement, fonte musculaire, pâleur (anémie), cheveux décolorés chez l'enfant",
+    "Ganglions, peau grisâtre",
+    "Saignements (nez, gencives), infections répétées (pneumonie, diarrhée, tuberculose)",
+    "Leishmaniose dermique post-kala-azar (PKDL) : éruption de macules ou nodules du visage des mois après le traitement"
    ],
    "diagnostic": [
-    "Test rapide rK39 ou examen parasitologique (rate, moelle, ganglion)",
-    "Dépistage du VIH",
-    "Éliminer paludisme, tuberculose, schistosomiase"
+    "Test rapide rK39 (sang) chez un patient avec fièvre et grosse rate depuis plus de 2 semaines ; moins fiable en cas de VIH et en rechute",
+    "Parasitologie : ponction de ganglion, de moelle osseuse ou de rate (la plus sensible, mais risque hémorragique : plaquettes > 40 000 et TP correct)",
+    "NFS : pancytopénie ; protéines élevées",
+    "Test VIH systématique ; rechercher paludisme, tuberculose, schistosomiase hépatosplénique, lymphome",
+    "Évaluer l'état nutritionnel, l'hémoglobine, la fonction rénale et hépatique, l'ECG avant antimoniés"
    ],
    "traitement": [
-    "Selon le protocole régional : antimoniate de méglumine (ou stibogluconate) + paromomycine 17 jours, ou antimoniate seul 30 jours",
-    "Amphotéricine B liposomale (femme enceinte, VIH+, forme grave) ; miltéfosine selon le protocole",
-    "Traiter la malnutrition, l'anémie, les infections associées"
+    "Afrique de l'Est, 1re intention (OMS 2022) : miltéfosine (selon le poids, en 2 prises par jour) + paromomycine 20 mg/kg par jour IM pendant 14 jours ; ou stibogluconate de sodium (ou antimoniate de méglumine) 20 mg Sb⁵⁺/kg par jour + paromomycine 15 mg/kg par jour IM pendant 17 jours",
+    "Amphotéricine B liposomale (dose totale de l'ordre de 20 à 30 mg/kg, par exemple 3 à 5 mg/kg par perfusion) : femme enceinte, enfant de moins de 2 ans, plus de 50 ans, forme grave, échec ou rechute",
+    "Co-infection VIH : amphotéricine B liposomale (dose totale 30 mg/kg) + miltéfosine 28 jours, ARV, puis prophylaxie secondaire selon le protocole",
+    "Antimoniés : surveiller l'ECG (allongement du QT, arythmies), les enzymes pancréatiques, les transaminases et la créatinine ; contre-indiqués pendant la grossesse",
+    "Miltéfosine : tératogène ; test de grossesse avant, contraception efficace pendant le traitement et 5 mois après ; troubles digestifs fréquents",
+    "Traitement de soutien : nutrition (F-75, F-100, ATPE selon l'âge), acide folique, transfusion si anémie sévère, traitement des infections associées (paludisme, pneumonie, tuberculose)",
+    "Guérison : disparition de la fièvre, diminution de la rate, prise de poids, Hb qui remonte ; suivi à 6 mois (rechute)"
    ],
    "gravite": [
-    "Saignements, anémie sévère, ictère",
-    "Infections bactériennes associées",
-    "Malnutrition sévère"
+    "Saignements, anémie très sévère, ictère, œdèmes",
+    "Infection bactérienne grave, tuberculose",
+    "Malnutrition sévère",
+    "Âge < 2 ans ou > 45 ans, VIH, durée de maladie > 5 mois : risque élevé de décès",
+    "Toxicité des antimoniés (arythmie, pancréatite)"
    ],
    "prevention": [
-    "Moustiquaires imprégnées, lutte contre les phlébotomes"
+    "Moustiquaires imprégnées (phlébotomes, à mailles fines), répulsifs",
+    "Pulvérisations intradomiciliaires",
+    "Dépistage et traitement précoce des cas (réservoir humain en Afrique de l'Est)"
    ],
    "medicaments": [
+    "Miltéfosine",
+    "Paromomycine",
+    "Stibogluconate de sodium",
     "Antimoniate de méglumine",
     "Amphotéricine B",
-    "Miltéfosine",
     "Concentré de globules rouges (culot globulaire)",
     "Acide folique",
-    "Stibogluconate de sodium",
-    "Paromomycine"
+    "Lait thérapeutique F-75",
+    "Aliment thérapeutique prêt à l'emploi (ATPE)"
    ]
   },
   {
@@ -36942,35 +37047,52 @@
    "nom": "Filarioses (loase, onchocercose, filariose lymphatique)",
    "categorie": "paludisme",
    "synonymes": "filariose, loase, Loa loa, ver de l'œil, onchocercose, cécité des rivières, éléphantiasis, hydrocèle",
-   "resume": "Infections par des vers filaires transmises par des insectes. En RDC coexistent la loase, l'onchocercose et la filariose lymphatique, ce qui complique le traitement.",
+   "resume": "Infections par des vers filaires transmis par des insectes : loase (Loa loa, taon Chrysops, forêts), onchocercose (Onchocerca volvulus, simulie, bords de rivières rapides), filariose lymphatique (Wuchereria bancrofti, moustiques). En RDC, ces filarioses coexistent : une forte microfilarémie à Loa loa expose à une encéphalopathie grave sous ivermectine ou diéthylcarbamazine, ce qui impose de connaître la charge en Loa avant tout traitement individuel.",
    "signes": [
-    "Loase : œdèmes migrateurs (de Calabar), ver visible sous la conjonctive",
-    "Onchocercose : prurit intense, lésions cutanées, nodules, atteinte oculaire (cécité)",
-    "Filariose lymphatique : lymphœdème, éléphantiasis, hydrocèle"
+    "Loase : œdèmes migrateurs et prurigineux des membres (œdème de Calabar), passage du ver adulte sous la conjonctive (ver de l'œil), prurit, éosinophilie très élevée",
+    "Onchocercose : prurit intense, papules, peau épaissie, dépigmentée (« peau de léopard ») ou ridée, nodules indolores sur les os (hanches, côtes, tête) ; atteinte oculaire : kératite, cécité ; épilepsie associée en zone de forte transmission (syndrome du hochement de tête)",
+    "Filariose lymphatique : accès de lymphangite fébrile, lymphœdème puis éléphantiasis des jambes, des bras, des seins ou du scrotum ; hydrocèle ; urines laiteuses (chylurie)",
+    "Éosinophilie pulmonaire tropicale : toux nocturne, sifflements, éosinophilie très élevée"
    ],
    "diagnostic": [
-    "Frottis sanguin (microfilarémie de Loa loa, prélevé entre 10 h et 15 h)",
-    "Biopsie cutanée (onchocercose)",
-    "Le niveau de microfilarémie Loa loa conditionne le traitement"
+    "Loa loa : goutte épaisse ou frottis sur sang prélevé entre 10 h et 15 h, avec comptage de la microfilarémie (par ml)",
+    "Onchocercose : biopsie cutanée exsangue (« snip »), examen à la lampe à fente ; test au patch de DEC (réservé aux spécialistes)",
+    "Filariose lymphatique : test rapide d'antigène (FTS) ou sang nocturne (22 h à 2 h) ; échographie du scrotum (« danse des filaires »)",
+    "NFS : éosinophilie",
+    "Avant tout traitement individuel en zone de loase : microfilarémie Loa loa (seuils de risque d'encéphalopathie : > 8 000/ml pour la DEC, > 30 000/ml pour l'ivermectine)"
    ],
    "traitement": [
-    "Onchocercose : ivermectine 150 µg/kg 1 à 2 fois par an (après exclusion d'une forte microfilarémie Loa loa)",
-    "Filariose lymphatique : ivermectine + albendazole (traitement de masse) ; soins d'hygiène du lymphœdème, chirurgie de l'hydrocèle",
-    "Loase : avis spécialisé (risque d'encéphalopathie avec ivermectine ou DEC si microfilarémie élevée)",
-    "Ne pas utiliser la DEC en zone d'onchocercose"
+    "Onchocercose : ivermectine 150 µg/kg en dose unique, à répéter tous les 6 à 12 mois (n'agit que sur les microfilaires) ; si Loa loa > 30 000/ml : ne pas donner d'ivermectine",
+    "Doxycycline 100 à 200 mg par jour pendant 4 à 6 semaines (adulte et enfant de plus de 8 ans, hors grossesse) : tue les bactéries Wolbachia et stérilise ou tue les vers adultes de l'onchocercose et de W. bancrofti ; sans danger en cas de loase",
+    "Moxidectine 8 mg en dose unique (à partir de 12 ans) : alternative plus durable à l'ivermectine dans l'onchocercose, selon la disponibilité",
+    "Loase symptomatique : microfilarémie < 8 000/ml : diéthylcarbamazine à doses progressives jusqu'à 8 à 10 mg/kg par jour en 3 prises pendant 21 jours, sous surveillance ; microfilarémie plus élevée : albendazole 200 mg 2 fois par jour pendant 21 jours pour réduire lentement la charge, avis spécialisé avant tout autre traitement",
+    "Ver de l'œil : extraction chirurgicale sous anesthésie locale",
+    "Filariose lymphatique : traitement de masse annuel ; en zone de loase, albendazole 400 mg 2 fois par an ; ivermectine + albendazole là où coexiste l'onchocercose ; jamais de DEC en zone d'onchocercose",
+    "Lymphœdème : lavage quotidien à l'eau et au savon, séchage entre les orteils, soins des plaies, crème antifongique, surélévation, exercice, chaussures ; accès inflammatoire : repos, paracétamol, antibiotique (amoxicilline ou cloxacilline)",
+    "Hydrocèle : cure chirurgicale",
+    "Nodules d'onchocercose de la tête : exérèse (proches des yeux)",
+    "Encéphalopathie après traitement : hospitalisation, soins de nursing, corticoïdes discutés"
    ],
    "gravite": [
-    "Troubles neurologiques après ivermectine chez un patient avec loase (encéphalopathie) → urgence",
-    "Atteinte oculaire"
+    "Troubles de la conscience, fièvre, saignements de la conjonctive dans les jours suivant l'ivermectine ou la DEC chez un porteur de Loa loa : encéphalopathie, urgence",
+    "Baisse de la vision (onchocercose)",
+    "Accès de lymphangite avec fièvre élevée, plaies surinfectées du lymphœdème",
+    "Hydrocèle volumineux"
    ],
    "prevention": [
-    "Traitements de masse (programme national), protection contre les piqûres"
+    "Traitement de masse sous ivermectine dirigé par la communauté (programme national), avec dépistage de la loase là où elle est fréquente",
+    "Vêtements longs, répulsifs, moustiquaires imprégnées",
+    "Lutte contre les simulies (larvicides dans les rivières)"
    ],
    "medicaments": [
     "Ivermectine",
     "Albendazole",
+    "Doxycycline",
     "Diéthylcarbamazine (DEC)",
-    "Doxycycline"
+    "Paracétamol",
+    "Amoxicilline",
+    "Cloxacilline",
+    "Clotrimazole"
    ]
   },
   {
@@ -38994,29 +39116,46 @@
    "nom": "Neurocysticercose (ténia du porc)",
    "categorie": "paludisme",
    "synonymes": "cysticercose, neurocysticercose, ténia, ver solitaire",
-   "resume": "Infection du cerveau par les larves du ténia du porc (Taenia solium), première cause d'épilepsie acquise dans les zones d'élevage de porcs en divagation.",
+   "resume": "Infection du système nerveux par les larves (cysticerques) du ténia du porc (Taenia solium), acquise en avalant des œufs éliminés par un porteur du ver (mains sales, eau, légumes). Première cause d'épilepsie acquise dans les régions d'élevage de porcs en divagation, dont plusieurs provinces de RDC. Le traitement dépend du nombre, du stade et de la localisation des kystes ; un antiparasitaire mal indiqué peut aggraver l'inflammation cérébrale.",
    "signes": [
-    "Convulsions (souvent révélatrices)",
-    "Céphalées, signes d'hypertension intracrânienne",
-    "Nodules sous la peau",
-    "Taeniasis intestinal : anneaux dans les selles"
+    "Convulsions, souvent focales ou secondairement généralisées, chez un adolescent ou un adulte jusque-là sans épilepsie",
+    "Céphalées chroniques",
+    "Hypertension intracrânienne : céphalées, vomissements, troubles visuels, œdème papillaire (kystes ventriculaires, hydrocéphalie)",
+    "Signes déficitaires, troubles cognitifs ou psychiatriques",
+    "Nodules sous la peau ou dans les muscles",
+    "Kyste oculaire : baisse de vision",
+    "Encéphalite cysticerquienne (nombreux kystes chez l'enfant ou la jeune femme) : troubles de conscience, convulsions répétées"
    ],
    "diagnostic": [
-    "Scanner ou IRM cérébrale si disponible (kystes, calcifications)",
-    "Examen du fond d'œil (kystes oculaires, à exclure avant traitement)"
+    "Scanner ou IRM cérébrale si disponible : kystes avec scolex, kystes en dégénérescence (prise de contraste annulaire), calcifications ; hydrocéphalie",
+    "Sérologie (EITB) si disponible ; NFS",
+    "Fond d'œil avant tout traitement antiparasitaire (kystes oculaires, œdème papillaire)",
+    "Rechercher un porteur de ténia dans le foyer (examen des selles, anneaux)",
+    "Différentiel : tuberculome, toxoplasmose (VIH), abcès, tumeur"
    ],
    "traitement": [
-    "Traiter les convulsions (antiépileptique)",
-    "Kystes viables peu nombreux : albendazole 15 mg/kg/j pendant 10 à 14 jours (± praziquantel) TOUJOURS avec corticoïdes (dexaméthasone ou prednisolone)",
-    "Pas d'antiparasitaire si hypertension intracrânienne, encéphalite cysticerquienne ou calcifications seules",
-    "Taeniasis : praziquantel 10 mg/kg dose unique"
+    "Convulsions : antiépileptique (phénobarbital ou carbamazépine), habituellement pendant au moins 2 ans après la dernière crise ; arrêt progressif à discuter si les lésions ont disparu",
+    "Kystes viables, 1 ou 2 kystes : albendazole 15 mg/kg par jour en 2 prises (maximum 1 200 mg par jour) pendant 10 à 14 jours",
+    "Plus de 2 kystes viables : albendazole 15 mg/kg par jour + praziquantel 50 mg/kg par jour pendant 10 jours",
+    "Corticoïdes toujours associés à l'antiparasitaire, débutés avant lui : dexaméthasone 0,1 mg/kg par jour (adulte 6 à 12 mg) ou prednisolone 1 mg/kg par jour, puis décroissance",
+    "Lésion unique en dégénérescence : albendazole + corticoïdes ; calcifications seules : antiépileptique seul, pas d'antiparasitaire",
+    "Pas d'antiparasitaire en cas d'hypertension intracrânienne non contrôlée, d'encéphalite cysticerquienne ou de kyste oculaire non traité : corticoïdes, mannitol, avis neurochirurgical",
+    "Hydrocéphalie : dérivation ventriculaire (neurochirurgie) avant tout antiparasitaire",
+    "Traiter le porteur de ténia du foyer (niclosamide de préférence)",
+    "Surveillance : imagerie de contrôle à 6 mois si possible ; crises répétées : adapter l'antiépileptique"
    ],
    "gravite": [
-    "Hypertension intracrânienne, hydrocéphalie → neurochirurgie",
-    "Convulsions répétées"
+    "Hypertension intracrânienne, hydrocéphalie, troubles de la conscience",
+    "État de mal épileptique",
+    "Encéphalite cysticerquienne",
+    "Baisse de la vision"
    ],
    "prevention": [
-    "Cuisson complète du porc, élevage en enclos, latrines, lavage des mains"
+    "Traitement des porteurs de ténia",
+    "Cuisson complète de la viande de porc, inspection des viandes",
+    "Élevage des porcs en enclos, latrines",
+    "Lavage des mains, eau potable, laver les légumes",
+    "Vaccination et déparasitage des porcs (oxfendazole)"
    ],
    "medicaments": [
     "Albendazole",
@@ -39025,6 +39164,7 @@
     "Prednisolone",
     "Phénobarbital",
     "Carbamazépine",
+    "Mannitol 20 %",
     "Niclosamide"
    ]
   },
@@ -39977,28 +40117,43 @@
    "nom": "Maladie de Chagas (trypanosomiase américaine)",
    "categorie": "paludisme",
    "synonymes": "Chagas, Trypanosoma cruzi, triatome, punaise",
-   "resume": "Infection par Trypanosoma cruzi transmise par des punaises (triatomes) en Amérique latine, ou par transfusion et de la mère à l'enfant. Rencontrée chez les migrants.",
+   "resume": "Infection par Trypanosoma cruzi, transmise par des punaises (triatomes) en Amérique latine, mais aussi par transfusion, greffe et de la mère à l'enfant. Rencontrée en Afrique chez des personnes ayant vécu en Amérique latine. Après une phase aiguë souvent discrète, 30 % des personnes infectées développent des années plus tard une atteinte cardiaque ou digestive.",
    "signes": [
-    "Phase aiguë : fièvre, œdème d'une paupière (signe de Romaña), ganglions, hépatosplénomégalie",
-    "Phase chronique (des années plus tard) : cardiomyopathie (troubles du rythme, insuffisance cardiaque), méga-œsophage, mégacôlon"
+    "Phase aiguë : souvent sans symptôme ; fièvre, œdème indolore d'une paupière (signe de Romaña) ou nodule au point de piqûre, ganglions, gros foie et grosse rate",
+    "Forme congénitale : prématurité, petit poids, hépatosplénomégalie, souvent sans signe",
+    "Phase chronique cardiaque : palpitations, syncopes, troubles du rythme et de la conduction, insuffisance cardiaque, embolies, mort subite",
+    "Phase chronique digestive : difficultés à avaler (méga-œsophage), constipation sévère (mégacôlon)"
    ],
    "diagnostic": [
-    "Phase aiguë : parasites dans le sang",
-    "Phase chronique : 2 sérologies différentes positives",
-    "ECG"
+    "Phase aiguë et nouveau-né : parasites dans le sang (frottis, concentration) ou PCR",
+    "Phase chronique : 2 sérologies de techniques différentes positives",
+    "ECG (bloc de branche droit, hémibloc antérieur gauche, extrasystoles), échographie cardiaque, Holter si disponible",
+    "Dépister les enfants d'une mère positive"
    ],
    "traitement": [
-    "Benznidazole 5 à 7 mg/kg/jour pendant 60 jours (ou nifurtimox) : phase aiguë, forme congénitale, enfant et adulte < 50 ans sans cardiopathie évoluée",
-    "Traitement symptomatique de l'atteinte cardiaque et digestive"
+    "Benznidazole 5 à 7 mg/kg par jour en 2 prises pendant 60 jours (enfant jusqu'à 10 mg/kg par jour), ou nifurtimox 60 à 90 jours",
+    "Indications : phase aiguë, forme congénitale, enfant, réactivation chez l'immunodéprimé, femme en âge de procréer (avant une grossesse), adulte jusqu'à 50 ans sans cardiopathie évoluée",
+    "Effets indésirables : éruption cutanée (fréquente vers la 2e semaine), troubles digestifs, neuropathie, baisse des globules blancs ; NFS et transaminases pendant le traitement",
+    "Contre-indiqué pendant la grossesse ; contraception pendant le traitement",
+    "Atteinte cardiaque : traitement de l'insuffisance cardiaque, amiodarone pour les arythmies, anticoagulation si thrombus ou embolie, stimulateur cardiaque si bloc",
+    "Atteinte digestive : régime adapté, laxatifs ; chirurgie dans les formes évoluées"
    ],
    "gravite": [
-    "Insuffisance cardiaque, troubles du rythme"
+    "Syncope, bloc auriculo-ventriculaire, tachycardie ventriculaire, insuffisance cardiaque",
+    "Accident embolique",
+    "Réactivation grave (méningo-encéphalite) chez l'immunodéprimé"
    ],
    "prevention": [
-    "Lutte contre les triatomes (habitat), dépistage des dons de sang et des femmes enceintes"
+    "Amélioration de l'habitat et insecticides contre les triatomes (zones d'endémie)",
+    "Dépistage des dons de sang et d'organes des personnes à risque",
+    "Dépistage des femmes enceintes venant d'Amérique latine et de leurs nouveau-nés"
    ],
    "medicaments": [
-    "Benznidazole"
+    "Benznidazole",
+    "Amiodarone",
+    "Furosémide",
+    "Énalapril",
+    "Warfarine"
    ]
   },
   {
@@ -40006,30 +40161,43 @@
    "nom": "Leishmaniose cutanée",
    "categorie": "paludisme",
    "synonymes": "leishmaniose cutanée, bouton d'Orient, ulcère qui ne guérit pas, phlébotome",
-   "resume": "Ulcération chronique de la peau due à Leishmania, transmise par le phlébotome (Afrique de l'Est et du Nord, Moyen-Orient, Amérique latine).",
+   "resume": "Ulcération chronique de la peau due à Leishmania, transmise par le phlébotome : Afrique de l'Est et du Nord, Moyen-Orient, Asie, Amérique latine. Rare en RDC, à évoquer chez un voyageur ou un militaire revenant d'une zone d'endémie. Beaucoup de lésions guérissent seules en quelques mois en laissant une cicatrice ; les formes du visage, multiples ou muqueuses doivent être traitées.",
    "signes": [
-    "Papule au site de piqûre, évoluant en ulcère indolore à bords surélevés, croûteux, sur une zone découverte",
-    "Lésions multiples ou nodules le long des lymphatiques",
-    "Forme muqueuse (nez, bouche) en Amérique latine"
+    "Papule au point de piqûre (zone découverte : visage, bras, jambes), qui grossit en quelques semaines et s'ulcère",
+    "Ulcère indolore, arrondi, à bords surélevés et infiltrés, couvert d'une croûte ; souvent plusieurs lésions",
+    "Nodules le long du trajet lymphatique (forme sporotrichoïde)",
+    "Forme diffuse (nombreux nodules, Éthiopie)",
+    "Forme muqueuse (Amérique latine) : obstruction et saignement du nez, perforation de la cloison, atteinte de la bouche, des années après la lésion cutanée"
    ],
    "diagnostic": [
-    "Frottis ou biopsie du bord de la lésion (parasites)",
-    "Contexte géographique"
+    "Frottis coloré ou biopsie du bord actif de la lésion (corps de Leishman), PCR si disponible",
+    "Contexte géographique et durée (> 2 semaines sans guérison)",
+    "Différentiels : ulcère de Buruli, ulcère tropical, pyodermite, tuberculose cutanée, sporotrichose, cancer cutané",
+    "Examen du nez et de la bouche (forme muqueuse)"
    ],
    "traitement": [
-    "Lésion unique et peu étendue : guérison spontanée en quelques mois possible ; traitement local : paromomycine pommade 20 jours, cryothérapie ou injections intralésionnelles d'antimoniate",
-    "Lésions multiples, du visage, des articulations ou muqueuses : antimoniate de méglumine IM ou miltéfosine"
+    "Lésion unique, petite (< 4 cm), hors du visage et des articulations : abstention possible ou traitement local",
+    "Traitements locaux : paromomycine en pommade 2 fois par jour pendant 20 jours ; cryothérapie à l'azote liquide toutes les 1 à 3 semaines ; thermothérapie ; injections intralésionnelles d'antimoniate de méglumine (1 à 5 ml autour et sous la lésion) tous les 3 à 7 jours, 5 séances environ",
+    "Traitement général si plus de 4 ou 5 lésions, lésion > 4 cm, atteinte du visage, des mains ou des articulations, diffusion lymphatique, immunodépression ou forme muqueuse : antimoniate de méglumine 20 mg Sb⁵⁺/kg par jour IM pendant 20 jours (28 jours pour la forme muqueuse), ou miltéfosine 2,5 mg/kg par jour pendant 28 jours",
+    "Antimoniés : ECG, enzymes pancréatiques, transaminases et créatinine ; miltéfosine : contraception efficace pendant et 5 mois après",
+    "Surinfection : soins locaux, antibiotique si cellulite",
+    "Évaluer la guérison à 6 à 12 semaines (réépithélialisation complète, absence d'infiltration du bord) ; la cicatrice persiste"
    ],
    "gravite": [
-    "Atteinte muqueuse (destruction du nez), lésions multiples ou défigurantes"
+    "Atteinte muqueuse (nez, bouche, larynx)",
+    "Lésions multiples ou défigurantes du visage",
+    "Forme diffuse ou immunodépression (VIH)",
+    "Surinfection étendue"
    ],
    "prevention": [
-    "Moustiquaires imprégnées (phlébotomes), lutte antivectorielle"
+    "Moustiquaires imprégnées à mailles fines, répulsifs, vêtements longs à la tombée de la nuit dans les zones d'endémie",
+    "Lutte contre les phlébotomes et les animaux réservoirs"
    ],
    "medicaments": [
     "Paromomycine",
     "Antimoniate de méglumine",
-    "Miltéfosine"
+    "Miltéfosine",
+    "Céfalexine"
    ]
   },
   {
@@ -40037,34 +40205,49 @@
    "nom": "Protozooses intestinales (giardiase, cryptosporidiose)",
    "categorie": "paludisme",
    "synonymes": "giardiase, lamblia, cryptosporidiose, isosporose, diarrhée persistante",
-   "resume": "Diarrhées par parasites intestinaux microscopiques, souvent prolongées et sévères chez l'enfant malnutri et la personne vivant avec le VIH.",
+   "resume": "Diarrhées dues à des parasites microscopiques (Giardia, Cryptosporidium, Cystoisospora, Cyclospora, microsporidies), transmis par l'eau et les mains sales. Elles prolongent la diarrhée, aggravent la malnutrition de l'enfant et peuvent être très sévères chez la personne vivant avec le VIH à un stade avancé, où la restauration de l'immunité par les ARV est le traitement principal.",
    "signes": [
-    "Giardiase : diarrhée graisseuse, ballonnement, malabsorption, retard de croissance",
-    "Cryptosporidiose, isosporose, cyclosporose : diarrhée aqueuse prolongée, très sévère en cas de VIH avancé"
+    "Giardiase : diarrhée prolongée, selles graisseuses et nauséabondes, ballonnement, gaz, perte d'appétit, malabsorption, amaigrissement, retard de croissance",
+    "Cryptosporidiose : diarrhée aqueuse abondante ; spontanément résolutive en 1 à 2 semaines chez l'immunocompétent, chronique et épuisante en cas de VIH avancé",
+    "Isosporose, cyclosporose : diarrhée aqueuse prolongée, fièvre modérée, amaigrissement",
+    "Diarrhée persistante de l'enfant : plus de 14 jours"
    ],
    "diagnostic": [
-    "Examen des selles (kystes de Giardia ; coloration de Ziehl modifiée pour Cryptosporidium et Isospora)",
-    "Test VIH"
+    "Examen des selles répété (3 échantillons) : kystes ou trophozoïtes de Giardia ; coloration de Ziehl-Neelsen modifiée pour Cryptosporidium, Cystoisospora et Cyclospora",
+    "Test VIH et CD4",
+    "Évaluer la déshydratation et l'état nutritionnel (poids, périmètre brachial)",
+    "Rechercher d'autres causes : bactéries, tuberculose intestinale, lactose"
    ],
    "traitement": [
-    "Réhydratation (SRO) et zinc chez l'enfant",
-    "Giardiase : tinidazole 2 g (enfant 50 mg/kg) dose unique ou métronidazole 5 jours",
-    "Isosporose, cyclosporose : cotrimoxazole fortes doses 7 à 10 jours",
-    "Cryptosporidiose : pas de traitement spécifique efficace en routine ; restaurer l'immunité par les ARV"
+    "Réhydratation (SRO, plans A, B ou C), zinc pendant 10 à 14 jours chez l'enfant, poursuite de l'alimentation",
+    "Giardiase : tinidazole 2 g (enfant 50 mg/kg, maximum 2 g) en dose unique, ou métronidazole 2 g par jour (enfant 30 mg/kg par jour) en 1 prise pendant 3 jours, ou 250 à 500 mg 3 fois par jour pendant 5 à 7 jours",
+    "Isosporose : cotrimoxazole 960 mg 2 fois par jour (enfant 40 mg/kg par jour de sulfaméthoxazole) pendant 10 jours, puis prophylaxie par cotrimoxazole en cas de VIH",
+    "Cyclosporose : cotrimoxazole 960 mg 2 fois par jour pendant 7 à 10 jours",
+    "Microsporidiose : albendazole 400 mg 2 fois par jour pendant 3 semaines (efficace sur certaines espèces)",
+    "Cryptosporidiose : pas de traitement spécifique efficace en routine ; débuter ou optimiser les ARV (la diarrhée cède avec la remontée des CD4)",
+    "VIH avancé : bilan de la maladie avancée et ARV sans délai ; lopéramide possible chez l'adulte sans fièvre ni sang dans les selles",
+    "Enfant avec diarrhée persistante : régime adapté (réduire le lait animal, aliments riches en énergie), vitamine A, traiter la malnutrition"
    ],
    "gravite": [
-    "Déshydratation, dénutrition",
-    "VIH avancé"
+    "Déshydratation sévère, troubles électrolytiques",
+    "Malnutrition aiguë sévère",
+    "VIH avancé avec diarrhée chronique et amaigrissement"
    ],
    "prevention": [
-    "Eau potable, lavage des mains"
+    "Eau potable (ébullition ou filtration ; le chlore est peu efficace contre Cryptosporidium)",
+    "Lavage des mains au savon",
+    "Allaitement maternel exclusif",
+    "Traitement ARV précoce chez les personnes vivant avec le VIH"
    ],
    "medicaments": [
     "Tinidazole",
     "Métronidazole",
     "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
+    "Albendazole",
     "Sels de réhydratation orale (SRO)",
-    "Zinc (sulfate)"
+    "Zinc (sulfate)",
+    "Lopéramide",
+    "Vitamine A (rétinol)"
    ]
   },
   {
@@ -40072,32 +40255,46 @@
    "nom": "Distomatoses (douves)",
    "categorie": "paludisme",
    "synonymes": "douve, distomatose, fasciolose, paragonimose, clonorchiase",
-   "resume": "Infections par des vers plats (douves) contractées en mangeant des plantes aquatiques crues (cresson), du poisson ou des crabes crus.",
+   "resume": "Infections par des vers plats (douves) contractées en mangeant des plantes aquatiques crues (cresson, fasciolose), du poisson cru ou peu cuit (clonorchiase, opisthorchiase) ou des crabes et écrevisses crus (paragonimose, présente en Afrique centrale, dont le Cameroun, le Nigeria et la RDC). La paragonimose est souvent confondue avec la tuberculose pulmonaire.",
    "signes": [
-    "Fasciolose (douve du foie) : fièvre, douleur de l'hypochondre droit, gros foie, éosinophilie, puis ictère par obstruction",
-    "Paragonimose (douve du poumon) : toux chronique, crachats rouillés ou hémoptysie (confusion avec la tuberculose)",
-    "Douves intestinales : diarrhée, douleurs"
+    "Fasciolose : phase d'invasion avec fièvre, douleur de l'hypochondre droit, gros foie douloureux, urticaire, éosinophilie ; puis douleurs biliaires, ictère par obstruction, angiocholite",
+    "Paragonimose : toux chronique, crachats couleur rouille ou hémoptysies, douleur thoracique, épanchement pleural ; état général souvent conservé ; localisations cérébrales (convulsions) ou sous-cutanées",
+    "Clonorchiase, opisthorchiase : douleurs biliaires, angiocholites à répétition, risque de cancer des voies biliaires",
+    "Douves intestinales : diarrhée, douleurs, œdèmes si forte charge"
    ],
    "diagnostic": [
-    "Œufs dans les selles ou les crachats",
-    "Éosinophilie",
-    "Contexte alimentaire"
+    "Œufs dans les selles ou dans les crachats (paragonimose, rechercher aussi après ingestion des crachats dans les selles de l'enfant)",
+    "Éosinophilie souvent élevée",
+    "Sérologie si disponible",
+    "Échographie : lésions hépatiques, dilatation biliaire",
+    "Paragonimose : toujours rechercher une tuberculose (GeneXpert) ; penser à la douve devant une « tuberculose » à frottis négatifs avec éosinophilie",
+    "Interroger sur les habitudes alimentaires"
    ],
    "traitement": [
-    "Fasciolose : triclabendazole 10 mg/kg dose unique",
-    "Paragonimose : praziquantel 25 mg/kg 3 fois par jour pendant 3 jours (ou triclabendazole)",
-    "Clonorchiase, opisthorchiase, douves intestinales : praziquantel"
+    "Fasciolose : triclabendazole 10 mg/kg en dose unique au cours d'un repas ; forte infestation ou échec : 20 mg/kg en 2 prises à 12 h d'intervalle",
+    "Paragonimose : praziquantel 25 mg/kg 3 fois par jour pendant 2 à 3 jours, ou triclabendazole 20 mg/kg en 2 prises le même jour",
+    "Clonorchiase, opisthorchiase : praziquantel 25 mg/kg 3 fois par jour pendant 2 à 3 jours",
+    "Douves intestinales : praziquantel 25 mg/kg en dose unique",
+    "Forme cérébrale : praziquantel avec corticoïdes, avis spécialisé",
+    "Angiocholite : antibiotique (ceftriaxone + métronidazole), drainage biliaire si obstruction",
+    "Contrôle des selles ou des crachats 1 à 3 mois après le traitement"
    ],
    "gravite": [
-    "Obstruction biliaire, angiocholite",
-    "Hémoptysie abondante"
+    "Obstruction biliaire, angiocholite, ictère",
+    "Hémoptysie abondante",
+    "Convulsions ou déficit (localisation cérébrale)"
    ],
    "prevention": [
-    "Cuire les plantes aquatiques, le poisson et les crustacés"
+    "Cuire les plantes aquatiques, le poisson, les crabes et les écrevisses",
+    "Eau potable",
+    "Ne pas utiliser les excréments humains ou animaux comme engrais près des cultures aquatiques"
    ],
    "medicaments": [
     "Triclabendazole",
-    "Praziquantel"
+    "Praziquantel",
+    "Ceftriaxone",
+    "Métronidazole",
+    "Prednisolone"
    ]
   },
   {
@@ -42391,36 +42588,46 @@
    "nom": "Paludisme à P. vivax, P. ovale et P. malariae",
    "categorie": "paludisme",
    "synonymes": "vivax, ovale, malariae, paludisme non falciparum, rechute",
-   "resume": "Paludismes moins graves que P. falciparum mais responsables de rechutes (vivax, ovale : formes dormantes dans le foie). P. ovale et P. malariae existent en RDC ; P. vivax est rare chez les personnes Duffy négatives mais présent dans certaines zones.",
+   "resume": "Paludismes généralement moins graves que P. falciparum. P. vivax et P. ovale laissent dans le foie des formes dormantes (hypnozoïtes) responsables de rechutes des semaines ou mois plus tard, évitées par la primaquine. P. malariae peut persister des années et causer un syndrome néphrotique chez l'enfant. P. ovale et P. malariae existent en RDC, souvent en co-infection avec P. falciparum ; P. vivax y est rare mais signalé.",
    "signes": [
-    "Accès fébriles réguliers (tous les 2 jours pour vivax et ovale, tous les 3 jours pour malariae)",
-    "Anémie, splénomégalie",
-    "Rechutes des semaines à des mois après",
-    "P. malariae : syndrome néphrotique de l'enfant"
+    "Accès fébriles réguliers : tous les 2 jours (fièvre tierce) pour vivax et ovale, tous les 3 jours (fièvre quarte) pour malariae",
+    "Frissons, sueurs, céphalées",
+    "Anémie, grosse rate",
+    "Rechutes après un premier accès traité (vivax, ovale)",
+    "P. malariae : syndrome néphrotique de l'enfant (œdèmes, protéinurie massive), mal sensible aux corticoïdes",
+    "P. vivax peut aussi causer des formes graves (anémie sévère, détresse respiratoire, rupture de rate)"
    ],
    "diagnostic": [
-    "Goutte épaisse et frottis (identification de l'espèce)",
-    "TDR : certains détectent les espèces non falciparum (pan-pLDH)",
-    "Test G6PD avant la primaquine"
+    "Goutte épaisse et frottis : identification de l'espèce (infections mixtes fréquentes)",
+    "TDR : les tests HRP2 seuls ne détectent pas ces espèces ; les tests pan-pLDH ou aldolase les détectent",
+    "Test de G6PD (qualitatif ou quantitatif) avant la primaquine",
+    "Protéinurie chez l'enfant infecté par P. malariae"
    ],
    "traitement": [
-    "Traitement de l'accès : CTA (artéméther-luméfantrine) partout, ou chloroquine si l'espèce est sensible",
-    "Prévention des rechutes (vivax, ovale) : primaquine 0,25 à 0,5 mg/kg/jour pendant 14 jours si G6PD normal (pas pendant la grossesse ni avant 6 mois)",
-    "Formes graves (rares) : artésunate IV"
+    "Accès : CTA (artéméther-luméfantrine ou autre CTA du PNLP), qui traite toutes les espèces et les infections mixtes ; ou chloroquine si l'espèce est sensible : 10 mg base/kg à J1 et J2, puis 5 mg/kg à J3 (total 25 mg/kg)",
+    "Prévention des rechutes (vivax, ovale) si G6PD normal : primaquine 0,25 à 0,5 mg/kg par jour pendant 14 jours (ou 0,5 mg/kg par jour pendant 7 jours), avec un repas ; pas pendant la grossesse ni l'allaitement d'un nourrisson de moins de 6 mois (ou de statut G6PD inconnu), ni avant 6 mois",
+    "Déficit en G6PD modéré : primaquine 0,75 mg/kg une fois par semaine pendant 8 semaines sous surveillance (urines foncées, pâleur : arrêter)",
+    "Femme enceinte : chloroquine 5 mg/kg par semaine (prophylaxie des rechutes) jusqu'à la fin de l'allaitement, puis primaquine",
+    "P. malariae : CTA ou chloroquine, pas de primaquine",
+    "Formes graves : artésunate injectable comme pour P. falciparum",
+    "Syndrome néphrotique quartane : traiter le paludisme, prise en charge néphrologique"
    ],
    "gravite": [
-    "Signes de paludisme grave",
-    "Splénomégalie importante (rupture de rate)"
+    "Signes de paludisme grave (même avec ces espèces)",
+    "Grosse rate douloureuse, choc : rupture de rate",
+    "Urines foncées ou anémie brutale sous primaquine (hémolyse sur déficit en G6PD) : arrêt immédiat"
    ],
    "prevention": [
-    "Moustiquaires imprégnées"
+    "Moustiquaires imprégnées",
+    "Traitement complet par primaquine pour éviter les rechutes",
+    "Dépistage du déficit en G6PD"
    ],
    "medicaments": [
     "Artéméther + luméfantrine",
+    "Dihydroartémisinine + pipéraquine (DHA-PPQ)",
     "Chloroquine",
     "Primaquine",
-    "Artésunate (injectable)",
-    "Dihydroartémisinine + pipéraquine (DHA-PPQ)"
+    "Artésunate (injectable)"
    ]
   },
   {
@@ -42428,33 +42635,51 @@
    "nom": "Chimioprévention du paludisme",
    "categorie": "paludisme",
    "synonymes": "TPI, traitement préventif intermittent, CPS, chimioprévention saisonnière, prophylaxie paludisme, voyageur, PMC",
-   "resume": "Médicaments donnés à des groupes vulnérables pour prévenir le paludisme : femme enceinte, nourrisson, enfant en saison de transmission, voyageur non immun.",
+   "resume": "Administration de médicaments antipaludiques à des groupes vulnérables, à intervalles réguliers, pour prévenir les infections et leurs conséquences : femme enceinte (TPIp), nourrisson (chimioprévention pérenne), enfant sortant d'hôpital pour anémie sévère, enfant drépanocytaire, enfant en saison de transmission (Sahel), voyageur non immun. Elle complète la moustiquaire et le vaccin sans les remplacer.",
    "signes": [
-    "Groupes concernés : femmes enceintes (dès le 2e trimestre), nourrissons et jeunes enfants (chimioprévention pérenne), enfants de 3 à 59 mois au Sahel (saisonnière), enfants drépanocytaires, voyageurs"
+    "Femmes enceintes à partir de 13 semaines (2e trimestre)",
+    "Nourrissons et enfants de moins de 2 ans en zone de transmission modérée à forte",
+    "Enfants hospitalisés pour anémie sévère (chimioprévention post-sortie)",
+    "Enfants de 3 à 59 mois dans les zones à transmission saisonnière (Sahel)",
+    "Enfants drépanocytaires",
+    "Voyageurs non immuns, y compris les Congolais vivant depuis longtemps hors d'une zone d'endémie",
+    "Écoliers et populations en situation d'urgence (selon le programme)"
    ],
    "diagnostic": [
-    "Exclure un paludisme en cours (TDR si fièvre) avant chaque dose",
-    "Vérifier la prise de cotrimoxazole (VIH)"
+    "Avant chaque dose : rechercher une fièvre ; si fièvre, faire un TDR et traiter un paludisme confirmé au lieu de donner la chimioprévention",
+    "Vérifier les traitements en cours : cotrimoxazole (pas de SP), allergie aux sulfamides",
+    "Date des dernières règles et âge gestationnel chez la femme enceinte"
    ],
    "traitement": [
-    "Femme enceinte : TPIp-SP (sulfadoxine-pyriméthamine 3 cp) à chaque CPN dès 13 semaines, au moins 3 doses espacées d'1 mois ; pas de SP si cotrimoxazole",
-    "Nourrisson (PMC, selon le programme) : SP aux contacts de vaccination",
-    "Chimioprévention saisonnière (Sahel) : SPAQ mensuelle",
-    "Voyageur : atovaquone-proguanil, doxycycline ou méfloquine",
-    "Drépanocytose : selon le protocole national",
-    "Toujours associer moustiquaire imprégnée et vaccin antipaludique là où il est introduit"
+    "Femme enceinte (TPIp) : sulfadoxine-pyriméthamine 3 comprimés (1 500/75 mg) en prise unique supervisée à chaque consultation prénatale dès 13 semaines, à au moins 1 mois d'intervalle, jusqu'à l'accouchement ; au moins 3 doses ; peut être prise à jeun",
+    "Pas de SP chez la femme sous cotrimoxazole (VIH) ni pendant le 1er trimestre ; donner l'acide folique à 0,4 mg par jour (les fortes doses de 5 mg diminuent l'efficacité de la SP)",
+    "Nourrisson (chimioprévention pérenne) : SP aux contacts du calendrier vaccinal (vers 10 et 14 semaines, 9 mois, puis au cours de la 2e année) selon le programme national",
+    "Après une hospitalisation pour anémie sévère (enfant de moins de 5 ans) : traitement complet par CTA (dihydroartémisinine-pipéraquine ou artéméther-luméfantrine) à 2, 6 et 10 semaines après la sortie",
+    "Chimioprévention saisonnière (Sahel) : SP + amodiaquine une fois par mois pendant 4 à 5 mois de la saison des pluies",
+    "Drépanocytose : chimioprévention selon le protocole national (SP mensuelle ou autre antipaludique), en plus de la pénicilline et de l'acide folique",
+    "Voyageur : doxycycline 100 mg par jour à débuter 1 à 2 jours avant le départ et à poursuivre 4 semaines après le retour (pas avant 8 ans ni pendant la grossesse) ; méfloquine 250 mg par semaine à débuter 2 à 3 semaines avant et à poursuivre 4 semaines après (pas en cas d'antécédent psychiatrique ou de convulsions) ; atovaquone-proguanil si disponible",
+    "Vaccin antipaludique (R21 ou RTS,S) : 4 doses à partir de 5 mois là où il est introduit, en plus de la chimioprévention",
+    "Noter chaque dose dans le carnet (CPN ou santé de l'enfant)"
    ],
    "gravite": [
-    "Fièvre pendant la chimioprévention : TDR et traitement, ne pas compter sur la prévention"
+    "Fièvre pendant la chimioprévention : TDR et traitement, ne pas compter sur la prévention",
+    "Éruption cutanée, lésions des muqueuses sous SP (Stevens-Johnson) : arrêter définitivement",
+    "Ictère ou baisse des globules blancs sous amodiaquine"
    ],
    "prevention": [
-    "Moustiquaires imprégnées, pulvérisations intradomiciliaires, vaccin antipaludique"
+    "Moustiquaire imprégnée pour toute la famille",
+    "Pulvérisations intradomiciliaires",
+    "Vaccin antipaludique",
+    "Consultation rapide en cas de fièvre"
    ],
    "medicaments": [
     "Sulfadoxine + pyriméthamine (SP)",
     "Sulfadoxine-pyriméthamine + amodiaquine (SPAQ)",
+    "Dihydroartémisinine + pipéraquine (DHA-PPQ)",
+    "Artéméther + luméfantrine",
     "Méfloquine",
     "Doxycycline",
+    "Acide folique",
     "Vaccin antipaludique (R21/Matrix-M ou RTS,S/AS01)"
    ]
   },
@@ -42463,32 +42688,41 @@
    "nom": "Téniasis (ver solitaire)",
    "categorie": "paludisme",
    "synonymes": "ténia, ver solitaire, taenia, anneaux dans les selles",
-   "resume": "Ver plat intestinal acquis en mangeant de la viande de bœuf ou de porc mal cuite. Le ténia du porc expose aussi à la cysticercose (œufs avalés).",
+   "resume": "Infection par un ver plat intestinal adulte, acquis en mangeant de la viande de bœuf (Taenia saginata) ou de porc (Taenia solium) crue ou mal cuite. Le ver est souvent bien toléré, mais le porteur de T. solium élimine des œufs qui peuvent provoquer une cysticercose, y compris cérébrale, chez lui et son entourage : tout porteur doit être traité rapidement.",
    "signes": [
     "Souvent sans symptôme",
-    "Anneaux blancs mobiles dans les selles ou les sous-vêtements",
-    "Douleurs abdominales, troubles de l'appétit, amaigrissement"
+    "Anneaux blancs, plats et mobiles dans les selles, les sous-vêtements ou la literie (T. saginata, mobiles même hors des selles)",
+    "Gêne abdominale, nausées, appétit augmenté ou diminué, amaigrissement",
+    "Démangeaisons anales",
+    "Convulsions ou nodules sous la peau chez le porteur ou un membre de la famille : penser à la cysticercose"
    ],
    "diagnostic": [
-    "Anneaux ou œufs dans les selles (scotch-test anal)",
-    "Rechercher une neurocysticercose si convulsions"
+    "Anneaux ou œufs dans les selles (scotch-test anal pour T. saginata) ; l'espèce se distingue par l'examen des anneaux au laboratoire",
+    "Interroger sur la consommation de viande peu cuite",
+    "Convulsions, céphalées : rechercher une neurocysticercose (scanner) avant de donner du praziquantel"
    ],
    "traitement": [
-    "Praziquantel 5 à 10 mg/kg en dose unique, ou niclosamide 2 g (enfant selon le poids)",
-    "Hygiène des mains (T. solium : risque de cysticercose pour le patient et son entourage)",
-    "Traiter les membres de la famille infectés",
-    "Niclosamide (à mâcher à jeun) : adulte et enfant de plus de 6 ans 2 g, 2 à 6 ans 1 g, moins de 2 ans 500 mg ; à préférer en cas de ténia du porc",
-    "Neurocysticercose suspectée (convulsions) : ne pas donner de praziquantel sans avis (réaction inflammatoire cérébrale)"
+    "Niclosamide à mâcher à jeun, puis ne rien manger pendant 2 h : adulte et enfant de plus de 6 ans 2 g, 2 à 6 ans 1 g, moins de 2 ans 500 mg ; à préférer pour T. solium et en cas de doute sur une cysticercose",
+    "Praziquantel 5 à 10 mg/kg en dose unique, si une neurocysticercose est exclue (il peut déclencher une inflammation autour de kystes cérébraux méconnus)",
+    "Alternative : albendazole 400 mg par jour pendant 3 jours",
+    "Laxatif doux possible après le niclosamide pour éliminer le ver ; manipuler les selles avec des gants, les jeter dans les latrines",
+    "Hygiène stricte des mains du porteur de T. solium (risque d'auto-infection et d'infection de la famille) ; examiner et traiter les membres du foyer",
+    "Contrôle des selles 1 à 3 mois après : nouvelle cure si des anneaux réapparaissent"
    ],
    "gravite": [
-    "Convulsions (neurocysticercose)"
+    "Convulsions, céphalées avec vomissements (neurocysticercose) : référer",
+    "Occlusion ou appendicite par le ver (très rare)"
    ],
    "prevention": [
-    "Bien cuire la viande, inspection des viandes, latrines, élevage des porcs en enclos"
+    "Bien cuire la viande (plus de rose au centre) ou la congeler plusieurs jours",
+    "Inspection des viandes aux abattoirs",
+    "Latrines, élevage des porcs en enclos",
+    "Lavage des mains",
+    "Traitement des porteurs"
    ],
    "medicaments": [
-    "Praziquantel",
     "Niclosamide",
+    "Praziquantel",
     "Albendazole"
    ]
   },
