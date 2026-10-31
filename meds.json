@@ -1,5 +1,5 @@
 {
- "version": 33,
+ "version": 34,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -34809,49 +34809,59 @@
    "nom": "Pneumonie de l'adulte",
    "categorie": "respiratoire",
    "synonymes": "pneumonie, pneumopathie, toux fébrile",
-   "resume": "Infection aiguë du parenchyme pulmonaire, souvent à pneumocoque. Penser à la tuberculose et au VIH.",
+   "resume": "Infection aiguë du parenchyme pulmonaire acquise en dehors de l'hôpital. Germes principaux : pneumocoque (le plus fréquent), Haemophilus, germes atypiques (Mycoplasma, Chlamydia, Legionella), staphylocoque après la grippe, Klebsiella chez l'alcoolique ; anaérobies en cas d'inhalation. Chez la personne vivant avec le VIH, penser aussi à la tuberculose et à la pneumocystose. Le score CRB-65 et la SpO₂ guident le lieu de traitement.",
    "signes": [
-    "Fièvre, toux, expectorations, douleur thoracique",
-    "Dyspnée, tachypnée",
-    "Râles crépitants à l'auscultation",
-    "Gravité : FR ≥ 30/min, confusion, TA basse, SpO2 < 90 %",
-    "Sujet âgé : confusion, chute, parfois sans fièvre"
+    "Fièvre, frissons, toux, expectorations purulentes ou rouillées, douleur thoracique augmentée par la respiration (pleurale)",
+    "Essoufflement, FR rapide, tachycardie",
+    "Crépitants localisés, souffle tubaire, matité (condensation ou épanchement)",
+    "Sujet âgé : confusion, chute, altération de l'état général, parfois sans fièvre ni toux",
+    "Signes de gravité : FR ≥ 30/min, confusion, PA systolique < 90 ou diastolique ≤ 60 mmHg, SpO₂ < 90 %, atteinte de plusieurs lobes"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; radiographie si disponible",
-    "TDR paludisme en zone d'endémie",
-    "Penser à la tuberculose si toux > 2 semaines, au VIH",
+    "Diagnostic clinique ; radiographie du thorax si disponible (opacité, épanchement, caverne, atteinte bilatérale) ; échographie pleuropulmonaire au lit",
     "SpO₂ systématique",
-    "Score CRB-65 (onglet Outils) pour décider de l'hospitalisation",
-    "Test VIH ; GeneXpert sur crachats si toux de plus de 2 semaines ou VIH"
+    "Score CRB-65 (onglet Outils) : Confusion, FR ≥ 30, PA basse, âge ≥ 65 ans ; 0 : ambulatoire, 1 à 2 : discuter l'hospitalisation, 3 à 4 : hospitalisation urgente",
+    "TDR paludisme en zone d'endémie ; test VIH ; GeneXpert sur les crachats si toux de plus de 2 semaines, VIH ou caverne",
+    "Hospitalisé : NFS, créatinine, glycémie, hémocultures avant l'antibiotique si possible",
+    "Différentiels : tuberculose, pneumocystose, insuffisance cardiaque, embolie pulmonaire, paragonimose, cancer"
    ],
    "traitement": [
-    "Forme simple : amoxicilline 1 g 3 fois par jour pendant 5 jours (allergie : érythromycine ou doxycycline)",
-    "Forme sévère : hospitaliser, oxygène, ceftriaxone IV (± macrolide)",
-    "Paracétamol, hydratation",
-    "CRB-65 à 0 : traitement ambulatoire ; 1 à 2 : évaluer l'hospitalisation ; 3 à 4 : hospitalisation urgente",
-    "Forme sévère : ceftriaxone 1 à 2 g IV une fois par jour + azithromycine 500 mg/j (ou érythromycine), 5 à 7 jours au total avec relais oral dès l'amélioration",
-    "Pneumonie d'inhalation (alcool, troubles de conscience, vomissements) : amoxicilline-acide clavulanique",
-    "Réévaluer à 48-72 h ; en cas d'échec, penser tuberculose, pneumocystose (VIH), empyème"
+    "Forme simple (ambulatoire, CRB-65 à 0) : amoxicilline 1 g 3 fois par jour pendant 5 jours ; allergie à la pénicilline ou germe atypique suspecté : doxycycline 100 mg 2 fois par jour (200 mg le 1er jour) ou azithromycine 500 mg par jour pendant 3 jours",
+    "Comorbidités (diabète, BPCO, alcool, insuffisance cardiaque) : amoxicilline + acide clavulanique 1 g 3 fois par jour ± doxycycline ou azithromycine",
+    "Forme sévère : hospitaliser, oxygène (SpO₂ cible 94 à 98 %, 88 à 92 % si BPCO), ceftriaxone 1 à 2 g IV une fois par jour (ou amoxicilline + acide clavulanique IV) + azithromycine 500 mg par jour (ou érythromycine), 5 à 7 jours au total avec relais oral dès que le patient est stable (apyrexie, FR et PA normales, voie orale possible)",
+    "Pneumonie après la grippe ou avec cavités multiples : ajouter cloxacilline (staphylocoque)",
+    "Pneumonie d'inhalation (alcool, troubles de conscience, vomissements, troubles de la déglutition) : amoxicilline + acide clavulanique ; abcès du poumon : amoxicilline + acide clavulanique ou clindamycine pendant 4 à 6 semaines, drainage postural",
+    "Paracétamol, hydratation, mobilisation précoce ; prévention des thromboses (énoxaparine) chez le patient alité",
+    "Épanchement pleural : ponction ; liquide purulent ou trouble (empyème) : drain thoracique",
+    "Réévaluer à 48-72 h : en cas d'échec, penser tuberculose, pneumocystose (VIH), empyème, abcès, germe résistant, obstruction bronchique, autre diagnostic",
+    "Radiographie de contrôle à 6 semaines chez le fumeur de plus de 50 ans (cancer) ou si les symptômes persistent"
    ],
    "gravite": [
-    "Confusion, FR ≥ 30/min, TA systolique < 90 mmHg, SpO2 < 90 %",
-    "Âge > 65 ans, comorbidités",
+    "Confusion, FR ≥ 30/min, PA systolique < 90 mmHg, SpO₂ < 90 %",
+    "Âge > 65 ans, comorbidités, VIH avancé, grossesse",
     "Absence d'amélioration à 48–72 h",
-    "Épanchement pleural purulent (empyème) : drainage"
+    "Épanchement pleural purulent (empyème) : drainage",
+    "Choc septique : voir la fiche Sepsis de l'adulte"
    ],
    "prevention": [
-    "Vaccination (pneumocoque chez les personnes à risque)",
-    "Arrêt du tabac"
+    "Vaccination antipneumococcique et antigrippale des personnes à risque (plus de 65 ans, maladies chroniques, VIH, drépanocytose)",
+    "Arrêt du tabac, réduction de l'alcool",
+    "Réduction de la fumée domestique",
+    "ARV et cotrimoxazole chez les personnes vivant avec le VIH"
    ],
    "medicaments": [
     "Amoxicilline",
-    "Ceftriaxone",
-    "Érythromycine",
+    "Amoxicilline + acide clavulanique",
     "Doxycycline",
     "Azithromycine",
+    "Érythromycine",
+    "Ceftriaxone",
+    "Cloxacilline",
+    "Clindamycine",
     "Oxygène",
-    "Paracétamol"
+    "Paracétamol",
+    "Énoxaparine",
+    "Vaccin pneumococcique conjugué (PCV13 / PCV10)"
    ]
   },
   {
@@ -34859,45 +34869,54 @@
    "nom": "Crise d'asthme",
    "categorie": "respiratoire",
    "synonymes": "asthme, sifflements, bronchospasme, dyspnée sifflante",
-   "resume": "Obstruction bronchique réversible. La crise grave est une urgence.",
+   "resume": "Aggravation aiguë de l'obstruction bronchique chez un asthmatique, déclenchée par une infection virale, la fumée, la poussière, le froid, l'effort, un allergène, l'arrêt du traitement de fond ou un médicament (aspirine, bêtabloquant). La crise grave est une urgence vitale. Le traitement repose sur le salbutamol répété (de préférence en spray avec chambre d'inhalation), les corticoïdes oraux précoces et l'oxygène.",
    "signes": [
-    "Dyspnée sifflante, toux, oppression thoracique",
+    "Essoufflement, sifflements, toux, oppression thoracique",
     "Sibilants à l'auscultation",
-    "Gravité : parole difficile, tirage, SpO2 < 92 %, FC élevée",
-    "Crise très grave : silence auscultatoire, cyanose, épuisement, troubles de conscience"
+    "Crise légère à modérée : parle par phrases, préfère être assis, pas d'agitation, FR augmentée, SpO₂ 90 à 95 %",
+    "Crise sévère : parle par mots, assis penché en avant, agité, FR > 30/min (adulte), tirage, FC > 120/min, SpO₂ < 90 %, débit expiratoire de pointe ≤ 50 %",
+    "Crise menaçant la vie : somnolence, confusion, silence auscultatoire, cyanose, épuisement, bradycardie, respiration paradoxale"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Évaluer la gravité (capacité à parler, FR, SpO2)",
-    "Rechercher un facteur déclenchant (infection, exposition)"
+    "Diagnostic clinique ; évaluer la gravité (capacité à parler, FR, FC, tirage, SpO₂, débit de pointe si l'appareil est disponible)",
+    "Rechercher un facteur déclenchant (infection, exposition, arrêt du traitement) et les facteurs de risque de décès (crise grave antérieure, intubation, corticoïdes oraux récents, recours fréquent au salbutamol, pas de corticoïde inhalé)",
+    "Radiographie seulement si suspicion de pneumothorax, pneumonie ou corps étranger",
+    "Différentiels : insuffisance cardiaque (asthme cardiaque), corps étranger, anaphylaxie, bronchiolite, pneumonie, BPCO"
    ],
    "traitement": [
-    "Salbutamol en aérosol-doseur avec chambre d'inhalation : 2 à 10 bouffées toutes les 20 min pendant 1 h",
-    "Crise sévère : oxygène, prednisolone (ou hydrocortisone IV), salbutamol en nébulisation",
-    "Crise très grave : ajouter sulfate de magnésium IV, envisager l'adrénaline",
-    "Après la crise : corticoïde oral 3 à 5 jours ; traitement de fond (béclométasone) si crises fréquentes",
-    "Doses : prednisolone 1 à 2 mg/kg par jour (maximum 40 mg ; adulte 40 à 50 mg) pendant 3 à 5 jours ; sulfate de magnésium IV adulte 2 g en 20 min, enfant 40 mg/kg (maximum 2 g)",
-    "Avant la sortie : vérifier la technique d'inhalation avec chambre, remettre un plan d'action écrit, revoir dans la semaine",
-    "Critères de gravité nécessitant l'hospitalisation : SpO₂ < 92 %, impossibilité de parler, absence d'amélioration après 1 h de salbutamol"
+    "Salbutamol en spray avec chambre d'inhalation : 4 à 10 bouffées (100 µg) toutes les 20 min pendant 1 h (enfant de moins de 6 ans : 2 à 6 bouffées avec chambre et masque), une bouffée à la fois suivie de 5 respirations",
+    "Ou salbutamol en nébulisation : 5 mg chez l'adulte et l'enfant de plus de 5 ans, 2,5 mg avant 5 ans, toutes les 20 min, en continu si crise sévère",
+    "Oxygène pour une SpO₂ de 93 à 95 % chez l'adulte, de 94 à 98 % chez l'enfant",
+    "Corticoïde dans l'heure : prednisolone 40 à 50 mg par jour chez l'adulte pendant 5 à 7 jours ; enfant 1 à 2 mg/kg par jour (maximum 40 mg) pendant 3 à 5 jours ; hydrocortisone 100 à 200 mg IV (enfant 4 mg/kg) si la voie orale est impossible",
+    "Crise sévère : ajouter ipratropium nébulisé 500 µg (enfant 250 µg) aux 3 premières nébulisations de salbutamol",
+    "Absence de réponse ou crise menaçant la vie : sulfate de magnésium IV 2 g en 20 min chez l'adulte, 40 à 50 mg/kg (maximum 2 g) chez l'enfant ; adrénaline IM 0,01 mg/kg si anaphylaxie associée ou en dernier recours ; transfert en réanimation (ventilation par un personnel expérimenté)",
+    "Pas de sédatifs, pas d'antibiotique systématique (sauf pneumonie), pas de mucolytiques ; hydratation",
+    "Hospitaliser si : SpO₂ < 92 % après traitement, impossibilité de parler, absence d'amélioration après 1 h de salbutamol, facteurs de risque de décès, femme enceinte",
+    "Avant la sortie : débuter ou augmenter le traitement de fond par corticoïde inhalé (budésonide-formotérol ou béclométasone), vérifier la technique d'inhalation avec chambre, remettre un plan d'action écrit, revoir dans les 2 à 7 jours"
    ],
    "gravite": [
-    "Silence auscultatoire, cyanose, épuisement",
-    "Troubles de conscience",
-    "Absence de réponse au salbutamol"
+    "Silence auscultatoire, cyanose, épuisement, bradycardie",
+    "Somnolence, troubles de conscience",
+    "SpO₂ < 90 % malgré l'oxygène",
+    "Absence de réponse au salbutamol après 1 h",
+    "Pneumothorax"
    ],
    "prevention": [
-    "Éviction des facteurs déclenchants (fumée, poussière)",
-    "Traitement de fond régulier",
-    "Vérifier la technique d'inhalation"
+    "Traitement de fond régulier par corticoïde inhalé, adapté au contrôle de l'asthme",
+    "Éviction des facteurs déclenchants (fumée de tabac et de cuisine, poussière, moisissures)",
+    "Vérifier la technique d'inhalation à chaque visite",
+    "Plan d'action écrit, vaccination antigrippale"
    ],
    "medicaments": [
     "Salbutamol",
+    "Ipratropium (bromure) inhalé",
     "Prednisolone",
     "Hydrocortisone (injectable)",
     "Sulfate de magnésium",
     "Oxygène",
-    "Béclométasone inhalée",
     "Adrénaline (épinéphrine)",
+    "Béclométasone inhalée",
+    "Budésonide inhalé",
     "Budésonide + formotérol"
    ]
   },
@@ -34906,38 +34925,50 @@
    "nom": "Angine (pharyngite aiguë)",
    "categorie": "respiratoire",
    "synonymes": "angine, mal de gorge, pharyngite, amygdalite",
-   "resume": "Inflammation de la gorge, le plus souvent virale. L'angine à streptocoque A doit être traitée pour prévenir le rhumatisme articulaire aigu.",
+   "resume": "Inflammation aiguë de la gorge et des amygdales, d'origine virale dans 60 à 90 % des cas. L'angine à streptocoque A (surtout de 5 à 15 ans) doit être traitée par pénicilline ou amoxicilline pour prévenir le rhumatisme articulaire aigu et les cardiopathies rhumatismales, très fréquents en Afrique centrale, ainsi que les complications locales (phlegmon). Les antibiotiques sont inutiles dans les angines virales.",
    "signes": [
-    "Douleur à la déglutition, fièvre",
-    "Amygdales rouges, parfois exsudat blanchâtre",
-    "Ganglions cervicaux sensibles",
-    "En faveur d'une origine virale : toux, rhinite, conjonctivite"
+    "Douleur à la déglutition, fièvre, malaise",
+    "Amygdales rouges, gonflées, parfois couvertes d'un enduit blanchâtre (exsudat), pétéchies du palais",
+    "Ganglions cervicaux antérieurs gonflés et douloureux",
+    "En faveur d'une origine virale : toux, rhinite, enrouement, conjonctivite, diarrhée, ulcérations buccales",
+    "Enfant : douleurs abdominales, vomissements",
+    "Mononucléose : grosse fatigue, ganglions diffus, grosse rate, fausses membranes, adolescent ou adulte jeune"
    ],
    "diagnostic": [
-    "Score clinique (fièvre, exsudat, adénopathies, absence de toux) ; test rapide streptococcique si disponible",
-    "Rechercher une diphtérie (fausses membranes) chez le non-vacciné"
+    "Score de Centor ou de McIsaac (onglet Outils) : fièvre > 38 °C, exsudat amygdalien, ganglions cervicaux antérieurs douloureux, absence de toux, âge 3 à 14 ans (+1) ou ≥ 45 ans (−1)",
+    "Test de diagnostic rapide du streptocoque si disponible (score ≥ 2) ; si non disponible, en zone de RAA, traiter les angines de l'enfant avec score élevé",
+    "Rechercher une diphtérie (fausses membranes grisâtres adhérentes, enfant non vacciné), un phlegmon (trismus, luette déviée), une épiglottite",
+    "Angine ulcéreuse ou récidivante : penser VIH (primo-infection), syphilis, gonocoque, leucémie (NFS)"
    ],
    "traitement": [
-    "Angine probablement streptococcique : amoxicilline pendant 6 jours, ou pénicilline V 10 jours, ou benzathine benzylpénicilline IM en dose unique (allergie : azithromycine)",
-    "Paracétamol ou ibuprofène",
-    "Angine virale : traitement symptomatique uniquement",
-    "Doses : amoxicilline 50 mg/kg par jour en 2 prises (adulte 1 g 2 fois par jour) pendant 6 jours ; benzathine benzylpénicilline < 30 kg 600 000 UI, ≥ 30 kg 1,2 MUI IM",
-    "Score de Centor (onglet Outils) pour décider de l'antibiotique",
-    "Phlegmon péri-amygdalien (trismus, voix étouffée, luette déviée) : drainage et antibiotique IV, avis ORL"
+    "Angine probablement streptococcique : amoxicilline 50 mg/kg par jour (adulte 1 g) en 1 ou 2 prises pendant 10 jours (6 jours selon certaines recommandations ; préférer 10 jours dans les zones de forte prévalence du RAA) ; ou pénicilline V 10 jours ; ou benzathine benzylpénicilline IM en dose unique : moins de 30 kg 600 000 UI, 30 kg et plus 1,2 MUI (assure l'observance)",
+    "Allergie à la pénicilline : azithromycine 12 mg/kg par jour (maximum 500 mg) pendant 5 jours",
+    "Paracétamol ou ibuprofène, boissons fraîches, alimentation liquide ou molle",
+    "Angine virale : traitement symptomatique seul, pas d'antibiotique",
+    "Mononucléose : pas d'amoxicilline (éruption), repos, pas de sport de contact pendant 4 semaines (rate)",
+    "Phlegmon périamygdalien (trismus, voix étouffée, bombement du voile, luette déviée) : ponction ou incision, antibiotique IV (benzylpénicilline ou amoxicilline + acide clavulanique, ou clindamycine), avis ORL",
+    "Angines streptococciques récidivantes (7 épisodes en 1 an, 5 par an pendant 2 ans) : discuter l'amygdalectomie",
+    "Revoir si persistance de la fièvre après 72 h ou apparition de signes de gravité"
    ],
    "gravite": [
-    "Abcès périamygdalien (trismus, voix étouffée, bombement) → drainage",
-    "Difficulté respiratoire",
-    "Fausses membranes (diphtérie) → isolement, sérum antidiphtérique"
+    "Abcès périamygdalien ou rétropharyngé (trismus, voix étouffée, torticolis, bombement) : drainage",
+    "Difficulté respiratoire, salive qui coule",
+    "Fausses membranes (diphtérie) : isolement, sérum antidiphtérique",
+    "Douleurs articulaires, souffle cardiaque ou urines foncées dans les semaines suivantes (RAA, glomérulonéphrite)"
    ],
    "prevention": [
-    "Traiter correctement les angines streptococciques (prévention du RAA)"
+    "Traiter correctement les angines streptococciques (prévention du RAA)",
+    "Prophylaxie par benzathine benzylpénicilline après un RAA",
+    "Vaccination antidiphtérique"
    ],
    "medicaments": [
     "Amoxicilline",
     "Phénoxyméthylpénicilline (pénicilline V)",
     "Benzathine benzylpénicilline",
+    "Benzylpénicilline (pénicilline G)",
     "Azithromycine",
+    "Amoxicilline + acide clavulanique",
+    "Clindamycine",
     "Paracétamol",
     "Ibuprofène"
    ]
@@ -34947,38 +34978,51 @@
    "nom": "Otite moyenne aiguë",
    "categorie": "respiratoire",
    "synonymes": "otite, mal d'oreille, otalgie, oreille qui coule",
-   "resume": "Infection de l'oreille moyenne, fréquente chez l'enfant.",
+   "resume": "Infection de l'oreille moyenne, très fréquente chez l'enfant de 6 mois à 3 ans, souvent après un rhume. Germes : pneumocoque, Haemophilus influenzae, Moraxella. Bien traitée, elle guérit sans séquelles ; négligée, elle peut évoluer vers une otite chronique suppurée (surdité) ou des complications graves (mastoïdite, méningite, abcès cérébral).",
    "signes": [
-    "Otalgie, fièvre, irritabilité, l'enfant se frotte l'oreille",
-    "Tympan rouge et bombé à l'otoscopie",
-    "Otorrhée (écoulement) si perforation",
-    "Otite chronique : écoulement > 2 semaines"
+    "Douleur d'oreille, fièvre, irritabilité, pleurs, troubles du sommeil, l'enfant se frotte ou se tire l'oreille, refus de téter",
+    "Otoscopie : tympan rouge, bombé, opaque, sans reflet ; parfois perforé avec écoulement purulent (otorrhée), ce qui calme la douleur",
+    "Conjonctivite purulente associée (Haemophilus)",
+    "Otite chronique : écoulement depuis plus de 2 semaines",
+    "Otite séreuse : tympan terne, rétracté, niveau liquide, baisse de l'audition, sans fièvre ni douleur"
    ],
    "diagnostic": [
-    "Otoscopie",
-    "Rechercher une mastoïdite (gonflement douloureux derrière l'oreille)",
-    "Distinguer de l'otite séreuse (tympan terne, sans fièvre ni douleur) : pas d'antibiotique"
+    "Otoscopie après nettoyage doux du conduit",
+    "Rechercher une mastoïdite (gonflement douloureux et rouge derrière l'oreille, pavillon décollé), une paralysie faciale, des signes méningés",
+    "Distinguer de l'otite séreuse (pas d'antibiotique) et de l'otite externe (douleur à la traction du pavillon)",
+    "Otites récidivantes : rechercher VIH, végétations adénoïdes, carence"
    ],
    "traitement": [
-    "Antalgique (paracétamol)",
-    "Amoxicilline 30 mg/kg 3 fois par jour pendant 5 jours (amoxicilline-acide clavulanique en cas d'échec après 48-72 h)",
-    "Otorrhée : assécher le conduit par mèches plusieurs fois par jour",
-    "Otite chronique : nettoyage et assèchement, gouttes antibiotiques selon disponibilité",
-    "Tympan perforé : pas de gouttes ototoxiques ; gouttes de ciprofloxacine si disponibles"
+    "Antalgique dès le début : paracétamol 15 mg/kg toutes les 6 h ou ibuprofène 10 mg/kg toutes les 8 h",
+    "Amoxicilline 40 à 45 mg/kg 2 fois par jour (80 à 90 mg/kg par jour) pendant 5 jours (PCIME) ; 10 jours chez l'enfant de moins de 2 ans avec forme sévère ; adulte 1 g 3 fois par jour",
+    "Enfant de plus de 2 ans avec forme légère : surveillance de 48 à 72 h avec antalgique possible si un suivi est assuré",
+    "Échec après 48 à 72 h, otite-conjonctivite ou traitement par amoxicilline dans le mois précédent : amoxicilline + acide clavulanique ; allergie : azithromycine",
+    "Otorrhée : assécher le conduit par mèches de coton ou de papier roulées, plusieurs fois par jour, jusqu'à ce que la mèche ressorte sèche ; pas d'huile ni de produits traditionnels dans l'oreille",
+    "Tympan perforé : pas de gouttes ototoxiques (aminosides) ; gouttes de ciprofloxacine si l'écoulement persiste",
+    "Otite séreuse : surveillance pendant 3 mois, contrôle de l'audition ; aérateurs transtympaniques si surdité persistante (ORL)",
+    "Revoir l'enfant après 5 jours (PCIME) si la douleur ou l'écoulement persistent"
    ],
    "gravite": [
-    "Mastoïdite → antibiotique IV (ceftriaxone) et référence",
-    "Signes méningés",
-    "Paralysie faciale, vertiges, céphalées intenses"
+    "Mastoïdite (gonflement rétro-auriculaire, pavillon décollé) : ceftriaxone IV ± cloxacilline et référence ORL (drainage)",
+    "Signes méningés, troubles de conscience",
+    "Paralysie faciale, vertiges, céphalées intenses, fièvre persistante (complications intracrâniennes)",
+    "Nourrisson de moins de 6 mois"
    ],
    "prevention": [
-    "Allaitement, vaccination (pneumocoque, Hib)"
+    "Allaitement maternel, éviter le biberon couché",
+    "Vaccination (pneumocoque, Hib, rougeole)",
+    "Éviter la fumée de tabac et de cuisine",
+    "Traitement précoce des otites pour éviter la chronicité"
    ],
    "medicaments": [
     "Amoxicilline",
     "Amoxicilline + acide clavulanique",
+    "Azithromycine",
     "Paracétamol",
-    "Ceftriaxone"
+    "Ibuprofène",
+    "Ceftriaxone",
+    "Cloxacilline",
+    "Ciprofloxacine gouttes auriculaires"
    ]
   },
   {
@@ -38124,36 +38168,48 @@
    "nom": "Bronchiolite",
    "categorie": "respiratoire",
    "synonymes": "bronchiolite, nourrisson qui siffle, VRS",
-   "resume": "Infection virale (VRS) des petites bronches du nourrisson de moins de 2 ans, surtout en saison des pluies.",
+   "resume": "Infection virale des petites bronches (bronchioles) du nourrisson de moins de 2 ans, surtout due au virus respiratoire syncytial (VRS), en épidémies saisonnières. La plupart des formes sont bénignes, mais les jeunes nourrissons (moins de 3 mois), les prématurés et les enfants avec cardiopathie, malnutrition ou VIH peuvent faire des apnées et une détresse respiratoire. Le traitement repose sur la désobstruction nasale, l'alimentation, l'hydratation et l'oxygène ; les médicaments (bronchodilatateurs, corticoïdes, antibiotiques) sont inutiles.",
    "signes": [
-    "Rhume puis toux, respiration rapide et sifflante",
-    "Tirage, battement des ailes du nez",
-    "Difficulté à téter",
-    "Apnées chez le jeune nourrisson"
+    "Rhume pendant 1 à 3 jours, puis toux, respiration rapide et sifflante",
+    "Tirage, battement des ailes du nez, distension du thorax",
+    "Sibilants et crépitants fins diffus",
+    "Difficulté à téter et à boire, vomissements après la toux",
+    "Fièvre modérée ou absente",
+    "Apnées et cyanose chez le jeune nourrisson (parfois le premier signe)",
+    "Évolution : maximum vers J3 à J5, toux pouvant durer 2 à 3 semaines"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; SpO2",
-    "Éliminer une pneumonie bactérienne (fièvre élevée, état général altéré) et une insuffisance cardiaque"
+    "Diagnostic clinique ; SpO₂ systématique ; compter la fréquence respiratoire et évaluer la quantité bue (moins de la moitié des tétées habituelles : gravité)",
+    "Pas de radiographie ni d'examens en routine",
+    "Éliminer une pneumonie bactérienne (fièvre élevée, état toxique, foyer), une insuffisance cardiaque (souffle, gros foie), une coqueluche, un corps étranger",
+    "Sifflements récidivants (3 épisodes ou plus) : penser à l'asthme du nourrisson"
    ],
    "traitement": [
-    "Désobstruction nasale au sérum physiologique, fractionnement des tétées",
-    "Oxygène si SpO2 < 90 %",
-    "Hydratation (sonde nasogastrique si besoin)",
-    "Pas d'antibiotique (sauf surinfection), pas de corticoïdes ; salbutamol généralement inefficace (essai possible chez le nourrisson plus âgé)"
+    "Désobstruction nasale au sérum physiologique avant les tétées et le sommeil ; fractionner les tétées (plus petites et plus fréquentes), position semi-assise",
+    "Hydratation : si l'enfant boit moins de la moitié des quantités habituelles, sonde gastrique (lait maternel, 2/3 des besoins) plutôt que perfusion ; perfusion de soluté isotonique si nécessaire",
+    "Oxygène si SpO₂ < 90 % (lunettes nasales 0,5 à 1 l/min), arrêté quand la SpO₂ reste ≥ 90 % à l'air ; PPC ou oxygène à haut débit si détresse sévère",
+    "Surveillance des apnées chez le nourrisson de moins de 2 mois ou né prématuré",
+    "Paracétamol si fièvre",
+    "Pas d'antibiotique (sauf surinfection : otite, pneumonie bactérienne), pas de corticoïdes, pas de kinésithérapie respiratoire systématique ; salbutamol généralement inefficace (essai possible chez le nourrisson de plus de 12 mois sifflant)",
+    "Retour à domicile si SpO₂ ≥ 90 %, alimentation suffisante et parents capables de surveiller ; expliquer les signes de retour (respiration difficile, refus de boire, apnées, somnolence)"
    ],
    "gravite": [
-    "SpO2 < 90 %, cyanose, apnées",
-    "Incapacité de boire, déshydratation",
-    "Âge < 3 mois, prématurité, cardiopathie"
+    "SpO₂ < 90 %, cyanose, apnées",
+    "Incapacité de boire ou de téter, déshydratation",
+    "Tirage marqué, geignement, épuisement",
+    "Âge < 3 mois, prématurité, cardiopathie, maladie pulmonaire, malnutrition, VIH : hospitalisation plus large"
    ],
    "prevention": [
-    "Lavage des mains, éviter le contact avec les personnes enrhumées, allaitement"
+    "Lavage des mains, éviter le contact du nourrisson avec les personnes enrhumées, éviter la fumée de tabac",
+    "Allaitement maternel",
+    "Vaccin VRS maternel (28 à 36 semaines de grossesse) et anticorps monoclonal (nirsevimab) chez le nourrisson là où ils sont disponibles"
    ],
    "medicaments": [
     "Oxygène",
     "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Paracétamol",
     "Amoxicilline",
+    "Salbutamol",
     "Vaccin VRS maternel (RSVpreF)"
    ]
   },
@@ -38162,35 +38218,52 @@
    "nom": "Coqueluche",
    "categorie": "respiratoire",
    "synonymes": "coqueluche, toux quinteuse, toux qui chante",
-   "resume": "Infection bactérienne (Bordetella pertussis) très contagieuse, grave chez le nourrisson non vacciné.",
+   "resume": "Infection respiratoire bactérienne (Bordetella pertussis) très contagieuse, transmise par la toux. Grave chez le nourrisson de moins de 6 mois non ou incomplètement vacciné (apnées, pneumonie, encéphalopathie, décès), souvent contaminé par un adolescent ou un adulte de l'entourage dont la toux traîne. Les antibiotiques réduisent la contagiosité mais peu la durée de la toux s'ils sont donnés tard.",
    "signes": [
-    "Toux en quintes prolongées, suivies d'une reprise inspiratoire bruyante (chant du coq)",
-    "Vomissements après les quintes",
-    "Nourrisson : apnées, cyanose, sans chant du coq",
-    "Toux pouvant durer plusieurs semaines"
+    "Incubation de 7 à 10 jours",
+    "Phase catarrhale (1 à 2 semaines) : rhume, toux légère, peu de fièvre (période la plus contagieuse)",
+    "Phase des quintes (2 à 6 semaines) : quintes de toux prolongées, épuisantes, souvent nocturnes, suivies d'une reprise inspiratoire bruyante (« chant du coq »), vomissements après les quintes, visage rouge ou cyanosé, l'enfant va bien entre les quintes",
+    "Nourrisson : apnées, cyanose, bradycardie, sans chant du coq",
+    "Adolescent et adulte : toux persistante de plus de 2 semaines",
+    "Complications : pneumonie, convulsions, encéphalopathie, hémorragies conjonctivales, hernies, malnutrition, déshydratation"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; contexte épidémique, non vacciné",
-    "Hyperlymphocytose à la NFS ; PCR sur aspiration nasopharyngée si disponible"
+    "Diagnostic clinique : toux de plus de 2 semaines avec quintes, chant du coq ou vomissements après la toux ; contexte épidémique, enfant non vacciné",
+    "NFS : hyperlymphocytose (> 30 000 leucocytes chez le nourrisson : forme grave)",
+    "PCR sur aspiration ou écouvillon nasopharyngé pendant les 3 premières semaines si disponible",
+    "Différentiels : tuberculose, corps étranger, asthme, bronchiolite, infections à adénovirus ou Mycoplasma",
+    "Notifier les cas (surveillance)"
    ],
    "traitement": [
-    "Azithromycine 5 jours (10 mg/kg le 1er jour puis 5 mg/kg/j ; 10 mg/kg/j chez le nourrisson < 6 mois) ou érythromycine 14 jours",
-    "Hospitaliser le nourrisson < 6 mois : surveillance des apnées, oxygène, alimentation fractionnée",
-    "Prophylaxie des contacts proches (nourrissons, femmes enceintes)",
-    "Isolement respiratoire pendant les 5 premiers jours d'antibiotique"
+    "Antibiotique pendant les 3 premières semaines de toux (6 semaines chez le nourrisson et la femme enceinte en fin de grossesse) : azithromycine 10 mg/kg le 1er jour puis 5 mg/kg par jour les jours 2 à 5 (enfant de plus de 6 mois) ; nourrisson de moins de 6 mois : 10 mg/kg par jour pendant 5 jours ; adulte 500 mg le 1er jour puis 250 mg pendant 4 jours",
+    "Alternatives : érythromycine 12,5 mg/kg 4 fois par jour pendant 14 jours (éviter avant 1 mois : sténose du pylore) ; cotrimoxazole pendant 14 jours après 2 mois",
+    "Hospitaliser le nourrisson de moins de 6 mois et tout enfant avec apnées, cyanose, pneumonie ou difficultés à s'alimenter : surveillance continue des apnées (stimulation, aspiration, oxygène, ventilation au ballon)",
+    "Aspiration douce des sécrétions, oxygène si SpO₂ < 90 % ou cyanose, éviter les stimulations qui déclenchent les quintes",
+    "Alimentation fractionnée, réalimenter après les vomissements, sonde gastrique si besoin ; surveiller le poids",
+    "Pas d'antitussif, de sédatif ni de mucolytique",
+    "Pneumonie associée : traiter comme une pneumonie sévère",
+    "Prophylaxie des contacts du foyer et des contacts à risque (nourrissons, femmes enceintes en fin de grossesse) dans les 21 jours suivant l'exposition : même antibiotique, mêmes doses",
+    "Isolement respiratoire et éviction scolaire pendant les 5 premiers jours d'antibiotique (3 semaines sans traitement)",
+    "Mettre à jour la vaccination de l'enfant et des contacts"
    ],
    "gravite": [
-    "Apnées, cyanose, convulsions",
-    "Pneumonie, déshydratation, malnutrition"
+    "Apnées, cyanose, bradycardie",
+    "Convulsions, troubles de conscience (encéphalopathie)",
+    "Pneumonie, déshydratation, malnutrition",
+    "Nourrisson de moins de 3 mois, hyperlymphocytose très élevée"
    ],
    "prevention": [
-    "Vaccination (PEV : pentavalent) ; vaccination de la femme enceinte si disponible",
-    "Vaccination du nourrisson à 6, 10 et 14 semaines (pentavalent) et rattrapage des enfants non vaccinés"
+    "Vaccination : pentavalent à 6, 10 et 14 semaines et rappels selon le calendrier ; rattrapage des enfants non vaccinés",
+    "Vaccination de la femme enceinte au 3e trimestre là où le vaccin est disponible",
+    "Prophylaxie des contacts, isolement des malades"
    ],
    "medicaments": [
     "Azithromycine",
     "Érythromycine",
-    "Oxygène"
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
+    "Oxygène",
+    "Paracétamol",
+    "Vaccin pentavalent (DTC-HepB-Hib)"
    ]
   },
   {
@@ -38666,32 +38739,42 @@
    "nom": "Grippe et COVID-19",
    "categorie": "respiratoire",
    "synonymes": "grippe, influenza, COVID-19, coronavirus, infection respiratoire virale",
-   "resume": "Infections respiratoires virales épidémiques. La plupart des formes sont bénignes ; les formes graves touchent les personnes âgées, enceintes, porteuses de maladies chroniques ou immunodéprimées.",
+   "resume": "Infections respiratoires virales épidémiques, transmises par les gouttelettes, les aérosols et les mains. La plupart des formes sont bénignes ; les formes graves (pneumonie virale, surinfection bactérienne, détresse respiratoire, décompensation d'une maladie chronique) touchent les personnes âgées, les femmes enceintes, les porteurs de maladies chroniques (diabète, HTA, obésité, maladies cardiaques, rénales ou respiratoires, drépanocytose), les personnes vivant avec le VIH avancé et les jeunes enfants. Une exposition à des volailles malades doit faire penser à la grippe aviaire (alerte).",
    "signes": [
-    "Fièvre, toux, mal de gorge, courbatures, fatigue",
-    "Perte du goût ou de l'odorat (COVID-19)",
-    "Gravité : dyspnée, SpO2 < 94 %, confusion, douleur thoracique"
+    "Début brutal : fièvre, frissons, toux, mal de gorge, nez qui coule, courbatures, céphalées, grande fatigue",
+    "COVID-19 : perte du goût ou de l'odorat, diarrhée ; parfois peu de symptômes",
+    "Signes de gravité : essoufflement, FR > 30/min, SpO₂ < 94 %, douleur thoracique, confusion, déshydratation, aggravation après quelques jours ; chez l'enfant : tirage, refus de boire, léthargie",
+    "Surinfection bactérienne : reprise de la fièvre, crachats purulents, foyer de crépitants",
+    "Complications : myocardite, thromboses (COVID-19), décompensation du diabète ou de l'insuffisance cardiaque"
    ],
    "diagnostic": [
-    "Test rapide antigénique ou PCR selon disponibilité",
-    "SpO2",
-    "Éliminer paludisme et pneumonie bactérienne"
+    "Test rapide antigénique ou PCR selon disponibilité, surtout en période épidémique, chez les patients à risque ou hospitalisés",
+    "SpO₂ systématique (au repos et à l'effort)",
+    "Éliminer paludisme (TDR) et pneumonie bactérienne ; radiographie si signes de gravité",
+    "Patient hospitalisé : NFS, CRP, créatinine, glycémie",
+    "Contact avec des volailles ou oiseaux malades ou morts dans les 10 jours : isoler et alerter (grippe aviaire)"
    ],
    "traitement": [
-    "Forme simple : repos, hydratation, paracétamol, isolement",
-    "Grippe sévère ou à risque : oseltamivir 5 jours, idéalement dans les 48 h",
-    "COVID-19 sévère (SpO2 < 90 %) : oxygène, dexaméthasone 6 mg/j 10 jours, prévention des thromboses (énoxaparine)",
-    "Antibiotiques seulement si surinfection bactérienne",
-    "Doses : oseltamivir adulte 75 mg 2 fois par jour pendant 5 jours ; enfant selon le poids (≤ 15 kg : 30 mg, 15 à 23 kg : 45 mg, 23 à 40 kg : 60 mg, 2 fois par jour)",
-    "Personnes à risque de forme grave : femmes enceintes, plus de 60 ans, maladies chroniques, VIH avancé, enfants de moins de 2 ans"
+    "Forme simple : repos, hydratation, paracétamol, isolement à domicile (masque, aération, lavage des mains) jusqu'à 24 h sans fièvre ; revenir si essoufflement",
+    "Grippe sévère, hospitalisée ou chez une personne à risque : oseltamivir pendant 5 jours, idéalement dans les 48 h mais utile même plus tard dans les formes graves ; adulte 75 mg 2 fois par jour ; enfant de plus d'un an : ≤ 15 kg 30 mg, 15 à 23 kg 45 mg, 23 à 40 kg 60 mg, > 40 kg 75 mg, 2 fois par jour ; moins d'un an 3 mg/kg 2 fois par jour ; réduire si insuffisance rénale",
+    "COVID-19 non sévère chez une personne à haut risque : antiviral oral selon disponibilité et recommandations nationales",
+    "COVID-19 sévère (SpO₂ < 90 %, détresse) : oxygène (cible 92 à 96 %), décubitus ventral éveillé si toléré, dexaméthasone 6 mg par jour pendant 7 à 10 jours, prévention des thromboses (énoxaparine) ; tocilizumab ou baricitinib dans les formes sévères ou critiques en milieu spécialisé",
+    "Pas de corticoïdes dans les formes non sévères ; pas d'ivermectine, d'hydroxychloroquine ni d'azithromycine contre le virus",
+    "Antibiotiques seulement en cas de surinfection bactérienne : amoxicilline + acide clavulanique ou ceftriaxone ; ajouter cloxacilline si staphylocoque suspecté (pneumonie nécrosante après la grippe)",
+    "Équilibrer le diabète, surveiller les maladies chroniques ; femme enceinte : surveillance rapprochée, oseltamivir sans attendre"
    ],
    "gravite": [
-    "Dyspnée, SpO2 < 90 %, confusion",
-    "Personne à risque avec aggravation"
+    "Essoufflement, SpO₂ < 90 %, FR > 30/min, confusion",
+    "Personne à risque qui s'aggrave",
+    "Femme enceinte",
+    "Enfant avec tirage ou incapable de boire",
+    "Suspicion de grippe aviaire ou nouveau virus (cas groupés graves, exposition aux volailles)"
    ],
    "prevention": [
-    "Vaccination (grippe, COVID-19) des personnes à risque",
-    "Lavage des mains, port du masque, aération"
+    "Vaccination antigrippale annuelle des personnes à risque et du personnel de santé ; vaccination contre la COVID-19 selon le programme national",
+    "Lavage des mains, masque en cas de symptômes et dans les structures de soins, aération, tousser dans le coude",
+    "Isolement des malades hospitalisés",
+    "Ne pas manipuler les volailles malades ou mortes"
    ],
    "medicaments": [
     "Paracétamol",
@@ -38699,7 +38782,11 @@
     "Dexaméthasone",
     "Oxygène",
     "Énoxaparine",
-    "Amoxicilline"
+    "Amoxicilline + acide clavulanique",
+    "Ceftriaxone",
+    "Cloxacilline",
+    "Amoxicilline",
+    "Vaccin antigrippal (inactivé)"
    ]
   },
   {
@@ -39040,36 +39127,52 @@
    "nom": "Sinusite aiguë",
    "categorie": "respiratoire",
    "synonymes": "sinusite, sinus, nez bouché, douleur du visage",
-   "resume": "Inflammation des sinus, le plus souvent virale (rhume) ; parfois bactérienne.",
+   "resume": "Inflammation des sinus de la face, presque toujours virale au cours d'un rhume (elle guérit en 7 à 10 jours). Une sinusite bactérienne (pneumocoque, Haemophilus, Moraxella) n'est probable que dans moins de 2 % des cas et seulement selon des critères précis. Une sinusite maxillaire d'un seul côté avec écoulement fétide doit faire rechercher une cause dentaire. Les complications orbitaires et intracrâniennes sont rares mais graves.",
    "signes": [
-    "Obstruction nasale, écoulement purulent",
-    "Douleur ou pression du visage, augmentée en se penchant",
-    "Fièvre",
-    "Bactérienne si : symptômes > 10 jours, aggravation après amélioration, ou forme sévère"
+    "Obstruction nasale, écoulement nasal purulent, écoulement dans la gorge, toux",
+    "Douleur ou pression du visage (joues, front, autour des yeux), augmentée en se penchant en avant, douleur dentaire",
+    "Fièvre, perte de l'odorat",
+    "Bactérienne probable si : symptômes de plus de 10 jours sans amélioration ; début sévère (fièvre ≥ 39 °C et écoulement purulent pendant 3 à 4 jours) ; ou aggravation après une amélioration initiale (« double vague »)",
+    "Sinusite dentaire : douleur d'un seul côté, écoulement fétide, dent malade"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Rechercher les complications : œdème autour de l'œil, troubles visuels, céphalées intenses, raideur de nuque"
+    "Diagnostic clinique ; pas de radiographie des sinus en routine",
+    "Examen des dents et de la gorge",
+    "Rechercher les complications : œdème et rougeur autour de l'œil, douleur aux mouvements de l'œil, exophtalmie, baisse de vision, céphalées intenses, vomissements, raideur de nuque, confusion, gonflement du front",
+    "Diabétique déséquilibré ou immunodéprimé avec croûte noire nasale ou palatine : mucormycose (urgence)",
+    "Scanner si complication suspectée ou sinusite chronique"
    ],
    "traitement": [
-    "Lavages au sérum physiologique, paracétamol",
-    "Antibiotique seulement si bactérienne probable : amoxicilline 5 à 7 jours (amoxicilline-acide clavulanique si échec)",
-    "Sinusite dentaire : soins dentaires"
+    "Sinusite virale : lavages du nez au sérum physiologique plusieurs fois par jour, paracétamol ou ibuprofène ; décongestionnant nasal (xylométazoline) 3 à 5 jours au maximum chez l'adulte, jamais chez l'enfant de moins de 6 ans",
+    "Corticoïde nasal (budésonide) utile si les symptômes durent",
+    "Sinusite bactérienne probable : amoxicilline 1 g 3 fois par jour chez l'adulte (enfant 45 mg/kg 2 fois par jour) pendant 5 à 7 jours ; amoxicilline + acide clavulanique si échec à 72 h, forme sévère ou sinusite frontale ; allergie : doxycycline (adulte) ou céfuroxime",
+    "Sinusite dentaire : soins ou extraction de la dent, amoxicilline + acide clavulanique (ou amoxicilline + métronidazole)",
+    "Complication orbitaire ou intracrânienne : ceftriaxone IV + métronidazole (± cloxacilline), référence urgente ORL et ophtalmologie",
+    "Sinusite chronique (plus de 12 semaines) : lavages, corticoïde nasal au long cours, rechercher polypes, allergie, cause dentaire ; avis ORL"
    ],
    "gravite": [
-    "Œdème, rougeur autour de l'œil, baisse de vision (complication orbitaire)",
-    "Signes méningés → antibiotique IV, référence"
+    "Œdème, rougeur autour de l'œil, douleur aux mouvements de l'œil, baisse de vision (cellulite orbitaire)",
+    "Céphalées intenses, signes méningés, confusion (méningite, abcès, thrombophlébite) : antibiotique IV, référence",
+    "Gonflement du front (ostéite frontale)",
+    "Croûte noire chez un diabétique (mucormycose)"
    ],
    "prevention": [
-    "Traitement des infections dentaires"
+    "Traitement des infections dentaires, hygiène bucco-dentaire",
+    "Traitement de la rhinite allergique",
+    "Éviter la fumée"
    ],
    "medicaments": [
     "Amoxicilline",
     "Amoxicilline + acide clavulanique",
+    "Doxycycline",
+    "Céfuroxime",
+    "Métronidazole",
+    "Ceftriaxone",
     "Paracétamol",
+    "Ibuprofène",
     "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Xylométazoline nasale",
-    "Céfuroxime"
+    "Budésonide nasal"
    ]
   },
   {
@@ -39077,35 +39180,49 @@
    "nom": "Épistaxis (saignement de nez)",
    "categorie": "respiratoire",
    "synonymes": "saignement de nez, épistaxis",
-   "resume": "Saignement des fosses nasales, souvent bénin (zone antérieure), parfois révélateur d'une HTA, d'un trouble de la coagulation ou d'une fièvre hémorragique.",
+   "resume": "Saignement des fosses nasales, le plus souvent bénin et antérieur (tache vasculaire de la cloison), surtout chez l'enfant (grattage, rhume, air sec). Il peut être abondant chez l'adulte hypertendu ou sous anticoagulant, et révéler un trouble de la coagulation, une leucémie, une tumeur ou une fièvre hémorragique (dengue, Ebola). La compression bien faite arrête la plupart des saignements.",
    "signes": [
-    "Saignement par une ou les deux narines",
-    "Sang avalé (vomissements de sang)",
-    "Signes de gravité : pâleur, pouls rapide, saignement abondant ou prolongé"
+    "Saignement par une ou les deux narines, ou sang qui coule dans la gorge (épistaxis postérieure)",
+    "Sang avalé : vomissements de sang ou selles noires",
+    "Signes de gravité : saignement abondant ou prolongé, pâleur, sueurs, pouls rapide, PA basse",
+    "Saignements ailleurs (gencives, ecchymoses, urines) : trouble de la coagulation",
+    "Adolescent garçon avec épistaxis répétées et nez bouché d'un côté : fibrome nasopharyngien",
+    "Adulte avec obstruction et écoulement sanglant d'un côté : tumeur"
    ],
    "diagnostic": [
-    "Mesurer la TA, le pouls",
-    "Rechercher : traumatisme, HTA, anticoagulant, trouble de la coagulation (saignements ailleurs), dengue, Ebola"
+    "Mesurer la PA et le pouls ; évaluer l'abondance",
+    "Examen des fosses nasales après mouchage (lampe, spéculum) : saignement antérieur ou postérieur",
+    "Rechercher : traumatisme, HTA, anticoagulant (warfarine), aspirine ou AINS, trouble de la coagulation, maladie du foie, fièvre et saignements (dengue, fièvres hémorragiques : isoler)",
+    "Saignement abondant ou récidivant : NFS (hémoglobine, plaquettes), INR si anticoagulant, groupe sanguin"
    ],
    "traitement": [
-    "Patient assis, tête penchée en avant, se moucher puis comprimer les ailes du nez pendant 10 à 15 min sans relâcher",
-    "Si persistance : tamponnement antérieur (mèche imbibée d'acide tranexamique ou de vasoconstricteur si disponible)",
-    "Traiter la cause (HTA, AVK : vitamine K)",
-    "Remplissage, transfusion si hémorragie importante"
+    "Patient assis, tête légèrement penchée en avant (ne pas basculer la tête en arrière), cracher le sang ; se moucher pour évacuer les caillots, puis comprimer fermement les 2 ailes du nez entre le pouce et l'index pendant 10 à 15 min sans relâcher ; froid sur la nuque inutile",
+    "Si persistance : mèche ou compresse imbibée d'acide tranexamique (solution injectable 500 mg) ou de xylométazoline, introduite dans la narine, et nouvelle compression ; puis tamponnement antérieur avec une mèche grasse (vaseline) ou un tampon nasal, laissé 24 à 48 h",
+    "Saignement postérieur ou persistant malgré le tamponnement antérieur : sonde urinaire à ballonnet introduite par la narine jusqu'au pharynx, ballonnet gonflé avec 10 à 15 ml d'eau puis tiré doucement en arrière, avec tamponnement antérieur ; hospitalisation, oxygène, antalgiques, amoxicilline + acide clavulanique pendant la durée du tamponnement postérieur ; avis ORL",
+    "Traiter la cause : HTA très élevée (traitement oral, sans baisse brutale), surdosage en warfarine (arrêt, vitamine K1 selon l'INR), plaquettes basses (transfusion de plaquettes)",
+    "Remplissage et transfusion si hémorragie importante",
+    "Après l'arrêt : éviter de se moucher fort, l'effort, les boissons chaudes pendant 24 h ; vaseline dans les narines si air sec ; ongles courts chez l'enfant"
    ],
    "gravite": [
-    "Saignement persistant malgré le tamponnement antérieur (postérieur)",
+    "Saignement persistant malgré le tamponnement antérieur (épistaxis postérieure)",
     "Choc, anémie",
-    "Troubles de la coagulation"
+    "Troubles de la coagulation, saignements ailleurs",
+    "Fièvre avec saignements (isoler : fièvre hémorragique)"
    ],
    "prevention": [
-    "Humidifier les narines, contrôler la TA"
+    "Humidifier les narines (vaseline) en saison sèche, ne pas se gratter le nez",
+    "Contrôle de la PA",
+    "Surveillance des traitements anticoagulants"
    ],
    "medicaments": [
     "Acide tranexamique",
+    "Xylométazoline nasale",
     "Vitamine K1 (phytoménadione)",
+    "Amoxicilline + acide clavulanique",
+    "Concentré plaquettaire",
+    "Ringer lactate",
     "Amlodipine",
-    "Ringer lactate"
+    "Paracétamol"
    ]
   },
   {
@@ -39113,33 +39230,53 @@
    "nom": "Otite externe et otite chronique suppurée",
    "categorie": "respiratoire",
    "synonymes": "otite externe, oreille qui coule, otorrhée chronique, otite chronique",
-   "resume": "Otite externe : infection du conduit auditif (baignade). Otite moyenne chronique suppurée : écoulement de plus de 2 semaines par un tympan perforé, cause fréquente de surdité.",
+   "resume": "Otite externe : infection du conduit auditif externe (Pseudomonas, staphylocoque, champignons), favorisée par l'eau (baignade), le grattage et les objets introduits dans l'oreille. Otite moyenne chronique suppurée : écoulement de plus de 2 semaines par un tympan perforé, très fréquente chez l'enfant en Afrique et première cause de surdité acquise évitable ; elle peut se compliquer de mastoïdite, de paralysie faciale, de méningite ou d'abcès cérébral.",
    "signes": [
-    "Otite externe : douleur à la traction du pavillon, conduit rouge et gonflé",
-    "Otite chronique : écoulement purulent persistant, sans douleur, baisse de l'audition"
+    "Otite externe : douleur intense de l'oreille, augmentée par la traction du pavillon ou la pression devant l'oreille, conduit rouge, gonflé, écoulement, démangeaisons ; ganglion devant l'oreille",
+    "Otomycose : démangeaisons, dépôts blanchâtres ou noirâtres (« papier buvard »)",
+    "Furoncle du conduit : tuméfaction très douloureuse localisée",
+    "Otite externe maligne (sujet âgé diabétique ou immunodéprimé) : douleur intense et persistante, écoulement, bourgeons dans le conduit, paralysie faciale",
+    "Otite chronique suppurée : écoulement purulent persistant ou récidivant, sans douleur ni fièvre, baisse de l'audition ; perforation du tympan ; écoulement fétide avec poche de rétraction (cholestéatome)"
    ],
    "diagnostic": [
-    "Otoscopie après nettoyage",
-    "Rechercher une mastoïdite (gonflement derrière l'oreille), une paralysie faciale"
+    "Otoscopie après nettoyage du conduit (mèche, aspiration douce)",
+    "Évaluer l'audition (voix chuchotée, diapason)",
+    "Rechercher une mastoïdite (gonflement derrière l'oreille), une paralysie faciale, des vertiges, des céphalées, une fièvre, des signes méningés (complications)",
+    "Glycémie chez le patient âgé avec otite externe sévère ; test VIH si otites chroniques bilatérales chez l'enfant"
    ],
    "traitement": [
-    "Assèchement du conduit par mèches de coton (plusieurs fois par jour)",
-    "Gouttes de ciprofloxacine 2 fois par jour pendant 7 à 14 jours",
-    "Otite externe : antalgiques ; antibiotique oral seulement si extension (cellulite)",
-    "Pas d'eau dans l'oreille pendant le traitement"
+    "Otite externe : nettoyage doux du conduit, gouttes antiseptiques ou antibiotiques : acide acétique 2 % ou ciprofloxacine 2 fois par jour pendant 7 jours ; mèche si le conduit est très gonflé ; antalgiques (ibuprofène, paracétamol) ; garder l'oreille au sec (coton imbibé de vaseline pour la douche) ; antibiotique oral (cloxacilline) seulement si cellulite autour de l'oreille ou furoncle",
+    "Otomycose : nettoyage soigneux, clotrimazole en solution ou en crème dans le conduit pendant 2 semaines",
+    "Otite externe maligne : hospitalisation, ciprofloxacine orale à forte dose (750 mg 2 fois par jour) ou ceftazidime IV pendant au moins 6 semaines, équilibre du diabète, avis ORL",
+    "Otite chronique suppurée (OMS) : assèchement du conduit par mèches de coton ou de papier roulées 3 fois par jour, jusqu'à ce qu'elles ressortent sèches (enseigner à la famille), puis gouttes de ciprofloxacine 0,3 % 2 à 3 gouttes 2 fois par jour pendant 2 semaines ; antibiotique oral inutile sauf complication",
+    "Pas d'eau dans l'oreille pendant le traitement, ne rien introduire dans le conduit ; pas de gouttes aux aminosides (ototoxiques) sur un tympan perforé",
+    "Écoulement fétide persistant, cholestéatome : référence ORL pour chirurgie (tympanoplastie, mastoïdectomie)",
+    "Surdité : appareillage, aménagements scolaires",
+    "Complications (mastoïdite, paralysie faciale, méningite, abcès cérébral) : ceftriaxone + métronidazole IV, référence urgente"
    ],
    "gravite": [
-    "Mastoïdite, paralysie faciale, céphalées, fièvre élevée (complications intracrâniennes) → antibiotique IV, référence"
+    "Mastoïdite, paralysie faciale, vertiges, céphalées, fièvre élevée, raideur de nuque (complications intracrâniennes) : antibiotique IV, référence",
+    "Otite externe maligne chez le diabétique",
+    "Surdité bilatérale de l'enfant (retard de langage)"
    ],
    "prevention": [
-    "Traitement rapide des otites aiguës ; ne rien introduire dans les oreilles"
+    "Traitement rapide et complet des otites aiguës",
+    "Ne rien introduire dans les oreilles (cotons-tiges, objets, huiles)",
+    "Sécher les oreilles après la baignade",
+    "Dépistage de la surdité chez l'enfant d'âge scolaire"
    ],
    "medicaments": [
     "Ciprofloxacine gouttes auriculaires",
+    "Acide acétique 2 % (gouttes auriculaires)",
+    "Clotrimazole",
+    "Ciprofloxacine",
+    "Ceftazidime",
+    "Cloxacilline",
     "Amoxicilline",
-    "Paracétamol",
     "Ceftriaxone",
-    "Acide acétique 2 % (gouttes auriculaires)"
+    "Métronidazole",
+    "Paracétamol",
+    "Ibuprofène"
    ]
   },
   {
@@ -40077,40 +40214,43 @@
    "nom": "Rhinite et rhinopharyngite (rhume)",
    "categorie": "respiratoire",
    "synonymes": "rhume, nez qui coule, rhinopharyngite, nez bouché",
-   "resume": "Infection virale bénigne et très fréquente du nez et de la gorge, guérissant spontanément en 7 à 10 jours.",
+   "resume": "Infection virale bénigne et très fréquente du nez et de la gorge (rhinovirus et nombreux autres virus) : un enfant peut faire 6 à 10 rhumes par an. Elle guérit spontanément en 7 à 10 jours ; la toux peut persister 2 à 3 semaines. Les antibiotiques sont inutiles et les médicaments contre le rhume et la toux sont déconseillés chez le jeune enfant. L'enjeu est de reconnaître les complications (otite, pneumonie, sinusite) et les autres maladies qui débutent comme un rhume (rougeole, coqueluche).",
    "signes": [
-    "Écoulement nasal (clair puis épais, parfois purulent : ce n'est pas un signe d'infection bactérienne)",
-    "Obstruction nasale, éternuements",
-    "Mal de gorge, toux, fièvre modérée",
-    "Nourrisson : gêne pour téter et dormir à cause du nez bouché"
+    "Écoulement nasal clair puis épais, parfois jaune ou vert (ce n'est pas un signe d'infection bactérienne), obstruction nasale, éternuements",
+    "Mal de gorge, toux, fièvre modérée les 2 à 3 premiers jours",
+    "Nourrisson : gêne pour téter et dormir à cause du nez bouché, respiration bruyante",
+    "Complications : otite moyenne aiguë, sinusite, conjonctivite, bronchiolite (nourrisson), crise d'asthme, pneumonie"
    ],
    "diagnostic": [
     "Diagnostic clinique",
-    "Chez l'enfant : rechercher une otite, une pneumonie (respiration rapide)",
-    "En zone d'endémie : TDR paludisme si fièvre"
+    "Chez l'enfant : rechercher une otite (otoscopie), une pneumonie (compter la fréquence respiratoire, tirage)",
+    "En zone d'endémie : TDR paludisme si fièvre",
+    "Penser à : la rougeole au début (fièvre élevée, yeux rouges, contexte épidémique), la coqueluche (toux qui s'aggrave en quintes), la rhinite allergique (sans fièvre, démangeaisons), un corps étranger nasal (écoulement fétide d'un seul côté chez le jeune enfant)"
    ],
    "traitement": [
-    "Lavage du nez au sérum physiologique, moucher",
-    "Paracétamol si fièvre ou douleur",
-    "Pas d'antibiotique, pas de décongestionnant ni d'antitussif chez l'enfant",
-    "Nourrisson : désobstruction nasale au sérum physiologique avant les tétées, fractionner les repas",
-    "Miel (enfant de plus d'un an) pour calmer la toux",
-    "Durée normale : 7 à 10 jours ; la toux peut persister 2 à 3 semaines"
+    "Lavage du nez au sérum physiologique plusieurs fois par jour, moucher ; chez le nourrisson, désobstruction nasale avant les tétées et le sommeil, fractionner les repas",
+    "Paracétamol si fièvre ou douleur ; boire suffisamment, poursuivre l'allaitement et l'alimentation",
+    "Miel pour calmer la toux chez l'enfant de plus d'un an (pas avant 1 an : botulisme)",
+    "Pas d'antibiotique ; pas de décongestionnant, d'antitussif ni de médicament « contre le rhume » chez l'enfant de moins de 6 ans ; pas de codéine avant 12 ans",
+    "Adulte : décongestionnant nasal possible 3 à 5 jours au maximum",
+    "Expliquer la durée normale (7 à 10 jours, toux jusqu'à 3 semaines) et les signes qui doivent faire reconsulter : respiration rapide ou difficile, refus de boire, fièvre de plus de 3 jours, douleur d'oreille ou du visage, somnolence"
    ],
    "gravite": [
     "Respiration rapide, tirage (pneumonie)",
-    "Fièvre > 3 jours, otalgie, douleur du visage",
+    "Fièvre persistant plus de 3 jours, douleur d'oreille ou du visage",
     "Nourrisson de moins de 2 mois avec fièvre : référer",
     "Gêne respiratoire, refus de boire, léthargie"
    ],
    "prevention": [
-    "Lavage des mains",
+    "Lavage des mains, tousser et éternuer dans le coude",
     "Éviter la fumée (tabac, cuisine au bois dans la pièce)",
-    "Allaitement maternel"
+    "Allaitement maternel",
+    "Vaccinations à jour (rougeole, coqueluche)"
    ],
    "medicaments": [
     "Chlorure de sodium 0,9 % (sérum physiologique)",
-    "Paracétamol"
+    "Paracétamol",
+    "Xylométazoline nasale"
    ]
   },
   {
@@ -40308,35 +40448,43 @@
    "nom": "Bronchite aiguë",
    "categorie": "respiratoire",
    "synonymes": "bronchite, toux, rhume qui descend",
-   "resume": "Inflammation des bronches, presque toujours virale, avec une toux qui peut durer 2 à 3 semaines.",
+   "resume": "Inflammation des bronches, presque toujours virale, souvent après un rhume ou une grippe. Elle guérit spontanément, mais la toux peut durer 2 à 3 semaines. Les antibiotiques sont inutiles chez le sujet sain, même si les crachats sont colorés. L'enjeu est d'éliminer une pneumonie, un asthme, une coqueluche ou une tuberculose.",
    "signes": [
-    "Toux sèche puis productive",
-    "Fièvre modérée, gêne thoracique",
-    "Auscultation : ronchi, pas de foyer",
-    "Respiration normale (pas de polypnée)"
+    "Toux sèche puis productive (crachats clairs, jaunes ou verts), gêne ou brûlure derrière le sternum",
+    "Fièvre modérée et courte, fatigue",
+    "Auscultation : ronchi diffus, parfois sibilants, pas de foyer",
+    "Respiration normale (pas de polypnée), SpO₂ normale"
    ],
    "diagnostic": [
     "Diagnostic clinique",
-    "Éliminer une pneumonie (polypnée, fièvre élevée, foyer), un asthme, une coqueluche ; une toux > 2 semaines fait rechercher une tuberculose"
+    "Éliminer une pneumonie : pouls > 100/min, FR > 24/min, fièvre > 38 °C persistante, foyer de crépitants ou SpO₂ basse : radiographie",
+    "Toux de plus de 2 semaines : tuberculose (GeneXpert), coqueluche (quintes), asthme (sifflements récidivants), insuffisance cardiaque, reflux, toux sous IEC, tabac",
+    "Sujet âgé ou porteur de maladie chronique (BPCO, insuffisance cardiaque, diabète) : évaluation plus attentive"
    ],
    "traitement": [
-    "Paracétamol, boissons",
+    "Paracétamol, boissons abondantes, miel (adulte et enfant de plus d'un an)",
     "Pas d'antibiotique chez le sujet sain",
-    "Sibilants : salbutamol inhalé",
-    "BPCO ou terrain fragile avec expectoration purulente : amoxicilline 5 jours"
+    "Sifflements : salbutamol inhalé 2 bouffées à la demande",
+    "Arrêt du tabac",
+    "BPCO ou terrain fragile avec expectoration purulente et aggravation de l'essoufflement : amoxicilline 1 g 3 fois par jour (ou doxycycline) pendant 5 jours",
+    "Expliquer la durée normale de la toux et les signes qui doivent faire revenir : essoufflement, fièvre élevée ou qui persiste plus de 3 jours, crachats sanglants, toux de plus de 3 semaines"
    ],
    "gravite": [
     "Respiration rapide, tirage, SpO₂ basse (pneumonie)",
-    "Toux > 2 semaines (tuberculose)"
+    "Toux > 2 semaines (tuberculose)",
+    "Crachats sanglants",
+    "Sujet âgé ou insuffisant respiratoire qui s'aggrave"
    ],
    "prevention": [
     "Arrêt du tabac, éviter la fumée de cuisine",
-    "Vaccination contre la grippe des personnes à risque"
+    "Vaccination contre la grippe des personnes à risque",
+    "Lavage des mains"
    ],
    "medicaments": [
     "Paracétamol",
     "Salbutamol",
-    "Amoxicilline"
+    "Amoxicilline",
+    "Doxycycline"
    ]
   },
   {
@@ -40344,44 +40492,65 @@
    "nom": "Bronchite chronique et BPCO",
    "categorie": "respiratoire",
    "synonymes": "BPCO, bronchite chronique, emphysème, essoufflement, fumeur",
-   "resume": "Maladie respiratoire chronique liée au tabac et à la fumée de cuisine (bois, charbon), avec une obstruction bronchique qui s'aggrave lentement.",
+   "resume": "Bronchopneumopathie chronique obstructive : maladie respiratoire chronique avec obstruction bronchique peu réversible, qui s'aggrave lentement. En Afrique, elle est due au tabac, mais aussi à la fumée de cuisine (bois, charbon de bois) chez les femmes, aux poussières professionnelles (mines du Katanga) et aux séquelles de tuberculose. Les exacerbations et l'insuffisance respiratoire font sa gravité ; l'arrêt de l'exposition est le seul traitement qui ralentit l'évolution.",
    "signes": [
-    "Toux et expectoration au moins 3 mois par an pendant 2 ans",
-    "Essoufflement progressif à l'effort",
-    "Exacerbations : aggravation de la dyspnée, crachats purulents",
-    "Stade avancé : cyanose, œdèmes (cœur pulmonaire)"
+    "Toux et expectoration chroniques (au moins 3 mois par an pendant 2 ans)",
+    "Essoufflement progressif à l'effort, puis pour des gestes simples",
+    "Sifflements, infections bronchiques répétées",
+    "Exacerbation : aggravation de l'essoufflement, augmentation et purulence des crachats",
+    "Stade avancé : thorax distendu, respiration lèvres pincées, cyanose, amaigrissement, œdèmes des jambes et turgescence jugulaire (cœur pulmonaire), somnolence (hypercapnie)"
    ],
    "diagnostic": [
-    "Contexte (fumeur, fumée domestique, âge > 40 ans)",
-    "Spirométrie si disponible",
-    "Éliminer une tuberculose (crachats), un asthme, une insuffisance cardiaque"
+    "Contexte : fumeur (paquets-années), fumée domestique, poussières, antécédent de tuberculose, âge > 40 ans",
+    "Spirométrie après bronchodilatateur si disponible : VEMS/CVF < 0,70",
+    "SpO₂ au repos et à l'effort",
+    "Éliminer une tuberculose (GeneXpert, surtout en cas de crachats ou d'amaigrissement), un asthme (réversibilité, début jeune), une insuffisance cardiaque, des bronchectasies, un cancer",
+    "Radiographie du thorax ; NFS (polyglobulie) ; ECG et échographie si signes de cœur pulmonaire"
    ],
    "traitement": [
-    "Arrêt du tabac et de l'exposition aux fumées",
-    "Bronchodilatateurs : salbutamol à la demande ; ipratropium en traitement de fond",
-    "Corticoïde inhalé si exacerbations fréquentes",
-    "Exacerbation : salbutamol + ipratropium nébulisés, prednisolone 40 mg/jour 5 jours, amoxicilline (ou amoxicilline-acide clavulanique) si crachats purulents, oxygène prudent (SpO₂ cible 88 à 92 %)",
-    "Vaccination antigrippale"
+    "Arrêt du tabac (conseil à chaque visite, substituts nicotiniques, bupropion, varénicline ou cytisine) et de l'exposition aux fumées (foyers améliorés, cuisine aérée ou à l'extérieur)",
+    "Bronchodilatateurs : salbutamol à la demande ; traitement de fond par bronchodilatateur de longue durée (tiotropium 1 fois par jour) ou, à défaut, ipratropium 2 bouffées 4 fois par jour ; association avec un bêta-2 de longue durée si essoufflement persistant",
+    "Corticoïde inhalé (béclométasone ou budésonide-formotérol) seulement si exacerbations fréquentes ou asthme associé",
+    "Technique d'inhalation vérifiée à chaque visite (chambre d'inhalation)",
+    "Activité physique régulière et réhabilitation respiratoire (marche quotidienne, exercices de respiration) ; nutrition",
+    "Vaccinations : grippe chaque année, pneumocoque",
+    "Oxygène au long cours si SpO₂ ≤ 88 % au repos (centres équipés)",
+    "Exacerbation : salbutamol + ipratropium nébulisés ou en spray avec chambre ; prednisolone 40 mg par jour pendant 5 jours ; antibiotique si crachats purulents avec aggravation de l'essoufflement ou du volume des crachats : amoxicilline, doxycycline ou amoxicilline + acide clavulanique pendant 5 jours ; oxygène prudent avec SpO₂ cible 88 à 92 % (excès d'oxygène : somnolence par hypercapnie) ; ventilation non invasive si acidose respiratoire, là où elle existe",
+    "Cœur pulmonaire : furosémide pour les œdèmes, oxygène",
+    "Plan d'action écrit pour les exacerbations ; soins palliatifs du stade terminal (morphine à faible dose contre l'essoufflement)"
    ],
    "gravite": [
-    "Troubles de conscience, somnolence (hypercapnie)",
-    "Cyanose, SpO₂ < 88 % malgré l'oxygène",
-    "Œdèmes, insuffisance cardiaque"
+    "Troubles de conscience, somnolence, céphalées, tremblements (hypercapnie)",
+    "Cyanose, SpO₂ < 88 % malgré l'oxygène, FR > 30/min, muscles respiratoires accessoires",
+    "Œdèmes, insuffisance cardiaque droite",
+    "Pneumothorax (douleur brutale)",
+    "Exacerbations fréquentes"
    ],
    "prevention": [
-    "Arrêt du tabac, foyers améliorés et cuisine aérée"
+    "Arrêt du tabac et lutte contre le tabagisme",
+    "Foyers améliorés, cuisine aérée, combustibles propres",
+    "Protection respiratoire au travail (mines, carrières)",
+    "Traitement précoce et complet de la tuberculose",
+    "Vaccination antigrippale"
    ],
    "medicaments": [
     "Salbutamol",
     "Ipratropium (bromure) inhalé",
+    "Tiotropium",
     "Béclométasone inhalée",
+    "Budésonide + formotérol",
     "Prednisolone",
     "Amoxicilline",
     "Amoxicilline + acide clavulanique",
+    "Doxycycline",
     "Oxygène",
-    "Vaccin antigrippal (inactivé)",
-    "Tiotropium",
-    "Budésonide + formotérol"
+    "Furosémide",
+    "Morphine",
+    "Substituts nicotiniques",
+    "Bupropion",
+    "Varénicline",
+    "Cytisine",
+    "Vaccin antigrippal (inactivé)"
    ]
   },
   {
@@ -40389,34 +40558,63 @@
    "nom": "Pneumonie traînante",
    "categorie": "respiratoire",
    "synonymes": "pneumonie qui ne guérit pas, toux persistante, pneumonie chronique",
-   "resume": "Pneumonie qui ne s'améliore pas malgré un traitement bien conduit : penser à une autre cause.",
+   "resume": "Pneumonie qui ne s'améliore pas après 48 à 72 h, ou dont les signes persistent après 1 semaine ou plus d'un antibiotique adapté et bien pris. Il faut alors revoir le diagnostic plutôt que changer d'antibiotique à l'aveugle : en RDC, la tuberculose et les infections opportunistes du VIH sont les causes les plus fréquentes, suivies des complications (empyème, abcès) et des germes résistants.",
    "signes": [
-    "Fièvre, toux, dyspnée persistant après 1 semaine ou plus d'antibiotique adapté",
-    "Amaigrissement, sueurs nocturnes"
+    "Fièvre, toux, essoufflement persistant après 1 semaine ou plus d'antibiotique adapté, ou rechute après une amélioration",
+    "Amaigrissement, sueurs nocturnes (tuberculose)",
+    "Douleur et matité d'un côté (épanchement, empyème)",
+    "Crachats fétides abondants (abcès, bronchectasies)",
+    "Crachats rouillés ou sanglants (tuberculose, paragonimose, cancer)",
+    "Sifflement localisé d'un côté (corps étranger, tumeur)",
+    "Œdèmes, orthopnée (insuffisance cardiaque)",
+    "Lésions de la peau ou de la bouche violacées (Kaposi)"
    ],
    "diagnostic": [
-    "Rechercher : tuberculose (crachats, GeneXpert, radiographie), pneumocystose (VIH), staphylococcie, abcès ou épanchement pleural, corps étranger, paragonimose (douve pulmonaire, crachats rouillés)",
-    "Test VIH"
+    "Vérifier d'abord : bon antibiotique, bonne dose, bonne prise, absorption",
+    "Test VIH et CD4 ; TB-LAM et antigène cryptococcique si VIH avancé",
+    "GeneXpert et examen des crachats (bacilles, œufs de douve), culture et antibiogramme si disponibles",
+    "Radiographie de contrôle : caverne, abcès (niveau liquide), épanchement, miliaire, atélectasie, masse",
+    "Échographie pleurale et ponction de tout épanchement (pus : empyème ; exsudat lymphocytaire : tuberculose)",
+    "NFS (éosinophilie : parasites), hémocultures",
+    "Bronchoscopie ou scanner si disponibles (corps étranger, tumeur)",
+    "Causes à rechercher : tuberculose, pneumocystose, cryptococcose, histoplasmose, nocardiose, sarcome de Kaposi (VIH) ; staphylocoque, Klebsiella, germe résistant ; empyème, abcès, bronchectasies ; corps étranger, cancer ; paragonimose ; insuffisance cardiaque, embolie pulmonaire"
    ],
    "traitement": [
-    "Selon la cause : antituberculeux, cotrimoxazole fortes doses (pneumocystose), drainage d'un empyème, antibiotique anti-staphylococcique",
-    "Paragonimose : praziquantel"
+    "Selon la cause trouvée : tuberculose : traitement antituberculeux ; pneumocystose : cotrimoxazole à forte dose (+ prednisolone si hypoxie) ; cryptococcose ou histoplasmose : voir les fiches dédiées",
+    "Patient vivant avec le VIH gravement malade sans diagnostic rapide possible : traitement antituberculeux empirique (OMS) et cotrimoxazole à forte dose si pneumocystose possible",
+    "Empyème : drainage thoracique + antibiotique (amoxicilline + acide clavulanique ou ceftriaxone + métronidazole, cloxacilline si staphylocoque), 3 à 6 semaines",
+    "Abcès du poumon : amoxicilline + acide clavulanique ou clindamycine pendant 4 à 6 semaines, drainage postural, kinésithérapie",
+    "Staphylocoque : cloxacilline (vancomycine ou clindamycine si résistant) ; Klebsiella ou germe hospitalier : selon l'antibiogramme",
+    "Paragonimose : praziquantel 25 mg/kg 3 fois par jour pendant 2 à 3 jours",
+    "Corps étranger : bronchoscopie",
+    "Insuffisance cardiaque : traitement adapté",
+    "Bronchectasies : kinésithérapie de drainage quotidienne, antibiotiques lors des poussées",
+    "Soutien nutritionnel, oxygène si besoin"
    ],
    "gravite": [
-    "Détresse respiratoire",
-    "Empyème",
-    "Hémoptysie abondante"
+    "Détresse respiratoire, SpO₂ < 90 %",
+    "Empyème, pyopneumothorax",
+    "Hémoptysie abondante",
+    "VIH avancé gravement malade"
    ],
    "prevention": [
-    "Dépistage du VIH et de la tuberculose"
+    "Dépistage du VIH et de la tuberculose chez tout patient avec pneumonie",
+    "Traitement complet et bien dosé des pneumonies",
+    "Vaccinations"
    ],
    "medicaments": [
     "RHZE (rifampicine + isoniazide + pyrazinamide + éthambutol)",
     "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
+    "Prednisolone",
+    "Amoxicilline + acide clavulanique",
+    "Ceftriaxone",
+    "Métronidazole",
     "Cloxacilline",
+    "Clindamycine",
+    "Vancomycine",
     "Praziquantel",
     "Triclabendazole",
-    "Amoxicilline + acide clavulanique"
+    "Oxygène"
    ]
   },
   {
@@ -40473,40 +40671,54 @@
    "nom": "Asthme chronique (traitement de fond)",
    "categorie": "respiratoire",
    "synonymes": "asthme, traitement de fond, contrôle de l'asthme, sifflements",
-   "resume": "Maladie inflammatoire chronique des bronches. Le traitement de fond par corticoïde inhalé réduit les crises et les décès.",
+   "resume": "Maladie inflammatoire chronique des bronches, avec des épisodes de sifflements, d'essoufflement et de toux, réversibles. Fréquente chez l'enfant et l'adulte jeune, souvent associée à la rhinite allergique. Le traitement de fond par corticoïde inhalé réduit les crises graves, les hospitalisations et les décès ; un asthmatique ne devrait jamais être traité par salbutamol seul au long cours (GINA). L'objectif est un asthme contrôlé avec la dose la plus faible efficace.",
    "signes": [
-    "Épisodes répétés de sifflements, essoufflement, toux nocturne ou à l'effort",
-    "Facteurs déclenchants : infections, fumée, poussière, froid, effort",
-    "Asthme non contrôlé : symptômes > 2 fois par semaine, réveils nocturnes, recours fréquent au salbutamol"
+    "Épisodes répétés de sifflements, essoufflement, oppression thoracique, toux sèche, surtout la nuit, au petit matin ou à l'effort",
+    "Facteurs déclenchants : infections virales, fumée (tabac, cuisine), poussière, acariens, moisissures, pollens, froid, effort, émotions, aspirine et AINS, bêtabloquants",
+    "Asthme non contrôlé (GINA, sur les 4 dernières semaines) : symptômes de jour plus de 2 fois par semaine, réveils nocturnes, salbutamol plus de 2 fois par semaine, limitation des activités",
+    "Signes associés : rhinite allergique, eczéma, antécédents familiaux"
    ],
    "diagnostic": [
-    "Diagnostic clinique (réponse au salbutamol) ; débit expiratoire de pointe si disponible",
-    "Éliminer une tuberculose, une insuffisance cardiaque"
+    "Diagnostic clinique (épisodes récidivants, réponse au salbutamol) ; débit expiratoire de pointe (amélioration ≥ 20 % après salbutamol, variabilité) ou spirométrie si disponibles",
+    "Éliminer une tuberculose, une insuffisance cardiaque, une BPCO (fumeur âgé), un corps étranger, un reflux",
+    "Évaluer à chaque visite : contrôle des symptômes, crises, technique d'inhalation, observance, exposition aux déclencheurs, comorbidités (rhinite, obésité, reflux)"
    ],
    "traitement": [
-    "Paliers : 1) salbutamol à la demande (OMS/GINA : éviter le salbutamol seul au long cours chez l'adulte)",
-    "2) corticoïde inhalé à faible dose quotidien (béclométasone 100 à 200 µg 2 fois par jour)",
-    "3) augmenter la dose ± bêta-2 de longue durée",
-    "Technique d'inhalation avec chambre (bouteille en plastique chez l'enfant)",
-    "Plan d'action écrit, contrôle de l'environnement",
-    "Revoir tous les 3 mois et ajuster"
+    "Adulte et adolescent, traitement préférentiel (GINA) : budésonide-formotérol 200/6 µg à faible dose à la demande, en traitement de secours et anti-inflammatoire (paliers 1 et 2) ; palier 3 : budésonide-formotérol 1 inhalation 2 fois par jour + à la demande (traitement de fond et de secours) ; palier 4 : dose moyenne ; palier 5 : avis spécialisé (ajout de tiotropium, autres traitements)",
+    "Alternative si budésonide-formotérol indisponible : salbutamol à la demande + corticoïde inhalé quotidien à faible dose (béclométasone 100 à 200 µg 2 fois par jour, ou budésonide 200 µg 2 fois par jour), à augmenter si non contrôlé ; au minimum, prendre le corticoïde inhalé à chaque prise de salbutamol",
+    "Enfant de 6 à 11 ans : corticoïde inhalé quotidien à faible dose (béclométasone 50 à 100 µg 2 fois par jour) + salbutamol à la demande",
+    "Enfant de moins de 5 ans avec sifflements fréquents : corticoïde inhalé à faible dose quotidien (béclométasone 100 µg par jour) avec chambre et masque, essai de 3 mois",
+    "Technique d'inhalation avec chambre (une bouteille en plastique de 500 ml peut servir de chambre chez l'enfant) ; rincer la bouche après le corticoïde inhalé",
+    "Plan d'action écrit : que faire si les symptômes augmentent (augmenter les inhalations, prednisolone, consulter)",
+    "Contrôle de l'environnement : pas de tabac à la maison, cuisine aérée, réduire poussière et moisissures",
+    "Traiter la rhinite allergique (corticoïde nasal)",
+    "Vaccination antigrippale",
+    "Revoir 1 à 3 mois après tout changement, puis tous les 3 à 12 mois ; diminuer la dose après 3 mois de contrôle",
+    "Grossesse : poursuivre le traitement inhalé (un asthme mal contrôlé est plus dangereux)",
+    "Éviter l'aspirine et les AINS si sensibilité, et les bêtabloquants"
    ],
    "gravite": [
     "Crise grave (voir Crise d'asthme)",
-    "Recours aux urgences, corticoïdes oraux répétés"
+    "Recours aux urgences, hospitalisation ou corticoïdes oraux répétés dans l'année",
+    "Utilisation de plus d'un flacon de salbutamol par mois",
+    "Antécédent d'intubation"
    ],
    "prevention": [
-    "Éviter la fumée et les déclencheurs ; vaccination antigrippale"
+    "Éviter la fumée et les déclencheurs connus ; arrêt du tabac de l'entourage",
+    "Vaccination antigrippale",
+    "Traitement de fond bien suivi, technique d'inhalation vérifiée",
+    "Éducation thérapeutique"
    ],
    "medicaments": [
-    "Béclométasone inhalée",
-    "Salbutamol",
-    "Prednisolone",
-    "Ipratropium (bromure) inhalé",
-    "Vaccin antigrippal (inactivé)",
-    "Budésonide inhalé",
     "Budésonide + formotérol",
-    "Tiotropium"
+    "Béclométasone inhalée",
+    "Budésonide inhalé",
+    "Salbutamol",
+    "Tiotropium",
+    "Ipratropium (bromure) inhalé",
+    "Prednisolone",
+    "Budésonide nasal",
+    "Vaccin antigrippal (inactivé)"
    ]
   },
   {
@@ -44258,32 +44470,38 @@
    "nom": "Rhinite allergique",
    "categorie": "respiratoire",
    "synonymes": "rhinite allergique, rhume des foins, éternuements, allergie nasale",
-   "resume": "Inflammation allergique du nez (pollens, acariens, poussière, moisissures), souvent associée à l'asthme et à la conjonctivite allergique.",
+   "resume": "Inflammation allergique de la muqueuse nasale (acariens, poussière domestique, moisissures, pollens, poils d'animaux, blattes), fréquente chez l'enfant et l'adulte jeune. Souvent associée à la conjonctivite allergique, à l'eczéma et à l'asthme (une rhinite mal contrôlée aggrave l'asthme). Le corticoïde nasal est le traitement le plus efficace des formes persistantes.",
    "signes": [
-    "Éternuements en salves, nez qui coule clair, nez bouché, démangeaisons du nez et des yeux",
-    "Saisonnière ou toute l'année",
-    "Pas de fièvre"
+    "Éternuements en salves, nez qui coule clair, nez bouché, démangeaisons du nez, du palais et des yeux",
+    "Yeux rouges, larmoyants (conjonctivite allergique)",
+    "Saisonnière ou toute l'année, souvent le matin ; pas de fièvre",
+    "Enfant : frotte son nez vers le haut (pli nasal), respire par la bouche, ronfle, cernes, fatigue, troubles de l'attention",
+    "Perte de l'odorat, polypes (formes chroniques)"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Rechercher un asthme associé",
-    "Distinguer d'une rhinite infectieuse (fièvre, écoulement purulent d'un seul côté, douleur faciale)"
+    "Diagnostic clinique ; préciser les déclencheurs et le retentissement (sommeil, école, travail)",
+    "Rechercher un asthme associé (sifflements, toux nocturne)",
+    "Distinguer d'une rhinite infectieuse (fièvre, écoulement purulent d'un seul côté, douleur faciale), d'une rhinite due aux décongestionnants (usage prolongé), de végétations ou d'un corps étranger chez l'enfant, d'une tumeur (saignement d'un côté)",
+    "Tests cutanés allergologiques si disponibles et si une immunothérapie est envisagée"
    ],
    "traitement": [
-    "Éviter les allergènes (poussière, literie lavée, aération)",
-    "Lavages au sérum physiologique",
-    "Antihistaminique (loratadine)",
-    "Corticoïde nasal (budésonide) si symptômes persistants",
-    "Décongestionnant (xylométazoline) uniquement quelques jours",
+    "Éviter les allergènes : laver la literie chaque semaine à l'eau chaude, aérer, réduire la poussière et l'humidité, pas de tabac à la maison",
+    "Lavages du nez au sérum physiologique",
+    "Antihistaminique oral non sédatif : loratadine 10 mg par jour (enfant de 2 à 12 ans de moins de 30 kg : 5 mg par jour) ; éviter les antihistaminiques sédatifs (chlorphénamine) chez l'enfant scolarisé",
+    "Symptômes persistants ou nez bouché : corticoïde nasal (budésonide 1 à 2 pulvérisations dans chaque narine 1 à 2 fois par jour), efficace après quelques jours, à utiliser régulièrement pendant la saison ou au long cours ; diriger le spray vers l'extérieur de la narine",
+    "Décongestionnant (xylométazoline) uniquement quelques jours (risque de rhinite médicamenteuse)",
+    "Conjonctivite allergique : compresses froides, lavages au sérum physiologique, éviter de frotter",
     "Traiter l'asthme associé",
-    "Doses : loratadine 10 mg/jour (enfant de 2 à 12 ans de moins de 30 kg : 5 mg/jour)"
+    "Échec : avis ORL ou allergologue (polypes, immunothérapie spécifique)"
    ],
    "gravite": [
-    "Asthme non contrôlé",
-    "Sinusite, polypes"
+    "Asthme non contrôlé associé",
+    "Sinusite, polypes nasaux, perte de l'odorat",
+    "Ronflement avec apnées du sommeil chez l'enfant"
    ],
    "prevention": [
-    "Réduction de l'exposition aux allergènes"
+    "Réduction de l'exposition aux allergènes et à la fumée",
+    "Traitement précoce pour limiter le retentissement scolaire et le risque d'asthme"
    ],
    "medicaments": [
     "Loratadine",
