@@ -1,5 +1,5 @@
 {
- "version": 28,
+ "version": 29,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -34255,53 +34255,70 @@
    "nom": "Tuberculose pulmonaire",
    "categorie": "vih",
    "synonymes": "TB, BK, tuberculose, toux chronique",
-   "resume": "Infection à Mycobacterium tuberculosis, transmise par voie aérienne. Toute toux de plus de 2 semaines doit faire rechercher une tuberculose.",
+   "resume": "Infection par Mycobacterium tuberculosis transmise par voie aérienne (toux d'un malade dont les crachats contiennent des bacilles). La RDC fait partie des 30 pays les plus touchés par la tuberculose, la co-infection tuberculose-VIH et la tuberculose multirésistante. Tout patient qui tousse depuis plus de 2 semaines (ou depuis n'importe quelle durée s'il vit avec le VIH) doit être testé. Le traitement gratuit, supervisé, de 4 à 6 mois guérit plus de 85 % des patients.",
    "signes": [
-    "Toux > 2 semaines, expectorations, parfois hémoptysies",
-    "Fièvre vespérale, sueurs nocturnes",
-    "Amaigrissement, asthénie, perte d'appétit",
-    "Enfant : stagnation du poids, contact avec un tuberculeux"
+    "Toux de plus de 2 semaines, expectorations, parfois sanglantes (hémoptysie)",
+    "Fièvre surtout le soir, sueurs nocturnes abondantes",
+    "Amaigrissement, perte d'appétit, fatigue",
+    "Douleur thoracique, essoufflement dans les formes étendues",
+    "Personne vivant avec le VIH : toux de n'importe quelle durée, fièvre, sueurs ou perte de poids (dépistage des 4 symptômes) ; formes souvent atypiques",
+    "Enfant : toux persistante, fièvre, cassure de la courbe de poids ou malnutrition qui ne répond pas, léthargie, contact avec un tuberculeux",
+    "Groupes à dépister activement : contacts du foyer, personnes vivant avec le VIH, détenus, mineurs, diabétiques, malnutris, anciens tuberculeux"
    ],
    "diagnostic": [
-    "Examen des crachats : test moléculaire rapide (GeneXpert) ou microscopie (BK)",
-    "Radiographie thoracique si disponible",
-    "Dépistage du VIH systématique",
-    "Enfant : diagnostic souvent clinique et radiologique"
+    "Test moléculaire rapide (GeneXpert MTB/RIF Ultra ou équivalent) en 1re intention sur les crachats : détecte le bacille et la résistance à la rifampicine en 2 h",
+    "Microscopie des crachats (BK) si le test moléculaire n'est pas disponible, et pour le suivi",
+    "Personne vivant avec le VIH : TB-LAM urinaire (si CD4 < 200, maladie avancée ou patient hospitalisé gravement malade) en plus du GeneXpert",
+    "Enfant : GeneXpert sur crachats, aspiration gastrique, aspiration nasopharyngée ou selles ; à défaut, décision de traitement par l'algorithme OMS (symptômes, contact, radiographie)",
+    "Radiographie du thorax : infiltrats des sommets, cavernes, miliaire, adénopathies médiastinales (enfant) ; utile au dépistage et quand les crachats sont négatifs",
+    "Test VIH systématique ; glycémie (diabète) ; poids et IMC ; transaminases si antécédent hépatique ou alcool",
+    "Résistance à la rifampicine détectée : voir la fiche Tuberculose pharmacorésistante"
    ],
    "traitement": [
-    "Schéma standard 6 mois : 2 mois RHZE puis 4 mois RH (adulte)",
-    "Enfant : RHZ(E) pédiatrique ; forme non sévère : schéma de 4 mois",
-    "Prise supervisée, pesée mensuelle et adaptation des doses",
-    "Pyridoxine si VIH, grossesse, dénutrition",
-    "VIH : ARV dans les 2 semaines (sauf méningite tuberculeuse) et cotrimoxazole",
-    "Contrôle des crachats à 2, 5 et 6 mois",
-    "Doses adultes en comprimés combinés RHZE (75/150/400/275 mg) en phase intensive : 30 à 39 kg 2 comprimés, 40 à 54 kg 3, 55 à 70 kg 4, plus de 70 kg 5 ; même nombre de comprimés RH en phase de continuation",
-    "Effets indésirables : ictère ou vomissements (arrêter et référer, hépatite), troubles de la vision (éthambutol), fourmillements (pyridoxine), urines orange (normal, rifampicine)",
-    "Enquête autour du cas : dépister tous les contacts ; traitement préventif pour les enfants de moins de 5 ans et les personnes vivant avec le VIH sans tuberculose active",
-    "Absence de prise : relance rapide à domicile ; crachats positifs à 2 mois : rechercher une résistance (GeneXpert)"
+    "Adulte, tuberculose sensible : 2 mois de RHZE (rifampicine, isoniazide, pyrazinamide, éthambutol) puis 4 mois de RH, en comprimés à doses fixes, chaque jour, sous observation directe (agent de santé, membre de la famille, vidéo)",
+    "Doses adultes en comprimés RHZE (150/75/400/275 mg) en phase intensive : 30 à 39 kg 2 comprimés, 40 à 54 kg 3, 55 à 70 kg 4, plus de 70 kg 5 ; même nombre de comprimés RH (150/75) en phase de continuation",
+    "Enfant : comprimés dispersibles RHZ (75/50/150 mg) ± éthambutol 100 mg : 4 à 7 kg 1 comprimé, 8 à 11 kg 2, 12 à 15 kg 3, 16 à 24 kg 4, 25 kg et plus : doses adultes ; tuberculose non sévère de l'enfant de 3 mois à 16 ans (ganglions périphériques ou intrathoraciques sans obstruction, lésion limitée à un lobe, sans caverne) : 4 mois (2 RHZ(E) / 2 RH)",
+    "À partir de 12 ans, le schéma de 4 mois rifapentine-moxifloxacine (HPMZ) est possible selon la disponibilité dans le programme",
+    "Pyridoxine 10 à 25 mg par jour chez la personne vivant avec le VIH, la femme enceinte ou allaitante, le malnutri, le diabétique, l'alcoolique et l'insuffisant rénal",
+    "VIH : ARV dans les 2 semaines suivant le début du traitement antituberculeux (sauf méningite tuberculeuse : 4 à 8 semaines) ; dolutégravir 50 mg 2 fois par jour pendant la rifampicine et 2 semaines après ; cotrimoxazole",
+    "Femme enceinte ou allaitante : même traitement, sans danger",
+    "Contraception : la rifampicine diminue l'efficacité de la pilule et de l'implant (utiliser DMPA, DIU ou préservatif)",
+    "Suivi : poids chaque mois (adapter les doses), crachats à la fin du 2e mois (fin du 5e et du 6e mois chez l'adulte avec crachats positifs au départ) ; crachats positifs à 2 mois : GeneXpert et culture pour rechercher une résistance",
+    "Effets indésirables mineurs : urines orange (normal), nausées (prendre au coucher ou avec un repas léger), douleurs articulaires (pyrazinamide : paracétamol), fourmillements (pyridoxine 50 à 100 mg)",
+    "Effets graves : ictère, vomissements répétés ou transaminases > 5 fois la normale (ou > 3 fois avec symptômes) : arrêter tous les antituberculeux, puis réintroduire un à un après normalisation ; éruption sévère : arrêter ; baisse de la vision ou des couleurs (éthambutol) : arrêter l'éthambutol, avis ophtalmologique",
+    "Interruption : moins d'un mois, reprendre et compléter ; plus de 2 mois, refaire GeneXpert et culture, puis recommencer selon le résultat",
+    "Hémoptysie abondante : position couchée du côté malade, oxygène, acide tranexamique, transfusion, transfert",
+    "Soutien : alimentation (rations du programme), soutien psychosocial et financier, éducation sur la contagion (aérer, tousser dans le coude, masque les 2 premières semaines)",
+    "Déclarer chaque cas au programme ; enquête autour du cas : dépister tous les contacts du foyer ; traitement préventif pour ceux sans tuberculose active"
    ],
    "gravite": [
-    "Hémoptysie abondante, détresse respiratoire",
-    "Méningite tuberculeuse, mal de Pott",
-    "Ictère sous traitement (hépatite médicamenteuse) → arrêter et référer",
-    "Échec ou suspicion de résistance → test de résistance"
+    "Hémoptysie abondante, détresse respiratoire, SpO₂ < 90 %",
+    "Méningite tuberculeuse, miliaire, péricardite, mal de Pott",
+    "Malnutrition sévère, VIH avancé : hospitaliser",
+    "Ictère sous traitement (hépatite médicamenteuse) : arrêter et référer",
+    "Échec (crachats positifs à 5 mois), rechute, contact d'un cas de TB-MR : test de résistance"
    ],
    "prevention": [
-    "Dépistage des contacts",
-    "Traitement préventif (isoniazide) des contacts et des personnes vivant avec le VIH",
-    "BCG à la naissance",
-    "Aération des locaux, port du masque"
+    "Dépistage actif et traitement précoce (meilleure prévention de la transmission)",
+    "Traitement préventif des contacts et des personnes vivant avec le VIH",
+    "BCG à la naissance (protège l'enfant contre les formes graves)",
+    "Contrôle de l'infection : tri des tousseurs, aération, masques pour les malades, appareils de protection respiratoire pour les soignants",
+    "ARV pour toutes les personnes vivant avec le VIH",
+    "Lutte contre la malnutrition, le tabac et le diabète"
    ],
    "medicaments": [
     "RHZE (rifampicine + isoniazide + pyrazinamide + éthambutol)",
     "RHZ pédiatrique (+ éthambutol)",
+    "Rifampicine",
     "Isoniazide (INH)",
+    "Pyrazinamide",
+    "Éthambutol",
     "Pyridoxine (vitamine B6)",
     "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
-    "Éthambutol",
-    "Pyrazinamide",
     "Isoniazide + rifapentine (3HP / 1HP)",
-    "Rifabutine"
+    "Moxifloxacine",
+    "Rifabutine",
+    "Acide tranexamique"
    ]
   },
   {
@@ -34309,54 +34326,71 @@
    "nom": "Infection à VIH (prise en charge initiale)",
    "categorie": "vih",
    "synonymes": "VIH, SIDA, HIV, séropositif, ARV",
-   "resume": "Infection chronique par le virus de l'immunodéficience humaine. Le traitement antirétroviral à vie permet une espérance de vie quasi normale et empêche la transmission.",
+   "resume": "Infection chronique par le virus de l'immunodéficience humaine, transmise par voie sexuelle, sanguine et de la mère à l'enfant. Sans traitement, elle évolue vers le sida (infections opportunistes, cancers). Le traitement antirétroviral (ARV) à vie, débuté rapidement quel que soit le taux de CD4, permet une espérance de vie presque normale, et une charge virale indétectable empêche la transmission sexuelle (indétectable = intransmissible).",
    "signes": [
-    "Souvent asymptomatique au début",
-    "Amaigrissement, fièvre ou diarrhée prolongées",
-    "Infections opportunistes : tuberculose, candidose buccale ou œsophagienne, zona, pneumonie, méningite à cryptocoque",
-    "Enfant : retard de croissance, infections répétées"
+    "Primo-infection (2 à 4 semaines après la contamination) : fièvre, éruption, angine, ganglions, ulcérations buccales, souvent méconnue",
+    "Phase sans symptôme de plusieurs années",
+    "Puis : amaigrissement, fièvre ou diarrhée prolongées, candidose buccale, zona, prurigo, infections respiratoires répétées, ganglions",
+    "Sida : tuberculose, méningite à cryptocoque, pneumocystose, toxoplasmose, sarcome de Kaposi, candidose de l'œsophage, encéphalopathie",
+    "Enfant : retard de croissance, malnutrition qui ne répond pas, infections répétées, parotidite chronique, retard du développement",
+    "Classer selon les stades cliniques OMS 1 à 4"
    ],
    "diagnostic": [
-    "Test rapide selon l'algorithme national (2 à 3 tests)",
-    "Nourrisson exposé : PCR (test virologique) à la naissance ou à 6 semaines",
-    "Bilan : stade clinique OMS, CD4 si disponible (CrAg si CD4 < 200), dépistage de la tuberculose"
+    "Dépistage proposé à tous les patients (consultation, CPN, tuberculose, IST, malnutrition, hospitalisation), avec consentement et confidentialité",
+    "Tests rapides selon l'algorithme national (3 tests positifs consécutifs) ; refaire un test avant de débuter les ARV pour confirmer",
+    "Nourrisson exposé : test virologique (PCR) à la naissance et/ou à 6 semaines, à 9 mois, et 6 semaines après l'arrêt de l'allaitement ; sérologie à 18 mois",
+    "Bilan initial sans retarder les ARV : stade OMS, poids, CD4 (maladie avancée si < 200/mm³), dépistage de la tuberculose (symptômes, TB-LAM, GeneXpert), antigène cryptococcique si CD4 < 200, AgHBs, anticorps anti-VHC, créatinine (ténofovir), test de grossesse, dépistage de la syphilis, du cancer du col et de la dépression",
+    "Dépistage des partenaires et des enfants (dépistage index)"
    ],
    "traitement": [
-    "Débuter les ARV rapidement (même jour si possible), quel que soit le taux de CD4 : TLD chez l'adulte et l'adolescent ≥ 30 kg ; enfant : ABC/3TC + dolutégravir pédiatrique",
-    "Cotrimoxazole en prophylaxie selon le protocole",
-    "Traitement préventif de la tuberculose (isoniazide) si pas de tuberculose active",
-    "Charge virale à 6 mois puis chaque année ; soutien à l'observance",
-    "PTME : ARV pour la mère, névirapine (± AZT) pour le nouveau-né",
-    "Bilan initial : CD4 (maladie avancée si < 200/mm³), antigène cryptococcique sérique et TB-LAM urinaire si CD4 < 200 ou malade, AgHBs, créatinine, test de grossesse",
-    "Charge virale ≥ 1 000 copies/ml : renforcer l'observance pendant 3 mois puis contrôler ; si toujours ≥ 1 000 sous dolutégravir : avis pour un changement de ligne",
-    "Dépistage du cancer du col chez la femme (IVA) et dépistage de la tuberculose à chaque visite"
+    "Débuter les ARV le jour même ou dans les 7 jours, quel que soit le taux de CD4, après préparation et consentement (différer en cas de méningite à cryptocoque ou tuberculeuse)",
+    "Adulte, adolescent et enfant de 30 kg et plus, y compris la femme enceinte ou en âge de procréer : TLD (ténofovir 300 mg + lamivudine 300 mg + dolutégravir 50 mg), 1 comprimé par jour",
+    "Enfant à partir de 4 semaines et 3 kg : abacavir + lamivudine + dolutégravir pédiatrique 10 mg dispersible (doses selon le poids) ; dès 20 kg, dolutégravir 50 mg adulte possible ; nouveau-né de moins de 4 semaines : AZT + 3TC + névirapine ou raltégravir",
+    "Insuffisance rénale (clairance < 30 ml/min) : éviter le ténofovir (abacavir ou zidovudine)",
+    "Tuberculose sous rifampicine : dolutégravir 50 mg 2 fois par jour (dose supplémentaire de 50 mg le soir) pendant et 2 semaines après",
+    "Dolutégravir : prendre 2 h avant ou 6 h après les antiacides, le fer, le calcium ou le zinc ; effets possibles : insomnie, céphalées, prise de poids",
+    "Cotrimoxazole 960 mg par jour (enfant selon le poids) : en RDC (paludisme et infections bactériennes fréquents), le donner à tous et le poursuivre, quel que soit le taux de CD4",
+    "Traitement préventif de la tuberculose si la tuberculose active est exclue",
+    "Fluconazole préventif si antigène cryptococcique positif sans méningite",
+    "Charge virale à 6 mois, à 12 mois, puis chaque année ; femme enceinte ou allaitante : à 34-36 semaines puis tous les 6 mois ; charge virale ≥ 1 000 copies/ml : voir la fiche Échec du traitement antirétroviral",
+    "Patient stable (charge virale supprimée) : renouvellement des ARV pour 3 à 6 mois, groupes communautaires, visites espacées",
+    "Soutien : éducation thérapeutique, annonce au partenaire, soutien des pairs, santé mentale, réduction de l'alcool ; planification familiale et dépistage du cancer du col (IVA)",
+    "Vaccins : hépatite B si AgHBs négatif, pneumocoque, PEV complet chez l'enfant (pas de BCG chez l'enfant infecté symptomatique)",
+    "Dépistage de la tuberculose à chaque visite"
    ],
    "gravite": [
-    "Signes de tuberculose, de méningite (céphalées, raideur, confusion), dyspnée",
+    "Signes de danger : incapable de marcher seul, FR > 30/min, FC > 120/min, température > 39 °C : hospitaliser (voir la fiche Maladie à VIH avancée)",
+    "Céphalées intenses, confusion, raideur de nuque, convulsions (cryptocoque, toxoplasmose, méningite)",
+    "Toux, dyspnée, désaturation (tuberculose, pneumocystose)",
     "Amaigrissement important, diarrhée chronique",
-    "Effets indésirables graves (éruption, ictère)"
+    "Effets indésirables graves : éruption avec atteinte des muqueuses, ictère, réaction d'hypersensibilité à l'abacavir (fièvre, éruption, troubles digestifs : arrêt définitif)"
    ],
    "prevention": [
-    "Préservatif, dépistage, PrEP pour les personnes à risque",
+    "Préservatifs masculins et féminins",
+    "Dépistage régulier, traitement de tous les séropositifs (charge virale indétectable = pas de transmission sexuelle)",
+    "PrEP pour les personnes à risque élevé : ténofovir + emtricitabine quotidien (ou à la demande chez les hommes ayant des rapports avec des hommes), anneau vaginal à la dapivirine, cabotégravir ou lénacapavir injectables selon la disponibilité",
+    "Prophylaxie post-exposition (TLD 28 jours) dans les 72 h après une exposition",
     "PTME",
-    "Prophylaxie post-exposition (TLD 28 jours) dans les 72 h"
+    "Sécurité transfusionnelle et des injections",
+    "Circoncision masculine médicale volontaire"
    ],
    "medicaments": [
     "Ténofovir + lamivudine + dolutégravir (TLD)",
-    "Dolutégravir pédiatrique",
-    "Abacavir + lamivudine (ABC/3TC)",
-    "Névirapine (prophylaxie néonatale)",
-    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
-    "Isoniazide (INH)",
-    "Fluconazole",
-    "Amphotéricine B",
-    "Flucytosine",
-    "Ténofovir + lamivudine + éfavirenz (TLE)",
-    "Isoniazide + rifapentine (3HP / 1HP)",
-    "Ténofovir + emtricitabine (TDF/FTC) – PrEP",
     "Abacavir + dolutégravir + lamivudine (ABC/DTG/3TC)",
+    "Abacavir + lamivudine (ABC/3TC)",
+    "Dolutégravir pédiatrique",
+    "Zidovudine + lamivudine (AZT/3TC)",
+    "Raltégravir",
+    "Névirapine (prophylaxie néonatale)",
+    "Ténofovir + lamivudine + éfavirenz (TLE)",
+    "Éfavirenz + emtricitabine + ténofovir (TEE)",
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
     "Isoniazide + pyridoxine + cotrimoxazole (association fixe)",
-    "Éfavirenz + emtricitabine + ténofovir (TEE)"
+    "Isoniazide (INH)",
+    "Isoniazide + rifapentine (3HP / 1HP)",
+    "Fluconazole",
+    "Ténofovir + emtricitabine (TDF/FTC) – PrEP",
+    "Vaccin hépatite B"
    ]
   },
   {
@@ -37305,40 +37339,52 @@
    "nom": "Méningite à cryptocoque (VIH)",
    "categorie": "vih",
    "synonymes": "cryptococcose, méningite cryptococcique, VIH avancé",
-   "resume": "Infection fongique du système nerveux chez la personne VIH+ avec CD4 bas. Une des premières causes de décès liés au VIH.",
+   "resume": "Infection fongique du système nerveux par Cryptococcus neoformans chez la personne vivant avec le VIH dont les CD4 sont bas (le plus souvent < 100/mm³). Une des premières causes de décès liés au VIH en Afrique (mortalité de 30 à 70 % sans traitement adapté). Le dépistage de l'antigène cryptococcique chez les patients à CD4 < 200, le traitement d'induction de l'OMS et les ponctions lombaires évacuatrices réduisent fortement la mortalité.",
    "signes": [
-    "Céphalées progressives et intenses, fièvre",
-    "Confusion, troubles du comportement, convulsions",
-    "Troubles visuels, paralysie des nerfs crâniens",
-    "Raideur de nuque souvent absente"
+    "Céphalées progressives et de plus en plus intenses sur 1 à 2 semaines, fièvre souvent modérée",
+    "Nausées, vomissements",
+    "Confusion, troubles du comportement, somnolence, convulsions, coma",
+    "Troubles visuels (vision floue, cécité), diplopie (paralysie du VI), surdité",
+    "Raideur de nuque souvent absente",
+    "Lésions cutanées ombiliquées (ressemblant au molluscum), toux (atteinte pulmonaire)"
    ],
    "diagnostic": [
-    "Antigène cryptococcique (CrAg) sang ou LCR (test rapide)",
-    "Ponction lombaire : pression d'ouverture élevée, encre de Chine",
-    "Dépistage CrAg systématique si CD4 < 200"
+    "Antigène cryptococcique (CrAg) par test rapide dans le LCR (ou dans le sang si la ponction est impossible)",
+    "Ponction lombaire : mesurer la pression d'ouverture (manomètre ou tubulure) ; LCR souvent clair, peu de cellules, encre de Chine positive, culture",
+    "Dépistage systématique du CrAg sanguin chez tout adulte ou adolescent avec CD4 < 200/mm³ (ou < 100) avant les ARV",
+    "Rechercher aussi tuberculose (TB-LAM, GeneXpert sur LCR), méningite bactérienne, toxoplasmose",
+    "Créatinine, potassium, hémoglobine avant l'amphotéricine"
    ],
    "traitement": [
-    "Induction (OMS 2022) : amphotéricine B liposomale 10 mg/kg dose unique + flucytosine 100 mg/kg/j + fluconazole 1 200 mg/j pendant 14 jours (alternative : amphotéricine désoxycholate + flucytosine 7 jours, puis fluconazole)",
-    "Consolidation : fluconazole 800 mg/j pendant 8 semaines, puis entretien 200 mg/j",
-    "Ponctions lombaires évacuatrices répétées si hypertension intracrânienne",
-    "Débuter les ARV 4 à 6 semaines après le début du traitement antifongique",
-    "CrAg positif sans méningite : fluconazole préemptif"
+    "Induction de 1re intention (OMS 2022) : amphotéricine B liposomale 10 mg/kg en une seule perfusion + flucytosine 100 mg/kg par jour en 4 prises pendant 14 jours + fluconazole 1 200 mg par jour (enfant 12 mg/kg, maximum 800 mg) pendant 14 jours",
+    "Si l'amphotéricine liposomale manque : amphotéricine B désoxycholate 1 mg/kg par jour + flucytosine pendant 7 jours, puis fluconazole 1 200 mg par jour pendant 7 jours ; sans amphotéricine : fluconazole 1 200 mg + flucytosine 100 mg/kg par jour pendant 14 jours",
+    "Amphotéricine désoxycholate : préhydratation par 1 litre de sérum physiologique avec 20 mmol de KCl avant chaque dose, supplément oral de potassium et de magnésium ; créatinine, potassium et hémoglobine au départ puis 2 à 3 fois par semaine",
+    "Consolidation : fluconazole 800 mg par jour (enfant 6 à 12 mg/kg) pendant 8 semaines ; entretien : 200 mg par jour (enfant 6 mg/kg), arrêté quand le patient est stable sous ARV depuis au moins 1 an avec CD4 ≥ 200 (ou ≥ 100 et charge virale supprimée)",
+    "Pression d'ouverture > 25 cm d'eau ou céphalées intenses : ponction évacuatrice (retirer 20 à 30 ml, jusqu'à une pression < 20 cm ou divisée par deux), à répéter chaque jour jusqu'à amélioration ; les ponctions répétées réduisent la mortalité, même sans manomètre",
+    "Pas de corticoïdes, de mannitol ni d'acétazolamide",
+    "ARV 4 à 6 semaines après le début du traitement antifongique (un démarrage plus précoce augmente la mortalité) ; surveiller le syndrome inflammatoire de restauration immunitaire",
+    "Antigène positif dans le sang sans méningite (ponction lombaire normale, sans symptôme) : fluconazole 800 mg par jour pendant 2 semaines, puis 400 mg par jour pendant 8 semaines, puis 200 mg ; ARV sans attendre",
+    "Traitement de la douleur (paracétamol), des convulsions, nutrition ; flucytosine : NFS (neutropénie)"
    ],
    "gravite": [
-    "Troubles de conscience, convulsions",
-    "Céphalées non soulagées (hypertension intracrânienne)",
-    "Baisse de la vision"
+    "Troubles de conscience, convulsions, coma",
+    "Céphalées non soulagées, vomissements (hypertension intracrânienne)",
+    "Baisse de la vision : ponctions évacuatrices urgentes",
+    "Toxicité de l'amphotéricine : insuffisance rénale, hypokaliémie, anémie",
+    "Aggravation après le début des ARV (restauration immunitaire)"
    ],
    "prevention": [
-    "Dépistage du VIH et ARV précoces",
-    "Dépistage CrAg chez les patients à CD4 bas"
+    "Dépistage précoce du VIH et ARV avant que les CD4 ne chutent",
+    "Dépistage du CrAg chez les patients à CD4 < 200 et fluconazole préventif si positif",
+    "Prophylaxie secondaire par fluconazole"
    ],
    "medicaments": [
     "Amphotéricine B",
     "Flucytosine",
     "Fluconazole",
-    "Ténofovir + lamivudine + dolutégravir (TLD)",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Chlorure de potassium (KCl) injectable",
+    "Ténofovir + lamivudine + dolutégravir (TLD)",
     "Paracétamol"
    ]
   },
@@ -37347,35 +37393,49 @@
    "nom": "Pneumocystose (VIH)",
    "categorie": "vih",
    "synonymes": "pneumocystose, PCP, Pneumocystis, pneumonie VIH",
-   "resume": "Pneumonie à Pneumocystis jirovecii chez la personne VIH+ non traitée, et le nourrisson exposé au VIH.",
+   "resume": "Pneumonie à Pneumocystis jirovecii, champignon opportuniste, chez la personne vivant avec le VIH non traitée (CD4 < 200/mm³) et chez le nourrisson exposé ou infecté par le VIH (surtout entre 2 et 6 mois), où elle est souvent mortelle. Évitable par la prophylaxie par cotrimoxazole.",
    "signes": [
-    "Toux sèche, dyspnée d'installation progressive",
-    "Fièvre",
-    "Hypoxémie (SpO2 basse, désaturation à l'effort) contrastant avec une auscultation pauvre",
-    "Nourrisson VIH+ : pneumonie sévère avec hypoxie"
+    "Toux sèche, essoufflement d'installation progressive sur 2 à 4 semaines (plus rapide chez le nourrisson), fièvre modérée",
+    "Hypoxémie (SpO₂ basse, désaturation à l'effort) contrastant avec une auscultation presque normale",
+    "Fatigue, amaigrissement, candidose buccale associée",
+    "Nourrisson exposé au VIH : pneumonie sévère avec tirage, cyanose, sans fièvre élevée, qui ne répond pas aux antibiotiques habituels",
+    "Complication : pneumothorax"
    ],
    "diagnostic": [
-    "Contexte VIH (CD4 < 200) ; radiographie (infiltrat interstitiel)",
-    "Éliminer une tuberculose"
+    "Contexte : VIH non traité ou CD4 < 200, absence de cotrimoxazole, nourrisson exposé",
+    "SpO₂ au repos et après effort (marche ou montée de marches)",
+    "Radiographie : infiltrat interstitiel bilatéral diffus « en verre dépoli » partant des hiles, parfois normale ; kystes, pneumothorax",
+    "Expectoration induite ou lavage broncho-alvéolaire avec immunofluorescence si disponibles ; LDH élevées",
+    "Toujours rechercher une tuberculose (GeneXpert, TB-LAM) et une pneumonie bactérienne associées"
    ],
    "traitement": [
-    "Cotrimoxazole à forte dose pendant 21 jours : triméthoprime 5 mg/kg (sulfaméthoxazole 25 mg/kg) 3 à 4 fois par jour",
-    "Forme modérée à sévère (SpO2 < 92 %) : prednisolone 40 mg 2 fois/j 5 jours, puis 40 mg/j 5 jours, puis 20 mg/j 11 jours",
-    "Oxygène",
-    "Prophylaxie secondaire par cotrimoxazole et ARV"
+    "Cotrimoxazole à forte dose pendant 21 jours : triméthoprime 15 à 20 mg/kg par jour (sulfaméthoxazole 75 à 100 mg/kg par jour) en 3 ou 4 prises, IV si le patient ne peut avaler ; chez l'adulte de 60 kg environ : 2 comprimés à 960 mg 3 fois par jour",
+    "Forme modérée à sévère (SpO₂ < 92 % ou PaO₂ < 70 mmHg) : prednisolone dans les 72 h : 40 mg 2 fois par jour pendant 5 jours, puis 40 mg par jour pendant 5 jours, puis 20 mg par jour pendant 11 jours ; enfant 2 mg/kg par jour pendant 7 jours puis décroissance",
+    "Nourrisson de moins d'un an exposé au VIH avec pneumonie sévère : traitement antibiotique de la pneumonie + cotrimoxazole à forte dose + prednisolone, en attendant le diagnostic",
+    "Oxygène pour maintenir la SpO₂ ≥ 92 % (≥ 94 % chez l'enfant)",
+    "Allergie grave aux sulfamides : pentamidine 4 mg/kg par jour IV pendant 21 jours (surveiller la glycémie, la PA, la créatinine) ou clindamycine + primaquine",
+    "Effets du cotrimoxazole à forte dose : éruption, fièvre, baisse des globules blancs, hyperkaliémie ; surveiller la NFS et le potassium si possible",
+    "Débuter les ARV dans les 2 semaines",
+    "Puis prophylaxie secondaire par cotrimoxazole 960 mg par jour, poursuivie selon la politique nationale (en RDC, sans interruption)"
    ],
    "gravite": [
-    "Détresse respiratoire, SpO2 < 90 % malgré l'oxygène"
+    "Détresse respiratoire, SpO₂ < 90 % malgré l'oxygène : ventilation si disponible",
+    "Pneumothorax (douleur brutale, aggravation)",
+    "Nourrisson : mortalité élevée",
+    "Absence d'amélioration après 7 jours : tuberculose, infection bactérienne ou fongique associée"
    ],
    "prevention": [
-    "Prophylaxie par cotrimoxazole des personnes VIH+ et des nourrissons exposés"
+    "Cotrimoxazole prophylactique chez toutes les personnes vivant avec le VIH selon le protocole national et chez tous les nourrissons exposés dès 6 semaines jusqu'à exclusion de l'infection après l'arrêt de l'allaitement",
+    "Dépistage précoce du VIH et ARV"
    ],
    "medicaments": [
     "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
     "Prednisolone",
     "Oxygène",
-    "Ténofovir + lamivudine + dolutégravir (TLD)",
-    "Pentamidine"
+    "Pentamidine",
+    "Clindamycine",
+    "Primaquine",
+    "Ténofovir + lamivudine + dolutégravir (TLD)"
    ]
   },
   {
@@ -37383,38 +37443,52 @@
    "nom": "Toxoplasmose cérébrale (VIH)",
    "categorie": "vih",
    "synonymes": "toxoplasmose cérébrale, abcès cérébral VIH",
-   "resume": "Abcès cérébraux à Toxoplasma gondii chez la personne VIH+ avec CD4 < 100.",
+   "resume": "Abcès cérébraux dus à la réactivation de Toxoplasma gondii chez la personne vivant avec le VIH dont les CD4 sont < 100/mm³ (surtout en l'absence de cotrimoxazole). Première cause de lésion cérébrale focale chez la personne vivant avec le VIH ; le diagnostic repose souvent sur l'amélioration rapide sous traitement d'épreuve.",
    "signes": [
-    "Céphalées, fièvre",
-    "Déficit neurologique focal (hémiparésie, troubles de la parole)",
-    "Convulsions, confusion"
+    "Céphalées, fièvre, d'installation sur quelques jours à semaines",
+    "Déficit neurologique focal : hémiparésie, troubles de la parole, paralysie faciale, ataxie",
+    "Convulsions, confusion, troubles du comportement, somnolence, coma",
+    "Signes d'hypertension intracrânienne : vomissements, troubles de la vigilance"
    ],
    "diagnostic": [
-    "Diagnostic présomptif chez un patient VIH+ avec déficit focal",
-    "Scanner si disponible (lésions en cocarde)",
-    "Amélioration sous traitement en 10 à 14 jours confirme le diagnostic"
+    "Diagnostic présomptif : patient vivant avec le VIH, CD4 < 100 ou maladie avancée, déficit focal ou convulsions",
+    "Scanner ou IRM si disponible : lésions multiples en cocarde avec œdème, dans les noyaux gris centraux et à la jonction cortex-substance blanche",
+    "Sérologie IgG toxoplasmose (une sérologie négative rend le diagnostic peu probable)",
+    "Amélioration clinique en 7 à 14 jours sous traitement : confirme le diagnostic",
+    "Différentiels : tuberculome ou méningite tuberculeuse, cryptococcome, lymphome cérébral, leucoencéphalopathie multifocale progressive, abcès bactérien, AVC",
+    "Ponction lombaire contre-indiquée en cas d'effet de masse"
    ],
    "traitement": [
-    "Cotrimoxazole à forte dose : triméthoprime 5 mg/kg + sulfaméthoxazole 25 mg/kg 2 fois par jour pendant 6 semaines",
-    "Puis prophylaxie secondaire par cotrimoxazole",
-    "Anticonvulsivants si crises",
-    "ARV 2 à 3 semaines après le début du traitement"
+    "Cotrimoxazole à forte dose : triméthoprime 5 mg/kg + sulfaméthoxazole 25 mg/kg 2 fois par jour (adulte de 60 kg environ : 2 comprimés à 960 mg 2 fois par jour) pendant 6 semaines, par sonde gastrique si troubles de conscience",
+    "Alternative : pyriméthamine 200 mg le 1er jour puis 50 mg (< 60 kg) à 75 mg par jour + sulfadiazine 1 à 1,5 g toutes les 6 h + acide folinique 10 à 25 mg par jour, pendant 6 semaines",
+    "Œdème cérébral avec effet de masse ou troubles de conscience : dexaméthasone 4 mg toutes les 6 h quelques jours, puis décroissance (peut masquer un lymphome)",
+    "Convulsions : lévétiracétam ou valproate de préférence (la carbamazépine et la phénytoïne interagissent avec les ARV) ; phénobarbital si seul disponible",
+    "ARV 2 à 3 semaines après le début du traitement",
+    "Puis prophylaxie secondaire par cotrimoxazole 960 mg par jour, jusqu'à CD4 > 200 depuis plus de 6 mois sous ARV (poursuivi en RDC selon la politique nationale)",
+    "Soins du patient alité, rééducation précoce, nutrition",
+    "Absence d'amélioration après 10 à 14 jours : revoir le diagnostic (tuberculose : traitement d'épreuve, lymphome : avis spécialisé)"
    ],
    "gravite": [
-    "Coma, hypertension intracrânienne",
-    "Absence d'amélioration après 2 semaines (penser à la tuberculose, au lymphome)"
+    "Coma, signes d'engagement (pupille dilatée, respiration irrégulière)",
+    "Convulsions répétées",
+    "Absence d'amélioration après 2 semaines",
+    "Toxicité du cotrimoxazole (éruption grave, neutropénie)"
    ],
    "prevention": [
-    "Prophylaxie primaire par cotrimoxazole, ARV"
+    "Cotrimoxazole prophylactique (protège aussi contre la toxoplasmose)",
+    "Diagnostic précoce du VIH et ARV",
+    "Hygiène alimentaire (viande bien cuite, lavage des légumes) chez les personnes séronégatives pour le toxoplasme"
    ],
    "medicaments": [
     "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
-    "Phénobarbital",
-    "Lévétiracétam",
-    "Ténofovir + lamivudine + dolutégravir (TLD)",
     "Pyriméthamine",
     "Sulfadiazine",
-    "Folinate de calcium (acide folinique)"
+    "Folinate de calcium (acide folinique)",
+    "Dexaméthasone",
+    "Lévétiracétam",
+    "Valproate de sodium",
+    "Phénobarbital",
+    "Ténofovir + lamivudine + dolutégravir (TLD)"
    ]
   },
   {
@@ -37422,34 +37496,51 @@
    "nom": "Candidoses (buccale, œsophagienne, vaginale)",
    "categorie": "vih",
    "synonymes": "muguet, candidose, mycose de la bouche, candidose œsophagienne, mycose vaginale",
-   "resume": "Infections à Candida, fréquentes chez le nourrisson, la femme et la personne immunodéprimée. La candidose œsophagienne est un signe de VIH avancé.",
+   "resume": "Infections à levures du genre Candida, fréquentes chez le nourrisson (muguet), la femme (vulvovaginite, surtout pendant la grossesse ou après des antibiotiques), le diabétique et la personne immunodéprimée. Une candidose buccale inexpliquée chez l'adulte ou une candidose de l'œsophage doit faire rechercher le VIH (stade 3 ou 4).",
    "signes": [
-    "Buccale : dépôts blancs détachables, rougeur, brûlures",
-    "Œsophagienne : douleur à la déglutition, difficulté à s'alimenter",
-    "Vaginale : prurit, pertes blanches épaisses"
+    "Buccale (muguet) : dépôts blancs crémeux qui se détachent en laissant une muqueuse rouge, langue rouge lisse, perlèche (fissures aux coins des lèvres), brûlures, goût altéré ; nourrisson qui tète mal",
+    "Œsophagienne : douleur à la déglutition (odynophagie), difficulté à avaler, douleur rétrosternale, amaigrissement ; souvent associée à un muguet",
+    "Vulvovaginale : démangeaisons, brûlures, pertes blanches épaisses « en lait caillé » sans odeur, vulve rouge et gonflée, douleur lors des rapports",
+    "Peau : intertrigo (plis rouges suintants avec petites pustules en bordure), érythème fessier du nourrisson, atteinte des ongles",
+    "Formes invasives (prématuré, neutropénique, cathéter) : fièvre, sepsis"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Candidose buccale récidivante ou œsophagienne de l'adulte : dépistage du VIH"
+    "Diagnostic clinique ; examen direct au microscope (levures, filaments) si doute",
+    "Candidose buccale récidivante ou œsophagienne de l'adulte : test VIH, CD4 ; glycémie",
+    "Odynophagie qui ne répond pas au fluconazole en 7 jours : penser à l'herpès, au CMV, aux ulcères aphteux, endoscopie si disponible",
+    "Pertes vaginales : distinguer de la vaginose bactérienne et de la trichomonase (voir la fiche Écoulement vaginal)"
    ],
    "traitement": [
-    "Buccale : nystatine 4 fois par jour pendant 7 à 14 jours (miconazole gel en alternative) ; fluconazole 50 à 100 mg/j 7 à 14 jours si étendue",
-    "Œsophagienne : fluconazole 200 à 400 mg/j pendant 14 à 21 jours",
-    "Vaginale : clotrimazole ovule 500 mg dose unique ou fluconazole 150 mg dose unique (hors grossesse)",
-    "Nourrisson allaité : traiter aussi les mamelons de la mère"
+    "Buccale légère : miconazole gel buccal 4 fois par jour (pas avant 4 mois : risque de fausse route) ou nystatine 100 000 UI 4 fois par jour pendant 7 à 14 jours, à garder en bouche avant d'avaler ; nourrisson : badigeonner après les tétées",
+    "Buccale étendue ou chez la personne vivant avec le VIH : fluconazole 50 à 100 mg par jour (enfant 3 à 6 mg/kg) pendant 7 à 14 jours",
+    "Œsophagienne : fluconazole 200 à 400 mg par jour (enfant 6 mg/kg le 1er jour puis 3 à 6 mg/kg) pendant 14 à 21 jours ; si le patient ne peut avaler : fluconazole IV ; échec : itraconazole ou amphotéricine B",
+    "Vulvovaginale : clotrimazole ovule 500 mg en dose unique (ou 200 mg 3 soirs, ou 100 mg 6 soirs) ou fluconazole 150 mg en dose unique ; femme enceinte : clotrimazole pendant 7 jours, pas de fluconazole oral",
+    "Candidose vaginale récidivante (au moins 4 épisodes par an) : fluconazole 150 mg tous les 3 jours (3 doses) puis une fois par semaine pendant 6 mois ; rechercher diabète et VIH",
+    "Partenaire : traiter seulement s'il a des symptômes (balanite)",
+    "Nourrisson allaité : traiter aussi les mamelons de la mère (miconazole crème ou nystatine), stériliser tétines et biberons",
+    "Peau : garder sec, clotrimazole ou miconazole crème 2 fois par jour pendant 2 à 4 semaines ; érythème fessier : changer souvent les couches, crème antifongique",
+    "Personne vivant avec le VIH : ARV (les récidives cessent avec la restauration immunitaire) ; inhalateur de corticoïde : rincer la bouche après usage"
    ],
    "gravite": [
-    "Impossibilité de s'alimenter, déshydratation",
-    "Candidose chez le nouveau-né prématuré (risque de forme invasive)"
+    "Impossibilité de s'alimenter ou de boire, déshydratation, amaigrissement",
+    "Candidose chez le nouveau-né prématuré ou le patient neutropénique (risque de forme invasive)",
+    "Fièvre chez un patient porteur de cathéter ou immunodéprimé (candidémie)",
+    "Échec du fluconazole (résistance)"
    ],
    "prevention": [
-    "ARV chez la personne VIH+ ; hygiène des biberons et tétines"
+    "ARV chez la personne vivant avec le VIH",
+    "Équilibre du diabète",
+    "Éviter les antibiotiques inutiles",
+    "Hygiène des biberons, tétines et prothèses dentaires",
+    "Sous-vêtements en coton, éviter les douches vaginales"
    ],
    "medicaments": [
     "Nystatine",
+    "Miconazole (crème 2 % et gel buccal)",
     "Fluconazole",
     "Clotrimazole",
-    "Miconazole (crème 2 % et gel buccal)",
+    "Itraconazole",
+    "Amphotéricine B",
     "Micafungine"
    ]
   },
@@ -37458,39 +37549,54 @@
    "nom": "Hépatite B",
    "categorie": "vih",
    "synonymes": "hépatite B, VHB, AgHBs, jaunisse",
-   "resume": "Infection virale du foie, transmise par le sang, les rapports sexuels et de la mère à l'enfant. Peut évoluer vers la cirrhose et le cancer du foie.",
+   "resume": "Infection du foie par le virus de l'hépatite B, transmise de la mère à l'enfant (principale voie en Afrique), par le sang (injections, transfusions, actes non stérilisés), les rapports sexuels et les contacts familiaux. Environ 3 à 6 % de la population congolaise porte le virus. Une infection acquise à la naissance devient chronique dans 90 % des cas et peut évoluer silencieusement vers la cirrhose et le cancer du foie. Le vaccin à la naissance et le ténofovir permettent de prévenir et de contrôler la maladie. L'hépatite D (delta), qui n'infecte que les porteurs du virus B, est fréquente en Afrique centrale et aggrave le pronostic.",
    "signes": [
-    "Aiguë : fatigue, nausées, ictère, urines foncées (souvent sans symptôme)",
-    "Chronique : souvent silencieuse",
-    "Cirrhose : ascite, ictère, saignements, encéphalopathie"
+    "Hépatite aiguë : souvent sans symptôme ; fatigue, nausées, perte d'appétit, douleurs de l'hypochondre droit, puis ictère, urines foncées, selles décolorées",
+    "Hépatite chronique : longtemps silencieuse ; fatigue",
+    "Cirrhose : amaigrissement, ascite, œdèmes, ictère, angiomes stellaires, saignements, hémorragie digestive, encéphalopathie",
+    "Cancer du foie : douleur, masse de l'hypochondre droit, amaigrissement rapide, chez un adulte souvent jeune",
+    "Manifestations extrahépatiques : glomérulonéphrite, vascularite"
    ],
    "diagnostic": [
-    "Test rapide AgHBs",
-    "Bilan si positif : transaminases (ALAT), plaquettes, échographie, charge virale si disponible ; score APRI",
-    "Dépistage VIH et hépatite C"
+    "Test rapide AgHBs (dépistage : femmes enceintes, personnes vivant avec le VIH, donneurs de sang, contacts familiaux, personnel de santé, toute hépatite ou cirrhose)",
+    "Si AgHBs positif : transaminases (ALAT), NFS et plaquettes, créatinine, score APRI (> 0,5 : fibrose significative ; > 1 ou > 2 : cirrhose probable), échographie, élastométrie (FibroScan) si disponible",
+    "Charge virale de l'ADN du VHB et AgHBe si disponibles",
+    "Dépister le VIH, l'hépatite C et l'hépatite D (anticorps anti-VHD)",
+    "AgHBs positif 6 mois après : infection chronique",
+    "Hépatite aiguë grave : TP ou INR, glycémie"
    ],
    "traitement": [
-    "Hépatite aiguë : repos, éviter alcool et médicaments hépatotoxiques ; pas d'antiviral sauf forme grave",
-    "Chronique : ténofovir (TDF) 300 mg/j si cirrhose, fibrose significative, ALAT élevées persistantes ou charge virale élevée, co-infection (critères élargis OMS 2024)",
-    "Co-infection VIH : TLD (traite les deux)",
-    "Femme enceinte avec charge virale élevée ou AgHBe positif : TDF dès le 2e trimestre",
-    "Nouveau-né de mère AgHBs+ : vaccin dans les 24 h (± immunoglobulines)"
+    "Hépatite aiguë : repos selon la fatigue, alimentation normale, pas d'alcool ni de médicaments toxiques pour le foie ; pas d'antiviral, sauf forme grave (ténofovir)",
+    "Infection chronique (OMS 2024) : traiter par ténofovir (TDF) 300 mg par jour ou entécavir 0,5 mg par jour tout adulte et adolescent ayant : une fibrose significative ou une cirrhose (APRI > 0,5 ou élastométrie > 7 kPa), ou une charge virale > 2 000 UI/ml avec ALAT élevées ; ou une co-infection (VIH, hépatite D ou C), des antécédents familiaux de cancer du foie ou de cirrhose, une immunosuppression, une manifestation extrahépatique, ou des ALAT persistantes élevées si la charge virale n'est pas disponible",
+    "Co-infection VIH : TLD (le ténofovir et la lamivudine traitent aussi l'hépatite B) ; ne jamais arrêter le ténofovir chez un co-infecté",
+    "Traitement le plus souvent à vie ; l'arrêt peut provoquer une poussée grave",
+    "Femme enceinte : ténofovir dès la 24e à 28e semaine (et jusqu'à au moins la fin de l'allaitement) si charge virale ≥ 200 000 UI/ml ou AgHBe positif ; si ces examens ne sont pas disponibles, à toute femme enceinte AgHBs positive (OMS 2024) ; allaitement autorisé",
+    "Nouveau-né de mère AgHBs positive : vaccin hépatite B dans les 24 h (au plus tard dans les 7 jours), immunoglobuline anti-HBs si disponible, puis vaccins du PEV ; contrôle AgHBs et anticorps à 9-12 mois",
+    "Surveillance : ALAT et APRI tous les 6 à 12 mois ; créatinine sous ténofovir ; dépistage du cancer du foie par échographie (± alpha-fœtoprotéine) tous les 6 mois en cas de cirrhose ou d'antécédent familial",
+    "Cirrhose décompensée : ténofovir ou entécavir 1 mg, prise en charge de l'ascite (spironolactone), de l'encéphalopathie (lactulose), des saignements (vitamine K)",
+    "Vacciner les membres du foyer et le partenaire séronégatifs ; préservatif en attendant"
    ],
    "gravite": [
-    "Ictère avec troubles de conscience, saignements (hépatite fulminante)",
-    "Ascite, hémorragie digestive (cirrhose décompensée)"
+    "Ictère avec troubles de conscience, saignements, hypoglycémie (hépatite fulminante) : transfert",
+    "Ascite, hémorragie digestive, encéphalopathie (cirrhose décompensée)",
+    "Masse du foie, amaigrissement rapide (cancer)",
+    "Poussée après arrêt du traitement"
    ],
    "prevention": [
-    "Vaccination à la naissance (dans les 24 h) et dans le PEV",
-    "Dépistage en CPN, sécurité transfusionnelle et des injections, préservatif"
+    "Vaccination de tous les nouveau-nés dans les 24 h, puis 3 doses du pentavalent",
+    "Dépistage en CPN et ténofovir chez la femme enceinte à risque",
+    "Sécurité transfusionnelle, des injections et des soins (stérilisation), préservatif",
+    "Vaccination du personnel de santé et des personnes à risque",
+    "Prophylaxie après exposition au sang"
    ],
    "medicaments": [
     "Ténofovir (TDF)",
+    "Entécavir",
     "Ténofovir + lamivudine + dolutégravir (TLD)",
+    "Vaccin hépatite B",
     "Lactulose",
     "Spironolactone",
-    "Vitamine K1 (phytoménadione)",
-    "Entécavir"
+    "Vitamine K1 (phytoménadione)"
    ]
   },
   {
@@ -37498,35 +37604,48 @@
    "nom": "Hépatite C",
    "categorie": "vih",
    "synonymes": "hépatite C, VHC",
-   "resume": "Infection virale chronique du foie transmise par le sang (transfusions, injections non sécurisées, actes médicaux). Guérissable par un traitement oral de 12 semaines.",
+   "resume": "Infection chronique du foie par le virus de l'hépatite C, transmise par le sang : transfusions non contrôlées, injections et actes médicaux ou traditionnels avec du matériel non stérile (scarifications, circoncision), usage de drogues injectables ; plus rarement sexuelle ou de la mère à l'enfant. Silencieuse pendant des années, elle évolue vers la cirrhose et le cancer du foie. Elle se guérit en 8 à 12 semaines par des antiviraux oraux pangénotypiques dans plus de 95 % des cas.",
    "signes": [
-    "Souvent asymptomatique pendant des années",
-    "Fatigue",
-    "Complications : cirrhose, cancer du foie"
+    "Souvent aucun symptôme pendant des années",
+    "Fatigue, douleurs articulaires",
+    "Complications : cirrhose (ascite, ictère, hémorragie digestive, encéphalopathie), cancer du foie",
+    "Manifestations extrahépatiques : cryoglobulinémie, atteinte rénale, diabète, lymphome"
    ],
    "diagnostic": [
-    "Test des anticorps anti-VHC (test rapide), puis confirmation par charge virale (ARN) si disponible",
-    "Évaluer la fibrose (APRI, échographie)",
-    "Dépister VIH et hépatite B"
+    "Test rapide des anticorps anti-VHC (dépistage : personnes transfusées, hémodialysées, personnes vivant avec le VIH, usagers de drogues, détenus, contacts de patients, toute hépatopathie)",
+    "Anticorps positifs : confirmer l'infection active par la charge virale (ARN du VHC) ou l'antigène core ; une charge virale indétectable signifie une infection guérie spontanément",
+    "Évaluer la fibrose : APRI (> 2 : cirrhose probable), élastométrie si disponible, échographie",
+    "NFS, créatinine, AgHBs (risque de réactivation de l'hépatite B), test VIH, test de grossesse",
+    "Le génotypage n'est pas nécessaire avec les traitements pangénotypiques"
    ],
    "traitement": [
-    "Traitement pangénotypique : sofosbuvir + daclatasvir 12 semaines (24 semaines si cirrhose selon les protocoles), ou sofosbuvir-velpatasvir 12 semaines",
-    "Enfant ≥ 3 ans : traitement adapté au poids",
-    "Vérifier les interactions (amiodarone, rifampicine, antiépileptiques)",
-    "Guérison confirmée par une charge virale indétectable 12 semaines après la fin"
+    "Traiter toute personne infectée (adulte, adolescent et enfant à partir de 3 ans)",
+    "Sans cirrhose ou cirrhose compensée : sofosbuvir + velpatasvir 12 semaines ; ou sofosbuvir + daclatasvir 12 semaines (24 semaines en cas de cirrhose compensée selon le protocole) ; ou glécaprévir + pibrentasvir 8 semaines (12 semaines si cirrhose) ; ou ravidasvir + sofosbuvir 12 semaines",
+    "Cirrhose décompensée : sofosbuvir + velpatasvir (± ribavirine) 12 à 24 semaines, avis spécialisé ; pas de glécaprévir-pibrentasvir",
+    "Enfant de 3 ans et plus : mêmes molécules avec doses adaptées au poids",
+    "Interactions à vérifier avant de débuter : amiodarone (bradycardie grave avec le sofosbuvir : contre-indiquée), rifampicine, carbamazépine, phénytoïne, éfavirenz (avec le velpatasvir), oméprazole (diminue le velpatasvir)",
+    "Co-infection VIH : compatible avec le TLD ; co-infection VHB : surveiller ou traiter l'hépatite B (réactivation possible)",
+    "Grossesse : traitement différé après l'accouchement (données insuffisantes) ; contraception pendant le traitement",
+    "Guérison confirmée par une charge virale indétectable 12 semaines après la fin du traitement ; une réinfection reste possible",
+    "Cirrhose : poursuivre le dépistage du cancer du foie par échographie tous les 6 mois même après la guérison"
    ],
    "gravite": [
-    "Cirrhose décompensée (ascite, ictère, hémorragie) → avis spécialisé"
+    "Cirrhose décompensée (ascite, ictère, hémorragie digestive, encéphalopathie) : avis spécialisé",
+    "Masse du foie (cancer)",
+    "Bradycardie sous sofosbuvir associé à l'amiodarone"
    ],
    "prevention": [
-    "Sécurité transfusionnelle et des injections, matériel stérile"
+    "Sécurité transfusionnelle (dépistage des dons), des injections et des soins (matériel stérile à usage unique, stérilisation)",
+    "Matériel d'injection stérile et traitement de substitution pour les usagers de drogues",
+    "Pas de vaccin : dépister et traiter"
    ],
    "medicaments": [
-    "Sofosbuvir + daclatasvir",
     "Sofosbuvir + velpatasvir",
+    "Sofosbuvir + daclatasvir",
     "Glécaprévir + pibrentasvir",
+    "Ravidasvir (+ sofosbuvir)",
     "Lédipasvir + sofosbuvir",
-    "Ravidasvir (+ sofosbuvir)"
+    "Ribavirine"
    ]
   },
   {
@@ -40545,36 +40664,54 @@
    "nom": "Hépatites A et E",
    "categorie": "vih",
    "synonymes": "hépatite A, hépatite E, jaunisse épidémique, hépatite virale aiguë",
-   "resume": "Hépatites virales transmises par l'eau et les aliments souillés. L'hépatite E est très grave pendant la grossesse (3e trimestre).",
+   "resume": "Hépatites virales aiguës transmises par l'eau et les aliments souillés par les selles. L'hépatite A est surtout une infection de l'enfant, bénigne, qui immunise à vie ; elle est plus sévère chez l'adulte. L'hépatite E (génotype 1) cause des épidémies dans les camps de déplacés et les quartiers sans eau potable ; elle est très grave chez la femme enceinte au 3e trimestre (mortalité de 20 à 25 %, hémorragies, mort fœtale).",
    "signes": [
-    "Fatigue, nausées, fièvre, douleur de l'hypochondre droit, puis ictère, urines foncées, selles décolorées",
-    "Le plus souvent guérison en quelques semaines",
-    "Hépatite E pendant la grossesse : insuffisance hépatique, hémorragies, mort fœtale"
+    "Incubation de 2 à 6 semaines (A) ou de 2 à 9 semaines (E)",
+    "Phase pré-ictérique : fatigue, fièvre, nausées, vomissements, perte d'appétit, douleur de l'hypochondre droit, douleurs articulaires",
+    "Puis ictère, urines foncées, selles décolorées, prurit ; la fièvre disparaît avec l'ictère",
+    "Guérison en 2 à 8 semaines dans la grande majorité des cas",
+    "Hépatite fulminante : troubles de conscience, saignements, hypoglycémie",
+    "Hépatite E pendant la grossesse : insuffisance hépatique, hémorragie de la délivrance, avortement, mort fœtale ; forme chronique chez l'immunodéprimé (greffé)"
    ],
    "diagnostic": [
-    "Diagnostic clinique et épidémiologique (épidémies dans les camps) ; sérologies si disponibles",
-    "TDR paludisme",
-    "Rechercher les signes d'insuffisance hépatique"
+    "Diagnostic clinique et épidémiologique (cas groupés, camp, eau non traitée)",
+    "IgM anti-VHA ou IgM anti-VHE (tests rapides ou ELISA) pour confirmer l'épidémie",
+    "Transaminases très élevées (souvent > 10 fois la normale), bilirubine ; TP ou INR et glycémie si forme sévère",
+    "TDR paludisme, AgHBs ; différentiels : paludisme, fièvre jaune, leptospirose, hépatite B, hépatite médicamenteuse (antituberculeux), drépanocytose, angiocholite"
    ],
    "traitement": [
-    "Pas de traitement spécifique",
-    "Repos, alimentation normale selon l'appétit, hydratation",
-    "Éviter les médicaments hépatotoxiques, l'alcool, les sédatifs",
-    "Insuffisance hépatique : hospitalisation, glucose, vitamine K, lactulose",
-    "Femme enceinte : surveillance rapprochée, accouchement en milieu équipé"
+    "Pas de traitement spécifique ; prise en charge ambulatoire dans la plupart des cas",
+    "Repos selon la fatigue, alimentation normale selon l'appétit (pas de régime particulier), bonne hydratation",
+    "Éviter l'alcool, les sédatifs et les médicaments toxiques pour le foie ; paracétamol à dose réduite (maximum 2 g par jour chez l'adulte) ; pas d'AINS",
+    "Vomissements, déshydratation : perfusion de glucosé 5 à 10 %",
+    "Hépatite grave (INR > 1,5, troubles de conscience) : hospitalisation, glycémie toutes les 4 h et perfusion de glucosé 10 %, vitamine K1 10 mg IV, lactulose, recherche et traitement d'une infection, transfert vers un centre spécialisé",
+    "Femme enceinte : hospitalisation au moindre signe de gravité, surveillance de la coagulation et de la glycémie ; accouchement dans une structure capable de transfuser, ocytocine en prévention de l'hémorragie, plasma frais congelé si troubles de la coagulation",
+    "Prurit : antihistaminique, colestyramine si disponible",
+    "Hépatite E chronique de l'immunodéprimé : ribavirine (avis spécialisé)",
+    "En épidémie : chloration de l'eau, latrines, lavage des mains ; déclaration aux autorités ; vaccin hépatite E (y compris pour les femmes enceintes) selon les décisions de riposte"
    ],
    "gravite": [
-    "Troubles de conscience, saignements, hypoglycémie",
-    "Grossesse (hépatite E)"
+    "Troubles de conscience, agitation, somnolence (encéphalopathie)",
+    "Saignements, INR > 1,5, hypoglycémie",
+    "Ictère qui s'aggrave avec vomissements incoercibles",
+    "Femme enceinte (hépatite E), surtout au 3e trimestre",
+    "Sujet âgé ou atteint d'une maladie du foie"
    ],
    "prevention": [
-    "Eau potable, latrines, lavage des mains"
+    "Eau potable (chloration, ébullition), latrines, élimination des excréments",
+    "Lavage des mains au savon après les toilettes et avant de manger",
+    "Hygiène alimentaire",
+    "Vaccin hépatite A (voyageurs, personnes à risque) ; vaccin hépatite E dans les épidémies"
    ],
    "medicaments": [
+    "Glucose 10 %",
+    "Glucose 5 % (sérum glucosé isotonique)",
     "Vitamine K1 (phytoménadione)",
     "Lactulose",
-    "Glucose 10 %",
     "Paracétamol",
+    "Plasma frais congelé (PFC)",
+    "Ocytocine",
+    "Ribavirine",
     "Vaccin hépatite A",
     "Vaccin hépatite E"
    ]
@@ -41407,15 +41544,16 @@
    "nom": "Tuberculose pharmacorésistante (TB-RR/MR)",
    "categorie": "vih",
    "synonymes": "tuberculose multirésistante, TB-MR, MDR, résistance à la rifampicine, RR, XDR, BPaLM",
-   "resume": "Tuberculose résistante au moins à la rifampicine (TB-RR), souvent aussi à l'isoniazide (TB-MR). Elle se soigne aujourd'hui par des schémas entièrement oraux de 6 à 9 mois, gérés par le programme national.",
+   "resume": "Tuberculose résistante au moins à la rifampicine (TB-RR), le plus souvent aussi à l'isoniazide (TB-MR) ; TB pré-UR si résistance associée aux fluoroquinolones. La RDC fait partie des pays prioritaires pour la TB-MR. Elle se soigne aujourd'hui par des schémas entièrement oraux de 6 à 9 mois, sans injectable, gérés par le programme national (PNLT), avec un taux de succès supérieur à 80 %.",
    "signes": [
-    "Mêmes signes que la tuberculose sensible : toux > 2 semaines, fièvre, sueurs nocturnes, amaigrissement",
-    "Évocateurs : échec ou rechute après un traitement antituberculeux, contact d'un cas de TB-MR, interruption de traitement, séjour en prison"
+    "Mêmes signes que la tuberculose sensible : toux de plus de 2 semaines, fièvre, sueurs nocturnes, amaigrissement, hémoptysie",
+    "Situations évocatrices : échec (crachats encore positifs au 2e ou 5e mois), rechute ou reprise après interruption d'un traitement antituberculeux, contact d'un cas de TB-MR, personne vivant avec le VIH, détenu, mineur, agent de santé, patient venant d'une zone à forte résistance"
    ],
    "diagnostic": [
-    "GeneXpert MTB/RIF (ou Ultra) chez tout patient suspect : détecte la résistance à la rifampicine en 2 h",
-    "Culture et antibiogramme (fluoroquinolones) par le laboratoire de référence",
-    "Bilan de base : ECG (QT), NFS, créatinine, potassium, transaminases, TSH, audiogramme si injectable, test VIH, test de grossesse"
+    "GeneXpert MTB/RIF (ou Ultra) chez tout patient présumé tuberculeux : résistance à la rifampicine en 2 h",
+    "Résistance à la rifampicine détectée : test rapide de résistance aux fluoroquinolones et à l'isoniazide (Xpert MTB/XDR, tests de sonde en ligne) et culture avec antibiogramme au laboratoire de référence, sans retarder le traitement",
+    "Bilan de départ : ECG (intervalle QTc), NFS (linézolide), créatinine, potassium, magnésium, transaminases, glycémie, TSH, test VIH, test de grossesse, examen de la vision et des nerfs périphériques, évaluation nutritionnelle",
+    "Enquête autour du cas : dépister tous les contacts du foyer"
    ],
    "traitement": [
     "Schéma de 6 mois BPaLM (≥ 14 ans) : bédaquiline + prétomanide + linézolide 600 mg + moxifloxacine (sans moxifloxacine si résistance aux fluoroquinolones)",
@@ -41427,12 +41565,15 @@
    ],
    "gravite": [
     "Hémoptysie abondante, insuffisance respiratoire",
-    "QT > 500 ms, anémie sévère, névrite optique (effets indésirables)",
-    "Absence de conversion des cultures à 4 mois (échec)"
+    "Effets indésirables graves : QTc > 500 ms ou syncope (bédaquiline, fluoroquinolones, clofazimine, délamanid), anémie ou baisse des plaquettes, névrite optique ou neuropathie (linézolide), hépatite, troubles psychiatriques",
+    "Absence de conversion des cultures à 4 mois, rechute : échec",
+    "Interruption du traitement"
    ],
    "prevention": [
-    "Dépistage systématique des contacts ; lévofloxacine 6 mois pour les contacts à haut risque",
-    "Contrôle de l'infection (aération, masques FFP2, isolement des contagieux)"
+    "Traitement complet et supervisé de toute tuberculose sensible (prévention de la résistance acquise)",
+    "Dépistage systématique des contacts ; lévofloxacine pendant 6 mois pour les contacts du foyer (tous âges)",
+    "Contrôle de l'infection : tri, aération, masques pour les malades, appareils de protection respiratoire FFP2 ou N95 pour les soignants, isolement des malades contagieux",
+    "Soutien social et nutritionnel pour éviter les abandons"
    ],
    "medicaments": [
     "Bédaquiline",
@@ -41456,47 +41597,59 @@
    "nom": "Tuberculose extrapulmonaire",
    "categorie": "vih",
    "synonymes": "tuberculose ganglionnaire, méningite tuberculeuse, mal de Pott, péricardite tuberculeuse, pleurésie tuberculeuse, tuberculose abdominale, miliaire",
-   "resume": "Tuberculose atteignant d'autres organes que le poumon : ganglions, plèvre, méninges, colonne vertébrale, péricarde, abdomen. Plus fréquente chez l'enfant et la personne vivant avec le VIH.",
+   "resume": "Tuberculose atteignant d'autres organes que le poumon : ganglions, plèvre, méninges, colonne vertébrale et os, péricarde, abdomen, reins et organes génitaux ; ou forme disséminée (miliaire). Plus fréquente chez l'enfant et chez la personne vivant avec le VIH. Le diagnostic est souvent difficile et le traitement est débuté sur des arguments cliniques ; la méningite tuberculeuse et la péricardite exigent un traitement immédiat.",
    "signes": [
-    "Ganglionnaire : ganglions cervicaux fermes, indolores, qui peuvent fistuliser",
-    "Pleurésie : douleur thoracique, dyspnée, matité",
-    "Méningite : céphalées et fièvre progressives, troubles de conscience, paralysies oculomotrices",
-    "Mal de Pott : douleur dorsale, gibbosité, paraplégie",
-    "Péricardite : dyspnée, turgescence jugulaire, gros cœur",
-    "Abdominale : ascite, masse, amaigrissement",
-    "Miliaire : fièvre, altération grave"
+    "Ganglionnaire : ganglions cervicaux fermes, peu douloureux, qui grossissent sur des semaines, se ramollissent et peuvent fistuliser (écrouelles)",
+    "Pleurésie : douleur thoracique, toux sèche, essoufflement, fièvre, matité d'un côté",
+    "Méningite : début progressif sur 1 à 3 semaines, céphalées, fièvre, vomissements, troubles du comportement, puis somnolence, paralysies des nerfs crâniens (strabisme), convulsions, coma",
+    "Mal de Pott : douleur dorsale ou lombaire persistante, raideur, bosse (gibbosité), abcès froid, faiblesse des jambes puis paraplégie",
+    "Péricardite : essoufflement, douleur thoracique, turgescence jugulaire, foie gros, œdèmes, bruits du cœur assourdis, pouls paradoxal (tamponnade)",
+    "Abdominale : ascite, douleurs, masse, diarrhée ou occlusion, amaigrissement",
+    "Ostéo-articulaire : arthrite chronique d'une grosse articulation (hanche, genou)",
+    "Urogénitale : sang ou pus dans les urines sans germe, infertilité",
+    "Miliaire : fièvre, amaigrissement rapide, essoufflement, gros foie et grosse rate, choroïdite au fond d'œil"
    ],
    "diagnostic": [
-    "Ponction ou biopsie (ganglion, plèvre, ascite) avec GeneXpert et examen direct",
-    "Ponction lombaire (méningite : LCR clair, lymphocytes, protéines élevées, glucose bas)",
-    "Radiographie (thorax, colonne), échographie (péricarde, abdomen)",
-    "LAM urinaire et test VIH",
-    "Diagnostic souvent clinique chez l'enfant"
+    "Prélèvement de l'organe atteint pour GeneXpert, examen direct et culture : ponction de ganglion à l'aiguille fine, ponction pleurale, d'ascite ou de péricarde, LCR, biopsie",
+    "Liquide pleural ou d'ascite : exsudat à lymphocytes, adénosine désaminase (ADA) élevée si disponible",
+    "LCR de méningite tuberculeuse : clair, 50 à 500 cellules à lymphocytes, protéines élevées (> 1 g/l), glucose bas ; GeneXpert Ultra sur LCR",
+    "Imagerie : radiographie du thorax (souvent anormale), radiographie ou IRM de la colonne (destruction de disques et vertèbres), échographie cardiaque (épanchement), échographie abdominale (ganglions, ascite, épaississement digestif)",
+    "TB-LAM urinaire et test VIH systématiques ; crachats pour recherche d'une atteinte pulmonaire associée",
+    "Miliaire : ponction lombaire pour exclure une méningite",
+    "Différentiels : lymphome, cancer, sarcome de Kaposi, infection bactérienne, cryptococcose, insuffisance cardiaque, cirrhose"
    ],
    "traitement": [
-    "RHZE 2 mois puis RH 4 mois (6 mois au total) pour la plupart des formes",
-    "Méningite et tuberculose ostéo-articulaire : 2 RHZE + 10 RH (12 mois) ; méningite de l'enfant : schéma intensif de 6 mois possible (OMS)",
-    "Corticoïdes : méningite (dexaméthasone ou prednisolone 6 à 8 semaines), péricardite (selon le contexte)",
-    "Ponction ou drainage d'une tamponnade",
-    "Pyridoxine",
-    "ARV chez les PVVIH (différer de 4 à 8 semaines en cas de méningite)"
+    "La plupart des formes : 2 mois RHZE puis 4 mois RH (6 mois au total), mêmes doses que pour la forme pulmonaire",
+    "Méningite tuberculeuse et tuberculose ostéo-articulaire : 2 mois RHZE puis 10 mois RH (12 mois) ; méningite de l'enfant et de l'adolescent : schéma intensif de 6 mois (isoniazide, rifampicine à forte dose, pyrazinamide, éthionamide) possible selon l'OMS",
+    "Méningite, corticoïdes systématiques : adulte dexaméthasone 0,4 mg/kg par jour IV la 1re semaine, puis 0,3, 0,2 et 0,1 mg/kg par jour les semaines 2 à 4, puis relais oral décroissant sur 4 semaines ; enfant prednisolone 2 mg/kg par jour (maximum 60 mg) pendant 4 semaines puis décroissance sur 2 semaines",
+    "Péricardite : péricardiocentèse en urgence si tamponnade ; corticoïdes discutés chez le patient non infecté par le VIH (avis)",
+    "Pleurésie abondante : ponction évacuatrice ; empyème : drainage",
+    "Mal de Pott : repos et immobilisation au début, kinésithérapie ; chirurgie si déficit neurologique qui s'aggrave, instabilité ou gros abcès",
+    "Ganglions : une augmentation ou une fistulisation transitoire sous traitement est fréquente (réaction paradoxale) ; aspiration d'un ganglion fluctuant",
+    "Pyridoxine ; nutrition ; soins du patient alité (escarres, thromboses)",
+    "Personne vivant avec le VIH : ARV dans les 2 semaines, mais différés de 4 à 8 semaines en cas de méningite tuberculeuse",
+    "Méningite : surveiller la conscience, la natrémie et l'apparition d'une hydrocéphalie (dérivation) ; rééducation des séquelles"
    ],
    "gravite": [
-    "Troubles de conscience, signes neurologiques",
-    "Paraplégie",
-    "Tamponnade",
-    "Miliaire"
+    "Troubles de conscience, convulsions, signes neurologiques (méningite) : pronostic lié à la rapidité du traitement",
+    "Paraplégie (mal de Pott)",
+    "Tamponnade : essoufflement, chute de la PA, pouls paradoxal",
+    "Miliaire avec détresse respiratoire",
+    "Occlusion intestinale, perforation (forme abdominale)"
    ],
    "prevention": [
-    "BCG à la naissance (protège l'enfant contre la méningite et la miliaire), dépistage des contacts, traitement préventif"
+    "BCG à la naissance (protège l'enfant contre la méningite et la miliaire)",
+    "Dépistage des contacts, traitement préventif des enfants contacts et des personnes vivant avec le VIH",
+    "ARV précoces"
    ],
    "medicaments": [
     "RHZE (rifampicine + isoniazide + pyrazinamide + éthambutol)",
     "RHZ pédiatrique (+ éthambutol)",
+    "Éthionamide",
     "Dexaméthasone",
     "Prednisolone",
     "Pyridoxine (vitamine B6)",
-    "Éthionamide"
+    "Ténofovir + lamivudine + dolutégravir (TLD)"
    ]
   },
   {
@@ -41547,31 +41700,37 @@
    "nom": "Infection tuberculeuse latente et traitement préventif (TPT)",
    "categorie": "vih",
    "synonymes": "tuberculose latente, ITL, TPT, traitement préventif, isoniazide préventif, 3HP, contacts",
-   "resume": "Infection par le bacille tuberculeux sans maladie. Le traitement préventif réduit fortement le risque de tuberculose active chez les personnes à risque.",
+   "resume": "Infection par le bacille tuberculeux sans maladie active, sans symptôme et non contagieuse. Environ 5 à 10 % des personnes infectées développeront une tuberculose, beaucoup plus chez le jeune enfant et la personne vivant avec le VIH. Le traitement préventif (TPT) réduit ce risque de 60 à 90 % ; la condition essentielle est d'avoir exclu une tuberculose active.",
    "signes": [
-    "Aucun signe (sinon, rechercher une tuberculose active)",
-    "Groupes prioritaires : personnes vivant avec le VIH (adultes et enfants), contacts familiaux d'un cas de tuberculose pulmonaire, patients sous anti-TNF, dialysés, silicose"
+    "Aucun signe (s'il y a des signes, rechercher une tuberculose active)",
+    "Groupes prioritaires : personnes vivant avec le VIH (adultes, adolescents, enfants, femmes enceintes), quel que soit le taux de CD4 ; contacts du foyer d'un cas de tuberculose pulmonaire (tous âges, priorité aux enfants de moins de 5 ans) ; patients débutant un anti-TNF, dialysés, greffés, silicose"
    ],
    "diagnostic": [
-    "Éliminer une tuberculose active par le dépistage des symptômes (toux, fièvre, sueurs, amaigrissement) ± radiographie",
-    "IDR ou IGRA non obligatoires pour les PVVIH et les enfants contacts < 5 ans",
-    "Rechercher une hépatite, l'alcoolisme"
+    "Exclure une tuberculose active : dépistage des symptômes (toux, fièvre, sueurs nocturnes, amaigrissement ; chez l'enfant : cassure de poids, léthargie) ± radiographie du thorax",
+    "Un symptôme présent : investiguer (GeneXpert, radiographie) avant toute décision",
+    "IDR à la tuberculine ou test IGRA non obligatoires chez les personnes vivant avec le VIH et les enfants contacts de moins de 5 ans",
+    "Rechercher une hépatite active, une consommation d'alcool, une neuropathie ; interactions médicamenteuses (ARV, contraceptifs)"
    ],
    "traitement": [
-    "Schémas au choix : 6H (isoniazide quotidien 6 mois)",
-    "3HP (isoniazide + rifapentine hebdomadaire, 12 doses)",
-    "1HP (quotidien 1 mois, ≥ 13 ans)",
-    "3HR (isoniazide + rifampicine 3 mois, enfant)",
-    "Contacts de TB-MR : lévofloxacine 6 mois",
-    "Pyridoxine avec l'isoniazide",
-    "Vérifier les interactions avec les ARV (rifamycines)"
+    "Schémas recommandés (OMS) : 6H : isoniazide chaque jour pendant 6 mois (adulte 5 mg/kg, maximum 300 mg ; enfant 10 mg/kg, 7 à 15 mg/kg)",
+    "3HP : isoniazide + rifapentine une fois par semaine pendant 3 mois (12 doses), à partir de 2 ans ; adulte 900 mg + 900 mg ; compatible avec le dolutégravir sans adaptation de dose",
+    "1HP : isoniazide + rifapentine chaque jour pendant 1 mois (28 doses), à partir de 13 ans",
+    "3HR : isoniazide + rifampicine chaque jour pendant 3 mois (comprimés pédiatriques RH chez l'enfant) ; 4R : rifampicine seule 4 mois ; avec un ARV contenant du dolutégravir, doubler la dose de dolutégravir",
+    "Contacts d'un cas de TB-MR : lévofloxacine pendant 6 mois (tous âges, doses selon le poids)",
+    "Pyridoxine 10 à 25 mg par jour avec l'isoniazide (VIH, grossesse, malnutrition, alcool, diabète)",
+    "Femme enceinte : 6H de préférence ; contraception hormonale moins efficace avec les rifamycines",
+    "Suivi mensuel : symptômes de tuberculose, signes d'hépatite (nausées, ictère), neuropathie, observance ; dispensation pour 1 à 3 mois",
+    "Traitement complet : au moins 80 % des doses prises dans un délai de 1,2 fois la durée prévue"
    ],
    "gravite": [
-    "Ictère, nausées persistantes (hépatite) : arrêter",
-    "Apparition de signes de tuberculose active"
+    "Ictère, urines foncées, nausées et vomissements persistants (hépatite) : arrêter et contrôler les transaminases",
+    "Éruption sévère, syndrome grippal sous rifapentine",
+    "Apparition de signes de tuberculose active pendant le TPT : arrêter et investiguer"
    ],
    "prevention": [
-    "Dépistage des contacts, contrôle de l'infection"
+    "Dépistage systématique des contacts de tout cas de tuberculose",
+    "Contrôle de l'infection dans les foyers et les structures de soins",
+    "ARV pour toutes les personnes vivant avec le VIH"
    ],
    "medicaments": [
     "Isoniazide (INH)",
@@ -41588,36 +41747,49 @@
    "nom": "Échec du traitement antirétroviral (2e et 3e lignes)",
    "categorie": "vih",
    "synonymes": "échec ARV, charge virale élevée, 2e ligne, 3e ligne, résistance VIH",
-   "resume": "Charge virale qui reste détectable malgré le traitement. La cause la plus fréquente est une mauvaise observance ; la résistance n'est affirmée qu'après le renforcement de l'adhérence.",
+   "resume": "Charge virale qui reste ou redevient détectable malgré le traitement antirétroviral. La cause la plus fréquente est une mauvaise observance (oublis, ruptures de stock, effets indésirables, stigmatisation, dépression, alcool) ou une dose inadaptée chez l'enfant ; la résistance n'est retenue qu'après un renforcement de l'observance. La résistance au dolutégravir reste rare : la plupart des patients sous TLD avec une charge virale élevée se resuppriment avec un meilleur soutien.",
    "signes": [
-    "Charge virale > 1 000 copies/ml après au moins 6 mois de traitement",
-    "Parfois : baisse des CD4, nouvelles infections opportunistes (échec clinique)"
+    "Charge virale ≥ 1 000 copies/ml après au moins 6 mois de traitement (échec virologique présumé)",
+    "Virémie de bas niveau : 50 à 999 copies/ml",
+    "Parfois : baisse des CD4, nouvelles infections opportunistes ou stade OMS qui s'aggrave (échec clinique et immunologique), arrêt de la croissance chez l'enfant"
    ],
    "diagnostic": [
-    "Charge virale > 1 000 copies/ml : séances de soutien à l'observance pendant 3 mois, rechercher interactions, vomissements, posologie inadaptée à l'enfant",
-    "Nouvelle charge virale après 3 mois : si toujours > 1 000, échec virologique",
-    "Génotypage de résistance si disponible (indispensable avant une 3e ligne)"
+    "Charge virale ≥ 1 000 copies/ml : séances de soutien renforcé à l'observance pendant 3 mois, puis nouvelle charge virale",
+    "Rechercher les causes : oublis, horaires, vomissements, interactions (rifampicine, antiacides, fer, calcium, carbamazépine, phénytoïne avec le dolutégravir), dose non adaptée au poids de l'enfant, dépression, alcool, violence, manque de nourriture, ruptures de stock, goût des sirops chez l'enfant",
+    "Deuxième charge virale ≥ 1 000 copies/ml : échec virologique confirmé",
+    "Génotypage de résistance si disponible (indispensable avant une 3e ligne)",
+    "CD4 et dépistage de la maladie avancée (TB-LAM, CrAg) en cas d'échec"
    ],
    "traitement": [
-    "Échec sous TLD : poursuivre le dolutégravir et changer les INTI (AZT/3TC) selon le protocole national, ou passer à un inhibiteur de protéase boosté (ATV/r ou LPV/r) avec AZT/3TC",
-    "Échec d'une 1re ligne à base d'éfavirenz ou de névirapine : TLD (ou AZT/3TC + DTG)",
-    "Échec d'une 2e ligne à base d'IP : génotypage, darunavir/ritonavir + dolutégravir 2 fois par jour ± INTI",
-    "Soutien à l'observance, gestion des effets indésirables"
+    "Échec sous TLD (ou autre schéma au dolutégravir) : poursuivre le dolutégravir avec un soutien renforcé à l'observance ; changer pour un schéma à base d'inhibiteur de protéase boosté (ATV/r ou DRV/r + AZT/3TC) seulement si une résistance au dolutégravir est prouvée par génotypage ou selon le protocole national",
+    "Échec d'une 1re ligne à base d'éfavirenz ou de névirapine : passer au TLD (efficace même en cas de résistance aux INTI) ou AZT/3TC + dolutégravir",
+    "Échec d'une 2e ligne à base d'inhibiteur de protéase : génotypage ; dolutégravir + INTI optimisés, ou 3e ligne : darunavir/ritonavir + dolutégravir 2 fois par jour ± INTI",
+    "Enfant : adapter les doses au poids à chaque visite, préférer le dolutégravir pédiatrique dispersible ; impliquer l'aidant",
+    "Virémie de bas niveau (50 à 999 copies/ml) : soutien à l'observance et contrôle de la charge virale 3 mois plus tard",
+    "Dolutégravir : à prendre 2 h avant ou 6 h après les antiacides, le fer, le calcium, le zinc ; 50 mg 2 fois par jour avec la rifampicine",
+    "Soutien : éducation, rappels (téléphone, alarme), soutien des pairs, visites à domicile, prise en charge de la dépression et de l'alcool, aide alimentaire, annonce au partenaire",
+    "Charge virale 3 mois après tout changement de traitement"
    ],
    "gravite": [
-    "Maladie à VIH avancée (CD4 < 200, infections opportunistes)"
+    "Maladie à VIH avancée (CD4 < 200, infections opportunistes) : voir la fiche correspondante",
+    "Échec chez l'enfant ou la femme enceinte ou allaitante (risque de transmission)",
+    "Échec d'une 2e ou 3e ligne : avis spécialisé et génotypage"
    ],
    "prevention": [
-    "Observance (éducation, soutien des pairs), dispensation simplifiée, contrôle régulier de la charge virale"
+    "Observance : éducation thérapeutique dès le début, horaires fixes, soutien des pairs",
+    "Dispensation simplifiée et approvisionnement régulier",
+    "Contrôle régulier de la charge virale (6 mois, 12 mois, puis chaque année)",
+    "Adaptation des doses chez l'enfant"
    ],
    "medicaments": [
     "Ténofovir + lamivudine + dolutégravir (TLD)",
     "Zidovudine + lamivudine (AZT/3TC)",
     "Atazanavir + ritonavir (ATV/r)",
-    "Lopinavir + ritonavir (LPV/r)",
     "Darunavir + ritonavir (DRV/r)",
+    "Lopinavir + ritonavir (LPV/r)",
     "Raltégravir",
     "Dolutégravir pédiatrique",
+    "Abacavir + lamivudine (ABC/3TC)",
     "Ténofovir + lamivudine + éfavirenz (TLE)"
    ]
   },
@@ -41626,42 +41798,59 @@
    "nom": "Maladie à VIH avancée",
    "categorie": "vih",
    "synonymes": "VIH avancé, sida, CD4 bas, infections opportunistes, paquet de soins",
-   "resume": "Adulte ou adolescent avec CD4 < 200/mm³ ou stade OMS 3 ou 4 ; tout enfant de moins de 5 ans infecté. Risque élevé de décès par tuberculose, méningite à cryptocoque, infections bactériennes graves.",
+   "resume": "Adulte ou adolescent avec CD4 < 200/mm³ ou stade clinique OMS 3 ou 4 ; tout enfant de moins de 5 ans infecté par le VIH. Elle concerne environ un tiers des patients qui débutent ou reprennent les ARV en Afrique. Le risque de décès est élevé, surtout par tuberculose, méningite à cryptocoque, infections bactériennes graves et pneumocystose. L'OMS recommande un paquet de soins : dépistage, prophylaxie, démarrage rapide des ARV et soutien.",
    "signes": [
-    "Amaigrissement, diarrhée chronique, fièvre prolongée",
-    "Candidose buccale ou œsophagienne",
-    "Toux, dyspnée (tuberculose, pneumocystose)",
-    "Céphalées, troubles de conscience (cryptocoque, toxoplasmose)",
-    "Baisse de vision (CMV)"
+    "Amaigrissement important, diarrhée chronique, fièvre prolongée",
+    "Candidose buccale ou œsophagienne, zona, prurigo",
+    "Toux, essoufflement (tuberculose, pneumocystose, pneumonie bactérienne)",
+    "Céphalées, confusion, convulsions, déficit (cryptocoque, toxoplasmose, tuberculose)",
+    "Baisse de vision (CMV)",
+    "Lésions violacées de la peau ou de la bouche (Kaposi)",
+    "Patient qui revient après une interruption des ARV"
    ],
    "diagnostic": [
-    "CD4",
-    "Dépistage systématique : LAM urinaire (tuberculose), antigène cryptococcique sérique (CrAg) si CD4 < 200, GeneXpert",
-    "Charge virale si sous traitement"
+    "CD4 chez tout patient qui débute ou reprend les ARV",
+    "Dépistage systématique de la tuberculose : TB-LAM urinaire, GeneXpert sur crachats, radiographie",
+    "Antigène cryptococcique sérique si CD4 < 200 (< 100 au minimum) ; ponction lombaire si positif",
+    "Antigène Histoplasma si disponible et suspicion",
+    "Charge virale si sous traitement ; NFS, créatinine, glycémie",
+    "Évaluer l'état nutritionnel (IMC, périmètre brachial), la santé mentale"
    ],
    "traitement": [
-    "Paquet de soins de l'OMS : cotrimoxazole prophylactique",
-    "Traitement préventif de la tuberculose (si TB active exclue)",
-    "CrAg positif sans méningite : fluconazole préventif à forte dose",
-    "Démarrage rapide des ARV (le jour même si possible ; différer 4 à 6 semaines en cas de méningite à cryptocoque, 2 semaines si tuberculose)",
-    "Soutien nutritionnel et à l'observance",
-    "Traitement des infections opportunistes"
+    "Paquet de soins de l'OMS : cotrimoxazole prophylactique ; traitement préventif de la tuberculose si la tuberculose active est exclue ; fluconazole préventif si antigène cryptococcique positif sans méningite",
+    "Démarrage rapide des ARV (le jour même si possible) ; différer de 4 à 6 semaines en cas de méningite à cryptocoque, de 4 à 8 semaines en cas de méningite tuberculeuse ; dans les 2 semaines en cas de tuberculose",
+    "Patient gravement malade avec signes de danger : hospitaliser ; traiter les causes probables sans attendre : ceftriaxone (infection bactérienne), traitement antituberculeux empirique si la tuberculose est probable et le diagnostic impossible rapidement, cotrimoxazole à forte dose si pneumocystose suspectée",
+    "Soutien nutritionnel (supplément, ATPE chez l'enfant malnutri), soutien à l'observance renforcé, visites rapprochées (à 2 et 4 semaines)",
+    "Surveiller le syndrome inflammatoire de restauration immunitaire (aggravation dans les semaines suivant les ARV) : poursuivre les ARV, traiter l'infection, prednisolone dans certaines formes (tuberculose)",
+    "Enfant de moins de 5 ans : ARV pédiatriques au dolutégravir, cotrimoxazole, prise en charge de la malnutrition et de la tuberculose, vaccinations de rattrapage",
+    "Douleur et soins palliatifs si nécessaires (morphine)",
+    "Dépistage des cancers (col, Kaposi)"
    ],
    "gravite": [
-    "Signes de danger : incapacité à marcher seul, FR > 30/min, FC > 120/min, température > 39 °C → hospitaliser"
+    "Signes de danger : incapable de marcher seul, FR ≥ 30/min, FC ≥ 120/min, température ≥ 39 °C : hospitaliser",
+    "Troubles de conscience, céphalées intenses, convulsions",
+    "SpO₂ < 90 %",
+    "Malnutrition sévère, diarrhée avec déshydratation",
+    "Aggravation après le début des ARV"
    ],
    "prevention": [
-    "Dépistage précoce du VIH, traitement de tous les patients dès le diagnostic"
+    "Dépistage précoce du VIH (y compris dans la communauté et les familles des patients) et traitement de tous dès le diagnostic",
+    "Suivi des patients sous ARV pour éviter les interruptions ; recherche des perdus de vue"
    ],
    "medicaments": [
     "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
-    "Fluconazole",
     "Isoniazide (INH)",
     "Isoniazide + rifapentine (3HP / 1HP)",
-    "Ténofovir + lamivudine + dolutégravir (TLD)",
     "Pyridoxine (vitamine B6)",
+    "Fluconazole",
     "Amphotéricine B",
-    "Flucytosine"
+    "Flucytosine",
+    "Ceftriaxone",
+    "RHZE (rifampicine + isoniazide + pyrazinamide + éthambutol)",
+    "Ténofovir + lamivudine + dolutégravir (TLD)",
+    "Prednisolone",
+    "Aliment thérapeutique prêt à l'emploi (ATPE)",
+    "Morphine"
    ]
   },
   {
@@ -41790,32 +41979,50 @@
    "nom": "Rétinite et infections à cytomégalovirus (CMV)",
    "categorie": "vih",
    "synonymes": "CMV, cytomégalovirus, rétinite, perte de vision VIH",
-   "resume": "Infection opportuniste des personnes vivant avec le VIH à CD4 < 100/mm³ ; la rétinite conduit à la cécité sans traitement.",
+   "resume": "Infection opportuniste par le cytomégalovirus chez la personne vivant avec le VIH dont les CD4 sont < 100/mm³ (souvent < 50). La rétinite est la forme la plus fréquente ; elle conduit à la cécité en quelques mois sans traitement. Le CMV peut aussi atteindre le tube digestif, le système nerveux et les poumons. L'infection congénitale par le CMV est une cause importante de surdité de l'enfant.",
    "signes": [
-    "Baisse de vision progressive, corps flottants, éclairs, perte du champ visuel (souvent d'un œil d'abord)",
-    "Autres atteintes : colite (diarrhée sanglante), œsophagite, encéphalite"
+    "Rétinite : baisse de vision progressive, corps flottants (« mouches »), éclairs lumineux, perte d'une partie du champ visuel, souvent d'un œil d'abord ; œil blanc, indolore",
+    "Colite : diarrhée parfois sanglante, douleurs abdominales, fièvre, amaigrissement ; perforation possible",
+    "Œsophagite : douleur à la déglutition (ulcères)",
+    "Encéphalite, ventriculite : confusion, troubles cognitifs ; atteinte de la moelle et des racines nerveuses : faiblesse des jambes, rétention urinaire",
+    "CMV congénital : petit poids, microcéphalie, pétéchies, gros foie, ictère, surdité, calcifications cérébrales"
    ],
    "diagnostic": [
-    "Fond d'œil (dilaté) : plages blanches nécrotiques et hémorragiques le long des vaisseaux",
+    "Fond d'œil après dilatation (tropicamide) : plages blanches de nécrose avec hémorragies le long des vaisseaux (« pizza »), progression en bordure",
+    "Dépistage par fond d'œil des patients avec CD4 < 100, si possible",
     "CD4",
-    "Dépistage par fond d'œil des patients à CD4 < 100 si possible"
+    "Colite et œsophagite : endoscopie et biopsie",
+    "PCR CMV dans le LCR (atteinte neurologique)",
+    "Nouveau-né : PCR CMV dans l'urine ou la salive dans les 3 premières semaines",
+    "Différentiels : toxoplasmose oculaire, rétinite à VZV, tuberculose oculaire, syphilis"
    ],
    "traitement": [
-    "Valganciclovir per os : 900 mg 2 fois par jour pendant 21 jours, puis 900 mg/jour",
-    "Ganciclovir IV si valganciclovir indisponible ou forme menaçant la vue (ou injections intravitréennes)",
-    "Démarrer ou optimiser les ARV (dans les 2 semaines)",
-    "Arrêt de l'entretien quand CD4 > 100 pendant 3 à 6 mois"
+    "Valganciclovir oral : 900 mg 2 fois par jour pendant 21 jours (induction), puis 900 mg par jour (entretien), avec un repas",
+    "Ganciclovir IV 5 mg/kg toutes les 12 h pendant 14 à 21 jours si le valganciclovir n'est pas disponible ou si le patient ne peut pas avaler, puis entretien ; lésions proches de la macula ou du nerf optique : injections intravitréennes de ganciclovir (2 mg une fois par semaine) en plus du traitement général",
+    "Colite ou œsophagite : induction pendant 3 à 6 semaines",
+    "Débuter ou optimiser les ARV dans les 2 semaines ; surveiller l'uvéite de restauration immunitaire (corticoïdes locaux)",
+    "Arrêt de l'entretien quand les CD4 sont > 100/mm³ depuis 3 à 6 mois sous ARV et que la rétinite est inactive ; fond d'œil tous les 3 mois",
+    "Surveillance : NFS (neutropénie, baisse des plaquettes), créatinine ; adapter les doses en cas d'insuffisance rénale ; valganciclovir tératogène : contraception",
+    "CMV congénital symptomatique : valganciclovir 16 mg/kg 2 fois par jour pendant 6 mois (avis spécialisé), suivi de l'audition et du développement",
+    "Personne malvoyante : réadaptation, aides à la vie quotidienne"
    ],
    "gravite": [
-    "Atteinte proche de la macula ou du nerf optique",
-    "Neutropénie sous traitement"
+    "Lésion proche de la macula ou du nerf optique (risque de cécité immédiat)",
+    "Décollement de rétine (voile, baisse brutale)",
+    "Perforation colique",
+    "Neutropénie < 500/mm³ sous traitement",
+    "Atteinte neurologique"
    ],
    "prevention": [
-    "Diagnostic et traitement précoces du VIH"
+    "Diagnostic et traitement précoces du VIH",
+    "Dépistage par fond d'œil des patients à CD4 < 100",
+    "Transfusion de sang déleucocyté chez le nouveau-né prématuré si possible"
    ],
    "medicaments": [
     "Valganciclovir (ganciclovir)",
-    "Ténofovir + lamivudine + dolutégravir (TLD)"
+    "Ténofovir + lamivudine + dolutégravir (TLD)",
+    "Tropicamide collyre",
+    "Prednisolone collyre 1 %"
    ]
   },
   {
@@ -41823,40 +42030,55 @@
    "nom": "Histoplasmose et mycoses profondes",
    "categorie": "vih",
    "synonymes": "histoplasmose, talaromycose, mycose profonde, aspergillose, sporotrichose, chromomycose",
-   "resume": "Infections fongiques graves, surtout chez la personne vivant avec le VIH (histoplasmose disséminée, talaromycose) ou après des lésions de la peau (sporotrichose, chromomycose).",
+   "resume": "Infections fongiques graves ou chroniques. Histoplasmose disséminée (Histoplasma capsulatum) et histoplasmose africaine (H. duboisii) chez la personne vivant avec le VIH, souvent confondues avec la tuberculose ; aspergillose pulmonaire sur caverne tuberculeuse ou chez le neutropénique ; mycoses sous-cutanées après une blessure (sporotrichose, chromomycose, mycétome). L'histoplasmose est une cause sous-diagnostiquée de décès chez les patients à VIH avancé.",
    "signes": [
-    "Histoplasmose disséminée : fièvre, amaigrissement, hépatosplénomégalie, adénopathies, pancytopénie, lésions cutanées ou buccales, toux",
-    "Histoplasmose africaine (H. duboisii) : nodules cutanés, lésions osseuses",
-    "Aspergillose : toux, hémoptysie (sur caverne), fièvre chez le neutropénique",
-    "Sporotrichose, chromomycose : nodules ou plaques verruqueuses chroniques d'un membre"
+    "Histoplasmose disséminée : fièvre prolongée, amaigrissement important, gros foie et grosse rate, ganglions, toux, diarrhée, pancytopénie, lésions cutanées (papules, ulcérations) ou buccales ; choc dans les formes graves",
+    "Histoplasmose africaine (H. duboisii) : nodules et abcès de la peau, lésions des os (crâne, côtes), ganglions",
+    "Aspergillome (sur ancienne caverne) : hémoptysies répétées, parfois abondantes ; aspergillose chronique : toux, amaigrissement ; aspergillose invasive chez le neutropénique : fièvre, toux, douleur thoracique",
+    "Sporotrichose : nodules qui s'ulcèrent en chaîne le long d'un membre",
+    "Chromomycose : plaques verruqueuses chroniques du pied ou de la jambe",
+    "Mycétome : pied gonflé, fistules laissant sortir des grains, destruction osseuse"
    ],
    "diagnostic": [
-    "Antigène Histoplasma urinaire (OMS), frottis ou biopsie, culture",
-    "Diagnostic différentiel avec la tuberculose (souvent associée)",
-    "CD4"
+    "Histoplasmose : antigène Histoplasma urinaire (test recommandé par l'OMS), frottis sanguin ou de moelle, biopsie cutanée ou ganglionnaire, culture ; CD4",
+    "Toujours rechercher une tuberculose associée (GeneXpert, TB-LAM)",
+    "Aspergillome : radiographie ou scanner (boule dans une cavité, « grelot »), sérologie aspergillaire",
+    "Mycoses sous-cutanées : examen direct, biopsie, culture des grains (mycétome fongique noir ou blanc, ou actinomycétome bactérien)",
+    "Radiographie osseuse si atteinte profonde"
    ],
    "traitement": [
-    "Histoplasmose grave : amphotéricine B (liposomale de préférence) 1 à 2 semaines, puis itraconazole 200 mg 2 fois par jour au moins 12 mois",
-    "Formes modérées : itraconazole 200 mg 3 fois par jour pendant 3 jours puis 2 fois par jour",
-    "Aspergillose invasive : voriconazole",
-    "Sporotrichose : itraconazole (ou iodure de potassium)",
-    "Démarrer les ARV"
+    "Histoplasmose grave (VIH) : amphotéricine B liposomale 3 mg/kg par jour pendant 2 semaines (ou désoxycholate 0,7 à 1 mg/kg par jour), puis itraconazole 200 mg 3 fois par jour pendant 3 jours puis 200 mg 2 fois par jour pendant au moins 12 mois",
+    "Histoplasmose modérée : itraconazole 200 mg 3 fois par jour pendant 3 jours puis 2 fois par jour pendant 12 mois ; arrêt si CD4 > 150 sous ARV avec charge virale supprimée après au moins 1 an",
+    "Histoplasmose africaine : itraconazole 200 à 400 mg par jour pendant plusieurs mois ; drainage des abcès",
+    "ARV dès que possible (sans délai en l'absence d'atteinte cérébrale)",
+    "Itraconazole : prendre avec un repas ; interactions importantes (rifampicine à éviter, inhibiteurs de protéase)",
+    "Aspergillome : chirurgie si hémoptysies répétées ou abondantes ; acide tranexamique ; aspergillose chronique : itraconazole 200 mg 2 fois par jour pendant au moins 6 mois ; aspergillose invasive : voriconazole 6 mg/kg toutes les 12 h le 1er jour puis 4 mg/kg toutes les 12 h (oral 200 mg 2 fois par jour)",
+    "Sporotrichose : itraconazole 200 mg par jour pendant 3 à 6 mois, ou solution saturée d'iodure de potassium à doses progressives",
+    "Chromomycose : itraconazole 200 à 400 mg par jour pendant 6 à 12 mois, associé à la cryothérapie ou à l'exérèse des petites lésions",
+    "Mycétome fongique : itraconazole prolongé + chirurgie ; actinomycétome : cotrimoxazole + amikacine (avis spécialisé)"
    ],
    "gravite": [
-    "Choc, insuffisance respiratoire",
-    "Pancytopénie sévère"
+    "Choc, insuffisance respiratoire, pancytopénie sévère (histoplasmose disséminée)",
+    "Hémoptysie abondante (aspergillome)",
+    "Atteinte cérébrale",
+    "Toxicité de l'amphotéricine"
    ],
    "prevention": [
-    "Traitement précoce du VIH ; prophylaxie par itraconazole en zone de forte endémie selon les recommandations"
+    "Traitement précoce du VIH",
+    "Protection des pieds (chaussures) contre les épines et blessures en zone rurale (mycétome, chromomycose)",
+    "Éviter les grottes à chauves-souris et les poulaillers chez les immunodéprimés"
    ],
    "medicaments": [
     "Itraconazole",
     "Amphotéricine B",
     "Voriconazole",
     "Fluconazole",
-    "Ténofovir + lamivudine + dolutégravir (TLD)",
     "Iodure de potassium (solution saturée)",
-    "Micafungine"
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
+    "Amikacine",
+    "Acide tranexamique",
+    "Micafungine",
+    "Ténofovir + lamivudine + dolutégravir (TLD)"
    ]
   },
   {
