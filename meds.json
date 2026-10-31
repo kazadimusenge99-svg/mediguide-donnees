@@ -1,5 +1,5 @@
 {
- "version": 29,
+ "version": 30,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -34681,46 +34681,63 @@
    "nom": "Rougeole",
    "categorie": "epidemies",
    "synonymes": "rougeole, éruption, measles",
-   "resume": "Infection virale très contagieuse, grave chez l'enfant malnutri ou non vacciné. Épidémies fréquentes en RDC.",
+   "resume": "Infection virale extrêmement contagieuse (un malade contamine 12 à 18 personnes non protégées), transmise par voie aérienne. La RDC connaît chaque année des épidémies importantes avec une forte mortalité chez l'enfant de moins de 5 ans, malnutri, non vacciné ou vivant avec le VIH. Les complications (pneumonie, diarrhée, malnutrition, atteinte des yeux, encéphalite) font la gravité ; la vitamine A et leur traitement précoce réduisent la mortalité. La rougeole affaiblit l'immunité pendant plusieurs mois.",
    "signes": [
-    "Fièvre élevée, toux, rhinite, conjonctivite (yeux rouges)",
-    "Signe de Koplik (points blancs sur la muqueuse buccale)",
-    "Éruption maculopapuleuse débutant derrière les oreilles et le visage puis descendant",
-    "Complications : pneumonie, diarrhée, stomatite, kératite, otite, encéphalite, malnutrition"
+    "Incubation de 10 à 14 jours ; contagieux de 4 jours avant à 4 jours après le début de l'éruption",
+    "Phase d'invasion (2 à 4 jours) : fièvre élevée, toux, écoulement nasal, yeux rouges et larmoyants (conjonctivite) ; signe de Koplik (petits points blancs sur la face interne des joues)",
+    "Éruption maculopapuleuse rouge (sombre sur peau noire) débutant derrière les oreilles et au visage puis descendant sur le tronc et les membres en 3 jours ; puis desquamation brunâtre",
+    "Définition de cas : fièvre + éruption maculopapuleuse + toux, rhume ou conjonctivite",
+    "Complications : pneumonie (cause principale de décès), laryngite (croup), otite, diarrhée et déshydratation, stomatite empêchant de manger, kératite et ulcère de cornée (cécité, surtout si carence en vitamine A), malnutrition aiguë, convulsions et encéphalite, et des années plus tard panencéphalite sclérosante subaiguë"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Notifier les cas (surveillance)"
+    "Diagnostic clinique sur la définition de cas",
+    "Confirmation des premiers cas d'une épidémie : IgM sur sérum ou sang séché, ou PCR sur prélèvement de gorge (laboratoire de référence)",
+    "Classer la gravité : rougeole simple, avec complications non graves (stomatite sans gêne alimentaire, conjonctivite purulente, otite, diarrhée sans déshydratation), ou compliquée grave",
+    "Mesurer le périmètre brachial et rechercher les œdèmes (malnutrition), compter la fréquence respiratoire, examiner la bouche et les yeux (cornée)",
+    "Test VIH si rougeole sévère ou récidive d'infections",
+    "Notifier chaque cas (surveillance)"
    ],
    "traitement": [
-    "Vitamine A à J1 et J2 (+ J15 si signes oculaires)",
-    "Paracétamol, hydratation, alimentation, allaitement",
-    "Désinfection oculaire, tétracycline pommade si conjonctivite purulente",
-    "Traiter les complications : amoxicilline (pneumonie), SRO (diarrhée), nystatine (muguet)",
-    "Isolement",
-    "Doses de vitamine A : moins de 6 mois 50 000 UI, 6 à 11 mois 100 000 UI, 12 mois et plus 200 000 UI",
-    "Hospitaliser si : pneumonie, déshydratation, stomatite empêchant de boire, troubles de conscience, malnutrition, nourrisson de moins de 6 mois",
-    "Vacciner les contacts non vaccinés (de 6 mois à 15 ans) dans les 72 h ; notifier"
+    "Vitamine A à J1 et J2 : moins de 6 mois 50 000 UI, 6 à 11 mois 100 000 UI, 12 mois et plus 200 000 UI ; 3e dose 2 à 4 semaines plus tard en cas d'atteinte oculaire ou de malnutrition",
+    "Paracétamol contre la fièvre, hydratation abondante, poursuite de l'allaitement et de l'alimentation (repas fréquents, enrichis) ; nettoyer le nez",
+    "Yeux : nettoyage au sérum physiologique 3 fois par jour ; conjonctivite purulente : tétracycline pommade 1 % 2 fois par jour pendant 7 jours ; kératite ou ulcère de cornée : tétracycline + vitamine A + protection de l'œil (pansement), jamais de corticoïde local, avis ophtalmologique",
+    "Bouche : rinçages à l'eau salée ou bicarbonatée 4 fois par jour, nourriture molle ; muguet : nystatine ou miconazole ; stomatite douloureuse : paracétamol avant les repas, alimentation par sonde si l'enfant ne mange pas",
+    "Pneumonie : amoxicilline 40 mg/kg 2 fois par jour pendant 5 jours ; pneumonie sévère : ceftriaxone (ou ampicilline + gentamicine), oxygène",
+    "Otite : amoxicilline ; diarrhée : SRO et zinc ; croup : dexaméthasone, adrénaline nébulisée si sévère",
+    "Malnutrition : prise en charge nutritionnelle (ATPE ou F-75 selon la gravité)",
+    "Convulsions : diazépam, rechercher une encéphalite",
+    "Hospitaliser si : pneumonie sévère, déshydratation, stomatite empêchant de boire, atteinte de la cornée, troubles de conscience ou convulsions, malnutrition aiguë sévère, nourrisson de moins de 6 mois ; isolement des malades hospitalisés dans une salle dédiée",
+    "Riposte : vacciner tous les contacts non vaccinés de 6 mois à 15 ans dans les 72 h ; enquête et campagne de vaccination selon les autorités",
+    "Suivi des enfants guéris pendant les mois suivants (nutrition, infections, vaccination de rattrapage)"
    ],
    "gravite": [
-    "Pneumonie sévère, détresse respiratoire",
-    "Déshydratation, incapacité de boire",
+    "Pneumonie sévère, détresse respiratoire, SpO₂ < 90 %",
+    "Déshydratation, incapacité de boire ou de manger",
     "Troubles de conscience, convulsions (encéphalite)",
-    "Atteinte de la cornée (opacité)",
-    "Malnutrition aiguë sévère"
+    "Opacité ou ulcère de la cornée (risque de cécité)",
+    "Malnutrition aiguë sévère, nourrisson de moins de 6 mois, VIH, femme enceinte (fausse couche, prématurité)"
    ],
    "prevention": [
-    "Vaccination (2 doses, PEV)",
-    "Riposte vaccinale en cas d'épidémie"
+    "Vaccination : 2 doses de vaccin contenant la valeur rougeole (RR) à 9 et 15 mois selon le PEV ; dès 6 mois en épidémie (dose supplémentaire ne comptant pas dans le calendrier)",
+    "Campagnes de suivi et de riposte ; vaccination des enfants déplacés et malnutris à l'admission",
+    "Isolement des malades jusqu'à 4 jours après le début de l'éruption",
+    "Supplémentation en vitamine A tous les 6 mois (6 à 59 mois)"
    ],
    "medicaments": [
     "Vitamine A (rétinol)",
     "Paracétamol",
     "Amoxicilline",
-    "Sels de réhydratation orale (SRO)",
+    "Ceftriaxone",
     "Tétracycline pommade ophtalmique 1 %",
     "Nystatine",
-    "Ceftriaxone"
+    "Miconazole (crème 2 % et gel buccal)",
+    "Sels de réhydratation orale (SRO)",
+    "Zinc (sulfate)",
+    "Dexaméthasone",
+    "Diazépam",
+    "Oxygène",
+    "Aliment thérapeutique prêt à l'emploi (ATPE)",
+    "Vaccin rougeole-rubéole (RR)"
    ]
   },
   {
@@ -34999,39 +35016,61 @@
    "nom": "Choléra",
    "categorie": "epidemies",
    "synonymes": "choléra, diarrhée eau de riz",
-   "resume": "Diarrhée aqueuse très abondante due à Vibrio cholerae, pouvant tuer en quelques heures par déshydratation. Maladie épidémique à déclaration obligatoire.",
+   "resume": "Infection intestinale par Vibrio cholerae O1 ou O139, transmise par l'eau et les aliments souillés. Elle provoque une diarrhée aqueuse très abondante (jusqu'à 1 litre par heure) pouvant tuer en quelques heures par déshydratation. La RDC est l'un des pays les plus touchés au monde, avec des foyers endémiques autour des Grands Lacs (Kivu, Tanganyika, Haut-Katanga) et des épidémies régulières. Avec une réhydratation rapide, la létalité doit rester inférieure à 1 %. Maladie à déclaration obligatoire immédiate.",
    "signes": [
-    "Diarrhée aqueuse abondante en « eau de riz », vomissements",
-    "Déshydratation rapide, crampes musculaires",
-    "Choc hypovolémique"
+    "Incubation de quelques heures à 5 jours",
+    "Diarrhée aqueuse brutale, abondante, sans douleur ni fièvre, en « eau de riz », à odeur de poisson",
+    "Vomissements",
+    "Déshydratation rapide : soif, yeux enfoncés, pli cutané qui persiste, bouche sèche, absence de larmes et d'urines",
+    "Crampes musculaires (perte de potassium)",
+    "Choc : pouls rapide et faible ou absent, extrémités froides, troubles de conscience",
+    "Enfant : hypoglycémie, convulsions",
+    "Définition de cas en épidémie : toute personne de 2 ans et plus avec diarrhée aqueuse aiguë"
    ],
    "diagnostic": [
-    "Diagnostic clinique en contexte épidémique",
-    "Test rapide et coproculture pour confirmer le début d'une épidémie",
-    "Notifier immédiatement"
+    "Diagnostic clinique en contexte d'épidémie",
+    "Test de diagnostic rapide et coproculture (milieu de transport Cary-Blair) pour confirmer le début d'une épidémie et suivre la sensibilité aux antibiotiques",
+    "Évaluer la déshydratation (plans A, B ou C de l'OMS) et la peser ; rechercher une hypoglycémie, une malnutrition, une grossesse",
+    "Notifier immédiatement tout cas suspect"
    ],
    "traitement": [
-    "Réhydratation selon le degré : SRO à volonté ; plan C : Ringer lactate 100 ml/kg en 3 h (6 h chez le nourrisson)",
-    "Antibiotique dans les formes modérées à sévères : doxycycline 300 mg dose unique (adulte), azithromycine dose unique (enfant, femme enceinte) ou ciprofloxacine",
-    "Zinc chez l'enfant",
-    "Centre de traitement du choléra (isolement, chlore)"
+    "Pas de déshydratation (plan A) : SRO après chaque selle (moins de 2 ans 50 à 100 ml, 2 à 9 ans 100 à 200 ml, 10 ans et plus 250 ml ou à volonté), traitement à domicile et retour si aggravation",
+    "Déshydratation modérée (plan B) : SRO 75 ml/kg en 4 h sous surveillance, puis réévaluation",
+    "Déshydratation sévère ou choc (plan C) : Ringer lactate IV 100 ml/kg : moins d'un an, 30 ml/kg en 1 h puis 70 ml/kg en 5 h ; à partir d'un an, 30 ml/kg en 30 min puis 70 ml/kg en 2 h 30 ; 2 voies veineuses ou voie intra-osseuse si besoin ; donner des SRO dès que le patient peut boire ; réévaluer toutes les 30 min à 1 h",
+    "Compenser ensuite les pertes continues (volume des selles et vomissements) par des SRO ; lit à choléra avec seau gradué",
+    "Antibiotique (GTFCC) pour les patients hospitalisés, en priorité ceux avec déshydratation sévère : doxycycline 300 mg en dose unique (enfant 2 à 4 mg/kg, utilisable à tout âge et chez la femme enceinte) ; ou azithromycine 1 g en dose unique (enfant 20 mg/kg) ; ou ciprofloxacine selon la sensibilité locale",
+    "Zinc chez l'enfant de moins de 5 ans : 10 mg par jour avant 6 mois, 20 mg après, pendant 10 jours",
+    "Poursuivre l'allaitement et alimenter dès que possible",
+    "Enfant malnutri sévère : réhydratation plus lente par ReSoMal (pas de plan C rapide sauf choc), surveillance rapprochée de la surcharge",
+    "Sujet âgé, cardiaque, femme enceinte (risque de mort fœtale) : réhydratation rapide mais surveillance des signes de surcharge (crépitants, œdème des paupières)",
+    "Hypoglycémie : glucose 10 % ; crampes : SRO (potassium)",
+    "Sortie : patient qui boit seul, plus de déshydratation, selles moins abondantes ; remettre des SRO et du chlore",
+    "Centre ou unité de traitement du choléra : isolement, solutions chlorées (lavage des mains 0,05 %, sols et surfaces 0,2 %, corps et excréta 2 %), circuit des patients, gestion des corps ; désinfection du domicile et intervention ciblée autour des cas (eau, hygiène, vaccination)"
    ],
    "gravite": [
-    "Choc, déshydratation sévère",
-    "Troubles de conscience",
-    "Hypoglycémie, hypokaliémie"
+    "Choc, déshydratation sévère, pouls absent",
+    "Troubles de conscience, convulsions (hypoglycémie, hyponatrémie)",
+    "Anurie persistante après réhydratation (insuffisance rénale)",
+    "Surcharge hydrique : essoufflement, crépitants, œdèmes",
+    "Enfant malnutri, femme enceinte, sujet âgé"
    ],
    "prevention": [
-    "Eau potable chlorée, lavage des mains, assainissement",
-    "Vaccination orale anticholérique en riposte"
+    "Eau potable : chloration (comprimés, eau de Javel), ébullition, stockage protégé",
+    "Lavage des mains au savon, latrines, hygiène alimentaire (aliments cuits, chauds)",
+    "Vaccin anticholérique oral : 2 doses à 2 semaines d'intervalle (dose unique dans les campagnes de riposte en cas de pénurie), en riposte et en prévention dans les zones endémiques",
+    "Enterrements sécurisés, mobilisation communautaire, surveillance",
+    "Pas d'antibioprophylaxie de masse des contacts"
    ],
    "medicaments": [
     "Sels de réhydratation orale (SRO)",
     "Ringer lactate",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Doxycycline",
     "Azithromycine",
     "Ciprofloxacine",
     "Zinc (sulfate)",
+    "ReSoMal (sels de réhydratation pour malnutris)",
+    "Glucose 10 %",
     "Composés chlorés (HTH, NaDCC, eau de Javel)",
     "Vaccin anticholérique oral"
    ]
@@ -36958,43 +36997,59 @@
    "nom": "Maladie à virus Ebola",
    "categorie": "epidemies",
    "synonymes": "Ebola, fièvre hémorragique, MVE",
-   "resume": "Fièvre hémorragique virale très contagieuse et mortelle, avec des épidémies répétées en RDC. Épidémie 2026 due au virus Bundibugyo (létalité d'environ 50 %). Toute suspicion doit être isolée et notifiée immédiatement.",
+   "resume": "Fièvre hémorragique virale très contagieuse (orthoebolavirus Zaïre, Soudan ou Bundibugyo), transmise par contact direct avec le sang, les liquides biologiques, les corps des défunts ou les objets contaminés, et à partir d'animaux de brousse (chauves-souris, primates). La RDC a connu plus de 15 épidémies ; l'épidémie de 2026 est due au virus Bundibugyo (létalité d'environ 50 %). Toute suspicion doit être isolée et notifiée immédiatement. Les soins de support précoces et, pour le virus Zaïre, les anticorps monoclonaux et le vaccin réduisent la mortalité.",
    "signes": [
-    "Fièvre brutale, fatigue intense, céphalées, douleurs musculaires",
-    "Vomissements, diarrhée abondante, douleurs abdominales",
-    "Hoquet, conjonctivite",
-    "Saignements (tardifs, inconstants)",
-    "Contact avec un cas, des funérailles, un animal de brousse"
+    "Incubation de 2 à 21 jours (souvent 8 à 10)",
+    "Fièvre brutale, grande fatigue, céphalées, douleurs musculaires et articulaires, mal de gorge",
+    "Puis vomissements, diarrhée abondante, douleurs abdominales, perte d'appétit ; hoquet, yeux rouges, éruption",
+    "Saignements (gencives, points d'injection, selles, vomissements, règles abondantes) : tardifs et inconstants",
+    "Déshydratation, choc, confusion, insuffisance rénale",
+    "Exposition dans les 21 jours : contact avec un malade ou un défunt, participation à des funérailles, soins sans protection, viande de brousse, séjour dans une zone touchée"
    ],
    "diagnostic": [
-    "Définition de cas du ministère de la Santé",
-    "Isolement immédiat et prélèvement pour PCR par une équipe protégée",
-    "Notifier sans délai",
-    "TDR paludisme"
+    "Appliquer la définition de cas du ministère de la Santé ; isolement immédiat dans une zone dédiée dès le triage",
+    "Prélèvement sanguin (ou écouvillon buccal chez le défunt) par une équipe protégée pour RT-PCR (GeneXpert Ebola ou laboratoire de référence) ; identifier l'espèce virale",
+    "TDR paludisme (traiter si positif sans écarter Ebola) ; glycémie ; électrolytes, créatinine et transaminases si disponibles au point de soins",
+    "Une PCR négative moins de 72 h après le début des symptômes ne permet pas d'exclure : la répéter",
+    "Notifier sans délai et lister les contacts"
    ],
    "traitement": [
-    "Isolement dans un centre de traitement Ebola, équipements de protection individuelle",
-    "Identifier l'espèce virale (PCR) : les anticorps monoclonaux (ansuvimab, REGN-EB3) ne sont indiqués que pour le virus Zaïre ; contre le virus Bundibugyo (épidémie 2026), aucun traitement spécifique homologué : inclusion dans les essais cliniques si possible",
-    "Soins de support optimisés (ils réduisent la mortalité) : réhydratation orale ou IV, correction des électrolytes et de l'hypoglycémie, antipaludique, antibiotiques, antalgiques (paracétamol ; pas d'AINS ni d'aspirine), nutrition, soutien psychologique"
+    "Isolement dans un centre de traitement Ebola, équipements de protection individuelle complets, hygiène des mains, solutions chlorées, gestion des déchets",
+    "Virus Zaïre : anticorps monoclonaux le plus tôt possible : ansuvimab 50 mg/kg IV en dose unique ou REGN-EB3 150 mg/kg IV en dose unique, y compris chez l'enfant, le nouveau-né et la femme enceinte",
+    "Virus Bundibugyo ou Soudan : aucun traitement spécifique homologué ; inclure les patients dans les essais cliniques si possible",
+    "Soins de support optimisés (ils réduisent la mortalité) : réhydratation orale (SRO) ou IV (Ringer lactate) selon les pertes, correction du potassium, du sodium et de l'hypoglycémie",
+    "Antiémétique (ondansétron), antidiarrhéique possible chez l'adulte, antalgique (paracétamol, morphine si douleur sévère) ; pas d'AINS, d'aspirine ni d'injection IM",
+    "Traitement antipaludique systématique (artésunate-amodiaquine de préférence) et antibiotique si suspicion de sepsis (ceftriaxone)",
+    "Nutrition adaptée, oxygène, transfusion en cas d'hémorragie, soutien psychologique du patient et de la famille",
+    "Femme enceinte : soins obstétricaux par une équipe protégée (mort fœtale très fréquente)",
+    "Sortie : disparition des symptômes et PCR négative selon le protocole national ; certificat de guérison",
+    "Survivants : suivi pendant au moins 12 mois (douleurs articulaires, uvéite et baisse de vision, troubles auditifs, fatigue, dépression) ; le virus persiste dans le sperme : préservatif pendant 12 mois ou jusqu'à 2 tests négatifs du sperme ; allaitement à discuter selon le test du lait"
    ],
    "gravite": [
     "Choc, saignements, troubles de conscience",
-    "Insuffisance rénale"
+    "Insuffisance rénale (anurie), hypoglycémie, hypokaliémie",
+    "Charge virale élevée (PCR à faible Ct), âge < 5 ans ou > 50 ans, grossesse"
    ],
    "prevention": [
-    "Virus Zaïre : vaccination (rVSV-ZEBOV, Ervebo) des contacts et du personnel de santé ; virus Bundibugyo : pas de vaccin homologué (essai TUMAINI en cours en Ituri)",
-    "Prévention et contrôle des infections dans toutes les structures de santé (triage, EPI, hygiène des mains, solutions chlorées)",
-    "Enterrements dignes et sécurisés",
-    "Suivi des contacts pendant 21 jours"
+    "Virus Zaïre : vaccination en anneau (rVSV-ZEBOV, Ervebo, dose unique) des contacts, des contacts de contacts et du personnel de première ligne ; virus Bundibugyo : pas de vaccin homologué (essais en cours)",
+    "Prévention et contrôle des infections dans toutes les structures de santé : triage, isolement, EPI, hygiène des mains, solutions chlorées",
+    "Enterrements dignes et sécurisés par des équipes formées",
+    "Suivi quotidien des contacts pendant 21 jours",
+    "Ne pas manipuler ni consommer d'animaux trouvés morts",
+    "Engagement communautaire"
    ],
    "medicaments": [
     "Anticorps monoclonaux anti-Ebola (ansuvimab, REGN-EB3)",
     "Ringer lactate",
     "Sels de réhydratation orale (SRO)",
-    "Paracétamol",
-    "Artéméther + luméfantrine",
-    "Ondansétron",
     "Chlorure de potassium (KCl) injectable",
+    "Glucose 10 %",
+    "Ondansétron",
+    "Paracétamol",
+    "Morphine",
+    "Artésunate + amodiaquine (ASAQ)",
+    "Artéméther + luméfantrine",
+    "Ceftriaxone",
     "Composés chlorés (HTH, NaDCC, eau de Javel)",
     "Vaccin Ebola (rVSV-ZEBOV)"
    ]
@@ -37004,43 +37059,61 @@
    "nom": "Mpox (variole simienne)",
    "categorie": "epidemies",
    "synonymes": "mpox, monkeypox, variole du singe, variole simienne",
-   "resume": "Infection virale (clade I en RDC) transmise par contact avec un animal, une personne infectée (y compris sexuel) ou des objets contaminés. Plus grave chez l'enfant, la femme enceinte et la personne VIH+.",
+   "resume": "Infection virale (orthopoxvirus) transmise par contact avec un animal infecté (rongeurs, primates), ou de personne à personne par contact direct avec les lésions, les liquides biologiques, les rapports sexuels, les gouttelettes et les objets contaminés. La RDC est le pays le plus touché, avec les clades Ia (transmission familiale, enfants) et Ib (transmission sexuelle et familiale, depuis le Sud-Kivu). Plus grave chez l'enfant de moins de 5 ans, la femme enceinte, la personne vivant avec le VIH non contrôlé et le malnutri.",
    "signes": [
-    "Fièvre, céphalées, douleurs, adénopathies (caractéristiques)",
-    "Éruption évoluant de macules en vésicules puis pustules ombiliquées et croûtes, souvent sur le visage, les paumes, les plantes, les organes génitaux",
-    "Lésions buccales, oculaires, génitales douloureuses"
+    "Incubation de 3 à 21 jours",
+    "Phase de début : fièvre, céphalées, douleurs musculaires et dorsales, fatigue, ganglions gonflés (cou, aisselles, aine), caractéristiques",
+    "Éruption 1 à 3 jours après : macules, papules, vésicules, pustules fermes et ombiliquées, puis croûtes qui tombent en 2 à 4 semaines ; lésions au même stade dans une même région ; visage, paumes, plantes, bouche, organes génitaux, anus ; parfois quelques lésions seulement (clade Ib, transmission sexuelle)",
+    "Lésions buccales (douleur pour avaler), oculaires (conjonctivite, kératite), génitales et anales très douloureuses (proctite, rétention urinaire)",
+    "Complications : surinfection bactérienne, abcès, déshydratation, pneumonie, encéphalite, atteinte de la cornée, sepsis ; fausse couche ou mort fœtale"
    ],
    "diagnostic": [
-    "Définition de cas ; prélèvement de lésions pour PCR",
-    "Notifier",
-    "Dépistage du VIH ; rechercher varicelle, gale, syphilis"
+    "Définition de cas ; prélèvement de 2 à 3 lésions (écouvillon du liquide, du toit de la vésicule ou de la croûte) pour PCR mpox (et clade)",
+    "Notifier chaque cas suspect",
+    "Test VIH systématique (et CD4 si positif), dépistage de la syphilis et des autres IST si transmission sexuelle ; test de grossesse",
+    "Différentiels : varicelle (lésions à différents stades, plus centrales, peu de ganglions), gale, syphilis secondaire, herpès, molluscum, impétigo, rougeole, maladie mains-pieds-bouche",
+    "Évaluer la gravité : nombre de lésions (> 100 : grave), atteinte des yeux, de la bouche, des organes génitaux, état nutritionnel, hydratation"
    ],
    "traitement": [
-    "Isolement jusqu'à la chute de toutes les croûtes",
-    "Traitement de support : antipyrétiques, antalgiques, hydratation, nutrition",
-    "Soins des lésions (lavage, antiseptique) ; antibiotique si surinfection (cloxacilline, amoxicilline-acide clavulanique)",
-    "Lésions oculaires : avis ophtalmologique",
-    "Lésions buccales : bains de bouche, alimentation adaptée",
-    "Les antiviraux (técovirimat) n'ont pas montré de bénéfice contre le clade I (essai PALM007 en RDC)",
-    "Proposer un test VIH ; surveillance rapprochée des enfants, des femmes enceintes et des personnes immunodéprimées"
+    "Isolement à domicile ou à l'hôpital jusqu'à la chute de toutes les croûtes et la cicatrisation (nouvelle peau) ; couvrir les lésions, masque si lésions buccales ou toux, chambre séparée, linge et ustensiles personnels",
+    "Traitement de support : paracétamol ou ibuprofène, antalgiques adaptés à la douleur (morphine si sévère), hydratation (SRO), nutrition (aliments mous, supplément ; ATPE chez l'enfant malnutri)",
+    "Soins des lésions : lavage à l'eau et au savon ou antiseptique doux (chlorhexidine), garder sec, ne pas percer ni gratter ; prurit : antihistaminique, lotion de calamine",
+    "Surinfection : cloxacilline ou amoxicilline + acide clavulanique ; abcès : drainage",
+    "Lésions génitales et anales : bains de siège, gel de lidocaïne, laxatif doux, sonde si rétention urinaire",
+    "Lésions buccales : bains de bouche (eau salée, chlorhexidine), alimentation adaptée",
+    "Lésions oculaires : nettoyage, larmes artificielles, ne pas toucher l'œil ; tétracycline pommade si surinfection ; avis ophtalmologique (risque de cécité)",
+    "Les antiviraux (técovirimat) n'ont pas montré de bénéfice contre le clade I (essais PALM007 en RDC et STOMP) : pas d'usage en routine",
+    "Personne vivant avec le VIH : débuter ou reprendre les ARV rapidement ; surveillance rapprochée (formes nécrosantes)",
+    "Femme enceinte : suivi obstétrical, surveillance du fœtus ; nouveau-né d'une mère infectée : évaluation, allaitement selon l'état des lésions",
+    "Après guérison : préservatif pendant 12 semaines ; soutien psychologique, lutte contre la stigmatisation"
    ],
    "gravite": [
-    "Lésions oculaires, pneumonie, encéphalite",
-    "Déshydratation, malnutrition",
-    "Lésions très étendues, sepsis",
-    "Femme enceinte, nourrisson, personne immunodéprimée"
+    "Lésions oculaires, pneumonie, encéphalite, sepsis",
+    "Plus de 100 lésions, lésions confluentes ou nécrotiques",
+    "Déshydratation, impossibilité de manger, malnutrition",
+    "Femme enceinte, nourrisson et enfant de moins de 5 ans, personne vivant avec le VIH non contrôlé",
+    "Rétention urinaire, douleur anale intense"
    ],
    "prevention": [
-    "Vaccination (MVA-BN, LC16) des groupes prioritaires et des contacts",
-    "Éviter les contacts avec les malades et les animaux sauvages ; hygiène des mains"
+    "Vaccination (MVA-BN 2 doses à 4 semaines d'intervalle chez l'adulte et l'adolescent ; LC16m8 chez l'enfant à partir d'un an) des contacts dans les 4 jours suivant l'exposition (jusqu'à 14 jours), du personnel de santé et des groupes à risque",
+    "Recherche et suivi des contacts pendant 21 jours",
+    "Éviter les contacts avec les malades, leur linge et les animaux sauvages ; hygiène des mains",
+    "Précautions contact et gouttelettes dans les structures de santé",
+    "Préservatif, information sur la transmission sexuelle"
    ],
    "medicaments": [
     "Paracétamol",
+    "Ibuprofène",
+    "Morphine",
     "Cloxacilline",
     "Amoxicilline + acide clavulanique",
     "Chlorhexidine",
+    "Lidocaïne (lignocaïne)",
+    "Lotion de calamine",
+    "Chlorphénamine (chlorphéniramine)",
     "Sels de réhydratation orale (SRO)",
     "Tétracycline pommade ophtalmique 1 %",
+    "Ténofovir + lamivudine + dolutégravir (TLD)",
     "Vaccin mpox (MVA-BN)"
    ]
   },
@@ -37049,37 +37122,54 @@
    "nom": "Peste",
    "categorie": "epidemies",
    "synonymes": "peste, peste bubonique, peste pulmonaire, bubon",
-   "resume": "Infection à Yersinia pestis transmise par les puces des rongeurs (foyers en Ituri). La forme pulmonaire est très contagieuse et rapidement mortelle.",
+   "resume": "Infection par Yersinia pestis, transmise par les puces des rongeurs (peste bubonique) ou d'homme à homme par les gouttelettes (peste pulmonaire). La RDC, avec le foyer de l'Ituri (zones de santé de Rethy et d'Aru), déclare la majorité des cas mondiaux avec Madagascar. La peste pulmonaire est très contagieuse et mortelle en 24 à 72 h sans traitement ; un traitement antibiotique précoce guérit la plupart des malades. Maladie à déclaration internationale obligatoire.",
    "signes": [
-    "Peste bubonique : fièvre brutale, bubon (ganglion très douloureux, souvent inguinal)",
-    "Peste pulmonaire : fièvre, toux, crachats sanglants, dyspnée",
-    "Septicémie : choc, saignements"
+    "Peste bubonique (incubation 2 à 7 jours) : fièvre brutale, frissons, céphalées, grande fatigue ; bubon : ganglion très douloureux, chaud, souvent à l'aine, à l'aisselle ou au cou, avec œdème autour",
+    "Peste pulmonaire (incubation 1 à 3 jours) : fièvre, toux, douleur thoracique, essoufflement, crachats d'abord clairs puis sanglants ; évolution rapide vers la détresse respiratoire",
+    "Peste septicémique : choc, saignements, gangrène des extrémités, sans bubon visible",
+    "Méningite pesteuse (rare)",
+    "Contexte : rats morts dans le village, piqûres de puces, contact avec un malade qui tousse, saison de transmission"
    ],
    "diagnostic": [
-    "Test rapide (antigène F1) sur pus de bubon ou crachats ; culture si possible",
-    "Notifier immédiatement (maladie à déclaration internationale)"
+    "Test rapide (antigène F1) sur le pus de bubon (aspiration à l'aiguille), les crachats ou le sang ; culture et PCR au laboratoire de référence (prélèvements à envoyer avant les antibiotiques si possible, sans retarder le traitement)",
+    "Coloration de Gram ou de Wayson : bacilles bipolaires",
+    "Notifier immédiatement (RSI) et rechercher les contacts",
+    "Différentiels : adénite bactérienne, tularémie, IST (lymphogranulomatose), pneumonie, paludisme grave, septicémie"
    ],
    "traitement": [
-    "Traitement le plus tôt possible : gentamicine 5 mg/kg/j IV/IM pendant 10 jours, ou doxycycline, ou ciprofloxacine (forme bubonique non sévère)",
-    "Isolement respiratoire (masque) pour la forme pulmonaire",
-    "Ne pas inciser le bubon",
-    "Chimioprophylaxie des contacts : doxycycline ou ciprofloxacine 7 jours"
+    "Traiter dès la suspicion, sans attendre la confirmation",
+    "Peste bubonique : gentamicine 5 mg/kg par jour IM ou IV en une injection (enfant 7,5 mg/kg) ; ou ciprofloxacine 500 à 750 mg 2 fois par jour (enfant 15 mg/kg 2 fois par jour) ; ou doxycycline 200 mg le 1er jour puis 100 mg 2 fois par jour ; pendant 10 à 14 jours",
+    "Peste pulmonaire ou septicémique : débuter par une association de 2 antibiotiques de classes différentes (gentamicine + ciprofloxacine IV), puis relais oral ; streptomycine 15 mg/kg toutes les 12 h en alternative à la gentamicine",
+    "Méningite pesteuse : chloramphénicol 25 mg/kg toutes les 6 h (ou associé à la ciprofloxacine)",
+    "Femme enceinte et enfant : gentamicine ou ciprofloxacine",
+    "Bubon : ne pas inciser ; aspiration à l'aiguille pour le diagnostic ; drainage seulement d'un bubon fluctuant après plusieurs jours d'antibiotiques",
+    "Réanimation : remplissage pour le choc, oxygène, paracétamol",
+    "Peste pulmonaire : isolement du patient (masque chirurgical pour le malade, appareil de protection respiratoire FFP2 et protection oculaire pour le personnel) jusqu'à 48 h de traitement efficace ; désinsectisation du patient et de ses vêtements",
+    "Chimioprophylaxie des contacts (contact rapproché d'un cas de peste pulmonaire, ou exposition aux mêmes puces) dans les 7 jours : doxycycline 100 mg 2 fois par jour ou ciprofloxacine 500 mg 2 fois par jour pendant 7 jours ; enfant : cotrimoxazole ou ciprofloxacine",
+    "Corps des défunts : manipulation protégée, enterrement sécurisé"
    ],
    "gravite": [
-    "Forme pulmonaire, septicémie, choc"
+    "Forme pulmonaire (contagieuse, mortelle en 24 à 72 h)",
+    "Septicémie, choc, saignements, gangrène",
+    "Méningite",
+    "Retard au traitement de plus de 24 h"
    ],
    "prevention": [
-    "Lutte contre les rongeurs et les puces (insecticides)",
-    "Ne pas manipuler les animaux morts"
+    "Lutte contre les puces (insecticide dans les maisons et sur les terriers) AVANT la dératisation (sinon les puces quittent les rats morts et piquent l'homme)",
+    "Stockage des récoltes à l'abri des rats, propreté autour des maisons",
+    "Ne pas manipuler les animaux morts ; signaler les morts de rats inhabituelles",
+    "Surveillance active et traitement précoce dans les zones de santé du foyer de l'Ituri"
    ],
    "medicaments": [
     "Gentamicine",
-    "Doxycycline",
     "Ciprofloxacine",
+    "Doxycycline",
+    "Streptomycine",
     "Chloramphénicol",
     "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
     "Paracétamol",
-    "Streptomycine"
+    "Ringer lactate",
+    "Perméthrine 5 %"
    ]
   },
   {
@@ -37300,38 +37390,51 @@
    "nom": "Fièvre jaune",
    "categorie": "epidemies",
    "synonymes": "fièvre jaune, ictère fébrile, amaril",
-   "resume": "Fièvre hémorragique virale transmise par les moustiques Aedes. Pas de traitement spécifique ; la vaccination est très efficace.",
+   "resume": "Fièvre hémorragique virale transmise par les moustiques Aedes (et Haemagogus), avec un cycle sylvatique (singes) et urbain. La RDC est un pays à haut risque, avec des épidémies (Kinshasa et Kwango 2016). La plupart des infections sont bénignes, mais 15 % des malades passent à une phase toxique mortelle dans 30 à 60 % des cas. Il n'existe pas de traitement antiviral ; une seule dose de vaccin protège à vie.",
    "signes": [
-    "Fièvre, céphalées, douleurs, nausées pendant 3 à 4 jours",
-    "Rémission puis, chez une partie des malades, phase toxique : ictère, saignements, vomissements noirs, insuffisance rénale"
+    "Incubation de 3 à 6 jours",
+    "Phase aiguë (3 à 4 jours) : fièvre brutale, frissons, céphalées, douleurs dorsales et musculaires, nausées, vomissements, yeux rouges, pouls relativement lent",
+    "Rémission de quelques heures à 1 jour",
+    "Phase toxique chez 15 % des malades : retour de la fièvre, ictère, douleurs abdominales, vomissements noirs (sang), saignements des gencives, du nez, des points de ponction, urines rares (insuffisance rénale), troubles de conscience, choc",
+    "Définition de cas : fièvre suivie d'un ictère dans les 14 jours"
    ],
    "diagnostic": [
-    "Définition de cas (fièvre + ictère) ; prélèvement sanguin pour confirmation",
-    "Notifier",
-    "Éliminer paludisme, hépatites, leptospirose",
-    "Confirmation par sérologie (IgM) ou PCR au laboratoire national de référence (INRB)"
+    "Notifier tout cas suspect et prélever du sang pour confirmation au laboratoire national de référence (INRB) : IgM (après 5 à 7 jours) ou PCR (premiers jours)",
+    "Éliminer : paludisme (TDR), hépatites virales, leptospirose, typhoïde, dengue, Ebola et autres fièvres hémorragiques, hépatite médicamenteuse",
+    "Biologie : transaminases très élevées (ASAT > ALAT), bilirubine, créatinine, plaquettes, glycémie, coagulation (TP) ; albumine dans les urines",
+    "Antécédent de vaccination (carte)"
    ],
    "traitement": [
-    "Pas de traitement antiviral : soins de support (réhydratation, paracétamol ; pas d'aspirine ni d'AINS)",
-    "Traiter le paludisme associé",
-    "Moustiquaire pour éviter la transmission",
-    "Hospitaliser les formes avec ictère ou saignement : corriger l'hypoglycémie, vitamine K, plasma si troubles de la coagulation",
-    "Isoler sous moustiquaire pendant les 5 premiers jours de fièvre"
+    "Pas de traitement antiviral : soins de support",
+    "Phase aiguë sans complication : repos, hydratation, paracétamol à dose modérée (maximum 2 à 3 g par jour chez l'adulte, toxicité hépatique) ; pas d'aspirine ni d'AINS",
+    "Traiter un paludisme associé",
+    "Isoler le malade sous moustiquaire pendant les 5 premiers jours de fièvre (le sang est infectant pour les moustiques)",
+    "Phase toxique (ictère, saignements, oligurie) : hospitaliser en soins intensifs si possible ; réhydratation IV prudente (Ringer lactate), glycémie toutes les 4 h et glucosé 10 % (hypoglycémie fréquente) ; vitamine K1 10 mg IV ; plasma frais congelé si troubles de la coagulation avec saignements ; transfusion si hémorragie ; oméprazole pour protéger l'estomac ; antiémétique",
+    "Insuffisance rénale : dialyse si disponible ; troubles de conscience : position latérale, protection des voies aériennes",
+    "Riposte : investigation, vaccination de masse de la population autour des cas confirmés"
    ],
    "gravite": [
-    "Ictère, saignements, troubles de conscience, oligurie"
+    "Ictère, saignements, vomissements noirs",
+    "Troubles de conscience, convulsions",
+    "Oligurie ou anurie",
+    "Hypoglycémie, choc"
    ],
    "prevention": [
-    "Vaccination (PEV à 9 mois, campagnes de riposte) ; une dose protège à vie",
-    "Lutte contre les Aedes",
-    "Vaccin contre-indiqué avant 6 mois ; prudence après 60 ans et en cas d'immunodépression sévère"
+    "Vaccination : dose unique dans le PEV à 9 mois (avec le vaccin rougeole), campagnes préventives et de riposte ; une dose protège à vie ; doses fractionnées en cas de pénurie lors des épidémies",
+    "Contre-indications : moins de 6 mois (6 à 8 mois seulement en épidémie), immunodépression sévère (VIH avec CD4 < 200), maladie du thymus, allergie sévère à l'œuf ; prudence après 60 ans ; femme enceinte et allaitante : vacciner en situation d'épidémie",
+    "Lutte contre les Aedes (gîtes larvaires, récipients d'eau couverts), moustiquaires, répulsifs",
+    "Certificat international de vaccination pour les voyageurs"
    ],
    "medicaments": [
     "Paracétamol",
     "Ringer lactate",
     "Glucose 10 %",
     "Vitamine K1 (phytoménadione)",
-    "Artéméther + luméfantrine"
+    "Plasma frais congelé (PFC)",
+    "Oméprazole",
+    "Ondansétron",
+    "Artéméther + luméfantrine",
+    "Vaccin antiamaril (fièvre jaune)"
    ]
   },
   {
@@ -38180,30 +38283,42 @@
    "nom": "Dengue",
    "categorie": "epidemies",
    "synonymes": "dengue, fièvre de la dengue, arbovirose",
-   "resume": "Infection virale transmise par les moustiques Aedes, avec des flambées en Afrique. La phase critique (fuite plasmatique) survient au moment où la fièvre baisse.",
+   "resume": "Infection virale (4 sérotypes) transmise par les moustiques Aedes, qui piquent le jour, avec des flambées croissantes en Afrique, y compris en Afrique centrale. La plupart des cas sont bénins, mais une fuite plasmatique peut survenir pendant la phase critique, au moment où la fièvre baisse (entre le 3e et le 7e jour), et causer un choc. Une 2e infection par un autre sérotype expose davantage à la dengue sévère. Une surveillance attentive et un remplissage bien dosé ramènent la létalité à moins de 1 %.",
    "signes": [
-    "Fièvre élevée brutale, céphalées, douleur derrière les yeux, douleurs musculaires et articulaires",
-    "Éruption, petits saignements (gencives, pétéchies)",
-    "Signes d'alerte : douleur abdominale, vomissements persistants, saignements des muqueuses, léthargie, hépatomégalie, hématocrite qui monte avec plaquettes qui baissent"
+    "Phase fébrile (2 à 7 jours) : fièvre élevée brutale, céphalées, douleur derrière les yeux, douleurs musculaires et articulaires intenses, nausées, éruption, petits saignements (pétéchies, gencives, nez) ; test du garrot positif",
+    "Signes d'alerte (souvent au moment de la défervescence) : douleur abdominale intense, vomissements persistants, accumulation de liquide (épanchement pleural, ascite), saignements des muqueuses, léthargie ou agitation, foie augmenté de plus de 2 cm, hématocrite qui monte en même temps que les plaquettes chutent",
+    "Dengue sévère : choc (pouls rapide et faible, PA pincée, extrémités froides, TRC > 3 s), détresse respiratoire par épanchement, saignement grave, atteinte d'organe (hépatite, encéphalite, myocardite)",
+    "Phase de récupération : retour des liquides dans les vaisseaux, prurit, bradycardie ; risque de surcharge si la perfusion continue"
    ],
    "diagnostic": [
-    "Test rapide (NS1, IgM) si disponible",
-    "Hémogramme (hématocrite, plaquettes)",
-    "TDR paludisme (co-infections fréquentes)"
+    "Test rapide antigène NS1 (jours 1 à 5) et IgM (après le 5e jour) ; PCR au laboratoire de référence",
+    "Hémogramme : hématocrite de départ puis évolution, globules blancs bas, plaquettes qui baissent",
+    "TDR paludisme (co-infections fréquentes)",
+    "Classer le patient : groupe A (sans signe d'alerte, boit bien), groupe B (signes d'alerte ou terrain à risque : nourrisson, grossesse, sujet âgé, diabète, obésité, insuffisance rénale), groupe C (dengue sévère)",
+    "Différentiels : paludisme, chikungunya, fièvre jaune, leptospirose, typhoïde, rougeole, méningococcémie, Ebola"
    ],
    "traitement": [
-    "Sans signe d'alerte : repos, boissons abondantes, paracétamol ; PAS d'aspirine ni d'AINS ; revoir chaque jour",
-    "Avec signes d'alerte : hospitaliser, perfusion de cristalloïdes adaptée à l'hématocrite et à la diurèse (prudence : risque de surcharge)",
-    "Dengue sévère (choc) : remplissage 10 à 20 ml/kg, transfusion si hémorragie",
-    "Phase critique (entre le 3e et le 7e jour, quand la fièvre baisse) : revoir chaque jour, hématocrite et plaquettes si possible"
+    "Groupe A (ambulatoire) : repos, boissons abondantes (eau, SRO, jus, soupes : 2 à 3 litres par jour chez l'adulte), paracétamol (maximum 4 g par jour ; enfant 10 à 15 mg/kg toutes les 6 h) ; PAS d'aspirine, d'ibuprofène, d'autres AINS, de corticoïdes ni d'injection IM ; revoir chaque jour jusqu'à 48 h après la fin de la fièvre, avec hématocrite et plaquettes si possible",
+    "Expliquer les signes d'alerte qui doivent faire revenir immédiatement, surtout quand la fièvre baisse",
+    "Groupe B, signes d'alerte : hospitaliser, hématocrite de départ, perfusion de cristalloïde (Ringer lactate ou sérum physiologique) 5 à 7 ml/kg/h pendant 1 à 2 h, puis 3 à 5 ml/kg/h pendant 2 à 4 h, puis 2 à 3 ml/kg/h, à adapter à l'hématocrite, à la diurèse (au moins 0,5 ml/kg/h) et à la clinique ; réduire progressivement sur 24 à 48 h",
+    "Groupe C, choc compensé : 5 à 10 ml/kg/h de cristalloïde pendant 1 h, réévaluer et diminuer progressivement ; choc avec hypotension : 20 ml/kg en 15 min, à répéter ; colloïde si choc persistant ; si l'hématocrite baisse et l'état reste instable : penser à une hémorragie cachée, transfuser (sang total frais 10 à 20 ml/kg ou culot 5 à 10 ml/kg)",
+    "Pas de transfusion de plaquettes préventive, même si les plaquettes sont basses, en l'absence de saignement grave",
+    "Surveillance du groupe B et C : pouls, PA, TRC, FR, diurèse toutes les 1 à 4 h, hématocrite toutes les 4 à 6 h, glycémie",
+    "Phase de récupération : arrêter les perfusions ; surcharge (essoufflement, crépitants) : furosémide si la PA est stable",
+    "Sortie : sans fièvre depuis 24 à 48 h sans antipyrétique, appétit revenu, diurèse correcte, hématocrite stable, plaquettes > 50 000 et en hausse",
+    "Déclarer les cas (surveillance des arboviroses)"
    ],
    "gravite": [
     "Signes d'alerte",
-    "Choc, saignement important",
-    "Troubles de conscience"
+    "Choc, saignement important (vomissements de sang, selles noires, règles très abondantes)",
+    "Détresse respiratoire, épanchements",
+    "Troubles de conscience, convulsions",
+    "Nourrisson, femme enceinte, sujet âgé, maladie chronique"
    ],
    "prevention": [
-    "Lutte contre les gîtes larvaires (eau stagnante), protection contre les piqûres de jour"
+    "Lutte contre les gîtes larvaires : supprimer l'eau stagnante (pneus, boîtes, récipients), couvrir les réserves d'eau",
+    "Protection contre les piqûres de jour : vêtements longs, répulsifs, moustiquaires pour les malades (éviter la transmission)",
+    "Vaccin TAK-003 (2 doses à 3 mois d'intervalle) recommandé par l'OMS chez les 6 à 16 ans dans les zones de forte transmission, selon la disponibilité"
    ],
    "medicaments": [
     "Paracétamol",
@@ -38211,6 +38326,8 @@
     "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Sels de réhydratation orale (SRO)",
     "Concentré de globules rouges (culot globulaire)",
+    "Sang total",
+    "Furosémide",
     "Vaccin contre la dengue (TAK-003)"
    ]
   },
@@ -38219,31 +38336,47 @@
    "nom": "Chikungunya",
    "categorie": "epidemies",
    "synonymes": "chikungunya, arbovirose, fièvre et douleurs articulaires",
-   "resume": "Infection virale transmise par les Aedes, provoquant des douleurs articulaires intenses parfois prolongées.",
+   "resume": "Infection virale transmise par les moustiques Aedes (piqûres de jour), en flambées en Afrique, dont des épidémies en RDC (Kinshasa 2019). Elle provoque une fièvre avec des douleurs articulaires très intenses, qui peuvent persister des mois. Rarement mortelle, elle est plus grave chez le nouveau-né contaminé à l'accouchement, le sujet âgé et le patient atteint d'une maladie chronique.",
    "signes": [
-    "Fièvre brutale, douleurs articulaires intenses (poignets, chevilles, mains)",
-    "Éruption, céphalées, myalgies",
-    "Douleurs articulaires pouvant durer des mois"
+    "Incubation de 3 à 7 jours",
+    "Fièvre brutale élevée, douleurs articulaires intenses et invalidantes, souvent symétriques (poignets, mains, chevilles, pieds), gonflement des articulations ; le patient marche courbé (« chikungunya » : « celui qui se recourbe »)",
+    "Éruption maculopapuleuse, prurit, céphalées, douleurs musculaires, yeux rouges",
+    "Phase subaiguë et chronique : douleurs, raideurs et gonflements articulaires pendant des semaines à des mois, ténosynovites, fatigue, dépression",
+    "Formes graves : encéphalite, myocardite, hépatite, troubles hémorragiques modérés ; nouveau-né : fièvre, refus de téter, éruption, convulsions, encéphalopathie"
    ],
    "diagnostic": [
-    "Diagnostic clinique en contexte épidémique ; sérologie ou PCR si disponible",
-    "Éliminer une dengue (signes d'alerte) et un paludisme"
+    "Diagnostic clinique en contexte d'épidémie",
+    "RT-PCR (première semaine) ou IgM (après le 5e jour) au laboratoire de référence pour confirmer l'épidémie",
+    "Éliminer une dengue (signes d'alerte, chute des plaquettes) et un paludisme (TDR) ; NFS (lymphocytes bas)",
+    "Différentiels : dengue, Zika, o'nyong-nyong, rhumatisme articulaire aigu, arthrite septique, polyarthrite rhumatoïde"
    ],
    "traitement": [
-    "Repos, hydratation, paracétamol",
-    "AINS (ibuprofène) seulement après avoir exclu une dengue",
-    "Forme chronique : antalgiques, kinésithérapie, avis spécialisé"
+    "Repos, hydratation, paracétamol (adulte 1 g toutes les 6 h) ; compresses froides sur les articulations",
+    "AINS (ibuprofène 400 mg 3 fois par jour) seulement après avoir exclu une dengue (au-delà du 7e jour ou dengue écartée) ; pas d'aspirine",
+    "Douleurs intenses : tramadol ou codéine en complément",
+    "Forme chronique : AINS en cures, kinésithérapie et exercices, corticoïdes de courte durée dans les formes inflammatoires ; arthrite persistante plus de 3 mois : avis rhumatologique (méthotrexate, hydroxychloroquine)",
+    "Accouchement pendant la phase fébrile de la mère (de 4 jours avant à 2 jours après) : risque de transmission ; surveiller le nouveau-né pendant 7 jours (hospitalisation au moindre signe)",
+    "Moustiquaire pour le malade pendant la fièvre (éviter la transmission)",
+    "Déclarer les cas groupés"
    ],
    "gravite": [
-    "Nouveau-né (transmission à l'accouchement), sujet âgé, formes neurologiques",
-    "Accouchement pendant la phase fébrile : surveiller le nouveau-né pendant 7 jours (transmission périnatale)"
+    "Nouveau-né (transmission à l'accouchement), sujet âgé, maladie chronique",
+    "Troubles de conscience, convulsions (encéphalite)",
+    "Déshydratation",
+    "Douleurs chroniques invalidantes"
    ],
    "prevention": [
-    "Lutte contre les moustiques Aedes"
+    "Lutte contre les moustiques Aedes : suppression des gîtes larvaires, couvercles sur les réserves d'eau",
+    "Protection contre les piqûres de jour (vêtements longs, répulsifs)"
    ],
    "medicaments": [
     "Paracétamol",
-    "Ibuprofène"
+    "Ibuprofène",
+    "Tramadol",
+    "Codéine",
+    "Prednisolone",
+    "Méthotrexate",
+    "Hydroxychloroquine"
    ]
   },
   {
@@ -39648,41 +39781,55 @@
    "nom": "Diphtérie",
    "categorie": "epidemies",
    "synonymes": "diphtérie, fausses membranes, croup diphtérique, cou proconsulaire",
-   "resume": "Infection par Corynebacterium diphtheriae produisant une toxine qui atteint le cœur et les nerfs. Réapparition lors des baisses de couverture vaccinale.",
+   "resume": "Infection par Corynebacterium diphtheriae toxinogène, transmise par les gouttelettes et le contact avec les lésions. La toxine provoque des fausses membranes qui obstruent les voies respiratoires et atteint le cœur (myocardite) et les nerfs (paralysies). Elle réapparaît lorsque la couverture vaccinale baisse (épidémies en Afrique de l'Ouest depuis 2023). L'antitoxine doit être donnée dès la suspicion ; la maladie ne protège pas.",
    "signes": [
-    "Angine avec fausses membranes grisâtres, adhérentes, qui saignent quand on les décolle",
-    "Œdème du cou (« cou proconsulaire »)",
-    "Voix rauque, stridor (laryngite)",
-    "Complications : myocardite (troubles du rythme, insuffisance cardiaque), paralysies (voile du palais, membres) dans les semaines suivantes"
+    "Incubation de 2 à 5 jours",
+    "Angine avec fausses membranes grisâtres, épaisses, adhérentes, qui saignent quand on tente de les décoller, débordant sur la luette et le palais ; fièvre modérée ; haleine fétide",
+    "Ganglions du cou et œdème du cou (« cou proconsulaire ») dans les formes graves",
+    "Diphtérie nasale : écoulement sanglant d'une narine",
+    "Laryngite : voix rauque, toux aboyante, stridor, tirage, asphyxie",
+    "Diphtérie cutanée : ulcère chronique couvert d'une membrane grise",
+    "Complications : myocardite (2e semaine : pouls irrégulier, insuffisance cardiaque, mort subite) ; paralysies (2e à 8e semaine : voix nasonnée, reflux des liquides par le nez, troubles de l'accommodation, paralysie des membres et des muscles respiratoires) ; insuffisance rénale"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; prélèvement de gorge pour culture",
+    "Diagnostic clinique : ne pas attendre la confirmation pour traiter",
+    "Prélèvement de gorge ou de la membrane (sous la membrane) pour culture et test de toxinogénicité (laboratoire de référence)",
     "Déclaration immédiate",
-    "ECG si disponible"
+    "ECG à l'admission et régulièrement pendant 2 à 3 semaines si disponible ; troponine",
+    "Statut vaccinal",
+    "Différentiels : angine streptococcique, mononucléose, angine de Vincent, candidose, épiglottite, abcès amygdalien"
    ],
    "traitement": [
-    "Isolement (précautions gouttelettes)",
-    "Sérum antidiphtérique dès la suspicion, sans attendre la confirmation",
-    "Antibiotique 14 jours : benzylpénicilline IV puis pénicilline V, ou érythromycine/azithromycine",
-    "Surveillance cardiaque et respiratoire (trachéotomie si obstruction)",
-    "Vacciner le malade guéri (la maladie ne protège pas)",
-    "Contacts : prélèvement, antibioprophylaxie (benzathine benzylpénicilline ou érythromycine 7 jours), vaccination"
+    "Isolement (précautions gouttelettes et contact) jusqu'à 2 cultures négatives à 24 h d'intervalle après la fin des antibiotiques (ou 14 jours de traitement si culture impossible)",
+    "Antitoxine diphtérique (sérum antidiphtérique) dès la suspicion, en perfusion IV sur 1 h (ou IM), dose selon la gravité : forme pharyngée ou laryngée récente 20 000 à 40 000 UI ; forme nasopharyngée 40 000 à 60 000 UI ; forme étendue, plus de 3 jours d'évolution ou cou proconsulaire 80 000 à 100 000 UI ; même dose chez l'enfant ; adrénaline prête (réaction allergique) ; test de sensibilité selon le fabricant",
+    "Antibiotique 14 jours : benzylpénicilline 50 000 UI/kg (maximum 1,2 MUI) toutes les 6 h IV puis pénicilline V orale dès que le patient avale ; ou azithromycine 10 à 12 mg/kg par jour (maximum 500 mg) ou érythromycine 12,5 mg/kg 4 fois par jour (maximum 500 mg par prise)",
+    "Voies aériennes : surveillance rapprochée du stridor ; trachéotomie ou intubation si obstruction ; ne pas arracher les membranes ; oxygène",
+    "Myocardite : repos strict au lit, surveillance du pouls et de l'ECG, traitement de l'insuffisance cardiaque et des troubles du rythme",
+    "Paralysie du voile : alimentation par sonde ; paralysie respiratoire : ventilation",
+    "Vacciner le malade guéri (série complète selon l'âge)",
+    "Contacts proches (foyer, contact rapproché) : prélèvement de gorge, surveillance 7 jours, antibioprophylaxie (benzathine benzylpénicilline IM en dose unique : 600 000 UI si < 30 kg, 1,2 MUI si ≥ 30 kg ; ou azithromycine ou érythromycine 7 à 10 jours), mise à jour de la vaccination"
    ],
    "gravite": [
-    "Stridor, obstruction",
-    "Myocardite (pouls irrégulier, insuffisance cardiaque)",
-    "Cou proconsulaire"
+    "Stridor, tirage, obstruction des voies aériennes",
+    "Cou proconsulaire, membranes étendues",
+    "Myocardite : pouls irrégulier, lent ou rapide, insuffisance cardiaque, anomalies de l'ECG",
+    "Paralysie des muscles respiratoires ou de la déglutition",
+    "Délai de plus de 3 jours avant l'antitoxine"
    ],
    "prevention": [
-    "Vaccination (pentavalent, rappels DTC et Td)"
+    "Vaccination : pentavalent à 6, 10 et 14 semaines, rappels DTC et Td selon le calendrier (enfance, adolescence, femmes en âge de procréer)",
+    "Riposte vaccinale autour des cas, rattrapage des enfants non vaccinés",
+    "Prophylaxie et vaccination des contacts"
    ],
    "medicaments": [
     "Sérum antidiphtérique (antitoxine diphtérique)",
     "Benzylpénicilline (pénicilline G)",
     "Phénoxyméthylpénicilline (pénicilline V)",
-    "Érythromycine",
     "Azithromycine",
+    "Érythromycine",
     "Benzathine benzylpénicilline",
+    "Adrénaline (épinéphrine)",
+    "Oxygène",
     "Vaccin pentavalent (DTC-HepB-Hib)",
     "Vaccin antitétanique (Td / VAT)"
    ]
@@ -40630,27 +40777,40 @@
    "nom": "Poliomyélite",
    "categorie": "epidemies",
    "synonymes": "polio, poliomyélite, paralysie flasque aiguë, PFA",
-   "resume": "Infection virale pouvant provoquer une paralysie flasque définitive. Toute paralysie flasque aiguë chez un enfant < 15 ans doit être notifiée.",
+   "resume": "Infection par un poliovirus (sauvage, ou dérivé d'une souche vaccinale qui circule dans les populations peu vaccinées) transmise par les selles et l'eau souillée. La plupart des infections sont sans symptôme, mais environ 1 sur 200 provoque une paralysie flasque définitive. La RDC connaît des épidémies de poliovirus dérivé d'une souche vaccinale de type 2 (PVDVc2). Toute paralysie flasque aiguë (PFA) chez un enfant de moins de 15 ans doit être notifiée et investiguée : c'est la base de l'éradication.",
    "signes": [
-    "Fièvre, douleurs, puis paralysie flasque asymétrique (une jambe le plus souvent), installée en quelques jours, sans trouble de la sensibilité",
-    "Atteinte respiratoire ou de la déglutition (formes graves)"
+    "Incubation de 7 à 14 jours",
+    "Forme mineure : fièvre, maux de gorge, troubles digestifs",
+    "Méningite à liquide clair (douleurs de nuque et du dos)",
+    "Forme paralytique : fièvre, douleurs musculaires, puis paralysie flasque installée en 1 à 3 jours, asymétrique (une jambe le plus souvent), avec réflexes abolis, sans trouble de la sensibilité ; la paralysie ne progresse plus après la fin de la fièvre",
+    "Forme bulbaire : troubles de la déglutition, de la voix et de la respiration",
+    "Séquelles : membre atrophié, déformations, raccourcissement"
    ],
    "diagnostic": [
-    "Toute paralysie flasque aiguë (PFA) < 15 ans : notification immédiate et 2 prélèvements de selles à 24 h d'intervalle dans les 14 jours",
-    "Diagnostic différentiel : Guillain-Barré, injection IM traumatique du nerf sciatique, konzo"
+    "Toute PFA chez un enfant de moins de 15 ans (ou à tout âge si suspicion de polio) : notification immédiate au point focal de surveillance",
+    "2 prélèvements de selles (8 à 10 g) à 24 h d'intervalle, dans les 14 jours suivant le début de la paralysie, conservés et transportés entre 2 et 8 °C (chaîne du froid inversée)",
+    "Examen de suivi 60 jours après (paralysie résiduelle)",
+    "Différentiels : syndrome de Guillain-Barré (paralysie symétrique ascendante, troubles sensitifs, LCR avec protéines élevées sans cellules), névrite traumatique après injection IM dans la fesse, myélite transverse, compression médullaire (mal de Pott), konzo (paralysie spastique), botulisme, hypokaliémie, pseudo-paralysie par arthrite ou ostéomyélite"
    ],
    "traitement": [
     "Pas de traitement antiviral",
-    "Repos, antalgiques, positionnement des membres paralysés, éviter les injections IM pendant la phase aiguë",
-    "Kinésithérapie précoce, appareillage",
-    "Atteinte respiratoire : assistance respiratoire",
-    "Riposte vaccinale autour du cas"
+    "Phase aiguë : repos au lit, antalgiques (paracétamol, ibuprofène), compresses chaudes sur les muscles douloureux",
+    "Positionnement des membres paralysés pour éviter les rétractions (attelles, coussins), mobilisation passive douce ; pas d'exercice intense ni d'injection IM pendant la phase aiguë (aggravent la paralysie)",
+    "Forme bulbaire : alimentation par sonde, aspiration des sécrétions, position latérale ; atteinte respiratoire : ventilation assistée",
+    "Soins de vessie et d'intestin si nécessaire",
+    "Rééducation précoce après la phase aiguë : kinésithérapie, appareillage (orthèses, béquilles), chirurgie orthopédique des déformations ; inclusion scolaire et sociale",
+    "Riposte vaccinale autour du cas (campagnes avec le vaccin adapté au type de virus, nVPO2 pour le type 2)"
    ],
    "gravite": [
-    "Atteinte respiratoire ou bulbaire (fausses routes)"
+    "Atteinte respiratoire (respiration paradoxale, toux faible) ou bulbaire (fausses routes)",
+    "Paralysie extensive",
+    "Rétention urinaire"
    ],
    "prevention": [
-    "Vaccination (VPO, VPI), campagnes de vaccination, surveillance des PFA"
+    "Vaccination : VPO à la naissance et à 6, 10 et 14 semaines ; VPI à 14 semaines et 2e dose à 9 mois selon le PEV",
+    "Campagnes de vaccination de masse et de riposte",
+    "Surveillance des PFA et surveillance environnementale",
+    "Eau potable, latrines, hygiène des mains"
    ],
    "medicaments": [
     "Vaccin poliomyélitique oral (VPOb)",
@@ -40721,37 +40881,57 @@
    "nom": "Fièvres hémorragiques virales (Marburg, Lassa, Crimée-Congo)",
    "categorie": "epidemies",
    "synonymes": "Marburg, Lassa, Crimée-Congo, fièvre hémorragique, FHV",
-   "resume": "Infections virales graves et contagieuses. Marburg ressemble à Ebola ; Lassa (Afrique de l'Ouest) et Crimée-Congo (tiques) répondent à la ribavirine.",
+   "resume": "Infections virales graves dont certaines se transmettent d'homme à homme par le sang et les liquides biologiques : maladie à virus de Marburg (chauves-souris des grottes et des mines ; foyers en RDC, Ouganda, Rwanda), fièvre de Lassa (rongeurs, Afrique de l'Ouest), fièvre hémorragique de Crimée-Congo (tiques et bétail), fièvre de la vallée du Rift (bétail, moustiques, Afrique de l'Est). Marburg ressemble cliniquement à Ebola. La ribavirine est efficace contre Lassa si elle est donnée tôt.",
    "signes": [
-    "Fièvre, grande fatigue, céphalées, myalgies, mal de gorge",
-    "Vomissements, diarrhée",
-    "Saignements (gencives, points d'injection, selles)",
-    "Choc, troubles de conscience",
-    "Lassa : œdème du visage, surdité"
+    "Fièvre, grande fatigue, céphalées, douleurs musculaires, mal de gorge",
+    "Vomissements, diarrhée, douleurs abdominales",
+    "Saignements (gencives, nez, points d'injection, selles, urines, vomissements), éruption, ecchymoses",
+    "Choc, troubles de conscience, insuffisance rénale",
+    "Lassa : œdème du visage et du cou, épanchements, surdité (séquelle fréquente), avortement",
+    "Crimée-Congo : début brutal, saignements importants, contact avec bétail ou tique",
+    "Vallée du Rift : formes oculaires (baisse de vision), encéphalite, hémorragies"
    ],
    "diagnostic": [
-    "Toute fièvre avec saignements ou contact avec un cas, une chauve-souris (Marburg), des rongeurs (Lassa) ou du bétail et des tiques (Crimée-Congo) : ISOLER et alerter",
-    "Prélèvements par le laboratoire de référence",
-    "TDR paludisme"
+    "Toute fièvre avec saignements inexpliqués, ou fièvre avec contact avec un cas, une grotte ou une mine à chauves-souris (Marburg), des rongeurs (Lassa), du bétail et des tiques (Crimée-Congo, Rift) : ISOLER et alerter",
+    "Prélèvements par une équipe protégée pour PCR au laboratoire de référence (INRB)",
+    "TDR paludisme (traiter si positif sans écarter la fièvre hémorragique)",
+    "Biologie au point de soins si disponible : plaquettes, créatinine, transaminases, potassium"
    ],
    "traitement": [
-    "Isolement strict, équipements de protection, gestion des déchets et des corps",
-    "Soins de soutien : réhydratation, antipaludique, antalgique (paracétamol, pas d'AINS ni d'injections IM), transfusion",
-    "Lassa et Crimée-Congo : ribavirine IV le plus tôt possible",
-    "Recherche et suivi des contacts (21 jours)"
+    "Isolement strict, équipements de protection individuelle complets, gestion des déchets, des liquides et des corps",
+    "Soins de soutien optimisés : réhydratation orale ou IV, correction des électrolytes et de l'hypoglycémie, antipaludique, antibiotique si sepsis, antiémétique, antalgique (paracétamol, morphine), pas d'AINS, d'aspirine ni d'injection IM ; transfusion de sang, de plasma ou de plaquettes selon les saignements ; oxygène",
+    "Lassa : ribavirine IV le plus tôt possible (dans les 6 premiers jours) : 30 mg/kg (maximum 2 g) en dose de charge, puis 16 mg/kg (maximum 1 g) toutes les 6 h pendant 4 jours, puis 8 mg/kg (maximum 500 mg) toutes les 8 h pendant 6 jours",
+    "Crimée-Congo : ribavirine discutée (efficacité incertaine) ; Marburg : pas de traitement spécifique homologué, essais cliniques (anticorps, antiviraux)",
+    "Ribavirine : anémie hémolytique (surveiller l'hémoglobine), tératogène",
+    "Survivants : suivi (surdité après Lassa, persistance du virus de Marburg dans le sperme : préservatif)",
+    "Recherche et suivi des contacts pendant 21 jours ; enterrements sécurisés"
    ],
    "gravite": [
-    "Choc, saignements, troubles de conscience"
+    "Choc, saignements diffus, troubles de conscience",
+    "Insuffisance rénale",
+    "Femme enceinte (mortalité maternelle et fœtale très élevée dans la fièvre de Lassa)",
+    "Contamination de soignants (alerte immédiate)"
    ],
    "prevention": [
-    "Lutte contre les rongeurs (Lassa), protection contre les tiques, précautions standard à l'hôpital"
+    "Précautions standard et prévention des infections dans toutes les structures de santé (triage, gants, hygiène des mains, matériel à usage unique)",
+    "Éviter les grottes et mines à chauves-souris, ne pas consommer d'animaux trouvés morts",
+    "Lutte contre les rongeurs (stockage des aliments) dans les zones de Lassa",
+    "Protection contre les tiques et précautions lors de l'abattage du bétail",
+    "Vaccins en développement (Marburg, Lassa) dans le cadre des essais"
    ],
    "medicaments": [
     "Ribavirine",
     "Ringer lactate",
+    "Sels de réhydratation orale (SRO)",
+    "Glucose 10 %",
     "Paracétamol",
+    "Morphine",
+    "Ondansétron",
     "Artéméther + luméfantrine",
-    "Ondansétron"
+    "Ceftriaxone",
+    "Concentré de globules rouges (culot globulaire)",
+    "Plasma frais congelé (PFC)",
+    "Concentré plaquettaire"
    ]
   },
   {
