@@ -1,5 +1,5 @@
 {
- "version": 35,
+ "version": 36,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -36312,44 +36312,57 @@
    "nom": "Hypertension artérielle",
    "categorie": "cardio",
    "synonymes": "HTA, tension, hypertension, tension élevée",
-   "resume": "Pression artérielle ≥ 140/90 mmHg à plusieurs mesures. Principal facteur de risque d'AVC, d'insuffisance cardiaque et rénale ; souvent sans symptôme.",
+   "resume": "Pression artérielle ≥ 140/90 mmHg mesurée correctement à au moins 2 consultations. Elle touche près d'un adulte sur trois en RDC, souvent sans le savoir, et apparaît tôt chez les personnes d'ascendance africaine. Principal facteur de risque d'AVC, d'insuffisance cardiaque, d'insuffisance rénale et de décès prématuré ; elle est le plus souvent silencieuse. Le dépistage systématique, un traitement simple et standardisé (protocole HEARTS de l'OMS) et le suivi régulier préviennent la plupart des complications.",
    "signes": [
     "Souvent aucun symptôme",
-    "Céphalées, vertiges, bourdonnements d'oreille",
-    "Complications : AVC, douleur thoracique, dyspnée (insuffisance cardiaque), troubles visuels, insuffisance rénale"
+    "Céphalées, vertiges, bourdonnements d'oreille, saignements de nez (peu spécifiques)",
+    "Complications : AVC (déficit, troubles de la parole), douleur thoracique (SCA), essoufflement et œdèmes (insuffisance cardiaque), troubles visuels (rétinopathie), urines mousseuses ou rares (atteinte rénale), artériopathie des jambes",
+    "Évocateurs d'une HTA secondaire : âge < 30 ans, HTA sévère ou résistante, potassium bas (hyperaldostéronisme), poussées avec sueurs et palpitations (phéochromocytome), souffle abdominal (sténose de l'artère rénale), ronflement et somnolence (apnées du sommeil)"
    ],
    "diagnostic": [
-    "Mesure correcte (au repos, brassard adapté, 2 mesures à au moins 2 consultations)",
-    "Bilan : glycémie, créatinine, protéinurie (bandelette), ECG si possible",
-    "Rechercher les autres facteurs de risque (diabète, tabac, obésité)"
+    "Mesure correcte : patient assis depuis 5 min, dos appuyé, bras à hauteur du cœur, brassard adapté au bras, 2 mesures à 1 min d'intervalle (garder la moyenne), aux 2 bras la 1re fois ; confirmer à une 2e visite (sauf PA ≥ 180/110) ; automesure à domicile utile",
+    "Bilan initial : glycémie, créatinine (et débit de filtration), potassium, bandelette urinaire (protéines, sang), cholestérol si disponible, ECG (hypertrophie ventriculaire gauche), fond d'œil",
+    "Évaluer le risque cardiovasculaire global (âge, tabac, diabète, cholestérol : tableaux de risque de l'OMS)",
+    "Femme enceinte : voir la fiche Pré-éclampsie"
    ],
    "traitement": [
-    "Mesures hygiéno-diététiques : moins de sel, activité physique, arrêt du tabac, réduction de l'alcool et du poids",
-    "Traitement si TA ≥ 140/90 persistante (≥ 130/80 si diabète ou maladie cardiovasculaire selon le protocole) : amlodipine ou hydrochlorothiazide en 1re intention, ou IEC/sartan (diabète, protéinurie)",
-    "Associer 2 médicaments si non contrôlée ; objectif < 140/90",
-    "Statine si risque élevé",
-    "Suivi mensuel jusqu'au contrôle, puis tous les 3 mois",
-    "Doses : amlodipine 5 mg par jour (maximum 10 mg) ; hydrochlorothiazide 12,5 à 25 mg par jour ; énalapril 5 à 20 mg par jour",
-    "Pas d'IEC ni de sartan chez la femme enceinte ou qui souhaite une grossesse (nifédipine LP, méthyldopa)"
+    "Mesures hygiéno-diététiques pour tous : moins de 5 g de sel par jour (pas de cube de bouillon, moins de poisson salé et de conserves), plus de fruits et légumes, activité physique 30 min par jour 5 jours par semaine, poids normal, arrêt du tabac, réduction de l'alcool",
+    "Débuter un médicament si PA ≥ 140/90 confirmée (ou ≥ 130/80 en cas de maladie cardiovasculaire, de diabète ou de maladie rénale) ; d'emblée si PA ≥ 160/100",
+    "Protocole simple (HEARTS) : 1) amlodipine 5 mg par jour ; 2) amlodipine 10 mg ou association amlodipine + IEC/sartan (ou + diurétique thiazidique) ; 3) trithérapie amlodipine + IEC/sartan + hydrochlorothiazide ; 4) HTA résistante : ajouter spironolactone 25 mg (surveiller le potassium) ; préférer les associations fixes en 1 comprimé",
+    "Chez les patients d'ascendance africaine, l'amlodipine ou le thiazidique sont plus efficaces en 1re intention qu'un IEC seul",
+    "IEC (énalapril 5 à 20 mg par jour) ou sartan (losartan 50 à 100 mg) en priorité si diabète, protéinurie, maladie rénale ou insuffisance cardiaque ; contrôle de la créatinine et du potassium 2 semaines après",
+    "Hydrochlorothiazide 12,5 à 25 mg par jour ; bisoprolol si angor, insuffisance cardiaque ou après un infarctus",
+    "Objectif < 140/90, et < 130/80 chez les patients à haut risque s'il est bien toléré ; prudence chez le sujet âgé fragile (hypotension orthostatique, chutes)",
+    "Statine (simvastatine 20 à 40 mg) si maladie cardiovasculaire, diabète après 40 ans ou risque élevé ; aspirine seulement en prévention secondaire (après AVC ischémique ou infarctus)",
+    "Suivi : tous les mois jusqu'au contrôle, puis tous les 3 mois ; renouvellement pour 3 mois chez le patient stable ; vérifier l'observance avant d'augmenter le traitement",
+    "Pas d'IEC ni de sartan chez la femme enceinte ou qui souhaite une grossesse (nifédipine LP, méthyldopa, labétalol)",
+    "Éviter les AINS et les corticoïdes au long cours qui élèvent la PA"
    ],
    "gravite": [
-    "TA ≥ 180/110 avec signes d'atteinte d'organe (douleur thoracique, déficit neurologique, OAP, troubles visuels, confusion) : urgence hypertensive → hospitaliser",
-    "Grossesse avec TA ≥ 140/90 : voir pré-éclampsie"
+    "PA ≥ 180/110 avec atteinte d'organe (douleur thoracique, déficit neurologique, OAP, troubles visuels, confusion) : urgence hypertensive, hospitaliser (voir la fiche dédiée)",
+    "PA ≥ 180/110 sans symptôme : traitement oral renforcé et contrôle dans les jours suivants",
+    "Grossesse avec PA ≥ 140/90 : voir pré-éclampsie",
+    "Créatinine en hausse ou potassium > 5,5 sous IEC"
    ],
    "prevention": [
-    "Alimentation peu salée, activité physique, poids normal, arrêt du tabac",
-    "Dépistage de la TA chez l'adulte à chaque consultation"
+    "Dépistage de la PA chez tout adulte à chaque consultation et lors des campagnes communautaires",
+    "Alimentation peu salée, activité physique, poids normal, arrêt du tabac, alcool limité",
+    "Disponibilité continue des médicaments essentiels (amlodipine, IEC, thiazidique)"
    ],
    "medicaments": [
     "Amlodipine",
     "Hydrochlorothiazide",
     "Énalapril",
     "Losartan",
+    "Associations fixes antihypertensives",
+    "Spironolactone",
     "Bisoprolol",
+    "Nifédipine",
+    "Méthyldopa",
+    "Amiloride",
     "Simvastatine",
     "Acide acétylsalicylique (aspirine)",
-    "Associations fixes antihypertensives",
-    "Amiloride"
+    "Polypilule cardiovasculaire"
    ]
   },
   {
@@ -36357,33 +36370,49 @@
    "nom": "Insuffisance cardiaque",
    "categorie": "cardio",
    "synonymes": "insuffisance cardiaque, cœur fatigué, OAP, œdèmes, essoufflement",
-   "resume": "Incapacité du cœur à assurer un débit suffisant. Causes en RDC : HTA, cardiomyopathies, valvulopathies rhumatismales, anémie sévère.",
+   "resume": "Syndrome où le cœur n'assure plus un débit suffisant ou seulement au prix de pressions de remplissage élevées. En RDC, les causes principales sont la cardiopathie hypertensive, les cardiomyopathies dilatées (dont la cardiomyopathie du péripartum et celle liée à l'alcool ou au VIH), les valvulopathies rhumatismales, la péricardite tuberculeuse constrictive, la fibrose endomyocardique, l'anémie sévère et le cœur pulmonaire. Pour l'insuffisance cardiaque à fraction d'éjection réduite, 4 classes de médicaments réduisent la mortalité. Cette fiche traite la forme chronique ; la décompensation aiguë a sa propre fiche.",
    "signes": [
-    "Essoufflement à l'effort puis au repos, orthopnée (doit dormir assis)",
-    "Œdèmes des membres inférieurs, prise de poids",
-    "Turgescence jugulaire, hépatomégalie, crépitants pulmonaires",
-    "OAP : détresse respiratoire, crachats mousseux"
+    "Essoufflement à l'effort puis au repos (classes NYHA I à IV), orthopnée (dort avec plusieurs oreillers ou assis), réveils nocturnes par étouffement",
+    "Fatigue, intolérance à l'effort",
+    "Œdèmes des jambes, prise de poids, ascite",
+    "Turgescence jugulaire, reflux hépato-jugulaire, foie gros et sensible, crépitants pulmonaires, bruit de galop, souffle (valvulopathie)",
+    "Pouls rapide ou irrégulier (fibrillation auriculaire)",
+    "Péricardite constrictive : ascite et gros foie disproportionnés, jugulaires très turgescentes, petit cœur"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; radiographie (cardiomégalie), ECG, échographie si disponibles",
-    "Rechercher la cause : HTA, valvulopathie, anémie, troubles du rythme, grossesse (cardiomyopathie du péripartum)"
+    "Diagnostic clinique ; radiographie du thorax (cardiomégalie, surcharge, épanchement), ECG (hypertrophie, séquelle d'infarctus, fibrillation auriculaire, bas voltage)",
+    "Échographie cardiaque si disponible : fraction d'éjection (réduite ≤ 40 %, modérément réduite 41 à 49 %, préservée ≥ 50 %), valves, péricarde",
+    "BNP ou NT-proBNP si disponibles",
+    "Biologie : hémoglobine, créatinine, sodium, potassium, glycémie, TSH, ferritine ; test VIH",
+    "Rechercher la cause : HTA, valvulopathie rhumatismale, cardiomyopathie (alcool, grossesse récente, VIH), ischémie, péricardite tuberculeuse, anémie, hyperthyroïdie, troubles du rythme, cœur pulmonaire"
    ],
    "traitement": [
     "Décompensation aiguë (OAP, surcharge, choc cardiogénique) : voir la fiche « Insuffisance cardiaque aiguë décompensée »",
-    "OAP : position assise, oxygène, furosémide IV, dinitrate d'isosorbide si TA conservée",
-    "Chronique : restriction sodée, furosémide pour les œdèmes ; IEC (énalapril) ou sartan, bêtabloquant (bisoprolol) à doses progressives, spironolactone",
-    "FA rapide : digoxine ou bisoprolol, anticoagulation",
-    "Traiter la cause (HTA, anémie)",
-    "Pesée régulière",
-    "Doses dans l'OAP : furosémide 40 à 80 mg IV, à répéter selon la diurèse et la dyspnée"
+    "Congestion : furosémide à la plus petite dose efficace (20 à 80 mg par jour), adaptée au poids (le patient peut l'augmenter s'il prend 2 kg en 3 jours)",
+    "Fraction d'éjection réduite (≤ 40 %) : associer rapidement les 4 traitements qui réduisent la mortalité, à doses progressives toutes les 2 semaines : IEC (énalapril 2,5 mg 2 fois par jour jusqu'à 10 à 20 mg 2 fois par jour) ou sartan (losartan jusqu'à 150 mg) ; bêtabloquant (bisoprolol 1,25 mg jusqu'à 10 mg par jour) quand le patient n'est plus congestif ; spironolactone 25 à 50 mg par jour ; empagliflozine 10 mg par jour",
+    "Patient d'ascendance africaine restant symptomatique ou ne tolérant pas l'IEC : hydralazine (37,5 mg 3 fois par jour, jusqu'à 75 mg) + dinitrate d'isosorbide (20 mg 3 fois par jour, jusqu'à 40 mg)",
+    "Surveillance de la créatinine et du potassium 1 à 2 semaines après chaque changement d'IEC ou de spironolactone (arrêter si K > 6 ou créatinine qui double)",
+    "Fraction d'éjection préservée : diurétique pour la congestion, contrôle de la PA, empagliflozine",
+    "Fibrillation auriculaire : contrôle de la fréquence (bisoprolol, digoxine 0,125 à 0,25 mg par jour), anticoagulation (warfarine si valvulopathie rhumatismale ; voir la fiche FA)",
+    "Carence en fer (ferritine < 100) : fer IV si disponible, sinon oral ; anémie : traiter la cause",
+    "Traiter la cause : HTA, anémie, valve (chirurgie), péricardite tuberculeuse (antituberculeux, péricardectomie)",
+    "Éducation : sel < 5 g par jour, liquides limités à 1,5 l par jour si congestion sévère ou hyponatrémie, pesée quotidienne, activité physique adaptée, arrêt de l'alcool et du tabac, vaccins grippe et pneumocoque",
+    "Éviter les AINS, le vérapamil et la pioglitazone (fraction d'éjection réduite)",
+    "Cardiomyopathie du péripartum : contraception efficace, nouvelle grossesse déconseillée si la fonction ne se normalise pas",
+    "Suivi rapproché (consultation infirmière, téléphone) ; soins palliatifs au stade terminal"
    ],
    "gravite": [
-    "OAP, détresse respiratoire, SpO2 basse",
-    "TA basse, choc cardiogénique",
-    "Douleur thoracique, troubles du rythme"
+    "OAP, détresse respiratoire, SpO₂ basse",
+    "PA basse, choc cardiogénique",
+    "Douleur thoracique, troubles du rythme, syncope",
+    "Potassium > 6 mmol/l, créatinine qui double",
+    "Prise de poids rapide malgré le traitement"
    ],
    "prevention": [
-    "Contrôle de l'HTA ; prévention du RAA (traitement des angines)"
+    "Contrôle de l'HTA et du diabète",
+    "Prévention du RAA (traitement des angines par pénicilline) et prophylaxie secondaire",
+    "Traitement de l'anémie, limitation de l'alcool",
+    "Dépistage de la cardiomyopathie chez la femme essoufflée en fin de grossesse ou après l'accouchement"
    ],
    "medicaments": [
     "Furosémide",
@@ -36391,13 +36420,16 @@
     "Losartan",
     "Bisoprolol",
     "Spironolactone",
-    "Digoxine",
-    "Dinitrate d'isosorbide",
-    "Oxygène",
-    "Warfarine",
-    "Trinitrine (nitroglycérine)",
     "Empagliflozine",
-    "Dopamine"
+    "Hydralazine (dihydralazine)",
+    "Dinitrate d'isosorbide",
+    "Digoxine",
+    "Warfarine",
+    "Hydrochlorothiazide",
+    "Trinitrine (nitroglycérine)",
+    "Oxygène",
+    "Dopamine",
+    "Vaccin antigrippal (inactivé)"
    ]
   },
   {
@@ -36549,49 +36581,63 @@
    "nom": "Douleur thoracique et syndrome coronarien aigu",
    "categorie": "cardio",
    "synonymes": "infarctus, angine de poitrine, angor, crise cardiaque, douleur thoracique",
-   "resume": "Douleur thoracique pouvant révéler un infarctus, une embolie pulmonaire, une péricardite ou une dissection. L'infarctus est moins fréquent en Afrique centrale mais en augmentation.",
+   "resume": "Une douleur thoracique peut révéler une urgence vitale : syndrome coronarien aigu (infarctus avec ou sans sus-décalage du segment ST, angor instable), embolie pulmonaire, dissection aortique, péricardite avec tamponnade, pneumothorax compressif, rupture de l'œsophage ; ou une cause moins grave (pariétale, digestive, anxieuse). L'infarctus est moins fréquent en Afrique centrale mais augmente avec l'HTA, le diabète, le tabac et l'urbanisation. L'ECG dans les 10 minutes est l'examen clé.",
    "signes": [
-    "Douleur rétrosternale constrictive, irradiant au bras gauche, à la mâchoire",
-    "Durée > 20 min, au repos (infarctus)",
-    "Sueurs, nausées, dyspnée, malaise"
+    "Syndrome coronarien : douleur rétrosternale en barre, constrictive (« poids, étau »), irradiant au bras gauche, au cou, à la mâchoire ou au dos, durant plus de 20 min au repos (infarctus) ; sueurs, nausées, essoufflement, malaise ; formes atypiques fréquentes chez le diabétique, la femme et le sujet âgé (essoufflement, douleur épigastrique, fatigue)",
+    "Embolie pulmonaire : essoufflement brutal, douleur augmentée par l'inspiration, tachycardie, jambe gonflée",
+    "Dissection : douleur déchirante irradiant dans le dos, asymétrie des pouls ou de la PA entre les bras",
+    "Péricardite : douleur augmentée en position couchée et calmée penché en avant, frottement, fièvre (souvent tuberculeuse ou virale)",
+    "Pneumothorax : douleur brutale d'un côté, essoufflement, abolition du murmure",
+    "Drépanocytaire : syndrome thoracique aigu"
    ],
    "diagnostic": [
-    "ECG le plus tôt possible",
-    "Troponine si disponible",
-    "Rechercher : embolie pulmonaire (dyspnée, tachycardie, phlébite), pneumonie, péricardite",
-    "ECG : sus-décalage du segment ST ≥ 1 mm dans 2 dérivations contiguës = infarctus à reperfuser",
-    "Score HEART (onglet Outils) pour une douleur thoracique non expliquée"
+    "ECG dans les 10 min, à répéter (sus-décalage du segment ST ≥ 1 mm dans 2 dérivations contiguës, ou nouveau bloc de branche gauche = infarctus à reperfuser ; sous-décalage ou ondes T négatives : SCA sans sus-décalage)",
+    "Troponine si disponible (à répéter à 3 h si la 1re est normale)",
+    "Score HEART (onglet Outils) pour une douleur thoracique non expliquée",
+    "Radiographie du thorax (pneumothorax, élargissement du médiastin, pneumonie) ; échographie (épanchement péricardique, cinétique, ventricule droit)",
+    "Glycémie, créatinine, potassium, hémoglobine",
+    "Embolie pulmonaire : voir la fiche dédiée ; ne jamais thrombolyser une dissection suspectée"
    ],
    "traitement": [
-    "Repos, oxygène si SpO2 < 90 %",
-    "Aspirine 160 à 300 mg à croquer (sauf allergie)",
-    "Dinitrate d'isosorbide sublingual si TA systolique > 90 mmHg",
-    "Morphine si douleur intense",
-    "Si SCA confirmé : clopidogrel, héparine (énoxaparine), bêtabloquant, statine ; transfert vers un centre spécialisé",
-    "Infarctus avec sus-décalage ST de moins de 12 h sans angioplastie accessible : thrombolyse (streptokinase ou altéplase) en l'absence de contre-indication",
-    "Énoxaparine 1 mg/kg SC toutes les 12 h (adapter à la fonction rénale)"
+    "Repos, monitorage, voie veineuse ; oxygène seulement si SpO₂ < 90 %",
+    "Aspirine 150 à 300 mg à croquer dès la suspicion (sauf allergie ou dissection suspectée), puis 75 à 100 mg par jour",
+    "Dinitrate d'isosorbide ou trinitrine sublinguale si PA systolique > 90 mmHg (pas en cas d'infarctus du ventricule droit ni après sildénafil)",
+    "Morphine 2 à 4 mg IV titrée si douleur intense",
+    "SCA confirmé : clopidogrel 300 mg puis 75 mg par jour (600 mg si angioplastie ; 75 mg sans dose de charge après 75 ans en cas de thrombolyse) ; énoxaparine 1 mg/kg SC toutes les 12 h (après 75 ans 0,75 mg/kg sans bolus ; 1 mg/kg une fois par jour si clairance < 30 ml/min) ou héparine non fractionnée ; bisoprolol si pas d'insuffisance cardiaque, de choc ni de bradycardie ; statine à forte dose ; IEC dans les 24 h si fraction d'éjection basse, diabète ou HTA",
+    "Infarctus avec sus-décalage de moins de 12 h : reperfusion ; angioplastie si accessible en moins de 2 h ; sinon thrombolyse dans les 10 à 30 min : streptokinase 1,5 MUI IV en 30 à 60 min, ou altéplase 15 mg IV puis 0,75 mg/kg en 30 min (maximum 50 mg) puis 0,5 mg/kg en 60 min (maximum 35 mg), avec énoxaparine ; puis transfert pour coronarographie dans les 2 à 24 h",
+    "Contre-indications à la thrombolyse : antécédent d'hémorragie cérébrale, AVC ischémique de moins de 3 mois, saignement actif, dissection aortique suspectée, tumeur cérébrale, traumatisme ou chirurgie majeure de moins de 3 semaines ; relatives : PA > 180/110, grossesse, anticoagulant oral ; pas de 2e dose de streptokinase (allergie)",
+    "Complications : fibrillation ventriculaire (défibrillation), choc cardiogénique, OAP, bradycardie (atropine)",
+    "Péricardite virale : ibuprofène ou aspirine + colchicine si disponible ; péricardite tuberculeuse : antituberculeux, ponction si tamponnade",
+    "Prévention secondaire après un SCA : aspirine à vie, clopidogrel 12 mois, statine, bisoprolol, IEC, arrêt du tabac, contrôle de la PA et du diabète, activité physique progressive, réadaptation"
    ],
    "gravite": [
     "Choc, troubles du rythme, OAP",
-    "Douleur persistante malgré les nitrés"
+    "Douleur persistante malgré les nitrés",
+    "Sus-décalage du segment ST : reperfusion urgente",
+    "Asymétrie des pouls (dissection)",
+    "Tamponnade, pneumothorax compressif"
    ],
    "prevention": [
-    "Contrôle de la TA, du diabète, du cholestérol, arrêt du tabac",
+    "Contrôle de la PA, du diabète et du cholestérol, arrêt du tabac, activité physique, alimentation équilibrée",
     "Après un SCA : aspirine au long cours, statine, bêtabloquant et IEC selon la fonction cardiaque"
    ],
    "medicaments": [
     "Acide acétylsalicylique (aspirine)",
-    "Dinitrate d'isosorbide",
     "Clopidogrel",
+    "Dinitrate d'isosorbide",
+    "Trinitrine (nitroglycérine)",
+    "Morphine",
     "Énoxaparine",
     "Héparine sodique (non fractionnée)",
-    "Morphine",
-    "Bisoprolol",
-    "Simvastatine",
-    "Oxygène",
-    "Trinitrine (nitroglycérine)",
     "Streptokinase",
     "Altéplase (rt-PA)",
+    "Bisoprolol",
+    "Simvastatine",
+    "Énalapril",
+    "Atropine",
+    "Ibuprofène",
+    "Colchicine",
+    "Oxygène",
     "Polypilule cardiovasculaire"
    ]
   },
@@ -36600,38 +36646,53 @@
    "nom": "Thrombose veineuse profonde et embolie pulmonaire",
    "categorie": "cardio",
    "synonymes": "phlébite, TVP, embolie pulmonaire, caillot",
-   "resume": "Formation d'un caillot dans une veine profonde (souvent des jambes), pouvant migrer vers les poumons. Risque accru : post-partum, chirurgie, alitement, cancer, VIH.",
+   "resume": "Formation d'un caillot dans une veine profonde (le plus souvent du mollet ou de la cuisse), qui peut migrer vers les poumons (embolie pulmonaire, potentiellement mortelle). Facteurs de risque : grossesse et post-partum (surtout après césarienne), chirurgie, alitement, plâtre, cancer, VIH, insuffisance cardiaque, contraception œstroprogestative, drépanocytose, antécédent de thrombose. L'anticoagulation rapide est le traitement ; la thrombolyse est réservée à l'embolie avec choc.",
    "signes": [
-    "TVP : jambe gonflée, douloureuse, chaude, dilatation veineuse",
-    "Embolie pulmonaire : dyspnée brutale, douleur thoracique, tachycardie, hémoptysie, malaise"
+    "Thrombose : jambe gonflée (mollet > 3 cm de plus que l'autre), douloureuse, chaude, œdème prenant le godet, veines superficielles dilatées ; parfois très peu de signes",
+    "Embolie pulmonaire : essoufflement brutal, douleur thoracique augmentée par l'inspiration, tachycardie, toux, crachats sanglants, malaise ou syncope ; SpO₂ basse",
+    "Embolie grave : choc, PA basse, turgescence jugulaire, cyanose"
    ],
    "diagnostic": [
-    "Score clinique de probabilité",
-    "Échographie-Doppler veineuse si disponible",
-    "D-dimères (pour exclure si probabilité faible)"
+    "Score de probabilité clinique (score de Wells)",
+    "D-dimères : un résultat normal exclut la thrombose ou l'embolie si la probabilité est faible (souvent élevés pendant la grossesse, l'infection, le cancer)",
+    "Échographie-Doppler veineuse des jambes (compression) si disponible",
+    "Embolie : ECG (tachycardie, S1Q3T3, signes de surcharge droite), radiographie (souvent normale), échographie cardiaque (ventricule droit dilaté), angioscanner si disponible",
+    "NFS, plaquettes, créatinine et TP avant l'anticoagulation",
+    "Rechercher une cause : cancer, VIH, grossesse"
    ],
    "traitement": [
-    "Anticoagulation : énoxaparine 1 mg/kg 2 fois par jour (ou héparine non fractionnée), puis relais par warfarine (INR 2–3) pendant au moins 3 mois",
-    "Grossesse : énoxaparine pendant toute la grossesse et 6 semaines après",
-    "Bas de contention, lever précoce"
+    "Anticoagulation dès que le diagnostic est probable (sauf saignement actif) : énoxaparine 1 mg/kg SC toutes les 12 h (ou 1,5 mg/kg une fois par jour) ; héparine non fractionnée (80 UI/kg IV puis 18 UI/kg/h, adaptée au TCA) si insuffisance rénale sévère ou thrombolyse possible",
+    "Relais par warfarine débutée le 1er jour, avec chevauchement d'au moins 5 jours jusqu'à un INR entre 2 et 3 pendant 24 h ; ou dabigatran 150 mg 2 fois par jour après 5 jours d'héparine (110 mg après 80 ans ; contre-indiqué si clairance < 30 ml/min)",
+    "Durée : 3 mois si cause transitoire (chirurgie, grossesse, plâtre) ; 3 à 6 mois puis discussion d'un traitement prolongé si sans cause ou récidive ; cancer : énoxaparine pendant 6 mois ou tant que le cancer est actif",
+    "Grossesse : énoxaparine pendant toute la grossesse et au moins 6 semaines après l'accouchement (3 mois au total au minimum) ; pas de warfarine pendant la grossesse ; warfarine et énoxaparine compatibles avec l'allaitement",
+    "Embolie avec choc : thrombolyse (altéplase 100 mg IV en 2 h, ou streptokinase 1,5 MUI en 2 h) en l'absence de contre-indication, oxygène, remplissage prudent, noradrénaline",
+    "Warfarine : INR chaque semaine puis chaque mois ; nombreuses interactions (rifampicine, éfavirenz, cotrimoxazole, fluconazole, métronidazole, antiépileptiques, alcool) ; éducation sur les signes de saignement",
+    "Saignement sous warfarine : arrêt, vitamine K1 (1 à 10 mg selon l'INR et la gravité), plasma frais congelé ; sous héparine : sulfate de protamine (1 mg pour 100 UI)",
+    "Lever précoce dès que l'anticoagulation est débutée ; bas de contention si la jambe reste gonflée"
    ],
    "gravite": [
-    "Embolie pulmonaire avec choc ou détresse respiratoire → urgence",
-    "Saignement sous anticoagulant"
+    "Embolie pulmonaire avec choc, syncope ou détresse respiratoire : urgence",
+    "Saignement sous anticoagulant",
+    "Thrombose étendue avec membre bleu et froid",
+    "Thrombose pendant la grossesse ou chez un patient atteint de cancer"
    ],
    "prevention": [
-    "Lever précoce après chirurgie et accouchement",
-    "Prévention par énoxaparine chez les patients à risque alités"
+    "Lever précoce après chirurgie et accouchement, mobilisation des patients alités, hydratation",
+    "Énoxaparine préventive (40 mg par jour, ou 4 000 UI) chez les patients à risque : chirurgie majeure, césarienne avec facteurs de risque, patient médical alité, cancer",
+    "Contraception sans œstrogènes après une thrombose",
+    "Bas de contention lors des longs voyages chez les personnes à risque"
    ],
    "medicaments": [
     "Énoxaparine",
     "Héparine sodique (non fractionnée)",
     "Warfarine",
-    "Vitamine K1 (phytoménadione)",
-    "Oxygène",
     "Dabigatran",
+    "Vitamine K1 (phytoménadione)",
+    "Sulfate de protamine",
     "Altéplase (rt-PA)",
-    "Sulfate de protamine"
+    "Streptokinase",
+    "Plasma frais congelé (PFC)",
+    "Oxygène"
    ]
   },
   {
@@ -39403,47 +39464,65 @@
    "nom": "Syndrome néphrotique",
    "categorie": "cardio",
    "synonymes": "syndrome néphrotique, œdèmes, protéinurie, néphrose",
-   "resume": "Fuite importante de protéines dans les urines entraînant des œdèmes. Chez l'enfant, souvent sensible aux corticoïdes ; en Afrique, formes secondaires (paludisme, schistosomiase, hépatite B, VIH) plus fréquentes.",
+   "resume": "Fuite massive de protéines dans les urines (protéinurie > 3 g par jour chez l'adulte, > 40 mg/m²/h chez l'enfant) entraînant une baisse de l'albumine sanguine et des œdèmes. Chez l'enfant de 1 à 10 ans, il s'agit le plus souvent d'une néphrose à lésions minimes, sensible aux corticoïdes. En Afrique, les formes secondaires sont fréquentes : paludisme (P. malariae), schistosomiase, hépatite B, VIH, syphilis, drépanocytose, lupus, et la hyalinose segmentaire et focale (plus fréquente chez les personnes d'ascendance africaine). Complications : infections, thromboses, hypovolémie, insuffisance rénale.",
    "signes": [
-    "Œdèmes (paupières le matin, jambes, ascite)",
-    "Prise de poids",
-    "Urines mousseuses",
-    "Complications : infections (péritonite), thromboses"
+    "Œdèmes mous et blancs : paupières le matin, visage, jambes, organes génitaux, ascite, épanchements",
+    "Prise de poids rapide, urines mousseuses, diurèse diminuée",
+    "Complications : infections (péritonite à pneumocoque : fièvre, douleur abdominale ; cellulite), thromboses (veines rénales, jambes, embolie), hypovolémie (douleurs abdominales, extrémités froides, malaise)",
+    "Évocateurs d'une glomérulonéphrite ou d'une forme secondaire : sang dans les urines, HTA, insuffisance rénale, âge < 1 an ou > 10 ans, signes généraux (fièvre, éruption, douleurs articulaires)"
    ],
    "diagnostic": [
-    "Bandelette urinaire : protéinurie massive (+++)",
-    "Albumine sanguine basse si disponible",
-    "Rechercher : hématurie, HTA (glomérulonéphrite), VIH, hépatite B, paludisme, schistosomiase"
+    "Bandelette urinaire : protéinurie massive (+++ ou ++++) ; rapport protéines/créatinine urinaire > 2 g/g (200 mg/mmol) si disponible",
+    "Albumine sanguine < 25 à 30 g/l, cholestérol élevé",
+    "Créatinine, ionogramme, NFS",
+    "Rechercher : hématurie, HTA, VIH, AgHBs, sérologie syphilis, TDR paludisme et goutte épaisse (P. malariae), schistosomiase (urines, selles), anticorps antinucléaires si signes de lupus",
+    "Avant les corticoïdes : déparasitage (ivermectine contre l'anguillule, albendazole), recherche de tuberculose",
+    "Biopsie rénale (milieu spécialisé) chez l'adulte, et chez l'enfant résistant aux corticoïdes ou atypique"
    ],
    "traitement": [
-    "Enfant : prednisolone 60 mg/m²/jour (environ 2 mg/kg, max 60 mg) pendant 4 à 6 semaines, puis 40 mg/m² 1 jour sur 2 pendant 4 à 6 semaines",
-    "Traiter les causes (paludisme, schistosomiase) et les infections ; déparasitage",
-    "Restriction sodée ; diurétiques avec prudence (risque d'hypovolémie)",
-    "Pénicilline et vaccination antipneumococcique",
-    "Absence de réponse après 4 semaines : avis spécialisé"
+    "Enfant (1re poussée typique) : prednisolone 60 mg/m² par jour (environ 2 mg/kg, maximum 60 mg) en une prise le matin pendant 4 à 6 semaines, puis 40 mg/m² (maximum 40 mg) un jour sur deux pendant 4 à 6 semaines, puis arrêt",
+    "Rémission : bandelette négative ou traces 3 jours de suite ; corticorésistance si pas de rémission après 4 à 6 semaines : avis néphrologique (biopsie, IEC, ciclosporine ou tacrolimus)",
+    "Rechute : prednisolone 60 mg/m² jusqu'à rémission, puis un jour sur deux pendant 4 semaines ; rechutes fréquentes ou corticodépendance : lévamisole, cyclophosphamide ou anticalcineurine (avis spécialisé)",
+    "Adulte : traitement selon la biopsie et la cause (corticoïdes, immunosuppresseurs) ; IEC ou sartan pour réduire la protéinurie, statine",
+    "Traiter la cause : ARV (VIH), ténofovir (hépatite B), antipaludique, praziquantel (schistosomiase), pénicilline (syphilis)",
+    "Œdèmes : restriction sodée, furosémide 1 à 2 mg/kg par jour avec prudence (risque d'hypovolémie et de thrombose) ; œdèmes très importants avec hypovolémie : albumine 20 % 0,5 à 1 g/kg IV en 4 h suivie de furosémide",
+    "Hypovolémie (douleurs abdominales, extrémités froides, TRC allongé) : albumine ou sérum physiologique 10 à 20 ml/kg ; arrêter les diurétiques",
+    "Infections : péritonite : ceftriaxone ; vaccination antipneumococcique ; pénicilline V préventive pendant les poussées avec ascite selon les protocoles ; contact avec la varicelle : avis (aciclovir)",
+    "Prévention des thromboses : mobilisation, pas de perfusions inutiles ; anticoagulation préventive chez l'adulte avec albumine < 20 à 25 g/l et facteurs de risque",
+    "Mesures sous corticoïdes : alimentation pauvre en sel et en sucres rapides, surveillance de la PA, de la glycémie et de la croissance ; apprendre à la famille à tester les urines à la bandelette à domicile"
    ],
    "gravite": [
     "Fièvre et douleur abdominale (péritonite)",
-    "Hypovolémie (extrémités froides, douleurs abdominales)",
-    "Thrombose",
-    "HTA, hématurie, insuffisance rénale"
+    "Hypovolémie (extrémités froides, douleurs abdominales, malaise)",
+    "Thrombose (jambe gonflée, douleur lombaire, essoufflement)",
+    "HTA, hématurie, insuffisance rénale (glomérulonéphrite)",
+    "Absence de réponse aux corticoïdes"
    ],
    "prevention": [
-    "Traitement des infections chroniques"
+    "Traitement des infections chroniques (paludisme, schistosomiase, hépatite B, VIH, syphilis)",
+    "Vaccinations (pneumocoque)",
+    "Déparasitage avant corticoïdes"
    ],
    "medicaments": [
     "Prednisolone",
     "Furosémide",
     "Spironolactone",
     "Albumine humaine",
-    "Amoxicilline",
-    "Phénoxyméthylpénicilline (pénicilline V)",
     "Énalapril",
+    "Losartan",
+    "Simvastatine",
+    "Ceftriaxone",
+    "Phénoxyméthylpénicilline (pénicilline V)",
+    "Amoxicilline",
+    "Ivermectine",
     "Albendazole",
     "Praziquantel",
+    "Lévamisole",
     "Cyclophosphamide",
     "Ciclosporine",
-    "Tacrolimus"
+    "Tacrolimus",
+    "Énoxaparine",
+    "Vaccin pneumococcique conjugué (PCV13 / PCV10)"
    ]
   },
   {
@@ -39451,42 +39530,54 @@
    "nom": "Glomérulonéphrite aiguë post-streptococcique",
    "categorie": "cardio",
    "synonymes": "glomérulonéphrite, néphrite, urines coca, urines rouges, œdèmes et hypertension",
-   "resume": "Inflammation des reins survenant 1 à 3 semaines après une angine ou un impétigo à streptocoque, surtout chez l'enfant.",
+   "resume": "Inflammation aiguë des glomérules survenant 1 à 3 semaines après une angine ou 3 à 6 semaines après une infection de la peau (impétigo, gale surinfectée) à streptocoque A, surtout chez l'enfant de 3 à 12 ans. Elle associe sang dans les urines, œdèmes, HTA et baisse des urines. L'évolution est le plus souvent favorable en quelques semaines ; les complications aiguës (encéphalopathie hypertensive, OAP, insuffisance rénale) font la gravité.",
    "signes": [
-    "Urines foncées couleur coca (hématurie)",
-    "Œdèmes du visage, oligurie",
-    "Hypertension artérielle",
-    "Antécédent récent d'angine ou d'infection cutanée"
+    "Urines foncées couleur coca ou thé (hématurie)",
+    "Œdèmes du visage et des paupières, puis des jambes, prise de poids",
+    "Diurèse diminuée",
+    "HTA, céphalées",
+    "Antécédent récent d'angine ou d'infection cutanée (impétigo, gale)",
+    "Complications : encéphalopathie hypertensive (céphalées intenses, vomissements, troubles visuels, convulsions), OAP (essoufflement, crépitants), anurie"
    ],
    "diagnostic": [
-    "Bandelette urinaire : sang et protéines",
-    "TA",
-    "Créatinine si disponible"
+    "Bandelette urinaire : sang (+++) et protéines ; cylindres hématiques au microscope",
+    "PA à chaque examen",
+    "Créatinine, potassium, NFS si disponibles",
+    "Complément C3 bas (se normalise en 8 semaines) et ASLO ou anti-DNase B élevés si disponibles",
+    "Rechercher un impétigo ou une gale à traiter",
+    "Évolution atypique (C3 bas après 8 semaines, protéinurie massive, insuffisance rénale qui s'aggrave, signes généraux) : biopsie rénale (autres glomérulonéphrites, lupus)"
    ],
    "traitement": [
-    "Restriction en sel et en eau (selon la diurèse)",
-    "Furosémide en cas d'œdèmes ou de surcharge",
-    "Antihypertenseur (amlodipine ou nifédipine) si HTA",
-    "Pénicilline (ou amoxicilline) pour éradiquer le streptocoque",
-    "Évolution habituellement favorable en quelques semaines",
-    "Surveillance quotidienne du poids, de la diurèse et de la TA",
-    "Corticoïdes non indiqués"
+    "Restriction en sel ; restriction hydrique selon la diurèse (pertes insensibles 400 ml/m² par jour + volume des urines de la veille)",
+    "Furosémide 1 à 2 mg/kg (adulte 40 à 80 mg) en cas d'œdèmes importants, d'HTA ou de surcharge",
+    "HTA : amlodipine 0,1 à 0,2 mg/kg par jour (adulte 5 à 10 mg) ou nifédipine LP ; urgence hypertensive : nifédipine orale ou hydralazine IV",
+    "Éradication du streptocoque : benzathine benzylpénicilline IM en dose unique (600 000 UI si < 30 kg, 1,2 MUI si ≥ 30 kg) ou pénicilline V ou amoxicilline pendant 10 jours ; traiter l'impétigo et la gale",
+    "Surveillance quotidienne du poids, de la diurèse et de la PA ; corticoïdes non indiqués",
+    "Convulsions (encéphalopathie) : diazépam et baisse urgente de la PA ; OAP : furosémide IV, oxygène ; hyperkaliémie ou anurie : voir la fiche Insuffisance rénale aiguë (dialyse rarement nécessaire)",
+    "Évolution : diurèse qui reprend en 1 semaine, HTA et œdèmes qui disparaissent en 2 à 3 semaines ; hématurie microscopique pouvant persister 6 à 12 mois",
+    "Suivi : PA et bandelette à 2 semaines, 3 mois, puis 1 fois par an ; traiter les membres de la famille qui ont une angine ou un impétigo"
    ],
    "gravite": [
     "Encéphalopathie hypertensive (céphalées, convulsions, troubles visuels)",
     "OAP",
-    "Anurie, insuffisance rénale"
+    "Anurie, hyperkaliémie, insuffisance rénale",
+    "Évolution qui ne se normalise pas après 4 à 8 semaines"
    ],
    "prevention": [
-    "Traitement correct des angines et de l'impétigo"
+    "Traitement correct des angines à streptocoque et de l'impétigo",
+    "Traitement de la gale (surinfections)",
+    "Hygiène de la peau, lavage des mains"
    ],
    "medicaments": [
     "Furosémide",
     "Amlodipine",
     "Nifédipine",
+    "Hydralazine (dihydralazine)",
+    "Benzathine benzylpénicilline",
     "Phénoxyméthylpénicilline (pénicilline V)",
     "Amoxicilline",
-    "Benzathine benzylpénicilline"
+    "Diazépam",
+    "Perméthrine 5 %"
    ]
   },
   {
@@ -39494,42 +39585,59 @@
    "nom": "Insuffisance rénale aiguë",
    "categorie": "cardio",
    "synonymes": "insuffisance rénale aiguë, IRA, anurie, oligurie, reins bloqués",
-   "resume": "Baisse brutale de la fonction rénale. Causes fréquentes : déshydratation, paludisme grave, sepsis, médicaments toxiques, hémolyse, obstruction des voies urinaires.",
+   "resume": "Baisse brutale de la fonction rénale (augmentation de la créatinine de 0,3 mg/dl en 48 h ou de 50 % en 7 jours, ou diurèse < 0,5 ml/kg/h pendant 6 h). Causes : fonctionnelle (déshydratation, choléra, hémorragie, choc), rénale (paludisme grave et fièvre bilieuse hémoglobinurique, sepsis, leptospirose, médicaments et plantes toxiques, hémolyse sur déficit en G6PD, rhabdomyolyse, envenimation, complications obstétricales) et obstructive (prostate, calculs, schistosomiase, cancer du col). Souvent réversible si la cause est traitée tôt ; la dialyse péritonéale peut sauver des vies là où l'hémodialyse manque.",
    "signes": [
-    "Diurèse faible (< 0,5 ml/kg/h) ou nulle",
-    "Œdèmes, essoufflement (surcharge)",
-    "Nausées, confusion",
-    "Hyperkaliémie : faiblesse musculaire, troubles du rythme"
+    "Diurèse faible (oligurie) ou nulle (anurie) ; parfois diurèse conservée",
+    "Œdèmes, essoufflement, crépitants (surcharge)",
+    "Nausées, vomissements, perte d'appétit, confusion, somnolence, convulsions (urémie)",
+    "Hyperkaliémie : faiblesse musculaire, troubles du rythme, arrêt cardiaque",
+    "Respiration rapide et profonde (acidose)",
+    "Frottement péricardique (péricardite urémique)",
+    "Orientation : déshydratation, fièvre, urines coca (hémolyse ou myoglobine), globe vésical, douleur lombaire"
    ],
    "diagnostic": [
-    "Créatinine, urée, kaliémie si disponibles ; ECG (hyperkaliémie)",
-    "Échographie (obstacle)",
-    "Rechercher déshydratation, paludisme, sepsis, toxiques (AINS, gentamicine, plantes)"
+    "Créatinine, urée, potassium, sodium, bicarbonates si disponibles ; ECG (hyperkaliémie : ondes T pointues, QRS larges, bradycardie)",
+    "Bandelette urinaire (sang, protéines, leucocytes), diurèse horaire (sonde)",
+    "Échographie rénale et vésicale (obstacle : dilatation des cavités, globe)",
+    "Évaluer la volémie (déshydratation ou surcharge)",
+    "Rechercher : paludisme (TDR), sepsis, leptospirose, médicaments (AINS, aminosides, IEC, produits de contraste), plantes et traitements traditionnels, hémolyse (G6PD), CPK (rhabdomyolyse), grossesse"
    ],
    "traitement": [
-    "Déshydratation : réhydratation prudente puis réévaluation de la diurèse",
-    "Arrêter les médicaments toxiques pour le rein (AINS, gentamicine), adapter les doses",
-    "Obstacle : sonde vésicale ou drainage",
-    "Surcharge : furosémide (forte dose), restriction hydrique",
-    "Hyperkaliémie : gluconate de calcium IV, insuline rapide + glucose, salbutamol nébulisé, bicarbonate si acidose",
-    "Indication de dialyse : hyperkaliémie ou surcharge résistantes, acidose sévère, encéphalopathie urémique"
+    "Déshydratation : réhydratation (Ringer lactate ou sérum physiologique 500 ml à 1 litre chez l'adulte, 10 à 20 ml/kg chez l'enfant), puis réévaluer la diurèse et la surcharge ; ne pas poursuivre le remplissage si les urines ne reprennent pas",
+    "Arrêter les médicaments toxiques pour le rein (AINS, gentamicine, IEC, metformine) et adapter les doses de tous les médicaments à la fonction rénale",
+    "Obstacle : sonde vésicale (ou cathéter sus-pubien), néphrostomie si obstacle haut ; surveiller la polyurie après levée de l'obstacle",
+    "Traiter la cause (paludisme, sepsis, leptospirose)",
+    "Surcharge : furosémide à forte dose (80 à 250 mg IV chez l'adulte, 2 à 5 mg/kg chez l'enfant), restriction hydrique (diurèse de la veille + 500 ml)",
+    "Hyperkaliémie (K > 6 ou signes ECG) : gluconate de calcium 10 % 10 ml IV en 5 à 10 min (enfant 0,5 ml/kg), à répéter si l'ECG reste anormal ; insuline rapide 10 UI + 50 ml de glucose 50 % (ou 250 ml de glucose 10 %) IV en 15 à 30 min (enfant 0,1 UI/kg avec 5 ml/kg de glucose 10 %), contrôle glycémique ; salbutamol nébulisé 10 à 20 mg ; bicarbonate de sodium si acidose ; supprimer les apports de potassium",
+    "Acidose sévère (pH < 7,1 ou bicarbonates < 12) : bicarbonate de sodium IV prudent",
+    "Alimentation : apports en potassium et en sel réduits, protéines modérées, énergie suffisante",
+    "Indications de dialyse (hémodialyse ou dialyse péritonéale) : hyperkaliémie ou surcharge résistantes au traitement, acidose sévère, encéphalopathie ou péricardite urémique, intoxication dialysable, anurie prolongée",
+    "Phase de récupération : polyurie : compenser l'eau, le sodium et le potassium ; suivi de la créatinine à 3 mois (risque de maladie rénale chronique)"
    ],
    "gravite": [
     "Hyperkaliémie avec signes ECG",
     "OAP",
-    "Anurie persistante → dialyse"
+    "Anurie persistante, acidose sévère, confusion ou convulsions (urémie) : dialyse",
+    "Péricardite urémique",
+    "Insuffisance rénale au cours d'un paludisme grave, d'un sepsis ou d'une grossesse"
    ],
    "prevention": [
-    "Réhydratation précoce des diarrhées, traitement rapide du paludisme, prudence avec les AINS et les aminosides"
+    "Réhydratation précoce des diarrhées et du choléra",
+    "Traitement rapide du paludisme",
+    "Prudence avec les AINS, les aminosides et les produits de contraste, surtout chez le sujet âgé, déshydraté ou diabétique",
+    "Information sur les risques des plantes et traitements traditionnels",
+    "Hydratation des patients exposés (rhabdomyolyse, chimiothérapie)"
    ],
    "medicaments": [
     "Furosémide",
     "Gluconate de calcium 10 %",
     "Insuline humaine (rapide et NPH)",
     "Glucose 10 %",
+    "Glucose hypertonique 30 % / 50 %",
     "Salbutamol",
     "Bicarbonate de sodium 8,4 % / 4,2 %",
     "Ringer lactate",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Solution de dialyse péritonéale"
    ]
   },
@@ -43800,30 +43908,46 @@
    "nom": "Fibrillation auriculaire et troubles du rythme",
    "categorie": "cardio",
    "synonymes": "fibrillation auriculaire, FA, arythmie, palpitations, tachycardie supraventriculaire, TSV",
-   "resume": "Troubles du rythme cardiaque. La fibrillation auriculaire, fréquente chez le sujet âgé et dans les valvulopathies rhumatismales, expose aux AVC.",
+   "resume": "Troubles du rythme cardiaque. La fibrillation auriculaire, fréquente chez le sujet âgé, l'hypertendu et dans les valvulopathies rhumatismales (rétrécissement mitral, même chez l'adulte jeune en Afrique), expose aux AVC emboliques et à l'insuffisance cardiaque. Les tachycardies supraventriculaires paroxystiques touchent souvent des sujets jeunes au cœur sain. Les tachycardies ventriculaires et les bradycardies sévères sont des urgences. Un rythme mal toléré se traite par choc électrique.",
    "signes": [
-    "Palpitations, essoufflement, malaise, douleur thoracique",
-    "FA : pouls irrégulier",
-    "TSV : tachycardie régulière rapide (150 à 250/min), début et fin brutaux",
-    "Signes de gravité : hypotension, confusion, douleur thoracique, insuffisance cardiaque"
+    "Palpitations, essoufflement, fatigue, malaise, douleur thoracique, syncope",
+    "Fibrillation auriculaire : pouls irrégulier en rythme et en force, parfois sans symptôme",
+    "Tachycardie supraventriculaire : tachycardie régulière très rapide (150 à 250/min), début et fin brutaux, souvent chez un sujet jeune",
+    "Tachycardie ventriculaire : tachycardie régulière, malaise, choc, sur cardiopathie",
+    "Bradycardie : vertiges, syncopes, fatigue, insuffisance cardiaque",
+    "Signes d'instabilité : PA basse, choc, confusion, douleur thoracique, OAP"
    ],
    "diagnostic": [
-    "ECG",
-    "Rechercher la cause : valvulopathie rhumatismale, hypertension, hyperthyroïdie (TSH), anémie, infection, alcool, troubles électrolytiques"
+    "ECG (12 dérivations) pendant le trouble : fibrillation (pas d'onde P, QRS irréguliers), flutter (dents de scie), tachycardie à QRS fins régulière, tachycardie à QRS larges (à considérer comme ventriculaire), bloc auriculo-ventriculaire",
+    "Rechercher la cause : valvulopathie rhumatismale, HTA, insuffisance cardiaque, ischémie, hyperthyroïdie (TSH), anémie, infection, alcool, troubles électrolytiques (potassium, magnésium), embolie pulmonaire, médicaments (digoxine, bêtabloquants), maladie de Chagas",
+    "Échographie cardiaque (valves, oreillette gauche, fonction)",
+    "Score CHA2DS2-VA du risque d'AVC et évaluation du risque hémorragique"
    ],
    "traitement": [
-    "Instable (hypotension, choc) : cardioversion électrique",
-    "TSV stable : manœuvres vagales (Valsalva modifié), puis adénosine si disponible ou vérapamil IV (pas chez le nourrisson)",
-    "FA : contrôle de la fréquence (bisoprolol, vérapamil, digoxine si insuffisance cardiaque), amiodarone dans certains cas",
-    "Prévention des AVC : anticoagulant (warfarine en cas de valve rhumatismale ou mécanique ; dabigatran sinon) selon le risque",
-    "Traiter la cause"
+    "Instable (hypotension, choc, OAP, douleur thoracique, confusion) : cardioversion électrique synchronisée sous sédation (fibrillation 120 à 200 J biphasique, flutter et tachycardie supraventriculaire 70 à 150 J)",
+    "Tachycardie supraventriculaire stable : manœuvre de Valsalva modifiée (souffler 15 s dans une seringue de 10 ml, puis allonger le patient jambes surélevées), massage carotidien chez le sujet jeune ; puis vérapamil 5 mg IV en 2 min (pas chez le nourrisson, ni en cas d'insuffisance cardiaque, de bêtabloquant IV ou de fibrillation avec préexcitation), ou adénosine si disponible",
+    "Fibrillation auriculaire, contrôle de la fréquence (objectif < 110/min au repos) : bisoprolol 2,5 à 10 mg par jour ; vérapamil 40 à 120 mg 3 fois par jour (pas si fraction d'éjection réduite) ; digoxine 0,125 à 0,25 mg par jour (insuffisance cardiaque, sujet sédentaire ; réduire si insuffisance rénale)",
+    "Contrôle du rythme : cardioversion (électrique ou par amiodarone 300 mg IV en 1 h puis 900 mg sur 24 h) si le début date de moins de 24 à 48 h, ou après 3 semaines d'anticoagulation efficace ; amiodarone orale d'entretien (200 mg 3 fois par jour pendant 1 semaine, puis 2 fois par jour 1 semaine, puis 1 fois par jour)",
+    "Prévention des AVC : anticoagulant si score CHA2DS2-VA ≥ 2 (à discuter dès 1) ; valvulopathie rhumatismale mitrale ou valve mécanique : warfarine obligatoire (INR 2 à 3 ; 2,5 à 3,5 si valve mécanique mitrale), les anticoagulants oraux directs sont contre-indiqués ; sinon dabigatran 150 mg 2 fois par jour (110 mg après 80 ans ou si risque hémorragique ; contre-indiqué si clairance < 30 ml/min) ou warfarine ; l'aspirine n'est pas une alternative",
+    "Tachycardie ventriculaire avec pouls stable : amiodarone 300 mg IV en 20 à 60 min ; sans pouls : réanimation et défibrillation",
+    "Torsades de pointes : sulfate de magnésium 2 g IV, corriger le potassium, arrêter les médicaments qui allongent le QT",
+    "Bradycardie mal tolérée : atropine 0,5 mg IV à répéter (maximum 3 mg), adrénaline en perfusion, stimulation cardiaque ; arrêter les bradycardisants ; corriger une hyperkaliémie",
+    "Traiter la cause (hyperthyroïdie, anémie, infection, valvulopathie)",
+    "Intoxication digitalique (nausées, troubles visuels, arythmies) : arrêter la digoxine, corriger le potassium"
    ],
    "gravite": [
-    "Hypotension, insuffisance cardiaque aiguë, douleur thoracique",
-    "Fréquence > 150/min mal tolérée"
+    "Hypotension, insuffisance cardiaque aiguë, douleur thoracique, syncope",
+    "Fréquence > 150/min mal tolérée",
+    "Tachycardie à QRS larges",
+    "Bradycardie < 40/min ou pauses",
+    "AVC ou embolie",
+    "Saignement sous anticoagulant"
    ],
    "prevention": [
-    "Traitement de l'hypertension, prévention du rhumatisme articulaire aigu"
+    "Traitement de l'HTA, prévention et suivi du rhumatisme articulaire aigu",
+    "Limitation de l'alcool",
+    "Dépistage de la fibrillation auriculaire (pouls) chez les plus de 65 ans et les valvulaires",
+    "Anticoagulation des patients à risque"
    ],
    "medicaments": [
     "Bisoprolol",
@@ -43832,7 +43956,13 @@
     "Amiodarone",
     "Warfarine",
     "Dabigatran",
-    "Héparine sodique (non fractionnée)"
+    "Héparine sodique (non fractionnée)",
+    "Énoxaparine",
+    "Atropine",
+    "Adrénaline (épinéphrine)",
+    "Sulfate de magnésium",
+    "Chlorure de potassium (KCl) injectable",
+    "Vitamine K1 (phytoménadione)"
    ]
   },
   {
@@ -43840,42 +43970,59 @@
    "nom": "Rhumatisme articulaire aigu et cardiopathie rhumatismale",
    "categorie": "cardio",
    "synonymes": "RAA, rhumatisme articulaire aigu, cardiopathie rhumatismale, valvulopathie, Jones",
-   "resume": "Complication d'une angine à streptocoque non traitée chez l'enfant de 5 à 15 ans. Les atteintes répétées détruisent les valves cardiaques (première cause de maladie cardiaque de l'enfant et de l'adulte jeune en Afrique).",
+   "resume": "Maladie inflammatoire survenant 2 à 4 semaines après une angine à streptocoque A non ou mal traitée, surtout chez l'enfant de 5 à 15 ans. Les poussées répétées détruisent les valves (mitrale surtout, puis aortique) : la cardiopathie rhumatismale est la première cause de maladie cardiaque de l'enfant et de l'adulte jeune en Afrique, responsable d'insuffisance cardiaque, de fibrillation auriculaire, d'AVC et de décès maternels. La prophylaxie secondaire par benzathine benzylpénicilline toutes les 3 à 4 semaines est l'intervention la plus efficace.",
    "signes": [
-    "Fièvre, polyarthrite migratrice des grosses articulations, 2 à 4 semaines après une angine",
-    "Cardite : souffle, tachycardie, insuffisance cardiaque",
-    "Chorée (mouvements involontaires), nodules sous-cutanés, érythème marginé",
-    "Cardiopathie chronique : essoufflement, palpitations, FA, AVC, insuffisance cardiaque"
+    "Fièvre, polyarthrite migratrice des grosses articulations (genoux, chevilles, coudes, poignets), très douloureuse, très sensible à l'aspirine ; arthralgies",
+    "Cardite : tachycardie, souffle (insuffisance mitrale ou aortique), frottement péricardique, insuffisance cardiaque",
+    "Chorée de Sydenham : mouvements involontaires désordonnés, maladresse, labilité émotionnelle (parfois isolée, des mois après)",
+    "Nodules sous-cutanés (coudes, genoux, rachis), érythème marginé (rare sur peau noire)",
+    "Cardiopathie chronique : essoufflement, palpitations, fibrillation auriculaire, AVC, hémoptysie (rétrécissement mitral), aggravation pendant la grossesse"
    ],
    "diagnostic": [
-    "Critères de Jones",
-    "VS, CRP, ASLO",
-    "ECG (PR allongé), échographie cardiaque si disponible"
+    "Critères de Jones révisés (populations à risque modéré ou élevé) : majeurs : cardite (clinique ou échographique), arthrite (polyarthrite ou monoarthrite), polyarthralgies, chorée, érythème marginé, nodules ; mineurs : monoarthralgie, fièvre ≥ 38 °C, VS ≥ 30 mm ou CRP ≥ 3 mg/dl, PR allongé à l'ECG",
+    "Diagnostic : 2 critères majeurs, ou 1 majeur + 2 mineurs, avec preuve d'infection streptococcique récente (ASLO ou anti-DNase B, prélèvement de gorge)",
+    "ECG (PR long), radiographie, échographie cardiaque (atteinte valvulaire, épanchement, dépistage des formes infracliniques)",
+    "Différentiels : arthrite septique, drépanocytose, paludisme, lupus, arthrite réactionnelle, leucémie"
    ],
    "traitement": [
-    "Phase aiguë : benzathine benzylpénicilline IM 1 dose (éradication du streptocoque), aspirine ou ibuprofène pour l'arthrite, repos, prednisolone si cardite sévère, traitement de l'insuffisance cardiaque",
-    "Prévention secondaire : benzathine benzylpénicilline toutes les 3 à 4 semaines pendant au moins 10 ans ou jusqu'à 21 ans (à vie si atteinte sévère) ; allergie : érythromycine ou sulfadiazine",
-    "Chorée : halopéridol ou valproate",
-    "Valvulopathie : anticoagulation si FA, prévention de l'endocardite, chirurgie si possible"
+    "Phase aiguë : hospitalisation, repos selon la cardite ; benzathine benzylpénicilline IM 1 dose (600 000 UI si < 30 kg, 1,2 MUI si ≥ 30 kg) pour éradiquer le streptocoque, qui débute aussi la prophylaxie",
+    "Arthrite : aspirine 50 à 60 mg/kg par jour (jusqu'à 80 à 100 mg/kg) en 4 prises jusqu'à disparition des signes, puis diminution sur 2 à 4 semaines ; ou ibuprofène ou naproxène",
+    "Cardite sévère (insuffisance cardiaque, péricardite) : prednisolone 1 à 2 mg/kg par jour (maximum 60 à 80 mg) pendant 2 à 3 semaines, puis diminution progressive ; furosémide, IEC, restriction sodée",
+    "Chorée : environnement calme ; halopéridol 0,5 à 1 mg 2 fois par jour, ou valproate 15 à 20 mg/kg par jour, ou carbamazépine",
+    "Prophylaxie secondaire : benzathine benzylpénicilline IM toutes les 4 semaines (toutes les 3 semaines en cas de rechute ou de cardiopathie sévère) ; injection moins douloureuse avec de la lidocaïne ; allergie : pénicilline V 250 mg 2 fois par jour ou érythromycine 250 mg 2 fois par jour",
+    "Durée de la prophylaxie : sans cardite : 5 ans après la dernière poussée ou jusqu'à 21 ans (le plus long) ; cardite légère guérie : 10 ans ou jusqu'à 25 ans ; cardiopathie modérée à sévère ou chirurgie valvulaire : jusqu'à 40 ans ou à vie",
+    "Registre des patients, rappel des injections, recherche des perdus de vue",
+    "Cardiopathie rhumatismale : traitement de l'insuffisance cardiaque ; fibrillation auriculaire ou rétrécissement mitral avec gros oreillette : warfarine (pas d'anticoagulant oral direct) ; hygiène dentaire et prévention de l'endocardite ; dilatation mitrale percutanée ou chirurgie valvulaire (programmes humanitaires)",
+    "Grossesse chez une femme porteuse d'une valvulopathie : suivi spécialisé, bêtabloquant et diurétique si rétrécissement mitral, accouchement dans un centre de référence ; contraception adaptée (progestatifs, DIU)"
    ],
    "gravite": [
-    "Insuffisance cardiaque",
-    "FA, AVC",
-    "Grossesse chez une femme porteuse d'une valvulopathie (suivi spécialisé)"
+    "Insuffisance cardiaque, cardite sévère",
+    "Fibrillation auriculaire, AVC",
+    "Grossesse chez une femme porteuse d'une valvulopathie",
+    "Endocardite (fièvre prolongée chez un valvulaire)",
+    "Interruption de la prophylaxie"
    ],
    "prevention": [
-    "Traitement de toute angine à streptocoque par pénicilline (prévention primaire)"
+    "Prévention primaire : traitement de toute angine à streptocoque par pénicilline ou amoxicilline",
+    "Prophylaxie secondaire régulière et suivie",
+    "Dépistage échographique dans les écoles là où il existe",
+    "Amélioration du logement (promiscuité)"
    ],
    "medicaments": [
     "Benzathine benzylpénicilline",
     "Phénoxyméthylpénicilline (pénicilline V)",
+    "Érythromycine",
     "Acide acétylsalicylique (aspirine)",
+    "Ibuprofène",
     "Prednisolone",
     "Furosémide",
-    "Érythromycine",
-    "Sulfadiazine",
+    "Énalapril",
     "Warfarine",
-    "Halopéridol"
+    "Halopéridol",
+    "Valproate de sodium",
+    "Carbamazépine",
+    "Lidocaïne (lignocaïne)",
+    "Sulfadiazine"
    ]
   },
   {
@@ -43883,30 +44030,43 @@
    "nom": "Endocardite infectieuse",
    "categorie": "cardio",
    "synonymes": "endocardite, infection des valves, fièvre et souffle",
-   "resume": "Infection des valves cardiaques, surtout sur valvulopathie rhumatismale, prothèse valvulaire ou chez l'usager de drogues injectables. Mortelle sans traitement.",
+   "resume": "Infection de l'endocarde, le plus souvent des valves, surtout sur valvulopathie rhumatismale, prothèse valvulaire, cardiopathie congénitale, ou chez l'usager de drogues injectables et le patient porteur de cathéter. Germes : streptocoques oraux, staphylocoque doré, entérocoques ; en Afrique, aussi Bartonella (poux), Brucella, Coxiella. Mortelle sans traitement ; elle exige une antibiothérapie IV prolongée et souvent une chirurgie.",
    "signes": [
-    "Fièvre prolongée, altération de l'état général",
+    "Fièvre prolongée inexpliquée, frissons, sueurs, fatigue, amaigrissement chez un valvulaire",
     "Souffle cardiaque nouveau ou modifié",
-    "Signes emboliques : AVC, douleurs des membres, splénomégalie, hémorragies sous les ongles, faux panaris d'Osler",
-    "Insuffisance cardiaque"
+    "Insuffisance cardiaque (destruction valvulaire)",
+    "Signes emboliques : AVC, douleurs des membres (ischémie), douleur lombaire ou de l'hypochondre gauche (infarctus rénal ou splénique), hémorragies en flammèche sous les ongles, faux panaris d'Osler (nodules douloureux de la pulpe des doigts), taches de Janeway, taches de Roth au fond d'œil",
+    "Grosse rate, hippocratisme digital, anémie",
+    "Usager de drogues : atteinte de la valve tricuspide avec embolies pulmonaires septiques (toux, douleur, opacités multiples)"
    ],
    "diagnostic": [
-    "Hémocultures (3 séries avant tout antibiotique)",
-    "Échographie cardiaque",
-    "NFS, CRP, bandelette urinaire (hématurie)"
+    "Hémocultures : 3 séries à 30 min d'intervalle sur des sites différents, avant tout antibiotique",
+    "Échographie cardiaque transthoracique (végétations, abcès, fuite), transœsophagienne si disponible",
+    "NFS (anémie), CRP, VS, créatinine, bandelette urinaire (hématurie)",
+    "Critères de Duke : 2 majeurs, ou 1 majeur et 3 mineurs, ou 5 mineurs",
+    "Hémocultures négatives : antibiotiques préalables, Bartonella, Brucella, Coxiella (sérologies)",
+    "Rechercher une porte d'entrée : dents, peau, urines, cathéter, injections"
    ],
    "traitement": [
-    "Hospitalisation",
-    "Antibiothérapie IV prolongée (4 à 6 semaines) : probabiliste ampicilline (ou amoxicilline) + cloxacilline + gentamicine ; usager de drogues ou prothèse : vancomycine + gentamicine ; adapter aux hémocultures",
-    "Traitement de l'insuffisance cardiaque",
-    "Avis chirurgical si destruction valvulaire"
+    "Hospitalisation ; antibiothérapie IV prolongée, débutée après les hémocultures (immédiatement si état grave)",
+    "Probabiliste sur valve native : ampicilline 2 g toutes les 4 h + cloxacilline 2 g toutes les 4 h + gentamicine 3 mg/kg par jour ; allergie : vancomycine + gentamicine ; prothèse valvulaire ou usager de drogues : vancomycine + gentamicine (+ rifampicine si prothèse et staphylocoque)",
+    "Adapter aux hémocultures : streptocoque sensible : benzylpénicilline ou ceftriaxone 2 g par jour pendant 4 semaines (2 semaines avec gentamicine dans les formes non compliquées) ; staphylocoque : cloxacilline 12 g par jour pendant 4 à 6 semaines (6 semaines + rifampicine + gentamicine 2 semaines si prothèse) ; entérocoque : ampicilline + ceftriaxone pendant 6 semaines",
+    "Surveillance : fièvre, hémocultures de contrôle, créatinine et audition sous gentamicine, CRP ; échographie de contrôle",
+    "Traitement de l'insuffisance cardiaque ; pas d'anticoagulation initiée pour l'endocardite elle-même (risque hémorragique cérébral)",
+    "Avis chirurgical (programmes humanitaires) si : insuffisance cardiaque par destruction valvulaire, infection non contrôlée (abcès, fièvre et hémocultures positives après 7 jours), grosse végétation (> 10 mm) avec embolie",
+    "Traiter la porte d'entrée (soins dentaires, retrait du cathéter)"
    ],
    "gravite": [
-    "Insuffisance cardiaque, AVC, abcès",
-    "Persistance de la fièvre"
+    "Insuffisance cardiaque, AVC, abcès cérébral ou splénique",
+    "Persistance de la fièvre ou des hémocultures positives après 7 jours",
+    "Endocardite sur prothèse ou à staphylocoque",
+    "Insuffisance rénale"
    ],
    "prevention": [
-    "Hygiène bucco-dentaire chez les valvulaires, antibioprophylaxie avant les soins dentaires à risque (amoxicilline 2 g) pour les patients à haut risque"
+    "Hygiène bucco-dentaire et contrôle dentaire 2 fois par an chez les valvulaires",
+    "Antibioprophylaxie avant les soins dentaires touchant la gencive chez les patients à haut risque (prothèse valvulaire, antécédent d'endocardite, cardiopathie cyanogène non opérée) : amoxicilline 2 g (enfant 50 mg/kg) 30 à 60 min avant ; allergie : azithromycine 500 mg",
+    "Prophylaxie secondaire du RAA",
+    "Asepsie des cathéters, réduction des risques chez les usagers de drogues"
    ],
    "medicaments": [
     "Ampicilline",
@@ -43915,7 +44075,10 @@
     "Gentamicine",
     "Vancomycine",
     "Ceftriaxone",
-    "Benzylpénicilline (pénicilline G)"
+    "Benzylpénicilline (pénicilline G)",
+    "Rifampicine",
+    "Azithromycine",
+    "Furosémide"
    ]
   },
   {
@@ -44207,31 +44370,46 @@
    "nom": "Insuffisance rénale chronique",
    "categorie": "cardio",
    "synonymes": "insuffisance rénale chronique, IRC, maladie rénale chronique, dialyse, créatinine élevée",
-   "resume": "Perte progressive et irréversible de la fonction des reins, souvent due à l'hypertension, au diabète, au VIH, aux glomérulonéphrites ou à la drépanocytose.",
+   "resume": "Maladie rénale chronique : anomalie de la structure ou de la fonction rénale (débit de filtration < 60 ml/min/1,73 m² ou albuminurie) depuis plus de 3 mois, évoluant vers l'insuffisance rénale terminale. En RDC, les causes principales sont l'HTA, le diabète, les glomérulonéphrites, la néphropathie du VIH, la drépanocytose, les obstacles (prostate, schistosomiase) et les produits toxiques (plantes, AINS) ; les personnes d'ascendance africaine sont plus exposées (variants APOL1). L'accès à la dialyse étant limité, le dépistage et la néphroprotection précoce sont essentiels.",
    "signes": [
     "Longtemps sans symptôme",
-    "Fatigue, pâleur (anémie), œdèmes, hypertension",
-    "Stade avancé : nausées, prurit, essoufflement, confusion, diminution des urines"
+    "Fatigue, pâleur (anémie), HTA, œdèmes, urines mousseuses, réveils nocturnes pour uriner",
+    "Stade avancé : perte d'appétit, nausées, vomissements, amaigrissement, démangeaisons, crampes, essoufflement, haleine urémique, troubles de conscience, saignements, diminution des urines",
+    "Complications : hyperkaliémie, acidose, OAP, péricardite, anémie, troubles osseux (douleurs, fractures), infections"
    ],
    "diagnostic": [
-    "Créatinine et débit de filtration estimé, protéinurie (bandelette), échographie rénale",
-    "Potassium, hémoglobine",
-    "Rechercher la cause (diabète, HTA, VIH, hépatite B/C)"
+    "Créatinine et débit de filtration estimé (stades G1 à G5), albuminurie ou protéinurie (bandelette, rapport albumine/créatinine) à 2 reprises à 3 mois d'intervalle",
+    "Échographie rénale (petits reins = chronicité ; gros reins : VIH, diabète, polykystose ; obstacle)",
+    "Potassium, bicarbonates, calcium, phosphore, hémoglobine, ferritine, glycémie, HbA1c",
+    "Rechercher la cause : diabète, HTA, VIH, hépatites B et C, schistosomiase, drépanocytose, obstacle, médicaments et plantes, lupus",
+    "Différencier d'une insuffisance rénale aiguë (créatinine antérieure, taille des reins)"
    ],
    "traitement": [
-    "Contrôler la TA (< 130/80) avec un IEC ou un ARA2 (si protéinurie)",
-    "Diabète : équilibre glycémique, empagliflozine si disponible",
-    "Adapter les doses des médicaments à la fonction rénale, éviter les AINS et les produits néphrotoxiques",
-    "Anémie : fer, puis époétine",
-    "Régime pauvre en sel, limitation du potassium si hyperkaliémie",
-    "Préparer la dialyse si stade terminal (hémodialyse ou dialyse péritonéale)",
-    "Vaccination hépatite B"
+    "Contrôle de la PA (objectif < 130/80, systolique < 120 si toléré) par un IEC (énalapril) ou un sartan (losartan) à la dose maximale tolérée en cas d'albuminurie ; contrôler créatinine et potassium 2 semaines après (une hausse de la créatinine < 30 % est acceptable)",
+    "Empagliflozine 10 mg par jour si débit ≥ 20 ml/min (ralentit la progression, avec ou sans diabète)",
+    "Diabète : équilibre glycémique ; metformine à dose réduite si débit 30 à 44 ml/min, arrêtée en dessous de 30",
+    "Statine après 50 ans",
+    "Régime : sel < 5 g par jour, protéines modérées (0,8 g/kg), limitation du potassium (fruits, légumes secs) si hyperkaliémie, limitation du phosphore",
+    "Éviter les médicaments toxiques pour le rein : AINS, aminosides, produits de contraste, plantes ; adapter les doses de tous les médicaments (antibiotiques, ARV : éviter le ténofovir TDF si débit < 50 ml/min)",
+    "Anémie : fer (oral ou IV) si ferritine basse, puis époétine si Hb < 10 g/dl (objectif 10 à 11,5)",
+    "Troubles minéraux : carbonate de calcium au repas comme chélateur du phosphore, vitamine D",
+    "Acidose (bicarbonates < 18 à 22 mmol/l) : bicarbonate de sodium oral",
+    "Hyperkaliémie : régime, arrêt des médicaments qui augmentent le potassium, furosémide",
+    "Vaccinations : hépatite B (doses renforcées), grippe, pneumocoque",
+    "Préserver les veines d'un avant-bras (pas de prise de sang ni de perfusion) en vue d'une fistule",
+    "Préparer à temps (débit < 20 ml/min) le traitement de suppléance : hémodialyse, dialyse péritonéale, greffe ; ou traitement conservateur et soins palliatifs si la dialyse n'est pas accessible ou souhaitée",
+    "Avis néphrologique : débit < 30 ml/min, baisse rapide, protéinurie > 1 g par jour, HTA résistante, hématurie"
    ],
    "gravite": [
-    "Hyperkaliémie, OAP, péricardite, troubles de conscience → dialyse en urgence"
+    "Hyperkaliémie, OAP, péricardite, troubles de conscience, acidose sévère : dialyse en urgence",
+    "Anémie sévère",
+    "Infection, grossesse",
+    "Baisse rapide du débit de filtration"
    ],
    "prevention": [
-    "Dépistage chez les hypertendus, les diabétiques, les PVVIH ; traitement de l'HTA et du diabète"
+    "Dépistage annuel (créatinine, bandelette) chez les hypertendus, les diabétiques, les personnes vivant avec le VIH, les drépanocytaires et les patients ayant des antécédents familiaux ; traitement de l'HTA et du diabète",
+    "Éviter l'automédication par AINS et les plantes néphrotoxiques",
+    "Traitement des infections chroniques et de la schistosomiase"
    ],
    "medicaments": [
     "Énalapril",
@@ -44239,9 +44417,12 @@
     "Associations fixes antihypertensives",
     "Furosémide",
     "Empagliflozine",
+    "Simvastatine",
     "Époétine (agent stimulant l'érythropoïèse)",
     "Sulfate ferreux",
     "Carbonate de calcium",
+    "Vitamine D (ergocalciférol / cholécalciférol)",
+    "Bicarbonate de sodium 8,4 % / 4,2 %",
     "Solution de dialyse péritonéale",
     "Vaccin hépatite B"
    ]
