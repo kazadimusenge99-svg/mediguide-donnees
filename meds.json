@@ -1,5 +1,5 @@
 {
- "version": 40,
+ "version": 41,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -40363,27 +40363,41 @@
    "nom": "Goutte",
    "categorie": "rhumato",
    "synonymes": "goutte, crise de goutte, acide urique, gros orteil",
-   "resume": "Arthrite inflammatoire due aux dépôts de cristaux d'acide urique, touchant typiquement le gros orteil.",
+   "resume": "Arthrite inflammatoire due aux dépôts de cristaux d'urate de sodium dans les articulations, favorisée par l'hyperuricémie (alimentation riche en abats, viande, bière, boissons sucrées ; obésité ; insuffisance rénale ; diurétiques ; aspirine à faible dose ; génétique). Touche surtout l'homme après 40 ans et la femme après la ménopause, typiquement le gros orteil. Elle est associée à l'HTA, au diabète, à l'insuffisance rénale et aux maladies cardiovasculaires. Le traitement de la crise doit être précoce ; le traitement de fond hypouricémiant, poursuivi à vie, guérit la maladie.",
    "signes": [
-    "Douleur articulaire brutale, nocturne, intense",
-    "Articulation rouge, chaude, gonflée (gros orteil, cheville, genou)",
-    "Tophus (dépôts sous la peau) dans les formes anciennes"
+    "Crise : douleur articulaire brutale, souvent nocturne, très intense (le drap fait mal), maximale en moins de 24 h",
+    "Articulation rouge, chaude, très gonflée : gros orteil (podagre), cheville, pied, genou, poignet",
+    "Fièvre modérée possible",
+    "Guérison spontanée en 7 à 14 jours, puis récidives de plus en plus fréquentes et étendues",
+    "Goutte chronique : tophus (nodules blanchâtres sous la peau des oreilles, des coudes, des doigts, des orteils), arthrite chronique déformante",
+    "Calculs urinaires d'acide urique (coliques néphrétiques)"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; uricémie (peut être normale pendant la crise)",
-    "Éliminer une arthrite septique (fièvre, ponction)"
+    "Diagnostic clinique souvent évident",
+    "Ponction de l'articulation si possible : cristaux d'urate en forme d'aiguilles au microscope en lumière polarisée ; éliminer une arthrite septique (pus, germes)",
+    "Uricémie (peut être normale pendant la crise : la recontrôler 2 à 4 semaines après)",
+    "Créatinine, glycémie, lipides, PA ; rechercher les médicaments favorisants (furosémide, hydrochlorothiazide, aspirine à faible dose, ciclosporine, pyrazinamide, éthambutol)",
+    "Radiographie (érosions en « coup d'emporte-pièce » dans les formes anciennes)",
+    "Différentiels : arthrite septique, chondrocalcinose, arthrite réactionnelle, érysipèle"
    ],
    "traitement": [
-    "Crise : colchicine à faible dose dès le début, ou AINS (ibuprofène, diclofénac), ou prednisolone 30 à 35 mg/jour pendant 5 jours ; repos, glace",
-    "Fond (crises répétées, tophus, calculs) : allopurinol à dose progressive, avec colchicine préventive les premiers mois",
-    "Réduire alcool, bière, abats, boissons sucrées ; boire abondamment"
+    "Crise, le plus tôt possible (idéalement dans les 12 h) : repos, glace, surélévation ; puis l'un des traitements suivants : colchicine à faible dose : 1 mg puis 0,5 mg 1 h après (maximum 1,5 mg le 1er jour), puis 0,5 mg 2 à 3 fois par jour jusqu'à la fin de la crise (réduire en cas d'insuffisance rénale ; pas en cas d'insuffisance rénale sévère ni avec la clarithromycine) ; ou AINS : ibuprofène 400 à 800 mg 3 fois par jour, ou diclofénac 50 mg 3 fois par jour, avec oméprazole si risque digestif (pas en cas d'insuffisance rénale, d'ulcère ou d'insuffisance cardiaque) ; ou prednisolone 30 à 35 mg par jour pendant 3 à 5 jours (utile en cas d'insuffisance rénale) ; ou injection de corticoïde dans l'articulation",
+    "Traitement de fond hypouricémiant si : 2 crises ou plus par an, tophus, arthropathie, calculs, insuffisance rénale, ou dès la 1re crise chez le sujet jeune ou avec uricémie très élevée : allopurinol débuté à 100 mg par jour (50 mg en cas d'insuffisance rénale), augmenté de 100 mg toutes les 2 à 4 semaines jusqu'à une uricémie < 360 µmol/l (60 mg/l), ou < 300 µmol/l en cas de tophus ; jusqu'à 800 mg par jour si nécessaire ; peut être débuté pendant ou juste après la crise, sans l'arrêter lors des crises suivantes ; poursuivi à vie",
+    "Prévention des crises au début du traitement de fond : colchicine 0,5 mg 1 à 2 fois par jour pendant 3 à 6 mois",
+    "Allopurinol : arrêter immédiatement en cas d'éruption cutanée (syndrome de Stevens-Johnson et DRESS, plus fréquents en cas d'insuffisance rénale)",
+    "Mesures associées : perte de poids, réduction de l'alcool (surtout la bière), des boissons sucrées, des abats et de la viande rouge, boire 2 litres d'eau par jour ; remplacer l'hydrochlorothiazide par le losartan (qui baisse l'uricémie) si HTA",
+    "Traiter l'HTA, le diabète, les dyslipidémies (risque cardiovasculaire)"
    ],
    "gravite": [
-    "Fièvre (arthrite septique ?)",
-    "Insuffisance rénale associée"
+    "Fièvre, frissons, articulation très inflammatoire : éliminer une arthrite septique (ponction)",
+    "Insuffisance rénale associée",
+    "Éruption sous allopurinol (allergie grave)",
+    "Intoxication à la colchicine (diarrhée, vomissements, puis atteinte multiviscérale)"
    ],
    "prevention": [
-    "Alimentation équilibrée, perte de poids, limiter l'alcool"
+    "Alimentation équilibrée, perte de poids, limiter l'alcool et les boissons sucrées, bonne hydratation",
+    "Observance du traitement de fond",
+    "Prudence avec les diurétiques chez le goutteux"
    ],
    "medicaments": [
     "Colchicine",
@@ -40391,7 +40405,9 @@
     "Ibuprofène",
     "Diclofénac",
     "Prednisolone",
-    "Paracétamol"
+    "Paracétamol",
+    "Oméprazole",
+    "Losartan"
    ]
   },
   {
@@ -40632,37 +40648,50 @@
    "nom": "Lombalgie et arthrose",
    "categorie": "rhumato",
    "synonymes": "mal de dos, lombalgie, lumbago, sciatique, arthrose, douleurs articulaires",
-   "resume": "Douleurs du dos et des articulations, le plus souvent mécaniques et bénignes, mais pouvant révéler une infection (tuberculose vertébrale), un cancer ou une compression nerveuse.",
+   "resume": "La lombalgie commune (mécanique) est la première cause d'incapacité dans le monde ; elle guérit le plus souvent en quelques semaines si le patient reste actif. L'arthrose (genoux, hanches, mains, rachis) est une usure du cartilage favorisée par l'âge, le surpoids, les travaux physiques et les traumatismes. En Afrique, une douleur du dos doit toujours faire rechercher les « drapeaux rouges » : mal de Pott (tuberculose vertébrale), brucellose, métastases (prostate, sein), myélome, drépanocytose, compression de la moelle ou de la queue de cheval.",
    "signes": [
-    "Lombalgie commune : douleur mécanique, calmée au repos",
-    "Sciatique : douleur irradiant dans la jambe",
-    "Arthrose : douleurs des genoux, hanches, mains, aggravées par l'effort",
-    "Signes d'alerte : fièvre, amaigrissement, douleur nocturne, déficit des jambes, troubles urinaires"
+    "Lombalgie commune : douleur du bas du dos aggravée par l'effort et les mouvements, calmée par le repos, sans signes généraux",
+    "Sciatique : douleur irradiant le long de la jambe jusqu'au pied, aggravée par la toux, fourmillements",
+    "Cruralgie : douleur irradiant à la face antérieure de la cuisse",
+    "Arthrose : douleurs mécaniques des genoux, hanches, mains (nodosités des doigts), raideur matinale < 30 min, craquements, déformation, limitation progressive",
+    "Drapeaux rouges : âge < 20 ans ou > 50 ans au 1er épisode, douleur nocturne ou permanente non mécanique, fièvre, sueurs nocturnes, amaigrissement, antécédent de cancer, VIH, tuberculose, traumatisme, gibbosité (bosse dans le dos), faiblesse des jambes, troubles urinaires ou anaux, anesthésie du périnée (en selle)"
    ],
    "diagnostic": [
-    "Examen neurologique des membres inférieurs",
-    "Radiographie si signes d'alerte",
-    "Rechercher une tuberculose (mal de Pott), une drépanocytose, un myélome"
+    "Interrogatoire et examen : localisation, irradiation, horaire de la douleur, mobilité du rachis, palpation des vertèbres, examen neurologique des membres inférieurs (force, réflexes, sensibilité, signe de Lasègue), périnée si troubles urinaires",
+    "Lombalgie commune sans drapeau rouge : pas d'examen complémentaire nécessaire",
+    "Drapeaux rouges : radiographie du rachis, VS, CRP, NFS, électrophorèse des protéines (myélome), PSA chez l'homme âgé, radiographie du thorax et recherche de tuberculose, sérologie brucellose, test VIH ; IRM ou scanner en cas de déficit neurologique",
+    "Arthrose : radiographie (pincement articulaire, ostéophytes) ; éliminer une arthrite inflammatoire (gonflement chaud, raideur prolongée), une goutte, une ostéonécrose de la hanche (drépanocytose)"
    ],
    "traitement": [
-    "Rester actif (le repos au lit prolongé est déconseillé)",
-    "Paracétamol, AINS sur une courte durée, chaleur",
-    "Exercices, kinésithérapie, perte de poids (arthrose)",
-    "Sciatique persistante : amitriptyline pour la composante neuropathique"
+    "Lombalgie aiguë : rassurer (évolution favorable en 4 à 6 semaines), rester actif et poursuivre les activités habituelles autant que possible ; le repos au lit prolongé est déconseillé ; chaleur locale",
+    "Antalgiques sur une courte durée : AINS (ibuprofène 400 mg 3 fois par jour pendant 5 à 7 jours, avec les précautions habituelles) ; paracétamol (efficacité limitée) ; tramadol seulement en cas de douleur sévère et pour quelques jours ; pas de corticoïdes ni d'opioïdes au long cours",
+    "Lombalgie chronique (> 3 mois) : programme d'exercices structurés, kinésithérapie, activité physique (marche), approche psychologique (peurs, stress, travail), éducation ; l'OMS (2023) déconseille les opioïdes, les injections et la plupart des médicaments au long cours",
+    "Sciatique : antalgiques, rester actif ; douleur neuropathique persistante : amitriptyline 10 à 25 mg le soir ; chirurgie si déficit moteur progressif ou douleur intolérable après 6 à 8 semaines",
+    "Arthrose : exercices de renforcement musculaire et d'assouplissement, perte de poids (le plus efficace pour le genou), canne du côté opposé, chaussures adaptées ; AINS en gel local (diclofénac) puis par voie orale en cures courtes ; paracétamol ; infiltration de corticoïde dans le genou lors des poussées ; prothèse en cas d'arthrose évoluée invalidante",
+    "Mal de Pott : traitement antituberculeux 12 mois, immobilisation, chirurgie si compression (voir la fiche tuberculose extrapulmonaire)",
+    "Posture et manutention : plier les genoux, garder la charge près du corps"
    ],
    "gravite": [
-    "Déficit moteur, troubles urinaires ou anesthésie du périnée (syndrome de la queue de cheval) → urgence",
-    "Fièvre, gibbosité (mal de Pott)"
+    "Syndrome de la queue de cheval (rétention ou incontinence urinaire, anesthésie du périnée, faiblesse des 2 jambes) : urgence chirurgicale",
+    "Déficit moteur ou paraplégie (mal de Pott, métastase, abcès épidural)",
+    "Fièvre avec douleur rachidienne (spondylodiscite)",
+    "Douleur nocturne avec amaigrissement (cancer, myélome)",
+    "Traumatisme avec douleur vertébrale"
    ],
    "prevention": [
-    "Activité physique régulière, postures adaptées pour porter des charges"
+    "Activité physique régulière, renforcement des muscles du dos et de l'abdomen, maintien d'un poids sain",
+    "Techniques de port de charges (genoux pliés, charge près du corps)",
+    "Lutte contre le tabac",
+    "Traitement précoce de la tuberculose"
    ],
    "medicaments": [
-    "Paracétamol",
     "Ibuprofène",
     "Diclofénac",
+    "Paracétamol",
     "Tramadol",
-    "Amitriptyline"
+    "Amitriptyline",
+    "Oméprazole",
+    "RHZE (rifampicine + isoniazide + pyrazinamide + éthambutol)"
    ]
   },
   {
@@ -43180,36 +43209,45 @@
    "nom": "Calendrier vaccinal de l'enfant (PEV)",
    "categorie": "prevention",
    "synonymes": "calendrier vaccinal, PEV, vaccination, vaccins de l'enfant, carnet de vaccination, rattrapage",
-   "resume": "Calendrier type du Programme élargi de vaccination (OMS). Les âges et les vaccins introduits varient selon le pays et la province : vérifier le calendrier national en vigueur.",
+   "resume": "Calendrier type du Programme élargi de vaccination (PEV) recommandé par l'OMS. Les vaccins introduits et les âges varient selon le pays et la province (en RDC, nouvelles introductions progressives : vaccin antipaludique, VPH, hépatite B à la naissance) : vérifier le calendrier national en vigueur. La vaccination est l'intervention de santé publique la plus efficace ; en RDC, de nombreux enfants « zéro dose » ou incomplètement vaccinés restent exposés à la rougeole, la poliomyélite, la diphtérie et la coqueluche. Chaque contact avec le système de santé doit servir à vacciner.",
    "signes": [
-    "Naissance : BCG + VPO0 (+ hépatite B dose de naissance là où elle est introduite)",
-    "6 semaines : pentavalent 1, VPO1, PCV1, rotavirus 1",
+    "Naissance (le plus tôt possible) : BCG + VPO0 (+ hépatite B dose de naissance dans les 24 h là où elle est introduite)",
+    "6 semaines : pentavalent 1 (DTC-HepB-Hib), VPO1, PCV1, rotavirus 1",
     "10 semaines : pentavalent 2, VPO2, PCV2, rotavirus 2",
     "14 semaines : pentavalent 3, VPO3, PCV3, VPI1 (+ rotavirus 3 selon le vaccin)",
-    "5 à 7 mois et 15–18 mois : vaccin antipaludique là où il est introduit",
-    "9 mois : RR1, fièvre jaune, VPI2, (méningocoque A, typhoïde selon les zones)",
-    "15–18 mois : RR2 (+ rappel DTC selon le programme)",
-    "Filles 9 à 14 ans : VPH",
-    "Femmes enceintes : Td selon le statut vaccinal"
+    "5 mois et plus : vaccin antipaludique (4 doses, à partir de 5 mois ; 4e dose vers 18 mois) dans les zones où il est introduit",
+    "9 mois : RR1, fièvre jaune, VPI2 (+ méningocoque conjugué, typhoïde conjugué selon les zones)",
+    "15 à 18 mois : RR2, rappel DTC selon le programme",
+    "Filles de 9 à 14 ans : VPH (une dose suffit selon l'OMS)",
+    "Femmes enceintes et en âge de procréer : Td selon le statut vaccinal (5 doses au total pour une protection à vie)",
+    "Vitamine A tous les 6 mois de 6 à 59 mois"
    ],
    "diagnostic": [
-    "Vérifier le carnet à chaque consultation (« aucune occasion manquée »)",
-    "Intervalle minimum de 4 semaines entre deux doses d'un même vaccin",
-    "Plusieurs vaccins peuvent être donnés le même jour, à des sites différents"
+    "Vérifier le carnet ou la carte à chaque consultation, hospitalisation ou contact (« aucune occasion manquée »), y compris pour les frères et sœurs et la mère",
+    "Enfant sans carnet : considérer comme non vacciné (rechercher la cicatrice BCG)",
+    "Intervalle minimum de 4 semaines entre 2 doses d'un même vaccin ; aucun intervalle à respecter entre vaccins différents donnés le même jour",
+    "Vraies contre-indications rares : anaphylaxie à une dose précédente ou à un composant ; vaccins vivants (BCG, VPO, RR, fièvre jaune) chez l'enfant gravement immunodéprimé ; fièvre jaune avant 6 mois"
    ],
    "traitement": [
-    "Rattraper tout enfant en retard sans recommencer le schéma",
-    "Maladie bénigne, fièvre modérée, diarrhée, malnutrition : ce ne sont PAS des contre-indications",
-    "Vaccins vivants (BCG, VPO, RR, fièvre jaune) : précautions en cas d'immunodépression sévère",
-    "Surveiller 15 à 30 min après la vaccination ; adrénaline disponible",
-    "Notifier les manifestations post-vaccinales indésirables (MAPI)"
+    "Rattraper tout enfant en retard sans recommencer le schéma (« une dose donnée est une dose comptée ») ; le rattrapage est possible au-delà de 1 an et jusqu'à l'âge scolaire selon le guide national",
+    "Ce ne sont PAS des contre-indications : rhume, fièvre modérée, diarrhée, malnutrition, prématurité (vacciner à l'âge chronologique), allaitement, antibiotiques, ictère du nouveau-né, convulsions fébriles antérieures",
+    "Enfant malnutri ou hospitalisé : vacciner, en particulier contre la rougeole (dès 6 mois en contexte d'épidémie ou d'hospitalisation, dose supplémentaire ne comptant pas dans le schéma)",
+    "Enfant exposé ou infecté par le VIH : vaccins du calendrier ; BCG à la naissance si asymptomatique selon le protocole national ; pas de vaccins vivants en cas d'immunodépression sévère",
+    "Technique : site d'injection (BCG intradermique bras gauche ; pentavalent et PCV intramusculaire dans la cuisse, côtés différents) ; seringues autobloquantes, boîtes de sécurité ; respect de la chaîne du froid (2 à 8 °C ; pastille de contrôle du flacon ; ne jamais congeler le pentavalent, le PCV, le VPI, le Td, l'hépatite B) ; politique des flacons entamés",
+    "Surveiller 15 à 30 min après la vaccination, avec adrénaline disponible ; informer les parents des réactions bénignes (fièvre, douleur : paracétamol)",
+    "Notifier les manifestations post-vaccinales indésirables (MAPI) graves",
+    "Rougeole ou cas de paralysie flasque aiguë : notification immédiate (surveillance épidémiologique)"
    ],
    "gravite": [
-    "Anaphylaxie après vaccination",
-    "MAPI grave (convulsions, abcès, BCGite) : notifier"
+    "Anaphylaxie après vaccination : adrénaline IM 0,01 mg/kg (0,15 mg chez l'enfant de 15 à 30 kg)",
+    "MAPI grave (convulsions, abcès, BCGite disséminée, hypotonie) : notifier et enquêter",
+    "Enfant « zéro dose » ou rupture de la chaîne du froid",
+    "Épidémie de rougeole ou de polio dérivée d'un vaccin"
    ],
    "prevention": [
-    "Couverture vaccinale élevée, campagnes de rattrapage, chaîne du froid"
+    "Couverture vaccinale élevée (> 95 % pour la rougeole), recherche active des enfants zéro dose, stratégies avancées et mobiles, campagnes de rattrapage et de riposte",
+    "Chaîne du froid fiable",
+    "Engagement communautaire et lutte contre la désinformation"
    ],
    "medicaments": [
     "Vaccin BCG",
@@ -43227,7 +43265,8 @@
     "Vaccin hépatite B",
     "Vaccin antitétanique (Td / VAT)",
     "Vitamine A (rétinol)",
-    "Adrénaline (épinéphrine)"
+    "Adrénaline (épinéphrine)",
+    "Paracétamol"
    ]
   },
   {
@@ -43920,35 +43959,52 @@
    "nom": "Accident d'exposition au sang et prophylaxie post-exposition (PEP)",
    "categorie": "prevention",
    "synonymes": "AES, piqûre d'aiguille, exposition au sang, PEP, prophylaxie VIH, accident professionnel",
-   "resume": "Contact avec du sang ou un liquide biologique potentiellement infecté (piqûre, coupure, projection sur muqueuse) ou exposition sexuelle : risque de VIH, hépatite B et C.",
+   "resume": "Contact avec du sang ou un liquide biologique potentiellement infecté (piqûre, coupure, projection sur les muqueuses ou une peau lésée), exposition sexuelle (rapport non protégé, rupture de préservatif, viol) ou partage de matériel d'injection : risque de transmission du VIH, de l'hépatite B et de l'hépatite C. Le risque après piqûre est d'environ 0,3 % pour le VIH, 1,8 % pour le VHC et jusqu'à 30 % pour le VHB si la personne exposée n'est pas vaccinée. La PEP VIH doit commencer le plus tôt possible, au plus tard dans les 72 h ; le soignant doit être pris en charge sans délai, sans jugement.",
    "signes": [
-    "Piqûre ou coupure avec un matériel souillé",
-    "Projection sur les yeux, la bouche, une peau lésée",
-    "Rapport sexuel non protégé ou viol"
+    "Exposition professionnelle : piqûre avec une aiguille ayant servi (surtout aiguille creuse avec sang, prélèvement veineux ou artériel), coupure par un instrument souillé, projection de sang dans les yeux ou la bouche ou sur une peau lésée",
+    "Exposition sexuelle : rapport non protégé, rupture de préservatif, violences sexuelles",
+    "Partage de seringues",
+    "Morsure humaine avec saignement",
+    "Liquides à risque : sang, sperme, sécrétions vaginales, liquides céphalorachidien, pleural, péritonéal, amniotique ; non à risque (sauf sang visible) : urines, selles, salive, larmes, sueur"
    ],
    "diagnostic": [
-    "Évaluer le risque (type d'exposition, statut du patient source si consentement)",
-    "Test VIH, hépatite B (AgHBs, statut vaccinal) et C de la personne exposée à J0",
-    "Ne pas retarder la PEP pour attendre les résultats"
+    "Évaluer le risque : type d'exposition, profondeur, quantité de sang, délai ; statut du patient source (VIH, AgHBs, VHC, charge virale), avec son consentement et confidentialité ; ne pas retarder la PEP en attendant",
+    "Personne exposée à J0 : test VIH (si positif : orientation vers un traitement ARV, pas de PEP), AgHBs et anticorps anti-HBs ou statut vaccinal, VHC, créatinine si possible, test de grossesse ; après violences sexuelles : syphilis",
+    "PEP indiquée si exposition à risque dans les 72 h et source VIH positive ou statut inconnu ; non indiquée si source VIH négative (sauf suspicion de primo-infection) ou exposition sans risque"
    ],
    "traitement": [
-    "Immédiatement : laisser saigner, laver à l'eau et au savon, rincer abondamment les muqueuses (ne pas presser, ne pas utiliser d'eau de Javel)",
-    "PEP VIH le plus tôt possible (idéalement < 2 h, au plus tard 72 h) : TLD 1 cp/jour pendant 28 jours (enfant : schéma pédiatrique à base de dolutégravir)",
-    "Hépatite B : vaccination (schéma accéléré) ± immunoglobulines si non vacciné",
-    "Contrôle VIH à 3 mois, VHC à 3 et 6 mois",
-    "Déclaration de l'accident du travail"
+    "Immédiatement : laisser saigner sans presser ni sucer, laver à l'eau et au savon ; muqueuses et yeux : rincer abondamment à l'eau ou au sérum physiologique pendant 10 à 15 min ; ne pas utiliser d'eau de Javel ni d'antiseptique caustique sur la plaie (une antisepsie douce est possible)",
+    "PEP VIH le plus tôt possible (idéalement dans les 2 h, au plus tard dans les 72 h) : TLD (ténofovir + lamivudine + dolutégravir) 1 comprimé par jour pendant 28 jours, y compris chez la femme enceinte ; enfant : schéma pédiatrique à base de dolutégravir (ou zidovudine + lamivudine + lopinavir/ritonavir selon l'âge et le poids) ; remettre si possible le traitement complet dès le départ ; soutien à l'observance, gestion des effets indésirables",
+    "Hépatite B : personne non vaccinée ou réponse inconnue : 1re dose de vaccin immédiatement (schéma accéléré 0, 1, 2 et 12 mois ou 0, 7, 21 jours et 12 mois) ± immunoglobulines anti-HBs dans les 72 h si la source est AgHBs positive et si disponibles ; personne vaccinée répondeuse : rien",
+    "Hépatite C : pas de prophylaxie ; dépistage à 3 et 6 mois (ARN VHC précoce si disponible) et traitement par antiviraux directs en cas d'infection",
+    "Exposition sexuelle ou violences : contraception d'urgence (lévonorgestrel 1,5 mg dans les 72 h, jusqu'à 120 h ; ou DIU au cuivre), prévention des IST (ceftriaxone, azithromycine, métronidazole), vaccin antitétanique si plaies, prise en charge psychologique, certificat médical",
+    "Suivi : test VIH à 3 mois (à 6 semaines et 3 mois selon le protocole), VHB à 3 à 6 mois, VHC à 3 et 6 mois ; préservatifs et pas de don de sang jusqu'aux résultats",
+    "Déclaration de l'accident du travail et analyse de ses causes",
+    "Proposer la PrEP si les expositions sexuelles se répètent"
    ],
    "gravite": [
-    "Exposition à haut risque (aiguille creuse, sang visible, patient source avec charge virale élevée)"
+    "Exposition à haut risque : aiguille creuse ayant servi en intraveineux ou intra-artériel, plaie profonde, sang visible, patient source avec charge virale élevée ou SIDA avancé",
+    "Violences sexuelles",
+    "Personne exposée non vaccinée contre l'hépatite B",
+    "Délai proche de 72 h"
    ],
    "prevention": [
-    "Vaccination hépatite B des soignants, collecteurs d'aiguilles, pas de recapuchonnage, gants"
+    "Vaccination contre l'hépatite B de tous les soignants (avec contrôle des anticorps)",
+    "Précautions standard : gants, lunettes, pas de recapuchonnage, boîtes de sécurité à portée de main, élimination immédiate des objets piquants, dispositifs sécurisés",
+    "Formation, protocole et kits de PEP disponibles 24 h sur 24 dans tous les services",
+    "Préservatifs, PrEP"
    ],
    "medicaments": [
     "Ténofovir + lamivudine + dolutégravir (TLD)",
-    "Vaccin hépatite B",
     "Dolutégravir pédiatrique",
-    "Chlorhexidine"
+    "Vaccin hépatite B",
+    "Lévonorgestrel (contraception d'urgence)",
+    "Ceftriaxone",
+    "Azithromycine",
+    "Métronidazole",
+    "Vaccin antitétanique (Td / VAT)",
+    "Chlorhexidine",
+    "Chlorure de sodium 0,9 % (sérum physiologique)"
    ]
   },
   {
@@ -44182,36 +44238,51 @@
    "nom": "Infections associées aux soins et bactéries multirésistantes",
    "categorie": "prevention",
    "synonymes": "infection nosocomiale, BMR, BLSE, SARM, carbapénémase, infection de cathéter, pneumonie nosocomiale",
-   "resume": "Infections acquises à l'hôpital (sur cathéter, sonde, plaie opératoire, ventilation, néonatologie), souvent dues à des bactéries résistantes aux antibiotiques usuels.",
+   "resume": "Infections acquises lors des soins (après plus de 48 h d'hospitalisation, ou dans les 30 jours après une chirurgie) : infections de cathéter, urinaires sur sonde, du site opératoire, pneumonies (surtout sous ventilation), sepsis néonatals, diarrhées à Clostridioides difficile. En Afrique subsaharienne, elles touchent jusqu'à 1 patient hospitalisé sur 10 et sont souvent dues à des bactéries multirésistantes (entérobactéries productrices de BLSE ou de carbapénémases, Klebsiella, Acinetobacter, Pseudomonas, SARM), responsables d'une mortalité élevée, surtout en néonatologie. La prévention (hygiène des mains, asepsie) et le bon usage des antibiotiques (classification AWaRe de l'OMS) sont essentiels.",
    "signes": [
-    "Fièvre apparaissant après 48 h d'hospitalisation",
-    "Rougeur ou pus au point d'un cathéter, d'une cicatrice",
-    "Urines troubles sous sonde",
-    "Pneumonie chez un patient alité ou ventilé",
-    "Sepsis du nouveau-né hospitalisé"
+    "Fièvre ou hypothermie apparaissant après 48 h d'hospitalisation, sepsis inexpliqué",
+    "Rougeur, douleur, pus au point d'insertion d'un cathéter ; fièvre et frissons lors de l'utilisation du cathéter",
+    "Infection du site opératoire : rougeur, écoulement purulent, désunion de la plaie, abcès profond",
+    "Urines troubles, fièvre sous sonde urinaire",
+    "Pneumonie chez un patient alité, opéré ou ventilé : fièvre, sécrétions purulentes, besoin accru en oxygène",
+    "Nouveau-né hospitalisé : mauvaise prise alimentaire, apnées, hypothermie, léthargie",
+    "Diarrhée après antibiotiques (Clostridioides difficile)",
+    "Infections groupées dans un même service (épidémie)"
    ],
    "diagnostic": [
-    "Prélèvements AVANT l'antibiotique : hémocultures, urines, pus, culture de cathéter",
-    "Antibiogramme (BLSE, SARM, carbapénémase)",
-    "Réévaluer à 48–72 h"
+    "Prélèvements AVANT l'antibiotique : hémocultures (2 paires, dont une par le cathéter), urines (prélevées sur la sonde, pas dans le sac), pus profond, aspiration trachéale, culture du bout de cathéter",
+    "Antibiogramme : détection des BLSE, carbapénémases, SARM ; communiquer les résultats rapidement",
+    "Imagerie selon le site (radiographie du thorax, échographie à la recherche d'un abcès)",
+    "Réévaluer l'antibiothérapie à 48 à 72 h selon la clinique et les cultures",
+    "Surveillance des infections et de l'écologie locale par le comité d'hygiène (pour guider les protocoles probabilistes)"
    ],
    "traitement": [
-    "Retirer ou changer le matériel infecté (cathéter, sonde)",
-    "Antibiothérapie probabiliste selon l'écologie locale : par ex. pipéracilline-tazobactam ou céfotaxime/ceftriaxone ± amikacine ; méropénem si BLSE probable et sepsis grave ; vancomycine si SARM suspecté",
-    "Adapter dès l'antibiogramme (désescalade) ; antibiotiques de réserve (colistine, ceftazidime-avibactam) uniquement sur avis",
-    "Durée la plus courte efficace"
+    "Retirer ou changer le matériel infecté (cathéter, sonde urinaire), drainer les collections et reprendre chirurgicalement si nécessaire : c'est souvent le geste le plus important",
+    "Antibiothérapie probabiliste selon la gravité, le site et l'écologie locale : par exemple pipéracilline + tazobactam, ou céfotaxime ou ceftriaxone ± amikacine ; méropénem si BLSE probable (colonisation connue, antibiotiques récents) et sepsis grave ; ajouter la vancomycine si SARM suspecté (infection de cathéter, de peau ou de site opératoire, porteur connu) ; nouveau-né : protocole néonatal selon l'écologie (voir la fiche sepsis néonatal)",
+    "Adapter dès l'antibiogramme et désescalader vers la molécule active au spectre le plus étroit ; durée la plus courte efficace (souvent 5 à 7 jours ; 7 à 14 jours pour une bactériémie selon le germe)",
+    "Antibiotiques de réserve (colistine, ceftazidime + avibactam, céfidérocol, méropénem + vaborbactam, plazomicine, linézolide) uniquement sur documentation microbiologique et avis spécialisé",
+    "Infection urinaire sous sonde : retirer ou changer la sonde ; pas d'antibiotique pour une bactériurie sans symptôme",
+    "Clostridioides difficile : arrêter l'antibiotique en cause, métronidazole ou vancomycine orale, isolement de contact, lavage des mains à l'eau et au savon (la solution hydroalcoolique n'est pas efficace sur les spores)",
+    "Isolement de contact des patients porteurs de BMR ; dépistage selon le protocole local ; information du comité d'hygiène"
    ],
    "gravite": [
     "Choc septique",
-    "Bactériémie persistante",
-    "Néonatologie (épidémies)"
+    "Bactériémie persistante malgré le traitement (rechercher un foyer, une endocardite)",
+    "Épidémie en néonatologie",
+    "Infection à bactérie résistante aux carbapénèmes",
+    "Pneumonie sous ventilation"
    ],
    "prevention": [
-    "Hygiène des mains (solution hydro-alcoolique), asepsie des cathéters et des sondes, retrait des dispositifs inutiles, isolement des porteurs de BMR, bon usage des antibiotiques (AWaRe)"
+    "Hygiène des mains aux 5 moments avec une solution hydroalcoolique",
+    "Asepsie et « bundles » de pose et d'entretien des cathéters et des sondes, retrait des dispositifs inutiles dès que possible",
+    "Préparation cutanée à la chlorhexidine alcoolique, antibioprophylaxie chirurgicale de courte durée (une dose dans les 60 min avant l'incision)",
+    "Isolement des porteurs de BMR, nettoyage et désinfection de l'environnement",
+    "Programme de bon usage des antibiotiques (AWaRe : privilégier « Accès », limiter « À surveiller », réserver « Réserve ») ; surveillance des infections et de la résistance"
    ],
    "medicaments": [
     "Pipéracilline + tazobactam",
     "Céfotaxime",
+    "Ceftriaxone",
     "Ceftazidime",
     "Amikacine",
     "Méropénem",
@@ -44224,7 +44295,10 @@
     "Ceftolozane + tazobactam",
     "Méropénem + vaborbactam",
     "Plazomicine",
-    "Polymyxine B"
+    "Polymyxine B",
+    "Métronidazole",
+    "Solution hydro-alcoolique (friction des mains)",
+    "Chlorhexidine"
    ]
   },
   {
@@ -45665,44 +45739,57 @@
    "nom": "Polyarthrite rhumatoïde",
    "categorie": "rhumato",
    "synonymes": "polyarthrite rhumatoïde, PR, rhumatisme inflammatoire, arthrite chronique",
-   "resume": "Rhumatisme inflammatoire chronique touchant surtout les petites articulations des mains et des pieds, de façon symétrique, avec risque de destruction articulaire.",
+   "resume": "Rhumatisme inflammatoire chronique auto-immun, touchant environ 0,5 % de la population, surtout la femme de 30 à 60 ans. Il atteint les petites articulations des mains et des pieds de façon symétrique et détruit les articulations en quelques années sans traitement. Il réduit l'espérance de vie (maladies cardiovasculaires, infections). Le traitement de fond par méthotrexate, débuté dans les 3 premiers mois, permet souvent une rémission.",
    "signes": [
-    "Douleurs et gonflements des poignets, des doigts et des orteils, des deux côtés",
-    "Raideur matinale > 30 min",
-    "Fatigue",
-    "Déformations tardives"
+    "Douleurs et gonflements de plusieurs articulations, des 2 côtés : poignets, articulations des doigts (sauf les dernières), avant-pieds ; puis genoux, chevilles, coudes, épaules",
+    "Raideur matinale > 30 min (souvent plus d'une heure), douleurs réveillant la nuit",
+    "Fatigue, fièvre modérée, amaigrissement",
+    "Évolution : déformations des mains (doigts en coup de vent, en col de cygne, en boutonnière), des pieds ; nodules sous la peau des coudes",
+    "Atteintes extra-articulaires : sécheresse des yeux et de la bouche, atteinte pulmonaire (fibrose), vascularite, anémie, atteinte de la colonne cervicale (C1-C2)"
    ],
    "diagnostic": [
-    "VS, CRP, facteur rhumatoïde, anti-CCP si disponibles",
-    "Radiographies des mains et des pieds",
-    "Éliminer : goutte, arthrite infectieuse, chikungunya chronique, lupus, VIH"
+    "Synovite (gonflement) d'au moins une articulation depuis plus de 6 semaines, non expliquée par une autre cause",
+    "VS et CRP (élevées), facteur rhumatoïde et anticorps anti-CCP (très spécifiques) si disponibles",
+    "Radiographies des mains et des pieds (érosions), de référence et pour le suivi",
+    "Bilan avant traitement : NFS, transaminases, créatinine, AgHBs, sérologies VHC et VIH, radiographie du thorax, recherche de tuberculose latente, test de grossesse",
+    "Éliminer : arthrite virale (chikungunya, parvovirus, hépatites, VIH), goutte polyarticulaire, lupus, arthrite réactionnelle, rhumatisme psoriasique, arthrose des mains"
    ],
    "traitement": [
-    "Traitement de fond le plus tôt possible : méthotrexate (référence, avis spécialisé), hydroxychloroquine, sulfasalazine, seuls ou en association",
-    "Poussées : AINS courts, prednisolone à faible dose",
-    "Paracétamol",
-    "Kinésithérapie, maintien de l'activité",
-    "Supplément en acide folique sous méthotrexate",
-    "Méthotrexate : 7,5 à 15 mg UNE fois par semaine (jamais tous les jours), avec acide folique 5 mg une fois par semaine à un autre jour ; NFS et transaminases régulières ; contraception efficace (tératogène)"
+    "Traitement de fond le plus tôt possible, avec un objectif de rémission (suivi tous les 1 à 3 mois jusqu'à l'objectif) : méthotrexate (référence) : 7,5 à 10 mg UNE fois par semaine (même jour chaque semaine, jamais tous les jours : risque mortel), augmenté de 2,5 à 5 mg toutes les 2 à 4 semaines jusqu'à 15 à 25 mg par semaine ; acide folique 5 mg une fois par semaine un autre jour (réduit les effets indésirables) ; NFS, transaminases et créatinine toutes les 2 à 4 semaines au début puis tous les 3 mois ; pas d'alcool ; contre-indiqué pendant la grossesse (contraception efficace, arrêt 3 mois avant une grossesse), en cas d'insuffisance rénale sévère ou d'atteinte hépatique ; éviter le cotrimoxazole à forte dose (toxicité sanguine)",
+    "Intolérance ou contre-indication : sulfasalazine (2 à 3 g par jour, compatible avec la grossesse) ou léflunomide ; hydroxychloroquine 200 à 400 mg par jour en association (trithérapie méthotrexate + sulfasalazine + hydroxychloroquine, efficace et peu coûteuse)",
+    "Échec : biothérapies (adalimumab, rituximab) en milieu spécialisé, après dépistage et traitement d'une tuberculose latente et de l'hépatite B",
+    "Corticoïdes : prednisolone 5 à 10 mg par jour en attendant l'effet du traitement de fond (« pont »), le plus court possible (moins de 3 à 6 mois) ; infiltrations des articulations très gonflées",
+    "Symptomatique : AINS en cures courtes (ibuprofène), paracétamol",
+    "Kinésithérapie, ergothérapie, orthèses de repos, maintien de l'activité physique",
+    "Vaccinations (pneumocoque, grippe, hépatite B) avant immunosuppression ; éviter les vaccins vivants sous biothérapie",
+    "Réduire le risque cardiovasculaire (arrêt du tabac, PA, lipides) ; vitamine D et calcium sous corticoïdes"
    ],
    "gravite": [
-    "Atteinte d'organe (poumon, vascularite)",
-    "Infection sous immunosuppresseur"
+    "Infection (fièvre) sous méthotrexate ou biothérapie, toux (pneumopathie au méthotrexate)",
+    "Aphtes, saignements, chute des globules blancs (toxicité du méthotrexate : arrêter, acide folinique)",
+    "Douleur cervicale avec signes neurologiques (luxation C1-C2)",
+    "Vascularite, atteinte pulmonaire",
+    "Grossesse sous méthotrexate"
    ],
    "prevention": [
-    "Arrêt du tabac"
+    "Arrêt du tabac (facteur de risque et d'aggravation)",
+    "Diagnostic et traitement précoces",
+    "Éducation sur la prise hebdomadaire du méthotrexate"
    ],
    "medicaments": [
+    "Méthotrexate",
+    "Acide folique",
+    "Folinate de calcium (acide folinique)",
     "Hydroxychloroquine",
     "Sulfasalazine",
-    "Ibuprofène",
     "Prednisolone",
+    "Ibuprofène",
     "Paracétamol",
-    "Acide folique",
-    "Méthotrexate",
     "Adalimumab",
     "Rituximab",
-    "Azathioprine"
+    "Azathioprine",
+    "Vitamine D (ergocalciférol / cholécalciférol)",
+    "Carbonate de calcium"
    ]
   },
   {
@@ -45710,43 +45797,62 @@
    "nom": "Lupus érythémateux systémique",
    "categorie": "rhumato",
    "synonymes": "lupus, LES, maladie auto-immune, éruption en ailes de papillon",
-   "resume": "Maladie auto-immune de la femme jeune pouvant toucher la peau, les articulations, les reins, le sang, le cœur et le cerveau.",
+   "resume": "Maladie auto-immune chronique évoluant par poussées, touchant surtout la femme jeune (9 femmes pour 1 homme), plus fréquente et plus sévère chez les personnes d'ascendance africaine. Elle peut atteindre la peau, les articulations, les reins (néphrite lupique, fréquente et grave), le sang, les séreuses, le cœur, le cerveau. Elle est souvent diagnostiquée tard en Afrique ; l'hydroxychloroquine, prise par tous les patients, réduit les poussées et la mortalité.",
    "signes": [
-    "Éruption du visage en ailes de papillon, photosensibilité, chute de cheveux, aphtes",
-    "Arthralgies, arthrites",
-    "Fièvre, fatigue",
-    "Atteinte rénale (œdèmes, protéinurie, HTA)",
-    "Péricardite, pleurésie",
-    "Convulsions, troubles psychiatriques",
-    "Fausses couches répétées"
+    "Peau : éruption rouge du visage en « ailes de papillon » épargnant les sillons, aggravée par le soleil ; lupus discoïde (plaques qui laissent des cicatrices dépigmentées, cuir chevelu) ; chute de cheveux ; aphtes indolores",
+    "Articulations : douleurs et arthrites des mains, des poignets, des genoux, non destructrices",
+    "Fièvre, fatigue, amaigrissement, ganglions",
+    "Reins : œdèmes, urines mousseuses (protéinurie), sang dans les urines, HTA, insuffisance rénale",
+    "Séreuses : péricardite, pleurésie (douleur thoracique)",
+    "Sang : anémie, saignements (thrombopénie), infections (leucopénie)",
+    "Neurologique : convulsions, psychose, AVC, céphalées",
+    "Syndrome des antiphospholipides : thromboses, fausses couches répétées, prééclampsie"
    ],
    "diagnostic": [
-    "NFS (cytopénies), protéinurie, créatinine",
-    "Anticorps antinucléaires et anti-ADN si disponibles",
-    "Éliminer VIH, tuberculose, syphilis"
+    "NFS (anémie hémolytique, leucopénie, lymphopénie, thrombopénie), VS (élevée), CRP (souvent normale ; élevée en cas d'infection)",
+    "Bandelette urinaire et protéinurie (rapport protéines/créatinine), sédiment urinaire, créatinine à chaque visite",
+    "Anticorps antinucléaires (dépistage), anti-ADN natif, complément (C3, C4 abaissés lors des poussées), anticorps antiphospholipides si disponibles",
+    "Biopsie rénale si protéinurie > 0,5 g par jour",
+    "Éliminer : VIH, tuberculose, syphilis, hépatites, paludisme, lymphome ; un lupus induit par des médicaments (isoniazide, hydralazine)"
    ],
    "traitement": [
-    "Hydroxychloroquine pour tous les patients (sauf contre-indication)",
-    "Protection solaire stricte",
-    "Poussées : prednisolone (dose selon la gravité)",
-    "Atteinte rénale ou neurologique : immunosuppresseurs en milieu spécialisé",
-    "Contraception sans œstrogènes si anticorps antiphospholipides ; grossesse programmée en période calme"
+    "Hydroxychloroquine pour tous les patients, au long cours : 200 à 400 mg par jour (maximum 5 mg/kg par jour), y compris pendant la grossesse ; examen ophtalmologique de référence puis annuel après 5 ans",
+    "Protection solaire stricte (vêtements couvrants, chapeau, écran solaire à large spectre), arrêt du tabac",
+    "Formes cutanées et articulaires : hydroxychloroquine, AINS de courte durée, prednisolone à faible dose (≤ 7,5 mg par jour), méthotrexate si nécessaire",
+    "Poussée sévère (rein, cerveau, sang) : méthylprednisolone 500 à 1 000 mg IV par jour pendant 3 jours, puis prednisolone 0,5 à 1 mg/kg par jour avec décroissance progressive, en milieu spécialisé ; néphrite lupique : cyclophosphamide IV (schéma Euro-Lupus : 500 mg toutes les 2 semaines, 6 doses) ou mycophénolate, puis azathioprine ou mycophénolate en entretien ; énalapril ou losartan en cas de protéinurie, contrôle strict de la PA (< 130/80)",
+    "Thrombopénie sévère : corticoïdes, immunoglobulines IV si saignement",
+    "Corticoïdes : la plus faible dose possible, avec calcium et vitamine D, protection gastrique si nécessaire ; dépistage et traitement de la tuberculose latente et des parasites (ivermectine contre l'anguillulose avant les fortes doses)",
+    "Syndrome des antiphospholipides avec thrombose : anticoagulation par AVK au long cours ; grossesse : aspirine à faible dose et héparine",
+    "Contraception : pas d'œstrogènes en cas d'antiphospholipides ou de lupus actif (DIU, progestatifs) ; grossesse programmée après 6 mois de maladie calme, suivie en grossesse à risque",
+    "Vaccinations (pneumocoque, grippe), pas de vaccins vivants sous immunosuppresseurs"
    ],
    "gravite": [
-    "Atteinte rénale, neurologique, cytopénies sévères",
-    "Infections sous corticoïdes"
+    "Atteinte rénale (œdèmes, protéinurie, HTA, créatinine qui monte)",
+    "Convulsions, psychose, AVC",
+    "Anémie hémolytique ou thrombopénie sévère avec saignements",
+    "Péricardite avec tamponnade",
+    "Infection sous corticoïdes ou immunosuppresseurs (cause majeure de décès)",
+    "Grossesse (poussée, prééclampsie, lupus néonatal)"
    ],
    "prevention": [
-    "Protection solaire, observance de l'hydroxychloroquine"
+    "Protection solaire, observance de l'hydroxychloroquine, suivi régulier (urines, PA, NFS)",
+    "Prévention des infections (vaccins, dépistage de la tuberculose)",
+    "Planification des grossesses"
    ],
    "medicaments": [
     "Hydroxychloroquine",
     "Prednisolone",
+    "Méthylprednisolone",
     "Écran solaire (protection solaire à large spectre)",
     "Énalapril",
+    "Losartan",
     "Azathioprine",
     "Cyclophosphamide",
-    "Méthylprednisolone"
+    "Méthotrexate",
+    "Immunoglobulines humaines normales (IgIV)",
+    "Ivermectine",
+    "Carbonate de calcium",
+    "Vitamine D (ergocalciférol / cholécalciférol)"
    ]
   },
   {
@@ -46075,28 +46181,38 @@
    "nom": "Hygiène hospitalière et désinfection (préparation des solutions chlorées)",
    "categorie": "prevention",
    "synonymes": "hygiène, désinfection, solution chlorée, eau de Javel, prévention des infections, PCI, choléra, Ebola",
-   "resume": "Prévention et contrôle des infections (PCI) : protéger patients et soignants, en particulier pendant les épidémies (choléra, Ebola, mpox, rougeole) et en néonatologie.",
+   "resume": "Prévention et contrôle des infections (PCI) : ensemble de mesures qui protègent les patients, les soignants et les visiteurs contre la transmission des infections dans les structures de santé, en particulier pendant les épidémies (choléra, Ebola, Marburg, mpox, rougeole) et en néonatologie, maternité et bloc opératoire. Les précautions standard s'appliquent à tous les patients ; des précautions complémentaires (contact, gouttelettes, air) s'ajoutent selon la maladie. La préparation correcte des solutions chlorées est une compétence clé en RDC.",
    "signes": [
-    "Situations à risque : épidémies, salles de néonatologie, blocs opératoires, centres de traitement du choléra, soins avec sang ou liquides biologiques"
+    "Situations à risque : épidémies, néonatologie, maternité, blocs opératoires, centres de traitement du choléra ou d'Ebola, dialyse, soins avec sang ou liquides biologiques, patients porteurs de bactéries multirésistantes",
+    "Signes d'alerte : infections groupées dans un service, sepsis néonatals répétés, infections du site opératoire nombreuses, soignants infectés"
    ],
    "diagnostic": [
-    "Évaluer : disponibilité de l'eau, du savon, de la solution hydro-alcoolique, des gants, de la gestion des déchets et des objets piquants ; triage des patients contagieux"
+    "Évaluation régulière (outils OMS) : disponibilité de l'eau, du savon, de la solution hydroalcoolique, des gants et équipements de protection, des boîtes de sécurité ; gestion des déchets ; stérilisation ; respect de l'hygiène des mains (audits d'observance)",
+    "Triage et isolement à l'entrée des patients contagieux (fièvre, éruption, diarrhée, toux)",
+    "Comité et point focal PCI, surveillance des infections associées aux soins"
    ],
    "traitement": [
-    "Hygiène des mains aux 5 moments (solution hydro-alcoolique ou eau et savon)",
-    "Préparation des solutions chlorées à partir de HTH 70 % : 0,5 % = 7,5 g par litre (surfaces, excreta, linge, corps) ; 0,05 % = 0,75 g par litre ou 1 volume de 0,5 % + 9 volumes d'eau (mains, peau) ; eau de Javel 5 % : 1 volume + 9 volumes d'eau = 0,5 %",
-    "Préparer chaque jour, récipients étiquetés, nettoyer avant de désinfecter",
-    "Équipements de protection selon le risque",
-    "Stérilisation du matériel (autoclave), désinfection de haut niveau (glutaraldéhyde)",
-    "Gestion des déchets (boîtes à aiguilles, incinération)",
-    "Isolement des patients contagieux"
+    "Hygiène des mains aux 5 moments : avant de toucher un patient, avant un geste aseptique, après un risque d'exposition à un liquide biologique, après avoir touché un patient, après avoir touché son environnement ; friction hydroalcoolique 20 à 30 s (mains non souillées visiblement) ou lavage à l'eau et au savon 40 à 60 s ; ongles courts, pas de bijoux",
+    "Précautions standard : gants pour le contact avec les liquides biologiques (changer entre patients, ne remplacent pas l'hygiène des mains), tablier ou blouse, masque et lunettes en cas de risque de projection, hygiène respiratoire, gestion sûre des objets piquants, nettoyage de l'environnement, sécurité des injections",
+    "Précautions complémentaires : contact (choléra, BMR, gale), gouttelettes (méningite, grippe, diphtérie : masque chirurgical), air (tuberculose, rougeole : masque FFP2/N95, pièce ventilée), fièvres hémorragiques (EPI complet, zone à risque, circuits)",
+    "Préparation des solutions chlorées à partir d'HTH 70 % : 0,5 % = 7,5 g par litre d'eau (environ une demi-cuillère à soupe ; surfaces, excreta, linge souillé, corps, EPI) ; 0,05 % = 0,75 g par litre, ou 1 volume de solution à 0,5 % + 9 volumes d'eau (mains, peau, vaisselle) ; eau de Javel à 5 % : 1 volume + 9 volumes d'eau = 0,5 % ; NaDCC selon la notice (comprimés) ; formule générale : volume de produit = (concentration voulue ÷ concentration du produit) × volume total",
+    "Préparer chaque jour avec de l'eau propre et froide, dans des récipients en plastique fermés, étiquetés et à l'abri de la lumière ; ne pas mélanger avec du savon ou des acides ; nettoyer avant de désinfecter (la matière organique inactive le chlore) ; temps de contact d'au moins 10 min",
+    "Traitement du matériel : décontamination, nettoyage, puis stérilisation à l'autoclave (121 °C 20 à 30 min ou 134 °C 18 min) ou désinfection de haut niveau (glutaraldéhyde 2 %, ébullition 20 min) ; contrôle par indicateurs",
+    "Gestion des déchets : tri à la source par code couleur (piquants dans les boîtes de sécurité remplies aux trois quarts, déchets infectieux, déchets ordinaires), incinération ou fosse protégée ; placentas dans une fosse dédiée",
+    "Antisepsie : chlorhexidine alcoolique 2 % ou polyvidone iodée 10 % avant les gestes invasifs ; chlorhexidine 7,1 % (4 %) pour les soins du cordon là où la mortalité néonatale est élevée selon les directives nationales",
+    "Vaccination des soignants (hépatite B, grippe, Ebola en zone d'épidémie, rougeole)"
    ],
    "gravite": [
-    "Infections associées aux soins groupées",
-    "Soignant exposé au sang (voir AES)"
+    "Infections associées aux soins groupées (épidémie) : enquête et mesures renforcées",
+    "Soignant exposé au sang (voir la fiche AES)",
+    "Cas suspect de fièvre hémorragique non isolé",
+    "Rupture d'approvisionnement en eau, en savon ou en solution hydroalcoolique"
    ],
    "prevention": [
-    "Formation, audits réguliers, approvisionnement en eau et en consommables"
+    "Formation initiale et continue de tout le personnel (y compris nettoyeurs et brancardiers), audits réguliers avec retour d'information",
+    "Approvisionnement fiable en eau, savon, solution hydroalcoolique (production locale possible selon la formule OMS), équipements de protection",
+    "Infrastructures : points d'eau, latrines, ventilation, espaces d'isolement",
+    "Culture de sécurité et responsabilisation de la direction"
    ],
    "medicaments": [
     "Composés chlorés (HTH, NaDCC, eau de Javel)",
@@ -46105,7 +46221,8 @@
     "Chlorhexidine",
     "Polyvidone iodée 10 %",
     "Glutaraldéhyde 2 %",
-    "Chloroxylénol"
+    "Chloroxylénol",
+    "Vaccin hépatite B"
    ]
   },
   {
