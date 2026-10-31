@@ -1,5 +1,5 @@
 {
- "version": 38,
+ "version": 39,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -36378,43 +36378,61 @@
    "nom": "Morsure de serpent",
    "categorie": "intoxications",
    "synonymes": "morsure de serpent, envenimation, vipère, cobra, mamba",
-   "resume": "Morsure pouvant entraîner une envenimation : troubles de la coagulation (vipéridés), paralysie (élapidés : cobras, mambas) ou nécrose locale.",
+   "resume": "Morsure pouvant entraîner une envenimation. En RDC : vipéridés (vipère heurtante Bitis arietans, vipère du Gabon, Echis au nord) responsables d'œdème, de nécrose et de troubles de la coagulation ; élapidés (cobras, dont les cobras cracheurs, et mambas) responsables de paralysies et, pour les cobras cracheurs, de nécroses et d'atteintes oculaires ; boomslang (troubles de la coagulation retardés). Le sérum antivenimeux est le seul traitement spécifique ; les gestes traditionnels (garrot, incision, succion, pierre noire) aggravent.",
    "signes": [
-    "Traces de crochets, douleur, œdème local",
-    "Saignements (gencives, points de ponction), sang incoagulable",
-    "Ptosis, troubles de la déglutition, paralysie respiratoire",
-    "Nécrose, phlyctènes"
+    "Traces de crochets, douleur, œdème local qui s'étend, ecchymoses, ganglions douloureux",
+    "Syndrome cytotoxique : œdème important, phlyctènes, nécrose (vipères, cobras cracheurs)",
+    "Syndrome hémorragique : saignement des gencives, du nez, des points de piqûre et de la morsure, hématurie, vomissements de sang, sang incoagulable (vipères, boomslang)",
+    "Syndrome neurotoxique (cobras, mambas) : paupières qui tombent (ptosis), vision double, difficultés à avaler et à parler, salivation, paralysie des membres et des muscles respiratoires ; parfois en moins d'une heure",
+    "Venin craché dans les yeux : douleur, rougeur, larmoiement, risque de lésion de la cornée",
+    "Choc, vomissements, douleurs abdominales, insuffisance rénale"
    ],
    "diagnostic": [
-    "Test de coagulation sur tube sec (20 min), à répéter",
-    "Surveillance au moins 24 h (signes parfois retardés)"
+    "Identifier le serpent si possible (photo, description ; ne pas chercher à le capturer)",
+    "Test de coagulation sur tube sec (TCST20) : 2 ml de sang dans un tube en verre sec et propre, laissé 20 min puis incliné ; sang liquide = coagulopathie ; à l'arrivée puis toutes les 6 h pendant 24 h",
+    "Surveillance d'au moins 24 h (signes parfois retardés) : extension de l'œdème (mesurer le périmètre et marquer la limite toutes les heures), saignements, ptosis, déglutition, respiration, PA, diurèse",
+    "NFS (plaquettes), créatinine, urines (sang) si disponibles"
    ],
    "traitement": [
-    "Rassurer, immobiliser le membre, retirer bagues et bracelets",
-    "Pas de garrot, d'incision, de succion ni de remèdes traditionnels sur la plaie",
-    "Sérum antivenimeux si signes d'envenimation (même dose chez l'enfant), adrénaline prête",
-    "Paralysie : ventilation assistée, néostigmine + atropine selon le protocole",
-    "Antalgique (paracétamol, morphine ; pas d'aspirine ni d'AINS)",
-    "Prévention du tétanos",
-    "Antibiotique seulement si infection",
-    "Test de coagulation sur tube sec (TCST20) à l'arrivée puis toutes les 6 h ; nouvelle dose de sérum si le sang reste incoagulable"
+    "Premiers secours : rassurer, allonger le patient, immobiliser le membre mordu (attelle), retirer bagues et bracelets, transporter rapidement vers une structure de soins",
+    "Pas de garrot, d'incision, de succion, de glace, de choc électrique ni de remèdes traditionnels sur la plaie",
+    "Sérum antivenimeux polyvalent adapté à l'Afrique si signes d'envenimation : sang incoagulable (TCST20), saignements spontanés, signes neurotoxiques, choc, œdème atteignant plus de la moitié du membre ou progressant rapidement, morsure d'un doigt avec œdème ; dose initiale selon le fabricant (souvent 10 flacons), la même chez l'enfant et l'adulte, en perfusion IV lente (30 à 60 min) ou injection IV lente ; adrénaline prête",
+    "Réaction allergique au sérum (urticaire, bronchospasme, hypotension) : arrêter, adrénaline 0,5 mg IM (enfant 0,01 mg/kg), puis reprendre lentement",
+    "Répéter la dose si le sang reste incoagulable 6 h après, si les saignements persistent ou si les signes neurotoxiques s'aggravent 1 à 2 h après",
+    "Paralysie : ventilation au ballon puis intubation et ventilation si nécessaire (des heures à quelques jours) ; épreuve de néostigmine (0,5 à 2,5 mg IV chez l'adulte, 0,04 mg/kg chez l'enfant) précédée d'atropine (0,6 mg ; enfant 0,02 mg/kg), efficace surtout pour les cobras",
+    "Venin dans les yeux : rinçage abondant à l'eau pendant 15 à 20 min, collyre antibiotique, pas de sérum en collyre, avis ophtalmologique",
+    "Antalgique : paracétamol, morphine ; pas d'aspirine, d'AINS ni d'injection IM",
+    "Prévention du tétanos ; antibiotique seulement si infection ou nécrose",
+    "Nécrose : débridement chirurgical après correction de la coagulopathie ; aponévrotomie seulement si syndrome des loges prouvé (rare)",
+    "Plasma frais ou sang seulement si hémorragie grave persistante après le sérum",
+    "Surveiller la fonction rénale"
    ],
    "gravite": [
-    "Sang incoagulable, saignements",
-    "Paralysie, détresse respiratoire",
-    "Œdème extensif, syndrome des loges, choc"
+    "Sang incoagulable, saignements (cerveau, tube digestif)",
+    "Ptosis, troubles de la déglutition, paralysie, détresse respiratoire",
+    "Œdème extensif, nécrose, choc",
+    "Insuffisance rénale",
+    "Enfant (dose de venin plus forte par kg)"
    ],
    "prevention": [
-    "Port de chaussures fermées, lampe la nuit"
+    "Port de chaussures fermées et de pantalons longs dans les champs et la brousse, lampe la nuit",
+    "Ne pas mettre la main dans les trous, terriers ou tas de bois",
+    "Dormir sous moustiquaire sur un lit surélevé",
+    "Débroussailler autour des maisons, stocker les récoltes à l'écart (rongeurs)",
+    "Disponibilité du sérum antivenimeux dans les hôpitaux de district"
    ],
    "medicaments": [
     "Sérum antivenimeux polyvalent (Afrique)",
     "Adrénaline (épinéphrine)",
+    "Néostigmine",
+    "Atropine",
     "Paracétamol",
     "Morphine",
-    "Atropine",
     "Vaccin antitétanique (Td / VAT)",
-    "Plasma frais congelé (PFC)"
+    "Immunoglobuline humaine antitétanique",
+    "Plasma frais congelé (PFC)",
+    "Oxygène",
+    "Ringer lactate"
    ]
   },
   {
@@ -36422,40 +36440,58 @@
    "nom": "Intoxications (conduite générale)",
    "categorie": "intoxications",
    "synonymes": "intoxication, empoisonnement, surdosage, ingestion, pesticide",
-   "resume": "Ingestion accidentelle ou volontaire de médicaments ou de toxiques (pesticides, pétrole, caustiques, plantes).",
+   "resume": "Exposition accidentelle (jeune enfant : médicaments, pétrole lampant, produits ménagers) ou volontaire (adolescent, adulte : pesticides, médicaments, raticides) à un toxique, ou intoxication par des remèdes traditionnels, de l'alcool frelaté, des fumées ou des produits miniers. La prise en charge repose d'abord sur les fonctions vitales, puis sur l'identification du toxique, la décontamination raisonnée et l'antidote s'il existe. Toute intoxication volontaire impose une évaluation du risque suicidaire.",
    "signes": [
-    "Variables selon le toxique : troubles de conscience, convulsions",
-    "Myosis, hypersécrétion, bradycardie, fasciculations (organophosphorés)",
-    "Dépression respiratoire (opioïdes, benzodiazépines)",
-    "Hépatite retardée (paracétamol)"
+    "Variables selon le toxique ; reconnaître les grands syndromes : cholinergique (petites pupilles, salivation, sueurs, sécrétions bronchiques, diarrhée, bradycardie, fasciculations : organophosphorés, carbamates) ; opioïde (coma, petites pupilles, respiration lente) ; sédatif (benzodiazépines, phénobarbital, alcool : coma calme, respiration diminuée) ; anticholinergique (pupilles dilatées, peau sèche et chaude, rétention urinaire, agitation, hallucinations : antihistaminiques, datura, antidépresseurs) ; sympathomimétique (agitation, tachycardie, HTA, sueurs : cocaïne, amphétamines)",
+    "Troubles de conscience, convulsions, troubles du rythme, hypoglycémie",
+    "Hépatite retardée (paracétamol, champignons) ; acidose (méthanol, salicylés, cyanure) ; méthémoglobinémie (cyanose grise)"
    ],
    "diagnostic": [
-    "Identifier le produit, la quantité, l'heure (emballage)",
-    "Glycémie, état de conscience, fonctions vitales"
+    "Identifier le produit, la quantité, l'heure, la voie (emballage, flacon, témoins) ; plusieurs produits possibles",
+    "Fonctions vitales, glycémie capillaire, température, pupilles, conscience (Glasgow), SpO₂",
+    "ECG (QRS larges : antidépresseurs tricycliques, chloroquine ; QT long)",
+    "Biologie selon le toxique : paracétamolémie à 4 h, ionogramme, créatinine, transaminases, bicarbonates",
+    "Ne pas oublier : traumatisme associé, hypothermie, intoxication chez plusieurs personnes (monoxyde de carbone, alcool frelaté, aliment)"
    ],
    "traitement": [
-    "Libérer les voies aériennes, oxygène, position latérale",
-    "Ne pas faire vomir",
-    "Charbon activé si ingestion récente (< 1 h) d'un produit adsorbable et patient conscient",
-    "Antidotes : atropine (organophosphorés), naloxone (opioïdes), N-acétylcystéine (paracétamol), pyridoxine (isoniazide), glucose (hypoglycémiants)",
-    "Pétrole, caustiques : ni charbon ni vomissements",
-    "Après une intoxication volontaire : évaluation psychologique"
+    "Libérer les voies aériennes, oxygène, position latérale de sécurité, voie veineuse ; corriger l'hypoglycémie (glucose ; thiamine avant chez l'alcoolique) ; traiter les convulsions (diazépam)",
+    "Ne pas faire vomir ; pas de lait ni d'huile",
+    "Charbon activé 1 g/kg (maximum 50 g) si ingestion de moins de 1 h (parfois plus) d'un produit adsorbable, chez un patient conscient ou aux voies aériennes protégées ; inefficace et contre-indiqué pour : alcools, fer, lithium, métaux, pétrole et hydrocarbures, caustiques ; doses répétées (0,5 g/kg toutes les 4 h) pour carbamazépine, phénobarbital, dapsone, quinine",
+    "Antidotes principaux : paracétamol : N-acétylcystéine IV (150 mg/kg en 1 h, puis 50 mg/kg en 4 h, puis 100 mg/kg en 16 h) ; opioïdes : naloxone 0,4 mg IV à répéter (enfant 0,01 mg/kg) ; organophosphorés : atropine ; isoniazide : pyridoxine (1 g par g ingéré, 5 g si inconnu) ; sulfamides hypoglycémiants et insuline : glucose ; méthémoglobinémie : bleu de méthylène ; cyanure : hydroxocobalamine ou nitrite + thiosulfate ; méthanol : fomépizole ou éthanol ; fer : déféroxamine ; plomb : chélateurs ; warfarine et raticides anticoagulants : vitamine K1 (traitement prolongé pour les raticides) ; héparine : protamine ; bêtabloquants : glucagon ; antidépresseurs tricycliques : bicarbonate de sodium si QRS > 100 ms ; chloroquine : diazépam à forte dose, adrénaline ; monoxyde de carbone : oxygène pur",
+    "Pétrole et hydrocarbures : pas de charbon ni de vomissements ; surveillance 6 h, radiographie si toux ou essoufflement (pneumopathie d'inhalation), oxygène",
+    "Caustiques (acides, soude, eau de Javel concentrée) : pas de vomissements ni de neutralisation ; rincer la bouche ; endoscopie dans les 12 à 24 h si signes ; surveiller les voies aériennes",
+    "Surveillance d'au moins 6 h (plus pour les produits à libération prolongée ou à effet retardé)",
+    "Après une intoxication volontaire : évaluation du risque suicidaire avant la sortie, soutien psychologique, retrait des moyens (pesticides, médicaments)"
    ],
    "gravite": [
     "Coma, convulsions, détresse respiratoire",
-    "Ingestion de caustiques (brûlures, douleur rétrosternale)",
-    "Intoxication volontaire"
+    "Troubles du rythme, choc",
+    "Ingestion de caustiques (brûlures de la bouche, salivation, douleur rétrosternale, vomissements de sang)",
+    "Intoxication volontaire (risque de récidive)",
+    "Plusieurs victimes (alerte)"
    ],
    "prevention": [
-    "Rangement des médicaments et produits hors de portée des enfants ; ne pas stocker de pétrole dans des bouteilles de boisson"
+    "Rangement des médicaments et produits toxiques hors de portée des enfants, dans leurs emballages d'origine",
+    "Ne jamais stocker de pétrole ou de produits chimiques dans des bouteilles de boisson",
+    "Restriction de l'accès aux pesticides très toxiques, stockage sécurisé",
+    "Prévention du suicide",
+    "Ne pas utiliser de brasero dans une pièce fermée"
    ],
    "medicaments": [
     "Charbon activé",
     "N-acétylcystéine",
-    "Atropine",
     "Naloxone",
+    "Atropine",
     "Pyridoxine (vitamine B6)",
     "Glucose 10 %",
+    "Thiamine (vitamine B1)",
+    "Bleu de méthylène",
+    "Fomépizole",
+    "Déféroxamine",
+    "Vitamine K1 (phytoménadione)",
+    "Sulfate de protamine",
+    "Glucagon",
+    "Bicarbonate de sodium 8,4 % / 4,2 %",
     "Diazépam",
     "Oxygène"
    ]
@@ -37272,28 +37308,38 @@
    "nom": "Prise en charge de la douleur",
    "categorie": "chirurgie",
    "synonymes": "douleur, antalgie, mal, analgésie",
-   "resume": "La douleur doit être évaluée et traitée systématiquement, chez l'adulte comme chez l'enfant. Approche par paliers de l'OMS.",
+   "resume": "La douleur doit être recherchée, évaluée et traitée systématiquement, chez l'adulte comme chez l'enfant et le nouveau-né (qui ressentent la douleur). Elle est souvent sous-traitée, notamment par manque d'accès aux opioïdes. L'approche associe traitement de la cause, médicaments adaptés à l'intensité et au type de douleur (nociceptive ou neuropathique), anesthésie locale et méthodes non médicamenteuses, avec réévaluation régulière.",
    "signes": [
-    "Évaluer avec une échelle : EVA ou échelle numérique (0–10) chez l'adulte, échelle des visages ou FLACC chez l'enfant",
-    "Rechercher le type : nociceptive (lésion), neuropathique (brûlures, décharges électriques)"
+    "Évaluer avec une échelle adaptée : échelle numérique (0 à 10) ou visuelle analogique chez l'adulte et l'enfant de plus de 8 ans ; échelle des visages dès 4 ans ; FLACC ou EVENDOL chez le jeune enfant ou le patient qui ne peut pas s'exprimer ; échelles néonatales chez le nouveau-né",
+    "Signes comportementaux : pleurs, grimaces, immobilité, protection de la zone, agitation, troubles du sommeil, refus de manger",
+    "Type de douleur : nociceptive (lésion, inflammation : traumatisme, chirurgie, infection) ; neuropathique (brûlures, décharges électriques, fourmillements : zona, VIH, diabète, lèpre, cancer) ; mixte"
    ],
    "diagnostic": [
-    "Réévaluer régulièrement l'intensité et l'efficacité du traitement"
+    "Rechercher et traiter la cause de la douleur",
+    "Évaluer l'intensité avant et après chaque traitement (30 à 60 min après)",
+    "Antécédents : insuffisance rénale ou hépatique, ulcère, asthme, grossesse, sujet âgé, dépendance aux opioïdes"
    ],
    "traitement": [
-    "Douleur légère (palier 1) : paracétamol ± ibuprofène",
-    "Douleur modérée (palier 2) : ajouter tramadol (ou codéine chez l'adulte)",
-    "Douleur intense (palier 3) : morphine orale ou IV titrée ; pour les soins douloureux : kétamine",
-    "Douleur neuropathique : amitriptyline",
-    "Prévenir la constipation sous opioïdes (lactulose)",
-    "Méthodes non médicamenteuses : immobilisation, froid, présence des parents, allaitement chez le nourrisson"
+    "Douleur légère : paracétamol 15 mg/kg toutes les 6 h (adulte 1 g toutes les 6 h ; maximum 4 g par jour, 3 g si poids < 50 kg, dénutrition ou alcoolisme) ± ibuprofène 10 mg/kg toutes les 8 h (adulte 400 mg 3 fois par jour)",
+    "Douleur modérée : ajouter tramadol 1 à 2 mg/kg (adulte 50 à 100 mg) toutes les 6 h, maximum 400 mg par jour ; codéine possible chez l'adulte, contre-indiquée avant 12 ans et pendant l'allaitement",
+    "Douleur intense : morphine ; orale : adulte 5 à 10 mg toutes les 4 h (2,5 à 5 mg chez le sujet âgé), enfant 0,2 à 0,4 mg/kg toutes les 4 h ; IV : 0,1 mg/kg titrée (adulte 2 à 3 mg toutes les 5 à 10 min jusqu'au soulagement) ; douleurs persistantes : doses régulières à heures fixes + doses de secours (1/6 de la dose quotidienne) ; augmenter de 30 à 50 % si besoin",
+    "Toujours associer un laxatif à la morphine (séné, lactulose) ; antiémétique au début si nausées ; surveiller la vigilance et la FR",
+    "Surdosage en opioïdes (somnolence, FR < 10/min, petites pupilles) : stimuler, oxygène, naloxone 0,04 à 0,1 mg IV titrée chez le patient traité au long cours (pour ne pas annuler l'antalgie), 0,4 mg en cas d'intoxication",
+    "Soins douloureux : kétamine 0,15 à 0,3 mg/kg IV (analgésie) ou 1 à 2 mg/kg IV (sédation ; 4 à 5 mg/kg IM) avec surveillance ; protoxyde d'azote ; anesthésie locale (lidocaïne) et blocs nerveux (bloc fémoral pour la fracture du fémur)",
+    "Douleur neuropathique : amitriptyline 10 à 25 mg le soir, augmentée jusqu'à 75 mg ; carbamazépine (névralgie du trijumeau)",
+    "Nouveau-né et nourrisson : allaitement, peau à peau ou solution sucrée pendant les gestes ; paracétamol",
+    "Méthodes non médicamenteuses : immobilisation (attelle), froid ou chaleur, position confortable, présence des parents, distraction, explication et réassurance",
+    "Insuffisance rénale : éviter les AINS, réduire les doses de morphine ; grossesse : paracétamol (pas d'AINS au 3e trimestre) ; sujet âgé : doses réduites"
    ],
    "gravite": [
-    "Douleur non contrôlée malgré le palier 3",
-    "Signes de surdosage en opioïdes (somnolence, FR basse) → naloxone"
+    "Douleur non contrôlée malgré la morphine (rechercher une complication, une douleur neuropathique)",
+    "Signes de surdosage en opioïdes (somnolence, FR basse) : naloxone",
+    "Saignement digestif ou insuffisance rénale sous AINS"
    ],
    "prevention": [
-    "Analgésie préventive avant les gestes douloureux"
+    "Analgésie préventive avant les gestes douloureux (ponctions, pansements, sutures, réductions)",
+    "Évaluation de la douleur à chaque visite et après chaque soin",
+    "Disponibilité de la morphine orale dans les structures (soins palliatifs)"
    ],
    "medicaments": [
     "Paracétamol",
@@ -37302,14 +37348,18 @@
     "Tramadol",
     "Codéine",
     "Morphine",
-    "Kétamine",
-    "Amitriptyline",
-    "Lactulose",
-    "Naloxone",
-    "Lidocaïne (lignocaïne)",
     "Fentanyl",
+    "Méthadone",
+    "Kétamine",
     "Protoxyde d'azote (N₂O)",
-    "Méthadone"
+    "Lidocaïne (lignocaïne)",
+    "Bupivacaïne hyperbare 0,5 %",
+    "Amitriptyline",
+    "Carbamazépine",
+    "Lactulose",
+    "Séné (sennosides)",
+    "Métoclopramide",
+    "Naloxone"
    ]
   },
   {
@@ -37317,42 +37367,58 @@
    "nom": "Plaies et soins des plaies",
    "categorie": "chirurgie",
    "synonymes": "plaie, coupure, blessure, suture, morsure, lacération",
-   "resume": "Lésion de la peau et des tissus sous-jacents. Objectifs : cicatrisation sans infection, prévention du tétanos.",
+   "resume": "Lésion de la peau et des tissus sous-jacents (coupure, lacération, écrasement, morsure, plaie par arme blanche ou à feu). Objectifs : arrêter le saignement, éviter l'infection et le tétanos, obtenir une cicatrisation fonctionnelle et esthétique. Le lavage abondant et le parage sont plus importants que les antibiotiques ; une plaie souillée ou ancienne ne doit pas être fermée d'emblée. Sur peau noire, le risque de chéloïde est plus élevé.",
    "signes": [
-    "Plaie propre ou souillée, récente ou ancienne (> 6 h)",
-    "Rechercher : atteinte des tendons, nerfs, vaisseaux, corps étranger",
-    "Signes d'infection : rougeur, chaleur, pus, fièvre"
+    "Plaie propre ou souillée (terre, excréments, morsure), récente ou ancienne (plus de 6 h, 24 h au visage)",
+    "Rechercher : atteinte des tendons (mouvement impossible), des nerfs (perte de sensibilité, de force), des vaisseaux (saignement pulsatile, pouls absent), d'une articulation, corps étranger",
+    "Signes d'infection : rougeur qui s'étend, chaleur, gonflement, douleur croissante, pus, mauvaise odeur, fièvre, lymphangite",
+    "Plaies à haut risque : morsures, perforations profondes, écrasements, souillures importantes, mains et pieds, plaie ancienne, diabète ou immunodépression"
    ],
    "diagnostic": [
-    "Examen sous bon éclairage, après anesthésie locale si besoin",
-    "Statut vaccinal antitétanique"
+    "Examen sous bon éclairage, après anesthésie locale si besoin, et exploration de la profondeur",
+    "Tester la sensibilité et la mobilité en aval avant l'anesthésie",
+    "Radiographie si corps étranger (verre, métal) ou fracture suspectés",
+    "Statut vaccinal antitétanique",
+    "Morsure animale : risque de rage (voir la fiche dédiée) ; morsure humaine (poing contre une dent : articulation)"
    ],
    "traitement": [
-    "Lavage abondant à l'eau et au savon ou au sérum physiologique, antiseptique (polyvidone iodée, chlorhexidine)",
-    "Anesthésie locale (lidocaïne, sans dépasser la dose maximale)",
+    "Hémostase par compression ; garrot seulement si hémorragie massive d'un membre",
+    "Lavage abondant à l'eau propre (l'eau du robinet convient) et au savon ou au sérum physiologique, sous pression ; antiseptique (polyvidone iodée, chlorhexidine) autour de la plaie",
+    "Anesthésie locale à la lidocaïne 1 % (maximum 3 mg/kg sans adrénaline, 7 mg/kg avec adrénaline)",
     "Parage : retirer les tissus morts et les corps étrangers",
-    "Suture primaire si plaie propre et récente (< 6 h, 24 h au visage) ; sinon cicatrisation dirigée ou suture différée",
-    "Morsures : ne pas suturer (sauf visage), antibiotique (amoxicilline-acide clavulanique), prévention de la rage",
-    "Prévention du tétanos selon le statut",
-    "Antibiotique seulement si plaie infectée ou à haut risque"
+    "Suture primaire si plaie propre et récente (moins de 6 h ; 24 h au visage et au cuir chevelu) : fil 5-0 à 6-0 au visage (ablation à 5 jours), 3-0 au cuir chevelu (7 à 10 jours), 3-0 à 4-0 sur le tronc et les membres (10 à 14 jours, plus près des articulations)",
+    "Plaie souillée, ancienne ou infectée : pas de suture ; pansement et cicatrisation dirigée, ou suture différée après 3 à 5 jours si la plaie est propre",
+    "Plaie par arme à feu : parage chirurgical, plaie laissée ouverte, fermeture différée ; antibiotique",
+    "Morsures : lavage prolongé, ne pas suturer (sauf visage, après parage soigneux), antibiotique préventif 3 à 5 jours (amoxicilline + acide clavulanique), prévention de la rage",
+    "Antibiotique seulement si plaie infectée (cloxacilline ou amoxicilline + acide clavulanique) ou à haut risque",
+    "Prévention du tétanos selon le statut vaccinal (vaccin ± immunoglobuline)",
+    "Pansement propre, garder au sec 24 à 48 h, surélever le membre ; antalgiques",
+    "Lésion de tendon, de nerf ou de vaisseau : référence chirurgicale",
+    "Chéloïde : éviter les tensions, injections de corticoïde en milieu spécialisé"
    ],
    "gravite": [
     "Atteinte des tendons, nerfs, vaisseaux, articulations",
-    "Plaie infectée avec fièvre, extension de la rougeur, crépitation",
-    "Plaie par arme à feu"
+    "Plaie infectée avec fièvre, extension de la rougeur, crépitation (gangrène)",
+    "Plaie par arme à feu, plaie pénétrante du thorax ou de l'abdomen",
+    "Saignement non contrôlé"
    ],
    "prevention": [
-    "Vaccination antitétanique à jour"
+    "Vaccination antitétanique à jour (rappels tous les 10 ans)",
+    "Prévention des accidents domestiques et du travail",
+    "Soins rapides des petites plaies"
    ],
    "medicaments": [
     "Polyvidone iodée 10 %",
     "Chlorhexidine",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Lidocaïne (lignocaïne)",
     "Vaccin antitétanique (Td / VAT)",
     "Immunoglobuline humaine antitétanique",
     "Amoxicilline + acide clavulanique",
     "Cloxacilline",
-    "Paracétamol"
+    "Paracétamol",
+    "Ibuprofène",
+    "Vaccin antirabique"
    ]
   },
   {
@@ -37360,33 +37426,48 @@
    "nom": "Abdomen aigu chirurgical",
    "categorie": "chirurgie",
    "synonymes": "appendicite, occlusion, péritonite, ventre dur, douleur abdominale aiguë, perforation",
-   "resume": "Douleur abdominale aiguë nécessitant souvent une chirurgie : appendicite, occlusion, péritonite (perforation typhique, ulcère), grossesse extra-utérine, hernie étranglée.",
+   "resume": "Douleur abdominale aiguë nécessitant souvent une chirurgie urgente. En RDC, les causes fréquentes sont l'appendicite, les péritonites (perforation typhique de l'iléon, ulcère perforé, appendicite perforée), les occlusions (hernie étranglée, brides, volvulus du sigmoïde, invagination chez l'enfant, paquet d'ascaris), la grossesse extra-utérine rompue, l'infection génitale haute compliquée, la torsion d'annexe et les traumatismes. Le retard de prise en charge est la principale cause de décès.",
    "signes": [
-    "Douleur abdominale intense, défense ou contracture (ventre de bois)",
-    "Vomissements, arrêt des matières et des gaz, ballonnement (occlusion)",
-    "Fièvre, altération de l'état général",
-    "Femme en âge de procréer : retard de règles, saignement, malaise (GEU)"
+    "Douleur abdominale intense, d'apparition brutale ou progressive",
+    "Péritonite : défense ou contracture (ventre de bois), douleur à la décompression, fièvre, altération de l'état général, choc",
+    "Appendicite : douleur péri-ombilicale puis de la fosse iliaque droite, nausées, fièvre modérée",
+    "Occlusion : vomissements (bilieux puis fécaloïdes), arrêt des matières et des gaz, ventre ballonné, bruits intestinaux augmentés puis absents",
+    "Hernie étranglée : masse inguinale ou ombilicale douloureuse, irréductible",
+    "Invagination (nourrisson) : crises de pleurs avec pâleur, vomissements, selles « gelée de groseille », boudin palpable",
+    "Femme en âge de procréer : retard de règles, saignement, malaise, douleur de l'épaule (GEU)",
+    "Causes médicales qui simulent : paludisme, crise drépanocytaire, acidocétose, pneumonie de la base, infarctus, pyélonéphrite"
    ],
    "diagnostic": [
-    "Examen de l'abdomen et des orifices herniaires",
+    "Examen de l'abdomen, des orifices herniaires, toucher rectal et vaginal",
     "Test de grossesse chez toute femme en âge de procréer",
-    "Hb, TDR paludisme, radiographie ou échographie si disponibles"
+    "Hémoglobine, NFS, TDR paludisme, glycémie et cétonurie, bandelette urinaire, test drépanocytaire, lipase si disponible",
+    "Radiographie de l'abdomen debout (air sous les coupoles : perforation ; niveaux hydro-aériques : occlusion ; « grain de café » : volvulus) ; échographie (appendice, liquide, GEU, invagination) ; scanner si disponible",
+    "Score d'Alvarado pour l'appendicite (onglet Outils)",
+    "Différentiels médicaux à éliminer avant de conclure (mais ne pas retarder la chirurgie en cas de péritonite ou d'occlusion)"
    ],
    "traitement": [
-    "À jeun, voie veineuse, réhydratation (Ringer lactate)",
-    "Sonde nasogastrique si vomissements ou occlusion",
-    "Antalgiques (ne pas retarder l'antalgie)",
-    "Péritonite : ceftriaxone + métronidazole (ou ampicilline + gentamicine + métronidazole)",
-    "Avis chirurgical urgent ; transfusion si GEU rompue"
+    "À jeun, voie veineuse, réhydratation (Ringer lactate), correction du choc ; sonde gastrique si vomissements ou occlusion ; sonde urinaire (diurèse)",
+    "Antalgiques sans attendre le chirurgien (la morphine ne masque pas le diagnostic)",
+    "Péritonite : ceftriaxone 2 g par jour + métronidazole 500 mg toutes les 8 h (ou ampicilline + gentamicine + métronidazole), débutés avant la chirurgie",
+    "Avis chirurgical urgent : appendicectomie (traitement antibiotique seul possible dans l'appendicite non compliquée de l'adulte si la chirurgie est impossible, avec surveillance), suture d'un ulcère perforé, résection ou iléostomie d'une perforation typhique, levée d'occlusion",
+    "Hernie : tentative de réduction douce sous analgésie si étranglement récent (moins de quelques heures) sans signe de souffrance ; sinon chirurgie urgente",
+    "Volvulus du sigmoïde : détorsion par sonde rectale ou endoscopie si pas de nécrose, puis chirurgie programmée ; nécrose : chirurgie urgente",
+    "Invagination : réduction par lavement sous contrôle échographique ou chirurgie",
+    "GEU rompue : transfusion et laparotomie",
+    "Prévention de la thrombose et réalimentation précoce après l'opération"
    ],
    "gravite": [
-    "Choc, ventre de bois",
+    "Choc, ventre de bois (péritonite)",
     "GEU rompue (choc, hémopéritoine)",
-    "Hernie étranglée",
-    "Occlusion"
+    "Hernie étranglée, occlusion avec vomissements fécaloïdes",
+    "Nourrisson avec selles sanglantes (invagination)",
+    "Sujet âgé (présentation trompeuse)"
    ],
    "prevention": [
-    "Prise en charge précoce de la typhoïde et de l'ulcère"
+    "Prise en charge précoce de la typhoïde et de l'ulcère",
+    "Cure programmée des hernies",
+    "Déparasitage des enfants (ascaris)",
+    "Prévention des IST (infections génitales hautes)"
    ],
    "medicaments": [
     "Ringer lactate",
@@ -37396,7 +37477,9 @@
     "Gentamicine",
     "Morphine",
     "Paracétamol",
-    "Sang total"
+    "Sang total",
+    "Oméprazole",
+    "Énoxaparine"
    ]
   },
   {
@@ -37404,41 +37487,55 @@
    "nom": "Ostéomyélite et arthrite septique",
    "categorie": "chirurgie",
    "synonymes": "ostéomyélite, infection de l'os, arthrite septique, articulation infectée",
-   "resume": "Infection de l'os ou d'une articulation, souvent à staphylocoque (salmonelle chez le drépanocytaire). Fréquente chez l'enfant.",
+   "resume": "Infection de l'os (ostéomyélite) ou d'une articulation (arthrite septique), le plus souvent à staphylocoque doré, à salmonelle chez le drépanocytaire, à Kingella chez le jeune enfant, à gonocoque chez l'adulte jeune sexuellement actif. Fréquente chez l'enfant en Afrique, souvent diagnostiquée tard, elle évolue alors vers l'ostéomyélite chronique avec fistules, séquestres et déformations. L'arthrite septique de la hanche de l'enfant est une urgence chirurgicale.",
    "signes": [
-    "Fièvre, douleur osseuse intense, refus d'utiliser le membre",
-    "Gonflement, chaleur, rougeur",
-    "Arthrite : articulation chaude, gonflée, très douloureuse, mobilité impossible",
-    "Forme chronique : fistule qui coule, séquestre osseux"
+    "Ostéomyélite aiguë (enfant) : fièvre, douleur osseuse intense près d'une articulation (fémur, tibia, humérus), refus d'utiliser le membre ou de marcher (pseudo-paralysie chez le nourrisson), gonflement, chaleur, douleur à la palpation de l'os",
+    "Arthrite septique : articulation chaude, gonflée, très douloureuse, toute mobilisation impossible, fièvre ; hanche du nourrisson : membre en flexion et rotation externe, pleurs au change",
+    "Drépanocytaire : atteintes multiples, difficile à distinguer d'une crise vaso-occlusive",
+    "Arthrite gonococcique : arthrite d'un genou ou d'un poignet avec ténosynovites et pustules cutanées",
+    "Forme chronique : fistule qui coule, séquestre (os mort) qui sort, os épaissi, déformation, fracture pathologique"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; ponction articulaire si possible",
-    "Radiographie (anomalies tardives)",
-    "Rechercher une drépanocytose"
+    "Diagnostic clinique ; ponction articulaire si possible (liquide trouble, plus de 50 000 leucocytes, Gram, culture)",
+    "Hémocultures avant l'antibiotique, NFS, CRP, VS",
+    "Échographie (épanchement articulaire, abcès sous le périoste) ; radiographie (normale les 10 à 14 premiers jours, puis destruction, réaction périostée, séquestre)",
+    "Rechercher une drépanocytose (test), une porte d'entrée cutanée, une IST, un VIH",
+    "Différentiels : crise drépanocytaire, rhumatisme articulaire aigu, tuberculose ostéo-articulaire (évolution lente), tumeur osseuse, leucémie, traumatisme, hémarthrose (hémophilie)"
    ],
    "traitement": [
-    "Antibiotique IV prolongé : cloxacilline (± gentamicine) ou ceftriaxone (drépanocytose) ; relais oral (céfalexine, amoxicilline-acide clavulanique, clindamycine) pour 3 à 6 semaines au total",
-    "Arthrite : drainage articulaire (ponction ou chirurgie)",
-    "Immobilisation antalgique, puis rééducation",
-    "Forme chronique : chirurgie (séquestrectomie)"
+    "Antibiotique IV dès les prélèvements : cloxacilline 50 mg/kg toutes les 6 h (adulte 2 g toutes les 6 h) ; nouveau-né : cloxacilline + gentamicine ou céfotaxime ; drépanocytaire : ceftriaxone 50 à 100 mg/kg par jour (ou ciprofloxacine) + cloxacilline (salmonelle et staphylocoque) ; arthrite gonococcique : ceftriaxone 1 g par jour pendant 7 jours ; staphylocoque résistant : clindamycine",
+    "Relais oral dès l'apyrexie et la baisse de la CRP (souvent après 3 à 7 jours) : céfalexine à forte dose, amoxicilline + acide clavulanique ou clindamycine, pour 3 semaines au total (ostéomyélite aiguë de l'enfant), 2 à 3 semaines (arthrite), 6 semaines ou plus chez l'adulte",
+    "Arthrite septique : drainage articulaire en urgence (ponctions répétées ou arthrotomie) ; hanche de l'enfant : arthrotomie urgente (risque de nécrose de la tête du fémur)",
+    "Abcès sous-périosté : drainage chirurgical",
+    "Immobilisation antalgique courte (attelle), antalgiques (paracétamol, ibuprofène, morphine), puis rééducation précoce",
+    "Forme chronique : chirurgie (séquestrectomie, curetage, ablation des fistules), antibiotiques prolongés (6 semaines à 3 mois) guidés par la culture ; surveiller l'apparition d'un cancer sur fistule ancienne",
+    "Nutrition, traitement de l'anémie"
    ],
    "gravite": [
     "Sepsis, choc",
     "Atteinte de la hanche chez l'enfant (urgence)",
-    "Fracture pathologique"
+    "Atteintes multiples (drépanocytose, nouveau-né)",
+    "Fracture pathologique, troubles de croissance, raideur articulaire",
+    "Retard au traitement (chronicité)"
    ],
    "prevention": [
-    "Traitement précoce des infections cutanées"
+    "Traitement précoce des infections cutanées, des plaies et des fractures ouvertes",
+    "Prise en charge de la drépanocytose (pénicilline, vaccins)",
+    "Asepsie des injections et des gestes"
    ],
    "medicaments": [
     "Cloxacilline",
     "Ceftriaxone",
+    "Céfotaxime",
     "Gentamicine",
+    "Ciprofloxacine",
     "Céfalexine",
     "Amoxicilline + acide clavulanique",
     "Clindamycine",
+    "Vancomycine",
     "Paracétamol",
-    "Ibuprofène"
+    "Ibuprofène",
+    "Morphine"
    ]
   },
   {
@@ -39473,40 +39570,61 @@
    "nom": "Fractures et luxations",
    "categorie": "chirurgie",
    "synonymes": "fracture, os cassé, luxation, entorse, plâtre, fracture ouverte",
-   "resume": "Rupture d'un os ou déboîtement d'une articulation. La fracture ouverte est une urgence infectieuse.",
+   "resume": "Rupture d'un os (fracture) ou déboîtement d'une articulation (luxation), le plus souvent après un accident de la route (moto), une chute ou une agression. La fracture ouverte est une urgence infectieuse ; les atteintes vasculaires, nerveuses et le syndrome des loges menacent le membre. En RDC, les complications des immobilisations traditionnelles trop serrées (gangrène, rétractions ischémiques) sont fréquentes.",
    "signes": [
-    "Douleur, déformation, impotence fonctionnelle, gonflement",
-    "Fracture ouverte : plaie communiquant avec l'os",
-    "Complications : atteinte des vaisseaux ou des nerfs, syndrome des loges (douleur croissante, tension du membre)"
+    "Douleur, déformation, gonflement, ecchymose, impotence fonctionnelle, mobilité anormale, crépitation",
+    "Fracture ouverte : plaie communiquant avec le foyer de fracture (os parfois visible)",
+    "Luxation : articulation déformée, bloquée, très douloureuse (épaule, coude, hanche, doigts, rotule)",
+    "Complications : membre froid, pâle, sans pouls (atteinte artérielle) ; perte de sensibilité ou de force (nerf) ; syndrome des loges : douleur croissante non soulagée, aggravée par l'étirement passif des doigts ou des orteils, membre tendu",
+    "Hémorragie importante : fractures du bassin et du fémur (choc)",
+    "Enfant : fracture supracondylienne du coude (risque vasculaire) ; lésions incompatibles avec le récit (maltraitance)"
    ],
    "diagnostic": [
-    "Examen du pouls, de la couleur, de la sensibilité et de la motricité en aval",
-    "Radiographie si disponible"
+    "Examen du pouls, de la couleur, de la chaleur, du temps de recoloration, de la sensibilité et de la motricité en aval, avant et après tout geste",
+    "Radiographie (face et profil, articulations sus- et sous-jacentes) si disponible",
+    "Classer la fracture ouverte (Gustilo : I plaie < 1 cm propre ; II plaie 1 à 10 cm ; III plaie étendue, écrasement, souillure, atteinte vasculaire)",
+    "Bilan complet du polytraumatisé (voir la fiche dédiée)",
+    "Règles d'Ottawa pour la cheville et le pied (radiographie si douleur osseuse ou incapacité à faire 4 pas)",
+    "Fracture sur un os anormal (pathologique) : cancer, ostéomyélite, drépanocytose"
    ],
    "traitement": [
-    "Antalgie précoce (paracétamol, AINS, morphine)",
-    "Immobiliser (attelle) dans la position trouvée, en incluant les articulations au-dessus et en dessous",
-    "Réduction des luxations dès que possible (sous analgésie)",
-    "Fracture ouverte : antibiotique dans l'heure (céfazoline ou cloxacilline ± gentamicine), antitétanique, parage chirurgical rapide",
-    "Plâtre ou traction selon la fracture ; surveiller la circulation après le plâtre"
+    "Antalgie précoce : paracétamol, AINS (sauf hémorragie, insuffisance rénale), morphine ; bloc nerveux (bloc fémoral pour le fémur) ; kétamine pour les réductions",
+    "Immobiliser rapidement (attelle) en incluant les articulations au-dessus et en dessous ; traction douce dans l'axe pour réaligner un membre très déformé ; surélever le membre ; retirer bagues et bracelets",
+    "Luxations : réduction dès que possible sous analgésie et sédation (épaule : rotation externe progressive ou méthode de Cunningham ; hanche : urgence dans les 6 h, risque de nécrose de la tête), contrôle neurovasculaire et radiographique après ; immobilisation",
+    "Fracture ouverte : antibiotique dans l'heure : céfazoline 2 g IV (enfant 30 mg/kg) toutes les 8 h, + gentamicine 5 mg/kg par jour si type III, + métronidazole ou benzylpénicilline si souillure par la terre ; 24 à 72 h ; prévention du tétanos ; lavage abondant, pansement stérile, parage chirurgical dans les 24 h, fixateur externe si nécessaire",
+    "Plâtre (d'abord une gouttière non circulaire en phase de gonflement) ou traction selon la fracture ; surveiller la circulation après le plâtre (douleur, couleur, sensibilité, mobilité des doigts)",
+    "Syndrome des loges : fendre le plâtre et les bandes jusqu'à la peau ; aponévrotomie en urgence si pas d'amélioration",
+    "Fracture du fémur : traction (attelle de Thomas) ; bassin : ceinture pelvienne",
+    "Fracture de la hanche du sujet âgé : chirurgie, prévention des thromboses (énoxaparine), mobilisation précoce",
+    "Entorses : repos, glace, compression, surélévation, AINS, mobilisation précoce",
+    "Rééducation après immobilisation"
    ],
    "gravite": [
-    "Membre froid, pâle, sans pouls",
+    "Membre froid, pâle, sans pouls : urgence vasculaire",
     "Douleur qui augmente sous plâtre (syndrome des loges : ouvrir le plâtre)",
     "Fracture ouverte",
-    "Fracture du bassin, du fémur (hémorragie)"
+    "Fracture du bassin, du fémur (hémorragie, choc)",
+    "Luxation de la hanche",
+    "Complications d'une immobilisation traditionnelle (gangrène)"
    ],
    "prevention": [
-    "Sécurité routière et domestique"
+    "Sécurité routière (casque, limitation de vitesse), sécurité domestique et au travail",
+    "Prévention des chutes chez les personnes âgées",
+    "Information sur les dangers des bandages traditionnels trop serrés"
    ],
    "medicaments": [
     "Paracétamol",
     "Ibuprofène",
+    "Diclofénac",
     "Morphine",
     "Kétamine",
+    "Lidocaïne (lignocaïne)",
+    "Bupivacaïne hyperbare 0,5 %",
     "Céfazoline",
     "Cloxacilline",
     "Gentamicine",
+    "Métronidazole",
+    "Énoxaparine",
     "Vaccin antitétanique (Td / VAT)",
     "Immunoglobuline humaine antitétanique"
    ]
@@ -40244,33 +40362,46 @@
    "nom": "Konzo et intoxication au manioc",
    "categorie": "intoxications",
    "synonymes": "konzo, manioc, cyanure, paralysie des jambes, paraplégie spastique",
-   "resume": "Paralysie spastique des jambes, d'apparition brutale et irréversible, liée à la consommation de manioc amer mal préparé (cyanure) associée à une alimentation pauvre en protéines. La RDC est le pays le plus touché (Kwango, Kwilu, Bandundu…).",
+   "resume": "Paralysie spastique des jambes, d'apparition brutale et irréversible, liée à la consommation prolongée de manioc amer insuffisamment roui (riche en composés cyanogènes) associée à une alimentation pauvre en protéines (acides aminés soufrés). La RDC est le pays le plus touché au monde (Kwango, Kwilu, Kongo Central, Kasaï, Bandundu…), avec des épidémies en période de sécheresse, de conflit ou de disette, quand le rouissage est raccourci. Le konzo touche surtout les enfants et les femmes en âge de procréer. L'intoxication aiguë au cyanure par le manioc amer est une entité voisine.",
    "signes": [
-    "Konzo : faiblesse brutale et symétrique des jambes, démarche raide (spastique) en quelques heures ou jours, sans fièvre",
-    "Formes graves : atteinte des bras, troubles de la parole et de la vision",
-    "Intoxication aiguë au cyanure : vertiges, vomissements, céphalées, tachycardie, convulsions, coma"
+    "Konzo : faiblesse brutale et symétrique des 2 jambes, installée en quelques heures ou jours, sans fièvre ; démarche raide, sur la pointe des pieds, jambes écartées, puis besoin de bâtons ; l'évolution s'arrête ensuite (non progressive)",
+    "Examen : réflexes vifs aux genoux et aux chevilles, clonus, signe de Babinski ; sensibilité normale",
+    "Formes graves : atteinte des bras, troubles de la parole, de la vision (névrite optique), incapacité de marcher",
+    "Intoxication aiguë au cyanure (repas de manioc amer mal préparé) : vertiges, céphalées, nausées, vomissements, faiblesse, tachycardie, puis convulsions et coma dans les formes graves ; souvent plusieurs membres d'une famille",
+    "Atteinte chronique : neuropathie ataxique tropicale de l'adulte (troubles de la marche, de la vision, de l'audition) ; troubles cognitifs de l'enfant"
    ],
    "diagnostic": [
-    "Diagnostic clinique (critères OMS) ; enquête sur l'alimentation (manioc roui peu de temps, période de disette)",
-    "Éliminer une compression médullaire (mal de Pott), une myélopathie à HTLV-1"
+    "Diagnostic clinique (critères OMS) : anomalie de la marche spastique symétrique visible, début brutal (moins d'une semaine) puis évolution non progressive, réflexes vifs des 2 côtés",
+    "Enquête alimentaire : manioc amer, rouissage raccourci (moins de 3 jours), période de disette, régime pauvre en protéines ; cas groupés dans le village",
+    "Thiocyanates urinaires si disponibles (exposition au cyanure)",
+    "Éliminer : compression de la moelle (mal de Pott, tumeur : troubles sensitifs et sphinctériens, évolution progressive), myélopathie à HTLV-1 (paraparésie spastique tropicale, progressive), lathyrisme, poliomyélite (paralysie flasque), syndrome de Guillain-Barré, infirmité motrice cérébrale, schistosomiase médullaire, carence en vitamine B12"
    ],
    "traitement": [
-    "Konzo : pas de traitement spécifique ; rééducation (kinésithérapie, aides à la marche), nutrition riche en protéines, alimentation diversifiée",
-    "Intoxication aiguë sévère au cyanure : oxygène, soins de support ; antidote à forte dose (hydroxocobalamine 70 mg/kg IV, kit Cyanokit, différent de la vitamine B12 standard) si disponible"
+    "Konzo : pas de traitement spécifique ; rééducation (kinésithérapie, étirements), aides à la marche (bâtons, béquilles), orthèses, chirurgie des rétractions ; nutrition riche en protéines (légumineuses, poisson, viande, œufs), alimentation diversifiée ; soutien de la famille, scolarisation et activité adaptée ; arrêt de la consommation de manioc mal préparé",
+    "Intoxication aiguë au cyanure : retirer l'aliment, oxygène, soins de support (perfusion, glycémie, convulsions : diazépam) ; formes graves (coma, convulsions, acidose) : hydroxocobalamine 70 mg/kg IV (adulte 5 g) si disponible, ou thiosulfate de sodium (adulte 12,5 g IV, enfant 0,5 g/kg) ± nitrite de sodium (voir la fiche Intoxication au cyanure)",
+    "Signalement de tout cas de konzo (alerte épidémique) et intervention communautaire (méthode de mouillage, diversification alimentaire, aide alimentaire)"
    ],
    "gravite": [
     "Intoxication aiguë avec convulsions ou coma",
-    "Plusieurs cas dans une communauté : alerte épidémique"
+    "Atteinte des bras, de la parole et de la vision",
+    "Plusieurs cas dans une communauté : alerte épidémique",
+    "Malnutrition associée"
    ],
    "prevention": [
-    "Méthode de mouillage de la farine de manioc (étaler la farine humidifiée à l'ombre 5 h avant cuisson)",
-    "Rouissage suffisamment long",
-    "Diversification alimentaire, apports protéiques"
+    "Méthode de mouillage de la farine de manioc : humidifier la farine, l'étaler en couche fine à l'ombre pendant 5 h avant la cuisson (élimine la plupart des composés cyanogènes)",
+    "Rouissage suffisamment long (3 jours ou plus), séchage au soleil",
+    "Diversification alimentaire et apports en protéines",
+    "Variétés de manioc doux",
+    "Surveillance et éducation dans les zones touchées"
    ],
    "medicaments": [
     "Oxygène",
     "Diazépam",
-    "Aliment thérapeutique prêt à l'emploi (ATPE)"
+    "Nitrite de sodium + thiosulfate de sodium",
+    "Hydroxocobalamine (vitamine B12)",
+    "Glucose 10 %",
+    "Aliment thérapeutique prêt à l'emploi (ATPE)",
+    "Baclofène"
    ]
   },
   {
@@ -42435,37 +42566,43 @@
    "nom": "Pyomyosite",
    "categorie": "chirurgie",
    "synonymes": "pyomyosite, abcès musculaire, myosite tropicale",
-   "resume": "Abcès dans un gros muscle (cuisse, fesse, mollet), dû au staphylocoque, fréquent en zone tropicale et chez la personne vivant avec le VIH.",
+   "resume": "Abcès dans un gros muscle squelettique (cuisse, fesse, mollet, psoas, épaule), dû au staphylocoque doré dans 90 % des cas, fréquent en zone tropicale (« pyomyosite tropicale ») chez l'enfant et l'adulte jeune, et chez la personne vivant avec le VIH, le diabétique ou le malnutri. Souvent sans porte d'entrée visible ; un diagnostic tardif expose au sepsis.",
    "signes": [
-    "Douleur et gonflement d'un muscle, d'abord dur puis fluctuant",
-    "Fièvre, boiterie",
-    "Pas de porte d'entrée évidente"
+    "Stade d'invasion : douleur et gonflement d'un muscle, dur « en bois », fièvre modérée, peu de signes cutanés",
+    "Stade suppuré (10 à 21 jours) : muscle plus gonflé, très douloureux, parfois fluctuant, fièvre élevée, boiterie",
+    "Stade tardif : sepsis, choc, abcès multiples",
+    "Abcès du psoas : douleur de la hanche ou du flanc, cuisse fléchie, boiterie, fièvre"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; ponction à l'aiguille (pus)",
-    "Échographie si disponible",
-    "Test VIH",
-    "NFS, hémocultures si disponibles"
+    "Diagnostic clinique ; ponction à l'aiguille du muscle (pus : Gram, culture)",
+    "Échographie (collection intramusculaire) si disponible",
+    "Test VIH, glycémie",
+    "NFS, hémocultures si disponibles",
+    "Différentiels : thrombose veineuse profonde, ostéomyélite, arthrite septique, hématome (hémophilie), sarcome, ulcère de Buruli (œdème), abcès tuberculeux du psoas (mal de Pott)"
    ],
    "traitement": [
-    "Incision et drainage chirurgical de l'abcès",
-    "Cloxacilline IV puis orale (ou amoxicilline-acide clavulanique) pendant 10 à 14 jours ; clindamycine si allergie ou SARM",
-    "Antalgiques",
-    "Doses : cloxacilline 50 mg/kg (adulte 2 g) IV toutes les 6 h, relais oral dès la disparition de la fièvre"
+    "Incision et drainage chirurgical de l'abcès (ou drainage échoguidé), avec méchage ; prélèvement pour culture",
+    "Cloxacilline 50 mg/kg (adulte 2 g) IV toutes les 6 h, relais oral (cloxacilline ou amoxicilline + acide clavulanique) dès la disparition de la fièvre, pour 2 à 3 semaines au total ; clindamycine si allergie ou staphylocoque résistant à la méticilline ; ajouter ceftriaxone chez l'immunodéprimé (germes Gram négatif)",
+    "Stade d'invasion sans collection : antibiotique seul, réévaluation et échographie à 48 à 72 h",
+    "Antalgiques, immobilisation courte puis rééducation",
+    "Rechercher et traiter un VIH, un diabète, une malnutrition"
    ],
    "gravite": [
     "Sepsis, choc",
     "Abcès multiples",
     "Atteinte proche d'une articulation",
-    "Arthrite septique de l'articulation voisine"
+    "Arthrite septique de l'articulation voisine",
+    "Abcès du psoas"
    ],
    "prevention": [
-    "Soins des plaies"
+    "Soins des plaies, des piqûres et des traumatismes musculaires",
+    "Traitement du VIH et du diabète"
    ],
    "medicaments": [
     "Cloxacilline",
     "Amoxicilline + acide clavulanique",
     "Clindamycine",
+    "Ceftriaxone",
     "Paracétamol",
     "Morphine"
    ]
@@ -42475,31 +42612,48 @@
    "nom": "Ulcère de jambe",
    "categorie": "chirurgie",
    "synonymes": "ulcère de jambe, plaie chronique, ulcère phagédénique, ulcère tropical",
-   "resume": "Plaie chronique de la jambe : ulcère tropical (phagédénique), drépanocytose, diabète, insuffisance veineuse, Buruli, lèpre, pian.",
+   "resume": "Plaie chronique de la jambe qui ne guérit pas depuis plus de 4 à 6 semaines. En Afrique, les causes sont nombreuses : ulcère tropical phagédénique (enfant et adulte jeune malnutri), drépanocytose (ulcère malléolaire), diabète, insuffisance veineuse, artériopathie, ulcère de Buruli, lèpre (mal perforant plantaire), pian, tuberculose, leishmaniose, sarcome de Kaposi et cancer (ulcère de Marjolin sur cicatrice ancienne). Le traitement de la cause conditionne la guérison.",
    "signes": [
-    "Ulcération qui ne guérit pas depuis plusieurs semaines",
-    "Ulcère tropical : début rapide, douloureux, bords nets, odeur",
-    "Signes d'infection : rougeur, chaleur, pus, fièvre"
+    "Ulcère tropical : début brutal après une petite plaie, nodule douloureux qui s'ulcère rapidement, bords nets surélevés, fond grisâtre, nauséabond, sur le tiers inférieur de la jambe",
+    "Drépanocytaire : ulcère douloureux autour des malléoles, récidivant",
+    "Veineux : face interne de la cheville, varices, œdème, peau brune et indurée",
+    "Artériel : douloureux, pied froid, pouls absents, peau fine",
+    "Diabétique ou lépreux : ulcère indolore de la plante sur un point d'appui, peau insensible",
+    "Buruli : bords décollés, indolore",
+    "Signes d'infection : rougeur qui s'étend, chaleur, pus, douleur accrue, fièvre",
+    "Ulcère ancien qui bourgeonne, saigne ou change d'aspect : cancer"
    ],
    "diagnostic": [
-    "Rechercher la cause : glycémie, drépanocytose, lèpre (perte de sensibilité), Buruli, pouls des pieds",
-    "Test VIH si contexte",
-    "Radiographie si os exposé (ostéite)"
+    "Rechercher la cause : glycémie, test drépanocytaire, sensibilité (monofilament, lèpre), pouls des pieds (index de pression systolique cheville-bras si disponible), varices ; test VIH ; PCR Buruli ; sérologie syphilis-pian",
+    "Radiographie si os exposé ou ulcère profond (ostéite)",
+    "Biopsie des bords si ulcère atypique ou ancien qui ne guérit pas (cancer, Kaposi, leishmaniose, tuberculose)",
+    "État nutritionnel, hémoglobine"
    ],
    "traitement": [
-    "Nettoyage quotidien à l'eau et au savon ou au sérum physiologique, débridement des tissus morts",
-    "Pansement humide (gras ou sérum)",
-    "Repos, jambe surélevée ; bandage compressif si cause veineuse",
-    "Ulcère tropical récent : pénicilline V ou amoxicilline + métronidazole 7 jours",
-    "Greffe de peau si grand ulcère propre",
-    "Vaccination antitétanique, nutrition, traiter la cause"
+    "Nettoyage quotidien à l'eau et au savon ou au sérum physiologique, débridement des tissus morts et de la fibrine",
+    "Pansement humide (gras, sérum ; miel ou sucre là où ces pansements sont utilisés), renouvelé selon l'exsudat ; protéger la peau autour",
+    "Ulcère tropical récent : pénicilline V ou amoxicilline + métronidazole pendant 7 jours, pansements, nutrition",
+    "Antibiotique seulement si infection (cloxacilline ou amoxicilline + acide clavulanique)",
+    "Ulcère veineux : repos jambe surélevée, bandage compressif après avoir éliminé une artériopathie, marche",
+    "Artériel : pas de compression, avis vasculaire",
+    "Diabétique ou lépreux : décharge totale de l'appui (chaussure adaptée, plâtre), équilibre du diabète, recherche d'ostéite",
+    "Drépanocytaire : repos, surélévation, pansements, transfusion ou hydroxyurée selon l'avis",
+    "Buruli : rifampicine + clarithromycine (voir la fiche dédiée)",
+    "Greffe de peau mince si grand ulcère propre et bourgeonnant",
+    "Vaccination antitétanique, nutrition (protéines, vitamine C, zinc), traitement de l'anémie",
+    "Cancer : exérèse chirurgicale large"
    ],
    "gravite": [
-    "Infection extensive, ostéite",
-    "Transformation maligne (ulcère ancien qui bourgeonne : biopsie)"
+    "Infection extensive, cellulite, ostéite",
+    "Transformation maligne (ulcère ancien qui bourgeonne : biopsie)",
+    "Ischémie (pied froid, nécrose)",
+    "Tétanos"
    ],
    "prevention": [
-    "Chaussures, soins rapides des petites plaies"
+    "Chaussures, soins rapides des petites plaies",
+    "Amélioration de l'état nutritionnel",
+    "Prise en charge du diabète, de la drépanocytose et des varices",
+    "Examen régulier des pieds insensibles (lèpre, diabète)"
    ],
    "medicaments": [
     "Polyvidone iodée 10 %",
@@ -42507,6 +42661,10 @@
     "Phénoxyméthylpénicilline (pénicilline V)",
     "Amoxicilline",
     "Métronidazole",
+    "Cloxacilline",
+    "Amoxicilline + acide clavulanique",
+    "Zinc (sulfate)",
+    "Acide ascorbique (vitamine C)",
     "Vaccin antitétanique (Td / VAT)"
    ]
   },
@@ -42515,39 +42673,56 @@
    "nom": "Infections nécrosantes de la peau (fasciite nécrosante, gangrène)",
    "categorie": "chirurgie",
    "synonymes": "fasciite nécrosante, gangrène, dermohypodermite nécrosante, gangrène gazeuse, Fournier",
-   "resume": "Infections graves détruisant la peau, le tissu sous-cutané et les fascias, d'évolution rapide et mortelle sans chirurgie.",
+   "resume": "Infections graves qui détruisent rapidement la peau, le tissu sous-cutané, les fascias et parfois les muscles. Type I : polymicrobien (anaérobies, entérobactéries), chez le diabétique, après chirurgie, ou au périnée (gangrène de Fournier) ; type II : streptocoque A ± staphylocoque, chez des sujets jeunes, après une petite plaie, une varicelle traitée par AINS, une injection ou un accouchement ; gangrène gazeuse à Clostridium après une plaie souillée. Mortelles dans 20 à 40 % des cas : la chirurgie précoce et large est le traitement principal.",
    "signes": [
-    "Douleur intense, disproportionnée par rapport à l'aspect de la peau",
-    "Œdème, peau violacée ou grisâtre, bulles, zones insensibles, crépitation (gaz)",
-    "Fièvre, choc, confusion",
-    "Souvent après une plaie, une injection, un accouchement, un AINS sur une varicelle"
+    "Douleur intense, disproportionnée par rapport à l'aspect initial de la peau",
+    "Œdème dur qui dépasse la rougeur, peau violacée, grisâtre ou noire, bulles hémorragiques, zones insensibles, crépitation sous la peau (gaz)",
+    "Extension rapide en quelques heures (marquer la limite)",
+    "Fièvre, tachycardie, hypotension, confusion, oligurie (choc toxique)",
+    "Gangrène de Fournier : douleur et gonflement du scrotum ou du périnée, peau noire, odeur fétide",
+    "Souvent après une plaie, une injection, une scarification, un accouchement, une chirurgie, une varicelle"
    ],
    "diagnostic": [
-    "Diagnostic clinique : en cas de doute, explorer chirurgicalement",
-    "Glycémie, test VIH"
+    "Diagnostic clinique : en cas de doute, explorer chirurgicalement (incision : tissus gris, absence de saignement, liquide « eau de vaisselle », fascias qui se décollent au doigt)",
+    "Glycémie, test VIH, NFS, créatinine, CRP, lactates, CPK ; score LRINEC si disponible",
+    "Hémocultures, prélèvements peropératoires",
+    "Radiographie (gaz dans les tissus) ; ne pas retarder la chirurgie pour l'imagerie",
+    "Différentiels : cellulite simple (douleur proportionnée, réponse aux antibiotiques), pyomyosite, thrombose veineuse, morsure de serpent avec nécrose"
    ],
    "traitement": [
-    "URGENCE CHIRURGICALE : excision large de tous les tissus nécrosés, à répéter",
-    "Antibiotiques IV : amoxicilline-acide clavulanique (ou ceftriaxone + métronidazole) + clindamycine, ± gentamicine",
-    "Réanimation du choc, antalgiques",
+    "URGENCE CHIRURGICALE : excision large de tous les tissus nécrosés dans les heures qui suivent le diagnostic, à répéter (reprise systématique à 24 à 48 h) ; amputation parfois nécessaire ; Fournier : débridement périnéal, parfois colostomie",
+    "Antibiotiques IV à large spectre, à forte dose, dès la suspicion : pipéracilline-tazobactam 4 g toutes les 6 à 8 h (ou ceftriaxone 2 g par jour + métronidazole 500 mg toutes les 8 h, ou amoxicilline + acide clavulanique IV) + clindamycine 600 à 900 mg toutes les 8 h (bloque les toxines) ; ± gentamicine ; vancomycine si staphylocoque résistant ; gangrène gazeuse : benzylpénicilline + clindamycine",
+    "Réanimation du choc : remplissage, noradrénaline, transfusion ; immunoglobulines IV discutées dans le choc toxique streptococcique",
+    "Antalgiques puissants (morphine), nutrition précoce et riche en protéines, équilibre du diabète, prévention des thromboses",
     "Vaccination antitétanique",
-    "Éviter les AINS"
+    "Éviter les AINS",
+    "Soins des pertes de substance, greffes secondaires, rééducation"
    ],
    "gravite": [
     "Choc, défaillance d'organes",
-    "Extension rapide"
+    "Extension rapide malgré les antibiotiques",
+    "Atteinte du périnée, du tronc ou du cou",
+    "Diabète, VIH, sujet âgé"
    ],
    "prevention": [
-    "Soins des plaies, pas d'AINS en cas de varicelle, asepsie des injections"
+    "Soins rapides des plaies, asepsie des injections et des gestes (accouchement, chirurgie, scarifications)",
+    "Pas d'AINS en cas de varicelle",
+    "Équilibre du diabète"
    ],
    "medicaments": [
-    "Amoxicilline + acide clavulanique",
+    "Pipéracilline + tazobactam",
     "Ceftriaxone",
     "Métronidazole",
+    "Amoxicilline + acide clavulanique",
     "Clindamycine",
     "Gentamicine",
+    "Vancomycine",
+    "Benzylpénicilline (pénicilline G)",
     "Ringer lactate",
+    "Noradrénaline (norépinéphrine)",
     "Morphine",
+    "Immunoglobulines humaines normales (IgIV)",
+    "Énoxaparine",
     "Vaccin antitétanique (Td / VAT)"
    ]
   },
@@ -42556,36 +42731,52 @@
    "nom": "Piqûres de scorpion et autres envenimations",
    "categorie": "intoxications",
    "synonymes": "scorpion, piqûre de scorpion, araignée, abeille, guêpe, chenille",
-   "resume": "Envenimations par scorpions, araignées, hyménoptères (abeilles, guêpes) ou animaux marins. Le scorpion est grave chez l'enfant.",
+   "resume": "Envenimations par scorpions, araignées, hyménoptères (abeilles, guêpes, frelons), chenilles, mille-pattes ou animaux marins. La plupart sont bénignes et douloureuses ; les piqûres de scorpion peuvent être graves chez l'enfant de moins de 15 kg (défaillance cardiaque et respiratoire), les piqûres multiples d'abeilles causent une envenimation massive, et toute piqûre d'hyménoptère peut provoquer une anaphylaxie.",
    "signes": [
-    "Scorpion : douleur intense locale, paresthésies ; signes graves : sueurs, hypersalivation, vomissements, agitation, tachycardie puis bradycardie, HTA, œdème pulmonaire, convulsions",
-    "Abeilles et guêpes : réaction locale, anaphylaxie ; envenimation massive si piqûres multiples",
-    "Araignée : douleur, contractures (veuve noire) ou nécrose locale"
+    "Scorpion : douleur intense et brûlante au point de piqûre, fourmillements, parfois peu visibles ; classe II : sueurs, hypersalivation, vomissements, agitation, priapisme, frissons ; classe III (grave) : tachycardie puis bradycardie, HTA puis hypotension, œdème pulmonaire, choc, troubles de conscience, convulsions, mouvements anormaux",
+    "Abeilles et guêpes : douleur, rougeur et gonflement locaux ; réaction locale étendue ; anaphylaxie (urticaire, gêne respiratoire, malaise) ; envenimation massive (plus de 50 piqûres chez l'enfant, 200 chez l'adulte) : vomissements, hémolyse, urines foncées, insuffisance rénale, troubles du rythme",
+    "Araignée veuve noire : douleur, crampes musculaires intenses, contractures abdominales, sueurs ; araignée recluse : nécrose locale",
+    "Mille-pattes : douleur locale intense",
+    "Chenilles : démangeaisons, éruption",
+    "Poissons venimeux (épines) : douleur atroce locale"
    ],
    "diagnostic": [
-    "Évaluer la gravité (enfant < 15 kg, signes généraux)",
-    "Rechercher une anaphylaxie"
+    "Évaluer la gravité (enfant de moins de 15 kg, signes généraux, nombre de piqûres) ; surveillance d'au moins 4 à 6 h chez l'enfant piqué par un scorpion (12 h si signes)",
+    "Rechercher une anaphylaxie",
+    "Envenimation massive par abeilles : NFS, créatinine, potassium, CPK, urines (hémoglobine, myoglobine)",
+    "ECG et radiographie si signes cardiaques ou respiratoires"
    ],
    "traitement": [
-    "Scorpion : repos, antalgique (paracétamol), infiltration de lidocaïne au point de piqûre ; formes graves : surveillance en milieu équipé, oxygène, traitement de l'œdème pulmonaire, prazosine selon les protocoles, sérum antiscorpionique spécifique s'il est disponible et adapté",
-    "Hyménoptères : retirer le dard, froid local, antihistaminique ; anaphylaxie : adrénaline IM",
+    "Scorpion, forme locale : repos, glace ou compresses froides, antalgique (paracétamol, ibuprofène), infiltration de lidocaïne 1 à 2 % sans adrénaline au point de piqûre ; formes graves : hospitalisation en milieu équipé, oxygène, voie veineuse, traitement de l'œdème pulmonaire (position assise, oxygène, ventilation), dobutamine ou adrénaline si choc, benzodiazépine si agitation ou convulsions ; prazosine selon les protocoles régionaux ; sérum antiscorpionique seulement s'il est spécifique des espèces locales",
+    "Abeilles, guêpes : retirer le dard en grattant avec un ongle ou une carte, sans pincer ; froid local, antihistaminique (loratadine, chlorphénamine), antalgique ; anaphylaxie : adrénaline IM immédiatement ; envenimation massive : hospitalisation, hydratation abondante (diurèse), surveillance rénale, cardiaque et de l'hémolyse ; dialyse si insuffisance rénale",
+    "Araignée veuve noire : antalgiques, benzodiazépine pour les contractures ; nécrose : soins locaux, débridement",
+    "Chenilles : retirer les poils avec un ruban adhésif, lavage, antihistaminique, dermocorticoïde",
+    "Poissons venimeux : immersion de la zone dans l'eau chaude (45 °C, sans brûler) pendant 30 à 90 min, retrait des épines",
     "Vaccination antitétanique selon le statut"
    ],
    "gravite": [
-    "Enfant, signes généraux, troubles respiratoires ou cardiaques",
+    "Enfant de moins de 15 kg, signes généraux, troubles respiratoires ou cardiaques après une piqûre de scorpion",
     "Anaphylaxie",
-    "Piqûres multiples"
+    "Piqûres multiples (envenimation massive), piqûres de la bouche ou de la gorge (œdème)",
+    "Urines foncées, oligurie"
    ],
    "prevention": [
-    "Secouer chaussures et vêtements, lampe la nuit, moustiquaire"
+    "Secouer chaussures, vêtements et draps avant usage, lampe la nuit, ne pas marcher pieds nus",
+    "Moustiquaire, boucher les fissures des murs",
+    "Éloigner les ruches des habitations ; prudence lors de la récolte du miel",
+    "Personnes allergiques aux hyménoptères : adrénaline auto-injectable si disponible"
    ],
    "medicaments": [
     "Paracétamol",
+    "Ibuprofène",
     "Lidocaïne (lignocaïne)",
     "Adrénaline (épinéphrine)",
     "Chlorphénamine (chlorphéniramine)",
+    "Loratadine",
     "Diazépam",
+    "Midazolam",
     "Oxygène",
+    "Ringer lactate",
     "Vaccin antitétanique (Td / VAT)"
    ]
   },
@@ -42799,33 +42990,43 @@
    "nom": "Saturnisme (intoxication au plomb)",
    "categorie": "intoxications",
    "synonymes": "plomb, saturnisme, plombémie, mine, batteries, intoxication au plomb",
-   "resume": "Intoxication chronique au plomb : sites miniers et de traitement des minerais, recyclage des batteries, peintures, poteries vernissées, remèdes traditionnels. Les jeunes enfants sont les plus touchés.",
+   "resume": "Intoxication chronique au plomb, toxique pour le cerveau, le sang, les reins et le développement de l'enfant, sans seuil de sécurité. Sources : sites miniers et traitement artisanal des minerais (or, cuivre, cobalt dans le Katanga et l'Est), recyclage artisanal des batteries, fonderies, peintures anciennes, poteries vernissées, cosmétiques (khôl), remèdes traditionnels, munitions. Les jeunes enfants (qui portent les mains à la bouche) et les femmes enceintes sont les plus vulnérables. Des épidémies mortelles d'encéphalopathie saturnine ont été décrites autour de sites d'orpaillage en Afrique.",
    "signes": [
-    "Enfant : anémie, douleurs abdominales, constipation, vomissements, retard de développement, troubles du comportement",
-    "Encéphalopathie (urgence) : vomissements, ataxie, convulsions, coma",
-    "Adulte : douleurs abdominales (coliques), anémie, neuropathie (poignet tombant), HTA, insuffisance rénale",
-    "Liseré gingival bleuté"
+    "Enfant : anémie, douleurs abdominales, constipation, vomissements, perte d'appétit, fatigue, irritabilité, retard de développement et de langage, troubles du comportement et des apprentissages (souvent seuls signes)",
+    "Encéphalopathie (urgence, surtout chez l'enfant) : vomissements persistants, somnolence, ataxie, convulsions, coma",
+    "Adulte : coliques abdominales, anémie, neuropathie motrice (poignet tombant), troubles de la mémoire, HTA, insuffisance rénale, goutte, infertilité",
+    "Liseré gingival bleuté",
+    "Femme enceinte : fausse couche, prématurité, atteinte du fœtus"
    ],
    "diagnostic": [
-    "Plombémie (sang veineux) : intervention dès 5 µg/dl chez l'enfant ; chélation si ≥ 45 µg/dl",
-    "Hémoglobine",
-    "Enquête environnementale (cas groupés autour d'un site)",
-    "Radiographie abdominale chez l'enfant (fragments ingérés)"
+    "Plombémie (sang veineux) : intervention dès 3,5 à 5 µg/dl chez l'enfant (recherche et suppression de la source) ; chélation si ≥ 45 µg/dl",
+    "Hémoglobine, frottis (ponctuations basophiles), ferritine (la carence en fer augmente l'absorption du plomb), créatinine",
+    "Radiographie de l'abdomen chez l'enfant (fragments de peinture ou de minerai ingérés) ; radiographie des os longs (bandes denses métaphysaires)",
+    "Enquête environnementale (domicile, travail des parents, cas groupés autour d'un site) ; dépister les frères et sœurs et la mère"
    ],
    "traitement": [
-    "Supprimer la source d'exposition (indispensable)",
-    "Alimentation riche en fer et en calcium, traiter l'anémie",
-    "Plombémie 45 à 69 µg/dl sans encéphalopathie : succimer per os 19 jours",
-    "≥ 70 µg/dl ou encéphalopathie : dimercaprol IM puis, 4 h après, édétate calcique en perfusion continue 5 jours, en milieu spécialisé",
-    "Convulsions : diazépam ; œdème cérébral : réanimation",
-    "Surveillance de la plombémie et nouvelles cures si besoin"
+    "Supprimer la source d'exposition (indispensable, avant la chélation) : arrêter le traitement des minerais ou des batteries à domicile, éloigner l'enfant, nettoyage humide du domicile ; sinon la chélation est inutile voire dangereuse",
+    "Alimentation riche en fer et en calcium ; traiter l'anémie et la carence en fer",
+    "Corps étrangers dans le tube digestif : évacuation (lavage intestinal) avant la chélation",
+    "Plombémie 45 à 69 µg/dl sans encéphalopathie : succimer per os 10 mg/kg (350 mg/m²) 3 fois par jour pendant 5 jours, puis 2 fois par jour pendant 14 jours (19 jours au total)",
+    "Plombémie ≥ 70 µg/dl ou encéphalopathie : en milieu spécialisé, dimercaprol 4 mg/kg (75 mg/m²) IM toutes les 4 h, puis, 4 h après la 1re dose, édétate calcique disodique 30 mg/kg par jour (1 000 à 1 500 mg/m²) en perfusion continue pendant 5 jours ; dimercaprol contre-indiqué en cas d'allergie à l'arachide, prudence si déficit en G6PD",
+    "Hydratation (élimination urinaire), surveillance rénale",
+    "Encéphalopathie : réanimation, convulsions (diazépam, phénobarbital), traitement de l'œdème cérébral (mannitol) ; pas de ponction lombaire",
+    "Contrôle de la plombémie 2 à 3 semaines après la cure (rebond fréquent) et nouvelles cures si nécessaire ; suivi du développement et soutien scolaire",
+    "Déclaration et intervention communautaire"
    ],
    "gravite": [
     "Encéphalopathie (vomissements, troubles de conscience, convulsions)",
-    "Plombémie ≥ 70 µg/dl"
+    "Plombémie ≥ 70 µg/dl",
+    "Jeune enfant, femme enceinte",
+    "Cas groupés autour d'un site minier ou de recyclage"
    ],
    "prevention": [
-    "Lavage des mains et des vêtements de travail, ne pas traiter les minerais à domicile, éloigner les enfants des sites, eau potable"
+    "Ne pas traiter les minerais ni recycler les batteries à domicile, éloigner les enfants des sites ; vêtements de travail changés et lavés sur place, douche avant de rentrer",
+    "Lavage des mains et des aliments ; nettoyage humide des sols",
+    "Eau potable ; éviter les poteries vernissées, cosmétiques et remèdes contenant du plomb",
+    "Alimentation riche en fer et en calcium",
+    "Dépistage des enfants exposés"
    ],
    "medicaments": [
     "Succimer (DMSA)",
@@ -42833,7 +43034,10 @@
     "Édétate calcique disodique (CaNa2-EDTA)",
     "Pénicillamine",
     "Sulfate ferreux",
-    "Diazépam"
+    "Carbonate de calcium",
+    "Diazépam",
+    "Phénobarbital",
+    "Mannitol 20 %"
    ]
   },
   {
@@ -42841,35 +43045,48 @@
    "nom": "Méthémoglobinémie",
    "categorie": "intoxications",
    "synonymes": "méthémoglobinémie, cyanose grise, sang chocolat, dapsone, nitrites",
-   "resume": "Oxydation du fer de l'hémoglobine qui ne transporte plus l'oxygène : médicaments (dapsone, primaquine, anesthésiques locaux), nitrites (eau de puits, conservateurs), poppers.",
+   "resume": "Oxydation du fer de l'hémoglobine (forme ferrique) qui ne transporte plus l'oxygène, avec cyanose et hypoxie tissulaire. Causes : médicaments (dapsone utilisée contre la lèpre et en prophylaxie, primaquine, anesthésiques locaux comme la benzocaïne et la prilocaïne, sulfamides, rasburicase), nitrites et nitrates (eau de puits contaminée utilisée pour les biberons, charcuteries, poppers), colorants (aniline). Le nourrisson est particulièrement sensible ; les formes congénitales sont rares. Le bleu de méthylène est l'antidote, mais il est dangereux en cas de déficit en G6PD.",
    "signes": [
-    "Cyanose ardoisée ne s'améliorant pas sous oxygène",
-    "SpO₂ autour de 85 % malgré l'oxygène, avec une PaO₂ normale",
-    "Sang brun « chocolat »",
-    "Céphalées, dyspnée, tachycardie ; formes graves : confusion, convulsions, coma, acidose"
+    "Cyanose ardoisée, grise ou bleue, ne s'améliorant pas sous oxygène, contrastant avec un état général parfois correct",
+    "SpO₂ autour de 85 % malgré l'oxygène, avec une PaO₂ normale (écart de saturation)",
+    "Sang brun « chocolat » qui ne rougit pas à l'air (goutte sur une compresse blanche)",
+    "Taux 15 à 30 % : céphalées, fatigue, vertiges, essoufflement, tachycardie",
+    "Taux > 30 à 50 % : confusion, convulsions, troubles du rythme, acidose, coma ; > 70 % : décès",
+    "Nourrisson : cyanose, irritabilité, diarrhée et vomissements (forme transitoire au cours des diarrhées avec acidose)"
    ],
    "diagnostic": [
-    "Contexte (médicament, eau de puits pour le biberon chez le nourrisson)",
-    "Méthémoglobinémie dosée si disponible (CO-oxymètre)"
+    "Contexte : médicament (dapsone, primaquine, anesthésique local), eau de puits pour le biberon chez le nourrisson, contact avec des produits chimiques",
+    "Taux de méthémoglobine par CO-oxymètre si disponible",
+    "Test de la goutte de sang sur papier filtre (reste brune)",
+    "Test G6PD avant le bleu de méthylène si possible (hémolyse associée fréquente sous dapsone ou primaquine)",
+    "Différentiels : cardiopathie cyanogène, détresse respiratoire, sulfhémoglobinémie"
    ],
    "traitement": [
-    "Arrêter la cause, oxygène à haut débit",
-    "Bleu de méthylène 1 à 2 mg/kg IV lente si signes ou taux > 20–30 %, à répéter 1 fois",
-    "Déficit en G6PD : bleu inefficace et dangereux → oxygène, transfusion ou exsanguino-transfusion",
-    "Dapsone : charbon activé à doses répétées"
+    "Arrêter le produit en cause, oxygène à haut débit ; décontamination (laver la peau, charbon activé si ingestion récente)",
+    "Bleu de méthylène si signes cliniques ou taux > 20 à 30 % (> 10 % si anémie, maladie cardiaque ou respiratoire) : 1 à 2 mg/kg IV en 5 min (0,1 à 0,2 ml/kg de solution à 1 %), à répéter une fois après 30 à 60 min si nécessaire (maximum 7 mg/kg) ; nourrisson 0,3 à 1 mg/kg",
+    "Contre-indications du bleu de méthylène : déficit en G6PD (inefficace et provoque une hémolyse), traitement par antidépresseur sérotoninergique (syndrome sérotoninergique)",
+    "Déficit en G6PD ou échec du bleu : oxygène, transfusion de culot globulaire ou exsanguinotransfusion ; acide ascorbique (vitamine C) à forte dose en appoint",
+    "Dapsone : charbon activé à doses répétées (demi-vie longue : récidives), surveillance prolongée, bleu de méthylène répété si nécessaire",
+    "Traiter les convulsions (diazépam), l'acidose ; nourrisson avec diarrhée : réhydratation, correction de l'acidose (la méthémoglobinémie régresse)",
+    "Méthémoglobinémie congénitale : bleu de méthylène ou vitamine C au long cours"
    ],
    "gravite": [
-    "Troubles de conscience, convulsions",
-    "Échec du bleu de méthylène (G6PD)"
+    "Troubles de conscience, convulsions, troubles du rythme, acidose",
+    "Échec du bleu de méthylène (déficit en G6PD, sulfhémoglobinémie)",
+    "Nourrisson",
+    "Hémolyse associée"
    ],
    "prevention": [
-    "Eau de boisson sans nitrates pour les nourrissons, prudence avec la dapsone et la primaquine"
+    "Eau de boisson sans nitrates pour la préparation des biberons (pas d'eau de puits contaminée)",
+    "Prudence avec la dapsone et la primaquine (test G6PD), respect des doses d'anesthésiques locaux, surtout chez le nourrisson"
    ],
    "medicaments": [
     "Bleu de méthylène",
     "Oxygène",
     "Charbon activé",
-    "Concentré de globules rouges (culot globulaire)"
+    "Acide ascorbique (vitamine C)",
+    "Concentré de globules rouges (culot globulaire)",
+    "Diazépam"
    ]
   },
   {
@@ -42877,35 +43094,46 @@
    "nom": "Intoxication au fer",
    "categorie": "intoxications",
    "synonymes": "intoxication au fer, sulfate ferreux, surdosage en fer, comprimés de fer",
-   "resume": "Ingestion accidentelle de comprimés de fer (fer + acide folique de la grossesse) par un jeune enfant : intoxication potentiellement mortelle.",
+   "resume": "Ingestion accidentelle de comprimés de fer (fer + acide folique de la grossesse, sulfate ferreux) par un jeune enfant attiré par les comprimés colorés : une des intoxications médicamenteuses les plus graves de l'enfant. Le fer est corrosif pour le tube digestif et toxique pour les cellules (choc, acidose, insuffisance hépatique). La gravité dépend de la quantité de fer élément ingérée par kg.",
    "signes": [
-    "Phase 1 (0 à 6 h) : vomissements, diarrhée parfois sanglante, douleurs abdominales",
-    "Phase de latence trompeuse (6 à 24 h)",
-    "Phase 3 : choc, acidose, insuffisance hépatique, troubles de conscience",
-    "Séquelles : sténose digestive"
+    "Phase 1 (30 min à 6 h) : vomissements, diarrhée parfois sanglante, douleurs abdominales, déshydratation ; vomissements de sang dans les formes graves ; l'absence de signes digestifs dans les 6 h rend une intoxication grave peu probable",
+    "Phase 2 (6 à 24 h) : latence trompeuse, amélioration apparente",
+    "Phase 3 (12 à 48 h) : choc, acidose métabolique, troubles de conscience, convulsions, insuffisance rénale, troubles de la coagulation",
+    "Phase 4 (2 à 5 jours) : insuffisance hépatique",
+    "Phase 5 (2 à 6 semaines) : sténose du pylore ou de l'intestin (vomissements)"
    ],
    "diagnostic": [
-    "Quantité ingérée en fer élément (sulfate ferreux 200 mg = 60–65 mg de fer) : < 20 mg/kg peu toxique ; > 60 mg/kg grave",
-    "Fer sérique à 4–6 h si disponible",
-    "Radiographie (comprimés visibles)"
+    "Calculer la quantité de fer élément ingérée : sulfate ferreux 200 mg = 60 à 65 mg de fer ; fumarate ferreux 200 mg = 65 mg ; gluconate ferreux 300 mg = 35 mg",
+    "< 20 mg/kg : peu toxique ; 20 à 60 mg/kg : toxicité modérée ; > 60 mg/kg : grave ; > 120 mg/kg : potentiellement mortelle",
+    "Fer sérique 4 à 6 h après l'ingestion si disponible (> 500 µg/dl ou 90 µmol/l : intoxication grave)",
+    "Radiographie de l'abdomen (comprimés radio-opaques)",
+    "Glycémie, bicarbonates, NFS, transaminases, coagulation"
    ],
    "traitement": [
-    "Le charbon activé est inefficace",
-    "Réhydratation, correction de l'acidose",
-    "Déféroxamine IV 15 mg/kg/h si signes graves (choc, acidose, troubles de conscience) ou fer sérique > 90 µmol/l",
-    "Surveillance d'au moins 6 h même si l'enfant va bien"
+    "Le charbon activé est inefficace ; ne pas faire vomir",
+    "Nombreux comprimés visibles à la radiographie : lavage intestinal (solution de polyéthylène glycol) si disponible, endoscopie si amas de comprimés",
+    "Réhydratation (Ringer lactate), correction de l'acidose (bicarbonate) et de l'hypoglycémie, traitement du choc",
+    "Déféroxamine IV 15 mg/kg/h si signes graves (vomissements répétés, choc, acidose, troubles de conscience), fer sérique > 500 µg/dl ou ingestion > 60 mg/kg avec symptômes ; urines « vin rosé » pendant le traitement ; poursuivre jusqu'à disparition des signes et de la coloration des urines, en général pas plus de 24 h (risque de détresse respiratoire), maximum 80 mg/kg par jour",
+    "Insuffisance hépatique : soins de support",
+    "Surveillance d'au moins 6 h même si l'enfant va bien ; asymptomatique à 6 h et pas de comprimés à la radiographie : sortie possible",
+    "Revoir à 2 à 6 semaines si vomissements (sténose)"
    ],
    "gravite": [
     "Choc, acidose, troubles de conscience",
-    "Vomissements de sang"
+    "Vomissements de sang, diarrhée sanglante",
+    "Ingestion > 60 mg/kg de fer élément",
+    "Insuffisance hépatique"
    ],
    "prevention": [
-    "Ranger les médicaments hors de portée des enfants"
+    "Ranger les médicaments, notamment le fer de la grossesse, hors de portée des enfants, dans des flacons fermés",
+    "Informer les femmes enceintes du danger des comprimés de fer pour les jeunes enfants"
    ],
    "medicaments": [
     "Déféroxamine",
     "Ringer lactate",
-    "Bicarbonate de sodium 8,4 % / 4,2 %"
+    "Bicarbonate de sodium 8,4 % / 4,2 %",
+    "Glucose 10 %",
+    "Vitamine K1 (phytoménadione)"
    ]
   },
   {
@@ -42913,36 +43141,51 @@
    "nom": "Intoxication au méthanol et à l'éthylène glycol",
    "categorie": "intoxications",
    "synonymes": "méthanol, alcool frelaté, alcool à brûler, antigel, cécité, intoxication alcool",
-   "resume": "Ingestion d'alcool frelaté (méthanol) ou d'antigel (éthylène glycol), souvent en épidémie : acidose grave, cécité, insuffisance rénale.",
+   "resume": "Ingestion d'alcool frelaté contenant du méthanol (épidémies liées à des alcools artisanaux ou contrefaits en Afrique de l'Est et centrale), d'alcool à brûler ou d'antigel (éthylène glycol). Ces alcools sont peu toxiques en eux-mêmes mais leurs métabolites provoquent une acidose grave, une cécité définitive (méthanol) et une insuffisance rénale (éthylène glycol). Les antidotes (fomépizole ou éthanol) bloquent leur transformation et doivent être donnés tôt, souvent sur la seule suspicion en contexte épidémique.",
    "signes": [
-    "Ivresse initiale, puis après 12 à 24 h : vomissements, douleurs abdominales, respiration rapide et profonde (acidose)",
-    "Méthanol : vision floue, « tempête de neige », cécité",
-    "Éthylène glycol : insuffisance rénale",
-    "Coma, convulsions"
+    "Ivresse initiale (souvent moindre qu'avec l'alcool habituel), puis intervalle libre de 12 à 24 h (plus court si pas d'alcool associé)",
+    "Puis vomissements, douleurs abdominales, céphalées, respiration rapide et profonde (acidose)",
+    "Méthanol : vision floue, « tempête de neige », photophobie, pupilles dilatées peu réactives, cécité",
+    "Éthylène glycol : troubles de conscience, convulsions, puis insuffisance rénale (oligurie, urines contenant des cristaux), hypocalcémie",
+    "Coma, convulsions, choc, décès"
    ],
    "diagnostic": [
-    "Contexte (cas groupés après consommation d'alcool)",
-    "Acidose (bicarbonate bas), trou anionique et trou osmolaire si disponibles"
+    "Contexte : cas groupés après consommation d'un même alcool, alcoolique sans alcool habituel, ingestion d'antigel (enfant, intention suicidaire)",
+    "Acidose métabolique (bicarbonates bas) avec trou anionique élevé, trou osmolaire élevé au début si disponible",
+    "Créatinine, potassium, calcium, glycémie ; examen du fond d'œil (œdème papillaire)",
+    "Dosage du méthanol ou de l'éthylène glycol rarement disponible : ne pas attendre",
+    "Différentiels : acidocétose diabétique ou alcoolique, paludisme grave, sepsis, intoxication aux salicylés, insuffisance rénale"
    ],
    "traitement": [
-    "Antidote : fomépizole 15 mg/kg puis 10 mg/kg toutes les 12 h ; à défaut éthanol (alcool) per os ou IV",
-    "Bicarbonate de sodium pour corriger l'acidose",
-    "Acide folique (méthanol) ; thiamine et pyridoxine (éthylène glycol)",
-    "Hémodialyse si acidose sévère, troubles visuels, insuffisance rénale"
+    "Antidote dès la suspicion : fomépizole 15 mg/kg IV, puis 10 mg/kg toutes les 12 h (4 doses), puis 15 mg/kg toutes les 12 h jusqu'à disparition de l'acidose et du toxique",
+    "À défaut, éthanol (alcool éthylique) per os ou par sonde : dose de charge 0,8 g/kg (environ 2 ml/kg d'alcool à 40 °, comme un whisky ou un gin, dilué dans de l'eau ou du jus), puis 0,1 à 0,15 g/kg/h (davantage chez le buveur habituel et pendant la dialyse), pour maintenir une alcoolémie d'environ 1 à 1,5 g/l ; surveiller la glycémie et la conscience",
+    "Bicarbonate de sodium IV pour corriger l'acidose (objectif pH > 7,3)",
+    "Méthanol : acide folique (ou folinique) 50 mg IV toutes les 6 h ; éthylène glycol : thiamine 100 mg et pyridoxine 50 mg IV toutes les 6 h",
+    "Hémodialyse (le traitement le plus efficace) si acidose sévère (pH < 7,25), troubles visuels, insuffisance rénale, coma ou convulsions",
+    "Soins de support : voies aériennes, glycémie, convulsions (diazépam)",
+    "Suivi ophtalmologique des survivants",
+    "Alerte des autorités en cas d'épidémie, identification et retrait de l'alcool en cause, information de la population, recherche active des cas"
    ],
    "gravite": [
-    "Acidose sévère, coma, troubles visuels",
-    "Insuffisance rénale"
+    "Acidose sévère, coma, convulsions",
+    "Troubles visuels (risque de cécité définitive)",
+    "Insuffisance rénale",
+    "Délai important avant l'antidote",
+    "Épidémie (nombreuses victimes)"
    ],
    "prevention": [
-    "Information du public lors d'épidémies d'alcool frelaté, étiquetage des produits"
+    "Information du public lors d'épidémies d'alcool frelaté, contrôle des alcools artisanaux et contrefaits",
+    "Étiquetage et stockage sécurisé de l'antigel et de l'alcool à brûler, hors de portée des enfants"
    ],
    "medicaments": [
     "Fomépizole",
     "Bicarbonate de sodium 8,4 % / 4,2 %",
     "Acide folique",
+    "Folinate de calcium (acide folinique)",
     "Thiamine (vitamine B1)",
-    "Pyridoxine (vitamine B6)"
+    "Pyridoxine (vitamine B6)",
+    "Glucose 10 %",
+    "Diazépam"
    ]
   },
   {
@@ -42950,35 +43193,44 @@
    "nom": "Intoxication au cyanure",
    "categorie": "intoxications",
    "synonymes": "cyanure, manioc amer, incendie, fumées, acide cyanhydrique",
-   "resume": "Blocage de la respiration cellulaire par le cyanure : fumées d'incendie, produits industriels et miniers (orpaillage), ingestion massive de manioc amer mal préparé.",
+   "resume": "Blocage de la respiration cellulaire par le cyanure, d'action très rapide. Sources : fumées d'incendie en espace clos (souvent associées au monoxyde de carbone), produits industriels et miniers (cyanuration de l'or dans l'orpaillage, galvanoplastie), ingestion volontaire de sels de cyanure, ingestion massive de manioc amer mal préparé ou de certaines amandes et noyaux. Les antidotes (hydroxocobalamine, ou nitrite et thiosulfate de sodium) sont efficaces s'ils sont donnés vite.",
    "signes": [
-    "Céphalées, vertiges, nausées, anxiété, odeur d'amande amère",
-    "Respiration rapide puis lente",
-    "Convulsions, coma, choc, arrêt cardiaque",
-    "Absence de cyanose (peau rosée)"
+    "Céphalées, vertiges, nausées, anxiété, confusion, odeur d'amande amère (inconstante)",
+    "Respiration rapide puis lente, essoufflement, oppression",
+    "Convulsions, coma, choc, troubles du rythme, arrêt cardiaque en quelques minutes à heures selon la dose",
+    "Absence de cyanose (peau rosée), SpO₂ souvent normale",
+    "Intoxication par le manioc : vomissements, vertiges, faiblesse, souvent plusieurs membres d'une famille après le même repas"
    ],
    "diagnostic": [
-    "Contexte (incendie en lieu clos, ingestion)",
-    "Acidose lactique (lactates > 8 mmol/l)"
+    "Contexte : incendie en lieu clos, exposition professionnelle, ingestion",
+    "Acidose lactique importante (lactates > 8 mmol/l dans les incendies évoque fortement le cyanure) ; sang veineux très rouge",
+    "Ne pas attendre de dosage : traiter sur la clinique",
+    "Rechercher une intoxication au monoxyde de carbone associée (incendie)"
    ],
    "traitement": [
-    "Retirer de l'exposition, oxygène pur à haut débit, réanimation",
-    "Formes graves : hydroxocobalamine IV 70 mg/kg (Cyanokit) si disponible, ou nitrite de sodium IV puis thiosulfate de sodium (éviter le nitrite si intoxication au CO associée)",
-    "Convulsions : diazépam",
-    "Intoxication alimentaire par le manioc : voir Konzo",
-    "Dose d'hydroxocobalamine : adulte 5 g IV en 15 minutes, à répéter une fois si nécessaire ; enfant 70 mg/kg"
+    "Retirer de l'exposition (secouristes protégés), retirer les vêtements contaminés, laver la peau ; oxygène pur à haut débit ; réanimation ; pas de bouche-à-bouche",
+    "Formes graves (troubles de conscience, convulsions, choc, acidose) : hydroxocobalamine IV 5 g chez l'adulte en 15 min (enfant 70 mg/kg), à répéter une fois si nécessaire ; coloration rouge de la peau et des urines sans gravité ; antidote de choix dans les incendies",
+    "À défaut : nitrite de sodium 300 mg IV en 5 min (enfant 6 mg/kg, soit 0,2 ml/kg de la solution à 3 %), puis thiosulfate de sodium 12,5 g IV en 10 à 20 min (enfant 0,5 g/kg) ; éviter le nitrite si une intoxication au monoxyde de carbone est associée ou chez le patient hypotendu (il aggrave l'hypoxie) : thiosulfate seul dans ce cas",
+    "Convulsions : diazépam ; acidose sévère : bicarbonate de sodium ; choc : remplissage, adrénaline",
+    "Intoxication alimentaire légère par le manioc : soins de support, thiosulfate si signes marqués (voir Konzo)"
    ],
    "gravite": [
-    "Coma, convulsions, choc, acidose"
+    "Coma, convulsions, choc, acidose",
+    "Arrêt cardiaque",
+    "Incendie en espace clos avec intoxication associée au monoxyde de carbone"
    ],
    "prevention": [
-    "Préparation correcte du manioc (rouissage, séchage), protection au travail"
+    "Préparation correcte du manioc (rouissage, séchage, méthode de mouillage)",
+    "Protection au travail, stockage sécurisé des cyanures dans les mines et ateliers",
+    "Détecteurs et ventilation, prévention des incendies"
    ],
    "medicaments": [
+    "Hydroxocobalamine (vitamine B12)",
     "Nitrite de sodium + thiosulfate de sodium",
     "Oxygène",
     "Diazépam",
-    "Bicarbonate de sodium 8,4 % / 4,2 %"
+    "Bicarbonate de sodium 8,4 % / 4,2 %",
+    "Adrénaline (épinéphrine)"
    ]
   },
   {
@@ -42986,40 +43238,54 @@
    "nom": "Intoxication aux organophosphorés et carbamates",
    "categorie": "intoxications",
    "synonymes": "organophosphorés, pesticides, insecticides, carbamates, intoxication agricole",
-   "resume": "Intoxication par les insecticides agricoles ou domestiques (ingestion volontaire ou accidentelle, contact cutané). Cause fréquente de décès par intoxication en milieu rural.",
+   "resume": "Intoxication par les insecticides agricoles ou domestiques (organophosphorés, carbamates), par ingestion volontaire (cause majeure de suicide en milieu rural), accidentelle (enfant, produit stocké dans une bouteille) ou par contact cutané ou inhalation lors des pulvérisations. L'inhibition des cholinestérases provoque une crise cholinergique qui tue par détresse respiratoire. L'atropine à doses suffisantes et rapidement augmentées est le traitement principal.",
    "signes": [
-    "Syndrome cholinergique : myosis, hypersalivation, larmoiement, sueurs, bronchorrhée, bronchospasme, vomissements, diarrhée, incontinence, bradycardie",
-    "Fasciculations, faiblesse musculaire, paralysie respiratoire",
-    "Confusion, convulsions, coma",
-    "Odeur de produit chimique"
+    "Syndrome muscarinique : petites pupilles (myosis), salivation, larmoiement, sueurs, sécrétions bronchiques abondantes (« noyade »), bronchospasme, vomissements, diarrhée, incontinence, bradycardie, hypotension",
+    "Syndrome nicotinique : fasciculations, crampes, faiblesse musculaire, paralysie respiratoire ; tachycardie et HTA possibles",
+    "Système nerveux : agitation, confusion, convulsions, coma",
+    "Odeur de produit chimique, de solvant ou d'ail",
+    "Syndrome intermédiaire (1 à 4 jours après) : faiblesse de la nuque, des muscles proximaux, des nerfs crâniens et des muscles respiratoires",
+    "Neuropathie retardée (2 à 3 semaines après)"
    ],
    "diagnostic": [
-    "Diagnostic clinique et contexte (produit apporté)",
-    "Activité des cholinestérases si disponible"
+    "Diagnostic clinique et contexte (produit apporté par la famille, profession)",
+    "Activité des cholinestérases si disponible (ne pas attendre)",
+    "Surveillance des signes à évaluer pour l'atropine : auscultation (crépitants), fréquence cardiaque, PA, pupilles, aisselles (sueurs)",
+    "Glycémie, SpO₂ ; ECG (QT long)",
+    "Différentiels : autres pesticides (paraquat, pyréthrinoïdes, amitraze), intoxication aux opioïdes (myosis), champignons, envenimation par cobra"
    ],
    "traitement": [
-    "Se protéger (gants), retirer les vêtements, laver la peau",
-    "Libérer les voies aériennes, oxygène, aspiration",
-    "ATROPINE : 1 à 2 mg IV (enfant 0,02 mg/kg), doubler la dose toutes les 5 min jusqu'à poumons secs, FC > 80, TA systolique > 80 mmHg ; puis perfusion d'entretien",
-    "Pralidoxime si disponible",
-    "Convulsions : diazépam",
-    "Charbon activé si ingestion récente et voies aériennes protégées",
-    "Pas de vomissements provoqués"
+    "Se protéger (gants, tablier), retirer les vêtements contaminés, laver la peau et les cheveux à l'eau et au savon",
+    "Libérer les voies aériennes, aspirer les sécrétions, position latérale, oxygène",
+    "ATROPINE sans attendre : 1,8 à 3 mg IV (enfant 0,02 à 0,05 mg/kg), puis doubler la dose toutes les 5 min jusqu'à atropinisation : poumons secs à l'auscultation, FC > 80/min, PA systolique > 80 mmHg, aisselles sèches, pupilles non punctiformes ; des dizaines voire des centaines de mg peuvent être nécessaires",
+    "Puis perfusion d'entretien : environ 10 à 20 % de la dose totale de charge par heure, adaptée toutes les 15 min au début ; réduire si signes de surdosage (agitation, confusion, fièvre, absence de bruits intestinaux, rétention urinaire)",
+    "La tachycardie et les pupilles dilatées ne sont pas des critères d'arrêt",
+    "Pralidoxime si disponible (organophosphorés) : 30 mg/kg IV en 30 min puis 8 mg/kg/h (bénéfice discuté)",
+    "Convulsions ou agitation : diazépam ou midazolam",
+    "Intubation et ventilation si détresse respiratoire ; éviter le suxaméthonium (effet très prolongé)",
+    "Charbon activé seulement si ingestion récente et voies aériennes protégées ; pas de vomissements provoqués",
+    "Surveillance d'au moins 48 à 72 h (syndrome intermédiaire, rechute par absorption retardée ou produit liposoluble)",
+    "Évaluation psychiatrique et prévention du suicide avant la sortie"
    ],
    "gravite": [
-    "Détresse respiratoire, bronchorrhée",
+    "Détresse respiratoire, bronchorrhée, bradycardie, hypotension",
     "Coma, convulsions",
-    "Syndrome intermédiaire (faiblesse 1 à 4 jours après)"
+    "Syndrome intermédiaire (faiblesse 1 à 4 jours après)",
+    "Intoxication volontaire"
    ],
    "prevention": [
-    "Stockage sécurisé des pesticides, équipements de protection ; évaluer le risque suicidaire"
+    "Stockage sécurisé des pesticides (sous clé, dans l'emballage d'origine, jamais dans des bouteilles de boisson)",
+    "Équipements de protection lors des pulvérisations, lavage après usage",
+    "Retrait des pesticides les plus dangereux (politique de l'OMS)",
+    "Évaluer le risque suicidaire, soutien psychosocial des communautés rurales"
    ],
    "medicaments": [
     "Atropine",
     "Diazépam",
+    "Midazolam",
     "Oxygène",
     "Charbon activé",
-    "Midazolam"
+    "Ringer lactate"
    ]
   },
   {
@@ -43791,50 +44057,63 @@
    "nom": "Évaluation préanesthésique et anesthésie générale",
    "categorie": "chirurgie",
    "synonymes": "anesthésie, consultation préanesthésique, jeûne, intubation, séquence rapide, ASA",
-   "resume": "Bases de la sécurité anesthésique : évaluer le patient, préparer le matériel, choisir la technique (anesthésie générale, rachianesthésie, kétamine, anesthésie locale) et surveiller.",
+   "resume": "Bases de la sécurité anesthésique, adaptées aux structures à ressources limitées : évaluer le patient, préparer le matériel, choisir la technique (anesthésie générale, rachianesthésie, kétamine, anesthésie locale ou locorégionale) et surveiller en continu, au minimum par oxymétrie de pouls (initiative Lifebox). La liste de contrôle de la sécurité chirurgicale de l'OMS réduit la mortalité et les complications.",
    "signes": [
-    "Évaluation : antécédents, allergies, traitements, anesthésies antérieures et familiales (hyperthermie maligne)",
-    "Classe ASA",
-    "Critères d'intubation difficile (ouverture de bouche, Mallampati, mobilité du cou)",
-    "Estomac plein (urgence, grossesse, occlusion)"
+    "Évaluation : antécédents (cardiaques, respiratoires, diabète, HTA, drépanocytose, VIH, épilepsie), allergies, traitements, anesthésies antérieures et antécédents familiaux (hyperthermie maligne, déficit en pseudocholinestérase)",
+    "Classe ASA (I patient sain à V moribond, E urgence)",
+    "Critères d'intubation difficile : ouverture de bouche < 3 doigts, classe de Mallampati 3 ou 4, cou court ou raide, menton fuyant, obésité, grossesse, dents proéminentes, tumeur du cou",
+    "Estomac plein : urgence, grossesse (au-delà de 16 semaines), occlusion, traumatisme, douleur, diabète avec gastroparésie",
+    "Enfant : poids, infection respiratoire récente, jeûne"
    ],
    "diagnostic": [
-    "Hémoglobine, groupe sanguin selon la chirurgie",
-    "Glycémie, créatinine, ECG selon le terrain",
-    "Jeûne : solides 6 h, lait maternel 4 h, liquides clairs 2 h"
+    "Examens orientés par le terrain et la chirurgie : hémoglobine et groupe sanguin (chirurgie hémorragique, césarienne), test drépanocytaire dans les populations à risque, glycémie, créatinine, ionogramme, ECG (plus de 50 ans ou maladie cardiaque), test de grossesse",
+    "Jeûne : liquides clairs (eau, thé sucré) jusqu'à 2 h avant, lait maternel 4 h, lait artificiel et repas léger 6 h, repas gras 8 h",
+    "Traitements : poursuivre les antihypertenseurs (sauf IEC le matin selon l'avis), les antiépileptiques, les ARV ; adapter l'insuline (moitié de la dose de NPH) ; arrêter la metformine le jour de l'intervention ; anticoagulants selon le délai ; couverture par hydrocortisone si corticothérapie prolongée"
    ],
    "traitement": [
-    "Liste de contrôle OMS de la sécurité chirurgicale",
-    "Matériel vérifié : aspiration, oxygène, ballon et masque, laryngoscope, sondes, médicaments d'urgence",
-    "Induction en séquence rapide (estomac plein) : préoxygénation 3 min, kétamine ou propofol, suxaméthonium, intubation sans ventilation au masque",
-    "Entretien : halogéné (isoflurane, sévoflurane) ± fentanyl, curare non dépolarisant si nécessaire",
-    "Kétamine seule en l'absence d'anesthésiste (ventilation spontanée)",
-    "Décurarisation : néostigmine + atropine",
-    "Surveillance SpO₂, TA, FC, capnographie si disponible ; salle de réveil"
+    "Liste de contrôle OMS de la sécurité chirurgicale à chaque intervention (avant l'induction, avant l'incision, avant la sortie du bloc)",
+    "Matériel vérifié avant chaque anesthésie : aspiration, oxygène (concentrateur ou bouteille), ballon et masques, canules, laryngoscope à piles, sondes d'intubation de plusieurs tailles et mandrin, oxymètre, tensiomètre, médicaments d'urgence (adrénaline, atropine, éphédrine)",
+    "Anesthésie locorégionale à privilégier quand c'est possible : rachianesthésie à la bupivacaïne hyperbare 0,5 % (césarienne : 10 à 12,5 mg) ; blocs nerveux ; anesthésie locale",
+    "Kétamine seule (ventilation spontanée conservée), utile en l'absence d'anesthésiste : 1 à 2 mg/kg IV (5 à 10 mg/kg IM), réinjections de la moitié de la dose ; associer atropine (sécrétions) et midazolam (agitation au réveil) ; oxygène",
+    "Induction en séquence rapide (estomac plein) : préoxygénation 3 min, kétamine 1 à 2 mg/kg (patient instable) ou propofol 1,5 à 2,5 mg/kg, suxaméthonium 1 à 1,5 mg/kg, intubation sans ventilation au masque ; vérifier la position de la sonde (capnographie, auscultation)",
+    "Entretien : halogéné (isoflurane, sévoflurane) ± fentanyl 1 à 2 µg/kg ou morphine ; curare non dépolarisant (atracurium 0,5 mg/kg) si nécessaire ; décurarisation : néostigmine 0,05 mg/kg + atropine 0,02 mg/kg",
+    "Surveillance continue : SpO₂ (obligatoire), PA toutes les 5 min, FC, ECG, capnographie et température si disponibles ; remplissage adapté aux pertes ; prévention de l'hypothermie (enfant)",
+    "Antibioprophylaxie : céfazoline 2 g IV dans les 60 min avant l'incision (césarienne, chirurgie propre-contaminée)",
+    "Salle de réveil : surveillance jusqu'au réveil complet, analgésie, nausées (ondansétron)",
+    "Drépanocytaire : éviter hypoxie, hypothermie, déshydratation et acidose ; transfusion préopératoire (Hb environ 10 g/dl) avant une chirurgie majeure"
    ],
    "gravite": [
-    "Intubation difficile imprévue : ventiler au masque, appeler à l'aide, ne pas multiplier les tentatives",
+    "Intubation difficile imprévue : ventiler au masque, appeler à l'aide, ne pas multiplier les tentatives (maximum 3), dispositif supraglottique ; « impossible d'intuber, impossible d'oxygéner » : cricothyrotomie",
     "Inhalation de liquide gastrique",
-    "Hypotension sévère"
+    "Hypotension sévère, arrêt cardiaque",
+    "Hypoxie (vérifier : sonde déplacée, obstruction, pneumothorax, défaillance du matériel)"
    ],
    "prevention": [
-    "Évaluation systématique avant toute anesthésie programmée"
+    "Évaluation systématique avant toute anesthésie programmée",
+    "Formation continue des équipes, simulation des situations d'urgence",
+    "Oxymètre de pouls disponible pour chaque anesthésie"
    ],
    "medicaments": [
     "Kétamine",
     "Propofol",
     "Isoflurane",
     "Sévoflurane",
+    "Protoxyde d'azote (N₂O)",
     "Fentanyl",
+    "Morphine",
     "Suxaméthonium",
     "Atracurium",
     "Vécuronium",
     "Néostigmine",
     "Atropine",
     "Midazolam",
-    "Oxygène",
-    "Protoxyde d'azote (N₂O)",
-    "Bupivacaïne hyperbare 0,5 %"
+    "Bupivacaïne hyperbare 0,5 %",
+    "Lidocaïne (lignocaïne)",
+    "Éphédrine",
+    "Adrénaline (épinéphrine)",
+    "Céfazoline",
+    "Ondansétron",
+    "Oxygène"
    ]
   },
   {
@@ -43842,41 +44121,60 @@
    "nom": "Complications de l'anesthésie (hyperthermie maligne, toxicité des anesthésiques locaux, rachianesthésie)",
    "categorie": "chirurgie",
    "synonymes": "hyperthermie maligne, toxicité anesthésique local, rachianesthésie totale, hypotension rachianesthésie, anaphylaxie peropératoire, laryngospasme",
-   "resume": "Urgences rares mais mortelles au bloc opératoire : à connaître et à préparer.",
+   "resume": "Urgences rares mais mortelles au bloc opératoire, qui doivent être connues, affichées et préparées : hyperthermie maligne, toxicité systémique des anesthésiques locaux, hypotension et rachianesthésie totale, laryngospasme, bronchospasme, anaphylaxie peropératoire, inhalation. La surveillance continue (oxymétrie, PA, capnographie) permet de les reconnaître tôt.",
    "signes": [
-    "Hyperthermie maligne (après halogéné ou suxaméthonium) : hausse du CO₂ expiré, tachycardie, rigidité musculaire, puis fièvre élevée, hyperkaliémie",
-    "Toxicité des anesthésiques locaux : goût métallique, engourdissement des lèvres, acouphènes, convulsions, troubles du rythme, arrêt cardiaque",
-    "Rachianesthésie haute ou totale : hypotension, bradycardie, difficulté à respirer, perte de conscience",
-    "Laryngospasme : stridor puis absence de ventilation à l'induction ou au réveil"
+    "Hyperthermie maligne (après halogéné ou suxaméthonium, chez un sujet prédisposé) : hausse inexpliquée du CO₂ expiré, tachycardie, rigidité musculaire (mâchoire), puis fièvre élevée, sueurs, acidose, hyperkaliémie, troubles du rythme, urines foncées (myoglobine)",
+    "Toxicité des anesthésiques locaux : goût métallique, engourdissement des lèvres, acouphènes, agitation, puis convulsions, troubles du rythme, collapsus, arrêt cardiaque (bupivacaïne surtout)",
+    "Rachianesthésie : hypotension, bradycardie, nausées ; rachianesthésie haute ou totale : faiblesse des mains, difficulté à respirer, perte de conscience, apnée",
+    "Céphalées après ponction durale : céphalées en position debout, calmées couché",
+    "Laryngospasme : stridor puis absence de ventilation à l'induction ou au réveil, désaturation",
+    "Bronchospasme : sifflements, pressions élevées",
+    "Anaphylaxie peropératoire : hypotension, bronchospasme, rougeur",
+    "Inhalation : désaturation, sifflements après vomissement"
    ],
    "diagnostic": [
-    "Diagnostic clinique, surveillance continue",
-    "Kaliémie, gaz du sang si disponibles"
+    "Diagnostic clinique sur la surveillance continue (SpO₂, PA, FC, capnographie, température)",
+    "Potassium, gaz du sang, CPK si disponibles (hyperthermie maligne)",
+    "Dose d'anesthésique local injectée (calcul par kg)",
+    "Différentiels : sepsis, thyréotoxicose, hypoventilation (CO₂ élevé), sonde mal placée ou obstruée"
    ],
    "traitement": [
-    "Hyperthermie maligne : arrêter l'halogéné, hyperventiler en O₂ pur, dantrolène 2,5 mg/kg IV si disponible, refroidir, traiter l'hyperkaliémie",
-    "Toxicité des anesthésiques locaux : arrêter l'injection, oxygène, benzodiazépine pour les convulsions, émulsion lipidique 20 % (1,5 ml/kg en bolus) si disponible, RCP prolongée",
-    "Hypotension de la rachianesthésie : remplissage, éphédrine 3 à 6 mg IV (ou adrénaline à faible dose), décubitus latéral gauche chez la femme enceinte",
-    "Rachianesthésie totale : intubation, ventilation, vasopresseurs",
-    "Laryngospasme : O₂ en pression positive, approfondir l'anesthésie (propofol), suxaméthonium à faible dose si persistance"
+    "Hyperthermie maligne : arrêter l'halogéné et le suxaméthonium, hyperventiler en oxygène pur à haut débit, changer les circuits si possible, dantrolène 2,5 mg/kg IV (à répéter jusqu'à 10 mg/kg) s'il est disponible, refroidissement (solutés froids, glace), traitement de l'hyperkaliémie (calcium, insuline-glucose) et des troubles du rythme, diurèse abondante ; terminer la chirurgie au plus vite ; informer le patient et sa famille",
+    "Toxicité des anesthésiques locaux : arrêter l'injection, oxygène, ventilation, benzodiazépine (diazépam, midazolam) pour les convulsions ; émulsion lipidique 20 % : 1,5 ml/kg en bolus en 1 min, puis 0,25 ml/kg/min, bolus à répéter 2 fois si nécessaire (maximum 12 ml/kg) ; réanimation cardio-pulmonaire prolongée (adrénaline à doses réduites, ≤ 1 µg/kg), pas de lidocaïne contre les arythmies",
+    "Hypotension de la rachianesthésie : remplissage, éphédrine 3 à 6 mg IV à répéter (ou adrénaline 10 µg) ; bradycardie : atropine 0,5 mg ; femme enceinte : décubitus latéral gauche ou utérus récliné à gauche",
+    "Rachianesthésie totale : oxygène, ventilation, intubation, vasopresseurs, atropine ; rassurer (récupération en 1 à 2 h) ; sédation pendant la ventilation",
+    "Céphalées après ponction : repos, hydratation, antalgiques, caféine ; blood patch si persistance",
+    "Laryngospasme : subluxation de la mâchoire, oxygène pur en pression positive continue, approfondir l'anesthésie (propofol 0,5 à 1 mg/kg), suxaméthonium à faible dose (0,1 à 0,5 mg/kg IV, ou 4 mg/kg IM) + atropine chez l'enfant si persistance",
+    "Bronchospasme : approfondir l'anesthésie, salbutamol, adrénaline si sévère",
+    "Anaphylaxie : adrénaline IV par bolus de 10 à 50 µg titrés (voir la fiche dédiée), remplissage",
+    "Inhalation : aspiration, position tête basse, intubation, oxygène ; pas d'antibiotique ni de corticoïde systématiques"
    ],
    "gravite": [
     "Arrêt cardiaque",
-    "Hyperthermie > 40 °C, hyperkaliémie"
+    "Hyperthermie > 40 °C, hyperkaliémie, acidose",
+    "Apnée (rachianesthésie totale)",
+    "Désaturation persistante"
    ],
    "prevention": [
-    "Interrogatoire sur les antécédents familiaux, respect des doses maximales d'anesthésiques locaux (lidocaïne 3 mg/kg, 7 mg/kg avec adrénaline ; bupivacaïne 2 mg/kg), aspiration avant injection"
+    "Interrogatoire sur les antécédents familiaux (hyperthermie maligne) ; éviter halogénés et suxaméthonium chez les sujets à risque",
+    "Respect des doses maximales d'anesthésiques locaux (lidocaïne 3 à 4,5 mg/kg, 7 mg/kg avec adrénaline ; bupivacaïne 2 mg/kg), aspiration avant injection, injection lente fractionnée",
+    "Surveillance continue par oxymétrie et capnographie",
+    "Affichage des protocoles et disponibilité des médicaments d'urgence (et de l'émulsion lipidique et du dantrolène si possible)"
    ],
    "medicaments": [
     "Éphédrine",
     "Adrénaline (épinéphrine)",
+    "Atropine",
     "Diazépam",
     "Midazolam",
-    "Suxaméthonium",
     "Propofol",
+    "Suxaméthonium",
+    "Salbutamol",
     "Oxygène",
     "Ringer lactate",
-    "Gluconate de calcium 10 %"
+    "Gluconate de calcium 10 %",
+    "Insuline humaine (rapide et NPH)",
+    "Glucose 10 %"
    ]
   },
   {
