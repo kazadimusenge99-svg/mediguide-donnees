@@ -1,5 +1,5 @@
 {
- "version": 31,
+ "version": 32,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -35764,46 +35764,65 @@
    "nom": "Pré-éclampsie et éclampsie",
    "categorie": "grossesse",
    "synonymes": "pré-éclampsie, éclampsie, HTA grossesse, toxémie gravidique, convulsions grossesse",
-   "resume": "Hypertension après 20 SA avec protéinurie ou atteinte d'organe. L'éclampsie (convulsions) est une urgence vitale pour la mère et l'enfant.",
+   "resume": "Hypertension apparue après 20 semaines de grossesse avec protéinurie ou atteinte d'un organe (rein, foie, sang, cerveau, placenta). Elle touche 5 à 8 % des grossesses et reste l'une des trois premières causes de décès maternel en RDC. Elle peut se compliquer d'éclampsie (convulsions), d'hématome rétroplacentaire, de HELLP syndrome, d'OAP, d'insuffisance rénale, d'AVC et de retard de croissance ou de mort fœtale. Le sulfate de magnésium, le contrôle de la PA et l'accouchement au bon moment sauvent la mère et l'enfant.",
    "signes": [
-    "TA ≥ 140/90 mmHg après 20 SA, protéinurie",
-    "Signes de sévérité : TA ≥ 160/110, céphalées intenses, troubles visuels, douleur épigastrique, oligurie, OAP",
-    "Éclampsie : convulsions généralisées"
+    "PA ≥ 140/90 mmHg à 2 reprises après 20 semaines, avec protéinurie (≥ ++ à la bandelette ou ≥ 300 mg/24 h) ou atteinte d'organe",
+    "Œdèmes du visage et des mains, prise de poids rapide (non indispensables au diagnostic)",
+    "Signes de sévérité : PA ≥ 160/110 ; céphalées intenses ; troubles visuels (mouches, flou, cécité) ; douleur épigastrique ou de l'hypochondre droit, vomissements ; oligurie (< 400 ml/24 h) ; essoufflement (OAP) ; hyperréflexie, clonus ; plaquettes < 100 000/mm³, transaminases doublées, créatinine > 1,1 mg/dl, hémolyse (HELLP) ; retard de croissance fœtale",
+    "Éclampsie : convulsions généralisées pendant la grossesse, le travail ou jusqu'à 6 semaines après l'accouchement (souvent dans les 48 h), parfois sans HTA sévère préalable",
+    "Hématome rétroplacentaire : douleur abdominale brutale, utérus dur (« de bois »), saignement noir, choc, disparition des bruits du cœur fœtal"
    ],
    "diagnostic": [
-    "Mesure de la TA à chaque CPN",
+    "Mesure de la PA à chaque consultation, en position assise, brassard adapté",
     "Bandelette urinaire (protéinurie)",
-    "Bilan si disponible : plaquettes, créatinine, transaminases"
+    "Bilan si disponible : NFS (plaquettes), créatinine, transaminases, LDH, acide urique, test de coagulation au lit (sang qui coagule en moins de 7 min)",
+    "Évaluation fœtale : hauteur utérine, bruits du cœur, mouvements, échographie (croissance, liquide, Doppler)",
+    "Âge gestationnel exact",
+    "Différentiels des convulsions : paludisme grave, méningite, épilepsie, hypoglycémie, intoxication"
    ],
    "traitement": [
-    "Pré-éclampsie sévère et éclampsie : sulfate de magnésium (protocole Zuspan ou Pritchard) jusqu'à 24 h après l'accouchement ou la dernière crise",
-    "TA ≥ 160/110 : nifédipine orale, hydralazine IV ou labétalol (objectif 140–150/90–100)",
-    "Accouchement selon le terme et l'état maternel (seul traitement curatif)",
-    "Surveillance : réflexes, FR, diurèse",
-    "Traitement de fond : méthyldopa ou nifédipine LP",
-    "Pré-éclampsie sans signe de gravité : surveillance de la PA, de la protéinurie et du fœtus ; accouchement à 37 SA",
-    "Post-partum : surveiller la PA au moins 72 h (une éclampsie peut survenir après l'accouchement)",
-    "Grossesse suivante : aspirine 75 à 150 mg le soir dès 12 SA et calcium si l'apport alimentaire est faible"
+    "Pré-éclampsie sévère et éclampsie : sulfate de magnésium jusqu'à 24 h après l'accouchement ou la dernière crise ; Zuspan : 4 g IV en 20 min puis 1 g/h en perfusion ; ou Pritchard : 4 g IV en 20 min + 10 g IM (5 g dans chaque fesse, avec lidocaïne), puis 5 g IM toutes les 4 h en alternant les fesses",
+    "Nouvelle convulsion : 2 g IV supplémentaires en 5 min",
+    "Avant chaque dose et toutes les heures : réflexes rotuliens présents, FR > 16/min, diurèse > 30 ml/h (100 ml en 4 h) ; sinon suspendre ; toxicité (réflexes abolis, dépression respiratoire) : gluconate de calcium 10 % 10 ml (1 g) IV en 10 min, ventilation",
+    "Crise d'éclampsie : position latérale gauche, liberté des voies aériennes, oxygène, protéger contre les chutes, sulfate de magnésium (le diazépam seulement si le magnésium est indisponible), ne jamais laisser la patiente seule",
+    "PA ≥ 160/110 : nifédipine orale à libération immédiate 10 mg, à répéter après 30 min si nécessaire ; ou hydralazine 5 mg IV lente, à répéter toutes les 20 min (maximum 20 mg) ; ou labétalol 20 mg IV, puis 40 et 80 mg toutes les 10 min (maximum 220 mg) ; objectif PA systolique 140 à 150 et diastolique 90 à 100, sans baisse brutale (souffrance fœtale) ; jamais de nifédipine sublinguale",
+    "Liquides limités (environ 80 ml/h) ; sonde urinaire, bilan entrées-sorties (risque d'OAP)",
+    "Accouchement (seul traitement curatif), après stabilisation : éclampsie dans les 12 h ; pré-éclampsie sévère dans les 24 h au-delà de 34 semaines ; avant 34 semaines, corticoïdes (dexaméthasone) et prolongation seulement dans un centre spécialisé si la mère et le fœtus sont stables ; voie basse possible (déclenchement), césarienne selon l'indication obstétricale ; ocytocine pour la délivrance (pas d'ergométrine)",
+    "Pré-éclampsie sans signe de gravité : surveillance de la PA 2 fois par semaine, de la protéinurie, des signes et du fœtus ; méthyldopa 250 à 500 mg 2 à 3 fois par jour ou nifédipine LP 20 à 30 mg 1 à 2 fois par jour si PA ≥ 150/100 ; accouchement à 37 semaines",
+    "Post-partum : PA toutes les 4 h pendant au moins 72 h (éclampsie possible après l'accouchement), poursuivre ou adapter le traitement (nifédipine, énalapril compatibles avec l'allaitement) ; contrôle à J3-J6 puis à 6 semaines ; risque cardiovasculaire augmenté à vie : dépister l'HTA chaque année",
+    "Grossesse suivante : aspirine 75 à 150 mg le soir dès 12 semaines (idéalement avant 16) jusqu'à 36 semaines, et calcium 1,5 à 2 g par jour si l'apport alimentaire est faible"
    ],
    "gravite": [
     "Convulsions, troubles de conscience",
-    "TA ≥ 160/110 persistante",
-    "OAP, oligurie",
-    "Hématome rétroplacentaire, HELLP"
+    "PA ≥ 160/110 persistante malgré le traitement",
+    "OAP, oligurie, créatinine en hausse",
+    "HELLP (plaquettes basses, hémolyse, transaminases élevées)",
+    "Hématome rétroplacentaire, hémorragie",
+    "Signes d'AVC (déficit, céphalée brutale)",
+    "Souffrance ou mort fœtale"
    ],
    "prevention": [
-    "Aspirine à faible dose dès 12 SA chez les femmes à risque",
-    "Supplémentation en calcium si apports faibles",
-    "Mesure de la TA à chaque CPN"
+    "Mesure de la PA et bandelette urinaire à chaque CPN",
+    "Aspirine à faible dose dès 12 semaines chez les femmes à risque : antécédent de pré-éclampsie, HTA chronique, diabète, maladie rénale ou auto-immune, grossesse multiple, ou au moins 2 facteurs modérés (1re grossesse, âge ≥ 35 ans, obésité, antécédent familial)",
+    "Supplémentation en calcium (1,5 à 2 g par jour) si apports faibles",
+    "Éducation sur les signes de danger (céphalées, troubles visuels, douleur épigastrique)",
+    "Disponibilité du sulfate de magnésium dans toutes les maternités"
    ],
    "medicaments": [
     "Sulfate de magnésium",
     "Gluconate de calcium 10 %",
     "Nifédipine",
     "Hydralazine (dihydralazine)",
+    "Labétalol",
     "Méthyldopa",
+    "Énalapril",
+    "Dexaméthasone",
+    "Ocytocine",
     "Acide acétylsalicylique (aspirine)",
-    "Diazépam"
+    "Carbonate de calcium",
+    "Diazépam",
+    "Oxygène",
+    "Lidocaïne (lignocaïne)"
    ]
   },
   {
@@ -35811,53 +35830,65 @@
    "nom": "Hémorragie du post-partum",
    "categorie": "grossesse",
    "synonymes": "HPP, hémorragie de la délivrance, saignement après accouchement",
-   "resume": "Perte de sang ≥ 500 ml après un accouchement par voie basse (≥ 1 000 ml après césarienne). Première cause de mortalité maternelle.",
+   "resume": "Perte de sang ≥ 500 ml dans les 24 h suivant un accouchement par voie basse (≥ 1 000 ml après césarienne), ou toute perte qui entraîne des signes de choc ; l'OMS recommande d'agir dès 300 ml si les signes vitaux sont anormaux. Première cause de décès maternel en RDC et dans le monde ; la mort peut survenir en moins de 2 h. La prévention systématique par l'ocytocine, la mesure objective des pertes et l'application immédiate d'un ensemble de mesures (MOTIVE : massage, ocytocine, acide tranexamique, perfusion, examen, escalade) réduisent fortement la mortalité.",
    "signes": [
-    "Saignement abondant après la naissance",
-    "Utérus mou et non rétracté (atonie, cause la plus fréquente)",
-    "Pouls rapide, TA basse, pâleur, choc",
-    "Causes : atonie, rétention placentaire, déchirures, troubles de la coagulation"
+    "Saignement vaginal abondant après la naissance de l'enfant ou du placenta, parfois insidieux (filet continu) ou caché dans l'utérus",
+    "Causes (4 T) : Tonus (utérus mou, non rétracté : atonie, 70 % des cas), Trauma (déchirures du col, du vagin, du périnée, rupture utérine, inversion utérine), Tissu (rétention du placenta ou de cotylédons), Thrombine (troubles de la coagulation : pré-éclampsie, hématome rétroplacentaire, mort fœtale, sepsis)",
+    "Signes de choc : pouls > 100/min, PA systolique < 90 mmHg, indice de choc (pouls / PA systolique) ≥ 1, pâleur, sueurs, agitation, confusion, oligurie",
+    "Facteurs de risque : grande multiparité, travail prolongé ou déclenché, grossesse multiple, gros bébé, hydramnios, antécédent d'HPP, anémie, césarienne, placenta praevia"
    ],
    "diagnostic": [
-    "Estimer les pertes (champs, récipient)",
-    "Examiner le placenta (complet ?) et le périnée",
-    "Hb, groupe sanguin, test de coagulation au lit"
+    "Mesurer les pertes avec un sac de recueil gradué placé sous la fesse dès la naissance (l'estimation visuelle sous-estime)",
+    "Palper l'utérus (mou ou ferme), examiner le placenta (complet ?)",
+    "Examiner au spéculum le col, le vagin et le périnée sous bon éclairage",
+    "Pouls, PA, conscience, diurèse toutes les 15 min",
+    "Hémoglobine, groupe sanguin et compatibilité, test de coagulation au lit (tube sec : caillot en moins de 7 min, sinon coagulopathie)"
    ],
    "traitement": [
-    "Appeler de l'aide, 2 voies veineuses, Ringer lactate ou NaCl 0,9 %",
-    "Massage utérin, vidange de la vessie",
-    "Ocytocine 10 UI IV lente puis perfusion",
-    "Acide tranexamique 1 g IV en 10 min dans les 3 h",
-    "Misoprostol 800 µg sublingual si l'ocytocine est insuffisante ou indisponible",
-    "Délivrance artificielle si rétention, suture des déchirures",
-    "Transfusion selon les pertes",
-    "Compression bimanuelle, tamponnement par ballonnet ; chirurgie si échec",
-    "Mesurer les pertes avec un sac de recueil gradué : alerte dès 300 ml avec signes anormaux, hémorragie à 500 ml ; appliquer d'emblée l'ensemble des mesures (OMS 2023, E-MOTIVE)",
-    "Ocytocine : 10 UI IV lente ou IM, puis 20 UI dans 1 litre à 60 gouttes par minute",
-    "Prévention chez toutes les femmes : ocytocine 10 UI IM (ou carbétocine 100 µg) dès la naissance"
+    "Appeler de l'aide, débuter l'ensemble des mesures dans les 15 min",
+    "Massage utérin continu, vidange de la vessie (sonde)",
+    "Ocytocine 10 UI IV lente (ou IM), puis perfusion de 20 à 40 UI dans 1 litre de Ringer lactate ou de sérum physiologique à 60 gouttes par minute",
+    "Acide tranexamique 1 g IV en 10 min, le plus tôt possible et dans les 3 h suivant la naissance ; 2e dose de 1 g si le saignement continue après 30 min ou reprend dans les 24 h",
+    "2 voies veineuses de gros calibre, cristalloïdes (Ringer lactate ou sérum physiologique) chauds, oxygène, jambes surélevées, garder au chaud",
+    "Atonie persistante : ergométrine 0,2 mg IM (pas en cas d'HTA ou de pré-éclampsie), ou misoprostol 800 µg sublingual ; carbétocine 100 µg IV si disponible",
+    "Compression bimanuelle de l'utérus, compression de l'aorte abdominale ; tamponnement intra-utérin par ballonnet (sonde et préservatif rempli de 300 à 500 ml de sérum) ; vêtement antichoc non pneumatique pour le transfert",
+    "Placenta non délivré 30 min après l'ocytocine ou rétention de cotylédons : délivrance artificielle ou révision utérine sous analgésie, avec antibiotique en dose unique (ampicilline 2 g ou céfazoline 2 g IV)",
+    "Déchirures : suture sous anesthésie locale ou générale ; inversion utérine : réduction immédiate ; rupture utérine : laparotomie",
+    "Transfusion de sang total ou de culot sans attendre si choc ou saignement important ; coagulopathie : plasma frais congelé, cryoprécipité, plaquettes",
+    "Échec du traitement médical : laparotomie (sutures de compression B-Lynch, ligatures des artères utérines, hystérectomie), en anticipant tôt le transfert vers une structure chirurgicale",
+    "Après l'hémorragie : surveillance rapprochée pendant 24 h, hémoglobine, fer (ou transfusion), allaitement, information de la patiente, revue du cas (audit des décès et des quasi-décès)"
    ],
    "gravite": [
-    "Choc hémorragique",
-    "Saignement persistant malgré l'ocytocine",
-    "Troubles de la coagulation (sang qui ne coagule pas)"
+    "Choc hémorragique (indice de choc ≥ 1,4 : transfusion urgente)",
+    "Saignement persistant malgré l'ocytocine et l'acide tranexamique",
+    "Sang qui ne coagule pas (coagulopathie)",
+    "Rupture ou inversion utérine",
+    "Anémie préexistante sévère"
    ],
    "prevention": [
-    "Gestion active de la 3e phase : ocytocine 10 UI IM à la naissance",
-    "Surveillance du post-partum immédiat (2 h)",
-    "Traitement de l'anémie pendant la grossesse"
+    "Gestion active de la 3e phase pour toutes les femmes : ocytocine 10 UI IM ou IV dans la minute suivant la naissance (ou carbétocine thermostable 100 µg ; misoprostol 400 à 600 µg oral si rien d'autre), traction contrôlée du cordon par un personnel qualifié",
+    "Mesure des pertes au sac gradué, surveillance rapprochée pendant les 2 h suivant l'accouchement (pouls, PA, utérus, saignement toutes les 15 min)",
+    "Traitement de l'anémie pendant la grossesse",
+    "Repérer les femmes à risque et les faire accoucher dans une structure qui peut transfuser et opérer",
+    "Disponibilité de sang (banques de sang, donneurs familiaux)"
    ],
    "medicaments": [
     "Ocytocine",
-    "Misoprostol",
+    "Carbétocine (thermostable)",
     "Acide tranexamique",
+    "Misoprostol",
+    "Ergométrine (méthylergométrine)",
     "Ringer lactate",
     "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Sang total",
     "Concentré de globules rouges (culot globulaire)",
     "Plasma frais congelé (PFC)",
     "Cryoprécipité",
-    "Ergométrine (méthylergométrine)",
-    "Carbétocine (thermostable)"
+    "Concentré plaquettaire",
+    "Ampicilline",
+    "Céfazoline",
+    "Oxygène",
+    "Sulfate ferreux"
    ]
   },
   {
@@ -38089,35 +38120,52 @@
    "nom": "Consultation prénatale (suivi de grossesse)",
    "categorie": "grossesse",
    "synonymes": "CPN, consultation prénatale, suivi de grossesse, femme enceinte",
-   "resume": "L'OMS recommande au moins 8 contacts pendant la grossesse, le premier avant 12 semaines.",
+   "resume": "Le suivi de la grossesse permet de dépister et de traiter tôt les problèmes de la mère et de l'enfant, de prévenir le paludisme, l'anémie, le tétanos, la transmission du VIH, de la syphilis et de l'hépatite B, et de préparer l'accouchement. L'OMS recommande au moins 8 contacts, le premier avant 12 semaines (puis à 20, 26, 30, 34, 36, 38 et 40 semaines) ; la RDC applique la CPN recentrée avec au moins 4 visites, en visant le modèle de 8 contacts.",
    "signes": [
-    "À chaque contact : TA, poids, hauteur utérine, bruits du cœur fœtal (après 20 SA), recherche d'œdèmes et de signes de danger (saignements, céphalées, troubles visuels, fièvre, perte de liquide, diminution des mouvements fœtaux)"
+    "À chaque contact : PA, poids, hauteur utérine, bruits du cœur fœtal (après 20 semaines), présentation (après 36 semaines), œdèmes, pâleur, périmètre brachial (malnutrition si < 23 cm)",
+    "Rechercher les signes de danger : saignements, céphalées intenses, troubles visuels, convulsions, fièvre, perte de liquide, contractions avant 37 semaines, diminution des mouvements fœtaux, douleurs abdominales, essoufflement",
+    "Plaintes fréquentes : nausées et vomissements, brûlures d'estomac, constipation, crampes, lombalgies, varices, pertes vaginales",
+    "Dépistage des violences et de la dépression"
    ],
    "diagnostic": [
-    "Dépistages : VIH, syphilis, hépatite B, groupe sanguin et Rh, hémoglobine, bandelette urinaire (protéines, glucose)",
-    "Échographie avant 24 SA si disponible"
+    "1re visite : date des dernières règles et terme prévu ; échographie avant 24 semaines si disponible (âge gestationnel, grossesse multiple, placenta, malformations)",
+    "Tests : VIH, syphilis (test combiné VIH-syphilis), AgHBs (triple élimination), hémoglobine, groupe sanguin et Rhésus, bandelette urinaire (protéines, glucose, bactériurie)",
+    "Répéter le test VIH au 3e trimestre (et pendant l'allaitement) ; hémoglobine au 3e trimestre",
+    "Glycémie à jeun ou HGPO à 24-28 semaines chez les femmes à risque (diabète gestationnel si à jeun ≥ 92 mg/dl, 1 h ≥ 180, 2 h ≥ 153)",
+    "TDR paludisme si fièvre"
    ],
    "traitement": [
-    "Fer + acide folique chaque jour",
-    "TPI à la SP à partir de 13 SA, à chaque contact (au moins 1 mois d'intervalle)",
-    "Vaccination antitétanique (Td)",
-    "Moustiquaire imprégnée",
-    "Albendazole au 2e trimestre",
-    "Calcium si apport faible ; aspirine à faible dose dès 12 SA si risque de pré-éclampsie",
-    "Traiter : syphilis, VIH (ARV), hépatite B (TDF si indiqué)",
-    "Plan d'accouchement, conseils de planification familiale"
+    "Fer (30 à 60 mg de fer élément) + acide folique 0,4 mg chaque jour pendant toute la grossesse ; anémie (Hb < 11 g/dl) : 120 mg de fer par jour",
+    "Traitement préventif intermittent du paludisme par SP à chaque contact dès 13 semaines, à au moins 1 mois d'intervalle (au moins 3 doses), pas chez la femme sous cotrimoxazole ; moustiquaire imprégnée remise à la 1re visite",
+    "Vaccin antitétanique (Td) selon le statut : 2 doses à 4 semaines d'intervalle chez la femme non vaccinée, puis rappels (5 doses au total)",
+    "Albendazole 400 mg en dose unique après le 1er trimestre",
+    "Calcium 1,5 à 2 g par jour si l'apport alimentaire est faible ; aspirine 75 à 150 mg dès 12 semaines si risque de pré-éclampsie",
+    "Syphilis : benzathine benzylpénicilline 2,4 MUI IM (dose unique si syphilis récente, 3 doses à une semaine d'intervalle si ancienne ou d'ancienneté inconnue), traiter le partenaire",
+    "VIH : TLD le jour même (voir la fiche PTME) ; hépatite B : ténofovir dès 24-28 semaines selon les critères ; Rhésus négatif : anti-D à 28 semaines si disponible et dans les 72 h après l'accouchement",
+    "Bactériurie asymptomatique ou infection urinaire : nitrofurantoïne 5 jours ou amoxicilline (selon l'antibiogramme)",
+    "Nausées : petits repas fréquents, gingembre, pyridoxine ; vomissements importants : métoclopramide ou prométhazine, réhydratation ; brûlures d'estomac : antiacide ; constipation : fibres, eau",
+    "Diabète gestationnel : régime, activité physique, insuline si nécessaire",
+    "Conseils : nutrition (un repas supplémentaire par jour), signes de danger, plan d'accouchement (lieu, transport, argent, donneur de sang), allaitement exclusif, planification familiale du post-partum, accouchement dans une structure",
+    "Vaccin VRS maternel entre 28 et 36 semaines là où il est introduit",
+    "Malnutrition (périmètre brachial < 23 cm) : supplémentation nutritionnelle"
    ],
    "gravite": [
     "Saignements, convulsions, céphalées intenses, troubles visuels",
-    "Fièvre, perte de liquide, contractions avant 37 SA",
-    "Diminution des mouvements fœtaux",
-    "TA ≥ 140/90"
+    "Fièvre, perte de liquide, contractions avant 37 semaines",
+    "Diminution ou arrêt des mouvements fœtaux",
+    "PA ≥ 140/90",
+    "Hb < 7 g/dl, essoufflement",
+    "Présentation anormale à terme, grossesse multiple, cicatrice de césarienne : accouchement dans un hôpital"
    ],
    "prevention": [
-    "Accouchement assisté par un personnel qualifié ; planification familiale post-partum"
+    "Accouchement assisté par un personnel qualifié dans une structure de santé",
+    "Planification familiale du post-partum (espacement d'au moins 2 ans)",
+    "Consultation postnatale à J1-J3, J7-J14 et à 6 semaines"
    ],
    "medicaments": [
     "Fer + acide folique",
+    "Sulfate ferreux",
+    "Acide folique",
     "Sulfadoxine + pyriméthamine (SP)",
     "Vaccin antitétanique (Td / VAT)",
     "Albendazole",
@@ -38125,7 +38173,14 @@
     "Acide acétylsalicylique (aspirine)",
     "Benzathine benzylpénicilline",
     "Ténofovir + lamivudine + dolutégravir (TLD)",
-    "Ténofovir (TDF)"
+    "Ténofovir (TDF)",
+    "Immunoglobuline anti-D",
+    "Nitrofurantoïne",
+    "Pyridoxine (vitamine B6)",
+    "Métoclopramide",
+    "Hydroxyde d'aluminium + hydroxyde de magnésium",
+    "Insuline humaine (rapide et NPH)",
+    "Vaccin VRS maternel (RSVpreF)"
    ]
   },
   {
@@ -38133,34 +38188,48 @@
    "nom": "Fausse couche et avortement incomplet",
    "categorie": "grossesse",
    "synonymes": "fausse couche, avortement spontané, avortement incomplet, saignement début de grossesse, rétention",
-   "resume": "Perte de grossesse avant 22 semaines. L'avortement incomplet (rétention de débris) et l'avortement septique sont des causes importantes de mortalité maternelle.",
+   "resume": "Perte de grossesse avant 22 semaines (10 à 20 % des grossesses connues). L'avortement incomplet (rétention de débris), la grossesse arrêtée et l'avortement septique, souvent après un avortement non sécurisé, sont des causes importantes d'hémorragie, d'infection et de décès maternel. Les soins après avortement (évacuation par misoprostol ou aspiration manuelle, antibiotiques, contraception) doivent être offerts sans jugement. En RDC, le protocole de Maputo, publié au Journal officiel en 2018, autorise l'avortement sécurisé en cas d'agression sexuelle, de viol, d'inceste ou lorsque la grossesse met en danger la santé physique ou mentale de la mère ou la vie du fœtus.",
    "signes": [
-    "Saignements vaginaux et douleurs pelviennes chez une femme enceinte",
-    "Col ouvert, débris dans le vagin (incomplet)",
-    "Avortement septique : fièvre, pertes malodorantes, douleur abdominale, choc"
+    "Menace d'avortement : saignement modéré, col fermé, utérus de taille normale pour l'âge de la grossesse",
+    "Avortement inévitable : saignement abondant, col ouvert, contractions",
+    "Avortement incomplet : saignement, col ouvert, débris dans le col ou le vagin, utérus plus petit que prévu",
+    "Avortement complet : saignement qui diminue, col fermé, utérus vide",
+    "Grossesse arrêtée : disparition des signes de grossesse, pas d'activité cardiaque à l'échographie, parfois sans saignement",
+    "Avortement septique : fièvre, frissons, pertes malodorantes, douleur abdominale, utérus sensible, signes de sepsis ou de choc ; lésions du vagin ou du col, objet étranger (avortement non sécurisé)",
+    "Môle hydatiforme : saignements, utérus trop gros, vomissements importants, PA élevée précoce"
    ],
    "diagnostic": [
-    "Examen au spéculum, toucher vaginal",
-    "Échographie si disponible",
-    "Éliminer une grossesse extra-utérine",
-    "Hb, groupe et Rh"
+    "Examen au spéculum (saignement, col, débris, lésions) et toucher vaginal (taille de l'utérus, douleur)",
+    "Échographie si disponible (sac, activité cardiaque, débris, môle)",
+    "Test de grossesse ; éliminer une grossesse extra-utérine (douleur latérale, utérus vide, épanchement)",
+    "Hémoglobine, groupe sanguin et Rhésus",
+    "Avortement septique : NFS, hémocultures, recherche de perforation (douleur, défense, air sous les coupoles)",
+    "Môle : échographie (aspect en flocons de neige), β-hCG très élevée"
    ],
    "traitement": [
-    "Avortement incomplet < 13 semaines : misoprostol (600 µg oral ou 400 µg sublingual) ou aspiration manuelle intra-utérine (AMIU)",
-    "Mort fœtale : mifépristone + misoprostol",
-    "Avortement septique : antibiotiques IV (ampicilline + gentamicine + métronidazole), évacuation utérine rapide",
-    "Remplissage, transfusion si hémorragie",
-    "Anti-D si Rh négatif",
-    "Antalgiques, prévention du tétanos, contraception post-abortum",
-    "Soins après avortement sans jugement"
+    "Menace d'avortement : surveillance, pas de repos strict ni de traitement hormonal systématique ; revoir si le saignement augmente",
+    "Avortement incomplet avant 14 semaines : misoprostol 600 µg oral ou 400 µg sublingual en dose unique, ou aspiration manuelle intra-utérine (AMIU) sous bloc paracervical et antalgique ; pas de curetage à la curette métallique (risque de perforation et de synéchies)",
+    "Grossesse arrêtée avant 14 semaines : mifépristone 200 mg, puis 1 à 2 jours après misoprostol 800 µg sublingual ou vaginal (ou misoprostol seul 800 µg) ; ou AMIU",
+    "À partir de 14 semaines (mort fœtale ou avortement inévitable) : mifépristone 200 mg puis misoprostol 400 µg toutes les 3 h jusqu'à l'expulsion ; révision utérine si rétention placentaire",
+    "Avortement septique : antibiotiques IV dès le diagnostic (ampicilline 2 g toutes les 6 h + gentamicine 5 mg/kg par jour + métronidazole 500 mg toutes les 8 h), puis évacuation utérine rapide ; réanimation du choc ; vaccin et immunoglobuline antitétaniques si non vaccinée ; laparotomie si perforation, péritonite ou abcès",
+    "Hémorragie : voies veineuses, remplissage, ocytocine ou misoprostol, transfusion",
+    "Immunoglobuline anti-D si Rhésus négatif et grossesse de 12 semaines ou plus (ou geste instrumental)",
+    "Antalgiques : ibuprofène, paracétamol",
+    "Môle : évacuation par aspiration, puis surveillance de la β-hCG chaque semaine jusqu'à négativation et contraception (voir la fiche Tumeurs trophoblastiques)",
+    "Contraception post-abortum proposée immédiatement (toutes les méthodes possibles, y compris le DIU et l'implant le jour même après un avortement non compliqué)",
+    "Soutien psychologique ; fausses couches à répétition (3 ou plus) : bilan (syphilis, diabète, thyroïde, syndrome des antiphospholipides, malformation utérine, béance du col)"
    ],
    "gravite": [
     "Hémorragie abondante, choc",
-    "Fièvre, signes de sepsis",
-    "Douleur abdominale intense (perforation utérine, GEU)"
+    "Fièvre, signes de sepsis, choc septique",
+    "Douleur abdominale intense, défense (perforation utérine, lésion intestinale, GEU)",
+    "Tétanos (contractures) après avortement non sécurisé"
    ],
    "prevention": [
-    "Planification familiale, accès aux soins après avortement"
+    "Planification familiale et contraception d'urgence",
+    "Accès à l'avortement sécurisé dans le cadre légal et aux soins après avortement",
+    "Vaccination antitétanique",
+    "Éducation sexuelle des adolescents"
    ],
    "medicaments": [
     "Misoprostol",
@@ -38170,9 +38239,14 @@
     "Métronidazole",
     "Immunoglobuline anti-D",
     "Ringer lactate",
+    "Ocytocine",
+    "Lidocaïne (lignocaïne)",
     "Paracétamol",
     "Ibuprofène",
     "Vaccin antitétanique (Td / VAT)",
+    "Immunoglobuline humaine antitétanique",
+    "Implant contraceptif",
+    "Dispositif intra-utérin au cuivre (DIU)",
     "Cabergoline"
    ]
   },
@@ -38181,38 +38255,42 @@
    "nom": "Grossesse extra-utérine",
    "categorie": "grossesse",
    "synonymes": "GEU, grossesse extra-utérine, grossesse ectopique",
-   "resume": "Grossesse implantée hors de l'utérus (le plus souvent dans la trompe). La rupture provoque une hémorragie interne mortelle.",
+   "resume": "Grossesse implantée hors de la cavité utérine, dans la trompe dans plus de 95 % des cas. Elle touche 1 à 2 % des grossesses, davantage après une infection génitale haute. La rupture provoque une hémorragie interne mortelle en quelques heures : c'est la première cause de décès maternel du 1er trimestre. Y penser devant toute femme en âge de procréer avec douleur abdominale, saignement ou malaise.",
    "signes": [
-    "Retard de règles, petits saignements",
-    "Douleur pelvienne unilatérale",
-    "Rupture : douleur brutale, malaise, pâleur, douleur de l'épaule, choc",
-    "Défense abdominale, douleur au toucher vaginal (cul-de-sac)",
-    "Douleur à la mobilisation du col",
-    "Distension abdominale et matité des flancs (hémopéritoine)"
+    "Retard de règles (parfois absent), petits saignements noirâtres",
+    "Douleur pelvienne d'un côté, parfois discrète",
+    "Rupture : douleur brutale et intense, malaise, pâleur, sueurs, douleur de l'épaule (sang sous le diaphragme), envie d'aller à la selle, choc",
+    "Abdomen sensible, défense, distension et matité des flancs (hémopéritoine) ; au toucher vaginal : douleur à la mobilisation du col, cul-de-sac de Douglas bombé et douloureux",
+    "Facteurs de risque : antécédent d'infection génitale haute ou d'IST, de GEU, de chirurgie des trompes, grossesse sous DIU, procréation assistée, tabac"
    ],
    "diagnostic": [
-    "Test de grossesse positif + utérus vide à l'échographie",
-    "Ponction du cul-de-sac de Douglas (sang incoagulable) si échographie indisponible",
-    "Y penser devant toute femme en âge de procréer avec douleur abdominale, saignement ou malaise",
-    "β-hCG quantitatif si disponible : β-hCG > 1 500 à 2 000 UI/l avec utérus vide à l'échographie = forte suspicion",
-    "Échographie : masse latéro-utérine, épanchement dans le cul-de-sac de Douglas"
+    "Test de grossesse positif (urinaire) + utérus vide à l'échographie : forte suspicion",
+    "Échographie : masse latéro-utérine, sac hors de l'utérus, épanchement dans le cul-de-sac de Douglas ou les flancs",
+    "β-hCG quantitative si disponible : > 1 500 à 2 000 UI/l avec utérus vide = GEU probable ; une β-hCG qui augmente lentement (moins de 50 % en 48 h) est suspecte",
+    "Sans échographie : ponction du cul-de-sac de Douglas (sang qui ne coagule pas = hémopéritoine)",
+    "Hémoglobine, groupe sanguin, Rhésus",
+    "Différentiels : fausse couche, kyste ovarien rompu ou tordu, appendicite, infection génitale haute"
    ],
    "traitement": [
-    "GEU rompue : réanimation (2 voies veineuses, remplissage, transfusion), laparotomie en urgence",
-    "GEU non rompue : chirurgie ou méthotrexate en milieu spécialisé",
-    "Anti-D si Rh négatif",
-    "Méthotrexate 50 mg/m² IM en dose unique seulement si GEU non rompue, patiente stable, β-hCG < 5 000 UI/l et suivi des β-hCG possible",
-    "En l'absence de sang disponible : autotransfusion du sang de l'hémopéritoine (recueilli et filtré) selon le protocole de la structure"
+    "GEU rompue ou patiente instable : réanimation (2 voies veineuses, remplissage, groupe et transfusion), laparotomie en urgence sans attendre la stabilisation complète ; salpingectomie",
+    "Sans sang disponible : autotransfusion du sang de l'hémopéritoine (recueilli, filtré sur compresses, avec anticoagulant) selon le protocole de la structure",
+    "GEU non rompue, patiente stable : chirurgie (salpingectomie, ou salpingotomie si l'autre trompe est abîmée et que la patiente désire des enfants), ou méthotrexate",
+    "Méthotrexate 50 mg/m² IM en dose unique seulement si : GEU non rompue, patiente stable, β-hCG < 5 000 UI/l, masse < 3,5 cm sans activité cardiaque, pas d'atteinte hépatique, rénale ou sanguine, pas d'allaitement, suivi possible ; β-hCG à J4 et J7 : baisse d'au moins 15 % entre J4 et J7, puis chaque semaine jusqu'à négativation ; sinon 2e dose ou chirurgie ; éviter l'acide folique, les AINS et l'alcool, contraception 3 mois",
+    "Abstention sous surveillance possible si β-hCG < 1 000 UI/l et en baisse, patiente asymptomatique",
+    "Immunoglobuline anti-D si Rhésus négatif",
+    "Antalgiques (morphine si douleur intense)",
+    "Après : contraception, soutien, échographie précoce (avant 7 semaines) lors de la grossesse suivante (risque de récidive)"
    ],
    "gravite": [
-    "Choc hémorragique",
-    "Douleur intense, malaise",
-    "Tachycardie, hypotension, pâleur, douleur de l'épaule (hémorragie interne)"
+    "Choc hémorragique : laparotomie immédiate",
+    "Douleur intense, malaise, douleur de l'épaule",
+    "Tachycardie, hypotension, pâleur (hémorragie interne)",
+    "Femme jeune avec choc inexpliqué"
    ],
    "prevention": [
-    "Traitement des infections génitales hautes (IST)",
+    "Prévention, dépistage et traitement précoce des IST et des infections génitales hautes",
     "Consultation précoce en début de grossesse après un antécédent de GEU ou d'infection génitale haute",
-    "Contraception"
+    "Contraception efficace"
    ],
    "medicaments": [
     "Ringer lactate",
@@ -38220,9 +38298,9 @@
     "Sang total",
     "Concentré de globules rouges (culot globulaire)",
     "Immunoglobuline anti-D",
+    "Méthotrexate",
     "Morphine",
-    "Céfazoline",
-    "Méthotrexate"
+    "Céfazoline"
    ]
   },
   {
@@ -38230,43 +38308,66 @@
    "nom": "Infection puerpérale (endométrite)",
    "categorie": "grossesse",
    "synonymes": "infection après accouchement, endométrite, fièvre post-partum, sepsis maternel",
-   "resume": "Infection de l'utérus après un accouchement ou un avortement, pouvant évoluer vers un sepsis.",
+   "resume": "Infection de l'appareil génital après un accouchement ou un avortement (endométrite, salpingite, péritonite, abcès pelvien, thrombophlébite pelvienne), principale cause de sepsis maternel. Facteurs : travail prolongé, rupture prolongée des membranes, touchers vaginaux répétés, césarienne, rétention placentaire, hémorragie, anémie, accouchement non aseptique. Elle peut évoluer en quelques heures vers le choc septique : les antibiotiques doivent être débutés dans l'heure.",
    "signes": [
-    "Fièvre ≥ 38 °C après l'accouchement",
-    "Douleurs abdominales, utérus mou et douloureux",
-    "Lochies fétides ou purulentes",
-    "Choc dans les formes graves"
+    "Fièvre ≥ 38 °C (ou hypothermie < 36 °C) après l'accouchement, souvent entre J2 et J10, frissons",
+    "Douleurs du bas-ventre, utérus mou, gros, douloureux à la palpation",
+    "Lochies fétides ou purulentes, parfois saignement",
+    "Péritonite : ventre dur et douloureux, vomissements",
+    "Abcès pelvien : fièvre persistante, masse douloureuse",
+    "Sepsis maternel : pouls > 100/min, FR > 20/min, PA basse, confusion, extrémités froides, oligurie",
+    "Autres causes de fièvre du post-partum : mastite, abcès du sein, infection urinaire, infection de la plaie de césarienne ou d'épisiotomie, thrombose veineuse, paludisme"
    ],
    "diagnostic": [
-    "Examen clinique ; rechercher une rétention placentaire, une mastite, une infection urinaire, de la plaie (césarienne), un paludisme",
-    "Rechercher un sepsis (qSOFA, onglet Outils) ; hémoculture avant l'antibiotique si possible"
+    "Examen complet : seins, plaie, mollets, utérus, lochies, périnée ; examen au spéculum (débris, déchirure infectée)",
+    "Rechercher un sepsis (score qSOFA dans l'onglet Outils : FR ≥ 22, PA systolique ≤ 100, confusion)",
+    "Hémocultures et prélèvement des lochies avant l'antibiotique si possible (sans le retarder) ; NFS, CRP, lactates, créatinine",
+    "TDR paludisme, bandelette urinaire",
+    "Échographie : rétention placentaire, abcès, collection de la cicatrice"
    ],
    "traitement": [
-    "Ampicilline 2 g IV toutes les 6 h + gentamicine 5 mg/kg IV une fois par jour + métronidazole 500 mg IV toutes les 8 h, jusqu'à 48 h sans fièvre (ou amoxicilline-acide clavulanique)",
-    "Évacuer une rétention (AMIU)",
-    "Remplissage si choc ; ocytocine si utérus mou",
-    "Poursuivre l'allaitement"
+    "Ampicilline 2 g IV toutes les 6 h + gentamicine 5 mg/kg IV une fois par jour + métronidazole 500 mg IV toutes les 8 h, jusqu'à 48 h sans fièvre ; pas de relais oral nécessaire ensuite (OMS) ; alternatives : ceftriaxone 2 g par jour + métronidazole, ou clindamycine + gentamicine ; amoxicilline + acide clavulanique pour les formes modérées",
+    "Rétention de débris : évacuation utérine (AMIU) après le début des antibiotiques",
+    "Abcès pelvien : drainage ; péritonite : laparotomie",
+    "Sepsis ou choc : 2 voies veineuses, Ringer lactate 1 à 2 litres puis réévaluation (éviter la surcharge), oxygène, sonde urinaire, noradrénaline si hypotension persistante ; transfert en réanimation",
+    "Suspicion de streptocoque A (fièvre élevée précoce, choc rapide, éruption, nécrose) : benzylpénicilline + clindamycine ; fasciite nécrosante de la plaie : chirurgie en urgence",
+    "Pas d'amélioration après 48 à 72 h : abcès, rétention, thrombophlébite pelvienne (anticoagulation), résistance (adapter à l'antibiogramme)",
+    "Utérus mou avec saignement : ocytocine",
+    "Paracétamol ; poursuivre l'allaitement (sauf contre-indication)",
+    "Mastite : poursuivre l'allaitement ou tirer le lait, cloxacilline 500 mg à 1 g toutes les 6 h pendant 10 à 14 jours ; abcès du sein : drainage à l'aiguille ou incision",
+    "Endométrite tardive (après J7) : penser à Chlamydia, ajouter azithromycine ou doxycycline (si pas d'allaitement)"
    ],
    "gravite": [
-    "Sepsis, choc",
-    "Abcès pelvien, péritonite",
+    "Sepsis, choc septique",
+    "Péritonite, abcès pelvien",
     "Absence d'amélioration après 48 h",
-    "Défense abdominale (péritonite)",
-    "Contractures (tétanos post-abortum chez la femme non vaccinée)"
+    "Défense abdominale",
+    "Contractures (tétanos post-abortum chez la femme non vaccinée)",
+    "Nécrose de la paroi"
    ],
    "prevention": [
-    "Asepsie de l'accouchement, limiter les touchers vaginaux, antibioprophylaxie de la césarienne, gestion des ruptures prolongées des membranes",
-    "Vaccination antitétanique de la femme enceinte"
+    "Hygiène des mains, accouchement aseptique, limiter les touchers vaginaux (pas plus d'un toutes les 4 h)",
+    "Antibioprophylaxie : céfazoline 2 g IV avant l'incision de toute césarienne ; dose unique lors d'une délivrance artificielle et des déchirures du 3e et 4e degré",
+    "Prise en charge de la rupture prématurée des membranes",
+    "Vaccination antitétanique de la femme enceinte",
+    "Visites postnatales précoces (J1-J3, J7) avec prise de la température"
    ],
    "medicaments": [
     "Ampicilline",
     "Gentamicine",
     "Métronidazole",
-    "Amoxicilline + acide clavulanique",
     "Ceftriaxone",
+    "Clindamycine",
+    "Amoxicilline + acide clavulanique",
+    "Benzylpénicilline (pénicilline G)",
+    "Cloxacilline",
+    "Céfazoline",
+    "Azithromycine",
     "Ringer lactate",
+    "Noradrénaline (norépinéphrine)",
     "Ocytocine",
-    "Paracétamol"
+    "Paracétamol",
+    "Énoxaparine"
    ]
   },
   {
@@ -38330,40 +38431,55 @@
    "nom": "Planification familiale (contraception)",
    "categorie": "grossesse",
    "synonymes": "planification familiale, PF, contraception, espacement des naissances",
-   "resume": "Aider chaque personne à choisir librement une méthode adaptée. L'espacement des naissances réduit la mortalité maternelle et infantile.",
+   "resume": "Aider chaque femme, chaque homme et chaque couple à choisir librement, de façon éclairée, une méthode adaptée à ses besoins. L'espacement des naissances d'au moins 2 ans et la prévention des grossesses non désirées réduisent fortement la mortalité maternelle et infantile et les avortements non sécurisés. Les critères de recevabilité médicale de l'OMS (roue de la contraception) indiquent quelles méthodes conviennent à chaque situation.",
    "signes": [
-    "Évaluer : souhait de grossesse, allaitement, délai post-partum, âge, tabac, TA, antécédents (thrombose, migraine avec aura), traitements (rifampicine, antiépileptiques, ARV)"
+    "Évaluer : désir d'enfant et délai souhaité, allaitement et délai depuis l'accouchement, âge (adolescente), tabac (après 35 ans), PA, antécédents de thrombose, d'AVC, de cancer du sein, de migraine avec aura, de maladie du foie, diabète compliqué",
+    "Médicaments en cours : rifampicine, carbamazépine, phénytoïne, phénobarbital, éfavirenz (diminuent l'efficacité de la pilule, de l'implant et de la pilule progestative) ; le dolutégravir n'interagit pas",
+    "Préférences : discrétion, efficacité, retour de la fertilité, protection contre les IST, tolérance aux changements de saignements"
    ],
    "diagnostic": [
-    "Exclure une grossesse",
-    "Critères de recevabilité médicale de l'OMS (roue de la contraception)"
+    "Exclure une grossesse : on peut être raisonnablement sûr qu'une femme n'est pas enceinte si elle n'a pas eu de rapport depuis ses dernières règles, a eu ses règles depuis moins de 7 jours, a accouché depuis moins de 4 semaines, allaite exclusivement depuis moins de 6 mois sans retour de règles, a avorté depuis moins de 7 jours ou utilise correctement une méthode fiable ; sinon test de grossesse",
+    "Mesurer la PA avant une méthode combinée",
+    "Pas d'examen gynécologique nécessaire avant la pilule, l'injectable ou l'implant (nécessaire avant un DIU : exclure une infection génitale)"
    ],
    "traitement": [
-    "Méthodes de longue durée : implant (3 à 5 ans), DIU au cuivre (10 à 12 ans)",
-    "Injectable : DMPA tous les 3 mois",
-    "Pilule combinée (hors allaitement < 6 mois) ou progestative",
-    "Préservatif (protège aussi des IST)",
-    "Contraception d'urgence : lévonorgestrel dans les 72 h ou DIU dans les 5 jours",
-    "Post-partum : implant, DIU dans les 48 h, injectable dès 6 semaines ; méthode de l'allaitement maternel et de l'aménorrhée (MAMA) jusqu'à 6 mois"
+    "Méthodes les plus efficaces (moins de 1 grossesse pour 100 femmes par an) : implant (lévonorgestrel 5 ans, étonogestrel 3 ans), DIU au cuivre (10 à 12 ans), DIU au lévonorgestrel, stérilisation féminine ou vasectomie",
+    "Injectables : DMPA 150 mg IM toutes les 3 mois (13 semaines), ou DMPA sous-cutané en auto-injection ; réinjection possible jusqu'à 4 semaines de retard ; retour de la fertilité parfois retardé de plusieurs mois",
+    "Pilule combinée : 1 comprimé par jour ; pas chez la femme qui allaite avant 6 mois, ni en cas d'HTA, de tabac après 35 ans, de thrombose, de migraine avec aura, ni avant 21 jours après l'accouchement",
+    "Pilule progestative : 1 comprimé chaque jour à heure fixe, possible pendant l'allaitement",
+    "Préservatifs masculin et féminin : seules méthodes qui protègent aussi des IST et du VIH (double protection)",
+    "Contraception d'urgence : DIU au cuivre dans les 5 jours (le plus efficace) ; ulipristal 30 mg dans les 5 jours ; lévonorgestrel 1,5 mg dès que possible et dans les 72 h (3 mg si IMC ≥ 30 ou inducteur enzymatique) ; puis débuter une méthode régulière",
+    "Post-partum : MAMA (allaitement exclusif, pas de retour de règles, moins de 6 mois) ; implant et pilule progestative dès l'accouchement ; DIU dans les 48 h ou après 4 semaines ; injectable dès 6 semaines si allaitement ; pilule combinée après 6 mois si allaitement",
+    "Post-abortum : toutes les méthodes possibles immédiatement (DIU si pas d'infection)",
+    "Inducteurs enzymatiques (rifampicine, antiépileptiques, éfavirenz) : préférer DMPA, DIU au cuivre ou au lévonorgestrel",
+    "Démarrage le jour même (« quick start ») si la grossesse est raisonnablement exclue, avec préservatif pendant 7 jours (2 jours pour la pilule progestative)",
+    "Informer sur les effets attendus (saignements irréguliers sous implant et injectable, aménorrhée), les signes d'alerte et la possibilité de changer de méthode à tout moment",
+    "Saignements gênants sous implant : ibuprofène 5 jours, ou pilule combinée 1 cycle si pas de contre-indication"
    ],
    "gravite": [
-    "Saignements inexpliqués avant la pose",
-    "Douleurs pelviennes, fièvre après la pose d'un DIU"
+    "Saignements inexpliqués avant la pose (exclure grossesse, cancer, infection)",
+    "Douleurs pelviennes, fièvre, pertes après la pose d'un DIU (infection, perforation, expulsion)",
+    "Sous pilule combinée : douleur et gonflement d'un mollet, douleur thoracique, céphalées intenses, troubles visuels (thrombose, AVC)",
+    "Retard de règles ou douleur latérale sous méthode progestative (grossesse, GEU)"
    ],
    "prevention": [
-    "Accès gratuit et confidentiel, y compris pour les adolescents"
+    "Accès gratuit, confidentiel et sans jugement, y compris pour les adolescents et les jeunes",
+    "Offre de toute la gamme des méthodes, intégration dans les CPN, le post-partum, les soins après avortement, la vaccination et les services VIH",
+    "Implication des hommes",
+    "Distribution communautaire (pilule, préservatifs, DMPA sous-cutané)"
    ],
    "medicaments": [
     "Implant contraceptif",
     "Dispositif intra-utérin au cuivre (DIU)",
-    "Médroxyprogestérone injectable (DMPA)",
-    "Contraceptif oral combiné (éthinylestradiol + lévonorgestrel)",
-    "Lévonorgestrel (contraception d'urgence)",
-    "Contraceptifs injectables mensuels et bimestriels",
     "DIU au lévonorgestrel",
+    "Médroxyprogestérone injectable (DMPA)",
+    "Contraceptifs injectables mensuels et bimestriels",
+    "Contraceptif oral combiné (éthinylestradiol + lévonorgestrel)",
     "Méthodes barrières (préservatifs masculin et féminin, diaphragme)",
     "Anneaux vaginaux contraceptifs",
-    "Ulipristal acétate (contraception d'urgence)"
+    "Lévonorgestrel (contraception d'urgence)",
+    "Ulipristal acétate (contraception d'urgence)",
+    "Ibuprofène"
    ]
   },
   {
@@ -41218,41 +41334,53 @@
    "nom": "Saignements utérins anormaux",
    "categorie": "grossesse",
    "synonymes": "saignements, métrorragies, ménorragies, règles abondantes, hémorragie génitale",
-   "resume": "Saignements génitaux en dehors des règles ou règles trop abondantes, chez la femme non enceinte.",
+   "resume": "Saignements génitaux en dehors des règles, règles trop abondantes, trop longues ou trop fréquentes, ou saignements après la ménopause, chez la femme non enceinte. Causes classées selon la FIGO (PALM-COEIN) : polypes, adénomyose, fibromes (très fréquents chez la femme africaine), cancers et hyperplasies ; troubles de la coagulation, de l'ovulation, de l'endomètre, causes iatrogènes (contraception, anticoagulants). Ils sont une cause majeure d'anémie ; tout saignement après la ménopause doit faire rechercher un cancer.",
    "signes": [
-    "Règles très abondantes ou prolongées, saignements entre les règles, après les rapports ou après la ménopause",
-    "Signes d'anémie : pâleur, fatigue, essoufflement"
+    "Règles très abondantes (caillots, changement de protection toutes les heures, débordements la nuit) ou durant plus de 8 jours",
+    "Saignements entre les règles, après les rapports, ou après la ménopause",
+    "Cycles irréguliers (anovulation : adolescente, préménopause, ovaires polykystiques)",
+    "Signes d'anémie : pâleur, fatigue, essoufflement, palpitations",
+    "Fibromes : utérus augmenté de volume, bosselé, pesanteur, envies fréquentes d'uriner, infertilité",
+    "Saignements faciles ailleurs (gencives, ecchymoses) : trouble de la coagulation"
    ],
    "diagnostic": [
-    "Test de grossesse systématique",
-    "Examen au spéculum (col : polype, cancer, cervicite)",
-    "Hémoglobine",
-    "Rechercher une cause : fibrome, contraception (implant, DMPA), trouble de la coagulation, cancer du col ou de l'endomètre"
+    "Test de grossesse systématique (fausse couche, GEU, môle)",
+    "Examen au spéculum : col (polype, cancer, cervicite, ectropion), vagin ; toucher vaginal : taille de l'utérus",
+    "IVA ou frottis du col ; biopsie de toute lésion suspecte",
+    "Hémoglobine (et ferritine), plaquettes ; bilan de coagulation si saignements depuis les premières règles ou autres saignements",
+    "Échographie pelvienne (fibromes, polypes, épaisseur de l'endomètre) ; TSH si troubles du cycle",
+    "Après la ménopause, ou après 45 ans avec saignements persistants, ou obésité, diabète, anovulation chronique : biopsie de l'endomètre (endomètre > 4 mm après la ménopause)"
    ],
    "traitement": [
-    "Saignement abondant : voie veineuse, remplissage, transfusion si besoin",
-    "Acide tranexamique 1 g 3 fois par jour pendant 5 jours",
-    "Ibuprofène pendant les règles",
-    "Contraceptif oral combiné ou progestatif pour régulariser",
-    "Fer + acide folique",
-    "Saignement après la ménopause ou col suspect : référence (biopsie)",
-    "Sous contraception progestative : rassurer, AINS ou œstroprogestatif quelques semaines"
+    "Saignement aigu abondant : voie veineuse, remplissage, transfusion si choc ou anémie sévère ; acide tranexamique 1 g IV toutes les 8 h ou 1 à 1,5 g oral 3 fois par jour ; pilule combinée à forte dose (1 comprimé 3 fois par jour pendant 7 jours) ou médroxyprogestérone 10 mg 3 fois par jour pendant 7 jours ; aspiration endométriale si échec",
+    "Saignements chroniques : acide tranexamique 1 g 3 fois par jour pendant les jours de saignement (maximum 5 jours) ; ibuprofène 400 mg 3 fois par jour pendant les règles ; DIU au lévonorgestrel (traitement médical le plus efficace) ; pilule combinée ; progestatif (DMPA)",
+    "Fer : sulfate ferreux 200 mg 2 à 3 fois par jour pendant 3 mois après normalisation de l'Hb",
+    "Fibromes : traitement médical des saignements ; myomectomie ou hystérectomie selon l'âge, le désir de grossesse et la taille ; résection hystéroscopique des fibromes sous-muqueux",
+    "Saignement après la ménopause ou col suspect : référence pour biopsie (cancer du col, de l'endomètre)",
+    "Sous contraception progestative (implant, DMPA) : rassurer ; ibuprofène 5 jours ou pilule combinée 1 cycle",
+    "Trouble de la coagulation : avis spécialisé ; hypothyroïdie : lévothyroxine"
    ],
    "gravite": [
-    "Choc, anémie sévère",
+    "Choc, anémie sévère (Hb < 7 g/dl)",
     "Saignement après la ménopause",
-    "Lésion suspecte du col"
+    "Lésion suspecte du col ou masse pelvienne",
+    "Saignement chez une femme enceinte (voir les fiches de grossesse)"
    ],
    "prevention": [
-    "Dépistage du cancer du col (IVA), vaccination VPH"
+    "Dépistage du cancer du col (IVA) et vaccination contre le VPH des jeunes filles",
+    "Traitement précoce de l'anémie",
+    "Consultation rapide pour tout saignement après la ménopause"
    ],
    "medicaments": [
     "Acide tranexamique",
     "Ibuprofène",
     "Contraceptif oral combiné (éthinylestradiol + lévonorgestrel)",
     "Médroxyprogestérone injectable (DMPA)",
+    "DIU au lévonorgestrel",
     "Sulfate ferreux",
-    "Concentré de globules rouges (culot globulaire)"
+    "Concentré de globules rouges (culot globulaire)",
+    "Ringer lactate",
+    "Lévothyroxine"
    ]
   },
   {
@@ -42181,37 +42309,52 @@
    "nom": "Prévention de la transmission mère-enfant du VIH (PTME)",
    "categorie": "grossesse",
    "synonymes": "PTME, VIH et grossesse, nouveau-né exposé, transmission mère-enfant, eTME",
-   "resume": "Ensemble des mesures qui ramènent le risque de transmission du VIH de la mère à l'enfant à moins de 2 % : dépistage, traitement de la mère, prophylaxie et suivi du nouveau-né.",
+   "resume": "Ensemble des mesures qui ramènent le risque de transmission du VIH de la mère à l'enfant (pendant la grossesse, l'accouchement et l'allaitement) de 30 à 45 % à moins de 2 % : dépistage de toutes les femmes enceintes et allaitantes, traitement antirétroviral à vie de la mère avec charge virale indétectable, prophylaxie et suivi du nouveau-né exposé. Elle s'intègre dans la « triple élimination » de la transmission du VIH, de la syphilis et de l'hépatite B.",
    "signes": [
-    "Femme enceinte ou allaitante vivant avec le VIH (souvent asymptomatique)",
-    "Nouveau-né exposé au VIH"
+    "Femme enceinte ou allaitante vivant avec le VIH (souvent sans symptôme)",
+    "Nouveau-né et nourrisson exposé au VIH",
+    "Risque élevé de transmission : mère diagnostiquée pendant la grossesse avancée, le travail ou l'allaitement ; ARV débutés moins de 4 semaines avant l'accouchement ; charge virale > 1 000 copies/ml en fin de grossesse ; primo-infection pendant la grossesse ou l'allaitement"
    ],
    "diagnostic": [
-    "Dépistage du VIH (et de la syphilis, de l'hépatite B) à la 1re CPN, répété au 3e trimestre et pendant l'allaitement en zone à forte prévalence",
-    "Charge virale de la mère à 34–36 semaines",
-    "Nouveau-né : PCR (diagnostic précoce) à la naissance et/ou à 6 semaines, puis selon le protocole et 3 mois après la fin de l'allaitement"
+    "Dépistage du VIH, de la syphilis et de l'hépatite B à la 1re CPN ; répéter le test VIH au 3e trimestre, au travail si statut inconnu, et tous les 3 à 6 mois pendant l'allaitement",
+    "Dépister le partenaire et les autres enfants",
+    "Charge virale maternelle à 34-36 semaines (et tous les 6 mois pendant l'allaitement)",
+    "Nourrisson : PCR (diagnostic précoce) à la naissance si risque élevé, à 6 semaines, à 9 mois ; sérologie à 18 mois ; test 6 semaines après la fin de l'allaitement"
    ],
    "traitement": [
-    "Mère : TLD à vie dès le diagnostic (le jour même), quel que soit le stade",
-    "Accouchement : éviter les gestes invasifs, voie basse possible si charge virale contrôlée",
-    "Nouveau-né à faible risque : névirapine 6 semaines",
-    "Haut risque (mère non traitée ou charge virale élevée) : névirapine + zidovudine 6 semaines, puis névirapine jusqu'à 12 semaines",
-    "Cotrimoxazole dès 6 semaines jusqu'à l'exclusion de l'infection",
-    "Allaitement maternel exclusif 6 mois sous ARV maternel, puis poursuivi avec aliments complémentaires"
+    "Mère : TLD à vie dès le diagnostic, le jour même, quel que soit le stade ; soutien renforcé à l'observance ; charge virale ≥ 1 000 copies/ml : soutien et contrôle rapide (risque élevé pour l'enfant)",
+    "Accouchement : voie basse possible si la charge virale est contrôlée ; éviter la rupture artificielle prolongée des membranes, l'épisiotomie et les extractions instrumentales non nécessaires ; césarienne pour les indications obstétricales",
+    "Nouveau-né à faible risque : névirapine une fois par jour pendant 6 semaines (2 à 2,49 kg : 10 mg ; ≥ 2,5 kg : 15 mg)",
+    "Nouveau-né à risque élevé : zidovudine 2 fois par jour (2 à 2,49 kg : 10 mg ; ≥ 2,5 kg : 15 mg) + névirapine une fois par jour pendant 6 semaines, puis névirapine (20 mg) ± zidovudine pendant 6 semaines supplémentaires (12 semaines au total)",
+    "Débuter la prophylaxie le plus tôt possible après la naissance (dans les 6 à 12 h)",
+    "Cotrimoxazole dès 6 semaines jusqu'à l'exclusion de l'infection après l'arrêt de l'allaitement",
+    "Allaitement maternel exclusif pendant 6 mois sous ARV maternel, puis poursuivi avec des aliments de complément jusqu'à 12 à 24 mois ; pas d'allaitement mixte avant 6 mois",
+    "Nourrisson avec PCR positive : débuter les ARV immédiatement (dolutégravir pédiatrique dès 4 semaines et 3 kg ; sinon AZT + 3TC + névirapine ou raltégravir), confirmer par un 2e prélèvement",
+    "Suivi mensuel du couple mère-enfant : croissance, vaccinations (BCG sauf enfant infecté symptomatique), alimentation, observance de la mère, planification familiale",
+    "Syphilis : benzathine benzylpénicilline à la mère et au partenaire, traitement du nouveau-né si mère non ou mal traitée ; hépatite B : vaccin à la naissance dans les 24 h"
    ],
    "gravite": [
-    "Charge virale maternelle élevée en fin de grossesse",
-    "Nouveau-né avec PCR positive : débuter les ARV immédiatement"
+    "Charge virale maternelle élevée en fin de grossesse ou pendant l'allaitement",
+    "Diagnostic de la mère au travail ou après l'accouchement",
+    "Nourrisson avec PCR positive : ARV immédiats",
+    "Nourrisson exposé avec pneumonie sévère (pneumocystose), malnutrition ou retard de croissance"
    ],
    "prevention": [
-    "Dépistage de toutes les femmes enceintes, des partenaires ; planification familiale"
+    "Dépistage de toutes les femmes enceintes et allaitantes et de leurs partenaires ; PrEP pour les femmes séronégatives à risque élevé pendant la grossesse et l'allaitement",
+    "Planification familiale pour les femmes vivant avec le VIH",
+    "Rétention dans les soins et recherche des perdues de vue"
    ],
    "medicaments": [
     "Ténofovir + lamivudine + dolutégravir (TLD)",
     "Névirapine (prophylaxie néonatale)",
     "Zidovudine + lamivudine (AZT/3TC)",
     "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
-    "Dolutégravir pédiatrique"
+    "Dolutégravir pédiatrique",
+    "Abacavir + lamivudine (ABC/3TC)",
+    "Raltégravir",
+    "Benzathine benzylpénicilline",
+    "Vaccin hépatite B",
+    "Ténofovir + emtricitabine (TDF/FTC) – PrEP"
    ]
   },
   {
@@ -43773,34 +43916,51 @@
    "nom": "Infertilité du couple",
    "categorie": "grossesse",
    "synonymes": "infertilité, stérilité, pas d'enfant, désir de grossesse",
-   "resume": "Absence de grossesse après 12 mois de rapports réguliers sans contraception (6 mois après 35 ans). En Afrique centrale, les séquelles d'infections génitales (trompes bouchées) sont une cause majeure.",
+   "resume": "Absence de grossesse après 12 mois de rapports réguliers sans contraception (6 mois si la femme a plus de 35 ans). Elle touche environ 1 couple sur 6. En Afrique centrale, l'infertilité secondaire est fréquente, surtout due aux séquelles d'infections génitales (trompes bouchées après IST, avortement non sécurisé ou infection du post-partum), à la tuberculose et à la schistosomiase génitale. Les causes masculines représentent environ la moitié des cas : les deux partenaires doivent être évalués ensemble. La stigmatisation, surtout des femmes, est lourde.",
    "signes": [
-    "Femme : cycles irréguliers (anovulation), antécédents d'IST, d'avortement compliqué, de tuberculose",
-    "Homme : antécédents d'IST, d'oreillons, de varicocèle, troubles sexuels"
+    "Femme : cycles irréguliers ou absents (anovulation : ovaires polykystiques, prolactine élevée, thyroïde, maigreur ou obésité), écoulement de lait (galactorrhée), pilosité excessive, acné",
+    "Antécédents : IST, infection génitale haute, avortement compliqué, curetage (synéchies), infection du post-partum, tuberculose, schistosomiase, chirurgie pelvienne ; règles douloureuses (endométriose) ; fibromes",
+    "Homme : antécédents d'IST, d'orchite (oreillons), de varicocèle, de traumatisme ou de chirurgie des testicules, drépanocytose, diabète ; troubles de l'érection ou de l'éjaculation ; tabac, alcool, chaleur",
+    "Infertilité primaire (jamais de grossesse) ou secondaire (après une grossesse antérieure)"
    ],
    "diagnostic": [
-    "Bilan des deux partenaires : spermogramme",
-    "Ovulation (cycles, courbe de température, progestérone en 2e partie de cycle)",
-    "Perméabilité des trompes (hystérosalpingographie)",
-    "Dépistage VIH, syphilis, chlamydia, schistosomiase génitale, tuberculose"
+    "Bilan des deux partenaires dès la 1re consultation : histoire, examen clinique (IMC, pilosité, seins, examen gynécologique ; testicules, varicocèle)",
+    "Homme : spermogramme après 2 à 7 jours d'abstinence (valeurs de référence OMS 2021 : volume ≥ 1,4 ml, concentration ≥ 16 millions/ml, mobilité totale ≥ 42 %, formes normales ≥ 4 %), à répéter si anormal",
+    "Femme : ovulation (cycles réguliers, progestérone au 21e jour > 3 ng/ml) ; prolactine, TSH, FSH et LH en début de cycle ; échographie pelvienne ; perméabilité des trompes par hystérosalpingographie (sous doxycycline) ou cœlioscopie",
+    "Dépistage du VIH, de la syphilis, de Chlamydia et des gonocoques ; recherche de schistosomiase génitale et de tuberculose selon le contexte"
    ],
    "traitement": [
-    "Traiter les infections, conseils (fréquence des rapports en période fertile, poids, tabac, alcool)",
-    "Anovulation (SOPK) : létrozole (1re intention) ou clomifène, sous surveillance",
-    "Trompes obstruées : chirurgie ou fécondation in vitro (centres spécialisés)",
-    "Soutien psychologique du couple (stigmatisation)"
+    "Conseils : rapports tous les 2 à 3 jours, surtout pendant la période fertile (milieu du cycle) ; poids normal, arrêt du tabac et de l'alcool ; acide folique 0,4 mg par jour avant la conception",
+    "Traiter les infections du couple (IST, schistosomiase, tuberculose génitale)",
+    "Anovulation (ovaires polykystiques) : perte de poids si surpoids ; létrozole 2,5 mg par jour du 3e au 7e jour du cycle (jusqu'à 7,5 mg), en 1re intention, ou clomifène 50 mg par jour du 2e au 6e jour (jusqu'à 150 mg), pendant 3 à 6 cycles, avec surveillance échographique si possible (risque de grossesse multiple et d'hyperstimulation) ; metformine si résistance à l'insuline",
+    "Prolactine élevée : cabergoline 0,25 à 0,5 mg 2 fois par semaine ; hypothyroïdie : lévothyroxine",
+    "Fibromes sous-muqueux, polypes, synéchies : chirurgie hystéroscopique",
+    "Trompes obstruées : chirurgie tubaire ou fécondation in vitro (centres spécialisés) ; hydrosalpinx : salpingectomie avant FIV",
+    "Homme : cure de varicocèle si spermogramme anormal ; traitement des infections ; insémination ou ICSI selon les anomalies (centres spécialisés) ; dysfonction érectile : rechercher diabète, HTA",
+    "Soutien psychologique du couple, lutte contre la stigmatisation et les violences ; information sur les chances de succès et les coûts ; adoption comme option"
    ],
    "gravite": [
-    "Hyperstimulation ovarienne sous traitement (douleurs, ascite)"
+    "Hyperstimulation ovarienne sous traitement (douleurs, ventre gonflé, ascite, essoufflement)",
+    "Grossesse multiple",
+    "Grossesse extra-utérine (plus fréquente si trompes abîmées)",
+    "Détresse psychologique, violences conjugales"
    ],
    "prevention": [
-    "Prévention et traitement précoce des IST, avortements sécurisés"
+    "Prévention et traitement précoce des IST et des infections génitales hautes",
+    "Avortements sécurisés et soins après avortement",
+    "Asepsie de l'accouchement et des gestes gynécologiques",
+    "Vaccination ROR des garçons (oreillons) là où elle est disponible"
    ],
    "medicaments": [
     "Létrozole",
     "Clomifène",
+    "Metformine",
+    "Cabergoline",
+    "Lévothyroxine",
     "Doxycycline",
+    "Azithromycine",
     "Métronidazole",
+    "Praziquantel",
     "Acide folique"
    ]
   },
