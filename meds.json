@@ -1,5 +1,5 @@
 {
- "version": 32,
+ "version": 33,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -35439,43 +35439,64 @@
    "nom": "Brûlures",
    "categorie": "urgences",
    "synonymes": "brûlure, ébouillantage, feu",
-   "resume": "Lésions de la peau par la chaleur, l'électricité ou des produits chimiques. La gravité dépend de la surface, de la profondeur et de la localisation.",
+   "resume": "Lésions de la peau et des tissus profonds par la chaleur (liquides bouillants, flammes, lampes à pétrole, foyers), l'électricité ou des produits chimiques. Fréquentes chez l'enfant (ébouillantage, chute dans le feu) et la personne épileptique. La gravité dépend de la surface, de la profondeur, de la localisation, de l'âge et d'une inhalation de fumées. Les brûlures étendues entraînent un choc hypovolémique dans les premières heures, puis des infections, une dénutrition et des rétractions invalidantes.",
    "signes": [
-    "1er degré : rougeur douloureuse",
-    "2e degré : phlyctènes (cloques), douleur",
-    "3e degré : peau blanche, cartonnée ou noire, indolore",
-    "Calcul de la surface : règle des 9 (adulte) ou tables pédiatriques ; la paume de la main du patient = 1 %"
+    "Profondeur : 1er degré (rougeur douloureuse sans cloque, coup de soleil) ; 2e degré superficiel (cloques, fond rose, très douloureux, guérison en 2 semaines) ; 2e degré profond (fond blanc ou rouge marbré, moins douloureux, guérison lente ou greffe) ; 3e degré (peau blanche, cartonnée, brune ou noire, insensible, greffe nécessaire)",
+    "Surface : règle des 9 chez l'adulte (tête 9 %, chaque bras 9 %, tronc avant 18 %, tronc arrière 18 %, chaque jambe 18 %, périnée 1 %) ; chez l'enfant, la tête compte davantage (table de Lund et Browder) ; paume de la main du patient doigts compris = 1 % ; le 1er degré ne compte pas",
+    "Inhalation de fumées (incendie en espace clos) : brûlure du visage, poils du nez brûlés, suie dans la bouche, voix rauque, toux, stridor, détresse respiratoire ; intoxication au monoxyde de carbone (céphalées, confusion)",
+    "Brûlure électrique : petite plaie d'entrée et de sortie, lésions profondes cachées, troubles du rythme, urines foncées",
+    "Brûlure circulaire d'un membre (pouls faibles, membre froid) ou du thorax (respiration difficile)"
    ],
    "diagnostic": [
-    "Évaluer surface, profondeur, localisation (visage, mains, périnée, articulations)",
-    "Rechercher une inhalation de fumée (suie, voix rauque)"
+    "Évaluer la surface (en %), la profondeur, la localisation (visage, mains, pieds, périnée, articulations), l'âge, le poids, l'heure de la brûlure",
+    "Score ABSI dans l'onglet Outils (pronostic)",
+    "Rechercher inhalation, traumatismes associés (chute, explosion), intoxication",
+    "Hémoglobine, groupe sanguin, créatinine, glycémie ; ECG et urines (myoglobine) si brûlure électrique ; SpO₂ (faussement normale en cas d'intoxication au CO)",
+    "Lésions incompatibles avec le récit (bords nets, en chaussette, en gant, brûlures de cigarette) chez l'enfant : penser à la maltraitance"
    ],
    "traitement": [
-    "Refroidir à l'eau tiède 15 min, retirer vêtements et bijoux",
-    "Antalgiques adaptés (paracétamol, morphine, kétamine pour les pansements)",
-    "Brûlure étendue (> 10 % enfant, > 15 % adulte) : remplissage par Ringer lactate (formule de Parkland : 4 ml × poids × % surface, la moitié dans les 8 premières heures)",
-    "Pansements stériles avec sulfadiazine argentique",
-    "Prévention du tétanos",
-    "Nutrition renforcée",
-    "Évaluer la surface brûlée : paume de la main du patient = 1 % ; chez l'enfant, utiliser la table de Lund et Browder ; score ABSI dans l'onglet Outils",
-    "Enfant : ajouter les besoins d'entretien (glucosé) à la formule de Parkland",
-    "Surveiller la diurèse (objectif 0,5 ml/kg/h chez l'adulte, 1 ml/kg/h chez l'enfant) pour adapter le remplissage",
-    "Brûlure circulaire d'un membre ou du thorax : incisions de décharge ; brûlure du visage ou fumées inhalées : surveiller les voies aériennes"
+    "Premiers secours : arrêter la brûlure, refroidir à l'eau courante tiède (15 à 25 °C) pendant 20 min dans les 3 h (jamais de glace), retirer vêtements et bijoux, couvrir d'un linge propre ou d'un film, garder le patient au chaud",
+    "Voies aériennes : oxygène à haut débit si incendie en espace clos ; intubation précoce (par un personnel expérimenté) si stridor, voix rauque, brûlure profonde du visage ou du cou, troubles de conscience",
+    "Remplissage si surface > 15 % chez l'adulte ou > 10 % chez l'enfant : Ringer lactate 2 à 4 ml × poids (kg) × % de surface brûlée sur 24 h à partir de l'heure de la brûlure, la moitié dans les 8 premières heures, le reste en 16 h ; chez l'enfant, ajouter les besoins d'entretien en glucosé",
+    "Brûlure modérée (< 20 %) chez un patient qui boit : la réhydratation orale (SRO) est possible",
+    "Adapter le débit à la diurèse (sonde urinaire) : objectif 0,5 ml/kg/h chez l'adulte, 1 ml/kg/h chez l'enfant (1 à 2 ml/kg/h si brûlure électrique ou urines foncées) ; éviter le sur-remplissage",
+    "Analgésie : paracétamol, morphine 0,1 mg/kg IV titrée (adulte 2 à 3 mg toutes les 5 min) ; kétamine 0,5 à 1 mg/kg IV pour les pansements",
+    "Soins locaux : nettoyer à l'eau et au savon ou à la chlorhexidine diluée, ôter les cloques rompues ou volumineuses, sulfadiazine argentique 1 % en couche épaisse et pansement stérile, renouvelé tous les 1 à 2 jours ; visage : vaseline ou pommade, pansement ouvert ; pas de sulfadiazine chez le nourrisson de moins de 2 mois ni en fin de grossesse ; pas de remèdes traditionnels",
+    "Pas d'antibiotique systématique ; infection (fièvre, cellulite, pus, odeur, aggravation de la plaie) : prélèvement, cloxacilline ou selon le germe (Pseudomonas : ceftazidime ou pipéracilline-tazobactam + amikacine)",
+    "Brûlure circulaire profonde d'un membre ou du thorax : incisions de décharge (escarrotomies)",
+    "Nutrition précoce dans les 24 h, riche en énergie et en protéines (environ 25 kcal/kg + 40 kcal par % de surface chez l'adulte), sonde gastrique si besoin ; zinc, vitamines, fer",
+    "Prévention du tétanos, de l'ulcère de stress (oméprazole) et des thromboses (énoxaparine) chez les grands brûlés",
+    "Kinésithérapie dès le 1er jour : positionnement en extension, attelles, mobilisation pour prévenir les rétractions ; excision et greffe précoces des brûlures profondes (chirurgie)",
+    "Brûlure chimique : rinçage abondant à l'eau pendant au moins 30 min (yeux : rinçage prolongé, avis ophtalmologique)",
+    "Soutien psychologique ; prise en charge de l'épilepsie si cause"
    ],
    "gravite": [
-    "Brûlure étendue, profonde ou circulaire (membres, thorax)",
-    "Brûlure du visage, inhalation, électrisation",
-    "Enfant ou personne âgée → hospitalisation"
+    "Surface > 10 % chez l'enfant ou > 15 à 20 % chez l'adulte, 3e degré > 5 %",
+    "Brûlure du visage, des mains, des pieds, du périnée ou des articulations",
+    "Inhalation de fumées, brûlure électrique ou chimique",
+    "Brûlure circulaire (membre, thorax)",
+    "Âge < 5 ans ou > 60 ans, maladie chronique, maltraitance : hospitalisation ou transfert vers un centre de brûlés",
+    "Oligurie, choc, sepsis"
    ],
    "prevention": [
-    "Sécurité domestique (foyers, liquides chauds, lampes à pétrole)"
+    "Sécurité domestique : foyers surélevés et protégés, enfants tenus à l'écart de la cuisine et des liquides chauds, lampes à pétrole sûres, produits chimiques hors de portée",
+    "Traitement de l'épilepsie",
+    "Éducation aux premiers secours (refroidir à l'eau, pas de produits sur la brûlure)"
    ],
    "medicaments": [
     "Ringer lactate",
+    "Sels de réhydratation orale (SRO)",
+    "Glucose 5 % (sérum glucosé isotonique)",
     "Sulfadiazine argentique 1 %",
+    "Chlorhexidine",
     "Paracétamol",
     "Morphine",
     "Kétamine",
+    "Oxygène",
+    "Oméprazole",
+    "Énoxaparine",
+    "Cloxacilline",
+    "Zinc (sulfate)",
     "Vaccin antitétanique (Td / VAT)",
     "Immunoglobuline humaine antitétanique"
    ]
@@ -35896,44 +35917,60 @@
    "nom": "État de choc",
    "categorie": "urgences",
    "synonymes": "choc, hypotension, collapsus, choc septique, choc hémorragique",
-   "resume": "Défaillance circulatoire aiguë avec hypoperfusion des organes. Causes : hypovolémie (hémorragie, déshydratation), sepsis, anaphylaxie, cardiogénique.",
+   "resume": "Défaillance circulatoire aiguë avec mauvaise perfusion des organes (cerveau, reins, cœur), mortelle sans traitement rapide. Types : hypovolémique (hémorragie, déshydratation, brûlures), distributif (sepsis, anaphylaxie), cardiogénique (insuffisance cardiaque, infarctus, arythmie) et obstructif (pneumothorax compressif, tamponnade, embolie pulmonaire). Le traitement associe la correction de la cause et un remplissage adapté : trop de liquide est dangereux chez l'enfant fébrile, le malnutri, l'anémié et le cardiaque.",
    "signes": [
-    "Extrémités froides, temps de recoloration capillaire > 3 s",
-    "Pouls rapide et faible, TA basse",
-    "Troubles de conscience, agitation",
-    "Oligurie"
+    "Extrémités froides, marbrures, temps de recoloration capillaire > 3 s",
+    "Pouls rapide et faible ; PA basse (adulte : systolique < 90 mmHg ou moyenne < 65 ; tardive chez l'enfant)",
+    "Agitation, confusion, somnolence",
+    "Oligurie (< 0,5 ml/kg/h), respiration rapide (acidose)",
+    "Enfant (OMS) : choc si mains froides + TRC > 3 s + pouls rapide et faible",
+    "Orientation : saignement ou déshydratation (hypovolémique) ; fièvre, foyer infectieux, extrémités parfois chaudes au début (septique) ; urticaire, œdème, sifflements (anaphylactique) ; turgescence jugulaire, crépitants, gros foie (cardiogénique ou obstructif)"
    ],
    "diagnostic": [
-    "Rechercher la cause : hémorragie, déshydratation, infection, allergie",
-    "Glycémie, Hb, TDR paludisme"
+    "Rechercher la cause : hémorragie externe ou interne (abdomen, thorax, bassin, GEU, post-partum), diarrhée, infection, allergie, traumatisme, douleur thoracique",
+    "Glycémie capillaire (surtout chez l'enfant), hémoglobine, TDR paludisme, groupe sanguin ; lactates si disponibles (> 2 mmol/l : hypoperfusion, > 4 : gravité)",
+    "ECG ; échographie au lit si disponible (épanchement péricardique, veine cave, liquide dans l'abdomen, pneumothorax, fonction cardiaque)",
+    "Rechercher un pneumothorax compressif (asymétrie, déviation de la trachée) ou une tamponnade (bruits du cœur assourdis, jugulaires turgescentes)"
    ],
    "traitement": [
-    "Position allongée, oxygène, 2 voies veineuses",
-    "Remplissage : NaCl 0,9 % ou Ringer lactate 10 à 20 ml/kg (enfant) ou 500 à 1 000 ml (adulte) en 15–30 min, puis réévaluer",
-    "Hémorragie : contrôle du saignement, transfusion",
-    "Sepsis : antibiotiques dans l'heure (ceftriaxone), noradrénaline si persistance malgré le remplissage",
-    "Anaphylaxie : adrénaline IM",
-    "Malnutrition aiguë sévère : protocole de remplissage spécifique",
-    "Surveillance : pouls, PA, temps de recoloration, conscience, diurèse (sonde), signes de surcharge (crépitants, gros foie) ; objectif PAM ≥ 65 mmHg",
-    "Enfant malnutri ou anémié : remplissage plus lent (10 à 15 ml/kg en 1 h) et réévaluation"
+    "Position allongée, jambes surélevées (sauf détresse respiratoire), oxygène, 2 voies veineuses de gros calibre ou voie intra-osseuse ; garder au chaud",
+    "Enfant sans malnutrition sévère : Ringer lactate ou sérum physiologique 10 à 20 ml/kg en 30 à 60 min, puis réévaluer ; répéter une fois si le choc persiste, en surveillant les signes de surcharge",
+    "Enfant malnutri sévère : 15 ml/kg en 1 h (Ringer lactate glucosé ou soluté pour malnutris), réévaluer ; transfusion si pas d'amélioration",
+    "Anémie sévère : transfusion plutôt que remplissage par cristalloïdes",
+    "Adulte : 500 à 1 000 ml en 15 à 30 min, à répéter selon la réponse (jusqu'à 30 ml/kg dans le choc septique), arrêter si hypoxie ou crépitants",
+    "Choc hémorragique : arrêter le saignement (compression, garrot, chirurgie), acide tranexamique 1 g dans les 3 h, transfusion précoce, remplissage limité avec PA systolique cible 80 à 90 mmHg jusqu'à l'hémostase (sauf traumatisme crânien : ≥ 110)",
+    "Choc septique : antibiotiques dans l'heure (ceftriaxone ± selon le foyer, voir la fiche Sepsis de l'adulte), contrôle du foyer ; noradrénaline 0,05 à 0,5 µg/kg/min si l'hypotension persiste malgré le remplissage (possible sur une bonne voie périphérique au début) ; adrénaline en alternative (en 1re intention dans le choc « froid » de l'enfant) ; hydrocortisone 50 mg IV toutes les 6 h si les amines restent nécessaires à dose élevée",
+    "Choc anaphylactique : adrénaline IM (voir la fiche Anaphylaxie)",
+    "Choc cardiogénique : pas de remplissage massif (voir la fiche Insuffisance cardiaque aiguë décompensée)",
+    "Pneumothorax compressif : exsufflation à l'aiguille puis drain ; tamponnade : ponction péricardique",
+    "Hypoglycémie : glucose 10 %",
+    "Surveillance toutes les 15 min : pouls, PA, TRC, conscience, FR, SpO₂ ; diurèse horaire (sonde) ; signes de surcharge (crépitants, gros foie, œdème des paupières) ; objectif PA moyenne ≥ 65 mmHg chez l'adulte"
    ],
    "gravite": [
-    "Absence de réponse au remplissage",
-    "Signes de surcharge (crépitants, hépatomégalie) → arrêter le remplissage"
+    "Absence de réponse au remplissage : chercher une hémorragie cachée, un sepsis non contrôlé, une cause cardiaque ou obstructive",
+    "Signes de surcharge (crépitants, hépatomégalie, SpO₂ qui baisse) : arrêter le remplissage",
+    "Troubles de conscience, anurie, lactates > 4 mmol/l",
+    "Enfant malnutri, femme enceinte, sujet âgé"
    ],
    "prevention": [
-    "Prise en charge précoce de la déshydratation, des infections et des hémorragies"
+    "Prise en charge précoce de la déshydratation, des infections et des hémorragies",
+    "Gestion active de la délivrance",
+    "Formation au triage (ETAT) et équipement d'urgence disponible (oxygène, solutés, voies intra-osseuses)"
    ],
    "medicaments": [
-    "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Ringer lactate",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
+    "Glucose 10 %",
     "Gélatine fluide modifiée (colloïde)",
     "Sang total",
+    "Concentré de globules rouges (culot globulaire)",
+    "Acide tranexamique",
     "Ceftriaxone",
     "Noradrénaline (norépinéphrine)",
     "Adrénaline (épinéphrine)",
-    "Oxygène",
     "Dopamine",
+    "Hydrocortisone (injectable)",
+    "Oxygène",
     "Dextran 70"
    ]
   },
@@ -35942,45 +35979,56 @@
    "nom": "Anaphylaxie (choc anaphylactique)",
    "categorie": "urgences",
    "synonymes": "choc anaphylactique, allergie grave, œdème de Quincke",
-   "resume": "Réaction allergique grave et rapide (médicament, piqûre d'insecte, aliment), pouvant être mortelle en quelques minutes.",
+   "resume": "Réaction allergique grave, généralisée et rapide (quelques minutes à 2 h) après exposition à un médicament (pénicillines, céphalosporines, AINS, produits de contraste, sérums antivenimeux, transfusion), à une piqûre d'insecte (abeille, guêpe) ou à un aliment (arachide, poisson, fruits de mer). Elle peut tuer en quelques minutes par obstruction des voies aériennes, bronchospasme ou choc. L'adrénaline intramusculaire, donnée tôt, est le seul traitement de 1re intention ; antihistaminiques et corticoïdes ne la remplacent pas.",
    "signes": [
-    "Survenue brutale après exposition",
-    "Urticaire, œdème du visage et de la gorge (voix rauque, stridor)",
-    "Bronchospasme, dyspnée",
-    "Hypotension, malaise, perte de connaissance",
-    "Vomissements, douleurs abdominales"
+    "Survenue brutale après une exposition",
+    "Peau et muqueuses : urticaire généralisée, rougeur, démangeaisons, œdème des lèvres, de la langue, des paupières (souvent présents, mais absents dans 10 à 20 % des cas)",
+    "Voies aériennes : voix rauque, stridor, gêne pour avaler",
+    "Respiration : toux, sifflements, essoufflement, cyanose",
+    "Circulation : malaise, pâleur, pouls rapide et faible, PA basse, perte de connaissance, arrêt cardiaque",
+    "Digestif : vomissements, douleurs abdominales, diarrhée",
+    "Angoisse, sensation de mort imminente",
+    "Réaction biphasique : réapparition des signes 1 à 72 h plus tard sans nouvelle exposition"
    ],
    "diagnostic": [
-    "Diagnostic clinique : ne pas retarder l'adrénaline"
+    "Diagnostic clinique : ne pas retarder l'adrénaline",
+    "Critères : atteinte brutale de la peau ou des muqueuses avec atteinte respiratoire ou chute de la PA ; ou, après exposition à un allergène connu, chute de la PA ou bronchospasme ou atteinte laryngée même sans signe cutané",
+    "Différentiels : malaise vagal (pouls lent, pâleur, sans urticaire), crise d'angoisse, crise d'asthme, choc septique, angio-œdème des IEC (sans urticaire)"
    ],
    "traitement": [
-    "Arrêter l'exposition (perfusion, médicament)",
-    "Adrénaline IM 0,01 mg/kg (max 0,5 mg) dans la cuisse, à répéter toutes les 5 min si besoin",
-    "Position allongée jambes surélevées (assise si dyspnée), oxygène",
-    "Remplissage par NaCl 0,9 % ou Ringer lactate",
-    "Salbutamol si bronchospasme",
-    "Après stabilisation : antihistaminique et corticoïde (hydrocortisone)",
-    "Surveillance au moins 6 à 12 h",
-    "Doses d'adrénaline IM : adulte et plus de 12 ans 0,5 mg, 6 à 12 ans 0,3 mg, moins de 6 ans 0,15 mg (ampoule 1 mg/ml)",
-    "Choc réfractaire après 2 doses : perfusion d'adrénaline en réanimation"
+    "Arrêter l'exposition (perfusion, médicament, transfusion, retirer le dard d'abeille) ; appeler de l'aide",
+    "Adrénaline IM dans la face antérolatérale de la cuisse, 0,01 mg/kg de la solution à 1 mg/ml : adulte et plus de 12 ans 0,5 mg (0,5 ml) ; 6 à 12 ans 0,3 mg ; 6 mois à 6 ans 0,15 mg ; moins de 6 mois 0,1 mg ; à répéter toutes les 5 min si pas d'amélioration",
+    "Position : allongé jambes surélevées en cas de choc ; assis en cas de gêne respiratoire ; femme enceinte sur le côté gauche ; ne jamais mettre debout brusquement",
+    "Oxygène à haut débit ; 2 voies veineuses ; remplissage par sérum physiologique ou Ringer lactate 20 ml/kg (adulte 1 à 2 litres rapidement), à répéter si nécessaire",
+    "Bronchospasme persistant : salbutamol en nébulisation ou en spray avec chambre",
+    "Stridor : adrénaline nébulisée (5 ml à 1 mg/ml) en plus de l'IM ; intubation précoce par un personnel expérimenté si l'œdème progresse",
+    "Choc réfractaire après 2 doses d'adrénaline IM : perfusion d'adrénaline 0,05 à 0,1 µg/kg/min (par exemple 1 mg dans 100 ml de sérum physiologique), adaptée à la PA, sous surveillance continue, en réanimation si possible ; patient sous bêtabloquant : glucagon 1 à 5 mg IV",
+    "Après stabilisation (traitements de 2e ligne) : antihistaminique pour les signes cutanés (chlorphénamine 10 mg IV ou IM chez l'adulte, 2,5 à 5 mg chez l'enfant) ; hydrocortisone 200 mg IV (enfant 4 mg/kg) éventuellement",
+    "Surveillance au moins 6 h après la disparition des signes, 12 à 24 h si réaction sévère, plusieurs doses d'adrénaline, asthme ou difficulté de retour",
+    "Avant la sortie : expliquer le diagnostic, noter l'allergie dans le dossier et le carnet, remettre une carte d'allergie, auto-injecteur d'adrénaline si disponible et apprendre à l'utiliser ; orientation vers un allergologue"
    ],
    "gravite": [
     "Persistance de l'hypotension ou du bronchospasme malgré 2 à 3 doses d'adrénaline",
-    "Obstruction des voies aériennes"
+    "Obstruction des voies aériennes (stridor, voix éteinte)",
+    "Arrêt cardiaque : RCP, adrénaline IV 1 mg",
+    "Asthme sévère associé, patient sous bêtabloquant, personne âgée cardiaque"
    ],
    "prevention": [
-    "Interroger sur les allergies avant toute injection",
-    "Noter l'allergie dans le dossier",
-    "Avoir l'adrénaline à disposition partout où l'on injecte"
+    "Interroger sur les allergies avant toute injection ou prescription",
+    "Noter toute allergie dans le dossier et le carnet du patient",
+    "Adrénaline à disposition partout où l'on injecte, vaccine, transfuse ou administre des sérums ; surveillance de 15 à 30 min après les injections",
+    "Éviction de l'allergène identifié"
    ],
    "medicaments": [
     "Adrénaline (épinéphrine)",
     "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Ringer lactate",
+    "Oxygène",
     "Salbutamol",
-    "Hydrocortisone (injectable)",
+    "Glucagon",
     "Chlorphénamine (chlorphéniramine)",
-    "Oxygène"
+    "Prométhazine",
+    "Hydrocortisone (injectable)"
    ]
   },
   {
@@ -35988,47 +36036,65 @@
    "nom": "Convulsions et état de mal épileptique",
    "categorie": "urgences",
    "synonymes": "convulsions, crise convulsive, épilepsie, état de mal, crise d'épilepsie",
-   "resume": "Crise convulsive durant plus de 5 minutes ou crises répétées sans reprise de conscience. Toujours rechercher une cause (fièvre, paludisme, méningite, hypoglycémie, éclampsie).",
+   "resume": "Crise convulsive généralisée durant plus de 5 minutes, ou crises répétées sans reprise de conscience entre elles : urgence vitale (lésions cérébrales, détresse respiratoire, décès). En RDC, les causes les plus fréquentes sont le paludisme grave, la méningite, les convulsions fébriles de l'enfant, l'hypoglycémie, l'éclampsie, l'arrêt d'un traitement antiépileptique, l'alcool, le traumatisme crânien et les infections du système nerveux chez la personne vivant avec le VIH. Le traitement est séquentiel et minuté.",
    "signes": [
-    "Mouvements tonico-cloniques, perte de connaissance",
-    "Morsure de langue, perte d'urine",
-    "Phase post-critique (confusion, somnolence)"
+    "Mouvements tonico-cloniques des 4 membres, perte de connaissance, révulsion des yeux",
+    "Morsure de langue, perte d'urine, hypersalivation",
+    "Phase post-critique : confusion, somnolence pendant minutes à heures",
+    "État de mal non convulsif : confusion prolongée, petits mouvements des paupières ou de la bouche",
+    "Crise focale : mouvements d'un côté (lésion cérébrale à rechercher)",
+    "Convulsion fébrile simple de l'enfant (6 mois à 5 ans) : crise généralisée de moins de 15 min, unique en 24 h, sans déficit après ; complexe si plus longue, focale ou répétée"
    ],
    "diagnostic": [
     "Glycémie capillaire immédiate",
-    "Température, TDR paludisme",
-    "Signes méningés, grossesse (éclampsie), traumatisme, intoxication"
+    "Température, TDR paludisme, signes méningés, fontanelle, purpura",
+    "Grossesse (éclampsie : PA, protéinurie) ; traumatisme ; intoxication ; alcool ; arrêt d'un antiépileptique",
+    "Ponction lombaire si fièvre et suspicion de méningite (après stabilisation ; systématique chez le nourrisson de moins de 12 mois fébrile non vacciné ou avec signes)",
+    "Sodium, calcium, créatinine si disponibles ; scanner en cas de crise focale, de traumatisme ou de déficit persistant"
    ],
    "traitement": [
-    "Protéger le patient, position latérale de sécurité, libérer les voies aériennes, oxygène",
-    "Hypoglycémie : glucose 10 % (enfant) ou 50 % (adulte)",
-    "Crise > 5 min : diazépam IV ou intrarectal, ou midazolam buccal/IM ; renouveler une fois après 10 min",
-    "Persistance : phénobarbital IV (charge 15 à 20 mg/kg)",
-    "Femme enceinte : sulfate de magnésium",
-    "Traiter la cause (paludisme grave, méningite) ; paracétamol si fièvre",
-    "Doses : diazépam 0,5 mg/kg intrarectal (maximum 10 mg) ou 0,2 à 0,3 mg/kg IV lent ; midazolam buccal 0,3 mg/kg (maximum 10 mg) ; phénobarbital 20 mg/kg IV en 20 min",
-    "Surveiller la respiration après les benzodiazépines (ballon et oxygène à portée de main)"
+    "0 à 5 min : protéger le patient (ne rien mettre dans la bouche), position latérale de sécurité, libérer les voies aériennes, aspirer, oxygène ; noter l'heure de début ; glycémie",
+    "Hypoglycémie : glucose 10 % 5 ml/kg chez l'enfant (2 ml/kg chez le nouveau-né), glucose 50 % 50 ml (ou 10 % 250 ml) chez l'adulte ; thiamine 100 mg IV avant le glucose chez l'alcoolique ou le dénutri",
+    "Crise > 5 min, 1re ligne : diazépam 0,2 à 0,3 mg/kg IV lent (maximum 10 mg) ou 0,5 mg/kg intrarectal (maximum 10 mg) ; ou midazolam 0,3 mg/kg en buccal ou intranasal, ou IM (10 mg si > 40 kg, 5 mg de 13 à 40 kg) ; ou lorazépam 0,1 mg/kg IV (maximum 4 mg) ; renouveler une seule fois après 5 à 10 min",
+    "Persistance après 2 doses de benzodiazépine (état de mal établi), 2e ligne : phénobarbital 20 mg/kg IV en 20 min (vitesse ≤ 100 mg/min) ; ou lévétiracétam 40 à 60 mg/kg IV en 10 min (maximum 4,5 g) ; ou phénytoïne 20 mg/kg IV (vitesse ≤ 50 mg/min, sous scope) ; ou valproate 40 mg/kg IV (maximum 3 g ; éviter chez la femme en âge de procréer, l'enfant de moins de 2 ans et en cas de maladie du foie)",
+    "État de mal réfractaire (persistant après la 2e ligne) : 2e médicament de 2e ligne, puis anesthésie générale en réanimation (midazolam, propofol ou thiopental en perfusion, kétamine) avec intubation",
+    "Femme enceinte ou en post-partum : sulfate de magnésium (voir la fiche Pré-éclampsie et éclampsie)",
+    "Traiter la cause : artésunate (paludisme grave), ceftriaxone (méningite), aciclovir (encéphalite), correction du sodium ou du calcium ; paracétamol si fièvre",
+    "Surveiller la respiration après les benzodiazépines et le phénobarbital (ballon et oxygène à portée de main)",
+    "Convulsion fébrile simple : rassurer, traiter la cause de la fièvre ; les antipyrétiques ne préviennent pas les récidives ; pas de traitement de fond",
+    "Après la crise : chercher la cause, adapter ou reprendre le traitement antiépileptique, éducation de la famille (position latérale, durée, diazépam intrarectal ou midazolam buccal à domicile si crises prolongées)"
    ],
    "gravite": [
     "Dépression respiratoire après benzodiazépines",
-    "Crises persistantes malgré 2 doses",
-    "Signes méningés, coma prolongé"
+    "Crises persistantes malgré 2 doses de benzodiazépine",
+    "Signes méningés, fièvre élevée, coma prolongé après la crise",
+    "Déficit focal, traumatisme crânien",
+    "Femme enceinte (éclampsie)",
+    "Hyperthermie, rhabdomyolyse"
    ],
    "prevention": [
-    "Traitement de fond de l'épilepsie bien suivi (phénobarbital, carbamazépine, valproate)"
+    "Traitement de fond de l'épilepsie bien suivi, sans arrêt brutal (phénobarbital, carbamazépine, valproate, lévétiracétam)",
+    "Prévention et traitement précoce du paludisme",
+    "Vaccinations (méningites, rougeole)",
+    "Prévention de l'éclampsie (CPN, sulfate de magnésium)"
    ],
    "medicaments": [
     "Diazépam",
     "Midazolam",
+    "Lorazépam",
     "Phénobarbital",
+    "Lévétiracétam",
+    "Phénytoïne",
+    "Valproate de sodium",
     "Glucose 10 %",
     "Glucose hypertonique 30 % / 50 %",
+    "Thiamine (vitamine B1)",
     "Sulfate de magnésium",
     "Paracétamol",
     "Carbamazépine",
-    "Valproate de sodium",
-    "Oxygène",
-    "Lorazépam"
+    "Propofol",
+    "Kétamine",
+    "Oxygène"
    ]
   },
   {
@@ -36036,41 +36102,53 @@
    "nom": "Hypoglycémie",
    "categorie": "urgences",
    "synonymes": "hypoglycémie, sucre bas, malaise hypoglycémique",
-   "resume": "Glycémie basse (< 0,7 g/l chez le diabétique traité, < 0,45 g/l chez l'enfant non diabétique). Fréquente dans le paludisme grave, la malnutrition, le sepsis, chez le nouveau-né et sous quinine.",
+   "resume": "Glycémie trop basse pour le cerveau : urgence fréquente et facilement corrigée, mais mortelle ou source de séquelles si elle est méconnue. Elle survient chez le diabétique traité (insuline, sulfamides comme le glibenclamide), dans le paludisme grave et sous quinine, la malnutrition, le sepsis, chez le nouveau-né (prématuré, petit poids, mère diabétique), l'alcoolique, l'insuffisant hépatique et dans l'insuffisance surrénale. Toute personne inconsciente ou qui convulse doit avoir une glycémie.",
    "signes": [
-    "Sueurs, tremblements, faim, palpitations",
-    "Confusion, troubles du comportement",
-    "Convulsions, coma",
-    "Nouveau-né : léthargie, refus de téter, trémulations"
+    "Signes adrénergiques : sueurs, tremblements, faim, pâleur, palpitations, anxiété",
+    "Signes neurologiques : céphalées, troubles du comportement, agressivité, confusion, troubles de la parole ou de la vision, déficit transitoire, convulsions, coma",
+    "Nouveau-né : léthargie, refus de téter, trémulations, hypotonie, apnées, convulsions, hypothermie",
+    "Signes souvent absents chez le malnutri, le sujet âgé, le diabétique de longue date ou sous bêtabloquant"
    ],
    "diagnostic": [
     "Glycémie capillaire",
-    "Seuils : < 3 mmol/l (0,54 g/l) chez l'enfant malade et au cours du paludisme grave ; < 2,5 mmol/l (0,45 g/l) chez le nouveau-né ; < 3,9 mmol/l (0,7 g/l) chez le diabétique traité"
+    "Seuils de traitement : < 70 mg/dl (3,9 mmol/l) chez le diabétique traité ; < 54 mg/dl (3 mmol/l) chez l'enfant malade ou malnutri ; < 45 mg/dl (2,5 mmol/l) chez le nouveau-né ; < 40 mg/dl (2,2 mmol/l) dans le paludisme grave (critère de gravité)",
+    "Sans glucomètre : traiter toute personne inconsciente ou convulsante à risque",
+    "Rechercher la cause : surdosage en insuline ou sulfamide, repas sauté, effort, alcool, paludisme, sepsis, insuffisance rénale ou hépatique, maladie d'Addison"
    ],
    "traitement": [
-    "Patient conscient : sucre ou boisson sucrée, puis repas",
-    "Patient inconscient : enfant : glucose 10 % 2 à 5 ml/kg IV ; adulte : glucose 50 % 50 ml IV (ou G10 % 250 ml)",
-    "Puis perfusion de glucose 10 % et contrôle à 15–30 min",
-    "Rechercher la cause (sulfamide hypoglycémiant : surveillance prolongée, paludisme grave, sepsis)",
-    "Alcoolique ou dénutri : thiamine avant le glucose",
-    "Pas d'accès veineux : glucose 10 % ou eau sucrée par sonde nasogastrique ; chez l'enfant, sucre humidifié sous la langue en attendant",
-    "Diabétique sous insuline : glucagon 0,5 mg (enfant < 25 kg) ou 1 mg IM si disponible"
+    "Patient conscient qui peut avaler : 15 à 20 g de sucre rapide (3 à 4 morceaux de sucre, 150 à 200 ml de jus ou de soda sucré, 1 cuillère à soupe de miel) ; contrôle après 15 min, à répéter si la glycémie reste basse, puis repas ou collation",
+    "Patient inconscient : enfant : glucose 10 % 5 ml/kg IV en quelques minutes (nouveau-né 2 ml/kg) ; adulte : glucose 50 % 50 ml IV lente (ou glucose 10 % 150 à 250 ml)",
+    "Puis perfusion de glucosé 10 % et contrôle de la glycémie 15 à 30 min après, puis toutes les heures jusqu'à stabilisation",
+    "Pas d'accès veineux : glucose 10 % ou eau sucrée par sonde gastrique ; chez l'enfant, sucre humidifié sous la langue en attendant ; voie intra-osseuse",
+    "Diabétique sous insuline sans accès veineux : glucagon 1 mg IM (0,5 mg chez l'enfant de moins de 25 kg) ; inefficace chez l'alcoolique, le malnutri et l'insuffisant hépatique",
+    "Alcoolique ou dénutri : thiamine 100 mg IV ou IM avant le glucose",
+    "Hypoglycémie sous sulfamide (glibenclamide) : hospitalisation et perfusion de glucosé 10 % pendant 24 à 72 h (récidives prolongées), surtout chez le sujet âgé ou l'insuffisant rénal",
+    "Paludisme grave, sepsis, malnutrition : surveiller la glycémie toutes les 4 h et apporter du glucose en continu ; nouveau-né : alimentation précoce et fréquente",
+    "Insuffisance surrénale suspectée : hydrocortisone 100 mg IV",
+    "Après l'épisode : en chercher la cause, adapter le traitement du diabète, éduquer le patient et sa famille (signes, sucre toujours sur soi, glucagon si disponible)"
    ],
    "gravite": [
-    "Hypoglycémie récidivante",
-    "Coma persistant malgré la correction"
+    "Hypoglycémie récidivante ou prolongée (sulfamide, insuffisance rénale)",
+    "Coma persistant malgré la correction : rechercher une autre cause (AVC, méningite, paludisme, intoxication)",
+    "Convulsions",
+    "Nouveau-né, malnutri, sujet âgé"
    ],
    "prevention": [
-    "Repas réguliers chez le diabétique, adaptation des traitements",
-    "Alimentation précoce du nouveau-né"
+    "Repas réguliers chez le diabétique traité, adaptation des doses (effort, maladie, jeûne du ramadan), éviter le glibenclamide chez le sujet âgé et l'insuffisant rénal (préférer le gliclazide)",
+    "Autosurveillance glycémique",
+    "Alimentation précoce du nouveau-né",
+    "Surveillance glycémique des patients atteints de paludisme grave, de malnutrition ou de sepsis"
    ],
    "medicaments": [
     "Glucose 10 %",
     "Glucose hypertonique 30 % / 50 %",
+    "Glucose 5 % (sérum glucosé isotonique)",
+    "Glucagon",
     "Thiamine (vitamine B1)",
+    "Hydrocortisone (injectable)",
     "Insuline humaine (rapide et NPH)",
     "Glibenclamide",
-    "Glucagon"
+    "Gliclazide"
    ]
   },
   {
@@ -38790,45 +38868,64 @@
    "nom": "Polytraumatisé (prise en charge initiale)",
    "categorie": "urgences",
    "synonymes": "polytraumatisme, accident de la route, accident, blessé grave, ABCDE",
-   "resume": "Blessé grave (accident de la route, chute, violence, arme à feu). La prise en charge suit l'ordre ABCDE pour traiter d'abord ce qui tue le plus vite.",
+   "resume": "Blessé grave présentant plusieurs lésions dont au moins une menace la vie : accident de la route (moto surtout), chute de hauteur, éboulement dans les mines, violences, arme blanche ou à feu. Les traumatismes sont une cause majeure de décès de l'adulte jeune en RDC. La prise en charge suit l'ordre <C>ABCDE (hémorragie catastrophique, voies aériennes, respiration, circulation, neurologie, exposition) pour traiter d'abord ce qui tue le plus vite, avec réévaluation permanente.",
    "signes": [
-    "Mécanisme violent (choc à grande vitesse, éjection, chute de hauteur)",
-    "Hémorragie externe, pâleur, pouls rapide, TA basse",
-    "Détresse respiratoire",
-    "Troubles de conscience"
+    "Mécanisme violent : choc à grande vitesse, éjection, piéton renversé, chute de plus de 3 m, ensevelissement, plaie par balle",
+    "Hémorragie externe abondante",
+    "Détresse respiratoire, asymétrie thoracique, emphysème sous-cutané, volet costal",
+    "Choc : pâleur, pouls rapide, TRC allongé, PA basse (tardive), agitation",
+    "Ventre distendu ou douloureux, bassin instable, fractures des membres déformées",
+    "Troubles de conscience, pupilles inégales, paralysie (lésion de la moelle)"
    ],
    "diagnostic": [
-    "Bilan ABCDE : A = voies aériennes (avec protection du rachis cervical), B = respiration, C = circulation et hémorragies, D = neurologie (Glasgow, pupilles, glycémie), E = exposition (déshabiller, examiner tout le corps, prévenir l'hypothermie)",
+    "Bilan primaire <C>ABCDE : C = hémorragie massive externe ; A = voies aériennes avec protection du rachis cervical ; B = respiration (FR, SpO₂, auscultation, pneumothorax) ; C = circulation (pouls, PA, TRC, sources d'hémorragie : thorax, abdomen, bassin, fémurs, extérieur) ; D = neurologie (Glasgow, pupilles, glycémie, motricité) ; E = exposition (déshabiller, examiner tout le corps en retournant en bloc, prévenir l'hypothermie)",
+    "Échographie FAST (liquide dans l'abdomen, le péricarde, la plèvre) si disponible ; radiographies du thorax et du bassin",
+    "Groupe sanguin, hémoglobine, test de grossesse",
+    "Bilan secondaire de la tête aux pieds après stabilisation, avec histoire (allergies, médicaments, antécédents, dernier repas, circonstances)",
     "Réévaluer en permanence"
    ],
    "traitement": [
-    "Contrôler les hémorragies externes : compression directe, garrot sur un membre si hémorragie massive",
-    "Libérer les voies aériennes, oxygène, immobiliser le rachis cervical",
-    "2 voies veineuses : Ringer lactate en petits bolus (objectif TA systolique ≈ 90 mmHg, sauf traumatisme crânien : ≥ 110)",
-    "Acide tranexamique 1 g en 10 min dans les 3 h, puis 1 g en 8 h",
-    "Transfusion précoce",
-    "Exsufflation d'un pneumothorax compressif",
-    "Antalgie (morphine, kétamine)",
-    "Prévention du tétanos ; antibiotiques si fracture ouverte"
+    "Hémorragie externe massive : compression directe forte, pansement compressif, garrot sur un membre (noter l'heure), méchage des plaies profondes ; ceinture pelvienne (drap serré autour des hanches) si fracture du bassin suspectée",
+    "Voies aériennes : subluxation de la mâchoire (sans bascule de la tête), aspiration, canule ; intubation si Glasgow ≤ 8 ou obstruction ; maintien manuel du rachis cervical, collier cervical",
+    "Respiration : oxygène ; pneumothorax compressif : exsufflation à l'aiguille (4e ou 5e espace intercostal, ligne axillaire antérieure chez l'adulte ; 2e espace, ligne médioclaviculaire chez l'enfant) puis drain ; plaie soufflante : pansement fixé sur 3 côtés ; hémothorax massif : drain thoracique et chirurgie",
+    "Circulation : 2 voies veineuses de gros calibre ou intra-osseuse ; Ringer lactate tiède en petits bolus de 250 ml (au maximum 1 litre avant le sang), objectif PA systolique 80 à 90 mmHg jusqu'à l'arrêt du saignement (sauf traumatisme crânien : ≥ 110) ; transfusion précoce (sang total ou culot, plasma) ; acide tranexamique 1 g IV en 10 min dans les 3 h, puis 1 g en 8 h",
+    "Chirurgie d'hémostase urgente si choc persistant avec hémorragie abdominale, thoracique ou pelvienne",
+    "Neurologie : éviter hypoxie et hypotension ; voir la fiche Traumatisme crânien ; suspicion de lésion médullaire : immobilisation, retournement en bloc",
+    "Exposition : couvertures, solutés chauffés (l'hypothermie aggrave le saignement)",
+    "Antalgie : morphine 0,1 mg/kg IV titrée, kétamine 0,25 à 0,5 mg/kg IV (analgésie, maintient la PA) ; attelles des fractures",
+    "Fractures ouvertes : céfazoline 2 g IV dans l'heure (+ gentamicine si plaie très souillée), lavage abondant, pansement, immobilisation, débridement au bloc ; prévention du tétanos",
+    "Femme enceinte : inclinaison latérale gauche, surveillance fœtale, anti-D si Rhésus négatif",
+    "Afflux massif de blessés : triage (START), organisation du plan d'urgence",
+    "Transfert vers un centre chirurgical après stabilisation"
    ],
    "gravite": [
-    "Choc persistant malgré le remplissage",
+    "Choc persistant malgré le remplissage et la transfusion",
     "Détresse respiratoire, Glasgow ≤ 8",
-    "Plaie pénétrante du thorax ou de l'abdomen → chirurgie urgente"
+    "Plaie pénétrante du thorax ou de l'abdomen : chirurgie urgente",
+    "Bassin instable, amputation traumatique",
+    "Syndrome des loges (douleur intense, membre tendu)",
+    "Hypothermie, troubles de la coagulation"
    ],
    "prevention": [
-    "Port de la ceinture et du casque, sécurité routière"
+    "Casque pour les motocyclistes et passagers, ceinture de sécurité, limitation de la vitesse, lutte contre l'alcool au volant",
+    "Sécurité dans les mines et chantiers",
+    "Formation aux premiers secours et au triage, systèmes de référence et de transport d'urgence"
    ],
    "medicaments": [
     "Ringer lactate",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
     "Acide tranexamique",
     "Sang total",
     "Concentré de globules rouges (culot globulaire)",
+    "Plasma frais congelé (PFC)",
     "Morphine",
     "Kétamine",
     "Oxygène",
     "Céfazoline",
-    "Vaccin antitétanique (Td / VAT)"
+    "Gentamicine",
+    "Vaccin antitétanique (Td / VAT)",
+    "Immunoglobuline humaine antitétanique",
+    "Immunoglobuline anti-D"
    ]
   },
   {
@@ -38836,42 +38933,62 @@
    "nom": "Traumatisme crânien",
    "categorie": "urgences",
    "synonymes": "traumatisme crânien, TC, choc à la tête, commotion, hématome",
-   "resume": "Atteinte du cerveau après un choc à la tête. Le risque principal est l'hématome intracrânien, qui nécessite une chirurgie urgente.",
+   "resume": "Atteinte du cerveau après un choc à la tête : accident de la route (moto), chute, agression. Il est classé en léger (Glasgow 13 à 15), modéré (9 à 12) ou grave (≤ 8). Le pronostic dépend des lésions initiales et surtout de la prévention des agressions secondaires (hypoxie, hypotension, hypoglycémie, fièvre, convulsions). Le risque principal est l'hématome intracrânien (extradural ou sous-dural), qui nécessite une chirurgie urgente.",
    "signes": [
-    "Perte de connaissance, amnésie, céphalées, vomissements",
-    "Confusion, somnolence, convulsions",
-    "Signes de gravité : Glasgow < 13, pupilles inégales, déficit d'un côté, écoulement de LCR (nez, oreille), aggravation progressive"
+    "Perte de connaissance, amnésie des faits, céphalées, vomissements, vertiges",
+    "Confusion, agitation, somnolence, convulsions",
+    "Signes de gravité : Glasgow < 13 ou qui baisse, pupilles inégales, déficit moteur d'un côté, convulsions, vomissements répétés, aggravation progressive",
+    "Hématome extradural : intervalle libre (patient conscient puis qui s'aggrave en quelques heures)",
+    "Fracture de la base du crâne : écoulement de liquide clair ou de sang par le nez ou l'oreille, ecchymoses autour des yeux (lunettes) ou derrière l'oreille",
+    "Engagement cérébral : pupille dilatée fixe, bradycardie, HTA, respiration irrégulière (triade de Cushing)"
    ],
    "diagnostic": [
-    "Score de Glasgow répété, pupilles, glycémie",
-    "Examen de la colonne cervicale",
-    "Scanner si disponible (sinon surveillance rapprochée)"
+    "Score de Glasgow répété (toutes les 15 min au début), pupilles, motricité des 4 membres, glycémie, SpO₂, PA",
+    "Examen de la colonne cervicale (traumatisme associé dans 5 % des cas) ; bilan des autres lésions",
+    "Scanner cérébral si disponible en cas de : Glasgow < 15 à 2 h, fracture ouverte ou enfoncée suspectée, signes de fracture de la base, vomissements répétés, âge ≥ 65 ans, amnésie > 30 min, mécanisme dangereux, anticoagulant, convulsion, déficit",
+    "Sans scanner : surveillance neurologique rapprochée ; radiographie du crâne de peu d'utilité",
+    "Nourrisson : penser à la maltraitance (bébé secoué)"
    ],
    "traitement": [
-    "Traumatisme léger : surveillance 24 h par un proche, paracétamol (pas de sédatifs)",
-    "Traumatisme grave : voies aériennes et oxygène, éviter hypoxie et hypotension (TA systolique ≥ 110), tête surélevée à 30°",
-    "Signes d'engagement : mannitol ou NaCl 3 %",
-    "Convulsions : diazépam puis phénobarbital ou lévétiracétam",
-    "Plaie du scalp : suture, antitétanique",
-    "Référence neurochirurgicale si hématome suspecté"
+    "Traumatisme léger (Glasgow 15, sans facteur de risque) : retour à domicile sous la surveillance d'un adulte pendant 24 h, paracétamol (pas de sédatifs ni d'aspirine), conseils écrits ; revenir immédiatement en cas de somnolence, vomissements répétés, céphalées qui s'aggravent, confusion, convulsions, faiblesse d'un membre, écoulement par le nez ou l'oreille",
+    "Traumatisme modéré ou grave : protéger les voies aériennes (intubation si Glasgow ≤ 8), oxygène pour une SpO₂ ≥ 94 %, ventilation normale (pas d'hyperventilation sauf signe d'engagement en attendant la chirurgie)",
+    "PA systolique ≥ 110 mmHg (≥ 100 entre 50 et 69 ans) : remplissage par sérum physiologique, pas de glucosé hypotonique",
+    "Tête surélevée à 30°, cou dans l'axe, collier non serré ; maintenir glycémie, température et sodium normaux ; traiter la douleur et l'agitation",
+    "Signes d'engagement : mannitol 20 % 0,5 à 1 g/kg IV en 15 à 20 min ou sérum salé hypertonique à 3 % 3 à 5 ml/kg (adulte 250 ml), puis neurochirurgie en urgence",
+    "Convulsions : diazépam puis phénobarbital ou lévétiracétam ; prévention des crises pendant 7 jours dans le traumatisme grave (lévétiracétam ou phénytoïne)",
+    "Acide tranexamique 1 g en 10 min puis 1 g en 8 h dans les 3 h dans le traumatisme léger à modéré",
+    "Pas de corticoïdes (augmentent la mortalité)",
+    "Hématome extradural ou sous-dural compressif, fracture enfoncée : neurochirurgie urgente ; en l'absence de neurochirurgien et de transfert possible, trous de trépan par un chirurgien formé, du côté de la pupille dilatée",
+    "Plaie du scalp : contrôle du saignement, lavage, suture ; prévention du tétanos ; fracture ouverte : antibiotique (céfazoline ou amoxicilline + acide clavulanique)",
+    "Écoulement de liquide céphalorachidien : pas d'antibiotique systématique, tête surélevée, ne pas moucher ; vaccination antipneumococcique",
+    "Après un traumatisme léger : repos relatif de 24 à 48 h, reprise progressive de l'école, du travail et du sport ; syndrome post-commotionnel possible (céphalées, troubles de la concentration)"
    ],
    "gravite": [
-    "Glasgow ≤ 8 ou qui baisse",
-    "Pupilles inégales, déficit moteur",
+    "Glasgow ≤ 8 ou qui baisse de 2 points ou plus",
+    "Pupilles inégales, déficit moteur, signes d'engagement",
     "Convulsions répétées",
-    "Fracture ouverte ou enfoncée du crâne"
+    "Fracture ouverte ou enfoncée du crâne",
+    "Anticoagulant, troubles de la coagulation, âge > 65 ans",
+    "Polytraumatisme avec choc"
    ],
    "prevention": [
-    "Port du casque (moto), ceinture de sécurité, prévention des chutes"
+    "Port du casque (moto, vélo), ceinture de sécurité, sièges pour enfants",
+    "Prévention des chutes (enfants, personnes âgées), sécurité au travail",
+    "Lutte contre l'alcool au volant et les violences"
    ],
    "medicaments": [
     "Mannitol 20 %",
     "Chlorure de sodium hypertonique 3 %",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
+    "Acide tranexamique",
     "Diazépam",
     "Phénobarbital",
     "Lévétiracétam",
+    "Phénytoïne",
     "Paracétamol",
+    "Morphine",
     "Oxygène",
+    "Céfazoline",
     "Vaccin antitétanique (Td / VAT)"
    ]
   },
@@ -39907,36 +40024,52 @@
    "nom": "Obstruction aiguë des voies aériennes supérieures",
    "categorie": "urgences",
    "synonymes": "étouffement, corps étranger, fausse route, stridor, obstruction",
-   "resume": "Urgence vitale : obstacle au passage de l'air dans le larynx ou la trachée (corps étranger, croup, épiglottite, diphtérie, œdème allergique, abcès).",
+   "resume": "Urgence vitale : obstacle au passage de l'air dans le pharynx, le larynx ou la trachée. Causes : corps étranger (enfant de 1 à 3 ans, arachide, haricot, petits objets ; adulte âgé, morceau de viande), croup, épiglottite, trachéite bactérienne, diphtérie, œdème allergique (anaphylaxie, angio-œdème des IEC), abcès (périamygdalien, rétropharyngé, angine de Ludwig d'origine dentaire), brûlure ou traumatisme du cou. Les gestes de désobstruction et la gestion des voies aériennes doivent être connus de tout soignant.",
    "signes": [
-    "Stridor (bruit inspiratoire aigu), tirage",
-    "Toux, voix rauque ou absente",
-    "Corps étranger : début brutal pendant un repas ou un jeu",
-    "Signes de gravité : agitation, cyanose, épuisement, troubles de conscience"
+    "Stridor (bruit inspiratoire aigu), tirage, battement des ailes du nez",
+    "Toux, voix rauque, étouffée ou absente, salive qui coule",
+    "Corps étranger : début brutal pendant un repas ou un jeu, suffocation, toux violente ; corps étranger bronchique : toux persistante, sifflement d'un seul côté, pneumonies répétées au même endroit",
+    "Obstruction complète : impossibilité de parler, de tousser, de respirer ; mains portées au cou ; cyanose rapide puis perte de connaissance",
+    "Signes de gravité : agitation, cyanose, épuisement, diminution du stridor avec aggravation de l'état, troubles de conscience"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; ne pas examiner la gorge avec un abaisse-langue si épiglottite suspectée",
-    "Rechercher fièvre, contexte vaccinal (diphtérie), allergie"
+    "Diagnostic clinique ; ne pas examiner la gorge avec un abaisse-langue ni allonger l'enfant si une épiglottite est suspectée",
+    "Rechercher fièvre, aspect toxique, contexte vaccinal (diphtérie, Hib), allergie, médicament (IEC), infection dentaire, traumatisme",
+    "SpO₂",
+    "Radiographie du cou et du thorax seulement si l'état le permet (corps étranger radio-opaque, distension d'un poumon) ; endoscopie au bloc"
    ],
    "traitement": [
-    "Corps étranger et toux efficace : laisser tousser",
-    "Toux inefficace : enfant > 1 an et adulte : 5 tapes dans le dos puis 5 compressions abdominales (Heimlich) ; nourrisson : 5 tapes dans le dos puis 5 compressions thoraciques",
-    "Perte de conscience : réanimation cardio-pulmonaire",
-    "Œdème allergique : adrénaline IM",
-    "Croup sévère : adrénaline nébulisée + dexaméthasone",
-    "Oxygène, position assise, calme"
+    "Corps étranger avec toux efficace : encourager à tousser, ne pas taper dans le dos, surveiller, transfert pour extraction",
+    "Toux inefficace chez l'enfant de plus d'un an et l'adulte conscient : 5 tapes vigoureuses entre les omoplates, puis 5 compressions abdominales (manœuvre de Heimlich), en alternance jusqu'à la désobstruction ; femme enceinte ou obèse : compressions thoraciques",
+    "Nourrisson de moins d'un an : 5 tapes dans le dos tête en bas sur l'avant-bras, puis 5 compressions thoraciques avec 2 doigts",
+    "Perte de connaissance : réanimation cardio-pulmonaire (les compressions peuvent expulser l'objet), regarder dans la bouche avant les insufflations et retirer un objet visible (pas de balayage à l'aveugle) ; extraction à la pince de Magill sous laryngoscopie si disponible",
+    "Échec et asphyxie : ponction cricothyroïdienne à l'aiguille (enfant de moins de 12 ans) ou cricothyrotomie chirurgicale (adulte)",
+    "Corps étranger bronchique : bronchoscopie (centre spécialisé)",
+    "Œdème allergique : adrénaline IM 0,01 mg/kg (maximum 0,5 mg) + adrénaline nébulisée ; angio-œdème sous IEC : arrêt définitif de l'IEC, surveillance (réponse moins bonne à l'adrénaline)",
+    "Croup sévère : adrénaline nébulisée + dexaméthasone ; épiglottite : position assise, ceftriaxone, intubation par un expert (voir les fiches dédiées)",
+    "Abcès périamygdalien ou rétropharyngé, angine de Ludwig : antibiotiques IV (amoxicilline + acide clavulanique, ou ceftriaxone + métronidazole), drainage chirurgical, surveillance des voies aériennes",
+    "Dans tous les cas : oxygène, position assise ou celle choisie par le patient, calme, présence du parent ; préparer le matériel d'intubation et de trachéotomie"
    ],
    "gravite": [
-    "Cyanose, épuisement, troubles de conscience → intubation ou trachéotomie"
+    "Cyanose, épuisement, troubles de conscience : intubation ou trachéotomie en urgence",
+    "Obstruction complète",
+    "Stridor qui diminue alors que l'état s'aggrave",
+    "Fièvre élevée avec salive qui coule (épiglottite)"
    ],
    "prevention": [
-    "Surveillance des jeunes enfants (petits objets, arachides), vaccination (diphtérie, Hib)"
+    "Surveillance des jeunes enfants, petits objets et arachides hors de portée avant 4 ans, aliments coupés en petits morceaux",
+    "Vaccinations (diphtérie, Hib)",
+    "Soins dentaires précoces",
+    "Formation de la population et des soignants aux gestes de désobstruction"
    ],
    "medicaments": [
     "Adrénaline (épinéphrine)",
     "Dexaméthasone",
     "Oxygène",
-    "Ceftriaxone"
+    "Ceftriaxone",
+    "Amoxicilline + acide clavulanique",
+    "Métronidazole",
+    "Lidocaïne (lignocaïne)"
    ]
   },
   {
@@ -42398,46 +42531,59 @@
    "nom": "Violences sexuelles (prise en charge médicale)",
    "categorie": "urgences",
    "synonymes": "viol, violence sexuelle, agression sexuelle, VBG, kit PEP",
-   "resume": "Urgence médicale. La prise en charge dans les 72 heures (et jusqu'à 120 h pour la contraception d'urgence) prévient le VIH, les IST et la grossesse. Écouter, croire, respecter la confidentialité et les choix de la victime.",
+   "resume": "Urgence médicale, malheureusement très fréquente en RDC, en particulier dans les zones de conflit de l'Est. La prise en charge dans les 72 heures (et jusqu'à 120 h pour la contraception d'urgence) prévient l'infection par le VIH, les IST, l'hépatite B, le tétanos et la grossesse. Elle doit être confidentielle, respectueuse, centrée sur la survivante ou le survivant (écouter, croire, respecter ses choix), et inclure le soutien psychologique, la protection et l'orientation juridique. Le certificat médical est gratuit (loi de 2006 sur les violences sexuelles).",
    "signes": [
-    "Récit de la victime ; lésions possibles (génitales, anales, corporelles)",
-    "Détresse, sidération, troubles du sommeil, peur",
-    "Souvent aucune lésion visible (n'exclut pas un viol)"
+    "Récit de la victime (ne pas forcer, ne pas juger, ne pas faire répéter)",
+    "Lésions possibles : génitales, anales, buccales, ecchymoses, morsures, marques de contention, fractures ; souvent aucune lésion visible (n'exclut pas un viol)",
+    "Détresse, sidération, honte, peur, troubles du sommeil, cauchemars, idées suicidaires",
+    "Chez l'enfant : changement de comportement, douleurs, écoulement, IST, grossesse chez une adolescente",
+    "Complications : fistule vésico-vaginale ou recto-vaginale, grossesse, IST, VIH, dépression, état de stress post-traumatique"
    ],
    "diagnostic": [
-    "Consentement éclairé à chaque étape",
-    "Examen médical complet dans un lieu confidentiel, avec un soignant du sexe souhaité si possible",
-    "Test de grossesse, test VIH (avec conseil), syphilis, hépatite B",
-    "Certificat médical (gratuit) à remettre à la victime"
+    "Consentement éclairé à chaque étape (examen, prélèvements, traitements, certificat) ; la victime peut refuser une partie",
+    "Examen médical complet dans un lieu confidentiel, avec un soignant du sexe souhaité et une personne de confiance si possible ; noter précisément les lésions (schéma corporel)",
+    "Prélèvements médico-légaux seulement s'ils peuvent être analysés et conservés (chaîne de garde), idéalement dans les 72 h",
+    "Test de grossesse, test VIH (avec conseil ; ne doit pas retarder la PEP), syphilis, AgHBs",
+    "Évaluer le risque suicidaire et la sécurité (retour dans un lieu sûr ?)",
+    "Enfant : examen par un soignant formé, sans spéculum chez la fille prépubère, présence d'un adulte de confiance"
    ],
    "traitement": [
-    "PEP VIH dans les 72 h : TLD 28 jours",
-    "Contraception d'urgence : lévonorgestrel 1,5 mg (dans les 72 à 120 h) ou DIU au cuivre (jusqu'à 5 jours)",
-    "Prévention des IST : ceftriaxone 500 mg IM + azithromycine 1 g (+ métronidazole 2 g)",
-    "Vaccination hépatite B et antitétanique selon le statut",
-    "Soins des plaies",
-    "Soutien psychologique et orientation (juridique, sociale)",
-    "Suivi à 2 semaines, 1, 3 et 6 mois",
-    "Interruption de grossesse sécurisée si désirée et légale"
+    "PEP VIH dans les 72 h, le plus tôt possible : TLD 1 comprimé par jour pendant 28 jours (adulte et adolescent ≥ 30 kg) ; enfant : schéma pédiatrique au dolutégravir selon le poids",
+    "Contraception d'urgence (femme en âge de procréer) : DIU au cuivre jusqu'à 5 jours (le plus efficace) ; ulipristal 30 mg jusqu'à 120 h ; lévonorgestrel 1,5 mg dès que possible (3 mg si IMC ≥ 30 ou inducteur enzymatique)",
+    "Prévention des IST : ceftriaxone 1 g IM (enfant 50 mg/kg, maximum 1 g) + azithromycine 1 g en dose unique (enfant 20 mg/kg) ; + métronidazole 2 g en dose unique (peut être différé pour limiter les nausées ; pas au 1er trimestre si possible)",
+    "Vaccination hépatite B (schéma 0, 1 et 6 mois, ou accéléré 0, 7 et 21 jours) si non vaccinée, immunoglobuline anti-HBs si disponible ; vaccin et immunoglobuline antitétaniques selon le statut et les plaies ; vaccin VPH de 9 à 26 ans si non vaccinée",
+    "Soins des plaies, suture si nécessaire, antalgiques ; lésions graves ou fistule : chirurgie",
+    "Soutien psychologique immédiat (premiers secours psychologiques), puis suivi ; dépression ou état de stress post-traumatique : prise en charge selon le guide mhGAP",
+    "Orientation (avec son accord) vers les services sociaux, juridiques et de protection ; certificat médical remis à la victime",
+    "Grossesse issue d'un viol : information sur l'avortement sécurisé, autorisé en RDC dans ce cas (protocole de Maputo), ou suivi prénatal selon son choix",
+    "Enfant victime : protection de l'enfance, prise en charge spécialisée, signalement selon la législation",
+    "Suivi à 2 semaines (grossesse, observance de la PEP, effets indésirables, symptômes d'IST), à 6 semaines, 3 mois et 6 mois (tests VIH et syphilis, vaccination hépatite B, santé mentale)"
    ],
    "gravite": [
-    "Lésions graves, saignement",
-    "Idées suicidaires",
-    "Enfant victime : protection et prise en charge spécialisée"
+    "Lésions graves, saignement abondant, perforation, fistule",
+    "Idées suicidaires, état de choc psychologique",
+    "Enfant victime : protection et prise en charge spécialisée",
+    "Agresseur qui menace encore la victime"
    ],
    "prevention": [
-    "Information de la communauté sur l'intérêt de consulter dans les 72 h, kits PEP disponibles dans les structures"
+    "Information de la communauté sur l'intérêt de consulter dans les 72 h et sur la gratuité des soins",
+    "Kits PEP disponibles dans toutes les structures, personnel formé",
+    "Lutte contre l'impunité et la stigmatisation, éducation, protection des personnes vulnérables (déplacées, enfants)"
    ],
    "medicaments": [
     "Ténofovir + lamivudine + dolutégravir (TLD)",
+    "Dolutégravir pédiatrique",
     "Lévonorgestrel (contraception d'urgence)",
+    "Ulipristal acétate (contraception d'urgence)",
     "Dispositif intra-utérin au cuivre (DIU)",
     "Ceftriaxone",
     "Azithromycine",
     "Métronidazole",
     "Vaccin hépatite B",
     "Vaccin antitétanique (Td / VAT)",
-    "Ulipristal acétate (contraception d'urgence)"
+    "Immunoglobuline humaine antitétanique",
+    "Vaccin anti-papillomavirus (VPH)",
+    "Paracétamol"
    ]
   },
   {
@@ -42661,46 +42807,69 @@
    "nom": "Sepsis de l'adulte (antibiothérapie probabiliste)",
    "categorie": "urgences",
    "synonymes": "sepsis, septicémie, choc septique, infection grave adulte, qSOFA",
-   "resume": "Défaillance d'organe due à une réponse inadaptée à une infection. Chaque heure de retard de l'antibiotique augmente la mortalité.",
+   "resume": "Dysfonction d'organes menaçant la vie, due à une réponse inadaptée de l'organisme à une infection. Le choc septique associe une hypotension nécessitant des amines et une hyperlactatémie. Chaque heure de retard de l'antibiotique augmente la mortalité. En Afrique subsaharienne, les causes fréquentes sont les pneumonies, les infections urinaires, abdominales, gynécologiques et de la peau, les salmonelloses, le paludisme grave et, chez la personne vivant avec le VIH, la tuberculose disséminée. Un remplissage excessif peut être dangereux (essais africains) : il doit être prudent et réévalué.",
    "signes": [
-    "Fièvre ou hypothermie",
-    "Au moins 2 critères qSOFA : FR ≥ 22/min, confusion, TA systolique ≤ 100 mmHg",
-    "Marbrures, oligurie, lactates élevés",
+    "Fièvre (> 38 °C) ou hypothermie (< 36 °C), frissons",
+    "Au moins 2 critères qSOFA : FR ≥ 22/min, confusion, PA systolique ≤ 100 mmHg",
+    "Tachycardie, marbrures, extrémités froides, TRC allongé, oligurie",
+    "Signes du foyer : toux et crépitants, brûlures urinaires et douleur lombaire, douleur abdominale, plaie ou cellulite, céphalées et raideur de nuque, pertes génitales",
     "Choc septique : hypotension persistante malgré le remplissage"
    ],
    "diagnostic": [
-    "Rechercher le foyer : poumon, urines, abdomen, peau, méninges, cathéter",
-    "Hémocultures et prélèvements avant l'antibiotique (sans retarder > 1 h)",
-    "TDR paludisme, glycémie, test VIH"
+    "Rechercher le foyer : poumon, urines, abdomen, appareil génital, peau et tissus mous, os, méninges, cathéter, endocarde",
+    "Hémocultures (2 paires) et prélèvements du foyer avant l'antibiotique, sans le retarder de plus d'une heure",
+    "Lactates, NFS, créatinine, bilirubine, glycémie, plaquettes",
+    "TDR paludisme, test VIH (et TB-LAM, CrAg si VIH avancé)",
+    "Radiographie du thorax, bandelette urinaire, échographie abdominale selon l'orientation",
+    "Score qSOFA (onglet Outils) pour repérer les patients à risque"
    ],
    "traitement": [
-    "Dans l'heure : antibiotique IV probabiliste selon le foyer : sans foyer évident ceftriaxone 2 g/jour (+ gentamicine si choc) ; abdomen ou gynécologique : + métronidazole ; peau : + cloxacilline ou clindamycine ; infection hospitalière : voir infections associées aux soins",
-    "Remplissage 30 ml/kg de cristalloïdes (Ringer lactate) en surveillant les signes de surcharge",
-    "Noradrénaline si hypotension persistante",
-    "Oxygène",
-    "Contrôle du foyer (drainage, chirurgie)",
-    "Antipaludique si TDR positif",
-    "Doses : gentamicine 5 mg/kg IV une fois par jour ; métronidazole 500 mg IV toutes les 8 h ; cloxacilline 2 g IV toutes les 6 h",
-    "Réévaluer à 48-72 h : adapter selon l'évolution et les cultures ; durée habituelle 7 à 10 jours"
+    "Dans l'heure : antibiotique IV probabiliste selon le foyer et l'écologie locale : sans foyer évident : ceftriaxone 2 g par jour (+ gentamicine 5 mg/kg si choc)",
+    "Pneumonie : ceftriaxone 2 g + azithromycine 500 mg (ou doxycycline)",
+    "Infection urinaire : ceftriaxone ± gentamicine",
+    "Abdomen ou appareil génital : ceftriaxone + métronidazole 500 mg toutes les 8 h",
+    "Peau et tissus mous : cloxacilline 2 g toutes les 6 h ; infection nécrosante : pipéracilline-tazobactam (ou ceftriaxone + métronidazole) + clindamycine et chirurgie en urgence",
+    "Méningite : ceftriaxone 2 g toutes les 12 h",
+    "Neutropénie fébrile : pipéracilline-tazobactam ou ceftazidime",
+    "Infection acquise à l'hôpital ou germe BLSE probable : méropénem ou selon l'écologie (voir la fiche Infections associées aux soins)",
+    "Antipaludique si TDR positif ; VIH avancé : penser à la tuberculose, au cryptocoque, à la pneumocystose",
+    "Remplissage : Ringer lactate 500 à 1 000 ml en 15 à 30 min si hypotension ou lactates ≥ 4 mmol/l, puis réévaluation après chaque bolus (jusqu'à 30 ml/kg) ; arrêter devant une hypoxie, des crépitants ou une turgescence jugulaire",
+    "Noradrénaline 0,05 à 0,5 µg/kg/min si l'hypotension persiste (objectif PA moyenne ≥ 65 mmHg), possible au début sur une bonne voie périphérique ; adrénaline si indisponible",
+    "Hydrocortisone 50 mg IV toutes les 6 h si la noradrénaline reste nécessaire à dose élevée",
+    "Oxygène pour une SpO₂ de 94 à 98 %",
+    "Contrôle du foyer dans les 6 à 12 h : drainage d'abcès, chirurgie (péritonite, fasciite), retrait d'un cathéter infecté, évacuation utérine",
+    "Soins associés : glycémie (cible 140 à 180 mg/dl), prévention des thromboses (énoxaparine) et de l'ulcère de stress, nutrition précoce",
+    "Réévaluer à 48-72 h : adapter selon l'évolution et les cultures (désescalade), passer à la voie orale dès que possible ; durée habituelle 5 à 7 jours (plus longue si foyer non drainé, endocardite, ostéite)"
    ],
    "gravite": [
     "Choc, lactates > 4 mmol/l",
-    "Troubles de conscience, détresse respiratoire"
+    "Troubles de conscience, détresse respiratoire, SpO₂ < 90 %",
+    "Anurie, troubles de la coagulation, ictère",
+    "Absence d'amélioration à 48 h : foyer non drainé, germe résistant, autre diagnostic (tuberculose, paludisme, VIH)"
    ],
    "prevention": [
-    "Vaccinations, prise en charge précoce des infections, hygiène hospitalière"
+    "Vaccinations (pneumocoque, méningocoque, Hib, grippe)",
+    "Prise en charge précoce des infections",
+    "Hygiène hospitalière, bon usage des antibiotiques",
+    "ARV et cotrimoxazole chez les personnes vivant avec le VIH"
    ],
    "medicaments": [
     "Ceftriaxone",
     "Gentamicine",
     "Métronidazole",
+    "Azithromycine",
+    "Doxycycline",
     "Cloxacilline",
     "Clindamycine",
+    "Ceftazidime",
     "Pipéracilline + tazobactam",
     "Méropénem",
     "Ringer lactate",
     "Noradrénaline (norépinéphrine)",
-    "Oxygène"
+    "Adrénaline (épinéphrine)",
+    "Hydrocortisone (injectable)",
+    "Oxygène",
+    "Énoxaparine"
    ]
   },
   {
@@ -43427,41 +43596,56 @@
    "nom": "Urgence hypertensive",
    "categorie": "urgences",
    "synonymes": "urgence hypertensive, crise hypertensive, encéphalopathie hypertensive, HTA maligne, poussée hypertensive",
-   "resume": "Hypertension sévère (souvent > 180/120 mmHg) avec atteinte aiguë d'un organe (cerveau, cœur, reins, yeux). Sans atteinte d'organe, il s'agit d'une HTA sévère non compliquée à traiter par voie orale.",
+   "resume": "Hypertension sévère (souvent > 180/120 mmHg) avec atteinte aiguë d'un organe : encéphalopathie, AVC, OAP, syndrome coronarien aigu, dissection aortique, insuffisance rénale aiguë, rétinopathie maligne, éclampsie. Elle impose une baisse contrôlée de la PA par voie IV en milieu surveillé. Sans atteinte d'organe, il s'agit d'une HTA sévère non compliquée, beaucoup plus fréquente, à traiter par voie orale sans baisse brutale (une chute rapide de la PA peut provoquer un AVC ou un infarctus).",
    "signes": [
-    "Céphalées intenses, troubles visuels, confusion, convulsions (encéphalopathie)",
-    "Douleur thoracique, essoufflement (OAP, SCA, dissection)",
-    "Déficit neurologique (AVC)",
-    "Oligurie, hématurie"
+    "Céphalées intenses, troubles visuels, nausées, vomissements, confusion, somnolence, convulsions (encéphalopathie)",
+    "Douleur thoracique (SCA), douleur thoracique ou dorsale déchirante avec asymétrie des pouls (dissection)",
+    "Essoufflement, crépitants (OAP)",
+    "Déficit neurologique, troubles de la parole (AVC)",
+    "Oligurie, hématurie (atteinte rénale)",
+    "Fond d'œil : hémorragies, exsudats, œdème papillaire (HTA maligne)",
+    "Causes fréquentes : arrêt du traitement, HTA non diagnostiquée, maladie rénale, grossesse, cocaïne, AINS ou corticoïdes"
    ],
    "diagnostic": [
-    "TA aux deux bras",
-    "Fond d'œil",
-    "ECG, créatinine, bandelette urinaire",
-    "Éliminer une pré-éclampsie chez la femme enceinte"
+    "PA aux 2 bras, répétée après 15 à 30 min de repos au calme",
+    "Rechercher une atteinte d'organe : examen neurologique, cardio-pulmonaire, fond d'œil",
+    "ECG, créatinine, potassium, bandelette urinaire (protéines, sang), hémoglobine et frottis (schizocytes) ; troponine et radiographie du thorax si signes cardiaques",
+    "Femme enceinte ou en post-partum : pré-éclampsie jusqu'à preuve du contraire",
+    "Scanner cérébral si déficit ou troubles de conscience (AVC, hémorragie)"
    ],
    "traitement": [
-    "Sans atteinte d'organe : reprendre ou intensifier le traitement oral (amlodipine), revoir en 24 à 48 h, pas de baisse brutale",
-    "Avec atteinte d'organe : baisser la TA de 20 à 25 % la 1re heure (sauf dissection : plus vite ; AVC ischémique : pas en dessous de 185/110 si thrombolyse, sinon prudence) : labétalol IV, nicardipine, trinitrine IV (OAP, SCA), hydralazine, nitroprussiate en réanimation",
-    "OAP : furosémide + trinitrine",
-    "Pré-éclampsie : voir fiche dédiée"
+    "HTA sévère sans atteinte d'organe : repos, reprise ou intensification du traitement oral (amlodipine 5 à 10 mg, nifédipine LP 20 à 30 mg, ajout d'un diurétique ou d'un IEC), objectif < 160/100 en quelques heures à jours ; revoir en 24 à 72 h ; ne pas utiliser de nifédipine à libération immédiate sublinguale",
+    "Urgence avec atteinte d'organe (hospitalisation, surveillance rapprochée) : baisser la PA moyenne de 20 à 25 % au maximum la 1re heure, puis vers 160/100 dans les 2 à 6 h suivantes",
+    "Labétalol 20 mg IV en 2 min, puis 20 à 80 mg toutes les 10 min (maximum 300 mg) ou perfusion de 1 à 2 mg/min ; pas en cas d'asthme, de bradycardie ou d'insuffisance cardiaque aiguë",
+    "Hydralazine 5 à 10 mg IV lente, à répéter toutes les 20 à 30 min",
+    "Trinitrine IV 5 à 200 µg/min (OAP, SCA) ; dinitrate d'isosorbide en alternative",
+    "Nitroprussiate de sodium 0,3 à 10 µg/kg/min en réanimation",
+    "Situations particulières : dissection aortique : PA systolique < 120 mmHg et pouls < 60/min en 20 min (bêtabloquant d'abord, puis vasodilatateur), chirurgie ; OAP : furosémide + trinitrine ; SCA : trinitrine et traitement du SCA ; AVC ischémique : ne traiter que si PA > 220/120 (ou > 185/110 avant thrombolyse) ; hémorragie cérébrale : PA systolique cible 140 à 160 mmHg ; éclampsie et pré-éclampsie : voir la fiche dédiée ; intoxication à la cocaïne : benzodiazépines, éviter les bêtabloquants seuls",
+    "Après la phase aiguë : relais oral, recherche d'une cause (maladie rénale, sténose de l'artère rénale, hyperaldostéronisme, phéochromocytome) et éducation à l'observance"
    ],
    "gravite": [
     "Troubles de conscience, convulsions",
-    "OAP, douleur thoracique",
-    "Déficit neurologique"
+    "OAP, douleur thoracique, dissection",
+    "Déficit neurologique",
+    "Insuffisance rénale aiguë, anémie hémolytique (microangiopathie)",
+    "Grossesse"
    ],
    "prevention": [
-    "Observance du traitement antihypertenseur"
+    "Dépistage et traitement de l'HTA, observance du traitement, approvisionnement régulier en médicaments",
+    "Éviter l'automédication par AINS et les produits stimulants"
    ],
    "medicaments": [
     "Labétalol",
     "Hydralazine (dihydralazine)",
     "Trinitrine (nitroglycérine)",
+    "Dinitrate d'isosorbide",
     "Nitroprussiate de sodium",
     "Furosémide",
     "Amlodipine",
-    "Nifédipine"
+    "Nifédipine",
+    "Énalapril",
+    "Hydrochlorothiazide",
+    "Diazépam"
    ]
   },
   {
