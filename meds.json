@@ -1,5 +1,5 @@
 {
- "version": 37,
+ "version": 38,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -35262,36 +35262,49 @@
    "nom": "Écoulement urétral (homme)",
    "categorie": "genital",
    "synonymes": "chaude-pisse, gonorrhée, urétrite, écoulement urétral, IST",
-   "resume": "Écoulement par le méat urinaire, principalement dû au gonocoque et/ou à Chlamydia. Traitement syndromique des deux germes.",
+   "resume": "Écoulement par le méat urinaire, le plus souvent dû au gonocoque (Neisseria gonorrhoeae) et/ou à Chlamydia trachomatis, parfois à Trichomonas ou Mycoplasma genitalium. La prise en charge syndromique de l'OMS traite les deux germes principaux en une seule visite, sans attendre d'examen. Le traitement des partenaires et la prévention du VIH en font partie. Les résistances du gonocoque augmentent : la ceftriaxone reste le traitement de référence.",
    "signes": [
-    "Écoulement purulent ou clair par l'urètre",
-    "Brûlures mictionnelles",
-    "Parfois douleur testiculaire (orchi-épididymite)"
+    "Écoulement purulent (jaune-vert, gonocoque) ou clair et peu abondant (Chlamydia) par l'urètre, souvent le matin",
+    "Brûlures en urinant, démangeaisons du méat",
+    "Parfois sans symptôme",
+    "Complications : orchi-épididymite (testicule gonflé, douloureux, fièvre), prostatite, sténose de l'urètre (jet faible, des années plus tard), infertilité, arthrite gonococcique, conjonctivite"
    ],
    "diagnostic": [
-    "Approche syndromique (examen clinique)",
-    "Proposer un test VIH et un test de syphilis"
+    "Approche syndromique : examen du méat (traire l'urètre), des testicules, recherche d'ulcération génitale et de ganglions",
+    "Coloration de Gram (diplocoques intracellulaires) et tests moléculaires si disponibles",
+    "Proposer un test VIH et un test de syphilis à chaque consultation pour IST ; hépatite B",
+    "Torsion du testicule (douleur brutale, adolescent, sans écoulement) : urgence chirurgicale dans les 6 h, à distinguer de l'orchi-épididymite"
    ],
    "traitement": [
-    "Traiter gonocoque ET chlamydia : ceftriaxone 1 g IM en dose unique (OMS 2024 ; céfixime 800 mg oral si injection impossible) + doxycycline 100 mg 2 fois par jour pendant 7 jours (ou azithromycine 1 g en dose unique, notamment chez la femme enceinte)",
-    "Traiter le(s) partenaire(s)",
-    "Abstinence ou préservatif pendant 7 jours",
-    "Revoir après 7 jours si persistance"
+    "Traiter gonocoque ET Chlamydia : ceftriaxone 1 g IM en dose unique (céfixime 800 mg oral en dose unique si l'injection est impossible) + doxycycline 100 mg 2 fois par jour pendant 7 jours (azithromycine 1 g en dose unique si l'observance est douteuse ou en cas de contre-indication à la doxycycline)",
+    "Orchi-épididymite : ceftriaxone 1 g IM + doxycycline 100 mg 2 fois par jour pendant 10 à 14 jours ; repos, suspensoir, antalgiques",
+    "Écoulement persistant ou récidivant après un traitement bien pris et sans nouvelle exposition : métronidazole 2 g en dose unique (Trichomonas) ; puis, si persistance, azithromycine (Mycoplasma genitalium) ; avis spécialisé",
+    "Notifier et traiter les partenaires des 60 derniers jours (même traitement), sans attendre qu'ils aient des symptômes",
+    "Abstinence ou préservatif pendant 7 jours après la fin du traitement des deux partenaires",
+    "Conseils : préservatifs (en remettre), information sur le VIH, proposition de PrEP si risque élevé, vaccination hépatite B",
+    "Revoir après 7 jours si les symptômes persistent"
    ],
    "gravite": [
     "Orchi-épididymite, fièvre",
-    "Écoulement persistant (penser à Trichomonas : métronidazole)"
+    "Douleur testiculaire brutale (torsion : chirurgie urgente)",
+    "Écoulement persistant (Trichomonas, résistance, réinfection)",
+    "Arthrite, éruption pustuleuse et fièvre (gonococcie disséminée : ceftriaxone IV)"
    ],
    "prevention": [
-    "Préservatif, traitement des partenaires, dépistage VIH"
+    "Préservatif à chaque rapport, réduction du nombre de partenaires",
+    "Traitement systématique des partenaires",
+    "Dépistage du VIH et de la syphilis, PrEP pour les personnes à risque",
+    "Circoncision masculine médicale volontaire"
    ],
    "medicaments": [
     "Ceftriaxone",
     "Céfixime",
-    "Azithromycine",
     "Doxycycline",
+    "Azithromycine",
     "Métronidazole",
-    "Spectinomycine"
+    "Spectinomycine",
+    "Ibuprofène",
+    "Méthodes barrières (préservatifs masculin et féminin, diaphragme)"
    ]
   },
   {
@@ -35299,39 +35312,54 @@
    "nom": "Écoulement vaginal (pertes vaginales)",
    "categorie": "genital",
    "synonymes": "pertes vaginales, pertes blanches, leucorrhées, vaginite, vaginose, cervicite",
-   "resume": "Pertes anormales pouvant correspondre à une vaginite (Trichomonas, vaginose, candidose) ou à une cervicite (gonocoque, chlamydia).",
+   "resume": "Pertes vaginales anormales (couleur, odeur, quantité). Les causes les plus fréquentes sont des vaginites : vaginose bactérienne, trichomonase (IST) et candidose ; plus rarement une cervicite à gonocoque ou à Chlamydia (IST), souvent sans symptôme mais responsable d'infections génitales hautes, d'infertilité et de grossesses extra-utérines. La prise en charge syndromique de l'OMS associe examen au spéculum et évaluation du risque d'IST.",
    "signes": [
-    "Pertes anormales (couleur, odeur, quantité)",
-    "Prurit, brûlures (candidose)",
-    "Pertes malodorantes grises (vaginose)",
-    "Pertes jaunes-vertes (Trichomonas)",
-    "Douleurs pelviennes, fièvre (infection génitale haute)"
+    "Pertes physiologiques : claires ou blanchâtres, sans odeur, variables selon le cycle",
+    "Vaginose bactérienne : pertes grises, fluides, odeur de poisson (surtout après les rapports), sans irritation",
+    "Trichomonase : pertes jaune-vert, mousseuses, malodorantes, irritation, brûlures, col rouge « framboise »",
+    "Candidose : pertes blanches épaisses « lait caillé », démangeaisons intenses, brûlures, vulve rouge et gonflée",
+    "Cervicite : pertes purulentes provenant du col, col qui saigne au contact, saignements après les rapports",
+    "Infection génitale haute : douleurs du bas-ventre, fièvre, douleur à la mobilisation du col",
+    "Fillette : penser corps étranger, oxyures, abus sexuels"
    ],
    "diagnostic": [
-    "Examen au spéculum si possible",
-    "Évaluer le risque de cervicite (partenaire avec écoulement, nouveau partenaire)",
-    "Rechercher des douleurs pelviennes"
+    "Interrogatoire : caractère des pertes, démangeaisons, odeur, douleurs pelviennes, risque d'IST (partenaire avec écoulement, nouveau partenaire ou plusieurs partenaires dans les 3 derniers mois, âge < 25 ans), grossesse",
+    "Examen au spéculum (pertes, col, ulcérations) et toucher vaginal (douleur du col et des annexes)",
+    "pH vaginal (> 4,5 : vaginose ou Trichomonas), test à la potasse (odeur), examen direct au microscope si disponibles",
+    "Test de grossesse si douleur ou retard de règles",
+    "Proposer un test VIH et un test de syphilis ; dépistage du cancer du col (IVA)"
    ],
    "traitement": [
-    "Vaginite : métronidazole (Trichomonas, vaginose) ; candidose : clotrimazole vaginal ou fluconazole 150 mg dose unique (hors grossesse)",
-    "Risque de cervicite : ajouter ceftriaxone + azithromycine",
-    "Infection génitale haute : ceftriaxone + doxycycline + métronidazole 14 jours",
-    "Traiter le partenaire (sauf candidose et vaginose)"
+    "Vaginose bactérienne et trichomonase : métronidazole 400 à 500 mg 2 fois par jour pendant 7 jours (préférable chez la femme ; dose unique de 2 g possible pour la trichomonase) ; possible pendant toute la grossesse ; pas d'alcool pendant et 48 h après",
+    "Candidose : clotrimazole ovule 500 mg en dose unique (ou 200 mg 3 soirs) ou fluconazole 150 mg en dose unique (pas pendant la grossesse : clotrimazole 7 jours)",
+    "Cervicite (pertes cervicales purulentes ou risque d'IST élevé) : traiter aussi gonocoque et Chlamydia : ceftriaxone 1 g IM en dose unique + doxycycline 100 mg 2 fois par jour pendant 7 jours (azithromycine 1 g en dose unique pendant la grossesse)",
+    "Douleurs pelviennes, fièvre ou douleur à la mobilisation du col : traitement de l'infection génitale haute (ceftriaxone + doxycycline + métronidazole 14 jours, voir la fiche dédiée)",
+    "Partenaire : traiter en cas de trichomonase et de cervicite (gonocoque, Chlamydia) ; pas de traitement du partenaire pour la vaginose et la candidose",
+    "Vaginoses récidivantes : métronidazole puis gel ou traitement d'entretien selon l'avis ; éviter les douches vaginales",
+    "Candidoses récidivantes : voir la fiche Candidoses (diabète, VIH)",
+    "Conseils : préservatif, ne pas faire de douches vaginales ni utiliser de produits asséchants traditionnels ; revenir si persistance après 7 jours"
    ],
    "gravite": [
-    "Fièvre, douleurs pelviennes intenses, défense (salpingite, abcès)",
-    "Grossesse avec signes d'infection"
+    "Fièvre, douleurs pelviennes intenses, défense (infection génitale haute, abcès)",
+    "Grossesse avec signes d'infection (risque d'accouchement prématuré)",
+    "Pertes sanglantes et malodorantes après la ménopause (cancer)",
+    "Fillette (rechercher des abus)"
    ],
    "prevention": [
-    "Préservatif, dépistage VIH et syphilis"
+    "Préservatif, dépistage du VIH et de la syphilis",
+    "Traitement des partenaires",
+    "Éviter les douches vaginales et les produits vaginaux traditionnels",
+    "Vaccination VPH et dépistage du cancer du col"
    ],
    "medicaments": [
     "Métronidazole",
+    "Tinidazole",
     "Clotrimazole",
     "Fluconazole",
     "Ceftriaxone",
+    "Doxycycline",
     "Azithromycine",
-    "Doxycycline"
+    "Céfixime"
    ]
   },
   {
@@ -35339,38 +35367,60 @@
    "nom": "Ulcération génitale (syphilis, chancre)",
    "categorie": "genital",
    "synonymes": "syphilis, chancre, ulcère génital, plaie génitale, herpès génital",
-   "resume": "Ulcérations des organes génitaux dues surtout à la syphilis, à l'herpès et au chancre mou.",
+   "resume": "Plaie des organes génitaux ou de l'anus, due surtout à l'herpès génital (cause la plus fréquente), à la syphilis et au chancre mou ; plus rarement à la lymphogranulomatose vénérienne ou à la donovanose. Les ulcérations génitales multiplient le risque de transmission du VIH. La syphilis, souvent silencieuse, cause des fausses couches, des morts fœtales et la syphilis congénitale : toute femme enceinte doit être dépistée et traitée.",
    "signes": [
-    "Ulcération indolore à bords nets (syphilis)",
-    "Vésicules ou ulcérations douloureuses récidivantes (herpès)",
-    "Ulcère douloureux sale avec bubon (chancre mou)",
-    "Syphilis secondaire : éruption, y compris paumes et plantes"
+    "Syphilis primaire : ulcération (chancre) unique, indolore, propre, à bords nets et base indurée, avec ganglion inguinal ferme et indolore ; guérit seule en 3 à 6 semaines",
+    "Syphilis secondaire (6 semaines à 6 mois) : éruption sans démangeaisons y compris des paumes et des plantes, plaques muqueuses, condylomes plats humides, chute des cheveux en clairières, ganglions, fièvre",
+    "Syphilis latente : sans symptôme, sérologie positive",
+    "Syphilis tertiaire et neurosyphilis : atteinte du cœur, de l'aorte, du système nerveux (démence, troubles de la marche), des yeux",
+    "Herpès : bouquet de vésicules douloureuses puis ulcérations superficielles multiples, récidivantes, brûlures, ganglions sensibles ; primo-infection avec fièvre ; formes chroniques étendues chez la personne vivant avec le VIH",
+    "Chancre mou : ulcère douloureux, sale, à bords décollés, avec bubon inguinal douloureux qui peut fistuliser",
+    "Lymphogranulomatose : petite ulcération puis gros ganglions inguinaux inflammatoires, rectite"
    ],
    "diagnostic": [
-    "Test rapide de syphilis (et VIH)",
-    "Femme enceinte : dépistage systématique de la syphilis en CPN"
+    "Examen des organes génitaux, de l'anus, de la bouche, de la peau (paumes, plantes) et des ganglions",
+    "Test rapide de syphilis (tréponémique) ; RPR ou VDRL pour confirmer l'activité et suivre le traitement",
+    "Test VIH systématique ; hépatite B",
+    "Femme enceinte : dépistage de la syphilis à la 1re CPN et au 3e trimestre (test combiné VIH-syphilis)",
+    "Ponction lombaire si signes neurologiques ou oculaires chez un patient atteint de syphilis",
+    "Différentiels : traumatisme, éruption médicamenteuse fixe, maladie de Behçet, cancer (ulcération chronique chez le sujet âgé)"
    ],
    "traitement": [
-    "Traitement syndromique : benzathine benzylpénicilline 2,4 MUI IM dose unique (syphilis) + azithromycine 1 g dose unique (chancre mou)",
-    "Herpès : aciclovir 7 à 10 jours (primo-infection)",
-    "Syphilis tardive : benzathine benzylpénicilline 1 fois par semaine pendant 3 semaines",
-    "Allergie à la pénicilline : doxycycline (hors grossesse) ou érythromycine",
-    "Traiter les partenaires"
+    "Traitement syndromique en zone à forte prévalence (OMS) : benzathine benzylpénicilline 2,4 MUI IM en dose unique (syphilis) + aciclovir (herpès) ; ajouter azithromycine 1 g en dose unique si chancre mou possible (ulcère sale et douloureux, bubon)",
+    "Syphilis récente (primaire, secondaire, latente de moins de 2 ans) : benzathine benzylpénicilline 2,4 MUI IM en dose unique (1,2 MUI dans chaque fesse)",
+    "Syphilis latente tardive ou d'ancienneté inconnue : 2,4 MUI IM une fois par semaine pendant 3 semaines",
+    "Allergie à la pénicilline (hors grossesse) : doxycycline 100 mg 2 fois par jour pendant 14 jours (30 jours si tardive) ; ou ceftriaxone 1 g par jour pendant 10 à 14 jours ; femme enceinte allergique : désensibilisation si possible, sinon érythromycine (ne traite pas le fœtus : traiter le nouveau-né)",
+    "Neurosyphilis ou atteinte oculaire : benzylpénicilline 3 à 4 MUI IV toutes les 4 h pendant 10 à 14 jours",
+    "Réaction de Jarisch-Herxheimer (fièvre, frissons, céphalées dans les heures suivant l'injection) : fréquente et bénigne, paracétamol ; prévenir la femme enceinte (contractions possibles)",
+    "Herpès : primo-infection aciclovir 400 mg 3 fois par jour pendant 7 à 10 jours ; récurrence 400 mg 3 fois par jour pendant 5 jours ; récurrences fréquentes (6 par an ou plus) ou VIH : traitement suppressif 400 mg 2 fois par jour ; bains d'eau salée, antalgiques, uriner dans l'eau si douleur",
+    "Chancre mou : azithromycine 1 g en dose unique ou ceftriaxone 250 mg IM ; bubon fluctuant : ponction à l'aiguille (pas d'incision)",
+    "Lymphogranulomatose : doxycycline 100 mg 2 fois par jour pendant 21 jours",
+    "Donovanose : azithromycine 1 g par semaine pendant 3 semaines",
+    "Traiter les partenaires (syphilis : tous les partenaires des 3 derniers mois, ou plus si syphilis secondaire ou latente)",
+    "Suivi de la syphilis : RPR à 6 et 12 mois (le titre doit baisser de 4 fois) ; nouveau-né de mère non ou mal traitée : traitement (voir Sepsis néonatal)"
    ],
    "gravite": [
-    "Syphilis chez la femme enceinte (risque de syphilis congénitale) → traiter immédiatement",
-    "Ulcérations étendues chez la personne VIH+"
+    "Syphilis chez la femme enceinte (risque de mort fœtale et de syphilis congénitale) : traiter immédiatement, le jour même",
+    "Signes neurologiques ou visuels (neurosyphilis)",
+    "Ulcérations étendues, chroniques chez la personne vivant avec le VIH",
+    "Bubon fistulisé, destruction tissulaire"
    ],
    "prevention": [
-    "Préservatif, dépistage en CPN, traitement des partenaires"
+    "Préservatif",
+    "Dépistage de la syphilis et du VIH en CPN et chez toute personne consultant pour une IST ; traitement le jour même",
+    "Traitement des partenaires",
+    "Circoncision masculine médicale"
    ],
    "medicaments": [
     "Benzathine benzylpénicilline",
+    "Benzylpénicilline (pénicilline G)",
+    "Benzylpénicilline procaïne",
     "Azithromycine",
     "Aciclovir",
     "Doxycycline",
+    "Ceftriaxone",
     "Érythromycine",
-    "Benzylpénicilline procaïne"
+    "Paracétamol"
    ]
   },
   {
@@ -35378,46 +35428,60 @@
    "nom": "Infection urinaire (cystite, pyélonéphrite)",
    "categorie": "genital",
    "synonymes": "infection urinaire, cystite, brûlures urinaires, pyélonéphrite, IU",
-   "resume": "Infection de la vessie (cystite) ou du rein (pyélonéphrite), surtout à E. coli.",
+   "resume": "Infection de la vessie (cystite) ou du rein (pyélonéphrite), due surtout à E. coli, puis Klebsiella, Proteus, entérocoques. Très fréquente chez la femme ; chez l'homme, l'enfant, la femme enceinte et en présence d'un obstacle, elle est dite compliquée. La résistance d'E. coli aux fluoroquinolones, au cotrimoxazole et aux céphalosporines (BLSE) est élevée en RDC : réserver la ciprofloxacine aux pyélonéphrites et faire une culture quand c'est possible.",
    "signes": [
-    "Cystite : brûlures mictionnelles, envies fréquentes, urines troubles, pas de fièvre",
-    "Pyélonéphrite : fièvre, frissons, douleur lombaire, vomissements",
-    "Nourrisson : fièvre isolée, vomissements, refus de téter"
+    "Cystite : brûlures en urinant, envies fréquentes et pressantes, douleur sus-pubienne, urines troubles ou malodorantes, parfois sang dans les urines ; pas de fièvre",
+    "Pyélonéphrite : fièvre, frissons, douleur lombaire d'un côté (ébranlement douloureux), nausées, vomissements, souvent signes de cystite",
+    "Nourrisson et jeune enfant : fièvre isolée, vomissements, refus de téter, irritabilité, mauvaise prise de poids",
+    "Sujet âgé : confusion, chute, incontinence récente",
+    "Prostatite chez l'homme : fièvre, douleur du périnée, difficulté à uriner"
    ],
    "diagnostic": [
-    "Bandelette urinaire (leucocytes, nitrites)",
-    "ECBU si disponible (grossesse, enfant, échec)",
-    "Éliminer une IST et une bilharziose (hématurie)"
+    "Bandelette urinaire (leucocytes et nitrites) : négative, elle rend l'infection peu probable chez la femme (sauf nourrisson)",
+    "ECBU (culture et antibiogramme) si disponible : pyélonéphrite, grossesse, homme, enfant, échec, récidive, sonde",
+    "Femme enceinte : dépister et traiter la bactériurie asymptomatique",
+    "Échographie si pyélonéphrite grave, homme, obstacle suspecté ou absence d'amélioration à 72 h",
+    "Créatinine si pyélonéphrite",
+    "Éliminer une IST (pertes, écoulement), une schistosomiase (hématurie terminale), une tuberculose urinaire (pus sans germe), un calcul"
    ],
    "traitement": [
-    "Cystite simple de la femme : nitrofurantoïne 5 jours (ou fosfomycine, ou ciprofloxacine 3 jours)",
-    "Femme enceinte : céfalexine, amoxicilline-acide clavulanique ou nitrofurantoïne (sauf à terme), 7 jours",
-    "Pyélonéphrite : ceftriaxone IV ou IM puis relais oral (ciprofloxacine ou céfixime), 10 à 14 jours au total",
-    "Enfant fébrile : céfixime ou ceftriaxone",
-    "Boire abondamment",
-    "Doses : nitrofurantoïne 100 mg 2 fois par jour pendant 5 jours ; fosfomycine 3 g en dose unique ; ceftriaxone 1 g par jour (pyélonéphrite)",
-    "Homme : traiter comme une infection compliquée (7 à 14 jours), rechercher une prostatite",
-    "Pyélonéphrite fébrile sans amélioration à 72 h : échographie (obstacle, abcès)"
+    "Cystite simple de la femme : nitrofurantoïne 100 mg 2 fois par jour pendant 5 jours, ou fosfomycine 3 g en dose unique ; cotrimoxazole 960 mg 2 fois par jour pendant 3 jours si la résistance locale est faible ; pas de ciprofloxacine en 1re intention",
+    "Femme enceinte (cystite ou bactériurie) : céfalexine 500 mg 2 à 3 fois par jour, nitrofurantoïne (sauf après 36 semaines) ou amoxicilline + acide clavulanique pendant 5 à 7 jours selon l'antibiogramme ; contrôle de la culture après traitement",
+    "Pyélonéphrite simple : ceftriaxone 1 g par jour IV ou IM, puis relais oral selon l'antibiogramme (ciprofloxacine 500 mg 2 fois par jour, céfixime ou amoxicilline + acide clavulanique), 7 jours au total (10 à 14 jours pour une bêtalactamine) ; alternative : gentamicine 5 mg/kg par jour",
+    "Pyélonéphrite de la femme enceinte : hospitalisation, ceftriaxone IV, puis relais (pas de fluoroquinolone), 10 à 14 jours",
+    "Homme : 7 jours (cystite) à 14 jours (fièvre, prostatite) ; échographie et recherche d'un obstacle",
+    "Enfant fébrile : céfixime 8 mg/kg par jour ou amoxicilline + acide clavulanique pendant 7 à 10 jours ; nourrisson de moins de 2 mois ou enfant qui vomit : ampicilline + gentamicine ou ceftriaxone IV ; échographie après une 1re pyélonéphrite chez l'enfant de moins de 2 ans",
+    "Germe BLSE : selon l'antibiogramme (nitrofurantoïne ou fosfomycine pour une cystite ; gentamicine, amikacine ou méropénem pour une pyélonéphrite)",
+    "Boire abondamment, paracétamol ; pas de traitement de la bactériurie sans symptôme (sauf grossesse ou avant une chirurgie urologique)",
+    "Infections récidivantes (3 ou plus par an) : boissons, mictions après les rapports, traitement de la constipation ; prophylaxie (nitrofurantoïne 50 à 100 mg le soir ou après les rapports) si nécessaire"
    ],
    "gravite": [
-    "Pyélonéphrite chez la femme enceinte, l'enfant < 2 ans",
-    "Vomissements, choc (sepsis)",
-    "Rétention urinaire, colique néphrétique associée (obstacle)"
+    "Pyélonéphrite chez la femme enceinte, l'enfant de moins de 2 ans, le sujet âgé ou le diabétique",
+    "Vomissements empêchant le traitement oral, choc (sepsis)",
+    "Obstacle (calcul, prostate), rein unique, rétention : pyélonéphrite obstructive, urgence de drainage",
+    "Absence d'amélioration à 72 h (abcès, résistance)"
    ],
    "prevention": [
-    "Boire suffisamment, mictions régulières"
+    "Boire suffisamment (1,5 à 2 litres par jour), mictions régulières et après les rapports, essuyage d'avant en arrière",
+    "Traitement de la constipation chez l'enfant",
+    "Dépistage de la bactériurie en CPN",
+    "Limiter les sondages urinaires et les retirer dès que possible"
    ],
    "medicaments": [
     "Nitrofurantoïne",
-    "Ciprofloxacine",
-    "Ceftriaxone",
-    "Céfixime",
+    "Fosfomycine",
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
+    "Triméthoprime",
     "Céfalexine",
     "Amoxicilline + acide clavulanique",
+    "Ceftriaxone",
+    "Céfixime",
+    "Ciprofloxacine",
     "Gentamicine",
-    "Paracétamol",
-    "Fosfomycine",
-    "Triméthoprime"
+    "Amikacine",
+    "Ampicilline",
+    "Méropénem",
+    "Paracétamol"
    ]
   },
   {
@@ -35425,39 +35489,53 @@
    "nom": "Gale",
    "categorie": "peau",
    "synonymes": "gale, prurit, démangeaisons, scabiose",
-   "resume": "Infestation de la peau par un acarien (Sarcoptes scabiei), très contagieuse, souvent familiale.",
+   "resume": "Infestation de la peau par un acarien (Sarcoptes scabiei), transmise par contact direct prolongé (famille, couple, internats, prisons, camps). Très fréquente en RDC, souvent familiale. Elle se complique d'impétigo et de cellulite, et indirectement de glomérulonéphrite et de rhumatisme articulaire aigu. Le traitement doit concerner tous les contacts en même temps. La gale croûteuse (hyperkératosique) de l'immunodéprimé est extrêmement contagieuse.",
    "signes": [
-    "Prurit intense, surtout la nuit",
-    "Lésions entre les doigts, aux poignets, coudes, aisselles, ceinture, organes génitaux, seins",
-    "Nourrisson : paumes, plantes, visage",
-    "Surinfection fréquente (impétigo)"
+    "Démangeaisons intenses, surtout la nuit, souvent chez plusieurs membres du foyer",
+    "Lésions de grattage, petites papules et vésicules, sillons (fines lignes grisâtres) entre les doigts, aux poignets, coudes, aisselles, ceinture, fesses, organes génitaux (nodules du pénis), seins, autour des mamelons",
+    "Le dos et le visage sont épargnés chez l'adulte",
+    "Nourrisson : paumes, plantes (vésicules, pustules), visage et cuir chevelu, agitation, refus de téter",
+    "Surinfection fréquente : impétigo, pustules, croûtes, ganglions",
+    "Gale croûteuse (VIH avancé, sujet âgé, corticoïdes) : croûtes épaisses grisâtres sur les mains, les pieds, les coudes, le cuir chevelu, peu de démangeaisons"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; prurit chez plusieurs membres de la famille"
+    "Diagnostic clinique : démangeaisons nocturnes et lésions typiques, contacts atteints",
+    "Dermatoscopie ou examen au microscope d'un sillon si disponible",
+    "Rechercher une surinfection, une glomérulonéphrite (œdèmes, urines foncées : bandelette urinaire)",
+    "Gale croûteuse : test VIH",
+    "Différentiels : prurigo, eczéma, piqûres d'insectes, varicelle, pédiculose"
    ],
    "traitement": [
-    "Benzoate de benzyle ou perméthrine 5 % sur tout le corps ; traiter tout l'entourage le même jour",
-    "Perméthrine 5 % : appliquer du cou aux pieds (et cuir chevelu chez le nourrisson), laisser 8 à 12 h, répéter après 7 jours",
-    "Ivermectine 200 µg/kg en dose unique, à répéter après 7 jours",
-    "Ivermectine orale (gale profuse, collectivités, échec) chez l'enfant ≥ 15 kg",
-    "Laver le linge et la literie",
-    "Traiter d'abord une surinfection (cloxacilline ou céfalexine)",
-    "Antihistaminique contre le prurit"
+    "Traiter le patient et tous les contacts du foyer le même jour, même sans symptôme",
+    "Perméthrine 5 % crème (à partir de 2 mois) : appliquer sur tout le corps du cou aux pieds (y compris entre les doigts, sous les ongles, organes génitaux ; cuir chevelu et visage chez le nourrisson et le sujet âgé), laisser 8 à 12 h (la nuit), puis laver ; répéter après 7 jours",
+    "Ou benzoate de benzyle 25 % (adulte) : 2 applications à 24 h d'intervalle, laisser 24 h, à répéter à J7 ; dilué chez l'enfant (1 volume pour 1 volume d'eau de 2 à 12 ans ; 1 pour 3 chez le nourrisson, laissé 12 h) ; irritant",
+    "Ivermectine orale 200 µg/kg en dose unique à J1 et J8 (enfant de 15 kg et plus, hors grossesse et allaitement) : gale profuse, collectivités, échec, difficultés d'application",
+    "Gale croûteuse : isolement, ivermectine à J1, J2, J8 (voire J9, J15, J22, J29 selon la gravité) + perméthrine tous les 2 à 3 jours, kératolytique (urée) sur les croûtes ; traiter tous les contacts",
+    "Linge, vêtements et literie : lavage à 60 °C, ou repassage, ou isolement dans un sac fermé pendant 72 h",
+    "Traiter d'abord une surinfection étendue (cloxacilline ou céfalexine 7 jours)",
+    "Démangeaisons : antihistaminique le soir (chlorphénamine), émollient ; elles persistent 2 à 4 semaines après la guérison (ne pas retraiter sans nouvelles lésions)",
+    "Traitement de masse à l'ivermectine dans les communautés où la prévalence dépasse 10 % (OMS)"
    ],
    "gravite": [
     "Gale croûteuse (immunodéprimé)",
-    "Surinfection étendue, fièvre, glomérulonéphrite (œdèmes, urines foncées)"
+    "Surinfection étendue, fièvre, cellulite",
+    "Œdèmes, urines foncées, HTA (glomérulonéphrite)",
+    "Nourrisson avec surinfection"
    ],
    "prevention": [
-    "Traitement simultané des contacts, hygiène du linge"
+    "Traitement simultané de tous les contacts, hygiène du linge et de la literie",
+    "Dépistage et traitement dans les collectivités (écoles, prisons, camps)",
+    "Accès à l'eau et au savon"
    ],
    "medicaments": [
-    "Benzoate de benzyle 25 %",
     "Perméthrine 5 %",
+    "Benzoate de benzyle 25 %",
     "Ivermectine",
+    "Urée (crème émolliente et kératolytique)",
     "Chlorphénamine (chlorphéniramine)",
     "Cloxacilline",
-    "Céfalexine"
+    "Céfalexine",
+    "Glycérol (glycérine), émollient"
    ]
   },
   {
@@ -35465,41 +35543,63 @@
    "nom": "Infections cutanées bactériennes (impétigo, abcès, érysipèle)",
    "categorie": "peau",
    "synonymes": "impétigo, abcès, furoncle, érysipèle, cellulite, pyodermite",
-   "resume": "Infections de la peau à staphylocoque ou streptocoque, de l'impétigo superficiel à la cellulite.",
+   "resume": "Infections de la peau et des tissus sous-cutanés à staphylocoque doré ou streptocoque A, très fréquentes en zone tropicale (chaleur, humidité, gale, piqûres, plaies) : impétigo, folliculite, furoncle, abcès, érysipèle, cellulite, lymphangite, panaris. La plupart se traitent simplement ; il faut savoir reconnaître la fasciite nécrosante (urgence chirurgicale) et traiter les causes favorisantes (gale, diabète, VIH, œdème chronique).",
    "signes": [
-    "Impétigo : croûtes jaunâtres (mélicériques), bulles, autour du nez et de la bouche",
-    "Furoncle, abcès : nodule rouge, chaud, douloureux, collecté",
-    "Érysipèle, cellulite : placard rouge, chaud, œdémateux, fièvre"
+    "Impétigo (enfant) : vésicules ou bulles fragiles laissant des croûtes jaunâtres « couleur miel » autour du nez, de la bouche, sur les membres ; contagieux",
+    "Ecthyma : ulcère creusant couvert d'une croûte, sur les jambes",
+    "Folliculite et furoncle : pustule centrée par un poil, nodule rouge, chaud, douloureux",
+    "Abcès : collection fluctuante, douloureuse, parfois fièvre",
+    "Érysipèle : placard rouge, chaud, douloureux, bien limité, à bord surélevé, de la jambe ou du visage, avec fièvre et frissons",
+    "Cellulite : rougeur et œdème plus diffus et mal limités, parfois avec abcès",
+    "Lymphangite : traînée rouge vers les ganglions",
+    "Panaris : doigt rouge, gonflé, douloureux, pulsatile autour de l'ongle ou de la pulpe"
    ],
    "diagnostic": [
     "Diagnostic clinique",
-    "Rechercher une porte d'entrée, un diabète, une gale"
+    "Rechercher une porte d'entrée (plaie, piqûre, gale, intertrigo entre les orteils, ulcère), un diabète (glycémie), un VIH (infections récidivantes), un lymphœdème",
+    "Échographie si doute sur une collection",
+    "Fasciite nécrosante : douleur disproportionnée, zones violacées ou noires, bulles hémorragiques, insensibilité, crépitation, état toxique, extension rapide",
+    "Différentiels : thrombose veineuse profonde (jambe gonflée sans fièvre élevée), eczéma, piqûres, morsure de serpent, ulcère de Buruli, pyomyosite"
    ],
    "traitement": [
-    "Impétigo localisé : nettoyage à l'eau et au savon, antiseptique",
-    "Impétigo étendu : cloxacilline ou céfalexine 7 jours",
-    "Abcès : incision et drainage (antibiotique si fièvre ou cellulite associée)",
-    "Érysipèle/cellulite : amoxicilline (érysipèle) ou cloxacilline ; forme sévère : IV (cloxacilline ou ceftriaxone)",
-    "Allergie : clindamycine ou érythromycine"
+    "Impétigo localisé : nettoyage à l'eau et au savon 2 fois par jour, ôter les croûtes, antiseptique (chlorhexidine ou polyvidone iodée) ; mupirocine 2 % 3 fois par jour pendant 5 jours si disponible",
+    "Impétigo étendu, ecthyma : cloxacilline 15 à 25 mg/kg 4 fois par jour (adulte 500 mg 4 fois par jour) ou céfalexine 25 mg/kg 2 fois par jour (adulte 500 mg 2 à 3 fois par jour) pendant 5 à 7 jours ; traiter la gale associée",
+    "Abcès, furoncle volumineux : incision et drainage, méchage ; antibiotique seulement si cellulite autour, fièvre, abcès du visage, immunodépression ou enfant jeune",
+    "Érysipèle : amoxicilline 1 g 3 fois par jour (enfant 30 mg/kg 3 fois par jour) ou pénicilline V pendant 5 à 7 jours ; repos, jambe surélevée ; traiter l'intertrigo ou la porte d'entrée",
+    "Cellulite : cloxacilline ou céfalexine 5 à 7 jours ; morsure (animale ou humaine) : amoxicilline + acide clavulanique",
+    "Forme sévère ou du visage, enfant toxique : cloxacilline 50 mg/kg (adulte 2 g) IV toutes les 6 h ou ceftriaxone, puis relais oral",
+    "Allergie à la pénicilline : clindamycine ou érythromycine",
+    "Staphylocoque résistant à la méticilline suspecté (échec, récidives) : clindamycine ou cotrimoxazole selon l'antibiogramme",
+    "Fasciite nécrosante : urgence chirurgicale (débridement large et répété) + antibiotiques IV à large spectre (pipéracilline-tazobactam ou ceftriaxone + métronidazole, + clindamycine), réanimation",
+    "Panaris collecté : drainage chirurgical",
+    "Furonculose récidivante : rechercher diabète et VIH, toilette quotidienne à la chlorhexidine, mupirocine nasale, linge personnel lavé à chaud"
    ],
    "gravite": [
-    "Fièvre élevée, extension rapide, nécrose, crépitation (fasciite nécrosante) → urgence chirurgicale",
-    "Atteinte du visage, de la main",
-    "Sepsis"
+    "Fièvre élevée, extension rapide, nécrose, bulles hémorragiques, crépitation, douleur disproportionnée (fasciite nécrosante) : urgence chirurgicale",
+    "Atteinte du visage (triangle nez-lèvres : risque de thrombophlébite), de la main ou de l'orbite",
+    "Sepsis, choc",
+    "Œdèmes et urines foncées après un impétigo (glomérulonéphrite)"
    ],
    "prevention": [
-    "Hygiène, traitement de la gale, soins des plaies"
+    "Hygiène corporelle, lavage des mains, ongles courts",
+    "Traitement de la gale et des intertrigos, soins des petites plaies",
+    "Prise en charge du diabète et du lymphœdème"
    ],
    "medicaments": [
     "Cloxacilline",
     "Céfalexine",
     "Amoxicilline",
+    "Phénoxyméthylpénicilline (pénicilline V)",
     "Amoxicilline + acide clavulanique",
     "Clindamycine",
     "Érythromycine",
-    "Polyvidone iodée 10 %",
-    "Chlorhexidine",
+    "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
+    "Ceftriaxone",
+    "Pipéracilline + tazobactam",
+    "Métronidazole",
     "Mupirocine 2 %",
+    "Chlorhexidine",
+    "Polyvidone iodée 10 %",
     "Permanganate de potassium"
    ]
   },
@@ -37346,41 +37446,52 @@
    "nom": "Colique néphrétique",
    "categorie": "genital",
    "synonymes": "colique néphrétique, calcul rénal, lithiase, douleur lombaire",
-   "resume": "Douleur aiguë due à l'obstruction de l'uretère, le plus souvent par un calcul.",
+   "resume": "Douleur aiguë due à l'obstruction brutale de l'uretère, le plus souvent par un calcul (oxalate de calcium, acide urique, phosphate), parfois par un caillot, une papille nécrosée (drépanocytose) ou un fragment de schistosomiase calcifiée. Les calculs de moins de 5 mm s'éliminent seuls dans la plupart des cas. La colique néphrétique fébrile (pyélonéphrite sur obstacle) et l'anurie sont des urgences de drainage.",
    "signes": [
-    "Douleur lombaire brutale, intense, irradiant vers les organes génitaux",
-    "Agitation (pas de position antalgique)",
+    "Douleur lombaire brutale, très intense, par vagues, irradiant vers le flanc, l'aine et les organes génitaux",
+    "Agitation, le patient ne trouve pas de position antalgique",
     "Nausées, vomissements",
-    "Hématurie"
+    "Envies fréquentes d'uriner, sang dans les urines (visible ou à la bandelette)",
+    "Signes de gravité : fièvre et frissons, diminution ou arrêt des urines, douleur résistante aux antalgiques, rein unique, grossesse"
    ],
    "diagnostic": [
-    "Bandelette urinaire (hématurie) ; échographie si disponible",
-    "Rechercher fièvre (pyélonéphrite obstructive) et grossesse",
-    "Éliminer une bilharziose, une appendicite, une GEU"
+    "Bandelette urinaire (sang dans 85 % des cas ; leucocytes et nitrites si infection)",
+    "Échographie : dilatation des cavités rénales, calcul visible ; radiographie de l'abdomen (calculs radio-opaques) ; scanner sans injection si disponible",
+    "Créatinine, NFS, CRP si fièvre ; ECBU",
+    "Test de grossesse chez la femme jeune",
+    "Différentiels : pyélonéphrite, appendicite, GEU, torsion d'ovaire ou de testicule, colique biliaire, anévrisme de l'aorte abdominale (sujet âgé, choc : urgence), schistosomiase"
    ],
    "traitement": [
-    "AINS : diclofénac IM ou ibuprofène (sauf grossesse, insuffisance rénale)",
-    "Paracétamol, morphine si douleur persistante",
-    "Butylscopolamine en complément",
-    "Boissons modérées pendant la crise",
-    "Filtrer les urines pour récupérer le calcul",
-    "Doses : diclofénac 75 mg IM (une fois), ou ibuprofène 400 mg 3 fois par jour ; calcul < 5 mm : élimination spontanée fréquente"
+    "AINS en 1re intention : diclofénac 75 mg IM (une fois) ou ibuprofène 400 à 600 mg 3 fois par jour pendant quelques jours (sauf grossesse, insuffisance rénale, ulcère, déshydratation)",
+    "Paracétamol 1 g IV ou oral en association ; morphine titrée (ou tramadol) si la douleur persiste ; butylscopolamine en complément possible",
+    "Boissons normales pendant la crise (pas d'hyperhydratation forcée) ; filtrer les urines pour récupérer le calcul et le faire analyser",
+    "Calcul de l'uretère distal de 5 à 10 mm : alpha-bloquant (tamsulosine) si disponible pour faciliter l'expulsion ; calcul > 10 mm, douleur persistante ou absence d'expulsion en 4 à 6 semaines : avis urologique (lithotritie, urétéroscopie, chirurgie)",
+    "Colique fébrile ou anurie : antibiotique IV (ceftriaxone ± gentamicine) et drainage en urgence des urines (sonde urétérale double J ou néphrostomie) ; un antibiotique seul ne suffit pas",
+    "Femme enceinte : paracétamol, morphine si nécessaire, échographie ; pas d'AINS",
+    "Prévention des récidives : boire plus de 2,5 litres par jour (urines claires), réduire le sel et les protéines animales, apport normal en calcium (pas de régime sans calcium), moins de boissons sucrées ; calcul urique : alcaliniser les urines, allopurinol si nécessaire"
    ],
    "gravite": [
     "Fièvre (pyélonéphrite sur obstacle : urgence, antibiotique et drainage)",
-    "Anurie, rein unique",
-    "Douleur non calmée, grossesse"
+    "Anurie, rein unique, insuffisance rénale",
+    "Douleur non calmée par les antalgiques",
+    "Grossesse",
+    "Sujet âgé avec choc (anévrisme de l'aorte)"
    ],
    "prevention": [
-    "Hydratation abondante au quotidien"
+    "Hydratation abondante au quotidien, surtout par temps chaud et lors des travaux physiques",
+    "Alimentation pauvre en sel et en protéines animales",
+    "Traitement de la schistosomiase"
    ],
    "medicaments": [
     "Diclofénac",
     "Ibuprofène",
     "Paracétamol",
     "Morphine",
+    "Tramadol",
     "Butylscopolamine (butylbromure d'hyoscine)",
-    "Ceftriaxone"
+    "Ceftriaxone",
+    "Gentamicine",
+    "Allopurinol"
    ]
   },
   {
@@ -39015,37 +39126,53 @@
    "nom": "Teignes et mycoses de la peau",
    "categorie": "peau",
    "synonymes": "teigne, mycose, dartre, champignon de la peau, pied d'athlète, herpès circiné, pityriasis versicolor",
-   "resume": "Infections fongiques de la peau, du cuir chevelu et des ongles, très fréquentes chez l'enfant.",
+   "resume": "Infections de la peau, du cuir chevelu et des ongles par des champignons (dermatophytes, levures Malassezia). Très fréquentes chez l'enfant en Afrique, surtout la teigne du cuir chevelu, contagieuse à l'école et dans la famille. La teigne du cuir chevelu nécessite toujours un traitement oral. L'usage de crèmes contenant des corticoïdes (souvent achetées sans ordonnance) aggrave et masque les mycoses.",
    "signes": [
-    "Teigne du cuir chevelu : plaques rondes squameuses avec cheveux cassés, parfois kérion (lésion inflammatoire suppurée)",
-    "Peau : lésions arrondies à bord actif, qui démangent",
-    "Pied d'athlète : macération entre les orteils",
-    "Pityriasis versicolor : taches claires ou brunes du tronc"
+    "Teigne du cuir chevelu (enfant) : plaques rondes squameuses avec cheveux cassés courts, ou petits points noirs, démangeaisons ; ganglions du cou ; kérion : plaque inflammatoire, gonflée, suppurée, douloureuse (risque de perte définitive des cheveux)",
+    "Herpès circiné (corps) : lésion arrondie à bord rouge actif, squameux et centre plus clair, qui s'étend, démange",
+    "Pli de l'aine (eczéma marginé) : plaque rouge-brun à bord net",
+    "Pied d'athlète : macération, fissures et démangeaisons entre les orteils (porte d'entrée de l'érysipèle)",
+    "Onychomycose : ongles épaissis, jaunes, friables",
+    "Pityriasis versicolor : petites taches claires ou brunes, finement squameuses, du tronc et du cou, plus visibles après le soleil",
+    "Teigne « incognito » : lésion atypique aggravée par une crème corticoïde"
    ],
    "diagnostic": [
-    "Diagnostic clinique"
+    "Diagnostic clinique ; grattage de la squame avec potasse au microscope (filaments) et culture si disponibles",
+    "Lampe de Wood (fluorescence de certaines teignes)",
+    "Lésions très étendues, atypiques ou récidivantes chez l'adulte : test VIH, glycémie",
+    "Interroger sur l'usage de crèmes corticoïdes ou dépigmentantes",
+    "Différentiels : eczéma, psoriasis, dermatite séborrhéique, lèpre (tache insensible), vitiligo (pityriasis versicolor), pelade"
    ],
    "traitement": [
-    "Lésions de la peau limitées : pommade de Whitfield ou clotrimazole 2 fois par jour pendant 2 à 4 semaines",
-    "Teigne du cuir chevelu : traitement oral obligatoire, griséofulvine 6 à 8 semaines + traitement local",
-    "Lésions étendues : griséofulvine (ou fluconazole)",
-    "Couper les cheveux autour des lésions, ne pas partager peignes et bonnets"
+    "Teigne du cuir chevelu : traitement oral obligatoire : griséofulvine 20 à 25 mg/kg par jour (adulte 500 mg à 1 g) en 1 ou 2 prises avec un repas gras pendant 6 à 8 semaines ; ou terbinafine pendant 4 semaines (moins de 20 kg 62,5 mg, 20 à 40 kg 125 mg, plus de 40 kg 250 mg par jour) ; ou fluconazole 6 mg/kg par jour pendant 3 à 6 semaines ; + shampooing antifongique (sulfure de sélénium ou kétoconazole) 2 fois par semaine pour l'enfant et la famille",
+    "Kérion : traitement oral, soins locaux, pas d'incision ; prednisolone courte si très inflammatoire ; antibiotique seulement si surinfection",
+    "Lésions limitées du corps, de l'aine, des pieds : clotrimazole ou miconazole 2 fois par jour, ou pommade de Whitfield, pendant 2 à 4 semaines et 1 à 2 semaines après la guérison apparente ; garder sec",
+    "Lésions étendues : terbinafine 250 mg par jour pendant 2 semaines, ou fluconazole 150 mg une fois par semaine pendant 2 à 4 semaines, ou griséofulvine",
+    "Onychomycose : terbinafine 250 mg par jour pendant 6 semaines (mains) à 12 semaines (pieds) ; contrôle des transaminases",
+    "Pityriasis versicolor : sulfure de sélénium 2,5 % ou kétoconazole en shampooing appliqué sur les lésions 10 min par jour pendant 1 à 2 semaines ; formes étendues : fluconazole 300 mg à renouveler 1 semaine plus tard ; la couleur de la peau met des mois à revenir ; récidives fréquentes",
+    "Arrêter les crèmes corticoïdes",
+    "L'enfant traité peut aller à l'école ; ne pas partager peignes, rasoirs, bonnets ; désinfecter les tondeuses des coiffeurs ; examiner et traiter la famille"
    ],
    "gravite": [
     "Kérion avec fièvre, surinfection bactérienne",
-    "Lésions très étendues (penser au VIH)"
+    "Lésions très étendues ou résistantes (penser au VIH, au diabète, à l'usage de corticoïdes)",
+    "Perte définitive des cheveux"
    ],
    "prevention": [
-    "Hygiène, ne pas partager les objets de coiffure, garder les pieds secs"
+    "Hygiène, ne pas partager les objets de coiffure et les bonnets, désinfection des tondeuses",
+    "Garder les pieds secs, sécher entre les orteils",
+    "Éviter les crèmes corticoïdes sans avis médical"
    ],
    "medicaments": [
     "Griséofulvine",
-    "Pommade de Whitfield (acide benzoïque + acide salicylique)",
-    "Clotrimazole",
-    "Fluconazole",
     "Terbinafine",
+    "Fluconazole",
+    "Clotrimazole",
     "Miconazole (crème 2 % et gel buccal)",
-    "Sulfure de sélénium 2,5 %"
+    "Pommade de Whitfield (acide benzoïque + acide salicylique)",
+    "Kétoconazole 2 % (crème ou shampooing)",
+    "Sulfure de sélénium 2,5 %",
+    "Prednisolone"
    ]
   },
   {
@@ -39053,42 +39180,55 @@
    "nom": "Eczéma et dermatites",
    "categorie": "peau",
    "synonymes": "eczéma, dermatite, dermatite atopique, allergie de la peau",
-   "resume": "Inflammation chronique ou récidivante de la peau avec démangeaisons ; souvent atopique chez l'enfant, ou de contact.",
+   "resume": "Inflammation de la peau avec démangeaisons, évoluant par poussées. La dermatite atopique, fréquente chez l'enfant, s'associe souvent à l'asthme et à la rhinite allergique ; la dermatite de contact (irritative ou allergique) est liée aux savons, détergents, teintures capillaires, cosmétiques, nickel, ciment. Le traitement repose sur les émollients au long cours et les dermocorticoïdes bien utilisés lors des poussées.",
    "signes": [
-    "Plaques rouges, sèches, qui démangent",
-    "Plis des coudes et des genoux chez l'enfant, joues chez le nourrisson",
-    "Suintement, croûtes ; surinfection fréquente"
+    "Plaques rouges (souvent plus foncées ou grisâtres sur peau noire), sèches, rugueuses, qui démangent intensément",
+    "Enfant : plis des coudes et des genoux, cou, poignets, chevilles ; nourrisson : joues, front, faces d'extension, respect du siège",
+    "Peau épaissie par le grattage (lichénification), papules autour des follicules (fréquentes sur peau noire), taches claires ou foncées résiduelles",
+    "Poussées : suintement, croûtes",
+    "Surinfection fréquente : croûtes jaunes, pus, fièvre",
+    "Eczéma herpétique : nombreuses vésicules et érosions en « coup d'emporte-pièce », fièvre",
+    "Dermatite de contact : lésions limitées à la zone de contact (mains, cuir chevelu et front après teinture, poignet, lobe de l'oreille)"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Rechercher une gale, une mycose, une surinfection"
+    "Diagnostic clinique ; antécédents personnels et familiaux d'atopie (asthme, rhinite) ; produits en contact avec la peau",
+    "Rechercher une gale, une mycose (ne pas mettre de corticoïde sur une mycose), une surinfection, un psoriasis, une dermatite séborrhéique",
+    "Tests épicutanés si dermatite de contact persistante (centre spécialisé)"
    ],
    "traitement": [
-    "Émollients (vaseline, beurre de karité) plusieurs fois par jour",
-    "Toilette douce, éviter les savons agressifs",
-    "Poussées : hydrocortisone crème 1 à 2 fois par jour, quelques jours",
-    "Antihistaminique si prurit gênant la nuit",
-    "Surinfection : cloxacilline ou céfalexine",
-    "Lésions suintantes : bains ou compresses de permanganate de potassium dilué (1 pour 10 000), puis émollient"
+    "Émollients (vaseline, glycérine, beurre de karité, crème à l'urée chez l'adulte) 1 à 2 fois par jour sur tout le corps, en quantité suffisante, même sans poussée",
+    "Toilette rapide à l'eau tiède avec un savon doux (surgras), séchage en tamponnant ; éviter savons parfumés, eau chaude, laine et produits irritants ; vêtements en coton ; ongles courts",
+    "Poussées : dermocorticoïde une fois par jour sur les lésions jusqu'à amélioration (souvent 1 à 2 semaines), puis arrêt progressif : hydrocortisone 1 % sur le visage, les plis et chez le nourrisson ; dermocorticoïde fort (bétaméthasone) en cure courte sur le corps chez l'enfant plus grand et l'adulte (quantité : une « unité phalangette » pour une surface de 2 paumes) ; en prévention des récidives, 2 fois par semaine sur les zones habituelles",
+    "Lésions suintantes : bains ou compresses de permanganate de potassium dilué (1 pour 10 000, eau rose pâle), puis émollient",
+    "Démangeaisons gênant le sommeil : antihistaminique sédatif le soir (chlorphénamine) quelques jours",
+    "Surinfection : cloxacilline ou céfalexine 5 à 7 jours",
+    "Eczéma herpétique : aciclovir en urgence (IV si forme étendue)",
+    "Visage, eczéma chronique : tacrolimus topique si disponible (avis spécialisé)",
+    "Dermatite de contact : identifier et éviter l'allergène ou l'irritant, gants en coton sous des gants protecteurs, dermocorticoïde",
+    "Éducation des parents (corticophobie, quantités, émollients)"
    ],
    "gravite": [
     "Eczéma étendu, surinfecté avec fièvre",
-    "Eczéma herpétique (vésicules nombreuses) : aciclovir, urgence"
+    "Eczéma herpétique (vésicules nombreuses, fièvre) : aciclovir, urgence",
+    "Érythrodermie (rougeur de tout le corps)",
+    "Retentissement sur le sommeil et la croissance"
    ],
    "prevention": [
-    "Émollients au long cours, éviction des irritants"
+    "Émollients au long cours, éviction des irritants et des allergènes",
+    "Pas de dermocorticoïdes forts au long cours ni de produits dépigmentants"
    ],
    "medicaments": [
+    "Glycérol (glycérine), émollient",
+    "Urée (crème émolliente et kératolytique)",
     "Hydrocortisone crème 1 %",
+    "Bétaméthasone (dermocorticoïde fort)",
+    "Tacrolimus",
+    "Permanganate de potassium",
     "Chlorphénamine (chlorphéniramine)",
     "Loratadine",
     "Cloxacilline",
     "Céfalexine",
-    "Aciclovir",
-    "Bétaméthasone (dermocorticoïde fort)",
-    "Glycérol (glycérine), émollient",
-    "Permanganate de potassium",
-    "Tacrolimus"
+    "Aciclovir"
    ]
   },
   {
@@ -39096,40 +39236,50 @@
    "nom": "Urticaire",
    "categorie": "peau",
    "synonymes": "urticaire, boutons qui grattent, allergie, plaques qui démangent",
-   "resume": "Éruption de plaques rouges en relief, mobiles et très prurigineuses, souvent d'origine allergique (médicament, aliment, piqûre) ou infectieuse.",
+   "resume": "Éruption de plaques rouges en relief, mobiles et très prurigineuses, due à la libération d'histamine. Urticaire aiguë (moins de 6 semaines) : souvent infectieuse chez l'enfant (viroses), médicamenteuse (pénicillines, AINS, aspirine, produits de contraste), alimentaire (arachide, poisson, fruits de mer, œufs) ou par piqûre d'insecte. Urticaire chronique (plus de 6 semaines) : le plus souvent sans cause, parfois liée à une parasitose, à une maladie de la thyroïde ou à un facteur physique. Toujours rechercher une anaphylaxie.",
    "signes": [
-    "Plaques rouges en relief, fugaces (< 24 h), qui démangent",
-    "Œdème du visage, des lèvres (angio-œdème)",
-    "Urticaire chronique : plaques presque tous les jours pendant plus de 6 semaines"
+    "Plaques rouges ou rosées en relief (papules œdémateuses), qui démangent, de taille variable, fugaces (chaque lésion disparaît en moins de 24 h sans trace) et migratrices",
+    "Angio-œdème : gonflement profond des lèvres, des paupières, de la langue, des mains ou des organes génitaux, plus douloureux que prurigineux",
+    "Urticaire chronique : plaques presque tous les jours pendant plus de 6 semaines",
+    "Urticaire physique : au frottement (dermographisme), au froid, à la pression, à la chaleur, à l'effort",
+    "Signes d'anaphylaxie : gêne respiratoire, voix rauque, sifflements, malaise, PA basse, vomissements"
    ],
    "diagnostic": [
-    "Rechercher une cause (médicament récent, aliment, infection, parasite)",
+    "Rechercher une cause : médicament récent (jusqu'à 2 semaines), aliment, piqûre, infection (virose, paludisme, hépatite, parasitose), contact",
     "Rechercher des signes d'anaphylaxie (gêne respiratoire, malaise, hypotension)",
-    "Urticaire chronique : rechercher une parasitose (anguillulose, ankylostome : éosinophilie), une maladie de la thyroïde, un facteur physique (froid, pression)"
+    "Urticaire chronique : NFS (éosinophilie : anguillulose, ankylostome, schistosomiase, filarioses), examen des selles, TSH, test du dermographisme ; bilan limité si l'examen est normal",
+    "Lésions durant plus de 24 h, laissant des taches brunes ou des ecchymoses, avec fièvre et douleurs articulaires : vasculite urticarienne (biopsie)",
+    "Angio-œdème sans urticaire : IEC, angio-œdème héréditaire"
    ],
    "traitement": [
-    "Arrêter la cause suspectée",
-    "Antihistaminique : loratadine (non sédatif) ou chlorphénamine",
-    "Calamine locale",
-    "Formes sévères : prednisolone 3 à 5 jours",
-    "Anaphylaxie : adrénaline IM immédiatement",
-    "Doses : loratadine 10 mg/jour (enfant de moins de 30 kg : 5 mg/jour) ; chlorphénamine 4 mg 3 à 4 fois par jour (sédatif)",
-    "Forme sévère ou angio-œdème sans signe respiratoire : prednisolone 0,5 à 1 mg/kg/jour (adulte 40 mg) pendant 3 à 5 jours",
-    "Urticaire chronique : antihistaminique non sédatif tous les jours (la dose peut être augmentée selon l'avis spécialisé), traiter une parasitose (albendazole, ivermectine)"
+    "Arrêter la cause suspectée (médicament, aliment)",
+    "Antihistaminique non sédatif : loratadine 10 mg par jour (enfant de 2 à 12 ans de moins de 30 kg : 5 mg par jour) pendant la poussée et quelques jours après ; chlorphénamine 4 mg 3 à 4 fois par jour (sédatif)",
+    "Lotion de calamine pour soulager les démangeaisons",
+    "Forme sévère ou angio-œdème sans signe respiratoire : prednisolone 0,5 à 1 mg/kg par jour (adulte 40 mg) pendant 3 à 5 jours",
+    "Anaphylaxie : adrénaline IM immédiatement (voir la fiche dédiée)",
+    "Urticaire chronique : antihistaminique non sédatif chaque jour, en continu pendant plusieurs mois ; la dose peut être augmentée jusqu'à 4 fois la dose standard si nécessaire (avis) ; éviter l'aspirine et les AINS ; traiter une parasitose (albendazole, ivermectine contre l'anguillule, praziquantel) ; urticaire résistante : avis spécialisé",
+    "Angio-œdème sous IEC : arrêt définitif de l'IEC (un sartan est possible avec prudence)",
+    "Angio-œdème héréditaire : plasma frais congelé en urgence si pas de traitement spécifique"
    ],
    "gravite": [
-    "Gêne respiratoire, voix rauque, œdème de la gorge, malaise, hypotension → anaphylaxie"
+    "Gêne respiratoire, voix rauque, œdème de la gorge, malaise, hypotension : anaphylaxie, adrénaline",
+    "Angio-œdème de la langue ou du larynx",
+    "Lésions fixes avec fièvre (vasculite)"
    ],
    "prevention": [
-    "Éviter l'allergène identifié ; noter l'allergie médicamenteuse dans le carnet",
-    "Remettre une carte ou noter dans le carnet le médicament responsable"
+    "Éviter l'allergène identifié ; noter l'allergie médicamenteuse dans le carnet et le dossier ; remettre une carte d'allergie",
+    "Traitement des parasitoses"
    ],
    "medicaments": [
     "Loratadine",
     "Chlorphénamine (chlorphéniramine)",
+    "Prométhazine",
     "Lotion de calamine",
     "Prednisolone",
-    "Adrénaline (épinéphrine)"
+    "Adrénaline (épinéphrine)",
+    "Albendazole",
+    "Ivermectine",
+    "Plasma frais congelé (PFC)"
    ]
   },
   {
@@ -39137,29 +39287,45 @@
    "nom": "Varicelle et zona",
    "categorie": "peau",
    "synonymes": "varicelle, zona, herpès zoster",
-   "resume": "Infection par le virus varicelle-zona : varicelle chez l'enfant (contagieuse), zona chez l'adulte (réactivation, plus fréquent si VIH).",
+   "resume": "Infections par le virus varicelle-zona. La varicelle, très contagieuse, touche surtout l'enfant ; elle est plus grave chez l'adulte, la femme enceinte (pneumonie, atteinte du fœtus), le nouveau-né et l'immunodéprimé. Le virus reste dans les ganglions nerveux et peut se réactiver plus tard sous forme de zona, plus fréquent après 50 ans et chez la personne vivant avec le VIH (un zona chez l'adulte jeune impose un test VIH).",
    "signes": [
-    "Varicelle : fièvre, vésicules en poussées successives sur tout le corps (y compris cuir chevelu), lésions d'âges différents, prurit",
-    "Zona : douleurs puis vésicules en bande sur un seul côté du corps (thorax, visage)",
-    "Zona ophtalmique : atteinte de l'œil"
+    "Varicelle : incubation de 14 à 16 jours ; fièvre modérée, puis éruption prurigineuse de macules, papules, vésicules « en goutte de rosée » puis croûtes, en poussées successives (lésions d'âges différents), sur tout le corps y compris le cuir chevelu et la bouche",
+    "Contagieuse de 2 jours avant l'éruption jusqu'à ce que toutes les lésions soient croûteuses",
+    "Complications : surinfection cutanée (impétigo, cellulite, fasciite), pneumonie (adulte, femme enceinte), encéphalite, ataxie cérébelleuse, varicelle grave du nouveau-né et de l'immunodéprimé",
+    "Zona : douleurs, brûlures ou démangeaisons pendant 2 à 3 jours, puis vésicules en bande sur un seul côté du corps, sur le trajet d'un nerf (thorax, visage)",
+    "Zona ophtalmique : front, paupière, bout du nez, œil rouge (kératite, uvéite)",
+    "Zona étendu ou disséminé chez l'immunodéprimé",
+    "Douleurs post-zostériennes persistant des mois"
    ],
    "diagnostic": [
     "Diagnostic clinique",
-    "Zona chez un adulte jeune : dépistage du VIH"
+    "Zona chez un adulte jeune, zona récidivant ou étendu : test VIH",
+    "Zona ophtalmique : examen de l'œil (fluorescéine)",
+    "Différentiels de la varicelle : mpox (lésions au même stade, paumes et plantes, ganglions), variole (éradiquée), impétigo bulleux, piqûres, gale",
+    "Femme enceinte exposée : rechercher l'immunité (antécédent de varicelle)"
    ],
    "traitement": [
-    "Varicelle : paracétamol (PAS d'aspirine ni d'AINS), calamine, ongles courts, antihistaminique si prurit",
-    "Aciclovir si forme grave, adulte, femme enceinte, nouveau-né ou immunodéprimé",
-    "Zona : aciclovir 800 mg 5 fois par jour pendant 7 jours dans les 72 h, antalgiques ; douleurs post-zostériennes : amitriptyline",
-    "Surinfection : cloxacilline"
+    "Varicelle de l'enfant sain : paracétamol (PAS d'aspirine : syndrome de Reye ; PAS d'AINS : surinfections graves), lotion de calamine, douches tièdes, ongles courts, antihistaminique si prurit ; éviction scolaire jusqu'au stade de croûtes",
+    "Aciclovir dans les 24 h (à défaut, dès que possible) si : adolescent ou adulte (800 mg 5 fois par jour pendant 7 jours), femme enceinte, maladie de peau chronique, enfant à risque (20 mg/kg 4 fois par jour, maximum 800 mg, pendant 5 jours)",
+    "Forme grave (pneumonie, encéphalite), immunodéprimé, nouveau-né : aciclovir IV 10 mg/kg toutes les 8 h (nouveau-né 20 mg/kg)",
+    "Femme enceinte non immunisée exposée : immunoglobulines spécifiques dans les 10 jours si disponibles, ou aciclovir oral de J7 à J14 après l'exposition ; varicelle dans les jours autour de l'accouchement : traiter le nouveau-né",
+    "Surinfection : cloxacilline ; fasciite : urgence chirurgicale",
+    "Zona : aciclovir 800 mg 5 fois par jour pendant 7 jours, dans les 72 h (au-delà si zona ophtalmique, immunodépression ou nouvelles lésions) ; antalgiques (paracétamol, AINS, tramadol) ; soins locaux (garder propre et sec)",
+    "Zona ophtalmique : aciclovir et avis ophtalmologique urgent",
+    "Zona disséminé ou VIH avancé : aciclovir IV, ARV",
+    "Douleurs post-zostériennes : amitriptyline 10 à 25 mg le soir ou carbamazépine",
+    "Isolement des cas vis-à-vis des femmes enceintes, des nouveau-nés et des immunodéprimés"
    ],
    "gravite": [
-    "Pneumonie, encéphalite, surinfection grave",
+    "Pneumonie (toux, essoufflement), encéphalite (convulsions, troubles de la marche ou de la conscience), surinfection grave (cellulite, fasciite)",
     "Nouveau-né, femme enceinte, immunodéprimé",
-    "Zona ophtalmique (avis ophtalmologique)"
+    "Zona ophtalmique (risque pour l'œil)",
+    "Varicelle hémorragique"
    ],
    "prevention": [
-    "Isolement des cas de varicelle (surtout vis-à-vis des femmes enceintes et immunodéprimés) ; vaccination si disponible"
+    "Isolement des cas de varicelle, surtout vis-à-vis des femmes enceintes et des immunodéprimés",
+    "Vaccination contre la varicelle là où elle est disponible (2 doses) ; vaccin contre le zona après 50 ans selon disponibilité",
+    "ARV précoces"
    ],
    "medicaments": [
     "Aciclovir",
@@ -39167,6 +39333,8 @@
     "Paracétamol",
     "Chlorphénamine (chlorphéniramine)",
     "Amitriptyline",
+    "Carbamazépine",
+    "Tramadol",
     "Cloxacilline",
     "Vaccin contre la varicelle"
    ]
@@ -39766,37 +39934,54 @@
    "nom": "Rétention urinaire aiguë",
    "categorie": "genital",
    "synonymes": "rétention urinaire, ne peut plus uriner, globe vésical, prostate",
-   "resume": "Impossibilité d'uriner avec vessie pleine, douloureuse. Causes : hypertrophie de la prostate, sténose de l'urètre (séquelle d'IST), caillots, médicaments anticholinergiques.",
+   "resume": "Impossibilité d'uriner avec une vessie pleine et douloureuse. Chez l'homme âgé, la cause principale est l'hypertrophie de la prostate (ou un cancer) ; en Afrique, les sténoses de l'urètre séquellaires d'IST (gonocoque) ou de sondages traumatiques sont fréquentes chez l'homme plus jeune. Autres causes : caillots, calculs, constipation, médicaments (anticholinergiques, opioïdes, antihistaminiques), post-partum, atteinte neurologique (compression de la moelle). Le sondage soulage immédiatement.",
    "signes": [
-    "Envie pressante sans pouvoir uriner, douleur sus-pubienne",
-    "Globe vésical palpable",
-    "Agitation (sujet âgé)"
+    "Envie pressante sans pouvoir uriner, douleur sus-pubienne intense",
+    "Globe vésical : masse sus-pubienne arrondie, mate, douloureuse",
+    "Agitation, confusion chez le sujet âgé",
+    "Antécédents : jet faible, mictions fréquentes la nuit, gouttes retardataires (prostate), IST ou sondages (sténose)",
+    "Rétention chronique : fuites par regorgement, insuffisance rénale",
+    "Signes neurologiques (faiblesse des jambes, perte de sensibilité du périnée, troubles anaux) : compression de la moelle ou de la queue de cheval, urgence"
    ],
    "diagnostic": [
-    "Palpation et percussion sus-pubiennes",
-    "Rechercher : prostate augmentée, sténose urétrale, fièvre (infection), médicaments en cause"
+    "Palpation et percussion sus-pubiennes ; échographie de la vessie si disponible",
+    "Toucher rectal (prostate augmentée régulière, ou dure et nodulaire : cancer), recherche d'un fécalome",
+    "Examen neurologique des jambes et du périnée",
+    "Bandelette urinaire et ECBU (infection), créatinine (retentissement rénal)",
+    "Médicaments récents",
+    "PSA chez l'homme de plus de 50 ans à distance de l'épisode"
    ],
    "traitement": [
-    "Sondage vésical stérile (sonde 14 à 16 Ch chez l'homme) ; si impossible : cathéter sus-pubien",
-    "Vider progressivement et surveiller la diurèse (polyurie de levée d'obstacle)",
-    "Traiter une infection urinaire",
-    "Arrêter les médicaments en cause",
-    "Avis chirurgical (prostate, sténose)",
-    "Ne jamais forcer en cas de résistance ; gel de lidocaïne dans l'urètre avant le sondage"
+    "Sondage vésical stérile avec beaucoup de gel de lidocaïne dans l'urètre (attendre quelques minutes) : sonde 14 à 16 Ch chez l'homme, 12 à 14 Ch chez la femme ; ne jamais forcer en cas de résistance",
+    "Sondage impossible (sténose, prostate) : cathéter sus-pubien (ponction au-dessus du pubis sur un globe bien palpable) ; avis chirurgical",
+    "Vider la vessie ; surveiller ensuite la diurèse : polyurie de levée d'obstacle (> 200 ml/h) : compenser les pertes en eau et en sel ; hématurie transitoire fréquente",
+    "Traiter une infection urinaire (ceftriaxone ou selon l'antibiogramme) ; arrêter les médicaments en cause ; traiter la constipation",
+    "Hypertrophie de la prostate : alpha-bloquant (tamsulosine) si disponible pendant 2 à 3 jours puis essai d'ablation de la sonde ; échec : sonde à demeure ou cathéter et chirurgie de la prostate programmée",
+    "Sténose de l'urètre : cystostomie sus-pubienne, puis urétrotomie ou urétroplastie (chirurgien)",
+    "Cancer de la prostate suspecté : voir la fiche dédiée",
+    "Post-partum : sondage évacuateur, puis mictions surveillées",
+    "Compression médullaire : corticoïdes et avis neurochirurgical urgents (voir mal de Pott)"
    ],
    "gravite": [
-    "Sondage impossible → cathéter sus-pubien",
-    "Fièvre, frissons (infection)",
-    "Hématurie avec caillots"
+    "Sondage impossible : cathéter sus-pubien",
+    "Fièvre, frissons (infection, prostatite)",
+    "Hématurie avec caillots",
+    "Insuffisance rénale (rétention chronique)",
+    "Signes neurologiques (compression médullaire)"
    ],
    "prevention": [
-    "Traitement précoce des IST (sténoses), suivi de la prostate"
+    "Traitement précoce et correct des IST (sténoses de l'urètre)",
+    "Sondages atraumatiques et justifiés",
+    "Suivi de la prostate chez l'homme âgé",
+    "Prudence avec les médicaments anticholinergiques chez le sujet âgé"
    ],
    "medicaments": [
     "Lidocaïne (lignocaïne)",
-    "Ciprofloxacine",
     "Ceftriaxone",
-    "Paracétamol"
+    "Ciprofloxacine",
+    "Paracétamol",
+    "Lactulose",
+    "Dexaméthasone"
    ]
   },
   {
@@ -41188,32 +41373,44 @@
    "nom": "Pellagre",
    "categorie": "peau",
    "synonymes": "pellagre, carence en niacine, vitamine PP, maïs, dermatite photosensible",
-   "resume": "Carence en niacine (vitamine B3), liée à une alimentation à base de maïs ou de sorgho, à l'alcoolisme ou à l'isoniazide. Classiquement « les 3 D » : dermatite, diarrhée, démence.",
+   "resume": "Carence en niacine (vitamine B3) et en tryptophane, liée à une alimentation à base de maïs ou de sorgho non traité et pauvre en protéines, à l'alcoolisme, à la malabsorption ou à l'isoniazide. Des épidémies surviennent dans les camps de réfugiés et de déplacés dépendant de rations de maïs (Malawi, Mozambique, Angola). Classiquement « les 3 D » : dermatite, diarrhée, démence, et sans traitement le 4e D (décès).",
    "signes": [
-    "Dermatite symétrique des zones exposées au soleil (visage, cou en « collier de Casal », mains, pieds) : rougeur puis peau brune, épaisse et craquelée",
-    "Diarrhée, glossite",
-    "Troubles neuropsychiques : insomnie, irritabilité, confusion"
+    "Dermatite symétrique des zones exposées au soleil : visage (en papillon), cou (« collier de Casal »), dos des mains et des avant-bras (« gants »), pieds ; d'abord rouge et brûlante comme un coup de soleil, puis peau brun foncé, épaisse, sèche et craquelée, bien limitée",
+    "Signes digestifs : diarrhée, perte d'appétit, langue rouge vif et lisse, douloureuse (glossite), stomatite, perlèche",
+    "Troubles neuropsychiques : fatigue, insomnie, irritabilité, dépression, confusion, désorientation, hallucinations, démence, neuropathie",
+    "Souvent associée à d'autres carences (B1, B2, B6, malnutrition)"
    ],
    "diagnostic": [
-    "Diagnostic clinique et alimentaire",
-    "Contexte : épidémie dans un camp, alcoolisme, isoniazide"
+    "Diagnostic clinique et alimentaire : régime à base de maïs ou de sorgho, ration sans légumineuses ni protéines animales, alcoolisme, traitement par isoniazide sans pyridoxine",
+    "Cas groupés dans un camp, une prison ou une population : alerte nutritionnelle",
+    "Amélioration rapide sous nicotinamide (confirme le diagnostic)",
+    "Différentiels : coup de soleil, eczéma, lupus, photosensibilisation médicamenteuse, kwashiorkor"
    ],
    "traitement": [
-    "Nicotinamide 100 mg 3 fois par jour (adulte et enfant > 5 ans) jusqu'à guérison complète (3 à 4 semaines)",
-    "Alimentation riche en protéines (arachides, haricots, viande, poisson)",
-    "Supplémentation des autres vitamines B",
-    "Patient sous isoniazide : ajouter pyridoxine"
+    "Nicotinamide : adulte 300 mg par jour en 3 prises ; enfant 100 à 300 mg par jour selon l'âge ; jusqu'à guérison complète (3 à 4 semaines) ; les signes neuropsychiques et digestifs s'améliorent en quelques jours, la peau en 2 à 3 semaines",
+    "Alimentation riche en protéines : arachides, haricots, soja, viande, poisson, œufs, lait ; céréales enrichies",
+    "Supplémentation des autres vitamines du groupe B (thiamine, riboflavine, pyridoxine)",
+    "Patient sous isoniazide : ajouter pyridoxine 10 à 25 mg par jour (traitement 50 à 100 mg)",
+    "Protection solaire des lésions (vêtements, ombre) ; émollients",
+    "Traiter la diarrhée et la déshydratation ; prise en charge de l'alcoolisme",
+    "En situation de crise : diversification des rations, aliments enrichis, supplémentation de masse en nicotinamide si épidémie"
    ],
    "gravite": [
-    "Troubles neurologiques, déshydratation"
+    "Troubles neurologiques (confusion, démence), déshydratation par diarrhée",
+    "Malnutrition associée",
+    "Épidémie dans une population (alerte)"
    ],
    "prevention": [
-    "Diversifier la ration (arachide, légumineuses), maïs traité à la chaux (nixtamalisation)"
+    "Diversifier la ration (arachides, légumineuses, protéines animales), farines de maïs enrichies, maïs traité à la chaux (nixtamalisation)",
+    "Pyridoxine systématique avec l'isoniazide chez les personnes à risque",
+    "Surveillance nutritionnelle des camps"
    ],
    "medicaments": [
     "Nicotinamide (vitamine PP)",
     "Pyridoxine (vitamine B6)",
-    "Thiamine (vitamine B1)"
+    "Thiamine (vitamine B1)",
+    "Riboflavine (vitamine B2)",
+    "Écran solaire (protection solaire à large spectre)"
    ]
   },
   {
@@ -41221,31 +41418,42 @@
    "nom": "Poux (pédiculoses)",
    "categorie": "peau",
    "synonymes": "poux, lentes, pédiculose, morpions, poux de corps",
-   "resume": "Infestation par les poux de tête, de corps (vecteurs du typhus et des fièvres récurrentes) ou du pubis.",
+   "resume": "Infestation par les poux de tête (fréquente chez l'enfant scolarisé), de corps (populations sans possibilité de se laver ni de changer de vêtements : camps, prisons, personnes sans abri) ou du pubis (morpions, IST). Les poux de corps transmettent le typhus épidémique, la fièvre récurrente à poux et la fièvre des tranchées : en situation de crise, l'épouillage est une mesure de santé publique.",
    "signes": [
-    "Démangeaisons du cuir chevelu, de la nuque ; lentes collées aux cheveux",
-    "Poux de corps : démangeaisons, lésions de grattage, poux dans les coutures des vêtements",
-    "Morpions : démangeaisons du pubis (IST)"
+    "Poux de tête : démangeaisons du cuir chevelu, surtout derrière les oreilles et sur la nuque, lésions de grattage, ganglions du cou ; lentes (œufs) blanchâtres fermement collées à la base des cheveux, poux vivants",
+    "Poux de corps : démangeaisons intenses, lésions de grattage et peau épaissie et pigmentée (« maladie des vagabonds »), poux et lentes dans les coutures des vêtements",
+    "Morpions : démangeaisons du pubis, taches bleutées, poux et lentes sur les poils du pubis, parfois des aisselles, de la barbe ou des cils",
+    "Surinfection (impétigo) fréquente"
    ],
    "diagnostic": [
-    "Diagnostic clinique : poux ou lentes vivantes"
+    "Diagnostic clinique : poux vivants ou lentes vivantes (à moins de 1 cm du cuir chevelu) ; peigne fin sur cheveux mouillés",
+    "Poux de corps : examiner les coutures des vêtements",
+    "Morpions : dépister les autres IST (VIH, syphilis) ; chez l'enfant avec atteinte des cils, rechercher des abus sexuels",
+    "Fièvre chez un patient porteur de poux de corps : typhus ou fièvre récurrente"
    ],
    "traitement": [
-    "Poux de tête : perméthrine 1 % (ou 5 %) ou malathion 0,5 %, à répéter après 7 à 10 jours, peigne fin, traiter toute la famille",
-    "Poux de corps : épouillage (vêtements et literie lavés à > 60 °C ou poudrés d'insecticide) ; traitement de masse en cas d'épidémie de typhus ou de fièvre récurrente",
-    "Morpions : même traitement, raser, traiter le partenaire, dépister les IST",
-    "Ivermectine orale si échec ou infestation de masse"
+    "Poux de tête : perméthrine 1 % (ou 5 %) ou malathion 0,5 % lotion sur cheveux secs, selon la notice (10 min pour la perméthrine 1 %, 8 à 12 h pour le malathion), puis rinçage ; répéter après 7 à 10 jours ; peignage au peigne fin sur cheveux mouillés tous les 3 à 4 jours pendant 2 semaines ; traiter toute la famille atteinte en même temps ; couper les cheveux courts est une option ; ivermectine orale 200 à 400 µg/kg à J1 et J8 si échec (15 kg et plus, hors grossesse)",
+    "Laver à chaud bonnets, taies et peignes ; l'enfant peut aller à l'école après le 1er traitement",
+    "Poux de corps : épouillage : laver vêtements et literie à plus de 60 °C ou les poudrer d'insecticide (perméthrine) dans les coutures, ou les enfermer dans un sac fermé pendant 2 semaines ; douche et changement de vêtements ; traitement de masse (poudrage collectif, ivermectine) en cas d'épidémie de typhus ou de fièvre récurrente",
+    "Morpions : perméthrine sur toute la région pubienne et les zones poilues, à répéter après 7 jours, ou rasage ; cils : vaseline 2 fois par jour pendant 10 jours ; traiter le partenaire, dépister les IST",
+    "Surinfection : soins locaux, antibiotique si étendue"
    ],
    "gravite": [
-    "Fièvre dans un contexte de poux de corps (typhus, fièvre récurrente)"
+    "Fièvre dans un contexte de poux de corps (typhus, fièvre récurrente) : traiter et alerter",
+    "Surinfection étendue",
+    "Atteinte des cils chez l'enfant (abus)"
    ],
    "prevention": [
-    "Hygiène corporelle et lavage des vêtements, ne pas partager peignes et bonnets"
+    "Hygiène corporelle et lavage régulier des vêtements, accès à l'eau et au savon",
+    "Ne pas partager peignes, bonnets et brosses",
+    "Dépistage dans les écoles et les collectivités",
+    "Épouillage collectif dans les camps et prisons"
    ],
    "medicaments": [
     "Perméthrine 5 %",
     "Malathion 0,5 % lotion",
-    "Ivermectine"
+    "Ivermectine",
+    "Doxycycline"
    ]
   },
   {
@@ -41253,37 +41461,46 @@
    "nom": "Charbon cutané (anthrax)",
    "categorie": "peau",
    "synonymes": "charbon, anthrax, escarre noire, Bacillus anthracis, bétail",
-   "resume": "Infection par Bacillus anthracis transmise par le contact avec des animaux malades ou morts (bétail, hippopotames) ou leurs produits (peaux, laine).",
+   "resume": "Zoonose due à Bacillus anthracis, dont les spores survivent des années dans le sol. L'homme se contamine en dépeçant, manipulant ou mangeant des animaux morts de maladie (bovins, chèvres, moutons, et hippopotames au Parc des Virunga) ou leurs produits (peaux, laine, os). La forme cutanée (95 % des cas) guérit sous antibiotiques ; les formes digestive, pulmonaire et méningée sont souvent mortelles. Pas de transmission interhumaine habituelle. Maladie à déclaration obligatoire, à gérer avec les services vétérinaires (approche « Une seule santé »).",
    "signes": [
-    "Papule prurigineuse, puis vésicule, puis escarre noire indolore entourée d'un œdème important",
-    "Ganglions",
-    "Formes graves : œdème extensif (cou, visage), fièvre, choc",
-    "Formes digestive ou pulmonaire après consommation de viande ou inhalation (graves)"
+    "Forme cutanée (1 à 7 jours après le contact), sur une zone découverte (mains, bras, visage, cou) : papule qui démange, puis vésicule, puis ulcère couvert d'une escarre noire indolore (« charbon »), entourée d'un œdème important et de petites vésicules ; ganglions ; peu de fièvre",
+    "Forme grave : œdème extensif (cou, visage, thorax) pouvant comprimer les voies aériennes, fièvre, choc",
+    "Forme digestive (viande contaminée) : douleurs abdominales, vomissements, diarrhée sanglante, ascite, choc ; ou ulcère de la bouche et œdème du cou",
+    "Forme pulmonaire (inhalation) : syndrome grippal puis détresse respiratoire et choc",
+    "Méningite hémorragique"
    ],
    "diagnostic": [
-    "Diagnostic clinique et contexte (animaux morts, abattage)",
-    "Frottis ou culture si disponible",
-    "Déclaration"
+    "Diagnostic clinique et contexte (animaux morts, abattage clandestin, consommation de viande d'animal malade, cas groupés humains et animaux)",
+    "Frottis de la vésicule (bacilles Gram positifs en chaînettes), culture, PCR au laboratoire de référence ; prélever avant l'antibiotique si possible sans le retarder",
+    "Déclaration immédiate aux autorités sanitaires et vétérinaires",
+    "Différentiels : morsure d'araignée, ecthyma, peste (bubon), tularémie, rickettsiose (escarre), morsure de serpent"
    ],
    "traitement": [
-    "Forme cutanée simple : doxycycline ou ciprofloxacine (ou amoxicilline) 7 à 10 jours",
-    "Ne pas inciser ni exciser l'escarre ; pansement sec",
-    "Forme grave ou étendue : ciprofloxacine IV + clindamycine (ou benzylpénicilline), 14 jours, réanimation",
-    "Traiter les contacts exposés à la viande"
+    "Forme cutanée simple : ciprofloxacine 500 mg 2 fois par jour ou doxycycline 100 mg 2 fois par jour pendant 7 à 10 jours ; amoxicilline 1 g 3 fois par jour (enfant 30 mg/kg 3 fois par jour) possible chez l'enfant et la femme enceinte si la souche est sensible",
+    "Ne pas inciser, exciser ni gratter l'escarre (diffusion) ; pansement sec ; l'escarre persiste plusieurs semaines malgré la guérison de l'infection",
+    "Forme grave ou étendue (œdème du cou ou du visage, fièvre, atteinte systémique), digestive ou pulmonaire : ciprofloxacine IV 400 mg toutes les 8 h + clindamycine 900 mg toutes les 8 h (ou benzylpénicilline) ; ajouter méropénem en cas de méningite ; au moins 14 jours ; réanimation, surveillance des voies aériennes (intubation précoce si œdème du cou), corticoïdes discutés pour l'œdème",
+    "Personnes ayant mangé de la viande contaminée ou exposées aux mêmes produits : surveillance et antibioprophylaxie selon les autorités",
+    "Précautions standard pour les soignants"
    ],
    "gravite": [
-    "Œdème du cou ou du visage, fièvre élevée, choc",
-    "Atteinte digestive ou respiratoire"
+    "Œdème du cou ou du visage (obstruction des voies aériennes), fièvre élevée, choc",
+    "Atteinte digestive, respiratoire ou méningée",
+    "Cas groupés (alerte épidémique)"
    ],
    "prevention": [
-    "Vaccination du bétail, ne pas consommer ni dépecer les animaux morts de maladie, les enterrer ou les brûler"
+    "Vaccination du bétail dans les zones à risque",
+    "Ne pas consommer, dépecer ni vendre les animaux morts de maladie ; les enterrer profondément avec de la chaux ou les brûler",
+    "Signaler les morts d'animaux inhabituelles",
+    "Gants et protection lors de la manipulation des animaux et des peaux"
    ],
    "medicaments": [
-    "Doxycycline",
     "Ciprofloxacine",
+    "Doxycycline",
     "Amoxicilline",
     "Benzylpénicilline (pénicilline G)",
-    "Clindamycine"
+    "Clindamycine",
+    "Méropénem",
+    "Dexaméthasone"
    ]
   },
   {
@@ -41291,28 +41508,37 @@
    "nom": "Tréponématoses endémiques (pian)",
    "categorie": "peau",
    "synonymes": "pian, framboesia, béjel, pinta, tréponématose",
-   "resume": "Infection chronique de la peau et des os par Treponema pertenue, transmise par contact cutané chez l'enfant des zones forestières chaudes et humides (RDC, Congo, Cameroun).",
+   "resume": "Infection chronique de la peau, des os et des cartilages par Treponema pallidum pertenue, transmise par contact direct de peau à peau entre enfants (non sexuelle), dans les zones forestières chaudes et humides. La RDC fait partie des pays où le pian est endémique (provinces de l'Équateur, de la Tshopo, du Kasaï et autres). Une dose unique d'azithromycine guérit ; l'OMS vise l'éradication par le traitement de masse (stratégie de Morges).",
    "signes": [
-    "Lésion initiale : papillome framboisé indolore (jambes), puis lésions multiples",
-    "Lésions plantaires épaisses (marche en crabe)",
-    "Douleurs osseuses, périostite (tibia en lame de sabre)",
-    "Stade tardif : destructions osseuses et du visage"
+    "Enfants de moins de 15 ans surtout",
+    "Lésion initiale (pianome) : papule puis papillome framboisé, humide, indolore, souvent sur les jambes, qui peut s'ulcérer",
+    "Stade secondaire : lésions multiples (papillomes, papules squameuses), lésions plantaires et palmaires épaisses et fissurées (marche « en crabe »), douleurs osseuses, gonflement des doigts (dactylite), périostite des tibias",
+    "Stade tardif (après 5 ans) : destructions osseuses et cartilagineuses, tibia en lame de sabre, destruction du nez et du palais (gangosa), épaississement des os du nez (goundou)",
+    "Pas d'atteinte du cœur ni du système nerveux, pas de transmission de la mère à l'enfant"
    ],
    "diagnostic": [
-    "Diagnostic clinique ; test rapide syphilis (TPHA/TDR) positif chez l'enfant en zone d'endémie (ne distingue pas de la syphilis)",
-    "Test de confirmation selon le programme"
+    "Diagnostic clinique en zone d'endémie",
+    "Test rapide tréponémique positif chez un enfant avec lésion évocatrice (ne distingue pas le pian de la syphilis) ; test double (DPP) tréponémique et non tréponémique pour confirmer une infection active",
+    "PCR sur la lésion (laboratoire de référence) : confirme T. pertenue, recherche la résistance aux macrolides et Haemophilus ducreyi (ulcères cutanés de même aspect)",
+    "Notifier les cas au programme"
    ],
    "traitement": [
-    "Azithromycine 30 mg/kg (max 2 g) en dose unique",
-    "Alternative : benzathine benzylpénicilline IM dose unique (enfant 0,6 MUI < 10 ans ; adulte 1,2 MUI)",
-    "Traiter les contacts",
-    "Programme d'éradication : traitement de masse de la communauté"
+    "Azithromycine 30 mg/kg (maximum 2 g) par voie orale en dose unique",
+    "Alternative : benzathine benzylpénicilline IM en dose unique (enfant de moins de 10 ans 0,6 MUI ; 10 ans et plus 1,2 MUI)",
+    "Traiter tous les contacts (famille, école, voisinage) même sans lésion",
+    "Les lésions cicatrisent en 2 à 4 semaines ; revoir à 4 semaines : lésion persistante : PCR et retraitement (benzathine benzylpénicilline si résistance aux macrolides suspectée)",
+    "Soins locaux des ulcères (nettoyage, pansement) ; prise en charge orthopédique et chirurgie réparatrice des séquelles",
+    "Programme d'éradication : traitement de masse de toute la communauté par azithromycine lorsque des cas sont trouvés, puis recherche active et traitement des cas et contacts"
    ],
    "gravite": [
-    "Destructions osseuses, déformations"
+    "Destructions osseuses, déformations, lésions du visage",
+    "Échec du traitement (résistance)",
+    "Diagnostic confondu avec la syphilis chez l'adolescent ou l'adulte"
    ],
    "prevention": [
-    "Hygiène, savon ; dépistage et traitement de masse"
+    "Hygiène corporelle, savon, couverture des plaies",
+    "Dépistage actif dans les villages et les écoles, traitement de masse",
+    "Approvisionnement en eau"
    ],
    "medicaments": [
     "Azithromycine",
@@ -41325,33 +41551,47 @@
    "nom": "Herpès cutané et buccal",
    "categorie": "peau",
    "synonymes": "herpès, bouton de fièvre, herpès labial, gingivostomatite herpétique",
-   "resume": "Infection par le virus herpès simplex : lésions vésiculeuses récidivantes de la bouche, du visage ou des organes génitaux.",
+   "resume": "Infection par le virus herpès simplex (HSV-1 surtout pour la bouche et le visage, HSV-2 pour les organes génitaux), qui persiste à vie dans les ganglions nerveux et se réactive (stress, fièvre, soleil, règles, immunodépression). La primo-infection de l'enfant (gingivostomatite) peut empêcher de boire. Les formes graves concernent le nouveau-né, l'œil (kératite), l'eczéma (eczéma herpétique), le cerveau (encéphalite) et la personne vivant avec le VIH.",
    "signes": [
-    "Bouquet de vésicules sur fond rouge, douloureuses, puis croûtes (lèvres, visage)",
-    "Primo-infection de l'enfant : gingivostomatite (bouche très douloureuse, refus de boire, fièvre)",
-    "Herpès génital (voir ulcérations génitales)",
-    "Formes graves ou étendues chez l'immunodéprimé"
+    "Récurrence : picotements ou brûlures, puis bouquet de petites vésicules sur fond rouge (lèvres, narines, visage), douloureuses, qui forment des croûtes et guérissent en 7 à 10 jours",
+    "Primo-infection de l'enfant de 1 à 5 ans : gingivostomatite avec fièvre, gencives rouges et gonflées qui saignent, nombreuses ulcérations douloureuses de la bouche et des lèvres, salivation, refus de manger et de boire, ganglions",
+    "Panaris herpétique (doigt), herpès des lutteurs",
+    "Herpès génital : voir la fiche Ulcération génitale",
+    "Kératite : œil rouge, douloureux, larmoyant, baisse de vision",
+    "Immunodéprimé : ulcérations chroniques, étendues, creusantes (périanales, buccales) ; formes disséminées",
+    "Érythème polymorphe récidivant après les poussées"
    ],
    "diagnostic": [
     "Diagnostic clinique",
-    "Rechercher une infection à VIH si formes étendues, chroniques ou récidivantes"
+    "Formes étendues, chroniques (plus d'un mois) ou récidivantes : test VIH",
+    "Examen de l'œil à la fluorescéine si atteinte du visage proche de l'œil ou œil rouge",
+    "Différentiels : impétigo, aphtes, syndrome mains-pieds-bouche, varicelle, zona, candidose, syphilis, noma au début (enfant malnutri)"
    ],
    "traitement": [
-    "Récurrence labiale simple : soins locaux (antiseptique), guérison en 7 à 10 jours",
-    "Gingivostomatite : paracétamol, alimentation froide et liquide, surveillance de l'hydratation ; aciclovir si vu dans les 96 h, si formes étendues ou chez l'immunodéprimé (adulte 400 mg 3 fois par jour 7 jours ; enfant 15 mg/kg 5 fois par jour)",
-    "Surinfection : antibiotique"
+    "Récurrence labiale simple : soins locaux (antiseptique, garder propre), antalgique ; guérison spontanée en 7 à 10 jours ; aciclovir oral seulement si poussées sévères ou fréquentes",
+    "Gingivostomatite : paracétamol ou ibuprofène, alimentation froide, liquide et non acide, bains de bouche ; surveiller l'hydratation (sonde gastrique ou perfusion si l'enfant ne boit plus) ; aciclovir si l'enfant est vu dans les 96 h, si forme étendue ou chez l'immunodéprimé : enfant 15 mg/kg (maximum 200 mg) 5 fois par jour pendant 7 jours ; adulte 400 mg 3 fois par jour pendant 7 jours",
+    "Immunodéprimé (VIH) : aciclovir 400 mg 3 à 5 fois par jour pendant 7 à 14 jours ; ARV ; traitement suppressif (400 mg 2 fois par jour) si récidives fréquentes",
+    "Kératite herpétique : aciclovir oral et avis ophtalmologique urgent ; jamais de collyre corticoïde",
+    "Eczéma herpétique, forme disséminée, encéphalite, nouveau-né : aciclovir IV (voir les fiches dédiées)",
+    "Surinfection bactérienne : antibiotique",
+    "Récidives fréquentes (plus de 6 par an) : traitement suppressif ; protection solaire des lèvres"
    ],
    "gravite": [
     "Déshydratation (enfant qui ne boit plus)",
     "Atteinte de l'œil (kératite)",
-    "Forme disséminée, encéphalite"
+    "Forme disséminée, encéphalite (fièvre, troubles du comportement, convulsions)",
+    "Nouveau-né",
+    "Eczéma herpétique"
    ],
    "prevention": [
-    "Éviter le contact direct avec les lésions"
+    "Éviter le contact direct avec les lésions (pas de baisers aux nouveau-nés en cas de bouton de fièvre), lavage des mains",
+    "Ne pas partager verres et couverts pendant une poussée",
+    "Protection solaire des lèvres"
    ],
    "medicaments": [
     "Aciclovir",
     "Paracétamol",
+    "Ibuprofène",
     "Chlorhexidine",
     "Polyvidone iodée 10 %"
    ]
@@ -41361,31 +41601,40 @@
    "nom": "Dermatite séborrhéique",
    "categorie": "peau",
    "synonymes": "dermatite séborrhéique, pellicules, croûtes de lait, rougeurs du visage",
-   "resume": "Inflammation chronique de la peau des zones riches en glandes sébacées. Forme étendue évocatrice d'une infection à VIH chez l'adulte.",
+   "resume": "Inflammation chronique de la peau des zones riches en glandes sébacées, liée à une levure (Malassezia), évoluant par poussées (stress, fatigue, saison). Très fréquente ; une forme sévère, étendue ou d'apparition récente chez l'adulte est évocatrice d'une infection à VIH (stade 2 de l'OMS) et d'une maladie de Parkinson chez le sujet âgé.",
    "signes": [
-    "Plaques rouges couvertes de squames grasses et jaunâtres : cuir chevelu (pellicules), sourcils, plis du nez, derrière les oreilles, thorax",
-    "Nourrisson : croûtes de lait du cuir chevelu, siège"
+    "Plaques rouges (ou plus claires sur peau noire) couvertes de squames grasses, jaunâtres, parfois démangeaisons",
+    "Cuir chevelu (pellicules, plaques), sourcils, bord des paupières (blépharite), plis du nez, derrière les oreilles, conduit auditif, barbe, milieu du thorax, plis",
+    "Nourrisson : croûtes de lait (croûtes jaunes épaisses du cuir chevelu), atteinte du siège et des plis, sans démangeaisons",
+    "VIH : formes étendues, très inflammatoires, résistantes"
    ],
    "diagnostic": [
     "Diagnostic clinique",
     "Forme sévère ou étendue chez l'adulte : proposer un test VIH",
-    "Diagnostics différentiels : psoriasis, teigne du cuir chevelu de l'enfant"
+    "Différentiels : psoriasis (plaques plus épaisses, coudes, genoux, ongles), teigne du cuir chevelu de l'enfant (cheveux cassés), eczéma atopique, lupus, rosacée, candidose des plis"
    ],
    "traitement": [
-    "Lavage au savon doux",
-    "Kétoconazole 2 % (shampooing ou crème) 2 fois par semaine",
-    "Poussée inflammatoire : hydrocortisone 1 % en application courte (quelques jours)",
-    "Nourrisson : huile végétale pour ramollir les croûtes, puis shampooing doux"
+    "Lavage au savon doux ; éviter les produits gras sur le visage",
+    "Kétoconazole 2 % (shampooing pour le cuir chevelu, crème pour le visage et le corps) : chaque jour ou tous les 2 jours pendant 2 à 4 semaines, puis 1 à 2 fois par semaine en entretien ; ou sulfure de sélénium 2,5 % en shampooing",
+    "Poussée inflammatoire : hydrocortisone 1 % en application courte (quelques jours), associée à l'antifongique ; pas de dermocorticoïde fort sur le visage",
+    "Blépharite : nettoyage quotidien du bord des paupières à l'eau tiède",
+    "Nourrisson : huile végétale ou vaseline pour ramollir les croûtes, puis shampooing doux et brossage doux ; siège : crème antifongique ± hydrocortisone quelques jours ; guérison habituelle en quelques semaines",
+    "VIH : ARV (amélioration avec la restauration immunitaire), traitement antifongique prolongé",
+    "Expliquer que la maladie est chronique et contrôlable, pas contagieuse"
    ],
    "gravite": [
-    "Surinfection, érythrodermie"
+    "Surinfection, érythrodermie",
+    "Forme sévère et résistante (VIH)"
    ],
    "prevention": [
-    "Traitement d'entretien régulier"
+    "Traitement d'entretien régulier par antifongique",
+    "Gestion du stress"
    ],
    "medicaments": [
     "Kétoconazole 2 % (crème ou shampooing)",
-    "Hydrocortisone crème 1 %"
+    "Sulfure de sélénium 2,5 %",
+    "Hydrocortisone crème 1 %",
+    "Clotrimazole"
    ]
   },
   {
@@ -41924,36 +42173,48 @@
    "nom": "Prostatite aiguë",
    "categorie": "genital",
    "synonymes": "prostatite, prostate, infection urinaire de l'homme",
-   "resume": "Infection de la prostate, le plus souvent par des bactéries urinaires (E. coli) ou sexuellement transmissibles chez l'homme jeune.",
+   "resume": "Infection aiguë de la prostate, le plus souvent par des bactéries urinaires (E. coli, entérobactéries) chez l'homme de plus de 35 ans, ou par des germes sexuellement transmissibles (gonocoque, Chlamydia) chez l'homme jeune. Toute infection urinaire fébrile de l'homme doit être traitée comme une prostatite. Elle peut se compliquer de rétention, d'abcès ou de sepsis et nécessite un traitement prolongé.",
    "signes": [
-    "Fièvre, frissons",
-    "Brûlures mictionnelles, envies fréquentes, difficulté à uriner, rétention",
-    "Douleur du périnée ou du bas-ventre",
-    "Toucher rectal : prostate douloureuse (doux, sans masser)"
+    "Fièvre élevée, frissons, malaise",
+    "Brûlures en urinant, envies fréquentes et pressantes, difficulté à uriner, jet faible, rétention",
+    "Douleur du périnée, du bas-ventre, du rectum ou à l'éjaculation",
+    "Toucher rectal (doux, sans masser) : prostate gonflée, chaude, très douloureuse"
    ],
    "diagnostic": [
-    "Bandelette urinaire, examen cytobactériologique des urines",
-    "Homme < 35 ans : rechercher une IST"
+    "Bandelette urinaire, ECBU avant l'antibiotique",
+    "Hémocultures si fièvre élevée",
+    "Homme de moins de 35 ans ou à risque : rechercher une IST (écoulement, partenaire), test VIH et syphilis",
+    "Échographie (abcès, résidu vésical) si évolution défavorable",
+    "Créatinine",
+    "Ne pas doser le PSA pendant l'épisode (faussement élevé)"
    ],
    "traitement": [
-    "Ciprofloxacine 500 mg 2 fois par jour pendant 2 à 4 semaines (ou cotrimoxazole)",
-    "Forme sévère : ceftriaxone IV puis relais",
-    "Rétention : sonde sus-pubienne (éviter la sonde urétrale)",
-    "IST suspectée : traitement de l'écoulement urétral et du partenaire"
+    "Forme modérée : ciprofloxacine 500 mg 2 fois par jour pendant 2 à 4 semaines (ou cotrimoxazole 960 mg 2 fois par jour selon l'antibiogramme)",
+    "Forme sévère (fièvre élevée, vomissements, sepsis) : hospitalisation, ceftriaxone 1 à 2 g par jour IV ± gentamicine, puis relais oral selon l'antibiogramme, 2 à 4 semaines au total",
+    "IST suspectée (homme jeune) : ceftriaxone 1 g IM + doxycycline 100 mg 2 fois par jour pendant 10 jours, et traitement du partenaire",
+    "Rétention : cathéter sus-pubien de préférence (éviter la sonde urétrale)",
+    "Abcès prostatique : drainage (chirurgien)",
+    "Antalgiques, AINS, boissons abondantes, laxatif doux",
+    "Revoir à 48-72 h ; après guérison chez l'homme âgé : rechercher une hypertrophie ou un cancer de la prostate (toucher rectal, PSA à distance)"
    ],
    "gravite": [
     "Choc septique",
     "Rétention d'urine",
-    "Abcès prostatique"
+    "Abcès prostatique (fièvre persistante malgré le traitement)",
+    "Récidives (prostatite chronique)"
    ],
    "prevention": [
-    "Traitement précoce des infections urinaires et des IST"
+    "Traitement précoce des infections urinaires et des IST",
+    "Préservatif",
+    "Limiter les sondages urinaires"
    ],
    "medicaments": [
     "Ciprofloxacine",
     "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
     "Ceftriaxone",
+    "Gentamicine",
     "Doxycycline",
+    "Ibuprofène",
     "Paracétamol"
    ]
   },
@@ -41962,31 +42223,46 @@
    "nom": "Infections génitales hautes (salpingite, IGH)",
    "categorie": "genital",
    "synonymes": "salpingite, IGH, maladie inflammatoire pelvienne, annexite, infection pelvienne",
-   "resume": "Infection de l'utérus et des trompes, après une IST (gonocoque, chlamydia), un accouchement, un avortement ou la pose d'un DIU. Cause d'infertilité et de grossesse extra-utérine.",
+   "resume": "Infection de l'utérus, des trompes et des ovaires, souvent après une IST (gonocoque, Chlamydia, mycoplasmes), ou après un accouchement, un avortement, un curetage ou la pose d'un DIU (germes variés, anaérobies). Première cause d'infertilité tubaire et de grossesse extra-utérine en Afrique centrale, et cause de douleurs pelviennes chroniques. Le traitement doit être débuté largement, dès la suspicion clinique.",
    "signes": [
-    "Douleur du bas-ventre, fièvre",
-    "Pertes vaginales anormales",
-    "Douleur à la mobilisation du col et des annexes au toucher vaginal",
-    "Saignements irréguliers"
+    "Douleur du bas-ventre, souvent des deux côtés",
+    "Fièvre (inconstante)",
+    "Pertes vaginales anormales, saignements irréguliers, douleur pendant les rapports, brûlures en urinant",
+    "Toucher vaginal : douleur à la mobilisation du col et douleur des annexes",
+    "Abcès tubo-ovarien : masse latéro-utérine douloureuse, fièvre élevée",
+    "Péritonite : défense",
+    "Périhépatite (Fitz-Hugh-Curtis) : douleur de l'hypochondre droit"
    ],
    "diagnostic": [
-    "Test de grossesse (éliminer une grossesse extra-utérine)",
-    "Examen au spéculum",
-    "Échographie si suspicion d'abcès"
+    "Test de grossesse systématique (éliminer une GEU)",
+    "Examen au spéculum (cervicite, pus) et toucher vaginal",
+    "Échographie pelvienne si masse ou suspicion d'abcès",
+    "NFS, CRP ; prélèvements de l'endocol (tests moléculaires gonocoque, Chlamydia) si disponibles",
+    "Test VIH et syphilis",
+    "Différentiels : GEU, appendicite, torsion d'ovaire, kyste rompu, infection urinaire, endométriose, schistosomiase génitale"
    ],
    "traitement": [
-    "Traitement ambulatoire : ceftriaxone 1 g IM dose unique (ou céfixime 400 mg) + doxycycline 100 mg 2 fois par jour 14 jours + métronidazole 500 mg 2 fois par jour 14 jours",
-    "Forme sévère, post-partum ou post-abortum : hospitalisation, antibiotiques IV (ceftriaxone ou ampicilline + gentamicine + métronidazole)",
-    "DIU : peut rester si amélioration",
-    "Traiter le partenaire"
+    "Traitement ambulatoire (forme légère à modérée) : ceftriaxone 1 g IM en dose unique (ou céfixime 400 mg) + doxycycline 100 mg 2 fois par jour pendant 14 jours + métronidazole 500 mg 2 fois par jour pendant 14 jours",
+    "Hospitalisation si : grossesse, forme sévère (fièvre élevée, vomissements), abcès, urgence chirurgicale non exclue, échec du traitement oral après 72 h, post-partum ou post-abortum, intolérance au traitement oral",
+    "Traitement IV : ceftriaxone 1 g par jour + doxycycline + métronidazole (ou ampicilline + gentamicine + métronidazole ; ou clindamycine + gentamicine), relais oral 24 à 48 h après l'amélioration, 14 jours au total",
+    "Abcès tubo-ovarien : antibiotiques IV, drainage (ponction ou chirurgie) si > 7 cm ou absence d'amélioration en 48 à 72 h",
+    "Rétention après accouchement ou avortement : évacuation utérine (AMIU)",
+    "DIU : peut rester si amélioration en 48 à 72 h ; sinon le retirer",
+    "Antalgiques (ibuprofène)",
+    "Traiter le partenaire (des 60 derniers jours) contre gonocoque et Chlamydia ; abstinence jusqu'à la fin du traitement des deux",
+    "Revoir à 72 h (amélioration attendue), puis à la fin du traitement"
    ],
    "gravite": [
     "Péritonite, abcès tubo-ovarien",
     "Choc septique",
-    "Grossesse"
+    "Grossesse (fausse couche, accouchement prématuré)",
+    "Absence d'amélioration à 72 h",
+    "Séquelles : infertilité, GEU, douleurs chroniques"
    ],
    "prevention": [
-    "Préservatif, traitement des IST et des partenaires, asepsie des gestes obstétricaux"
+    "Préservatif, dépistage et traitement des IST et des partenaires",
+    "Asepsie des gestes obstétricaux et gynécologiques (accouchement, AMIU, pose de DIU)",
+    "Avortement sécurisé"
    ],
    "medicaments": [
     "Ceftriaxone",
@@ -41995,7 +42271,9 @@
     "Métronidazole",
     "Ampicilline",
     "Gentamicine",
-    "Azithromycine"
+    "Clindamycine",
+    "Azithromycine",
+    "Ibuprofène"
    ]
   },
   {
@@ -42003,38 +42281,53 @@
    "nom": "Douleur abdominale basse chez la femme",
    "categorie": "genital",
    "synonymes": "douleur pelvienne, mal au bas-ventre, douleur abdominale basse",
-   "resume": "Démarche devant une douleur pelvienne : éliminer d'abord les urgences chirurgicales et obstétricales.",
+   "resume": "Démarche devant une douleur pelvienne aiguë ou chronique chez la femme : éliminer d'abord les urgences obstétricales (grossesse extra-utérine, fausse couche, rupture utérine) et chirurgicales (appendicite, torsion d'annexe, péritonite), puis rechercher une infection génitale haute, une infection urinaire, une cause digestive ou gynécologique chronique (dysménorrhée, endométriose, fibromes, schistosomiase génitale, tuberculose génitale). Le test de grossesse est systématique chez toute femme en âge de procréer.",
    "signes": [
-    "Douleur du bas-ventre aiguë ou chronique",
-    "Signes associés : fièvre, saignements, pertes, retard de règles, brûlures urinaires, troubles digestifs"
+    "Douleur du bas-ventre aiguë (brutale ou progressive) ou chronique (plus de 6 mois), cyclique ou non",
+    "Signes associés orientant : retard de règles et saignements (GEU, fausse couche) ; fièvre et pertes (infection génitale haute) ; brûlures urinaires (infection urinaire) ; douleur brutale avec vomissements et masse (torsion d'annexe) ; douleur de la fosse iliaque droite, nausées (appendicite) ; douleur pendant les règles (dysménorrhée, endométriose) ; douleur pendant les rapports ; troubles du transit",
+    "Signes de gravité : malaise, pâleur, tachycardie, PA basse, défense abdominale, douleur de l'épaule (hémopéritoine)"
    ],
    "diagnostic": [
-    "Test de grossesse systématique (grossesse extra-utérine, fausse couche)",
-    "Toucher vaginal, examen au spéculum",
+    "Test de grossesse systématique (urinaire, puis β-hCG si disponible)",
+    "Pouls, PA, température",
+    "Examen de l'abdomen, au spéculum et toucher vaginal (douleur du col, masse)",
     "Bandelette urinaire",
-    "Rechercher appendicite, péritonite, torsion d'ovaire"
+    "Échographie pelvienne (GEU, kyste, torsion, abcès, fibrome, liquide dans le Douglas)",
+    "NFS, CRP",
+    "Douleur chronique : rechercher une infection génitale haute chronique, une schistosomiase génitale (examen du col, urines), une tuberculose génitale, une endométriose (douleurs des règles qui s'aggravent, infertilité), des fibromes, une cause digestive"
    ],
    "traitement": [
-    "Grossesse extra-utérine ou abdomen chirurgical : référence chirurgicale urgente",
-    "Infection génitale haute : antibiotiques (voir IGH)",
-    "Infection urinaire : antibiotique",
-    "Dysménorrhée : ibuprofène",
-    "Douleur chronique : rechercher une IGH chronique, une schistosomiase génitale, une endométriose"
+    "GEU, torsion d'annexe (douleur brutale avec vomissements : chirurgie dans les heures qui suivent pour sauver l'ovaire), appendicite, péritonite : référence chirurgicale urgente, voie veineuse, à jeun",
+    "Infection génitale haute : antibiotiques (voir la fiche IGH) ; infection urinaire : antibiotique",
+    "Fausse couche : voir la fiche dédiée",
+    "Dysménorrhée primaire : ibuprofène 400 mg 3 fois par jour (ou acide méfénamique) débuté 1 à 2 jours avant ou dès le début des règles, chaleur locale ; pilule combinée si besoin de contraception",
+    "Endométriose : AINS, pilule combinée en continu ou progestatif (DMPA), avis gynécologique (cœlioscopie)",
+    "Kyste ovarien fonctionnel : surveillance échographique à 6 à 8 semaines",
+    "Schistosomiase génitale : praziquantel ; tuberculose génitale : antituberculeux",
+    "Douleur chronique : prise en charge globale, soutien psychologique, rechercher des violences",
+    "Immunoglobuline anti-D si Rhésus négatif et grossesse"
    ],
    "gravite": [
     "Choc, défense abdominale",
-    "Test de grossesse positif avec douleur (GEU)",
-    "Fièvre élevée"
+    "Test de grossesse positif avec douleur (GEU jusqu'à preuve du contraire)",
+    "Fièvre élevée, masse pelvienne (abcès)",
+    "Douleur brutale avec vomissements (torsion d'annexe)"
    ],
    "prevention": [
-    "Prévention des IST"
+    "Prévention des IST (préservatif) et traitement des partenaires",
+    "Avortement sécurisé",
+    "Traitement de la schistosomiase"
    ],
    "medicaments": [
     "Ibuprofène",
     "Paracétamol",
     "Ceftriaxone",
     "Doxycycline",
-    "Métronidazole"
+    "Métronidazole",
+    "Contraceptif oral combiné (éthinylestradiol + lévonorgestrel)",
+    "Médroxyprogestérone injectable (DMPA)",
+    "Praziquantel",
+    "Immunoglobuline anti-D"
    ]
   },
   {
@@ -42042,32 +42335,45 @@
    "nom": "Condylomes (verrues génitales)",
    "categorie": "genital",
    "synonymes": "condylomes, verrues génitales, crêtes de coq, VPH",
-   "resume": "Verrues de la région génitale et anale dues aux papillomavirus (VPH), transmises sexuellement ; plus nombreuses chez la personne vivant avec le VIH.",
+   "resume": "Verrues de la région génitale et anale dues aux papillomavirus humains (VPH 6 et 11 surtout), transmises par voie sexuelle et par contact cutané. Bénignes mais gênantes et souvent récidivantes ; plus nombreuses, étendues et résistantes chez la personne vivant avec le VIH. D'autres types de VPH (16, 18) causent les cancers du col, de l'anus et du pénis : la vaccination et le dépistage du col sont essentiels.",
    "signes": [
-    "Excroissances indolores en chou-fleur ou papules sur la vulve, le pénis, l'anus, le vagin ou le col",
-    "Parfois démangeaisons, saignements"
+    "Excroissances indolores en chou-fleur (crêtes de coq), papules ou plaques sur la vulve, le vagin, le col, le pénis, le scrotum, l'anus, l'aine",
+    "Parfois démangeaisons, saignements, gêne pendant les rapports",
+    "Grossesse : croissance rapide possible",
+    "Condylomes géants (Buschke-Löwenstein) : tumeur volumineuse, destructrice",
+    "Lésions pigmentées, ulcérées, indurées : penser à une lésion précancéreuse ou à un cancer"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Examen au spéculum (col, vagin)",
-    "Dépistage des autres IST, du VIH, et du cancer du col (IVA)"
+    "Diagnostic clinique ; examen au spéculum (col, vagin) et de l'anus",
+    "Biopsie des lésions atypiques, indurées, pigmentées, ulcérées ou résistantes au traitement",
+    "Dépistage des autres IST, du VIH, de la syphilis (condylomes plats de la syphilis secondaire) et du cancer du col (IVA)",
+    "Différentiels : molluscum contagiosum, papules perlées du gland (normales), syphilis secondaire",
+    "Enfant : rechercher des abus sexuels (même si une transmission non sexuelle est possible)"
    ],
    "traitement": [
-    "Petites lésions externes : podophyllotoxine 0,5 % (par le patient) ou résine de podophylle (par le soignant) ; cryothérapie",
-    "Lésions étendues, du col, du vagin, de l'anus, ou grossesse : cryothérapie ou exérèse chirurgicale",
-    "Récidives fréquentes",
-    "Partenaire : examen"
+    "Petites lésions externes : podophyllotoxine 0,5 % appliquée par le patient 2 fois par jour pendant 3 jours, puis 4 jours de pause, jusqu'à 4 cycles (pas pendant la grossesse) ; ou résine de podophylle 10 à 25 % appliquée par le soignant une fois par semaine, à laver après 1 à 4 h (pas pendant la grossesse, pas sur les muqueuses)",
+    "Cryothérapie (azote liquide ou cryothérapie au CO2 utilisée pour l'IVA) toutes les 1 à 2 semaines",
+    "Lésions étendues, du col, du vagin, de l'anus ou de l'urètre, grossesse : cryothérapie, exérèse chirurgicale ou électrocoagulation",
+    "Grossesse : traitement par cryothérapie ou exérèse si gênant ; césarienne seulement si les lésions obstruent la filière ou risquent de saigner",
+    "Récidives fréquentes (le virus persiste) : répéter les traitements",
+    "VIH : ARV (améliore la réponse), traitements plus longs, dépistage renforcé des cancers du col et de l'anus",
+    "Partenaire : examen, dépistage des IST ; préservatif"
    ],
    "gravite": [
-    "Lésions géantes ou atypiques (biopsie)",
-    "Obstruction de la filière d'accouchement"
+    "Lésions géantes ou atypiques (biopsie : cancer)",
+    "Obstruction de la filière d'accouchement, saignements",
+    "Lésions chez l'enfant (abus)"
    ],
    "prevention": [
-    "Vaccination VPH des filles de 9 à 14 ans, préservatif"
+    "Vaccination VPH des filles de 9 à 14 ans (une dose selon l'OMS depuis 2022), éventuellement des garçons",
+    "Préservatif (protection partielle)",
+    "Dépistage régulier du cancer du col (IVA ou test VPH)"
    ],
    "medicaments": [
     "Podophyllotoxine 0,5 %",
-    "Vaccin anti-papillomavirus (VPH)"
+    "Vaccin anti-papillomavirus (VPH)",
+    "Lidocaïne (lignocaïne)",
+    "Ténofovir + lamivudine + dolutégravir (TLD)"
    ]
   },
   {
@@ -44050,29 +44356,37 @@
    "nom": "Acné",
    "categorie": "peau",
    "synonymes": "acné, boutons, comédons, points noirs, acné juvénile",
-   "resume": "Maladie du follicule pilo-sébacé de l'adolescent et de l'adulte jeune. Rechercher une acné provoquée par les dermocorticoïdes ou les produits éclaircissants.",
+   "resume": "Maladie du follicule pilo-sébacé de l'adolescent et de l'adulte jeune (excès de sébum, comédons, bactérie Cutibacterium acnes, inflammation). Sur peau noire, l'acné laisse souvent des taches brunes persistantes et parfois des cicatrices chéloïdes. Il faut rechercher une acné provoquée par les corticoïdes (crèmes ou comprimés) ou par les produits éclaircissants très utilisés en RDC (clobétasol, hydroquinone, mercure), qui abîment gravement la peau et peuvent intoxiquer.",
    "signes": [
-    "Comédons (points noirs et blancs), papules, pustules du visage, du dos, du thorax",
-    "Formes sévères : nodules, kystes, cicatrices",
-    "Pigmentation résiduelle sur peau noire"
+    "Comédons (points noirs et points blancs), papules, pustules du visage, du dos, du thorax",
+    "Formes sévères : nodules, kystes douloureux, cicatrices, chéloïdes",
+    "Taches brunes résiduelles (hyperpigmentation post-inflammatoire) sur peau noire",
+    "Acné aux corticoïdes : petites papules et pustules toutes au même stade, sans comédons, sur le thorax et le dos, associées à une peau amincie, des vergetures, des taches claires et foncées (produits dépigmentants)",
+    "Femme : acné avec règles irrégulières, pilosité excessive, chute des cheveux (ovaires polykystiques)",
+    "Homme : pseudo-folliculite de la barbe (boutons après le rasage), acné chéloïdienne de la nuque"
    ],
    "diagnostic": [
-    "Diagnostic clinique",
-    "Rechercher : produits dépigmentants ou corticoïdes, cosmétiques gras, médicaments (corticoïdes, isoniazide, testostérone), signes d'hyperandrogénie chez la femme"
+    "Diagnostic clinique ; évaluer la sévérité (comédons, inflammation, nodules, cicatrices) et le retentissement psychologique",
+    "Rechercher : produits dépigmentants ou corticoïdes, cosmétiques et huiles grasses, médicaments (corticoïdes, isoniazide, testostérone, lithium, antiépileptiques), signes d'hyperandrogénie chez la femme"
    ],
    "traitement": [
-    "Toilette douce 2 fois par jour, ne pas percer les boutons, arrêter les produits gras et dépigmentants",
-    "Acné légère : peroxyde de benzoyle 2,5 à 5 % le soir",
-    "Acné modérée inflammatoire : peroxyde de benzoyle + doxycycline 100 mg/jour pendant 3 mois au maximum",
-    "Femme : contraceptif oral combiné",
-    "Acné sévère ou nodulaire : avis dermatologique (isotrétinoïne)",
-    "Protection solaire"
+    "Mesures générales : toilette douce 2 fois par jour avec un savon doux, ne pas percer ni gratter les boutons (taches, cicatrices), arrêter les produits gras, les crèmes corticoïdes et dépigmentants (avec explication des dangers) ; protection solaire",
+    "Acné légère (comédons et quelques papules) : peroxyde de benzoyle 2,5 à 5 % le soir, en commençant un soir sur deux (irritation, décoloration des tissus) ; rétinoïde local si disponible",
+    "Acné modérée inflammatoire : peroxyde de benzoyle + doxycycline 100 mg par jour (avec un grand verre d'eau, debout ; protection solaire) pendant 3 mois au maximum ; ne pas utiliser d'antibiotique local seul",
+    "Femme : contraceptif oral combiné (en plus du traitement local), à envisager d'emblée si besoin de contraception",
+    "Acné sévère, nodulaire ou cicatricielle, échec après 3 mois : avis dermatologique (isotrétinoïne, avec contraception stricte : tératogène, et surveillance de l'humeur)",
+    "Taches brunes : protection solaire, patience (plusieurs mois) ; éviter les produits éclaircissants",
+    "Pseudo-folliculite de la barbe : laisser pousser la barbe ou tondeuse plutôt que rasoir, peroxyde de benzoyle",
+    "Soutien psychologique si retentissement important"
    ],
    "gravite": [
-    "Nodules, cicatrices, retentissement psychologique important"
+    "Nodules, cicatrices, chéloïdes",
+    "Retentissement psychologique important (isolement, dépression)",
+    "Complications des produits dépigmentants : infections cutanées, amincissement de la peau, insuffisance surrénale, atteinte rénale (mercure)"
    ],
    "prevention": [
-    "Éviter les cosmétiques comédogènes et les produits éclaircissants"
+    "Éviter les cosmétiques comédogènes et les produits éclaircissants",
+    "Information des adolescents sur les dangers de la dépigmentation volontaire"
    ],
    "medicaments": [
     "Peroxyde de benzoyle",
@@ -44086,32 +44400,45 @@
    "nom": "Psoriasis",
    "categorie": "peau",
    "synonymes": "psoriasis, plaques squameuses, psoriasis du cuir chevelu",
-   "resume": "Maladie inflammatoire chronique de la peau évoluant par poussées. Un psoriasis sévère ou d'apparition brutale doit faire proposer un test VIH.",
+   "resume": "Maladie inflammatoire chronique de la peau, évoluant par poussées, non contagieuse, avec une prédisposition familiale. Elle peut toucher les ongles et les articulations (rhumatisme psoriasique) et s'associe à un risque cardiovasculaire et métabolique accru et à la dépression. Un psoriasis sévère ou d'apparition brutale doit faire proposer un test VIH ; certains médicaments l'aggravent (antipaludiques de synthèse, bêtabloquants, lithium, arrêt des corticoïdes oraux).",
    "signes": [
-    "Plaques rouges bien limitées couvertes de squames blanches épaisses (coudes, genoux, cuir chevelu, bas du dos)",
-    "Atteinte des ongles (dépressions ponctuées)",
-    "Arthrite psoriasique",
-    "Formes graves : érythrodermie, psoriasis pustuleux"
+    "Plaques rouges (violacées ou grisâtres sur peau noire), bien limitées, épaisses, couvertes de squames blanches ou argentées, sur les coudes, les genoux, le cuir chevelu, le bas du dos, l'ombilic ; démangeaisons parfois",
+    "Lésions sur les cicatrices ou zones de grattage (phénomène de Koebner) ; taches résiduelles claires ou foncées",
+    "Psoriasis en gouttes : petites lésions multiples après une angine",
+    "Psoriasis des plis, des paumes et des plantes",
+    "Ongles : petites dépressions ponctuées, décollement, épaississement",
+    "Rhumatisme psoriasique : douleurs et gonflements articulaires, doigts « en saucisse », douleurs du dos",
+    "Formes graves : érythrodermie (rougeur de tout le corps, frissons), psoriasis pustuleux généralisé (pustules, fièvre)"
    ],
    "diagnostic": [
     "Diagnostic clinique",
-    "Test VIH si forme sévère ou récente",
-    "Facteurs aggravants : stress, infections, alcool, tabac, lithium, bêtabloquants, arrêt brutal de corticoïdes oraux"
+    "Test VIH si forme sévère, étendue ou récente",
+    "Rechercher les facteurs aggravants : stress, infections (angine), alcool, tabac, médicaments (lithium, bêtabloquants, chloroquine, hydroxychloroquine, arrêt brutal de corticoïdes oraux)",
+    "Évaluer la surface atteinte, les articulations, le retentissement, les facteurs de risque cardiovasculaire (poids, PA, glycémie, cholestérol)",
+    "Différentiels : eczéma, mycose, dermatite séborrhéique, syphilis secondaire, lichen"
    ],
    "traitement": [
-    "Émollients quotidiens (urée, vaseline)",
-    "Kératolytique sur les plaques épaisses (acide salicylique)",
-    "Dermocorticoïde fort (bétaméthasone) en cures courtes, en alternance avec calcipotriol",
-    "Cuir chevelu : goudron ou corticoïde en lotion",
-    "Formes étendues : avis spécialisé (méthotrexate, photothérapie)",
-    "Ne jamais donner de corticoïdes oraux (rebond grave)"
+    "Émollients quotidiens (urée, vaseline) ; bains pour ramollir les squames",
+    "Kératolytique sur les plaques épaisses (pommade à l'acide salicylique, pommade de Whitfield, urée)",
+    "Dermocorticoïde fort (bétaméthasone) une fois par jour en cures courtes (2 à 4 semaines), puis 2 fois par semaine, en alternance ou en association avec le calcipotriol",
+    "Cuir chevelu : shampooing au goudron de houille, acide salicylique, corticoïde en lotion",
+    "Exposition solaire modérée et progressive (photothérapie naturelle), sans brûlure",
+    "Formes étendues ou invalidantes, rhumatisme psoriasique : avis spécialisé : méthotrexate 7,5 à 25 mg UNE fois par semaine avec acide folique (NFS, transaminases, contraception), ciclosporine, biothérapies (adalimumab, ustékinumab) selon la disponibilité ; dépister la tuberculose et l'hépatite B avant ces traitements",
+    "Rhumatisme : AINS, méthotrexate",
+    "Ne jamais donner de corticoïdes par voie générale (rebond grave, psoriasis pustuleux)",
+    "VIH : ARV (amélioration)",
+    "Arrêt du tabac, réduction de l'alcool, perte de poids, prise en charge des facteurs de risque cardiovasculaire ; soutien psychologique"
    ],
    "gravite": [
-    "Érythrodermie, psoriasis pustuleux généralisé",
-    "Arthrite invalidante"
+    "Érythrodermie, psoriasis pustuleux généralisé (fièvre, frissons) : hospitalisation",
+    "Arthrite invalidante",
+    "Dépression",
+    "Toxicité du méthotrexate (fièvre, aphtes, baisse des globules)"
    ],
    "prevention": [
-    "Éviter les facteurs déclenchants"
+    "Éviter les facteurs déclenchants (stress, alcool, tabac, médicaments aggravants)",
+    "Traitement des angines",
+    "Pas d'arrêt brutal des corticoïdes"
    ],
    "medicaments": [
     "Bétaméthasone (dermocorticoïde fort)",
@@ -44119,10 +44446,12 @@
     "Goudron de houille (coaltar)",
     "Pommade de Whitfield (acide benzoïque + acide salicylique)",
     "Urée (crème émolliente et kératolytique)",
-    "Ustékinumab",
     "Méthotrexate",
+    "Acide folique",
     "Ciclosporine",
-    "Adalimumab"
+    "Adalimumab",
+    "Ustékinumab",
+    "Ibuprofène"
    ]
   },
   {
@@ -44130,30 +44459,37 @@
    "nom": "Albinisme (protection et suivi)",
    "categorie": "peau",
    "synonymes": "albinisme, albinos, personne atteinte d'albinisme, cancer de la peau",
-   "resume": "Absence héréditaire de pigment de la peau, des cheveux et des yeux. En Afrique, le risque principal est le cancer de la peau dès l'adulte jeune ; la vision est diminuée. Les personnes albinos subissent aussi stigmatisation et violences.",
+   "resume": "Absence ou diminution héréditaire (autosomique récessive) du pigment mélanine de la peau, des cheveux et des yeux. En Afrique, l'albinisme touche environ 1 personne sur 2 000 à 5 000 ; le risque principal est le cancer de la peau (surtout carcinome épidermoïde), dès l'adolescence et l'adulte jeune, et la vision est diminuée. Les personnes atteintes d'albinisme subissent aussi stigmatisation, discrimination et parfois violences et agressions rituelles, notamment dans la région des Grands Lacs.",
    "signes": [
-    "Peau, cheveux et cils clairs",
-    "Coups de soleil, épaississement de la peau, taches de rousseur",
-    "Lésions précancéreuses (kératoses) ou cancéreuses (plaie qui ne guérit pas, nodule, ulcération)",
-    "Baisse de vision, nystagmus, photophobie"
+    "Peau très claire, cheveux blancs ou blond-roux, cils et sourcils clairs, iris clairs",
+    "Coups de soleil répétés, peau épaissie, ridée et tachée (taches de rousseur, lentigos) sur les zones exposées",
+    "Lésions précancéreuses : kératoses actiniques (petites plaques rugueuses)",
+    "Cancers : plaie qui ne guérit pas, nodule qui grossit, ulcération qui saigne, sur le visage, le cou, les oreilles, le dos des mains, les épaules",
+    "Yeux : baisse de vision, nystagmus (mouvements involontaires des yeux), photophobie, strabisme"
    ],
    "diagnostic": [
-    "Examen complet de la peau tous les 3 à 6 mois",
-    "Biopsie ou exérèse de toute lésion suspecte",
-    "Examen ophtalmologique (correction optique)"
+    "Examen complet de la peau tous les 3 à 6 mois par un soignant formé",
+    "Biopsie ou exérèse de toute lésion suspecte (plaie chronique, nodule, ulcération, croûte persistante)",
+    "Examen ophtalmologique : acuité visuelle, réfraction (correction optique), basse vision",
+    "Conseil génétique pour la famille"
    ],
    "traitement": [
-    "Protection solaire stricte dès la naissance : vêtements à manches longues, chapeau à large bord, lunettes de soleil, éviter le soleil de 10 h à 16 h, crème solaire SPF ≥ 30 sur les zones exposées",
-    "Exérèse précoce des lésions",
-    "Lunettes, aides visuelles, place au premier rang à l'école",
-    "Soutien psychosocial, lutte contre la stigmatisation, protection"
+    "Protection solaire stricte dès la naissance : vêtements couvrants à manches longues et tissu épais, chapeau à large bord, lunettes de soleil, ombre, éviter le soleil de 10 h à 16 h ; crème solaire SPF 30 à 50 sur les zones exposées, renouvelée toutes les 2 h et après la baignade ou la sueur",
+    "Kératoses actiniques : cryothérapie ou traitement local ; exérèse chirurgicale précoce des cancers (avec marge) ; radiothérapie si nécessaire",
+    "Vision : lunettes adaptées, aides visuelles (loupes, téléphone), verres teintés ; place au premier rang à l'école, documents en gros caractères, temps supplémentaire aux examens",
+    "Soutien psychosocial, information de la famille et de l'école, lutte contre la stigmatisation et les croyances ; protection et signalement des menaces ou violences ; orientation vers les associations",
+    "Orientation professionnelle vers des métiers à l'intérieur ou peu exposés au soleil"
    ],
    "gravite": [
     "Plaie chronique ou nodule de la peau (cancer)",
-    "Menaces, violences"
+    "Cancer avancé (ganglions, extension)",
+    "Menaces, violences, agressions"
    ],
    "prevention": [
-    "Éducation des familles et des écoles, accès gratuit aux crèmes solaires"
+    "Éducation des familles et des écoles dès la naissance de l'enfant",
+    "Accès gratuit aux crèmes solaires, chapeaux et lunettes",
+    "Dépistage régulier des lésions de la peau",
+    "Sensibilisation communautaire contre les préjugés"
    ],
    "medicaments": [
     "Écran solaire (protection solaire à large spectre)"
