@@ -1,6 +1,6 @@
 {
- "version": 42,
- "dateMiseAJour": "2026-10-31",
+ "version": 43,
+ "dateMiseAJour": "2026-11-01",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
   "OMS – Lignes directrices pour le paludisme",
@@ -123,7 +123,7 @@
    "dci": "Artéméther + luméfantrine",
    "noms": "Coartem, Lumartem, Lonart, Artefan (exemples)",
    "classe": "antipaludiques",
-   "formes": "Comprimé 20 mg/120 mg ; comprimé dispersible 20/120 mg",
+   "formes": "Comprimé 20 mg/120 mg ; comprimé dispersible 20/120 mg ; comprimé dispersible 2,5/30 mg (nourrisson de 2 à < 5 kg)",
    "indications": [
     "Paludisme simple (non compliqué) à P. falciparum",
     "Relais oral après traitement parentéral d'un paludisme grave"
@@ -134,6 +134,7 @@
     "Prendre avec un repas gras ou du lait"
    ],
    "posologieEnfant": [
+    "2 à < 5 kg : comprimé dispersible 2,5/30 mg, 2 cp par prise, suivi d'une tétée (à défaut : 1 cp de 20/120 mg par prise, sous surveillance)",
     "5 à < 15 kg : 1 cp par prise",
     "15 à < 25 kg : 2 cp par prise",
     "25 à < 35 kg : 3 cp par prise",
@@ -14976,11 +14977,11 @@
    "formes": "Comprimé 7,5 et 15 mg base",
    "indications": [
     "Prévention des rechutes de P. vivax et P. ovale (cure radicale)",
-    "Dose unique faible pour bloquer la transmission de P. falciparum (gamétocytes) dans les programmes d'élimination"
+    "Dose unique faible avec la CTA pour réduire la transmission de P. falciparum, uniquement dans les zones de faible transmission (programmes d'élimination) ; non recommandée en zone de transmission modérée à élevée, comme la plus grande partie de la RDC (OMS 2026)"
    ],
    "posologieAdulte": [
     "Cure radicale : 0,25 à 0,5 mg base/kg/jour pendant 14 jours (ou 0,5 mg/kg/j pendant 7 jours) après un test G6PD normal",
-    "Transmission de P. falciparum : 0,25 mg base/kg en dose unique (sans test G6PD)"
+    "Transmission de P. falciparum (zones de faible transmission seulement) : 0,25 mg base/kg en dose unique avec la CTA, sans test G6PD ; pas chez la femme enceinte, le nourrisson de moins de 1 mois ni la femme allaitant un nourrisson de moins de 1 mois"
    ],
    "posologieEnfant": [
     "Même dose par kg à partir de 6 mois",
@@ -34012,7 +34013,7 @@
     "CTA pendant 3 jours selon le PNLP : artéméther-luméfantrine (AL) ou artésunate-amodiaquine (ASAQ) ; alternatives OMS : dihydroartémisinine-pipéraquine, artésunate-pyronaridine",
     "Artéméther-luméfantrine (20/120 mg), 6 prises : H0, H8, puis matin et soir les jours 2 et 3 ; 5 à 14 kg : 1 comprimé par prise, 15 à 24 kg : 2, 25 à 34 kg : 3, 35 kg et plus : 4 ; avec un aliment gras ou du lait",
     "Artésunate-amodiaquine, 1 prise par jour pendant 3 jours : 4,5 à 8 kg : 25/67,5 mg ; 9 à 17 kg : 50/135 mg ; 18 à 35 kg : 100/270 mg ; 36 kg et plus : 2 × 100/270 mg",
-    "Nourrisson de moins de 5 kg : CTA à la même dose en mg/kg que pour 5 kg (artéméther-luméfantrine 1 comprimé par prise), sous surveillance",
+    "Nourrisson de 2 à moins de 5 kg : utiliser la formulation d'artéméther-luméfantrine destinée aux nourrissons (comprimé dispersible 2,5/30 mg), 2 comprimés par prise, 6 prises sur 3 jours (H0, H8, puis matin et soir les jours 2 et 3), chaque prise suivie d'une tétée ; redonner la dose en cas de vomissement dans l'heure ; si cette formulation n'est pas disponible : CTA à la même dose en mg/kg que pour 5 kg (artéméther-luméfantrine 20/120 mg, 1 comprimé par prise), sous surveillance",
     "Femme enceinte : artéméther-luméfantrine à tous les trimestres, y compris le 1er (OMS 2022) ; autre CTA possible aux 2e et 3e trimestres",
     "Donner la 1re dose devant le soignant ; vomissement dans les 30 min : redonner la dose entière ; entre 30 et 60 min : redonner une demi-dose ; vomissements répétés : traiter comme un paludisme grave",
     "Fièvre : paracétamol 15 mg/kg toutes les 6 h (adulte 1 g) ; déshabiller l'enfant, faire boire ; pas d'aspirine chez l'enfant",

@@ -14,5 +14,75 @@
   ],
   "source": "OMS, Consolidated guidelines on tuberculosis, Module 4: treatment and care (mise à jour 2025 ; 2e édition 2026), recommandations 1.2 (BDLLfxC) et 2.2-2.3 (schémas de 9 mois BLMZ, BLLfxCZ, BDLLfxZ) : https://tbksp.who.int/en/node/2976 ; https://tbksp.who.int/en/node/2977 ; https://www.who.int/publications/i/item/9789240125124",
   "motif": "Le schéma de 9 mois de la fiche ne correspondait à aucun schéma OMS (absence de pyrazinamide, cyclosérine/éthionamide relevant des schémas longs, pas d'exigence d'exclure la résistance aux fluoroquinolones) ; ajout du schéma de 6 mois BDLLfxC recommandé par l'OMS pour tous les âges, y compris enfant et femme enceinte."
+ },
+ {
+  "date": "2026-11-01",
+  "cible": "pathologie",
+  "id": 1,
+  "champ": "traitement",
+  "valeur": [
+   "CTA pendant 3 jours selon le PNLP : artéméther-luméfantrine (AL) ou artésunate-amodiaquine (ASAQ) ; alternatives OMS : dihydroartémisinine-pipéraquine, artésunate-pyronaridine",
+   "Artéméther-luméfantrine (20/120 mg), 6 prises : H0, H8, puis matin et soir les jours 2 et 3 ; 5 à 14 kg : 1 comprimé par prise, 15 à 24 kg : 2, 25 à 34 kg : 3, 35 kg et plus : 4 ; avec un aliment gras ou du lait",
+   "Artésunate-amodiaquine, 1 prise par jour pendant 3 jours : 4,5 à 8 kg : 25/67,5 mg ; 9 à 17 kg : 50/135 mg ; 18 à 35 kg : 100/270 mg ; 36 kg et plus : 2 × 100/270 mg",
+   "Nourrisson de 2 à moins de 5 kg : utiliser la formulation d'artéméther-luméfantrine destinée aux nourrissons (comprimé dispersible 2,5/30 mg), 2 comprimés par prise, 6 prises sur 3 jours (H0, H8, puis matin et soir les jours 2 et 3), chaque prise suivie d'une tétée ; redonner la dose en cas de vomissement dans l'heure ; si cette formulation n'est pas disponible : CTA à la même dose en mg/kg que pour 5 kg (artéméther-luméfantrine 20/120 mg, 1 comprimé par prise), sous surveillance",
+   "Femme enceinte : artéméther-luméfantrine à tous les trimestres, y compris le 1er (OMS 2022) ; autre CTA possible aux 2e et 3e trimestres",
+   "Donner la 1re dose devant le soignant ; vomissement dans les 30 min : redonner la dose entière ; entre 30 et 60 min : redonner une demi-dose ; vomissements répétés : traiter comme un paludisme grave",
+   "Fièvre : paracétamol 15 mg/kg toutes les 6 h (adulte 1 g) ; déshabiller l'enfant, faire boire ; pas d'aspirine chez l'enfant",
+   "Expliquer à la famille : terminer les 3 jours même si la fièvre disparaît, et revenir immédiatement en cas de signe de danger",
+   "Revoir à J3 si la fièvre persiste ; fièvre qui réapparaît dans les 28 jours : goutte épaisse ; échec confirmé : traiter avec une CTA différente",
+   "Co-infection fréquente chez l'enfant : traiter aussi une pneumonie, une diarrhée ou une malnutrition associées (PCIME)",
+   "Agents de santé communautaires : TDR et CTA à domicile, artésunate rectal avant transfert de l'enfant de moins de 6 ans qui ne peut pas avaler"
+  ],
+  "source": "OMS, WHO guidelines for malaria, édition du 10 septembre 2026 (recommandations mises à jour 2026), https://iris.who.int/items/5c4694fd-4911-46a6-b0f8-5af7dbb2f84f ; OMS Préqualification, WHOPAR MA217 (artéméther/luméfantrine 2,5/30 mg comprimé dispersible, notice), https://extranet.who.int/prequal/sites/default/files/whopar_files/MA217%20part4v1.pdf",
+  "motif": "L'OMS (édition 2026, recommandation forte mise à jour) demande d'utiliser, là où l'artéméther-luméfantrine est disponible, la nouvelle formulation (ratio 1:12) homologuée en 2025 pour les nourrissons de moins de 5 kg ; posologie selon la notice préqualifiée (2 comprimés de 2,5/30 mg par prise, 6 prises)."
+ },
+ {
+  "date": "2026-11-01",
+  "cible": "medicament",
+  "id": 1,
+  "champ": "formes",
+  "valeur": "Comprimé 20 mg/120 mg ; comprimé dispersible 20/120 mg ; comprimé dispersible 2,5/30 mg (nourrisson de 2 à < 5 kg)",
+  "source": "OMS, WHO guidelines for malaria, édition du 10 septembre 2026 (recommandations mises à jour 2026), https://iris.who.int/items/5c4694fd-4911-46a6-b0f8-5af7dbb2f84f ; OMS Préqualification, WHOPAR MA217 (artéméther/luméfantrine 2,5/30 mg comprimé dispersible, notice), https://extranet.who.int/prequal/sites/default/files/whopar_files/MA217%20part4v1.pdf",
+  "motif": "Ajout de la formulation nourrisson recommandée par l'OMS en 2026 (inscrite sur la liste modèle OMS des médicaments essentiels 2025)."
+ },
+ {
+  "date": "2026-11-01",
+  "cible": "medicament",
+  "id": 1,
+  "champ": "posologieEnfant",
+  "valeur": [
+   "2 à < 5 kg : comprimé dispersible 2,5/30 mg, 2 cp par prise, suivi d'une tétée (à défaut : 1 cp de 20/120 mg par prise, sous surveillance)",
+   "5 à < 15 kg : 1 cp par prise",
+   "15 à < 25 kg : 2 cp par prise",
+   "25 à < 35 kg : 3 cp par prise",
+   "Même schéma de 6 prises sur 3 jours",
+   "Redonner la dose si vomissement dans les 30 min"
+  ],
+  "source": "OMS, WHO guidelines for malaria, édition du 10 septembre 2026 (recommandations mises à jour 2026), https://iris.who.int/items/5c4694fd-4911-46a6-b0f8-5af7dbb2f84f ; OMS Préqualification, WHOPAR MA217 (artéméther/luméfantrine 2,5/30 mg comprimé dispersible, notice), https://extranet.who.int/prequal/sites/default/files/whopar_files/MA217%20part4v1.pdf",
+  "motif": "Posologie de la formulation nourrisson (< 5 kg) recommandée par l'OMS en 2026, selon la notice préqualifiée."
+ },
+ {
+  "date": "2026-11-01",
+  "cible": "medicament",
+  "id": 318,
+  "champ": "indications",
+  "valeur": [
+   "Prévention des rechutes de P. vivax et P. ovale (cure radicale)",
+   "Dose unique faible avec la CTA pour réduire la transmission de P. falciparum, uniquement dans les zones de faible transmission (programmes d'élimination) ; non recommandée en zone de transmission modérée à élevée, comme la plus grande partie de la RDC (OMS 2026)"
+  ],
+  "source": "OMS, WHO guidelines for malaria, édition du 10 septembre 2026 (recommandations mises à jour 2026), https://iris.who.int/items/5c4694fd-4911-46a6-b0f8-5af7dbb2f84f",
+  "motif": "Recommandation OMS mise à jour en 2026 : la primaquine en dose unique faible est réservée aux zones de faible transmission et n'est pas recommandée en transmission modérée à élevée (absence de preuve d'efficacité)."
+ },
+ {
+  "date": "2026-11-01",
+  "cible": "medicament",
+  "id": 318,
+  "champ": "posologieAdulte",
+  "valeur": [
+   "Cure radicale : 0,25 à 0,5 mg base/kg/jour pendant 14 jours (ou 0,5 mg/kg/j pendant 7 jours) après un test G6PD normal",
+   "Transmission de P. falciparum (zones de faible transmission seulement) : 0,25 mg base/kg en dose unique avec la CTA, sans test G6PD ; pas chez la femme enceinte, le nourrisson de moins de 1 mois ni la femme allaitant un nourrisson de moins de 1 mois"
+  ],
+  "source": "OMS, WHO guidelines for malaria, édition du 10 septembre 2026 (recommandations mises à jour 2026), https://iris.who.int/items/5c4694fd-4911-46a6-b0f8-5af7dbb2f84f",
+  "motif": "Précision des conditions d'emploi et des exclusions de la dose unique faible selon la recommandation OMS 2026."
  }
 ]
