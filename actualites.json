@@ -1,7 +1,45 @@
 {
- "dateActualites": "28 octobre 2026",
- "dateIsoActualites": "2026-10-28",
+ "dateActualites": "2 novembre 2026",
+ "dateIsoActualites": "2026-11-02",
  "actualites": [
+  {
+   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DU DIABÈTE",
+   "titre": "Diabète : agir tôt",
+   "lieu": "Monde · Afrique · campagne OMS jusqu'au 14 novembre",
+   "chiffre": "589 millions d'adultes diabétiques · plus de 40 % non diagnostiqués",
+   "texte": "Le thème 2026 de la Journée mondiale du diabète (14 novembre) est « Agir tôt contre le diabète » : diagnostiquer plus tôt, assurer des soins continus et lutter contre la stigmatisation. En Afrique, la majorité des diabétiques l'ignorent.",
+   "details": [
+    "Afrique : 24,6 millions d'adultes diabétiques en 2024, 59,5 millions prévus en 2050 ; dans les pays à faible revenu, environ 6 diabétiques sur 10 ne sont pas diagnostiqués (FID)",
+    "Objectif OMS : 80 % des personnes diabétiques diagnostiquées d'ici 2030, dont 80 % avec une glycémie bien contrôlée",
+    "Dépister par une glycémie capillaire : adulte de plus de 40 ans, surpoids, HTA, antécédents familiaux, grossesse (diabète gestationnel), tuberculose, personne vivant avec le VIH ; penser au diabète devant soif, urines abondantes, amaigrissement, infections répétées, troubles visuels",
+    "Diagnostic : glycémie à jeun ≥ 1,26 g/l (7,0 mmol/l) à 2 reprises, ou glycémie ≥ 2 g/l (11,1 mmol/l) avec symptômes, ou HbA1c ≥ 6,5 % ; adulte jeune maigre avec cétose : penser au diabète de type 1 (insuline, ne pas retarder)",
+    "Type 2 : mesures hygiéno-diététiques et metformine en 1re intention ; examiner les pieds, les yeux (fond d'œil annuel) et les reins à chaque bilan ; contrôler la PA et proposer une statine après 40 ans"
+   ],
+   "couleur": "#0D47A1",
+   "icone": "🩸",
+   "pathologie": 44,
+   "source": "OMS, campagne Journée mondiale du diabète 2026 (who.int, consultée le 02/11/2026) ; FID, Atlas du diabète 11e édition (données 2024)",
+   "pictogramme": "glucometre"
+  },
+  {
+   "etiquette": "MOVEMBER · SANTÉ DES HOMMES",
+   "titre": "Cancer de la prostate",
+   "lieu": "Monde · Afrique subsaharienne · tout le mois de novembre",
+   "chiffre": "1,47 million de nouveaux cas et 397 000 décès par an dans le monde",
+   "texte": "Novembre (« Movember ») est consacré à la santé des hommes. Le cancer de la prostate est le cancer le plus fréquent de l'homme en Afrique subsaharienne, plus précoce et plus agressif chez les hommes d'ascendance africaine, et souvent découvert au stade de métastases osseuses.",
+   "details": [
+    "Dépistage individuel par PSA et toucher rectal à discuter avec chaque homme à partir de 50 ans, dès 45 ans chez l'homme d'ascendance africaine ou avec des antécédents familiaux (avantages et risques de surdiagnostic)",
+    "Signes d'alerte : troubles urinaires persistants, sang dans les urines ou le sperme, douleurs osseuses (dos, bassin) chez l'homme de plus de 50 ans, faiblesse des jambes",
+    "Douleur du dos avec faiblesse des jambes ou troubles urinaires : suspecter une compression médullaire, dexaméthasone 16 mg par jour et référence en urgence",
+    "Forme métastatique : castration chirurgicale (pulpectomie, peu coûteuse et immédiate) ou médicamenteuse ; radiothérapie et morphine pour les douleurs osseuses",
+    "Novembre est aussi l'occasion de parler aux hommes de l'HTA, du diabète, du tabac et de la santé mentale"
+   ],
+   "couleur": "#01579B",
+   "icone": "🎗️",
+   "pathologie": 234,
+   "source": "CIRC, GLOBOCAN 2022 ; campagne Movember 2026 ; fiche MédiGuide « Cancer de la prostate » (v42)",
+   "pictogramme": "ruban"
+  },
   {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
@@ -60,23 +98,6 @@
    "pictogramme": "virus"
   },
   {
-   "etiquette": "SITUATION HUMANITAIRE",
-   "titre": "Malnutrition infantile",
-   "lieu": "RDC · Nord-Kivu",
-   "chiffre": "26 millions de personnes en insécurité alimentaire",
-   "texte": "Plus de 33 000 enfants malnutris pris en charge de janvier à août 2026 dans cinq structures soutenues par MSF au Nord-Kivu.",
-   "details": [
-    "Près de 4 millions de personnes en crise alimentaire au Nord-Kivu",
-    "Dépister chaque enfant (PB, œdèmes) : PB < 115 mm ou œdèmes bilatéraux = malnutrition aiguë sévère",
-    "Les enfants malnutris sont plus exposés à la rougeole, au choléra et au paludisme grave : vérifier la vaccination"
-   ],
-   "couleur": "#E65100",
-   "icone": "🥣",
-   "pathologie": 30,
-   "source": "MSF, communiqué du 26/10/2026",
-   "pictogramme": "pomme"
-  },
-  {
    "etiquette": "PREMIÈRE CAUSE DE CONSULTATION",
    "titre": "Paludisme",
    "lieu": "RDC · tout le pays",
@@ -94,6 +115,23 @@
    "pictogramme": "moustique"
   },
   {
+   "etiquette": "SITUATION HUMANITAIRE",
+   "titre": "Malnutrition infantile",
+   "lieu": "RDC · Nord-Kivu",
+   "chiffre": "26 millions de personnes en insécurité alimentaire",
+   "texte": "Plus de 33 000 enfants malnutris pris en charge de janvier à août 2026 dans cinq structures soutenues par MSF au Nord-Kivu.",
+   "details": [
+    "Près de 4 millions de personnes en crise alimentaire au Nord-Kivu",
+    "Dépister chaque enfant (PB, œdèmes) : PB < 115 mm ou œdèmes bilatéraux = malnutrition aiguë sévère",
+    "Les enfants malnutris sont plus exposés à la rougeole, au choléra et au paludisme grave : vérifier la vaccination"
+   ],
+   "couleur": "#E65100",
+   "icone": "🥣",
+   "pathologie": 30,
+   "source": "MSF, communiqué du 26/10/2026",
+   "pictogramme": "pomme"
+  },
+  {
    "etiquette": "DANS LE MONDE",
    "titre": "Rougeole",
    "lieu": "Bangladesh, Mexique, États-Unis, Europe",
@@ -109,23 +147,6 @@
    "pathologie": 12,
    "source": "ECDC, rapport de la semaine 41 (3 au 9 octobre 2026)",
    "pictogramme": "thermometre"
-  },
-  {
-   "etiquette": "DANS LE MONDE",
-   "titre": "Dengue et chikungunya",
-   "lieu": "Transmission locale jusqu'en Europe",
-   "chiffre": "146 cas autochtones de chikungunya en France",
-   "texte": "Les arboviroses transmises par le moustique tigre s'étendent : 68 cas autochtones de dengue en Italie, 1 855 cas de virus du Nil occidental en Europe.",
-   "details": [
-    "Penser à la dengue devant une fièvre avec douleurs, éruption ou saignements, même au retour de voyage",
-    "Dengue : pas d'AINS ni d'aspirine, surveiller les signes d'alerte",
-    "Lutte contre les gîtes larvaires (eau stagnante)"
-   ],
-   "couleur": "#00838F",
-   "icone": "🦟",
-   "pathologie": 89,
-   "source": "ECDC, rapport de la semaine 41 (situation au 7 octobre 2026)",
-   "pictogramme": "moustique"
   }
  ]
 }

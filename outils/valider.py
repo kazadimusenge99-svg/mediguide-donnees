@@ -8,7 +8,8 @@ erreurs = []
 def err(m): erreurs.append(m)
 
 PICTOS = {"virus", "bacterie", "moustique", "goutte", "pomme", "thermometre", "poumons", "coeur", "bebe",
-          "grossesse", "seringue", "alerte", "globe"}
+          "grossesse", "seringue", "alerte", "globe", "glucometre", "ruban", "rein", "cerveau", "psy", "oeil",
+          "os", "estomac", "coeur", "comprime", "bouclier", "masque", "savon", "ver", "stethoscope", "patient"}
 THEMES = {"paludisme", "vihtb", "urgences", "pediatrie", "obstetrique", "antibiotiques", "epidemies", "pharmaco", "scores"}
 
 meds = json.load(open("meds.json", encoding="utf-8"))

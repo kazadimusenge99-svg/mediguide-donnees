@@ -4,7 +4,7 @@ Fichiers téléchargés automatiquement par l'application Android MédiGuide (au
 
 | Fichier | Contenu | Mise à jour |
 |---|---|---|
-| `actualites.json` | Actualités sanitaires « À la une » | Quotidienne (si nouveauté) |
+| `actualites.json` | « Sujet du jour » : sujet de santé principal selon les tendances mondiales (1er élément), puis autres sujets et alertes épidémiques | Quotidienne (chaque matin) |
 | `cas_cliniques.json` | Cas cliniques de la section Formation | Hebdomadaire (nouvelle série) |
 | `meds.json` | Contenu complet : médicaments, pathologies, scores, protocoles, quiz | Hebdomadaire (si mise à jour des recommandations) |
 | `corrections.json` | Journal de chaque modification de fiche (date, champ, source, motif) | À chaque modification |
