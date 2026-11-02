@@ -1,5 +1,5 @@
 {
- "version": 43,
+ "version": 44,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -33585,6 +33585,1289 @@
     "Paracétamol, puis AINS si pas de contre-indication, puis morphine orale si douleur intense",
     "Réévaluer régulièrement",
     "Traiter la cause"
+   ]
+  },
+  {
+   "id": "palpitations",
+   "nom": "Palpitations",
+   "pictogramme": "coeur",
+   "couleur": "#D32F2F",
+   "resume": "Perception anormale des battements du cœur (trop rapides, irréguliers, forts). Le plus souvent bénignes (anxiété, café, fièvre, anémie), elles peuvent révéler un trouble du rythme grave, une anémie, une hyperthyroïdie, une hypoglycémie ou une cardiopathie (rhumatismale en particulier). Le pouls et l'ECG pendant la crise sont les examens clés.",
+   "alarme": [
+    "Malaise, perte de connaissance ou chute pendant les palpitations",
+    "Douleur thoracique, essoufflement, signes d'insuffisance cardiaque",
+    "Pouls > 150/min ou < 40/min, PA basse, extrémités froides",
+    "Cardiopathie connue (valvulopathie, cardiomyopathie, infarctus)",
+    "Mort subite dans la famille",
+    "Palpitations à l'effort"
+   ],
+   "questions": [
+    "Début et fin brusques (tachycardie paroxystique) ou progressifs (tachycardie sinusale) ? Rythme régulier ou irrégulier (faire taper le rythme) ?",
+    "Circonstances : effort, émotion, repos, position ; durée, fréquence",
+    "Facteurs : café, thé, boissons énergisantes, alcool, tabac, cannabis, cocaïne ; médicaments (salbutamol, aminophylline, lévothyroxine, antidépresseurs, quinine)",
+    "Signes associés : fièvre, pâleur, amaigrissement, tremblements, chaleur, sueurs, anxiété, soif",
+    "Grossesse, antécédents de rhumatisme articulaire aigu, HTA"
+   ],
+   "examens": [
+    "Pouls compté sur 1 minute (régularité), PA, SpO₂, température, glycémie capillaire",
+    "ECG 12 dérivations, si possible pendant les symptômes (fibrillation auriculaire, tachycardie, QT long, troubles de conduction)",
+    "Hémoglobine ; TSH ; ionogramme (potassium, magnésium), créatinine",
+    "Échographie cardiaque si souffle, insuffisance cardiaque ou ECG anormal",
+    "Holter ECG si crises répétées"
+   ],
+   "orientations": [
+    {
+     "pathologie": 202,
+     "indice": "pouls irrégulier, ou début et fin brusques ; ECG"
+    },
+    {
+     "pathologie": 33,
+     "indice": "pâleur, essoufflement, Hb basse"
+    },
+    {
+     "pathologie": 109,
+     "indice": "amaigrissement malgré l'appétit, tremblements, chaleur, goitre, exophtalmie"
+    },
+    {
+     "pathologie": 53,
+     "indice": "crises avec peur intense, ECG normal, examen normal"
+    },
+    {
+     "pathologie": 39,
+     "indice": "sueurs, faim, tremblements chez un diabétique traité ; glycémie basse"
+    },
+    {
+     "pathologie": 203,
+     "indice": "souffle, sujet jeune, dyspnée d'effort"
+    },
+    {
+     "pathologie": 43,
+     "indice": "essoufflement, œdèmes, crépitants"
+    },
+    {
+     "pathologie": 1,
+     "indice": "fièvre (tachycardie sinusale)"
+    },
+    {
+     "pathologie": 197,
+     "indice": "tabac, café, boissons énergisantes"
+    },
+    {
+     "pathologie": 112,
+     "indice": "après une forte consommation ou un arrêt brutal"
+    },
+    {
+     "pathologie": 41,
+     "indice": "médicament ou drogue (salbutamol, aminophylline, cocaïne, amphétamines)"
+    }
+   ],
+   "conduite": [
+    "Malade instable (hypotension, douleur thoracique, insuffisance cardiaque, trouble de conscience) : oxygène, voie veineuse, ECG, scope, référence urgente ; choc électrique si tachycardie instable",
+    "Tachycardie régulière à QRS fins et malade stable : manœuvres vagales (souffler dans une seringue de 10 ml, jambes surélevées ensuite), puis adénosine selon le protocole",
+    "Fibrillation auriculaire : contrôle de la fréquence (bisoprolol), anticoagulation selon le risque (voir la fiche)",
+    "Traiter la cause : anémie, fièvre, hyperthyroïdie, hypoglycémie, déshydratation",
+    "Palpitations bénignes (ECG et examen normaux) : rassurer, réduire café, thé, alcool, tabac et boissons énergisantes, gestion du stress ; revoir si récidive ou malaise"
+   ]
+  },
+  {
+   "id": "syncope",
+   "nom": "Malaise et perte de connaissance",
+   "pictogramme": "alerte",
+   "couleur": "#B71C1C",
+   "resume": "Perte de connaissance brève (syncope) avec chute et récupération spontanée et complète, due à une baisse transitoire du débit sanguin cérébral. Le plus souvent vagale (station debout prolongée, chaleur, douleur, émotion) ou orthostatique (déshydratation, médicaments), mais parfois cardiaque (trouble du rythme, valvulopathie) avec risque de mort subite. Il faut aussi éliminer une hypoglycémie, une crise d'épilepsie, une hémorragie interne (grossesse extra-utérine) et une embolie pulmonaire.",
+   "alarme": [
+    "Syncope à l'effort ou en position couchée, précédée de palpitations, ou sans aucun prodrome",
+    "Cardiopathie connue, souffle, ECG anormal, mort subite familiale",
+    "Douleur thoracique, dyspnée, PA basse persistante",
+    "Femme en âge de procréer avec douleur abdominale ou retard de règles (grossesse extra-utérine rompue)",
+    "Sang dans les selles ou les vomissements, pâleur intense",
+    "Traumatisme crânien lors de la chute, déficit neurologique",
+    "Pas de reprise complète de la conscience (ce n'est pas une syncope)"
+   ],
+   "questions": [
+    "Circonstances : debout, chaleur, foule, douleur, émotion, miction, toux ; lever brutal ; effort ; repas sauté",
+    "Prodromes : sueurs, nausées, vision trouble (vagal) ; palpitations (rythme) ; aucun (rythme)",
+    "Durée, mouvements, morsure latérale de la langue, perte d'urines, confusion prolongée après (épilepsie)",
+    "Médicaments : antihypertenseurs, diurétiques, dérivés nitrés, antidépresseurs ; alcool",
+    "Diabète traité, grossesse, règles, saignements, diarrhée"
+   ],
+   "examens": [
+    "Glycémie capillaire immédiate",
+    "PA couchée puis debout à 1 et 3 min (hypotension orthostatique si baisse ≥ 20 mmHg de la systolique)",
+    "ECG 12 dérivations chez tous",
+    "Hémoglobine ; test de grossesse chez la femme en âge de procréer ; échographie abdominale si douleur",
+    "Selon l'orientation : échographie cardiaque, ionogramme, recherche de sang dans les selles"
+   ],
+   "orientations": [
+    {
+     "pathologie": 39,
+     "indice": "diabétique traité, jeûne, alcool ; glycémie < 0,7 g/l"
+    },
+    {
+     "pathologie": 202,
+     "indice": "palpitations, effort, absence de prodrome, ECG anormal"
+    },
+    {
+     "pathologie": 38,
+     "indice": "mouvements, morsure de langue, confusion prolongée après la crise"
+    },
+    {
+     "pathologie": 52,
+     "indice": "crises répétées"
+    },
+    {
+     "pathologie": 85,
+     "indice": "femme, retard de règles, douleur pelvienne, pâleur"
+    },
+    {
+     "pathologie": 36,
+     "indice": "PA basse persistante, extrémités froides"
+    },
+    {
+     "pathologie": 33,
+     "indice": "pâleur, essoufflement"
+    },
+    {
+     "pathologie": 37,
+     "indice": "urticaire, gêne respiratoire après piqûre, médicament ou aliment"
+    },
+    {
+     "pathologie": 48,
+     "indice": "dyspnée brutale, douleur thoracique, jambe gonflée"
+    },
+    {
+     "pathologie": 49,
+     "indice": "méléna, hématémèse"
+    },
+    {
+     "pathologie": 203,
+     "indice": "souffle, syncope d'effort (rétrécissement aortique ou mitral)"
+    },
+    {
+     "pathologie": 46,
+     "indice": "déficit neurologique persistant (ce n'est plus une syncope)"
+    }
+   ],
+   "conduite": [
+    "Mettre le patient allongé, jambes surélevées, libérer les voies aériennes, position latérale de sécurité s'il reste inconscient ; glucose si hypoglycémie",
+    "Syncope vagale typique chez un sujet jeune avec ECG normal : rassurer, expliquer les prodromes (s'asseoir ou s'allonger dès les premiers signes), boire suffisamment, éviter les stations debout prolongées",
+    "Hypotension orthostatique : hydratation, revoir les médicaments, se lever progressivement",
+    "Signes d'alerte ou ECG anormal : hospitalisation, surveillance du rythme, avis cardiologique",
+    "Interdire temporairement la conduite en cas de syncope inexpliquée ou cardiaque"
+   ]
+  },
+  {
+   "id": "vertiges",
+   "nom": "Vertiges et étourdissements",
+   "pictogramme": "cerveau",
+   "couleur": "#3949AB",
+   "resume": "Le vertige vrai est une illusion de mouvement (la pièce tourne), d'origine de l'oreille interne (le plus souvent bénin) ou cérébrale (AVC du cervelet ou du tronc cérébral, grave). Les étourdissements (tête qui tourne, sensation de malaise) sont souvent liés à une hypotension, une anémie, une hypoglycémie, une déshydratation, un médicament ou à l'anxiété.",
+   "alarme": [
+    "Vertige brutal avec céphalée intense, troubles de la parole, vision double, difficulté à avaler, faiblesse ou engourdissement d'un côté, impossibilité de marcher (AVC)",
+    "Sujet âgé, HTA, diabète, fibrillation auriculaire",
+    "Perte d'audition brutale",
+    "Fièvre avec raideur de nuque ou écoulement d'oreille ancien (complication d'otite)",
+    "Malaise avec perte de connaissance, palpitations",
+    "Traumatisme crânien"
+   ],
+   "questions": [
+    "Vrai vertige rotatoire ou sensation de malaise ? Durée : secondes (lors des changements de position : vertige positionnel bénin), heures (maladie de Ménière), jours (névrite vestibulaire)",
+    "Signes auditifs : baisse d'audition, acouphènes, otorrhée",
+    "Signes neurologiques",
+    "Médicaments : antihypertenseurs, sédatifs, quinine, aminosides (gentamicine), antiépileptiques ; alcool",
+    "Diarrhée, vomissements, saignements, jeûne, grossesse"
+   ],
+   "examens": [
+    "PA couchée et debout, pouls, glycémie capillaire, température",
+    "Examen neurologique complet (marche, épreuve doigt-nez, mouvements des yeux, nystagmus)",
+    "Otoscopie",
+    "Manœuvre de Dix-Hallpike (vertige positionnel paroxystique bénin)",
+    "Hémoglobine ; ECG si malaise ou palpitations",
+    "Scanner cérébral si signes neurologiques"
+   ],
+   "orientations": [
+    {
+     "pathologie": 46,
+     "indice": "vertige brutal avec signes neurologiques, impossibilité de marcher"
+    },
+    {
+     "pathologie": 42,
+     "indice": "PA très élevée, céphalées"
+    },
+    {
+     "pathologie": 205,
+     "indice": "PA ≥ 180/110 avec signes neurologiques"
+    },
+    {
+     "pathologie": 39,
+     "indice": "diabétique traité, sueurs ; glycémie basse"
+    },
+    {
+     "pathologie": 33,
+     "indice": "pâleur, essoufflement"
+    },
+    {
+     "pathologie": 18,
+     "indice": "soif, pli cutané, hypotension orthostatique"
+    },
+    {
+     "pathologie": 17,
+     "indice": "douleur d'oreille, fièvre"
+    },
+    {
+     "pathologie": 101,
+     "indice": "écoulement chronique de l'oreille"
+    },
+    {
+     "pathologie": 114,
+     "indice": "crises de migraine avec vertiges"
+    },
+    {
+     "pathologie": 53,
+     "indice": "sensation de tête vide, respiration rapide, examen normal"
+    },
+    {
+     "pathologie": 41,
+     "indice": "médicament ou alcool en cause"
+    }
+   ],
+   "conduite": [
+    "Signes neurologiques : AVC jusqu'à preuve du contraire, référence urgente (voir la fiche)",
+    "Vertige positionnel paroxystique bénin : manœuvre de libération (Epley), pas de médicament au long cours",
+    "Crise vertigineuse aiguë : repos, antiémétique (métoclopramide), prométhazine ou dimenhydrinate quelques jours seulement (retardent la compensation)",
+    "Étourdissements : traiter la cause (réhydratation, glucose, anémie), revoir les médicaments ; se lever progressivement",
+    "Prévenir les chutes chez le sujet âgé"
+   ]
+  },
+  {
+   "id": "fatigue",
+   "nom": "Fatigue (asthénie)",
+   "pictogramme": "patient",
+   "couleur": "#546E7A",
+   "resume": "Fatigue persistante qui ne cède pas au repos et gêne les activités. Très fréquente et peu spécifique, elle peut révéler une anémie, une infection chronique (VIH, tuberculose, hépatite, trypanosomiase), un diabète, une maladie de la thyroïde, une insuffisance d'organe (cœur, rein, foie), un cancer ou une dépression. L'interrogatoire et quelques examens simples orientent dans la plupart des cas.",
+   "alarme": [
+    "Amaigrissement, fièvre prolongée, sueurs nocturnes",
+    "Essoufflement, pâleur intense, saignements",
+    "Ganglions, grosse rate, masse",
+    "Troubles du sommeil sévères avec somnolence et troubles du comportement (trypanosomiase)",
+    "Idées suicidaires",
+    "Hypotension, hyperpigmentation (insuffisance surrénale)"
+   ],
+   "questions": [
+    "Depuis quand, horaire (le matin : dépression ; le soir : effort) ; retentissement",
+    "Sommeil, humeur, stress, charge de travail",
+    "Appétit, poids, alimentation, règles abondantes, grossesse, allaitement",
+    "Toux, fièvre, sueurs, diarrhée, soif et urines abondantes, œdèmes, essoufflement",
+    "Médicaments (bêtabloquants, sédatifs, antihistaminiques), alcool, drogues",
+    "Facteurs de risque du VIH, séjour en zone de trypanosomiase"
+   ],
+   "examens": [
+    "Hémoglobine (NFS), glycémie, test VIH, TDR paludisme",
+    "Créatinine, transaminases, TSH, VS ou CRP",
+    "Bandelette urinaire",
+    "Radiographie du thorax et recherche de tuberculose si toux ou amaigrissement",
+    "Test de grossesse",
+    "Ferritine selon le contexte"
+   ],
+   "orientations": [
+    {
+     "pathologie": 33,
+     "indice": "pâleur, essoufflement, Hb basse"
+    },
+    {
+     "pathologie": 44,
+     "indice": "soif, urines abondantes, amaigrissement"
+    },
+    {
+     "pathologie": 6,
+     "indice": "test VIH positif, infections répétées"
+    },
+    {
+     "pathologie": 5,
+     "indice": "toux, fièvre, sueurs, amaigrissement"
+    },
+    {
+     "pathologie": 50,
+     "indice": "tristesse, perte d'intérêt, troubles du sommeil"
+    },
+    {
+     "pathologie": 108,
+     "indice": "frilosité, prise de poids, constipation, peau sèche"
+    },
+    {
+     "pathologie": 43,
+     "indice": "essoufflement d'effort, œdèmes"
+    },
+    {
+     "pathologie": 211,
+     "indice": "œdèmes, HTA, créatinine élevée"
+    },
+    {
+     "pathologie": 75,
+     "indice": "ictère, AgHBs positif"
+    },
+    {
+     "pathologie": 9,
+     "indice": "troubles du sommeil, ganglions du cou, zone d'endémie"
+    },
+    {
+     "pathologie": 209,
+     "indice": "hypotension, peau foncée, corticoïdes arrêtés"
+    },
+    {
+     "pathologie": 224,
+     "indice": "pâleur, fièvre, saignements, douleurs osseuses"
+    }
+   ],
+   "conduite": [
+    "Traiter la cause identifiée",
+    "Sans cause retrouvée : hygiène du sommeil, activité physique progressive, alimentation équilibrée, réduction de l'alcool, gestion du stress ; dépister une dépression (mhGAP)",
+    "Pas de vitamines ni de « fortifiants » systématiques ; fer seulement en cas de carence",
+    "Revoir à 4 à 6 semaines ou plus tôt si apparition de signes d'alerte"
+   ]
+  },
+  {
+   "id": "constipation",
+   "nom": "Constipation",
+   "pictogramme": "estomac",
+   "couleur": "#8D6E63",
+   "resume": "Selles rares (moins de 3 par semaine), dures ou difficiles à évacuer. Le plus souvent fonctionnelle (alimentation pauvre en fibres, manque d'eau, sédentarité, grossesse, médicaments comme les opioïdes et le fer), elle peut révéler une occlusion intestinale (urgence chirurgicale), un cancer colorectal chez l'adulte, une hypothyroïdie ou une hypercalcémie.",
+   "alarme": [
+    "Arrêt complet des matières et des gaz, vomissements, ventre gonflé et douloureux (occlusion)",
+    "Sang dans les selles, amaigrissement, anémie, changement récent du transit après 40 ans",
+    "Nouveau-né qui n'a pas émis de méconium dans les 48 h, ventre gonflé (maladie de Hirschsprung)",
+    "Fièvre, défense abdominale",
+    "Troubles urinaires et faiblesse des jambes (atteinte de la moelle)"
+   ],
+   "questions": [
+    "Ancienneté, fréquence et aspect des selles, efforts, douleurs",
+    "Alimentation (fibres, eau), activité, voyage, grossesse",
+    "Médicaments : morphine et codéine, fer, calcium, anticholinergiques, amitriptyline, vérapamil",
+    "Alternance avec diarrhée, sang, glaires",
+    "Signes d'hypothyroïdie (frilosité, prise de poids)",
+    "Enfant : retenue volontaire, apprentissage de la propreté, douleur à la défécation (fissure)"
+   ],
+   "examens": [
+    "Examen de l'abdomen (masse, distension), toucher rectal (fécalome, sang, masse, fissure)",
+    "Radiographie de l'abdomen sans préparation en cas de suspicion d'occlusion (niveaux hydro-aériques)",
+    "Hémoglobine, TSH, calcémie, glycémie selon le contexte",
+    "Coloscopie si signes d'alerte chez l'adulte"
+   ],
+   "orientations": [
+    {
+     "pathologie": 190,
+     "indice": "constipation fonctionnelle sans signe d'alerte"
+    },
+    {
+     "pathologie": 60,
+     "indice": "arrêt des matières et des gaz, vomissements, distension (occlusion)"
+    },
+    {
+     "pathologie": 235,
+     "indice": "sang dans les selles, amaigrissement, anémie, adulte"
+    },
+    {
+     "pathologie": 108,
+     "indice": "frilosité, fatigue, prise de poids"
+    },
+    {
+     "pathologie": 230,
+     "indice": "hypercalcémie, douleurs osseuses, soif"
+    },
+    {
+     "pathologie": 58,
+     "indice": "sous opioïdes (associer toujours un laxatif)"
+    },
+    {
+     "pathologie": 191,
+     "indice": "tremblement, lenteur"
+    },
+    {
+     "pathologie": 195,
+     "indice": "atteinte de la moelle"
+    }
+   ],
+   "conduite": [
+    "Occlusion : à jeun, sonde nasogastrique, perfusion, avis chirurgical urgent",
+    "Fonctionnelle : boire 1,5 à 2 litres par jour, fibres (fruits, légumes, haricots, son), activité physique, aller aux toilettes à heure fixe après le repas",
+    "Laxatifs si nécessaire : lactulose ou macrogol (osmotiques, utilisables pendant la grossesse et chez l'enfant), bisacodyl ou séné en cure courte ; fécalome : lavement ou évacuation manuelle",
+    "Sous opioïdes : laxatif systématique dès le début",
+    "Enfant : alimentation, lactulose, traitement d'une fissure, éducation des parents"
+   ]
+  },
+  {
+   "id": "dysphagie",
+   "nom": "Difficulté ou douleur pour avaler",
+   "pictogramme": "estomac",
+   "couleur": "#8D6E63",
+   "resume": "Gêne au passage des aliments (dysphagie) ou douleur à la déglutition (odynophagie). Causes fréquentes : angine, candidose buccale et œsophagienne (VIH), reflux, et, chez l'adulte, cancer de l'œsophage (fréquent en Afrique orientale et australe) ; causes neurologiques (AVC, myasthénie, tétanos) ; ingestion de caustiques.",
+   "alarme": [
+    "Impossibilité d'avaler la salive, hypersalivation, voix étouffée, difficulté à respirer (épiglottite, abcès, angine de Ludwig)",
+    "Dysphagie progressive, d'abord pour les solides, avec amaigrissement (cancer de l'œsophage)",
+    "Trismus, raideur (tétanos)",
+    "Fausses routes, toux en mangeant, troubles de la parole (cause neurologique)",
+    "Ingestion de caustique, corps étranger",
+    "Sang dans les vomissements"
+   ],
+   "questions": [
+    "Aliments solides, liquides ou les deux ; progression ; blocage ou douleur",
+    "Fièvre, mal de gorge, plaques blanches dans la bouche",
+    "Brûlures remontant de l'estomac, régurgitations",
+    "Amaigrissement, tabac, alcool, boissons très chaudes",
+    "Statut VIH",
+    "Toux pendant les repas, faiblesse, ptosis, troubles de la parole",
+    "Ingestion accidentelle (enfant)"
+   ],
+   "examens": [
+    "Examen de la bouche et de la gorge (candidose, angine, abcès), du cou (goitre, ganglions) ; examen neurologique",
+    "Test VIH",
+    "Glycémie",
+    "Endoscopie digestive haute avec biopsie si dysphagie progressive ou signes d'alerte ; transit œsophagien baryté si pas d'endoscopie",
+    "Radiographie si corps étranger"
+   ],
+   "orientations": [
+    {
+     "pathologie": 16,
+     "indice": "fièvre, mal de gorge, amygdales rouges"
+    },
+    {
+     "pathologie": 74,
+     "indice": "plaques blanches, VIH, douleur à la déglutition"
+    },
+    {
+     "pathologie": 133,
+     "indice": "brûlures, régurgitations"
+    },
+    {
+     "pathologie": 102,
+     "indice": "gonflement du plancher buccal, trismus"
+    },
+    {
+     "pathologie": 124,
+     "indice": "fausse membrane grise, cou gonflé, non vacciné"
+    },
+    {
+     "pathologie": 7,
+     "indice": "trismus, contractures, plaie"
+    },
+    {
+     "pathologie": 46,
+     "indice": "fausses routes, déficit neurologique"
+    },
+    {
+     "pathologie": 192,
+     "indice": "fatigabilité, ptosis, vision double"
+    },
+    {
+     "pathologie": 108,
+     "indice": "goitre volumineux comprimant"
+    },
+    {
+     "pathologie": 41,
+     "indice": "ingestion de caustique (eau de Javel, soude)"
+    },
+    {
+     "pathologie": 122,
+     "indice": "corps étranger, détresse respiratoire"
+    }
+   ],
+   "conduite": [
+    "Urgence respiratoire ou impossibilité d'avaler la salive : position assise, ne pas examiner la gorge de force, référence immédiate",
+    "Caustique : ne pas faire vomir, ne pas faire boire de neutralisant, référence",
+    "Candidose œsophagienne : fluconazole 200 à 400 mg par jour pendant 14 à 21 jours, test VIH",
+    "Dysphagie progressive de l'adulte : référence pour endoscopie ; alimentation semi-liquide enrichie en attendant",
+    "Troubles neurologiques : texture adaptée, position assise, prévention des fausses routes ; avis"
+   ]
+  },
+  {
+   "id": "sang-digestif",
+   "nom": "Sang dans les vomissements ou les selles",
+   "pictogramme": "goutte",
+   "couleur": "#B71C1C",
+   "resume": "Hémorragie digestive : vomissements de sang rouge ou « marc de café » (hématémèse), selles noires goudronneuses (méléna) ou sang rouge dans les selles (rectorragie). Causes principales : ulcère gastroduodénal (AINS, Helicobacter pylori), varices œsophagiennes (cirrhose, bilharziose hépatosplénique), dysenterie, hémorroïdes, cancer colorectal ; fièvres hémorragiques en contexte d'épidémie. Une hémorragie abondante est une urgence vitale.",
+   "alarme": [
+    "Pouls > 100/min, PA systolique < 90 mmHg, extrémités froides, malaise, troubles de conscience",
+    "Vomissements de sang abondants ou répétés",
+    "Pâleur intense, Hb < 7 g/dl",
+    "Cirrhose, grosse rate, ascite (varices)",
+    "Fièvre avec saignements multiples ou contexte d'Ebola",
+    "Sujet âgé, prise d'anticoagulant"
+   ],
+   "questions": [
+    "Aspect et quantité du sang ; malaise",
+    "Prise d'AINS (ibuprofène, diclofénac, aspirine), corticoïdes, anticoagulants, alcool",
+    "Douleurs épigastriques, antécédent d'ulcère",
+    "Hépatite, cirrhose, bilharziose, ictère, ascite",
+    "Diarrhée avec glaires et fièvre",
+    "Changement du transit, amaigrissement après 40 ans",
+    "Hémorroïdes connues (sang rouge sur les selles)"
+   ],
+   "examens": [
+    "Pouls, PA, TRC, conscience ; toucher rectal (méléna, sang, masse)",
+    "Hémoglobine (répéter : elle baisse avec retard), groupage sanguin, plaquettes, TP",
+    "Créatinine, urée",
+    "Endoscopie digestive haute dans les 24 h si possible ; coloscopie pour la rectorragie",
+    "Échographie abdominale (cirrhose, rate, ascite)",
+    "Examen des selles (amibes, œufs de schistosomes)"
+   ],
+   "orientations": [
+    {
+     "pathologie": 49,
+     "indice": "douleurs épigastriques, AINS, méléna"
+    },
+    {
+     "pathologie": 111,
+     "indice": "ascite, ictère, varices, vomissements de sang abondants"
+    },
+    {
+     "pathologie": 10,
+     "indice": "grosse rate, hypertension portale, zone d'endémie"
+    },
+    {
+     "pathologie": 20,
+     "indice": "diarrhée sanglante avec fièvre"
+    },
+    {
+     "pathologie": 21,
+     "indice": "diarrhée glairo-sanglante, abcès du foie"
+    },
+    {
+     "pathologie": 235,
+     "indice": "rectorragie, anémie, amaigrissement après 40 ans"
+    },
+    {
+     "pathologie": 63,
+     "indice": "fièvre, saignements multiples, contact ou zone d'épidémie"
+    },
+    {
+     "pathologie": 152,
+     "indice": "fièvre et saignements"
+    },
+    {
+     "pathologie": 210,
+     "indice": "saignements répétés depuis l'enfance"
+    },
+    {
+     "pathologie": 33,
+     "indice": "conséquence d'un saignement chronique"
+    }
+   ],
+   "conduite": [
+    "Instable : position allongée, 2 voies veineuses de gros calibre, remplissage par cristalloïdes, transfusion (objectif Hb 7 à 8 g/dl, plus haut chez le coronarien), oxygène, à jeun ; référence urgente",
+    "Suspicion d'ulcère : oméprazole 80 mg IV puis 40 mg 2 fois par jour ; arrêter les AINS",
+    "Suspicion de varices : octréotide ou vasopressine si disponible, ceftriaxone 1 g par jour (prévention des infections), endoscopie (ligature) ; propranolol ensuite en prévention",
+    "Dysenterie : ciprofloxacine (voir la fiche)",
+    "Fièvre hémorragique suspectée : isolement et EPI, alerte",
+    "Hémorroïdes : seulement après élimination d'une autre cause chez l'adulte de plus de 40 ans"
+   ]
+  },
+  {
+   "id": "hemoptysie",
+   "nom": "Crachats de sang (hémoptysie)",
+   "pictogramme": "poumons",
+   "couleur": "#B71C1C",
+   "resume": "Rejet de sang par la bouche lors d'un effort de toux, à distinguer d'un saignement du nez ou de la bouche et d'un vomissement de sang. En RDC, penser d'abord à la tuberculose ; autres causes : pneumonie, embolie pulmonaire, œdème pulmonaire (rétrécissement mitral rhumatismal), cancer du poumon, paragonimose, sarcome de Kaposi. Une hémoptysie abondante est une urgence.",
+   "alarme": [
+    "Hémoptysie abondante (plus d'un verre, soit environ 100 à 200 ml en 24 h) ou répétée",
+    "Détresse respiratoire, SpO₂ < 90 %, PA basse",
+    "Dyspnée brutale avec douleur thoracique (embolie)",
+    "Essoufflement en position couchée, crépitants, souffle cardiaque (œdème pulmonaire)",
+    "Anémie sévère, saignements ailleurs"
+   ],
+   "questions": [
+    "Quantité et durée ; toux, fièvre, sueurs nocturnes, amaigrissement ; contact avec un tuberculeux, antécédent de tuberculose traitée",
+    "Statut VIH",
+    "Dyspnée d'effort, palpitations, rhumatisme articulaire aigu dans l'enfance",
+    "Jambe gonflée, immobilisation, accouchement récent, contraception",
+    "Tabac, âge",
+    "Consommation de crabes ou d'écrevisses crus (paragonimose)"
+   ],
+   "examens": [
+    "SpO₂, pouls, PA ; examen des poumons et du cœur",
+    "Test moléculaire (Xpert MTB/RIF) et microscopie sur crachats",
+    "Radiographie du thorax",
+    "Hémoglobine, plaquettes, TP",
+    "Test VIH",
+    "ECG et échographie cardiaque si souffle ou dyspnée",
+    "Scanner thoracique si disponible (cancer, embolie, bronchectasies)"
+   ],
+   "orientations": [
+    {
+     "pathologie": 5,
+     "indice": "toux plus de 2 semaines, fièvre, sueurs, amaigrissement"
+    },
+    {
+     "pathologie": 173,
+     "indice": "échec ou rechute d'un traitement antituberculeux"
+    },
+    {
+     "pathologie": 14,
+     "indice": "fièvre aiguë, crachats rouillés, crépitants"
+    },
+    {
+     "pathologie": 48,
+     "indice": "dyspnée brutale, douleur thoracique, jambe gonflée"
+    },
+    {
+     "pathologie": 242,
+     "indice": "dyspnée couchée, crachats mousseux rosés"
+    },
+    {
+     "pathologie": 203,
+     "indice": "souffle, rétrécissement mitral, femme jeune"
+    },
+    {
+     "pathologie": 148,
+     "indice": "paragonimose, crustacés crus, crachats couleur rouille chroniques"
+    },
+    {
+     "pathologie": 231,
+     "indice": "VIH, lésions violacées de la peau ou de la bouche"
+    },
+    {
+     "pathologie": 183,
+     "indice": "VIH avancé, image pulmonaire, échec antituberculeux"
+    },
+    {
+     "pathologie": 129,
+     "indice": "fumeur, toux chronique"
+    }
+   ],
+   "conduite": [
+    "Abondante : position couchée sur le côté qui saigne, oxygène, voie veineuse, acide tranexamique, transfusion si nécessaire, référence urgente",
+    "Tuberculose : masque pour le patient, isolement respiratoire, test Xpert ; débuter le traitement dès la confirmation",
+    "Embolie ou œdème pulmonaire : voir les fiches",
+    "Hémoptysie chronique inexpliquée chez un fumeur de plus de 40 ans : imagerie et avis pneumologique (cancer)"
+   ]
+  },
+  {
+   "id": "polyurie",
+   "nom": "Soif intense et urines abondantes",
+   "pictogramme": "glucometre",
+   "couleur": "#0D47A1",
+   "resume": "Besoin d'uriner souvent et en grande quantité (polyurie), y compris la nuit, avec soif intense (polydipsie). La cause principale est le diabète, à rechercher immédiatement par une glycémie capillaire ; autres causes : insuffisance rénale chronique, hypercalcémie, diurétiques, potomanie, diabète insipide (rare). À distinguer des envies fréquentes de petites quantités (infection urinaire, prostate, grossesse).",
+   "alarme": [
+    "Glycémie > 2,5 g/l avec vomissements, douleur abdominale, respiration rapide et profonde, haleine fruitée, somnolence (acidocétose)",
+    "Déshydratation, confusion (état hyperosmolaire du sujet âgé)",
+    "Amaigrissement rapide chez l'enfant ou l'adulte jeune (diabète de type 1)",
+    "Énurésie récente chez un enfant propre",
+    "Confusion, constipation, douleurs osseuses (hypercalcémie)"
+   ],
+   "questions": [
+    "Volume et fréquence des urines, la nuit ; soif ; quantité bue",
+    "Amaigrissement, fatigue, infections (mycoses génitales, furoncles), vision floue",
+    "Antécédents familiaux de diabète, surpoids, grossesse",
+    "Médicaments : diurétiques, lithium, corticoïdes",
+    "Œdèmes, HTA, maladie rénale connue",
+    "Brûlures ou petites quantités (infection urinaire), jet faible (prostate)"
+   ],
+   "examens": [
+    "Glycémie capillaire immédiate (à jeun ≥ 1,26 g/l à 2 reprises ou au hasard ≥ 2 g/l avec symptômes = diabète) ; HbA1c",
+    "Bandelette urinaire : glucose, cétones, protéines, leucocytes, nitrites",
+    "Créatinine, ionogramme, calcémie",
+    "Test de grossesse selon le cas"
+   ],
+   "orientations": [
+    {
+     "pathologie": 44,
+     "indice": "glycémie élevée, adulte, surpoids, antécédents familiaux"
+    },
+    {
+     "pathologie": 45,
+     "indice": "glycémie très élevée, cétones, vomissements, respiration de Kussmaul"
+    },
+    {
+     "pathologie": 211,
+     "indice": "créatinine élevée, HTA, urines claires la nuit"
+    },
+    {
+     "pathologie": 230,
+     "indice": "hypercalcémie, douleurs osseuses, sujet âgé"
+    },
+    {
+     "pathologie": 25,
+     "indice": "petites quantités fréquentes, brûlures"
+    },
+    {
+     "pathologie": 212,
+     "indice": "énurésie secondaire : rechercher un diabète"
+    }
+   ],
+   "conduite": [
+    "Acidocétose ou déshydratation sévère : réhydratation IV et insuline selon le protocole, référence (voir la fiche)",
+    "Diabète nouvellement découvert : enfant ou adulte jeune maigre avec cétones = insuline, ne pas retarder ; type 2 : règles hygiéno-diététiques et metformine (voir la fiche)",
+    "Traiter la cause rénale ou l'hypercalcémie",
+    "Revoir les médicaments en cause"
+   ]
+  },
+  {
+   "id": "ganglions",
+   "nom": "Ganglions (adénopathies)",
+   "pictogramme": "cellule",
+   "couleur": "#6A1B9A",
+   "resume": "Ganglion palpable de plus de 1 cm (1,5 cm à l'angle de la mâchoire, 0,5 cm au-dessus de la clavicule). Localisé, il est le plus souvent lié à une infection de la région drainée ; généralisé ou persistant, il fait rechercher en priorité le VIH et la tuberculose, puis un lymphome ou une leucémie. Tout ganglion persistant plus de 4 semaines sans cause évidente doit être exploré (ponction, biopsie).",
+   "alarme": [
+    "Ganglion dur, fixé, indolore, augmentant de volume ; au-dessus de la clavicule (cancer)",
+    "Fièvre prolongée, sueurs nocturnes, amaigrissement",
+    "Grosse rate, pâleur, saignements (leucémie)",
+    "Masse de la mâchoire ou abdominale chez l'enfant (lymphome de Burkitt)",
+    "Ganglion très douloureux avec fièvre élevée et état grave en zone d'endémie (peste)",
+    "Compression : œdème du visage, dyspnée"
+   ],
+   "questions": [
+    "Localisation, taille, ancienneté, douleur, consistance, fistule",
+    "Infection voisine : gorge, dents, peau, plaie, organes génitaux",
+    "Fièvre, toux, sueurs, amaigrissement, prurit",
+    "Statut VIH, contact tuberculeux, vaccination BCG récente (adénite BCG chez le nourrisson)",
+    "Zone d'endémie de trypanosomiase (ganglions du cou) ou de peste ; contact avec un chat (griffures)"
+   ],
+   "examens": [
+    "Examen de toutes les aires ganglionnaires, de la rate, du foie, de la région drainée",
+    "Test VIH",
+    "Hémoglobine et frottis sanguin (NFS)",
+    "Ponction à l'aiguille fine du ganglion : examen direct, recherche de BAAR et test Xpert MTB/RIF (tuberculose), cytologie",
+    "Radiographie du thorax",
+    "Biopsie ganglionnaire si la ponction n'est pas concluante",
+    "Recherche de trypanosomes dans le suc ganglionnaire en zone d'endémie"
+   ],
+   "orientations": [
+    {
+     "pathologie": 174,
+     "indice": "ganglion du cou ferme puis fluctuant ou fistulisé, Xpert positif"
+    },
+    {
+     "pathologie": 6,
+     "indice": "adénopathies généralisées, test VIH positif"
+    },
+    {
+     "pathologie": 227,
+     "indice": "adulte jeune, ganglions fermes indolores, prurit, sueurs"
+    },
+    {
+     "pathologie": 228,
+     "indice": "ganglions grossissant vite, VIH"
+    },
+    {
+     "pathologie": 223,
+     "indice": "enfant, masse de la mâchoire ou abdominale"
+    },
+    {
+     "pathologie": 224,
+     "indice": "pâleur, saignements, fièvre, blastes au frottis"
+    },
+    {
+     "pathologie": 9,
+     "indice": "ganglions mous du cou, troubles du sommeil"
+    },
+    {
+     "pathologie": 27,
+     "indice": "plaie ou infection de la peau voisine"
+    },
+    {
+     "pathologie": 24,
+     "indice": "ganglion inguinal avec ulcère génital"
+    },
+    {
+     "pathologie": 65,
+     "indice": "bubon très douloureux, fièvre élevée, zone d'endémie (Ituri)"
+    },
+    {
+     "pathologie": 231,
+     "indice": "VIH, lésions violacées"
+    },
+    {
+     "pathologie": 16,
+     "indice": "ganglions sous la mâchoire avec mal de gorge"
+    }
+   ],
+   "conduite": [
+    "Infection locale évidente : traiter et revoir à 2 à 4 semaines",
+    "Ganglion persistant : test VIH, ponction (Xpert), puis biopsie si le diagnostic reste inconnu ; éviter le traitement antituberculeux « d'épreuve » sans recherche",
+    "Suspicion de cancer de l'enfant : référence rapide en oncologie pédiatrique",
+    "Peste suspectée : isolement, antibiotique immédiat, notification"
+   ]
+  },
+  {
+   "id": "deficit-neurologique",
+   "nom": "Faiblesse ou paralysie d'un membre",
+   "pictogramme": "cerveau",
+   "couleur": "#3949AB",
+   "resume": "Perte de force (paralysie, parésie) d'un côté du corps, des deux jambes ou d'un membre, souvent avec troubles de la sensibilité ou de la parole. Un déficit brutal d'un côté est un AVC jusqu'à preuve du contraire (urgence) ; une faiblesse des 2 jambes fait rechercher une compression de la moelle (mal de Pott, métastase), un syndrome de Guillain-Barré, le konzo ou une poliomyélite.",
+   "alarme": [
+    "Début brutal (minutes) : bouche déviée, bras ou jambe faible, trouble de la parole (test VITE)",
+    "Céphalée intense, vomissements, convulsions, troubles de conscience",
+    "Faiblesse des 2 jambes avec troubles urinaires ou anesthésie du périnée (compression de la moelle)",
+    "Faiblesse qui monte rapidement avec difficulté respiratoire ou à avaler (Guillain-Barré)",
+    "Fièvre (abcès, méningite, toxoplasmose)",
+    "Traumatisme"
+   ],
+   "questions": [
+    "Heure de début (dernière fois vu normal) ; installation brutale ou progressive",
+    "Un côté ou 2 jambes ; troubles de la sensibilité, de la parole, de la vision",
+    "HTA, diabète, fibrillation auriculaire, VIH, drépanocytose (AVC de l'enfant), cancer connu, tuberculose",
+    "Douleur du dos, gibbosité",
+    "Consommation de manioc amer mal préparé (konzo), vaccination antipoliomyélitique"
+   ],
+   "examens": [
+    "Glycémie capillaire immédiate (l'hypoglycémie peut imiter un AVC)",
+    "PA, température, conscience (Glasgow)",
+    "Examen neurologique : force, réflexes, sensibilité, niveau sensitif, sphincters",
+    "Scanner cérébral en urgence si déficit brutal",
+    "Radiographie ou IRM du rachis si atteinte des 2 jambes",
+    "Test VIH ; ponction lombaire selon l'orientation ; ECG (fibrillation auriculaire)"
+   ],
+   "orientations": [
+    {
+     "pathologie": 46,
+     "indice": "début brutal, un côté du corps, HTA"
+    },
+    {
+     "pathologie": 39,
+     "indice": "diabétique traité ; glycémie basse, régression après glucose"
+    },
+    {
+     "pathologie": 97,
+     "indice": "chute ou accident"
+    },
+    {
+     "pathologie": 73,
+     "indice": "VIH avancé, céphalées, fièvre, déficit progressif"
+    },
+    {
+     "pathologie": 174,
+     "indice": "paraplégie progressive, douleur du dos, gibbosité (mal de Pott)"
+    },
+    {
+     "pathologie": 193,
+     "indice": "faiblesse ascendante des 2 côtés, réflexes abolis"
+    },
+    {
+     "pathologie": 113,
+     "indice": "paralysie brutale des 2 jambes, manioc amer, épidémie"
+    },
+    {
+     "pathologie": 150,
+     "indice": "paralysie flasque aiguë asymétrique chez l'enfant (notifier)"
+    },
+    {
+     "pathologie": 205,
+     "indice": "PA ≥ 180/110 avec signes neurologiques"
+    },
+    {
+     "pathologie": 118,
+     "indice": "convulsions, kystes cérébraux"
+    },
+    {
+     "pathologie": 234,
+     "indice": "compression médullaire chez l'homme âgé"
+    },
+    {
+     "pathologie": 239,
+     "indice": "adulte jeune, épisodes successifs, troubles visuels"
+    }
+   ],
+   "conduite": [
+    "Déficit brutal : position semi-assise, glycémie, ne rien donner par la bouche (fausses routes), ne pas baisser brutalement la PA, référence immédiate (voir la fiche AVC)",
+    "Compression de la moelle suspectée : dexaméthasone et référence urgente",
+    "Paralysie flasque aiguë de l'enfant de moins de 15 ans : notifier (surveillance de la polio), prélever 2 selles",
+    "Guillain-Barré : hospitalisation, surveillance de la respiration",
+    "Kinésithérapie précoce, prévention des escarres et des complications"
+   ]
+  },
+  {
+   "id": "agitation",
+   "nom": "Agitation et troubles du comportement",
+   "pictogramme": "psy",
+   "couleur": "#6A1B9A",
+   "resume": "Changement récent du comportement : agitation, agressivité, propos incohérents, hallucinations, confusion, bizarreries. Avant de conclure à une maladie psychiatrique, il faut toujours rechercher une cause médicale (hypoglycémie, paludisme grave, méningite, encéphalite, intoxication, sevrage alcoolique, hypoxie) surtout si le début est brutal, s'il y a de la fièvre ou une confusion.",
+   "alarme": [
+    "Fièvre, raideur de nuque, convulsions, troubles de conscience (cause organique)",
+    "Glycémie basse",
+    "Danger pour soi ou pour autrui, idées suicidaires",
+    "Accouchement récent (psychose du post-partum)",
+    "Intoxication ou sevrage (alcool, drogues, médicaments)",
+    "Sujet âgé, début brutal, fluctuation (confusion)"
+   ],
+   "questions": [
+    "Début brutal ou progressif ; épisodes antérieurs ; traitement psychiatrique en cours ou arrêté",
+    "Fièvre, céphalées, convulsions, traumatisme",
+    "Alcool (dernière prise), cannabis, drogues, médicaments (corticoïdes, éfavirenz)",
+    "Diabète, VIH, épilepsie, grossesse ou accouchement récent",
+    "Insomnie, euphorie ou tristesse",
+    "Conflits, violences, événements traumatiques"
+   ],
+   "examens": [
+    "Glycémie capillaire, température, SpO₂, PA",
+    "TDR paludisme",
+    "Examen neurologique et recherche de signes méningés",
+    "Test VIH",
+    "Ponction lombaire si fièvre ou signes méningés",
+    "Créatinine, ionogramme, transaminases selon le contexte"
+   ],
+   "orientations": [
+    {
+     "pathologie": 163,
+     "indice": "début brutal, désorientation, fluctuation, cause médicale"
+    },
+    {
+     "pathologie": 51,
+     "indice": "idées délirantes, hallucinations, sans confusion"
+    },
+    {
+     "pathologie": 39,
+     "indice": "diabétique traité, sueurs ; glycémie basse"
+    },
+    {
+     "pathologie": 2,
+     "indice": "fièvre, TDR positif, troubles de conscience"
+    },
+    {
+     "pathologie": 4,
+     "indice": "fièvre, raideur de nuque"
+    },
+    {
+     "pathologie": 184,
+     "indice": "fièvre, convulsions, troubles du comportement"
+    },
+    {
+     "pathologie": 112,
+     "indice": "tremblements, hallucinations, 1 à 3 jours après l'arrêt"
+    },
+    {
+     "pathologie": 165,
+     "indice": "euphorie ou irritabilité, insomnie sans fatigue, hyperactivité"
+    },
+    {
+     "pathologie": 164,
+     "indice": "troubles anciens, rechute"
+    },
+    {
+     "pathologie": 9,
+     "indice": "troubles du comportement et du sommeil, zone d'endémie"
+    },
+    {
+     "pathologie": 41,
+     "indice": "drogue ou médicament"
+    },
+    {
+     "pathologie": 111,
+     "indice": "encéphalopathie hépatique, ictère, ascite"
+    }
+   ],
+   "conduite": [
+    "Sécuriser les lieux, approche calme, présence d'un proche ; pas de chaînes",
+    "Glucose si hypoglycémie (thiamine avant chez l'alcoolique)",
+    "Traiter la cause médicale en urgence",
+    "Agitation dangereuse : halopéridol + prométhazine IM ou midazolam IM (voir la fiche Épisode psychotique)",
+    "Référence si cause indéterminée ou danger persistant"
+   ]
+  },
+  {
+   "id": "mal-de-dos",
+   "nom": "Mal de dos",
+   "pictogramme": "os",
+   "couleur": "#795548",
+   "resume": "Douleur lombaire ou dorsale, le plus souvent mécanique et bénigne (lombalgie commune), qui guérit en quelques semaines si le patient reste actif. En RDC, les « drapeaux rouges » doivent faire rechercher le mal de Pott (tuberculose vertébrale), une infection, une crise drépanocytaire, une pyélonéphrite, une colique néphrétique, un myélome ou des métastases (prostate, sein).",
+   "alarme": [
+    "Fièvre, sueurs nocturnes, amaigrissement",
+    "Douleur nocturne ou permanente non soulagée par le repos",
+    "Gibbosité (bosse)",
+    "Faiblesse des jambes, troubles urinaires, anesthésie du périnée",
+    "Âge > 50 ans au premier épisode, cancer connu, VIH, tuberculose",
+    "Traumatisme",
+    "Douleur lombaire avec fièvre et brûlures urinaires",
+    "Femme enceinte avec contractions"
+   ],
+   "questions": [
+    "Mécanique (aggravée par l'effort, calmée par le repos) ou inflammatoire (nocturne, raideur matinale)",
+    "Irradiation dans la jambe (sciatique)",
+    "Début brutal après un effort",
+    "Fièvre, toux, brûlures urinaires, sang dans les urines",
+    "Drépanocytose",
+    "Antécédent de cancer, de tuberculose ; contact tuberculeux",
+    "Grossesse"
+   ],
+   "examens": [
+    "Examen du rachis (douleur à la percussion, gibbosité), examen neurologique des jambes (force, réflexes, sensibilité), signe de Lasègue",
+    "Bandelette urinaire",
+    "Radiographie du rachis si drapeau rouge",
+    "VS, CRP, NFS ; électrophorèse des protéines ; PSA chez l'homme âgé ; test VIH ; recherche de tuberculose",
+    "IRM ou scanner si déficit neurologique"
+   ],
+   "orientations": [
+    {
+     "pathologie": 115,
+     "indice": "douleur mécanique, pas de drapeau rouge, sciatique"
+    },
+    {
+     "pathologie": 174,
+     "indice": "douleur dorsale progressive, gibbosité, fièvre, paraplégie (mal de Pott)"
+    },
+    {
+     "pathologie": 62,
+     "indice": "douleur lombaire brutale irradiant vers l'aine, sang dans les urines"
+    },
+    {
+     "pathologie": 25,
+     "indice": "fièvre, brûlures, douleur à la percussion de la fosse lombaire"
+    },
+    {
+     "pathologie": 32,
+     "indice": "crise douloureuse chez un drépanocytaire"
+    },
+    {
+     "pathologie": 230,
+     "indice": "sujet âgé, anémie, insuffisance rénale, VS élevée"
+    },
+    {
+     "pathologie": 234,
+     "indice": "homme âgé, troubles urinaires, PSA élevé"
+    },
+    {
+     "pathologie": 61,
+     "indice": "spondylodiscite, fièvre"
+    },
+    {
+     "pathologie": 117,
+     "indice": "fièvre ondulante, contact avec le bétail, lait cru"
+    },
+    {
+     "pathologie": 87,
+     "indice": "femme enceinte, contractions"
+    }
+   ],
+   "conduite": [
+    "Lombalgie commune : rassurer, rester actif, chaleur, AINS ou paracétamol quelques jours (voir la fiche)",
+    "Drapeau rouge : examens et référence",
+    "Déficit des jambes ou troubles urinaires : urgence (compression de la moelle, syndrome de la queue de cheval)",
+    "Traiter la cause infectieuse, rénale ou drépanocytaire"
+   ]
+  },
+  {
+   "id": "retard-regles",
+   "nom": "Retard ou absence de règles",
+   "pictogramme": "grossesse",
+   "couleur": "#C2185B",
+   "resume": "Absence de règles chez une femme en âge de procréer : la grossesse est la première cause, à rechercher systématiquement par un test. Autres causes : allaitement, contraception (progestatifs, implant, injectable), stress, amaigrissement ou malnutrition, sport intense, maladie de la thyroïde, hyperprolactinémie, syndrome des ovaires polykystiques, ménopause, séquelles d'infection ou de curetage (synéchies).",
+   "alarme": [
+    "Test de grossesse positif avec douleur pelvienne, saignement, malaise ou pâleur (grossesse extra-utérine)",
+    "Saignements avec utérus trop gros et vomissements importants (môle)",
+    "Écoulement de lait sans allaitement, céphalées, troubles visuels (tumeur hypophysaire)",
+    "Absence de règles à 15 ans ou absence de développement pubertaire à 13 ans"
+   ],
+   "questions": [
+    "Date des dernières règles, cycles antérieurs",
+    "Rapports, contraception utilisée et sa date",
+    "Signes de grossesse : nausées, seins tendus",
+    "Allaitement",
+    "Amaigrissement, stress, sport, maladie chronique",
+    "Bouffées de chaleur (ménopause)",
+    "Acné, pilosité excessive, surpoids (ovaires polykystiques)",
+    "Curetage ou infection après un accouchement"
+   ],
+   "examens": [
+    "Test de grossesse urinaire (βhCG) systématique",
+    "Échographie pelvienne si test positif avec douleur ou saignement, ou pour dater la grossesse",
+    "Si test négatif et absence de règles > 3 mois : TSH, prolactine, FSH selon l'âge ; poids et IMC"
+   ],
+   "orientations": [
+    {
+     "pathologie": 83,
+     "indice": "test de grossesse positif, sans signe d'alerte"
+    },
+    {
+     "pathologie": 85,
+     "indice": "test positif, douleur pelvienne, saignement, malaise"
+    },
+    {
+     "pathologie": 84,
+     "indice": "test positif, saignements, douleurs"
+    },
+    {
+     "pathologie": 236,
+     "indice": "utérus trop gros, vomissements, βhCG très élevée (môle)"
+    },
+    {
+     "pathologie": 88,
+     "indice": "contraception progestative en cours"
+    },
+    {
+     "pathologie": 108,
+     "indice": "fatigue, frilosité, TSH élevée"
+    },
+    {
+     "pathologie": 216,
+     "indice": "cycles irréguliers, désir de grossesse"
+    },
+    {
+     "pathologie": 30,
+     "indice": "amaigrissement important"
+    }
+   ],
+   "conduite": [
+    "Grossesse : débuter la consultation prénatale (acide folique et fer, VAT, dépistages), ou orienter selon le souhait de la femme vers les services prévus par la loi",
+    "Grossesse extra-utérine suspectée : urgence chirurgicale",
+    "Contraception progestative : rassurer (absence de règles fréquente et sans danger)",
+    "Test négatif : refaire le test 1 à 2 semaines plus tard ; bilan si absence > 3 mois"
+   ]
+  },
+  {
+   "id": "masse",
+   "nom": "Masse ou boule",
+   "pictogramme": "ruban",
+   "couleur": "#4A148C",
+   "resume": "Tuméfaction palpable : nodule du sein, ganglion, masse abdominale, du testicule, du cou (goitre), de la peau ou d'un muscle. La plupart sont bénignes (abcès, kyste, lipome), mais une masse dure, indolore, qui grossit, doit faire rechercher un cancer : l'examen rapide et la biopsie avant tout traitement sauvent des vies. Chez l'enfant, une masse abdominale ou de la mâchoire est une urgence diagnostique.",
+   "alarme": [
+    "Masse dure, indolore, fixée, à bords irréguliers, qui grossit",
+    "Nodule du sein avec rétraction de la peau ou du mamelon, peau d'orange, ganglion de l'aisselle",
+    "Masse abdominale ou de la mâchoire chez l'enfant",
+    "Testicule dur et augmenté de volume",
+    "Amaigrissement, fièvre, sueurs nocturnes",
+    "Reflet blanc dans la pupille de l'enfant"
+   ],
+   "questions": [
+    "Localisation, ancienneté, vitesse de croissance, douleur, chaleur, rougeur",
+    "Fièvre, traumatisme, piqûre",
+    "Amaigrissement, sueurs",
+    "Antécédents familiaux de cancer",
+    "Statut VIH"
+   ],
+   "examens": [
+    "Examen de la masse (taille, consistance, mobilité, chaleur, fluctuation) et des ganglions de drainage",
+    "Échographie (sein, abdomen, testicule, cou, tissus mous)",
+    "Ponction à l'aiguille fine (pus, cytologie, Xpert si ganglion) ; biopsie au trocart ou chirurgicale pour toute masse suspecte",
+    "Marqueurs (βhCG, alpha-fœtoprotéine) si masse du testicule"
+   ],
+   "orientations": [
+    {
+     "pathologie": 233,
+     "indice": "nodule du sein dur et indolore, femme souvent jeune en Afrique"
+    },
+    {
+     "pathologie": 27,
+     "indice": "masse chaude, rouge, douloureuse, fluctuante (abcès)"
+    },
+    {
+     "pathologie": 158,
+     "indice": "masse musculaire douloureuse avec fièvre"
+    },
+    {
+     "pathologie": 223,
+     "indice": "enfant, masse de la mâchoire ou abdominale rapidement croissante"
+    },
+    {
+     "pathologie": 226,
+     "indice": "enfant de 1 à 5 ans, masse du flanc"
+    },
+    {
+     "pathologie": 236,
+     "indice": "testicule dur et augmenté de volume"
+    },
+    {
+     "pathologie": 108,
+     "indice": "masse du cou qui monte à la déglutition"
+    },
+    {
+     "pathologie": 227,
+     "indice": "ganglions fermes du cou"
+    },
+    {
+     "pathologie": 235,
+     "indice": "masse abdominale, sang dans les selles"
+    },
+    {
+     "pathologie": 111,
+     "indice": "gros foie dur"
+    },
+    {
+     "pathologie": 225,
+     "indice": "reflet blanc de la pupille, masse de l'orbite"
+    }
+   ],
+   "conduite": [
+    "Abcès : incision et drainage",
+    "Masse suspecte : ne pas traiter « à l'aveugle » (antibiotiques, plantes) ; échographie et biopsie rapides, orientation vers un centre de cancérologie",
+    "Enfant : référence urgente en oncologie pédiatrique (ne pas palper de façon répétée une masse abdominale)",
+    "Revoir toute masse persistante après 2 à 4 semaines"
+   ]
+  },
+  {
+   "id": "fourmillements",
+   "nom": "Fourmillements et engourdissements",
+   "pictogramme": "eclair",
+   "couleur": "#3949AB",
+   "resume": "Sensations anormales (picotements, brûlures, engourdissement, perte de sensibilité), le plus souvent aux pieds et aux mains (neuropathie). Causes fréquentes en RDC : diabète, VIH et certains antirétroviraux anciens, isoniazide sans pyridoxine, alcool, carences (vitamine B1, B12), lèpre, konzo ; compression d'un nerf (sciatique, canal carpien) ; un engourdissement brutal d'un côté du corps évoque un AVC.",
+   "alarme": [
+    "Engourdissement brutal d'un côté du corps ou du visage, avec faiblesse ou trouble de la parole (AVC)",
+    "Faiblesse qui monte rapidement, difficulté à respirer ou à avaler (Guillain-Barré)",
+    "Troubles urinaires, anesthésie du périnée, faiblesse des 2 jambes (compression de la moelle)",
+    "Plaie indolore du pied (diabète, lèpre)",
+    "Taches cutanées insensibles (lèpre)"
+   ],
+   "questions": [
+    "Localisation (pieds et mains symétriques ; un nerf ; un côté du corps), début brutal ou progressif",
+    "Diabète, VIH, tuberculose traitée (isoniazide avec ou sans pyridoxine), alcool, alimentation (manioc amer, carences)",
+    "Douleur du dos irradiant dans la jambe, travail manuel (poignet)",
+    "Taches de la peau, nerfs épaissis",
+    "Anxiété avec respiration rapide (fourmillements autour de la bouche et des mains)"
+   ],
+   "examens": [
+    "Examen neurologique (sensibilité au monofilament, vibrations, réflexes, force) et des pieds",
+    "Glycémie, HbA1c ; test VIH ; hémoglobine et volume globulaire (carence en B12) ; créatinine",
+    "Examen de la peau et palpation des nerfs (lèpre)",
+    "Scanner cérébral si déficit brutal"
+   ],
+   "orientations": [
+    {
+     "pathologie": 44,
+     "indice": "pieds et mains, glycémie élevée, pieds à risque"
+    },
+    {
+     "pathologie": 6,
+     "indice": "neuropathie du VIH ou des anciens antirétroviraux"
+    },
+    {
+     "pathologie": 5,
+     "indice": "isoniazide sans pyridoxine (prévention par vitamine B6)"
+    },
+    {
+     "pathologie": 112,
+     "indice": "consommation excessive, carence en thiamine"
+    },
+    {
+     "pathologie": 69,
+     "indice": "taches cutanées insensibles, nerfs épaissis"
+    },
+    {
+     "pathologie": 113,
+     "indice": "manioc amer, faiblesse des jambes"
+    },
+    {
+     "pathologie": 193,
+     "indice": "faiblesse ascendante, réflexes abolis"
+    },
+    {
+     "pathologie": 115,
+     "indice": "sciatique, douleur du dos irradiant dans la jambe"
+    },
+    {
+     "pathologie": 46,
+     "indice": "engourdissement brutal d'un côté"
+    },
+    {
+     "pathologie": 239,
+     "indice": "adulte jeune, épisodes successifs"
+    },
+    {
+     "pathologie": 53,
+     "indice": "hyperventilation, fourmillements des mains et de la bouche"
+    }
+   ],
+   "conduite": [
+    "Traiter la cause : équilibre du diabète, pyridoxine 10 à 50 mg par jour sous isoniazide (traitement : 50 à 100 mg), thiamine chez l'alcoolique, polychimiothérapie de la lèpre",
+    "Douleur neuropathique : amitriptyline 10 à 25 mg le soir, ou carbamazépine",
+    "Soins des pieds insensibles : examen quotidien, chaussures fermées, ne jamais marcher pieds nus",
+    "Déficit brutal ou ascendant : référence urgente"
    ]
   }
  ],
