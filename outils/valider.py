@@ -28,11 +28,14 @@ for m in meds["medicaments"]:
     for k in ("dci", "noms", "classe", "formes", "indications", "posologieAdulte", "posologieEnfant", "contreIndications",
               "precautions", "effetsIndesirables", "grossesse"):
         if k not in m: err(f"médicament {m.get('id')} : champ {k} manquant")
+    for k in ("famille", "mecanisme"):
+        if not isinstance(m.get(k, ""), str): err(f"médicament {m['id']} : {k} doit être un texte")
     if m.get("classe") not in classes: err(f"médicament {m['id']} : classe inconnue {m.get('classe')}")
 for p in meds["pathologies"]:
     for k in ("nom", "categorie", "synonymes", "resume", "signes", "diagnostic", "traitement", "gravite", "prevention", "medicaments"):
         if k not in p: err(f"pathologie {p.get('id')} : champ {k} manquant")
     if p.get("categorie") not in cats: err(f"pathologie {p['id']} : catégorie inconnue")
+    if not isinstance(p.get("physiopathologie", ""), str): err(f"pathologie {p['id']} : physiopathologie doit être un texte")
     if p.get("frequence", 1) not in (1, 2, 3): err(f"pathologie {p['id']} : fréquence invalide (1, 2 ou 3)")
     for d in p.get("medicaments", []):
         if d not in dcis: err(f"pathologie {p['id']} : médicament inconnu « {d} » (utiliser la DCI exacte)")
