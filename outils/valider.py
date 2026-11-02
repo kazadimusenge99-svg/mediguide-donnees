@@ -33,6 +33,7 @@ for p in meds["pathologies"]:
     for k in ("nom", "categorie", "synonymes", "resume", "signes", "diagnostic", "traitement", "gravite", "prevention", "medicaments"):
         if k not in p: err(f"pathologie {p.get('id')} : champ {k} manquant")
     if p.get("categorie") not in cats: err(f"pathologie {p['id']} : catégorie inconnue")
+    if p.get("frequence", 1) not in (1, 2, 3): err(f"pathologie {p['id']} : fréquence invalide (1, 2 ou 3)")
     for d in p.get("medicaments", []):
         if d not in dcis: err(f"pathologie {p['id']} : médicament inconnu « {d} » (utiliser la DCI exacte)")
 
