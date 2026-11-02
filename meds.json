@@ -1,5 +1,5 @@
 {
- "version": 45,
+ "version": 46,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -3911,7 +3911,7 @@
    ],
    "grossesse": "Recommandé pendant toute la grossesse et l'allaitement (OMS).",
    "motsCles": "VIH, SIDA, ARV, antirétroviral, PPE, prophylaxie post-exposition, accident d'exposition au sang",
-   "famille": "Antirétroviral – association INNTI/INI",
+   "famille": "Antirétroviral – association INTI + INI",
    "mecanisme": "Associe deux inhibiteurs nucléosidiques de la transcriptase inverse (bloquent la copie de l'ARN du VIH en ADN) et un inhibiteur de l'intégrase (empêche l'intégration de l'ADN viral dans le génome de la cellule)."
   },
   {
@@ -16503,7 +16503,7 @@
    ],
    "grossesse": "Utilisable.",
    "motsCles": "VIH, enfant, pALD, Triumeq",
-   "famille": "Antirétroviral – association INNTI/INI",
+   "famille": "Antirétroviral – association INTI + INI",
    "mecanisme": "Associe deux inhibiteurs nucléosidiques de la transcriptase inverse (bloquent la copie de l'ARN du VIH en ADN) et un inhibiteur de l'intégrase (empêche l'intégration de l'ADN viral dans le génome de la cellule)."
   },
   {
