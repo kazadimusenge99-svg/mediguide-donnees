@@ -1,5 +1,5 @@
 {
- "version": 48,
+ "version": 49,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -36119,6 +36119,19 @@
       "Jamais en injection IV directe (risque d'arrêt cardiaque). Si la perfusion est impossible : voie IM diluée (60–100 mg/ml), face antérieure de la cuisse, la dose répartie en 2 sites.",
       "Surveiller la glycémie toutes les 4 h (la quinine provoque des hypoglycémies, surtout chez l'enfant et la femme enceinte) ; réduire la dose d'un tiers après 48 h en cas d'insuffisance rénale ou si l'état ne s'améliore pas.",
       "L'artésunate injectable reste le premier choix ; la quinine n'est utilisée que s'il n'est pas disponible."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Quinine par voie orale (gouttes buvables, sirop ou comprimés)",
+     "elements": [
+      "Place : seulement pour un paludisme simple quand aucune CTA (ASAQ, AL) n'est disponible, ou en relais de la quinine injectable. Jamais pour un paludisme grave d'emblée.",
+      "Dose : 10 mg de sel de quinine/kg toutes les 8 h (3 fois par jour), pendant 7 jours. Ne pas dépasser 600 mg par prise.",
+      "Gouttes : la concentration change selon la marque. Lire sur le flacon combien de mg contient 1 ml et combien de gouttes font 1 ml, puis : mg par goutte = mg par ml ÷ gouttes par ml ; nombre de gouttes par prise = dose (mg) ÷ mg par goutte.",
+      "Exemple de calcul (à refaire avec l'étiquette de votre flacon) : enfant de 12 kg, dose 120 mg par prise ; si le flacon indique 1 goutte = 5 mg, donner 24 gouttes 3 fois par jour.",
+      "Vomissements : si l'enfant vomit dans les 30 minutes, redonner la dose entière ; entre 30 et 60 minutes, redonner une demi-dose.",
+      "Goût très amer : diluer dans un peu d'eau sucrée ou de jus. Effets fréquents : bourdonnements d'oreille, vertiges, nausées (cinchonisme), sans gravité ; arrêter si troubles de la vision ou éruption.",
+      "Surveiller l'hypoglycémie (sueurs, somnolence) ; faire revenir l'enfant si la fièvre persiste après 3 jours ou s'il présente un signe de danger."
      ]
     },
     {
