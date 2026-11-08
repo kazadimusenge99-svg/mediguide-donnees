@@ -1,5 +1,5 @@
 {
- "version": 47,
+ "version": 48,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -36058,6 +36058,67 @@
       "Artésunate rectal (enfant de moins de 6 ans, avant transfert) : 100 mg de 6 mois à 3 ans, 200 mg de 3 à 5 ans, en dose unique, puis transfert immédiat.",
       "Quinine (si l'artésunate manque) : dose de charge 20 mg de sel/kg en perfusion de 4 h dans du glucosé 5 ou 10 %, puis 10 mg/kg toutes les 8 h ; relais oral dès que possible, 7 jours au total. Jamais en IV directe.",
       "Toujours : glycémie, traiter l'hypoglycémie (glucose 10 %, 5 ml/kg), lutter contre la fièvre, transférer."
+     ]
+    },
+    {
+     "type": "tableau",
+     "titre": "Quinine en perfusion (goutte-à-goutte) : dose diluée dans 10 ml/kg de glucosé 5 ou 10 % (maximum 500 ml), à passer en 4 h",
+     "colonnes": [
+      "Poids",
+      "Volume à perfuser",
+      "Perfuseur adulte (20 gouttes = 1 ml)",
+      "Perfuseur pédiatrique (60 microgouttes = 1 ml)"
+     ],
+     "lignes": [
+      [
+       "5 kg",
+       "50 ml",
+       "4 gouttes/min",
+       "12–13 microgouttes/min"
+      ],
+      [
+       "10 kg",
+       "100 ml",
+       "8 gouttes/min",
+       "25 microgouttes/min"
+      ],
+      [
+       "15 kg",
+       "150 ml",
+       "12–13 gouttes/min",
+       "37–38 microgouttes/min"
+      ],
+      [
+       "20 kg",
+       "200 ml",
+       "17 gouttes/min",
+       "50 microgouttes/min"
+      ],
+      [
+       "30 kg",
+       "300 ml",
+       "25 gouttes/min",
+       "75 microgouttes/min"
+      ],
+      [
+       "≥ 50 kg",
+       "500 ml",
+       "42 gouttes/min",
+       "—"
+      ]
+     ],
+     "note": "Calcul : gouttes/min = volume (ml) ÷ (durée en heures × 3) avec un perfuseur à 20 gouttes/ml ; microgouttes/min = ml/h avec un perfuseur à 60 microgouttes/ml."
+    },
+    {
+     "type": "liste",
+     "titre": "Quinine : doses et précautions",
+     "elements": [
+      "Dose de charge : 20 mg de sel de quinine/kg en 4 h (pas de dose de charge si le patient a reçu de la quinine dans les 24 h précédentes, ou de la méfloquine dans les 7 jours).",
+      "Entretien : 10 mg/kg en 4 h, toutes les 8 h (perfusion de 4 h, puis 4 h de glucosé simple). Calculer la dose en mg, puis le volume d'ampoule selon la concentration écrite sur l'ampoule (elle varie selon les produits).",
+      "Relais par voie orale dès que possible : 10 mg/kg toutes les 8 h, pour 7 jours de traitement au total, ou une cure complète d'ASAQ ou d'AL.",
+      "Jamais en injection IV directe (risque d'arrêt cardiaque). Si la perfusion est impossible : voie IM diluée (60–100 mg/ml), face antérieure de la cuisse, la dose répartie en 2 sites.",
+      "Surveiller la glycémie toutes les 4 h (la quinine provoque des hypoglycémies, surtout chez l'enfant et la femme enceinte) ; réduire la dose d'un tiers après 48 h en cas d'insuffisance rénale ou si l'état ne s'améliore pas.",
+      "L'artésunate injectable reste le premier choix ; la quinine n'est utilisée que s'il n'est pas disponible."
      ]
     },
     {
