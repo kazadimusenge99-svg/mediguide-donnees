@@ -1,9 +1,28 @@
 {
- "dateActualites": "2 novembre 2026",
- "dateIsoActualites": "2026-11-02",
+ "dateActualites": "8 novembre 2026",
+ "dateIsoActualites": "2026-11-08",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DU DIABÈTE",
+   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DE LA PNEUMONIE (12 NOVEMBRE)",
+   "titre": "Pneumonie de l'enfant",
+   "lieu": "Monde · Afrique subsaharienne · RDC",
+   "chiffre": "Plus de 725 000 enfants de moins de 5 ans en meurent chaque année (UNICEF)",
+   "texte": "La pneumonie reste la première cause infectieuse de décès de l'enfant dans le monde : un enfant en meurt toutes les 43 secondes, surtout en Afrique subsaharienne et en Asie du Sud. La plupart de ces décès sont évitables par la vaccination, l'allaitement, la lutte contre la malnutrition et la pollution de l'air, et un traitement rapide.",
+   "details": [
+    "Plus de 725 000 enfants de moins de 5 ans meurent de pneumonie chaque année, dont environ 190 000 nouveau-nés ; environ 40 % des enfants du monde ne sont pas complètement protégés par le vaccin antipneumococcique (UNICEF)",
+    "Reconnaître (PCIME) : toux ou difficulté respiratoire avec respiration rapide (≥ 50/min de 2 à 11 mois, ≥ 40/min de 1 à 5 ans) ; tirage sous-costal ; signes de danger (incapacité de boire, convulsions, léthargie, SpO₂ < 90 %) = pneumonie grave",
+    "Traiter : pneumonie sans signe de danger = amoxicilline orale 40 mg/kg 2 fois par jour pendant 5 jours (3 jours si respiration rapide seule) ; pneumonie grave = référence, oxygène si SpO₂ < 90 %, ampicilline + gentamicine ou ceftriaxone",
+    "Mesurer la saturation avec un oxymètre de pouls chez tout enfant qui respire vite : l'oxygène sauve des vies et reste trop peu disponible",
+    "Prévenir : vaccins pentavalent (Hib), antipneumococcique et rougeole à jour, allaitement exclusif jusqu'à 6 mois, supplémentation en vitamine A, lavage des mains, cuisson hors de la maison ou foyers améliorés (fumée), cotrimoxazole chez l'enfant exposé au VIH"
+   ],
+   "couleur": "#00695C",
+   "icone": "🫁",
+   "pathologie": 13,
+   "source": "UNICEF, communiqué de la Journée mondiale de la pneumonie (données de 2023) ; OMS, PCIME (prise en charge intégrée des maladies de l'enfant)",
+   "pictogramme": "poumons"
+  },
+  {
+   "etiquette": "DANS LE MONDE · JOURNÉE MONDIALE DU DIABÈTE (14 NOVEMBRE)",
    "titre": "Diabète : agir tôt",
    "lieu": "Monde · Afrique · campagne OMS jusqu'au 14 novembre",
    "chiffre": "589 millions d'adultes diabétiques · plus de 40 % non diagnostiqués",
@@ -22,42 +41,22 @@
    "pictogramme": "glucometre"
   },
   {
-   "etiquette": "MOVEMBER · SANTÉ DES HOMMES",
-   "titre": "Cancer de la prostate",
-   "lieu": "Monde · Afrique subsaharienne · tout le mois de novembre",
-   "chiffre": "1,47 million de nouveaux cas et 397 000 décès par an dans le monde",
-   "texte": "Novembre (« Movember ») est consacré à la santé des hommes. Le cancer de la prostate est le cancer le plus fréquent de l'homme en Afrique subsaharienne, plus précoce et plus agressif chez les hommes d'ascendance africaine, et souvent découvert au stade de métastases osseuses.",
-   "details": [
-    "Dépistage individuel par PSA et toucher rectal à discuter avec chaque homme à partir de 50 ans, dès 45 ans chez l'homme d'ascendance africaine ou avec des antécédents familiaux (avantages et risques de surdiagnostic)",
-    "Signes d'alerte : troubles urinaires persistants, sang dans les urines ou le sperme, douleurs osseuses (dos, bassin) chez l'homme de plus de 50 ans, faiblesse des jambes",
-    "Douleur du dos avec faiblesse des jambes ou troubles urinaires : suspecter une compression médullaire, dexaméthasone 16 mg par jour et référence en urgence",
-    "Forme métastatique : castration chirurgicale (pulpectomie, peu coûteuse et immédiate) ou médicamenteuse ; radiothérapie et morphine pour les douleurs osseuses",
-    "Novembre est aussi l'occasion de parler aux hommes de l'HTA, du diabète, du tabac et de la santé mentale"
-   ],
-   "couleur": "#01579B",
-   "icone": "🎗️",
-   "pathologie": 234,
-   "source": "CIRC, GLOBOCAN 2022 ; campagne Movember 2026 ; fiche MédiGuide « Cancer de la prostate » (v42)",
-   "pictogramme": "ruban"
-  },
-  {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
    "lieu": "RDC (8 provinces) · Kenya (9 cas) · cas importé au Nigeria",
-   "chiffre": "10 060 cas confirmés · 4 887 décès",
-   "texte": "17e épidémie d'Ebola en RDC, épicentre en Ituri et au Nord-Kivu. Aucun vaccin ni traitement spécifique homologué contre le virus Bundibugyo.",
+   "chiffre": "10 532 cas confirmés · 5 126 décès (au 1er novembre)",
+   "texte": "L'épidémie due au virus Bundibugyo continue de progresser dans 8 provinces et 67 zones de santé ; près d'un malade sur deux en meurt. Africa CDC la juge « hors de contrôle » : plus de 85 % des nouveaux cas ne figuraient pas sur les listes de contacts.",
    "details": [
-    "Déclarée le 15 mai 2026 ; urgence de santé publique de portée internationale (OMS) depuis le 17 mai",
-    "Bilan INSP du 25 octobre : létalité 48,6 %, 2 684 guéris ; Ituri 7 211 cas, Nord-Kivu 2 309, Haut-Uélé 436, Tshopo 83 ; 96 nouveaux cas en un jour",
-    "Kenya : 9 cas confirmés dont 2 décès au 26 octobre (un seul foyer) ; Nigeria : cas importé confirmé à Abuja le 20 octobre, évacué à Genève",
-    "Le vaccin Ervebo et les anticorps ansuvimab et REGN-EB3 visent le virus Zaïre : pas d'efficacité démontrée contre Bundibugyo ; essai vaccinal TUMAINI lancé à Bunia le 23 octobre",
-    "Toute fièvre avec contact, voyage en zone touchée ou saignement : isoler, se protéger (EPI), alerter, prélever pour PCR",
-    "Suivi des contacts encore insuffisant (81,6 %, objectif 95 %) ; enterrements dignes et sécurisés indispensables"
+    "RDC au 1er novembre : 10 532 cas confirmés et 5 126 décès ; Ituri (plus de 7 400 cas), Nord-Kivu, Sud-Kivu, Tshopo, Haut-Uélé, Bas-Uélé, Sud-Ubangi et Nord-Ubangi ; cas liés au Kenya (9) et au Nigeria (1)",
+    "Près de 2 décès sur 3 surviennent dans la communauté, hors des centres de traitement : renforcer l'alerte et l'isolement précoces",
+    "Vaccins : aucun vaccin homologué contre le virus Bundibugyo ; l'essai TUMAINI (Bunia, depuis le 23 octobre) évalue en vaccination en anneau l'Ervebo puis deux candidats (ChAdOx1 et mRNA-1469)",
+    "Tout patient fébrile ayant eu un contact avec un cas, ou avec des signes hémorragiques, diarrhée ou vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte",
+    "Hygiène des mains, triage à l'entrée de toutes les structures, enterrements dignes et sécurisés"
    ],
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "INSP RDC, rapport du 26/10/2026 (bilan au 25/10) ; OMS, Disease Outbreak News du 23/10/2026 et point Kenya du 26/10/2026",
+   "source": "OMS, communiqué relayé par ONU Info le 05/11/2026 (bilan au 01/11) ; ECDC, mise à jour du 03/11/2026 ; Africa CDC, via Radio Okapi du 06/11/2026",
    "pictogramme": "virus"
   },
   {
@@ -80,21 +79,22 @@
    "pictogramme": "goutte"
   },
   {
-   "etiquette": "SURVEILLANCE",
-   "titre": "Mpox en Afrique",
-   "lieu": "11 pays avec transmission active · Madagascar, Angola, Kenya, RDC",
-   "chiffre": "1 153 cas confirmés en 6 semaines",
-   "texte": "Transmission stable (environ 200 cas par semaine en Afrique). Madagascar connaît la plus grande épidémie du monde depuis décembre 2025.",
+   "etiquette": "ÉPIDÉMIE EN HAUSSE",
+   "titre": "Mpox au Kasaï",
+   "lieu": "RDC · Kasaï (Luebo, Tshikapa, Mweka, Ilebo, Dekese)",
+   "chiffre": "Environ 1 263 cas suspects · plus de 30 décès (fin octobre)",
+   "texte": "Après la fin de l'urgence nationale déclarée en avril, une nouvelle flambée de mpox touche le Kasaï : les cas suspects sont passés de 183 début septembre à environ 1 263 fin octobre.",
    "details": [
-    "Période du 6 juillet au 16 août 2026 : Madagascar 785 cas, Angola 184, Kenya 94, RDC 41",
-    "Depuis janvier 2025 : 52 424 cas confirmés et 238 décès dans 35 pays africains",
-    "L'OMS a prolongé ses recommandations permanentes jusqu'en août 2027",
-    "Isolement des cas, soins des lésions, recherche du VIH, vaccination MVA-BN des contacts selon le programme"
+    "Territoires touchés : Luebo, Tshikapa, Mweka, Ilebo et Dekese, environ 3,25 millions d'habitants ; soutien limité dans plusieurs aires de santé",
+    "Suspecter devant une fièvre avec éruption vésiculo-pustuleuse (lésions au même stade), ganglions, contact avec un cas ou un animal sauvage",
+    "Prélever les lésions (PCR), isoler le patient, protéger les soignants ; rechercher le VIH chez l'adulte",
+    "Soins : hydratation, nutrition, antalgiques, soins des lésions et des yeux, traitement des surinfections ; surveillance rapprochée des enfants, femmes enceintes et personnes vivant avec le VIH",
+    "Vaccination des contacts et des groupes à risque selon la disponibilité"
    ],
    "couleur": "#6A1B9A",
    "icone": "🔴",
    "pathologie": 64,
-   "source": "OMS, rapport publié le 14/09/2026",
+   "source": "ACT Alliance, alerte d'octobre 2026 (bilan fin octobre) ; ministère de la Santé de la RDC, déclaration de fin d'urgence du 02/04/2026",
    "pictogramme": "virus"
   },
   {
