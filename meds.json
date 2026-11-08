@@ -1,6 +1,6 @@
 {
- "version": 51,
- "dateMiseAJour": "2026-10-31",
+ "version": 52,
+ "dateMiseAJour": "2026-11-08",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
   "OMS – Lignes directrices pour le paludisme",
@@ -47124,7 +47124,7 @@
     "Rechercher une hépatite active, une consommation d'alcool, une neuropathie ; interactions médicamenteuses (ARV, contraceptifs)"
    ],
    "traitement": [
-    "Schémas recommandés (OMS) : 6H : isoniazide chaque jour pendant 6 mois (adulte 5 mg/kg, maximum 300 mg ; enfant 10 mg/kg, 7 à 15 mg/kg)",
+    "Schémas recommandés (OMS) : chez la personne vivant avec le VIH, 3HP est le schéma préféré (OMS 2026), 6H ou 9H (isoniazide 9 mois) en alternative, 1HP, 4R et 3HR dans des situations particulières ; 6H : isoniazide chaque jour pendant 6 mois (adulte 5 mg/kg, maximum 300 mg ; enfant 10 mg/kg, 7 à 15 mg/kg)",
     "3HP : isoniazide + rifapentine une fois par semaine pendant 3 mois (12 doses), à partir de 2 ans ; adulte 900 mg + 900 mg ; compatible avec le dolutégravir sans adaptation de dose",
     "1HP : isoniazide + rifapentine chaque jour pendant 1 mois (28 doses), à partir de 13 ans",
     "3HR : isoniazide + rifampicine chaque jour pendant 3 mois (comprimés pédiatriques RH chez l'enfant) ; 4R : rifampicine seule 4 mois ; avec un ARV contenant du dolutégravir, doubler la dose de dolutégravir",
@@ -47175,7 +47175,7 @@
     "CD4 et dépistage de la maladie avancée (TB-LAM, CrAg) en cas d'échec"
    ],
    "traitement": [
-    "Échec sous TLD (ou autre schéma au dolutégravir) : poursuivre le dolutégravir avec un soutien renforcé à l'observance ; changer pour un schéma à base d'inhibiteur de protéase boosté (ATV/r ou DRV/r + AZT/3TC) seulement si une résistance au dolutégravir est prouvée par génotypage ou selon le protocole national",
+    "Échec sous TLD (ou autre schéma au dolutégravir) : poursuivre le dolutégravir avec un soutien renforcé à l'observance ; changer pour un schéma à base d'inhibiteur de protéase boosté seulement si une résistance au dolutégravir est prouvée par génotypage ou selon le protocole national : darunavir/ritonavir (DRV/r) en IP préféré (OMS 2026 ; ATV/r ou LPV/r seulement si le DRV/r n'est pas disponible), associé à deux INTI ; le ténofovir (TDF) + lamivudine peut être réutilisé même s'il faisait partie du schéma en échec (abacavir chez l'enfant), plutôt que de passer à la zidovudine",
     "Échec d'une 1re ligne à base d'éfavirenz ou de névirapine : passer au TLD (efficace même en cas de résistance aux INTI) ou AZT/3TC + dolutégravir",
     "Échec d'une 2e ligne à base d'inhibiteur de protéase : génotypage ; dolutégravir + INTI optimisés, ou 3e ligne : darunavir/ritonavir + dolutégravir 2 fois par jour ± INTI",
     "Enfant : adapter les doses au poids à chaque visite, préférer le dolutégravir pédiatrique dispersible ; impliquer l'aidant",
