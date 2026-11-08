@@ -1,5 +1,5 @@
 {
- "version": 50,
+ "version": 51,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -36130,6 +36130,7 @@
       "Gouttes : la concentration change selon la marque. Lire sur le flacon combien de mg contient 1 ml et combien de gouttes font 1 ml, puis : mg par goutte = mg par ml ÷ gouttes par ml ; nombre de gouttes par prise = dose (mg) ÷ mg par goutte.",
       "Règle « 1 goutte par kg » : valable seulement pour une solution à 20 % (200 mg de quinine par ml, soit 10 mg par goutte avec 20 gouttes par ml) : 1 goutte/kg 3 fois par jour (exemple : enfant de 12 kg = 12 gouttes 3 fois par jour). Avec une autre concentration, recalculer.",
       "Exemple avec une autre concentration : enfant de 12 kg, dose 120 mg par prise ; si 1 goutte = 5 mg, donner 24 gouttes 3 fois par jour.",
+      "Nouveau-né et nourrisson de moins de 5 kg : la dose par kg est la même (10 mg/kg par prise), et la règle « 1 goutte/kg » dépend de la concentration du flacon, pas de l'âge. Mais un paludisme du nouveau-né se traite de préférence à l'hôpital : artésunate injectable 3 mg/kg (ou, pour une forme simple, artéméther-luméfantrine à la même dose par kg qu'un enfant de 5 kg, selon l'OMS), avec surveillance de la glycémie. Transférer.",
       "Vomissements : si l'enfant vomit dans les 30 minutes, redonner la dose entière ; entre 30 et 60 minutes, redonner une demi-dose.",
       "Goût très amer : diluer dans un peu d'eau sucrée ou de jus. Effets fréquents : bourdonnements d'oreille, vertiges, nausées (cinchonisme), sans gravité ; arrêter si troubles de la vision ou éruption.",
       "Surveiller l'hypoglycémie (sueurs, somnolence) ; faire revenir l'enfant si la fièvre persiste après 3 jours ou s'il présente un signe de danger."
