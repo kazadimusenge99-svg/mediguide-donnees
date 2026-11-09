@@ -1,5 +1,5 @@
 {
- "version": 51,
+ "version": 52,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -2287,7 +2287,7 @@
   {
    "id": 39,
    "dci": "Zinc (sulfate)",
-   "noms": "Zinc dispersible",
+   "noms": "Zinc dispersible, Predzinc",
    "classe": "digestif",
    "formes": "Comprimé dispersible 20 mg",
    "indications": [
@@ -4594,7 +4594,7 @@
   {
    "id": 83,
    "dci": "Ondansétron",
-   "noms": "Zophren, Zofran",
+   "noms": "Zophren, Zofran, Ansetron",
    "classe": "anesthesie",
    "formes": "Comprimé 4 et 8 mg ; ampoule 2 mg/ml",
    "indications": [
@@ -4655,7 +4655,7 @@
   {
    "id": 84,
    "dci": "Dexaméthasone",
-   "noms": "Dectancyl, Dexamethasone",
+   "noms": "Dectancyl, Dexamethasone, Décadron",
    "classe": "anesthesie",
    "formes": "Ampoule 4 mg/ml ; comprimé 0,5 et 4 mg",
    "indications": [
@@ -23347,6 +23347,318 @@
    "motsCles": "cholangiographie, voies biliaires, produit de contraste",
    "famille": "Produit de contraste",
    "mecanisme": "Substance opaque aux rayons X (iode, baryum) qui rend visibles les vaisseaux, les organes creux ou les voies biliaires."
+  },
+  {
+   "dci": "Aminophylline",
+   "noms": "Aminophylline, Théophylline-éthylènediamine",
+   "classe": "respiratoire",
+   "formes": "Ampoule 250 mg/10 ml (25 mg/ml) ; comprimé 100 mg",
+   "indications": [
+    "Asthme aigu grave ne répondant pas au salbutamol, au bromure d'ipratropium et aux corticoïdes (2e ligne, en milieu hospitalier)",
+    "Apnées du prématuré, si le citrate de caféine n'est pas disponible"
+   ],
+   "posologieAdulte": [
+    "Asthme grave : dose de charge 5 mg/kg IV en 20 à 30 min (pas de dose de charge si théophylline ou aminophylline reçue dans les 24 h), puis 0,5 mg/kg/h en perfusion continue",
+    "Maximum de la dose de charge : 500 mg"
+   ],
+   "posologieEnfant": [
+    "Asthme grave (OMS) : dose de charge 5 mg/kg IV en 20 min au moins (pas de dose de charge si déjà sous théophylline), puis 5 mg/kg toutes les 6 h, ou 1 mg/kg/h en perfusion continue",
+    "Apnées du prématuré : dose de charge 6 mg/kg IV en 20 min, puis 2,5 mg/kg toutes les 12 h",
+    "Diluer dans du sérum salé 0,9 % ou du glucosé 5 % ; jamais en injection IV rapide"
+   ],
+   "contreIndications": [
+    "Allergie à la théophylline",
+    "Troubles du rythme non contrôlés",
+    "Porphyrie"
+   ],
+   "precautions": [
+    "Marge thérapeutique étroite : surdosage dangereux (vomissements, tachycardie, convulsions, arrêt cardiaque)",
+    "Peser l'enfant et vérifier la dose deux fois ; surveiller pouls et rythme cardiaque",
+    "Interactions qui augmentent les taux : érythromycine, clarithromycine, ciprofloxacine, cimétidine, fluconazole",
+    "Le salbutamol, l'oxygène et les corticoïdes restent le traitement de base de l'asthme ; l'aminophylline n'est qu'un complément"
+   ],
+   "effetsIndesirables": [
+    "Nausées, vomissements",
+    "Tachycardie, palpitations, troubles du rythme",
+    "Agitation, insomnie, convulsions (surdosage)",
+    "Hypokaliémie"
+   ],
+   "grossesse": "Utilisable si nécessaire pour un asthme grave (bénéfice supérieur au risque) ; surveiller le nouveau-né (irritabilité, tachycardie).",
+   "motsCles": "aminophylline, théophylline, asthme grave, état de mal asthmatique, bronchospasme, apnée du prématuré",
+   "calculs": [
+    {
+     "titre": "Asthme grave : dose de charge IV (en 20 min)",
+     "doseKg": 5,
+     "unite": "mg",
+     "frequence": "puis 5 mg/kg toutes les 6 h",
+     "presentations": [
+      {
+       "nom": "Ampoule 250 mg/10 ml",
+       "dose": 250,
+       "par": 10,
+       "unite": "ml"
+      }
+     ],
+     "doseMax": 500
+    }
+   ],
+   "id": 509,
+   "famille": "Méthylxanthine (bronchodilatateur)",
+   "mecanisme": "Inhibe les phosphodiestérases et bloque les récepteurs de l'adénosine : relâche les muscles bronchiques et stimule la respiration ; marge thérapeutique étroite."
+  },
+  {
+   "dci": "Protéinate d'argent (Argyrol)",
+   "noms": "Argyrol, Protargol",
+   "classe": "respiratoire",
+   "formes": "Solution nasale et collyre 1 % et 2 %",
+   "indications": [
+    "Ancien traitement local des rhinopharyngites et des conjonctivites (usage traditionnel)"
+   ],
+   "posologieAdulte": [
+    "1 à 2 gouttes dans chaque narine 2 à 3 fois par jour, 5 jours maximum"
+   ],
+   "posologieEnfant": [
+    "1 à 2 gouttes dans chaque narine 2 à 3 fois par jour, 5 jours maximum",
+    "Préférer le lavage du nez au sérum physiologique, efficace et sans risque"
+   ],
+   "contreIndications": [
+    "Allergie aux sels d'argent",
+    "Usage prolongé"
+   ],
+   "precautions": [
+    "Efficacité non démontrée ; ne figure pas dans les recommandations de l'OMS",
+    "Ne remplace pas la tétracycline pommade 1 % pour la prévention de la conjonctivite du nouveau-né",
+    "Usage prolongé : risque d'argyrie (coloration grise définitive de la peau et des muqueuses)",
+    "Tache le linge"
+   ],
+   "effetsIndesirables": [
+    "Irritation locale",
+    "Argyrie en cas d'usage prolongé"
+   ],
+   "grossesse": "Pas de données ; préférer le sérum physiologique.",
+   "motsCles": "argyrol, protéinate d'argent, gouttes nasales, rhume, rhinopharyngite, nez bouché",
+   "calculs": [],
+   "id": 510,
+   "famille": "Antiseptique local (sel d'argent)",
+   "mecanisme": "Les ions argent libérés ont une action antiseptique faible sur les muqueuses."
+  },
+  {
+   "dci": "Bétaméthasone (voie orale et injectable)",
+   "noms": "Célestène, Célestone, Betnesol",
+   "classe": "respiratoire",
+   "formes": "Solution buvable en gouttes 0,05 % (0,5 mg/ml) ; comprimé 0,5 et 2 mg ; ampoule injectable 4 mg/ml",
+   "indications": [
+    "Laryngite (croup), asthme, allergies sévères, maladies inflammatoires (corticothérapie générale)",
+    "Maturation pulmonaire du fœtus avant un accouchement prématuré (24 à 34 semaines), par voie IM"
+   ],
+   "posologieAdulte": [
+    "Corticothérapie : 0,05 à 0,2 mg/kg/j (environ 2 à 8 mg/j) en 1 prise le matin",
+    "Maturation pulmonaire fœtale : 12 mg IM, 2 doses à 24 h d'intervalle (ou dexaméthasone 6 mg IM toutes les 12 h, 4 doses)"
+   ],
+   "posologieEnfant": [
+    "0,05 à 0,2 mg/kg/j en 1 prise le matin, pendant 3 à 5 jours (asthme, croup, allergie)",
+    "Gouttes : la quantité de bétaméthasone par goutte dépend du flacon ; calculer à partir des mg par ml et du nombre de gouttes par ml indiqués sur l'étiquette",
+    "Croup ou asthme : la dexaméthasone (0,15 à 0,6 mg/kg en dose unique) ou la prednisolone (1 à 2 mg/kg/j) sont les références de l'OMS"
+   ],
+   "contreIndications": [
+    "Infection non traitée (tuberculose, mycose, herpès oculaire)",
+    "Vaccins vivants pendant une corticothérapie à forte dose"
+   ],
+   "precautions": [
+    "Traitement court : pas de décroissance nécessaire si moins de 10 jours",
+    "Déparasiter (ivermectine) avant une corticothérapie prolongée en zone d'anguillulose",
+    "Surveiller la glycémie et la PA ; risque d'infections"
+   ],
+   "effetsIndesirables": [
+    "Hyperglycémie, HTA, rétention de sel",
+    "Troubles de l'humeur, insomnie",
+    "Infections",
+    "Retard de croissance en cas d'usage prolongé chez l'enfant"
+   ],
+   "grossesse": "Indiquée pour la maturation pulmonaire fœtale ; corticothérapie courte possible si nécessaire.",
+   "motsCles": "célestène, bétaméthasone, corticoïde, gouttes, laryngite, croup, asthme, allergie, maturation pulmonaire, prématurité",
+   "calculs": [],
+   "id": 511,
+   "famille": "Corticoïde (glucocorticoïde)",
+   "mecanisme": "Glucocorticoïde puissant et prolongé : effets anti-inflammatoire, antiallergique et immunosuppresseur ; accélère la production de surfactant par les poumons du fœtus."
+  },
+  {
+   "dci": "Cimétidine",
+   "noms": "Tagamet, Cimétidine",
+   "classe": "digestif",
+   "formes": "Comprimé 200, 400 et 800 mg ; ampoule 200 mg/2 ml",
+   "indications": [
+    "Ulcère gastroduodénal, reflux gastro-œsophagien (si l'oméprazole n'est pas disponible)",
+    "Prévention de l'ulcère de stress"
+   ],
+   "posologieAdulte": [
+    "400 mg 2 fois par jour, ou 800 mg le soir, pendant 4 à 8 semaines"
+   ],
+   "posologieEnfant": [
+    "20 à 40 mg/kg/j en 3 à 4 prises (maximum 400 mg par prise)",
+    "Nouveau-né : 5 à 10 mg/kg/j en 2 à 4 prises"
+   ],
+   "contreIndications": [
+    "Allergie à la cimétidine"
+   ],
+   "precautions": [
+    "Moins efficace que l'oméprazole (inhibiteur de la pompe à protons), qui est le traitement de référence",
+    "Nombreuses interactions (inhibiteur enzymatique) : augmente les taux de théophylline et d'aminophylline, de phénytoïne, de warfarine, de quinine, de lidocaïne",
+    "Réduire la dose en cas d'insuffisance rénale"
+   ],
+   "effetsIndesirables": [
+    "Céphalées, diarrhée, vertiges",
+    "Confusion chez le sujet âgé",
+    "Gynécomastie en usage prolongé"
+   ],
+   "grossesse": "Préférer l'oméprazole ; utilisable si nécessaire.",
+   "motsCles": "cimétidine, tagamet, anti-H2, ulcère, gastrite, brûlures d'estomac, reflux",
+   "calculs": [
+    {
+     "titre": "Ulcère, reflux (par prise, 3 à 4 fois par jour)",
+     "doseKg": 10,
+     "unite": "mg",
+     "frequence": "3 à 4 fois par jour",
+     "presentations": [
+      {
+       "nom": "Comprimé 200 mg",
+       "dose": 200,
+       "par": 1,
+       "unite": "comprimé"
+      }
+     ],
+     "doseMax": 400
+    }
+   ],
+   "id": 512,
+   "famille": "Antihistaminique H2 (antiulcéreux)",
+   "mecanisme": "Bloque les récepteurs H2 des cellules de l'estomac et réduit la sécrétion d'acide ; inhibiteur enzymatique (interactions)."
+  },
+  {
+   "dci": "Étamsylate",
+   "noms": "Dicynone",
+   "classe": "transfusion",
+   "formes": "Comprimé 250 et 500 mg ; ampoule 250 mg/2 ml",
+   "indications": [
+    "Saignements capillaires (ménorragies, épistaxis, saignements après chirurgie), usage traditionnel"
+   ],
+   "posologieAdulte": [
+    "250 à 500 mg 3 à 4 fois par jour par voie orale, IM ou IV"
+   ],
+   "posologieEnfant": [
+    "10 à 20 mg/kg/j en 2 à 3 prises (repère de l'affiche du service de pédiatrie)"
+   ],
+   "contreIndications": [
+    "Porphyrie",
+    "Allergie à l'étamsylate ou aux sulfites (ampoules)"
+   ],
+   "precautions": [
+    "Efficacité faible et mal démontrée ; ne figure pas dans la liste des médicaments essentiels de l'OMS",
+    "Ne remplace jamais le traitement de la cause, la vitamine K1 (nouveau-né, AVK), la transfusion de produits sanguins ni l'acide tranexamique (15 mg/kg, préféré pour réduire les saignements)",
+    "N'a pas d'effet sur la thrombopénie ni sur les hémophilies"
+   ],
+   "effetsIndesirables": [
+    "Nausées, céphalées, éruption cutanée",
+    "Hypotension en IV rapide"
+   ],
+   "grossesse": "Données insuffisantes ; éviter.",
+   "motsCles": "dicynone, étamsylate, hémostatique, saignement, épistaxis, hémorragie",
+   "calculs": [],
+   "id": 513,
+   "famille": "Hémostatique (angioprotecteur)",
+   "mecanisme": "Renforcerait l'adhésion des plaquettes et la résistance des capillaires ; efficacité clinique faible."
+  },
+  {
+   "dci": "Piracétam",
+   "noms": "Nootropil",
+   "classe": "neuro",
+   "formes": "Comprimé 400, 800 et 1 200 mg ; solution buvable 20 % ; ampoule 1 g/5 ml et 3 g/15 ml",
+   "indications": [
+    "Myoclonies d'origine corticale de l'adulte (en association)",
+    "Usages courants non démontrés : séquelles de souffrance cérébrale, de paludisme grave ou de méningite, vertiges, troubles de la mémoire"
+   ],
+   "posologieAdulte": [
+    "Myoclonies : 7,2 g/j en 2 à 3 prises, augmentés progressivement jusqu'à 24 g/j"
+   ],
+   "posologieEnfant": [
+    "Pas de dose pédiatrique validée ; non recommandé par l'OMS chez l'enfant",
+    "Après une atteinte cérébrale (paludisme grave, méningite, asphyxie), privilégier le traitement des convulsions, la rééducation et le suivi du développement"
+   ],
+   "contreIndications": [
+    "Insuffisance rénale sévère",
+    "Hémorragie cérébrale",
+    "Chorée de Huntington"
+   ],
+   "precautions": [
+    "Adapter la dose à la fonction rénale",
+    "Troubles de la coagulation : prudence (effet antiagrégant)",
+    "Ne pas arrêter brutalement en cas de myoclonies"
+   ],
+   "effetsIndesirables": [
+    "Agitation, nervosité, insomnie",
+    "Prise de poids",
+    "Troubles digestifs"
+   ],
+   "grossesse": "Éviter.",
+   "motsCles": "nootropil, piracétam, myoclonies, séquelles neurologiques, mémoire, vertiges",
+   "calculs": [],
+   "id": 514,
+   "famille": "Nootrope (dérivé du GABA)",
+   "mecanisme": "Modifierait la fluidité des membranes neuronales et la microcirculation ; mécanisme et efficacité mal établis en dehors des myoclonies corticales."
+  },
+  {
+   "dci": "Dompéridone",
+   "noms": "Motilium, Péridys",
+   "classe": "digestif",
+   "formes": "Comprimé 10 mg ; suspension buvable 1 mg/ml",
+   "indications": [
+    "Nausées et vomissements (traitement de courte durée)"
+   ],
+   "posologieAdulte": [
+    "10 mg jusqu'à 3 fois par jour, maximum 30 mg/j, pendant 7 jours au plus"
+   ],
+   "posologieEnfant": [
+    "0,25 mg/kg jusqu'à 3 fois par jour, maximum 0,75 mg/kg/j (et 30 mg/j), pendant 7 jours au plus (suspension 1 mg/ml)",
+    "Gastro-entérite de l'enfant : pas d'antiémétique systématique ; SRO par petites quantités répétées (OMS)",
+    "Attention : 3 à 4 mg/kg serait une dose 10 fois trop forte"
+   ],
+   "contreIndications": [
+    "Allongement du QT, troubles du rythme, insuffisance cardiaque",
+    "Insuffisance hépatique modérée ou sévère",
+    "Association avec des médicaments qui allongent le QT ou inhibent le CYP3A4 (érythromycine, clarithromycine, fluconazole, kétoconazole)",
+    "Hémorragie ou occlusion digestive"
+   ],
+   "precautions": [
+    "Risque de troubles du rythme et de mort subite (Agence européenne du médicament, 2014) : dose la plus faible et durée la plus courte",
+    "Chercher d'abord la cause des vomissements (paludisme, méningite, occlusion, déshydratation)"
+   ],
+   "effetsIndesirables": [
+    "Troubles du rythme (allongement du QT)",
+    "Sécheresse de bouche, céphalées",
+    "Augmentation de la prolactine (écoulement de lait, troubles des règles)"
+   ],
+   "grossesse": "Éviter ; préférer d'autres antiémétiques sur avis.",
+   "motsCles": "dompéridone, motilium, vomissements, nausées, antiémétique",
+   "calculs": [
+    {
+     "titre": "Nausées, vomissements (par prise, jusqu'à 3 fois par jour)",
+     "doseKg": 0.25,
+     "unite": "mg",
+     "frequence": "jusqu'à 3 fois par jour, 7 jours au plus",
+     "presentations": [
+      {
+       "nom": "Suspension 1 mg/ml",
+       "dose": 1,
+       "par": 1,
+       "unite": "ml"
+      }
+     ],
+     "doseMax": 10
+    }
+   ],
+   "id": 515,
+   "famille": "Antiémétique antidopaminergique périphérique",
+   "mecanisme": "Bloque les récepteurs dopaminergiques D2 de la zone gâchette du vomissement et de l'estomac (accélère la vidange gastrique), en passant peu dans le cerveau."
   }
  ],
  "categoriesPathologies": [
