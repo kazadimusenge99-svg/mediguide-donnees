@@ -1,5 +1,5 @@
 {
- "version": 52,
+ "version": 53,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -36848,6 +36848,105 @@
       "Prednisolone (asthme, allergie sévère) : 1–2 mg/kg/j chez l'enfant, sans dépasser 40 mg ; adulte 40–50 mg/j ; pendant 3–5 jours.",
       "Furosémide (œdèmes, œdème aigu du poumon) : 20–40 mg par voie orale ; en urgence 40–80 mg IV.",
       "Charbon activé (intoxication par voie orale, dans l'heure) : 1 g/kg, sans dépasser 50 g. Pas pour les produits caustiques ni le pétrole."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "neonatologie",
+   "titre": "Couveuse et besoins hydriques du nouveau-né",
+   "pictogramme": "bebe",
+   "couleur": "#00838F",
+   "intro": "Le nouveau-né de petit poids perd sa chaleur très vite : couveuse réglée selon le poids, ou peau à peau (méthode mère kangourou), et apports hydriques augmentés progressivement chaque jour.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Réglage de la température de la couveuse",
+     "colonnes": [
+      "Poids",
+      "Température"
+     ],
+     "lignes": [
+      [
+       "< 1 000 g",
+       "35 °C"
+      ],
+      [
+       "1 000–1 500 g",
+       "34 °C"
+      ],
+      [
+       "1 600–2 000 g",
+       "33 °C"
+      ],
+      [
+       "2 100–2 500 g",
+       "32 °C"
+      ]
+     ],
+     "note": "Ajuster pour garder une température axillaire de 36,5 à 37,5 °C (contrôle toutes les 3 à 4 h) ; baisser la consigne si le bébé dépasse 37,5 °C. Dès que possible : peau à peau avec la mère."
+    },
+    {
+     "type": "tableau",
+     "titre": "Besoins hydriques journaliers (ml/kg/jour, lait et perfusion compris)",
+     "colonnes": [
+      "Jour de vie",
+      "Prématuré",
+      "Nouveau-né à terme"
+     ],
+     "lignes": [
+      [
+       "J1",
+       "40 ml/kg",
+       "60 ml/kg"
+      ],
+      [
+       "J2",
+       "50 ml/kg",
+       "80 ml/kg"
+      ],
+      [
+       "J3",
+       "60 ml/kg",
+       "100 ml/kg"
+      ],
+      [
+       "J4",
+       "70 ml/kg",
+       "120 ml/kg"
+      ],
+      [
+       "J5",
+       "80 ml/kg",
+       "140 ml/kg"
+      ],
+      [
+       "J6",
+       "90 ml/kg",
+       "160 ml/kg"
+      ],
+      [
+       "J7",
+       "100 ml/kg",
+       "180 ml/kg"
+      ],
+      [
+       "J8–J28",
+       "150–180 ml/kg",
+       "180–200 ml/kg"
+      ]
+     ],
+     "note": "Protocole affiché en néonatologie (Pr Dr Monga, Dr Ngimbi, Dr Kalanda). Repère OMS pour comparaison : J1 60 ml/kg (80 ml/kg si moins de 1 500 g), puis + 20 ml/kg par jour jusqu'à 150 ml/kg/j ; plus d'apports sous photothérapie ou sous lampe chauffante, moins en cas d'asphyxie ou d'insuffisance rénale."
+    },
+    {
+     "type": "liste",
+     "titre": "Quantité par repas",
+     "elements": [
+      "Prématuré (12 repas par jour, toutes les 2 h) : quantité par repas (ml) = poids actuel (kg) × besoin du jour (ml/kg) ÷ 12.",
+      "Nouveau-né à terme (8 repas par jour, toutes les 3 h) : quantité par repas (ml) = poids actuel (kg) × besoin du jour (ml/kg) ÷ 8.",
+      "Exemple : prématuré de 1,5 kg à J4 (70 ml/kg) : 1,5 × 70 = 105 ml par jour, soit 105 ÷ 12 ≈ 9 ml toutes les 2 h.",
+      "Lait maternel en priorité (au sein, à la tasse ou par sonde) ; soustraire du total ce qui est donné en perfusion.",
+      "Surveiller chaque jour : poids, diurèse (au moins 1 ml/kg/h), glycémie, signes de surcharge (œdèmes, détresse respiratoire) ou de déshydratation."
      ]
     }
    ]
