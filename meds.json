@@ -1,5 +1,5 @@
 {
- "version": 53,
+ "version": 54,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -32147,6 +32147,248 @@
    "interpretation": [],
    "note": "Normal : 8 à 16 mmol/l. Élevé : acidocétose, acidose lactique, insuffisance rénale, intoxications (méthanol, éthylène glycol, salicylés).",
    "source": ""
+  },
+  {
+   "id": "finnstrom",
+   "nom": "Score morphologique de Finnström (âge gestationnel)",
+   "specialite": "pediatrie",
+   "type": "score",
+   "description": "Estimation de l'âge gestationnel du nouveau-né par 7 critères morphologiques externes, quand le terme n'est pas connu (pas de DDR fiable ni d'échographie précoce).",
+   "items": [
+    {
+     "titre": "Diamètre de la glande mammaire (palper le tissu mammaire)",
+     "options": [
+      {
+       "texte": "< 5 mm",
+       "points": 1.0
+      },
+      {
+       "texte": "5 à 10 mm",
+       "points": 2.0
+      },
+      {
+       "texte": "> 10 mm",
+       "points": 3.0
+      }
+     ]
+    },
+    {
+     "titre": "Mamelon",
+     "options": [
+      {
+       "texte": "Pas d'aréole, mamelon à peine visible",
+       "points": 1.0
+      },
+      {
+       "texte": "Aréole plane, mamelon bien formé",
+       "points": 2.0
+      },
+      {
+       "texte": "Aréole surélevée",
+       "points": 3.0
+      }
+     ]
+    },
+    {
+     "titre": "Peau (veines visibles sur l'abdomen)",
+     "options": [
+      {
+       "texte": "Nombreuses veines et veinules bien visibles",
+       "points": 1.0
+      },
+      {
+       "texte": "Veines et leurs branches visibles",
+       "points": 2.0
+      },
+      {
+       "texte": "Quelques gros vaisseaux nettement visibles",
+       "points": 3.0
+      },
+      {
+       "texte": "Gros vaisseaux flous ou invisibles",
+       "points": 4.0
+      }
+     ]
+    },
+    {
+     "titre": "Cheveux",
+     "options": [
+      {
+       "texte": "Fins, laineux ou duveteux, agglomérés",
+       "points": 1.0
+      },
+      {
+       "texte": "Épais, soyeux, mèches individualisées",
+       "points": 2.0
+      }
+     ]
+    },
+    {
+     "titre": "Cartilage de l'oreille",
+     "options": [
+      {
+       "texte": "Absent dans l'antitragus",
+       "points": 1.0
+      },
+      {
+       "texte": "Présent dans l'antitragus",
+       "points": 2.0
+      },
+      {
+       "texte": "Présent dans l'anthélix",
+       "points": 3.0
+      },
+      {
+       "texte": "Présent dans tout l'hélix",
+       "points": 4.0
+      }
+     ]
+    },
+    {
+     "titre": "Ongles des doigts",
+     "options": [
+      {
+       "texte": "N'atteignent pas le bout des doigts",
+       "points": 1.0
+      },
+      {
+       "texte": "Atteignent le bout des doigts",
+       "points": 2.0
+      },
+      {
+       "texte": "Durs, atteignent ou dépassent le bout des doigts",
+       "points": 3.0
+      }
+     ]
+    },
+    {
+     "titre": "Plis plantaires",
+     "options": [
+      {
+       "texte": "Aucun pli",
+       "points": 1.0
+      },
+      {
+       "texte": "Plis sur le tiers antérieur seulement",
+       "points": 2.0
+      },
+      {
+       "texte": "Plis sur les deux tiers antérieurs",
+       "points": 3.0
+      },
+      {
+       "texte": "Plis sur toute la plante",
+       "points": 4.0
+      }
+     ]
+    }
+   ],
+   "interpretation": [
+    {
+     "min": 7.0,
+     "max": 7.0,
+     "niveau": "danger",
+     "texte": "Âge gestationnel estimé ≈ 27,5 SA (grand prématuré)"
+    },
+    {
+     "min": 8.0,
+     "max": 8.0,
+     "niveau": "danger",
+     "texte": "Âge gestationnel estimé ≈ 28,5 SA (grand prématuré)"
+    },
+    {
+     "min": 9.0,
+     "max": 9.0,
+     "niveau": "danger",
+     "texte": "Âge gestationnel estimé ≈ 29 SA (grand prématuré)"
+    },
+    {
+     "min": 10.0,
+     "max": 10.0,
+     "niveau": "danger",
+     "texte": "Âge gestationnel estimé ≈ 30 SA (grand prématuré)"
+    },
+    {
+     "min": 11.0,
+     "max": 11.0,
+     "niveau": "danger",
+     "texte": "Âge gestationnel estimé ≈ 31 SA (grand prématuré)"
+    },
+    {
+     "min": 12.0,
+     "max": 12.0,
+     "niveau": "attention",
+     "texte": "Âge gestationnel estimé ≈ 32 SA (prématuré)"
+    },
+    {
+     "min": 13.0,
+     "max": 13.0,
+     "niveau": "attention",
+     "texte": "Âge gestationnel estimé ≈ 33 SA (prématuré)"
+    },
+    {
+     "min": 14.0,
+     "max": 14.0,
+     "niveau": "attention",
+     "texte": "Âge gestationnel estimé ≈ 34 SA (prématuré)"
+    },
+    {
+     "min": 15.0,
+     "max": 15.0,
+     "niveau": "attention",
+     "texte": "Âge gestationnel estimé ≈ 34,5 SA (prématuré)"
+    },
+    {
+     "min": 16.0,
+     "max": 16.0,
+     "niveau": "attention",
+     "texte": "Âge gestationnel estimé ≈ 35,5 SA (prématuré)"
+    },
+    {
+     "min": 17.0,
+     "max": 17.0,
+     "niveau": "attention",
+     "texte": "Âge gestationnel estimé ≈ 36,5 SA (prématuré)"
+    },
+    {
+     "min": 18.0,
+     "max": 18.0,
+     "niveau": "ok",
+     "texte": "Âge gestationnel estimé ≈ 37,5 SA (à terme)"
+    },
+    {
+     "min": 19.0,
+     "max": 19.0,
+     "niveau": "ok",
+     "texte": "Âge gestationnel estimé ≈ 38,5 SA (à terme)"
+    },
+    {
+     "min": 20.0,
+     "max": 20.0,
+     "niveau": "ok",
+     "texte": "Âge gestationnel estimé ≈ 39,5 SA (à terme)"
+    },
+    {
+     "min": 21.0,
+     "max": 21.0,
+     "niveau": "ok",
+     "texte": "Âge gestationnel estimé ≈ 40,5 SA (à terme)"
+    },
+    {
+     "min": 22.0,
+     "max": 22.0,
+     "niveau": "ok",
+     "texte": "Âge gestationnel estimé ≈ 41,5 SA (à terme)"
+    },
+    {
+     "min": 23.0,
+     "max": 23.0,
+     "niveau": "attention",
+     "texte": "Âge gestationnel estimé ≈ 42 SA (post-terme)"
+    }
+   ],
+   "note": "Total de 7 à 23 points. Examiner le bébé au calme, sous une bonne lumière, dans les premières 24 à 48 h (les plis plantaires et la peau changent ensuite). Précision d'environ ± 2 semaines ; moins fiable avant 28 SA et chez le bébé œdémateux ou très hypotrophe. Le score de Ballard (critères neurologiques et morphologiques) est plus précis chez le grand prématuré. Reporter ensuite le poids, la taille et le périmètre crânien sur les courbes de Fenton (Outils → Courbes de croissance → Prématuré).",
+   "source": "Finnström O., Acta Paediatrica Scandinavica, 1977 ; table de correspondance selon Boiro D. et al., Journal de Pédiatrie et de Puériculture, 2020"
   }
  ],
  "protocoles": [
