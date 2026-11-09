@@ -1,5 +1,5 @@
 {
- "version": 54,
+ "version": 55,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -39542,6 +39542,9 @@
    ],
    "diagnostic": [
     "Diagnostic d'abord clinique : ne jamais retarder la première dose d'antibiotique pour un examen",
+    "Critères anamnestiques d'infection néonatale bactérienne précoce (INBP), à rechercher chez tout nouveau-né : critères MAJEURS : tableau évocateur de chorioamniotite ; fièvre maternelle > 38 °C (pendant le travail ou dans les 6 h après l'accouchement) ; prématurité spontanée < 35 SA ; ouverture de la poche des eaux > 18 h ; prélèvement vaginal positif à streptocoque B (sans antibioprophylaxie complète) ; antécédent d'INBP chez un enfant précédent ; jumeau atteint d'une INBP ; rupture prématurée des membranes avant 37 SA",
+    "Critères MINEURS : ouverture de la poche des eaux entre 12 et 18 h ; prématurité spontanée entre 35 et 37 SA ; anomalie du rythme cardiaque fœtal ou asphyxie fœtale non expliquée ; liquide amniotique teinté ou méconial",
+    "Conduite selon les critères : nouveau-né symptomatique = traitement antibiotique immédiat, quels que soient les critères ; nouveau-né sans symptôme avec au moins 1 critère majeur, ou 2 critères mineurs ou plus = bilan (NFS, CRP à 24–48 h, hémoculture si possible), surveillance rapprochée pendant 48 h (température, couleur, respiration, tétée, conscience) et traitement antibiotique selon le protocole du service (d'emblée en cas de chorioamniotite, de jumeau atteint ou de fièvre maternelle avec signes de gravité) ; 1 seul critère mineur = surveillance clinique simple",
     "Classer selon l'OMS : maladie critique (inconscient, convulsions, ne tète pas du tout, ne bouge pas même stimulé) ; infection clinique grave (autre signe parmi les 7) ; respiration rapide isolée (avant 7 jours : infection grave ; de 7 à 59 jours : pneumonie) ; infection locale (cordon, peau)",
     "Glycémie capillaire à l'arrivée et toutes les 6 h au début (hypoglycémie < 45 mg/dl ou 2,5 mmol/l)",
     "Hémoculture avant la première dose si disponible ; NFS (leucocytes < 5 000 ou > 30 000/mm³, neutropénie, plaquettes basses) ; CRP à 24 et 48 h : deux valeurs normales chez un enfant bien portant avec hémoculture négative permettent d'arrêter les antibiotiques",
