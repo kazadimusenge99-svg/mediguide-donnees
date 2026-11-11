@@ -1,5 +1,5 @@
 {
- "version": 62,
+ "version": 63,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -24866,6 +24866,386 @@
    "calculs": [],
    "famille": "Antihistaminique H1 (2e génération)",
    "mecanisme": "Métabolite de l'hydroxyzine : bloque les récepteurs H1 périphériques de l'histamine, avec peu de passage dans le cerveau."
+  },
+  {
+   "dci": "Multivitamines (associations de vitamines)",
+   "noms": "Alvityl, Multivitamine gouttes, Vit B Complex, Tribexfort (à vérifier)",
+   "classe": "nutrition",
+   "formes": "Sirop, gouttes, comprimés ou gélules (compositions variables selon la marque)",
+   "indications": [
+    "Apport insuffisant ou besoins augmentés (convalescence, alimentation pauvre), en complément d'une alimentation variée"
+   ],
+   "posologieAdulte": [
+    "Selon la notice : en général 1 comprimé ou 10 ml par jour"
+   ],
+   "posologieEnfant": [
+    "Selon l'âge et la notice (ex. Alvityl sirop : 5 ml par jour de 3 à 12 ans)",
+    "Malnutrition aiguë : les ATPE et les laits F-75/F-100 contiennent déjà toutes les vitamines ; ne pas ajouter de multivitamines"
+   ],
+   "contreIndications": [
+    "Hypervitaminose A ou D",
+    "Hypercalcémie (formules avec vitamine D)"
+   ],
+   "precautions": [
+    "N'est pas un traitement de l'anémie, de la fatigue ou du retard de croissance : en chercher la cause",
+    "Vitamine A : ne pas cumuler avec la supplémentation de masse (100 000–200 000 UI) ; grossesse : pas plus de 10 000 UI par jour",
+    "Ne remplace ni le fer + acide folique de la grossesse, ni la vitamine K du nouveau-né",
+    "Conserver hors de portée des enfants (intoxication au fer pour les formules avec fer)"
+   ],
+   "effetsIndesirables": [
+    "Troubles digestifs, urines jaune vif (vitamine B2)"
+   ],
+   "grossesse": "Préférer les suppléments de grossesse adaptés (fer + acide folique ; multimicronutriments OMS/UNIMMAP).",
+   "motsCles": "multivitamines, vitamines, alvityl, vit b complex, tribexfort, multivitamine gouttes, fortifiant, tonique, appétit, fatigue",
+   "famille": "Vitamines (association)",
+   "mecanisme": "Apportent des vitamines nécessaires aux réactions du métabolisme (coenzymes) ; utiles seulement en cas de carence.",
+   "calculs": [],
+   "id": 545
+  },
+  {
+   "dci": "Vitamine E (tocophérol)",
+   "noms": "Efishal, Toco 500, Evion",
+   "classe": "nutrition",
+   "formes": "Capsule 100, 200 et 400 mg (UI)",
+   "indications": [
+    "Carence en vitamine E : malabsorption des graisses (cholestase, mucoviscidose, résection intestinale), abêtalipoprotéinémie"
+   ],
+   "posologieAdulte": [
+    "Carence : 100 à 400 mg par jour selon la cause",
+    "Pas de bénéfice démontré en prévention (cancer, maladies cardiovasculaires, fertilité, peau)"
+   ],
+   "posologieEnfant": [
+    "Carence (cholestase, mucoviscidose) : avis spécialisé, 10 à 25 UI/kg par jour"
+   ],
+   "contreIndications": [
+    "Allergie"
+   ],
+   "precautions": [
+    "Fortes doses (> 400 UI par jour au long cours) : risque de saignement augmenté, surtout avec un anticoagulant ou de l'aspirine",
+    "Arrêter 1 semaine avant une chirurgie"
+   ],
+   "effetsIndesirables": [
+    "Troubles digestifs",
+    "Fatigue, céphalées (fortes doses)",
+    "Saignements (fortes doses)"
+   ],
+   "grossesse": "Pas de supplémentation systématique pendant la grossesse (OMS).",
+   "motsCles": "vitamine e, tocophérol, efishal, evion, antioxydant",
+   "famille": "Vitamine liposoluble",
+   "mecanisme": "Antioxydant des membranes cellulaires : protège les acides gras des lipides contre l'oxydation.",
+   "calculs": [],
+   "id": 546
+  },
+  {
+   "dci": "Oméga-3 (acides gras EPA et DHA)",
+   "noms": "Fortaline Oméga-3, Omacor (médicament)",
+   "classe": "nutrition",
+   "formes": "Capsules ; sirop (compléments alimentaires) ; Omacor capsule 1 g",
+   "indications": [
+    "Hypertriglycéridémie sévère (médicament à forte dose)",
+    "Complément alimentaire : bénéfice non démontré pour la mémoire, la croissance ou l'intelligence de l'enfant"
+   ],
+   "posologieAdulte": [
+    "Hypertriglycéridémie : 2 à 4 g par jour d'EPA + DHA (forme médicament)",
+    "Complément : selon la notice"
+   ],
+   "posologieEnfant": [
+    "Selon la notice du complément"
+   ],
+   "contreIndications": [
+    "Allergie au poisson"
+   ],
+   "precautions": [
+    "Ne remplace pas une statine pour la prévention cardiovasculaire",
+    "Fortes doses : prudence avec les anticoagulants",
+    "Fibrillation auriculaire : légère augmentation du risque à forte dose"
+   ],
+   "effetsIndesirables": [
+    "Renvois au goût de poisson, nausées, diarrhée"
+   ],
+   "grossesse": "Sans risque aux doses alimentaires ; manger du poisson 2 fois par semaine est la meilleure source.",
+   "motsCles": "oméga-3, omega 3, fortaline, huile de poisson, DHA, EPA, triglycérides",
+   "famille": "Acides gras polyinsaturés (complément ou hypolipémiant)",
+   "mecanisme": "À forte dose, réduisent la production des triglycérides par le foie ; incorporés aux membranes cellulaires.",
+   "calculs": [],
+   "id": 547
+  },
+  {
+   "dci": "Compléments pour la fertilité masculine",
+   "noms": "Fertilo Forte Denk (L-carnitine, L-arginine, coenzyme Q10, zinc, sélénium, vitamine E, acide folique)",
+   "classe": "nutrition",
+   "formes": "Sachets ou gélules (complément alimentaire)",
+   "indications": [
+    "Proposés en cas d'anomalie du sperme ; bénéfice sur les grossesses non démontré (essai FAZST 2020 : aucun effet du zinc + acide folique)"
+   ],
+   "posologieAdulte": [
+    "1 sachet par jour pendant au moins 3 mois (durée d'un cycle de production des spermatozoïdes), selon la notice"
+   ],
+   "posologieEnfant": [
+    "Sans objet"
+   ],
+   "contreIndications": [
+    "Allergie à un composant"
+   ],
+   "precautions": [
+    "Infertilité du couple (pas de grossesse après 12 mois) : bilan des deux partenaires (spermogramme, ovulation, perméabilité des trompes ; IST, varicocèle, oreillons)",
+    "Mesures efficaces : arrêt du tabac et de l'alcool, perte de poids, éviter la chaleur des testicules, traiter une infection"
+   ],
+   "effetsIndesirables": [
+    "Troubles digestifs"
+   ],
+   "grossesse": "Sans objet (destiné à l'homme).",
+   "motsCles": "fertilité masculine, fertilo forte, infertilité, sperme, spermogramme, L-carnitine, coenzyme Q10, zinc, sélénium",
+   "famille": "Complément alimentaire (antioxydants et acides aminés)",
+   "mecanisme": "Les antioxydants réduiraient le stress oxydatif qui altère l'ADN et la mobilité des spermatozoïdes.",
+   "calculs": [],
+   "id": 548
+  },
+  {
+   "dci": "Bacitracine + néomycine (pommade ou crème)",
+   "noms": "Baneocin, Néomycine-bacitracine",
+   "classe": "dermato",
+   "formes": "Pommade, crème ou poudre (bacitracine 250 UI + néomycine 5 000 UI par g)",
+   "indications": [
+    "Infections cutanées superficielles limitées (impétigo localisé, plaie ou brûlure superficielle infectée)"
+   ],
+   "posologieAdulte": [
+    "Appliquer 2 à 3 fois par jour pendant 7 jours au maximum, sur une petite surface"
+   ],
+   "posologieEnfant": [
+    "Même usage ; prudence chez le nourrisson et le prématuré (absorption)"
+   ],
+   "contreIndications": [
+    "Allergie aux aminosides",
+    "Grande surface, plaie étendue ou brûlure étendue (absorption : atteinte des reins et de l'audition)",
+    "Tympan perforé (pas dans l'oreille)"
+   ],
+   "precautions": [
+    "Néomycine : allergie de contact fréquente (eczéma)",
+    "Impétigo étendu, fièvre, cellulite : antibiotique par voie orale (amoxicilline-clavulanate, cloxacilline)",
+    "Préférer la mupirocine ou l'acide fusidique, la polyvidone iodée ou la chlorhexidine pour les petites plaies",
+    "Usage prolongé : résistances, mycoses"
+   ],
+   "effetsIndesirables": [
+    "Eczéma de contact",
+    "Atteinte rénale ou auditive en cas d'usage sur grande surface"
+   ],
+   "grossesse": "Éviter sur de grandes surfaces pendant la grossesse (aminoside).",
+   "motsCles": "baneocin, néomycine, bacitracine, pommade antibiotique, impétigo, plaie infectée",
+   "famille": "Antibiotique local (polypeptide + aminoside)",
+   "mecanisme": "La bacitracine bloque la paroi des bactéries Gram positif ; la néomycine bloque leur ribosome (Gram négatif et staphylocoque).",
+   "calculs": [],
+   "id": 549
+  },
+  {
+   "dci": "Xylène (solution auriculaire)",
+   "noms": "Cérulyse",
+   "classe": "respiratoire",
+   "formes": "Gouttes auriculaires (xylène 5 %)",
+   "indications": [
+    "Ramollir un bouchon de cérumen avant lavage de l'oreille"
+   ],
+   "posologieAdulte": [
+    "Remplir le conduit auditif, laisser agir 10 à 15 minutes (pas plus), tête penchée, puis laver à l'eau tiède ; 1 à 2 jours"
+   ],
+   "posologieEnfant": [
+    "Plus de 30 mois : même usage, avec prudence"
+   ],
+   "contreIndications": [
+    "Tympan perforé ou suspicion (antécédent d'otite avec écoulement, aérateurs)",
+    "Otite externe ou moyenne",
+    "Enfant de moins de 30 mois"
+   ],
+   "precautions": [
+    "Alternatives simples : huile d'olive ou eau tiède quelques jours, puis lavage doux",
+    "Ne jamais laisser plus de 15 minutes (irritation)",
+    "Lavage avec une seringue sans aiguille, eau à 37 °C, jet vers le haut et l'arrière du conduit"
+   ],
+   "effetsIndesirables": [
+    "Brûlure, irritation du conduit auditif",
+    "Vertiges si l'eau de lavage est froide"
+   ],
+   "grossesse": "Utilisable (usage local bref).",
+   "motsCles": "cérulyse, xylène, bouchon de cérumen, cérumen, oreille bouchée, lavage d'oreille",
+   "famille": "Cérumenolytique",
+   "mecanisme": "Solvant qui dissout et ramollit le cérumen.",
+   "calculs": [],
+   "id": 550
+  },
+  {
+   "dci": "Merbromine (Mercurochrome)",
+   "noms": "Mercurochrome solution",
+   "classe": "hygiene",
+   "formes": "Solution aqueuse 2 % (flacon 60 ml)",
+   "indications": [
+    "Usage ancien : antisepsie des petites plaies superficielles"
+   ],
+   "posologieAdulte": [
+    "Badigeonner la plaie 1 à 2 fois par jour, quelques jours"
+   ],
+   "posologieEnfant": [
+    "Éviter chez le nourrisson ; jamais sur le cordon du nouveau-né (chlorhexidine 7,1 % recommandée par l'OMS)"
+   ],
+   "contreIndications": [
+    "Allergie au mercure",
+    "Grandes plaies, brûlures étendues, muqueuses (absorption de mercure)"
+   ],
+   "precautions": [
+    "Antiseptique faible ; contient du mercure : retiré du marché aux États-Unis et en France (la marque Mercurochrome française contient désormais d'autres antiseptiques) ; lire l'étiquette",
+    "Colore la peau en rouge et masque l'aspect de la plaie (rougeur d'infection)",
+    "Préférer la chlorhexidine ou la polyvidone iodée"
+   ],
+   "effetsIndesirables": [
+    "Allergie",
+    "Intoxication au mercure en cas d'usage répété sur de grandes surfaces"
+   ],
+   "grossesse": "À éviter (mercure).",
+   "motsCles": "mercurochrome, merbromine, antiseptique rouge, plaie",
+   "famille": "Antiseptique mercuriel",
+   "mecanisme": "Les ions mercure se fixent sur les protéines des bactéries (effet bactériostatique faible).",
+   "calculs": [],
+   "id": 551
+  },
+  {
+   "dci": "Peroxyde d'hydrogène (eau oxygénée)",
+   "noms": "Eau oxygénée 10 volumes (3 %), 20 volumes (6 %)",
+   "classe": "hygiene",
+   "formes": "Solution 10 volumes (3 %) ; 20 volumes (6 %) à diluer",
+   "indications": [
+    "Nettoyage d'une plaie souillée (terre, sang séché), en première étape avant l'antisepsie",
+    "Petits saignements superficiels (effet hémostatique)"
+   ],
+   "posologieAdulte": [
+    "Plaie : 10 volumes pur ou 20 volumes dilué de moitié avec de l'eau propre ; puis rincer au sérum physiologique ou à l'eau propre"
+   ],
+   "posologieEnfant": [
+    "Même usage, 10 volumes"
+   ],
+   "contreIndications": [
+    "Cavités fermées, fistules, plaies profondes sous pression (risque d'embolie gazeuse)",
+    "Œil, oreille avec tympan perforé"
+   ],
+   "precautions": [
+    "Antiseptique faible et toxique pour les cellules qui cicatrisent : pas d'usage répété sur une plaie propre",
+    "Lavage des plaies : l'eau propre et le sérum physiologique suffisent ; antisepsie par polyvidone iodée ou chlorhexidine",
+    "20 volumes : ne pas appliquer pur sur la peau (brûlure)",
+    "Conserver à l'abri de la lumière"
+   ],
+   "effetsIndesirables": [
+    "Picotements, blanchiment de la peau",
+    "Retard de cicatrisation (usage répété)",
+    "Embolie gazeuse (irrigation sous pression d'une cavité)"
+   ],
+   "grossesse": "Utilisable.",
+   "motsCles": "eau oxygénée, peroxyde d'hydrogène, plaie souillée, nettoyage plaie, antiseptique",
+   "famille": "Antiseptique oxydant",
+   "mecanisme": "Libère de l'oxygène au contact des tissus (effervescence) : décolle les débris et a une action antiseptique brève.",
+   "calculs": [],
+   "id": 552
+  },
+  {
+   "dci": "Alcool iodé (teinture d'iode)",
+   "noms": "Alcool iodé, teinture d'iode",
+   "classe": "hygiene",
+   "formes": "Solution alcoolique d'iode (1 à 2 %), flacon 60 ml",
+   "indications": [
+    "Antisepsie de la peau saine avant injection, ponction ou petite chirurgie"
+   ],
+   "posologieAdulte": [
+    "Appliquer sur la peau saine, laisser sécher 30 secondes à 2 minutes avant de piquer"
+   ],
+   "posologieEnfant": [
+    "Éviter chez le nouveau-né et le nourrisson de moins de 1 mois (atteinte de la thyroïde) ; préférer la chlorhexidine"
+   ],
+   "contreIndications": [
+    "Allergie à l'iode",
+    "Plaies ouvertes, brûlures, muqueuses (irritation douloureuse)",
+    "Nouveau-né, prématuré"
+   ],
+   "precautions": [
+    "Ne pas utiliser sur de grandes surfaces ni de façon répétée (absorption d'iode)",
+    "Ne pas associer à un antiseptique mercuriel (Mercurochrome) : brûlure",
+    "Pour les plaies : polyvidone iodée aqueuse (Bétadine jaune)"
+   ],
+   "effetsIndesirables": [
+    "Irritation, brûlure, coloration brune de la peau",
+    "Allergie",
+    "Troubles thyroïdiens (usage répété)"
+   ],
+   "grossesse": "Éviter l'usage répété ou étendu (thyroïde du fœtus) ; usage ponctuel avant une injection possible.",
+   "motsCles": "alcool iodé, teinture d'iode, antiseptique, désinfection peau, injection",
+   "famille": "Antiseptique iodé",
+   "mecanisme": "L'iode oxyde les protéines et les membranes des micro-organismes (bactéries, champignons, virus) ; l'alcool renforce et accélère l'effet.",
+   "calculs": [],
+   "id": 553
+  },
+  {
+   "dci": "Pommade camphrée",
+   "noms": "Pommade camphrée, baume au camphre",
+   "classe": "dermato",
+   "formes": "Pommade (camphre, parfois avec menthol et eucalyptus)",
+   "indications": [
+    "Douleurs musculaires et articulaires bénignes (frictions)",
+    "Sensation de nez bouché (en friction sur le thorax, adulte)"
+   ],
+   "posologieAdulte": [
+    "Friction de la zone douloureuse 2 à 3 fois par jour"
+   ],
+   "posologieEnfant": [
+    "Contre-indiquée chez l'enfant de moins de 30 mois et chez l'enfant ayant fait des convulsions (le camphre provoque des convulsions)"
+   ],
+   "contreIndications": [
+    "Enfant de moins de 30 mois",
+    "Antécédent de convulsions",
+    "Peau lésée, muqueuses, narines"
+   ],
+   "precautions": [
+    "Jamais dans le nez ni dans la bouche ; ne jamais avaler (quelques grammes peuvent provoquer des convulsions chez l'enfant) : ranger hors de portée",
+    "Ne pas appliquer sur une grande surface ni sous un pansement fermé"
+   ],
+   "effetsIndesirables": [
+    "Irritation, rougeur",
+    "Convulsions en cas d'ingestion ou d'usage excessif chez l'enfant"
+   ],
+   "grossesse": "Éviter (absorption de camphre) ; ne pas appliquer sur les seins pendant l'allaitement.",
+   "motsCles": "pommade camphrée, camphre, baume, friction, douleur musculaire, rhume",
+   "famille": "Révulsif local (terpène)",
+   "mecanisme": "Stimule les récepteurs du froid et du chaud de la peau, ce qui détourne la sensation de douleur (effet révulsif).",
+   "calculs": [],
+   "id": 554
+  },
+  {
+   "dci": "Oxyde de zinc (pommade)",
+   "noms": "Pommade à l'oxyde de zinc, Mitosyl, Aloplastine",
+   "classe": "dermato",
+   "formes": "Pommade 10 à 25 %",
+   "indications": [
+    "Érythème fessier du nourrisson (dermite du siège) : traitement et prévention",
+    "Protection de la peau irritée (autour d'une stomie, incontinence)"
+   ],
+   "posologieAdulte": [
+    "Appliquer en couche épaisse sur la peau propre et sèche, à chaque change ou 2 à 3 fois par jour"
+   ],
+   "posologieEnfant": [
+    "Érythème fessier : changer souvent la couche, laver à l'eau et sécher, laisser les fesses à l'air, puis pommade à chaque change",
+    "Plaques rouges vives avec petits boutons autour : penser à une candidose (miconazole ou nystatine en crème)"
+   ],
+   "contreIndications": [
+    "Allergie à un composant (lanoline, huile de poisson)"
+   ],
+   "precautions": [
+    "Pas sur une plaie infectée ou suintante",
+    "Érythème qui ne guérit pas en 3 jours : rechercher une mycose ou une infection bactérienne"
+   ],
+   "effetsIndesirables": [
+    "Rares réactions allergiques"
+   ],
+   "grossesse": "Utilisable.",
+   "motsCles": "oxyde de zinc, pommade zinc, érythème fessier, fesses rouges, dermite du siège, change",
+   "famille": "Protecteur cutané",
+   "mecanisme": "Forme une couche protectrice qui isole la peau de l'humidité et des irritants (urines, selles) ; légèrement asséchant et astringent.",
+   "calculs": [],
+   "id": 555
   }
  ],
  "categoriesPathologies": [
@@ -38457,6 +38837,377 @@
       "Chlorhexidine : pour désinfecter la peau et les mains, et pour les soins du cordon.",
       "Sérum salé 0,9 % : pour laver les plaies et les yeux.",
       "Alcool à 70 % : pour la peau saine seulement, avant une injection."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "materiel",
+   "titre": "Matériel et consommables",
+   "pictogramme": "seringue",
+   "couleur": "#37474F",
+   "intro": "Choisir la bonne taille de cathéter, de sonde ou de fil, et bien utiliser le petit matériel : tout le matériel stérile est à usage unique.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Cathéters veineux périphériques (Abbocath, Venflon)",
+     "colonnes": [
+      "Calibre",
+      "Couleur",
+      "Débit (environ)",
+      "Usage"
+     ],
+     "lignes": [
+      [
+       "14 G",
+       "Orange",
+       "250–300 ml/min",
+       "Choc hémorragique, traumatisme grave (adulte)"
+      ],
+      [
+       "16 G",
+       "Gris",
+       "180–200 ml/min",
+       "Remplissage rapide, chirurgie (adulte)"
+      ],
+      [
+       "18 G",
+       "Vert",
+       "90–100 ml/min",
+       "Transfusion, césarienne, hémorragie du post-partum"
+      ],
+      [
+       "20 G",
+       "Rose",
+       "50–60 ml/min",
+       "Adulte : perfusion standard, transfusion possible"
+      ],
+      [
+       "22 G",
+       "Bleu",
+       "30–35 ml/min",
+       "Enfant, sujet âgé, petites veines"
+      ],
+      [
+       "24 G",
+       "Jaune",
+       "15–20 ml/min",
+       "Nourrisson, nouveau-né"
+      ],
+      [
+       "26 G",
+       "Violet",
+       "≈ 13 ml/min",
+       "Prématuré"
+      ]
+     ],
+     "note": "Choisir le plus petit calibre adapté au traitement, sauf urgence hémorragique (2 voies de gros calibre). Changer le cathéter et le site toutes les 72 à 96 h ou en cas de rougeur."
+    },
+    {
+     "type": "tableau",
+     "titre": "Aiguilles (couleurs ISO)",
+     "colonnes": [
+      "Calibre",
+      "Couleur",
+      "Usage"
+     ],
+     "lignes": [
+      [
+       "18 G",
+       "Rose",
+       "Pompage et reconstitution des médicaments"
+      ],
+      [
+       "21 G",
+       "Vert",
+       "Prélèvement sanguin, IM ou IV chez l'adulte"
+      ],
+      [
+       "22 G",
+       "Noir",
+       "IM chez l'adulte mince"
+      ],
+      [
+       "23 G",
+       "Bleu",
+       "IM chez l'enfant, prélèvement de petites veines"
+      ],
+      [
+       "25 G",
+       "Orange",
+       "Sous-cutanée, IM du nourrisson (cuisse)"
+      ],
+      [
+       "26–27 G",
+       "Marron, gris",
+       "Intradermique (BCG, IDR), insuline"
+      ]
+     ],
+     "note": "Ne jamais recapuchonner une aiguille : collecteur (boîte de sécurité) immédiatement après usage."
+    },
+    {
+     "type": "liste",
+     "titre": "Seringues",
+     "elements": [
+      "Seringue de 1 ml : vaccins, insuline (seringue graduée en unités), petites doses de l'enfant.",
+      "Seringues de 2 et 5 ml : injections IM et IV courantes ; 10 ml : dilution, injection IV lente, rinçage des cathéters ; 20 et 50 ml : lavage de plaie, alimentation par sonde, pousse-seringue.",
+      "Choisir la plus petite seringue qui contient le volume, pour une dose précise.",
+      "Seringue autobloquante pour les vaccins (PEV) ; jamais de réutilisation, même pour le même patient."
+     ]
+    },
+    {
+     "type": "tableau",
+     "titre": "Sondes vésicales (urinaires) : taille selon l'âge",
+     "colonnes": [
+      "Patient",
+      "Taille (Ch = Fr)"
+     ],
+     "lignes": [
+      [
+       "Nouveau-né",
+       "5–6 (sonde d'alimentation si besoin)"
+      ],
+      [
+       "Nourrisson",
+       "6–8"
+      ],
+      [
+       "Enfant de 2 à 10 ans",
+       "8–10"
+      ],
+      [
+       "Adolescent",
+       "10–12"
+      ],
+      [
+       "Femme",
+       "12–14"
+      ],
+      [
+       "Homme",
+       "14–16"
+      ],
+      [
+       "Hématurie avec caillots",
+       "18–22 (sonde à 3 voies)"
+      ]
+     ],
+     "note": "Pose stérile (gants stériles, antiseptique, lubrifiant), ballonnet gonflé à l'eau stérile (pas d'air, pas de sérum salé) seulement après le retour d'urine. Rétention chez l'homme impossible à sonder : ne pas forcer (cathéter sus-pubien par un médecin)."
+    },
+    {
+     "type": "liste",
+     "titre": "Poche à urine et sonde à demeure",
+     "elements": [
+      "Système clos : ne pas déconnecter la poche de la sonde.",
+      "Garder la poche sous le niveau de la vessie, jamais posée au sol ; vider quand elle est remplie aux deux tiers.",
+      "Retirer la sonde dès qu'elle n'est plus indispensable (infection urinaire liée aux sondes)."
+     ]
+    },
+    {
+     "type": "tableau",
+     "titre": "Sondes naso-gastriques",
+     "colonnes": [
+      "Patient",
+      "Taille (Ch = Fr)"
+     ],
+     "lignes": [
+      [
+       "Prématuré, nouveau-né",
+       "5–8"
+      ],
+      [
+       "Nourrisson",
+       "8–10"
+      ],
+      [
+       "Enfant",
+       "10–12"
+      ],
+      [
+       "Adolescent",
+       "12–14"
+      ],
+      [
+       "Adulte",
+       "14–18 (aspiration : 16–18)"
+      ]
+     ],
+     "note": "Longueur : du bout du nez au lobe de l'oreille, puis à l'appendice xiphoïde (nouveau-né : jusqu'à mi-chemin entre l'appendice xiphoïde et l'ombilic). Vérifier la position avant chaque utilisation : aspiration de liquide gastrique (pH ≤ 5 si bandelette disponible)."
+    },
+    {
+     "type": "liste",
+     "titre": "Trousses de perfusion et de transfusion",
+     "elements": [
+      "Perfuseur standard (macro-goutte) : 20 gouttes = 1 ml. Débit en gouttes/min = volume (ml) × 20 ÷ durée (min). Exemple : 500 ml en 4 h = 500 × 20 ÷ 240 ≈ 42 gouttes/min.",
+      "Perfuseur pédiatrique à burette (micro-goutte) : 60 gouttes = 1 ml ; nombre de gouttes/min = nombre de ml/h. Indispensable chez le nourrisson et l'enfant (risque de surcharge).",
+      "Transfuseur : filtre de 170 à 200 µm ; généralement 15 gouttes = 1 ml (vérifier l'emballage). Ne jamais perfuser du sang avec un perfuseur sans filtre.",
+      "Purger la tubulure pour chasser l'air ; noter l'heure de pose et changer la tubulure toutes les 72 à 96 h, et après chaque transfusion."
+     ]
+    },
+    {
+     "type": "tableau",
+     "titre": "Sutures : choix du fil",
+     "colonnes": [
+      "Région",
+      "Fil",
+      "Retrait des points"
+     ],
+     "lignes": [
+      [
+       "Visage",
+       "Non résorbable 5-0 ou 6-0 (nylon)",
+       "5 jours"
+      ],
+      [
+       "Cuir chevelu",
+       "Non résorbable 3-0 ou 4-0",
+       "7 jours"
+      ],
+      [
+       "Tronc, bras",
+       "Non résorbable 3-0 ou 4-0",
+       "7 à 10 jours"
+      ],
+      [
+       "Jambes, mains, pieds",
+       "Non résorbable 3-0 ou 4-0",
+       "10 à 14 jours"
+      ],
+      [
+       "Articulations (genou, coude)",
+       "Non résorbable 3-0",
+       "14 jours"
+      ],
+      [
+       "Plans profonds, muqueuses, périnée (épisiotomie, déchirure)",
+       "Résorbable : Vicryl 2-0 ou 3-0 (rapide pour le périnée), catgut chromé",
+       "Ne se retirent pas"
+      ]
+     ],
+     "note": "Plaie de plus de 6 à 12 h, morsure ou plaie très souillée : laver abondamment, ne pas fermer (fermeture différée à 48–72 h), sauf visage. Vérifier la vaccination antitétanique."
+    },
+    {
+     "type": "liste",
+     "titre": "Lames de bistouri",
+     "elements": [
+      "N° 11 (pointue) : incision d'abcès, ponction, petites incisions précises.",
+      "N° 15 (petite lame courbe) : petites incisions de la peau, chirurgie fine.",
+      "N° 10 et n° 20 à 24 (grandes lames courbes, ex. n° 22) : grandes incisions de l'adulte (laparotomie, césarienne).",
+      "Monter et démonter la lame avec une pince, jamais avec les doigts ; jeter dans le collecteur."
+     ]
+    },
+    {
+     "type": "tableau",
+     "titre": "Oxygène : choix de l'interface",
+     "colonnes": [
+      "Interface",
+      "Débit",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Lunettes nasales (canule) – nouveau-né",
+       "0,5–1 l/min",
+       "Ne pas dépasser 2 l/min"
+      ],
+      [
+       "Lunettes nasales – nourrisson et enfant",
+       "1–2 l/min",
+       "OMS : interface de choix chez l'enfant"
+      ],
+      [
+       "Lunettes nasales – adulte",
+       "1–5 l/min",
+       "Environ 24 à 40 % d'oxygène"
+      ],
+      [
+       "Masque simple",
+       "5–10 l/min",
+       "Jamais moins de 5 l/min (le patient réinspire son CO₂)"
+      ],
+      [
+       "Masque à réservoir (haute concentration)",
+       "10–15 l/min",
+       "Ballon toujours gonflé ; détresse grave, choc"
+      ]
+     ],
+     "note": "Objectif : SpO₂ ≥ 94 % en cas de détresse (OMS), puis 90 % ou plus une fois stable (88–92 % dans la BPCO). Humidifier au-delà de 4 l/min chez l'adulte et chez le nourrisson."
+    },
+    {
+     "type": "tableau",
+     "titre": "Ballon auto-remplisseur (BAVU) et masques",
+     "colonnes": [
+      "Patient",
+      "Ballon",
+      "Masque",
+      "Fréquence des insufflations"
+     ],
+     "lignes": [
+      [
+       "Nouveau-né",
+       "240–500 ml",
+       "N° 0 (prématuré), n° 1 (à terme)",
+       "40 à 60 par minute (pendant la 1re minute de vie)"
+      ],
+      [
+       "Enfant",
+       "500 ml",
+       "Taille couvrant nez et bouche, sans appuyer sur les yeux",
+       "12 à 20 par minute, ou 15 compressions pour 2 insufflations"
+      ],
+      [
+       "Adulte",
+       "1 500 ml",
+       "N° 4 ou 5",
+       "10 par minute, ou 30 compressions pour 2 insufflations"
+      ]
+     ],
+     "note": "Tête en position neutre chez le nouveau-né (légère extension chez l'adulte), masque bien appliqué en « C-E ». Insufflation efficace : le thorax se soulève. Toujours prêt, vérifié et propre en salle d'accouchement."
+    },
+    {
+     "type": "liste",
+     "titre": "Poire en caoutchouc (n° 4)",
+     "elements": [
+      "Aspiration douce de la bouche puis du nez du nouveau-né seulement s'il est encombré (pas d'aspiration de routine).",
+      "Nourrisson enrhumé : lavage du nez au sérum physiologique, puis aspiration douce."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Pansements et immobilisation",
+     "elements": [
+      "Compresses stériles : nettoyage et pansement des plaies ; gaze hydrophile et ouate : rembourrage, absorption (jamais d'ouate directement sur une plaie).",
+      "Tulle gras : brûlures et plaies superficielles qui ne doivent pas coller ; changer tous les 2 à 3 jours.",
+      "Bandes élastiques (5, 10, 15 cm) : maintien des pansements, entorses, contention ; enrouler de l'extrémité vers le cœur, sans serrer ; vérifier la couleur et la chaleur des doigts.",
+      "Bandes plâtrées (10, 15, 20 cm) : attelles et plâtres ; bien rembourrer les reliefs osseux ; plâtre circulaire sur une fracture récente : risque de compression, surveiller douleur, gonflement, couleur et sensibilité des doigts dans les 24 à 48 h.",
+      "Sparadrap : fixation des pansements et des cathéters ; ne pas faire le tour complet d'un membre."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Gants, masques, protection",
+     "elements": [
+      "Gants d'examen non stériles : contact avec le sang, les liquides biologiques, les muqueuses.",
+      "Gants chirurgicaux stériles (tailles 6 à 8,5) : chirurgie, accouchement, sondage urinaire, pose de cathéter central.",
+      "Hygiène des mains avant et après chaque patient, même avec des gants (friction hydro-alcoolique ou lavage au savon).",
+      "Masque chirurgical : patient qui tousse, gestes au contact des muqueuses ; masque FFP2/N95 : tuberculose, suspicion d'infection respiratoire grave."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Kit d'accouchement stérile (OMS)",
+     "elements": [
+      "Contenu minimal : savon, champ propre, gants stériles, lame stérile, 2 clamps ou liens stériles pour le cordon, compresses, alèse.",
+      "À préparer aussi : ocytocine 10 UI (prévention de l'hémorragie), chlorhexidine 7,1 % pour le cordon, tétracycline pommade ophtalmique, vitamine K1, BAVU néonatal vérifié, linge chaud pour le bébé.",
+      "Couper le cordon 1 à 3 minutes après la naissance (sauf réanimation nécessaire) avec une lame stérile."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Autres consommables",
+     "elements": [
+      "Test de grossesse urinaire : positif dès le jour du retard des règles ; un test négatif trop précoce est à refaire 1 semaine plus tard. Toujours faire un test avant une radiographie ou un médicament dangereux chez une femme en âge de procréer.",
+      "Couches pour adultes : changer dès qu'elles sont souillées, laver et sécher la peau, oxyde de zinc pour protéger ; prévenir les escarres (changer de position toutes les 2 à 3 h)."
      ]
     }
    ]
