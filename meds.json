@@ -1,5 +1,5 @@
 {
- "version": 77,
+ "version": 78,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -731,6 +731,7 @@
     "Arauclav Nourrisson",
     "Augmacillin",
     "Augmentin",
+    "Augmentin Nourrisson",
     "Aureoclav",
     "Clavamox",
     "Clavie",
@@ -2831,7 +2832,7 @@
   {
    "id": 37,
    "dci": "Oméprazole",
-   "noms": "Mopral, Losec, Omeshal, Omeshal D (+ dompéridone), Omez, Enocid, Prazole kit (Shalina : oméprazole 20 mg + amoxicilline 1 g + clarithromycine 500 mg + lactobacille, 2 fois par jour pendant 7 jours), Pantec 20 et 40 mg (PROMED : pantoprazole, même classe ; injectable 40 mg), Promzole 20 mg (PROMED)",
+   "noms": "Mopral, Losec, Omeshal, Omeshal D (+ dompéridone), Omez, Enocid, Prazole kit (Shalina : oméprazole 20 mg + amoxicilline 1 g + clarithromycine 500 mg + lactobacille, 2 fois par jour pendant 7 jours), Promzole 20 mg (PROMED)",
    "classe": "digestif",
    "formes": "Gélule 10, 20 et 40 mg ; injectable 40 mg",
    "indications": [
@@ -2864,7 +2865,7 @@
     "Hypomagnésémie (traitement prolongé)"
    ],
    "grossesse": "Utilisable pendant la grossesse si nécessaire.",
-   "motsCles": "ulcère, gastrite, brûlures d'estomac, reflux, RGO, épigastralgie, Helicobacter, pantec, pantoprazole, promzole 20 mg, dafrazol, ivepral, omekar, omeprin, omescot, omex, omezole, omlink, sezol, zocid",
+   "motsCles": "ulcère, gastrite, brûlures d'estomac, reflux, RGO, épigastralgie, Helicobacter, pantoprazole, promzole 20 mg, dafrazol, ivepral, omekar, omeprin, omescot, omex, omezole, omlink, sezol, zocid",
    "famille": "Inhibiteur de la pompe à protons (IPP)",
    "mecanisme": "Bloque la pompe à protons des cellules de l'estomac : réduit fortement la sécrétion d'acide (ulcère, reflux, hémorragie digestive).",
    "marquesRdc": [
@@ -4636,11 +4637,10 @@
     "Hypersensibilité (rare)"
    ],
    "grossesse": "Voir TLD.",
-   "motsCles": "VIH enfant, SIDA, ARV, antirétroviral pédiatrique, acriptega, myitega dt, trivicay, viropil",
+   "motsCles": "VIH enfant, SIDA, ARV, antirétroviral pédiatrique, myitega dt, trivicay, viropil",
    "famille": "Inhibiteur de l'intégrase (INI)",
    "mecanisme": "Empêche l'intégrase du VIH d'insérer l'ADN viral dans l'ADN de la cellule hôte : barrière élevée à la résistance (dolutégravir).",
    "marquesRdc": [
-    "Acriptega",
     "Myitega Dt",
     "Trivicay",
     "Viropil"
@@ -5476,7 +5476,7 @@
   {
    "id": 85,
    "dci": "Benzylpénicilline (pénicilline G)",
-   "noms": "Pénicilline G sodique, Extencilline (≠ benzathine)",
+   "noms": "Pénicilline G sodique",
    "classe": "antibiotiques",
    "formes": "Poudre pour injection 1 MUI (600 mg) et 5 MUI (3 g)",
    "indications": [
@@ -5529,7 +5529,8 @@
    ],
    "motsCles": "pneumonie, méningite, syphilis, tétanos, diphtérie, gangrène",
    "famille": "Bêtalactamine – pénicilline",
-   "mecanisme": "Se fixe aux protéines liant les pénicillines (PLP) et bloque la synthèse de la paroi bactérienne (peptidoglycane) : effet bactéricide sur les bactéries en multiplication."
+   "mecanisme": "Se fixe aux protéines liant les pénicillines (PLP) et bloque la synthèse de la paroi bactérienne (peptidoglycane) : effet bactéricide sur les bactéries en multiplication.",
+   "marquesRdc": []
   },
   {
    "id": 86,
@@ -9915,11 +9916,10 @@
     "Céphalées, tension mammaire"
    ],
    "grossesse": "N'interrompt pas une grossesse établie ; sans effet nocif connu.",
-   "motsCles": "pilule du lendemain, contraception d'urgence, viol, violences sexuelles, rapport non protégé, avibela, contra +, levo bd, medrapid, norpil, one day, planfam, protec-pill",
+   "motsCles": "pilule du lendemain, contraception d'urgence, viol, violences sexuelles, rapport non protégé, contra +, levo bd, medrapid, norpil, one day, planfam, protec-pill",
    "famille": "Contraception hormonale progestative",
    "mecanisme": "Progestatif à forte dose qui retarde ou bloque l'ovulation s'il est pris avant celle-ci (dans les 72 à 120 h) ; n'interrompt pas une grossesse installée.",
    "marquesRdc": [
-    "Avibela",
     "Contra +",
     "Levo Bd",
     "Medrapid",
@@ -18276,7 +18276,7 @@
     "Effets généraux (surface étendue, longue durée, enfant)"
    ],
    "grossesse": "Utilisable sur de petites surfaces, en cure courte.",
-   "motsCles": "eczéma, psoriasis, dermocorticoïde, lichen, amol-g, bactilief, betalen, betamate, betastene, célestène, cortistène, delabact, dermazema, gumethyl, labenda, tridox, xentol",
+   "motsCles": "eczéma, psoriasis, dermocorticoïde, lichen, amol-g, bactilief, betalen, betamate, betastene, cortistène, delabact, dermazema, gumethyl, labenda, tridox, xentol",
    "famille": "Dermocorticoïde",
    "mecanisme": "Corticoïde appliqué sur la peau : effet anti-inflammatoire et antiprurigineux local (eczéma, dermatites) ; puissance variable.",
    "marquesRdc": [
@@ -18286,7 +18286,6 @@
     "Betamate",
     "Betastene",
     "Cortistène",
-    "Célestène",
     "Delabact (+ clotrimazole)",
     "Dermazema (+ clotrimazole, gentamicine)",
     "Gumethyl",
@@ -18985,13 +18984,11 @@
     "Dépôts cornéens (rares)"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "ulcère de cornée, kératite bactérienne, antibiopur, oflocet, ofloque, opt-o, optiflox",
+   "motsCles": "ulcère de cornée, kératite bactérienne, antibiopur, opt-o, optiflox",
    "famille": "Antibiotique ophtalmique",
    "mecanisme": "Antibiotique appliqué sur l'œil qui bloque la synthèse des protéines ou de l'ADN des bactéries responsables de conjonctivites et kératites.",
    "marquesRdc": [
     "Antibiopur",
-    "Oflocet",
-    "Ofloque",
     "Opt-O",
     "Optiflox"
    ]
@@ -26129,7 +26126,7 @@
   },
   {
    "dci": "Papavérine",
-   "noms": "Spasmine, Papavérine injectable, Spasmin 40 mg (PROMED : comprimé et injectable)",
+   "noms": "Spasmine (sur le proforma PROMED : papavérine ; à ne pas confondre avec la Spasmine française, à base d'aubépine et de valériane), Papavérine injectable, Spasmin 40 mg (PROMED : comprimé et injectable)",
    "classe": "digestif",
    "formes": "Comprimé 40 mg ; ampoule 40 mg/2 ml",
    "indications": [
@@ -28051,7 +28048,7 @@
   },
   {
    "dci": "Lévocétirizine",
-   "noms": "Xyzall, Levocizine, Alatrol, Levotoux (+ chlorphénamine)",
+   "noms": "Xyzall, Levocizine",
    "classe": "respiratoire",
    "formes": "Comprimé 5 mg ; solution buvable 0,5 mg/ml",
    "indications": [
