@@ -1,5 +1,5 @@
 {
- "version": 72,
+ "version": 73,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -163,7 +163,7 @@
   {
    "id": 2,
    "dci": "Artésunate (injectable)",
-   "noms": "Artesun, Larinate, M-Arret, Artemed",
+   "noms": "Artesun, Larinate, M-Arret, Artemed 30, 60, 120, 150, 180, 240 mg (PROMED)",
    "classe": "antipaludiques",
    "formes": "Poudre pour injection 60 mg (avec bicarbonate de sodium et solvant) ; suppositoire 100 mg (pré-transfert)",
    "indications": [
@@ -236,7 +236,7 @@
      ]
     }
    ],
-   "motsCles": "malaria grave, palu grave, neuropaludisme, paludisme cérébral, coma, convulsions, anémie sévère",
+   "motsCles": "malaria grave, palu grave, neuropaludisme, paludisme cérébral, coma, convulsions, anémie sévère, artemed 30, 60, 120, 150, 180, 240 mg",
    "famille": "Dérivé de l'artémisinine",
    "mecanisme": "Activé au contact du fer de l'hème parasitaire, il libère des radicaux libres qui endommagent les protéines du Plasmodium : réduction très rapide de la parasitémie, y compris des formes jeunes."
   },
@@ -645,7 +645,7 @@
   {
    "id": 9,
    "dci": "Ceftriaxone",
-   "noms": "Rocéphine, Triaxone, Cefjoy, Riaxone-S (+ sulbactam), Tazex (+ tazobactam)",
+   "noms": "Rocéphine, Triaxone, Cefjoy, Riaxone-S (+ sulbactam), Tazex (+ tazobactam), Procef 1 g (PROMED)",
    "classe": "antibiotiques",
    "formes": "Poudre pour injection 250 mg, 500 mg, 1 g, 2 g",
    "indications": [
@@ -715,7 +715,7 @@
      "doseMax": 4000
     }
    ],
-   "motsCles": "méningite, sepsis, septicémie, pneumonie sévère, pyélonéphrite, typhoïde, gonococcie, IST, gonorrhée, chaude-pisse, écoulement urétral",
+   "motsCles": "méningite, sepsis, septicémie, pneumonie sévère, pyélonéphrite, typhoïde, gonococcie, IST, gonorrhée, chaude-pisse, écoulement urétral, procef",
    "famille": "Bêtalactamine – céphalosporine",
    "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération."
   },
@@ -1294,7 +1294,7 @@
   {
    "id": 18,
    "dci": "Paracétamol",
-   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac), Promedol effervescent (+ tramadol), Fervex (+ phéniramine, vitamine C), Sinutab (+ pseudoéphédrine), Paralgan (sirop, comprimé 500 mg, Forte 1 000 mg, IV), Dr Cold (+ chlorphénamine, phényléphrine, caféine) (exemples)",
+   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac), Promedol effervescent (+ tramadol), Fervex (+ phéniramine, vitamine C), Sinutab (+ pseudoéphédrine), Dr Cold (+ chlorphénamine, phényléphrine, caféine), Paralgan (PROMED : suspension 120 mg/5 ml, comprimés 500 mg et 1 000 mg, perfusion IV 1 000 mg), Sparet Forte (Unique : acide méfénamique 500 mg + paracétamol 325 mg) (exemples)",
    "classe": "antalgiques",
    "formes": "Comprimé 100, 500 mg et 1 g ; sirop 120 mg/5 ml ; suppositoire ; perfusion 10 mg/ml",
    "indications": [
@@ -1353,7 +1353,7 @@
      "doseMax": 1000
     }
    ],
-   "motsCles": "douleur, fièvre, céphalée, mal de tête, antalgique, antipyrétique, fervex, sinutab, paralgan, paralgan, dr cold",
+   "motsCles": "douleur, fièvre, céphalée, mal de tête, antalgique, antipyrétique, fervex, sinutab, paralgan, paralgan, dr cold, paralgan, sparet forte",
    "famille": "Antalgique non opioïde (paracétamol)",
    "mecanisme": "Inhibe la synthèse des prostaglandines dans le système nerveux central : effet antalgique et antipyrétique, sans effet anti-inflammatoire notable."
   },
@@ -1431,7 +1431,7 @@
   {
    "id": 20,
    "dci": "Diclofénac",
-   "noms": "Voltarène, Cataflam, Rufenac, Olfen, Diclomex, Fak-50, Dicloran, Fakpar (+ paracétamol), Alivio (+ paracétamol, chlorphénamine), Rhumalgan",
+   "noms": "Voltarène, Cataflam, Rufenac, Olfen, Diclomex, Fak-50, Dicloran, Fakpar (+ paracétamol), Alivio (+ paracétamol, chlorphénamine), Rhumalgan (PROMED : injectable 75 mg/3 ml, gel, spray avec menthol et salicylate de méthyle)",
    "classe": "antalgiques",
    "formes": "Comprimé 25 et 50 mg ; ampoule IM 75 mg/3 ml",
    "indications": [
@@ -1463,7 +1463,7 @@
     "Douleur au point d'injection"
    ],
    "grossesse": "À éviter au 1er trimestre ; contre-indiqué à partir de 24 SA.",
-   "motsCles": "douleur, colique néphrétique, lombalgie, rhumatisme, AINS, inflammation",
+   "motsCles": "douleur, colique néphrétique, lombalgie, rhumatisme, AINS, inflammation, rhumalgan",
    "famille": "Anti-inflammatoire non stéroïdien (AINS)",
    "mecanisme": "Inhibe les cyclo-oxygénases (COX-1 et COX-2) et la synthèse des prostaglandines : effets antalgique, antipyrétique et anti-inflammatoire ; risque digestif, rénal et hémorragique."
   },
@@ -1620,7 +1620,7 @@
   {
    "id": 24,
    "dci": "Albendazole",
-   "noms": "Zentel, Tanzol, Zantol, Alizole, Tanzol sirop",
+   "noms": "Zentel, Zantol, Alizole, Tanzol (Shalina : comprimé 400 mg, suspension 400 mg/10 ml ; Tanzol Plus avec ivermectine 6 mg)",
    "classe": "antiparasitaires",
    "formes": "Comprimé 400 mg ; suspension 200 mg/5 ml",
    "indications": [
@@ -1652,14 +1652,14 @@
     "Traitement prolongé : élévation des transaminases, alopécie, leucopénie"
    ],
    "grossesse": "Contre-indiqué au 1er trimestre ; déparasitage possible à partir du 2e trimestre.",
-   "motsCles": "vers, verminose, ascaris, ankylostome, oxyure, déparasitage, anguillule",
+   "motsCles": "vers, verminose, ascaris, ankylostome, oxyure, déparasitage, anguillule, tanzol",
    "famille": "Benzimidazolé (anthelminthique)",
    "mecanisme": "Se lie à la tubuline des vers et bloque la formation des microtubules et l'absorption du glucose : mort lente des helminthes intestinaux et tissulaires."
   },
   {
    "id": 25,
    "dci": "Mébendazole",
-   "noms": "Vermox, Mebamex, Wormex comprimés et suspension (Shalina)",
+   "noms": "Vermox, Mebamex, Wormex (Shalina : comprimés 100 et 500 mg, suspension 100 mg/5 ml)",
    "classe": "antiparasitaires",
    "formes": "Comprimé 100 et 500 mg",
    "indications": [
@@ -1686,7 +1686,7 @@
     "Rare : réactions allergiques, convulsions chez le nourrisson"
    ],
    "grossesse": "Contre-indiqué au 1er trimestre ; possible ensuite.",
-   "motsCles": "vers, verminose, ascaris, ankylostome, oxyure, déparasitage, wormex",
+   "motsCles": "vers, verminose, ascaris, ankylostome, oxyure, déparasitage, wormex, wormex",
    "famille": "Benzimidazolé (anthelminthique)",
    "mecanisme": "Se lie à la tubuline des vers et bloque la formation des microtubules et l'absorption du glucose : mort lente des helminthes intestinaux et tissulaires."
   },
@@ -1813,7 +1813,7 @@
   {
    "id": 28,
    "dci": "Nystatine",
-   "noms": "Mycostatine, Polygynax (+ néomycine, polymyxine B), Cyclomax ovules (Arauphar : nystatine 100 000 UI + néomycine 100 mg + polymyxine B 40 000 UI + hydrocortisone 5 mg)",
+   "noms": "Mycostatine, Polygynax (+ néomycine, polymyxine B), Cyclomax ovules (Arauphar : nystatine 100 000 UI + néomycine 100 mg + polymyxine B 40 000 UI ; hydrocortisone 5 mg selon le distributeur)",
    "classe": "antiparasitaires",
    "formes": "Suspension buvable 100 000 UI/ml ; comprimé vaginal 100 000 UI",
    "indications": [
@@ -1843,7 +1843,7 @@
     "Irritation locale"
    ],
    "grossesse": "Utilisable (pas d'absorption systémique).",
-   "motsCles": "muguet, candidose buccale, mycose vaginale, cyclomax",
+   "motsCles": "muguet, candidose buccale, mycose vaginale, cyclomax, cyclomax",
    "famille": "Antifongique polyène",
    "mecanisme": "Se fixe à l'ergostérol de la membrane fongique et y crée des pores : fuite du contenu cellulaire et mort du champignon ; néphrotoxique par voie IV."
   },
@@ -2082,7 +2082,7 @@
   {
    "id": 34,
    "dci": "Metformine",
-   "noms": "Glucophage, Stagid, Shalformin, Proformine, Gliben M (+ glibenclamide)",
+   "noms": "Glucophage, Stagid, Shalformin, Gliben M (+ glibenclamide), Proformine 500, 850 et 1 000 mg (PROMED)",
    "classe": "diabete",
    "formes": "Comprimé 500, 850 et 1000 mg",
    "indications": [
@@ -2114,7 +2114,7 @@
     "Acidose lactique (rare, grave)"
    ],
    "grossesse": "Peut être poursuivie selon l'avis médical ; l'insuline reste la référence pendant la grossesse.",
-   "motsCles": "diabète type 2, sucre, glycémie",
+   "motsCles": "diabète type 2, sucre, glycémie, proformine 500, 850 et 1 000 mg",
    "famille": "Biguanide (antidiabétique)",
    "mecanisme": "Diminue la production de glucose par le foie et améliore la sensibilité à l'insuline, sans hypoglycémie ni prise de poids."
   },
@@ -2212,7 +2212,7 @@
   {
    "id": 37,
    "dci": "Oméprazole",
-   "noms": "Mopral, Losec, Omeshal, Omeshal D (+ dompéridone), Omez, Enocid, Promzole, Prazole kit (Shalina : oméprazole 20 mg + amoxicilline 1 g + clarithromycine 500 mg + lactobacille, 2 fois par jour pendant 7 jours)",
+   "noms": "Mopral, Losec, Omeshal, Omeshal D (+ dompéridone), Omez, Enocid, Prazole kit (Shalina : oméprazole 20 mg + amoxicilline 1 g + clarithromycine 500 mg + lactobacille, 2 fois par jour pendant 7 jours), Pantec 20 et 40 mg (PROMED : pantoprazole, même classe ; injectable 40 mg), Promzole 20 mg (PROMED)",
    "classe": "digestif",
    "formes": "Gélule 10, 20 et 40 mg ; injectable 40 mg",
    "indications": [
@@ -2245,7 +2245,7 @@
     "Hypomagnésémie (traitement prolongé)"
    ],
    "grossesse": "Utilisable pendant la grossesse si nécessaire.",
-   "motsCles": "ulcère, gastrite, brûlures d'estomac, reflux, RGO, épigastralgie, Helicobacter",
+   "motsCles": "ulcère, gastrite, brûlures d'estomac, reflux, RGO, épigastralgie, Helicobacter, pantec, pantoprazole, promzole 20 mg",
    "famille": "Inhibiteur de la pompe à protons (IPP)",
    "mecanisme": "Bloque la pompe à protons des cellules de l'estomac : réduit fortement la sécrétion d'acide (ulcère, reflux, hémorragie digestive)."
   },
@@ -2292,7 +2292,7 @@
   {
    "id": 39,
    "dci": "Zinc (sulfate)",
-   "noms": "Zinc dispersible, Predzinc, Cezinc, Cezine, Pedzing",
+   "noms": "Zinc dispersible, Predzinc, Cezinc, Cezine, Pedzing, Prozinc 20 mg dispersible (PROMED)",
    "classe": "digestif",
    "formes": "Comprimé dispersible 20 mg",
    "indications": [
@@ -2317,7 +2317,7 @@
     "Nausées, vomissements (redonner la dose si vomissement dans les 30 min)"
    ],
    "grossesse": "Sans objet (indication pédiatrique).",
-   "motsCles": "diarrhée de l'enfant, gastro-entérite",
+   "motsCles": "diarrhée de l'enfant, gastro-entérite, prozinc, pro zinc",
    "famille": "Oligoélément (zinc)",
    "mecanisme": "Restaure la muqueuse intestinale et l'immunité : réduit la durée et la gravité de la diarrhée de l'enfant."
   },
@@ -2755,7 +2755,7 @@
   {
    "id": 48,
    "dci": "Fer + acide folique",
-   "noms": "Ferrous sulfate + folic acid, Tardyferon B9, Hemoforce Prega, Acifer, Hifer (Unique : fer 100 mg + acide folique 1 mg, comprimé à croquer)",
+   "noms": "Ferrous sulfate + folic acid, Tardyferon B9, Hemoforce Prega, Acifer, Hifer sirop (Unique : fer polymaltose 50 mg + acide folique 500 µg par 5 ml) ; Hifer comprimé à croquer (fer 100 mg + acide folique 1 mg)",
    "classe": "obstetrique",
    "formes": "Comprimé fer élément 60 mg + acide folique 400 µg ; sirop de fer ; acide folique 5 mg",
    "indications": [
@@ -2788,7 +2788,7 @@
     "Coloration des dents (sirop)"
    ],
    "grossesse": "Recommandé pendant toute la grossesse.",
-   "motsCles": "anémie, grossesse, carence en fer, ferriprive, spina bifida, hifer",
+   "motsCles": "anémie, grossesse, carence en fer, ferriprive, spina bifida, hifer, hifer",
    "famille": "Antianémique (fer + folates)",
    "mecanisme": "Apporte le fer et l'acide folique nécessaires à la fabrication des globules rouges."
   },
@@ -4599,7 +4599,7 @@
   {
    "id": 83,
    "dci": "Ondansétron",
-   "noms": "Zophren, Zofran, Ansetron, Onrex",
+   "noms": "Zophren, Zofran, Ansetron, Onrex (PROMED : comprimé, sirop 2 mg/5 ml, injectable)",
    "classe": "anesthesie",
    "formes": "Comprimé 4 et 8 mg ; ampoule 2 mg/ml",
    "indications": [
@@ -4653,7 +4653,7 @@
      "doseMax": 4
     }
    ],
-   "motsCles": "vomissements, nausées, chimiothérapie, gastro-entérite",
+   "motsCles": "vomissements, nausées, chimiothérapie, gastro-entérite, onrex",
    "famille": "Antiémétique antisérotoninergique",
    "mecanisme": "Bloque les récepteurs 5-HT3 de l'intestin et du centre du vomissement : prévention des nausées de la chimiothérapie et de l'anesthésie."
   },
@@ -6810,7 +6810,7 @@
   {
    "id": 130,
    "dci": "Thiamine (vitamine B1)",
-   "noms": "Bévitine, Becoshal, Trishal (B1-B6-B12), Trimex (B1-B6-B12), Benerva, Tribexfort (Pharmagros : comprimés, sirop, injectable ; composition non publiée, probablement vitamines B, à confirmer) (exemples)",
+   "noms": "Bévitine, Becoshal, Trishal (B1-B6-B12), Trimex (B1-B6-B12), Benerva, Tribexfort (Pharmagros : injectable B1 100 mg + B6 100 mg + B12 par 3 ml ; sirop B1 20 mg + B6 10 mg + B12 2 µg par 5 ml ; comprimés) (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 50 mg ; ampoule 50 et 100 mg/ml",
    "indications": [
@@ -6838,7 +6838,7 @@
     "Douleur au point d'injection"
    ],
    "grossesse": "Utilisable (vomissements gravidiques sévères : prévention de Wernicke).",
-   "motsCles": "béribéri, Wernicke, alcoolisme, vitamine B1, tribexfort",
+   "motsCles": "béribéri, Wernicke, alcoolisme, vitamine B1, tribexfort, tribexfort",
    "famille": "Vitamine",
    "mecanisme": "Coenzyme du métabolisme du glucose dans le cerveau et le cœur : prévient et traite l'encéphalopathie de Wernicke et le béribéri."
   },
@@ -9318,7 +9318,7 @@
   {
    "id": 186,
    "dci": "Sulfate ferreux",
-   "noms": "Fer sirop, Fumafer, Tardyferon, Hemoforce, Tot'héma (gluconate ferreux), Hifer-Z sirop (Unique : fer 32 mg/15 ml, zinc, acide folique, vitamines B), Ferdrop Plus gouttes 30 ml (fer pour l'anémie et la grossesse ; dose de fer non publiée, à confirmer) (exemples)",
+   "noms": "Fer sirop, Fumafer, Tardyferon, Hemoforce, Tot'héma (gluconate ferreux), Hifer-Z sirop (Unique : fer 32 mg/15 ml, zinc, acide folique, vitamines B), Ferdrop Plus gouttes (B.I.S. : fer 25 mg + acide folique 425 µg + vitamine C 40 mg) (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 200 mg (60 à 65 mg de fer élément) ; sirop (teneur en fer variable selon le produit)",
    "indications": [
@@ -9349,7 +9349,7 @@
     "Coloration des dents (sirop)"
    ],
    "grossesse": "Recommandé si carence (voir aussi fer + acide folique).",
-   "motsCles": "anémie, fer, carence en fer, tothema, totema, ferdrop",
+   "motsCles": "anémie, fer, carence en fer, tothema, totema, ferdrop, ferdrop",
    "calculs": [
     {
      "titre": "Traitement (fer élément)",
@@ -9401,7 +9401,7 @@
   {
    "id": 188,
    "dci": "Hydroxyde d'aluminium + hydroxyde de magnésium",
-   "noms": "Maalox, Gelusil, Polygel, Gastromex, Magascon (hydroxydes d'aluminium et de magnésium, ou magaldrate + siméthicone selon la présentation), Nocigel (hydroxydes d'aluminium et de magnésium, acide alginique, trisilicate de magnésium, siméthicone), Digest suspension et sachet 15 ml (New Cesamex : hydroxydes d'aluminium et de magnésium 250 mg, siméticone 125 mg, oxétacaïne 10 mg) (exemples)",
+   "noms": "Maalox, Gelusil, Polygel, Gastromex, Nocigel (hydroxydes d'aluminium et de magnésium, acide alginique, trisilicate de magnésium, siméthicone), Digest suspension et sachet 15 ml (New Cesamex : hydroxydes d'aluminium et de magnésium 250 mg, siméticone 125 mg, oxétacaïne 10 mg), Magascon (Prince Pharma : magaldrate 400 mg + siméthicone 20 mg) (exemples)",
    "classe": "digestif",
    "formes": "Comprimé à croquer ; suspension buvable",
    "indications": [
@@ -9424,7 +9424,7 @@
     "Constipation (aluminium) ou diarrhée (magnésium)"
    ],
    "grossesse": "Utilisable ponctuellement.",
-   "motsCles": "brûlures d'estomac, gastrite, reflux, antiacide, digest",
+   "motsCles": "brûlures d'estomac, gastrite, reflux, antiacide, digest, magascon",
    "famille": "Antiacide",
    "mecanisme": "Neutralise l'acide gastrique déjà sécrété : soulagement rapide et bref des brûlures."
   },
@@ -12233,7 +12233,7 @@
   {
    "id": 250,
    "dci": "Céfuroxime",
-   "noms": "Zinnat, Zinacef, Cefuroclav (+ acide clavulanique) (exemples)",
+   "noms": "Zinnat, Zinacef, Cefuroclav (+ acide clavulanique), Rofuxime (PROMED : céfuroxime axétil, suspension 125 mg/5 ml) (exemples)",
    "classe": "antibiotiques",
    "formes": "Comprimé 250 et 500 mg (céfuroxime axétil) ; suspension 125 mg/5 ml ; flacon IV 750 mg et 1,5 g",
    "indications": [
@@ -12264,7 +12264,7 @@
     "Colite à Clostridioides difficile"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "céphalosporine, otite, sinusite, pneumonie, antibioprophylaxie",
+   "motsCles": "céphalosporine, otite, sinusite, pneumonie, antibioprophylaxie, rofuxime",
    "calculs": [
     {
      "titre": "Orale",
@@ -12303,7 +12303,7 @@
   {
    "id": 251,
    "dci": "Céfotaxime",
-   "noms": "Claforan, Cefatax (exemples)",
+   "noms": "Claforan, Cefatax, Protax 1 g (PROMED) (exemples)",
    "classe": "antibiotiques",
    "formes": "Flacon de poudre 500 mg et 1 g (IV, IM)",
    "indications": [
@@ -12335,7 +12335,7 @@
     "Neutropénie (traitement prolongé)"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "sepsis néonatal, méningite, nouveau-né, céphalosporine",
+   "motsCles": "sepsis néonatal, méningite, nouveau-né, céphalosporine, protax",
    "calculs": [
     {
      "titre": "Infection grave (enfant)",
@@ -17903,7 +17903,7 @@
   {
    "id": 377,
    "dci": "Xylométazoline nasale",
-   "noms": "Otrivine, Otrimex, Rhumine gouttes 0,5 ‰ et 1 ‰ (xylométazoline 0,05 % enfant et 0,1 % adulte, à confirmer sur la boîte) (exemples)",
+   "noms": "Otrivine, Otrimex, 5 ‰ et 1 ‰ (xylométazoline 0,05 % enfant et 0,1 % adulte, à confirmer sur la boîte), Rhumine gouttes nasales (PROMED : xylométazoline, dosage enfant et adulte) (exemples)",
    "classe": "respiratoire",
    "formes": "Gouttes ou spray 0,1 % (adulte) et 0,05 % (enfant)",
    "indications": [
@@ -17932,7 +17932,7 @@
     "Palpitations, HTA, insomnie (surdosage)"
    ],
    "grossesse": "Éviter (vasoconstricteur).",
-   "motsCles": "nez bouché, décongestionnant, rhumine",
+   "motsCles": "nez bouché, décongestionnant, rhumine, rhumine",
    "famille": "Décongestionnant nasal (vasoconstricteur)",
    "mecanisme": "Stimule les récepteurs alpha de la muqueuse nasale : vasoconstriction et désobstruction (pas plus de 5 jours)."
   },
@@ -23668,7 +23668,7 @@
   {
    "id": 516,
    "dci": "Cyproheptadine",
-   "noms": "Super Apeti, Super Apeti Plus (+ vitamines), Périactine, Periactin, Apetamin (+ vitamines, marché parallèle), Cypomex",
+   "noms": "Super Apeti, Super Apeti Plus (+ vitamines), Périactine, Periactin, Apetamin (+ vitamines, marché parallèle), Cypomex, Nutriline 4 mg (PROMED)",
    "classe": "respiratoire",
    "formes": "Comprimé 4 mg ; sirop 2 mg/5 ml",
    "indications": [
@@ -23710,7 +23710,7 @@
     "Surdosage : agitation, hallucinations, tachycardie, fièvre, mydriase, convulsions, coma"
    ],
    "grossesse": "Données limitées : éviter, surtout au 1er trimestre ; préférer la chlorphénamine pour une allergie. Contre-indiquée pendant l'allaitement (passe dans le lait, peut réduire la lactation).",
-   "motsCles": "cyproheptadine, super apeti, apetamin, periactin, périactine, appétit, perte d'appétit, anorexie, faire grossir, prise de poids, stimulant de l'appétit, antihistaminique, allergie, urticaire, prurit, syndrome sérotoninergique",
+   "motsCles": "cyproheptadine, super apeti, apetamin, periactin, périactine, appétit, perte d'appétit, anorexie, faire grossir, prise de poids, stimulant de l'appétit, antihistaminique, allergie, urticaire, prurit, syndrome sérotoninergique, nutriline",
    "calculs": [
     {
      "titre": "Dose par jour (à répartir en 2 à 3 prises)",
@@ -24685,7 +24685,7 @@
   },
   {
    "dci": "Papavérine",
-   "noms": "Spasmine, Papavérine injectable",
+   "noms": "Spasmine, Papavérine injectable, Spasmin 40 mg (PROMED : comprimé et injectable)",
    "classe": "digestif",
    "formes": "Comprimé 40 mg ; ampoule 40 mg/2 ml",
    "indications": [
@@ -24716,7 +24716,7 @@
     "Somnolence, constipation"
    ],
    "grossesse": "Éviter (données insuffisantes).",
-   "motsCles": "papavérine, spasmine, antispasmodique, spasmes, colique",
+   "motsCles": "papavérine, spasmine, antispasmodique, spasmes, colique, spasmin",
    "famille": "Antispasmodique musculotrope (alcaloïde de l'opium sans effet opioïde)",
    "mecanisme": "Inhibe les phosphodiestérases des muscles lisses : relâchement des fibres musculaires et vasodilatation.",
    "calculs": [],
@@ -25256,7 +25256,7 @@
   },
   {
    "dci": "Clotrimazole + bétaméthasone + néomycine (crème)",
-   "noms": "A-Dem crème (Prince Pharma), Quadriderm, Triderm, Candid-B (sans néomycine)",
+   "noms": "A-Dem crème (Prince Pharma, composition à vérifier sur la boîte), Quadriderm, Triderm, Candid-B (sans néomycine)",
    "classe": "dermato",
    "formes": "Crème 30 g (clotrimazole 1 %, bétaméthasone 0,05 %, néomycine 0,5 %, chlorocrésol 0,1 %) ; A-Dem existe aussi en poudre, de composition différente",
    "indications": [
@@ -25279,7 +25279,8 @@
     "Produit très utilisé pour éclaircir la peau : dépigmentation, vergetures, atrophie, acné, mycoses étendues, et risque d'atteinte des glandes surrénales en cas d'usage prolongé sur de grandes surfaces",
     "Mycose simple : antifongique seul (clotrimazole, miconazole) ; eczéma non infecté : dermocorticoïde seul",
     "Néomycine : allergie de contact fréquente",
-    "Pas sur le visage ni au long cours ; pas sous pansement occlusif"
+    "Pas sur le visage ni au long cours ; pas sous pansement occlusif",
+    "Le répertoire ACOREP enregistre sous le nom A-Dem (Prince Pharma) une lotion (bétaméthasone dipropionate, gentamicine, tolnaftate, clioquinol, chlorocrésol) et une poudre antiseptique (acide borique, acide salicylique, carbonate de calcium, oxyde et stéarate de zinc) : lire la composition sur la boîte."
    ],
    "effetsIndesirables": [
     "Atrophie, vergetures, dépigmentation (usage prolongé)",
@@ -25296,7 +25297,7 @@
   },
   {
    "dci": "Sirops contre la toux et le rhume en association",
-   "noms": "Bronchaline (à confirmer : salbutamol + guaïfénésine + bromhexine), Mucolyn adulte (chlorphénamine + chlorure d'ammonium + bromhexine + dextrométhorphane), Mucolyn pédiatrique (+ pseudoéphédrine), Kaptol sirop et pastilles (Arauphar : eucalyptol 10 mg + guaïfénésine 50 mg + vitamine C 5 mg par 5 ml), Dr Cold (Astra Labs : paracétamol 500 mg + chlorphénamine 2 mg + phényléphrine 5 mg + caféine 25 mg), Histaminic expectorant sirop 100 ml (antitussif ; composition non publiée, à confirmer)",
+   "noms": "Bronchaline (à confirmer : salbutamol + guaïfénésine + bromhexine), Mucolyn adulte (chlorphénamine + chlorure d'ammonium + bromhexine + dextrométhorphane), Mucolyn pédiatrique (+ pseudoéphédrine), Kaptol sirop et pastilles (Arauphar : eucalyptol 10 mg + guaïfénésine 50 mg + vitamine C 5 mg par 5 ml), Dr Cold (Astra Labs : paracétamol 500 mg + chlorphénamine 2 mg + phényléphrine 5 mg + caféine 25 mg), Histaminic sirop (PROMED : guaïfénésine + prométhazine + extrait fluide d'ipéca)",
    "classe": "respiratoire",
    "formes": "Sirops ou comprimés associant 2 à 4 principes actifs (bronchodilatateur, expectorant, mucolytique, antihistaminique, décongestionnant, antalgique)",
    "indications": [
@@ -25316,6 +25317,7 @@
     "Insuffisance hépatique (paracétamol)"
    ],
    "precautions": [
+    "Histaminic (PROMED) contient de la prométhazine : contre-indiqué avant 2 ans (dépression respiratoire mortelle) et déconseillé avant 6 ans ; somnolence importante.",
     "Mucolyn associe un antitussif (dextrométhorphane) et un mucolytique (bromhexine), association illogique ; la forme pédiatrique contient de la pseudoéphédrine, dangereuse chez le jeune enfant (convulsions, troubles du rythme)",
     "Le salbutamol par voie orale n'est pas un traitement de la toux (OMS) : tremblements, palpitations ; si asthme, salbutamol inhalé",
     "Ne pas associer un mucolytique et un antitussif (blocage des sécrétions)",
@@ -25330,7 +25332,7 @@
     "Nausées"
    ],
    "grossesse": "Éviter pendant la grossesse (surtout au 1er trimestre) et l'allaitement ; préférer le paracétamol seul et les mesures simples.",
-   "motsCles": "bronchaline, kaptol, histaminic, dr cold, sirop toux, toux grasse, rhume, grippe, expectorant, guaïfénésine, sirop association, mucolyn, dextrométhorphane, pseudoéphédrine, chlorure d'ammonium",
+   "motsCles": "bronchaline, kaptol, histaminic, dr cold, sirop toux, toux grasse, rhume, grippe, expectorant, guaïfénésine, sirop association, mucolyn, dextrométhorphane, pseudoéphédrine, chlorure d'ammonium, histaminic, prométhazine, ipéca",
    "famille": "Associations symptomatiques (toux et rhume)",
    "mecanisme": "Chaque composant agit sur un symptôme : bronchodilatation (salbutamol), fluidification (bromhexine, guaïfénésine), antihistaminique (chlorphénamine), vasoconstriction nasale (phényléphrine), fièvre et douleur (paracétamol).",
    "calculs": [],
@@ -25371,9 +25373,9 @@
   },
   {
    "dci": "Eau digestive (gripe water)",
-   "noms": "Eau digestive sirop (composition à confirmer)",
+   "noms": "Eau digestive sirop (Phatkin : bicarbonate de sodium 75 mg, citrate de sodium 10 mg, benzoate de sodium 5 mg, esprit de menthe 0,01 ml, esprit de chloroforme 0,05 ml par 5 ml)",
    "classe": "digestif",
-   "formes": "Solution buvable (bicarbonate de sodium, huiles essentielles d'aneth et d'anis)",
+   "formes": "Solution buvable (bicarbonate de sodium, citrate de sodium, esprit de menthe et esprit de chloroforme)",
    "indications": [
     "Utilisée traditionnellement pour les coliques et les gaz du nourrisson (efficacité non démontrée)"
    ],
@@ -25389,6 +25391,7 @@
     "Insuffisance rénale"
    ],
    "precautions": [
+    "Contient de l'esprit de chloroforme (toxique pour le foie, le cœur et le système nerveux) : ne pas donner au nourrisson ; les formules au chloroforme sont abandonnées dans la plupart des pays.",
     "Pleurs inconsolables avec fièvre, vomissements, refus de téter, ventre gonflé, sang dans les selles : examiner (infection, invagination, hernie étranglée)",
     "Le bicarbonate peut gêner la digestion du lait et provoquer une alcalose en cas de doses répétées",
     "Huiles essentielles : convulsions possibles en cas de surdosage"
@@ -25406,7 +25409,7 @@
   },
   {
    "dci": "Suppositoires antihémorroïdaires (associations)",
-   "noms": "Hemorroidal / Hemorridal (Arauphar : sous-gallate de bismuth 200 mg, résorcinol 60 mg, acide borique 500 mg, baume du Pérou 46 mg, oxyde de zinc 120 mg, tétracaïne 5 mg), Hemorroidal-HC (+ hydrocortisone 4,1 mg), Rectosol (PROMED, AMM ACOREP : acide borique, baume du Pérou, sous-gallate de bismuth, oxyde de zinc, résorcinol, tétracaïne), Rectosol HC (même base + hydrocortisone)",
+   "noms": "Hemorroidal / Hemorridal (Arauphar : sous-gallate de bismuth 200 mg, résorcinol 60 mg, acide borique 500 mg, baume du Pérou 46 mg, oxyde de zinc 120 mg, tétracaïne 5 mg), Hemorroidal-HC (+ hydrocortisone 4,1 mg), Rectosol (PROMED, AMM ACOREP : acide borique, baume du Pérou, sous-gallate de bismuth, oxyde de zinc, résorcinol, tétracaïne), Rectosol HC (même base + hydrocortisone 4,2 mg)",
    "classe": "digestif",
    "formes": "Suppositoires ; crème ou pommade rectale",
    "indications": [
@@ -25480,9 +25483,9 @@
   {
    "id": 562,
    "dci": "Dicyclovérine (dicyclomine)",
-   "noms": "Sparet gouttes (+ siméticone), Sparet comprimés, Sparet Forte, Spasta (comprimé, sirop, injectable), Colimex",
+   "noms": "Sparet suspension (Unique : dicyclovérine 10 mg + siméticone 40 mg par 5 ml), Sparet comprimé (dicyclovérine 10 mg + acide méfénamique 250 mg), Spasta (comprimé, sirop, injectable), Colimex",
    "classe": "digestif",
-   "formes": "Comprimé 10 et 20 mg ; sirop ; gouttes buvables pédiatriques (dicyclovérine 10 mg + siméticone 40 mg par ml) ; ampoule 20 mg/2 ml (IM uniquement)",
+   "formes": "Comprimé 10 et 20 mg ; sirop ; suspension pédiatrique (dicyclovérine 10 mg + siméticone 40 mg par 5 ml) ; ampoule 20 mg/2 ml (IM uniquement)",
    "indications": [
     "Douleurs spasmodiques digestives (côlon irritable, coliques)",
     "Règles douloureuses (en association)"
@@ -25495,7 +25498,7 @@
     "Contre-indiquée avant 6 mois (apnées, convulsions, coma et décès décrits chez le nourrisson)",
     "6 mois à 2 ans : 5 à 10 mg 3 à 4 fois par jour, 15 minutes avant les repas, seulement sur avis médical",
     "Plus de 2 ans : 10 mg 3 à 4 fois par jour",
-    "Gouttes Sparet : vérifier la dose en mg de dicyclovérine (10 mg/ml) ; la notice du distributeur indique 1 goutte/kg 2 à 3 fois par jour"
+    "Sparet suspension : 10 mg de dicyclovérine pour 5 ml ; le distributeur indique 1 goutte/kg 2 à 3 fois par jour, à vérifier sur la notice de la boîte"
    ],
    "contreIndications": [
     "Nourrisson de moins de 6 mois",
@@ -25522,6 +25525,101 @@
    "calculs": [],
    "famille": "Antispasmodique anticholinergique",
    "mecanisme": "Bloque les récepteurs muscariniques des muscles lisses de l'intestin et a un effet relaxant direct sur le muscle : diminue les spasmes ; la siméticone fait éclater les bulles de gaz."
+  },
+  {
+   "id": 563,
+   "dci": "Méprobamate",
+   "noms": "Probamed 400 mg (PROMED), Méprobamate 400 mg (New Cesamex), Équanil",
+   "classe": "neuro",
+   "formes": "Comprimé 400 mg",
+   "indications": [
+    "Anxiété (usage ancien) ; retiré du marché en Europe depuis 2012 (rapport bénéfice/risque défavorable)"
+   ],
+   "posologieAdulte": [
+    "400 mg 1 à 3 fois par jour (maximum 1 200 mg par jour), sur une courte durée ; sujet âgé : 200 mg"
+   ],
+   "posologieEnfant": [
+    "Contre-indiqué chez l'enfant"
+   ],
+   "contreIndications": [
+    "Enfant",
+    "Insuffisance respiratoire",
+    "Porphyrie",
+    "Antécédent de dépendance (alcool, médicaments)",
+    "Grossesse (1er trimestre), allaitement"
+   ],
+   "precautions": [
+    "Surdosage très dangereux (coma, hypotension, arrêt respiratoire) dès 10 à 20 comprimés : ne jamais en confier de grandes quantités à un patient déprimé",
+    "Dépendance et syndrome de sevrage avec convulsions : arrêt progressif",
+    "Ne pas associer à l'alcool, aux benzodiazépines, aux opioïdes ou au phénobarbital",
+    "Anxiété : préférer une psychothérapie, un antidépresseur (fluoxétine) et, sur une courte durée, une benzodiazépine"
+   ],
+   "effetsIndesirables": [
+    "Somnolence, vertiges, ataxie",
+    "Hypotension",
+    "Réactions allergiques cutanées",
+    "Dépendance"
+   ],
+   "grossesse": "À éviter (malformations suspectées au 1er trimestre) ; contre-indiqué pendant l'allaitement.",
+   "motsCles": "méprobamate, meprobamate, probamed, équanil, anxiolytique, anxiété",
+   "calculs": [],
+   "famille": "Anxiolytique carbamate",
+   "mecanisme": "Dépresseur du système nerveux central (action proche des barbituriques sur les récepteurs GABA-A) : effets anxiolytique, sédatif et myorelaxant."
+  },
+  {
+   "id": 564,
+   "dci": "Céfadroxil",
+   "noms": "Prodoxil (PROMED : gélule 500 mg, suspension 250 mg/5 ml), Oracéfal, Duricef",
+   "classe": "antibiotiques",
+   "formes": "Gélule 500 mg ; suspension buvable 125, 250 et 500 mg/5 ml",
+   "indications": [
+    "Angine à streptocoque (allergie à la pénicilline sans réaction grave)",
+    "Infections de la peau (impétigo, cellulite non grave)",
+    "Infection urinaire basse"
+   ],
+   "posologieAdulte": [
+    "500 mg à 1 g 2 fois par jour",
+    "Angine : 1 g une fois par jour pendant 10 jours",
+    "Insuffisance rénale : espacer les prises"
+   ],
+   "posologieEnfant": [
+    "30 mg/kg/jour en 2 prises (maximum 2 g par jour) ; angine : 30 mg/kg une fois par jour pendant 10 jours"
+   ],
+   "contreIndications": [
+    "Allergie aux céphalosporines",
+    "Antécédent de réaction grave (choc, œdème de Quincke) à une pénicilline"
+   ],
+   "precautions": [
+    "Céphalosporine de 1re génération proche de la céfalexine : peu active sur Haemophilus et les germes Gram négatif",
+    "Angine : l'amoxicilline reste le 1er choix ; pneumonie : non indiqué",
+    "Diarrhée persistante : penser à Clostridioides difficile"
+   ],
+   "effetsIndesirables": [
+    "Diarrhée, nausées",
+    "Éruption, allergie",
+    "Candidose"
+   ],
+   "grossesse": "Utilisable pendant la grossesse et l'allaitement.",
+   "motsCles": "céfadroxil, cefadroxil, prodoxil, oracéfal, céphalosporine, angine, impétigo",
+   "calculs": [
+    {
+     "titre": "Dose par prise (2 prises par jour)",
+     "doseKg": 15,
+     "unite": "mg",
+     "frequence": "2 fois par jour",
+     "doseMax": 1000,
+     "presentations": [
+      {
+       "nom": "Suspension 250 mg/5 ml",
+       "dose": 250,
+       "par": 5,
+       "unite": "ml"
+      }
+     ]
+    }
+   ],
+   "famille": "Antibiotique – céphalosporine de 1re génération",
+   "mecanisme": "Bloque la synthèse de la paroi bactérienne (liaison aux protéines liant les pénicillines) : effet bactéricide, surtout sur les cocci Gram positif."
   }
  ],
  "categoriesPathologies": [
