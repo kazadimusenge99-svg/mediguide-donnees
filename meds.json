@@ -1,5 +1,5 @@
 {
- "version": 74,
+ "version": 75,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -156,9 +156,89 @@
     "Palpitations"
    ],
    "grossesse": "Utilisable à tous les trimestres (OMS 2022, y compris le 1er trimestre). Allaitement possible.",
-   "motsCles": "malaria, palu, paludisme simple, fièvre, CTA, ACT, AL",
+   "motsCles": "malaria, palu, paludisme simple, fièvre, CTA, ACT, AL, alrin, aludoc, aludoc ds, aludoc forte, anofel, anofel bb, anofel kids, arlumetrin dp, arlumetrin forte, arolum, arte-ped dt, artep-d ault, arthefan, arthepa plus, artrim-gh, caisther +, caisther + junior, caisther dp plus, caisther forte, cether-l adulte, cether-l adulte dt, cether-l forte dt, cofantrine, columeria, conther-junior, conthher, cotemar, curamart, curamart ds, davimethel-l, davimether l ds, davimether-l, davimether-l f, falcoria tm, gen-m, glumac, indalum dp, indalum forte, indalum junior, komefan, lonart ds, lufanter, lumart e, lumate forte, lumate plus, lumerax, lumet, lumir forte, lumis, lumis ds, lumis forte, lumiter, lumiter dt, lumither dt, luther, luther dp, luther forte, luther junior, lyater, macalum dt, medither -l, medither dp, medither forte, mefanther ds, mefanther forte, méfanther, premither – l, premither-la, sylumet-forte, terco, trimi, trimi ds, trimi forte",
    "famille": "CTA (combinaison à base d'artémisinine)",
-   "mecanisme": "Le dérivé de l'artémisinine, activé par le fer de l'hème, produit des radicaux libres qui tuent très rapidement les formes sanguines du parasite ; le partenaire à élimination lente détruit les parasites restants et protège contre la résistance."
+   "mecanisme": "Le dérivé de l'artémisinine, activé par le fer de l'hème, produit des radicaux libres qui tuent très rapidement les formes sanguines du parasite ; le partenaire à élimination lente détruit les parasites restants et protège contre la résistance.",
+   "marquesRdc": [
+    "Alrin",
+    "Aludoc",
+    "Aludoc Ds",
+    "Aludoc Forte",
+    "Anofel",
+    "Anofel Bb",
+    "Anofel Kids",
+    "Arlumetrin Dp",
+    "Arlumetrin Forte",
+    "Arolum",
+    "Arte-Ped Dt",
+    "Artep-D Ault",
+    "Arthefan",
+    "Arthepa Plus",
+    "Artrim-Gh",
+    "Caisther +",
+    "Caisther + Junior",
+    "Caisther Dp Plus",
+    "Caisther Forte",
+    "Cether-L",
+    "Cether-L Adulte",
+    "Cether-L Adulte DT",
+    "Cether-L Forte dt",
+    "Coartem",
+    "Cofantrine",
+    "Columeria",
+    "Conther-Junior",
+    "Conthher",
+    "Cotemar",
+    "Curamart",
+    "Curamart Ds",
+    "Davimethel-L",
+    "Davimether L Ds",
+    "Davimether-L",
+    "Davimether-L F",
+    "Falcoria Tm",
+    "Gen-M",
+    "Glumac",
+    "Indalum Dp",
+    "Indalum Forte",
+    "Indalum Junior",
+    "Komefan",
+    "Lonart",
+    "Lonart Ds",
+    "Lufanter",
+    "Lumart",
+    "Lumart E",
+    "Lumate Forte",
+    "Lumate Plus",
+    "Lumerax",
+    "Lumet",
+    "Lumir Forte",
+    "Lumis",
+    "Lumis Ds",
+    "Lumis Forte",
+    "Lumiter",
+    "Lumiter Dt",
+    "Lumither Dt",
+    "Luther",
+    "Luther Dp",
+    "Luther Forte",
+    "Luther Junior",
+    "Lyater",
+    "Macalum Dt",
+    "Medither -L",
+    "Medither Dp",
+    "Medither Forte",
+    "Mefanther Ds",
+    "Mefanther Forte",
+    "Méfanther",
+    "Premither – L",
+    "Premither-La",
+    "Shal'Artem",
+    "Sylumet-Forte",
+    "Terco",
+    "Trimi",
+    "Trimi Ds",
+    "Trimi Forte"
+   ]
   },
   {
    "id": 2,
@@ -236,9 +316,48 @@
      ]
     }
    ],
-   "motsCles": "malaria grave, palu grave, neuropaludisme, paludisme cérébral, coma, convulsions, anémie sévère, artemed 30, 60, 120, 150, 180, 240 mg",
+   "motsCles": "malaria grave, palu grave, neuropaludisme, paludisme cérébral, coma, convulsions, anémie sévère, artemed 30, 60, 120, 150, 180, 240 mg, abc, abc-sky, amex, arbiclo, argesun, armadoc, artbest, arte-plus, artecome, artefort, artemar, artemis, artemon, arteset, artexid, astir, asu-denk, asunate, asunte, epasin, gsunate, ivax, kinat, lysunate, malasu, malavan, medasu, palunate, planet-sun, runate, saphnate, scosunate, sunat, venate",
    "famille": "Dérivé de l'artémisinine",
-   "mecanisme": "Activé au contact du fer de l'hème parasitaire, il libère des radicaux libres qui endommagent les protéines du Plasmodium : réduction très rapide de la parasitémie, y compris des formes jeunes."
+   "mecanisme": "Activé au contact du fer de l'hème parasitaire, il libère des radicaux libres qui endommagent les protéines du Plasmodium : réduction très rapide de la parasitémie, y compris des formes jeunes.",
+   "marquesRdc": [
+    "Abc (+ bicarbonate, chlorure)",
+    "Abc-Sky",
+    "Amex",
+    "Arbiclo",
+    "Argesun",
+    "Arinate",
+    "Armadoc",
+    "Artbest",
+    "Arte-Plus (+ pyrimethamine, sulfalene)",
+    "Artecome",
+    "Artefort",
+    "Artemar",
+    "Artemed",
+    "Artemis",
+    "Artemon",
+    "Artes",
+    "Arteset",
+    "Artexid",
+    "Astir",
+    "Asu-Denk (+ pyrimethamine, sulfamethoxypyrazine)",
+    "Asunate",
+    "Asunte",
+    "Epasin",
+    "Gsunate",
+    "Ivax",
+    "Kinat",
+    "Lysunate",
+    "Malasu",
+    "Malavan",
+    "Medasu",
+    "Palunate",
+    "Planet-Sun",
+    "Runate",
+    "Saphnate",
+    "Scosunate",
+    "Sunat",
+    "Venate"
+   ]
   },
   {
    "id": 3,
@@ -273,9 +392,17 @@
     "Rares : neutropénie, agranulocytose, hépatite"
    ],
    "grossesse": "Utilisable aux 2e et 3e trimestres ; au 1er trimestre, préférer artéméther-luméfantrine.",
-   "motsCles": "malaria, palu, paludisme simple, fièvre, CTA, ACT",
+   "motsCles": "malaria, palu, paludisme simple, fièvre, CTA, ACT, arsuaq, macsunate aq forte, macsunate aq junior, macsunate aq kids, sunat-a kit",
    "famille": "CTA (combinaison à base d'artémisinine)",
-   "mecanisme": "Le dérivé de l'artémisinine, activé par le fer de l'hème, produit des radicaux libres qui tuent très rapidement les formes sanguines du parasite ; le partenaire à élimination lente détruit les parasites restants et protège contre la résistance."
+   "mecanisme": "Le dérivé de l'artémisinine, activé par le fer de l'hème, produit des radicaux libres qui tuent très rapidement les formes sanguines du parasite ; le partenaire à élimination lente détruit les parasites restants et protège contre la résistance.",
+   "marquesRdc": [
+    "Arsuaq",
+    "Asaq",
+    "Macsunate Aq Forte",
+    "Macsunate Aq Junior",
+    "Macsunate Aq Kids",
+    "Sunat-A Kit"
+   ]
   },
   {
    "id": 4,
@@ -353,9 +480,14 @@
      "doseMax": 600
     }
    ],
-   "motsCles": "malaria, palu, paludisme grave, paludisme cérébral",
+   "motsCles": "malaria, palu, paludisme grave, paludisme cérébral, new flomaquine, quinan, quinisun",
    "famille": "Amino-alcool (antipaludique)",
-   "mecanisme": "Se concentre dans la vacuole digestive du parasite et empêche la détoxification de l'hème en hémozoïne : l'hème libre, toxique, tue les formes sanguines."
+   "mecanisme": "Se concentre dans la vacuole digestive du parasite et empêche la détoxification de l'hème en hémozoïne : l'hème libre, toxique, tue les formes sanguines.",
+   "marquesRdc": [
+    "New Flomaquine",
+    "Quinan",
+    "Quinisun"
+   ]
   },
   {
    "id": 5,
@@ -392,9 +524,15 @@
     "Troubles digestifs"
    ],
    "grossesse": "Indiquée en TPIp à partir du 2e trimestre ; contre-indiquée au 1er trimestre.",
-   "motsCles": "malaria, palu, TPI, grossesse, prévention paludisme, CPN, consultation prénatale, fancidar",
+   "motsCles": "malaria, palu, TPI, grossesse, prévention paludisme, CPN, consultation prénatale, fancidar, falsique, fansidacome, maladar",
    "famille": "Antifolinique (antipaludique)",
-   "mecanisme": "La sulfadoxine bloque la dihydroptéroate synthétase et la pyriméthamine la dihydrofolate réductase du parasite : la synthèse des folates, nécessaire à l'ADN, est interrompue (effet lent, utilisé en prévention)."
+   "mecanisme": "La sulfadoxine bloque la dihydroptéroate synthétase et la pyriméthamine la dihydrofolate réductase du parasite : la synthèse des folates, nécessaire à l'ADN, est interrompue (effet lent, utilisé en prévention).",
+   "marquesRdc": [
+    "Falsique",
+    "Fansidacome",
+    "Maladar",
+    "Maladox"
+   ]
   },
   {
    "id": 6,
@@ -495,9 +633,30 @@
      "doseMax": 1000
     }
    ],
-   "motsCles": "pneumonie, toux, otite, angine, sinusite, infection respiratoire, bronchopneumonie, IRA, infection urinaire, ulcère, Helicobacter, amoxycilline, amoxycillin, amoxiciline, amoxyciline, amoxiciline",
+   "motsCles": "pneumonie, toux, otite, angine, sinusite, infection respiratoire, bronchopneumonie, IRA, infection urinaire, ulcère, Helicobacter, amoxycilline, amoxycillin, amoxiciline, amoxyciline, amoxiciline, alfamox, alpmox, amoxi-denk, amoxin, amoxy planet, audirox, bactox, blumox, caisamox, esofag-kit, helifas h. pylori kit, monamox, moxbactam, moxvid, nouveaumox, romax, tocimex",
    "famille": "Bêtalactamine – pénicilline",
-   "mecanisme": "Se fixe aux protéines liant les pénicillines (PLP) et bloque la synthèse de la paroi bactérienne (peptidoglycane) : effet bactéricide sur les bactéries en multiplication."
+   "mecanisme": "Se fixe aux protéines liant les pénicillines (PLP) et bloque la synthèse de la paroi bactérienne (peptidoglycane) : effet bactéricide sur les bactéries en multiplication.",
+   "marquesRdc": [
+    "Alfamox",
+    "Alpmox",
+    "Amoxi-Denk",
+    "Amoxin",
+    "Amoxy",
+    "Amoxy Planet",
+    "Audirox",
+    "Bactox",
+    "Blumox",
+    "Caisamox",
+    "Clamoxyl",
+    "Esofag-Kit (+ clarithromycine, ésoméprazole)",
+    "Helifas H. Pylori Kit (+ clarithromycine, ésoméprazole)",
+    "Monamox",
+    "Moxbactam (+ sulbactam)",
+    "Moxvid",
+    "Nouveaumox",
+    "Romax",
+    "Tocimex (+ ambroxol)"
+   ]
   },
   {
    "id": 7,
@@ -560,9 +719,53 @@
      "doseMax": 875
     }
    ],
-   "motsCles": "morsure, chien, otite, sinusite, pneumonie, infection cutanée, cellulite, abcès dentaire",
+   "motsCles": "morsure, chien, otite, sinusite, pneumonie, infection cutanée, cellulite, abcès dentaire, aclav, amoclav, arauclav, arauclav duo, arauclav enfants, arauclav nourrisson, augmacillin, aureoclav, clavamox, clavie, clavie duo, clavie enfant, clavie nourrissons, clavozid, clavshield, clavshield duo, clavuject, clavumoccid, clavumox, clavusif, cledomox, comoxyclav, dafraclav, dafraclav bd, daviclav duo, fleming, fleming enfant, fleming nourrisson, indaclav, labclav, lamox-clav, moxyclav duo, placlav, proclav, rementin, seaclavin, uniclav, uniclav duo, uniclav enfants, uniclav nourrisson",
    "famille": "Bêtalactamine – pénicilline + inhibiteur de bêtalactamase",
-   "mecanisme": "La pénicilline bloque la synthèse de la paroi bactérienne ; l'inhibiteur (acide clavulanique, tazobactam) neutralise les bêtalactamases produites par les bactéries résistantes et élargit le spectre."
+   "mecanisme": "La pénicilline bloque la synthèse de la paroi bactérienne ; l'inhibiteur (acide clavulanique, tazobactam) neutralise les bêtalactamases produites par les bactéries résistantes et élargit le spectre.",
+   "marquesRdc": [
+    "Aclav",
+    "Amoclav",
+    "Arauclav",
+    "Arauclav Duo",
+    "Arauclav Enfants",
+    "Arauclav Nourrisson",
+    "Augmacillin",
+    "Augmentin",
+    "Aureoclav",
+    "Clavamox",
+    "Clavie",
+    "Clavie Duo",
+    "Clavie Enfant",
+    "Clavie Nourrissons",
+    "Clavozid",
+    "Clavshield",
+    "Clavshield Duo",
+    "Clavuject",
+    "Clavumoccid",
+    "Clavumox",
+    "Clavusif",
+    "Cledomox",
+    "Comoxyclav",
+    "Dafraclav",
+    "Dafraclav Bd",
+    "Daviclav Duo",
+    "Fleming",
+    "Fleming Enfant",
+    "Fleming Nourrisson",
+    "Indaclav",
+    "Labclav",
+    "Lamox-Clav",
+    "Moxyclav",
+    "Moxyclav Duo",
+    "Placlav",
+    "Proclav",
+    "Rementin",
+    "Seaclavin",
+    "Uniclav",
+    "Uniclav Duo",
+    "Uniclav Enfants",
+    "Uniclav Nourrisson"
+   ]
   },
   {
    "id": 8,
@@ -638,9 +841,12 @@
      ]
     }
    ],
-   "motsCles": "sepsis néonatal, infection néonatale, méningite, pneumonie sévère, nouveau-né",
+   "motsCles": "sepsis néonatal, infection néonatale, méningite, pneumonie sévère, nouveau-né, procillin",
    "famille": "Bêtalactamine – pénicilline",
-   "mecanisme": "Se fixe aux protéines liant les pénicillines (PLP) et bloque la synthèse de la paroi bactérienne (peptidoglycane) : effet bactéricide sur les bactéries en multiplication."
+   "mecanisme": "Se fixe aux protéines liant les pénicillines (PLP) et bloque la synthèse de la paroi bactérienne (peptidoglycane) : effet bactéricide sur les bactéries en multiplication.",
+   "marquesRdc": [
+    "Procillin"
+   ]
   },
   {
    "id": 9,
@@ -715,9 +921,55 @@
      "doseMax": 4000
     }
    ],
-   "motsCles": "méningite, sepsis, septicémie, pneumonie sévère, pyélonéphrite, typhoïde, gonococcie, IST, gonorrhée, chaude-pisse, écoulement urétral, procef",
+   "motsCles": "méningite, sepsis, septicémie, pneumonie sévère, pyélonéphrite, typhoïde, gonococcie, IST, gonorrhée, chaude-pisse, écoulement urétral, procef, atone, cef-bac, cefbactam, cefbest, cefmon, cefrixon-s, ceftaz, ceftoxo, ceftrash, cefxon, cetafor, chefitaz, concef, concef forte, concef plus, concef-t, dipicef, grancef, gulcef, hjsafe-s, indaceft, indaceft-s, lytrix, medicef s, phatrix-forte, rucef, rucef-s, santriax, santriax t, scotxone, shalbactam, shalbactam tz, sterizone, sterizone t, syntriaxone tz, tacef, triax-s, trixon, zon-s, zon-tz",
    "famille": "Bêtalactamine – céphalosporine",
-   "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération."
+   "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération.",
+   "marquesRdc": [
+    "Atone",
+    "Cef-Bac (+ sulbactam)",
+    "Cefbactam (+ sulbactam)",
+    "Cefbest",
+    "Cefmon",
+    "Cefrixon-S (+ sulbactam)",
+    "Ceftaz",
+    "Ceftoxo",
+    "Ceftrash",
+    "Cefxon",
+    "Cetafor",
+    "Chefitaz",
+    "Concef",
+    "Concef Forte (+ sulbactam)",
+    "Concef Plus",
+    "Concef-T (+ tazobactam)",
+    "Dipicef",
+    "Grancef",
+    "Gulcef",
+    "Hjsafe-S (+ sulbactam)",
+    "Indaceft",
+    "Indaceft-S (+ sulbactam)",
+    "Lytrix",
+    "Medicef S (+ sulbactam)",
+    "Phatrix-Forte (+ sulbactam)",
+    "Procef",
+    "Riaxone-S (+ sulbactam)",
+    "Rucef",
+    "Rucef-S (+ sulbactam)",
+    "Santriax",
+    "Santriax T (+ tazobactam)",
+    "Scotxone",
+    "Shalbactam",
+    "Shalbactam Tz (+ tazobactam)",
+    "Sterizone (+ sulbactam)",
+    "Sterizone T (+ tazobactam)",
+    "Syntriaxone TZ (+ tazobactam)",
+    "Tacef (+ tazobactam)",
+    "Tazex (+ tazobactam)",
+    "Triax",
+    "Triax-S (+ sulbactam)",
+    "Trixon",
+    "Zon-S (+ sulbactam)",
+    "Zon-Tz (+ tazobactam)"
+   ]
   },
   {
    "id": 10,
@@ -782,9 +1034,37 @@
      "doseMax": 500
     }
    ],
-   "motsCles": "dysenterie, shigellose, diarrhée sanglante, typhoïde, infection urinaire, prostatite, choléra",
+   "motsCles": "dysenterie, shigellose, diarrhée sanglante, typhoïde, infection urinaire, prostatite, choléra, alpcip, araucip, araucip-tz, caisafloxacine, cifin, cifin-tz, ciphoxa, ciplod, cipro-best, cipro-denk, ciprokin, ciproque, ciprosun, ciprotil, citique-tz, cypro-tz, evercip, exacip, fluoxine, guciprox, lyciprox, navlox, oracip tz, rovacip",
    "famille": "Fluoroquinolone",
-   "mecanisme": "Inhibe l'ADN gyrase et la topoisomérase IV bactériennes, empêchant la réplication de l'ADN : effet bactéricide rapide."
+   "mecanisme": "Inhibe l'ADN gyrase et la topoisomérase IV bactériennes, empêchant la réplication de l'ADN : effet bactéricide rapide.",
+   "marquesRdc": [
+    "Alpcip",
+    "Araucip",
+    "Araucip-TZ (+ tinidazole)",
+    "Caisafloxacine",
+    "Cifin",
+    "Cifin-Tz (+ tinidazole)",
+    "Ciphoxa",
+    "Ciplod",
+    "Cipro-Best",
+    "Cipro-Denk",
+    "Ciprokin",
+    "Cipronat",
+    "Ciproque",
+    "Ciprosun",
+    "Ciprotil",
+    "Citique-Tz",
+    "Cypro-Tz",
+    "Evercip",
+    "Exacip",
+    "Fluoxine",
+    "Guciprox",
+    "Lyciprox",
+    "Navlox",
+    "Oracip Tz (+ tinidazole)",
+    "Rovacip",
+    "Shalcip"
+   ]
   },
   {
    "id": 11,
@@ -915,9 +1195,15 @@
      "doseMax": 100
     }
    ],
-   "motsCles": "IST, chlamydia, choléra, rickettsiose, typhus, brucellose, leptospirose, pneumonie atypique, acné, doxycyline, doxycyclin",
+   "motsCles": "IST, chlamydia, choléra, rickettsiose, typhus, brucellose, leptospirose, pneumonie atypique, acné, doxycyline, doxycyclin, doxy-denk, doxyloma, doxynic, doxynor",
    "famille": "Tétracycline",
-   "mecanisme": "Se fixe à la sous-unité 30S du ribosome et bloque la synthèse des protéines bactériennes : effet bactériostatique, actif sur les germes intracellulaires (Rickettsia, Chlamydia, leptospires)."
+   "mecanisme": "Se fixe à la sous-unité 30S du ribosome et bloque la synthèse des protéines bactériennes : effet bactériostatique, actif sur les germes intracellulaires (Rickettsia, Chlamydia, leptospires).",
+   "marquesRdc": [
+    "Doxy-Denk",
+    "Doxyloma",
+    "Doxynic",
+    "Doxynor"
+   ]
   },
   {
    "id": 13,
@@ -1009,9 +1295,36 @@
      "doseMax": 750
     }
    ],
-   "motsCles": "amibiase, amibe, dysenterie amibienne, abcès du foie, giardiase, trichomonas, vaginose, pertes vaginales, IST, anaérobies, tétanos, péritonite",
+   "motsCles": "amibiase, amibe, dysenterie amibienne, abcès du foie, giardiase, trichomonas, vaginose, pertes vaginales, IST, anaérobies, tétanos, péritonite, araumet, axagyl, curaflox, curagyl, drez, gynanfort, lydazol, meoflox, metazol, metnor, metro-med, metrodil, metrokim, metrosol, metrosyn, naligyl, normezol, ovogyl, rovazole, topgyl, trichogyl",
    "famille": "Nitro-imidazolé",
-   "mecanisme": "Réduit dans les germes anaérobies et les protozoaires, il forme des dérivés toxiques qui cassent l'ADN : bactéricide sur les anaérobies, amoebicide, actif sur Giardia et Trichomonas."
+   "mecanisme": "Réduit dans les germes anaérobies et les protozoaires, il forme des dérivés toxiques qui cassent l'ADN : bactéricide sur les anaérobies, amoebicide, actif sur Giardia et Trichomonas.",
+   "marquesRdc": [
+    "Araumet",
+    "Axagyl",
+    "Curaflox (+ norfloxacine)",
+    "Curagyl",
+    "Drez (+ povidone)",
+    "Flagyl",
+    "Gynanfort (+ nystatine, néomycine)",
+    "Lydazol",
+    "Megyl",
+    "Meoflox (+ ofloxacine)",
+    "Metazol",
+    "Metnor (+ norfloxacine)",
+    "Metro-Med",
+    "Metrodil",
+    "Metrokim",
+    "Metrosol",
+    "Metrosyn",
+    "Naligyl (+ norfloxacine)",
+    "Normegyl (+ norfloxacine)",
+    "Normet (+ norfloxacine)",
+    "Normezol (+ norfloxacine)",
+    "Ovogyl",
+    "Rovazole",
+    "Topgyl",
+    "Trichogyl"
+   ]
   },
   {
    "id": 14,
@@ -1100,7 +1413,10 @@
    ],
    "motsCles": "sepsis néonatal, pyélonéphrite, septicémie, pneumonie sévère, gentamycine, gentamycin",
    "famille": "Aminoside",
-   "mecanisme": "Se fixe à la sous-unité 30S du ribosome et provoque des erreurs de lecture : effet bactéricide rapide, dépendant de la concentration ; néphrotoxique et ototoxique."
+   "mecanisme": "Se fixe à la sous-unité 30S du ribosome et provoque des erreurs de lecture : effet bactéricide rapide, dépendant de la concentration ; néphrotoxique et ototoxique.",
+   "marquesRdc": [
+    "Genta"
+   ]
   },
   {
    "id": 15,
@@ -1174,9 +1490,36 @@
      "doseMax": 1000
     }
    ],
-   "motsCles": "trachome, chlamydia, IST, pneumonie atypique, choléra, pian, coqueluche",
+   "motsCles": "trachome, chlamydia, IST, pneumonie atypique, choléra, pian, coqueluche, agycin, azidoc, azient, azimap, azimyn, azimyn ds, aziocin, azisif, azisif kit, azitmol, azro, azycine, izza, kiptar combikit, lyzit, macrolyn, rezithro, vagid kit, zetro, zimos, zita, zitmyc, zitromcin",
    "famille": "Macrolide",
-   "mecanisme": "Se fixe à la sous-unité 50S du ribosome et bloque la synthèse des protéines : actif sur les germes intracellulaires (Chlamydia, Mycoplasma, Legionella) et de nombreux Gram positif."
+   "mecanisme": "Se fixe à la sous-unité 50S du ribosome et bloque la synthèse des protéines : actif sur les germes intracellulaires (Chlamydia, Mycoplasma, Legionella) et de nombreux Gram positif.",
+   "marquesRdc": [
+    "Agycin",
+    "Azidoc",
+    "Azient",
+    "Azimap",
+    "Azimyn",
+    "Azimyn DS",
+    "Aziocin",
+    "Azisif",
+    "Azisif Kit",
+    "Azitmol",
+    "Azro",
+    "Azycine",
+    "Cemycine",
+    "Izza",
+    "Kiptar Combikit (+ fluconazole, secnidazole)",
+    "Lyzit",
+    "Macrolyn",
+    "Rezithro",
+    "Vagid Kit (+ fluconazole, secnidazole)",
+    "Zetro",
+    "Zimos",
+    "Zita",
+    "Zithromax",
+    "Zitmyc",
+    "Zitromcin"
+   ]
   },
   {
    "id": 16,
@@ -1248,9 +1591,12 @@
      "doseMax": 2000
     }
    ],
-   "motsCles": "staphylocoque, impétigo, abcès, furoncle, cellulite, ostéomyélite, arthrite septique, pyomyosite",
+   "motsCles": "staphylocoque, impétigo, abcès, furoncle, cellulite, ostéomyélite, arthrite septique, pyomyosite, cloxakin",
    "famille": "Bêtalactamine – pénicilline",
-   "mecanisme": "Se fixe aux protéines liant les pénicillines (PLP) et bloque la synthèse de la paroi bactérienne (peptidoglycane) : effet bactéricide sur les bactéries en multiplication."
+   "mecanisme": "Se fixe aux protéines liant les pénicillines (PLP) et bloque la synthèse de la paroi bactérienne (peptidoglycane) : effet bactéricide sur les bactéries en multiplication.",
+   "marquesRdc": [
+    "Cloxakin"
+   ]
   },
   {
    "id": 17,
@@ -1353,9 +1699,63 @@
      "doseMax": 1000
     }
    ],
-   "motsCles": "douleur, fièvre, céphalée, mal de tête, antalgique, antipyrétique, fervex, sinutab, paralgan, paralgan, dr cold, paralgan, sparet forte",
+   "motsCles": "douleur, fièvre, céphalée, mal de tête, antalgique, antipyrétique, fervex, sinutab, paralgan, paralgan, dr cold, paralgan, sparet forte, araumol, artemol, cesamol, dolimex, dolyc, efferalgan pédiatrique, gacet, indamol, indamol c, lytamol, navpar-os, pain rilif, para plus, para-lux, parabest, paraco-denk, paramed, parasun, parasun-c, parave, parawin, parol, perfac, perfac-c, perfen, perfen c, pharmalgan, pividoc, premimol eff, rapidol, redol, redol-dt, rovamol, sifacold enfant, sipadol, skycold, socomol, solpidoul, stopalgic, surdex, temperine, temperine-c, tramasif, ultra-dozem, unadol cold & flu, unadol joint, viemol, viemol iv, zepara",
    "famille": "Antalgique non opioïde (paracétamol)",
-   "mecanisme": "Inhibe la synthèse des prostaglandines dans le système nerveux central : effet antalgique et antipyrétique, sans effet anti-inflammatoire notable."
+   "mecanisme": "Inhibe la synthèse des prostaglandines dans le système nerveux central : effet antalgique et antipyrétique, sans effet anti-inflammatoire notable.",
+   "marquesRdc": [
+    "Amidol",
+    "Araumol",
+    "Artemol",
+    "Cesamol",
+    "Dolimex",
+    "Doliprane",
+    "Dolyc",
+    "Efferalgan Pédiatrique",
+    "Gacet",
+    "Indamol",
+    "Indamol C (+ vitamine C)",
+    "Lytamol",
+    "Navpar-Os",
+    "Pain Rilif",
+    "Para Plus",
+    "Para-Lux",
+    "Parabest",
+    "Paraco-Denk",
+    "Paralgan",
+    "Paramed",
+    "Parasun",
+    "Parasun-C",
+    "Parave",
+    "Parawin",
+    "Parol",
+    "Perfac",
+    "Perfac-C",
+    "Perfen",
+    "Perfen C (+ vitamine C)",
+    "Pharmalgan",
+    "Pividoc",
+    "Premimol Eff",
+    "Rapidol",
+    "Redol",
+    "Redol-dt",
+    "Rovamol",
+    "Sifacold Enfant",
+    "Sipadol",
+    "Skycold",
+    "Socomol",
+    "Solpidoul",
+    "Stopalgic",
+    "Surdex",
+    "Temperine",
+    "Temperine-C",
+    "Tramasif (+ tramadol)",
+    "Ultra-Dozem (+ tramadol)",
+    "Unadol Cold & Flu",
+    "Unadol Joint",
+    "Viemol",
+    "Viemol IV",
+    "Zepara"
+   ]
   },
   {
    "id": 19,
@@ -1424,9 +1824,43 @@
      "doseMax": 400
     }
    ],
-   "motsCles": "douleur, fièvre, inflammation, dysménorrhée, règles douloureuses, arthrose, AINS",
+   "motsCles": "douleur, fièvre, inflammation, dysménorrhée, règles douloureuses, arthrose, AINS, brustan, budoc, buffin, cesaflam, curalgesic, dolbufen, gekatop, gofen, ibufiemol, ibunal plus, ibupar nourrissons et enfants, ibuplus, ibusyn plus, ipro, mediflam, paidofebril, panal, parafen, profène, rapid flam, rebrufen, rovaflam, sekalgic, sirofen, uflam, uni brufen, viemol plus, xydol enfants et nourrissons",
    "famille": "Anti-inflammatoire non stéroïdien (AINS)",
-   "mecanisme": "Inhibe les cyclo-oxygénases (COX-1 et COX-2) et la synthèse des prostaglandines : effets antalgique, antipyrétique et anti-inflammatoire ; risque digestif, rénal et hémorragique."
+   "mecanisme": "Inhibe les cyclo-oxygénases (COX-1 et COX-2) et la synthèse des prostaglandines : effets antalgique, antipyrétique et anti-inflammatoire ; risque digestif, rénal et hémorragique.",
+   "marquesRdc": [
+    "Anaflam (+ paracétamol)",
+    "Brufen",
+    "Brustan (+ paracétamol)",
+    "Budoc (+ paracétamol)",
+    "Buffin",
+    "Cesaflam (+ paracétamol)",
+    "Curalgesic",
+    "Dolbufen (+ paracétamol)",
+    "Gekatop",
+    "Gofen",
+    "Ibucap (+ paracétamol)",
+    "Ibufiemol (+ paracétamol)",
+    "Ibunal Plus (+ paracétamol)",
+    "Ibupar (+ paracétamol)",
+    "Ibupar Nourrissons et Enfants",
+    "Ibuplus (+ paracétamol)",
+    "Ibusyn Plus (+ paracétamol)",
+    "Ipro",
+    "Mediflam (+ paracétamol)",
+    "Paidofebril",
+    "Panal",
+    "Parafen (+ paracétamol)",
+    "Profène",
+    "Rapid Flam (+ paracétamol)",
+    "Rebrufen",
+    "Rovaflam (+ paracétamol)",
+    "Sekalgic (+ paracétamol)",
+    "Sirofen",
+    "Uflam (+ paracétamol)",
+    "Uni Brufen",
+    "Viemol Plus (+ paracétamol)",
+    "Xydol Enfants et Nourrissons"
+   ]
   },
   {
    "id": 20,
@@ -1463,9 +1897,52 @@
     "Douleur au point d'injection"
    ],
    "grossesse": "À éviter au 1er trimestre ; contre-indiqué à partir de 24 SA.",
-   "motsCles": "douleur, colique néphrétique, lombalgie, rhumatisme, AINS, inflammation, rhumalgan",
+   "motsCles": "douleur, colique néphrétique, lombalgie, rhumatisme, AINS, inflammation, rhumalgan, arodol, clonac, dic-cr, dicdol, diclo denk retard, diclo pharma, diclo-denk, diclocome, diclokin, dicloren, difen forte, dipadol, diphenac, diphenac forte, dolamol, dolaren rapide, dolasif, donarmex, doucare, doulcalm, doulfin, doulfin plus, extra power, indaflex tp, lofnac, lytamol-plus, magen plus, muscle plus, opt-diclo, pabu gel, redol plus, rufedol nouvel, sportgel, voligesic plus, volpa, volpa plus, voltarène emulgel, zebu",
    "famille": "Anti-inflammatoire non stéroïdien (AINS)",
-   "mecanisme": "Inhibe les cyclo-oxygénases (COX-1 et COX-2) et la synthèse des prostaglandines : effets antalgique, antipyrétique et anti-inflammatoire ; risque digestif, rénal et hémorragique."
+   "mecanisme": "Inhibe les cyclo-oxygénases (COX-1 et COX-2) et la synthèse des prostaglandines : effets antalgique, antipyrétique et anti-inflammatoire ; risque digestif, rénal et hémorragique.",
+   "marquesRdc": [
+    "Arodol (+ paracétamol)",
+    "Clonac",
+    "Dic-Cr",
+    "Dicdol (+ paracétamol)",
+    "Diclo Denk Retard",
+    "Diclo Pharma",
+    "Diclo-Denk",
+    "Diclocome",
+    "Diclokin",
+    "Diclomex (+ menthol)",
+    "Dicloren",
+    "Difen Forte (+ paracétamol)",
+    "Dipadol (+ paracétamol)",
+    "Diphenac",
+    "Diphenac Forte (+ paracétamol)",
+    "Dolamol (+ paracétamol)",
+    "Dolaren Rapide (+ paracétamol)",
+    "Dolasif",
+    "Donarmex (+ paracétamol)",
+    "Doucare (+ paracétamol)",
+    "Doulcalm (+ paracétamol)",
+    "Doulfin",
+    "Doulfin Plus (+ paracétamol)",
+    "Extra Power",
+    "Indaflex Tp (+ paracétamol, tizanidine)",
+    "Lofnac",
+    "Lytamol-Plus (+ paracétamol)",
+    "Magen Plus",
+    "Muscle Plus",
+    "Opt-Diclo",
+    "Pabu Gel (+ menthol, salicylate)",
+    "Redol Plus (+ paracétamol)",
+    "Rhumalgan",
+    "Rufedol Nouvel (+ paracétamol)",
+    "Rufenac",
+    "Sportgel (+ menthol, salicylate de méthyle)",
+    "Voligesic Plus",
+    "Volpa (+ paracétamol)",
+    "Volpa Plus (+ paracétamol)",
+    "Voltarène Emulgel",
+    "Zebu (+ menthol, salicylate)"
+   ]
   },
   {
    "id": 21,
@@ -1613,9 +2090,23 @@
     "Dépendance"
    ],
    "grossesse": "À éviter pendant la grossesse et l'allaitement.",
-   "motsCles": "douleur, opioïde, antalgique palier 2",
+   "motsCles": "douleur, opioïde, antalgique palier 2, antalgex t, calmdol, datramol, dolo forte denk, duocetz, opafin, opafin plus, redol forte, skudexa, tradol, tramasif, tramasif forte",
    "famille": "Opioïde faible",
-   "mecanisme": "Agoniste faible des récepteurs opioïdes μ (et, pour le tramadol, inhibiteur de la recapture de la sérotonine et de la noradrénaline) : antalgique de palier 2."
+   "mecanisme": "Agoniste faible des récepteurs opioïdes μ (et, pour le tramadol, inhibiteur de la recapture de la sérotonine et de la noradrénaline) : antalgique de palier 2.",
+   "marquesRdc": [
+    "Antalgex T",
+    "Calmdol",
+    "Datramol (+ paracétamol)",
+    "Dolo Forte Denk",
+    "Duocetz (+ paracétamol)",
+    "Opafin",
+    "Opafin Plus (+ paracétamol)",
+    "Redol Forte",
+    "Skudexa (+ dexkétoprofène)",
+    "Tradol",
+    "Tramasif",
+    "Tramasif Forte"
+   ]
   },
   {
    "id": 24,
@@ -1652,9 +2143,28 @@
     "Traitement prolongé : élévation des transaminases, alopécie, leucopénie"
    ],
    "grossesse": "Contre-indiqué au 1er trimestre ; déparasitage possible à partir du 2e trimestre.",
-   "motsCles": "vers, verminose, ascaris, ankylostome, oxyure, déparasitage, anguillule, tanzol",
+   "motsCles": "vers, verminose, ascaris, ankylostome, oxyure, déparasitage, anguillule, tanzol, albedaz, albentel, albezol, aldazole, alpzole, alzen, ascazole, bentel, indazol, kida plus, lyben, sanozol, verzol, worminix",
    "famille": "Benzimidazolé (anthelminthique)",
-   "mecanisme": "Se lie à la tubuline des vers et bloque la formation des microtubules et l'absorption du glucose : mort lente des helminthes intestinaux et tissulaires."
+   "mecanisme": "Se lie à la tubuline des vers et bloque la formation des microtubules et l'absorption du glucose : mort lente des helminthes intestinaux et tissulaires.",
+   "marquesRdc": [
+    "Albedaz",
+    "Albentel",
+    "Albezol",
+    "Aldazole",
+    "Alizole",
+    "Alpzole",
+    "Alzen",
+    "Ascazole",
+    "Bentel",
+    "Indazol",
+    "Kida Plus (+ ivermectine)",
+    "Lyben",
+    "Sanozol",
+    "Tanzol",
+    "Tanzol Plus (+ ivermectine)",
+    "Verzol",
+    "Worminix"
+   ]
   },
   {
    "id": 25,
@@ -1686,9 +2196,22 @@
     "Rare : réactions allergiques, convulsions chez le nourrisson"
    ],
    "grossesse": "Contre-indiqué au 1er trimestre ; possible ensuite.",
-   "motsCles": "vers, verminose, ascaris, ankylostome, oxyure, déparasitage, wormex, wormex",
+   "motsCles": "vers, verminose, ascaris, ankylostome, oxyure, déparasitage, wormex, wormex, carben, eliver, emben, mebever, mebox, medver, natoa, vermeb, wermoque",
    "famille": "Benzimidazolé (anthelminthique)",
-   "mecanisme": "Se lie à la tubuline des vers et bloque la formation des microtubules et l'absorption du glucose : mort lente des helminthes intestinaux et tissulaires."
+   "mecanisme": "Se lie à la tubuline des vers et bloque la formation des microtubules et l'absorption du glucose : mort lente des helminthes intestinaux et tissulaires.",
+   "marquesRdc": [
+    "Carben",
+    "Eliver",
+    "Emben",
+    "Mebamex",
+    "Mebever",
+    "Mebox",
+    "Medver",
+    "Natoa",
+    "Vermeb",
+    "Wermoque",
+    "Wormex"
+   ]
   },
   {
    "id": 26,
@@ -1806,9 +2329,19 @@
      "doseMax": 400
     }
    ],
-   "motsCles": "candidose, muguet, mycose, champignon, cryptococcose, méningite cryptococcique, VIH",
+   "motsCles": "candidose, muguet, mycose, champignon, cryptococcose, méningite cryptococcique, VIH, araufluc, canaflucan, crozole, difluzol, flucozol, fluque, funazol",
    "famille": "Antifongique azolé",
-   "mecanisme": "Inhibe la synthèse de l'ergostérol de la membrane des champignons (enzyme 14-alpha-déméthylase) : effet fongistatique ; inhibiteur enzymatique (interactions)."
+   "mecanisme": "Inhibe la synthèse de l'ergostérol de la membrane des champignons (enzyme 14-alpha-déméthylase) : effet fongistatique ; inhibiteur enzymatique (interactions).",
+   "marquesRdc": [
+    "Araufluc",
+    "Canaflucan",
+    "Crozole",
+    "Diflucan",
+    "Difluzol",
+    "Flucozol",
+    "Fluque",
+    "Funazol"
+   ]
   },
   {
    "id": 28,
@@ -1843,9 +2376,19 @@
     "Irritation locale"
    ],
    "grossesse": "Utilisable (pas d'absorption systémique).",
-   "motsCles": "muguet, candidose buccale, mycose vaginale, cyclomax, cyclomax",
+   "motsCles": "muguet, candidose buccale, mycose vaginale, cyclomax, cyclomax, indanys, mycoren, nystain, nystakin, nystakin v, unigynax",
    "famille": "Antifongique polyène",
-   "mecanisme": "Se fixe à l'ergostérol de la membrane fongique et y crée des pores : fuite du contenu cellulaire et mort du champignon ; néphrotoxique par voie IV."
+   "mecanisme": "Se fixe à l'ergostérol de la membrane fongique et y crée des pores : fuite du contenu cellulaire et mort du champignon ; néphrotoxique par voie IV.",
+   "marquesRdc": [
+    "Cyclomax (+ néomycine, polymyxine B)",
+    "Indanys",
+    "Mycoren",
+    "Nystain",
+    "Nystakin",
+    "Nystakin V",
+    "Polygynax (+ néomycine, polymyxine B)",
+    "Unigynax (+ néomycine, polymyxine B)"
+   ]
   },
   {
    "id": 29,
@@ -1881,9 +2424,24 @@
     "Hypertrophie gingivale"
    ],
    "grossesse": "Peut être utilisé si nécessaire (avis médical) ; préférer méthyldopa, nifédipine ou labétalol selon les protocoles.",
-   "motsCles": "HTA, hypertension, tension, angor",
+   "motsCles": "HTA, hypertension, tension, angor, adip, amlo denk, amlop-th, amloperin, amlosin, amloten, amlovie, amva denk, coveram, exforge, giant, natrixam",
    "famille": "Inhibiteur calcique (dihydropyridine)",
-   "mecanisme": "Bloque l'entrée du calcium dans les cellules musculaires des artères : vasodilatation et baisse de la PA."
+   "mecanisme": "Bloque l'entrée du calcium dans les cellules musculaires des artères : vasodilatation et baisse de la PA.",
+   "marquesRdc": [
+    "Adip",
+    "Amlo Denk",
+    "Amlop-Th (+ hydrochlorothiazide, telmisartan)",
+    "Amloperin (+ périndopril)",
+    "Amlor",
+    "Amlosin",
+    "Amloten",
+    "Amlovie",
+    "Amva Denk (+ valsartan)",
+    "Coveram (+ périndopril)",
+    "Exforge (+ valsartan)",
+    "Giant (+ olmésartan)",
+    "Natrixam (+ indapamide)"
+   ]
   },
   {
    "id": 30,
@@ -1920,9 +2478,17 @@
     "Hypotension orthostatique, photosensibilité"
    ],
    "grossesse": "À éviter pendant la grossesse (réduction du volume plasmatique).",
-   "motsCles": "HTA, hypertension, tension, œdème, diurétique",
+   "motsCles": "HTA, hypertension, tension, œdème, diurétique, colosar denk, enapril-ht, olprezide, ramithiazide, teltas h, temerit duo",
    "famille": "Diurétique thiazidique",
-   "mecanisme": "Bloque la réabsorption du sodium dans le tube contourné distal : natriurèse modérée et baisse de la PA."
+   "mecanisme": "Bloque la réabsorption du sodium dans le tube contourné distal : natriurèse modérée et baisse de la PA.",
+   "marquesRdc": [
+    "Colosar Denk (+ losartan)",
+    "Enapril-HT (+ énalapril)",
+    "Olprezide (+ olmésartan)",
+    "Ramithiazide (+ ramipril)",
+    "Teltas H (+ telmisartan)",
+    "Temerit Duo (+ nébivolol)"
+   ]
   },
   {
    "id": 31,
@@ -1991,9 +2557,14 @@
      "doseMax": 40
     }
    ],
-   "motsCles": "OAP, œdème aigu du poumon, insuffisance cardiaque, œdème, diurétique, surcharge, ascite",
+   "motsCles": "OAP, œdème aigu du poumon, insuffisance cardiaque, œdème, diurétique, surcharge, ascite, frusemide, furo-denk, gufrusemid",
    "famille": "Diurétique de l'anse",
-   "mecanisme": "Bloque le cotransporteur Na-K-2Cl de la branche ascendante de l'anse de Henlé : diurèse puissante et rapide (œdème pulmonaire, insuffisance cardiaque)."
+   "mecanisme": "Bloque le cotransporteur Na-K-2Cl de la branche ascendante de l'anse de Henlé : diurèse puissante et rapide (œdème pulmonaire, insuffisance cardiaque).",
+   "marquesRdc": [
+    "Frusemide",
+    "Furo-Denk",
+    "Gufrusemid"
+   ]
   },
   {
    "id": 32,
@@ -2034,9 +2605,17 @@
     "Angio-œdème (rare, grave)"
    ],
    "grossesse": "Contre-indiqué pendant toute la grossesse (toxicité fœtale).",
-   "motsCles": "HTA, hypertension, tension, insuffisance cardiaque, IEC, néphropathie diabétique, napril",
+   "motsCles": "HTA, hypertension, tension, insuffisance cardiaque, IEC, néphropathie diabétique, napril, davipril, ena+hct-denk, ena-denk, enacure, envas",
    "famille": "Inhibiteur de l'enzyme de conversion (IEC)",
-   "mecanisme": "Bloque la transformation de l'angiotensine I en angiotensine II : vasodilatation, baisse de l'aldostérone, protection du rein et du cœur."
+   "mecanisme": "Bloque la transformation de l'angiotensine I en angiotensine II : vasodilatation, baisse de l'aldostérone, protection du rein et du cœur.",
+   "marquesRdc": [
+    "Cesapril",
+    "Davipril",
+    "Ena+Hct-Denk (+ hydrochlorothiazide)",
+    "Ena-Denk",
+    "Enacure",
+    "Envas"
+   ]
   },
   {
    "id": 33,
@@ -2075,9 +2654,12 @@
     "Bronchospasme"
    ],
    "grossesse": "À éviter si possible ; surveiller la croissance fœtale et le nouveau-né (bradycardie, hypoglycémie).",
-   "motsCles": "HTA, hypertension, insuffisance cardiaque, angor, fibrillation, palpitations, bêtabloquant",
+   "motsCles": "HTA, hypertension, insuffisance cardiaque, angor, fibrillation, palpitations, bêtabloquant, cosyrel",
    "famille": "Bêtabloquant",
-   "mecanisme": "Bloque les récepteurs bêta-adrénergiques du cœur : ralentit la fréquence cardiaque, diminue la contractilité et la PA ; protège le cœur insuffisant et coronarien."
+   "mecanisme": "Bloque les récepteurs bêta-adrénergiques du cœur : ralentit la fréquence cardiaque, diminue la contractilité et la PA ; protège le cœur insuffisant et coronarien.",
+   "marquesRdc": [
+    "Cosyrel (+ périndopril)"
+   ]
   },
   {
    "id": 34,
@@ -2114,9 +2696,33 @@
     "Acidose lactique (rare, grave)"
    ],
    "grossesse": "Peut être poursuivie selon l'avis médical ; l'insuline reste la référence pendant la grossesse.",
-   "motsCles": "diabète type 2, sucre, glycémie, proformine 500, 850 et 1 000 mg",
+   "motsCles": "diabète type 2, sucre, glycémie, proformine 500, 850 et 1 000 mg, croformin, diaformine, formetin, formetin sr, glibemet, gliben-m, glicamine-m, glucofast, glucomet forte, glybofen, glyferon, glymax, navmet, phatformine, shalformine-g, shalformine xr, shalgli m, treviamet, voglimet, zoryl-m",
    "famille": "Biguanide (antidiabétique)",
-   "mecanisme": "Diminue la production de glucose par le foie et améliore la sensibilité à l'insuline, sans hypoglycémie ni prise de poids."
+   "mecanisme": "Diminue la production de glucose par le foie et améliore la sensibilité à l'insuline, sans hypoglycémie ni prise de poids.",
+   "marquesRdc": [
+    "Croformin",
+    "Diaformine",
+    "Formetin",
+    "Formetin Sr",
+    "Glibemet (+ glibenclamide)",
+    "Gliben-M",
+    "Glicamine-M (+ gliclazide)",
+    "Glucofast",
+    "Glucomet Forte (+ glibenclamide)",
+    "Glybofen (+ glibenclamide)",
+    "Glyferon",
+    "Glymax (+ glimépiride)",
+    "Navmet",
+    "Phatformine",
+    "Proformine",
+    "Shalformin",
+    "Shalformine Xr",
+    "Shalformine-G (+ glimépiride)",
+    "Shalgli M (+ glimépiride)",
+    "Treviamet (+ sitagliptine)",
+    "Voglimet (+ voglibose)",
+    "Zoryl-M (+ glimépiride)"
+   ]
   },
   {
    "id": 35,
@@ -2152,9 +2758,14 @@
     "Réactions cutanées"
    ],
    "grossesse": "Préférer l'insuline pendant la grossesse.",
-   "motsCles": "diabète type 2, sucre, glycémie",
+   "motsCles": "diabète type 2, sucre, glycémie, dnil, glibi-mx, metgleb",
    "famille": "Sulfamide hypoglycémiant",
-   "mecanisme": "Stimule la sécrétion d'insuline par le pancréas en fermant les canaux potassiques des cellules bêta ; risque d'hypoglycémie."
+   "mecanisme": "Stimule la sécrétion d'insuline par le pancréas en fermant les canaux potassiques des cellules bêta ; risque d'hypoglycémie.",
+   "marquesRdc": [
+    "Dnil",
+    "Glibi-Mx (+ metformine)",
+    "Metgleb (+ metformine)"
+   ]
   },
   {
    "id": 36,
@@ -2205,9 +2816,17 @@
      "note": "Surveiller glycémie toutes les heures et kaliémie ; ajouter du glucose quand la glycémie descend sous 2,5 g/L."
     }
    ],
-   "motsCles": "diabète, acidocétose, coma diabétique, hyperglycémie, sucre",
+   "motsCles": "diabète, acidocétose, coma diabétique, hyperglycémie, sucre, human actrapid, human insulatard, human mixtard",
    "famille": "Insuline",
-   "mecanisme": "Hormone qui fait entrer le glucose dans les cellules (muscle, graisse), freine la production de glucose par le foie et la formation de corps cétoniques."
+   "mecanisme": "Hormone qui fait entrer le glucose dans les cellules (muscle, graisse), freine la production de glucose par le foie et la formation de corps cétoniques.",
+   "marquesRdc": [
+    "Actrapid",
+    "Human Actrapid",
+    "Human Insulatard",
+    "Human Mixtard",
+    "Insulatard",
+    "Mixtard"
+   ]
   },
   {
    "id": 37,
@@ -2245,9 +2864,23 @@
     "Hypomagnésémie (traitement prolongé)"
    ],
    "grossesse": "Utilisable pendant la grossesse si nécessaire.",
-   "motsCles": "ulcère, gastrite, brûlures d'estomac, reflux, RGO, épigastralgie, Helicobacter, pantec, pantoprazole, promzole 20 mg",
+   "motsCles": "ulcère, gastrite, brûlures d'estomac, reflux, RGO, épigastralgie, Helicobacter, pantec, pantoprazole, promzole 20 mg, dafrazol, ivepral, omekar, omeprin, omescot, omex, omezole, omlink, sezol, zocid",
    "famille": "Inhibiteur de la pompe à protons (IPP)",
-   "mecanisme": "Bloque la pompe à protons des cellules de l'estomac : réduit fortement la sécrétion d'acide (ulcère, reflux, hémorragie digestive)."
+   "mecanisme": "Bloque la pompe à protons des cellules de l'estomac : réduit fortement la sécrétion d'acide (ulcère, reflux, hémorragie digestive).",
+   "marquesRdc": [
+    "Dafrazol",
+    "Ivepral",
+    "Omekar",
+    "Omeprin",
+    "Omescot",
+    "Omex",
+    "Omezole",
+    "Omlink",
+    "Prazole",
+    "Promzole",
+    "Sezol",
+    "Zocid"
+   ]
   },
   {
    "id": 38,
@@ -2317,9 +2950,17 @@
     "Nausées, vomissements (redonner la dose si vomissement dans les 30 min)"
    ],
    "grossesse": "Sans objet (indication pédiatrique).",
-   "motsCles": "diarrhée de l'enfant, gastro-entérite, prozinc, pro zinc",
+   "motsCles": "diarrhée de l'enfant, gastro-entérite, prozinc, pro zinc, arauzinc, ped zing, sul-zinc, zinque-dt",
    "famille": "Oligoélément (zinc)",
-   "mecanisme": "Restaure la muqueuse intestinale et l'immunité : réduit la durée et la gravité de la diarrhée de l'enfant."
+   "mecanisme": "Restaure la muqueuse intestinale et l'immunité : réduit la durée et la gravité de la diarrhée de l'enfant.",
+   "marquesRdc": [
+    "Arauzinc",
+    "Cezinc",
+    "Ped Zing",
+    "Prozinc",
+    "Sul-Zinc",
+    "Zinque-Dt"
+   ]
   },
   {
    "id": 40,
@@ -2414,9 +3055,17 @@
     "Céphalées"
    ],
    "grossesse": "Utilisable pendant la grossesse ; l'asthme non contrôlé est plus dangereux pour le fœtus.",
-   "motsCles": "asthme, crise d'asthme, bronchospasme, sifflement, wheezing, BPCO, dyspnée, bronchiolite",
+   "motsCles": "asthme, crise d'asthme, bronchospasme, sifflement, wheezing, BPCO, dyspnée, bronchiolite, areta-toux, asthmatic, mucosif expectorant, pulmolair, ventolique",
    "famille": "Bronchodilatateur bêta-2 agoniste",
-   "mecanisme": "Stimule les récepteurs bêta-2 des muscles bronchiques : bronchodilatation rapide (courte durée : salbutamol ; longue durée : formotérol)."
+   "mecanisme": "Stimule les récepteurs bêta-2 des muscles bronchiques : bronchodilatation rapide (courte durée : salbutamol ; longue durée : formotérol).",
+   "marquesRdc": [
+    "Areta-Toux",
+    "Asthmatic",
+    "Mucosif Expectorant",
+    "Pulmolair",
+    "Ventoline",
+    "Ventolique"
+   ]
   },
   {
    "id": 42,
@@ -2522,9 +3171,13 @@
      "doseMax": 40
     }
    ],
-   "motsCles": "asthme, allergie, corticoïde, syndrome néphrotique, inflammation, BPCO",
+   "motsCles": "asthme, allergie, corticoïde, syndrome néphrotique, inflammation, BPCO, natda, pedsol",
    "famille": "Corticoïde (glucocorticoïde)",
-   "mecanisme": "Agit sur les récepteurs des glucocorticoïdes et freine la production des médiateurs de l'inflammation et de l'immunité : effets anti-inflammatoire, antiallergique et immunosuppresseur."
+   "mecanisme": "Agit sur les récepteurs des glucocorticoïdes et freine la production des médiateurs de l'inflammation et de l'immunité : effets anti-inflammatoire, antiallergique et immunosuppresseur.",
+   "marquesRdc": [
+    "Natda",
+    "Pedsol"
+   ]
   },
   {
    "id": 44,
@@ -2650,9 +3303,12 @@
      "doseMax": 1
     }
    ],
-   "motsCles": "choc anaphylactique, anaphylaxie, allergie grave, arrêt cardiaque, réanimation, œdème de Quincke, laryngite",
+   "motsCles": "choc anaphylactique, anaphylaxie, allergie grave, arrêt cardiaque, réanimation, œdème de Quincke, laryngite, medicaine",
    "famille": "Catécholamine (sympathomimétique)",
-   "mecanisme": "Stimule les récepteurs alpha (vasoconstriction, remontée de la PA) et bêta (bronchodilatation, augmentation du débit cardiaque) : traitement de l'anaphylaxie et de l'arrêt cardiaque."
+   "mecanisme": "Stimule les récepteurs alpha (vasoconstriction, remontée de la PA) et bêta (bronchodilatation, augmentation du débit cardiaque) : traitement de l'anaphylaxie et de l'arrêt cardiaque.",
+   "marquesRdc": [
+    "Medicaine (+ mépivacaïne)"
+   ]
   },
   {
    "id": 46,
@@ -2788,9 +3444,15 @@
     "Coloration des dents (sirop)"
    ],
    "grossesse": "Recommandé pendant toute la grossesse.",
-   "motsCles": "anémie, grossesse, carence en fer, ferriprive, spina bifida, hifer, hifer",
+   "motsCles": "anémie, grossesse, carence en fer, ferriprive, spina bifida, hifer, hifer, amifer forte, dipifer, folifer, orofer",
    "famille": "Antianémique (fer + folates)",
-   "mecanisme": "Apporte le fer et l'acide folique nécessaires à la fabrication des globules rouges."
+   "mecanisme": "Apporte le fer et l'acide folique nécessaires à la fabrication des globules rouges.",
+   "marquesRdc": [
+    "Amifer Forte",
+    "Dipifer",
+    "Folifer",
+    "Orofer"
+   ]
   },
   {
    "id": 49,
@@ -2863,9 +3525,15 @@
      "doseMax": 10
     }
    ],
-   "motsCles": "convulsions, crise convulsive, épilepsie, état de mal, anxiété, sevrage alcool, tétanos",
+   "motsCles": "convulsions, crise convulsive, épilepsie, état de mal, anxiété, sevrage alcool, tétanos, diazem, sedapam, trankin",
    "famille": "Benzodiazépine",
-   "mecanisme": "Renforce l'action inhibitrice du GABA sur les récepteurs GABA-A : effets anticonvulsivant, sédatif, anxiolytique et myorelaxant ; dépression respiratoire en association."
+   "mecanisme": "Renforce l'action inhibitrice du GABA sur les récepteurs GABA-A : effets anticonvulsivant, sédatif, anxiolytique et myorelaxant ; dépression respiratoire en association.",
+   "marquesRdc": [
+    "Diazem",
+    "Dizapam",
+    "Sedapam",
+    "Trankin"
+   ]
   },
   {
    "id": 50,
@@ -2942,9 +3610,14 @@
      "doseKgMax": 6
     }
    ],
-   "motsCles": "épilepsie, convulsions, état de mal, convulsions néonatales",
+   "motsCles": "épilepsie, convulsions, état de mal, convulsions néonatales, hypnotab, mesmotab, phenotal",
    "famille": "Antiépileptique barbiturique",
-   "mecanisme": "Renforce l'action du GABA et réduit l'excitabilité des neurones : anticonvulsivant (convulsions néonatales, épilepsie) ; inducteur enzymatique."
+   "mecanisme": "Renforce l'action du GABA et réduit l'excitabilité des neurones : anticonvulsivant (convulsions néonatales, épilepsie) ; inducteur enzymatique.",
+   "marquesRdc": [
+    "Hypnotab",
+    "Mesmotab",
+    "Phenotal"
+   ]
   },
   {
    "id": 51,
@@ -3431,9 +4104,14 @@
      "doseKgMax": 1
     }
    ],
-   "motsCles": "œdème cérébral, hypertension intracrânienne, HTIC, traumatisme crânien, glaucome",
+   "motsCles": "œdème cérébral, hypertension intracrânienne, HTIC, traumatisme crânien, glaucome, arautol, minto, unitol",
    "famille": "Diurétique osmotique",
-   "mecanisme": "Augmente l'osmolarité du plasma : attire l'eau hors des tissus (œdème cérébral, glaucome aigu) et augmente la diurèse."
+   "mecanisme": "Augmente l'osmolarité du plasma : attire l'eau hors des tissus (œdème cérébral, glaucome aigu) et augmente la diurèse.",
+   "marquesRdc": [
+    "Arautol",
+    "Minto",
+    "Unitol"
+   ]
   },
   {
    "id": 61,
@@ -3756,9 +4434,12 @@
     "Réactions allergiques (rares)"
    ],
    "grossesse": "Utilisable si indiqué.",
-   "motsCles": "ascite, cirrhose, brûlure, hypoalbuminémie",
+   "motsCles": "ascite, cirrhose, brûlure, hypoalbuminémie, alburel",
    "famille": "Dérivé du sang (albumine)",
-   "mecanisme": "Protéine qui retient l'eau dans les vaisseaux (pression oncotique) : remplissage, ascite drainée, syndrome néphrotique sévère."
+   "mecanisme": "Protéine qui retient l'eau dans les vaisseaux (pression oncotique) : remplissage, ascite drainée, syndrome néphrotique sévère.",
+   "marquesRdc": [
+    "Alburel"
+   ]
   },
   {
    "id": 68,
@@ -3915,9 +4596,12 @@
     "Hypersensibilité (rare)"
    ],
    "grossesse": "Recommandé pendant toute la grossesse et l'allaitement (OMS).",
-   "motsCles": "VIH, SIDA, ARV, antirétroviral, PPE, prophylaxie post-exposition, accident d'exposition au sang",
+   "motsCles": "VIH, SIDA, ARV, antirétroviral, PPE, prophylaxie post-exposition, accident d'exposition au sang, envuteg",
    "famille": "Antirétroviral – association INTI + INI",
-   "mecanisme": "Associe deux inhibiteurs nucléosidiques de la transcriptase inverse (bloquent la copie de l'ARN du VIH en ADN) et un inhibiteur de l'intégrase (empêche l'intégration de l'ADN viral dans le génome de la cellule)."
+   "mecanisme": "Associe deux inhibiteurs nucléosidiques de la transcriptase inverse (bloquent la copie de l'ARN du VIH en ADN) et un inhibiteur de l'intégrase (empêche l'intégration de l'ADN viral dans le génome de la cellule).",
+   "marquesRdc": [
+    "Envuteg"
+   ]
   },
   {
    "id": 71,
@@ -3952,9 +4636,15 @@
     "Hypersensibilité (rare)"
    ],
    "grossesse": "Voir TLD.",
-   "motsCles": "VIH enfant, SIDA, ARV, antirétroviral pédiatrique",
+   "motsCles": "VIH enfant, SIDA, ARV, antirétroviral pédiatrique, acriptega, myitega dt, trivicay, viropil",
    "famille": "Inhibiteur de l'intégrase (INI)",
-   "mecanisme": "Empêche l'intégrase du VIH d'insérer l'ADN viral dans l'ADN de la cellule hôte : barrière élevée à la résistance (dolutégravir)."
+   "mecanisme": "Empêche l'intégrase du VIH d'insérer l'ADN viral dans l'ADN de la cellule hôte : barrière élevée à la résistance (dolutégravir).",
+   "marquesRdc": [
+    "Acriptega",
+    "Myitega Dt",
+    "Trivicay",
+    "Viropil"
+   ]
   },
   {
    "id": 72,
@@ -4290,7 +4980,10 @@
    ],
    "motsCles": "anesthésie, induction, chirurgie, brûlure, pansement, sédation, césarienne",
    "famille": "Anesthésique général dissociatif",
-   "mecanisme": "Antagoniste des récepteurs NMDA : anesthésie et analgésie puissante avec maintien de la respiration et de la PA (utile en milieu isolé)."
+   "mecanisme": "Antagoniste des récepteurs NMDA : anesthésie et analgésie puissante avec maintien de la respiration et de la PA (utile en milieu isolé).",
+   "marquesRdc": [
+    "Ketalin"
+   ]
   },
   {
    "id": 78,
@@ -4370,9 +5063,17 @@
      "doseMax": 500
     }
    ],
-   "motsCles": "anesthésie locale, suture, plaie, épisiotomie, xylocaïne, bloc",
+   "motsCles": "anesthésie locale, suture, plaie, épisiotomie, xylocaïne, bloc, davigra spray, lignobac, lydocain, nozalox gel, otocalmine, otogon",
    "famille": "Anesthésique local (amide)",
-   "mecanisme": "Bloque les canaux sodiques des nerfs (anesthésie locale) et du cœur (antiarythmique des tachycardies ventriculaires)."
+   "mecanisme": "Bloque les canaux sodiques des nerfs (anesthésie locale) et du cœur (antiarythmique des tachycardies ventriculaires).",
+   "marquesRdc": [
+    "Davigra Spray",
+    "Lignobac",
+    "Lydocain",
+    "Nozalox Gel",
+    "Otocalmine",
+    "Otogon (+ phénazone)"
+   ]
   },
   {
    "id": 79,
@@ -4411,9 +5112,13 @@
     "Rétention urinaire"
    ],
    "grossesse": "Technique de référence pour la césarienne.",
-   "motsCles": "rachianesthésie, césarienne, anesthésie, chirurgie",
+   "motsCles": "rachianesthésie, césarienne, anesthésie, chirurgie, bularex, nervocaïne",
    "famille": "Anesthésique local (amide)",
-   "mecanisme": "Bloque les canaux sodiques des nerfs et la transmission de la douleur ; la lidocaïne IV est aussi antiarythmique."
+   "mecanisme": "Bloque les canaux sodiques des nerfs et la transmission de la douleur ; la lidocaïne IV est aussi antiarythmique.",
+   "marquesRdc": [
+    "Bularex",
+    "Nervocaïne"
+   ]
   },
   {
    "id": 80,
@@ -4488,9 +5193,13 @@
      ]
     }
    ],
-   "motsCles": "bradycardie, intoxication organophosphorés, pesticides, insecticide, empoisonnement, prémédication",
+   "motsCles": "bradycardie, intoxication organophosphorés, pesticides, insecticide, empoisonnement, prémédication, atro vision",
    "famille": "Anticholinergique (atropine)",
-   "mecanisme": "Bloque les récepteurs muscariniques : accélère le cœur (bradycardie), sèche les sécrétions et antagonise les effets muscariniques des organophosphorés."
+   "mecanisme": "Bloque les récepteurs muscariniques : accélère le cœur (bradycardie), sèche les sécrétions et antagonise les effets muscariniques des organophosphorés.",
+   "marquesRdc": [
+    "Atro Vision",
+    "Tropine"
+   ]
   },
   {
    "id": 81,
@@ -4653,9 +5362,29 @@
      "doseMax": 4
     }
    ],
-   "motsCles": "vomissements, nausées, chimiothérapie, gastro-entérite, onrex",
+   "motsCles": "vomissements, nausées, chimiothérapie, gastro-entérite, onrex, domi-st, emefilm, indaron, indaron-md, ondacet, ondaject, ondasky, ondatron, ondot, onfran, onsentron, onsetron-denk, onsett, vomaret, vovumet, zonde",
    "famille": "Antiémétique antisérotoninergique",
-   "mecanisme": "Bloque les récepteurs 5-HT3 de l'intestin et du centre du vomissement : prévention des nausées de la chimiothérapie et de l'anesthésie."
+   "mecanisme": "Bloque les récepteurs 5-HT3 de l'intestin et du centre du vomissement : prévention des nausées de la chimiothérapie et de l'anesthésie.",
+   "marquesRdc": [
+    "Domi-St",
+    "Emefilm",
+    "Indaron",
+    "Indaron-Md",
+    "Ondacet",
+    "Ondaject",
+    "Ondasky",
+    "Ondatron",
+    "Ondot",
+    "Onfran",
+    "Onrex",
+    "Onsentron",
+    "Onsetron-Denk",
+    "Onsett",
+    "Setron",
+    "Vomaret",
+    "Vovumet",
+    "Zonde"
+   ]
   },
   {
    "id": 84,
@@ -4721,9 +5450,28 @@
      "doseMax": 10
     }
    ],
-   "motsCles": "maturation pulmonaire, prématurité, menace d'accouchement prématuré, laryngite, croup, œdème cérébral, COVID, corticoïde",
+   "motsCles": "maturation pulmonaire, prématurité, menace d'accouchement prématuré, laryngite, croup, œdème cérébral, COVID, corticoïde, cortidex, dexacort, dexagol, dexagold, dexalin, dexan, dexapol, dexaprin, floximex dx, genta-dx, gentac plus vision, maxidrol, neodexin, optidex-t, polydexacine, prodex, stardex",
    "famille": "Corticoïde (glucocorticoïde)",
-   "mecanisme": "Glucocorticoïde puissant et prolongé sans effet sur le sel : réduit l'œdème cérébral et l'inflammation, prévient les nausées, accélère la maturation pulmonaire fœtale."
+   "mecanisme": "Glucocorticoïde puissant et prolongé sans effet sur le sel : réduit l'œdème cérébral et l'inflammation, prévient les nausées, accélère la maturation pulmonaire fœtale.",
+   "marquesRdc": [
+    "Cortidex",
+    "Dexacort",
+    "Dexagol",
+    "Dexagold",
+    "Dexalin",
+    "Dexan",
+    "Dexapol",
+    "Dexaprin (+ néomycine)",
+    "Floximex DX (+ moxifloxacine)",
+    "Genta-Dx (+ gentamicine)",
+    "Gentac Plus Vision (+ gentamicine, tétryzoline)",
+    "Maxidrol (+ néomycine, polymyxine B)",
+    "Neodexin (+ néomycine)",
+    "Optidex-T (+ tobramycine)",
+    "Polydexacine (+ néomycine, polymyxine B)",
+    "Prodex",
+    "Stardex (+ néomycine)"
+   ]
   },
   {
    "id": 85,
@@ -4850,9 +5598,34 @@
      "doseMax": 400
     }
    ],
-   "motsCles": "typhoïde, fièvre typhoïde, infection urinaire, gonococcie, IST, shigellose",
+   "motsCles": "typhoïde, fièvre typhoïde, infection urinaire, gonococcie, IST, shigellose, araufix, cefec, cefim, cefimix, cefinique, cefiprin, cefix, cefunat, cexime, cexime ds, cexorbid, eficef, fixalene, gramocef-o, indaxine, kin-fix, olaxime, oracure, palixim, refix, scofix, widacef",
    "famille": "Bêtalactamine – céphalosporine",
-   "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération."
+   "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération.",
+   "marquesRdc": [
+    "Araufix",
+    "Cefec",
+    "Cefim",
+    "Cefimix",
+    "Cefinique",
+    "Cefiprin",
+    "Cefix",
+    "Cefunat",
+    "Cexime",
+    "Cexime Ds",
+    "Cexorbid",
+    "Eficef",
+    "Fixalene",
+    "Gramocef-O",
+    "Indaxine",
+    "Kin-Fix",
+    "Olaxime",
+    "Oracure",
+    "Oroken",
+    "Palixim",
+    "Refix",
+    "Scofix",
+    "Widacef"
+   ]
   },
   {
    "id": 87,
@@ -4919,9 +5692,25 @@
      "doseMax": 600
     }
    ],
-   "motsCles": "infection cutanée, ostéomyélite, abcès, allergie pénicilline, paludisme",
+   "motsCles": "infection cutanée, ostéomyélite, abcès, allergie pénicilline, paludisme, cleen-d, climed, dacil, dalaclif, gynobact, gynofast, klindex-m, nucli-v, palinda, pip off, qlinda, vagid-cl, vagimilt",
    "famille": "Lincosamide",
-   "mecanisme": "Se fixe à la sous-unité 50S du ribosome et bloque la synthèse des protéines ; actif sur les staphylocoques, streptocoques et anaérobies ; réduit la production de toxines."
+   "mecanisme": "Se fixe à la sous-unité 50S du ribosome et bloque la synthèse des protéines ; actif sur les staphylocoques, streptocoques et anaérobies ; réduit la production de toxines.",
+   "marquesRdc": [
+    "Cleen-D",
+    "Clifa",
+    "Climed",
+    "Dacil",
+    "Dalaclif",
+    "Gynobact (+ clotrimazole, tinidazole)",
+    "Gynofast (+ clotrimazole)",
+    "Klindex-M",
+    "Nucli-V (+ clotrimazole)",
+    "Palinda",
+    "Pip Off",
+    "Qlinda",
+    "Vagid-Cl (+ clotrimazole)",
+    "Vagimilt (+ clotrimazole)"
+   ]
   },
   {
    "id": 88,
@@ -5102,9 +5891,14 @@
      "presentations": []
     }
    ],
-   "motsCles": "herpès, zona, varicelle, bouton de fièvre, encéphalite",
+   "motsCles": "herpès, zona, varicelle, bouton de fièvre, encéphalite, clavir, hervizo",
    "famille": "Antiviral analogue nucléosidique (antiherpétique)",
-   "mecanisme": "Phosphorylé par la thymidine kinase virale, il inhibe l'ADN polymérase des virus herpès et bloque leur réplication."
+   "mecanisme": "Phosphorylé par la thymidine kinase virale, il inhibe l'ADN polymérase des virus herpès et bloque leur réplication.",
+   "marquesRdc": [
+    "Acyclovir Denk",
+    "Clavir",
+    "Hervizo"
+   ]
   },
   {
    "id": 91,
@@ -5270,9 +6064,19 @@
     "Hypercinésie utérine, rupture utérine (déclenchement)"
    ],
    "grossesse": "Effet abortif et tératogène au 1er trimestre : à utiliser uniquement dans les indications obstétricales.",
-   "motsCles": "hémorragie du post-partum, HPP, avortement incomplet, fausse couche, déclenchement, délivrance",
+   "motsCles": "hémorragie du post-partum, HPP, avortement incomplet, fausse couche, déclenchement, délivrance, cytozim, mipromex, misoflam, misomon, misopla plus, misoptol, mistrovix",
    "famille": "Prostaglandine (analogue)",
-   "mecanisme": "Analogue de la prostaglandine E1 qui fait contracter l'utérus et ramollit le col (hémorragie du post-partum, avortement, maturation du col)."
+   "mecanisme": "Analogue de la prostaglandine E1 qui fait contracter l'utérus et ramollit le col (hémorragie du post-partum, avortement, maturation du col).",
+   "marquesRdc": [
+    "Cytozim",
+    "Mipromex",
+    "Misoclear",
+    "Misoflam",
+    "Misomon",
+    "Misopla Plus",
+    "Misoptol",
+    "Mistrovix"
+   ]
   },
   {
    "id": 95,
@@ -5437,9 +6241,12 @@
     "Dyskinésies tardives (traitement prolongé)"
    ],
    "grossesse": "Utilisable si nécessaire ; surveiller le nouveau-né (signes extrapyramidaux).",
-   "motsCles": "agitation, psychose, délire, confusion, schizophrénie, hallucinations, vomissements",
+   "motsCles": "agitation, psychose, délire, confusion, schizophrénie, hallucinations, vomissements, helridol",
    "famille": "Antipsychotique de 1re génération (neuroleptique)",
-   "mecanisme": "Bloque les récepteurs dopaminergiques D2 du cerveau : réduit délire, hallucinations et agitation ; effets extrapyramidaux fréquents."
+   "mecanisme": "Bloque les récepteurs dopaminergiques D2 du cerveau : réduit délire, hallucinations et agitation ; effets extrapyramidaux fréquents.",
+   "marquesRdc": [
+    "Helridol"
+   ]
   },
   {
    "id": 99,
@@ -5482,9 +6289,14 @@
     "Hépatite"
    ],
    "grossesse": "Risque de malformations (spina bifida) : acide folique 5 mg/j avant et pendant la grossesse ; ne pas arrêter brutalement.",
-   "motsCles": "épilepsie, convulsions, névralgie, trouble bipolaire",
+   "motsCles": "épilepsie, convulsions, névralgie, trouble bipolaire, carbatrol, tegrepine, tegretol",
    "famille": "Antiépileptique (bloqueur des canaux sodiques)",
-   "mecanisme": "Bloque les canaux sodiques des neurones et limite les décharges répétées ; la carbamazépine stabilise aussi l'humeur et soulage les douleurs neuropathiques."
+   "mecanisme": "Bloque les canaux sodiques des neurones et limite les décharges répétées ; la carbamazépine stabilise aussi l'humeur et soulage les douleurs neuropathiques.",
+   "marquesRdc": [
+    "Carbatrol",
+    "Tegrepine",
+    "Tegretol"
+   ]
   },
   {
    "id": 100,
@@ -5524,9 +6336,14 @@
     "Hépatite grave, pancréatite (rares)"
    ],
    "grossesse": "Contre-indiqué pendant la grossesse sauf en l'absence d'alternative (avis spécialisé).",
-   "motsCles": "épilepsie, convulsions, absences, trouble bipolaire",
+   "motsCles": "épilepsie, convulsions, absences, trouble bipolaire, depakine, depamag, depamag-cr",
    "famille": "Antiépileptique à large spectre (valproate)",
-   "mecanisme": "Augmente le GABA cérébral et bloque les canaux sodiques et calciques : efficace sur tous les types de crises et thymorégulateur ; tératogène."
+   "mecanisme": "Augmente le GABA cérébral et bloque les canaux sodiques et calciques : efficace sur tous les types de crises et thymorégulateur ; tératogène.",
+   "marquesRdc": [
+    "Depakine",
+    "Depamag",
+    "Depamag-Cr"
+   ]
   },
   {
    "id": 101,
@@ -5568,9 +6385,16 @@
     "Anémie (rare)"
    ],
    "grossesse": "Utilisable aux 2e et 3e trimestres ; au 1er trimestre, préférer artéméther-luméfantrine.",
-   "motsCles": "malaria, palu, paludisme simple, CTA, ACT",
+   "motsCles": "malaria, palu, paludisme simple, CTA, ACT, artecure, d-artepp, d-artepp actm, d-artepp dispersible, pinax",
    "famille": "CTA (combinaison à base d'artémisinine)",
-   "mecanisme": "Le dérivé de l'artémisinine, activé par le fer de l'hème, produit des radicaux libres qui tuent très rapidement les formes sanguines du parasite ; le partenaire à élimination lente détruit les parasites restants et protège contre la résistance."
+   "mecanisme": "Le dérivé de l'artémisinine, activé par le fer de l'hème, produit des radicaux libres qui tuent très rapidement les formes sanguines du parasite ; le partenaire à élimination lente détruit les parasites restants et protège contre la résistance.",
+   "marquesRdc": [
+    "Artecure",
+    "D-Artepp",
+    "D-Artepp Actm",
+    "D-Artepp Dispersible",
+    "Pinax"
+   ]
   },
   {
    "id": 102,
@@ -5609,7 +6433,10 @@
    "grossesse": "Utilisable aux 2e et 3e trimestres (données limitées au 1er trimestre).",
    "motsCles": "malaria, palu, paludisme simple, CTA, ACT",
    "famille": "CTA (combinaison à base d'artémisinine)",
-   "mecanisme": "Le dérivé de l'artémisinine, activé par le fer de l'hème, produit des radicaux libres qui tuent très rapidement les formes sanguines du parasite ; le partenaire à élimination lente détruit les parasites restants et protège contre la résistance."
+   "mecanisme": "Le dérivé de l'artémisinine, activé par le fer de l'hème, produit des radicaux libres qui tuent très rapidement les formes sanguines du parasite ; le partenaire à élimination lente détruit les parasites restants et protège contre la résistance.",
+   "marquesRdc": [
+    "Pyramax"
+   ]
   },
   {
    "id": 103,
@@ -5747,7 +6574,7 @@
     "Allongement du QT"
    ],
    "grossesse": "Utilisable pendant la grossesse (éviter la forme estolate).",
-   "motsCles": "allergie pénicilline, chlamydia, coqueluche, conjonctivite néonatale, erythromicine, erythromycin",
+   "motsCles": "allergie pénicilline, chlamydia, coqueluche, conjonctivite néonatale, erythromicine, erythromycin, dermery, erinocin, ery enfants, ery nourrissons, erytron",
    "calculs": [
     {
      "titre": "Dose usuelle",
@@ -5778,7 +6605,15 @@
     }
    ],
    "famille": "Macrolide",
-   "mecanisme": "Se fixe à la sous-unité 50S du ribosome et bloque la synthèse des protéines : actif sur les germes intracellulaires (Chlamydia, Mycoplasma, Legionella) et de nombreux Gram positif."
+   "mecanisme": "Se fixe à la sous-unité 50S du ribosome et bloque la synthèse des protéines : actif sur les germes intracellulaires (Chlamydia, Mycoplasma, Legionella) et de nombreux Gram positif.",
+   "marquesRdc": [
+    "Dermery",
+    "Erinocin",
+    "Ery Enfants",
+    "Ery Nourrissons",
+    "Erymex",
+    "Erytron"
+   ]
   },
   {
    "id": 106,
@@ -5811,7 +6646,7 @@
     "Douleur au point d'injection"
    ],
    "grossesse": "Utilisable pendant la grossesse.",
-   "motsCles": "syphilis congénitale, pneumonie",
+   "motsCles": "syphilis congénitale, pneumonie, crystalline penicillin g, peni, péniprocaïne fortifiée",
    "calculs": [
     {
      "titre": "Enfant",
@@ -5822,7 +6657,12 @@
     }
    ],
    "famille": "Bêtalactamine – pénicilline",
-   "mecanisme": "Se fixe aux protéines liant les pénicillines (PLP) et bloque la synthèse de la paroi bactérienne (peptidoglycane) : effet bactéricide sur les bactéries en multiplication."
+   "mecanisme": "Se fixe aux protéines liant les pénicillines (PLP) et bloque la synthèse de la paroi bactérienne (peptidoglycane) : effet bactéricide sur les bactéries en multiplication.",
+   "marquesRdc": [
+    "Crystalline Penicillin G",
+    "Peni (+ procaïne)",
+    "Péniprocaïne fortifiée"
+   ]
   },
   {
    "id": 107,
@@ -5905,7 +6745,7 @@
     "Colite à C. difficile (rare)"
    ],
    "grossesse": "Utilisable pendant la grossesse.",
-   "motsCles": "impétigo, cellulite, infection cutanée, infection urinaire grossesse",
+   "motsCles": "impétigo, cellulite, infection cutanée, infection urinaire grossesse, norlexin, norlexine",
    "calculs": [
     {
      "titre": "Dose usuelle",
@@ -5936,7 +6776,11 @@
     }
    ],
    "famille": "Bêtalactamine – céphalosporine",
-   "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération."
+   "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération.",
+   "marquesRdc": [
+    "Norlexin",
+    "Norlexine"
+   ]
   },
   {
    "id": 109,
@@ -5971,7 +6815,7 @@
     "Rare : leucopénie, hépatite"
    ],
    "grossesse": "Contre-indiquée.",
-   "motsCles": "teigne, mycose du cuir chevelu, tinea, dermatophytie",
+   "motsCles": "teigne, mycose du cuir chevelu, tinea, dermatophytie, grisofline",
    "calculs": [
     {
      "titre": "Teigne",
@@ -5997,7 +6841,10 @@
     }
    ],
    "famille": "Antifongique (griséofulvine)",
-   "mecanisme": "Se lie aux microtubules des dermatophytes et bloque la division cellulaire ; se concentre dans la kératine (cheveux, peau)."
+   "mecanisme": "Se lie aux microtubules des dermatophytes et bloque la division cellulaire ; se concentre dans la kératine (cheveux, peau).",
+   "marquesRdc": [
+    "Grisofline"
+   ]
   },
   {
    "id": 110,
@@ -6031,9 +6878,40 @@
     "Réaction allergique de contact"
    ],
    "grossesse": "Utilisable (voie vaginale avec précaution, sans applicateur en fin de grossesse).",
-   "motsCles": "mycose vaginale, candidose, pertes blanches, intertrigo, érythème fessier, pied d'athlète",
+   "motsCles": "mycose vaginale, candidose, pertes blanches, intertrigo, érythème fessier, pied d'athlète, arauvinal, arogyl, camestern, canderm, candicyl, candisten, candisten-v, candizole, cani, cani plus, closysten, crotrima v, funbact, funbact-a, gulecid, imazole v, lemoderm, medv-clear, mycoflox, mycogenta, roxen, synclear, unizema, vagi-clair, vagid, velomid, vicoril, zema",
    "famille": "Antifongique azolé local",
-   "mecanisme": "Inhibe la synthèse de l'ergostérol des champignons sur la peau et les muqueuses (dermatophytes, levures)."
+   "mecanisme": "Inhibe la synthèse de l'ergostérol des champignons sur la peau et les muqueuses (dermatophytes, levures).",
+   "marquesRdc": [
+    "Arauvinal (+ métronidazole)",
+    "Arogyl (+ métronidazole)",
+    "Camestern",
+    "Canderm",
+    "Candicyl",
+    "Candisten",
+    "Candisten-V",
+    "Candizole",
+    "Cani",
+    "Cani Plus",
+    "Closysten",
+    "Crotrima V",
+    "Funbact",
+    "Funbact-A (+ bétaméthasone, néomycine)",
+    "Gogynax",
+    "Gulecid",
+    "Imazole V",
+    "Lemoderm",
+    "Medv-Clear",
+    "Mycoflox",
+    "Mycogenta (+ bétaméthasone, gentamicine)",
+    "Roxen",
+    "Synclear (+ bétaméthasone, néomycine)",
+    "Unizema (+ bétaméthasone, gentamicine)",
+    "Vagi-Clair",
+    "Vagid",
+    "Velomid (+ bétaméthasone)",
+    "Vicoril",
+    "Zema (+ bétaméthasone)"
+   ]
   },
   {
    "id": 111,
@@ -6319,9 +7197,14 @@
     "Réactions allergiques (rares, parfois graves)"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "cordon ombilical, omphalite, nouveau-né, antiseptique, désinfection, dermobacter",
+   "motsCles": "cordon ombilical, omphalite, nouveau-né, antiseptique, désinfection, dermobacter, arobacter, buccodent, tulle gras à la chlorhexidine",
    "famille": "Antiseptique",
-   "mecanisme": "Détruit les bactéries, virus et champignons sur la peau, les muqueuses ou les plaies (action non spécifique sur les membranes et les protéines)."
+   "mecanisme": "Détruit les bactéries, virus et champignons sur la peau, les muqueuses ou les plaies (action non spécifique sur les membranes et les protéines).",
+   "marquesRdc": [
+    "Arobacter",
+    "Buccodent",
+    "Tulle gras à la chlorhexidine"
+   ]
   },
   {
    "id": 118,
@@ -6393,9 +7276,12 @@
     "Vision floue passagère"
    ],
    "grossesse": "Utilisable (application locale).",
-   "motsCles": "conjonctivite, yeux rouges, trachome, nouveau-né",
+   "motsCles": "conjonctivite, yeux rouges, trachome, nouveau-né, nobilex",
    "famille": "Antibiotique ophtalmique",
-   "mecanisme": "Antibiotique appliqué sur l'œil qui bloque la synthèse des protéines ou de l'ADN des bactéries responsables de conjonctivites et kératites."
+   "mecanisme": "Antibiotique appliqué sur l'œil qui bloque la synthèse des protéines ou de l'ADN des bactéries responsables de conjonctivites et kératites.",
+   "marquesRdc": [
+    "Nobilex"
+   ]
   },
   {
    "id": 120,
@@ -6838,9 +7724,12 @@
     "Douleur au point d'injection"
    ],
    "grossesse": "Utilisable (vomissements gravidiques sévères : prévention de Wernicke).",
-   "motsCles": "béribéri, Wernicke, alcoolisme, vitamine B1, tribexfort, tribexfort",
+   "motsCles": "béribéri, Wernicke, alcoolisme, vitamine B1, tribexfort, tribexfort, thimine",
    "famille": "Vitamine",
-   "mecanisme": "Coenzyme du métabolisme du glucose dans le cerveau et le cœur : prévient et traite l'encéphalopathie de Wernicke et le béribéri."
+   "mecanisme": "Coenzyme du métabolisme du glucose dans le cerveau et le cœur : prévient et traite l'encéphalopathie de Wernicke et le béribéri.",
+   "marquesRdc": [
+    "Thimine"
+   ]
   },
   {
    "id": 131,
@@ -6873,7 +7762,7 @@
     "Troubles digestifs"
    ],
    "grossesse": "Recommandée avec l'isoniazide.",
-   "motsCles": "neuropathie, isoniazide, tuberculose, vitamine B6",
+   "motsCles": "neuropathie, isoniazide, tuberculose, vitamine B6, auvax, tribem, trishal, trois plus forte",
    "calculs": [
     {
      "titre": "Surdosage en isoniazide (quantité inconnue)",
@@ -6885,7 +7774,14 @@
     }
    ],
    "famille": "Vitamine",
-   "mecanisme": "Coenzyme du métabolisme des acides aminés ; prévient la neuropathie de l'isoniazide."
+   "mecanisme": "Coenzyme du métabolisme des acides aminés ; prévient la neuropathie de l'isoniazide.",
+   "marquesRdc": [
+    "Auvax",
+    "Pyrimex",
+    "Tribem (+ thiamine, vitamine B12)",
+    "Trishal (+ thiamine, vitamine B12)",
+    "Trois Plus Forte (+ thiamine, vitamine B12)"
+   ]
   },
   {
    "id": 132,
@@ -7215,9 +8111,15 @@
     "Réactions cutanées"
    ],
    "grossesse": "Préférer l'insuline.",
-   "motsCles": "diabète type 2, sucre, glycémie",
+   "motsCles": "diabète type 2, sucre, glycémie, glicmet, glizar-mr, neclaz-m",
    "famille": "Sulfamide hypoglycémiant",
-   "mecanisme": "Stimule la sécrétion d'insuline par le pancréas en fermant les canaux potassiques des cellules bêta ; risque d'hypoglycémie."
+   "mecanisme": "Stimule la sécrétion d'insuline par le pancréas en fermant les canaux potassiques des cellules bêta ; risque d'hypoglycémie.",
+   "marquesRdc": [
+    "Glicmet (+ metformine)",
+    "Glizar-Mr",
+    "Neclaz",
+    "Neclaz-M (+ metformine)"
+   ]
   },
   {
    "id": 138,
@@ -7252,9 +8154,12 @@
     "Troubles digestifs"
    ],
    "grossesse": "Contre-indiquée.",
-   "motsCles": "cholestérol, statine, prévention cardiovasculaire, infarctus, AVC",
+   "motsCles": "cholestérol, statine, prévention cardiovasculaire, infarctus, AVC, simva denk",
    "famille": "Statine (hypolipémiant)",
-   "mecanisme": "Inhibe l'HMG-CoA réductase et la synthèse hépatique du cholestérol : baisse du LDL-cholestérol et des événements cardiovasculaires."
+   "mecanisme": "Inhibe l'HMG-CoA réductase et la synthèse hépatique du cholestérol : baisse du LDL-cholestérol et des événements cardiovasculaires.",
+   "marquesRdc": [
+    "Simva Denk"
+   ]
   },
   {
    "id": 139,
@@ -7290,9 +8195,12 @@
     "Troubles digestifs"
    ],
    "grossesse": "À éviter (effets anti-androgènes).",
-   "motsCles": "insuffisance cardiaque, ascite, cirrhose, œdème, diurétique",
+   "motsCles": "insuffisance cardiaque, ascite, cirrhose, œdème, diurétique, dactodep",
    "famille": "Diurétique épargneur de potassium",
-   "mecanisme": "Bloque l'action de l'aldostérone (spironolactone) ou les canaux sodiques du tube collecteur (amiloride) : diurèse modérée qui conserve le potassium."
+   "mecanisme": "Bloque l'action de l'aldostérone (spironolactone) ou les canaux sodiques du tube collecteur (amiloride) : diurèse modérée qui conserve le potassium.",
+   "marquesRdc": [
+    "Dactodep"
+   ]
   },
   {
    "id": 140,
@@ -7428,7 +8336,7 @@
     "Élévation des transaminases"
    ],
    "grossesse": "Utilisable (anticoagulant de choix pendant la grossesse).",
-   "motsCles": "thrombose, phlébite, embolie pulmonaire, anticoagulant, prévention post-partum, HBPM",
+   "motsCles": "thrombose, phlébite, embolie pulmonaire, anticoagulant, prévention post-partum, HBPM, enixee, enoq, enoxa, lomoh, parinox",
    "calculs": [
     {
      "titre": "Curatif",
@@ -7446,7 +8354,14 @@
     }
    ],
    "famille": "Anticoagulant héparinique",
-   "mecanisme": "Renforce l'action de l'antithrombine qui inhibe la thrombine et le facteur Xa : prévention et traitement des thromboses."
+   "mecanisme": "Renforce l'action de l'antithrombine qui inhibe la thrombine et le facteur Xa : prévention et traitement des thromboses.",
+   "marquesRdc": [
+    "Enixee",
+    "Enoq",
+    "Enoxa",
+    "Lomoh",
+    "Parinox"
+   ]
   },
   {
    "id": 143,
@@ -7523,9 +8438,19 @@
     "Rare : neutropénie, purpura thrombotique"
    ],
    "grossesse": "À éviter sauf nécessité.",
-   "motsCles": "infarctus, AVC, antiagrégant, syndrome coronarien",
+   "motsCles": "infarctus, AVC, antiagrégant, syndrome coronarien, agguplax, antiplar, cadigrel, clogrel, clopinal, clopinav, serdorel, shaldogrel",
    "famille": "Antiagrégant plaquettaire (thiénopyridine)",
-   "mecanisme": "Bloque de façon irréversible le récepteur P2Y12 de l'ADP sur les plaquettes : empêche leur agrégation (syndrome coronarien, AVC, stent)."
+   "mecanisme": "Bloque de façon irréversible le récepteur P2Y12 de l'ADP sur les plaquettes : empêche leur agrégation (syndrome coronarien, AVC, stent).",
+   "marquesRdc": [
+    "Agguplax",
+    "Antiplar",
+    "Cadigrel",
+    "Clogrel",
+    "Clopinal",
+    "Clopinav",
+    "Serdorel",
+    "Shaldogrel"
+   ]
   },
   {
    "id": 145,
@@ -7602,9 +8527,15 @@
     "Rare : angio-œdème"
    ],
    "grossesse": "Contre-indiqué (toxicité fœtale).",
-   "motsCles": "HTA, hypertension, tension, sartan, néphropathie diabétique",
+   "motsCles": "HTA, hypertension, tension, sartan, néphropathie diabétique, losa-card, losar-denk, medzar, medzar fort",
    "famille": "Antagoniste des récepteurs de l'angiotensine II (ARA2, sartan)",
-   "mecanisme": "Bloque le récepteur AT1 de l'angiotensine II : vasodilatation et protection rénale, sans toux."
+   "mecanisme": "Bloque le récepteur AT1 de l'angiotensine II : vasodilatation et protection rénale, sans toux.",
+   "marquesRdc": [
+    "Losa-card",
+    "Losar-Denk",
+    "Medzar",
+    "Medzar Fort"
+   ]
   },
   {
    "id": 147,
@@ -7679,9 +8610,12 @@
     "Hyponatrémie (sujet âgé)"
    ],
    "grossesse": "Utilisable si le bénéfice l'emporte (risque néonatal faible) ; avis médical.",
-   "motsCles": "dépression, anxiété, stress post-traumatique, ESPT, antidépresseur, tristesse",
+   "motsCles": "dépression, anxiété, stress post-traumatique, ESPT, antidépresseur, tristesse, promag",
    "famille": "Antidépresseur inhibiteur sélectif de la recapture de la sérotonine (ISRS)",
-   "mecanisme": "Bloque la recapture de la sérotonine dans les synapses : effet antidépresseur et anxiolytique en 2 à 6 semaines."
+   "mecanisme": "Bloque la recapture de la sérotonine dans les synapses : effet antidépresseur et anxiolytique en 2 à 6 semaines.",
+   "marquesRdc": [
+    "Promag"
+   ]
   },
   {
    "id": 149,
@@ -7718,9 +8652,12 @@
     "Prise de poids"
    ],
    "grossesse": "À éviter si possible (sevrage néonatal).",
-   "motsCles": "douleur neuropathique, dépression, migraine, zona",
+   "motsCles": "douleur neuropathique, dépression, migraine, zona, laromag",
    "famille": "Antidépresseur tricyclique",
-   "mecanisme": "Bloque la recapture de la sérotonine et de la noradrénaline ; effets anticholinergiques ; utile aussi contre les douleurs neuropathiques ; dangereux en surdosage."
+   "mecanisme": "Bloque la recapture de la sérotonine et de la noradrénaline ; effets anticholinergiques ; utile aussi contre les douleurs neuropathiques ; dangereux en surdosage.",
+   "marquesRdc": [
+    "Laromag"
+   ]
   },
   {
    "id": 150,
@@ -7760,9 +8697,13 @@
     "Ictère cholestatique"
    ],
    "grossesse": "Utilisable si nécessaire.",
-   "motsCles": "agitation, psychose, schizophrénie, hoquet, tétanos",
+   "motsCles": "agitation, psychose, schizophrénie, hoquet, tétanos, chloraz, clopmazine",
    "famille": "Antipsychotique de 1re génération (neuroleptique)",
-   "mecanisme": "Bloque les récepteurs dopaminergiques D2 du cerveau : réduit délire, hallucinations et agitation ; effets extrapyramidaux fréquents."
+   "mecanisme": "Bloque les récepteurs dopaminergiques D2 du cerveau : réduit délire, hallucinations et agitation ; effets extrapyramidaux fréquents.",
+   "marquesRdc": [
+    "Chloraz",
+    "Clopmazine"
+   ]
   },
   {
    "id": 151,
@@ -7797,9 +8738,13 @@
     "Sédation, hypotension"
    ],
    "grossesse": "Utilisable si nécessaire ; surveiller le nouveau-né.",
-   "motsCles": "psychose, schizophrénie, manie, bipolaire",
+   "motsCles": "psychose, schizophrénie, manie, bipolaire, rxprione, rxprione forte",
    "famille": "Antipsychotique de 2e génération (atypique)",
-   "mecanisme": "Bloque les récepteurs D2 et sérotoninergiques 5-HT2A : effet antipsychotique avec moins d'effets extrapyramidaux, mais risque métabolique (poids, glycémie)."
+   "mecanisme": "Bloque les récepteurs D2 et sérotoninergiques 5-HT2A : effet antipsychotique avec moins d'effets extrapyramidaux, mais risque métabolique (poids, glycémie).",
+   "marquesRdc": [
+    "Rxprione",
+    "Rxprione Forte"
+   ]
   },
   {
    "id": 152,
@@ -7889,7 +8834,7 @@
     "Nécrose en cas d'extravasation"
    ],
    "grossesse": "Risque de malformations : acide folique ; ne pas arrêter brutalement.",
-   "motsCles": "épilepsie, état de mal, convulsions",
+   "motsCles": "épilepsie, état de mal, convulsions, fentone",
    "calculs": [
     {
      "titre": "Dose de charge IV",
@@ -7908,7 +8853,10 @@
     }
    ],
    "famille": "Antiépileptique (bloqueur des canaux sodiques)",
-   "mecanisme": "Bloque les canaux sodiques des neurones et limite les décharges répétées ; la carbamazépine stabilise aussi l'humeur et soulage les douleurs neuropathiques."
+   "mecanisme": "Bloque les canaux sodiques des neurones et limite les décharges répétées ; la carbamazépine stabilise aussi l'humeur et soulage les douleurs neuropathiques.",
+   "marquesRdc": [
+    "Fentone"
+   ]
   },
   {
    "id": 154,
@@ -7942,9 +8890,21 @@
     "Fatigue"
    ],
    "grossesse": "Utilisable si nécessaire.",
-   "motsCles": "glaucome, tension oculaire, œil",
+   "motsCles": "glaucome, tension oculaire, œil, atimol, duotrav, normoptic, ocutim, olhotem, simanol, timosol, timomex, timoptin, travonorm plus",
    "famille": "Antiglaucomateux bêtabloquant",
-   "mecanisme": "Bloque les récepteurs bêta du corps ciliaire et diminue la production d'humeur aqueuse : baisse de la pression intraoculaire."
+   "mecanisme": "Bloque les récepteurs bêta du corps ciliaire et diminue la production d'humeur aqueuse : baisse de la pression intraoculaire.",
+   "marquesRdc": [
+    "Atimol",
+    "Duotrav (+ travoprost)",
+    "Normoptic",
+    "Ocutim",
+    "Olhotem",
+    "Simanol",
+    "Timomex",
+    "Timoptin",
+    "Timosol",
+    "Travonorm Plus (+ travoprost)"
+   ]
   },
   {
    "id": 155,
@@ -8009,9 +8969,12 @@
     "Kératite en cas d'usage répété"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "anesthésie oculaire, corps étranger œil",
+   "motsCles": "anesthésie oculaire, corps étranger œil, trodez",
    "famille": "Anesthésique local ophtalmique",
-   "mecanisme": "Bloque les canaux sodiques des nerfs de la cornée : anesthésie de surface pour l'examen et les gestes (jamais en traitement prolongé)."
+   "mecanisme": "Bloque les canaux sodiques des nerfs de la cornée : anesthésie de surface pour l'examen et les gestes (jamais en traitement prolongé).",
+   "marquesRdc": [
+    "Trodez"
+   ]
   },
   {
    "id": 157,
@@ -8086,9 +9049,13 @@
     "Dépression respiratoire (surdosage)"
    ],
    "grossesse": "À éviter en fin de grossesse ; contre-indiquée pendant l'allaitement.",
-   "motsCles": "douleur, antalgique palier 2, toux",
+   "motsCles": "douleur, antalgique palier 2, toux, klipal codéine, paraco denk",
    "famille": "Opioïde faible",
-   "mecanisme": "Agoniste faible des récepteurs opioïdes μ (et, pour le tramadol, inhibiteur de la recapture de la sérotonine et de la noradrénaline) : antalgique de palier 2."
+   "mecanisme": "Agoniste faible des récepteurs opioïdes μ (et, pour le tramadol, inhibiteur de la recapture de la sérotonine et de la noradrénaline) : antalgique de palier 2.",
+   "marquesRdc": [
+    "Klipal Codéine (+ paracétamol)",
+    "Paraco Denk (+ paracétamol)"
+   ]
   },
   {
    "id": 159,
@@ -8124,7 +9091,7 @@
     "Mouvements involontaires"
    ],
    "grossesse": "Utilisable pour la césarienne (avis anesthésiste).",
-   "motsCles": "anesthésie générale, induction, sédation",
+   "motsCles": "anesthésie générale, induction, sédation, sedafol",
    "calculs": [
     {
      "titre": "Induction (adulte)",
@@ -8158,7 +9125,10 @@
     }
    ],
    "famille": "Anesthésique général intraveineux",
-   "mecanisme": "Renforce l'action inhibitrice du GABA : induction rapide de l'anesthésie, réveil rapide ; dépresseur respiratoire et cardiovasculaire."
+   "mecanisme": "Renforce l'action inhibitrice du GABA : induction rapide de l'anesthésie, réveil rapide ; dépresseur respiratoire et cardiovasculaire.",
+   "marquesRdc": [
+    "Sedafol"
+   ]
   },
   {
    "id": 160,
@@ -8307,9 +9277,14 @@
     "Diarrhée en cas de surdosage"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "constipation, encéphalopathie hépatique, cirrhose",
+   "motsCles": "constipation, encéphalopathie hépatique, cirrhose, evac, looze",
    "famille": "Laxatif osmotique",
-   "mecanisme": "Retient l'eau dans l'intestin : ramollit les selles ; le lactulose diminue aussi l'absorption de l'ammoniac (encéphalopathie hépatique)."
+   "mecanisme": "Retient l'eau dans l'intestin : ramollit les selles ; le lactulose diminue aussi l'absorption de l'ammoniac (encéphalopathie hépatique).",
+   "marquesRdc": [
+    "Duphalac",
+    "Evac",
+    "Looze"
+   ]
   },
   {
    "id": 163,
@@ -8619,7 +9594,7 @@
     "Hépatite (rare)"
    ],
    "grossesse": "À éviter au 1er trimestre si une alternative existe.",
-   "motsCles": "ulcère de Buruli, Helicobacter, ulcère gastrique, pneumonie",
+   "motsCles": "ulcère de Buruli, Helicobacter, ulcère gastrique, pneumonie, botomycin",
    "calculs": [
     {
      "titre": "Dose usuelle / ulcère de Buruli",
@@ -8650,7 +9625,10 @@
     }
    ],
    "famille": "Macrolide",
-   "mecanisme": "Se fixe à la sous-unité 50S du ribosome et bloque la synthèse des protéines : actif sur les germes intracellulaires (Chlamydia, Mycoplasma, Legionella) et de nombreux Gram positif."
+   "mecanisme": "Se fixe à la sous-unité 50S du ribosome et bloque la synthèse des protéines : actif sur les germes intracellulaires (Chlamydia, Mycoplasma, Legionella) et de nombreux Gram positif.",
+   "marquesRdc": [
+    "Botomycin"
+   ]
   },
   {
    "id": 169,
@@ -8726,9 +9704,12 @@
     "Perte osseuse"
    ],
    "grossesse": "Recommandé pendant la grossesse si indiqué.",
-   "motsCles": "hépatite B, VHB, AgHBs, transmission mère-enfant",
+   "motsCles": "hépatite B, VHB, AgHBs, transmission mère-enfant, hepbest",
    "famille": "Antiviral contre l'hépatite B (analogue nucléosidique)",
-   "mecanisme": "Analogue nucléotidique qui inhibe la polymérase du virus de l'hépatite B et la transcriptase inverse du VIH (toujours associé à d'autres ARV dans le VIH)."
+   "mecanisme": "Analogue nucléotidique qui inhibe la polymérase du virus de l'hépatite B et la transcriptase inverse du VIH (toujours associé à d'autres ARV dans le VIH).",
+   "marquesRdc": [
+    "Hepbest"
+   ]
   },
   {
    "id": 171,
@@ -8897,9 +9878,12 @@
     "Hypotension, tachycardie"
    ],
    "grossesse": "Réservée à l'immédiat post-partum.",
-   "motsCles": "hémorragie du post-partum, HPP, délivrance",
+   "motsCles": "hémorragie du post-partum, HPP, délivrance, carbenic",
    "famille": "Utérotonique (ocytocique)",
-   "mecanisme": "Stimule les contractions de l'utérus : déclenchement ou direction du travail et prévention ou traitement de l'hémorragie du post-partum."
+   "mecanisme": "Stimule les contractions de l'utérus : déclenchement ou direction du travail et prévention ou traitement de l'hémorragie du post-partum.",
+   "marquesRdc": [
+    "Carbenic"
+   ]
   },
   {
    "id": 175,
@@ -8931,9 +9915,19 @@
     "Céphalées, tension mammaire"
    ],
    "grossesse": "N'interrompt pas une grossesse établie ; sans effet nocif connu.",
-   "motsCles": "pilule du lendemain, contraception d'urgence, viol, violences sexuelles, rapport non protégé",
+   "motsCles": "pilule du lendemain, contraception d'urgence, viol, violences sexuelles, rapport non protégé, avibela, contra +, levo bd, medrapid, norpil, one day, planfam, protec-pill",
    "famille": "Contraception hormonale progestative",
-   "mecanisme": "Progestatif à forte dose qui retarde ou bloque l'ovulation s'il est pris avant celle-ci (dans les 72 à 120 h) ; n'interrompt pas une grossesse installée."
+   "mecanisme": "Progestatif à forte dose qui retarde ou bloque l'ovulation s'il est pris avant celle-ci (dans les 72 à 120 h) ; n'interrompt pas une grossesse installée.",
+   "marquesRdc": [
+    "Avibela",
+    "Contra +",
+    "Levo Bd",
+    "Medrapid",
+    "Norpil",
+    "One Day",
+    "Planfam",
+    "Protec-Pill"
+   ]
   },
   {
    "id": 176,
@@ -9010,9 +10004,15 @@
     "Diminution de la densité osseuse (réversible)"
    ],
    "grossesse": "Non indiqué pendant la grossesse.",
-   "motsCles": "injectable, Depo, contraception, planification familiale, PF",
+   "motsCles": "injectable, Depo, contraception, planification familiale, PF, depofem, medogen",
    "famille": "Contraception hormonale progestative",
-   "mecanisme": "Progestatif injectable à libération prolongée qui bloque l'ovulation pendant 3 mois."
+   "mecanisme": "Progestatif injectable à libération prolongée qui bloque l'ovulation pendant 3 mois.",
+   "marquesRdc": [
+    "Depo-Provera",
+    "Depofem",
+    "Medogen",
+    "Sayana Press"
+   ]
   },
   {
    "id": 178,
@@ -9127,9 +10127,14 @@
     "Rétention, hémorragie (rare)"
    ],
    "grossesse": "Usage strictement obstétrical (voir indications).",
-   "motsCles": "mort fœtale in utero, fausse couche, avortement, interruption de grossesse",
+   "motsCles": "mort fœtale in utero, fausse couche, avortement, interruption de grossesse, mefecare, mipotec kit, misocare",
    "famille": "Antiprogestérone",
-   "mecanisme": "Bloque les récepteurs de la progestérone : détache la grossesse et sensibilise l'utérus au misoprostol (interruption de grossesse, mort fœtale in utero)."
+   "mecanisme": "Bloque les récepteurs de la progestérone : détache la grossesse et sensibilise l'utérus au misoprostol (interruption de grossesse, mort fœtale in utero).",
+   "marquesRdc": [
+    "Mefecare (+ misoprostol)",
+    "Mipotec Kit (+ misoprostol)",
+    "Misocare"
+   ]
   },
   {
    "id": 181,
@@ -9214,9 +10219,14 @@
     "Aggravation d'une infection"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "eczéma, dermatite, démangeaisons, corticoïde local",
+   "motsCles": "eczéma, dermatite, démangeaisons, corticoïde local, cesacoide, daconol, fungicidal-hc",
    "famille": "Dermocorticoïde",
-   "mecanisme": "Corticoïde appliqué sur la peau : effet anti-inflammatoire et antiprurigineux local (eczéma, dermatites) ; puissance variable."
+   "mecanisme": "Corticoïde appliqué sur la peau : effet anti-inflammatoire et antiprurigineux local (eczéma, dermatites) ; puissance variable.",
+   "marquesRdc": [
+    "Cesacoide",
+    "Daconol (+ miconazole)",
+    "Fungicidal-Hc (+ miconazole)"
+   ]
   },
   {
    "id": 183,
@@ -9349,7 +10359,7 @@
     "Coloration des dents (sirop)"
    ],
    "grossesse": "Recommandé si carence (voir aussi fer + acide folique).",
-   "motsCles": "anémie, fer, carence en fer, tothema, totema, ferdrop, ferdrop",
+   "motsCles": "anémie, fer, carence en fer, tothema, totema, ferdrop, ferdrop, ferrous sulfate, sulfate de fer",
    "calculs": [
     {
      "titre": "Traitement (fer élément)",
@@ -9362,7 +10372,11 @@
     }
    ],
    "famille": "Minéral (fer)",
-   "mecanisme": "Apporte le fer nécessaire à la fabrication de l'hémoglobine et reconstitue les réserves."
+   "mecanisme": "Apporte le fer nécessaire à la fabrication de l'hémoglobine et reconstitue les réserves.",
+   "marquesRdc": [
+    "Ferrous Sulfate",
+    "Sulfate de fer"
+   ]
   },
   {
    "id": 187,
@@ -9424,9 +10438,14 @@
     "Constipation (aluminium) ou diarrhée (magnésium)"
    ],
    "grossesse": "Utilisable ponctuellement.",
-   "motsCles": "brûlures d'estomac, gastrite, reflux, antiacide, digest, magascon",
+   "motsCles": "brûlures d'estomac, gastrite, reflux, antiacide, digest, magascon, gasogel, gelcid sans sucre, indacid",
    "famille": "Antiacide",
-   "mecanisme": "Neutralise l'acide gastrique déjà sécrété : soulagement rapide et bref des brûlures."
+   "mecanisme": "Neutralise l'acide gastrique déjà sécrété : soulagement rapide et bref des brûlures.",
+   "marquesRdc": [
+    "Gasogel",
+    "Gelcid Sans Sucre",
+    "Indacid"
+   ]
   },
   {
    "id": 189,
@@ -9457,9 +10476,15 @@
     "Sécheresse buccale"
    ],
    "grossesse": "Utilisable si nécessaire.",
-   "motsCles": "allergie, urticaire, rhinite allergique, antihistaminique",
+   "motsCles": "allergie, urticaire, rhinite allergique, antihistaminique, clartec, loratol, uni clarityn",
    "famille": "Antihistaminique H1 (2e génération)",
-   "mecanisme": "Bloque les récepteurs H1 périphériques de l'histamine, avec peu de sédation."
+   "mecanisme": "Bloque les récepteurs H1 périphériques de l'histamine, avec peu de sédation.",
+   "marquesRdc": [
+    "Clarityne",
+    "Clartec",
+    "Loratol",
+    "Uni Clarityn"
+   ]
   },
   {
    "id": 190,
@@ -9546,7 +10571,7 @@
     "Vertiges"
    ],
    "grossesse": "Un des antiépileptiques les plus sûrs pendant la grossesse ; acide folique.",
-   "motsCles": "épilepsie, convulsions, état de mal",
+   "motsCles": "épilepsie, convulsions, état de mal, gulevon, suvitra",
    "calculs": [
     {
      "titre": "État de mal (IV)",
@@ -9582,7 +10607,11 @@
     }
    ],
    "famille": "Antiépileptique (lévétiracétam)",
-   "mecanisme": "Se fixe à la protéine SV2A des vésicules synaptiques et réduit la libération des neurotransmetteurs excitateurs ; peu d'interactions."
+   "mecanisme": "Se fixe à la protéine SV2A des vésicules synaptiques et réduit la libération des neurotransmetteurs excitateurs ; peu d'interactions.",
+   "marquesRdc": [
+    "Gulevon",
+    "Suvitra"
+   ]
   },
   {
    "id": 192,
@@ -9618,7 +10647,7 @@
     "Troubles du rythme chez le sujet âgé"
    ],
    "grossesse": "Indispensable : augmenter la dose pendant la grossesse.",
-   "motsCles": "hypothyroïdie, thyroïde, goitre, TSH",
+   "motsCles": "hypothyroïdie, thyroïde, goitre, TSH, berlthyrox",
    "calculs": [
     {
      "titre": "Hypothyroïdie congénitale",
@@ -9643,7 +10672,10 @@
     }
    ],
    "famille": "Hormone thyroïdienne",
-   "mecanisme": "Remplace la thyroxine (T4) manquante, transformée en T3 active dans les tissus."
+   "mecanisme": "Remplace la thyroxine (T4) manquante, transformée en T3 active dans les tissus.",
+   "marquesRdc": [
+    "Berlthyrox"
+   ]
   },
   {
    "id": 193,
@@ -9936,9 +10968,16 @@
     "Rare : mycose du conduit"
    ],
    "grossesse": "Utilisable (usage local).",
-   "motsCles": "otite chronique, oreille qui coule, otite externe",
+   "motsCles": "otite chronique, oreille qui coule, otite externe, cicloderm, cifin-dx, cipros plus, opt-cipros, opticin",
    "famille": "Antibiotique auriculaire",
-   "mecanisme": "Fluoroquinolone appliquée dans l'oreille qui bloque la réplication de l'ADN des bactéries (otites externes, otite chronique suppurée)."
+   "mecanisme": "Fluoroquinolone appliquée dans l'oreille qui bloque la réplication de l'ADN des bactéries (otites externes, otite chronique suppurée).",
+   "marquesRdc": [
+    "Cicloderm (+ clotrimazole, fluocinolone)",
+    "Cifin-Dx (+ dexaméthasone)",
+    "Cipros Plus (+ dexaméthasone)",
+    "Opt-Cipros",
+    "Opticin"
+   ]
   },
   {
    "id": 199,
@@ -9976,7 +11015,7 @@
     "Hépatite (rare)"
    ],
    "grossesse": "À éviter.",
-   "motsCles": "goutte, acide urique, tophus",
+   "motsCles": "goutte, acide urique, tophus, alluric",
    "calculs": [
     {
      "titre": "Prévention du syndrome de lyse",
@@ -9995,7 +11034,10 @@
     }
    ],
    "famille": "Inhibiteur de la xanthine oxydase",
-   "mecanisme": "Bloque la xanthine oxydase et la production d'acide urique : baisse durable de l'uricémie (goutte, prévention du syndrome de lyse)."
+   "mecanisme": "Bloque la xanthine oxydase et la production d'acide urique : baisse durable de l'uricémie (goutte, prévention du syndrome de lyse).",
+   "marquesRdc": [
+    "Alluric"
+   ]
   },
   {
    "id": 200,
@@ -11554,7 +12596,7 @@
     "Urines foncées"
    ],
    "grossesse": "Éviter au 1er trimestre ; préférer le métronidazole si nécessaire.",
-   "motsCles": "giardiase, amibiase, trichomonase, diarrhée",
+   "motsCles": "giardiase, amibiase, trichomonase, diarrhée, tinaz, tinido, tinisun, tiniwin",
    "calculs": [
     {
      "titre": "Giardiase (dose unique)",
@@ -11573,7 +12615,14 @@
     }
    ],
    "famille": "Nitro-imidazolé",
-   "mecanisme": "Réduit dans les germes anaérobies et les protozoaires, il forme des dérivés toxiques qui cassent l'ADN : bactéricide sur les anaérobies, amoebicide, actif sur Giardia et Trichomonas."
+   "mecanisme": "Réduit dans les germes anaérobies et les protozoaires, il forme des dérivés toxiques qui cassent l'ADN : bactéricide sur les anaérobies, amoebicide, actif sur Giardia et Trichomonas.",
+   "marquesRdc": [
+    "Tinaz",
+    "Tinido",
+    "Tinisun",
+    "Tiniwin",
+    "Tinizol"
+   ]
   },
   {
    "id": 237,
@@ -11900,9 +12949,18 @@
     "Sécheresse des cheveux"
    ],
    "grossesse": "Utilisable (usage local).",
-   "motsCles": "dermatite séborrhéique, pellicules, pityriasis versicolor, mycose",
+   "motsCles": "dermatite séborrhéique, pellicules, pityriasis versicolor, mycose, feet aid, keozol, ketazflox, ketin, ketineal, kozic lotion",
    "famille": "Antifongique et antiséborrhéique",
-   "mecanisme": "Réduit la multiplication des levures Malassezia et le renouvellement des cellules du cuir chevelu (pityriasis versicolor, dermite séborrhéique)."
+   "mecanisme": "Réduit la multiplication des levures Malassezia et le renouvellement des cellules du cuir chevelu (pityriasis versicolor, dermite séborrhéique).",
+   "marquesRdc": [
+    "Feet Aid",
+    "Keozol",
+    "Ketazflox",
+    "Ketazol",
+    "Ketin",
+    "Ketineal (+ néomycine)",
+    "Kozic Lotion"
+   ]
   },
   {
    "id": 243,
@@ -11942,9 +13000,13 @@
     "Photosensibilisation"
    ],
    "grossesse": "Utilisable ponctuellement ; éviter en fin de grossesse (sédation du nouveau-né).",
-   "motsCles": "insomnie, sommeil, allergie, vomissements, agitation",
+   "motsCles": "insomnie, sommeil, allergie, vomissements, agitation, promezine",
    "famille": "Antihistaminique phénothiazine",
-   "mecanisme": "Bloque les récepteurs H1 (et en partie dopaminergiques et muscariniques) : sédatif, antiallergique, antiémétique."
+   "mecanisme": "Bloque les récepteurs H1 (et en partie dopaminergiques et muscariniques) : sédatif, antiallergique, antiémétique.",
+   "marquesRdc": [
+    "Phenergan",
+    "Promezine"
+   ]
   },
   {
    "id": 244,
@@ -12036,9 +13098,12 @@
     "Hypotension orthostatique"
    ],
    "grossesse": "Utilisable si nécessaire (surveiller le diabète gestationnel).",
-   "motsCles": "schizophrénie, psychose, manie, bipolaire, agitation",
+   "motsCles": "schizophrénie, psychose, manie, bipolaire, agitation, olamag",
    "famille": "Antipsychotique de 2e génération (atypique)",
-   "mecanisme": "Bloque les récepteurs D2 et sérotoninergiques 5-HT2A : effet antipsychotique avec moins d'effets extrapyramidaux, mais risque métabolique (poids, glycémie)."
+   "mecanisme": "Bloque les récepteurs D2 et sérotoninergiques 5-HT2A : effet antipsychotique avec moins d'effets extrapyramidaux, mais risque métabolique (poids, glycémie).",
+   "marquesRdc": [
+    "Olamag"
+   ]
   },
   {
    "id": 246,
@@ -12152,7 +13217,7 @@
     "Blocage neuromusculaire"
    ],
    "grossesse": "Contre-indiqué sauf risque vital (surdité congénitale).",
-   "motsCles": "aminoside, BLSE, résistance, sepsis néonatal, tuberculose",
+   "motsCles": "aminoside, BLSE, résistance, sepsis néonatal, tuberculose, amine, amique",
    "calculs": [
     {
      "titre": "Infection grave (enfant)",
@@ -12186,7 +13251,11 @@
     }
    ],
    "famille": "Aminoside",
-   "mecanisme": "Se fixe à la sous-unité 30S du ribosome et provoque des erreurs de lecture : effet bactéricide rapide, dépendant de la concentration ; néphrotoxique et ototoxique."
+   "mecanisme": "Se fixe à la sous-unité 30S du ribosome et provoque des erreurs de lecture : effet bactéricide rapide, dépendant de la concentration ; néphrotoxique et ototoxique.",
+   "marquesRdc": [
+    "Amine",
+    "Amique"
+   ]
   },
   {
    "id": 249,
@@ -12264,7 +13333,7 @@
     "Colite à Clostridioides difficile"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "céphalosporine, otite, sinusite, pneumonie, antibioprophylaxie, rofuxime",
+   "motsCles": "céphalosporine, otite, sinusite, pneumonie, antibioprophylaxie, rofuxime, cefudoc, cefzim, cepshal, cepshal ds, pulmocef",
    "calculs": [
     {
      "titre": "Orale",
@@ -12298,7 +13367,16 @@
     }
    ],
    "famille": "Bêtalactamine – céphalosporine",
-   "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération."
+   "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération.",
+   "marquesRdc": [
+    "Cefudoc",
+    "Cefzim",
+    "Cepshal",
+    "Cepshal Ds",
+    "Pulmocef",
+    "Rofuxime",
+    "Zinnat"
+   ]
   },
   {
    "id": 251,
@@ -12335,7 +13413,7 @@
     "Neutropénie (traitement prolongé)"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "sepsis néonatal, méningite, nouveau-né, céphalosporine, protax",
+   "motsCles": "sepsis néonatal, méningite, nouveau-né, céphalosporine, protax, alcef, anticef, artax, contax, dipitax, grantax, inceft, kotax, ouicef, pritax, scotax, ulfaran",
    "calculs": [
     {
      "titre": "Infection grave (enfant)",
@@ -12369,7 +13447,23 @@
     }
    ],
    "famille": "Bêtalactamine – céphalosporine",
-   "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération."
+   "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération.",
+   "marquesRdc": [
+    "Alcef",
+    "Anticef",
+    "Artax",
+    "Cefatax",
+    "Contax",
+    "Dipitax",
+    "Grantax",
+    "Inceft",
+    "Kotax",
+    "Ouicef",
+    "Pritax",
+    "Protax",
+    "Scotax",
+    "Ulfaran"
+   ]
   },
   {
    "id": 252,
@@ -12403,7 +13497,7 @@
     "Encéphalopathie, convulsions (surdosage, insuffisance rénale)"
    ],
    "grossesse": "Utilisable si nécessaire.",
-   "motsCles": "Pseudomonas, pyocyanique, neutropénie fébrile, mélioïdose, nosocomial",
+   "motsCles": "Pseudomonas, pyocyanique, neutropénie fébrile, mélioïdose, nosocomial, ceftamex, cetazid, tazid",
    "calculs": [
     {
      "titre": "Infection grave",
@@ -12415,7 +13509,12 @@
     }
    ],
    "famille": "Bêtalactamine – céphalosporine",
-   "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération."
+   "mecanisme": "Se fixe aux protéines liant les pénicillines et bloque la synthèse de la paroi bactérienne : effet bactéricide ; le spectre vers les bacilles à Gram négatif augmente avec la génération.",
+   "marquesRdc": [
+    "Ceftamex",
+    "Cetazid",
+    "Tazid"
+   ]
   },
   {
    "id": 253,
@@ -12449,7 +13548,7 @@
     "Hypokaliémie"
    ],
    "grossesse": "Utilisable si nécessaire.",
-   "motsCles": "nosocomial, Pseudomonas, péritonite, neutropénie fébrile",
+   "motsCles": "nosocomial, Pseudomonas, péritonite, neutropénie fébrile, dozar, inpetaz, pclin-tz, piptaz, pitam, tazoject-p, tazomag-p, tazomex, velpitaz",
    "calculs": [
     {
      "titre": "Infection grave (> 2 mois)",
@@ -12461,7 +13560,18 @@
     }
    ],
    "famille": "Bêtalactamine – pénicilline + inhibiteur de bêtalactamase",
-   "mecanisme": "La pénicilline bloque la synthèse de la paroi bactérienne ; l'inhibiteur (acide clavulanique, tazobactam) neutralise les bêtalactamases produites par les bactéries résistantes et élargit le spectre."
+   "mecanisme": "La pénicilline bloque la synthèse de la paroi bactérienne ; l'inhibiteur (acide clavulanique, tazobactam) neutralise les bêtalactamases produites par les bactéries résistantes et élargit le spectre.",
+   "marquesRdc": [
+    "Dozar",
+    "Inpetaz",
+    "Pclin-Tz",
+    "Piptaz",
+    "Pitam",
+    "Tazoject-P",
+    "Tazomag-P",
+    "Tazomex",
+    "Velpitaz"
+   ]
   },
   {
    "id": 254,
@@ -12498,7 +13608,7 @@
     "Élévation des transaminases"
    ],
    "grossesse": "Utilisable si nécessaire.",
-   "motsCles": "carbapénème, BLSE, multirésistant, méningite, neutropénie fébrile",
+   "motsCles": "carbapénème, BLSE, multirésistant, méningite, neutropénie fébrile, alveonem, meronash",
    "calculs": [
     {
      "titre": "Infection grave",
@@ -12518,7 +13628,12 @@
     }
    ],
    "famille": "Bêtalactamine – carbapénème",
-   "mecanisme": "Bloque la synthèse de la paroi bactérienne ; très stable vis-à-vis de la plupart des bêtalactamases, y compris les BLSE (antibiotique « à surveiller » ou de réserve)."
+   "mecanisme": "Bloque la synthèse de la paroi bactérienne ; très stable vis-à-vis de la plupart des bêtalactamases, y compris les BLSE (antibiotique « à surveiller » ou de réserve).",
+   "marquesRdc": [
+    "Alveonem",
+    "Meromex",
+    "Meronash"
+   ]
   },
   {
    "id": 255,
@@ -12614,7 +13729,7 @@
     "Diarrhée, nausées"
    ],
    "grossesse": "Données limitées ; utilisé dans la tuberculose pharmacorésistante si nécessaire.",
-   "motsCles": "tuberculose multirésistante, BPaLM, SARM, entérocoque",
+   "motsCles": "tuberculose multirésistante, BPaLM, SARM, entérocoque, linzovie",
    "calculs": [
     {
      "titre": "Tuberculose (< 16 kg)",
@@ -12675,7 +13790,10 @@
     }
    ],
    "famille": "Oxazolidinone",
-   "mecanisme": "Se fixe à la sous-unité 50S du ribosome et empêche le démarrage de la synthèse des protéines ; actif sur les Gram positif résistants (SARM, entérocoques) et les mycobactéries."
+   "mecanisme": "Se fixe à la sous-unité 50S du ribosome et empêche le démarrage de la synthèse des protéines ; actif sur les Gram positif résistants (SARM, entérocoques) et les mycobactéries.",
+   "marquesRdc": [
+    "Linzovie"
+   ]
   },
   {
    "id": 257,
@@ -12896,7 +14014,7 @@
     "Troubles neuropsychiques, dysglycémie"
    ],
    "grossesse": "Utilisable dans la tuberculose pharmacorésistante si nécessaire.",
-   "motsCles": "tuberculose multirésistante, fluoroquinolone, méningite tuberculeuse",
+   "motsCles": "tuberculose multirésistante, fluoroquinolone, méningite tuberculeuse, araumox, debumox, floximex, micromox, moxone",
    "calculs": [
     {
      "titre": "Tuberculose (enfant)",
@@ -12922,7 +14040,14 @@
     }
    ],
    "famille": "Fluoroquinolone antituberculeuse",
-   "mecanisme": "Inhibe l'ADN gyrase des mycobactéries : bactéricide (schémas courts de la tuberculose résistante, méningite)."
+   "mecanisme": "Inhibe l'ADN gyrase des mycobactéries : bactéricide (schémas courts de la tuberculose résistante, méningite).",
+   "marquesRdc": [
+    "Araumox",
+    "Debumox",
+    "Floximex",
+    "Micromox",
+    "Moxone"
+   ]
   },
   {
    "id": 263,
@@ -12960,7 +14085,7 @@
     "Insomnie, céphalées, dysglycémie"
    ],
    "grossesse": "Utilisable dans la tuberculose pharmacorésistante si nécessaire.",
-   "motsCles": "tuberculose multirésistante, fluoroquinolone, contacts TB-MR",
+   "motsCles": "tuberculose multirésistante, fluoroquinolone, contacts TB-MR, araubact, araubact-oz, flonix, leocon, levo denk, levocine, levocrown, levodex, levoque, levosky, levovie, lexar, mepafloxin, zoline",
    "calculs": [
     {
      "titre": "Tuberculose (enfant)",
@@ -12986,7 +14111,23 @@
     }
    ],
    "famille": "Fluoroquinolone antituberculeuse",
-   "mecanisme": "Inhibe l'ADN gyrase des mycobactéries : bactéricide (schémas courts de la tuberculose résistante, méningite)."
+   "mecanisme": "Inhibe l'ADN gyrase des mycobactéries : bactéricide (schémas courts de la tuberculose résistante, méningite).",
+   "marquesRdc": [
+    "Araubact",
+    "Araubact-Oz (+ ornidazole)",
+    "Flonix",
+    "Leocon",
+    "Levo Denk",
+    "Levocine",
+    "Levocrown",
+    "Levodex",
+    "Levoque",
+    "Levosky",
+    "Levovie",
+    "Lexar",
+    "Mepafloxin",
+    "Zoline"
+   ]
   },
   {
    "id": 264,
@@ -13578,7 +14719,7 @@
     "Hypokaliémie"
    ],
    "grossesse": "Éviter (tératogène chez l'animal), sauf infection grave.",
-   "motsCles": "histoplasmose, talaromycose, sporotrichose, mycose profonde, VIH",
+   "motsCles": "histoplasmose, talaromycose, sporotrichose, mycose profonde, VIH, tano, tano-th",
    "calculs": [
     {
      "titre": "Mycose profonde (enfant)",
@@ -13603,7 +14744,11 @@
     }
    ],
    "famille": "Antifongique azolé",
-   "mecanisme": "Inhibe la synthèse de l'ergostérol de la membrane des champignons (enzyme 14-alpha-déméthylase) : effet fongistatique ; inhibiteur enzymatique (interactions)."
+   "mecanisme": "Inhibe la synthèse de l'ergostérol de la membrane des champignons (enzyme 14-alpha-déméthylase) : effet fongistatique ; inhibiteur enzymatique (interactions).",
+   "marquesRdc": [
+    "Tano",
+    "Tano-Th"
+   ]
   },
   {
    "id": 275,
@@ -13796,7 +14941,10 @@
    "grossesse": "Utilisable.",
    "motsCles": "VIH, 2e ligne, inhibiteur de protéase, enfant",
    "famille": "Inhibiteur de la protéase (IP) potentialisé",
-   "mecanisme": "Bloque la protéase du VIH qui découpe les protéines virales : les virus produits sont immatures et non infectieux ; le ritonavir augmente les taux de l'IP (nombreuses interactions)."
+   "mecanisme": "Bloque la protéase du VIH qui découpe les protéines virales : les virus produits sont immatures et non infectieux ; le ritonavir augmente les taux de l'IP (nombreuses interactions).",
+   "marquesRdc": [
+    "Kaletra"
+   ]
   },
   {
    "id": 279,
@@ -13904,7 +15052,10 @@
    "grossesse": "Utilisable.",
    "motsCles": "VIH, 3e ligne, intégrase, nouveau-né",
    "famille": "Inhibiteur de l'intégrase (INI)",
-   "mecanisme": "Empêche l'intégrase du VIH d'insérer l'ADN viral dans l'ADN de la cellule hôte : barrière élevée à la résistance (dolutégravir)."
+   "mecanisme": "Empêche l'intégrase du VIH d'insérer l'ADN viral dans l'ADN de la cellule hôte : barrière élevée à la résistance (dolutégravir).",
+   "marquesRdc": [
+    "Isentress"
+   ]
   },
   {
    "id": 282,
@@ -14061,9 +15212,12 @@
     "Frissons, nausées au réveil"
    ],
    "grossesse": "Utilisable (relâche l'utérus à forte concentration : saignement lors de la césarienne).",
-   "motsCles": "anesthésie générale, halogéné, gaz anesthésique",
+   "motsCles": "anesthésie générale, halogéné, gaz anesthésique, isorane",
    "famille": "Anesthésique général inhalé (halogéné)",
-   "mecanisme": "Gaz qui déprime le système nerveux central par action sur plusieurs récepteurs (GABA-A, NMDA) : entretien de l'anesthésie."
+   "mecanisme": "Gaz qui déprime le système nerveux central par action sur plusieurs récepteurs (GABA-A, NMDA) : entretien de l'anesthésie.",
+   "marquesRdc": [
+    "Isorane"
+   ]
   },
   {
    "id": 286,
@@ -14098,9 +15252,12 @@
     "Hyperthermie maligne (rare)"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "anesthésie générale, induction inhalatoire, enfant, halogéné",
+   "motsCles": "anesthésie générale, induction inhalatoire, enfant, halogéné, sojourn",
    "famille": "Anesthésique général inhalé (halogéné)",
-   "mecanisme": "Gaz qui déprime le système nerveux central par action sur plusieurs récepteurs (GABA-A, NMDA) : entretien de l'anesthésie."
+   "mecanisme": "Gaz qui déprime le système nerveux central par action sur plusieurs récepteurs (GABA-A, NMDA) : entretien de l'anesthésie.",
+   "marquesRdc": [
+    "Sojourn"
+   ]
   },
   {
    "id": 287,
@@ -14176,7 +15333,7 @@
     "Rigidité thoracique"
    ],
    "grossesse": "Utilisable ; risque de dépression respiratoire du nouveau-né si donné avant l'accouchement.",
-   "motsCles": "opioïde, anesthésie, analgésie, patch, douleur",
+   "motsCles": "opioïde, anesthésie, analgésie, patch, douleur, fentamag",
    "calculs": [
     {
      "titre": "Analgésie IV",
@@ -14225,7 +15382,10 @@
     }
    ],
    "famille": "Opioïde fort (anesthésie)",
-   "mecanisme": "Agoniste μ très puissant et rapide : analgésie de l'anesthésie et de la réanimation ; dépression respiratoire."
+   "mecanisme": "Agoniste μ très puissant et rapide : analgésie de l'anesthésie et de la réanimation ; dépression respiratoire.",
+   "marquesRdc": [
+    "Fentamag"
+   ]
   },
   {
    "id": 289,
@@ -14524,9 +15684,13 @@
     "Vision floue"
    ],
    "grossesse": "Éviter.",
-   "motsCles": "râles agoniques, fin de vie, soins palliatifs, mal des transports",
+   "motsCles": "râles agoniques, fin de vie, soins palliatifs, mal des transports, buscopin, micopan",
    "famille": "Anticholinergique (antimuscarinique)",
-   "mecanisme": "Bloque les récepteurs muscariniques de l'acétylcholine : diminue les sécrétions (salive, bronches), le spasme digestif et urinaire, et les nausées du mal des transports."
+   "mecanisme": "Bloque les récepteurs muscariniques de l'acétylcholine : diminue les sécrétions (salive, bronches), le spasme digestif et urinaire, et les nausées du mal des transports.",
+   "marquesRdc": [
+    "Buscopin",
+    "Micopan"
+   ]
   },
   {
    "id": 294,
@@ -14561,9 +15725,15 @@
     "Iléus paralytique (enfant, surdosage)"
    ],
    "grossesse": "Utilisable ponctuellement.",
-   "motsCles": "diarrhée chronique, VIH, soins palliatifs",
+   "motsCles": "diarrhée chronique, VIH, soins palliatifs, diarasol, dyarex, lotrimide, milicine",
    "famille": "Antidiarrhéique (opioïde périphérique)",
-   "mecanisme": "Agoniste des récepteurs opioïdes de l'intestin qui ralentit le transit ; ne passe pas dans le cerveau aux doses usuelles."
+   "mecanisme": "Agoniste des récepteurs opioïdes de l'intestin qui ralentit le transit ; ne passe pas dans le cerveau aux doses usuelles.",
+   "marquesRdc": [
+    "Diarasol",
+    "Dyarex",
+    "Lotrimide",
+    "Milicine"
+   ]
   },
   {
    "id": 295,
@@ -15398,7 +16568,7 @@
     "Allongement du QT (rare)"
    ],
    "grossesse": "Utilisable si l'artésunate n'est pas disponible.",
-   "motsCles": "paludisme grave, artéméther, Paluther",
+   "motsCles": "paludisme grave, artéméther, Paluther, armethar, artezen, lyatem",
    "calculs": [
     {
      "titre": "1er jour",
@@ -15442,7 +16612,14 @@
     }
    ],
    "famille": "Dérivé de l'artémisinine",
-   "mecanisme": "Activé au contact du fer de l'hème parasitaire, il libère des radicaux libres qui endommagent les protéines du Plasmodium : réduction très rapide de la parasitémie, y compris des formes jeunes."
+   "mecanisme": "Activé au contact du fer de l'hème parasitaire, il libère des radicaux libres qui endommagent les protéines du Plasmodium : réduction très rapide de la parasitémie, y compris des formes jeunes.",
+   "marquesRdc": [
+    "Armethar",
+    "Artesiane",
+    "Artezen",
+    "Ither",
+    "Lyatem"
+   ]
   },
   {
    "id": 315,
@@ -16184,7 +17361,7 @@
     "Éruption"
    ],
    "grossesse": "Éviter au 1er trimestre.",
-   "motsCles": "oxyures, ascaris, vers",
+   "motsCles": "oxyures, ascaris, vers, arover, medcombavet",
    "calculs": [
     {
      "titre": "Dose unique",
@@ -16209,7 +17386,11 @@
     }
    ],
    "famille": "Anthelminthique (dépolarisant)",
-   "mecanisme": "Agoniste nicotinique des muscles du ver : paralysie spastique et expulsion des vers intestinaux (ascaris, oxyures, ankylostomes)."
+   "mecanisme": "Agoniste nicotinique des muscles du ver : paralysie spastique et expulsion des vers intestinaux (ascaris, oxyures, ankylostomes).",
+   "marquesRdc": [
+    "Arover",
+    "Medcombavet"
+   ]
   },
   {
    "id": 330,
@@ -16907,9 +18088,12 @@
     "Gel : nausées, interaction avec la warfarine et les sulfamides hypoglycémiants"
    ],
    "grossesse": "Utilisable (usage local).",
-   "motsCles": "mycose, muguet, candidose, intertrigo",
+   "motsCles": "mycose, muguet, candidose, intertrigo, clomac",
    "famille": "Antifongique azolé local",
-   "mecanisme": "Inhibe la synthèse de l'ergostérol des champignons sur la peau et les muqueuses (dermatophytes, levures)."
+   "mecanisme": "Inhibe la synthèse de l'ergostérol des champignons sur la peau et les muqueuses (dermatophytes, levures).",
+   "marquesRdc": [
+    "Clomac (+ ornidazole)"
+   ]
   },
   {
    "id": 348,
@@ -16983,9 +18167,15 @@
     "Hépatite (rare)"
    ],
    "grossesse": "Oral : éviter ; crème : utilisable.",
-   "motsCles": "onychomycose, teigne, mycose des ongles, pied d'athlète",
+   "motsCles": "onychomycose, teigne, mycose des ongles, pied d'athlète, exterfon, nafezol, nomycose, terbfine",
    "famille": "Antifongique allylamine",
-   "mecanisme": "Inhibe la squalène époxydase et la synthèse de l'ergostérol : fongicide sur les dermatophytes (teignes, onychomycoses)."
+   "mecanisme": "Inhibe la squalène époxydase et la synthèse de l'ergostérol : fongicide sur les dermatophytes (teignes, onychomycoses).",
+   "marquesRdc": [
+    "Exterfon",
+    "Nafezol",
+    "Nomycose",
+    "Terbfine"
+   ]
   },
   {
    "id": 350,
@@ -17086,9 +18276,24 @@
     "Effets généraux (surface étendue, longue durée, enfant)"
    ],
    "grossesse": "Utilisable sur de petites surfaces, en cure courte.",
-   "motsCles": "eczéma, psoriasis, dermocorticoïde, lichen",
+   "motsCles": "eczéma, psoriasis, dermocorticoïde, lichen, amol-g, bactilief, betalen, betamate, betastene, célestène, cortistène, delabact, dermazema, gumethyl, labenda, tridox, xentol",
    "famille": "Dermocorticoïde",
-   "mecanisme": "Corticoïde appliqué sur la peau : effet anti-inflammatoire et antiprurigineux local (eczéma, dermatites) ; puissance variable."
+   "mecanisme": "Corticoïde appliqué sur la peau : effet anti-inflammatoire et antiprurigineux local (eczéma, dermatites) ; puissance variable.",
+   "marquesRdc": [
+    "Amol-G (+ clotrimazole, gentamicine)",
+    "Bactilief (+ clotrimazole, néomycine)",
+    "Betalen",
+    "Betamate",
+    "Betastene",
+    "Cortistène",
+    "Célestène",
+    "Delabact (+ clotrimazole)",
+    "Dermazema (+ clotrimazole, gentamicine)",
+    "Gumethyl",
+    "Labenda (+ clotrimazole, gentamicine)",
+    "Tridox (+ clotrimazole, gentamicine)",
+    "Xentol (+ néomycine)"
+   ]
   },
   {
    "id": 353,
@@ -17323,9 +18528,12 @@
     "Irritation légère"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "ulcère de cornée, diagnostic, œil",
+   "motsCles": "ulcère de cornée, diagnostic, œil, flosein",
    "famille": "Colorant diagnostique",
-   "mecanisme": "Colore en vert les lésions de la cornée et de la conjonctive sous lumière bleue (ulcères, abrasions, corps étrangers)."
+   "mecanisme": "Colore en vert les lésions de la cornée et de la conjonctive sous lumière bleue (ulcères, abrasions, corps étrangers).",
+   "marquesRdc": [
+    "Flosein"
+   ]
   },
   {
    "id": 360,
@@ -17355,9 +18563,14 @@
     "Rares : tachycardie, agitation chez l'enfant"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "fond d'œil, dilatation, mydriase",
+   "motsCles": "fond d'œil, dilatation, mydriase, torine, tripi vision",
    "famille": "Mydriatique (anticholinergique)",
-   "mecanisme": "Bloque les récepteurs muscariniques de l'iris : dilate la pupille pour l'examen du fond d'œil."
+   "mecanisme": "Bloque les récepteurs muscariniques de l'iris : dilate la pupille pour l'examen du fond d'œil.",
+   "marquesRdc": [
+    "Mydriaticum",
+    "Torine",
+    "Tripi Vision"
+   ]
   },
   {
    "id": 361,
@@ -17599,9 +18812,12 @@
     "Toxique en cas d'ingestion"
    ],
    "grossesse": "Utilisable (usage externe).",
-   "motsCles": "Dettol, antiseptique",
+   "motsCles": "Dettol, antiseptique, germol",
    "famille": "Désinfectant",
-   "mecanisme": "Détruit les micro-organismes sur la peau, les mains, les surfaces ou le matériel (dénaturation des protéines, oxydation)."
+   "mecanisme": "Détruit les micro-organismes sur la peau, les mains, les surfaces ou le matériel (dénaturation des protéines, oxydation).",
+   "marquesRdc": [
+    "Germol"
+   ]
   },
   {
    "id": 368,
@@ -17696,9 +18912,16 @@
     "Kératite toxique (usage prolongé)"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "conjonctivite bactérienne",
+   "motsCles": "conjonctivite bactérienne, gentac, gentyl, magen, ophtacine, tridex",
    "famille": "Antibiotique ophtalmique",
-   "mecanisme": "Antibiotique appliqué sur l'œil qui bloque la synthèse des protéines ou de l'ADN des bactéries responsables de conjonctivites et kératites."
+   "mecanisme": "Antibiotique appliqué sur l'œil qui bloque la synthèse des protéines ou de l'ADN des bactéries responsables de conjonctivites et kératites.",
+   "marquesRdc": [
+    "Gentac",
+    "Gentyl",
+    "Magen",
+    "Ophtacine",
+    "Tridex"
+   ]
   },
   {
    "id": 371,
@@ -17727,9 +18950,12 @@
     "Irritation, gêne"
    ],
    "grossesse": "Utilisable (non absorbé).",
-   "motsCles": "kératite fongique, ulcère de cornée",
+   "motsCles": "kératite fongique, ulcère de cornée, tamoz",
    "famille": "Antifongique ophtalmique (polyène)",
-   "mecanisme": "Se fixe à l'ergostérol de la membrane des champignons (Fusarium, Aspergillus) : traitement des kératites fongiques."
+   "mecanisme": "Se fixe à l'ergostérol de la membrane des champignons (Fusarium, Aspergillus) : traitement des kératites fongiques.",
+   "marquesRdc": [
+    "Tamoz"
+   ]
   },
   {
    "id": 372,
@@ -17759,9 +18985,16 @@
     "Dépôts cornéens (rares)"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "ulcère de cornée, kératite bactérienne",
+   "motsCles": "ulcère de cornée, kératite bactérienne, antibiopur, oflocet, ofloque, opt-o, optiflox",
    "famille": "Antibiotique ophtalmique",
-   "mecanisme": "Antibiotique appliqué sur l'œil qui bloque la synthèse des protéines ou de l'ADN des bactéries responsables de conjonctivites et kératites."
+   "mecanisme": "Antibiotique appliqué sur l'œil qui bloque la synthèse des protéines ou de l'ADN des bactéries responsables de conjonctivites et kératites.",
+   "marquesRdc": [
+    "Antibiopur",
+    "Oflocet",
+    "Ofloque",
+    "Opt-O",
+    "Optiflox"
+   ]
   },
   {
    "id": 373,
@@ -17794,9 +19027,14 @@
     "Aggravation d'infections"
    ],
    "grossesse": "Utilisable si nécessaire.",
-   "motsCles": "uvéite, inflammation de l'œil",
+   "motsCles": "uvéite, inflammation de l'œil, optipred, prednol, prezon",
    "famille": "Corticoïde ophtalmique",
-   "mecanisme": "Anti-inflammatoire local de l'œil (uvéites, après chirurgie) ; contre-indiqué dans les kératites infectieuses sans avis spécialisé."
+   "mecanisme": "Anti-inflammatoire local de l'œil (uvéites, après chirurgie) ; contre-indiqué dans les kératites infectieuses sans avis spécialisé.",
+   "marquesRdc": [
+    "Optipred",
+    "Prednol",
+    "Prezon"
+   ]
   },
   {
    "id": 374,
@@ -17829,9 +19067,15 @@
     "Œdème maculaire (rare)"
    ],
    "grossesse": "Éviter (prostaglandine).",
-   "motsCles": "glaucome",
+   "motsCles": "glaucome, larost, mona, monoprost, xalanop",
    "famille": "Antiglaucomateux analogue des prostaglandines",
-   "mecanisme": "Augmente l'écoulement de l'humeur aqueuse par la voie uvéo-sclérale : baisse puissante de la pression intraoculaire (1 goutte le soir)."
+   "mecanisme": "Augmente l'écoulement de l'humeur aqueuse par la voie uvéo-sclérale : baisse puissante de la pression intraoculaire (1 goutte le soir).",
+   "marquesRdc": [
+    "Larost",
+    "Mona",
+    "Monoprost",
+    "Xalanop"
+   ]
   },
   {
    "id": 375,
@@ -17862,9 +19106,16 @@
     "Irritation"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "otite externe, otomycose",
+   "motsCles": "otite externe, otomycose, aroderme, elicasal, fimorex, inzema, taloheal",
    "famille": "Antiseptique auriculaire (acide)",
-   "mecanisme": "Acidifie le conduit auditif et inhibe la croissance des bactéries et champignons (otite externe)."
+   "mecanisme": "Acidifie le conduit auditif et inhibe la croissance des bactéries et champignons (otite externe).",
+   "marquesRdc": [
+    "Aroderme",
+    "Elicasal",
+    "Fimorex (+ clotrimazole)",
+    "Inzema",
+    "Taloheal"
+   ]
   },
   {
    "id": 376,
@@ -17932,9 +19183,19 @@
     "Palpitations, HTA, insomnie (surdosage)"
    ],
    "grossesse": "Éviter (vasoconstricteur).",
-   "motsCles": "nez bouché, décongestionnant, rhumine, rhumine",
+   "motsCles": "nez bouché, décongestionnant, rhumine, rhumine, clarinez, namcold, nazovert, otricome, rhumex, rhumfix, rhumfix baby",
    "famille": "Décongestionnant nasal (vasoconstricteur)",
-   "mecanisme": "Stimule les récepteurs alpha de la muqueuse nasale : vasoconstriction et désobstruction (pas plus de 5 jours)."
+   "mecanisme": "Stimule les récepteurs alpha de la muqueuse nasale : vasoconstriction et désobstruction (pas plus de 5 jours).",
+   "marquesRdc": [
+    "Clarinez",
+    "Namcold",
+    "Nazovert",
+    "Otricome",
+    "Rhumex",
+    "Rhumfix",
+    "Rhumfix Baby",
+    "Rhumine"
+   ]
   },
   {
    "id": 378,
@@ -18827,9 +20088,12 @@
     "Infertilité, atrophie testiculaire"
    ],
    "grossesse": "CONTRE-INDIQUÉE (virilisation du fœtus féminin).",
-   "motsCles": "hypogonadisme",
+   "motsCles": "hypogonadisme, juvatest",
    "famille": "Androgène",
-   "mecanisme": "Remplace la testostérone manquante en agissant sur les récepteurs aux androgènes."
+   "mecanisme": "Remplace la testostérone manquante en agissant sur les récepteurs aux androgènes.",
+   "marquesRdc": [
+    "Juvatest"
+   ]
   },
   {
    "id": 399,
@@ -19082,9 +20346,15 @@
     "Gangrène de Fournier (très rare)"
    ],
    "grossesse": "Contre-indiquée (préférer l'insuline).",
-   "motsCles": "diabète, insuffisance cardiaque, rein, SGLT2",
+   "motsCles": "diabète, insuffisance cardiaque, rein, SGLT2, empiget, empiget-m, xenglu, xenglu met",
    "famille": "Inhibiteur du SGLT2 (gliflozine)",
-   "mecanisme": "Bloque la réabsorption du glucose par le rein (glucosurie) ; protège aussi le cœur et le rein, indépendamment du diabète."
+   "mecanisme": "Bloque la réabsorption du glucose par le rein (glucosurie) ; protège aussi le cœur et le rein, indépendamment du diabète.",
+   "marquesRdc": [
+    "Empiget",
+    "Empiget-M (+ metformine)",
+    "Xenglu",
+    "Xenglu Met (+ metformine)"
+   ]
   },
   {
    "id": 406,
@@ -19194,9 +20464,12 @@
     "Grossesses multiples (moins qu'avec le clomifène)"
    ],
    "grossesse": "Contre-indiqué pendant la grossesse.",
-   "motsCles": "infertilité, ovulation, SOPK, cancer du sein",
+   "motsCles": "infertilité, ovulation, SOPK, cancer du sein, femroz",
    "famille": "Hormonothérapie (inhibiteur de l'aromatase)",
-   "mecanisme": "Inhibiteur de l'aromatase : bloque la fabrication des œstrogènes (cancer du sein de la femme ménopausée) ; à faible dose, augmente la FSH et induit l'ovulation."
+   "mecanisme": "Inhibiteur de l'aromatase : bloque la fabrication des œstrogènes (cancer du sein de la femme ménopausée) ; à faible dose, augmente la FSH et induit l'ovulation.",
+   "marquesRdc": [
+    "Femroz"
+   ]
   },
   {
    "id": 409,
@@ -19688,9 +20961,12 @@
     "Hyponatrémie, céphalées"
    ],
    "grossesse": "Éviter.",
-   "motsCles": "diurétique, hypokaliémie",
+   "motsCles": "diurétique, hypokaliémie, logirene",
    "famille": "Diurétique épargneur de potassium",
-   "mecanisme": "Bloque l'action de l'aldostérone (spironolactone) ou les canaux sodiques du tube collecteur (amiloride) : diurèse modérée qui conserve le potassium."
+   "mecanisme": "Bloque l'action de l'aldostérone (spironolactone) ou les canaux sodiques du tube collecteur (amiloride) : diurèse modérée qui conserve le potassium.",
+   "marquesRdc": [
+    "Logirene (+ furosémide)"
+   ]
   },
   {
    "id": 420,
@@ -20963,9 +22239,12 @@
     "Neuropathie"
    ],
    "grossesse": "Contre-indiqué.",
-   "motsCles": "chimiothérapie, sein, prostate",
+   "motsCles": "chimiothérapie, sein, prostate, taxotere",
    "famille": "Poison du fuseau (taxane)",
-   "mecanisme": "Stabilise les microtubules et empêche leur désassemblage : blocage de la division cellulaire."
+   "mecanisme": "Stabilise les microtubules et empêche leur désassemblage : blocage de la division cellulaire.",
+   "marquesRdc": [
+    "Taxotere"
+   ]
   },
   {
    "id": 452,
@@ -21821,7 +23100,10 @@
    "grossesse": "Éviter ; contraception 12 mois.",
    "motsCles": "lymphome, anti-CD20, polyarthrite, Burkitt",
    "famille": "Anticorps monoclonal",
-   "mecanisme": "Anticorps monoclonal anti-CD20 qui détruit les lymphocytes B normaux et malins (lymphomes, polyarthrite rhumatoïde) ; risque de réactivation de l'hépatite B."
+   "mecanisme": "Anticorps monoclonal anti-CD20 qui détruit les lymphocytes B normaux et malins (lymphomes, polyarthrite rhumatoïde) ; risque de réactivation de l'hépatite B.",
+   "marquesRdc": [
+    "Mabthera"
+   ]
   },
   {
    "id": 473,
@@ -21916,7 +23198,10 @@
     }
    ],
    "famille": "Anticorps monoclonal",
-   "mecanisme": "Anticorps monoclonal anti-VEGF qui bloque la formation de nouveaux vaisseaux (cancers, rétinopathie diabétique, DMLA)."
+   "mecanisme": "Anticorps monoclonal anti-VEGF qui bloque la formation de nouveaux vaisseaux (cancers, rétinopathie diabétique, DMLA).",
+   "marquesRdc": [
+    "Avastin"
+   ]
   },
   {
    "id": 475,
@@ -23517,7 +24802,7 @@
     "Gynécomastie en usage prolongé"
    ],
    "grossesse": "Préférer l'oméprazole ; utilisable si nécessaire.",
-   "motsCles": "cimétidine, tagamet, anti-H2, ulcère, gastrite, brûlures d'estomac, reflux",
+   "motsCles": "cimétidine, tagamet, anti-H2, ulcère, gastrite, brûlures d'estomac, reflux, cimebios, estosif",
    "calculs": [
     {
      "titre": "Ulcère, reflux (par prise, 3 à 4 fois par jour)",
@@ -23537,7 +24822,11 @@
    ],
    "id": 512,
    "famille": "Antihistaminique H2 (antiulcéreux)",
-   "mecanisme": "Bloque les récepteurs H2 des cellules de l'estomac et réduit la sécrétion d'acide ; inhibiteur enzymatique (interactions)."
+   "mecanisme": "Bloque les récepteurs H2 des cellules de l'estomac et réduit la sécrétion d'acide ; inhibiteur enzymatique (interactions).",
+   "marquesRdc": [
+    "Cimebios",
+    "Estosif"
+   ]
   },
   {
    "dci": "Étamsylate",
@@ -23567,11 +24856,14 @@
     "Hypotension en IV rapide"
    ],
    "grossesse": "Données insuffisantes ; éviter.",
-   "motsCles": "dicynone, étamsylate, hémostatique, saignement, épistaxis, hémorragie",
+   "motsCles": "dicynone, étamsylate, hémostatique, saignement, épistaxis, hémorragie, ethomer",
    "calculs": [],
    "id": 513,
    "famille": "Hémostatique (angioprotecteur)",
-   "mecanisme": "Renforcerait l'adhésion des plaquettes et la résistance des capillaires ; efficacité clinique faible."
+   "mecanisme": "Renforcerait l'adhésion des plaquettes et la résistance des capillaires ; efficacité clinique faible.",
+   "marquesRdc": [
+    "Ethomer"
+   ]
   },
   {
    "dci": "Piracétam",
@@ -23605,11 +24897,18 @@
     "Troubles digestifs"
    ],
    "grossesse": "Éviter.",
-   "motsCles": "nootropil, piracétam, myoclonies, séquelles neurologiques, mémoire, vertiges",
+   "motsCles": "nootropil, piracétam, myoclonies, séquelles neurologiques, mémoire, vertiges, nervopyl, newpril, noopryl, noortropyl, notrisif forte",
    "calculs": [],
    "id": 514,
    "famille": "Nootrope (dérivé du GABA)",
-   "mecanisme": "Modifierait la fluidité des membranes neuronales et la microcirculation ; mécanisme et efficacité mal établis en dehors des myoclonies corticales."
+   "mecanisme": "Modifierait la fluidité des membranes neuronales et la microcirculation ; mécanisme et efficacité mal établis en dehors des myoclonies corticales.",
+   "marquesRdc": [
+    "Nervopyl",
+    "Newpril",
+    "Noopryl",
+    "Noortropyl",
+    "Notrisif Forte"
+   ]
   },
   {
    "dci": "Dompéridone",
@@ -23643,7 +24942,7 @@
     "Augmentation de la prolactine (écoulement de lait, troubles des règles)"
    ],
    "grossesse": "Éviter ; préférer d'autres antiémétiques sur avis.",
-   "motsCles": "dompéridone, motilium, vomissements, nausées, antiémétique",
+   "motsCles": "dompéridone, motilium, vomissements, nausées, antiémétique, domi-ers, esmoprin-d sr, esofag-d, ilacap-d, omeprin-d sr, panotac-d, pantocare-d, prazole-d, rabtridone, upradone, zora + d",
    "calculs": [
     {
      "titre": "Nausées, vomissements (par prise, jusqu'à 3 fois par jour)",
@@ -23663,7 +24962,20 @@
    ],
    "id": 515,
    "famille": "Antiémétique antidopaminergique périphérique",
-   "mecanisme": "Bloque les récepteurs dopaminergiques D2 de la zone gâchette du vomissement et de l'estomac (accélère la vidange gastrique), en passant peu dans le cerveau."
+   "mecanisme": "Bloque les récepteurs dopaminergiques D2 de la zone gâchette du vomissement et de l'estomac (accélère la vidange gastrique), en passant peu dans le cerveau.",
+   "marquesRdc": [
+    "Domi-ERS (+ ésoméprazole)",
+    "Esmoprin-D Sr (+ ésoméprazole)",
+    "Esofag-D (+ ésoméprazole)",
+    "Ilacap-D (+ ilaprazole)",
+    "Omeprin-D Sr (+ oméprazole)",
+    "Panotac-D (+ pantoprazole)",
+    "Pantocare-D (+ pantoprazole)",
+    "Prazole-D (+ oméprazole)",
+    "Rabtridone (+ rabéprazole)",
+    "Upradone (+ pantoprazole)",
+    "Zora + D (+ rabéprazole)"
+   ]
   },
   {
    "id": 516,
@@ -23710,7 +25022,7 @@
     "Surdosage : agitation, hallucinations, tachycardie, fièvre, mydriase, convulsions, coma"
    ],
    "grossesse": "Données limitées : éviter, surtout au 1er trimestre ; préférer la chlorphénamine pour une allergie. Contre-indiquée pendant l'allaitement (passe dans le lait, peut réduire la lactation).",
-   "motsCles": "cyproheptadine, super apeti, apetamin, periactin, périactine, appétit, perte d'appétit, anorexie, faire grossir, prise de poids, stimulant de l'appétit, antihistaminique, allergie, urticaire, prurit, syndrome sérotoninergique, nutriline",
+   "motsCles": "cyproheptadine, super apeti, apetamin, periactin, périactine, appétit, perte d'appétit, anorexie, faire grossir, prise de poids, stimulant de l'appétit, antihistaminique, allergie, urticaire, prurit, syndrome sérotoninergique, nutriline, apetito, appetitbon, bien manger, cypeni, cyproplex, epetiplus, forcapetit, surappetit",
    "calculs": [
     {
      "titre": "Dose par jour (à répartir en 2 à 3 prises)",
@@ -23736,7 +25048,18 @@
     }
    ],
    "famille": "Antihistaminique H1 (1re génération, sédatif) et antisérotoninergique",
-   "mecanisme": "Bloque les récepteurs H1 de l'histamine (effet antiallergique) et les récepteurs 5-HT2 de la sérotonine ; l'action antisérotoninergique dans l'hypothalamus augmente l'appétit et explique son usage dans le syndrome sérotoninergique. Effet anticholinergique et sédatif."
+   "mecanisme": "Bloque les récepteurs H1 de l'histamine (effet antiallergique) et les récepteurs 5-HT2 de la sérotonine ; l'action antisérotoninergique dans l'hypothalamus augmente l'appétit et explique son usage dans le syndrome sérotoninergique. Effet anticholinergique et sédatif.",
+   "marquesRdc": [
+    "Apetito",
+    "Appetitbon",
+    "Bien Manger",
+    "Cypeni",
+    "Cyproplex",
+    "Epetiplus",
+    "Forcapetit",
+    "Nutriline",
+    "Surappetit"
+   ]
   },
   {
    "dci": "Desloratadine",
@@ -23768,11 +25091,18 @@
     "Rarement somnolence, tachycardie"
    ],
    "grossesse": "Éviter par prudence pendant la grossesse (préférer la loratadine ou la cétirizine) ; déconseillée pendant l'allaitement.",
-   "motsCles": "desloratadine, aerius, allergie, rhinite allergique, urticaire, antihistaminique",
+   "motsCles": "desloratadine, aerius, allergie, rhinite allergique, urticaire, antihistaminique, akerol, allergus, frenaler, lotaridex",
    "famille": "Antihistaminique H1 (2e génération)",
    "mecanisme": "Métabolite actif de la loratadine : bloque les récepteurs H1 périphériques de l'histamine, avec peu de passage dans le cerveau (peu sédatif).",
    "calculs": [],
-   "id": 517
+   "id": 517,
+   "marquesRdc": [
+    "Aerius",
+    "Akerol",
+    "Allergus",
+    "Frenaler",
+    "Lotaridex"
+   ]
   },
   {
    "dci": "Bétahistine",
@@ -23803,11 +25133,14 @@
     "Rarement réactions cutanées allergiques"
    ],
    "grossesse": "Éviter pendant la grossesse et l'allaitement (données insuffisantes).",
-   "motsCles": "bétahistine, betaserc, vertige, ménière, acouphènes, labyrinthe",
+   "motsCles": "bétahistine, betaserc, vertige, ménière, acouphènes, labyrinthe, cesavert",
    "famille": "Analogue de l'histamine (antivertigineux)",
    "mecanisme": "Agoniste partiel des récepteurs H1 et antagoniste H3 : améliorerait la microcirculation de l'oreille interne et diminuerait l'activité des noyaux vestibulaires.",
    "calculs": [],
-   "id": 518
+   "id": 518,
+   "marquesRdc": [
+    "Cesavert"
+   ]
   },
   {
    "dci": "Ambroxol",
@@ -23841,11 +25174,18 @@
     "Réactions allergiques, rarement graves"
    ],
    "grossesse": "Éviter au 1er trimestre et pendant l'allaitement.",
-   "motsCles": "ambroxol, sekrol, mucosolvan, toux grasse, expectorant, mucolytique, bronchite",
+   "motsCles": "ambroxol, sekrol, mucosolvan, toux grasse, expectorant, mucolytique, bronchite, ambrovie, broly adulte, broly enfant, tossego",
    "famille": "Mucolytique",
    "mecanisme": "Métabolite de la bromhexine : fluidifie le mucus bronchique et stimule la production de surfactant et le battement des cils.",
    "calculs": [],
-   "id": 519
+   "id": 519,
+   "marquesRdc": [
+    "Ambrovie",
+    "Broly Adulte",
+    "Broly Enfant",
+    "Cesakrol",
+    "Tossego"
+   ]
   },
   {
    "dci": "Bromhexine",
@@ -23878,11 +25218,19 @@
     "Réactions allergiques, rarement cutanées graves"
    ],
    "grossesse": "Éviter au 1er trimestre et pendant l'allaitement.",
-   "motsCles": "bromhexine, bisolvon, toux grasse, mucolytique, expectorant",
+   "motsCles": "bromhexine, bisolvon, toux grasse, mucolytique, expectorant, bromovan, muco-asthalin expectorant, mucoril expectorant, toux conquer, touxil, vifex",
    "famille": "Mucolytique",
    "mecanisme": "Fragmente les fibres de mucopolysaccharides du mucus bronchique, qui devient plus fluide et plus facile à expectorer.",
    "calculs": [],
-   "id": 520
+   "id": 520,
+   "marquesRdc": [
+    "Bromovan",
+    "Muco-Asthalin Expectorant (+ salbutamol)",
+    "Mucoril Expectorant (+ guaïfénésine, salbutamol)",
+    "Toux Conquer",
+    "Touxil (+ guaïfénésine, terbutaline)",
+    "Vifex (+ guaïfénésine, salbutamol)"
+   ]
   },
   {
    "dci": "Carbocistéine",
@@ -23918,7 +25266,10 @@
    "famille": "Mucolytique",
    "mecanisme": "Modifie la composition du mucus bronchique (rapport sialomucines/fucomucines), le rendant plus fluide.",
    "calculs": [],
-   "id": 521
+   "id": 521,
+   "marquesRdc": [
+    "Fluditec"
+   ]
   },
   {
    "dci": "Lévodropropizine",
@@ -23951,7 +25302,7 @@
     "Palpitations (rares)"
    ],
    "grossesse": "Contre-indiquée pendant la grossesse et l'allaitement.",
-   "motsCles": "lévodropropizine, hactosec, levotuss, toux sèche, antitussif",
+   "motsCles": "lévodropropizine, hactosec, levotuss, toux sèche, antitussif, levotoux",
    "famille": "Antitussif périphérique (non opioïde)",
    "mecanisme": "Diminue la sensibilité des fibres sensitives des voies respiratoires (inhibe la libération de neuropeptides) : calme la toux sans agir sur le centre bulbaire.",
    "calculs": [
@@ -23971,7 +25322,11 @@
      ]
     }
    ],
-   "id": 522
+   "id": 522,
+   "marquesRdc": [
+    "Hactosec",
+    "Levotoux (+ chlorphénamine)"
+   ]
   },
   {
    "dci": "Oxomémazine",
@@ -24007,11 +25362,14 @@
     "Photosensibilisation"
    ],
    "grossesse": "Éviter au 1er trimestre ; contre-indiquée pendant l'allaitement.",
-   "motsCles": "oxomémazine, toplexil, toux sèche, toux nocturne, antitussif, sirop",
+   "motsCles": "oxomémazine, toplexil, toux sèche, toux nocturne, antitussif, sirop, kopazil",
    "famille": "Antihistaminique phénothiazine",
    "mecanisme": "Bloque les récepteurs H1 (et en partie muscariniques) : effet antitussif, sédatif et antiallergique.",
    "calculs": [],
-   "id": 523
+   "id": 523,
+   "marquesRdc": [
+    "Kopazil"
+   ]
   },
   {
    "dci": "Aténolol",
@@ -24093,11 +25451,16 @@
     "Troubles du goût, éruption"
    ],
    "grossesse": "Contre-indiqué pendant la grossesse (malformations rénales du fœtus) : changer de traitement dès que la grossesse est connue. Utilisable pendant l'allaitement.",
-   "motsCles": "captopril, lopril, IEC, hypertension, insuffisance cardiaque, poussée hypertensive",
+   "motsCles": "captopril, lopril, IEC, hypertension, insuffisance cardiaque, poussée hypertensive, captomex, cardiurine, unipril",
    "famille": "Inhibiteur de l'enzyme de conversion (IEC)",
    "mecanisme": "Bloque la transformation de l'angiotensine I en angiotensine II : vasodilatation, baisse de l'aldostérone ; protège le rein et le cœur.",
    "calculs": [],
-   "id": 525
+   "id": 525,
+   "marquesRdc": [
+    "Captomex",
+    "Cardiurine (+ hydrochlorothiazide)",
+    "Unipril"
+   ]
   },
   {
    "dci": "Rosuvastatine",
@@ -24134,11 +25497,19 @@
     "Légère augmentation du risque de diabète"
    ],
    "grossesse": "Contre-indiquée pendant la grossesse et l'allaitement.",
-   "motsCles": "rosuvastatine, crestor, rosumex, statine, cholestérol, prévention cardiovasculaire",
+   "motsCles": "rosuvastatine, crestor, rosumex, statine, cholestérol, prévention cardiovasculaire, rolip, roshal, rosmi, rosucone, rovas, zuvadyl",
    "famille": "Hypolipémiant – statine",
    "mecanisme": "Inhibe l'HMG-CoA réductase, enzyme de fabrication du cholestérol dans le foie : augmente les récepteurs du LDL et abaisse le LDL-cholestérol ; stabilise les plaques d'athérome.",
    "calculs": [],
-   "id": 526
+   "id": 526,
+   "marquesRdc": [
+    "Rolip",
+    "Roshal",
+    "Rosmi",
+    "Rosucone",
+    "Rovas",
+    "Zuvadyl"
+   ]
   },
   {
    "dci": "Étiléfrine",
@@ -24207,11 +25578,14 @@
     "Rarement éruption"
    ],
    "grossesse": "Possible pendant la grossesse (hémorroïdes fréquentes au 3e trimestre) selon le fabricant ; éviter pendant l'allaitement.",
-   "motsCles": "diosmine, daflon, phlebodia, veinotonique, insuffisance veineuse, varices, hémorroïdes, jambes lourdes",
+   "motsCles": "diosmine, daflon, phlebodia, veinotonique, insuffisance veineuse, varices, hémorroïdes, jambes lourdes, veintonex",
    "famille": "Veinotonique (flavonoïde)",
    "mecanisme": "Augmente le tonus des parois veineuses, réduit la perméabilité des capillaires et l'adhésion des globules blancs à l'endothélium.",
    "calculs": [],
-   "id": 528
+   "id": 528,
+   "marquesRdc": [
+    "Veintonex (+ hespéridine)"
+   ]
   },
   {
    "dci": "Ofloxacine",
@@ -24253,11 +25627,29 @@
     "Hypo- ou hyperglycémie"
    ],
    "grossesse": "Contre-indiquée pendant la grossesse et l'allaitement (sauf absence d'alternative).",
-   "motsCles": "ofloxacine, oflocet, ofloque, floxor, fluoroquinolone, quinolone, infection urinaire, prostatite",
+   "motsCles": "ofloxacine, oflocet, ofloque, floxor, fluoroquinolone, quinolone, infection urinaire, prostatite, arauflox, flow-or, medofloki, medoflokin, medoflokin-oz, ofcine, oflo-kato, oflocrown, ofloprin, ofloprin-oz, ornid-ox, ornifloxcro, oxin, shalflod",
    "famille": "Antibiotique – fluoroquinolone",
    "mecanisme": "Inhibe l'ADN gyrase et la topo-isomérase IV des bactéries : la réplication de l'ADN est bloquée (effet bactéricide).",
    "calculs": [],
-   "id": 529
+   "id": 529,
+   "marquesRdc": [
+    "Arauflox",
+    "Flow-Or (+ ornidazole)",
+    "Floxor (+ ornidazole)",
+    "Medofloki",
+    "Medoflokin",
+    "Medoflokin-Oz (+ ornidazole)",
+    "Ofcine",
+    "Oflo-Kato",
+    "Oflocrown",
+    "Ofloprin",
+    "Ofloprin-Oz (+ ornidazole)",
+    "Ofloque",
+    "Ornid-Ox (+ ornidazole)",
+    "Ornifloxcro (+ ornidazole)",
+    "Oxin",
+    "Shalflod (+ ornidazole)"
+   ]
   },
   {
    "dci": "Norfloxacine",
@@ -24293,11 +25685,19 @@
     "Vertiges, céphalées"
    ],
    "grossesse": "Contre-indiquée pendant la grossesse et l'allaitement.",
-   "motsCles": "norfloxacine, noroxine, normegyl, quinolone, infection urinaire, cystite, normet",
+   "motsCles": "norfloxacine, noroxine, normegyl, quinolone, infection urinaire, cystite, normet, mednorflomet, norcine, normifin, norwid-tz, shalflox, uninor",
    "famille": "Antibiotique – fluoroquinolone",
    "mecanisme": "Inhibe l'ADN gyrase bactérienne ; concentrations élevées seulement dans les urines et l'intestin.",
    "calculs": [],
-   "id": 530
+   "id": 530,
+   "marquesRdc": [
+    "Mednorflomet",
+    "Norcine",
+    "Normifin",
+    "Norwid-Tz (+ tinidazole)",
+    "Shalflox",
+    "Uninor"
+   ]
   },
   {
    "dci": "Ornidazole",
@@ -24332,7 +25732,7 @@
     "Neuropathie (traitement long)"
    ],
    "grossesse": "Éviter au 1er trimestre (préférer le métronidazole, mieux connu) ; éviter pendant l'allaitement.",
-   "motsCles": "ornidazole, tiberal, floxor, amibiase, giardiase, trichomonas, anaérobies",
+   "motsCles": "ornidazole, tiberal, floxor, amibiase, giardiase, trichomonas, anaérobies, ornicrown",
    "famille": "Antiparasitaire et antibiotique – nitro-imidazolé",
    "mecanisme": "Réduit dans les germes anaérobies et les protozoaires en dérivés toxiques qui cassent leur ADN.",
    "calculs": [
@@ -24352,7 +25752,12 @@
      ]
     }
    ],
-   "id": 531
+   "id": 531,
+   "marquesRdc": [
+    "Dazol",
+    "Ornicrown",
+    "Ornid"
+   ]
   },
   {
    "dci": "Lincomycine",
@@ -24385,7 +25790,7 @@
     "Hypotension en cas d'injection IV rapide"
    ],
    "grossesse": "Utilisable si nécessaire pendant la grossesse ; éviter pendant l'allaitement (diarrhée du nourrisson).",
-   "motsCles": "lincomycine, lincocine, lincosamide, staphylocoque, allergie pénicilline",
+   "motsCles": "lincomycine, lincocine, lincosamide, staphylocoque, allergie pénicilline, licomcyn, linconic",
    "famille": "Antibiotique – lincosamide",
    "mecanisme": "Se fixe sur la sous-unité 50S du ribosome bactérien et bloque la synthèse des protéines (effet bactériostatique).",
    "calculs": [
@@ -24406,7 +25811,12 @@
      ]
     }
    ],
-   "id": 532
+   "id": 532,
+   "marquesRdc": [
+    "Licomcyn",
+    "Lincocine",
+    "Linconic"
+   ]
   },
   {
    "dci": "Tétracycline (voie orale)",
@@ -24447,11 +25857,14 @@
     "Candidose"
    ],
    "grossesse": "Contre-indiquée à partir du 2e trimestre (dents et os du fœtus, hépatotoxicité maternelle) et pendant l'allaitement.",
-   "motsCles": "tétracycline, cycline, choléra, chlamydia, brucellose, acné",
+   "motsCles": "tétracycline, cycline, choléra, chlamydia, brucellose, acné, tetrasun",
    "famille": "Antibiotique – tétracycline",
    "mecanisme": "Se fixe sur la sous-unité 30S du ribosome bactérien et empêche la synthèse des protéines (effet bactériostatique).",
    "calculs": [],
-   "id": 533
+   "id": 533,
+   "marquesRdc": [
+    "Tetrasun"
+   ]
   },
   {
    "dci": "Bromazépam",
@@ -24527,11 +25940,21 @@
     "Troubles de la concentration, euphorie"
    ],
    "grossesse": "Éviter pendant la grossesse (possible risque de malformations) ; éviter pendant l'allaitement.",
-   "motsCles": "prégabaline, lyrica, pregnerve, douleur neuropathique, neuropathie, brûlures, fourmillements, zona",
+   "motsCles": "prégabaline, lyrica, pregnerve, douleur neuropathique, neuropathie, brûlures, fourmillements, zona, aciryl, gabica, neurogil, neuromed, pregatas, pregib, shalrica sr, zerica",
    "famille": "Antiépileptique – gabapentinoïde",
    "mecanisme": "Se fixe sur la sous-unité alpha-2-delta des canaux calciques des neurones et réduit la libération de neurotransmetteurs excitateurs (glutamate, substance P).",
    "calculs": [],
-   "id": 535
+   "id": 535,
+   "marquesRdc": [
+    "Aciryl",
+    "Gabica",
+    "Neurogil",
+    "Neuromed",
+    "Pregatas",
+    "Pregib",
+    "Shalrica Sr",
+    "Zerica"
+   ]
   },
   {
    "dci": "Citicoline",
@@ -24560,11 +25983,15 @@
     "Hypotension, insomnie (rares)"
    ],
    "grossesse": "Éviter (données insuffisantes).",
-   "motsCles": "citicoline, neuroton, somazina, AVC, traumatisme crânien, mémoire, neuroprotecteur, tracol",
+   "motsCles": "citicoline, neuroton, somazina, AVC, traumatisme crânien, mémoire, neuroprotecteur, tracol, cervichol",
    "famille": "Psychostimulant – neuroprotecteur supposé",
    "mecanisme": "Précurseur de la phosphatidylcholine des membranes neuronales ; favoriserait leur réparation (bénéfice clinique non prouvé).",
    "calculs": [],
-   "id": 536
+   "id": 536,
+   "marquesRdc": [
+    "Cervichol",
+    "Neuroton"
+   ]
   },
   {
    "dci": "Progestérone",
@@ -24602,11 +26029,15 @@
     "Irritation vaginale"
    ],
    "grossesse": "Utilisable pendant la grossesse dans les indications obstétricales ; passe peu dans le lait.",
-   "motsCles": "progestérone, utrogestan, fecond, prématurité, col court, menace d'accouchement prématuré, fausse couche, phase lutéale",
+   "motsCles": "progestérone, utrogestan, fecond, prématurité, col court, menace d'accouchement prématuré, fausse couche, phase lutéale, dyprogest, pretgestan",
    "famille": "Progestatif naturel",
    "mecanisme": "Hormone du corps jaune : prépare et maintient l'endomètre pour la grossesse et réduit la contractilité de l'utérus.",
    "calculs": [],
-   "id": 537
+   "id": 537,
+   "marquesRdc": [
+    "Dyprogest",
+    "Pretgestan"
+   ]
   },
   {
    "dci": "Kétoprofène",
@@ -24645,11 +26076,17 @@
     "Réactions allergiques, bronchospasme"
    ],
    "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée (atteinte rénale du fœtus, fermeture du canal artériel) ; éviter avant. Prise ponctuelle possible pendant l'allaitement.",
-   "motsCles": "kétoprofène, profenid, AINS, anti-inflammatoire, douleur, colique néphrétique, rhumatisme",
+   "motsCles": "kétoprofène, profenid, AINS, anti-inflammatoire, douleur, colique néphrétique, rhumatisme, kebanon, ketofen, ketoflex, ketovie",
    "famille": "AINS – dérivé de l'acide propionique",
    "mecanisme": "Inhibe les cyclo-oxygénases COX-1 et COX-2, ce qui réduit la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
    "calculs": [],
-   "id": 538
+   "id": 538,
+   "marquesRdc": [
+    "Kebanon",
+    "Ketofen",
+    "Ketoflex",
+    "Ketovie"
+   ]
   },
   {
    "dci": "Phloroglucinol",
@@ -24677,11 +26114,18 @@
     "Réactions allergiques cutanées, rarement graves"
    ],
    "grossesse": "Utilisable pendant la grossesse et l'allaitement.",
-   "motsCles": "phloroglucinol, spasfon, antispasmodique, colique, spasmes, règles douloureuses, colique néphrétique",
+   "motsCles": "phloroglucinol, spasfon, antispasmodique, colique, spasmes, règles douloureuses, colique néphrétique, gynospan, spacyl, spasclair, unispas",
    "famille": "Antispasmodique musculotrope",
    "mecanisme": "Relâche directement les muscles lisses du tube digestif, des voies urinaires et de l'utérus, sans effet anticholinergique.",
    "calculs": [],
-   "id": 539
+   "id": 539,
+   "marquesRdc": [
+    "Gynospan",
+    "Spacyl",
+    "Spasclair",
+    "Spasfon",
+    "Unispas"
+   ]
   },
   {
    "dci": "Papavérine",
@@ -24720,7 +26164,10 @@
    "famille": "Antispasmodique musculotrope (alcaloïde de l'opium sans effet opioïde)",
    "mecanisme": "Inhibe les phosphodiestérases des muscles lisses : relâchement des fibres musculaires et vasodilatation.",
    "calculs": [],
-   "id": 540
+   "id": 540,
+   "marquesRdc": [
+    "Spasmin"
+   ]
   },
   {
    "dci": "Métopimazine",
@@ -24827,10 +26274,18 @@
     "Infections respiratoires hautes"
    ],
    "grossesse": "Utilisable si nécessaire pendant la grossesse et l'allaitement (données rassurantes).",
-   "motsCles": "montélukast, montelukast, singulair, montelus, asthme, anti-leucotriène, rhinite allergique",
+   "motsCles": "montélukast, montelukast, singulair, montelus, asthme, anti-leucotriène, rhinite allergique, aireez, alukon, denk-air, denk-air junior, montil, zopex",
    "calculs": [],
    "famille": "Antiasthmatique – antileucotriène",
-   "mecanisme": "Bloque les récepteurs CysLT1 des leucotriènes : diminue l'inflammation, la bronchoconstriction et la sécrétion de mucus dans les bronches."
+   "mecanisme": "Bloque les récepteurs CysLT1 des leucotriènes : diminue l'inflammation, la bronchoconstriction et la sécrétion de mucus dans les bronches.",
+   "marquesRdc": [
+    "Aireez",
+    "Alukon",
+    "Denk-Air",
+    "Denk-Air Junior",
+    "Montil",
+    "Zopex"
+   ]
   },
   {
    "id": 544,
@@ -24868,10 +26323,16 @@
     "Prurit au sevrage après un usage prolongé (rare)"
    ],
    "grossesse": "Utilisable pendant la grossesse (données nombreuses et rassurantes) ; préférée avec la loratadine. Possible pendant l'allaitement à dose minimale.",
-   "motsCles": "cétirizine, cetirizine, zyrtec, virlix, citrimex, allergie, rhinite allergique, urticaire, prurit, démangeaisons, antihistaminique",
+   "motsCles": "cétirizine, cetirizine, zyrtec, virlix, citrimex, allergie, rhinite allergique, urticaire, prurit, démangeaisons, antihistaminique, alatrol, hitzine, rizimol",
    "calculs": [],
    "famille": "Antihistaminique H1 (2e génération)",
-   "mecanisme": "Métabolite de l'hydroxyzine : bloque les récepteurs H1 périphériques de l'histamine, avec peu de passage dans le cerveau."
+   "mecanisme": "Métabolite de l'hydroxyzine : bloque les récepteurs H1 périphériques de l'histamine, avec peu de passage dans le cerveau.",
+   "marquesRdc": [
+    "Alatrol",
+    "Citrimex",
+    "Hitzine",
+    "Rizimol"
+   ]
   },
   {
    "dci": "Multivitamines (associations de vitamines)",
@@ -25248,11 +26709,14 @@
     "Rares réactions allergiques"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "oxyde de zinc, pommade zinc, érythème fessier, fesses rouges, dermite du siège, change",
+   "motsCles": "oxyde de zinc, pommade zinc, érythème fessier, fesses rouges, dermite du siège, change, rocgel",
    "famille": "Protecteur cutané",
    "mecanisme": "Forme une couche protectrice qui isole la peau de l'humidité et des irritants (urines, selles) ; légèrement asséchant et astringent.",
    "calculs": [],
-   "id": 555
+   "id": 555,
+   "marquesRdc": [
+    "Rocgel"
+   ]
   },
   {
    "dci": "Clotrimazole + bétaméthasone + néomycine (crème)",
@@ -25521,10 +26985,15 @@
     "Nourrisson : apnée, convulsions, détresse respiratoire, coma"
    ],
    "grossesse": "Données rassurantes à faible dose (utilisée autrefois contre les nausées de grossesse) ; contre-indiquée pendant l'allaitement (apnées du nourrisson).",
-   "motsCles": "dicyclovérine, dicycloverine, dicyclomine, sparet, spasta, colimex, siméticone, coliques, coliques du nourrisson, antispasmodique, spasmes",
+   "motsCles": "dicyclovérine, dicycloverine, dicyclomine, sparet, spasta, colimex, siméticone, coliques, coliques du nourrisson, antispasmodique, spasmes, spasmasif",
    "calculs": [],
    "famille": "Antispasmodique anticholinergique",
-   "mecanisme": "Bloque les récepteurs muscariniques des muscles lisses de l'intestin et a un effet relaxant direct sur le muscle : diminue les spasmes ; la siméticone fait éclater les bulles de gaz."
+   "mecanisme": "Bloque les récepteurs muscariniques des muscles lisses de l'intestin et a un effet relaxant direct sur le muscle : diminue les spasmes ; la siméticone fait éclater les bulles de gaz.",
+   "marquesRdc": [
+    "Sparet (+ siméticone)",
+    "Spasmasif (+ paracétamol)",
+    "Spasta"
+   ]
   },
   {
    "id": 563,
@@ -25564,7 +27033,10 @@
    "motsCles": "méprobamate, meprobamate, probamed, équanil, anxiolytique, anxiété",
    "calculs": [],
    "famille": "Anxiolytique carbamate",
-   "mecanisme": "Dépresseur du système nerveux central (action proche des barbituriques sur les récepteurs GABA-A) : effets anxiolytique, sédatif et myorelaxant."
+   "mecanisme": "Dépresseur du système nerveux central (action proche des barbituriques sur les récepteurs GABA-A) : effets anxiolytique, sédatif et myorelaxant.",
+   "marquesRdc": [
+    "Probamed"
+   ]
   },
   {
    "id": 564,
@@ -25600,7 +27072,7 @@
     "Candidose"
    ],
    "grossesse": "Utilisable pendant la grossesse et l'allaitement.",
-   "motsCles": "céfadroxil, cefadroxil, prodoxil, oracéfal, céphalosporine, angine, impétigo",
+   "motsCles": "céfadroxil, cefadroxil, prodoxil, oracéfal, céphalosporine, angine, impétigo, crofar, crofar ds, paludrox, striadrox, sudrox",
    "calculs": [
     {
      "titre": "Dose par prise (2 prises par jour)",
@@ -25619,7 +27091,16 @@
     }
    ],
    "famille": "Antibiotique – céphalosporine de 1re génération",
-   "mecanisme": "Bloque la synthèse de la paroi bactérienne (liaison aux protéines liant les pénicillines) : effet bactéricide, surtout sur les cocci Gram positif."
+   "mecanisme": "Bloque la synthèse de la paroi bactérienne (liaison aux protéines liant les pénicillines) : effet bactéricide, surtout sur les cocci Gram positif.",
+   "marquesRdc": [
+    "Crofar",
+    "Crofar Ds",
+    "Droxil",
+    "Paludrox",
+    "Prodoxil",
+    "Striadrox",
+    "Sudrox"
+   ]
   }
  ],
  "categoriesPathologies": [
