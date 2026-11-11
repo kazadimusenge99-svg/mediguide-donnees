@@ -1,5 +1,5 @@
 {
- "version": 59,
+ "version": 60,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -392,7 +392,7 @@
     "Troubles digestifs"
    ],
    "grossesse": "Indiquée en TPIp à partir du 2e trimestre ; contre-indiquée au 1er trimestre.",
-   "motsCles": "malaria, palu, TPI, grossesse, prévention paludisme, CPN, consultation prénatale",
+   "motsCles": "malaria, palu, TPI, grossesse, prévention paludisme, CPN, consultation prénatale, fancidar",
    "famille": "Antifolinique (antipaludique)",
    "mecanisme": "La sulfadoxine bloque la dihydroptéroate synthétase et la pyriméthamine la dihydrofolate réductase du parasite : la synthèse des folates, nécessaire à l'ADN, est interrompue (effet lent, utilisé en prévention)."
   },
@@ -495,7 +495,7 @@
      "doseMax": 1000
     }
    ],
-   "motsCles": "pneumonie, toux, otite, angine, sinusite, infection respiratoire, bronchopneumonie, IRA, infection urinaire, ulcère, Helicobacter",
+   "motsCles": "pneumonie, toux, otite, angine, sinusite, infection respiratoire, bronchopneumonie, IRA, infection urinaire, ulcère, Helicobacter, amoxycilline, amoxycillin, amoxiciline",
    "famille": "Bêtalactamine – pénicilline",
    "mecanisme": "Se fixe aux protéines liant les pénicillines (PLP) et bloque la synthèse de la paroi bactérienne (peptidoglycane) : effet bactéricide sur les bactéries en multiplication."
   },
@@ -915,7 +915,7 @@
      "doseMax": 100
     }
    ],
-   "motsCles": "IST, chlamydia, choléra, rickettsiose, typhus, brucellose, leptospirose, pneumonie atypique, acné",
+   "motsCles": "IST, chlamydia, choléra, rickettsiose, typhus, brucellose, leptospirose, pneumonie atypique, acné, doxycyline, doxycyclin",
    "famille": "Tétracycline",
    "mecanisme": "Se fixe à la sous-unité 30S du ribosome et bloque la synthèse des protéines bactériennes : effet bactériostatique, actif sur les germes intracellulaires (Rickettsia, Chlamydia, leptospires)."
   },
@@ -1098,7 +1098,7 @@
      ]
     }
    ],
-   "motsCles": "sepsis néonatal, pyélonéphrite, septicémie, pneumonie sévère",
+   "motsCles": "sepsis néonatal, pyélonéphrite, septicémie, pneumonie sévère, gentamycine, gentamycin",
    "famille": "Aminoside",
    "mecanisme": "Se fixe à la sous-unité 30S du ribosome et provoque des erreurs de lecture : effet bactéricide rapide, dépendant de la concentration ; néphrotoxique et ototoxique."
   },
@@ -1294,7 +1294,7 @@
   {
    "id": 18,
    "dci": "Paracétamol",
-   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac), Promedol effervescent (+ tramadol) (exemples)",
+   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac), Promedol effervescent (+ tramadol), Fervex (+ phéniramine, vitamine C), Sinutab (+ pseudoéphédrine) (exemples)",
    "classe": "antalgiques",
    "formes": "Comprimé 100, 500 mg et 1 g ; sirop 120 mg/5 ml ; suppositoire ; perfusion 10 mg/ml",
    "indications": [
@@ -1352,7 +1352,7 @@
      "doseMax": 1000
     }
    ],
-   "motsCles": "douleur, fièvre, céphalée, mal de tête, antalgique, antipyrétique",
+   "motsCles": "douleur, fièvre, céphalée, mal de tête, antalgique, antipyrétique, fervex, sinutab, paralgan",
    "famille": "Antalgique non opioïde (paracétamol)",
    "mecanisme": "Inhibe la synthèse des prostaglandines dans le système nerveux central : effet antalgique et antipyrétique, sans effet anti-inflammatoire notable."
   },
@@ -2686,7 +2686,7 @@
     "Intoxication à l'eau (hyponatrémie)"
    ],
    "grossesse": "Réservé au travail, à l'accouchement et au post-partum.",
-   "motsCles": "hémorragie du post-partum, HPP, délivrance, accouchement, travail, atonie utérine, saignement après accouchement",
+   "motsCles": "hémorragie du post-partum, HPP, délivrance, accouchement, travail, atonie utérine, saignement après accouchement, oxytocine, oxytocin",
    "famille": "Utérotonique (ocytocique)",
    "mecanisme": "Stimule les contractions de l'utérus : déclenchement ou direction du travail et prévention ou traitement de l'hémorragie du post-partum."
   },
@@ -2944,7 +2944,7 @@
   {
    "id": 51,
    "dci": "Chlorure de sodium 0,9 % (sérum physiologique)",
-   "noms": "NaCl 0,9 %, sérum salé isotonique",
+   "noms": "NaCl 0,9 %, sérum salé isotonique, Physiodose (unidoses 5 ml)",
    "classe": "solutes",
    "formes": "Poche ou flacon 100, 250, 500 ml et 1 L",
    "indications": [
@@ -2988,7 +2988,7 @@
      "doseKgMax": 20
     }
    ],
-   "motsCles": "choc, hypovolémie, déshydratation, perfusion, remplissage, sérum, soluté, plan C",
+   "motsCles": "choc, hypovolémie, déshydratation, perfusion, remplissage, sérum, soluté, plan C, physiodose, unidose, sérum physiologique",
    "famille": "Soluté cristalloïde",
    "mecanisme": "Apporte de l'eau et des électrolytes qui restaurent le volume extracellulaire (remplissage, réhydratation)."
   },
@@ -5742,7 +5742,7 @@
     "Allongement du QT"
    ],
    "grossesse": "Utilisable pendant la grossesse (éviter la forme estolate).",
-   "motsCles": "allergie pénicilline, chlamydia, coqueluche, conjonctivite néonatale",
+   "motsCles": "allergie pénicilline, chlamydia, coqueluche, conjonctivite néonatale, erythromicine, erythromycin",
    "calculs": [
     {
      "titre": "Dose usuelle",
@@ -6278,7 +6278,7 @@
     "Hypothyroïdie (usage prolongé, surtout chez le nouveau-né)"
    ],
    "grossesse": "Usage ponctuel possible ; éviter les applications répétées en fin de grossesse et pendant l'allaitement.",
-   "motsCles": "antiseptique, plaie, désinfection, bétadine",
+   "motsCles": "antiseptique, plaie, désinfection, bétadine, providone, povidone, betadine, bétadine jaune",
    "famille": "Antiseptique",
    "mecanisme": "Détruit les bactéries, virus et champignons sur la peau, les muqueuses ou les plaies (action non spécifique sur les membranes et les protéines)."
   },
@@ -9344,7 +9344,7 @@
     "Coloration des dents (sirop)"
    ],
    "grossesse": "Recommandé si carence (voir aussi fer + acide folique).",
-   "motsCles": "anémie, fer, carence en fer",
+   "motsCles": "anémie, fer, carence en fer, tothema, totema",
    "calculs": [
     {
      "titre": "Traitement (fer élément)",
@@ -24787,6 +24787,44 @@
    "mecanisme": "Au contact de l'acide gastrique, l'alginate forme un gel épais qui flotte sur le contenu de l'estomac et forme une barrière contre le reflux.",
    "calculs": [],
    "id": 542
+  },
+  {
+   "id": 543,
+   "dci": "Montélukast",
+   "noms": "Singulair, Montelus",
+   "classe": "respiratoire",
+   "formes": "Comprimé 10 mg ; comprimé à croquer 4 et 5 mg ; granulés 4 mg",
+   "indications": [
+    "Asthme persistant léger à modéré, en complément des corticoïdes inhalés",
+    "Asthme d'effort",
+    "Rhinite allergique associée à l'asthme"
+   ],
+   "posologieAdulte": [
+    "10 mg une fois par jour, le soir"
+   ],
+   "posologieEnfant": [
+    "6 mois à 5 ans : 4 mg le soir",
+    "6 à 14 ans : 5 mg le soir",
+    "15 ans et plus : 10 mg"
+   ],
+   "contreIndications": [
+    "Allergie au montélukast"
+   ],
+   "precautions": [
+    "Ne traite pas la crise d'asthme : garder le salbutamol pour les crises",
+    "Ne remplace pas le corticoïde inhalé (béclométasone, budésonide), traitement de fond de référence",
+    "Troubles neuropsychiatriques (cauchemars, agitation, dépression, idées suicidaires) : avertir les familles et arrêter s'ils apparaissent (alerte FDA 2020)"
+   ],
+   "effetsIndesirables": [
+    "Céphalées, douleurs abdominales",
+    "Cauchemars, agitation, troubles du sommeil, dépression",
+    "Infections respiratoires hautes"
+   ],
+   "grossesse": "Utilisable si nécessaire pendant la grossesse et l'allaitement (données rassurantes).",
+   "motsCles": "montélukast, montelukast, singulair, montelus, asthme, anti-leucotriène, rhinite allergique",
+   "calculs": [],
+   "famille": "Antiasthmatique – antileucotriène",
+   "mecanisme": "Bloque les récepteurs CysLT1 des leucotriènes : diminue l'inflammation, la bronchoconstriction et la sécrétion de mucus dans les bronches."
   }
  ],
  "categoriesPathologies": [
