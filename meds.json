@@ -1,5 +1,5 @@
 {
- "version": 68,
+ "version": 69,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -1659,7 +1659,7 @@
   {
    "id": 25,
    "dci": "Mébendazole",
-   "noms": "Vermox, Mebamex, Wormex comprimés et suspension (Shalina : antihelminthique, molécule non publiée, probablement mébendazole ; à confirmer sur la boîte)",
+   "noms": "Vermox, Mebamex, Wormex comprimés et suspension (Shalina)",
    "classe": "antiparasitaires",
    "formes": "Comprimé 100 et 500 mg",
    "indications": [
