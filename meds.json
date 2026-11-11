@@ -1,5 +1,5 @@
 {
- "version": 61,
+ "version": 62,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -495,7 +495,7 @@
      "doseMax": 1000
     }
    ],
-   "motsCles": "pneumonie, toux, otite, angine, sinusite, infection respiratoire, bronchopneumonie, IRA, infection urinaire, ulcère, Helicobacter, amoxycilline, amoxycillin, amoxiciline",
+   "motsCles": "pneumonie, toux, otite, angine, sinusite, infection respiratoire, bronchopneumonie, IRA, infection urinaire, ulcère, Helicobacter, amoxycilline, amoxycillin, amoxiciline, amoxyciline, amoxiciline",
    "famille": "Bêtalactamine – pénicilline",
    "mecanisme": "Se fixe aux protéines liant les pénicillines (PLP) et bloque la synthèse de la paroi bactérienne (peptidoglycane) : effet bactéricide sur les bactéries en multiplication."
   },
@@ -3092,7 +3092,7 @@
     "Phlébite"
    ],
    "grossesse": "Utilisable ; surveiller la natrémie.",
-   "motsCles": "perfusion, entretien, sérum glucosé, soluté, hydratation",
+   "motsCles": "perfusion, entretien, sérum glucosé, soluté, hydratation, nipple head glucose, flacon à tétine",
    "famille": "Soluté glucosé",
    "mecanisme": "Apporte de l'eau et du glucose (énergie) ; le glucose hypertonique corrige rapidement une hypoglycémie."
   },
@@ -3220,7 +3220,7 @@
     "Phlébite"
    ],
    "grossesse": "Utilisable sans restriction.",
-   "motsCles": "perfusion d'entretien, hydratation, soluté",
+   "motsCles": "perfusion d'entretien, hydratation, soluté, nipple head mixte, sérum mixte",
    "famille": "Soluté cristalloïde",
    "mecanisme": "Apporte de l'eau et des électrolytes qui restaurent le volume extracellulaire (remplissage, réhydratation)."
   },
@@ -17490,7 +17490,7 @@
     "Brûlures chimiques chez le prématuré"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "alcool, antiseptique, désinfection",
+   "motsCles": "alcool, antiseptique, désinfection, alcool dénaturé, alcool 70",
    "famille": "Désinfectant",
    "mecanisme": "Détruit les micro-organismes sur la peau, les mains, les surfaces ou le matériel (dénaturation des protéines, oxydation)."
   },
