@@ -1,5 +1,5 @@
 {
- "version": 64,
+ "version": 65,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -399,7 +399,7 @@
   {
    "id": 6,
    "dci": "Amoxicilline",
-   "noms": "Clamoxyl, Hiconcil, Amoxil, Ospamox, Flemoxin, Prazole kit (+ IPP + clarithromycine)",
+   "noms": "Clamoxyl, Hiconcil, Amoxil, Ospamox, Flemoxin, Prazole kit (à confirmer : + IPP + clarithromycine)",
    "classe": "antibiotiques",
    "formes": "Gélule/comprimé 250 et 500 mg ; comprimé dispersible 250 mg ; suspension 125 et 250 mg/5 ml",
    "indications": [
@@ -922,7 +922,7 @@
   {
    "id": 13,
    "dci": "Métronidazole",
-   "noms": "Flagyl, Shalmet, Metrogyl, Megyl, Normegyl (+ norfloxacine), Entizol (IV), Cyclomax ovule (+ clotrimazole, néomycine), Normet sirop (métronidazole, ou + norfloxacine selon le fabricant)",
+   "noms": "Flagyl, Shalmet, Metrogyl, Megyl, Normegyl (+ norfloxacine), Entizol (IV), Cyclomax ovule (à confirmer : + clotrimazole, néomycine), Normet suspension (+ norfloxacine)",
    "classe": "antibiotiques",
    "formes": "Comprimé 250 et 500 mg ; suspension 125 mg/5 ml ; perfusion 5 mg/ml",
    "indications": [
@@ -1294,7 +1294,7 @@
   {
    "id": 18,
    "dci": "Paracétamol",
-   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac), Promedol effervescent (+ tramadol), Fervex (+ phéniramine, vitamine C), Sinutab (+ pseudoéphédrine), Paralgan (sirop, comprimé 500 mg, Forte 1 000 mg, IV), Sparet gouttes (100 mg/ml) (exemples)",
+   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac), Promedol effervescent (+ tramadol), Fervex (+ phéniramine, vitamine C), Sinutab (+ pseudoéphédrine), Paralgan (sirop, comprimé 500 mg, Forte 1 000 mg, IV), Sparet gouttes (à confirmer : 100 mg/ml) (exemples)",
    "classe": "antalgiques",
    "formes": "Comprimé 100, 500 mg et 1 g ; sirop 120 mg/5 ml ; suppositoire ; perfusion 10 mg/ml",
    "indications": [
@@ -2211,7 +2211,7 @@
   {
    "id": 37,
    "dci": "Oméprazole",
-   "noms": "Mopral, Losec, Omeshal, Omeshal D (+ dompéridone), Omez, Enocid, Promzole, Prazole kit (trithérapie anti-Helicobacter pylori)",
+   "noms": "Mopral, Losec, Omeshal, Omeshal D (+ dompéridone), Omez, Enocid, Promzole, Prazole kit (à confirmer : trithérapie anti-Helicobacter pylori)",
    "classe": "digestif",
    "formes": "Gélule 10, 20 et 40 mg ; injectable 40 mg",
    "indications": [
@@ -2250,7 +2250,7 @@
   {
    "id": 38,
    "dci": "Sels de réhydratation orale (SRO)",
-   "noms": "SRO à osmolarité réduite (OMS), Cetrol, Pro Oral, Medlyte-L (solution prête à boire)",
+   "noms": "SRO à osmolarité réduite (OMS), Cetrol, Pro Oral, Medlyte-L (à confirmer : solution prête à boire)",
    "classe": "digestif",
    "formes": "Sachet à dissoudre dans 1 litre d'eau potable",
    "indications": [
@@ -2752,7 +2752,7 @@
   {
    "id": 48,
    "dci": "Fer + acide folique",
-   "noms": "Ferrous sulfate + folic acid, Tardyferon B9, Hemoforce Prega, Acifer, Hifer, Prenatal Denk (+ vitamines)",
+   "noms": "Ferrous sulfate + folic acid, Tardyferon B9, Hemoforce Prega, Acifer, Hifer (Unique : fer 100 mg + acide folique 1 mg, comprimé à croquer)",
    "classe": "obstetrique",
    "formes": "Comprimé fer élément 60 mg + acide folique 400 µg ; sirop de fer ; acide folique 5 mg",
    "indications": [
@@ -5999,7 +5999,7 @@
   {
    "id": 110,
    "dci": "Clotrimazole",
-   "noms": "Canesten, Mycohydralin, Gogynax (ovule), Clozole, Cyclomax ovule (+ métronidazole, néomycine) (exemples)",
+   "noms": "Canesten, Mycohydralin, Gogynax (ovule), Clozole, Cyclomax ovule (à confirmer : + métronidazole, néomycine) (exemples)",
    "classe": "antiparasitaires",
    "formes": "Crème 1 % ; comprimé vaginal (ovule) 100 mg et 500 mg",
    "indications": [
@@ -6807,7 +6807,7 @@
   {
    "id": 130,
    "dci": "Thiamine (vitamine B1)",
-   "noms": "Bévitine, Becoshal, Trishal (B1-B6-B12), Trimex (B1-B6-B12), Benerva, Tribexfort sirop (B1-B6-B12) (exemples)",
+   "noms": "Bévitine, Becoshal, Trishal (B1-B6-B12), Trimex (B1-B6-B12), Benerva, Tribexfort sirop (à confirmer : B1-B6-B12) (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 50 mg ; ampoule 50 et 100 mg/ml",
    "indications": [
@@ -8584,7 +8584,7 @@
   {
    "id": 168,
    "dci": "Clarithromycine",
-   "noms": "Zeclar, Klacid, Prazole kit (+ IPP + amoxicilline) (exemples)",
+   "noms": "Zeclar, Klacid, Prazole kit (à confirmer : + IPP + amoxicilline) (exemples)",
    "classe": "antibiotiques",
    "formes": "Comprimé 250 et 500 mg ; suspension 125 et 250 mg/5 ml",
    "indications": [
@@ -9131,7 +9131,7 @@
   {
    "id": 181,
    "dci": "Carbonate de calcium",
-   "noms": "Calcium 500 mg, Calci D-Denk (+ vitamine D), Calvi D sirop (+ vitamine D3) (exemples)",
+   "noms": "Calcium 500 mg, Calci D-Denk (+ vitamine D), Calvi D sirop (à confirmer : + vitamine D3) (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 1,25 g (500 mg de calcium élément) ; comprimé à croquer",
    "indications": [
@@ -9315,7 +9315,7 @@
   {
    "id": 186,
    "dci": "Sulfate ferreux",
-   "noms": "Fer sirop, Fumafer, Tardyferon, Hemoforce, Tot'héma (gluconate ferreux), Ferdrop Plus gouttes (+ acide folique, vitamine B12), Hifer-Z sirop (+ zinc) (exemples)",
+   "noms": "Fer sirop, Fumafer, Tardyferon, Hemoforce, Tot'héma (gluconate ferreux), Ferdrop Plus gouttes (à confirmer : + acide folique, vitamine B12), Hifer-Z sirop (Unique : fer 32 mg/15 ml, zinc, acide folique, vitamines B) (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 200 mg (60 à 65 mg de fer élément) ; sirop (teneur en fer variable selon le produit)",
    "indications": [
@@ -9398,7 +9398,7 @@
   {
    "id": 188,
    "dci": "Hydroxyde d'aluminium + hydroxyde de magnésium",
-   "noms": "Maalox, Gelusil, Polygel, Gastromex, Magascon (magaldrate + siméthicone), Nocigel (antiacide + oxétacaïne) (exemples)",
+   "noms": "Maalox, Gelusil, Polygel, Gastromex, Magascon (hydroxydes d'aluminium et de magnésium, ou magaldrate + siméthicone selon la présentation), Nocigel (hydroxydes d'aluminium et de magnésium, acide alginique, trisilicate de magnésium, siméthicone) (exemples)",
    "classe": "digestif",
    "formes": "Comprimé à croquer ; suspension buvable",
    "indications": [
@@ -14528,7 +14528,7 @@
   {
    "id": 294,
    "dci": "Lopéramide",
-   "noms": "Imodium, Lopramex, Loprade (exemples)",
+   "noms": "Imodium, Lopramex, Loprade (à confirmer : exemples)",
    "classe": "digestif",
    "formes": "Gélule 2 mg",
    "indications": [
@@ -22879,7 +22879,7 @@
   {
    "id": 497,
    "dci": "Enzymes pancréatiques",
-   "noms": "Créon, Eurobiol, Digest sachet (pancréatine + siméthicone, composition à vérifier) (exemples)",
+   "noms": "Créon, Eurobiol, Digest sachet (à confirmer : pancréatine + siméthicone, composition à vérifier) (exemples)",
    "classe": "digestif",
    "formes": "Gélule gastrorésistante 10 000, 25 000 et 40 000 unités de lipase ; granules (nourrisson)",
    "indications": [
@@ -23883,7 +23883,7 @@
   },
   {
    "dci": "Carbocistéine",
-   "noms": "Fluditec, Rhinathiol, Bronchokod, Mucolyn adulte 5 % et pédiatrique 2 % (ou ambroxol selon le fabricant)",
+   "noms": "Fluditec, Rhinathiol, Bronchokod",
    "classe": "respiratoire",
    "formes": "Sirop 2 % (enfant, 100 mg/5 ml) et 5 % (adulte, 250 mg/5 ml)",
    "indications": [
@@ -24258,7 +24258,7 @@
   },
   {
    "dci": "Norfloxacine",
-   "noms": "Noroxine, Norfloxacin, Normegyl (+ métronidazole)",
+   "noms": "Noroxine, Norfloxacin, Normegyl (+ métronidazole), Normet suspension (métronidazole 100 mg + norfloxacine 100 mg / 5 ml)",
    "classe": "antibiotiques",
    "formes": "Comprimé 400 mg",
    "indications": [
@@ -24280,7 +24280,8 @@
     "Cystite simple : préférer la nitrofurantoïne ou la fosfomycine",
     "Ne diffuse pas dans le sang : inefficace en dehors des voies urinaires (ne pas utiliser pour une diarrhée fébrile, une typhoïde ou une pyélonéphrite)",
     "Normegyl (+ métronidazole) : association sans justification démontrée",
-    "Prendre à distance des antiacides, du fer et du zinc"
+    "Prendre à distance des antiacides, du fer et du zinc",
+    "Suspensions pédiatriques métronidazole + norfloxacine (Normet, Normegyl) : association sans justification ; la norfloxacine ne traite ni la diarrhée infectieuse de l'enfant ni l'amibiase, et les quinolones sont à éviter chez l'enfant. Diarrhée de l'enfant : SRO + zinc ; dysenterie : ciprofloxacine (OMS) ; amibiase ou giardiase : métronidazole seul."
    ],
    "effetsIndesirables": [
     "Troubles digestifs",
@@ -24289,7 +24290,7 @@
     "Vertiges, céphalées"
    ],
    "grossesse": "Contre-indiquée pendant la grossesse et l'allaitement.",
-   "motsCles": "norfloxacine, noroxine, normegyl, quinolone, infection urinaire, cystite",
+   "motsCles": "norfloxacine, noroxine, normegyl, quinolone, infection urinaire, cystite, normet",
    "famille": "Antibiotique – fluoroquinolone",
    "mecanisme": "Inhibe l'ADN gyrase bactérienne ; concentrations élevées seulement dans les urines et l'intestin.",
    "calculs": [],
@@ -24871,7 +24872,7 @@
   },
   {
    "dci": "Multivitamines (associations de vitamines)",
-   "noms": "Alvityl, Multivitamine gouttes, Vit B Complex, Immun Active Denk (vitamine C, zinc, sélénium, vitamine D3), Prenatal Denk (vitamines de grossesse)",
+   "noms": "Alvityl, Multivitamine gouttes (composition à confirmer), Vit B Complex (composition à confirmer), Immun Active Denk (vitamine C 300 mg, zinc 10 mg, sélénium 50 µg, L-histidine), Prenatal Denk (vitamines de grossesse, acide folique 800 µg, iode 150 µg, sans fer)",
    "classe": "nutrition",
    "formes": "Sirop, gouttes, comprimés ou gélules (compositions variables selon la marque)",
    "indications": [
@@ -24892,7 +24893,8 @@
     "N'est pas un traitement de l'anémie, de la fatigue ou du retard de croissance : en chercher la cause",
     "Vitamine A : ne pas cumuler avec la supplémentation de masse (100 000–200 000 UI) ; grossesse : pas plus de 10 000 UI par jour",
     "Ne remplace ni le fer + acide folique de la grossesse, ni la vitamine K du nouveau-né",
-    "Conserver hors de portée des enfants (intoxication au fer pour les formules avec fer)"
+    "Conserver hors de portée des enfants (intoxication au fer pour les formules avec fer)",
+    "Prenatal Denk ne contient pas de fer : pendant la grossesse, ajouter le fer (30 à 60 mg par jour, OMS) si ce produit est utilisé."
    ],
    "effetsIndesirables": [
     "Troubles digestifs, urines jaune vif (vitamine B2)"
@@ -25005,7 +25007,7 @@
   },
   {
    "dci": "Bacitracine + néomycine (pommade ou crème)",
-   "noms": "Baneocin, Néomycine-bacitracine, Neocin crème (néomycine)",
+   "noms": "Baneocin, Néomycine-bacitracine, Neocin crème (néomycine ± polymyxine B, lidocaïne ; composition variable selon le fabricant)",
    "classe": "dermato",
    "formes": "Pommade, crème ou poudre (bacitracine 250 UI + néomycine 5 000 UI par g)",
    "indications": [
@@ -25218,7 +25220,7 @@
   },
   {
    "dci": "Oxyde de zinc (pommade)",
-   "noms": "Pommade à l'oxyde de zinc, Mitosyl, Aloplastine, Mucozema",
+   "noms": "Pommade à l'oxyde de zinc, Mitosyl, Aloplastine, Mucozema (composition à confirmer)",
    "classe": "dermato",
    "formes": "Pommade 10 à 25 %",
    "indications": [
@@ -25250,18 +25252,18 @@
    "id": 555
   },
   {
-   "dci": "Triamcinolone + néomycine + nystatine (crème)",
-   "noms": "A Dem crème, Kenacomb, Mycolog",
+   "dci": "Clotrimazole + bétaméthasone + néomycine (crème)",
+   "noms": "A-Dem crème (Prince Pharma), Quadriderm, Triderm, Candid-B (sans néomycine)",
    "classe": "dermato",
-   "formes": "Crème ou pommade (triamcinolone 0,1 %, néomycine 0,5 %, nystatine 100 000 UI/g)",
+   "formes": "Crème 30 g (clotrimazole 1 %, bétaméthasone 0,05 %, néomycine 0,5 %, chlorocrésol 0,1 %) ; A-Dem existe aussi en poudre, de composition différente",
    "indications": [
-    "Dermatoses inflammatoires surinfectées par des bactéries ou des levures (intertrigo, eczéma surinfecté), sur une courte durée"
+    "Dermatoses inflammatoires surinfectées par des bactéries ou des champignons (intertrigo, eczéma surinfecté), sur une courte durée"
    ],
    "posologieAdulte": [
-    "1 à 2 applications par jour, 7 jours au maximum"
+    "1 à 2 applications par jour, 7 jours au maximum (14 jours au maximum pour une mycose)"
    ],
    "posologieEnfant": [
-    "Éviter chez le nourrisson (siège, couches : absorption du corticoïde) ; usage court et limité chez l'enfant"
+    "À éviter avant 12 ans, et surtout chez le nourrisson (siège, couches : absorption du corticoïde puissant)"
    ],
    "contreIndications": [
     "Infections virales (herpès, varicelle), gale, tuberculose cutanée",
@@ -25270,26 +25272,28 @@
     "Tympan perforé"
    ],
    "precautions": [
-    "Association de 3 produits : préférer un traitement ciblé (antifongique seul, dermocorticoïde seul) quand le diagnostic est clair",
-    "Le corticoïde masque et peut aggraver une mycose (teigne, pied d'athlète) : ne pas utiliser sur une lésion non diagnostiquée",
+    "Bétaméthasone : corticoïde puissant ; il masque et peut aggraver une mycose (teigne, pied d'athlète, mycose des plis) ; ne pas utiliser sur une lésion non diagnostiquée",
+    "Produit très utilisé pour éclaircir la peau : dépigmentation, vergetures, atrophie, acné, mycoses étendues, et risque d'atteinte des glandes surrénales en cas d'usage prolongé sur de grandes surfaces",
+    "Mycose simple : antifongique seul (clotrimazole, miconazole) ; eczéma non infecté : dermocorticoïde seul",
     "Néomycine : allergie de contact fréquente",
-    "Pas sur le visage ni au long cours (atrophie de la peau) ; pas sous pansement occlusif"
+    "Pas sur le visage ni au long cours ; pas sous pansement occlusif"
    ],
    "effetsIndesirables": [
-    "Atrophie et vergetures de la peau (usage prolongé)",
+    "Atrophie, vergetures, dépigmentation (usage prolongé)",
+    "Acné, folliculite",
     "Eczéma de contact (néomycine)",
-    "Dépigmentation"
+    "Freinage des glandes surrénales (grandes surfaces, longue durée)"
    ],
    "grossesse": "Éviter sur de grandes surfaces pendant la grossesse ; ne pas appliquer sur les seins pendant l'allaitement.",
-   "motsCles": "a dem, adem, triamcinolone, néomycine, nystatine, crème, intertrigo, eczéma surinfecté, mycose",
-   "famille": "Association dermocorticoïde + antibiotique + antifongique",
-   "mecanisme": "La triamcinolone réduit l'inflammation et les démangeaisons, la néomycine agit sur les bactéries, la nystatine sur les Candida.",
+   "motsCles": "a dem, a-dem, adem, clotrimazole, bétaméthasone, néomycine, quadriderm, triderm, crème, intertrigo, eczéma surinfecté, mycose, dépigmentation",
+   "famille": "Association dermocorticoïde fort + antifongique + antibiotique",
+   "mecanisme": "La bétaméthasone réduit l'inflammation et les démangeaisons, le clotrimazole agit sur les champignons (dermatophytes, Candida), la néomycine sur les bactéries.",
    "calculs": [],
    "id": 556
   },
   {
    "dci": "Sirops contre la toux et le rhume en association",
-   "noms": "Bronchaline (salbutamol + guaïfénésine + bromhexine), Kaptol, Histaminic expectorant (chlorphénamine + guaïfénésine), Dr Cold (paracétamol + chlorphénamine + phényléphrine)",
+   "noms": "Bronchaline (à confirmer : salbutamol + guaïfénésine + bromhexine), Kaptol (composition à confirmer), Histaminic expectorant (à confirmer : chlorphénamine + guaïfénésine), Dr Cold (à confirmer : paracétamol + chlorphénamine + phényléphrine), Mucolyn adulte (chlorphénamine + chlorure d'ammonium + bromhexine + dextrométhorphane), Mucolyn pédiatrique (+ pseudoéphédrine)",
    "classe": "respiratoire",
    "formes": "Sirops ou comprimés associant 2 à 4 principes actifs (bronchodilatateur, expectorant, mucolytique, antihistaminique, décongestionnant, antalgique)",
    "indications": [
@@ -25309,6 +25313,7 @@
     "Insuffisance hépatique (paracétamol)"
    ],
    "precautions": [
+    "Mucolyn associe un antitussif (dextrométhorphane) et un mucolytique (bromhexine), association illogique ; la forme pédiatrique contient de la pseudoéphédrine, dangereuse chez le jeune enfant (convulsions, troubles du rythme)",
     "Le salbutamol par voie orale n'est pas un traitement de la toux (OMS) : tremblements, palpitations ; si asthme, salbutamol inhalé",
     "Ne pas associer un mucolytique et un antitussif (blocage des sécrétions)",
     "Compter le paracétamol de toutes les sources (Dr Cold) : risque de surdosage",
@@ -25322,7 +25327,7 @@
     "Nausées"
    ],
    "grossesse": "Éviter pendant la grossesse (surtout au 1er trimestre) et l'allaitement ; préférer le paracétamol seul et les mesures simples.",
-   "motsCles": "bronchaline, kaptol, histaminic, dr cold, sirop toux, toux grasse, rhume, grippe, expectorant, guaïfénésine, sirop association",
+   "motsCles": "bronchaline, kaptol, histaminic, dr cold, sirop toux, toux grasse, rhume, grippe, expectorant, guaïfénésine, sirop association, mucolyn, dextrométhorphane, pseudoéphédrine, chlorure d'ammonium",
    "famille": "Associations symptomatiques (toux et rhume)",
    "mecanisme": "Chaque composant agit sur un symptôme : bronchodilatation (salbutamol), fluidification (bromhexine, guaïfénésine), antihistaminique (chlorphénamine), vasoconstriction nasale (phényléphrine), fièvre et douleur (paracétamol).",
    "calculs": [],
@@ -25330,7 +25335,7 @@
   },
   {
    "dci": "Kaolin + pectine",
-   "noms": "Diaryl sirop, Kaolin suspension, Kaopectate (ancienne formule)",
+   "noms": "Diaryl sirop (composition à confirmer), Kaolin suspension, Kaopectate (ancienne formule)",
    "classe": "digestif",
    "formes": "Suspension buvable",
    "indications": [
@@ -25363,7 +25368,7 @@
   },
   {
    "dci": "Eau digestive (gripe water)",
-   "noms": "Eau digestive sirop",
+   "noms": "Eau digestive sirop (composition à confirmer)",
    "classe": "digestif",
    "formes": "Solution buvable (bicarbonate de sodium, huiles essentielles d'aneth et d'anis)",
    "indications": [
@@ -25398,7 +25403,7 @@
   },
   {
    "dci": "Suppositoires antihémorroïdaires (associations)",
-   "noms": "Rectosol (lidocaïne + sous-gallate de bismuth + oxyde de zinc), Rectosol HC (+ hydrocortisone), Hemorridal",
+   "noms": "Rectosol (à confirmer : lidocaïne + sous-gallate de bismuth + oxyde de zinc), Rectosol HC (à confirmer : + hydrocortisone), Hemorridal (composition à confirmer)",
    "classe": "digestif",
    "formes": "Suppositoires ; crème ou pommade rectale",
    "indications": [
@@ -25433,7 +25438,7 @@
   },
   {
    "dci": "Vasoconstricteurs nasaux (éphédrine, naphazoline, phényléphrine)",
-   "noms": "Rhumine 1 %, Rhinofenyl (phényléphrine + chlorphénamine)",
+   "noms": "Rhumine 1 % (composition à confirmer), Rhinofenyl (à confirmer : phényléphrine + chlorphénamine)",
    "classe": "respiratoire",
    "formes": "Gouttes nasales",
    "indications": [
