@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MédiGuide</title>
+<meta name="description" content="MédiGuide : aide-mémoire clinique hors ligne pour les professionnels de santé de la RDC (médicaments, pathologies, symptômes, dispensaire, scores).">
+<meta name="theme-color" content="#00695C">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icone-192.png">
+<link rel="apple-touch-icon" href="icone-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="entete">
+  <button class="bouton-menu" id="boutonMenu" aria-label="Menu">☰</button>
+  <a class="logo" href="#/accueil"><img src="icone-192.png" alt=""><span>MédiGuide</span></a>
+  <div class="recherche">
+    <span class="loupe">🔍</span>
+    <input id="champRecherche" type="search" placeholder="Rechercher un médicament, une maladie, un symptôme…" autocomplete="off">
+  </div>
+  <label class="poids" title="Poids du patient : sert au calcul des doses">
+    <span>Poids</span><input id="champPoids" type="text" inputmode="decimal" placeholder="—"><span>kg</span>
+  </label>
+  <button class="bouton-installer" id="boutonInstaller" hidden>Installer</button>
+</header>
+<div class="corps">
+  <nav class="menu" id="menu">
+    <a href="#/accueil" data-r="accueil">🏠 Accueil</a>
+    <a href="#/sujet" data-r="sujet">🌍 Sujet du jour</a>
+    <a href="#/medicaments" data-r="medicaments">💊 Médicaments</a>
+    <a href="#/pathologies" data-r="pathologies">🩺 Pathologies</a>
+    <a href="#/symptomes" data-r="symptomes">🤒 Symptômes</a>
+    <a href="#/dispensaire" data-r="dispensaire">🧰 Dispensaire</a>
+    <a href="#/protocoles" data-r="protocoles">🚨 Protocoles d'urgence</a>
+    <a href="#/scores" data-r="scores">🧮 Scores médicaux</a>
+    <a href="#/cas" data-r="cas">🎓 Cas cliniques</a>
+    <a href="#/apropos" data-r="apropos">ℹ️ À propos</a>
+    <div class="etat" id="etatDonnees"></div>
+  </nav>
+  <main id="contenu" tabindex="-1"><div class="chargement">Chargement des données…</div></main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

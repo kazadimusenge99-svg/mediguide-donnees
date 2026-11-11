@@ -1,0 +1,15 @@
+{
+  "name": "MédiGuide",
+  "short_name": "MédiGuide",
+  "description": "Aide-mémoire clinique hors ligne pour les professionnels de santé de la RDC",
+  "lang": "fr",
+  "start_url": "./#/accueil",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4F7F6",
+  "theme_color": "#00695C",
+  "icons": [
+    { "src": "icone-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
