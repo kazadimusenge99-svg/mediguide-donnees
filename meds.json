@@ -1,5 +1,5 @@
 {
- "version": 71,
+ "version": 72,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -25406,7 +25406,7 @@
   },
   {
    "dci": "Suppositoires antihémorroïdaires (associations)",
-   "noms": "Hemorroidal / Hemorridal (Arauphar : sous-gallate de bismuth 200 mg, résorcinol 60 mg, acide borique 500 mg, baume du Pérou 46 mg, oxyde de zinc 120 mg, tétracaïne 5 mg), Hemorroidal-HC (+ hydrocortisone 4,1 mg), Rectosol et Rectosol HC (PROMED, Kinshasa : composition non publiée, à confirmer ; HC = avec hydrocortisone)",
+   "noms": "Hemorroidal / Hemorridal (Arauphar : sous-gallate de bismuth 200 mg, résorcinol 60 mg, acide borique 500 mg, baume du Pérou 46 mg, oxyde de zinc 120 mg, tétracaïne 5 mg), Hemorroidal-HC (+ hydrocortisone 4,1 mg), Rectosol (PROMED, AMM ACOREP : acide borique, baume du Pérou, sous-gallate de bismuth, oxyde de zinc, résorcinol, tétracaïne), Rectosol HC (même base + hydrocortisone)",
    "classe": "digestif",
    "formes": "Suppositoires ; crème ou pommade rectale",
    "indications": [
@@ -25426,7 +25426,7 @@
     "Saignement par l'anus : ne pas l'attribuer aux hémorroïdes sans examen (cancer du rectum, surtout après 50 ans, perte de poids, anémie)",
     "Traitement de fond : fibres, eau, traiter la constipation ; diosmine (Daflon) en cure courte pendant la crise",
     "Douleur anale violente avec boule bleutée : thrombose hémorroïdaire (incision possible) ; fissure anale si douleur à la selle",
-    "Hemorroidal contient 500 mg d'acide borique par suppositoire : toxique s'il est absorbé en grande quantité ; ne pas utiliser chez l'enfant, éviter pendant la grossesse et au long cours. Baume du Pérou : allergie fréquente."
+    "Hemorroidal (500 mg) et Rectosol contiennent de l'acide borique : toxique s'il est absorbé en grande quantité ; ne pas utiliser chez l'enfant, éviter pendant la grossesse et au long cours. Baume du Pérou : allergie fréquente."
    ],
    "effetsIndesirables": [
     "Irritation locale",
