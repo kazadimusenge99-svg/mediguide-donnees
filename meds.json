@@ -1,5 +1,5 @@
 {
- "version": 70,
+ "version": 71,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -9134,7 +9134,7 @@
   {
    "id": 181,
    "dci": "Carbonate de calcium",
-   "noms": "Calcium 500 mg, Calci D-Denk (+ vitamine D), Calvi D sirop (à confirmer : + vitamine D3) (exemples)",
+   "noms": "Calcium 500 mg, Calci D-Denk (+ vitamine D), Calvi D sirop (calcium + vitamine D) (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 1,25 g (500 mg de calcium élément) ; comprimé à croquer",
    "indications": [
@@ -9162,7 +9162,7 @@
     "Hypercalcémie (forte dose prolongée)"
    ],
    "grossesse": "Recommandé (prévention de la pré-éclampsie).",
-   "motsCles": "calcium, pré-éclampsie, grossesse, rachitisme, hypocalcémie",
+   "motsCles": "calcium, pré-éclampsie, grossesse, rachitisme, hypocalcémie, calvi d, calvid",
    "calculs": [
     {
      "titre": "Rachitisme (calcium élément)",
