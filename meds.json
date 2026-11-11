@@ -1,5 +1,5 @@
 {
- "version": 79,
+ "version": 80,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -28438,7 +28438,10 @@
    "famille": "Antalgique et anesthésique local auriculaire",
    "mecanisme": "La phénazone (antalgique) et la lidocaïne (anesthésique local) calment la douleur du tympan inflammatoire.",
    "calculs": [],
-   "id": 596
+   "id": 596,
+   "marquesRdc": [
+    "Otogon"
+   ]
   },
   {
    "dci": "Tobramycine (collyre et pommade ophtalmique)",
@@ -28467,11 +28470,17 @@
     "Allergie locale"
    ],
    "grossesse": "Utilisable en collyre (passage très faible).",
-   "motsCles": "tobramycine, tobrex, collyre, conjonctivite, œil rouge, yeux",
+   "motsCles": "tobramycine, tobrex, collyre, conjonctivite, œil rouge, yeux, nebcine, tobra vision, tobrason vision, tobraxin",
    "famille": "Antibiotique local – aminoside",
    "mecanisme": "Se fixe sur la sous-unité 30S du ribosome bactérien et bloque la synthèse des protéines (bactéricide).",
    "calculs": [],
-   "id": 597
+   "id": 597,
+   "marquesRdc": [
+    "Nebcine",
+    "Tobra Vision",
+    "Tobrason Vision",
+    "Tobraxin"
+   ]
   },
   {
    "dci": "Diosmectite",
@@ -28501,11 +28510,16 @@
     "Ballonnements"
    ],
    "grossesse": "Utilisable sur une courte durée.",
-   "motsCles": "diosmectite, smecta, diarrhée, gastro-entérite, argile",
+   "motsCles": "diosmectite, smecta, diarrhée, gastro-entérite, argile, nodiar, smecta orange-vanille, smedyl",
    "famille": "Pansement digestif (argile)",
    "mecanisme": "Argile qui tapisse la muqueuse intestinale et fixe une partie de l'eau, des toxines et des gaz : les selles sont plus fermes.",
    "calculs": [],
-   "id": 598
+   "id": 598,
+   "marquesRdc": [
+    "Nodiar",
+    "Smecta Orange-Vanille",
+    "Smedyl"
+   ]
   },
   {
    "dci": "Nifuroxazide",
@@ -28566,7 +28580,7 @@
     "Éruption cutanée, rarement réaction allergique grave"
    ],
    "grossesse": "Éviter pendant la grossesse et l'allaitement (données insuffisantes).",
-   "motsCles": "racécadotril, racecadotril, tiorfan, hidrasec, diarrhée, antisécrétoire",
+   "motsCles": "racécadotril, racecadotril, tiorfan, hidrasec, diarrhée, antisécrétoire, ranoril dt",
    "famille": "Antidiarrhéique antisécrétoire",
    "mecanisme": "Inhibe l'enképhalinase de l'intestin : les enképhalines réduisent la sécrétion d'eau et d'électrolytes sans ralentir le transit.",
    "calculs": [
@@ -28592,7 +28606,10 @@
      ]
     }
    ],
-   "id": 600
+   "id": 600,
+   "marquesRdc": [
+    "Ranoril DT"
+   ]
   },
   {
    "dci": "Saccharomyces boulardii",
@@ -28627,7 +28644,10 @@
    "famille": "Probiotique (levure)",
    "mecanisme": "Levure vivante qui renforce la barrière intestinale, inhibe certaines toxines bactériennes et rééquilibre la flore.",
    "calculs": [],
-   "id": 601
+   "id": 601,
+   "marquesRdc": [
+    "Ultra-Levure"
+   ]
   },
   {
    "dci": "Trimébutine",
@@ -28654,11 +28674,14 @@
     "Réactions cutanées (rares)"
    ],
    "grossesse": "Éviter au 1er trimestre par prudence.",
-   "motsCles": "trimébutine, trimebutine, débridat, debridat, côlon irritable, ballonnements, douleurs abdominales",
+   "motsCles": "trimébutine, trimebutine, débridat, debridat, côlon irritable, ballonnements, douleurs abdominales, tributine",
    "famille": "Régulateur de la motricité digestive",
    "mecanisme": "Agit sur les récepteurs opioïdes enképhalinergiques de l'intestin : régularise la motricité, accélère ou ralentit selon le besoin.",
    "calculs": [],
-   "id": 602
+   "id": 602,
+   "marquesRdc": [
+    "Tributine"
+   ]
   },
   {
    "dci": "Alvérine + siméticone",
@@ -28720,11 +28743,15 @@
     "Douleurs abdominales"
    ],
    "grossesse": "Utilisable pendant la grossesse et l'allaitement.",
-   "motsCles": "macrogol, forlax, transipeg, movicol, constipation, laxatif",
+   "motsCles": "macrogol, forlax, transipeg, movicol, constipation, laxatif, ilax, laxstim",
    "famille": "Laxatif osmotique",
    "mecanisme": "Polymère non absorbé qui retient l'eau dans l'intestin : les selles sont plus hydratées et plus volumineuses.",
    "calculs": [],
-   "id": 604
+   "id": 604,
+   "marquesRdc": [
+    "Ilax",
+    "Laxstim"
+   ]
   },
   {
    "dci": "Dexchlorphéniramine",
@@ -28971,11 +28998,14 @@
     "Thrombose (rare)"
    ],
    "grossesse": "Contre-indiquée pendant la grossesse.",
-   "motsCles": "noréthistérone, norethisterone, primolut, primolut-nor, hémorragie utérine, ménorragie, report des règles",
+   "motsCles": "noréthistérone, norethisterone, primolut, primolut-nor, hémorragie utérine, ménorragie, report des règles, theotron",
    "famille": "Progestatif de synthèse",
    "mecanisme": "Progestatif dérivé de la testostérone : stabilise l'endomètre et arrête le saignement ; à l'arrêt, survient une hémorragie de privation.",
    "calculs": [],
-   "id": 610
+   "id": 610,
+   "marquesRdc": [
+    "Theotron"
+   ]
   },
   {
    "dci": "Magnésium + vitamine B6",
@@ -29039,7 +29069,10 @@
    "famille": "Cicatrisant cutané (provitamine B5)",
    "mecanisme": "Transformé dans la peau en acide pantothénique (vitamine B5), qui favorise la régénération de l'épiderme.",
    "calculs": [],
-   "id": 612
+   "id": 612,
+   "marquesRdc": [
+    "Bepanthen"
+   ]
   },
   {
    "dci": "Trolamine (émulsion)",
@@ -29140,7 +29173,7 @@
     "Candidose"
    ],
    "grossesse": "Utilisable pendant la grossesse et l'allaitement.",
-   "motsCles": "cefpodoxime, orelox, cidox, cesadox, céphalosporine, otite, angine, sinusite",
+   "motsCles": "cefpodoxime, orelox, cidox, cesadox, céphalosporine, otite, angine, sinusite, cepoxime, cesadox-dt, cidox ds, orelox enfants et nourrissons",
    "famille": "Antibiotique – céphalosporine de 3e génération orale",
    "mecanisme": "Bloque la synthèse de la paroi bactérienne : effet bactéricide sur le streptocoque, le pneumocoque, Haemophilus et les entérobactéries.",
    "calculs": [
@@ -29166,7 +29199,17 @@
      ]
     }
    ],
-   "id": 615
+   "id": 615,
+   "marquesRdc": [
+    "Cefpoque",
+    "Cepoxime",
+    "Cesadox",
+    "Cesadox-DT",
+    "Cidox DS",
+    "Doxim",
+    "Orelox",
+    "Orelox Enfants et Nourrissons"
+   ]
   },
   {
    "dci": "Spiramycine",
@@ -29197,11 +29240,14 @@
     "Rarement atteinte hépatique"
    ],
    "grossesse": "Utilisable pendant toute la grossesse (traitement de la toxoplasmose).",
-   "motsCles": "spiramycine, rovamycine, macrolide, toxoplasmose, grossesse",
+   "motsCles": "spiramycine, rovamycine, macrolide, toxoplasmose, grossesse, bidontogyl",
    "famille": "Antibiotique – macrolide",
    "mecanisme": "Se fixe sur la sous-unité 50S du ribosome bactérien et bloque la synthèse des protéines ; se concentre dans le placenta.",
    "calculs": [],
-   "id": 616
+   "id": 616,
+   "marquesRdc": [
+    "Bidontogyl (+ métronidazole)"
+   ]
   },
   {
    "dci": "Pristinamycine",
@@ -29375,11 +29421,14 @@
     "Réactions allergiques, malaise vagal (IM)"
    ],
    "grossesse": "Contre-indiqué pendant la grossesse et l'allaitement.",
-   "motsCles": "thiocolchicoside, coltramyl, miorel, myorelaxant, contracture, lombalgie, torticolis",
+   "motsCles": "thiocolchicoside, coltramyl, miorel, myorelaxant, contracture, lombalgie, torticolis, muscurel",
    "famille": "Myorelaxant",
    "mecanisme": "Agit sur les récepteurs GABA-A et glycinergiques de la moelle et diminue les contractures musculaires.",
    "calculs": [],
-   "id": 621
+   "id": 621,
+   "marquesRdc": [
+    "Muscurel"
+   ]
   },
   {
    "dci": "Naproxène",
@@ -29496,7 +29545,11 @@
    "famille": "Inhibiteur calcique (dihydropyridine)",
    "mecanisme": "Bloque les canaux calciques des muscles lisses artériels : vasodilatation et baisse de la tension.",
    "calculs": [],
-   "id": 624
+   "id": 624,
+   "marquesRdc": [
+    "Loxen",
+    "Nicar"
+   ]
   },
   {
    "dci": "Trimétazidine",
@@ -29631,11 +29684,14 @@
     "Dépendance, troubles du comportement"
    ],
    "grossesse": "Éviter au 1er trimestre si possible ; en fin de grossesse, hypotonie du nouveau-né. Éviter pendant l'allaitement.",
-   "motsCles": "clonazépam, clonazepam, rivotril, épilepsie, convulsions, benzodiazépine",
+   "motsCles": "clonazépam, clonazepam, rivotril, épilepsie, convulsions, benzodiazépine, epizap",
    "famille": "Benzodiazépine (antiépileptique)",
    "mecanisme": "Renforce l'effet du GABA sur les récepteurs GABA-A : effet anticonvulsivant puissant, sédatif et myorelaxant.",
    "calculs": [],
-   "id": 628
+   "id": 628,
+   "marquesRdc": [
+    "Epizap"
+   ]
   },
   {
    "dci": "Sertraline",
