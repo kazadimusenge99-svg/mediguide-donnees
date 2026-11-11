@@ -1,5 +1,5 @@
 {
- "version": 60,
+ "version": 61,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -1294,7 +1294,7 @@
   {
    "id": 18,
    "dci": "Paracétamol",
-   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac), Promedol effervescent (+ tramadol), Fervex (+ phéniramine, vitamine C), Sinutab (+ pseudoéphédrine) (exemples)",
+   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac), Promedol effervescent (+ tramadol), Fervex (+ phéniramine, vitamine C), Sinutab (+ pseudoéphédrine), Paralgan (sirop, comprimé 500 mg, Forte 1 000 mg, IV) (exemples)",
    "classe": "antalgiques",
    "formes": "Comprimé 100, 500 mg et 1 g ; sirop 120 mg/5 ml ; suppositoire ; perfusion 10 mg/ml",
    "indications": [
@@ -1352,7 +1352,7 @@
      "doseMax": 1000
     }
    ],
-   "motsCles": "douleur, fièvre, céphalée, mal de tête, antalgique, antipyrétique, fervex, sinutab, paralgan",
+   "motsCles": "douleur, fièvre, céphalée, mal de tête, antalgique, antipyrétique, fervex, sinutab, paralgan, paralgan",
    "famille": "Antalgique non opioïde (paracétamol)",
    "mecanisme": "Inhibe la synthèse des prostaglandines dans le système nerveux central : effet antalgique et antipyrétique, sans effet anti-inflammatoire notable."
   },
@@ -1996,7 +1996,7 @@
   {
    "id": 32,
    "dci": "Énalapril",
-   "noms": "Renitec, Cesapril",
+   "noms": "Renitec, Cesapril, Napril",
    "classe": "cardio",
    "formes": "Comprimé 5, 10 et 20 mg",
    "indications": [
@@ -2032,7 +2032,7 @@
     "Angio-œdème (rare, grave)"
    ],
    "grossesse": "Contre-indiqué pendant toute la grossesse (toxicité fœtale).",
-   "motsCles": "HTA, hypertension, tension, insuffisance cardiaque, IEC, néphropathie diabétique",
+   "motsCles": "HTA, hypertension, tension, insuffisance cardiaque, IEC, néphropathie diabétique, napril",
    "famille": "Inhibiteur de l'enzyme de conversion (IEC)",
    "mecanisme": "Bloque la transformation de l'angiotensine I en angiotensine II : vasodilatation, baisse de l'aldostérone, protection du rein et du cœur."
   },
@@ -2750,7 +2750,7 @@
   {
    "id": 48,
    "dci": "Fer + acide folique",
-   "noms": "Ferrous sulfate + folic acid, Tardyferon B9, Hemoforce Prega, Acifer",
+   "noms": "Ferrous sulfate + folic acid, Tardyferon B9, Hemoforce Prega, Acifer, Hifer",
    "classe": "obstetrique",
    "formes": "Comprimé fer élément 60 mg + acide folique 400 µg ; sirop de fer ; acide folique 5 mg",
    "indications": [
@@ -2783,7 +2783,7 @@
     "Coloration des dents (sirop)"
    ],
    "grossesse": "Recommandé pendant toute la grossesse.",
-   "motsCles": "anémie, grossesse, carence en fer, ferriprive, spina bifida",
+   "motsCles": "anémie, grossesse, carence en fer, ferriprive, spina bifida, hifer",
    "famille": "Antianémique (fer + folates)",
    "mecanisme": "Apporte le fer et l'acide folique nécessaires à la fabrication des globules rouges."
   },
@@ -6285,7 +6285,7 @@
   {
    "id": 117,
    "dci": "Chlorhexidine",
-   "noms": "Chlorhexidine 7,1 % gel (cordon), Hibiscrub, Biseptine (exemples)",
+   "noms": "Chlorhexidine 7,1 % gel (cordon), Hibiscrub, Biseptine, Dermobacter (+ chlorure de benzalkonium) (exemples)",
    "classe": "dermato",
    "formes": "Gel ou solution 7,1 % de digluconate (4 % chlorhexidine) pour le cordon ; solutions 0,05 % à 4 % ; solution alcoolique 2 %",
    "indications": [
@@ -6314,7 +6314,7 @@
     "Réactions allergiques (rares, parfois graves)"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "cordon ombilical, omphalite, nouveau-né, antiseptique, désinfection",
+   "motsCles": "cordon ombilical, omphalite, nouveau-né, antiseptique, désinfection, dermobacter",
    "famille": "Antiseptique",
    "mecanisme": "Détruit les bactéries, virus et champignons sur la peau, les muqueuses ou les plaies (action non spécifique sur les membranes et les protéines)."
   },
@@ -24825,6 +24825,47 @@
    "calculs": [],
    "famille": "Antiasthmatique – antileucotriène",
    "mecanisme": "Bloque les récepteurs CysLT1 des leucotriènes : diminue l'inflammation, la bronchoconstriction et la sécrétion de mucus dans les bronches."
+  },
+  {
+   "id": 544,
+   "dci": "Cétirizine",
+   "noms": "Zyrtec, Virlix, Citrimex, Cetrine",
+   "classe": "respiratoire",
+   "formes": "Comprimé 10 mg ; comprimé dispersible 10 mg ; sirop ou gouttes 1 mg/ml (sirop 5 mg/5 ml)",
+   "indications": [
+    "Rhinite allergique (saisonnière ou permanente), conjonctivite allergique",
+    "Urticaire, prurit d'origine allergique"
+   ],
+   "posologieAdulte": [
+    "10 mg une fois par jour",
+    "Insuffisance rénale modérée : 5 mg par jour ; sévère : 5 mg un jour sur deux"
+   ],
+   "posologieEnfant": [
+    "2 à 6 ans : 2,5 mg (2,5 ml de sirop) 2 fois par jour",
+    "6 à 12 ans : 5 mg 2 fois par jour (ou 10 mg une fois)",
+    "Plus de 12 ans : 10 mg une fois par jour",
+    "Avant 2 ans : non recommandée en Europe (autorisée dès 6 mois aux États-Unis : 2,5 mg une fois par jour)"
+   ],
+   "contreIndications": [
+    "Allergie à la cétirizine ou à l'hydroxyzine",
+    "Insuffisance rénale terminale (clairance < 10 ml/min)"
+   ],
+   "precautions": [
+    "Peu sédatif, mais somnolence possible : prudence au volant, éviter l'alcool",
+    "Épilepsie, rétention urinaire : prudence",
+    "Prurit sans éruption : rechercher une cause (gale, onchocercose, cholestase, insuffisance rénale, VIH)"
+   ],
+   "effetsIndesirables": [
+    "Somnolence, fatigue",
+    "Céphalées",
+    "Bouche sèche",
+    "Prurit au sevrage après un usage prolongé (rare)"
+   ],
+   "grossesse": "Utilisable pendant la grossesse (données nombreuses et rassurantes) ; préférée avec la loratadine. Possible pendant l'allaitement à dose minimale.",
+   "motsCles": "cétirizine, cetirizine, zyrtec, virlix, citrimex, allergie, rhinite allergique, urticaire, prurit, démangeaisons, antihistaminique",
+   "calculs": [],
+   "famille": "Antihistaminique H1 (2e génération)",
+   "mecanisme": "Métabolite de l'hydroxyzine : bloque les récepteurs H1 périphériques de l'histamine, avec peu de passage dans le cerveau."
   }
  ],
  "categoriesPathologies": [
