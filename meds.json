@@ -1,5 +1,5 @@
 {
- "version": 66,
+ "version": 67,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -2252,7 +2252,7 @@
   {
    "id": 38,
    "dci": "Sels de réhydratation orale (SRO)",
-   "noms": "SRO à osmolarité réduite (OMS), Cetrol, Pro Oral, Medlyte-L (à confirmer : solution prête à boire)",
+   "noms": "SRO à osmolarité réduite (OMS), Cetrol, Pro Oral, Medlyte-L (Prince Pharma : SRO prêt à boire, 200 ml, composition OMS à osmolarité réduite)",
    "classe": "digestif",
    "formes": "Sachet à dissoudre dans 1 litre d'eau potable",
    "indications": [
@@ -2277,14 +2277,15 @@
     "Malnutrition aiguë sévère : utiliser le ReSoMal",
     "En cas de vomissements : petites quantités à la cuillère toutes les 1 à 2 minutes",
     "Poursuivre l'allaitement et l'alimentation",
-    "Solutions prêtes à boire (Medlyte-L et autres « électrolytes ») : vérifier que la composition correspond aux SRO de l'OMS (sodium 75 mmol/l, glucose 75 mmol/l) ; les boissons trop sucrées aggravent la diarrhée."
+    "Solutions prêtes à boire (« électrolytes » divers) : vérifier que la composition correspond aux SRO de l'OMS (sodium 75 mmol/l, glucose 75 mmol/l) ; les boissons trop sucrées aggravent la diarrhée.",
+    "Medlyte-L (Prince Pharma) : NaCl 0,52 g, KCl 0,30 g, citrate de sodium 0,58 g et glucose 2,70 g pour 200 ml, soit exactement la formule OMS (2,6 / 1,5 / 2,9 / 13,5 g par litre) ; à boire tel quel, sans diluer, et à jeter 24 h après ouverture."
    ],
    "effetsIndesirables": [
     "Vomissements si administration trop rapide",
     "Œdèmes palpébraux (surhydratation) : arrêter et réévaluer"
    ],
    "grossesse": "Utilisable sans restriction.",
-   "motsCles": "diarrhée, déshydratation, gastro-entérite, choléra, vomissements",
+   "motsCles": "diarrhée, déshydratation, gastro-entérite, choléra, vomissements, medlyte",
    "famille": "Soluté de réhydratation orale",
    "mecanisme": "Le glucose favorise l'absorption intestinale du sodium et de l'eau (cotransport), même pendant la diarrhée."
   },
@@ -6809,7 +6810,7 @@
   {
    "id": 130,
    "dci": "Thiamine (vitamine B1)",
-   "noms": "Bévitine, Becoshal, Trishal (B1-B6-B12), Trimex (B1-B6-B12), Benerva, Tribexfort sirop (à confirmer : B1-B6-B12) (exemples)",
+   "noms": "Bévitine, Becoshal, Trishal (B1-B6-B12), Trimex (B1-B6-B12), Benerva, Tribexfort (Pharmagros : comprimés, sirop, injectable ; composition non publiée, probablement vitamines B, à confirmer) (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 50 mg ; ampoule 50 et 100 mg/ml",
    "indications": [
@@ -6837,7 +6838,7 @@
     "Douleur au point d'injection"
    ],
    "grossesse": "Utilisable (vomissements gravidiques sévères : prévention de Wernicke).",
-   "motsCles": "béribéri, Wernicke, alcoolisme, vitamine B1",
+   "motsCles": "béribéri, Wernicke, alcoolisme, vitamine B1, tribexfort",
    "famille": "Vitamine",
    "mecanisme": "Coenzyme du métabolisme du glucose dans le cerveau et le cœur : prévient et traite l'encéphalopathie de Wernicke et le béribéri."
   },
@@ -9317,7 +9318,7 @@
   {
    "id": 186,
    "dci": "Sulfate ferreux",
-   "noms": "Fer sirop, Fumafer, Tardyferon, Hemoforce, Tot'héma (gluconate ferreux), Ferdrop Plus gouttes (à confirmer : + acide folique, vitamine B12), Hifer-Z sirop (Unique : fer 32 mg/15 ml, zinc, acide folique, vitamines B) (exemples)",
+   "noms": "Fer sirop, Fumafer, Tardyferon, Hemoforce, Tot'héma (gluconate ferreux), Hifer-Z sirop (Unique : fer 32 mg/15 ml, zinc, acide folique, vitamines B), Ferdrop Plus gouttes 30 ml (fer pour l'anémie et la grossesse ; dose de fer non publiée, à confirmer) (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 200 mg (60 à 65 mg de fer élément) ; sirop (teneur en fer variable selon le produit)",
    "indications": [
@@ -9348,7 +9349,7 @@
     "Coloration des dents (sirop)"
    ],
    "grossesse": "Recommandé si carence (voir aussi fer + acide folique).",
-   "motsCles": "anémie, fer, carence en fer, tothema, totema",
+   "motsCles": "anémie, fer, carence en fer, tothema, totema, ferdrop",
    "calculs": [
     {
      "titre": "Traitement (fer élément)",
@@ -17902,7 +17903,7 @@
   {
    "id": 377,
    "dci": "Xylométazoline nasale",
-   "noms": "Otrivine, Otrimex (exemples)",
+   "noms": "Otrivine, Otrimex, Rhumine gouttes 0,5 ‰ et 1 ‰ (xylométazoline 0,05 % enfant et 0,1 % adulte, à confirmer sur la boîte) (exemples)",
    "classe": "respiratoire",
    "formes": "Gouttes ou spray 0,1 % (adulte) et 0,05 % (enfant)",
    "indications": [
@@ -17931,7 +17932,7 @@
     "Palpitations, HTA, insomnie (surdosage)"
    ],
    "grossesse": "Éviter (vasoconstricteur).",
-   "motsCles": "nez bouché, décongestionnant",
+   "motsCles": "nez bouché, décongestionnant, rhumine",
    "famille": "Décongestionnant nasal (vasoconstricteur)",
    "mecanisme": "Stimule les récepteurs alpha de la muqueuse nasale : vasoconstriction et désobstruction (pas plus de 5 jours)."
   },
@@ -25295,7 +25296,7 @@
   },
   {
    "dci": "Sirops contre la toux et le rhume en association",
-   "noms": "Bronchaline (à confirmer : salbutamol + guaïfénésine + bromhexine), Histaminic expectorant (à confirmer : chlorphénamine + guaïfénésine), Mucolyn adulte (chlorphénamine + chlorure d'ammonium + bromhexine + dextrométhorphane), Mucolyn pédiatrique (+ pseudoéphédrine), Kaptol sirop et pastilles (Arauphar : eucalyptol 10 mg + guaïfénésine 50 mg + vitamine C 5 mg par 5 ml), Dr Cold (Astra Labs : paracétamol 500 mg + chlorphénamine 2 mg + phényléphrine 5 mg + caféine 25 mg)",
+   "noms": "Bronchaline (à confirmer : salbutamol + guaïfénésine + bromhexine), Mucolyn adulte (chlorphénamine + chlorure d'ammonium + bromhexine + dextrométhorphane), Mucolyn pédiatrique (+ pseudoéphédrine), Kaptol sirop et pastilles (Arauphar : eucalyptol 10 mg + guaïfénésine 50 mg + vitamine C 5 mg par 5 ml), Dr Cold (Astra Labs : paracétamol 500 mg + chlorphénamine 2 mg + phényléphrine 5 mg + caféine 25 mg), Histaminic expectorant sirop 100 ml (antitussif ; composition non publiée, à confirmer)",
    "classe": "respiratoire",
    "formes": "Sirops ou comprimés associant 2 à 4 principes actifs (bronchodilatateur, expectorant, mucolytique, antihistaminique, décongestionnant, antalgique)",
    "indications": [
@@ -25405,7 +25406,7 @@
   },
   {
    "dci": "Suppositoires antihémorroïdaires (associations)",
-   "noms": "Rectosol (à confirmer : lidocaïne + sous-gallate de bismuth + oxyde de zinc), Rectosol HC (à confirmer : + hydrocortisone), Hemorroidal / Hemorridal (Arauphar : sous-gallate de bismuth 200 mg, résorcinol 60 mg, acide borique 500 mg, baume du Pérou 46 mg, oxyde de zinc 120 mg, tétracaïne 5 mg), Hemorroidal-HC (+ hydrocortisone 4,1 mg)",
+   "noms": "Hemorroidal / Hemorridal (Arauphar : sous-gallate de bismuth 200 mg, résorcinol 60 mg, acide borique 500 mg, baume du Pérou 46 mg, oxyde de zinc 120 mg, tétracaïne 5 mg), Hemorroidal-HC (+ hydrocortisone 4,1 mg), Rectosol et Rectosol HC (PROMED, Kinshasa : composition non publiée, à confirmer ; HC = avec hydrocortisone)",
    "classe": "digestif",
    "formes": "Suppositoires ; crème ou pommade rectale",
    "indications": [
@@ -25433,7 +25434,7 @@
     "Amincissement de la muqueuse (corticoïde au long cours)"
    ],
    "grossesse": "Utilisables en cure courte pendant la grossesse et l'allaitement (hémorroïdes fréquentes au 3e trimestre).",
-   "motsCles": "rectosol, hemorridal, hémorroïdes, crise hémorroïdaire, suppositoire, démangeaison anale, douleur anale, hemorroidal",
+   "motsCles": "rectosol, hemorridal, hémorroïdes, crise hémorroïdaire, suppositoire, démangeaison anale, douleur anale, hemorroidal, rectosol",
    "famille": "Antihémorroïdaire local",
    "mecanisme": "L'anesthésique local calme la douleur, le bismuth et l'oxyde de zinc protègent et assèchent la muqueuse, l'hydrocortisone réduit l'inflammation.",
    "calculs": [],
@@ -25441,7 +25442,7 @@
   },
   {
    "dci": "Vasoconstricteurs nasaux (éphédrine, naphazoline, phényléphrine)",
-   "noms": "Rhumine 1 % (composition à confirmer), Rhinofenyl (à confirmer : phényléphrine + chlorphénamine)",
+   "noms": "Rhinofenyl (à confirmer : phényléphrine + chlorphénamine)",
    "classe": "respiratoire",
    "formes": "Gouttes nasales",
    "indications": [
@@ -25470,7 +25471,7 @@
     "Rhinite médicamenteuse (usage prolongé)"
    ],
    "grossesse": "Éviter pendant la grossesse et l'allaitement.",
-   "motsCles": "rhumine, rhinofenyl, éphédrine, naphazoline, phényléphrine, gouttes nasales, nez bouché, décongestionnant",
+   "motsCles": "rhinofenyl, éphédrine, naphazoline, phényléphrine, gouttes nasales, nez bouché, décongestionnant",
    "famille": "Décongestionnant nasal sympathomimétique",
    "mecanisme": "Stimulent les récepteurs alpha-adrénergiques des vaisseaux de la muqueuse nasale : vasoconstriction qui dégonfle la muqueuse.",
    "calculs": [],
