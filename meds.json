@@ -1,5 +1,5 @@
 {
- "version": 78,
+ "version": 79,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -28341,6 +28341,1339 @@
     "Dulcoprin",
     "Laxaque"
    ]
+  },
+  {
+   "dci": "Alpha-amylase",
+   "noms": "Maxilase, Maxilase maux de gorge",
+   "classe": "respiratoire",
+   "formes": "Comprimé 3 000 U CEIP ; sirop 200 U CEIP/ml",
+   "indications": [
+    "Traitement d'appoint des maux de gorge peu intenses (états congestifs de l'oropharynx) ; efficacité non démontrée (service médical rendu jugé insuffisant en France)"
+   ],
+   "posologieAdulte": [
+    "2 comprimés 3 fois par jour, ou 1 cuillère à soupe de sirop 3 fois par jour, 5 jours au maximum"
+   ],
+   "posologieEnfant": [
+    "Plus de 6 ans : 1 cuillère à café de sirop 3 fois par jour ; non recommandée chez le nourrisson"
+   ],
+   "contreIndications": [
+    "Allergie à un composant"
+   ],
+   "precautions": [
+    "Angine avec fièvre, ganglions, absence de toux chez l'enfant ou l'adolescent : penser au streptocoque et traiter par amoxicilline (prévention du rhumatisme articulaire aigu)",
+    "Ne remplace pas un antibiotique quand il est nécessaire, ni le paracétamol contre la douleur",
+    "Signes d'alarme : difficulté à avaler la salive, voix étouffée, trismus (abcès), gêne respiratoire"
+   ],
+   "effetsIndesirables": [
+    "Réactions allergiques cutanées (rares)"
+   ],
+   "grossesse": "Utilisable (non absorbée).",
+   "motsCles": "alpha-amylase, amylase, maxilase, mal de gorge, gorge, angine, pharyngite",
+   "famille": "Enzyme (anti-œdémateux revendiqué)",
+   "mecanisme": "Enzyme qui dégrade les polysaccharides ; aurait un effet anti-œdémateux local (mécanisme et efficacité clinique non établis).",
+   "calculs": [],
+   "id": 594
+  },
+  {
+   "dci": "Hexétidine (bain de bouche)",
+   "noms": "Hextril, Hexetidine",
+   "classe": "respiratoire",
+   "formes": "Solution pour bain de bouche 0,1 %",
+   "indications": [
+    "Infections et inflammations de la bouche et de la gorge (traitement d'appoint), soins après extraction dentaire"
+   ],
+   "posologieAdulte": [
+    "15 ml pur en bain de bouche ou en gargarisme 2 à 3 fois par jour, sans avaler, 5 jours au maximum"
+   ],
+   "posologieEnfant": [
+    "Plus de 6 ans (capable de recracher) : comme l'adulte"
+   ],
+   "contreIndications": [
+    "Enfant de moins de 6 ans",
+    "Allergie"
+   ],
+   "precautions": [
+    "Ne pas avaler",
+    "Usage prolongé : déséquilibre de la flore buccale, coloration des dents",
+    "Muguet : nystatine ou miconazole gel buccal"
+   ],
+   "effetsIndesirables": [
+    "Altération du goût",
+    "Irritation, sensation de brûlure"
+   ],
+   "grossesse": "Utilisable.",
+   "motsCles": "hexétidine, hextril, bain de bouche, gargarisme, gorge, bouche, aphte, gingivite",
+   "famille": "Antiseptique buccal",
+   "mecanisme": "Antiseptique à large spectre qui perturbe le métabolisme des bactéries et des levures de la bouche.",
+   "calculs": [],
+   "id": 595
+  },
+  {
+   "dci": "Phénazone + lidocaïne (gouttes auriculaires)",
+   "noms": "Otipax, Otogon, Otocalmine",
+   "classe": "respiratoire",
+   "formes": "Solution pour instillation auriculaire (phénazone 4 % + lidocaïne 1 %)",
+   "indications": [
+    "Douleur de l'otite moyenne aiguë congestive (tympan fermé) et de l'otite barotraumatique"
+   ],
+   "posologieAdulte": [
+    "4 gouttes dans l'oreille 2 à 3 fois par jour, 10 jours au maximum"
+   ],
+   "posologieEnfant": [
+    "Même dose chez l'enfant et le nourrisson"
+   ],
+   "contreIndications": [
+    "Tympan perforé (écoulement de pus, antécédent d'otite avec écoulement, aérateurs)",
+    "Allergie à la lidocaïne"
+   ],
+   "precautions": [
+    "Examiner le tympan avant de prescrire ; en cas d'écoulement, ne pas mettre de gouttes non adaptées",
+    "Ne traite pas l'infection : otite moyenne aiguë de l'enfant de moins de 2 ans ou avec fièvre : amoxicilline ; paracétamol contre la douleur"
+   ],
+   "effetsIndesirables": [
+    "Irritation, allergie locale"
+   ],
+   "grossesse": "Utilisable.",
+   "motsCles": "otipax, phénazone, lidocaïne, gouttes auriculaires, otite, mal d'oreille, otalgie",
+   "famille": "Antalgique et anesthésique local auriculaire",
+   "mecanisme": "La phénazone (antalgique) et la lidocaïne (anesthésique local) calment la douleur du tympan inflammatoire.",
+   "calculs": [],
+   "id": 596
+  },
+  {
+   "dci": "Tobramycine (collyre et pommade ophtalmique)",
+   "noms": "Tobrex, Tobramycine collyre",
+   "classe": "dermato",
+   "formes": "Collyre 0,3 % ; pommade ophtalmique 0,3 %",
+   "indications": [
+    "Conjonctivite bactérienne, kératite, blépharite bactérienne"
+   ],
+   "posologieAdulte": [
+    "1 à 2 gouttes toutes les 4 heures (infection sévère : toutes les heures le 1er jour), 7 jours"
+   ],
+   "posologieEnfant": [
+    "Même posologie chez l'enfant ; avant 1 an, avis médical"
+   ],
+   "contreIndications": [
+    "Allergie aux aminosides"
+   ],
+   "precautions": [
+    "Conjonctivite du nouveau-né (pus dans les premières semaines) : urgence, traitement général (gonocoque, chlamydia)",
+    "Œil rouge douloureux avec baisse de la vision : penser au glaucome aigu, à la kératite, à l'uvéite (avis spécialisé)",
+    "Ne pas toucher l'œil avec l'embout ; flacon personnel"
+   ],
+   "effetsIndesirables": [
+    "Irritation, larmoiement",
+    "Allergie locale"
+   ],
+   "grossesse": "Utilisable en collyre (passage très faible).",
+   "motsCles": "tobramycine, tobrex, collyre, conjonctivite, œil rouge, yeux",
+   "famille": "Antibiotique local – aminoside",
+   "mecanisme": "Se fixe sur la sous-unité 30S du ribosome bactérien et bloque la synthèse des protéines (bactéricide).",
+   "calculs": [],
+   "id": 597
+  },
+  {
+   "dci": "Diosmectite",
+   "noms": "Smecta",
+   "classe": "digestif",
+   "formes": "Poudre pour suspension buvable, sachet 3 g",
+   "indications": [
+    "Diarrhée aiguë (en complément de la réhydratation)",
+    "Douleurs digestives fonctionnelles"
+   ],
+   "posologieAdulte": [
+    "3 sachets par jour, dilués dans un demi-verre d'eau (diarrhée aiguë : jusqu'à 6 sachets le 1er jour)"
+   ],
+   "posologieEnfant": [
+    "Plus de 2 ans : 2 à 3 sachets par jour ; avant 2 ans, non recommandée en France depuis 2019 (traces de plomb de l'argile naturelle)"
+   ],
+   "contreIndications": [
+    "Occlusion intestinale",
+    "Constipation sévère"
+   ],
+   "precautions": [
+    "Diarrhée aiguë : le traitement de base reste les SRO (et le zinc 10 à 14 jours chez l'enfant) avec la poursuite de l'alimentation ; diarrhée sanglante, fièvre élevée ou déshydratation : examen médical.",
+    "Prendre à 2 h d'écart des autres médicaments (diminue leur absorption)"
+   ],
+   "effetsIndesirables": [
+    "Constipation",
+    "Ballonnements"
+   ],
+   "grossesse": "Utilisable sur une courte durée.",
+   "motsCles": "diosmectite, smecta, diarrhée, gastro-entérite, argile",
+   "famille": "Pansement digestif (argile)",
+   "mecanisme": "Argile qui tapisse la muqueuse intestinale et fixe une partie de l'eau, des toxines et des gaz : les selles sont plus fermes.",
+   "calculs": [],
+   "id": 598
+  },
+  {
+   "dci": "Nifuroxazide",
+   "noms": "Ercéfuryl, Panfurex, Nifuroxazide",
+   "classe": "digestif",
+   "formes": "Gélule 200 mg ; suspension buvable 220 mg/5 ml",
+   "indications": [
+    "Diarrhée aiguë présumée bactérienne sans signe d'invasion (pas de fièvre, pas de sang) ; intérêt faible"
+   ],
+   "posologieAdulte": [
+    "200 mg 4 fois par jour, 3 jours (7 jours au maximum)"
+   ],
+   "posologieEnfant": [
+    "Contre-indiqué en France avant 18 ans depuis 2019 ; l'OMS ne le recommande pas chez l'enfant (SRO + zinc)"
+   ],
+   "contreIndications": [
+    "Allergie aux dérivés nitrofuranes",
+    "Enfant et adolescent (avis ANSM)"
+   ],
+   "precautions": [
+    "Diarrhée aiguë : le traitement de base reste les SRO (et le zinc 10 à 14 jours chez l'enfant) avec la poursuite de l'alimentation ; diarrhée sanglante, fièvre élevée ou déshydratation : examen médical.",
+    "Ne diffuse pas dans le sang : inefficace dans la dysenterie (ciprofloxacine) et la typhoïde"
+   ],
+   "effetsIndesirables": [
+    "Réactions allergiques (urticaire, rarement choc)"
+   ],
+   "grossesse": "Éviter pendant la grossesse.",
+   "motsCles": "nifuroxazide, ercéfuryl, ercefuryl, diarrhée, antiseptique intestinal",
+   "famille": "Anti-infectieux intestinal (nitrofurane)",
+   "mecanisme": "Antibactérien qui agit dans la lumière de l'intestin sans être absorbé.",
+   "calculs": [],
+   "id": 599
+  },
+  {
+   "dci": "Racécadotril",
+   "noms": "Tiorfan, Hidrasec",
+   "classe": "digestif",
+   "formes": "Gélule 100 mg ; sachets 10 mg (nourrisson) et 30 mg (enfant)",
+   "indications": [
+    "Diarrhée aiguë, en complément de la réhydratation orale"
+   ],
+   "posologieAdulte": [
+    "100 mg à la 1re prise, puis 100 mg 3 fois par jour, jusqu'au retour de 2 selles normales (7 jours au maximum)"
+   ],
+   "posologieEnfant": [
+    "Plus de 3 mois : 1,5 mg/kg par prise, 3 fois par jour (moins de 9 kg : sachet de 10 mg ; 9 à 13 kg : 2 sachets de 10 mg ; 13 à 27 kg : sachet de 30 mg ; plus de 27 kg : 2 sachets de 30 mg)"
+   ],
+   "contreIndications": [
+    "Allergie",
+    "Nourrisson de moins de 3 mois"
+   ],
+   "precautions": [
+    "Diarrhée aiguë : le traitement de base reste les SRO (et le zinc 10 à 14 jours chez l'enfant) avec la poursuite de l'alimentation ; diarrhée sanglante, fièvre élevée ou déshydratation : examen médical.",
+    "Insuffisance rénale ou hépatique : prudence"
+   ],
+   "effetsIndesirables": [
+    "Céphalées",
+    "Éruption cutanée, rarement réaction allergique grave"
+   ],
+   "grossesse": "Éviter pendant la grossesse et l'allaitement (données insuffisantes).",
+   "motsCles": "racécadotril, racecadotril, tiorfan, hidrasec, diarrhée, antisécrétoire",
+   "famille": "Antidiarrhéique antisécrétoire",
+   "mecanisme": "Inhibe l'enképhalinase de l'intestin : les enképhalines réduisent la sécrétion d'eau et d'électrolytes sans ralentir le transit.",
+   "calculs": [
+    {
+     "titre": "Dose par prise (3 fois par jour, plus de 3 mois)",
+     "doseKg": 1.5,
+     "unite": "mg",
+     "frequence": "3 fois par jour",
+     "doseMax": 100,
+     "presentations": [
+      {
+       "nom": "Sachet nourrisson 10 mg",
+       "dose": 10,
+       "par": 1,
+       "unite": "sachet(s)"
+      },
+      {
+       "nom": "Sachet enfant 30 mg",
+       "dose": 30,
+       "par": 1,
+       "unite": "sachet(s)"
+      }
+     ]
+    }
+   ],
+   "id": 600
+  },
+  {
+   "dci": "Saccharomyces boulardii",
+   "noms": "Ultra-levure, Perenterol",
+   "classe": "digestif",
+   "formes": "Gélule 50 et 200 mg ; sachet 100 mg",
+   "indications": [
+    "Diarrhée aiguë (en complément de la réhydratation)",
+    "Prévention de la diarrhée sous antibiotiques"
+   ],
+   "posologieAdulte": [
+    "200 mg 2 fois par jour, quelques jours"
+   ],
+   "posologieEnfant": [
+    "Plus de 6 ans : comme l'adulte ; avant, sachet de 100 mg 2 fois par jour (ouvrir, mélanger à un liquide froid)"
+   ],
+   "contreIndications": [
+    "Cathéter veineux central",
+    "Patient gravement malade ou immunodéprimé (risque de fongémie)",
+    "Allergie aux levures"
+   ],
+   "precautions": [
+    "Diarrhée aiguë : le traitement de base reste les SRO (et le zinc 10 à 14 jours chez l'enfant) avec la poursuite de l'alimentation ; diarrhée sanglante, fièvre élevée ou déshydratation : examen médical.",
+    "Ne pas mélanger à un liquide chaud ou alcoolisé ; ne pas ouvrir les gélules près d'un patient porteur de cathéter"
+   ],
+   "effetsIndesirables": [
+    "Ballonnements",
+    "Fongémie (rare, patients fragiles)"
+   ],
+   "grossesse": "Utilisable.",
+   "motsCles": "saccharomyces boulardii, ultra-levure, ultra levure, probiotique, diarrhée, levure",
+   "famille": "Probiotique (levure)",
+   "mecanisme": "Levure vivante qui renforce la barrière intestinale, inhibe certaines toxines bactériennes et rééquilibre la flore.",
+   "calculs": [],
+   "id": 601
+  },
+  {
+   "dci": "Trimébutine",
+   "noms": "Débridat, Modulon, Transacalm",
+   "classe": "digestif",
+   "formes": "Comprimé 100 et 200 mg ; granulés pour suspension buvable ; injectable 50 mg",
+   "indications": [
+    "Douleurs et troubles du transit du côlon irritable",
+    "Douleurs abdominales fonctionnelles"
+   ],
+   "posologieAdulte": [
+    "100 à 200 mg 3 fois par jour avant les repas"
+   ],
+   "posologieEnfant": [
+    "Suspension : dose selon le poids (environ 1 ml/kg par jour en 2 à 3 prises de la suspension à 4,8 mg/ml), selon la notice"
+   ],
+   "contreIndications": [
+    "Allergie"
+   ],
+   "precautions": [
+    "Douleur abdominale aiguë, fièvre, amaigrissement, sang dans les selles : rechercher une cause organique"
+   ],
+   "effetsIndesirables": [
+    "Réactions cutanées (rares)"
+   ],
+   "grossesse": "Éviter au 1er trimestre par prudence.",
+   "motsCles": "trimébutine, trimebutine, débridat, debridat, côlon irritable, ballonnements, douleurs abdominales",
+   "famille": "Régulateur de la motricité digestive",
+   "mecanisme": "Agit sur les récepteurs opioïdes enképhalinergiques de l'intestin : régularise la motricité, accélère ou ralentit selon le besoin.",
+   "calculs": [],
+   "id": 602
+  },
+  {
+   "dci": "Alvérine + siméticone",
+   "noms": "Météospasmyl",
+   "classe": "digestif",
+   "formes": "Capsule molle (alvérine 60 mg + siméticone 300 mg)",
+   "indications": [
+    "Ballonnements et douleurs du côlon irritable"
+   ],
+   "posologieAdulte": [
+    "1 capsule 2 à 3 fois par jour au début des repas"
+   ],
+   "posologieEnfant": [
+    "Non recommandé chez l'enfant"
+   ],
+   "contreIndications": [
+    "Allergie"
+   ],
+   "precautions": [
+    "Signes d'alarme digestifs (sang, amaigrissement, fièvre, après 50 ans) : examens",
+    "Atteintes hépatiques rares : arrêter en cas d'ictère"
+   ],
+   "effetsIndesirables": [
+    "Nausées, céphalées",
+    "Hépatite (rare)"
+   ],
+   "grossesse": "Éviter pendant la grossesse.",
+   "motsCles": "météospasmyl, meteospasmyl, alvérine, siméticone, ballonnements, gaz, côlon irritable",
+   "famille": "Antispasmodique musculotrope + antiflatulent",
+   "mecanisme": "L'alvérine relâche le muscle lisse intestinal ; la siméticone fait éclater les bulles de gaz.",
+   "calculs": [],
+   "id": 603
+  },
+  {
+   "dci": "Macrogol 4000",
+   "noms": "Forlax, Transipeg, Movicol (avec électrolytes)",
+   "classe": "digestif",
+   "formes": "Poudre pour solution buvable, sachets 4 g et 10 g",
+   "indications": [
+    "Constipation de l'adulte et de l'enfant",
+    "Fécalome (fortes doses)"
+   ],
+   "posologieAdulte": [
+    "10 à 20 g par jour (1 à 2 sachets de 10 g), le matin, dans un verre d'eau"
+   ],
+   "posologieEnfant": [
+    "6 mois à 1 an : 4 g par jour ; 1 à 4 ans : 4 à 8 g ; 4 à 8 ans : 8 à 16 g ; plus de 8 ans : comme l'adulte"
+   ],
+   "contreIndications": [
+    "Occlusion, perforation digestive, maladie inflammatoire sévère de l'intestin",
+    "Douleur abdominale inexpliquée"
+   ],
+   "precautions": [
+    "Mesures associées : eau, fibres, activité ; chez l'enfant, rechercher un fécalome",
+    "Effet en 24 à 48 h"
+   ],
+   "effetsIndesirables": [
+    "Diarrhée, ballonnements",
+    "Douleurs abdominales"
+   ],
+   "grossesse": "Utilisable pendant la grossesse et l'allaitement.",
+   "motsCles": "macrogol, forlax, transipeg, movicol, constipation, laxatif",
+   "famille": "Laxatif osmotique",
+   "mecanisme": "Polymère non absorbé qui retient l'eau dans l'intestin : les selles sont plus hydratées et plus volumineuses.",
+   "calculs": [],
+   "id": 604
+  },
+  {
+   "dci": "Dexchlorphéniramine",
+   "noms": "Polaramine, Polaramine Repetabs",
+   "classe": "respiratoire",
+   "formes": "Comprimé 2 mg ; comprimé LP 6 mg ; sirop 0,5 mg/5 ml ; injectable 5 mg/ml",
+   "indications": [
+    "Urticaire, prurit, rhinite allergique",
+    "Réactions allergiques (en complément de l'adrénaline dans l'anaphylaxie)"
+   ],
+   "posologieAdulte": [
+    "2 mg 3 à 4 fois par jour (maximum 12 mg) ; injectable : 5 mg IM ou IV lente, à renouveler une fois si besoin"
+   ],
+   "posologieEnfant": [
+    "6 à 12 ans : 1 mg 3 à 4 fois par jour ; 2 à 6 ans : 0,5 mg 2 à 3 fois par jour (sirop) ; avant 2 ans : éviter"
+   ],
+   "contreIndications": [
+    "Glaucome à angle fermé",
+    "Rétention urinaire",
+    "Enfant de moins de 2 ans (sauf avis médical)",
+    "Allaitement"
+   ],
+   "precautions": [
+    "Sédation : prudence au volant, éviter l'alcool",
+    "Anaphylaxie : l'adrénaline IM est le traitement d'urgence, l'antihistaminique n'est qu'un complément"
+   ],
+   "effetsIndesirables": [
+    "Somnolence",
+    "Bouche sèche, constipation, rétention urinaire",
+    "Excitation chez l'enfant"
+   ],
+   "grossesse": "Utilisable ponctuellement pendant la grossesse ; contre-indiquée pendant l'allaitement.",
+   "motsCles": "dexchlorphéniramine, polaramine, allergie, urticaire, prurit, démangeaisons, antihistaminique",
+   "famille": "Antihistaminique H1 (1re génération, sédatif)",
+   "mecanisme": "Bloque les récepteurs H1 de l'histamine ; passe dans le cerveau (somnolence) et a un effet anticholinergique.",
+   "calculs": [],
+   "id": 605
+  },
+  {
+   "dci": "Bétaméthasone + dexchlorphéniramine",
+   "noms": "Célestamine",
+   "classe": "respiratoire",
+   "formes": "Comprimé (bétaméthasone 0,25 mg + dexchlorphéniramine 2 mg) ; sirop",
+   "indications": [
+    "Manifestations allergiques sévères de courte durée (urticaire étendue, rhinite sévère) nécessitant un corticoïde"
+   ],
+   "posologieAdulte": [
+    "1 comprimé 1 à 4 fois par jour selon la sévérité, quelques jours au maximum"
+   ],
+   "posologieEnfant": [
+    "6 à 12 ans : ½ à 1 comprimé 1 à 2 fois par jour, sur avis médical"
+   ],
+   "contreIndications": [
+    "Infection non contrôlée, ulcère évolutif",
+    "Glaucome à angle fermé, rétention urinaire",
+    "Enfant de moins de 6 ans (forme comprimé)"
+   ],
+   "precautions": [
+    "Contient un corticoïde : ne pas l'utiliser au long cours ni en automédication (diabète, hypertension, ulcère, prise de poids, freinage surrénalien)",
+    "Souvent détourné pour « ouvrir l'appétit » ou faire grossir : déconseiller",
+    "Une allergie chronique se traite par un antihistaminique seul (cétirizine, loratadine)"
+   ],
+   "effetsIndesirables": [
+    "Somnolence",
+    "Hyperglycémie, hypertension, rétention d'eau",
+    "Insomnie, excitation"
+   ],
+   "grossesse": "Éviter pendant la grossesse ; contre-indiquée pendant l'allaitement.",
+   "motsCles": "célestamine, celestamine, bétaméthasone, dexchlorphéniramine, allergie, urticaire, corticoïde",
+   "famille": "Association corticoïde + antihistaminique H1",
+   "mecanisme": "La bétaméthasone réduit l'inflammation allergique ; la dexchlorphéniramine bloque les récepteurs H1 de l'histamine.",
+   "calculs": [],
+   "id": 606
+  },
+  {
+   "dci": "Alimémazine (triméprazine)",
+   "noms": "Théralène",
+   "classe": "neuro",
+   "formes": "Sirop 0,05 % (2,5 mg/5 ml) ; gouttes buvables 4 % (1 goutte = 1 mg) ; comprimé 5 mg",
+   "indications": [
+    "Insomnie occasionnelle (adulte)",
+    "Prurit, urticaire, toux sèche gênante la nuit"
+   ],
+   "posologieAdulte": [
+    "Insomnie : 5 à 20 mg le soir ; allergie : 5 à 40 mg par jour en plusieurs prises"
+   ],
+   "posologieEnfant": [
+    "Contre-indiquée avant 2 ans (apnées, mort subite) ; plus de 3 ans : 0,25 à 0,5 mg/kg par prise, quelques jours, sur avis médical",
+    "Ne pas l'utiliser pour faire dormir un enfant en routine"
+   ],
+   "contreIndications": [
+    "Enfant de moins de 2 ans",
+    "Glaucome à angle fermé, rétention urinaire",
+    "Antécédent d'agranulocytose",
+    "Allaitement"
+   ],
+   "precautions": [
+    "Sédation forte : prudence au volant, éviter l'alcool et les autres sédatifs",
+    "Gouttes à 4 % : compter les gouttes avec soin (surdosage dangereux chez l'enfant)"
+   ],
+   "effetsIndesirables": [
+    "Somnolence, sédation prolongée",
+    "Bouche sèche, constipation",
+    "Excitation paradoxale, convulsions (enfant, surdosage)"
+   ],
+   "grossesse": "Éviter au 1er trimestre ; contre-indiquée pendant l'allaitement.",
+   "motsCles": "alimémazine, alimemazine, théralène, theralene, insomnie, sommeil, toux sèche, prurit",
+   "famille": "Antihistaminique phénothiazine",
+   "mecanisme": "Bloque les récepteurs H1 (et en partie dopaminergiques et muscariniques) : sédatif, antiallergique, antitussif.",
+   "calculs": [],
+   "id": 607
+  },
+  {
+   "dci": "Prednisone",
+   "noms": "Cortancyl, Prednisone",
+   "classe": "respiratoire",
+   "formes": "Comprimé 1, 5 et 20 mg",
+   "indications": [
+    "Asthme sévère, BPCO en poussée",
+    "Maladies inflammatoires et auto-immunes, allergies graves",
+    "Syndrome néphrotique, certaines hémopathies"
+   ],
+   "posologieAdulte": [
+    "0,5 à 1 mg/kg par jour en une prise le matin ; asthme : 40 à 50 mg par jour pendant 5 jours",
+    "Traitement de plus de 3 semaines : arrêt progressif"
+   ],
+   "posologieEnfant": [
+    "Asthme : 1 à 2 mg/kg par jour (maximum 40 mg) pendant 3 à 5 jours ; préférer la prednisolone en solution chez le jeune enfant"
+   ],
+   "contreIndications": [
+    "Infection non contrôlée (tuberculose, anguillulose : traiter par ivermectine avant une corticothérapie prolongée en zone d'endémie)",
+    "Ulcère évolutif",
+    "Psychose non contrôlée",
+    "Vaccins vivants pendant un traitement à forte dose"
+   ],
+   "precautions": [
+    "Surveiller glycémie, tension, poids ; régime pauvre en sel et en sucres rapides si traitement prolongé",
+    "Ne jamais arrêter brutalement après plus de 3 semaines (insuffisance surrénalienne)"
+   ],
+   "effetsIndesirables": [
+    "Hyperglycémie, hypertension, rétention d'eau",
+    "Infections, retard de cicatrisation",
+    "Ostéoporose, fonte musculaire (long cours)",
+    "Troubles de l'humeur, insomnie"
+   ],
+   "grossesse": "Utilisable pendant la grossesse si nécessaire (passe peu le placenta) et l'allaitement.",
+   "motsCles": "prednisone, cortancyl, corticoïde, cortisone, asthme, inflammation",
+   "famille": "Corticoïde (glucocorticoïde)",
+   "mecanisme": "Transformée en prednisolone dans le foie : effets anti-inflammatoire, antiallergique et immunosuppresseur.",
+   "calculs": [
+    {
+     "titre": "Asthme de l'enfant (une prise par jour, 3 à 5 jours)",
+     "doseKg": 1,
+     "doseKgMax": 2,
+     "unite": "mg",
+     "frequence": "une fois par jour, le matin",
+     "doseMax": 40,
+     "presentations": [
+      {
+       "nom": "Comprimé 5 mg",
+       "dose": 5,
+       "par": 1,
+       "unite": "comprimé(s)"
+      },
+      {
+       "nom": "Comprimé 20 mg",
+       "dose": 20,
+       "par": 1,
+       "unite": "comprimé(s)"
+      }
+     ]
+    }
+   ],
+   "id": 608
+  },
+  {
+   "dci": "Dydrogestérone",
+   "noms": "Duphaston",
+   "classe": "obstetrique",
+   "formes": "Comprimé 10 mg",
+   "indications": [
+    "Troubles du cycle par insuffisance en progestérone (règles irrégulières, syndrome prémenstruel, ménorragies fonctionnelles)",
+    "Endométriose",
+    "Soutien de la phase lutéale (procréation médicalement assistée)",
+    "Menace de fausse couche ou fausses couches à répétition (bénéfice discuté)"
+   ],
+   "posologieAdulte": [
+    "10 à 20 mg par jour du 11e au 25e jour du cycle (ou du 14e au 25e)",
+    "Menace de fausse couche : 40 mg en une prise puis 10 mg toutes les 8 h jusqu'à l'arrêt des symptômes (bénéfice incertain)"
+   ],
+   "posologieEnfant": [
+    "Non indiquée avant la puberté"
+   ],
+   "contreIndications": [
+    "Saignement génital non expliqué",
+    "Cancer dépendant des progestatifs, tumeur du foie",
+    "Grossesse extra-utérine ou fausse couche incomplète non évacuée"
+   ],
+   "precautions": [
+    "Saignement au 1er trimestre : échographie d'abord (grossesse évolutive, extra-utérine, fausse couche incomplète)",
+    "N'est pas un contraceptif"
+   ],
+   "effetsIndesirables": [
+    "Saignements intermenstruels, tension mammaire",
+    "Céphalées, nausées"
+   ],
+   "grossesse": "Utilisable pendant la grossesse dans ses indications.",
+   "motsCles": "dydrogestérone, dydrogesterone, duphaston, progestatif, règles irrégulières, cycle, fausse couche, menace d'avortement",
+   "famille": "Progestatif de synthèse",
+   "mecanisme": "Progestatif proche de la progestérone naturelle : transforme l'endomètre en phase sécrétoire, sans effet androgénique ni contraceptif.",
+   "calculs": [],
+   "id": 609
+  },
+  {
+   "dci": "Noréthistérone",
+   "noms": "Primolut-Nor, Norluten",
+   "classe": "obstetrique",
+   "formes": "Comprimé 5 mg",
+   "indications": [
+    "Hémorragie utérine fonctionnelle (arrêt du saignement)",
+    "Report des règles",
+    "Endométriose"
+   ],
+   "posologieAdulte": [
+    "Hémorragie : 5 mg 3 fois par jour pendant 10 jours (le saignement s'arrête en 24 à 72 h ; les règles reviennent 2 à 4 jours après l'arrêt)",
+    "Report des règles : 5 mg 3 fois par jour à commencer 3 jours avant la date prévue, pas plus de 14 jours"
+   ],
+   "posologieEnfant": [
+    "Adolescente : avis médical"
+   ],
+   "contreIndications": [
+    "Grossesse",
+    "Antécédent de thrombose veineuse ou artérielle",
+    "Maladie du foie sévère",
+    "Saignement génital non expliqué (cancer à éliminer)"
+   ],
+   "precautions": [
+    "Saignement abondant : rechercher grossesse, fausse couche, fibrome, cancer du col ou de l'endomètre (après 45 ans) ; NFS",
+    "N'est pas un contraceptif fiable à ces doses"
+   ],
+   "effetsIndesirables": [
+    "Nausées, tension mammaire",
+    "Prise de poids, céphalées",
+    "Thrombose (rare)"
+   ],
+   "grossesse": "Contre-indiquée pendant la grossesse.",
+   "motsCles": "noréthistérone, norethisterone, primolut, primolut-nor, hémorragie utérine, ménorragie, report des règles",
+   "famille": "Progestatif de synthèse",
+   "mecanisme": "Progestatif dérivé de la testostérone : stabilise l'endomètre et arrête le saignement ; à l'arrêt, survient une hémorragie de privation.",
+   "calculs": [],
+   "id": 610
+  },
+  {
+   "dci": "Magnésium + vitamine B6",
+   "noms": "Magné B6, Magnésium Vitamine B6, Mag 2",
+   "classe": "nutrition",
+   "formes": "Comprimé (magnésium 48 mg + vitamine B6 5 mg) ; ampoule buvable",
+   "indications": [
+    "Carence en magnésium (crampes, fatigue, troubles du sommeil, fourmillements) confirmée ou probable"
+   ],
+   "posologieAdulte": [
+    "6 à 8 comprimés par jour en 2 à 3 prises, au cours des repas, 1 mois au maximum"
+   ],
+   "posologieEnfant": [
+    "Plus de 6 ans : 10 à 30 mg/kg de magnésium par jour (4 à 6 comprimés), en 2 à 3 prises"
+   ],
+   "contreIndications": [
+    "Insuffisance rénale sévère (clairance < 30 ml/min)"
+   ],
+   "precautions": [
+    "Fatigue et crampes : rechercher une autre cause (anémie, diabète, hypothyroïdie, déshydratation)",
+    "Prendre à distance des cyclines et des quinolones"
+   ],
+   "effetsIndesirables": [
+    "Diarrhée, douleurs abdominales"
+   ],
+   "grossesse": "Utilisable pendant la grossesse.",
+   "motsCles": "magnésium, magne b6, magné b6, crampes, fatigue, spasmophilie, vitamine b6",
+   "famille": "Supplément minéral (magnésium + vitamine B6)",
+   "mecanisme": "Le magnésium intervient dans l'excitabilité nerveuse et musculaire et de nombreuses enzymes ; la vitamine B6 favorise son absorption.",
+   "calculs": [],
+   "id": 611
+  },
+  {
+   "dci": "Dexpanthénol (pommade)",
+   "noms": "Bépanthène, Bepanthen",
+   "classe": "dermato",
+   "formes": "Pommade et crème 5 %",
+   "indications": [
+    "Érythème fessier du nourrisson",
+    "Crevasses du mamelon pendant l'allaitement",
+    "Petites plaies, gerçures, irritations de la peau"
+   ],
+   "posologieAdulte": [
+    "1 à 2 applications par jour, ou à chaque change"
+   ],
+   "posologieEnfant": [
+    "Même usage chez le nourrisson"
+   ],
+   "contreIndications": [
+    "Allergie à un composant"
+   ],
+   "precautions": [
+    "Crevasses du mamelon : corriger d'abord la position de tétée",
+    "Plaie infectée ou profonde : avis médical"
+   ],
+   "effetsIndesirables": [
+    "Rares réactions allergiques"
+   ],
+   "grossesse": "Utilisable (crevasses : essuyer avant la tétée si besoin).",
+   "motsCles": "dexpanthénol, bépanthène, bepanthen, érythème fessier, crevasses, gerçures, cicatrisation",
+   "famille": "Cicatrisant cutané (provitamine B5)",
+   "mecanisme": "Transformé dans la peau en acide pantothénique (vitamine B5), qui favorise la régénération de l'épiderme.",
+   "calculs": [],
+   "id": 612
+  },
+  {
+   "dci": "Trolamine (émulsion)",
+   "noms": "Biafine",
+   "classe": "dermato",
+   "formes": "Émulsion pour application cutanée",
+   "indications": [
+    "Brûlures superficielles (1er degré et 2e degré superficiel peu étendu), coups de soleil",
+    "Érythème de la radiothérapie",
+    "Plaies superficielles non infectées"
+   ],
+   "posologieAdulte": [
+    "Brûlure : refroidir 15 minutes à l'eau tiède, puis couche épaisse 2 à 4 fois par jour, en faisant pénétrer légèrement"
+   ],
+   "posologieEnfant": [
+    "Même usage chez l'enfant"
+   ],
+   "contreIndications": [
+    "Plaie hémorragique ou infectée",
+    "Allergie à un composant"
+   ],
+   "precautions": [
+    "Brûlure étendue (plus de 10 % de la surface chez l'enfant, 15 % chez l'adulte), profonde, du visage, des mains, du périnée ou circulaire : hôpital",
+    "Pas de dentifrice, d'huile ou de beurre sur une brûlure",
+    "Vérifier la vaccination antitétanique"
+   ],
+   "effetsIndesirables": [
+    "Picotements, eczéma de contact"
+   ],
+   "grossesse": "Utilisable.",
+   "motsCles": "trolamine, biafine, brûlure, coup de soleil, radiothérapie, plaie",
+   "famille": "Émollient et cicatrisant",
+   "mecanisme": "Émulsion hydratante qui favorise la cicatrisation et la détersion des plaies superficielles.",
+   "calculs": [],
+   "id": 613
+  },
+  {
+   "dci": "Éosine aqueuse 2 %",
+   "noms": "Éosine, Eosine aqueuse",
+   "classe": "dermato",
+   "formes": "Solution aqueuse 2 % (unidoses ou flacon)",
+   "indications": [
+    "Asséchant des lésions suintantes (érythème fessier, intertrigo, varicelle, impétigo localisé en complément)",
+    "Soin du cordon (si la chlorhexidine 7,1 % n'est pas disponible)"
+   ],
+   "posologieAdulte": [
+    "Appliquer 1 à 2 fois par jour sur la peau propre"
+   ],
+   "posologieEnfant": [
+    "Même usage chez le nourrisson ; préférer les unidoses (contamination des flacons)"
+   ],
+   "contreIndications": [
+    "Allergie"
+   ],
+   "precautions": [
+    "Antiseptique faible : asséchant surtout ; plaie infectée : chlorhexidine ou polyvidone iodée",
+    "Colore la peau et peut masquer l'aspect d'une infection",
+    "Ne pas utiliser l'éosine alcoolique sur les muqueuses et chez le nourrisson"
+   ],
+   "effetsIndesirables": [
+    "Coloration rouge de la peau et du linge",
+    "Rares réactions allergiques"
+   ],
+   "grossesse": "Utilisable.",
+   "motsCles": "éosine, eosine, asséchant, érythème fessier, intertrigo, varicelle, cordon",
+   "famille": "Colorant asséchant (antiseptique faible)",
+   "mecanisme": "Colorant qui assèche les lésions suintantes et a une faible activité antiseptique.",
+   "calculs": [],
+   "id": 614
+  },
+  {
+   "dci": "Cefpodoxime",
+   "noms": "Orelox, Cidox (Shalina), Cesadox (New Cesamex), Cefpoque",
+   "classe": "antibiotiques",
+   "formes": "Comprimé 100 et 200 mg ; suspension buvable 40 mg/5 ml et 50 mg/5 ml",
+   "indications": [
+    "Angine (si allergie à la pénicilline sans réaction grave), otite, sinusite",
+    "Pneumonie communautaire non grave, infection urinaire basse"
+   ],
+   "posologieAdulte": [
+    "100 à 200 mg 2 fois par jour au cours des repas, 5 à 10 jours"
+   ],
+   "posologieEnfant": [
+    "8 mg/kg par jour en 2 prises (maximum 400 mg par jour)"
+   ],
+   "contreIndications": [
+    "Allergie aux céphalosporines",
+    "Antécédent de réaction grave (choc, œdème de Quincke) à une pénicilline"
+   ],
+   "precautions": [
+    "L'amoxicilline reste le 1er choix pour l'angine, l'otite et la pneumonie (OMS)",
+    "Insuffisance rénale (clairance < 40 ml/min) : une prise par jour",
+    "Diarrhée persistante : penser à Clostridioides difficile"
+   ],
+   "effetsIndesirables": [
+    "Diarrhée, nausées",
+    "Éruption, allergie",
+    "Candidose"
+   ],
+   "grossesse": "Utilisable pendant la grossesse et l'allaitement.",
+   "motsCles": "cefpodoxime, orelox, cidox, cesadox, céphalosporine, otite, angine, sinusite",
+   "famille": "Antibiotique – céphalosporine de 3e génération orale",
+   "mecanisme": "Bloque la synthèse de la paroi bactérienne : effet bactéricide sur le streptocoque, le pneumocoque, Haemophilus et les entérobactéries.",
+   "calculs": [
+    {
+     "titre": "Dose par prise (2 prises par jour)",
+     "doseKg": 4,
+     "unite": "mg",
+     "frequence": "2 fois par jour",
+     "doseMax": 200,
+     "presentations": [
+      {
+       "nom": "Suspension 40 mg/5 ml",
+       "dose": 40,
+       "par": 5,
+       "unite": "ml"
+      },
+      {
+       "nom": "Suspension 50 mg/5 ml",
+       "dose": 50,
+       "par": 5,
+       "unite": "ml"
+      }
+     ]
+    }
+   ],
+   "id": 615
+  },
+  {
+   "dci": "Spiramycine",
+   "noms": "Rovamycine, Spiramycine",
+   "classe": "antibiotiques",
+   "formes": "Comprimé 1,5 MUI et 3 MUI ; sirop 0,375 MUI/5 ml",
+   "indications": [
+    "Toxoplasmose pendant la grossesse (prévention de la transmission au fœtus)",
+    "Infections ORL, respiratoires, cutanées et dentaires (allergie à la pénicilline)"
+   ],
+   "posologieAdulte": [
+    "6 à 9 MUI par jour en 2 à 3 prises ; toxoplasmose de la femme enceinte : 9 MUI par jour (3 MUI 3 fois par jour) jusqu'à l'accouchement"
+   ],
+   "posologieEnfant": [
+    "150 000 à 300 000 UI/kg par jour en 2 à 3 prises"
+   ],
+   "contreIndications": [
+    "Allergie aux macrolides",
+    "Nouveau-né (risque de troubles du rythme)"
+   ],
+   "precautions": [
+    "Allonge le QT (prudence avec les autres médicaments concernés)",
+    "Résistance fréquente du pneumocoque"
+   ],
+   "effetsIndesirables": [
+    "Troubles digestifs",
+    "Allergie cutanée",
+    "Rarement atteinte hépatique"
+   ],
+   "grossesse": "Utilisable pendant toute la grossesse (traitement de la toxoplasmose).",
+   "motsCles": "spiramycine, rovamycine, macrolide, toxoplasmose, grossesse",
+   "famille": "Antibiotique – macrolide",
+   "mecanisme": "Se fixe sur la sous-unité 50S du ribosome bactérien et bloque la synthèse des protéines ; se concentre dans le placenta.",
+   "calculs": [],
+   "id": 616
+  },
+  {
+   "dci": "Pristinamycine",
+   "noms": "Pyostacine",
+   "classe": "antibiotiques",
+   "formes": "Comprimé 250 et 500 mg",
+   "indications": [
+    "Infections de la peau (impétigo, érysipèle) et ORL, pneumonie non grave, surtout en cas d'allergie aux bêtalactamines"
+   ],
+   "posologieAdulte": [
+    "2 à 3 g par jour en 2 à 3 prises au cours des repas ; érysipèle : 1 g 3 fois par jour, 7 jours"
+   ],
+   "posologieEnfant": [
+    "50 à 100 mg/kg par jour en 2 à 3 prises (comprimés écrasés possibles)"
+   ],
+   "contreIndications": [
+    "Allergie aux streptogramines",
+    "Antécédent d'éruption pustuleuse avec la pristinamycine",
+    "Allaitement"
+   ],
+   "precautions": [
+    "Réaction cutanée (pustulose exanthématique) : arrêter définitivement",
+    "Interactions : colchicine, ciclosporine (augmente leurs taux)"
+   ],
+   "effetsIndesirables": [
+    "Nausées, vomissements, diarrhée",
+    "Éruptions cutanées, rarement graves"
+   ],
+   "grossesse": "Utilisable pendant la grossesse si nécessaire ; contre-indiquée pendant l'allaitement.",
+   "motsCles": "pristinamycine, pyostacine, streptogramine, impétigo, érysipèle, allergie pénicilline",
+   "famille": "Antibiotique – streptogramine",
+   "mecanisme": "Association de deux composants qui bloquent ensemble le ribosome bactérien (effet bactéricide sur le staphylocoque et le streptocoque).",
+   "calculs": [],
+   "id": 617
+  },
+  {
+   "dci": "Acide nalidixique",
+   "noms": "Négram, Nalidixic Acid, Unidixic",
+   "classe": "antibiotiques",
+   "formes": "Comprimé 500 mg ; suspension 300 mg/5 ml",
+   "indications": [
+    "Infection urinaire basse non compliquée, en l'absence d'autre choix (molécule ancienne)"
+   ],
+   "posologieAdulte": [
+    "1 g 4 fois par jour pendant 7 jours"
+   ],
+   "posologieEnfant": [
+    "Plus de 3 mois : 50 mg/kg par jour en 4 prises ; l'OMS ne le recommande plus pour la dysenterie (résistance des shigelles)"
+   ],
+   "contreIndications": [
+    "Épilepsie",
+    "Déficit en G6PD",
+    "Nourrisson de moins de 3 mois",
+    "Insuffisance rénale ou hépatique sévère"
+   ],
+   "precautions": [
+    "Résistances très fréquentes : préférer nitrofurantoïne ou fosfomycine (cystite), ciprofloxacine (dysenterie)",
+    "Éviter le soleil (photosensibilisation)"
+   ],
+   "effetsIndesirables": [
+    "Troubles digestifs",
+    "Photosensibilisation",
+    "Troubles visuels, céphalées, convulsions",
+    "Hémolyse (déficit en G6PD)"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse et l'allaitement.",
+   "motsCles": "acide nalidixique, négram, negram, quinolone, infection urinaire, dysenterie",
+   "famille": "Antibiotique – quinolone de 1re génération",
+   "mecanisme": "Inhibe l'ADN gyrase des bactéries Gram négatif ; concentrations utiles surtout dans les urines.",
+   "calculs": [],
+   "id": 618
+  },
+  {
+   "dci": "Flubendazole",
+   "noms": "Fluvermal",
+   "classe": "antiparasitaires",
+   "formes": "Comprimé 100 mg ; suspension buvable 100 mg/5 ml",
+   "indications": [
+    "Oxyurose",
+    "Ascaridiose, ankylostomose, trichocéphalose"
+   ],
+   "posologieAdulte": [
+    "Oxyurose : 100 mg en une prise, à renouveler 2 à 3 semaines plus tard (traiter toute la famille)",
+    "Autres vers : 100 mg 2 fois par jour pendant 3 jours"
+   ],
+   "posologieEnfant": [
+    "Même posologie chez l'enfant (à partir de 1 an)"
+   ],
+   "contreIndications": [
+    "Allergie aux benzimidazolés"
+   ],
+   "precautions": [
+    "Oxyures : couper les ongles, laver les mains, changer le linge et les draps",
+    "Déparasitage de masse de l'enfant : albendazole ou mébendazole (OMS)"
+   ],
+   "effetsIndesirables": [
+    "Douleurs abdominales, nausées"
+   ],
+   "grossesse": "Éviter au 1er trimestre.",
+   "motsCles": "flubendazole, fluvermal, vers, oxyures, ascaris, déparasitage",
+   "famille": "Antihelminthique – benzimidazolé",
+   "mecanisme": "Bloque la polymérisation de la tubuline des vers : leur absorption du glucose s'arrête et ils meurent.",
+   "calculs": [],
+   "id": 619
+  },
+  {
+   "dci": "Néfopam",
+   "noms": "Acupan",
+   "classe": "antalgiques",
+   "formes": "Ampoule 20 mg/2 ml ; comprimé 30 mg (selon les pays)",
+   "indications": [
+    "Douleurs aiguës, notamment postopératoires (antalgique non opioïde, non AINS)"
+   ],
+   "posologieAdulte": [
+    "20 mg IM profonde ou en perfusion IV lente (15 à 20 minutes), toutes les 4 à 6 h, maximum 120 mg par jour ; possible par voie orale sur un sucre"
+   ],
+   "posologieEnfant": [
+    "Non recommandé avant 15 ans"
+   ],
+   "contreIndications": [
+    "Convulsions ou antécédent",
+    "Glaucome à angle fermé",
+    "Rétention urinaire, adénome de la prostate",
+    "Infarctus récent"
+   ],
+   "precautions": [
+    "Injection IV rapide : tachycardie, sueurs, malaise ; perfuser lentement, patient allongé",
+    "Mésusage par voie orale décrit"
+   ],
+   "effetsIndesirables": [
+    "Sueurs, nausées, vomissements",
+    "Tachycardie, palpitations",
+    "Bouche sèche, rétention urinaire",
+    "Somnolence, vertiges"
+   ],
+   "grossesse": "Éviter pendant la grossesse et l'allaitement.",
+   "motsCles": "néfopam, nefopam, acupan, douleur, antalgique, postopératoire",
+   "famille": "Antalgique central non opioïde",
+   "mecanisme": "Inhibe la recapture de la sérotonine, de la noradrénaline et de la dopamine dans les voies de la douleur ; effet anticholinergique.",
+   "calculs": [],
+   "id": 620
+  },
+  {
+   "dci": "Thiocolchicoside",
+   "noms": "Coltramyl, Miorel, Thiocros (+ acéclofénac)",
+   "classe": "antalgiques",
+   "formes": "Comprimé 4 mg ; gélule 4 mg ; ampoule 4 mg/2 ml",
+   "indications": [
+    "Contractures musculaires douloureuses aiguës (lombalgie, torticolis), en complément, adulte et adolescent de plus de 16 ans"
+   ],
+   "posologieAdulte": [
+    "Voie orale : 8 mg 2 fois par jour au maximum, 7 jours au maximum",
+    "IM : 4 mg 2 fois par jour au maximum, 5 jours au maximum"
+   ],
+   "posologieEnfant": [
+    "Contre-indiqué avant 16 ans"
+   ],
+   "contreIndications": [
+    "Grossesse, allaitement",
+    "Femme en âge de procréer sans contraception efficace",
+    "Épilepsie",
+    "Paralysie flasque, hypotonie"
+   ],
+   "precautions": [
+    "Un métabolite peut altérer le nombre de chromosomes des cellules (EMA 2013) : doses et durées maximales à respecter strictement",
+    "Lombalgie aiguë : rester actif, paracétamol ou AINS ; rechercher les signes d'alarme (fièvre, déficit neurologique, troubles urinaires)"
+   ],
+   "effetsIndesirables": [
+    "Diarrhée, douleurs abdominales",
+    "Somnolence",
+    "Réactions allergiques, malaise vagal (IM)"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse et l'allaitement.",
+   "motsCles": "thiocolchicoside, coltramyl, miorel, myorelaxant, contracture, lombalgie, torticolis",
+   "famille": "Myorelaxant",
+   "mecanisme": "Agit sur les récepteurs GABA-A et glycinergiques de la moelle et diminue les contractures musculaires.",
+   "calculs": [],
+   "id": 621
+  },
+  {
+   "dci": "Naproxène",
+   "noms": "Apranax, Naprosyne, Antalnox",
+   "classe": "antalgiques",
+   "formes": "Comprimé 275 et 550 mg ; comprimé 250, 500 et 1 000 mg",
+   "indications": [
+    "Douleurs aiguës, règles douloureuses",
+    "Rhumatismes inflammatoires, arthrose en poussée, crise de goutte, migraine"
+   ],
+   "posologieAdulte": [
+    "Douleur : 550 mg puis 275 mg toutes les 6 à 8 h (maximum 1 100 mg par jour) ; rhumatismes : 500 à 1 000 mg par jour en 2 prises",
+    "Goutte : 750 mg puis 250 mg toutes les 8 h"
+   ],
+   "posologieEnfant": [
+    "Arthrite juvénile, plus de 5 ans : 10 mg/kg par jour en 2 prises, avis spécialisé ; douleur courante : préférer l'ibuprofène"
+   ],
+   "contreIndications": [
+    "Ulcère gastroduodénal évolutif ou antécédent de saignement digestif",
+    "Insuffisance rénale, hépatique ou cardiaque sévère",
+    "Grossesse à partir de 20 semaines (6 mois)",
+    "Asthme déclenché par l'aspirine ou les AINS",
+    "Suspicion de dengue ou de fièvre hémorragique"
+   ],
+   "precautions": [
+    "Risque digestif ; protéger l'estomac chez le sujet âgé",
+    "Ne pas associer à un autre AINS ni aux anticoagulants"
+   ],
+   "effetsIndesirables": [
+    "Douleurs d'estomac, ulcère, saignement digestif",
+    "Insuffisance rénale aiguë",
+    "Rétention d'eau, hypertension",
+    "Réactions allergiques"
+   ],
+   "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant.",
+   "motsCles": "naproxène, naproxene, apranax, naprosyne, AINS, règles douloureuses, rhumatisme, goutte",
+   "famille": "AINS – dérivé de l'acide propionique",
+   "mecanisme": "Inhibe les cyclo-oxygénases (COX) : effets antalgique, anti-inflammatoire et antipyrétique, de longue durée.",
+   "calculs": [],
+   "id": 622
+  },
+  {
+   "dci": "Acénocoumarol",
+   "noms": "Sintrom, Minisintrom",
+   "classe": "cardio",
+   "formes": "Comprimé 4 mg (quadrisécable) et 1 mg",
+   "indications": [
+    "Traitement et prévention des thromboses veineuses et des embolies pulmonaires",
+    "Fibrillation auriculaire, valve cardiaque mécanique"
+   ],
+   "posologieAdulte": [
+    "Début : 4 mg par jour (2 mg chez le sujet âgé), puis adapter selon l'INR (cible habituelle 2 à 3 ; 2,5 à 3,5 pour une valve mécanique)",
+    "Relais de l'héparine : poursuivre l'héparine jusqu'à 2 INR consécutifs dans la cible"
+   ],
+   "posologieEnfant": [
+    "Avis spécialisé"
+   ],
+   "contreIndications": [
+    "Grossesse (1er trimestre et fin de grossesse)",
+    "Saignement actif, ulcère évolutif, AVC hémorragique récent",
+    "Insuffisance hépatique sévère",
+    "Hypertension sévère non contrôlée"
+   ],
+   "precautions": [
+    "INR régulier (au moins une fois par mois une fois équilibré)",
+    "Très nombreuses interactions : antibiotiques (cotrimoxazole, métronidazole, fluconazole), AINS, aspirine, rifampicine, carbamazépine ; contrôler l'INR à chaque changement",
+    "Surdosage ou saignement : vitamine K1, plasma frais congelé si saignement grave"
+   ],
+   "effetsIndesirables": [
+    "Saignements (gencives, urines, digestifs, cérébraux)",
+    "Nécrose cutanée (rare)"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse (embryopathie) : héparine de bas poids moléculaire.",
+   "motsCles": "acénocoumarol, acenocoumarol, sintrom, anticoagulant, AVK, INR, thrombose, phlébite",
+   "famille": "Anticoagulant oral – antivitamine K",
+   "mecanisme": "Bloque le recyclage de la vitamine K dans le foie : diminue la production des facteurs de coagulation II, VII, IX et X.",
+   "calculs": [],
+   "id": 623
+  },
+  {
+   "dci": "Nicardipine",
+   "noms": "Loxen, Nicardipine injectable, Nicar",
+   "classe": "cardio",
+   "formes": "Comprimé 20 mg ; gélule LP 50 mg ; ampoule 10 mg/10 ml",
+   "indications": [
+    "Hypertension artérielle",
+    "Urgence hypertensive, hypertension sévère de la pré-éclampsie (IV)",
+    "Tocolyse (hors AMM)"
+   ],
+   "posologieAdulte": [
+    "Voie orale : 20 mg 3 fois par jour ou 50 mg LP 2 fois par jour",
+    "IV (urgence, pré-éclampsie sévère) : perfusion à la seringue électrique, 1 à 6 mg/h (débuter à 1 à 2 mg/h), en surveillant la tension toutes les 5 à 15 min ; objectif : baisse progressive"
+   ],
+   "posologieEnfant": [
+    "Avis spécialisé"
+   ],
+   "contreIndications": [
+    "Rétrécissement aortique serré",
+    "Infarctus récent (moins d'un mois)",
+    "Angor instable"
+   ],
+   "precautions": [
+    "Ne pas faire chuter la tension trop vite (AVC, souffrance fœtale)",
+    "Veinite au point de perfusion : changer de veine régulièrement ou diluer",
+    "Pré-éclampsie : associer le sulfate de magnésium (prévention de l'éclampsie)"
+   ],
+   "effetsIndesirables": [
+    "Céphalées, bouffées de chaleur, palpitations",
+    "Œdèmes des chevilles",
+    "Hypotension"
+   ],
+   "grossesse": "Utilisable pendant la grossesse (pré-éclampsie).",
+   "motsCles": "nicardipine, loxen, inhibiteur calcique, hypertension, urgence hypertensive, pré-éclampsie",
+   "famille": "Inhibiteur calcique (dihydropyridine)",
+   "mecanisme": "Bloque les canaux calciques des muscles lisses artériels : vasodilatation et baisse de la tension.",
+   "calculs": [],
+   "id": 624
+  },
+  {
+   "dci": "Trimétazidine",
+   "noms": "Vastarel, Trimétazidine",
+   "classe": "cardio",
+   "formes": "Comprimé LP 35 mg ; comprimé 20 mg",
+   "indications": [
+    "Angor stable, en complément, chez les patients insuffisamment contrôlés (restriction EMA 2012)"
+   ],
+   "posologieAdulte": [
+    "35 mg LP 2 fois par jour au cours des repas ; insuffisance rénale modérée ou sujet âgé : 35 mg par jour"
+   ],
+   "posologieEnfant": [
+    "Non indiquée chez l'enfant"
+   ],
+   "contreIndications": [
+    "Maladie de Parkinson, tremblements, syndrome des jambes sans repos",
+    "Insuffisance rénale sévère (clairance < 30 ml/min)"
+   ],
+   "precautions": [
+    "Plus indiquée dans les vertiges, les acouphènes ni la baisse de la vue (EMA 2012)",
+    "Troubles moteurs (tremblements, rigidité) : arrêter"
+   ],
+   "effetsIndesirables": [
+    "Troubles digestifs, céphalées",
+    "Syndrome parkinsonien réversible"
+   ],
+   "grossesse": "Éviter pendant la grossesse et l'allaitement.",
+   "motsCles": "trimétazidine, trimetazidine, vastarel, angor, angine de poitrine",
+   "famille": "Anti-angoreux métabolique",
+   "mecanisme": "Modifie le métabolisme énergétique du muscle cardiaque (moins d'acides gras, plus de glucose), ce qui le protège de l'ischémie.",
+   "calculs": [],
+   "id": 625
+  },
+  {
+   "dci": "Acétylleucine",
+   "noms": "Tanganil",
+   "classe": "neuro",
+   "formes": "Comprimé 500 mg ; ampoule 500 mg/5 ml",
+   "indications": [
+    "Vertiges (traitement symptomatique de la crise)"
+   ],
+   "posologieAdulte": [
+    "1,5 à 2 g par jour en 2 prises (3 à 4 comprimés), jusqu'à 3 à 4 g ; injection : 1 à 2 ampoules IV lente par jour"
+   ],
+   "posologieEnfant": [
+    "Non recommandée chez l'enfant"
+   ],
+   "contreIndications": [
+    "Allergie"
+   ],
+   "precautions": [
+    "Vertige avec trouble de la marche, de la parole ou de la vision, céphalée brutale, ou chez le patient vasculaire : penser à un AVC (urgence)",
+    "Vertige de position bref et répété : manœuvre de repositionnement (vertige positionnel paroxystique bénin)"
+   ],
+   "effetsIndesirables": [
+    "Éruption cutanée (rare)"
+   ],
+   "grossesse": "Éviter pendant la grossesse.",
+   "motsCles": "acétylleucine, acetylleucine, tanganil, vertige, étourdissement",
+   "famille": "Antivertigineux",
+   "mecanisme": "Mécanisme mal connu : normaliserait l'activité des neurones vestibulaires.",
+   "calculs": [],
+   "id": 626
+  },
+  {
+   "dci": "Flunarizine",
+   "noms": "Sibelium",
+   "classe": "neuro",
+   "formes": "Gélule ou comprimé 5 et 10 mg",
+   "indications": [
+    "Traitement de fond de la migraine",
+    "Vertiges d'origine vestibulaire (2e intention)"
+   ],
+   "posologieAdulte": [
+    "10 mg le soir (5 mg après 65 ans), 2 mois puis réévaluer ; traitement d'entretien 5 jours sur 7"
+   ],
+   "posologieEnfant": [
+    "Non recommandée chez l'enfant"
+   ],
+   "contreIndications": [
+    "Dépression ou antécédent",
+    "Maladie de Parkinson, syndrome extrapyramidal"
+   ],
+   "precautions": [
+    "Surveiller l'humeur (dépression) et l'apparition de tremblements ou de raideur",
+    "Somnolence : prudence au volant"
+   ],
+   "effetsIndesirables": [
+    "Somnolence, fatigue",
+    "Prise de poids",
+    "Dépression",
+    "Syndrome parkinsonien (sujet âgé)"
+   ],
+   "grossesse": "Éviter pendant la grossesse et l'allaitement.",
+   "motsCles": "flunarizine, sibelium, migraine, vertige",
+   "famille": "Inhibiteur calcique (antimigraineux de fond)",
+   "mecanisme": "Bloque l'entrée du calcium dans les cellules et a un effet antihistaminique.",
+   "calculs": [],
+   "id": 627
+  },
+  {
+   "dci": "Clonazépam",
+   "noms": "Rivotril",
+   "classe": "neuro",
+   "formes": "Comprimé 2 mg ; gouttes buvables 2,5 mg/ml (1 goutte = 0,1 mg) ; ampoule 1 mg/ml",
+   "indications": [
+    "Épilepsie (traitement d'appoint)",
+    "État de mal épileptique (IV, si le diazépam ou le midazolam ne sont pas disponibles)"
+   ],
+   "posologieAdulte": [
+    "Épilepsie : 0,5 à 1 mg le soir au début, augmenter progressivement (habituellement 4 à 8 mg par jour)",
+    "État de mal : 1 mg IV lente, à répéter si besoin"
+   ],
+   "posologieEnfant": [
+    "Épilepsie : 0,01 à 0,03 mg/kg par jour au début, puis 0,1 à 0,2 mg/kg par jour en 2 à 3 prises (avis spécialisé) ; état de mal : 0,02 à 0,05 mg/kg IV lente"
+   ],
+   "contreIndications": [
+    "Insuffisance respiratoire sévère",
+    "Syndrome d'apnées du sommeil",
+    "Insuffisance hépatique sévère",
+    "Myasthénie"
+   ],
+   "precautions": [
+    "Prescription restreinte dans plusieurs pays (mésusage, soumission chimique)",
+    "Dépendance : arrêt très progressif",
+    "Avec opioïdes ou alcool : dépression respiratoire"
+   ],
+   "effetsIndesirables": [
+    "Somnolence, troubles de la coordination",
+    "Hypersécrétion bronchique chez le nourrisson",
+    "Dépendance, troubles du comportement"
+   ],
+   "grossesse": "Éviter au 1er trimestre si possible ; en fin de grossesse, hypotonie du nouveau-né. Éviter pendant l'allaitement.",
+   "motsCles": "clonazépam, clonazepam, rivotril, épilepsie, convulsions, benzodiazépine",
+   "famille": "Benzodiazépine (antiépileptique)",
+   "mecanisme": "Renforce l'effet du GABA sur les récepteurs GABA-A : effet anticonvulsivant puissant, sédatif et myorelaxant.",
+   "calculs": [],
+   "id": 628
+  },
+  {
+   "dci": "Sertraline",
+   "noms": "Zoloft, Sertraline",
+   "classe": "neuro",
+   "formes": "Comprimé 50 et 100 mg",
+   "indications": [
+    "Dépression",
+    "Troubles anxieux (panique, anxiété sociale, état de stress post-traumatique), troubles obsessionnels compulsifs"
+   ],
+   "posologieAdulte": [
+    "50 mg une fois par jour, à augmenter par paliers de 50 mg toutes les 1 à 2 semaines si besoin (maximum 200 mg) ; effet en 2 à 6 semaines ; poursuivre 6 à 12 mois après la guérison"
+   ],
+   "posologieEnfant": [
+    "TOC de l'enfant, 6 à 12 ans : 25 mg par jour ; dépression de l'adolescent : avis spécialisé"
+   ],
+   "contreIndications": [
+    "Traitement par IMAO",
+    "Allergie"
+   ],
+   "precautions": [
+    "Risque suicidaire en début de traitement (jeunes surtout) : revoir le patient après 1 à 2 semaines",
+    "Arrêt progressif (syndrome de sevrage)",
+    "Syndrome sérotoninergique avec tramadol, autres antidépresseurs, linézolide",
+    "Saignements avec AINS ou anticoagulants"
+   ],
+   "effetsIndesirables": [
+    "Nausées, diarrhée",
+    "Insomnie ou somnolence",
+    "Troubles sexuels",
+    "Hyponatrémie (sujet âgé)"
+   ],
+   "grossesse": "Antidépresseur de choix pendant la grossesse et l'allaitement (données nombreuses).",
+   "motsCles": "sertraline, zoloft, antidépresseur, dépression, anxiété, panique, ISRS",
+   "famille": "Antidépresseur – inhibiteur sélectif de la recapture de la sérotonine (ISRS)",
+   "mecanisme": "Bloque la recapture de la sérotonine par les neurones : augmente sa concentration dans les synapses.",
+   "calculs": [],
+   "id": 629
   }
  ],
  "categoriesPathologies": [
