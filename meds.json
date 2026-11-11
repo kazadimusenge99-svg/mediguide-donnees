@@ -1,5 +1,5 @@
 {
- "version": 67,
+ "version": 68,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -1620,7 +1620,7 @@
   {
    "id": 24,
    "dci": "Albendazole",
-   "noms": "Zentel, Tanzol, Zantol, Alizole, Tanzol sirop",
+   "noms": "Zentel, Tanzol, Zantol, Alizole, Tanzol sirop, Wormex 400 mg (Cipla, Inde : albendazole ; à ne pas confondre avec le Wormex de Shalina)",
    "classe": "antiparasitaires",
    "formes": "Comprimé 400 mg ; suspension 200 mg/5 ml",
    "indications": [
@@ -1652,14 +1652,14 @@
     "Traitement prolongé : élévation des transaminases, alopécie, leucopénie"
    ],
    "grossesse": "Contre-indiqué au 1er trimestre ; déparasitage possible à partir du 2e trimestre.",
-   "motsCles": "vers, verminose, ascaris, ankylostome, oxyure, déparasitage, anguillule",
+   "motsCles": "vers, verminose, ascaris, ankylostome, oxyure, déparasitage, anguillule, wormex",
    "famille": "Benzimidazolé (anthelminthique)",
    "mecanisme": "Se lie à la tubuline des vers et bloque la formation des microtubules et l'absorption du glucose : mort lente des helminthes intestinaux et tissulaires."
   },
   {
    "id": 25,
    "dci": "Mébendazole",
-   "noms": "Vermox, Mebamex",
+   "noms": "Vermox, Mebamex, Wormex comprimés et suspension (Shalina : antihelminthique, molécule non publiée, probablement mébendazole ; à confirmer sur la boîte)",
    "classe": "antiparasitaires",
    "formes": "Comprimé 100 et 500 mg",
    "indications": [
@@ -1686,7 +1686,7 @@
     "Rare : réactions allergiques, convulsions chez le nourrisson"
    ],
    "grossesse": "Contre-indiqué au 1er trimestre ; possible ensuite.",
-   "motsCles": "vers, verminose, ascaris, ankylostome, oxyure, déparasitage",
+   "motsCles": "vers, verminose, ascaris, ankylostome, oxyure, déparasitage, wormex",
    "famille": "Benzimidazolé (anthelminthique)",
    "mecanisme": "Se lie à la tubuline des vers et bloque la formation des microtubules et l'absorption du glucose : mort lente des helminthes intestinaux et tissulaires."
   },
