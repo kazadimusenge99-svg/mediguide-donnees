@@ -1,5 +1,5 @@
 {
- "version": 73,
+ "version": 74,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -17903,7 +17903,7 @@
   {
    "id": 377,
    "dci": "Xylométazoline nasale",
-   "noms": "Otrivine, Otrimex, 5 ‰ et 1 ‰ (xylométazoline 0,05 % enfant et 0,1 % adulte, à confirmer sur la boîte), Rhumine gouttes nasales (PROMED : xylométazoline, dosage enfant et adulte) (exemples)",
+   "noms": "Otrivine, Otrimex, Rhumine gouttes nasales (PROMED : xylométazoline, dosage enfant et adulte) (exemples)",
    "classe": "respiratoire",
    "formes": "Gouttes ou spray 0,1 % (adulte) et 0,05 % (enfant)",
    "indications": [
