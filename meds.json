@@ -1,5 +1,5 @@
 {
- "version": 57,
+ "version": 58,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -121,7 +121,7 @@
   {
    "id": 1,
    "dci": "Artéméther + luméfantrine",
-   "noms": "Coartem, Lumartem, Lonart, Artefan, Shal'Artem, Shal'Artem Forte, L-Artem (exemples)",
+   "noms": "Coartem, Lumartem, Lonart, Artefan, Shal'Artem, Shal'Artem Forte, L-Artem, Cether-L (exemples)",
    "classe": "antipaludiques",
    "formes": "Comprimé 20 mg/120 mg ; comprimé dispersible 20/120 mg",
    "indications": [
@@ -163,7 +163,7 @@
   {
    "id": 2,
    "dci": "Artésunate (injectable)",
-   "noms": "Artesun, Larinate",
+   "noms": "Artesun, Larinate, M-Arret",
    "classe": "antipaludiques",
    "formes": "Poudre pour injection 60 mg (avec bicarbonate de sodium et solvant) ; suppositoire 100 mg (pré-transfert)",
    "indications": [
@@ -645,7 +645,7 @@
   {
    "id": 9,
    "dci": "Ceftriaxone",
-   "noms": "Rocéphine, Triaxone",
+   "noms": "Rocéphine, Triaxone, Cefjoy, Riaxone-S (+ sulbactam), Tazex (+ tazobactam)",
    "classe": "antibiotiques",
    "formes": "Poudre pour injection 250 mg, 500 mg, 1 g, 2 g",
    "indications": [
@@ -722,7 +722,7 @@
   {
    "id": 10,
    "dci": "Ciprofloxacine",
-   "noms": "Ciflox, Cipro, Ciprobay, Cifran, Shalcip TZ (+ tinidazole)",
+   "noms": "Ciflox, Cipro, Ciprobay, Cifran, Shalcip TZ (+ tinidazole), Ciprofitab, Gloxin (injectable)",
    "classe": "antibiotiques",
    "formes": "Comprimé 250 et 500 mg ; perfusion 2 mg/ml",
    "indications": [
@@ -789,7 +789,7 @@
   {
    "id": 11,
    "dci": "Cotrimoxazole (sulfaméthoxazole + triméthoprime)",
-   "noms": "Bactrim, Eusaprim, Sulfatrim, Septrin",
+   "noms": "Bactrim, Eusaprim, Sulfatrim, Septrin, Cotrimex",
    "classe": "antibiotiques",
    "formes": "Comprimé 400/80 mg et 800/160 mg ; suspension 200/40 mg/5 ml",
    "indications": [
@@ -862,7 +862,7 @@
   {
    "id": 12,
    "dci": "Doxycycline",
-   "noms": "Vibramycine, Doxy",
+   "noms": "Vibramycine, Doxy, Doxyzen",
    "classe": "antibiotiques",
    "formes": "Comprimé/gélule 100 mg",
    "indications": [
@@ -922,7 +922,7 @@
   {
    "id": 13,
    "dci": "Métronidazole",
-   "noms": "Flagyl, Shalmet, Metrogyl",
+   "noms": "Flagyl, Shalmet, Metrogyl, Megyl, Normegyl (+ norfloxacine)",
    "classe": "antibiotiques",
    "formes": "Comprimé 250 et 500 mg ; suspension 125 mg/5 ml ; perfusion 5 mg/ml",
    "indications": [
@@ -1105,7 +1105,7 @@
   {
    "id": 15,
    "dci": "Azithromycine",
-   "noms": "Zithromax, Azadose, Shalzin",
+   "noms": "Zithromax, Azadose, Shalzin, Cemycine",
    "classe": "antibiotiques",
    "formes": "Comprimé 250 et 500 mg ; suspension 200 mg/5 ml",
    "indications": [
@@ -1294,7 +1294,7 @@
   {
    "id": 18,
    "dci": "Paracétamol",
-   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène) (exemples)",
+   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac) (exemples)",
    "classe": "antalgiques",
    "formes": "Comprimé 100, 500 mg et 1 g ; sirop 120 mg/5 ml ; suppositoire ; perfusion 10 mg/ml",
    "indications": [
@@ -1359,7 +1359,7 @@
   {
    "id": 19,
    "dci": "Ibuprofène",
-   "noms": "Advil, Brufen, Nurofen, Ibugesic, Ibucap (+ paracétamol, caféine), Anaflam (+ paracétamol) (exemples)",
+   "noms": "Advil, Brufen, Nurofen, Ibugesic, Ibucap (+ paracétamol, caféine), Anaflam (+ paracétamol), Ibupar, Cesaaflam (+ paracétamol) (exemples)",
    "classe": "antalgiques",
    "formes": "Comprimé 200 et 400 mg ; suspension 100 mg/5 ml",
    "indications": [
@@ -1430,7 +1430,7 @@
   {
    "id": 20,
    "dci": "Diclofénac",
-   "noms": "Voltarène, Cataflam, Rufenac, Olfen",
+   "noms": "Voltarène, Cataflam, Rufenac, Olfen, Diclomex, Fak-50, Dicloran, Fakpar (+ paracétamol), Alivio (+ paracétamol, chlorphénamine)",
    "classe": "antalgiques",
    "formes": "Comprimé 25 et 50 mg ; ampoule IM 75 mg/3 ml",
    "indications": [
@@ -1469,7 +1469,7 @@
   {
    "id": 21,
    "dci": "Acide acétylsalicylique (aspirine)",
-   "noms": "Aspégic, Aspirine, Shalspirin CV, Shalina Aspirin 75, Kardégic",
+   "noms": "Aspégic, Aspirine, Shalspirin CV, Shalina Aspirin 75, Kardégic, Maxsprin",
    "classe": "antalgiques",
    "formes": "Comprimé 75–100 mg et 500 mg",
    "indications": [
@@ -1658,7 +1658,7 @@
   {
    "id": 25,
    "dci": "Mébendazole",
-   "noms": "Vermox",
+   "noms": "Vermox, Mebamex",
    "classe": "antiparasitaires",
    "formes": "Comprimé 100 et 500 mg",
    "indications": [
@@ -1996,7 +1996,7 @@
   {
    "id": 32,
    "dci": "Énalapril",
-   "noms": "Renitec",
+   "noms": "Renitec, Cesapril",
    "classe": "cardio",
    "formes": "Comprimé 5, 10 et 20 mg",
    "indications": [
@@ -2210,7 +2210,7 @@
   {
    "id": 37,
    "dci": "Oméprazole",
-   "noms": "Mopral, Losec, Omeshal, Omeshal D (+ dompéridone), Omez",
+   "noms": "Mopral, Losec, Omeshal, Omeshal D (+ dompéridone), Omez, Enocid",
    "classe": "digestif",
    "formes": "Gélule 10, 20 et 40 mg ; injectable 40 mg",
    "indications": [
@@ -2249,7 +2249,7 @@
   {
    "id": 38,
    "dci": "Sels de réhydratation orale (SRO)",
-   "noms": "SRO à osmolarité réduite (OMS)",
+   "noms": "SRO à osmolarité réduite (OMS), Cetrol",
    "classe": "digestif",
    "formes": "Sachet à dissoudre dans 1 litre d'eau potable",
    "indications": [
@@ -2287,7 +2287,7 @@
   {
    "id": 39,
    "dci": "Zinc (sulfate)",
-   "noms": "Zinc dispersible, Predzinc",
+   "noms": "Zinc dispersible, Predzinc, Cezinc, Cezine",
    "classe": "digestif",
    "formes": "Comprimé dispersible 20 mg",
    "indications": [
@@ -2458,7 +2458,7 @@
   {
    "id": 43,
    "dci": "Prednisolone",
-   "noms": "Solupred, Prednisolone",
+   "noms": "Solupred, Prednisolone, Predni-5",
    "classe": "respiratoire",
    "formes": "Comprimé 5 et 20 mg ; comprimé orodispersible",
    "indications": [
@@ -2750,7 +2750,7 @@
   {
    "id": 48,
    "dci": "Fer + acide folique",
-   "noms": "Ferrous sulfate + folic acid, Tardyferon B9, Hemoforce Prega",
+   "noms": "Ferrous sulfate + folic acid, Tardyferon B9, Hemoforce Prega, Acifer",
    "classe": "obstetrique",
    "formes": "Comprimé fer élément 60 mg + acide folique 400 µg ; sirop de fer ; acide folique 5 mg",
    "indications": [
@@ -2790,7 +2790,7 @@
   {
    "id": 49,
    "dci": "Diazépam",
-   "noms": "Valium, Dizapam",
+   "noms": "Valium, Dizapam, Diazex",
    "classe": "neuro",
    "formes": "Ampoule 10 mg/2 ml ; comprimé 2, 5 et 10 mg",
    "indications": [
@@ -3758,7 +3758,7 @@
   {
    "id": 68,
    "dci": "Acide tranexamique",
-   "noms": "Exacyl, Cyklokapron, Transamin",
+   "noms": "Exacyl, Cyklokapron, Transamin, Nexam",
    "classe": "transfusion",
    "formes": "Ampoule 500 mg/5 ml (100 mg/ml) ; comprimé 500 mg",
    "indications": [
@@ -4655,7 +4655,7 @@
   {
    "id": 84,
    "dci": "Dexaméthasone",
-   "noms": "Dectancyl, Dexamethasone, Décadron",
+   "noms": "Dectancyl, Dexamethasone, Décadron, Dexamex",
    "classe": "anesthesie",
    "formes": "Ampoule 4 mg/ml ; comprimé 0,5 et 4 mg",
    "indications": [
@@ -4852,7 +4852,7 @@
   {
    "id": 87,
    "dci": "Clindamycine",
-   "noms": "Dalacine, Cleocin",
+   "noms": "Dalacine, Cleocin, Clifa",
    "classe": "antibiotiques",
    "formes": "Gélule 150 et 300 mg ; ampoule 150 mg/ml",
    "indications": [
@@ -5143,7 +5143,7 @@
   {
    "id": 92,
    "dci": "Nifédipine",
-   "noms": "Adalate, Adalate LP, Chronadalate",
+   "noms": "Adalate, Adalate LP, Chronadalate, Nicardia, Nicardia Retard",
    "classe": "cardio",
    "formes": "Capsule 10 mg (libération immédiate) ; comprimé LP 20 et 30 mg",
    "indications": [
@@ -5710,7 +5710,7 @@
   {
    "id": 105,
    "dci": "Érythromycine",
-   "noms": "Érythrocine, Ery (exemples)",
+   "noms": "Érythrocine, Ery, Erymex (exemples)",
    "classe": "antibiotiques",
    "formes": "Comprimé 250 et 500 mg ; suspension 125 et 250 mg/5 ml",
    "indications": [
@@ -6805,7 +6805,7 @@
   {
    "id": 130,
    "dci": "Thiamine (vitamine B1)",
-   "noms": "Bévitine, Becoshal, Trishal (B1-B6-B12) (exemples)",
+   "noms": "Bévitine, Becoshal, Trishal (B1-B6-B12), Trimex (B1-B6-B12) (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 50 mg ; ampoule 50 et 100 mg/ml",
    "indications": [
@@ -6840,7 +6840,7 @@
   {
    "id": 131,
    "dci": "Pyridoxine (vitamine B6)",
-   "noms": "Vitamine B6 (exemple)",
+   "noms": "Vitamine B6, Pyrimex (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 25 et 50 mg ; ampoule",
    "indications": [
@@ -7180,7 +7180,7 @@
   {
    "id": 137,
    "dci": "Gliclazide",
-   "noms": "Diamicron (exemple)",
+   "noms": "Diamicron, Neclaz (exemples)",
    "classe": "diabete",
    "formes": "Comprimé 80 mg ; comprimé LP 30 et 60 mg",
    "indications": [
@@ -7486,7 +7486,7 @@
   {
    "id": 144,
    "dci": "Clopidogrel",
-   "noms": "Plavix (exemple)",
+   "noms": "Plavix, Clopico (exemples)",
    "classe": "cardio",
    "formes": "Comprimé 75 mg",
    "indications": [
@@ -9396,7 +9396,7 @@
   {
    "id": 188,
    "dci": "Hydroxyde d'aluminium + hydroxyde de magnésium",
-   "noms": "Maalox, Gelusil, Polygel (exemples)",
+   "noms": "Maalox, Gelusil, Polygel, Gastromex (exemples)",
    "classe": "digestif",
    "formes": "Comprimé à croquer ; suspension buvable",
    "indications": [
@@ -9582,7 +9582,7 @@
   {
    "id": 192,
    "dci": "Lévothyroxine",
-   "noms": "Levothyrox, Euthyrox (exemples)",
+   "noms": "Levothyrox, Euthyrox, Levothone (exemples)",
    "classe": "diabete",
    "formes": "Comprimé 25, 50, 75 et 100 µg",
    "indications": [
@@ -11447,7 +11447,7 @@
   {
    "id": 234,
    "dci": "Acide ascorbique (vitamine C)",
-   "noms": "Laroscorbine, Vitascorbol (exemples)",
+   "noms": "Laroscorbine, Vitascorbol, Scorvitex (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 50, 250 et 500 mg ; ampoule injectable 500 mg/5 ml",
    "indications": [
@@ -11519,7 +11519,7 @@
   {
    "id": 236,
    "dci": "Tinidazole",
-   "noms": "Fasigyne, Tinizol (exemples)",
+   "noms": "Fasigyne, Tinizol, Tini-Mex (exemples)",
    "classe": "antiparasitaires",
    "formes": "Comprimé 500 mg",
    "indications": [
@@ -11868,7 +11868,7 @@
   {
    "id": 242,
    "dci": "Kétoconazole 2 % (crème ou shampooing)",
-   "noms": "Kétoderm, Nizoral, Ketazol (exemples)",
+   "noms": "Kétoderm, Nizoral, Ketazol, Ketomex (exemples)",
    "classe": "dermato",
    "formes": "Crème 2 % ; gel moussant ou shampooing 2 %",
    "indications": [
@@ -11902,7 +11902,7 @@
   {
    "id": 243,
    "dci": "Prométhazine",
-   "noms": "Phénergan, Phenergan (exemples)",
+   "noms": "Phénergan, Phenergan, Phenerex (exemples)",
    "classe": "neuro",
    "formes": "Comprimé 25 mg ; sirop 5 mg/5 ml ; ampoule 25 mg/ml (50 mg/2 ml)",
    "indications": [
@@ -12228,7 +12228,7 @@
   {
    "id": 250,
    "dci": "Céfuroxime",
-   "noms": "Zinnat, Zinacef (exemples)",
+   "noms": "Zinnat, Zinacef, Cefuroclav (+ acide clavulanique) (exemples)",
    "classe": "antibiotiques",
    "formes": "Comprimé 250 et 500 mg (céfuroxime axétil) ; suspension 125 mg/5 ml ; flacon IV 750 mg et 1,5 g",
    "indications": [
@@ -12461,7 +12461,7 @@
   {
    "id": 254,
    "dci": "Méropénem",
-   "noms": "Meronem, Tufpenem (exemples)",
+   "noms": "Meronem, Tufpenem, Meromex (exemples)",
    "classe": "antibiotiques",
    "formes": "Flacon de poudre 500 mg et 1 g",
    "indications": [
@@ -12577,7 +12577,7 @@
   {
    "id": 256,
    "dci": "Linézolide",
-   "noms": "Zyvoxid (exemple)",
+   "noms": "Zyvoxid, Linzox (exemples)",
    "classe": "antibiotiques",
    "formes": "Comprimé 600 mg ; comprimé dispersible 150 mg ; suspension 100 mg/5 ml ; poche IV 600 mg/300 ml",
    "indications": [
@@ -14526,7 +14526,7 @@
   {
    "id": 294,
    "dci": "Lopéramide",
-   "noms": "Imodium (exemple)",
+   "noms": "Imodium, Lopramex (exemples)",
    "classe": "digestif",
    "formes": "Gélule 2 mg",
    "indications": [
@@ -16150,7 +16150,7 @@
   {
    "id": 329,
    "dci": "Pyrantel",
-   "noms": "Combantrin, Helmintox (exemples)",
+   "noms": "Combantrin, Helmintox, Combamtrine (exemples)",
    "classe": "antiparasitaires",
    "formes": "Comprimé 125 et 250 mg ; suspension 125 mg/2,5 ml",
    "indications": [
@@ -17898,7 +17898,7 @@
   {
    "id": 377,
    "dci": "Xylométazoline nasale",
-   "noms": "Otrivine (exemple)",
+   "noms": "Otrivine, Otrimex (exemples)",
    "classe": "respiratoire",
    "formes": "Gouttes ou spray 0,1 % (adulte) et 0,05 % (enfant)",
    "indications": [
@@ -23608,7 +23608,7 @@
   },
   {
    "dci": "Dompéridone",
-   "noms": "Motilium, Péridys, Omeshal D (+ oméprazole)",
+   "noms": "Motilium, Péridys, Omeshal D (+ oméprazole), Domperimex",
    "classe": "digestif",
    "formes": "Comprimé 10 mg ; suspension buvable 1 mg/ml",
    "indications": [
@@ -23663,7 +23663,7 @@
   {
    "id": 516,
    "dci": "Cyproheptadine",
-   "noms": "Super Apeti, Super Apeti Plus (+ vitamines), Périactine, Periactin, Apetamin (+ vitamines, marché parallèle)",
+   "noms": "Super Apeti, Super Apeti Plus (+ vitamines), Périactine, Periactin, Apetamin (+ vitamines, marché parallèle), Cypomex",
    "classe": "respiratoire",
    "formes": "Comprimé 4 mg ; sirop 2 mg/5 ml",
    "indications": [
