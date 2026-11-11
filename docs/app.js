@@ -235,9 +235,8 @@ function recherche(_r, q) {
   const pa = rechPatho(ms), me = rechMed(ms), sy = rechSympt(ms).filter((r) => r.niveau >= 2 || ms.length === 1);
   const bloc = (titre, items, rendu) => items.length ? `<h2>${titre} (${items.length})</h2><div class="liste">${items.slice(0, 25).map(rendu).join("")}</div>` : "";
   contenu.innerHTML = `<h1>Résultats pour « ${esc(q)} »</h1><p class="sous">Classés du plus probable au moins probable.</p>` +
-    bloc("Pathologies", pa, (r) => lignePatho(r.e, null, r.niveau)) +
-    bloc("Médicaments", me, (r) => ligneMed(r.e)) +
-    bloc("Symptômes", sy, (r) => ligneSympt(r.e)) +
+    [[pa, () => bloc("Pathologies", pa, (r) => lignePatho(r.e, null, r.niveau)), 2], [me, () => bloc("Médicaments", me, (r) => ligneMed(r.e)), 1], [sy, () => bloc("Symptômes", sy, (r) => ligneSympt(r.e)), 0]]
+      .sort((a, b) => ((b[0][0]?.n || 0) - (a[0][0]?.n || 0)) || ((b[0][0]?.s || 0) - (a[0][0]?.s || 0)) || b[2] - a[2]).map((x) => x[1]()).join("") +
     (!pa.length && !me.length && !sy.length ? `<p>Aucun résultat. Essayez un autre mot (nom commercial, DCI, symptôme).</p>` : "");
 }
 
