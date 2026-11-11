@@ -1,5 +1,5 @@
 {
- "version": 65,
+ "version": 66,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -399,7 +399,7 @@
   {
    "id": 6,
    "dci": "Amoxicilline",
-   "noms": "Clamoxyl, Hiconcil, Amoxil, Ospamox, Flemoxin, Prazole kit (à confirmer : + IPP + clarithromycine)",
+   "noms": "Clamoxyl, Hiconcil, Amoxil, Ospamox, Flemoxin, Prazole kit (+ oméprazole + clarithromycine)",
    "classe": "antibiotiques",
    "formes": "Gélule/comprimé 250 et 500 mg ; comprimé dispersible 250 mg ; suspension 125 et 250 mg/5 ml",
    "indications": [
@@ -922,7 +922,7 @@
   {
    "id": 13,
    "dci": "Métronidazole",
-   "noms": "Flagyl, Shalmet, Metrogyl, Megyl, Normegyl (+ norfloxacine), Entizol (IV), Cyclomax ovule (à confirmer : + clotrimazole, néomycine), Normet suspension (+ norfloxacine)",
+   "noms": "Flagyl, Shalmet, Metrogyl, Megyl, Normegyl (+ norfloxacine), Entizol (IV), Normet suspension (+ norfloxacine)",
    "classe": "antibiotiques",
    "formes": "Comprimé 250 et 500 mg ; suspension 125 mg/5 ml ; perfusion 5 mg/ml",
    "indications": [
@@ -1294,7 +1294,7 @@
   {
    "id": 18,
    "dci": "Paracétamol",
-   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac), Promedol effervescent (+ tramadol), Fervex (+ phéniramine, vitamine C), Sinutab (+ pseudoéphédrine), Paralgan (sirop, comprimé 500 mg, Forte 1 000 mg, IV), Sparet gouttes (à confirmer : 100 mg/ml) (exemples)",
+   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac), Promedol effervescent (+ tramadol), Fervex (+ phéniramine, vitamine C), Sinutab (+ pseudoéphédrine), Paralgan (sirop, comprimé 500 mg, Forte 1 000 mg, IV), Dr Cold (+ chlorphénamine, phényléphrine, caféine) (exemples)",
    "classe": "antalgiques",
    "formes": "Comprimé 100, 500 mg et 1 g ; sirop 120 mg/5 ml ; suppositoire ; perfusion 10 mg/ml",
    "indications": [
@@ -1316,7 +1316,7 @@
    "precautions": [
     "Le surdosage est hépatotoxique ; antidote : N-acétylcystéine",
     "Attention aux associations contenant déjà du paracétamol",
-    "Gouttes concentrées à 100 mg/ml (Sparet et autres) : 10 fois plus concentrées qu'un sirop à 120 mg/5 ml ; utiliser la pipette graduée du flacon et vérifier la dose en mg (15 mg/kg), risque de surdosage grave."
+    "Gouttes concentrées à 100 mg/ml  : 10 fois plus concentrées qu'un sirop à 120 mg/5 ml ; utiliser la pipette graduée du flacon et vérifier la dose en mg (15 mg/kg), risque de surdosage grave."
    ],
    "effetsIndesirables": [
     "Rares aux doses usuelles",
@@ -1353,7 +1353,7 @@
      "doseMax": 1000
     }
    ],
-   "motsCles": "douleur, fièvre, céphalée, mal de tête, antalgique, antipyrétique, fervex, sinutab, paralgan, paralgan",
+   "motsCles": "douleur, fièvre, céphalée, mal de tête, antalgique, antipyrétique, fervex, sinutab, paralgan, paralgan, dr cold",
    "famille": "Antalgique non opioïde (paracétamol)",
    "mecanisme": "Inhibe la synthèse des prostaglandines dans le système nerveux central : effet antalgique et antipyrétique, sans effet anti-inflammatoire notable."
   },
@@ -1813,7 +1813,7 @@
   {
    "id": 28,
    "dci": "Nystatine",
-   "noms": "Mycostatine, Polygynax (+ néomycine, polymyxine B)",
+   "noms": "Mycostatine, Polygynax (+ néomycine, polymyxine B), Cyclomax ovules (Arauphar : nystatine 100 000 UI + néomycine 100 mg + polymyxine B 40 000 UI + hydrocortisone 5 mg)",
    "classe": "antiparasitaires",
    "formes": "Suspension buvable 100 000 UI/ml ; comprimé vaginal 100 000 UI",
    "indications": [
@@ -1835,14 +1835,15 @@
    ],
    "precautions": [
     "Donner à distance des repas",
-    "Traiter aussi le mamelon de la mère allaitante si muguet du nourrisson"
+    "Traiter aussi le mamelon de la mère allaitante si muguet du nourrisson",
+    "Ovules associés (Polygynax, Cyclomax) : traitent à la fois les levures et certaines bactéries, mais ni Trichomonas ni la vaginose bactérienne (métronidazole) ; écoulement vaginal : appliquer l'algorithme OMS des IST et traiter le partenaire si besoin."
    ],
    "effetsIndesirables": [
     "Nausées, diarrhée à forte dose",
     "Irritation locale"
    ],
    "grossesse": "Utilisable (pas d'absorption systémique).",
-   "motsCles": "muguet, candidose buccale, mycose vaginale",
+   "motsCles": "muguet, candidose buccale, mycose vaginale, cyclomax",
    "famille": "Antifongique polyène",
    "mecanisme": "Se fixe à l'ergostérol de la membrane fongique et y crée des pores : fuite du contenu cellulaire et mort du champignon ; néphrotoxique par voie IV."
   },
@@ -2211,7 +2212,7 @@
   {
    "id": 37,
    "dci": "Oméprazole",
-   "noms": "Mopral, Losec, Omeshal, Omeshal D (+ dompéridone), Omez, Enocid, Promzole, Prazole kit (à confirmer : trithérapie anti-Helicobacter pylori)",
+   "noms": "Mopral, Losec, Omeshal, Omeshal D (+ dompéridone), Omez, Enocid, Promzole, Prazole kit (Shalina : oméprazole 20 mg + amoxicilline 1 g + clarithromycine 500 mg + lactobacille, 2 fois par jour pendant 7 jours)",
    "classe": "digestif",
    "formes": "Gélule 10, 20 et 40 mg ; injectable 40 mg",
    "indications": [
@@ -2235,7 +2236,8 @@
    "precautions": [
     "Diminue l'effet du clopidogrel",
     "Traitement prolongé : risque d'hypomagnésémie, carence en B12, fractures",
-    "Réévaluer régulièrement l'indication"
+    "Réévaluer régulièrement l'indication",
+    "Kits anti-Helicobacter pylori de 7 jours (Prazole kit) : les recommandations actuelles (Maastricht VI) préfèrent 14 jours ; la résistance à la clarithromycine est fréquente, et la quadrithérapie avec bismuth est une alternative."
    ],
    "effetsIndesirables": [
     "Céphalées",
@@ -5999,7 +6001,7 @@
   {
    "id": 110,
    "dci": "Clotrimazole",
-   "noms": "Canesten, Mycohydralin, Gogynax (ovule), Clozole, Cyclomax ovule (à confirmer : + métronidazole, néomycine) (exemples)",
+   "noms": "Canesten, Mycohydralin, Gogynax (ovule), Clozole (exemples)",
    "classe": "antiparasitaires",
    "formes": "Crème 1 % ; comprimé vaginal (ovule) 100 mg et 500 mg",
    "indications": [
@@ -8584,7 +8586,7 @@
   {
    "id": 168,
    "dci": "Clarithromycine",
-   "noms": "Zeclar, Klacid, Prazole kit (à confirmer : + IPP + amoxicilline) (exemples)",
+   "noms": "Zeclar, Klacid, Prazole kit (+ oméprazole + amoxicilline) (exemples)",
    "classe": "antibiotiques",
    "formes": "Comprimé 250 et 500 mg ; suspension 125 et 250 mg/5 ml",
    "indications": [
@@ -9398,7 +9400,7 @@
   {
    "id": 188,
    "dci": "Hydroxyde d'aluminium + hydroxyde de magnésium",
-   "noms": "Maalox, Gelusil, Polygel, Gastromex, Magascon (hydroxydes d'aluminium et de magnésium, ou magaldrate + siméthicone selon la présentation), Nocigel (hydroxydes d'aluminium et de magnésium, acide alginique, trisilicate de magnésium, siméthicone) (exemples)",
+   "noms": "Maalox, Gelusil, Polygel, Gastromex, Magascon (hydroxydes d'aluminium et de magnésium, ou magaldrate + siméthicone selon la présentation), Nocigel (hydroxydes d'aluminium et de magnésium, acide alginique, trisilicate de magnésium, siméthicone), Digest suspension et sachet 15 ml (New Cesamex : hydroxydes d'aluminium et de magnésium 250 mg, siméticone 125 mg, oxétacaïne 10 mg) (exemples)",
    "classe": "digestif",
    "formes": "Comprimé à croquer ; suspension buvable",
    "indications": [
@@ -9421,7 +9423,7 @@
     "Constipation (aluminium) ou diarrhée (magnésium)"
    ],
    "grossesse": "Utilisable ponctuellement.",
-   "motsCles": "brûlures d'estomac, gastrite, reflux, antiacide",
+   "motsCles": "brûlures d'estomac, gastrite, reflux, antiacide, digest",
    "famille": "Antiacide",
    "mecanisme": "Neutralise l'acide gastrique déjà sécrété : soulagement rapide et bref des brûlures."
   },
@@ -14528,7 +14530,7 @@
   {
    "id": 294,
    "dci": "Lopéramide",
-   "noms": "Imodium, Lopramex, Loprade (à confirmer : exemples)",
+   "noms": "Imodium, Lopramex, Loprade (Shalina, 2 mg)",
    "classe": "digestif",
    "formes": "Gélule 2 mg",
    "indications": [
@@ -22879,7 +22881,7 @@
   {
    "id": 497,
    "dci": "Enzymes pancréatiques",
-   "noms": "Créon, Eurobiol, Digest sachet (à confirmer : pancréatine + siméthicone, composition à vérifier) (exemples)",
+   "noms": "Créon, Eurobiol (exemples)",
    "classe": "digestif",
    "formes": "Gélule gastrorésistante 10 000, 25 000 et 40 000 unités de lipase ; granules (nourrisson)",
    "indications": [
@@ -24532,7 +24534,7 @@
   },
   {
    "dci": "Citicoline",
-   "noms": "Neuroton, Somazina",
+   "noms": "Neuroton, Somazina, Tracol (comprimé 500 mg, sirop 100 mg/ml, injectable)",
    "classe": "neuro",
    "formes": "Comprimé 500 mg ; solution buvable ; injection 500 mg et 1 g",
    "indications": [
@@ -24557,7 +24559,7 @@
     "Hypotension, insomnie (rares)"
    ],
    "grossesse": "Éviter (données insuffisantes).",
-   "motsCles": "citicoline, neuroton, somazina, AVC, traumatisme crânien, mémoire, neuroprotecteur",
+   "motsCles": "citicoline, neuroton, somazina, AVC, traumatisme crânien, mémoire, neuroprotecteur, tracol",
    "famille": "Psychostimulant – neuroprotecteur supposé",
    "mecanisme": "Précurseur de la phosphatidylcholine des membranes neuronales ; favoriserait leur réparation (bénéfice clinique non prouvé).",
    "calculs": [],
@@ -25293,7 +25295,7 @@
   },
   {
    "dci": "Sirops contre la toux et le rhume en association",
-   "noms": "Bronchaline (à confirmer : salbutamol + guaïfénésine + bromhexine), Kaptol (composition à confirmer), Histaminic expectorant (à confirmer : chlorphénamine + guaïfénésine), Dr Cold (à confirmer : paracétamol + chlorphénamine + phényléphrine), Mucolyn adulte (chlorphénamine + chlorure d'ammonium + bromhexine + dextrométhorphane), Mucolyn pédiatrique (+ pseudoéphédrine)",
+   "noms": "Bronchaline (à confirmer : salbutamol + guaïfénésine + bromhexine), Histaminic expectorant (à confirmer : chlorphénamine + guaïfénésine), Mucolyn adulte (chlorphénamine + chlorure d'ammonium + bromhexine + dextrométhorphane), Mucolyn pédiatrique (+ pseudoéphédrine), Kaptol sirop et pastilles (Arauphar : eucalyptol 10 mg + guaïfénésine 50 mg + vitamine C 5 mg par 5 ml), Dr Cold (Astra Labs : paracétamol 500 mg + chlorphénamine 2 mg + phényléphrine 5 mg + caféine 25 mg)",
    "classe": "respiratoire",
    "formes": "Sirops ou comprimés associant 2 à 4 principes actifs (bronchodilatateur, expectorant, mucolytique, antihistaminique, décongestionnant, antalgique)",
    "indications": [
@@ -25403,7 +25405,7 @@
   },
   {
    "dci": "Suppositoires antihémorroïdaires (associations)",
-   "noms": "Rectosol (à confirmer : lidocaïne + sous-gallate de bismuth + oxyde de zinc), Rectosol HC (à confirmer : + hydrocortisone), Hemorridal (composition à confirmer)",
+   "noms": "Rectosol (à confirmer : lidocaïne + sous-gallate de bismuth + oxyde de zinc), Rectosol HC (à confirmer : + hydrocortisone), Hemorroidal / Hemorridal (Arauphar : sous-gallate de bismuth 200 mg, résorcinol 60 mg, acide borique 500 mg, baume du Pérou 46 mg, oxyde de zinc 120 mg, tétracaïne 5 mg), Hemorroidal-HC (+ hydrocortisone 4,1 mg)",
    "classe": "digestif",
    "formes": "Suppositoires ; crème ou pommade rectale",
    "indications": [
@@ -25422,7 +25424,8 @@
    "precautions": [
     "Saignement par l'anus : ne pas l'attribuer aux hémorroïdes sans examen (cancer du rectum, surtout après 50 ans, perte de poids, anémie)",
     "Traitement de fond : fibres, eau, traiter la constipation ; diosmine (Daflon) en cure courte pendant la crise",
-    "Douleur anale violente avec boule bleutée : thrombose hémorroïdaire (incision possible) ; fissure anale si douleur à la selle"
+    "Douleur anale violente avec boule bleutée : thrombose hémorroïdaire (incision possible) ; fissure anale si douleur à la selle",
+    "Hemorroidal contient 500 mg d'acide borique par suppositoire : toxique s'il est absorbé en grande quantité ; ne pas utiliser chez l'enfant, éviter pendant la grossesse et au long cours. Baume du Pérou : allergie fréquente."
    ],
    "effetsIndesirables": [
     "Irritation locale",
@@ -25430,7 +25433,7 @@
     "Amincissement de la muqueuse (corticoïde au long cours)"
    ],
    "grossesse": "Utilisables en cure courte pendant la grossesse et l'allaitement (hémorroïdes fréquentes au 3e trimestre).",
-   "motsCles": "rectosol, hemorridal, hémorroïdes, crise hémorroïdaire, suppositoire, démangeaison anale, douleur anale",
+   "motsCles": "rectosol, hemorridal, hémorroïdes, crise hémorroïdaire, suppositoire, démangeaison anale, douleur anale, hemorroidal",
    "famille": "Antihémorroïdaire local",
    "mecanisme": "L'anesthésique local calme la douleur, le bismuth et l'oxyde de zinc protègent et assèchent la muqueuse, l'hydrocortisone réduit l'inflammation.",
    "calculs": [],
@@ -25472,6 +25475,52 @@
    "mecanisme": "Stimulent les récepteurs alpha-adrénergiques des vaisseaux de la muqueuse nasale : vasoconstriction qui dégonfle la muqueuse.",
    "calculs": [],
    "id": 561
+  },
+  {
+   "id": 562,
+   "dci": "Dicyclovérine (dicyclomine)",
+   "noms": "Sparet gouttes (+ siméticone), Sparet comprimés, Sparet Forte, Spasta (comprimé, sirop, injectable), Colimex",
+   "classe": "digestif",
+   "formes": "Comprimé 10 et 20 mg ; sirop ; gouttes buvables pédiatriques (dicyclovérine 10 mg + siméticone 40 mg par ml) ; ampoule 20 mg/2 ml (IM uniquement)",
+   "indications": [
+    "Douleurs spasmodiques digestives (côlon irritable, coliques)",
+    "Règles douloureuses (en association)"
+   ],
+   "posologieAdulte": [
+    "10 à 20 mg 3 à 4 fois par jour (maximum 160 mg par jour)",
+    "Injection : 20 mg IM toutes les 4 à 6 h, jamais par voie IV"
+   ],
+   "posologieEnfant": [
+    "Contre-indiquée avant 6 mois (apnées, convulsions, coma et décès décrits chez le nourrisson)",
+    "6 mois à 2 ans : 5 à 10 mg 3 à 4 fois par jour, 15 minutes avant les repas, seulement sur avis médical",
+    "Plus de 2 ans : 10 mg 3 à 4 fois par jour",
+    "Gouttes Sparet : vérifier la dose en mg de dicyclovérine (10 mg/ml) ; la notice du distributeur indique 1 goutte/kg 2 à 3 fois par jour"
+   ],
+   "contreIndications": [
+    "Nourrisson de moins de 6 mois",
+    "Glaucome à angle fermé",
+    "Rétention urinaire, adénome de la prostate",
+    "Occlusion intestinale, iléus, mégacôlon",
+    "Myasthénie",
+    "Allaitement"
+   ],
+   "precautions": [
+    "Coliques du nourrisson : bénignes et passagères ; rassurer, bercer, vérifier l'allaitement. Ne pas donner de dicyclovérine avant 6 mois",
+    "Douleur abdominale aiguë : rechercher d'abord une cause chirurgicale (appendicite, invagination, grossesse extra-utérine)",
+    "Effets anticholinergiques renforcés par les antihistaminiques, les antidépresseurs tricycliques et les phénothiazines",
+    "Fièvre et forte chaleur : risque de coup de chaleur (diminution de la transpiration)"
+   ],
+   "effetsIndesirables": [
+    "Bouche sèche, constipation, vision trouble",
+    "Somnolence, vertiges",
+    "Rétention urinaire, tachycardie",
+    "Nourrisson : apnée, convulsions, détresse respiratoire, coma"
+   ],
+   "grossesse": "Données rassurantes à faible dose (utilisée autrefois contre les nausées de grossesse) ; contre-indiquée pendant l'allaitement (apnées du nourrisson).",
+   "motsCles": "dicyclovérine, dicycloverine, dicyclomine, sparet, spasta, colimex, siméticone, coliques, coliques du nourrisson, antispasmodique, spasmes",
+   "calculs": [],
+   "famille": "Antispasmodique anticholinergique",
+   "mecanisme": "Bloque les récepteurs muscariniques des muscles lisses de l'intestin et a un effet relaxant direct sur le muscle : diminue les spasmes ; la siméticone fait éclater les bulles de gaz."
   }
  ],
  "categoriesPathologies": [
