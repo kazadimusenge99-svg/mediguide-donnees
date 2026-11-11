@@ -311,6 +311,7 @@ function ficheMed(m) {
     ${liste("Précautions", m.precautions, "⚠️")}
     ${liste("Effets indésirables", m.effetsIndesirables, "💢")}
     ${m.grossesse ? `<div class="section"><h3>🤰 Grossesse et allaitement</h3><div>${esc(m.grossesse)}</div></div>` : ""}
+    ${(m.marquesRdc || []).length ? `<div class="section"><h3>🇨🇩 Noms commerciaux autorisés en RDC (${m.marquesRdc.length})</h3><div class="liens">${m.marquesRdc.map((x) => `<span class="lien">${esc(x)}</span>`).join("")}</div><div class="petit" style="margin-top:6px">Source : répertoire des AMM de l'ACOREP (février 2026). Vérifier le dosage sur la boîte.</div></div>` : ""}
     ${pathos.length ? `<div class="section"><h3>🩺 Utilisé dans</h3><div class="liens">${pathos.map((p) => `<a class="lien" href="#/patho/${p.id}">${esc(p.nom)}</a>`).join("")}</div></div>` : ""}
   </div>`;
 }
