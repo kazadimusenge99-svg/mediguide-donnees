@@ -1,5 +1,5 @@
 {
- "version": 63,
+ "version": 64,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -399,7 +399,7 @@
   {
    "id": 6,
    "dci": "Amoxicilline",
-   "noms": "Clamoxyl, Hiconcil, Amoxil, Ospamox, Flemoxin",
+   "noms": "Clamoxyl, Hiconcil, Amoxil, Ospamox, Flemoxin, Prazole kit (+ IPP + clarithromycine)",
    "classe": "antibiotiques",
    "formes": "Gélule/comprimé 250 et 500 mg ; comprimé dispersible 250 mg ; suspension 125 et 250 mg/5 ml",
    "indications": [
@@ -922,7 +922,7 @@
   {
    "id": 13,
    "dci": "Métronidazole",
-   "noms": "Flagyl, Shalmet, Metrogyl, Megyl, Normegyl (+ norfloxacine), Entizol (IV)",
+   "noms": "Flagyl, Shalmet, Metrogyl, Megyl, Normegyl (+ norfloxacine), Entizol (IV), Cyclomax ovule (+ clotrimazole, néomycine), Normet sirop (métronidazole, ou + norfloxacine selon le fabricant)",
    "classe": "antibiotiques",
    "formes": "Comprimé 250 et 500 mg ; suspension 125 mg/5 ml ; perfusion 5 mg/ml",
    "indications": [
@@ -1294,7 +1294,7 @@
   {
    "id": 18,
    "dci": "Paracétamol",
-   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac), Promedol effervescent (+ tramadol), Fervex (+ phéniramine, vitamine C), Sinutab (+ pseudoéphédrine), Paralgan (sirop, comprimé 500 mg, Forte 1 000 mg, IV) (exemples)",
+   "noms": "Doliprane, Efferalgan, Dafalgan, Panadol, Amidol, Calpol, Ibucap (+ ibuprofène, caféine), Anaflam (+ ibuprofène), Paramol, Ifimol, Cesaaflam (+ ibuprofène), Fakpar (+ diclofénac), Promedol effervescent (+ tramadol), Fervex (+ phéniramine, vitamine C), Sinutab (+ pseudoéphédrine), Paralgan (sirop, comprimé 500 mg, Forte 1 000 mg, IV), Sparet gouttes (100 mg/ml) (exemples)",
    "classe": "antalgiques",
    "formes": "Comprimé 100, 500 mg et 1 g ; sirop 120 mg/5 ml ; suppositoire ; perfusion 10 mg/ml",
    "indications": [
@@ -1315,7 +1315,8 @@
    ],
    "precautions": [
     "Le surdosage est hépatotoxique ; antidote : N-acétylcystéine",
-    "Attention aux associations contenant déjà du paracétamol"
+    "Attention aux associations contenant déjà du paracétamol",
+    "Gouttes concentrées à 100 mg/ml (Sparet et autres) : 10 fois plus concentrées qu'un sirop à 120 mg/5 ml ; utiliser la pipette graduée du flacon et vérifier la dose en mg (15 mg/kg), risque de surdosage grave."
    ],
    "effetsIndesirables": [
     "Rares aux doses usuelles",
@@ -2210,7 +2211,7 @@
   {
    "id": 37,
    "dci": "Oméprazole",
-   "noms": "Mopral, Losec, Omeshal, Omeshal D (+ dompéridone), Omez, Enocid, Promzole",
+   "noms": "Mopral, Losec, Omeshal, Omeshal D (+ dompéridone), Omez, Enocid, Promzole, Prazole kit (trithérapie anti-Helicobacter pylori)",
    "classe": "digestif",
    "formes": "Gélule 10, 20 et 40 mg ; injectable 40 mg",
    "indications": [
@@ -2249,7 +2250,7 @@
   {
    "id": 38,
    "dci": "Sels de réhydratation orale (SRO)",
-   "noms": "SRO à osmolarité réduite (OMS), Cetrol, Pro Oral",
+   "noms": "SRO à osmolarité réduite (OMS), Cetrol, Pro Oral, Medlyte-L (solution prête à boire)",
    "classe": "digestif",
    "formes": "Sachet à dissoudre dans 1 litre d'eau potable",
    "indications": [
@@ -2273,7 +2274,8 @@
     "Dissoudre dans exactement 1 litre d'eau potable ; jeter la solution après 24 h",
     "Malnutrition aiguë sévère : utiliser le ReSoMal",
     "En cas de vomissements : petites quantités à la cuillère toutes les 1 à 2 minutes",
-    "Poursuivre l'allaitement et l'alimentation"
+    "Poursuivre l'allaitement et l'alimentation",
+    "Solutions prêtes à boire (Medlyte-L et autres « électrolytes ») : vérifier que la composition correspond aux SRO de l'OMS (sodium 75 mmol/l, glucose 75 mmol/l) ; les boissons trop sucrées aggravent la diarrhée."
    ],
    "effetsIndesirables": [
     "Vomissements si administration trop rapide",
@@ -2750,7 +2752,7 @@
   {
    "id": 48,
    "dci": "Fer + acide folique",
-   "noms": "Ferrous sulfate + folic acid, Tardyferon B9, Hemoforce Prega, Acifer, Hifer",
+   "noms": "Ferrous sulfate + folic acid, Tardyferon B9, Hemoforce Prega, Acifer, Hifer, Prenatal Denk (+ vitamines)",
    "classe": "obstetrique",
    "formes": "Comprimé fer élément 60 mg + acide folique 400 µg ; sirop de fer ; acide folique 5 mg",
    "indications": [
@@ -5997,7 +5999,7 @@
   {
    "id": 110,
    "dci": "Clotrimazole",
-   "noms": "Canesten, Mycohydralin, Gogynax (ovule), Clozole (exemples)",
+   "noms": "Canesten, Mycohydralin, Gogynax (ovule), Clozole, Cyclomax ovule (+ métronidazole, néomycine) (exemples)",
    "classe": "antiparasitaires",
    "formes": "Crème 1 % ; comprimé vaginal (ovule) 100 mg et 500 mg",
    "indications": [
@@ -6805,7 +6807,7 @@
   {
    "id": 130,
    "dci": "Thiamine (vitamine B1)",
-   "noms": "Bévitine, Becoshal, Trishal (B1-B6-B12), Trimex (B1-B6-B12), Benerva (exemples)",
+   "noms": "Bévitine, Becoshal, Trishal (B1-B6-B12), Trimex (B1-B6-B12), Benerva, Tribexfort sirop (B1-B6-B12) (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 50 mg ; ampoule 50 et 100 mg/ml",
    "indications": [
@@ -8582,7 +8584,7 @@
   {
    "id": 168,
    "dci": "Clarithromycine",
-   "noms": "Zeclar, Klacid (exemples)",
+   "noms": "Zeclar, Klacid, Prazole kit (+ IPP + amoxicilline) (exemples)",
    "classe": "antibiotiques",
    "formes": "Comprimé 250 et 500 mg ; suspension 125 et 250 mg/5 ml",
    "indications": [
@@ -9129,7 +9131,7 @@
   {
    "id": 181,
    "dci": "Carbonate de calcium",
-   "noms": "Calcium 500 mg, Calci D-Denk (+ vitamine D) (exemples)",
+   "noms": "Calcium 500 mg, Calci D-Denk (+ vitamine D), Calvi D sirop (+ vitamine D3) (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 1,25 g (500 mg de calcium élément) ; comprimé à croquer",
    "indications": [
@@ -9313,7 +9315,7 @@
   {
    "id": 186,
    "dci": "Sulfate ferreux",
-   "noms": "Fer sirop, Fumafer, Tardyferon, Hemoforce, Tot'héma (gluconate ferreux) (exemples)",
+   "noms": "Fer sirop, Fumafer, Tardyferon, Hemoforce, Tot'héma (gluconate ferreux), Ferdrop Plus gouttes (+ acide folique, vitamine B12), Hifer-Z sirop (+ zinc) (exemples)",
    "classe": "nutrition",
    "formes": "Comprimé 200 mg (60 à 65 mg de fer élément) ; sirop (teneur en fer variable selon le produit)",
    "indications": [
@@ -9396,7 +9398,7 @@
   {
    "id": 188,
    "dci": "Hydroxyde d'aluminium + hydroxyde de magnésium",
-   "noms": "Maalox, Gelusil, Polygel, Gastromex (exemples)",
+   "noms": "Maalox, Gelusil, Polygel, Gastromex, Magascon (magaldrate + siméthicone), Nocigel (antiacide + oxétacaïne) (exemples)",
    "classe": "digestif",
    "formes": "Comprimé à croquer ; suspension buvable",
    "indications": [
@@ -14526,7 +14528,7 @@
   {
    "id": 294,
    "dci": "Lopéramide",
-   "noms": "Imodium, Lopramex (exemples)",
+   "noms": "Imodium, Lopramex, Loprade (exemples)",
    "classe": "digestif",
    "formes": "Gélule 2 mg",
    "indications": [
@@ -22877,7 +22879,7 @@
   {
    "id": 497,
    "dci": "Enzymes pancréatiques",
-   "noms": "Créon, Eurobiol (exemples)",
+   "noms": "Créon, Eurobiol, Digest sachet (pancréatine + siméthicone, composition à vérifier) (exemples)",
    "classe": "digestif",
    "formes": "Gélule gastrorésistante 10 000, 25 000 et 40 000 unités de lipase ; granules (nourrisson)",
    "indications": [
@@ -23881,7 +23883,7 @@
   },
   {
    "dci": "Carbocistéine",
-   "noms": "Fluditec, Rhinathiol, Bronchokod",
+   "noms": "Fluditec, Rhinathiol, Bronchokod, Mucolyn adulte 5 % et pédiatrique 2 % (ou ambroxol selon le fabricant)",
    "classe": "respiratoire",
    "formes": "Sirop 2 % (enfant, 100 mg/5 ml) et 5 % (adulte, 250 mg/5 ml)",
    "indications": [
@@ -24869,7 +24871,7 @@
   },
   {
    "dci": "Multivitamines (associations de vitamines)",
-   "noms": "Alvityl, Multivitamine gouttes, Vit B Complex, Tribexfort (à vérifier)",
+   "noms": "Alvityl, Multivitamine gouttes, Vit B Complex, Immun Active Denk (vitamine C, zinc, sélénium, vitamine D3), Prenatal Denk (vitamines de grossesse)",
    "classe": "nutrition",
    "formes": "Sirop, gouttes, comprimés ou gélules (compositions variables selon la marque)",
    "indications": [
@@ -25003,7 +25005,7 @@
   },
   {
    "dci": "Bacitracine + néomycine (pommade ou crème)",
-   "noms": "Baneocin, Néomycine-bacitracine",
+   "noms": "Baneocin, Néomycine-bacitracine, Neocin crème (néomycine)",
    "classe": "dermato",
    "formes": "Pommade, crème ou poudre (bacitracine 250 UI + néomycine 5 000 UI par g)",
    "indications": [
@@ -25216,7 +25218,7 @@
   },
   {
    "dci": "Oxyde de zinc (pommade)",
-   "noms": "Pommade à l'oxyde de zinc, Mitosyl, Aloplastine",
+   "noms": "Pommade à l'oxyde de zinc, Mitosyl, Aloplastine, Mucozema",
    "classe": "dermato",
    "formes": "Pommade 10 à 25 %",
    "indications": [
@@ -25246,6 +25248,225 @@
    "mecanisme": "Forme une couche protectrice qui isole la peau de l'humidité et des irritants (urines, selles) ; légèrement asséchant et astringent.",
    "calculs": [],
    "id": 555
+  },
+  {
+   "dci": "Triamcinolone + néomycine + nystatine (crème)",
+   "noms": "A Dem crème, Kenacomb, Mycolog",
+   "classe": "dermato",
+   "formes": "Crème ou pommade (triamcinolone 0,1 %, néomycine 0,5 %, nystatine 100 000 UI/g)",
+   "indications": [
+    "Dermatoses inflammatoires surinfectées par des bactéries ou des levures (intertrigo, eczéma surinfecté), sur une courte durée"
+   ],
+   "posologieAdulte": [
+    "1 à 2 applications par jour, 7 jours au maximum"
+   ],
+   "posologieEnfant": [
+    "Éviter chez le nourrisson (siège, couches : absorption du corticoïde) ; usage court et limité chez l'enfant"
+   ],
+   "contreIndications": [
+    "Infections virales (herpès, varicelle), gale, tuberculose cutanée",
+    "Acné, rosacée",
+    "Plaie ulcérée ou brûlure étendue",
+    "Tympan perforé"
+   ],
+   "precautions": [
+    "Association de 3 produits : préférer un traitement ciblé (antifongique seul, dermocorticoïde seul) quand le diagnostic est clair",
+    "Le corticoïde masque et peut aggraver une mycose (teigne, pied d'athlète) : ne pas utiliser sur une lésion non diagnostiquée",
+    "Néomycine : allergie de contact fréquente",
+    "Pas sur le visage ni au long cours (atrophie de la peau) ; pas sous pansement occlusif"
+   ],
+   "effetsIndesirables": [
+    "Atrophie et vergetures de la peau (usage prolongé)",
+    "Eczéma de contact (néomycine)",
+    "Dépigmentation"
+   ],
+   "grossesse": "Éviter sur de grandes surfaces pendant la grossesse ; ne pas appliquer sur les seins pendant l'allaitement.",
+   "motsCles": "a dem, adem, triamcinolone, néomycine, nystatine, crème, intertrigo, eczéma surinfecté, mycose",
+   "famille": "Association dermocorticoïde + antibiotique + antifongique",
+   "mecanisme": "La triamcinolone réduit l'inflammation et les démangeaisons, la néomycine agit sur les bactéries, la nystatine sur les Candida.",
+   "calculs": [],
+   "id": 556
+  },
+  {
+   "dci": "Sirops contre la toux et le rhume en association",
+   "noms": "Bronchaline (salbutamol + guaïfénésine + bromhexine), Kaptol, Histaminic expectorant (chlorphénamine + guaïfénésine), Dr Cold (paracétamol + chlorphénamine + phényléphrine)",
+   "classe": "respiratoire",
+   "formes": "Sirops ou comprimés associant 2 à 4 principes actifs (bronchodilatateur, expectorant, mucolytique, antihistaminique, décongestionnant, antalgique)",
+   "indications": [
+    "Soulagement des symptômes du rhume ou de la toux chez l'adulte ; aucune efficacité démontrée sur la durée de la maladie"
+   ],
+   "posologieAdulte": [
+    "Selon la notice, quelques jours au maximum ; ne pas associer à un autre produit contenant du paracétamol"
+   ],
+   "posologieEnfant": [
+    "Moins de 6 ans : à éviter (OMS, FDA, EMA : pas d'efficacité, effets graves : agitation, convulsions, surdosage)",
+    "Toux de l'enfant : miel après 1 an, hydratation, lavage du nez ; rechercher une pneumonie (respiration rapide, tirage) ou un asthme"
+   ],
+   "contreIndications": [
+    "Enfant de moins de 6 ans",
+    "Hypertension, troubles du rythme, hyperthyroïdie (salbutamol, phényléphrine)",
+    "Glaucome, rétention urinaire (antihistaminique)",
+    "Insuffisance hépatique (paracétamol)"
+   ],
+   "precautions": [
+    "Le salbutamol par voie orale n'est pas un traitement de la toux (OMS) : tremblements, palpitations ; si asthme, salbutamol inhalé",
+    "Ne pas associer un mucolytique et un antitussif (blocage des sécrétions)",
+    "Compter le paracétamol de toutes les sources (Dr Cold) : risque de surdosage",
+    "Somnolence (antihistaminique) : prudence au volant",
+    "Toux de plus de 2 semaines : rechercher une tuberculose"
+   ],
+   "effetsIndesirables": [
+    "Palpitations, tremblements (salbutamol)",
+    "Somnolence ou agitation (antihistaminique)",
+    "Hypertension (phényléphrine)",
+    "Nausées"
+   ],
+   "grossesse": "Éviter pendant la grossesse (surtout au 1er trimestre) et l'allaitement ; préférer le paracétamol seul et les mesures simples.",
+   "motsCles": "bronchaline, kaptol, histaminic, dr cold, sirop toux, toux grasse, rhume, grippe, expectorant, guaïfénésine, sirop association",
+   "famille": "Associations symptomatiques (toux et rhume)",
+   "mecanisme": "Chaque composant agit sur un symptôme : bronchodilatation (salbutamol), fluidification (bromhexine, guaïfénésine), antihistaminique (chlorphénamine), vasoconstriction nasale (phényléphrine), fièvre et douleur (paracétamol).",
+   "calculs": [],
+   "id": 557
+  },
+  {
+   "dci": "Kaolin + pectine",
+   "noms": "Diaryl sirop, Kaolin suspension, Kaopectate (ancienne formule)",
+   "classe": "digestif",
+   "formes": "Suspension buvable",
+   "indications": [
+    "Diarrhée aiguë banale de l'adulte (confort des selles) ; pas d'effet sur la déshydratation ni sur la durée"
+   ],
+   "posologieAdulte": [
+    "15 à 30 ml après chaque selle liquide, quelques jours"
+   ],
+   "posologieEnfant": [
+    "Non recommandé chez l'enfant (OMS) : SRO + zinc pendant 10 à 14 jours, poursuite de l'alimentation"
+   ],
+   "contreIndications": [
+    "Occlusion intestinale",
+    "Diarrhée sanglante ou fébrile (dysenterie : antibiotique)"
+   ],
+   "precautions": [
+    "Ne remplace jamais la réhydratation (SRO)",
+    "Diminue l'absorption des autres médicaments : 2 h d'écart",
+    "Formules associées à un anti-infectieux (néomycine, nifuroxazide) : pas d'intérêt démontré"
+   ],
+   "effetsIndesirables": [
+    "Constipation"
+   ],
+   "grossesse": "Utilisable (non absorbé).",
+   "motsCles": "kaolin, pectine, diaryl, diarrhée, antidiarrhéique, absorbant",
+   "famille": "Antidiarrhéique adsorbant",
+   "mecanisme": "Argile et fibre qui fixent l'eau et une partie des toxines dans l'intestin : les selles sont plus fermes, sans effet sur les pertes d'eau.",
+   "calculs": [],
+   "id": 558
+  },
+  {
+   "dci": "Eau digestive (gripe water)",
+   "noms": "Eau digestive sirop",
+   "classe": "digestif",
+   "formes": "Solution buvable (bicarbonate de sodium, huiles essentielles d'aneth et d'anis)",
+   "indications": [
+    "Utilisée traditionnellement pour les coliques et les gaz du nourrisson (efficacité non démontrée)"
+   ],
+   "posologieAdulte": [
+    "Sans objet"
+   ],
+   "posologieEnfant": [
+    "Coliques du nourrisson : rassurer, bercer, vérifier la technique d'allaitement ; elles disparaissent vers 3 à 4 mois",
+    "Si utilisée : dose de la notice, pas avant 1 mois ; jamais de préparation contenant de l'alcool ou du sucre en quantité"
+   ],
+   "contreIndications": [
+    "Nourrisson de moins de 1 mois",
+    "Insuffisance rénale"
+   ],
+   "precautions": [
+    "Pleurs inconsolables avec fièvre, vomissements, refus de téter, ventre gonflé, sang dans les selles : examiner (infection, invagination, hernie étranglée)",
+    "Le bicarbonate peut gêner la digestion du lait et provoquer une alcalose en cas de doses répétées",
+    "Huiles essentielles : convulsions possibles en cas de surdosage"
+   ],
+   "effetsIndesirables": [
+    "Ballonnements",
+    "Alcalose (doses répétées)"
+   ],
+   "grossesse": "Sans objet.",
+   "motsCles": "eau digestive, gripe water, coliques, colique du nourrisson, gaz, pleurs",
+   "famille": "Antiflatulent traditionnel",
+   "mecanisme": "Le bicarbonate neutralise l'acidité et les huiles essentielles d'aneth et d'anis auraient un effet antispasmodique léger.",
+   "calculs": [],
+   "id": 559
+  },
+  {
+   "dci": "Suppositoires antihémorroïdaires (associations)",
+   "noms": "Rectosol (lidocaïne + sous-gallate de bismuth + oxyde de zinc), Rectosol HC (+ hydrocortisone), Hemorridal",
+   "classe": "digestif",
+   "formes": "Suppositoires ; crème ou pommade rectale",
+   "indications": [
+    "Crise hémorroïdaire : douleur, démangeaison, inflammation"
+   ],
+   "posologieAdulte": [
+    "1 suppositoire matin et soir et après chaque selle, 7 jours au maximum (formes avec hydrocortisone)"
+   ],
+   "posologieEnfant": [
+    "Non recommandés chez l'enfant"
+   ],
+   "contreIndications": [
+    "Infection de l'anus (herpès, mycose, abcès) pour les formes avec corticoïde",
+    "Allergie aux anesthésiques locaux"
+   ],
+   "precautions": [
+    "Saignement par l'anus : ne pas l'attribuer aux hémorroïdes sans examen (cancer du rectum, surtout après 50 ans, perte de poids, anémie)",
+    "Traitement de fond : fibres, eau, traiter la constipation ; diosmine (Daflon) en cure courte pendant la crise",
+    "Douleur anale violente avec boule bleutée : thrombose hémorroïdaire (incision possible) ; fissure anale si douleur à la selle"
+   ],
+   "effetsIndesirables": [
+    "Irritation locale",
+    "Allergie à l'anesthésique local",
+    "Amincissement de la muqueuse (corticoïde au long cours)"
+   ],
+   "grossesse": "Utilisables en cure courte pendant la grossesse et l'allaitement (hémorroïdes fréquentes au 3e trimestre).",
+   "motsCles": "rectosol, hemorridal, hémorroïdes, crise hémorroïdaire, suppositoire, démangeaison anale, douleur anale",
+   "famille": "Antihémorroïdaire local",
+   "mecanisme": "L'anesthésique local calme la douleur, le bismuth et l'oxyde de zinc protègent et assèchent la muqueuse, l'hydrocortisone réduit l'inflammation.",
+   "calculs": [],
+   "id": 560
+  },
+  {
+   "dci": "Vasoconstricteurs nasaux (éphédrine, naphazoline, phényléphrine)",
+   "noms": "Rhumine 1 %, Rhinofenyl (phényléphrine + chlorphénamine)",
+   "classe": "respiratoire",
+   "formes": "Gouttes nasales",
+   "indications": [
+    "Nez bouché du rhume ou de la sinusite chez l'adulte, sur une courte durée"
+   ],
+   "posologieAdulte": [
+    "1 à 2 gouttes dans chaque narine 3 à 4 fois par jour, 5 jours au maximum"
+   ],
+   "posologieEnfant": [
+    "Contre-indiqués avant 12 ans (risque de convulsions, d'hypertension, de coma chez l'enfant) ; nourrisson : lavage du nez au sérum physiologique"
+   ],
+   "contreIndications": [
+    "Enfant de moins de 12 ans",
+    "Hypertension sévère, maladie coronaire, antécédent d'AVC",
+    "Glaucome à angle fermé",
+    "Traitement par IMAO"
+   ],
+   "precautions": [
+    "Au-delà de 5 à 7 jours : rhinite médicamenteuse (le nez se bouche à l'arrêt) et dépendance",
+    "Ne pas associer à un autre vasoconstricteur (comprimés contre le rhume : pseudoéphédrine, phényléphrine)",
+    "Rhumine 1 % : vérifier la molécule sur l'étiquette (éphédrine ou naphazoline)"
+   ],
+   "effetsIndesirables": [
+    "Brûlure nasale, sécheresse",
+    "Palpitations, hypertension, céphalées, insomnie",
+    "Rhinite médicamenteuse (usage prolongé)"
+   ],
+   "grossesse": "Éviter pendant la grossesse et l'allaitement.",
+   "motsCles": "rhumine, rhinofenyl, éphédrine, naphazoline, phényléphrine, gouttes nasales, nez bouché, décongestionnant",
+   "famille": "Décongestionnant nasal sympathomimétique",
+   "mecanisme": "Stimulent les récepteurs alpha-adrénergiques des vaisseaux de la muqueuse nasale : vasoconstriction qui dégonfle la muqueuse.",
+   "calculs": [],
+   "id": 561
   }
  ],
  "categoriesPathologies": [
