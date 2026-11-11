@@ -1,5 +1,5 @@
 {
- "version": 76,
+ "version": 77,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -27136,11 +27136,22 @@
     "Hypomagnésémie (traitement long)"
    ],
    "grossesse": "Utilisable pendant la grossesse si nécessaire (données rassurantes) et l'allaitement.",
-   "motsCles": "ésoméprazole, esomeprazole, inexium, nexium, IPP, reflux, ulcère, brûlures d'estomac",
+   "motsCles": "ésoméprazole, esomeprazole, inexium, nexium, IPP, reflux, ulcère, brûlures d'estomac, esocare, esogast, esomecro, esopel, esuprone, inigast",
    "famille": "Inhibiteur de la pompe à protons (IPP)",
    "mecanisme": "Bloque la pompe à protons (H+/K+-ATPase) des cellules de l'estomac : la sécrétion d'acide est fortement réduite.",
    "calculs": [],
-   "id": 565
+   "id": 565,
+   "marquesRdc": [
+    "Esmoprin",
+    "Esocare",
+    "Esofag",
+    "Esogast",
+    "Esomecro",
+    "Esopel",
+    "Esoque",
+    "Esuprone",
+    "Inigast"
+   ]
   },
   {
    "dci": "Pantoprazole",
@@ -27175,11 +27186,26 @@
     "Hypomagnésémie (traitement long)"
    ],
    "grossesse": "Utilisable pendant la grossesse si nécessaire ; possible pendant l'allaitement.",
-   "motsCles": "pantoprazole, inipomp, eupantol, pantec, IPP, reflux, ulcère",
+   "motsCles": "pantoprazole, inipomp, eupantol, pantec, IPP, reflux, ulcère, gastole, ipptocide, noflux, panto-denk, pantocome d, pantocon, pantomex, pantosek, protoque, upracid",
    "famille": "Inhibiteur de la pompe à protons (IPP)",
    "mecanisme": "Bloque la pompe à protons (H+/K+-ATPase) des cellules de l'estomac : la sécrétion d'acide est fortement réduite.",
    "calculs": [],
-   "id": 566
+   "id": 566,
+   "marquesRdc": [
+    "Antopraz",
+    "Gastole",
+    "Ipptocide",
+    "Noflux",
+    "Panotac",
+    "Pantec",
+    "Panto-Denk",
+    "Pantocome D",
+    "Pantocon",
+    "Pantomex",
+    "Pantosek",
+    "Protoque",
+    "Upracid"
+   ]
   },
   {
    "dci": "Rabéprazole",
@@ -27209,11 +27235,20 @@
     "Hypomagnésémie (traitement long)"
    ],
    "grossesse": "Éviter pendant la grossesse (données limitées) ; préférer l'oméprazole.",
-   "motsCles": "rabéprazole, rabeprazole, pariet, IPP, reflux, ulcère",
+   "motsCles": "rabéprazole, rabeprazole, pariet, IPP, reflux, ulcère, ipprosec, rabeloc, rabencer-d, rabezol, rabto",
    "famille": "Inhibiteur de la pompe à protons (IPP)",
    "mecanisme": "Bloque la pompe à protons (H+/K+-ATPase) des cellules de l'estomac : la sécrétion d'acide est fortement réduite.",
    "calculs": [],
-   "id": 567
+   "id": 567,
+   "marquesRdc": [
+    "Ipprosec",
+    "Raal",
+    "Rabeloc",
+    "Rabencer-D",
+    "Rabezol",
+    "Rabto",
+    "Zora"
+   ]
   },
   {
    "dci": "Lansoprazole",
@@ -27282,11 +27317,16 @@
     "Angio-œdème (rare)"
    ],
    "grossesse": "Contre-indiqué pendant la grossesse : changer de traitement dès qu'elle est connue (méthyldopa, nifédipine, labétalol).",
-   "motsCles": "telmisartan, micardis, teleshal, telsoton, sartan, ARA2, hypertension",
+   "motsCles": "telmisartan, micardis, teleshal, telsoton, sartan, ARA2, hypertension, teltas",
    "famille": "Antagoniste des récepteurs de l'angiotensine II (ARA2, sartan)",
    "mecanisme": "Bloque les récepteurs AT1 de l'angiotensine II : vasodilatation, baisse de l'aldostérone ; protège le rein et le cœur.",
    "calculs": [],
-   "id": 569
+   "id": 569,
+   "marquesRdc": [
+    "Teleshal",
+    "Telsoton",
+    "Teltas"
+   ]
   },
   {
    "dci": "Valsartan",
@@ -27358,11 +27398,14 @@
     "Entéropathie (diarrhée sévère, rare)"
    ],
    "grossesse": "Contre-indiqué pendant la grossesse : changer de traitement dès qu'elle est connue (méthyldopa, nifédipine, labétalol).",
-   "motsCles": "olmésartan, olmesartan, olmetec, alteis, sartan, ARA2, hypertension",
+   "motsCles": "olmésartan, olmesartan, olmetec, alteis, sartan, ARA2, hypertension, olpress",
    "famille": "Antagoniste des récepteurs de l'angiotensine II (ARA2, sartan)",
    "mecanisme": "Bloque les récepteurs AT1 de l'angiotensine II : vasodilatation, baisse de l'aldostérone ; protège le rein et le cœur.",
    "calculs": [],
-   "id": 571
+   "id": 571,
+   "marquesRdc": [
+    "Olpress"
+   ]
   },
   {
    "dci": "Périndopril",
@@ -27397,11 +27440,14 @@
     "Angio-œdème (rare, grave)"
    ],
    "grossesse": "Contre-indiqué pendant la grossesse.",
-   "motsCles": "périndopril, perindopril, coversyl, coveram, IEC, hypertension",
+   "motsCles": "périndopril, perindopril, coversyl, coveram, IEC, hypertension, perinam denk",
    "famille": "Inhibiteur de l'enzyme de conversion (IEC)",
    "mecanisme": "Bloque la formation d'angiotensine II : vasodilatation et protection rénale et cardiaque.",
    "calculs": [],
-   "id": 572
+   "id": 572,
+   "marquesRdc": [
+    "Perinam Denk"
+   ]
   },
   {
    "dci": "Ramipril",
@@ -27473,11 +27519,17 @@
     "Extrémités froides"
    ],
    "grossesse": "Éviter pendant la grossesse (préférer le labétalol) et l'allaitement.",
-   "motsCles": "nébivolol, nebivolol, temerit, nebilox, bêtabloquant, hypertension",
+   "motsCles": "nébivolol, nebivolol, temerit, nebilox, bêtabloquant, hypertension, nebilong, nodon, nyhart",
    "famille": "Bêtabloquant cardiosélectif vasodilatateur",
    "mecanisme": "Bloque les récepteurs bêta-1 du cœur et libère du monoxyde d'azote dans les vaisseaux (vasodilatation).",
    "calculs": [],
-   "id": 574
+   "id": 574,
+   "marquesRdc": [
+    "Nebilong",
+    "Nebimex",
+    "Nodon",
+    "Nyhart"
+   ]
   },
   {
    "dci": "Indapamide",
@@ -27510,11 +27562,14 @@
     "Vertiges, hypotension orthostatique"
    ],
    "grossesse": "Éviter pendant la grossesse.",
-   "motsCles": "indapamide, fludex, diurétique, thiazidique, hypertension",
+   "motsCles": "indapamide, fludex, diurétique, thiazidique, hypertension, preterax arginine",
    "famille": "Diurétique apparenté aux thiazidiques",
    "mecanisme": "Inhibe la réabsorption du sodium dans le tube contourné distal et a un effet vasodilatateur.",
    "calculs": [],
-   "id": 575
+   "id": 575,
+   "marquesRdc": [
+    "Preterax Arginine (+ périndopril)"
+   ]
   },
   {
    "dci": "Atorvastatine",
@@ -27546,11 +27601,18 @@
     "Troubles digestifs"
    ],
    "grossesse": "Contre-indiquée pendant la grossesse et l'allaitement.",
-   "motsCles": "atorvastatine, tahor, lipitor, atshal, statine, cholestérol",
+   "motsCles": "atorvastatine, tahor, lipitor, atshal, statine, cholestérol, atostatine, atrozemb, atstat, cholvat, serastor",
    "famille": "Hypolipémiant – statine",
    "mecanisme": "Inhibe l'HMG-CoA réductase du foie : baisse du LDL-cholestérol et stabilisation des plaques d'athérome.",
    "calculs": [],
-   "id": 576
+   "id": 576,
+   "marquesRdc": [
+    "Atostatine",
+    "Atrozemb (+ ézétimibe)",
+    "Atstat",
+    "Cholvat",
+    "Serastor"
+   ]
   },
   {
    "dci": "Glimépiride",
@@ -27617,11 +27679,14 @@
     "Douleurs articulaires"
    ],
    "grossesse": "Contre-indiquée pendant la grossesse (insuline).",
-   "motsCles": "sitagliptine, januvia, janumet, gliptine, DPP-4, diabète",
+   "motsCles": "sitagliptine, januvia, janumet, gliptine, DPP-4, diabète, inosita",
    "famille": "Antidiabétique oral – inhibiteur de la DPP-4 (gliptine)",
    "mecanisme": "Bloque l'enzyme DPP-4 qui dégrade les incrétines : plus d'insuline et moins de glucagon après les repas.",
    "calculs": [],
-   "id": 578
+   "id": 578,
+   "marquesRdc": [
+    "Inosita"
+   ]
   },
   {
    "dci": "Vildagliptine",
@@ -27651,11 +27716,16 @@
     "Pancréatite (rare)"
    ],
    "grossesse": "Contre-indiquée pendant la grossesse (insuline).",
-   "motsCles": "vildagliptine, galvus, vildishal, gliptine, DPP-4, diabète",
+   "motsCles": "vildagliptine, galvus, vildishal, gliptine, DPP-4, diabète, vilget, wilcreas",
    "famille": "Antidiabétique oral – inhibiteur de la DPP-4 (gliptine)",
    "mecanisme": "Bloque l'enzyme DPP-4 qui dégrade les incrétines : plus d'insuline et moins de glucagon après les repas.",
    "calculs": [],
-   "id": 579
+   "id": 579,
+   "marquesRdc": [
+    "Vildishal",
+    "Vilget",
+    "Wilcreas"
+   ]
   },
   {
    "dci": "Acide méfénamique",
@@ -27731,11 +27801,16 @@
     "Hypotension, palpitations (IV)"
    ],
    "grossesse": "Éviter pendant la grossesse et l'allaitement par prudence.",
-   "motsCles": "drotavérine, drotaverine, no-spa, doverin, antispasmodique, colique, spasmes",
+   "motsCles": "drotavérine, drotaverine, no-spa, doverin, antispasmodique, colique, spasmes, regulix, spascol",
    "famille": "Antispasmodique musculotrope",
    "mecanisme": "Inhibe la phosphodiestérase IV des muscles lisses : relâchement des fibres musculaires, sans effet anticholinergique.",
    "calculs": [],
-   "id": 581
+   "id": 581,
+   "marquesRdc": [
+    "Doverin",
+    "Regulix",
+    "Spascol"
+   ]
   },
   {
    "dci": "Acéclofénac",
@@ -27771,11 +27846,21 @@
     "Réactions allergiques"
    ],
    "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
-   "motsCles": "acéclofénac, aceclofenac, aceclomol, moviz, AINS, arthrose, douleur",
+   "motsCles": "acéclofénac, aceclofenac, aceclomol, moviz, AINS, arthrose, douleur, acicrof p, asonac-plus, ezipen, flexi, serfin, thiocros, trialgan, viemol-as",
    "famille": "AINS – dérivé de l'acide phénylacétique",
    "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
    "calculs": [],
-   "id": 582
+   "id": 582,
+   "marquesRdc": [
+    "Acicrof P (+ paracétamol)",
+    "Asonac-Plus (+ paracétamol)",
+    "Ezipen (+ paracétamol, serratiopeptidase)",
+    "Flexi",
+    "Serfin (+ paracétamol, serratiopeptidase)",
+    "Thiocros (+ thiocolchicoside)",
+    "Trialgan (+ paracétamol, serratiopeptidase)",
+    "Viemol-As (+ paracétamol, serratiopeptidase)"
+   ]
   },
   {
    "dci": "Kétorolac",
@@ -27819,7 +27904,10 @@
    "famille": "AINS – dérivé de l'acide acétique (antalgique puissant)",
    "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
    "calculs": [],
-   "id": 583
+   "id": 583,
+   "marquesRdc": [
+    "Ket"
+   ]
   },
   {
    "dci": "Méloxicam",
@@ -27853,11 +27941,14 @@
     "Réactions allergiques"
    ],
    "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
-   "motsCles": "méloxicam, meloxicam, mobic, AINS, arthrose, rhumatisme",
+   "motsCles": "méloxicam, meloxicam, mobic, AINS, arthrose, rhumatisme, melton",
    "famille": "AINS – oxicam (préférentiel COX-2)",
    "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
    "calculs": [],
-   "id": 584
+   "id": 584,
+   "marquesRdc": [
+    "Melton"
+   ]
   },
   {
    "dci": "Piroxicam",
@@ -27893,11 +27984,18 @@
     "Réactions cutanées graves"
    ],
    "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
-   "motsCles": "piroxicam, feldène, feldene, AINS, oxicam, rhumatisme",
+   "motsCles": "piroxicam, feldène, feldene, AINS, oxicam, rhumatisme, feloxam, inflacam, piroxen, pirro, pocard",
    "famille": "AINS – oxicam",
    "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
    "calculs": [],
-   "id": 585
+   "id": 585,
+   "marquesRdc": [
+    "Feloxam",
+    "Inflacam",
+    "Piroxen",
+    "Pirro",
+    "Pocard"
+   ]
   },
   {
    "dci": "Secnidazole",
@@ -27979,11 +28077,14 @@
     "Bouche sèche, céphalées"
    ],
    "grossesse": "Utilisable pendant la grossesse si nécessaire (préférer la cétirizine ou la loratadine).",
-   "motsCles": "lévocétirizine, levocetirizine, xyzall, levocizine, allergie, rhinite, urticaire",
+   "motsCles": "lévocétirizine, levocetirizine, xyzall, levocizine, allergie, rhinite, urticaire, montil-l",
    "famille": "Antihistaminique H1 (2e génération)",
    "mecanisme": "Énantiomère actif de la cétirizine : bloque les récepteurs H1 périphériques de l'histamine.",
    "calculs": [],
-   "id": 587
+   "id": 587,
+   "marquesRdc": [
+    "Montil-L (+ montélukast)"
+   ]
   },
   {
    "dci": "Hydroxyzine",
@@ -28070,11 +28171,14 @@
     "Fatigue"
    ],
    "grossesse": "Éviter pendant la grossesse si possible ; utilisable pendant l'allaitement avec surveillance.",
-   "motsCles": "gabapentine, neurontin, douleur neuropathique, neuropathie, épilepsie",
+   "motsCles": "gabapentine, neurontin, douleur neuropathique, neuropathie, épilepsie, gaba cap",
    "famille": "Antiépileptique – gabapentinoïde",
    "mecanisme": "Se fixe sur la sous-unité alpha-2-delta des canaux calciques neuronaux et réduit la libération des neurotransmetteurs excitateurs.",
    "calculs": [],
-   "id": 589
+   "id": 589,
+   "marquesRdc": [
+    "Gaba Cap"
+   ]
   },
   {
    "dci": "Sildénafil",
@@ -28110,11 +28214,24 @@
     "Hypotension"
    ],
    "grossesse": "Sans objet pour la dysfonction érectile ; hypertension pulmonaire de la femme enceinte : avis spécialisé.",
-   "motsCles": "sildénafil, sildenafil, viagra, kifaru, dysfonction érectile, impuissance, hypertension pulmonaire",
+   "motsCles": "sildénafil, sildenafil, viagra, kifaru, dysfonction érectile, impuissance, hypertension pulmonaire, bonne nuit, davigra jelly, gladez, kin force, lamuka, luagra, skygra, vigoral rapide, virectil",
    "famille": "Inhibiteur de la phosphodiestérase de type 5 (IPDE-5)",
    "mecanisme": "Bloque la PDE-5 qui dégrade le GMP cyclique : relâchement des muscles lisses des corps caverneux et des artères pulmonaires.",
    "calculs": [],
-   "id": 590
+   "id": 590,
+   "marquesRdc": [
+    "Bonne Nuit",
+    "Davigra Jelly",
+    "Gladez",
+    "Kifaru",
+    "Kin Force",
+    "Lamuka",
+    "Luagra",
+    "Skygra",
+    "Viagra",
+    "Vigoral Rapide",
+    "Virectil"
+   ]
   },
   {
    "dci": "Tamsulosine",
@@ -28146,11 +28263,16 @@
     "Congestion nasale"
    ],
    "grossesse": "Sans objet.",
-   "motsCles": "tamsulosine, omix, josir, tamsulex, prostate, adénome, hypertrophie de la prostate, dysurie",
+   "motsCles": "tamsulosine, omix, josir, tamsulex, prostate, adénome, hypertrophie de la prostate, dysurie, dimupost, peemax, protam",
    "famille": "Alphabloquant urologique",
    "mecanisme": "Bloque les récepteurs alpha-1A de la prostate et du col de la vessie : relâchement musculaire qui facilite le passage de l'urine.",
    "calculs": [],
-   "id": 591
+   "id": 591,
+   "marquesRdc": [
+    "Dimupost (+ dutastéride)",
+    "Peemax",
+    "Protam"
+   ]
   },
   {
    "dci": "Acide fusidique (crème ou pommade)",
@@ -28213,11 +28335,15 @@
     "Hypokaliémie (usage prolongé)"
    ],
    "grossesse": "Utilisable ponctuellement pendant la grossesse et l'allaitement.",
-   "motsCles": "bisacodyl, dulcolax, laxatif, constipation",
+   "motsCles": "bisacodyl, dulcolax, laxatif, constipation, dulcoprin, laxaque",
    "famille": "Laxatif stimulant",
    "mecanisme": "Stimule les terminaisons nerveuses du côlon et la sécrétion d'eau dans l'intestin.",
    "calculs": [],
-   "id": 593
+   "id": 593,
+   "marquesRdc": [
+    "Dulcoprin",
+    "Laxaque"
+   ]
   }
  ],
  "categoriesPathologies": [
