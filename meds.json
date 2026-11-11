@@ -1,5 +1,5 @@
 {
- "version": 75,
+ "version": 76,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -27101,6 +27101,1123 @@
     "Striadrox",
     "Sudrox"
    ]
+  },
+  {
+   "dci": "Ésoméprazole",
+   "noms": "Inexium, Nexium, Esomex, Esoque, Esofag, Esmoprin, Shalcer",
+   "classe": "digestif",
+   "formes": "Gélule ou comprimé gastrorésistant 20 et 40 mg ; injectable 40 mg",
+   "indications": [
+    "Reflux gastro-œsophagien, œsophagite",
+    "Ulcère gastroduodénal ; éradication de Helicobacter pylori (avec antibiotiques)",
+    "Prévention des ulcères sous AINS",
+    "Hémorragie digestive haute (IV)"
+   ],
+   "posologieAdulte": [
+    "Reflux : 20 à 40 mg une fois par jour avant le petit-déjeuner, 4 à 8 semaines",
+    "H. pylori : 20 mg 2 fois par jour avec amoxicilline et clarithromycine, 14 jours",
+    "Hémorragie ulcéreuse : 80 mg IV puis 8 mg/h pendant 72 h"
+   ],
+   "posologieEnfant": [
+    "1 à 11 ans : 10 mg par jour (moins de 20 kg) ou 10 à 20 mg (20 kg et plus)",
+    "12 ans et plus : comme l'adulte"
+   ],
+   "contreIndications": [
+    "Allergie aux IPP",
+    "Association au nelfinavir ou à l'atazanavir"
+   ],
+   "precautions": [
+    "Signes d'alarme (vomissements de sang, selles noires, amaigrissement, difficulté à avaler, anémie, après 50 ans) : endoscopie",
+    "Traitement prolongé : carence en magnésium et en vitamine B12, fractures, infections digestives ; réévaluer et arrêter si possible",
+    "Interaction : diminue l'effet du clopidogrel (surtout oméprazole et ésoméprazole ; préférer le pantoprazole)"
+   ],
+   "effetsIndesirables": [
+    "Céphalées, diarrhée, douleurs abdominales",
+    "Hypomagnésémie (traitement long)"
+   ],
+   "grossesse": "Utilisable pendant la grossesse si nécessaire (données rassurantes) et l'allaitement.",
+   "motsCles": "ésoméprazole, esomeprazole, inexium, nexium, IPP, reflux, ulcère, brûlures d'estomac",
+   "famille": "Inhibiteur de la pompe à protons (IPP)",
+   "mecanisme": "Bloque la pompe à protons (H+/K+-ATPase) des cellules de l'estomac : la sécrétion d'acide est fortement réduite.",
+   "calculs": [],
+   "id": 565
+  },
+  {
+   "dci": "Pantoprazole",
+   "noms": "Inipomp, Eupantol, Pantec (PROMED), Panotac, Pantocare",
+   "classe": "digestif",
+   "formes": "Comprimé gastrorésistant 20 et 40 mg ; injectable 40 mg",
+   "indications": [
+    "Reflux gastro-œsophagien, œsophagite",
+    "Ulcère gastroduodénal ; éradication de H. pylori",
+    "Prévention des ulcères sous AINS",
+    "Hémorragie digestive haute (IV)"
+   ],
+   "posologieAdulte": [
+    "20 à 40 mg une fois par jour avant le repas (80 mg dans les cas sévères)",
+    "H. pylori : 40 mg 2 fois par jour avec deux antibiotiques, 14 jours",
+    "Hémorragie ulcéreuse : 80 mg IV puis 8 mg/h pendant 72 h"
+   ],
+   "posologieEnfant": [
+    "12 ans et plus : 20 à 40 mg une fois par jour ; avant 12 ans, préférer l'oméprazole ou l'ésoméprazole"
+   ],
+   "contreIndications": [
+    "Allergie aux IPP",
+    "Association à l'atazanavir"
+   ],
+   "precautions": [
+    "Signes d'alarme (vomissements de sang, selles noires, amaigrissement, difficulté à avaler, anémie, après 50 ans) : endoscopie",
+    "Traitement prolongé : carence en magnésium et en vitamine B12, fractures, infections digestives ; réévaluer et arrêter si possible",
+    "IPP de choix avec le clopidogrel (moins d'interaction)"
+   ],
+   "effetsIndesirables": [
+    "Céphalées, diarrhée, douleurs abdominales",
+    "Hypomagnésémie (traitement long)"
+   ],
+   "grossesse": "Utilisable pendant la grossesse si nécessaire ; possible pendant l'allaitement.",
+   "motsCles": "pantoprazole, inipomp, eupantol, pantec, IPP, reflux, ulcère",
+   "famille": "Inhibiteur de la pompe à protons (IPP)",
+   "mecanisme": "Bloque la pompe à protons (H+/K+-ATPase) des cellules de l'estomac : la sécrétion d'acide est fortement réduite.",
+   "calculs": [],
+   "id": 566
+  },
+  {
+   "dci": "Rabéprazole",
+   "noms": "Pariet, Rabeque, Raal, Zora",
+   "classe": "digestif",
+   "formes": "Comprimé gastrorésistant 10 et 20 mg ; injectable 20 mg",
+   "indications": [
+    "Reflux gastro-œsophagien",
+    "Ulcère gastroduodénal ; éradication de H. pylori"
+   ],
+   "posologieAdulte": [
+    "10 à 20 mg une fois par jour ; H. pylori : 20 mg 2 fois par jour avec deux antibiotiques, 14 jours"
+   ],
+   "posologieEnfant": [
+    "Non recommandé avant 12 ans"
+   ],
+   "contreIndications": [
+    "Allergie aux IPP"
+   ],
+   "precautions": [
+    "Signes d'alarme (vomissements de sang, selles noires, amaigrissement, difficulté à avaler, anémie, après 50 ans) : endoscopie",
+    "Traitement prolongé : carence en magnésium et en vitamine B12, fractures, infections digestives ; réévaluer et arrêter si possible",
+    "Interaction : diminue l'effet du clopidogrel (surtout oméprazole et ésoméprazole ; préférer le pantoprazole)"
+   ],
+   "effetsIndesirables": [
+    "Céphalées, diarrhée, douleurs abdominales",
+    "Hypomagnésémie (traitement long)"
+   ],
+   "grossesse": "Éviter pendant la grossesse (données limitées) ; préférer l'oméprazole.",
+   "motsCles": "rabéprazole, rabeprazole, pariet, IPP, reflux, ulcère",
+   "famille": "Inhibiteur de la pompe à protons (IPP)",
+   "mecanisme": "Bloque la pompe à protons (H+/K+-ATPase) des cellules de l'estomac : la sécrétion d'acide est fortement réduite.",
+   "calculs": [],
+   "id": 567
+  },
+  {
+   "dci": "Lansoprazole",
+   "noms": "Lanzor, Ogast, Ogastoro",
+   "classe": "digestif",
+   "formes": "Gélule 15 et 30 mg ; comprimé orodispersible",
+   "indications": [
+    "Reflux gastro-œsophagien, œsophagite",
+    "Ulcère gastroduodénal ; éradication de H. pylori"
+   ],
+   "posologieAdulte": [
+    "15 à 30 mg une fois par jour avant le petit-déjeuner ; H. pylori : 30 mg 2 fois par jour avec deux antibiotiques, 14 jours"
+   ],
+   "posologieEnfant": [
+    "Avis spécialisé : 15 mg par jour (moins de 30 kg), 30 mg (30 kg et plus)"
+   ],
+   "contreIndications": [
+    "Allergie aux IPP",
+    "Association à l'atazanavir"
+   ],
+   "precautions": [
+    "Signes d'alarme (vomissements de sang, selles noires, amaigrissement, difficulté à avaler, anémie, après 50 ans) : endoscopie",
+    "Traitement prolongé : carence en magnésium et en vitamine B12, fractures, infections digestives ; réévaluer et arrêter si possible",
+    "Interaction : diminue l'effet du clopidogrel (surtout oméprazole et ésoméprazole ; préférer le pantoprazole)"
+   ],
+   "effetsIndesirables": [
+    "Céphalées, diarrhée, douleurs abdominales",
+    "Hypomagnésémie (traitement long)"
+   ],
+   "grossesse": "Utilisable si nécessaire ; préférer l'oméprazole (mieux connu).",
+   "motsCles": "lansoprazole, lanzor, ogast, IPP, reflux, ulcère",
+   "famille": "Inhibiteur de la pompe à protons (IPP)",
+   "mecanisme": "Bloque la pompe à protons (H+/K+-ATPase) des cellules de l'estomac : la sécrétion d'acide est fortement réduite.",
+   "calculs": [],
+   "id": 568
+  },
+  {
+   "dci": "Telmisartan",
+   "noms": "Micardis, Teleshal, Telsoton, Pritor ; associations : Teleshal-H (+ hydrochlorothiazide), Telmisartan + amlodipine",
+   "classe": "cardio",
+   "formes": "Comprimé 20, 40 et 80 mg",
+   "indications": [
+    "Hypertension artérielle",
+    "Prévention cardiovasculaire chez le patient à haut risque (si IEC mal toléré)"
+   ],
+   "posologieAdulte": [
+    "40 mg une fois par jour, jusqu'à 80 mg"
+   ],
+   "posologieEnfant": [
+    "Non recommandé avant 18 ans"
+   ],
+   "contreIndications": [
+    "Grossesse (2e et 3e trimestres)",
+    "Insuffisance hépatique sévère",
+    "Sténose bilatérale des artères rénales",
+    "Obstruction biliaire"
+   ],
+   "precautions": [
+    "Contrôler créatinine et potassium 1 à 2 semaines après le début",
+    "Ne pas associer à un IEC ni à l'aliskirène",
+    "Hypotension au début chez le patient déshydraté ou sous diurétique"
+   ],
+   "effetsIndesirables": [
+    "Vertiges, hypotension",
+    "Hyperkaliémie, élévation de la créatinine",
+    "Angio-œdème (rare)"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse : changer de traitement dès qu'elle est connue (méthyldopa, nifédipine, labétalol).",
+   "motsCles": "telmisartan, micardis, teleshal, telsoton, sartan, ARA2, hypertension",
+   "famille": "Antagoniste des récepteurs de l'angiotensine II (ARA2, sartan)",
+   "mecanisme": "Bloque les récepteurs AT1 de l'angiotensine II : vasodilatation, baisse de l'aldostérone ; protège le rein et le cœur.",
+   "calculs": [],
+   "id": 569
+  },
+  {
+   "dci": "Valsartan",
+   "noms": "Tareg, Diovan, Nisis ; associations : Exforge (+ amlodipine), Cotareg (+ hydrochlorothiazide), Entresto (+ sacubitril)",
+   "classe": "cardio",
+   "formes": "Comprimé 40, 80 et 160 mg",
+   "indications": [
+    "Hypertension artérielle",
+    "Insuffisance cardiaque",
+    "Après un infarctus"
+   ],
+   "posologieAdulte": [
+    "Hypertension : 80 mg une fois par jour, jusqu'à 320 mg",
+    "Insuffisance cardiaque : 40 mg 2 fois par jour, augmenté jusqu'à 160 mg 2 fois par jour"
+   ],
+   "posologieEnfant": [
+    "6 à 18 ans (hypertension) : 40 mg (moins de 35 kg) ou 80 mg une fois par jour, sur avis spécialisé"
+   ],
+   "contreIndications": [
+    "Grossesse (2e et 3e trimestres)",
+    "Insuffisance hépatique sévère",
+    "Sténose bilatérale des artères rénales"
+   ],
+   "precautions": [
+    "Contrôler créatinine et potassium 1 à 2 semaines après le début",
+    "Ne pas associer à un IEC ni à l'aliskirène",
+    "Hypotension au début chez le patient déshydraté ou sous diurétique"
+   ],
+   "effetsIndesirables": [
+    "Vertiges, hypotension",
+    "Hyperkaliémie, élévation de la créatinine",
+    "Angio-œdème (rare)"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse : changer de traitement dès qu'elle est connue (méthyldopa, nifédipine, labétalol).",
+   "motsCles": "valsartan, tareg, diovan, exforge, sartan, ARA2, hypertension, insuffisance cardiaque",
+   "famille": "Antagoniste des récepteurs de l'angiotensine II (ARA2, sartan)",
+   "mecanisme": "Bloque les récepteurs AT1 de l'angiotensine II : vasodilatation, baisse de l'aldostérone ; protège le rein et le cœur.",
+   "calculs": [],
+   "id": 570
+  },
+  {
+   "dci": "Olmésartan",
+   "noms": "Olmetec, Alteis ; associations : Giant (+ amlodipine), Olprezide (+ hydrochlorothiazide)",
+   "classe": "cardio",
+   "formes": "Comprimé 10, 20 et 40 mg",
+   "indications": [
+    "Hypertension artérielle"
+   ],
+   "posologieAdulte": [
+    "10 à 20 mg une fois par jour, jusqu'à 40 mg"
+   ],
+   "posologieEnfant": [
+    "Non recommandé avant 18 ans"
+   ],
+   "contreIndications": [
+    "Grossesse (2e et 3e trimestres)",
+    "Insuffisance hépatique sévère",
+    "Sténose bilatérale des artères rénales"
+   ],
+   "precautions": [
+    "Contrôler créatinine et potassium 1 à 2 semaines après le début",
+    "Ne pas associer à un IEC ni à l'aliskirène",
+    "Hypotension au début chez le patient déshydraté ou sous diurétique",
+    "Diarrhée chronique avec amaigrissement (entéropathie) : arrêter"
+   ],
+   "effetsIndesirables": [
+    "Vertiges, hypotension",
+    "Hyperkaliémie",
+    "Entéropathie (diarrhée sévère, rare)"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse : changer de traitement dès qu'elle est connue (méthyldopa, nifédipine, labétalol).",
+   "motsCles": "olmésartan, olmesartan, olmetec, alteis, sartan, ARA2, hypertension",
+   "famille": "Antagoniste des récepteurs de l'angiotensine II (ARA2, sartan)",
+   "mecanisme": "Bloque les récepteurs AT1 de l'angiotensine II : vasodilatation, baisse de l'aldostérone ; protège le rein et le cœur.",
+   "calculs": [],
+   "id": 571
+  },
+  {
+   "dci": "Périndopril",
+   "noms": "Coversyl ; associations : Coveram (+ amlodipine), Preterax et Bipreterax (+ indapamide), Cosyrel (+ bisoprolol)",
+   "classe": "cardio",
+   "formes": "Comprimé 2,5, 5 et 10 mg (arginine) ou 4 et 8 mg (tert-butylamine)",
+   "indications": [
+    "Hypertension artérielle",
+    "Insuffisance cardiaque",
+    "Maladie coronaire stable (prévention)"
+   ],
+   "posologieAdulte": [
+    "Hypertension : 5 mg (arginine) une fois par jour, jusqu'à 10 mg ; sujet âgé : 2,5 mg"
+   ],
+   "posologieEnfant": [
+    "Non recommandé chez l'enfant"
+   ],
+   "contreIndications": [
+    "Grossesse (2e et 3e trimestres)",
+    "Antécédent d'angio-œdème",
+    "Sténose bilatérale des artères rénales"
+   ],
+   "precautions": [
+    "Contrôler créatinine et potassium",
+    "Toux sèche : remplacer par un ARA2",
+    "Première dose : risque d'hypotension"
+   ],
+   "effetsIndesirables": [
+    "Toux sèche",
+    "Hypotension, vertiges",
+    "Hyperkaliémie",
+    "Angio-œdème (rare, grave)"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse.",
+   "motsCles": "périndopril, perindopril, coversyl, coveram, IEC, hypertension",
+   "famille": "Inhibiteur de l'enzyme de conversion (IEC)",
+   "mecanisme": "Bloque la formation d'angiotensine II : vasodilatation et protection rénale et cardiaque.",
+   "calculs": [],
+   "id": 572
+  },
+  {
+   "dci": "Ramipril",
+   "noms": "Triatec, Ramipril ; association : Ramithiazide (+ hydrochlorothiazide)",
+   "classe": "cardio",
+   "formes": "Gélule ou comprimé 1,25, 2,5, 5 et 10 mg",
+   "indications": [
+    "Hypertension artérielle",
+    "Insuffisance cardiaque, après un infarctus",
+    "Prévention cardiovasculaire, néphropathie diabétique"
+   ],
+   "posologieAdulte": [
+    "Hypertension : 2,5 mg une fois par jour, jusqu'à 10 mg",
+    "Insuffisance cardiaque : 1,25 à 2,5 mg par jour, augmenté progressivement jusqu'à 10 mg"
+   ],
+   "posologieEnfant": [
+    "Non recommandé chez l'enfant"
+   ],
+   "contreIndications": [
+    "Grossesse (2e et 3e trimestres)",
+    "Antécédent d'angio-œdème",
+    "Sténose bilatérale des artères rénales"
+   ],
+   "precautions": [
+    "Contrôler créatinine et potassium",
+    "Toux sèche : remplacer par un ARA2"
+   ],
+   "effetsIndesirables": [
+    "Toux sèche",
+    "Hypotension",
+    "Hyperkaliémie",
+    "Angio-œdème (rare)"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse.",
+   "motsCles": "ramipril, triatec, IEC, hypertension, insuffisance cardiaque",
+   "famille": "Inhibiteur de l'enzyme de conversion (IEC)",
+   "mecanisme": "Bloque la formation d'angiotensine II : vasodilatation et protection rénale et cardiaque.",
+   "calculs": [],
+   "id": 573
+  },
+  {
+   "dci": "Nébivolol",
+   "noms": "Temerit, Nébilox, Nebimex",
+   "classe": "cardio",
+   "formes": "Comprimé 5 mg (sécable)",
+   "indications": [
+    "Hypertension artérielle",
+    "Insuffisance cardiaque stable du sujet âgé (en complément)"
+   ],
+   "posologieAdulte": [
+    "5 mg une fois par jour ; sujet âgé ou insuffisance rénale : 2,5 mg"
+   ],
+   "posologieEnfant": [
+    "Non recommandé chez l'enfant"
+   ],
+   "contreIndications": [
+    "Bradycardie, bloc auriculoventriculaire",
+    "Insuffisance cardiaque décompensée, choc",
+    "Asthme sévère",
+    "Insuffisance hépatique"
+   ],
+   "precautions": [
+    "Ne pas arrêter brutalement",
+    "Diabète : masque les signes d'hypoglycémie"
+   ],
+   "effetsIndesirables": [
+    "Fatigue, céphalées, vertiges",
+    "Bradycardie",
+    "Extrémités froides"
+   ],
+   "grossesse": "Éviter pendant la grossesse (préférer le labétalol) et l'allaitement.",
+   "motsCles": "nébivolol, nebivolol, temerit, nebilox, bêtabloquant, hypertension",
+   "famille": "Bêtabloquant cardiosélectif vasodilatateur",
+   "mecanisme": "Bloque les récepteurs bêta-1 du cœur et libère du monoxyde d'azote dans les vaisseaux (vasodilatation).",
+   "calculs": [],
+   "id": 574
+  },
+  {
+   "dci": "Indapamide",
+   "noms": "Fludex, Natrilix ; associations : Preterax (+ périndopril), Natrixam (+ amlodipine)",
+   "classe": "cardio",
+   "formes": "Comprimé 2,5 mg ; comprimé LP 1,5 mg",
+   "indications": [
+    "Hypertension artérielle (diurétique de 1re intention, OMS)"
+   ],
+   "posologieAdulte": [
+    "1,5 mg LP ou 2,5 mg une fois par jour, le matin"
+   ],
+   "posologieEnfant": [
+    "Non recommandé chez l'enfant"
+   ],
+   "contreIndications": [
+    "Insuffisance rénale sévère",
+    "Hypokaliémie",
+    "Encéphalopathie hépatique",
+    "Allergie aux sulfamides"
+   ],
+   "precautions": [
+    "Contrôler sodium, potassium et créatinine",
+    "Goutte : risque de crise",
+    "Allonge le QT en cas d'hypokaliémie"
+   ],
+   "effetsIndesirables": [
+    "Hypokaliémie, hyponatrémie",
+    "Hyperuricémie",
+    "Vertiges, hypotension orthostatique"
+   ],
+   "grossesse": "Éviter pendant la grossesse.",
+   "motsCles": "indapamide, fludex, diurétique, thiazidique, hypertension",
+   "famille": "Diurétique apparenté aux thiazidiques",
+   "mecanisme": "Inhibe la réabsorption du sodium dans le tube contourné distal et a un effet vasodilatateur.",
+   "calculs": [],
+   "id": 575
+  },
+  {
+   "dci": "Atorvastatine",
+   "noms": "Tahor, Lipitor, Atshal, Vasolip",
+   "classe": "cardio",
+   "formes": "Comprimé 10, 20, 40 et 80 mg",
+   "indications": [
+    "Hypercholestérolémie",
+    "Prévention cardiovasculaire (diabète après 40 ans, après un infarctus ou un AVC ischémique, risque élevé)"
+   ],
+   "posologieAdulte": [
+    "10 à 20 mg le soir ou le matin ; après infarctus ou AVC : 40 à 80 mg (forte intensité)"
+   ],
+   "posologieEnfant": [
+    "Hypercholestérolémie familiale : avis spécialisé, dès 10 ans"
+   ],
+   "contreIndications": [
+    "Maladie du foie évolutive",
+    "Grossesse, allaitement"
+   ],
+   "precautions": [
+    "Douleurs musculaires inexpliquées : doser les CPK",
+    "Interactions : clarithromycine, érythromycine, fluconazole et itraconazole à forte dose, inhibiteurs de protéase (lopinavir, ritonavir) : risque de rhabdomyolyse",
+    "Contraception efficace chez la femme en âge de procréer"
+   ],
+   "effetsIndesirables": [
+    "Douleurs musculaires, rarement rhabdomyolyse",
+    "Élévation des transaminases",
+    "Troubles digestifs"
+   ],
+   "grossesse": "Contre-indiquée pendant la grossesse et l'allaitement.",
+   "motsCles": "atorvastatine, tahor, lipitor, atshal, statine, cholestérol",
+   "famille": "Hypolipémiant – statine",
+   "mecanisme": "Inhibe l'HMG-CoA réductase du foie : baisse du LDL-cholestérol et stabilisation des plaques d'athérome.",
+   "calculs": [],
+   "id": 576
+  },
+  {
+   "dci": "Glimépiride",
+   "noms": "Amarel, Glimepiride ; associations : Shalformine-G, Glymax, Zoryl-M (+ metformine)",
+   "classe": "diabete",
+   "formes": "Comprimé 1, 2, 3 et 4 mg",
+   "indications": [
+    "Diabète de type 2, en 2e ligne après la metformine (ou si la metformine est contre-indiquée)"
+   ],
+   "posologieAdulte": [
+    "1 mg une fois par jour au petit-déjeuner, augmenté par paliers de 1 mg toutes les 1 à 2 semaines (maximum 6 mg)"
+   ],
+   "posologieEnfant": [
+    "Non recommandé chez l'enfant"
+   ],
+   "contreIndications": [
+    "Diabète de type 1, acidocétose",
+    "Insuffisance rénale ou hépatique sévère",
+    "Grossesse, allaitement",
+    "Allergie aux sulfamides"
+   ],
+   "precautions": [
+    "Hypoglycémies, surtout chez le sujet âgé, si repas sauté ou insuffisance rénale : expliquer les signes et le sucre à garder sur soi",
+    "Ne pas associer à un autre sulfamide hypoglycémiant"
+   ],
+   "effetsIndesirables": [
+    "Hypoglycémie",
+    "Prise de poids",
+    "Troubles digestifs",
+    "Réactions cutanées"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse : passer à l'insuline.",
+   "motsCles": "glimépiride, glimepiride, amarel, sulfamide hypoglycémiant, diabète",
+   "famille": "Antidiabétique oral – sulfamide hypoglycémiant",
+   "mecanisme": "Stimule la sécrétion d'insuline par le pancréas en fermant les canaux potassiques des cellules bêta.",
+   "calculs": [],
+   "id": 577
+  },
+  {
+   "dci": "Sitagliptine",
+   "noms": "Januvia, Xelevia ; associations : Janumet, Treviamet (+ metformine)",
+   "classe": "diabete",
+   "formes": "Comprimé 25, 50 et 100 mg",
+   "indications": [
+    "Diabète de type 2, en association à la metformine (ou seule si la metformine est contre-indiquée)"
+   ],
+   "posologieAdulte": [
+    "100 mg une fois par jour ; 50 mg si clairance 30 à 45 ml/min ; 25 mg si moins de 30 ml/min"
+   ],
+   "posologieEnfant": [
+    "Non recommandée avant 18 ans"
+   ],
+   "contreIndications": [
+    "Diabète de type 1, acidocétose",
+    "Antécédent de pancréatite"
+   ],
+   "precautions": [
+    "Douleur abdominale intense et persistante : arrêter (pancréatite)",
+    "Peu d'hypoglycémies seule, mais plus avec un sulfamide ou l'insuline"
+   ],
+   "effetsIndesirables": [
+    "Céphalées, rhinopharyngite",
+    "Pancréatite (rare)",
+    "Douleurs articulaires"
+   ],
+   "grossesse": "Contre-indiquée pendant la grossesse (insuline).",
+   "motsCles": "sitagliptine, januvia, janumet, gliptine, DPP-4, diabète",
+   "famille": "Antidiabétique oral – inhibiteur de la DPP-4 (gliptine)",
+   "mecanisme": "Bloque l'enzyme DPP-4 qui dégrade les incrétines : plus d'insuline et moins de glucagon après les repas.",
+   "calculs": [],
+   "id": 578
+  },
+  {
+   "dci": "Vildagliptine",
+   "noms": "Galvus, Vildishal ; association : Eucreas (+ metformine)",
+   "classe": "diabete",
+   "formes": "Comprimé 50 mg",
+   "indications": [
+    "Diabète de type 2, en association à la metformine"
+   ],
+   "posologieAdulte": [
+    "50 mg 2 fois par jour (50 mg une fois par jour avec un sulfamide ou si clairance < 50 ml/min)"
+   ],
+   "posologieEnfant": [
+    "Non recommandée avant 18 ans"
+   ],
+   "contreIndications": [
+    "Insuffisance hépatique",
+    "Diabète de type 1, acidocétose"
+   ],
+   "precautions": [
+    "Contrôler les transaminases avant le traitement puis tous les 3 mois la 1re année",
+    "Douleur abdominale intense : penser à une pancréatite"
+   ],
+   "effetsIndesirables": [
+    "Vertiges, céphalées",
+    "Élévation des transaminases",
+    "Pancréatite (rare)"
+   ],
+   "grossesse": "Contre-indiquée pendant la grossesse (insuline).",
+   "motsCles": "vildagliptine, galvus, vildishal, gliptine, DPP-4, diabète",
+   "famille": "Antidiabétique oral – inhibiteur de la DPP-4 (gliptine)",
+   "mecanisme": "Bloque l'enzyme DPP-4 qui dégrade les incrétines : plus d'insuline et moins de glucagon après les repas.",
+   "calculs": [],
+   "id": 579
+  },
+  {
+   "dci": "Acide méfénamique",
+   "noms": "Ponstyl, Ponstan, Newmex, Sparet (+ dicyclovérine), Sparet Forte (+ paracétamol)",
+   "classe": "antalgiques",
+   "formes": "Gélule ou comprimé 250 et 500 mg ; suspension",
+   "indications": [
+    "Règles douloureuses, règles abondantes",
+    "Douleurs légères à modérées (courte durée)"
+   ],
+   "posologieAdulte": [
+    "500 mg 3 fois par jour au cours des repas, 7 jours au maximum (règles : dès le début des douleurs, 3 jours)"
+   ],
+   "posologieEnfant": [
+    "Plus de 12 ans : comme l'adulte ; avant, préférer l'ibuprofène ou le paracétamol"
+   ],
+   "contreIndications": [
+    "Ulcère gastroduodénal évolutif ou antécédent de saignement digestif",
+    "Insuffisance rénale, hépatique ou cardiaque sévère",
+    "Grossesse à partir de 20 semaines (6 mois)",
+    "Asthme déclenché par l'aspirine ou les AINS",
+    "Suspicion de dengue ou de fièvre hémorragique",
+    "Maladie inflammatoire de l'intestin"
+   ],
+   "precautions": [
+    "Diarrhée : arrêter (effet fréquent avec cet AINS)",
+    "Anémie hémolytique et atteintes rénales décrites : pas au long cours",
+    "Ne pas associer à un autre AINS ni aux anticoagulants",
+    "Associations (Sparet, Sparet Forte) : compter chaque principe actif"
+   ],
+   "effetsIndesirables": [
+    "Douleurs d'estomac, ulcère, saignement digestif",
+    "Insuffisance rénale aiguë",
+    "Rétention d'eau, hypertension",
+    "Réactions allergiques",
+    "Diarrhée",
+    "Anémie hémolytique (rare)"
+   ],
+   "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
+   "motsCles": "acide méfénamique, mefenamique, ponstyl, ponstan, newmex, sparet, AINS, règles douloureuses, dysménorrhée",
+   "famille": "AINS – fénamate",
+   "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
+   "calculs": [],
+   "id": 580
+  },
+  {
+   "dci": "Drotavérine",
+   "noms": "No-Spa, Doverin, Spasma-Calm ; associations : Doverin-M (+ acide méfénamique)",
+   "classe": "digestif",
+   "formes": "Comprimé 40 et 80 mg ; ampoule 40 mg/2 ml",
+   "indications": [
+    "Spasmes des voies digestives, biliaires et urinaires (colique néphrétique, biliaire)",
+    "Règles douloureuses"
+   ],
+   "posologieAdulte": [
+    "40 à 80 mg 2 à 3 fois par jour (maximum 240 mg par jour) ; injection : 40 à 80 mg IM ou IV lente"
+   ],
+   "posologieEnfant": [
+    "6 à 12 ans : 40 mg 1 à 2 fois par jour ; plus de 12 ans : 40 mg 2 à 4 fois par jour ; non recommandée avant 6 ans"
+   ],
+   "contreIndications": [
+    "Insuffisance hépatique, rénale ou cardiaque sévère",
+    "Bloc auriculoventriculaire du 2e ou 3e degré",
+    "Allergie"
+   ],
+   "precautions": [
+    "Douleur abdominale aiguë : rechercher d'abord une cause chirurgicale",
+    "IV : hypotension, injecter lentement le patient allongé"
+   ],
+   "effetsIndesirables": [
+    "Nausées, constipation",
+    "Vertiges, céphalées",
+    "Hypotension, palpitations (IV)"
+   ],
+   "grossesse": "Éviter pendant la grossesse et l'allaitement par prudence.",
+   "motsCles": "drotavérine, drotaverine, no-spa, doverin, antispasmodique, colique, spasmes",
+   "famille": "Antispasmodique musculotrope",
+   "mecanisme": "Inhibe la phosphodiestérase IV des muscles lisses : relâchement des fibres musculaires, sans effet anticholinergique.",
+   "calculs": [],
+   "id": 581
+  },
+  {
+   "dci": "Acéclofénac",
+   "noms": "Aceclomol (+ paracétamol), Moviz, Moviz-XP (+ paracétamol), Cartrex",
+   "classe": "antalgiques",
+   "formes": "Comprimé 100 mg",
+   "indications": [
+    "Arthrose, polyarthrite, spondylarthrite (douleur et inflammation)",
+    "Douleurs aiguës (courte durée)"
+   ],
+   "posologieAdulte": [
+    "100 mg 2 fois par jour au cours des repas (maximum 200 mg par jour) ; insuffisance hépatique : 100 mg par jour"
+   ],
+   "posologieEnfant": [
+    "Non recommandé avant 18 ans"
+   ],
+   "contreIndications": [
+    "Ulcère gastroduodénal évolutif ou antécédent de saignement digestif",
+    "Insuffisance rénale, hépatique ou cardiaque sévère",
+    "Grossesse à partir de 20 semaines (6 mois)",
+    "Asthme déclenché par l'aspirine ou les AINS",
+    "Suspicion de dengue ou de fièvre hémorragique",
+    "Maladie coronaire, artériopathie, antécédent d'AVC"
+   ],
+   "precautions": [
+    "Comme le diclofénac (molécule proche) : risque cardiovasculaire ; protéger l'estomac chez le sujet âgé",
+    "Associations avec paracétamol : compter le paracétamol total"
+   ],
+   "effetsIndesirables": [
+    "Douleurs d'estomac, ulcère, saignement digestif",
+    "Insuffisance rénale aiguë",
+    "Rétention d'eau, hypertension",
+    "Réactions allergiques"
+   ],
+   "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
+   "motsCles": "acéclofénac, aceclofenac, aceclomol, moviz, AINS, arthrose, douleur",
+   "famille": "AINS – dérivé de l'acide phénylacétique",
+   "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
+   "calculs": [],
+   "id": 582
+  },
+  {
+   "dci": "Kétorolac",
+   "noms": "Toradol, Acular (collyre), Ketorol",
+   "classe": "antalgiques",
+   "formes": "Comprimé 10 mg ; ampoule 30 mg/ml ; collyre 0,5 %",
+   "indications": [
+    "Douleur aiguë modérée à sévère (postopératoire, colique néphrétique), sur une très courte durée"
+   ],
+   "posologieAdulte": [
+    "Voie orale : 10 mg toutes les 4 à 6 h, maximum 40 mg par jour, 5 jours au maximum (voie IM/IV comprise)",
+    "IM ou IV : 10 à 30 mg toutes les 4 à 6 h, maximum 90 mg par jour (60 mg chez le sujet âgé ou de moins de 50 kg), 2 jours au maximum"
+   ],
+   "posologieEnfant": [
+    "Non recommandé avant 16 ans"
+   ],
+   "contreIndications": [
+    "Ulcère gastroduodénal évolutif ou antécédent de saignement digestif",
+    "Insuffisance rénale, hépatique ou cardiaque sévère",
+    "Grossesse à partir de 20 semaines (6 mois)",
+    "Asthme déclenché par l'aspirine ou les AINS",
+    "Suspicion de dengue ou de fièvre hémorragique",
+    "Hémorragie ou risque hémorragique, chirurgie à risque de saignement",
+    "Hypovolémie, déshydratation",
+    "Accouchement, allaitement"
+   ],
+   "precautions": [
+    "AINS le plus toxique pour l'estomac et le rein : respecter strictement les doses maximales et la durée",
+    "Ne pas associer à un autre AINS, à l'aspirine ou aux anticoagulants"
+   ],
+   "effetsIndesirables": [
+    "Douleurs d'estomac, ulcère, saignement digestif",
+    "Insuffisance rénale aiguë",
+    "Rétention d'eau, hypertension",
+    "Réactions allergiques",
+    "Saignements",
+    "Insuffisance rénale aiguë"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse, l'accouchement et l'allaitement.",
+   "motsCles": "kétorolac, ketorolac, toradol, AINS, douleur postopératoire, colique néphrétique",
+   "famille": "AINS – dérivé de l'acide acétique (antalgique puissant)",
+   "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
+   "calculs": [],
+   "id": 583
+  },
+  {
+   "dci": "Méloxicam",
+   "noms": "Mobic, Mobicox",
+   "classe": "antalgiques",
+   "formes": "Comprimé 7,5 et 15 mg ; injectable 15 mg",
+   "indications": [
+    "Arthrose (poussée), polyarthrite rhumatoïde, spondylarthrite"
+   ],
+   "posologieAdulte": [
+    "7,5 à 15 mg une fois par jour (maximum 15 mg ; 7,5 mg chez le sujet âgé à risque)"
+   ],
+   "posologieEnfant": [
+    "Non recommandé avant 16 ans"
+   ],
+   "contreIndications": [
+    "Ulcère gastroduodénal évolutif ou antécédent de saignement digestif",
+    "Insuffisance rénale, hépatique ou cardiaque sévère",
+    "Grossesse à partir de 20 semaines (6 mois)",
+    "Asthme déclenché par l'aspirine ou les AINS",
+    "Suspicion de dengue ou de fièvre hémorragique"
+   ],
+   "precautions": [
+    "Plus sélectif de la COX-2 mais risque digestif et cardiovasculaire comme les autres AINS",
+    "Ne pas associer à un autre AINS"
+   ],
+   "effetsIndesirables": [
+    "Douleurs d'estomac, ulcère, saignement digestif",
+    "Insuffisance rénale aiguë",
+    "Rétention d'eau, hypertension",
+    "Réactions allergiques"
+   ],
+   "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
+   "motsCles": "méloxicam, meloxicam, mobic, AINS, arthrose, rhumatisme",
+   "famille": "AINS – oxicam (préférentiel COX-2)",
+   "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
+   "calculs": [],
+   "id": 584
+  },
+  {
+   "dci": "Piroxicam",
+   "noms": "Feldène, Brexin, Piroxicam",
+   "classe": "antalgiques",
+   "formes": "Gélule 10 et 20 mg ; comprimé dispersible 20 mg ; gel",
+   "indications": [
+    "Arthrose, polyarthrite, spondylarthrite, en 2e intention (restrictions de l'EMA 2007)"
+   ],
+   "posologieAdulte": [
+    "20 mg une fois par jour (maximum 20 mg), réévaluer à 14 jours"
+   ],
+   "posologieEnfant": [
+    "Non recommandé avant 15 ans"
+   ],
+   "contreIndications": [
+    "Ulcère gastroduodénal évolutif ou antécédent de saignement digestif",
+    "Insuffisance rénale, hépatique ou cardiaque sévère",
+    "Grossesse à partir de 20 semaines (6 mois)",
+    "Asthme déclenché par l'aspirine ou les AINS",
+    "Suspicion de dengue ou de fièvre hémorragique",
+    "Antécédent de réaction cutanée grave à un médicament"
+   ],
+   "precautions": [
+    "Risque digestif et cutané (syndrome de Stevens-Johnson, Lyell) plus élevé que les autres AINS : ne pas l'utiliser pour une douleur aiguë",
+    "Associer un protecteur gastrique (oméprazole)"
+   ],
+   "effetsIndesirables": [
+    "Douleurs d'estomac, ulcère, saignement digestif",
+    "Insuffisance rénale aiguë",
+    "Rétention d'eau, hypertension",
+    "Réactions allergiques",
+    "Réactions cutanées graves"
+   ],
+   "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
+   "motsCles": "piroxicam, feldène, feldene, AINS, oxicam, rhumatisme",
+   "famille": "AINS – oxicam",
+   "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
+   "calculs": [],
+   "id": 585
+  },
+  {
+   "dci": "Secnidazole",
+   "noms": "Secnol, Flagentyl ; kits avec azithromycine et fluconazole (Kiptar, Vagid Kit, Azisif Kit)",
+   "classe": "antiparasitaires",
+   "formes": "Granulés 2 g (sachet) ; comprimé 500 mg",
+   "indications": [
+    "Trichomonase, vaginose bactérienne",
+    "Amibiase intestinale, giardiase"
+   ],
+   "posologieAdulte": [
+    "Trichomonase, vaginose, amibiase intestinale, giardiase : 2 g en une prise unique (amibiase hépatique : 1,5 g par jour pendant 5 jours)",
+    "Traiter le partenaire en cas de trichomonase"
+   ],
+   "posologieEnfant": [
+    "Amibiase intestinale, giardiase : 30 mg/kg en une prise unique (maximum 2 g)"
+   ],
+   "contreIndications": [
+    "Allergie aux nitro-imidazolés",
+    "1er trimestre de grossesse"
+   ],
+   "precautions": [
+    "Pas d'alcool pendant le traitement et les 48 h suivantes (effet antabuse)",
+    "Kits « IST » associant 3 médicaments : préférer l'algorithme OMS des écoulements vaginaux"
+   ],
+   "effetsIndesirables": [
+    "Nausées, goût métallique",
+    "Douleurs abdominales",
+    "Vertiges"
+   ],
+   "grossesse": "Contre-indiqué au 1er trimestre ; éviter pendant l'allaitement (ou suspendre 48 h).",
+   "motsCles": "secnidazole, secnol, flagentyl, trichomonas, vaginose, amibiase, giardiase",
+   "famille": "Antiparasitaire et antibiotique – nitro-imidazolé (longue durée d'action)",
+   "mecanisme": "Réduit dans les germes anaérobies et les protozoaires en dérivés toxiques qui cassent leur ADN ; demi-vie longue (dose unique).",
+   "calculs": [
+    {
+     "titre": "Amibiase intestinale ou giardiase (dose unique)",
+     "doseKg": 30,
+     "unite": "mg",
+     "frequence": "en une prise unique",
+     "doseMax": 2000,
+     "presentations": [
+      {
+       "nom": "Comprimé 500 mg",
+       "dose": 500,
+       "par": 1,
+       "unite": "comprimé(s)"
+      }
+     ]
+    }
+   ],
+   "id": 586
+  },
+  {
+   "dci": "Lévocétirizine",
+   "noms": "Xyzall, Levocizine, Alatrol, Levotoux (+ chlorphénamine)",
+   "classe": "respiratoire",
+   "formes": "Comprimé 5 mg ; solution buvable 0,5 mg/ml",
+   "indications": [
+    "Rhinite allergique, conjonctivite allergique",
+    "Urticaire"
+   ],
+   "posologieAdulte": [
+    "5 mg une fois par jour ; insuffisance rénale : espacer (5 mg tous les 2 ou 3 jours si sévère)"
+   ],
+   "posologieEnfant": [
+    "2 à 6 ans : 1,25 mg (2,5 ml) 2 fois par jour",
+    "6 ans et plus : 5 mg une fois par jour"
+   ],
+   "contreIndications": [
+    "Allergie à la cétirizine ou à l'hydroxyzine",
+    "Insuffisance rénale terminale"
+   ],
+   "precautions": [
+    "Somnolence possible : prudence au volant, éviter l'alcool"
+   ],
+   "effetsIndesirables": [
+    "Somnolence, fatigue",
+    "Bouche sèche, céphalées"
+   ],
+   "grossesse": "Utilisable pendant la grossesse si nécessaire (préférer la cétirizine ou la loratadine).",
+   "motsCles": "lévocétirizine, levocetirizine, xyzall, levocizine, allergie, rhinite, urticaire",
+   "famille": "Antihistaminique H1 (2e génération)",
+   "mecanisme": "Énantiomère actif de la cétirizine : bloque les récepteurs H1 périphériques de l'histamine.",
+   "calculs": [],
+   "id": 587
+  },
+  {
+   "dci": "Hydroxyzine",
+   "noms": "Atarax",
+   "classe": "neuro",
+   "formes": "Comprimé 25 mg ; sirop 2 mg/ml ; injectable 100 mg/2 ml",
+   "indications": [
+    "Anxiété (courte durée)",
+    "Prurit, urticaire",
+    "Prémédication avant une anesthésie"
+   ],
+   "posologieAdulte": [
+    "Anxiété : 25 à 50 mg par jour en 2 à 3 prises (maximum 100 mg par jour) ; sujet âgé : maximum 50 mg par jour"
+   ],
+   "posologieEnfant": [
+    "Plus de 30 mois : 1 mg/kg par jour en 2 à 3 prises (maximum 2 mg/kg/jour ; 50 mg par jour jusqu'à 40 kg)"
+   ],
+   "contreIndications": [
+    "Allongement du QT, bradycardie, hypokaliémie",
+    "Porphyrie",
+    "Glaucome à angle fermé, rétention urinaire",
+    "Grossesse, allaitement"
+   ],
+   "precautions": [
+    "Allonge le QT (EMA 2015) : ne pas associer aux autres médicaments allongeant le QT (érythromycine, halopéridol, chloroquine, méthadone)",
+    "Somnolence : prudence au volant ; éviter l'alcool"
+   ],
+   "effetsIndesirables": [
+    "Somnolence",
+    "Bouche sèche, constipation",
+    "Troubles du rythme (surdosage)"
+   ],
+   "grossesse": "Contre-indiquée pendant la grossesse et l'allaitement.",
+   "motsCles": "hydroxyzine, atarax, anxiété, prurit, démangeaisons, prémédication",
+   "famille": "Antihistaminique H1 sédatif (anxiolytique)",
+   "mecanisme": "Bloque les récepteurs H1 centraux et périphériques : sédation, effet anxiolytique et antiprurigineux.",
+   "calculs": [
+    {
+     "titre": "Dose par jour (plus de 30 mois, en 2 à 3 prises)",
+     "doseKg": 1,
+     "unite": "mg",
+     "frequence": "par jour, en 2 à 3 prises",
+     "doseMax": 50,
+     "presentations": [
+      {
+       "nom": "Sirop 2 mg/ml",
+       "dose": 2,
+       "par": 1,
+       "unite": "ml"
+      }
+     ]
+    }
+   ],
+   "id": 588
+  },
+  {
+   "dci": "Gabapentine",
+   "noms": "Neurontin",
+   "classe": "neuro",
+   "formes": "Gélule 100, 300 et 400 mg ; comprimé 600 et 800 mg",
+   "indications": [
+    "Douleur neuropathique (diabète, zona)",
+    "Épilepsie partielle (en association)"
+   ],
+   "posologieAdulte": [
+    "Douleur : 300 mg le 1er jour, 300 mg 2 fois le 2e jour, 300 mg 3 fois le 3e jour, puis augmenter selon l'effet jusqu'à 1 800–3 600 mg par jour en 3 prises",
+    "Insuffisance rénale : réduire selon la clairance",
+    "Arrêt progressif sur au moins 1 semaine"
+   ],
+   "posologieEnfant": [
+    "Épilepsie, 6 ans et plus : 10 à 15 mg/kg par jour au début, puis 25 à 35 mg/kg par jour en 3 prises (avis spécialisé)"
+   ],
+   "contreIndications": [
+    "Allergie à la gabapentine"
+   ],
+   "precautions": [
+    "Mésusage et dépendance possibles",
+    "Avec les opioïdes : risque de dépression respiratoire",
+    "Somnolence et vertiges : prudence au volant"
+   ],
+   "effetsIndesirables": [
+    "Somnolence, vertiges, ataxie",
+    "Prise de poids, œdèmes",
+    "Fatigue"
+   ],
+   "grossesse": "Éviter pendant la grossesse si possible ; utilisable pendant l'allaitement avec surveillance.",
+   "motsCles": "gabapentine, neurontin, douleur neuropathique, neuropathie, épilepsie",
+   "famille": "Antiépileptique – gabapentinoïde",
+   "mecanisme": "Se fixe sur la sous-unité alpha-2-delta des canaux calciques neuronaux et réduit la libération des neurotransmetteurs excitateurs.",
+   "calculs": [],
+   "id": 589
+  },
+  {
+   "dci": "Sildénafil",
+   "noms": "Viagra, Kifaru (Shalina), Sildemax, Vigoral, Revatio (hypertension pulmonaire)",
+   "classe": "cardio",
+   "formes": "Comprimé 25, 50 et 100 mg ; comprimé 20 mg (Revatio) ; gelée orale",
+   "indications": [
+    "Dysfonction érectile",
+    "Hypertension artérielle pulmonaire (Revatio)"
+   ],
+   "posologieAdulte": [
+    "Dysfonction érectile : 50 mg environ 1 h avant le rapport (25 à 100 mg), une fois par jour au maximum",
+    "Hypertension pulmonaire : 20 mg 3 fois par jour"
+   ],
+   "posologieEnfant": [
+    "Hypertension pulmonaire de l'enfant : avis spécialisé uniquement"
+   ],
+   "contreIndications": [
+    "Dérivés nitrés (trinitrine, isosorbide) ou donneurs de NO : hypotension mortelle",
+    "Infarctus ou AVC récent, angor instable, insuffisance cardiaque sévère, hypotension (< 90/50)",
+    "Neuropathie optique ischémique antérieure"
+   ],
+   "precautions": [
+    "Dysfonction érectile : rechercher un diabète, une hypertension, une maladie coronaire (bilan cardiovasculaire)",
+    "Érection de plus de 4 h : urgence (priapisme)",
+    "Produits vendus hors pharmacie souvent surdosés ou contrefaits",
+    "Interactions : ritonavir, kétoconazole, érythromycine (réduire la dose)"
+   ],
+   "effetsIndesirables": [
+    "Céphalées, bouffées de chaleur",
+    "Congestion nasale, dyspepsie",
+    "Troubles de la vision des couleurs",
+    "Hypotension"
+   ],
+   "grossesse": "Sans objet pour la dysfonction érectile ; hypertension pulmonaire de la femme enceinte : avis spécialisé.",
+   "motsCles": "sildénafil, sildenafil, viagra, kifaru, dysfonction érectile, impuissance, hypertension pulmonaire",
+   "famille": "Inhibiteur de la phosphodiestérase de type 5 (IPDE-5)",
+   "mecanisme": "Bloque la PDE-5 qui dégrade le GMP cyclique : relâchement des muscles lisses des corps caverneux et des artères pulmonaires.",
+   "calculs": [],
+   "id": 590
+  },
+  {
+   "dci": "Tamsulosine",
+   "noms": "Omix, Josir, Mecir, Tamsulex, Tamsulex D (+ dutastéride)",
+   "classe": "cardio",
+   "formes": "Gélule à libération prolongée 0,4 mg",
+   "indications": [
+    "Hypertrophie bénigne de la prostate (troubles urinaires)",
+    "Aide à l'expulsion d'un calcul de l'uretère distal (hors AMM)"
+   ],
+   "posologieAdulte": [
+    "0,4 mg une fois par jour après le petit-déjeuner"
+   ],
+   "posologieEnfant": [
+    "Non indiquée chez l'enfant"
+   ],
+   "contreIndications": [
+    "Hypotension orthostatique",
+    "Insuffisance hépatique sévère"
+   ],
+   "precautions": [
+    "Avant de traiter : toucher rectal, rechercher une infection urinaire, une rétention, et doser le PSA selon l'âge (cancer de la prostate)",
+    "Signaler le traitement avant une chirurgie de la cataracte (syndrome de l'iris flasque)",
+    "Premières prises : vertiges en se levant"
+   ],
+   "effetsIndesirables": [
+    "Vertiges, hypotension orthostatique",
+    "Troubles de l'éjaculation",
+    "Congestion nasale"
+   ],
+   "grossesse": "Sans objet.",
+   "motsCles": "tamsulosine, omix, josir, tamsulex, prostate, adénome, hypertrophie de la prostate, dysurie",
+   "famille": "Alphabloquant urologique",
+   "mecanisme": "Bloque les récepteurs alpha-1A de la prostate et du col de la vessie : relâchement musculaire qui facilite le passage de l'urine.",
+   "calculs": [],
+   "id": 591
+  },
+  {
+   "dci": "Acide fusidique (crème ou pommade)",
+   "noms": "Fucidine, Fusidiq, Fucidin",
+   "classe": "dermato",
+   "formes": "Crème ou pommade 2 %",
+   "indications": [
+    "Impétigo localisé, petites plaies infectées (staphylocoque)"
+   ],
+   "posologieAdulte": [
+    "2 à 3 applications par jour, 7 jours au maximum"
+   ],
+   "posologieEnfant": [
+    "Même usage chez l'enfant"
+   ],
+   "contreIndications": [
+    "Allergie"
+   ],
+   "precautions": [
+    "Usage prolongé ou répété : résistance du staphylocoque",
+    "Impétigo étendu, fièvre : antibiotique par voie orale (cloxacilline, amoxicilline-clavulanate)"
+   ],
+   "effetsIndesirables": [
+    "Irritation, eczéma de contact (rare)"
+   ],
+   "grossesse": "Utilisable.",
+   "motsCles": "acide fusidique, fucidine, fusidiq, impétigo, staphylocoque, crème antibiotique",
+   "famille": "Antibiotique local (fusidane)",
+   "mecanisme": "Bloque le facteur d'élongation G des bactéries et arrête la synthèse des protéines (staphylocoque surtout).",
+   "calculs": [],
+   "id": 592
+  },
+  {
+   "dci": "Bisacodyl",
+   "noms": "Dulcolax, Contalax",
+   "classe": "digestif",
+   "formes": "Comprimé gastrorésistant 5 mg ; suppositoire 10 mg",
+   "indications": [
+    "Constipation occasionnelle",
+    "Préparation à un examen (lavement, coloscopie)"
+   ],
+   "posologieAdulte": [
+    "5 à 10 mg le soir au coucher (effet en 6 à 12 h) ; suppositoire 10 mg le matin (effet en 20 à 60 min)"
+   ],
+   "posologieEnfant": [
+    "Plus de 10 ans : 5 mg le soir ; 2 à 10 ans : suppositoire enfant 5 mg sur avis médical"
+   ],
+   "contreIndications": [
+    "Occlusion, douleur abdominale aiguë inexpliquée",
+    "Maladie inflammatoire de l'intestin",
+    "Déshydratation sévère"
+   ],
+   "precautions": [
+    "Constipation : d'abord eau, fibres, activité physique ; usage court",
+    "Usage prolongé : hypokaliémie, dépendance aux laxatifs",
+    "Ne pas croquer les comprimés ni les prendre avec du lait ou un antiacide (dissolution trop précoce)"
+   ],
+   "effetsIndesirables": [
+    "Crampes abdominales, diarrhée",
+    "Hypokaliémie (usage prolongé)"
+   ],
+   "grossesse": "Utilisable ponctuellement pendant la grossesse et l'allaitement.",
+   "motsCles": "bisacodyl, dulcolax, laxatif, constipation",
+   "famille": "Laxatif stimulant",
+   "mecanisme": "Stimule les terminaisons nerveuses du côlon et la sécrétion d'eau dans l'intestin.",
+   "calculs": [],
+   "id": 593
   }
  ],
  "categoriesPathologies": [
