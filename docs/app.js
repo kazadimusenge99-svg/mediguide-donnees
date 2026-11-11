@@ -184,7 +184,7 @@ function router() {
   if (route !== "recherche") $("#champRecherche").value = "";
   const r = decodeURIComponent(a), r2 = decodeURIComponent(b);
   const vues = { accueil, recherche, sujet, medicaments, med: medicaments, pathologies, patho: pathologies, symptomes, sympt: symptomes,
-    dispensaire, disp: dispensaire, protocoles, proto: protocoles, scores, score: scores, cas, apropos };
+    dispensaire, disp: dispensaire, croissance, quiz, protocoles, proto: protocoles, scores, score: scores, cas, apropos };
   (vues[route] || accueil)(route, r, r2);
   if (route !== "recherche") window.scrollTo(0, 0);
 }
@@ -213,6 +213,8 @@ function accueil() {
     ["#/dispensaire", "🧰", "Dispensaire", "Doses et conduites", "#00838F"],
     ["#/protocoles", "🚨", "Protocoles d'urgence", `${(D.protocoles || []).length} protocoles`, "#B71C1C"],
     ["#/scores", "🧮", "Scores médicaux", `${(D.scores || []).length} scores`, "#4527A0"],
+    ["#/croissance", "📈", "Courbes de croissance", "OMS et Fenton", "#2E7D32"],
+    ["#/quiz", "❓", "Quiz", `${(D.quiz || []).length} questions`, "#AD1457"],
     ["#/cas", "🎓", "Cas cliniques", `${(CAS.casCliniques || []).length} cas`, "#6D4C41"],
   ];
   contenu.innerHTML = `
@@ -563,5 +565,153 @@ let invite = null;
 window.addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); invite = e; $("#boutonInstaller").hidden = false; });
 $("#boutonInstaller").addEventListener("click", async () => { if (!invite) return; invite.prompt(); await invite.userChoice; invite = null; $("#boutonInstaller").hidden = true; });
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+
+
+// ---------------------------------------------------------------------------
+// Courbes de croissance : OMS (0–5 ans) et Fenton (prématurés, 22–50 semaines)
+// ---------------------------------------------------------------------------
+const NORMES = {};
+async function normes(nom) {
+  if (!NORMES[nom]) NORMES[nom] = await fetch(`croissance_${nom}.json`).then((r) => r.json());
+  return NORMES[nom];
+}
+function lmsA(t, x) {
+  if (!t || !t.length || x < t[0][0] - 1e-9 || x > t[t.length - 1][0] + 1e-9) return null;
+  let i = 0; while (i < t.length - 1 && t[i + 1][0] <= x + 1e-9) i++;
+  const p = t[i]; if (i === t.length - 1 || Math.abs(p[0] - x) < 1e-9) return p;
+  const q = t[i + 1], k = (x - p[0]) / (q[0] - p[0]);
+  return [x, p[1] + k * (q[1] - p[1]), p[2] + k * (q[2] - p[2]), p[3] + k * (q[3] - p[3])];
+}
+const valZ = ([, L, M, S], z) => Math.abs(L) < 1e-9 ? M * Math.exp(S * z) : M * (1 + L * S * z) ** (1 / L);
+function zScore(lms, x, restreint) {
+  const [, L, M, S] = lms;
+  const z = Math.abs(L) < 1e-9 ? Math.log(x / M) / S : ((x / M) ** L - 1) / (L * S);
+  if (!restreint) return z;
+  if (z > 3) { const s3 = valZ(lms, 3); return 3 + (x - s3) / (s3 - valZ(lms, 2)); }
+  if (z < -3) { const s3 = valZ(lms, -3); return -3 + (x - s3) / (valZ(lms, -2) - s3); }
+  return z;
+}
+function phi(z) {
+  const t = 1 / (1 + 0.2316419 * Math.abs(z)), d = 0.3989422804014327 * Math.exp(-z * z / 2);
+  const p = d * t * (0.31938153 + t * (-0.356563782 + t * (1.781477937 + t * (-1.821255978 + t * 1.330274429))));
+  return z >= 0 ? 1 - p : p;
+}
+const texteCentile = (z) => { const p = phi(z) * 100; return p < 1 ? "< 1er percentile" : p > 99 ? "> 99e percentile" : `${Math.max(1, Math.floor(p))}e percentile`; };
+const texteZ = (z) => (z >= 0 ? "+" : "−") + Math.abs(z).toFixed(1).replace(".", ",");
+function interpOms(ind, z) {
+  if (ind === "poidsAge") return z < -3 ? ["Insuffisance pondérale sévère", "danger"] : z < -2 ? ["Insuffisance pondérale", "attention"] : z > 2 ? ["Poids élevé pour l'âge : interpréter avec le poids pour la taille", "attention"] : ["Normal", "ok"];
+  if (ind === "tailleAge") return z < -3 ? ["Retard de croissance sévère (malnutrition chronique)", "danger"] : z < -2 ? ["Retard de croissance (malnutrition chronique)", "attention"] : z > 3 ? ["Très grande taille : rechercher une cause endocrinienne", "attention"] : ["Normal", "ok"];
+  if (ind === "pcAge") return z < -3 ? ["Microcéphalie sévère", "danger"] : z < -2 ? ["Microcéphalie : surveiller le développement", "attention"] : z > 3 ? ["Macrocéphalie sévère : rechercher une hydrocéphalie", "danger"] : z > 2 ? ["Macrocéphalie : surveiller (fontanelle, développement)", "attention"] : ["Normal", "ok"];
+  return z < -3 ? ["Émaciation sévère (malnutrition aiguë sévère)", "danger"] : z < -2 ? ["Émaciation (malnutrition aiguë modérée)", "attention"] : z > 3 ? ["Obésité", "danger"] : z > 2 ? ["Surpoids", "attention"] : z > 1 ? ["Risque de surpoids", "ok"] : ["Normal", "ok"];
+}
+function interpFenton(ind, z) {
+  const p = phi(z) * 100;
+  if (ind === "pc") return p < 3 ? ["Périmètre crânien < 3e percentile : microcéphalie, rechercher une cause (infection congénitale, asphyxie)", "danger"] : p < 10 ? ["Petit périmètre crânien (< 10e percentile) : surveiller", "attention"] : p > 97 ? ["Périmètre crânien > 97e percentile : rechercher une hydrocéphalie (fontanelle, échographie)", "danger"] : p > 90 ? ["Grand périmètre crânien (> 90e percentile) : surveiller", "attention"] : ["Normal (entre le 10e et le 90e percentile)", "ok"];
+  return p < 3 ? ["Très petit pour l'âge gestationnel (< 3e percentile) : retard de croissance sévère, risque d'hypoglycémie et d'hypothermie", "danger"] : p < 10 ? ["Petit pour l'âge gestationnel (< 10e percentile) : hypotrophie, surveiller glycémie, température et alimentation", "attention"] : p > 97 ? ["Très gros pour l'âge gestationnel (> 97e percentile) : rechercher un diabète maternel, surveiller la glycémie", "attention"] : p > 90 ? ["Gros pour l'âge gestationnel (> 90e percentile) : surveiller la glycémie", "attention"] : ["Eutrophe (entre le 10e et le 90e percentile)", "ok"];
+}
+function graphique(t, x, v, zl, coul) {
+  const W = 560, H = 260, g = 40, b = 28;
+  const x0 = t[0][0], x1 = t[t.length - 1][0];
+  const ys = t.flatMap((p) => [valZ(p, zl[0]), valZ(p, zl[zl.length - 1])]).concat([v]);
+  const y0 = Math.min(...ys) * 0.97, y1 = Math.max(...ys) * 1.03;
+  const X = (a) => g + (a - x0) / (x1 - x0) * (W - g - 10), Y = (a) => H - b - (a - y0) / (y1 - y0) * (H - b - 10);
+  const pas = Math.max(1, Math.floor(t.length / 120));
+  const ligne = (z) => t.filter((_, i) => i % pas === 0 || i === t.length - 1).map((p, i) => `${i ? "L" : "M"}${X(p[0]).toFixed(1)},${Y(valZ(p, z)).toFixed(1)}`).join("");
+  const cl = (z) => Math.abs(z) < 0.01 ? "var(--ok)" : Math.abs(z) > 2.5 || Math.abs(z) > 1.8 && Math.abs(z) < 1.9 ? "var(--danger)" : "var(--attention)";
+  const ticks = (a, c, n) => Array.from({ length: n + 1 }, (_, i) => a + (c - a) * i / n);
+  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:640px;background:var(--surface);border-radius:12px;border:1px solid var(--bord)">
+    ${ticks(y0, y1, 4).map((a) => `<line x1="${g}" x2="${W - 10}" y1="${Y(a)}" y2="${Y(a)}" stroke="var(--bord)"/><text x="${g - 4}" y="${Y(a) + 4}" font-size="10" text-anchor="end" fill="var(--texte2)">${fmt(a)}</text>`).join("")}
+    ${ticks(x0, x1, 6).map((a) => `<text x="${X(a)}" y="${H - 10}" font-size="10" text-anchor="middle" fill="var(--texte2)">${fmt(a)}</text>`).join("")}
+    ${zl.map((z) => `<path d="${ligne(z)}" fill="none" stroke="${cl(z)}" stroke-width="${Math.abs(z) < 0.01 ? 2 : 1.3}" opacity=".85"/>`).join("")}
+    <circle cx="${X(x)}" cy="${Y(v)}" r="6" fill="${coul}" stroke="#fff" stroke-width="2"/></svg>`;
+}
+let etatCr = { mode: "oms", sexe: "garcon" };
+async function croissance() {
+  const [oms, fen] = await Promise.all([normes("oms"), normes("fenton")]);
+  const champ = (k, l, u, aide, val = "") => `<label class="champ">${l}${u ? ` (${u})` : ""}<input id="c_${k}" inputmode="decimal" value="${esc(etatCr[k] ?? val)}">${aide ? `<span class="petit">${aide}</span>` : ""}</label>`;
+  const puce = (k, v, l) => `<button class="puce${etatCr[k] === v ? " actif" : ""}" data-k="${k}" data-v="${v}">${l}</button>`;
+  const fenton = etatCr.mode === "fenton";
+  contenu.innerHTML = `<h1>📈 Courbes de croissance</h1><p class="sous">${fenton ? "Prématurés : courbes de Fenton (22 à 50 semaines d'âge post-menstruel)" : "Normes OMS, de la naissance à 5 ans"}</p>
+    <div class="puces">${puce("mode", "oms", "Enfant 0–5 ans (OMS)")}${puce("mode", "fenton", "Prématuré (Fenton)")}</div>
+    <div class="puces">${puce("sexe", "garcon", "Garçon")}${puce("sexe", "fille", "Fille")}</div>
+    <div class="grille" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:0 16px">
+    ${fenton ? champ("sa", "Âge post-menstruel", "semaines", "22 à 50") + champ("j", "Jours en plus", "0–6", "") + champ("pg", "Poids", "g", "") + champ("lf", "Longueur", "cm", "") + champ("pcf", "Périmètre crânien", "cm", "")
+             : champ("age", "Âge", "mois", "Ex. 7,5 pour 7 mois et demi") + champ("terme", "Terme de naissance (facultatif)", "SA", "Âge corrigé jusqu'à 24 mois") + champ("p", "Poids", "kg", "", sto.get("poids", "")) + champ("t", "Longueur ou taille", "cm", "Couché avant 2 ans") + champ("pc", "Périmètre crânien (facultatif)", "cm", "")}
+    </div><div id="resCr"></div>
+    <p class="petit">${fenton ? "Courbes : 3e, 10e, 50e, 90e et 97e percentiles. Source : Fenton TR et al., courbes de croissance des prématurés de 3e génération (2025), Université de Calgary, licence CC BY-NC-ND 4.0." : "Z-score : écart à la médiane de référence OMS (−2 à +2 : zone normale). Courbes −3, −2, 0, +2, +3. Source : OMS, Normes de croissance de l'enfant (2006)."}</p>`;
+  contenu.querySelectorAll("[data-k]").forEach((b) => b.addEventListener("click", () => { etatCr[b.dataset.k] = b.dataset.v; croissance(); }));
+  const calc = () => {
+    contenu.querySelectorAll("input[id^=c_]").forEach((i) => (etatCr[i.id.slice(2)] = i.value));
+    const n = (k, a, c) => { const v = nombre(etatCr[k]); return v != null && v >= a && v <= c ? v : null; };
+    const res = [];
+    if (fenton) {
+      const sa = n("sa", 22, 50), j = n("j", 0, 6) || 0, age = sa != null ? Math.min(Math.floor(sa) + j / 7, 50) : null;
+      const T = fen.indicateurs[etatCr.sexe];
+      const aj = (ind, titre, u, v) => { if (age == null || v == null) return; const l = lmsA(T[ind], age); if (!l) return; const z = zScore(l, v, false); res.push({ titre, u, v, z, x: age, t: T[ind], i: interpFenton(ind, z), f: true, axe: "semaines" }); };
+      aj("poids", "Poids", "g", n("pg", 200, 8000)); aj("longueur", "Longueur", "cm", n("lf", 20, 70)); aj("pc", "Périmètre crânien", "cm", n("pcf", 15, 50));
+    } else {
+      const am = n("age", 0, 60), sa = n("terme", 22, 42);
+      const ac = am != null && sa != null && sa < 37 && am < 24 ? Math.max(am - (40 - sa) * 7 / 30.4375, 0) : am;
+      const T = oms.indicateurs[etatCr.sexe], p = n("p", 0.3, 60), h = n("t", 30, 130), c = n("pc", 20, 60);
+      const aj = (ind, titre, u, axe, x, v, r) => { if (x == null || v == null || !T[ind]) return; const l = lmsA(T[ind], x); if (!l) return; const z = zScore(l, v, r); res.push({ titre, u, v, z, x, t: T[ind], i: interpOms(ind, z), axe }); };
+      aj("poidsAge", "Poids pour l'âge", "kg", "âge (mois)", ac, p, true);
+      aj("tailleAge", "Taille pour l'âge", "cm", "âge (mois)", ac, h, false);
+      if (ac != null && ac < 24) aj("poidsTaille02", "Poids pour la longueur", "kg", "longueur (cm)", h, p, true); else aj("poidsTaille25", "Poids pour la taille", "kg", "taille (cm)", h, p, true);
+      if (p != null && h != null) aj("imcAge", "IMC pour l'âge", "kg/m²", "âge (mois)", ac, p / (h / 100) ** 2, true);
+      aj("pcAge", "Périmètre crânien pour l'âge", "cm", "âge (mois)", ac, c, false);
+      if (ac != null && am != null && Math.abs(ac - am) > 0.01) res.unshift({ info: `Âge corrigé utilisé : ${fmt(ac)} mois` });
+    }
+    $("#resCr").innerHTML = res.length ? res.map((r) => r.info ? `<p><b style="color:var(--primaire)">${r.info}</b></p>` : `<div class="fiche" style="margin:14px 0">
+        <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><b>${r.titre} : ${fmt(r.v)} ${r.u}</b><span class="badge" style="color:#fff;background:${COUL[r.i[1]]}">${r.f ? texteCentile(r.z) : "z = " + texteZ(r.z)}</span></div>
+        <div style="color:${COUL[r.i[1]]};font-weight:600;margin:6px 0">${esc(r.i[0])}</div>
+        ${graphique(r.t, r.x, r.v, r.f ? [-1.8808, -1.2816, 0, 1.2816, 1.8808] : [-3, -2, 0, 2, 3], COUL[r.i[1]])}
+        <div class="petit">${r.f ? `z = ${texteZ(r.z)} · ` : ""}axe horizontal : ${r.axe}</div></div>`).join("")
+      : `<p class="petit">Saisissez le sexe, l'âge et au moins une mesure.</p>`;
+  };
+  contenu.querySelectorAll("input[id^=c_]").forEach((i) => i.addEventListener("input", calc));
+  calc();
+}
+
+// ---------------------------------------------------------------------------
+// Quiz
+// ---------------------------------------------------------------------------
+function quiz(_r, theme) {
+  const themes = D.themesQuiz || [];
+  const th = themes.find((t) => t.id === theme);
+  if (!theme) {
+    const meilleur = sto.get("quiz-scores", {});
+    contenu.innerHTML = `<h1>❓ Quiz</h1><p class="sous">${(D.quiz || []).length} questions pour réviser, par thème</p>
+      <div class="grille"><a class="tuile" href="#/quiz/tout"><span class="ico" style="background:#00695C22">🎲</span><b>Tous les thèmes</b><span class="petit">10 questions au hasard</span></a>
+      ${themes.map((t) => { const n = D.quiz.filter((q) => q.theme === t.id).length; return n ? `<a class="tuile" href="#/quiz/${encodeURIComponent(t.id)}"><span class="ico" style="background:${esc(t.couleur)}22">${esc(t.icone)}</span><b>${esc(t.nom)}</b><span class="petit">${n} questions${meilleur[t.id] != null ? ` · meilleur score ${meilleur[t.id]} %` : ""}</span></a>` : ""; }).join("")}</div>`;
+    return;
+  }
+  const qs = (theme === "tout" ? D.quiz : D.quiz.filter((q) => q.theme === theme)).map((q) => [Math.random(), q]).sort((a, b) => a[0] - b[0]).map((x) => x[1]).slice(0, 10);
+  let i = 0, bons = 0;
+  const rendre = () => {
+    const q = qs[i];
+    if (!q) {
+      const pc = Math.round(bons / qs.length * 100);
+      const m = sto.get("quiz-scores", {}); if (m[theme] == null || pc > m[theme]) { m[theme] = pc; sto.set("quiz-scores", m); }
+      contenu.innerHTML = `<p><a href="#/quiz">← Quiz</a></p><div class="fiche" style="text-align:center"><h1>${pc >= 80 ? "🏆" : pc >= 50 ? "👍" : "📚"} ${bons} / ${qs.length}</h1>
+        <p>${pc >= 80 ? "Excellent !" : pc >= 50 ? "Bien, continuez à réviser." : "Relisez les fiches de ce thème et réessayez."}</p>
+        <button class="bouton" id="rejouer">Rejouer</button> <a class="bouton second" href="#/quiz">Autres thèmes</a></div>`;
+      $("#rejouer").addEventListener("click", () => quiz(_r, theme));
+      return;
+    }
+    const p = D.pathoParId[String(q.pathologie)];
+    contenu.innerHTML = `<p><a href="#/quiz">← Quiz</a> · ${esc(th?.nom || "Tous les thèmes")}</p><div class="fiche">
+      <div class="petit">Question ${i + 1} / ${qs.length} · score ${bons}</div><h2 style="margin-top:8px">${esc(q.question)}</h2>
+      ${q.options.map((o, k) => `<button class="choix" data-i="${k}">${esc(o)}</button>`).join("")}<div id="expl"></div></div>`;
+    contenu.querySelectorAll("[data-i]").forEach((b) => b.addEventListener("click", () => {
+      const k = +b.dataset.i;
+      contenu.querySelectorAll("[data-i]").forEach((x) => { x.disabled = true; if (+x.dataset.i === q.bonne) x.classList.add("bon"); });
+      if (k === q.bonne) bons++; else b.classList.add("faux");
+      $("#expl").innerHTML = `<p>${k === q.bonne ? "✅ <b>Bonne réponse.</b>" : "❌ <b>Pas tout à fait.</b>"} ${esc(q.explication)}</p>
+        ${p ? `<p class="petit"><a href="#/patho/${p.id}">Revoir la fiche « ${esc(p.nom)} »</a></p>` : ""}<button class="bouton" id="suiv">${i + 1 < qs.length ? "Question suivante" : "Voir le résultat"}</button>`;
+      $("#suiv").addEventListener("click", () => { i++; rendre(); });
+    }));
+  };
+  rendre();
+}
 
 demarrer();

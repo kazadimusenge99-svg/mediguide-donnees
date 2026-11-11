@@ -1,8 +1,8 @@
 /* Service worker de MédiGuide web : fonctionnement hors connexion.
    - Interface (fichiers de l'application) : cache d'abord, mis à jour en arrière-plan.
    - Données (meds.json, actualités, cas) : réseau d'abord, cache si hors connexion. */
-const VERSION = "mediguide-web-1";
-const INTERFACE = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest", "icone-192.png", "icone-512.png"];
+const VERSION = "mediguide-web-2";
+const INTERFACE = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest", "icone-192.png", "icone-512.png", "croissance_oms.json", "croissance_fenton.json"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(INTERFACE)).then(() => self.skipWaiting()));
