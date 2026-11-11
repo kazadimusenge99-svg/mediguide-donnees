@@ -1,5 +1,5 @@
 {
- "version": 56,
+ "version": 57,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -23659,6 +23659,79 @@
    "id": 515,
    "famille": "Antiémétique antidopaminergique périphérique",
    "mecanisme": "Bloque les récepteurs dopaminergiques D2 de la zone gâchette du vomissement et de l'estomac (accélère la vidange gastrique), en passant peu dans le cerveau."
+  },
+  {
+   "id": 516,
+   "dci": "Cyproheptadine",
+   "noms": "Super Apeti, Super Apeti Plus (+ vitamines), Périactine, Periactin, Apetamin (+ vitamines, marché parallèle)",
+   "classe": "respiratoire",
+   "formes": "Comprimé 4 mg ; sirop 2 mg/5 ml",
+   "indications": [
+    "Allergies : urticaire, prurit, rhinite allergique, piqûres d'insectes",
+    "Syndrome sérotoninergique (antidote, à l'hôpital)",
+    "Souvent utilisée pour « ouvrir l'appétit » : usage hors recommandations OMS ; ne traite pas la cause de l'anorexie ni la malnutrition"
+   ],
+   "posologieAdulte": [
+    "Allergie : 4 mg 3 fois par jour (dose habituelle 12 à 16 mg par jour), maximum 32 mg par jour",
+    "Syndrome sérotoninergique : 12 mg en dose initiale, puis 2 mg toutes les 2 h tant que les symptômes persistent (relais 8 mg toutes les 6 h)"
+   ],
+   "posologieEnfant": [
+    "Moins de 2 ans : contre-indiquée",
+    "2 à 6 ans : 2 mg (5 ml de sirop) 2 à 3 fois par jour, maximum 12 mg par jour",
+    "7 à 14 ans : 4 mg (1 comprimé ou 10 ml de sirop) 2 à 3 fois par jour, maximum 16 mg par jour",
+    "Repère au poids : 0,25 mg/kg/jour en 2 à 3 prises, sans dépasser le maximum de l'âge"
+   ],
+   "contreIndications": [
+    "Enfant de moins de 2 ans, nouveau-né, prématuré",
+    "Allaitement",
+    "Glaucome à angle fermé, rétention urinaire, adénome de la prostate",
+    "Traitement par IMAO",
+    "Allergie à la cyproheptadine"
+   ],
+   "precautions": [
+    "Perte d'appétit chez l'enfant : chercher d'abord la cause (paludisme, vers, tuberculose, VIH, anémie, malnutrition, problème d'alimentation) ; mesurer poids, taille et périmètre brachial",
+    "Malnutrition aiguë : pas de stimulant de l'appétit ; prise en charge nutritionnelle (ATPE, F-75/F-100) selon le protocole national",
+    "Usage détourné fréquent (Apetamin, Super Apeti) chez les jeunes femmes pour prendre du poids ou des formes : somnolence, prise de poids, dépendance ; produits du marché parallèle de qualité incertaine",
+    "Somnolence : prudence pour la conduite et le travail sur machines ; éviter l'alcool et les autres sédatifs (diazépam, prométhazine, opioïdes)",
+    "Enfant : risque d'excitation paradoxale, d'hallucinations et de convulsions en cas de surdosage",
+    "Sujet âgé : confusion, chutes, rétention urinaire",
+    "Cure courte ; réévaluer si pas d'amélioration"
+   ],
+   "effetsIndesirables": [
+    "Somnolence (fréquente), fatigue",
+    "Augmentation de l'appétit et prise de poids",
+    "Bouche sèche, constipation, rétention urinaire, vision trouble",
+    "Excitation, irritabilité chez l'enfant",
+    "Surdosage : agitation, hallucinations, tachycardie, fièvre, mydriase, convulsions, coma"
+   ],
+   "grossesse": "Données limitées : éviter, surtout au 1er trimestre ; préférer la chlorphénamine pour une allergie. Contre-indiquée pendant l'allaitement (passe dans le lait, peut réduire la lactation).",
+   "motsCles": "cyproheptadine, super apeti, apetamin, periactin, périactine, appétit, perte d'appétit, anorexie, faire grossir, prise de poids, stimulant de l'appétit, antihistaminique, allergie, urticaire, prurit, syndrome sérotoninergique",
+   "calculs": [
+    {
+     "titre": "Dose par jour (à répartir en 2 à 3 prises)",
+     "doseKg": 0.25,
+     "unite": "mg",
+     "frequence": "par jour, en 2 à 3 prises",
+     "doseMax": 16,
+     "presentations": [
+      {
+       "nom": "Sirop 2 mg/5 ml",
+       "dose": 2,
+       "par": 5,
+       "unite": "ml"
+      },
+      {
+       "nom": "Comprimé 4 mg",
+       "dose": 4,
+       "par": 1,
+       "unite": "comprimé(s)"
+      }
+     ],
+     "note": "Contre-indiquée avant 2 ans. Maximum 12 mg par jour de 2 à 6 ans, 16 mg par jour de 7 à 14 ans."
+    }
+   ],
+   "famille": "Antihistaminique H1 (1re génération, sédatif) et antisérotoninergique",
+   "mecanisme": "Bloque les récepteurs H1 de l'histamine (effet antiallergique) et les récepteurs 5-HT2 de la sérotonine ; l'action antisérotoninergique dans l'hypothalamus augmente l'appétit et explique son usage dans le syndrome sérotoninergique. Effet anticholinergique et sédatif."
   }
  ],
  "categoriesPathologies": [
