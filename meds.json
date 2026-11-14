@@ -1,5 +1,5 @@
 {
- "version": 80,
+ "version": 81,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -42514,47 +42514,64 @@
  ],
  "dispensaire": [
   {
-   "id": "regles",
-   "titre": "Règles de base",
-   "pictogramme": "balance",
+   "id": "signes-vitaux",
+   "titre": "Signes vitaux normaux selon l'âge",
+   "pictogramme": "stethoscope",
    "couleur": "#00695C",
-   "intro": "Chez l'enfant, la dose se calcule toujours d'après le poids, jamais d'après l'âge seul. Ces doses sont des repères OMS/PCIME : en cas de différence, l'ordinogramme national et la notice du produit font foi.",
+   "intro": "Valeurs de repos chez un patient calme ; les comparer à l'âge, à l'état clinique et à l'évolution. Une valeur anormale isolée se recontrôle.",
    "blocs": [
     {
-     "type": "liste",
-     "titre": "",
-     "elements": [
-      "Peser : chaque enfant, et noter le poids sur la fiche.",
-      "Calcul : dose (mg) = mg/kg × poids (kg). Ne jamais dépasser la dose adulte.",
-      "Sirop : volume (ml) = dose (mg) ÷ concentration (mg/ml). Exemple : 120 mg/5 ml = 24 mg/ml.",
-      "Vérifier : la concentration sur le flacon, elle change selon les marques.",
-      "Grossesse : la demander systématiquement à toute femme en âge de procréer.",
-      "Transférer : si signe de danger (voir « Signes de danger et repères »)."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "danger",
-   "titre": "Signes de danger et repères",
-   "pictogramme": "alerte",
-   "couleur": "#C62828",
-   "intro": "Tout enfant qui présente un signe général de danger doit recevoir le traitement d'urgence pré-transfert et être transféré sans délai.",
-   "blocs": [
-    {
-     "type": "liste",
-     "titre": "Signes généraux de danger (enfant de 2 mois à 5 ans)",
-     "elements": [
-      "Incapable de boire ou de téter.",
-      "Vomit tout ce qu'il consomme.",
-      "Convulsions pendant la maladie actuelle ou convulsion en cours.",
-      "Léthargique ou inconscient.",
-      "Autres urgences : détresse respiratoire, SpO₂ < 90 %, déshydratation sévère, pâleur palmaire sévère, œdèmes des deux pieds."
-     ]
+     "type": "tableau",
+     "titre": "Fréquences et tension",
+     "colonnes": [
+      "Âge",
+      "Respiration (/min)",
+      "Pouls (/min)",
+      "Tension systolique (mmHg)"
+     ],
+     "lignes": [
+      [
+       "Nouveau-né (0–1 mois)",
+       "40–60",
+       "110–160",
+       "60–90"
+      ],
+      [
+       "Nourrisson (1–12 mois)",
+       "30–50",
+       "100–160",
+       "70–100"
+      ],
+      [
+       "1–2 ans",
+       "25–35",
+       "95–150",
+       "80–105"
+      ],
+      [
+       "2–5 ans",
+       "20–30",
+       "90–140",
+       "85–110"
+      ],
+      [
+       "5–12 ans",
+       "18–25",
+       "80–120",
+       "90–115"
+      ],
+      [
+       "Plus de 12 ans et adulte",
+       "12–20",
+       "60–100",
+       "100–130 (moins de 140/90)"
+      ]
+     ],
+     "note": "Pendant les pleurs ou la fièvre, le pouls et la respiration augmentent (environ +10 battements/min par degré de fièvre)."
     },
     {
      "type": "tableau",
-     "titre": "Respiration rapide (PCIME)",
+     "titre": "Respiration rapide (PCIME : seuils de pneumonie)",
      "colonnes": [
       "Âge",
       "Respiration rapide si"
@@ -42562,605 +42579,655 @@
      "lignes": [
       [
        "Moins de 2 mois",
-       "≥ 60 / min"
+       "60/min ou plus"
       ],
       [
-       "2 à 11 mois",
-       "≥ 50 / min"
+       "2 à 12 mois",
+       "50/min ou plus"
       ],
       [
-       "12 mois à 5 ans",
-       "≥ 40 / min"
+       "1 à 5 ans",
+       "40/min ou plus"
+      ],
+      [
+       "Plus de 5 ans",
+       "30/min ou plus"
+      ],
+      [
+       "Adulte",
+       "plus de 20/min (plus de 30/min : gravité)"
       ]
      ],
-     "note": "Compter pendant une minute entière, enfant calme. Le tirage sous-costal est un signe de pneumonie grave chez le nourrisson."
+     "note": "Compter pendant une minute entière, enfant calme, thorax découvert."
+    },
+    {
+     "type": "liste",
+     "titre": "Tension artérielle basse (hypotension)",
+     "elements": [
+      "Nouveau-né : systolique inférieure à 60 mmHg.",
+      "Nourrisson : inférieure à 70 mmHg.",
+      "1 à 10 ans : inférieure à 70 + (2 × âge en années) mmHg.",
+      "Plus de 10 ans et adulte : inférieure à 90 mmHg (ou chute de plus de 40 mmHg chez l'hypertendu).",
+      "Chez l'enfant, l'hypotension est un signe tardif de choc : chercher avant les mains froides, le pouls rapide et faible et un temps de recoloration de 3 secondes ou plus."
+     ]
     },
     {
      "type": "tableau",
-     "titre": "Périmètre brachial (6 à 59 mois)",
+     "titre": "Tension de l'adulte (OMS / ISH 2020)",
      "colonnes": [
-      "PB",
-      "Classement"
+      "Classe",
+      "Tension (mmHg)"
      ],
      "lignes": [
       [
-       "< 115 mm (ou œdèmes bilatéraux)",
-       "Malnutrition aiguë sévère"
+       "Normale",
+       "moins de 130/85"
       ],
       [
-       "115 à 124 mm",
-       "Malnutrition aiguë modérée"
+       "Normale haute",
+       "130–139 / 85–89"
       ],
       [
-       "≥ 125 mm",
-       "Normal"
+       "Hypertension grade 1",
+       "140–159 / 90–99"
+      ],
+      [
+       "Hypertension grade 2",
+       "160 / 100 ou plus"
+      ],
+      [
+       "Hypertension sévère (urgence si signes d'atteinte d'organe)",
+       "180 / 110 ou plus"
+      ],
+      [
+       "Grossesse : hypertension",
+       "140 / 90 ou plus"
+      ],
+      [
+       "Grossesse : hypertension sévère",
+       "160 / 110 ou plus"
+      ]
+     ],
+     "note": "Mesure au repos, assis, brassard adapté au bras ; confirmer une hypertension sur plusieurs mesures."
+    },
+    {
+     "type": "tableau",
+     "titre": "Température",
+     "colonnes": [
+      "Situation",
+      "Valeur"
+     ],
+     "lignes": [
+      [
+       "Normale (axillaire)",
+       "36,5 – 37,4 °C"
+      ],
+      [
+       "Fièvre (PCIME, axillaire)",
+       "37,5 °C ou plus"
+      ],
+      [
+       "Fièvre (rectale)",
+       "38 °C ou plus"
+      ],
+      [
+       "Fièvre élevée",
+       "39 °C ou plus"
+      ],
+      [
+       "Hypothermie du nouveau-né",
+       "moins de 36,5 °C (légère), moins de 36 °C (modérée), moins de 32 °C (sévère)"
+      ],
+      [
+       "Hypothermie de l'enfant et de l'adulte",
+       "moins de 35,5 °C"
+      ]
+     ],
+     "note": "Nourrisson de moins de 2 mois avec fièvre ou hypothermie : signe de danger, référer."
+    },
+    {
+     "type": "tableau",
+     "titre": "Oxygène, glycémie et diurèse",
+     "colonnes": [
+      "Mesure",
+      "Normale",
+      "Anormale"
+     ],
+     "lignes": [
+      [
+       "SpO₂ (air ambiant)",
+       "95 % ou plus",
+       "moins de 90 % : oxygène (moins de 94 % si détresse, choc, convulsions)"
+      ],
+      [
+       "Glycémie à jeun (adulte)",
+       "0,70 – 1,10 g/l (3,9 – 6,1 mmol/l)",
+       "1,26 g/l ou plus à 2 reprises : diabète ; 2 g/l ou plus à tout moment avec signes : diabète"
+      ],
+      [
+       "Hypoglycémie (adulte)",
+       "—",
+       "moins de 0,70 g/l (3,9 mmol/l) ; grave si moins de 0,54 g/l (3 mmol/l)"
+      ],
+      [
+       "Hypoglycémie (enfant)",
+       "—",
+       "moins de 0,45 g/l (2,5 mmol/l) ; malnutrition : moins de 0,54 g/l (3 mmol/l)"
+      ],
+      [
+       "Hypoglycémie (nouveau-né)",
+       "—",
+       "moins de 0,45 g/l (2,5 mmol/l)"
+      ],
+      [
+       "Diurèse",
+       "adulte : 0,5 ml/kg/h ou plus ; enfant : 1 ml/kg/h ou plus",
+       "inférieure : déshydratation, choc, atteinte rénale"
+      ],
+      [
+       "Temps de recoloration cutanée",
+       "moins de 3 secondes",
+       "3 secondes ou plus : choc probable"
       ]
      ],
      "note": ""
     },
     {
      "type": "liste",
-     "titre": "Nouveau-né (moins de 2 mois) : transférer si",
+     "titre": "Conscience et poids",
      "elements": [
-      "Ne tète pas bien, convulsions, respiration ≥ 60/min, tirage sous-costal marqué.",
-      "Température ≥ 37,5 °C ou < 35,5 °C, ne bouge que si on le stimule.",
-      "Ictère des paumes et des plantes, ou apparu avant 24 h."
+      "État de conscience (AVPU) : A = éveillé, V = répond à la voix, P = répond seulement à la douleur, U = ne répond pas. P ou U : urgence (protéger les voies aériennes, glycémie).",
+      "Poids estimé de l'enfant (si pas de balance) : 1 à 5 ans = (2 × âge) + 8 kg ; 6 à 12 ans = (3 × âge) + 7 kg. Toujours peser quand c'est possible.",
+      "Périmètre brachial (6 à 59 mois) : moins de 115 mm = malnutrition aiguë sévère ; 115 à 124 mm = modérée."
      ]
     }
    ]
   },
   {
-   "id": "paludisme",
-   "titre": "Paludisme",
-   "pictogramme": "moustique",
-   "couleur": "#2E7D32",
-   "intro": "Traiter après un TDR (ou une goutte épaisse) positif. Le traitement dure 3 jours ; la première dose est donnée devant vous.",
+   "id": "danger-enfant",
+   "titre": "Enfant malade : signes de danger",
+   "pictogramme": "alerte",
+   "couleur": "#C62828",
+   "intro": "À rechercher en premier chez tout enfant malade de 2 mois à 5 ans, avant de s'occuper de la plainte.",
    "blocs": [
     {
-     "type": "tableau",
-     "titre": "Artésunate-amodiaquine (ASAQ) : 1 prise par jour pendant 3 jours",
-     "colonnes": [
-      "Poids (âge)",
-      "Comprimé",
-      "Dose par jour"
-     ],
-     "lignes": [
-      [
-       "4,5–8 kg (2–11 mois)",
-       "25/67,5 mg",
-       "1 cp"
-      ],
-      [
-       "9–17 kg (1–5 ans)",
-       "50/135 mg",
-       "1 cp"
-      ],
-      [
-       "18–35 kg (6–13 ans)",
-       "100/270 mg",
-       "1 cp"
-      ],
-      [
-       "≥ 36 kg (≥ 14 ans)",
-       "100/270 mg",
-       "2 cp"
-      ]
-     ],
-     "note": ""
-    },
-    {
-     "type": "tableau",
-     "titre": "Artéméther-luméfantrine (AL, 20/120 mg) : 6 prises en 3 jours (H0, H8, puis matin et soir les jours 2 et 3), avec un repas ou du lait",
-     "colonnes": [
-      "Poids",
-      "Comprimés par prise"
-     ],
-     "lignes": [
-      [
-       "5–14 kg",
-       "1"
-      ],
-      [
-       "15–24 kg",
-       "2"
-      ],
-      [
-       "25–34 kg",
-       "3"
-      ],
-      [
-       "≥ 35 kg",
-       "4"
-      ]
-     ],
-     "note": ""
-    },
-    {
      "type": "liste",
-     "titre": "Paludisme grave",
+     "titre": "Signes généraux de danger (un seul suffit : traitement pré-transfert et référence urgente)",
      "elements": [
-      "Artésunate injectable (IV ou IM) : 3 mg/kg si moins de 20 kg, 2,4 mg/kg si 20 kg ou plus, à H0, H12 et H24, puis 1 fois par jour jusqu'à ce que le patient puisse avaler ; relais par une cure complète d'ASAQ ou d'AL.",
-      "Artésunate rectal (enfant de moins de 6 ans, avant transfert) : 100 mg de 6 mois à 3 ans, 200 mg de 3 à 5 ans, en dose unique, puis transfert immédiat.",
-      "Quinine (si l'artésunate manque) : dose de charge 20 mg de sel/kg en perfusion de 4 h dans du glucosé 5 ou 10 %, puis 10 mg/kg toutes les 8 h ; relais oral dès que possible, 7 jours au total. Jamais en IV directe.",
-      "Toujours : glycémie, traiter l'hypoglycémie (glucose 10 %, 5 ml/kg), lutter contre la fièvre, transférer."
-     ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Quinine en perfusion (goutte-à-goutte) : dose diluée dans 10 ml/kg de glucosé 5 ou 10 % (maximum 500 ml), à passer en 4 h",
-     "colonnes": [
-      "Poids",
-      "Volume à perfuser",
-      "Perfuseur adulte (20 gouttes = 1 ml)",
-      "Perfuseur pédiatrique (60 microgouttes = 1 ml)"
-     ],
-     "lignes": [
-      [
-       "5 kg",
-       "50 ml",
-       "4 gouttes/min",
-       "12–13 microgouttes/min"
-      ],
-      [
-       "10 kg",
-       "100 ml",
-       "8 gouttes/min",
-       "25 microgouttes/min"
-      ],
-      [
-       "15 kg",
-       "150 ml",
-       "12–13 gouttes/min",
-       "37–38 microgouttes/min"
-      ],
-      [
-       "20 kg",
-       "200 ml",
-       "17 gouttes/min",
-       "50 microgouttes/min"
-      ],
-      [
-       "30 kg",
-       "300 ml",
-       "25 gouttes/min",
-       "75 microgouttes/min"
-      ],
-      [
-       "≥ 50 kg",
-       "500 ml",
-       "42 gouttes/min",
-       "—"
-      ]
-     ],
-     "note": "Calcul : gouttes/min = volume (ml) ÷ (durée en heures × 3) avec un perfuseur à 20 gouttes/ml ; microgouttes/min = ml/h avec un perfuseur à 60 microgouttes/ml."
-    },
-    {
-     "type": "liste",
-     "titre": "Quinine : doses et précautions",
-     "elements": [
-      "Dose de charge : 20 mg de sel de quinine/kg en 4 h (pas de dose de charge si le patient a reçu de la quinine dans les 24 h précédentes, ou de la méfloquine dans les 7 jours).",
-      "Entretien : 10 mg/kg en 4 h, toutes les 8 h (perfusion de 4 h, puis 4 h de glucosé simple). Calculer la dose en mg, puis le volume d'ampoule selon la concentration écrite sur l'ampoule (elle varie selon les produits).",
-      "Relais par voie orale dès que possible : 10 mg/kg toutes les 8 h, pour 7 jours de traitement au total, ou une cure complète d'ASAQ ou d'AL.",
-      "Jamais en injection IV directe (risque d'arrêt cardiaque). Si la perfusion est impossible : voie IM diluée (60–100 mg/ml), face antérieure de la cuisse, la dose répartie en 2 sites.",
-      "Surveiller la glycémie toutes les 4 h (la quinine provoque des hypoglycémies, surtout chez l'enfant et la femme enceinte) ; réduire la dose d'un tiers après 48 h en cas d'insuffisance rénale ou si l'état ne s'améliore pas.",
-      "L'artésunate injectable reste le premier choix ; la quinine n'est utilisée que s'il n'est pas disponible."
+      "Ne peut pas boire ou téter.",
+      "Vomit tout ce qu'il prend.",
+      "A convulsé pendant cette maladie, ou convulse maintenant.",
+      "Léthargique ou inconscient.",
+      "Tirage sous-costal avec respiration bruyante au repos (stridor) ou SpO₂ inférieure à 90 %.",
+      "Malnutrition aiguë sévère avec complication, pâleur palmaire sévère."
      ]
     },
     {
      "type": "liste",
-     "titre": "Quinine par voie orale (gouttes buvables, sirop ou comprimés)",
+     "titre": "Avant le transfert",
      "elements": [
-      "Place : seulement pour un paludisme simple quand aucune CTA (ASAQ, AL) n'est disponible, ou en relais de la quinine injectable. Jamais pour un paludisme grave d'emblée.",
-      "Dose : 10 mg de sel de quinine/kg toutes les 8 h (3 fois par jour), pendant 7 jours. Ne pas dépasser 600 mg par prise.",
-      "Gouttes : la concentration change selon la marque. Lire sur le flacon combien de mg contient 1 ml et combien de gouttes font 1 ml, puis : mg par goutte = mg par ml ÷ gouttes par ml ; nombre de gouttes par prise = dose (mg) ÷ mg par goutte.",
-      "Règle « 1 goutte par kg » : valable seulement pour une solution à 20 % (200 mg de quinine par ml, soit 10 mg par goutte avec 20 gouttes par ml) : 1 goutte/kg 3 fois par jour (exemple : enfant de 12 kg = 12 gouttes 3 fois par jour). Avec une autre concentration, recalculer.",
-      "Exemple avec une autre concentration : enfant de 12 kg, dose 120 mg par prise ; si 1 goutte = 5 mg, donner 24 gouttes 3 fois par jour.",
-      "Nouveau-né et nourrisson de moins de 5 kg : la dose par kg est la même (10 mg/kg par prise), et la règle « 1 goutte/kg » dépend de la concentration du flacon, pas de l'âge. Mais un paludisme du nouveau-né se traite de préférence à l'hôpital : artésunate injectable 3 mg/kg (ou, pour une forme simple, artéméther-luméfantrine à la même dose par kg qu'un enfant de 5 kg, selon l'OMS), avec surveillance de la glycémie. Transférer.",
-      "Vomissements : si l'enfant vomit dans les 30 minutes, redonner la dose entière ; entre 30 et 60 minutes, redonner une demi-dose.",
-      "Goût très amer : diluer dans un peu d'eau sucrée ou de jus. Effets fréquents : bourdonnements d'oreille, vertiges, nausées (cinchonisme), sans gravité ; arrêter si troubles de la vision ou éruption.",
-      "Surveiller l'hypoglycémie (sueurs, somnolence) ; faire revenir l'enfant si la fièvre persiste après 3 jours ou s'il présente un signe de danger."
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Grossesse",
-     "elements": [
-      "TPI : sulfadoxine-pyriméthamine, 3 cp (500/25 mg) en prise unique supervisée à chaque CPN, à partir de 13 semaines, au moins 1 mois entre deux prises. Pas chez la femme sous cotrimoxazole.",
-      "Paludisme simple au 1er trimestre : artéméther-luméfantrine (recommandé par l'OMS depuis 2022)."
+      "Convulsions : diazépam par voie rectale 0,5 mg/kg (maximum 10 mg).",
+      "Glycémie basse ou impossible à mesurer chez un enfant inconscient : glucose 10 % 5 ml/kg IV, ou eau sucrée par sonde (50 ml).",
+      "Paludisme grave suspecté : artésunate 2,4 mg/kg IM (3 mg/kg si moins de 20 kg) ou suppositoire rectal.",
+      "Infection grave suspectée : ampicilline 50 mg/kg IM (ou amoxicilline) + gentamicine 7,5 mg/kg IM ; ou ceftriaxone 80 mg/kg IM.",
+      "Garder l'enfant au chaud, poursuivre l'allaitement si possible, lettre de référence avec les traitements donnés."
      ]
     }
    ]
   },
   {
-   "id": "antibiotiques",
-   "titre": "Antibiotiques",
-   "pictogramme": "comprime",
-   "couleur": "#1565C0",
-   "intro": "Amoxicilline en premier choix pour la pneumonie de l'enfant. Toujours respecter la durée complète du traitement.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Antibiotiques de première ligne",
-     "colonnes": [
-      "Médicament",
-      "Enfant",
-      "Adulte",
-      "Indications et durée",
-      "Attention"
-     ],
-     "lignes": [
-      [
-       "Amoxicilline",
-       "40 mg/kg 2×/j",
-       "500 mg–1 g 3×/j",
-       "Pneumonie : 5 j. Otite, angine : 5–10 j",
-       "Allergie à la pénicilline"
-      ],
-      [
-       "Cotrimoxazole",
-       "4 mg/kg de triméthoprime 2×/j",
-       "960 mg 2×/j",
-       "Infections urinaires, prophylaxie VIH",
-       "Pas avant 1 mois. La prophylaxie VIH se poursuit pendant la grossesse"
-      ],
-      [
-       "Métronidazole",
-       "10 mg/kg 3×/j",
-       "500 mg 3×/j",
-       "Amibiase, giardiase : 5–7 j. Trichomonase : 2 g en dose unique",
-       "Pas d'alcool"
-      ],
-      [
-       "Ciprofloxacine",
-       "15 mg/kg 2×/j",
-       "500 mg 2×/j",
-       "Diarrhée sanglante : 3 j",
-       "Éviter pendant la grossesse"
-      ],
-      [
-       "Doxycycline",
-       "Choléra : 2–4 mg/kg en dose unique",
-       "100 mg 2×/j",
-       "IST : 7 j. Choléra : 300 mg en dose unique",
-       "Cures longues : pas avant 8 ans ni pendant la grossesse ; dose unique du choléra possible à tout âge (GTFCC)"
-      ],
-      [
-       "Ceftriaxone (IM/IV)",
-       "50–80 mg/kg 1×/j (méningite : 100 mg/kg/j)",
-       "1–2 g 1×/j",
-       "Infections graves, gonococcie (500 mg IM dose unique)",
-       "Pas avec du calcium IV chez le nouveau-né"
-      ],
-      [
-       "Ampicilline (IM/IV)",
-       "50 mg/kg toutes les 6 h",
-       "1–2 g toutes les 6 h",
-       "Sepsis, avec la gentamicine",
-       "Nouveau-né : toutes les 8–12 h"
-      ],
-      [
-       "Gentamicine (IM/IV)",
-       "7,5 mg/kg 1×/j (nouveau-né : 5 mg/kg/j ; < 2 kg : 3 mg/kg/j)",
-       "5 mg/kg 1×/j",
-       "Sepsis, avec l'ampicilline",
-       "Toxique pour les reins et l'oreille"
-      ],
-      [
-       "Benzathine pénicilline (IM)",
-       "50 000 UI/kg (max 2,4 MUI)",
-       "2,4 MUI en dose unique",
-       "Syphilis, angine à streptocoque",
-       "Allergie à la pénicilline"
-      ]
-     ],
-     "note": ""
-    },
-    {
-     "type": "texte",
-     "titre": "Avant un transfert (PCIME)",
-     "texte": "Donner 1 dose d'ampicilline et de gentamicine IM, ou de ceftriaxone IM, puis transférer."
-    },
-    {
-     "type": "tableau",
-     "titre": "Autres anti-infectieux (si le premier choix ne convient pas)",
-     "colonnes": [
-      "Médicament",
-      "Enfant",
-      "Adulte",
-      "Indications",
-      "Attention"
-     ],
-     "lignes": [
-      [
-       "Amoxicilline + acide clavulanique",
-       "40–50 mg/kg/j d'amoxicilline en 2–3 prises",
-       "1 g 2×/j",
-       "Morsures, otite ou sinusite après échec de l'amoxicilline",
-       "Diarrhée fréquente"
-      ],
-      [
-       "Azithromycine",
-       "10 mg/kg 1×/j pendant 3 j (choléra : 20 mg/kg en dose unique)",
-       "500 mg 1×/j pendant 3 j. Chlamydia, choléra : 1 g en dose unique",
-       "Allergie à la pénicilline, IST, grossesse",
-       "Possible pendant la grossesse"
-      ],
-      [
-       "Cloxacilline",
-       "15 mg/kg 3×/j",
-       "1 g 3×/j",
-       "Infections de la peau à staphylocoque (furoncle, abcès)",
-       "Prendre à jeun"
-      ],
-      [
-       "Nitrofurantoïne",
-       "—",
-       "100 mg 2×/j pendant 5 j",
-       "Cystite simple de la femme",
-       "Pas en fin de grossesse"
-      ],
-      [
-       "Fluconazole",
-       "3–6 mg/kg 1×/j",
-       "Mycose vaginale : 150 mg dose unique. Œsophage : 200 mg le 1er jour, puis 100–200 mg/j",
-       "Candidoses, VIH",
-       "Éviter pendant la grossesse"
-      ],
-      [
-       "Clotrimazole ovule",
-       "—",
-       "500 mg en dose unique",
-       "Mycose vaginale",
-       "Possible pendant la grossesse"
-      ],
-      [
-       "Aciclovir",
-       "20 mg/kg 4×/j (varicelle grave)",
-       "Herpès : 400 mg 3×/j pendant 7 j. Zona : 800 mg 5×/j pendant 7 j",
-       "Herpès, zona",
-       "Commencer tôt"
-      ]
-     ],
-     "note": ""
-    }
-   ]
-  },
-  {
-   "id": "douleur",
-   "titre": "Douleur et fièvre",
+   "id": "fievre",
+   "titre": "Devant une fièvre",
    "pictogramme": "thermometre",
    "couleur": "#EF6C00",
-   "intro": "Paracétamol en premier choix, à tout âge et pendant la grossesse.",
+   "intro": "En zone d'endémie, toute fièvre impose un test de paludisme ; un test négatif oblige à chercher une autre cause.",
    "blocs": [
     {
      "type": "liste",
-     "titre": "",
+     "titre": "1. Rechercher les signes de gravité",
      "elements": [
-      "Paracétamol : 15 mg/kg toutes les 6 h chez l'enfant, sans dépasser 60 mg/kg/j. Adulte : 500 mg–1 g toutes les 6 h, sans dépasser 4 g/j.",
-      "Ibuprofène : 10 mg/kg toutes les 6–8 h chez l'enfant de plus de 3 mois. Adulte : 200–400 mg toutes les 6–8 h, sans dépasser 1,2 g/j. Pas au 3e trimestre de grossesse, ni en cas de déshydratation, d'ulcère ou de suspicion de dengue.",
-      "Aspirine : réservée à l'adulte, 500 mg–1 g toutes les 6 h. Interdite avant 16 ans."
+      "Signes de danger (enfant), troubles de la conscience, convulsions, détresse respiratoire, choc, ictère, urines foncées, saignements, pâleur sévère : paludisme grave ou infection grave probables, traiter et référer.",
+      "Raideur de nuque, fontanelle bombée : méningite (ceftriaxone 100 mg/kg dès que possible, ponction lombaire si disponible).",
+      "Nourrisson de moins de 2 mois : toute fièvre est grave (ampicilline + gentamicine, référer)."
      ]
     },
     {
+     "type": "liste",
+     "titre": "2. Test de diagnostic rapide (TDR) du paludisme",
+     "elements": [
+      "TDR positif sans signe de gravité : combinaison à base d'artémisinine (artéméther-luméfantrine 2 fois par jour pendant 3 jours, selon le poids) ; 1re prise au centre.",
+      "TDR positif avec signe de gravité : artésunate injectable 2,4 mg/kg (3 mg/kg si moins de 20 kg) à 0, 12 et 24 h puis toutes les 24 h, et transfert si nécessaire.",
+      "TDR négatif : ne pas donner d'antipaludique ; chercher une autre cause."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "3. Chercher le foyer",
+     "elements": [
+      "Toux, respiration rapide : pneumonie. Oreille qui coule ou douloureuse : otite. Gorge rouge avec pus chez l'enfant de plus de 3 ans : angine.",
+      "Brûlures urinaires, douleur lombaire : infection urinaire (bandelette). Diarrhée sanglante : dysenterie.",
+      "Éruption : rougeole (yeux rouges, toux, rhume), varicelle, mpox, dengue. Fièvre de plus de 7 jours : typhoïde, tuberculose, VIH, abcès profond.",
+      "Contexte d'épidémie (choléra, Ebola, mpox) : isolement et alerte selon les consignes de la zone de santé."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "4. Traitement de la fièvre",
+     "elements": [
+      "Paracétamol 15 mg/kg toutes les 6 h (maximum 60 mg/kg/j) si l'enfant est inconfortable ; ne pas le réveiller pour le donner.",
+      "Faire boire, alléger les vêtements ; pas de bain froid ni d'alcool sur la peau.",
+      "Revoir dans 2 jours si la fièvre persiste, tout de suite si un signe de danger apparaît."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "toux",
+   "titre": "Devant une toux ou une respiration difficile",
+   "pictogramme": "poumons",
+   "couleur": "#1565C0",
+   "intro": "Compter la respiration sur une minute, regarder le tirage, écouter, mesurer la SpO₂ si un oxymètre est disponible.",
+   "blocs": [
+    {
      "type": "tableau",
-     "titre": "Doses par poids",
+     "titre": "Classer (enfant de 2 mois à 5 ans)",
      "colonnes": [
-      "Poids",
-      "Paracétamol par prise",
-      "Sirop 120 mg/5 ml",
-      "Ibuprofène par prise",
-      "Sirop 100 mg/5 ml"
+      "Signes",
+      "Classement",
+      "Conduite"
      ],
      "lignes": [
       [
-       "5 kg",
-       "75 mg",
-       "3 ml",
-       "— (moins de 3 mois)",
-       "—"
+       "Signe de danger, SpO₂ < 90 %, stridor au repos, tirage avec malnutrition sévère",
+       "Pneumonie grave",
+       "Oxygène, 1re dose d'antibiotique (ampicilline + gentamicine ou ceftriaxone), référer"
       ],
       [
-       "6 kg",
-       "90 mg",
-       "3,75 ml",
-       "60 mg",
-       "3 ml"
+       "Respiration rapide et/ou tirage sous-costal, sans signe de danger",
+       "Pneumonie",
+       "Amoxicilline 40 mg/kg 2 fois par jour pendant 5 jours (3 jours si respiration rapide seule) ; revoir à J3"
       ],
       [
-       "10 kg",
-       "150 mg",
-       "6 ml",
-       "100 mg",
-       "5 ml"
-      ],
-      [
-       "15 kg",
-       "225 mg",
-       "9 ml",
-       "150 mg",
-       "7,5 ml"
-      ],
-      [
-       "20 kg",
-       "300 mg",
-       "12,5 ml",
-       "200 mg",
-       "10 ml"
+       "Ni respiration rapide ni tirage",
+       "Toux ou rhume",
+       "Pas d'antibiotique ; lavage du nez, boissons, miel après 1 an ; revoir si aggravation"
       ]
      ],
-     "note": ""
+     "note": "Respiration rapide : 50/min ou plus de 2 à 12 mois, 40/min ou plus de 1 à 5 ans."
+    },
+    {
+     "type": "liste",
+     "titre": "Sifflements (wheezing)",
+     "elements": [
+      "Salbutamol inhalé avec chambre d'inhalation : 2 à 4 bouffées (100 µg) toutes les 20 minutes jusqu'à 3 fois, puis réévaluer.",
+      "Crise sévère (ne parle plus, tirage marqué, SpO₂ < 92 %) : oxygène, salbutamol, prednisolone 1 mg/kg (maximum 40 mg), référer.",
+      "Sifflements répétés : asthme (traitement de fond par corticoïde inhalé)."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Toux de plus de 2 semaines",
+     "elements": [
+      "Rechercher une tuberculose : amaigrissement, sueurs nocturnes, fièvre, contact tuberculeux. Crachats (GeneXpert), radiographie si possible ; test VIH.",
+      "Adulte avec dyspnée, œdèmes des jambes, orthopnée : penser à l'insuffisance cardiaque."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Adulte",
+     "elements": [
+      "Gravité (FR > 30/min, SpO₂ < 92 %, confusion, TAS < 90 mmHg, âge > 65 ans) : hospitaliser (ceftriaxone, oxygène).",
+      "Pneumonie sans gravité : amoxicilline 1 g 3 fois par jour pendant 5 jours."
+     ]
     }
    ]
   },
   {
    "id": "diarrhee",
-   "titre": "Diarrhée et déshydratation",
+   "titre": "Devant une diarrhée",
    "pictogramme": "goutte",
    "couleur": "#0277BD",
-   "intro": "Toute diarrhée de l'enfant se traite par SRO + zinc, et l'enfant continue de manger ou de téter.",
+   "intro": "Le danger, c'est la déshydratation. Évaluer, réhydrater selon le plan adapté, donner le zinc et continuer l'alimentation.",
    "blocs": [
     {
-     "type": "liste",
-     "titre": "",
-     "elements": [
-      "Zinc : 10 mg/j avant 6 mois, 20 mg/j à partir de 6 mois, pendant 10–14 jours.",
-      "Plan A, sans déshydratation (à la maison) : SRO après chaque selle. 50–100 ml avant 2 ans, 100–200 ml de 2 à 10 ans, à volonté après 10 ans.",
-      "Plan B, déshydratation modérée (au centre) : 75 ml/kg de SRO en 4 h, puis réévaluer.",
-      "Plan C, déshydratation sévère : Ringer lactate IV, 100 ml/kg au total, puis réévaluer."
-     ]
-    },
-    {
      "type": "tableau",
-     "titre": "Plan C : vitesse de la perfusion (100 ml/kg)",
+     "titre": "Évaluer la déshydratation",
      "colonnes": [
-      "Âge",
-      "30 ml/kg d'abord, en",
-      "Puis 70 ml/kg, en"
+      "Signes (au moins 2)",
+      "Classement",
+      "Plan"
      ],
      "lignes": [
       [
-       "Moins de 12 mois",
-       "1 h",
-       "5 h"
+       "Léthargique ou inconscient ; yeux enfoncés ; ne peut pas boire ou boit très peu ; pli cutané qui s'efface très lentement (plus de 2 secondes)",
+       "Déshydratation sévère",
+       "Plan C"
       ],
       [
-       "12 mois et plus",
-       "30 min",
-       "2 h 30"
+       "Agité, irritable ; yeux enfoncés ; boit avidement, assoiffé ; pli cutané qui s'efface lentement",
+       "Signes évidents de déshydratation",
+       "Plan B"
+      ],
+      [
+       "Pas assez de signes pour les classements ci-dessus",
+       "Pas de déshydratation",
+       "Plan A"
       ]
      ],
      "note": ""
+    },
+    {
+     "type": "liste",
+     "titre": "Plan A (à domicile)",
+     "elements": [
+      "SRO après chaque selle liquide : 50 à 100 ml avant 2 ans, 100 à 200 ml de 2 à 10 ans, à volonté après 10 ans.",
+      "Zinc pendant 10 à 14 jours : 10 mg par jour avant 6 mois, 20 mg par jour à partir de 6 mois.",
+      "Continuer l'allaitement et l'alimentation ; revenir en cas de signes de danger, de sang dans les selles ou si l'enfant boit mal."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Plan B (au centre, 4 heures)",
+     "elements": [
+      "SRO 75 ml/kg en 4 heures, par petites gorgées à la tasse ou à la cuillère ; si vomissements, attendre 10 minutes puis reprendre plus lentement.",
+      "Réévaluer à 4 h et passer au plan A, B ou C selon l'état ; commencer le zinc."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Plan C (urgence)",
+     "elements": [
+      "Ringer lactate (ou NaCl 0,9 %) 100 ml/kg : avant 12 mois, 30 ml/kg en 1 h puis 70 ml/kg en 5 h ; à partir de 12 mois, 30 ml/kg en 30 minutes puis 70 ml/kg en 2 h 30.",
+      "Refaire la 1re partie si le pouls radial reste faible. Dès que l'enfant peut boire, ajouter 5 ml/kg/h de SRO.",
+      "Pas de voie veineuse possible : SRO par sonde naso-gastrique 20 ml/kg/h pendant 6 h et transfert.",
+      "Malnutrition aiguë sévère : pas de plan C standard (risque de surcharge) ; ReSoMal et protocole spécifique."
+     ]
     },
     {
      "type": "liste",
      "titre": "Cas particuliers",
      "elements": [
-      "Pas de voie IV possible : SRO par sonde nasogastrique (20 ml/kg/h pendant 6 h) et transfert.",
-      "Malnutrition sévère : ne pas suivre ces plans ; utiliser le ReSoMal et le protocole spécifique.",
-      "Choléra : SRO ou Ringer lactate selon le plan ; antibiotique en dose unique (doxycycline ou azithromycine) pour les cas avec déshydratation sévère."
+      "Sang dans les selles (dysenterie) : ciprofloxacine 15 mg/kg 2 fois par jour pendant 3 jours (adulte 500 mg 2 fois par jour).",
+      "Diarrhée de plus de 14 jours : rechercher malnutrition, VIH, parasites ; avis médical.",
+      "Choléra (selles « eau de riz » abondantes, contexte d'épidémie) : réhydratation massive, doxycycline en dose unique chez l'adulte (300 mg), azithromycine chez l'enfant ; déclarer.",
+      "Pas d'antidiarrhéique (lopéramide) ni d'antibiotique pour une diarrhée aqueuse simple de l'enfant."
      ]
     }
    ]
   },
   {
-   "id": "parasites",
-   "titre": "Parasites, peau et yeux",
-   "pictogramme": "ver",
+   "id": "malnutrition",
+   "titre": "Devant un enfant maigre ou gonflé (malnutrition)",
+   "pictogramme": "pomme",
    "couleur": "#6D4C41",
-   "intro": "Pour le déparasitage systématique, une dose unique tous les 6 mois suffit, à partir de 1 an.",
-   "blocs": [
-    {
-     "type": "liste",
-     "titre": "",
-     "elements": [
-      "Albendazole : 200 mg de 12 à 23 mois, 400 mg à partir de 2 ans, en dose unique. Pas au 1er trimestre de grossesse.",
-      "Mébendazole : 500 mg en dose unique, à partir de 1 an.",
-      "Benzoate de benzyle 25 % (gale) : pur chez l'adulte, dilué à parts égales avec de l'eau chez l'enfant de 2 à 12 ans. Sur tout le corps sauf le visage, laisser 24 h, puis laver. Avant 2 ans : préférer la perméthrine 5 %. Traiter toute la famille le même jour et laver le linge.",
-      "Nystatine (muguet) : 100 000 UI 4 fois par jour pendant 7 jours.",
-      "Miconazole crème (mycose de la peau) : 2 fois par jour pendant 2–4 semaines.",
-      "Violet de gentiane 0,5 % : sur les plaies suintantes ou l'impétigo, 2 fois par jour, quelques jours seulement (pas sur les muqueuses ni le visage).",
-      "Tétracycline pommade ophtalmique 1 % : 1 application dans chaque œil à la naissance. Conjonctivite : 3 fois par jour pendant 7 jours."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "mere-enfant",
-   "titre": "Mère et nouveau-né",
-   "pictogramme": "grossesse",
-   "couleur": "#AD1457",
-   "intro": "Après chaque accouchement, injecter 10 UI d'ocytocine IM dans la minute qui suit la naissance (GATPA). Pendant la grossesse, traiter une tension à 160/110 ou plus dans l'heure et transférer.",
-   "blocs": [
-    {
-     "type": "liste",
-     "titre": "Grossesse et accouchement",
-     "elements": [
-      "Fer + acide folique : 60 mg de fer + 400 µg d'acide folique par jour, pendant toute la grossesse.",
-      "Ocytocine : 10 UI IM en prévention. Hémorragie du post-partum : 10 UI IM ou IV lente, puis 20 UI dans 1 L de sérum salé 0,9 % ou de Ringer lactate ; masser l'utérus ; acide tranexamique 1 g IV dans les 3 h.",
-      "Misoprostol (si pas d'ocytocine) : 600 µg par voie orale en prévention, 800 µg sublingual en traitement.",
-      "Sulfate de magnésium (éclampsie, prééclampsie sévère), schéma de Pritchard : dose de charge 4 g IV en 5–20 min + 10 g IM (5 g dans chaque fesse), puis 5 g IM toutes les 4 h en alternant les fesses, pendant 24 h.",
-      "Surveillance du sulfate de magnésium : arrêter si les réflexes rotuliens disparaissent, si la respiration passe sous 16/min ou si la diurèse passe sous 30 ml/h. Antidote : gluconate de calcium 10 %, 10 ml (1 g) IV lent en 10 min.",
-      "Méthyldopa (hypertension de la grossesse) : 250 mg 2–3 fois par jour, jusqu'à 3 g/j.",
-      "Nifédipine à libération immédiate (hypertension sévère) : 10 mg à avaler, pas sous la langue ; à répéter après 30 min si besoin.",
-      "Hydralazine (hypertension sévère) : 5 mg IV lent, à répéter toutes les 20–30 min, jusqu'à 20 mg."
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Nouveau-né et enfant",
-     "elements": [
-      "Vitamine K1 (phytoménadione) : 1 mg IM à la naissance (0,5 mg si moins de 1 500 g).",
-      "Chlorhexidine 7,1 % gel (cordon) : 1 application par jour pendant la première semaine.",
-      "Vitamine A : 100 000 UI de 6 à 11 mois, 200 000 UI de 12 à 59 mois, tous les 6 mois.",
-      "Fer chez l'enfant anémié : 3 mg/kg/j de fer élément pendant 3 mois. En zone de paludisme, faire d'abord un TDR et traiter un paludisme ; pas pendant la phase initiale d'une malnutrition aiguë sévère.",
-      "Tétanos (plaie à risque) : vaccin antitétanique selon le statut vaccinal ; si la personne n'est pas vaccinée, ajouter des immunoglobulines antitétaniques, 250 UI IM."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "urgences",
-   "titre": "Urgences",
-   "pictogramme": "sirene",
-   "couleur": "#B71C1C",
-   "intro": "En cas de choc anaphylactique, injecter l'adrénaline IM en premier, avant tout autre geste.",
+   "intro": "Mesurer le périmètre brachial (6 à 59 mois), chercher les œdèmes des deux pieds, peser et mesurer.",
    "blocs": [
     {
      "type": "tableau",
-     "titre": "Médicaments d'urgence",
+     "titre": "Classer",
      "colonnes": [
-      "Médicament",
-      "Enfant",
-      "Adulte",
-      "Remarques"
+      "Signes",
+      "Classement",
+      "Conduite"
      ],
      "lignes": [
       [
-       "Adrénaline 1 mg/ml (IM, face externe de la cuisse)",
-       "0,01 mg/kg. Moins de 6 ans : 0,15 mg. 6–12 ans : 0,3 mg",
-       "0,5 mg",
-       "À répéter après 5 min si besoin"
+       "PB < 115 mm, ou P/T < −3 z, ou œdèmes bilatéraux, AVEC complication (signe de danger, refus du test d'appétit, œdèmes +++, infection grave) ou moins de 6 mois",
+       "MAS compliquée",
+       "Hospitalisation (UNTI) : F-75, antibiotiques, réchauffement, pas de perfusion sauf choc"
       ],
       [
-       "Glucose 10 % (IV)",
-       "5 ml/kg (nouveau-né : 2 ml/kg)",
-       "—",
-       "Hypoglycémie, convulsions sur paludisme"
+       "PB < 115 mm, ou P/T < −3 z, ou œdèmes + ou ++, sans complication, test d'appétit réussi",
+       "MAS non compliquée",
+       "Ambulatoire (UNTA) : ATPE selon le poids, amoxicilline 7 jours, suivi chaque semaine"
       ],
       [
-       "Glucose 50 % (IV)",
-       "—",
-       "25–50 ml",
-       "Si conscient, donner du sucre par la bouche"
-      ],
-      [
-       "Diazépam",
-       "0,5 mg/kg en intrarectal, ou 0,2–0,3 mg/kg IV lent",
-       "10 mg IV lent ou en intrarectal",
-       "Maximum 10 mg par dose, 1 seule répétition. Surveiller la respiration"
-      ],
-      [
-       "Hydrocortisone (IV/IM)",
-       "4 mg/kg (maximum 100 mg)",
-       "100–200 mg",
-       "Après l'adrénaline, asthme grave"
-      ],
-      [
-       "Salbutamol en spray, 100 µg par bouffée",
-       "2–4 bouffées avec chambre d'inhalation",
-       "4–10 bouffées",
-       "Crise : toutes les 20 min pendant 1 h"
+       "PB 115 à 124 mm ou P/T entre −3 et −2 z",
+       "Malnutrition aiguë modérée",
+       "Supplémentation (UNS), conseils nutritionnels, suivi tous les 15 jours"
       ]
      ],
      "note": ""
     },
     {
      "type": "liste",
-     "titre": "Autres",
+     "titre": "Points clés",
      "elements": [
-      "Prednisolone (asthme, allergie sévère) : 1–2 mg/kg/j chez l'enfant, sans dépasser 40 mg ; adulte 40–50 mg/j ; pendant 3–5 jours.",
-      "Furosémide (œdèmes, œdème aigu du poumon) : 20–40 mg par voie orale ; en urgence 40–80 mg IV.",
-      "Charbon activé (intoxication par voie orale, dans l'heure) : 1 g/kg, sans dépasser 50 g. Pas pour les produits caustiques ni le pétrole."
+      "Amoxicilline systématique dans la MAS : 40 mg/kg 2 fois par jour pendant 7 jours.",
+      "Glycémie : traiter une hypoglycémie (moins de 3 mmol/l) par 50 ml de glucose 10 % ou d'eau sucrée par la bouche ou par sonde.",
+      "Hypothermie fréquente : peau à peau, couverture, bonnet.",
+      "Déshydratation : ReSoMal par la bouche ; voie IV seulement en cas de choc, avec un soluté adapté et une surveillance étroite.",
+      "Rechercher et traiter le paludisme ; vaccination contre la rougeole ; test VIH et tuberculose si mauvaise évolution."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "convulsions",
+   "titre": "Devant des convulsions",
+   "pictogramme": "cerveau",
+   "couleur": "#4527A0",
+   "intro": "Protéger, libérer les voies aériennes, oxygène, glycémie ; arrêter une crise qui dure plus de 5 minutes.",
+   "blocs": [
+    {
+     "type": "liste",
+     "titre": "Pendant la crise",
+     "elements": [
+      "Mettre en position latérale de sécurité, ne rien mettre dans la bouche, aspirer les sécrétions, oxygène.",
+      "Mesurer la glycémie ; si basse ou impossible à mesurer : glucose 10 % 5 ml/kg IV chez l'enfant, glucose 30 % 50 ml IV chez l'adulte.",
+      "Crise de plus de 5 minutes : diazépam rectal 0,5 mg/kg (maximum 10 mg) ou IV lente 0,3 mg/kg (maximum 10 mg) ; adulte 10 mg IV lente ; midazolam buccal 0,3 mg/kg possible.",
+      "Si la crise continue 10 minutes après : 2e dose de diazépam, puis phénobarbital 20 mg/kg IV en 20 minutes (surveiller la respiration)."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Chercher la cause",
+     "elements": [
+      "Fièvre : paludisme grave (TDR, artésunate), méningite (raideur de nuque, ceftriaxone), convulsion fébrile simple de 6 mois à 5 ans (diagnostic d'élimination).",
+      "Femme enceinte ou accouchée récente : éclampsie, sulfate de magnésium (voir « Tension élevée pendant la grossesse »).",
+      "Autres : hypoglycémie, traumatisme crânien, intoxication, épilepsie connue avec arrêt du traitement, déshydratation avec troubles du sodium."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "choc",
+   "titre": "Devant un choc ou une détresse vitale",
+   "pictogramme": "coeur",
+   "couleur": "#B71C1C",
+   "intro": "Approche ABCDE : voies aériennes, respiration, circulation, état neurologique, exposition ; traiter chaque problème avant de passer au suivant.",
+   "blocs": [
+    {
+     "type": "liste",
+     "titre": "Reconnaître le choc",
+     "elements": [
+      "Mains froides, temps de recoloration de 3 secondes ou plus, pouls rapide et faible, enfant léthargique ; hypotension = signe tardif chez l'enfant.",
+      "Rechercher la cause : hémorragie, déshydratation, infection grave, anaphylaxie, insuffisance cardiaque."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Remplissage",
+     "elements": [
+      "Enfant : Ringer lactate ou NaCl 0,9 % 10 à 20 ml/kg en 15 à 30 minutes, réévaluer après chaque bolus ; arrêter si crépitants, foie qui grossit ou aggravation respiratoire.",
+      "Malnutrition sévère : 15 ml/kg en 1 heure d'un soluté adapté, surveillance toutes les 10 minutes.",
+      "Anémie sévère (Hb < 5 g/dl) avec choc : transfusion 20 ml/kg de sang total plutôt que des cristalloïdes.",
+      "Adulte : 500 ml à 1 litre en 15 à 30 minutes, à répéter selon la réponse ; hémorragie : arrêter le saignement, deux voies veineuses, groupe sanguin, transfusion."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Anaphylaxie (urticaire, gonflement des lèvres, gêne respiratoire, malaise après un médicament, une piqûre ou un aliment)",
+     "elements": [
+      "Adrénaline IM à la face externe de la cuisse : 0,01 mg/kg (maximum 0,5 mg), soit 0,01 ml/kg de la solution à 1 mg/ml ; répéter toutes les 5 minutes si besoin.",
+      "Allonger (jambes surélevées), oxygène, remplissage 20 ml/kg ; ensuite antihistaminique et corticoïde.",
+      "Noter l'allergie dans le carnet et l'expliquer au patient."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "saignement-grossesse",
+   "titre": "Saignement pendant la grossesse ou après l'accouchement",
+   "pictogramme": "grossesse",
+   "couleur": "#AD1457",
+   "intro": "Toujours évaluer d'abord l'état circulatoire (pouls, tension, pâleur, conscience) et poser une voie veineuse si le saignement est abondant.",
+   "blocs": [
+    {
+     "type": "liste",
+     "titre": "1er trimestre",
+     "elements": [
+      "Douleur d'un côté, malaise, choc, test de grossesse positif : grossesse extra-utérine possible, urgence chirurgicale.",
+      "Col ouvert, débris : fausse couche en cours ou incomplète ; évacuation (aspiration manuelle ou misoprostol 600 µg oral ou 400 µg sublingual).",
+      "Fièvre, pertes malodorantes après une interruption de grossesse : avortement septique (antibiotiques IV, évacuation)."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "2e moitié de la grossesse",
+     "elements": [
+      "Ne jamais faire de toucher vaginal avant d'avoir éliminé un placenta praevia (échographie).",
+      "Saignement indolore, utérus souple : placenta praevia probable. Douleur, utérus dur, souffrance fœtale : hématome rétroplacentaire. Transfert en urgence."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Hémorragie du post-partum (plus de 500 ml ou saignement qui retentit sur l'état général)",
+     "elements": [
+      "Appeler de l'aide, masser l'utérus, ocytocine 10 UI IM ou IV lente, puis perfusion de 20 à 40 UI dans 1 litre.",
+      "Acide tranexamique 1 g IV lente en 10 minutes, dans les 3 heures après l'accouchement (2e dose de 1 g si le saignement continue après 30 minutes).",
+      "Vider la vessie, vérifier le placenta (complet ?), chercher une déchirure du col ou du vagin.",
+      "Si l'utérus reste mou : misoprostol 800 µg sublingual, compression bimanuelle, ballonnet intra-utérin ; transfert pour chirurgie si échec.",
+      "Remplissage et transfusion selon l'état ; surveiller toutes les 15 minutes pendant 2 heures."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hta-grossesse",
+   "titre": "Tension élevée pendant la grossesse",
+   "pictogramme": "grossesse",
+   "couleur": "#880E4F",
+   "intro": "Mesurer la tension à chaque consultation prénatale et rechercher la protéinurie (bandelette) après 20 semaines.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Classer",
+     "colonnes": [
+      "Signes",
+      "Classement",
+      "Conduite"
+     ],
+     "lignes": [
+      [
+       "TA ≥ 140/90 après 20 semaines, sans protéinurie",
+       "Hypertension gestationnelle",
+       "Surveillance rapprochée, antihypertenseur si TA ≥ 150/100"
+      ],
+      [
+       "TA ≥ 140/90 + protéinurie",
+       "Pré-éclampsie",
+       "Référer ; accouchement à 37 semaines"
+      ],
+      [
+       "TA ≥ 160/110, ou céphalées, troubles visuels, douleur épigastrique, œdème pulmonaire, oligurie",
+       "Pré-éclampsie sévère",
+       "Sulfate de magnésium + antihypertenseur, accouchement selon l'état"
+      ],
+      [
+       "Convulsions",
+       "Éclampsie",
+       "Sulfate de magnésium, oxygène, PLS ; accouchement dès stabilisation"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "liste",
+     "titre": "Sulfate de magnésium (pré-éclampsie sévère, éclampsie)",
+     "elements": [
+      "Dose de charge : 4 g IV lente en 20 minutes (8 ml de MgSO₄ 50 % dilués dans 12 ml d'eau), puis 10 g IM (5 g dans chaque fesse).",
+      "Entretien : 5 g IM toutes les 4 heures dans une fesse, en alternant, pendant 24 heures après l'accouchement ou la dernière convulsion.",
+      "Avant chaque dose : réflexes rotuliens présents, respiration ≥ 16/min, diurèse ≥ 30 ml/h. Antidote : gluconate de calcium 1 g IV lente (10 ml à 10 %)."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Faire baisser la tension (si ≥ 160/110)",
+     "elements": [
+      "Nifédipine 10 mg par voie orale (pas en sublingual), à répéter après 30 minutes si besoin ; ou hydralazine 5 mg IV lente toutes les 20 minutes ; ou labétalol.",
+      "Objectif : 140–150 / 90–100 ; éviter une chute brutale (souffrance fœtale).",
+      "Prévention chez les femmes à risque : aspirine 75 mg par jour dès 12 semaines et calcium 1,5 à 2 g par jour (OMS)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nouveau-ne",
+   "titre": "Nouveau-né malade (moins de 2 mois)",
+   "pictogramme": "bebe",
+   "couleur": "#00838F",
+   "intro": "Un nouveau-né malade s'aggrave vite : rechercher les signes d'infection grave à chaque consultation.",
+   "blocs": [
+    {
+     "type": "liste",
+     "titre": "Signes d'infection grave (un seul suffit)",
+     "elements": [
+      "Ne tète pas bien, convulsions, respiration ≥ 60/min, tirage sous-costal marqué, température ≥ 37,5 °C ou < 35,5 °C, ne bouge que si on le stimule ou ne bouge pas.",
+      "Ictère dans les 24 premières heures ou sur les paumes et les plantes ; ombilic rouge qui s'étend à la peau ; nombreuses pustules."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Conduite",
+     "elements": [
+      "1re dose d'antibiotiques avant le transfert : ampicilline 50 mg/kg IM + gentamicine 5 mg/kg IM (4 mg/kg avant 7 jours si faible poids).",
+      "Si le transfert est impossible : poursuivre gentamicine une fois par jour et amoxicilline orale 50 mg/kg 2 fois par jour pendant 7 jours (schéma OMS simplifié), avec revue quotidienne.",
+      "Prévenir l'hypoglycémie (allaitement ou lait par sonde) et l'hypothermie (peau à peau, bonnet).",
+      "Respiration rapide isolée chez un nourrisson de 7 à 59 jours : amoxicilline orale 50 mg/kg 2 fois par jour pendant 7 jours."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Soins essentiels à rappeler",
+     "elements": [
+      "Allaitement exclusif ; chlorhexidine 7,1 % sur le cordon ; vitamine K1 à la naissance ; vaccins BCG et polio à la naissance.",
+      "Faible poids : méthode kangourou, couveuse selon la température (voir « Couveuse et besoins hydriques »)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "douleur-abdo",
+   "titre": "Devant une douleur abdominale aiguë",
+   "pictogramme": "estomac",
+   "couleur": "#455A64",
+   "intro": "Chercher d'abord une urgence chirurgicale ou gynécologique ; ne pas donner d'antispasmodique avant d'avoir examiné.",
+   "blocs": [
+    {
+     "type": "liste",
+     "titre": "Signes d'urgence chirurgicale",
+     "elements": [
+      "Ventre dur, défense, douleur à la décompression, vomissements bilieux ou fécaloïdes, arrêt des matières et des gaz, ventre gonflé, choc.",
+      "Femme en âge de procréer : test de grossesse systématique (grossesse extra-utérine).",
+      "Enfant de moins de 2 ans avec pleurs par accès, vomissements, sang dans les selles : invagination intestinale."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Orientations",
+     "elements": [
+      "Fosse iliaque droite + fièvre : appendicite. Épigastre irradiant dans le dos : pancréatite, ulcère perforé. Hypocondre droit + fièvre : cholécystite, abcès du foie amibien.",
+      "Lombaire irradiant vers les organes génitaux : colique néphrétique (diclofénac, bandelette urinaire). Bas-ventre + fièvre + pertes : infection génitale haute.",
+      "Diabétique : acidocétose (glycémie, cétonurie). Drépanocytaire : crise vaso-occlusive ou séquestration."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "En attendant le chirurgien",
+     "elements": [
+      "À jeun, voie veineuse, sonde naso-gastrique si vomissements, paracétamol ou morphine titrée : traiter la douleur ne masque pas le diagnostic.",
+      "Antibiotiques si péritonite (ceftriaxone + métronidazole)."
      ]
     }
    ]
@@ -43260,67 +43327,6 @@
       "Exemple : prématuré de 1,5 kg à J4 (70 ml/kg) : 1,5 × 70 = 105 ml par jour, soit 105 ÷ 12 ≈ 9 ml toutes les 2 h.",
       "Lait maternel en priorité (au sein, à la tasse ou par sonde) ; soustraire du total ce qui est donné en perfusion.",
       "Surveiller chaque jour : poids, diurèse (au moins 1 ml/kg/h), glycémie, signes de surcharge (œdèmes, détresse respiratoire) ou de déshydratation."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "chroniques",
-   "titre": "Maladies chroniques et divers",
-   "pictogramme": "coeur",
-   "couleur": "#4527A0",
-   "intro": "Doses de départ chez l'adulte, augmentées progressivement selon la réponse, avec un suivi chaque mois.",
-   "blocs": [
-    {
-     "type": "liste",
-     "titre": "Maladies chroniques",
-     "elements": [
-      "Amlodipine (hypertension) : 5 mg 1 fois par jour, jusqu'à 10 mg.",
-      "Hydrochlorothiazide (hypertension) : 12,5–25 mg 1 fois par jour, le matin.",
-      "Metformine (diabète de type 2) : 500 mg 1–2 fois par jour pendant les repas, jusqu'à 2 g/j.",
-      "Programmes spécifiques (VIH, tuberculose, malnutrition) : suivre les protocoles et les fiches du programme national."
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Digestif",
-     "elements": [
-      "Avant de traiter des vomissements ou une douleur abdominale, chercher la cause : paludisme, déshydratation, urgence chirurgicale.",
-      "Oméprazole (ulcère, brûlures d'estomac) : 20 mg 1 fois par jour avant le repas, pendant 4–8 semaines.",
-      "Métoclopramide (nausées, vomissements) : 10 mg jusqu'à 3 fois par jour chez l'adulte, 5 jours maximum. À éviter chez l'enfant.",
-      "Ondansétron : 0,15 mg/kg chez l'enfant, 4–8 mg chez l'adulte, jusqu'à 3 fois par jour.",
-      "Butylscopolamine (coliques, spasmes) : 10–20 mg 3 fois par jour par voie orale, ou 20 mg IM/IV chez l'adulte.",
-      "Hydroxyde d'aluminium et de magnésium (brûlures d'estomac) : 1–2 comprimés à mâcher après les repas, 2 h avant ou après les autres médicaments."
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Allergie et neurologie",
-     "elements": [
-      "Chlorphénamine (allergie) : 4 mg 3–4 fois par jour chez l'adulte ; 1 mg de 2 à 5 ans, 2 mg de 6 à 12 ans, 3–4 fois par jour ; pas avant 1 an.",
-      "Phénobarbital : convulsions du nouveau-né, 20 mg/kg IM ou IV lent en dose de charge, puis 5 mg/kg/j. Épilepsie : 3–5 mg/kg/j chez l'enfant, 60–180 mg au coucher chez l'adulte.",
-      "Carbamazépine (épilepsie de l'adulte) : 100–200 mg 2 fois par jour, en augmentant progressivement.",
-      "Épilepsie : ne démarrer un traitement de fond qu'après un avis médical."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "chirurgie",
-   "titre": "Petite chirurgie et antiseptiques",
-   "pictogramme": "pansement",
-   "couleur": "#455A64",
-   "intro": "La lidocaïne a une dose maximale à respecter : 3 mg/kg sans adrénaline, soit environ 20 ml de lidocaïne 1 % chez un adulte de 70 kg.",
-   "blocs": [
-    {
-     "type": "liste",
-     "titre": "",
-     "elements": [
-      "Lidocaïne 1 % (anesthésie locale pour les sutures) : 1 ml contient 10 mg. Aspirer avant d'injecter pour ne pas injecter dans une veine.",
-      "Povidone iodée 10 % : pour désinfecter la peau et les plaies.",
-      "Chlorhexidine : pour désinfecter la peau et les mains, et pour les soins du cordon.",
-      "Sérum salé 0,9 % : pour laver les plaies et les yeux.",
-      "Alcool à 70 % : pour la peau saine seulement, avant une injection."
      ]
     }
    ]
