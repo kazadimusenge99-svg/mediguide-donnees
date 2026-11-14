@@ -1,5 +1,5 @@
 {
- "version": 82,
+ "version": 83,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -29770,11 +29770,18 @@
     "Nausées"
    ],
    "grossesse": "Contre-indiqué pendant la grossesse et l'allaitement (héparine de bas poids moléculaire).",
-   "motsCles": "rivaroxaban, xarelto, anticoagulant, AOD, fibrillation auriculaire, phlébite, embolie pulmonaire",
+   "motsCles": "rivaroxaban, xarelto, anticoagulant, AOD, fibrillation auriculaire, phlébite, embolie pulmonaire, rivatas, varosun, vaxato, xafariv",
    "famille": "Anticoagulant oral direct (anti-Xa)",
    "mecanisme": "Inhibe directement le facteur Xa de la coagulation : moins de thrombine formée.",
    "calculs": [],
-   "id": 630
+   "id": 630,
+   "marquesRdc": [
+    "Rivatas",
+    "Varosun",
+    "Varoxa",
+    "Vaxato",
+    "Xafariv"
+   ]
   },
   {
    "dci": "Apixaban",
@@ -29814,11 +29821,15 @@
     "Nausées"
    ],
    "grossesse": "Contre-indiqué pendant la grossesse et l'allaitement.",
-   "motsCles": "apixaban, eliquis, anticoagulant, AOD, fibrillation auriculaire, phlébite, embolie pulmonaire",
+   "motsCles": "apixaban, eliquis, anticoagulant, AOD, fibrillation auriculaire, phlébite, embolie pulmonaire, axaban-denk, xagulant",
    "famille": "Anticoagulant oral direct (anti-Xa)",
    "mecanisme": "Inhibe directement le facteur Xa de la coagulation : moins de thrombine formée.",
    "calculs": [],
-   "id": 631
+   "id": 631,
+   "marquesRdc": [
+    "Axaban-Denk",
+    "Xagulant"
+   ]
   },
   {
    "dci": "Tadalafil",
@@ -29853,11 +29864,19 @@
     "Bouffées de chaleur, congestion nasale"
    ],
    "grossesse": "Sans objet.",
-   "motsCles": "tadalafil, cialis, dysfonction érectile, impuissance, prostate",
+   "motsCles": "tadalafil, cialis, dysfonction érectile, impuissance, prostate, davigra-t, jovant, tada force, tadalis, tadanique, xtraforce",
    "famille": "Inhibiteur de la phosphodiestérase de type 5 (IPDE-5)",
    "mecanisme": "Bloque la PDE-5 qui dégrade le GMP cyclique : relâchement des muscles lisses des corps caverneux, de la prostate et du col de la vessie.",
    "calculs": [],
-   "id": 632
+   "id": 632,
+   "marquesRdc": [
+    "Davigra-T",
+    "Jovant",
+    "Tada Force",
+    "Tadalis",
+    "Tadanique",
+    "Xtraforce"
+   ]
   },
   {
    "dci": "Dapoxétine",
@@ -29889,11 +29908,17 @@
     "Insomnie"
    ],
    "grossesse": "Sans objet.",
-   "motsCles": "dapoxétine, dapoxetine, priligy, éjaculation précoce",
+   "motsCles": "dapoxétine, dapoxetine, priligy, éjaculation précoce, comit, ejutard, kifaru force, tadax",
    "famille": "Inhibiteur sélectif de la recapture de la sérotonine (ISRS) d'action courte",
    "mecanisme": "Augmente rapidement la sérotonine dans les voies nerveuses qui contrôlent le réflexe d'éjaculation, ce qui le retarde.",
    "calculs": [],
-   "id": 633
+   "id": 633,
+   "marquesRdc": [
+    "Comit (+ sildénafil)",
+    "Ejutard",
+    "Kifaru Force (+ sildénafil)",
+    "Tadax (+ tadalafil)"
+   ]
   },
   {
    "dci": "Flucloxacilline",
@@ -29924,7 +29949,7 @@
     "Ictère cholestatique (rare)"
    ],
    "grossesse": "Utilisable pendant la grossesse et l'allaitement.",
-   "motsCles": "flucloxacilline, floxapen, staphylocoque, impétigo, cellulite, abcès, ostéomyélite",
+   "motsCles": "flucloxacilline, floxapen, staphylocoque, impétigo, cellulite, abcès, ostéomyélite, astaph, floxaprin, flux, fucio, fuclo",
    "famille": "Antibiotique – pénicilline M (antistaphylococcique)",
    "mecanisme": "Pénicilline résistante à la pénicillinase du staphylocoque : bloque la synthèse de la paroi bactérienne.",
    "calculs": [
@@ -29951,7 +29976,14 @@
      ]
     }
    ],
-   "id": 634
+   "id": 634,
+   "marquesRdc": [
+    "Astaph",
+    "Floxaprin",
+    "Flux",
+    "Fucio",
+    "Fuclo"
+   ]
   },
   {
    "dci": "Céfépime",
@@ -29981,7 +30013,7 @@
     "Encéphalopathie (surdosage, insuffisance rénale)"
    ],
    "grossesse": "Utilisable pendant la grossesse si nécessaire.",
-   "motsCles": "céfépime, cefepime, maxipime, céphalosporine, pseudomonas, neutropénie fébrile",
+   "motsCles": "céfépime, cefepime, maxipime, céphalosporine, pseudomonas, neutropénie fébrile, bacpime, bacpime s, ceficad",
    "famille": "Antibiotique – céphalosporine de 4e génération",
    "mecanisme": "Bloque la synthèse de la paroi bactérienne ; plus stable face à certaines bêtalactamases ; actif sur Pseudomonas.",
    "calculs": [
@@ -30001,7 +30033,12 @@
      ]
     }
    ],
-   "id": 635
+   "id": 635,
+   "marquesRdc": [
+    "Bacpime",
+    "Bacpime S (+ sulbactam)",
+    "Ceficad"
+   ]
   },
   {
    "dci": "Céfopérazone + sulbactam",
@@ -30031,11 +30068,16 @@
     "Éruption"
    ],
    "grossesse": "Utilisable pendant la grossesse si nécessaire.",
-   "motsCles": "céfopérazone, cefoperazone, sulbactam, sulperazone, céphalosporine",
+   "motsCles": "céfopérazone, cefoperazone, sulbactam, sulperazone, céphalosporine, cefaz-s, cefazone-s, cefsulash",
    "famille": "Antibiotique – céphalosporine de 3e génération + inhibiteur de bêtalactamase",
    "mecanisme": "La céfopérazone bloque la paroi bactérienne ; le sulbactam protège l'antibiotique des bêtalactamases (et agit sur Acinetobacter).",
    "calculs": [],
-   "id": 636
+   "id": 636,
+   "marquesRdc": [
+    "Cefaz-S",
+    "Cefazone-S",
+    "Cefsulash"
+   ]
   },
   {
    "dci": "Cefdinir",
@@ -30066,7 +30108,7 @@
     "Candidose"
    ],
    "grossesse": "Utilisable pendant la grossesse et l'allaitement.",
-   "motsCles": "cefdinir, omnicef, céphalosporine, otite, sinusite, angine",
+   "motsCles": "cefdinir, omnicef, céphalosporine, otite, sinusite, angine, cefinir, trisporin",
    "famille": "Antibiotique – céphalosporine de 3e génération orale",
    "mecanisme": "Bloque la synthèse de la paroi bactérienne (streptocoque, pneumocoque, Haemophilus, Moraxella).",
    "calculs": [
@@ -30092,7 +30134,11 @@
      ]
     }
    ],
-   "id": 637
+   "id": 637,
+   "marquesRdc": [
+    "Cefinir",
+    "Trisporin"
+   ]
   },
   {
    "dci": "Dapagliflozine",
@@ -30125,11 +30171,17 @@
     "Acidocétose (rare)"
    ],
    "grossesse": "Contre-indiquée pendant la grossesse et l'allaitement.",
-   "motsCles": "dapagliflozine, forxiga, gliflozine, SGLT2, diabète, insuffisance cardiaque, maladie rénale",
+   "motsCles": "dapagliflozine, forxiga, gliflozine, SGLT2, diabète, insuffisance cardiaque, maladie rénale, dapa met, dapaveldactin, dapzin",
    "famille": "Antidiabétique oral – inhibiteur du SGLT2 (gliflozine)",
    "mecanisme": "Bloque la réabsorption du glucose par le rein (SGLT2) : le glucose est éliminé dans les urines ; effets protecteurs sur le cœur et le rein.",
    "calculs": [],
-   "id": 638
+   "id": 638,
+   "marquesRdc": [
+    "Dapa",
+    "Dapa Met (+ metformine)",
+    "Dapaveldactin",
+    "Dapzin"
+   ]
   },
   {
    "dci": "Irbésartan",
@@ -30200,11 +30252,15 @@
     "Vertiges, crampes"
    ],
    "grossesse": "Éviter pendant la grossesse (sauf œdème pulmonaire).",
-   "motsCles": "torasémide, torsémide, torsemide, torem, diurétique de l'anse, œdème, insuffisance cardiaque",
+   "motsCles": "torasémide, torsémide, torsemide, torem, diurétique de l'anse, œdème, insuffisance cardiaque, toras denk, torsonex dt",
    "famille": "Diurétique de l'anse",
    "mecanisme": "Bloque le cotransporteur Na-K-2Cl de l'anse de Henlé : forte élimination d'eau et de sel.",
    "calculs": [],
-   "id": 640
+   "id": 640,
+   "marquesRdc": [
+    "Toras Denk",
+    "Torsonex DT"
+   ]
   },
   {
    "dci": "Ranolazine",
@@ -30234,11 +30290,16 @@
     "Céphalées, asthénie"
    ],
    "grossesse": "Éviter pendant la grossesse et l'allaitement.",
-   "motsCles": "ranolazine, ranexa, angor, angine de poitrine",
+   "motsCles": "ranolazine, ranexa, angor, angine de poitrine, nizacard, ranzin sr",
    "famille": "Anti-angoreux (inhibiteur du courant sodique tardif)",
    "mecanisme": "Bloque le courant sodique tardif des cellules cardiaques ischémiques : moins de surcharge calcique et meilleure relaxation du muscle.",
    "calculs": [],
-   "id": 641
+   "id": 641,
+   "marquesRdc": [
+    "Nizacard",
+    "Ranexa",
+    "Ranzin SR"
+   ]
   },
   {
    "dci": "Ranitidine",
@@ -30269,11 +30330,15 @@
     "Hépatite (rare)"
    ],
    "grossesse": "Préférer l'oméprazole pendant la grossesse.",
-   "motsCles": "ranitidine, azantac, rantac, zantac, anti-H2, ulcère, reflux",
+   "motsCles": "ranitidine, azantac, rantac, zantac, anti-H2, ulcère, reflux, mediloc, tranikin",
    "famille": "Antihistaminique H2 (antiulcéreux)",
    "mecanisme": "Bloque les récepteurs H2 de l'histamine des cellules de l'estomac : moins de sécrétion d'acide.",
    "calculs": [],
-   "id": 642
+   "id": 642,
+   "marquesRdc": [
+    "Mediloc",
+    "Tranikin"
+   ]
   },
   {
    "dci": "Étoricoxib",
@@ -30312,11 +30377,16 @@
     "Hypertension, œdèmes"
    ],
    "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
-   "motsCles": "étoricoxib, etoricoxib, arcoxia, coxib, AINS, arthrose, goutte",
+   "motsCles": "étoricoxib, etoricoxib, arcoxia, coxib, AINS, arthrose, goutte, coxipain, ucox",
    "famille": "AINS – inhibiteur sélectif de la COX-2 (coxib)",
    "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
    "calculs": [],
-   "id": 643
+   "id": 643,
+   "marquesRdc": [
+    "Arcoxia",
+    "Coxipain",
+    "Ucox"
+   ]
   },
   {
    "dci": "Célécoxib",
@@ -30352,11 +30422,16 @@
     "Réactions allergiques"
    ],
    "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
-   "motsCles": "célécoxib, celecoxib, celebrex, coxib, AINS, arthrose",
+   "motsCles": "célécoxib, celecoxib, celebrex, coxib, AINS, arthrose, celofen, exxib, inibrex",
    "famille": "AINS – inhibiteur sélectif de la COX-2 (coxib)",
    "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
    "calculs": [],
-   "id": 644
+   "id": 644,
+   "marquesRdc": [
+    "Celofen",
+    "Exxib",
+    "Inibrex"
+   ]
   },
   {
    "dci": "Indométacine",
@@ -30398,7 +30473,10 @@
    "famille": "AINS – dérivé indolique",
    "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
    "calculs": [],
-   "id": 645
+   "id": 645,
+   "marquesRdc": [
+    "Ndocin"
+   ]
   },
   {
    "dci": "Dexkétoprofène",
@@ -30433,11 +30511,17 @@
     "Réactions allergiques"
    ],
    "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
-   "motsCles": "dexkétoprofène, dexketoprofene, enantyum, AINS, douleur",
+   "motsCles": "dexkétoprofène, dexketoprofene, enantyum, AINS, douleur, despain",
    "famille": "AINS – dérivé de l'acide propionique",
    "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
    "calculs": [],
-   "id": 646
+   "id": 646,
+   "marquesRdc": [
+    "Despain",
+    "Despain (+ paracétamol)",
+    "Ketesse",
+    "Skudexa (+ tramadol)"
+   ]
   },
   {
    "dci": "Chlorzoxazone",
@@ -30469,11 +30553,20 @@
     "Urines orange ou rouges (sans gravité)"
    ],
    "grossesse": "Éviter pendant la grossesse et l'allaitement.",
-   "motsCles": "chlorzoxazone, parafon, myorelaxant, contracture, lombalgie",
+   "motsCles": "chlorzoxazone, parafon, myorelaxant, contracture, lombalgie, arodol plus, diclique plus, dolaren plus, donarmex plus, muscle plus, rufedol plus, socomol plus",
    "famille": "Myorelaxant d'action centrale",
    "mecanisme": "Agit sur la moelle et le tronc cérébral pour diminuer les réflexes responsables des contractures musculaires.",
    "calculs": [],
-   "id": 647
+   "id": 647,
+   "marquesRdc": [
+    "Arodol Plus (+ diclofénac, paracétamol)",
+    "Diclique Plus (+ diclofénac, paracétamol)",
+    "Dolaren Plus (+ diclofénac, paracétamol)",
+    "Donarmex Plus (+ diclofénac, paracétamol)",
+    "Muscle Plus (+ diclofénac, paracétamol)",
+    "Rufedol Plus (+ diclofénac, paracétamol)",
+    "Socomol Plus (+ diclofénac, paracétamol)"
+   ]
   },
   {
    "dci": "Clobétasol (crème ou pommade)",
@@ -30505,11 +30598,19 @@
     "Freinage surrénalien (grandes surfaces, longue durée)"
    ],
    "grossesse": "Éviter de grandes surfaces et les traitements longs ; ne pas appliquer sur les seins pendant l'allaitement.",
-   "motsCles": "clobétasol, clobetasol, dermovate, dermocorticoïde, psoriasis, eczéma, éclaircissant, dépigmentation",
+   "motsCles": "clobétasol, clobetasol, dermovate, dermocorticoïde, psoriasis, eczéma, éclaircissant, dépigmentation, bioclean, clonat, cloziderm, cutisol, dermasol",
    "famille": "Dermocorticoïde très fort (classe IV)",
    "mecanisme": "Corticoïde local très puissant : réduit l'inflammation, les démangeaisons et la prolifération des cellules de la peau.",
    "calculs": [],
-   "id": 648
+   "id": 648,
+   "marquesRdc": [
+    "Betasol",
+    "Bioclean",
+    "Clonat",
+    "Cloziderm",
+    "Cutisol",
+    "Dermasol"
+   ]
   },
   {
    "dci": "Mométasone",
@@ -30540,11 +30641,14 @@
     "Atrophie cutanée (crème, usage prolongé)"
    ],
    "grossesse": "Utilisable (spray) ; crème sur de petites surfaces.",
-   "motsCles": "mométasone, mometasone, nasonex, elocom, spray nasal, rhinite allergique, corticoïde",
+   "motsCles": "mométasone, mometasone, nasonex, elocom, spray nasal, rhinite allergique, corticoïde, fumozol",
    "famille": "Corticoïde local (nasal et cutané)",
    "mecanisme": "Corticoïde puissant à action locale : réduit l'inflammation allergique de la muqueuse nasale ou de la peau.",
    "calculs": [],
-   "id": 649
+   "id": 649,
+   "marquesRdc": [
+    "Fumozol"
+   ]
   },
   {
    "dci": "Fluticasone",
@@ -30577,11 +30681,15 @@
     "Effets généraux à forte dose prolongée"
    ],
    "grossesse": "Utilisable pendant la grossesse (asthme non contrôlé plus dangereux).",
-   "motsCles": "fluticasone, flixotide, seretide, flixonase, avamys, corticoïde inhalé, asthme, rhinite",
+   "motsCles": "fluticasone, flixotide, seretide, flixonase, avamys, corticoïde inhalé, asthme, rhinite, cortispray, resptolcaps",
    "famille": "Corticoïde inhalé et nasal",
    "mecanisme": "Corticoïde à action locale : réduit l'inflammation des bronches ou de la muqueuse nasale.",
    "calculs": [],
-   "id": 650
+   "id": 650,
+   "marquesRdc": [
+    "Cortispray",
+    "Resptolcaps"
+   ]
   },
   {
    "dci": "Déflazacort",
@@ -30613,11 +30721,15 @@
     "Cataracte, ostéoporose (long cours)"
    ],
    "grossesse": "Préférer la prednisolone pendant la grossesse.",
-   "motsCles": "déflazacort, deflazacort, calcort, corticoïde",
+   "motsCles": "déflazacort, deflazacort, calcort, corticoïde, fenzar, zecort",
    "famille": "Corticoïde (glucocorticoïde)",
    "mecanisme": "Effets anti-inflammatoire et immunosuppresseur des glucocorticoïdes.",
    "calculs": [],
-   "id": 651
+   "id": 651,
+   "marquesRdc": [
+    "Fenzar",
+    "Zecort"
+   ]
   },
   {
    "dci": "Cromoglicate de sodium",
@@ -30645,11 +30757,17 @@
     "Picotements transitoires"
    ],
    "grossesse": "Utilisable.",
-   "motsCles": "cromoglicate, cromoglycate, opticron, collyre antiallergique, conjonctivite allergique, rhinite",
+   "motsCles": "cromoglicate, cromoglycate, opticron, collyre antiallergique, conjonctivite allergique, rhinite, amoglat, cromfix, cromsol, fluca",
    "famille": "Antiallergique local (stabilisant des mastocytes)",
    "mecanisme": "Stabilise la membrane des mastocytes et empêche la libération d'histamine au contact de l'allergène.",
    "calculs": [],
-   "id": 652
+   "id": 652,
+   "marquesRdc": [
+    "Amoglat",
+    "Cromfix",
+    "Cromsol",
+    "Fluca (+ fluorométholone)"
+   ]
   },
   {
    "dci": "Dorzolamide (collyre)",
@@ -30679,11 +30797,16 @@
     "Kératite, allergie locale"
    ],
    "grossesse": "Éviter pendant la grossesse.",
-   "motsCles": "dorzolamide, trusopt, cosopt, glaucome, collyre, tension oculaire",
+   "motsCles": "dorzolamide, trusopt, cosopt, glaucome, collyre, tension oculaire, twinzol, xola, xolamol",
    "famille": "Antiglaucomateux – inhibiteur de l'anhydrase carbonique",
    "mecanisme": "Diminue la production d'humeur aqueuse par le corps ciliaire, ce qui baisse la pression dans l'œil.",
    "calculs": [],
-   "id": 653
+   "id": 653,
+   "marquesRdc": [
+    "Twinzol (+ timolol)",
+    "Xola",
+    "Xolamol (+ timolol)"
+   ]
   },
   {
    "dci": "Guaïfénésine",
@@ -30712,11 +30835,19 @@
     "Vertiges"
    ],
    "grossesse": "Éviter au 1er trimestre.",
-   "motsCles": "guaïfénésine, guaifenesine, mucinex, expectorant, toux grasse, sirop",
+   "motsCles": "guaïfénésine, guaifenesine, mucinex, expectorant, toux grasse, sirop, mucoril expectorant, unadol all in one",
    "famille": "Expectorant",
    "mecanisme": "Augmente le volume et diminue la viscosité des sécrétions bronchiques, ce qui facilite leur évacuation par la toux.",
    "calculs": [],
-   "id": 654
+   "id": 654,
+   "marquesRdc": [
+    "Histaminic (+ prométhazine, ipéca)",
+    "Kaptol (+ eucalyptol, vitamine C)",
+    "Mucoril Expectorant (+ bromhexine, salbutamol)",
+    "Touxil (+ bromhexine, terbutaline)",
+    "Unadol All In One (+ paracétamol, phényléphrine)",
+    "Vifex (+ bromhexine, salbutamol)"
+   ]
   }
  ],
  "categoriesPathologies": [
