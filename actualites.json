@@ -1,81 +1,81 @@
 {
- "dateActualites": "8 novembre 2026",
- "dateIsoActualites": "2026-11-08",
+ "dateActualites": "14 novembre 2026",
+ "dateIsoActualites": "2026-11-14",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DE LA PNEUMONIE (12 NOVEMBRE)",
-   "titre": "Pneumonie de l'enfant",
-   "lieu": "Monde · Afrique subsaharienne · RDC",
-   "chiffre": "Plus de 725 000 enfants de moins de 5 ans en meurent chaque année (UNICEF)",
-   "texte": "La pneumonie reste la première cause infectieuse de décès de l'enfant dans le monde : un enfant en meurt toutes les 43 secondes, surtout en Afrique subsaharienne et en Asie du Sud. La plupart de ces décès sont évitables par la vaccination, l'allaitement, la lutte contre la malnutrition et la pollution de l'air, et un traitement rapide.",
-   "details": [
-    "Plus de 725 000 enfants de moins de 5 ans meurent de pneumonie chaque année, dont environ 190 000 nouveau-nés ; environ 40 % des enfants du monde ne sont pas complètement protégés par le vaccin antipneumococcique (UNICEF)",
-    "Reconnaître (PCIME) : toux ou difficulté respiratoire avec respiration rapide (≥ 50/min de 2 à 11 mois, ≥ 40/min de 1 à 5 ans) ; tirage sous-costal ; signes de danger (incapacité de boire, convulsions, léthargie, SpO₂ < 90 %) = pneumonie grave",
-    "Traiter : pneumonie sans signe de danger = amoxicilline orale 40 mg/kg 2 fois par jour pendant 5 jours (3 jours si respiration rapide seule) ; pneumonie grave = référence, oxygène si SpO₂ < 90 %, ampicilline + gentamicine ou ceftriaxone",
-    "Mesurer la saturation avec un oxymètre de pouls chez tout enfant qui respire vite : l'oxygène sauve des vies et reste trop peu disponible",
-    "Prévenir : vaccins pentavalent (Hib), antipneumococcique et rougeole à jour, allaitement exclusif jusqu'à 6 mois, supplémentation en vitamine A, lavage des mains, cuisson hors de la maison ou foyers améliorés (fumée), cotrimoxazole chez l'enfant exposé au VIH"
-   ],
-   "couleur": "#00695C",
-   "icone": "🫁",
-   "pathologie": 13,
-   "source": "UNICEF, communiqué de la Journée mondiale de la pneumonie (données de 2023) ; OMS, PCIME (prise en charge intégrée des maladies de l'enfant)",
-   "pictogramme": "poumons"
-  },
-  {
-   "etiquette": "DANS LE MONDE · JOURNÉE MONDIALE DU DIABÈTE (14 NOVEMBRE)",
+   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DU DIABÈTE (14 NOVEMBRE)",
    "titre": "Diabète : agir tôt",
-   "lieu": "Monde · Afrique · campagne OMS jusqu'au 14 novembre",
-   "chiffre": "589 millions d'adultes diabétiques · plus de 40 % non diagnostiqués",
-   "texte": "Le thème 2026 de la Journée mondiale du diabète (14 novembre) est « Agir tôt contre le diabète » : diagnostiquer plus tôt, assurer des soins continus et lutter contre la stigmatisation. En Afrique, la majorité des diabétiques l'ignorent.",
+   "lieu": "Monde · Afrique · RDC",
+   "chiffre": "589 millions d'adultes diabétiques, dont 252 millions qui l'ignorent (FID, 2024)",
+   "texte": "Ce 14 novembre, la Journée mondiale du diabète ouvre la campagne 2026-2027 « Agir tôt contre le diabète » (OMS et FID) : diagnostiquer plus tôt, assurer des soins continus et réduire la stigmatisation. Plus de 4 diabétiques sur 10 dans le monde ne sont pas diagnostiqués, et l'Afrique connaît l'une des hausses les plus rapides.",
    "details": [
-    "Afrique : 24,6 millions d'adultes diabétiques en 2024, 59,5 millions prévus en 2050 ; dans les pays à faible revenu, environ 6 diabétiques sur 10 ne sont pas diagnostiqués (FID)",
-    "Objectif OMS : 80 % des personnes diabétiques diagnostiquées d'ici 2030, dont 80 % avec une glycémie bien contrôlée",
-    "Dépister par une glycémie capillaire : adulte de plus de 40 ans, surpoids, HTA, antécédents familiaux, grossesse (diabète gestationnel), tuberculose, personne vivant avec le VIH ; penser au diabète devant soif, urines abondantes, amaigrissement, infections répétées, troubles visuels",
-    "Diagnostic : glycémie à jeun ≥ 1,26 g/l (7,0 mmol/l) à 2 reprises, ou glycémie ≥ 2 g/l (11,1 mmol/l) avec symptômes, ou HbA1c ≥ 6,5 % ; adulte jeune maigre avec cétose : penser au diabète de type 1 (insuline, ne pas retarder)",
-    "Type 2 : mesures hygiéno-diététiques et metformine en 1re intention ; examiner les pieds, les yeux (fond d'œil annuel) et les reins à chaque bilan ; contrôler la PA et proposer une statine après 40 ans"
+    "Monde : 589 millions d'adultes de 20 à 79 ans vivent avec le diabète (près de 1 sur 9), 252 millions l'ignorent, et le diabète cause plus de 3,4 millions de décès par an (FID, Atlas du diabète, 11e édition)",
+    "Région africaine : plus de 24 millions d'adultes diabétiques selon l'OMS Afrique, avec une forte proportion de cas non diagnostiqués, souvent découverts au stade des complications (plaie du pied, AVC, insuffisance rénale, cécité)",
+    "Dépister par une glycémie capillaire : adulte de plus de 40 ans, surpoids, HTA, antécédents familiaux, ancien diabète gestationnel, tuberculose, personne vivant avec le VIH ; y penser devant soif, urines abondantes, amaigrissement, infections répétées ou vision floue",
+    "Diagnostic : glycémie à jeun ≥ 126 mg/dl (7 mmol/l) à 2 reprises, ou glycémie ≥ 200 mg/dl (11,1 mmol/l) avec symptômes, ou HbA1c ≥ 6,5 % ; sujet jeune et mince, amaigrissement rapide ou cétonurie : penser au diabète de type 1 ou cétosique et ne pas retarder l'insuline",
+    "Traiter : éducation et mode de vie pour tous, metformine en 1re intention (500 mg par jour au repas, augmentée progressivement jusqu'à 1 g 2 fois par jour), objectif HbA1c < 7 % ; PA < 130/80 et statine après 40 ans",
+    "À chaque visite : examiner les pieds (sensibilité, pouls, plaies) ; chaque année : fond d'œil, créatinine et protéinurie ; apprendre au patient sous sulfamide ou insuline à reconnaître et corriger une hypoglycémie"
    ],
    "couleur": "#0D47A1",
    "icone": "🩸",
    "pathologie": 44,
-   "source": "OMS, campagne Journée mondiale du diabète 2026 (who.int, consultée le 02/11/2026) ; FID, Atlas du diabète 11e édition (données 2024)",
+   "source": "OMS et FID, campagne de la Journée mondiale du diabète 2026-2027 (14/11/2026) ; FID, Atlas du diabète 11e édition du 04/04/2025 ; OMS Afrique, message de la Journée mondiale du diabète du 14/11/2025",
    "pictogramme": "glucometre"
+  },
+  {
+   "etiquette": "BIENTÔT · SEMAINE MONDIALE DE LA RÉSISTANCE AUX ANTIMICROBIENS (18-24 NOVEMBRE)",
+   "titre": "Antibiorésistance",
+   "lieu": "Monde · Région africaine",
+   "chiffre": "1 infection bactérienne sur 5 résistante en Afrique (OMS, données 2023)",
+   "texte": "À l'approche de la Semaine mondiale de sensibilisation à la résistance aux antimicrobiens, l'OMS rappelle qu'une infection bactérienne confirmée sur six dans le monde résiste aux antibiotiques habituels, une sur cinq dans la Région africaine.",
+   "details": [
+    "Selon le rapport mondial de surveillance de l'OMS (GLASS), 1 infection bactérienne confirmée sur 6 dans le monde en 2023 était résistante au traitement antibiotique standard ; dans la Région africaine, 1 sur 5, avec plus de 70 % de résistance pour certains antibiotiques clés",
+    "Prescrire un antibiotique seulement en cas d'infection bactérienne probable : pas d'antibiotique pour un rhume, une diarrhée aqueuse simple sans signe de gravité ni la plupart des bronchites aiguës",
+    "Choisir la bonne molécule, la bonne dose et la bonne durée ; préférer les antibiotiques de la liste « Accès » de l'OMS (amoxicilline, cotrimoxazole, doxycycline) et réserver ceftriaxone, quinolones et carbapénèmes aux indications précises",
+    "Faire un prélèvement (ECBU, hémoculture, pus) avant l'antibiotique quand c'est possible ; réévaluer à 48-72 h",
+    "Prévenir les infections : hygiène des mains, solutions chlorées, asepsie des soins et vaccination"
+   ],
+   "couleur": "#4527A0",
+   "icone": "💊",
+   "pathologie": 185,
+   "source": "OMS, rapport mondial de surveillance de la résistance aux antibiotiques (GLASS) du 13/10/2025",
+   "pictogramme": "comprime"
   },
   {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
    "lieu": "RDC (8 provinces) · Kenya (9 cas) · cas importé au Nigeria",
-   "chiffre": "10 532 cas confirmés · 5 126 décès (au 1er novembre)",
-   "texte": "L'épidémie due au virus Bundibugyo continue de progresser dans 8 provinces et 67 zones de santé ; près d'un malade sur deux en meurt. Africa CDC la juge « hors de contrôle » : plus de 85 % des nouveaux cas ne figuraient pas sur les listes de contacts.",
+   "chiffre": "Plus de 10 700 cas confirmés et plus de 5 200 décès en RDC (CDC, au 6 novembre)",
+   "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, se poursuit avec de nouveaux cas chaque semaine au Nord-Kivu, en Ituri et dans le Haut-Uélé ; près d'un malade sur deux en meurt.",
    "details": [
-    "RDC au 1er novembre : 10 532 cas confirmés et 5 126 décès ; Ituri (plus de 7 400 cas), Nord-Kivu, Sud-Kivu, Tshopo, Haut-Uélé, Bas-Uélé, Sud-Ubangi et Nord-Ubangi ; cas liés au Kenya (9) et au Nigeria (1)",
-    "Près de 2 décès sur 3 surviennent dans la communauté, hors des centres de traitement : renforcer l'alerte et l'isolement précoces",
-    "Vaccins : aucun vaccin homologué contre le virus Bundibugyo ; l'essai TUMAINI (Bunia, depuis le 23 octobre) évalue en vaccination en anneau l'Ervebo puis deux candidats (ChAdOx1 et mRNA-1469)",
-    "Tout patient fébrile ayant eu un contact avec un cas, ou avec des signes hémorragiques, diarrhée ou vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte",
-    "Hygiène des mains, triage à l'entrée de toutes les structures, enterrements dignes et sécurisés"
+    "RDC au 6 novembre : plus de 10 700 cas confirmés et plus de 5 200 décès dans 67 zones de santé de 8 provinces ; l'Ituri reste l'épicentre ; début novembre, nouveaux cas surtout au Nord-Kivu, en Ituri et dans le Haut-Uélé",
+    "Kenya : 9 cas confirmés, dernier cas le 20 octobre, contacts sortis de quarantaine début novembre ; un cas confirmé au Nigeria le 20 octobre",
+    "Aucun vaccin ni traitement homologué contre le virus Bundibugyo : les vaccins et anticorps existants visent le virus Zaïre ; l'essai TUMAINI (Bunia, depuis le 23 octobre) évalue des vaccins en vaccination en anneau",
+    "Tout patient fébrile ayant eu un contact avec un cas, ou présentant des signes hémorragiques, une diarrhée ou des vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte",
+    "Hygiène des mains, triage à l'entrée de toutes les structures, enterrements dignes et sécurisés ; faire aussi un TDR paludisme"
    ],
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "OMS, communiqué relayé par ONU Info le 05/11/2026 (bilan au 01/11) ; ECDC, mise à jour du 03/11/2026 ; Africa CDC, via Radio Okapi du 06/11/2026",
+   "source": "CDC, résumé de situation mis à jour le 09/11/2026 (données au 06/11) ; OMS, bulletin d'épidémie début novembre 2026 ; ECDC, mise à jour du 03/11/2026",
    "pictogramme": "virus"
   },
   {
    "etiquette": "ÉPIDÉMIE EN HAUSSE",
    "titre": "Choléra en RDC",
-   "lieu": "21 provinces · Sud-Kivu, Nord-Kivu et Haut-Katanga en tête",
-   "chiffre": "51 400 cas suspects · 1 487 décès en 2026",
-   "texte": "Hausse de 17 % en une semaine fin septembre ; le Sud-Kivu, le Nord-Kivu et le Haut-Katanga concentrent près de 60 % des cas.",
+   "lieu": "RDC · Nord-Kivu et Sud-Kivu en tête · cas à Kinshasa",
+   "chiffre": "62 036 cas et 1 839 décès en 2026 (OMS, semaine 42)",
+   "texte": "L'OMS qualifie l'épidémie de choléra en RDC de pire depuis des décennies ; des cas ont été signalés à Kinshasa (Kingabwa) début novembre et une campagne de vaccination orale est en cours.",
    "details": [
-    "Semaine du 21 au 28 septembre : 2 932 cas suspects et 86 décès (létalité 2,9 %)",
-    "Plus de 125 000 cas suspects depuis janvier 2025",
-    "Nouveaux foyers au Nord-Kivu fin octobre : 5 décès en moins d'une semaine à Masisi (Ufamandu 1), 9 cas à la prison centrale de Walikale",
-    "Réhydratation précoce (SRO, Ringer lactate), azithromycine ou doxycycline dans les formes sévères, chloration de l'eau (solutions chlorées 0,05 % et 0,5 %)",
-    "Vaccination orale anticholérique en préparation dans les zones touchées"
+    "Du 1er janvier au 18 octobre 2026 : 62 036 cas et 1 839 décès, létalité proche de 3 % ; la majorité des cas au Nord-Kivu et au Sud-Kivu",
+    "Kinshasa : 3 cas signalés à Kingabwa début novembre ; campagne de vaccination orale visant environ 2 millions de personnes à Kinshasa et à Brazzaville",
+    "Réhydratation précoce (SRO ; Ringer lactate si déshydratation sévère), azithromycine ou doxycycline dans les formes sévères, zinc chez l'enfant",
+    "Chloration de l'eau, désinfection des selles et vomissements (solutions chlorées 0,05 % et 0,5 %), notification immédiate de tout cas suspect"
    ],
    "couleur": "#0277BD",
    "icone": "💧",
    "pathologie": 19,
-   "source": "OMS, via ONU Info du 14/10/2026 ; actualite.cd du 27/10/2026 (Masisi, Walikale)",
+   "source": "OMS, bilan de la semaine 42 relayé par mesvaccins.net et AFP (04/11/2026) ; allAfrica du 06/11/2026 (Kinshasa)",
    "pictogramme": "goutte"
   },
   {
@@ -130,23 +130,6 @@
    "pathologie": 30,
    "source": "MSF, communiqué du 26/10/2026",
    "pictogramme": "pomme"
-  },
-  {
-   "etiquette": "DANS LE MONDE",
-   "titre": "Rougeole",
-   "lieu": "Bangladesh, Mexique, États-Unis, Europe",
-   "chiffre": "22 116 cas confirmés et 1 040 décès au Bangladesh",
-   "texte": "Résurgence mondiale de la rougeole liée à la baisse de la couverture vaccinale.",
-   "details": [
-    "Mexique : 13 645 cas confirmés en 2026 ; États-Unis : 3 887 ; Canada : 1 121",
-    "En RDC, les enfants malnutris sont particulièrement vulnérables",
-    "Vitamine A à tout enfant atteint, vaccination RR à 9 et 15 mois, riposte vaccinale autour des cas"
-   ],
-   "couleur": "#C62828",
-   "icone": "🌡️",
-   "pathologie": 12,
-   "source": "ECDC, rapport de la semaine 41 (3 au 9 octobre 2026)",
-   "pictogramme": "thermometre"
   }
  ]
 }
