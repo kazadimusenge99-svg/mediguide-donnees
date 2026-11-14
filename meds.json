@@ -1,5 +1,5 @@
 {
- "version": 81,
+ "version": 82,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -29730,6 +29730,993 @@
    "mecanisme": "Bloque la recapture de la sérotonine par les neurones : augmente sa concentration dans les synapses.",
    "calculs": [],
    "id": 629
+  },
+  {
+   "dci": "Rivaroxaban",
+   "noms": "Xarelto, Rivaxa, Rivaroxaban",
+   "classe": "cardio",
+   "formes": "Comprimé 2,5, 10, 15 et 20 mg",
+   "indications": [
+    "Prévention des AVC dans la fibrillation auriculaire non valvulaire",
+    "Traitement des thromboses veineuses et des embolies pulmonaires, prévention des récidives",
+    "Prévention des thromboses après prothèse de hanche ou de genou"
+   ],
+   "posologieAdulte": [
+    "Fibrillation auriculaire : 20 mg une fois par jour au cours du repas (15 mg si clairance 15 à 49 ml/min)",
+    "Thrombose veineuse ou embolie pulmonaire : 15 mg 2 fois par jour pendant 21 jours, puis 20 mg une fois par jour",
+    "Après prothèse : 10 mg une fois par jour (2 semaines pour le genou, 5 semaines pour la hanche)"
+   ],
+   "posologieEnfant": [
+    "Avis spécialisé (formes pédiatriques dosées selon le poids)"
+   ],
+   "contreIndications": [
+    "Saignement actif ou lésion à haut risque hémorragique",
+    "Valve cardiaque mécanique, rétrécissement mitral serré (utiliser un AVK)",
+    "Syndrome des antiphospholipides",
+    "Grossesse, allaitement",
+    "Insuffisance hépatique avec troubles de la coagulation",
+    "Clairance de la créatinine inférieure à 15 ml/min"
+   ],
+   "precautions": [
+    "Contrôler la créatinine (clairance) avant puis au moins une fois par an",
+    "Pas de surveillance de l'INR ; ne jamais oublier de doses (effet court)",
+    "Interactions : rifampicine, carbamazépine, phénytoïne (efficacité diminuée), inhibiteurs de protéase (saignement)",
+    "Ne pas associer aux AINS ni à un autre anticoagulant",
+    "Doses de 15 et 20 mg à prendre avec un repas (absorption)"
+   ],
+   "effetsIndesirables": [
+    "Saignements (nez, gencives, urines, digestifs, cérébraux)",
+    "Anémie",
+    "Nausées"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse et l'allaitement (héparine de bas poids moléculaire).",
+   "motsCles": "rivaroxaban, xarelto, anticoagulant, AOD, fibrillation auriculaire, phlébite, embolie pulmonaire",
+   "famille": "Anticoagulant oral direct (anti-Xa)",
+   "mecanisme": "Inhibe directement le facteur Xa de la coagulation : moins de thrombine formée.",
+   "calculs": [],
+   "id": 630
+  },
+  {
+   "dci": "Apixaban",
+   "noms": "Eliquis, Apixaban",
+   "classe": "cardio",
+   "formes": "Comprimé 2,5 et 5 mg",
+   "indications": [
+    "Prévention des AVC dans la fibrillation auriculaire non valvulaire",
+    "Traitement des thromboses veineuses et des embolies pulmonaires",
+    "Prévention après prothèse de hanche ou de genou"
+   ],
+   "posologieAdulte": [
+    "Fibrillation auriculaire : 5 mg 2 fois par jour ; 2,5 mg 2 fois par jour si 2 critères parmi : 80 ans ou plus, 60 kg ou moins, créatinine 133 µmol/l (1,5 mg/dl) ou plus",
+    "Thrombose ou embolie : 10 mg 2 fois par jour pendant 7 jours, puis 5 mg 2 fois par jour",
+    "Après prothèse : 2,5 mg 2 fois par jour"
+   ],
+   "posologieEnfant": [
+    "Non recommandé chez l'enfant (sauf formes et indications pédiatriques spécialisées)"
+   ],
+   "contreIndications": [
+    "Saignement actif ou lésion à haut risque hémorragique",
+    "Valve cardiaque mécanique, rétrécissement mitral serré (utiliser un AVK)",
+    "Syndrome des antiphospholipides",
+    "Grossesse, allaitement",
+    "Insuffisance hépatique avec troubles de la coagulation",
+    "Clairance de la créatinine inférieure à 15 ml/min"
+   ],
+   "precautions": [
+    "Contrôler la créatinine (clairance) avant puis au moins une fois par an",
+    "Pas de surveillance de l'INR ; ne jamais oublier de doses (effet court)",
+    "Interactions : rifampicine, carbamazépine, phénytoïne (efficacité diminuée), inhibiteurs de protéase (saignement)",
+    "Ne pas associer aux AINS ni à un autre anticoagulant"
+   ],
+   "effetsIndesirables": [
+    "Saignements",
+    "Anémie",
+    "Nausées"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse et l'allaitement.",
+   "motsCles": "apixaban, eliquis, anticoagulant, AOD, fibrillation auriculaire, phlébite, embolie pulmonaire",
+   "famille": "Anticoagulant oral direct (anti-Xa)",
+   "mecanisme": "Inhibe directement le facteur Xa de la coagulation : moins de thrombine formée.",
+   "calculs": [],
+   "id": 631
+  },
+  {
+   "dci": "Tadalafil",
+   "noms": "Cialis, Tadalafil, Tadacip",
+   "classe": "cardio",
+   "formes": "Comprimé 2,5, 5, 10 et 20 mg",
+   "indications": [
+    "Dysfonction érectile",
+    "Troubles urinaires de l'hypertrophie bénigne de la prostate",
+    "Hypertension artérielle pulmonaire (40 mg)"
+   ],
+   "posologieAdulte": [
+    "Dysfonction érectile : 10 mg au moins 30 minutes avant le rapport (5 à 20 mg), une fois par jour au maximum ; ou 5 mg tous les jours",
+    "Prostate : 5 mg une fois par jour"
+   ],
+   "posologieEnfant": [
+    "Non indiqué chez l'enfant (hypertension pulmonaire : avis spécialisé)"
+   ],
+   "contreIndications": [
+    "Dérivés nitrés (trinitrine, isosorbide) : hypotension mortelle",
+    "Infarctus récent, angor instable, insuffisance cardiaque sévère, hypotension",
+    "Neuropathie optique ischémique"
+   ],
+   "precautions": [
+    "Rechercher un diabète, une hypertension, une maladie coronaire",
+    "Effet prolongé (jusqu'à 36 h) : pas de dérivé nitré dans les 48 h",
+    "Érection de plus de 4 h : urgence"
+   ],
+   "effetsIndesirables": [
+    "Céphalées, dyspepsie",
+    "Douleurs dorsales et musculaires",
+    "Bouffées de chaleur, congestion nasale"
+   ],
+   "grossesse": "Sans objet.",
+   "motsCles": "tadalafil, cialis, dysfonction érectile, impuissance, prostate",
+   "famille": "Inhibiteur de la phosphodiestérase de type 5 (IPDE-5)",
+   "mecanisme": "Bloque la PDE-5 qui dégrade le GMP cyclique : relâchement des muscles lisses des corps caverneux, de la prostate et du col de la vessie.",
+   "calculs": [],
+   "id": 632
+  },
+  {
+   "dci": "Dapoxétine",
+   "noms": "Priligy, Dapoxétine ; associations avec sildénafil ou tadalafil (non recommandées)",
+   "classe": "neuro",
+   "formes": "Comprimé 30 et 60 mg",
+   "indications": [
+    "Éjaculation précoce de l'homme de 18 à 64 ans"
+   ],
+   "posologieAdulte": [
+    "30 mg 1 à 3 heures avant le rapport, avec un grand verre d'eau ; 60 mg si insuffisant et bien toléré ; une fois par 24 h au maximum"
+   ],
+   "posologieEnfant": [
+    "Contre-indiquée avant 18 ans"
+   ],
+   "contreIndications": [
+    "Maladie cardiaque (insuffisance cardiaque, troubles de la conduction, valvulopathie, infarctus)",
+    "Antécédent de syncope, de manie ou de dépression sévère",
+    "Traitement par antidépresseur, IMAO, thioridazine, tramadol ou triptans",
+    "Insuffisance hépatique modérée à sévère"
+   ],
+   "precautions": [
+    "Malaise avec perte de connaissance possible (syncope) : prendre assis, bien hydraté ; pas d'alcool",
+    "Les associations « deux en un » avec un IPDE-5 vendues hors pharmacie augmentent le risque d'hypotension"
+   ],
+   "effetsIndesirables": [
+    "Nausées, vertiges, céphalées",
+    "Syncope, hypotension orthostatique",
+    "Insomnie"
+   ],
+   "grossesse": "Sans objet.",
+   "motsCles": "dapoxétine, dapoxetine, priligy, éjaculation précoce",
+   "famille": "Inhibiteur sélectif de la recapture de la sérotonine (ISRS) d'action courte",
+   "mecanisme": "Augmente rapidement la sérotonine dans les voies nerveuses qui contrôlent le réflexe d'éjaculation, ce qui le retarde.",
+   "calculs": [],
+   "id": 633
+  },
+  {
+   "dci": "Flucloxacilline",
+   "noms": "Floxapen, Flucloxacilline, Flucloxacillin",
+   "classe": "antibiotiques",
+   "formes": "Gélule 250 et 500 mg ; sirop 125 et 250 mg/5 ml ; poudre injectable 500 mg et 1 g",
+   "indications": [
+    "Infections à staphylocoque : impétigo étendu, furoncles, cellulite, abcès, ostéomyélite, arthrite septique, pneumonie staphylococcique"
+   ],
+   "posologieAdulte": [
+    "Voie orale : 500 mg à 1 g 4 fois par jour, à jeun (1 h avant les repas)",
+    "IV : 1 à 2 g toutes les 6 h (infections graves)"
+   ],
+   "posologieEnfant": [
+    "12,5 à 25 mg/kg 4 fois par jour par voie orale (maximum 1 g par prise) ; infections graves : 25 à 50 mg/kg toutes les 6 h IV"
+   ],
+   "contreIndications": [
+    "Allergie aux pénicillines",
+    "Antécédent d'ictère avec la flucloxacilline"
+   ],
+   "precautions": [
+    "Hépatite cholestatique possible, parfois retardée (sujet âgé, traitement de plus de 14 jours) : contrôler le bilan hépatique si traitement long",
+    "Abcès : le drainage est le traitement principal ; staphylocoque résistant (SARM) : autre antibiotique"
+   ],
+   "effetsIndesirables": [
+    "Troubles digestifs",
+    "Éruption, allergie",
+    "Ictère cholestatique (rare)"
+   ],
+   "grossesse": "Utilisable pendant la grossesse et l'allaitement.",
+   "motsCles": "flucloxacilline, floxapen, staphylocoque, impétigo, cellulite, abcès, ostéomyélite",
+   "famille": "Antibiotique – pénicilline M (antistaphylococcique)",
+   "mecanisme": "Pénicilline résistante à la pénicillinase du staphylocoque : bloque la synthèse de la paroi bactérienne.",
+   "calculs": [
+    {
+     "titre": "Voie orale (dose par prise, 4 fois par jour)",
+     "doseKg": 12.5,
+     "doseKgMax": 25,
+     "unite": "mg",
+     "frequence": "4 fois par jour",
+     "doseMax": 1000,
+     "presentations": [
+      {
+       "nom": "Sirop 125 mg/5 ml",
+       "dose": 125,
+       "par": 5,
+       "unite": "ml"
+      },
+      {
+       "nom": "Sirop 250 mg/5 ml",
+       "dose": 250,
+       "par": 5,
+       "unite": "ml"
+      }
+     ]
+    }
+   ],
+   "id": 634
+  },
+  {
+   "dci": "Céfépime",
+   "noms": "Maxipime, Céfépime",
+   "classe": "antibiotiques",
+   "formes": "Poudre injectable 500 mg, 1 g et 2 g",
+   "indications": [
+    "Infections graves à germes Gram négatif, dont Pseudomonas : pneumonie nosocomiale, neutropénie fébrile, infections urinaires compliquées, intra-abdominales (avec métronidazole)"
+   ],
+   "posologieAdulte": [
+    "1 à 2 g IV toutes les 12 h ; 2 g toutes les 8 h (Pseudomonas, neutropénie fébrile) ; adapter à la fonction rénale"
+   ],
+   "posologieEnfant": [
+    "Plus de 2 mois : 50 mg/kg toutes les 12 h (toutes les 8 h dans les infections graves), maximum 2 g par dose"
+   ],
+   "contreIndications": [
+    "Allergie aux céphalosporines",
+    "Antécédent de réaction grave à une pénicilline"
+   ],
+   "precautions": [
+    "Insuffisance rénale ou sujet âgé : encéphalopathie (confusion, myoclonies, convulsions) si la dose n'est pas réduite",
+    "Réserver aux infections graves ou résistantes (préserver son efficacité)"
+   ],
+   "effetsIndesirables": [
+    "Diarrhée",
+    "Éruption",
+    "Encéphalopathie (surdosage, insuffisance rénale)"
+   ],
+   "grossesse": "Utilisable pendant la grossesse si nécessaire.",
+   "motsCles": "céfépime, cefepime, maxipime, céphalosporine, pseudomonas, neutropénie fébrile",
+   "famille": "Antibiotique – céphalosporine de 4e génération",
+   "mecanisme": "Bloque la synthèse de la paroi bactérienne ; plus stable face à certaines bêtalactamases ; actif sur Pseudomonas.",
+   "calculs": [
+    {
+     "titre": "Dose par injection (toutes les 8 à 12 h)",
+     "doseKg": 50,
+     "unite": "mg",
+     "frequence": "toutes les 8 à 12 h",
+     "doseMax": 2000,
+     "presentations": [
+      {
+       "nom": "Flacon 1 g (dilué dans 10 ml)",
+       "dose": 1000,
+       "par": 10,
+       "unite": "ml"
+      }
+     ]
+    }
+   ],
+   "id": 635
+  },
+  {
+   "dci": "Céfopérazone + sulbactam",
+   "noms": "Sulperazone, Cefobid-S, Magnex, Cefosul",
+   "classe": "antibiotiques",
+   "formes": "Poudre injectable 1 g (500 mg + 500 mg) et 2 g",
+   "indications": [
+    "Infections graves (intra-abdominales, gynécologiques, respiratoires, urinaires) en milieu hospitalier"
+   ],
+   "posologieAdulte": [
+    "2 à 4 g par jour (association 1:1) en 2 injections IV ou IM ; infections sévères : jusqu'à 8 g par jour (maximum 4 g de sulbactam)"
+   ],
+   "posologieEnfant": [
+    "40 à 80 mg/kg par jour en 2 à 4 injections (maximum 160 mg/kg par jour)"
+   ],
+   "contreIndications": [
+    "Allergie aux céphalosporines ou aux pénicillines"
+   ],
+   "precautions": [
+    "Hypoprothrombinémie et saignements (dénutrition, insuffisance hépatique) : vitamine K et surveillance du TP",
+    "Effet antabuse : pas d'alcool pendant et 72 h après",
+    "Réserver aux infections hospitalières (ceftriaxone ou amoxicilline-clavulanate suffisent souvent)"
+   ],
+   "effetsIndesirables": [
+    "Diarrhée",
+    "Saignements, hypoprothrombinémie",
+    "Éruption"
+   ],
+   "grossesse": "Utilisable pendant la grossesse si nécessaire.",
+   "motsCles": "céfopérazone, cefoperazone, sulbactam, sulperazone, céphalosporine",
+   "famille": "Antibiotique – céphalosporine de 3e génération + inhibiteur de bêtalactamase",
+   "mecanisme": "La céfopérazone bloque la paroi bactérienne ; le sulbactam protège l'antibiotique des bêtalactamases (et agit sur Acinetobacter).",
+   "calculs": [],
+   "id": 636
+  },
+  {
+   "dci": "Cefdinir",
+   "noms": "Omnicef, Cefdinir",
+   "classe": "antibiotiques",
+   "formes": "Gélule 300 mg ; suspension 125 et 250 mg/5 ml",
+   "indications": [
+    "Otite, sinusite, angine (allergie à la pénicilline sans réaction grave)",
+    "Infections cutanées non compliquées, pneumonie non grave"
+   ],
+   "posologieAdulte": [
+    "300 mg 2 fois par jour ou 600 mg une fois par jour, 5 à 10 jours"
+   ],
+   "posologieEnfant": [
+    "7 mg/kg 2 fois par jour ou 14 mg/kg une fois par jour (maximum 600 mg par jour)"
+   ],
+   "contreIndications": [
+    "Allergie aux céphalosporines",
+    "Antécédent de réaction grave à une pénicilline"
+   ],
+   "precautions": [
+    "L'amoxicilline reste le 1er choix (OMS) pour l'otite, l'angine et la pneumonie",
+    "Selles rouges possibles si prise de fer (sans gravité) ; espacer de 2 h le fer et les antiacides"
+   ],
+   "effetsIndesirables": [
+    "Diarrhée",
+    "Éruption",
+    "Candidose"
+   ],
+   "grossesse": "Utilisable pendant la grossesse et l'allaitement.",
+   "motsCles": "cefdinir, omnicef, céphalosporine, otite, sinusite, angine",
+   "famille": "Antibiotique – céphalosporine de 3e génération orale",
+   "mecanisme": "Bloque la synthèse de la paroi bactérienne (streptocoque, pneumocoque, Haemophilus, Moraxella).",
+   "calculs": [
+    {
+     "titre": "Dose par prise (2 prises par jour)",
+     "doseKg": 7,
+     "unite": "mg",
+     "frequence": "2 fois par jour",
+     "doseMax": 300,
+     "presentations": [
+      {
+       "nom": "Suspension 125 mg/5 ml",
+       "dose": 125,
+       "par": 5,
+       "unite": "ml"
+      },
+      {
+       "nom": "Suspension 250 mg/5 ml",
+       "dose": 250,
+       "par": 5,
+       "unite": "ml"
+      }
+     ]
+    }
+   ],
+   "id": 637
+  },
+  {
+   "dci": "Dapagliflozine",
+   "noms": "Forxiga, Dapagliflozine ; association : Xigduo (+ metformine)",
+   "classe": "diabete",
+   "formes": "Comprimé 5 et 10 mg",
+   "indications": [
+    "Diabète de type 2 (avec la metformine)",
+    "Insuffisance cardiaque",
+    "Maladie rénale chronique"
+   ],
+   "posologieAdulte": [
+    "10 mg une fois par jour"
+   ],
+   "posologieEnfant": [
+    "Diabète de type 2 à partir de 10 ans : 10 mg une fois par jour (avis spécialisé)"
+   ],
+   "contreIndications": [
+    "Diabète de type 1",
+    "Acidocétose"
+   ],
+   "precautions": [
+    "Acidocétose possible même avec une glycémie peu élevée (jeûne, chirurgie, infection, alcool) : arrêter 3 jours avant une chirurgie et en cas de maladie aiguë",
+    "Infections génitales (mycoses) : hygiène ; déshydratation chez le sujet âgé ou sous diurétique",
+    "Effet sur la glycémie réduit si clairance < 45 ml/min (bénéfice rénal et cardiaque conservé)"
+   ],
+   "effetsIndesirables": [
+    "Mycoses génitales, infections urinaires",
+    "Déshydratation, hypotension",
+    "Acidocétose (rare)"
+   ],
+   "grossesse": "Contre-indiquée pendant la grossesse et l'allaitement.",
+   "motsCles": "dapagliflozine, forxiga, gliflozine, SGLT2, diabète, insuffisance cardiaque, maladie rénale",
+   "famille": "Antidiabétique oral – inhibiteur du SGLT2 (gliflozine)",
+   "mecanisme": "Bloque la réabsorption du glucose par le rein (SGLT2) : le glucose est éliminé dans les urines ; effets protecteurs sur le cœur et le rein.",
+   "calculs": [],
+   "id": 638
+  },
+  {
+   "dci": "Irbésartan",
+   "noms": "Aprovel, Irbésartan ; association : Coaprovel (+ hydrochlorothiazide)",
+   "classe": "cardio",
+   "formes": "Comprimé 75, 150 et 300 mg",
+   "indications": [
+    "Hypertension artérielle",
+    "Néphropathie du diabète de type 2 avec hypertension"
+   ],
+   "posologieAdulte": [
+    "150 mg une fois par jour, jusqu'à 300 mg ; néphropathie diabétique : 300 mg"
+   ],
+   "posologieEnfant": [
+    "6 à 16 ans (avis spécialisé) : 75 mg (20 à 45 kg) à 150 mg par jour"
+   ],
+   "contreIndications": [
+    "Grossesse (2e et 3e trimestres)",
+    "Association à l'aliskirène chez le diabétique",
+    "Sténose bilatérale des artères rénales"
+   ],
+   "precautions": [
+    "Contrôler créatinine et potassium 1 à 2 semaines après le début",
+    "Ne pas associer à un IEC"
+   ],
+   "effetsIndesirables": [
+    "Vertiges, hypotension",
+    "Hyperkaliémie",
+    "Angio-œdème (rare)"
+   ],
+   "grossesse": "Contre-indiqué pendant la grossesse : changer de traitement dès qu'elle est connue.",
+   "motsCles": "irbésartan, irbesartan, aprovel, sartan, ARA2, hypertension, néphropathie diabétique",
+   "famille": "Antagoniste des récepteurs de l'angiotensine II (ARA2, sartan)",
+   "mecanisme": "Bloque les récepteurs AT1 de l'angiotensine II : vasodilatation, baisse de l'aldostérone ; protège le rein.",
+   "calculs": [],
+   "id": 639
+  },
+  {
+   "dci": "Torasémide",
+   "noms": "Torem, Torsémide, Torasemide",
+   "classe": "cardio",
+   "formes": "Comprimé 2,5, 5, 10 et 20 mg ; injectable",
+   "indications": [
+    "Œdèmes de l'insuffisance cardiaque, rénale ou hépatique",
+    "Hypertension artérielle (faible dose)"
+   ],
+   "posologieAdulte": [
+    "Œdèmes : 5 à 20 mg une fois par jour le matin (jusqu'à 100 mg dans l'insuffisance rénale, avis spécialisé)",
+    "Hypertension : 2,5 à 5 mg une fois par jour"
+   ],
+   "posologieEnfant": [
+    "Non recommandé chez l'enfant"
+   ],
+   "contreIndications": [
+    "Anurie",
+    "Déshydratation, hypovolémie, hypokaliémie ou hyponatrémie sévères",
+    "Encéphalopathie hépatique",
+    "Allergie aux sulfamides"
+   ],
+   "precautions": [
+    "Contrôler potassium, sodium et créatinine",
+    "Hypotension et chutes chez le sujet âgé",
+    "Diurétique de l'anse de durée d'action plus longue que le furosémide"
+   ],
+   "effetsIndesirables": [
+    "Hypokaliémie, déshydratation",
+    "Hyperuricémie (goutte)",
+    "Vertiges, crampes"
+   ],
+   "grossesse": "Éviter pendant la grossesse (sauf œdème pulmonaire).",
+   "motsCles": "torasémide, torsémide, torsemide, torem, diurétique de l'anse, œdème, insuffisance cardiaque",
+   "famille": "Diurétique de l'anse",
+   "mecanisme": "Bloque le cotransporteur Na-K-2Cl de l'anse de Henlé : forte élimination d'eau et de sel.",
+   "calculs": [],
+   "id": 640
+  },
+  {
+   "dci": "Ranolazine",
+   "noms": "Ranexa, Ranolazine",
+   "classe": "cardio",
+   "formes": "Comprimé à libération prolongée 375, 500 et 750 mg",
+   "indications": [
+    "Angor stable insuffisamment contrôlé (en complément)"
+   ],
+   "posologieAdulte": [
+    "375 mg 2 fois par jour, puis 500 mg 2 fois par jour après 2 à 4 semaines, jusqu'à 750 mg 2 fois par jour"
+   ],
+   "posologieEnfant": [
+    "Non indiquée chez l'enfant"
+   ],
+   "contreIndications": [
+    "Insuffisance rénale sévère (clairance < 30 ml/min)",
+    "Insuffisance hépatique modérée à sévère",
+    "Inhibiteurs puissants du CYP3A4 (clarithromycine, kétoconazole, inhibiteurs de protéase)"
+   ],
+   "precautions": [
+    "Allonge le QT : prudence avec les autres médicaments concernés",
+    "Interactions : digoxine, simvastatine (augmentent leurs taux)"
+   ],
+   "effetsIndesirables": [
+    "Vertiges, constipation, nausées",
+    "Céphalées, asthénie"
+   ],
+   "grossesse": "Éviter pendant la grossesse et l'allaitement.",
+   "motsCles": "ranolazine, ranexa, angor, angine de poitrine",
+   "famille": "Anti-angoreux (inhibiteur du courant sodique tardif)",
+   "mecanisme": "Bloque le courant sodique tardif des cellules cardiaques ischémiques : moins de surcharge calcique et meilleure relaxation du muscle.",
+   "calculs": [],
+   "id": 641
+  },
+  {
+   "dci": "Ranitidine",
+   "noms": "Azantac, Raniplex, Rantac, Zantac",
+   "classe": "digestif",
+   "formes": "Comprimé 150 et 300 mg ; injectable 50 mg",
+   "indications": [
+    "Retirée du marché aux États-Unis et en Europe en 2020 (contamination par la NDMA, cancérigène probable) ; encore vendue dans certains pays",
+    "Anciennes indications : ulcère, reflux, prévention des ulcères de stress"
+   ],
+   "posologieAdulte": [
+    "Si elle est encore utilisée : 150 mg 2 fois par jour ou 300 mg le soir ; préférer un IPP (oméprazole) ou la famotidine"
+   ],
+   "posologieEnfant": [
+    "2 à 4 mg/kg 2 fois par jour (maximum 300 mg par jour) ; préférer l'oméprazole"
+   ],
+   "contreIndications": [
+    "Allergie aux anti-H2",
+    "Porphyrie"
+   ],
+   "precautions": [
+    "Remplacer par oméprazole ou pantoprazole quand c'est possible",
+    "Insuffisance rénale : réduire la dose"
+   ],
+   "effetsIndesirables": [
+    "Céphalées, troubles digestifs",
+    "Confusion chez le sujet âgé",
+    "Hépatite (rare)"
+   ],
+   "grossesse": "Préférer l'oméprazole pendant la grossesse.",
+   "motsCles": "ranitidine, azantac, rantac, zantac, anti-H2, ulcère, reflux",
+   "famille": "Antihistaminique H2 (antiulcéreux)",
+   "mecanisme": "Bloque les récepteurs H2 de l'histamine des cellules de l'estomac : moins de sécrétion d'acide.",
+   "calculs": [],
+   "id": 642
+  },
+  {
+   "dci": "Étoricoxib",
+   "noms": "Arcoxia, Etoricoxib, Etody",
+   "classe": "antalgiques",
+   "formes": "Comprimé 30, 60, 90 et 120 mg",
+   "indications": [
+    "Arthrose (30 à 60 mg), polyarthrite rhumatoïde, spondylarthrite (90 mg)",
+    "Crise de goutte (120 mg, 8 jours au maximum)",
+    "Douleur après chirurgie dentaire (90 mg, 3 jours)"
+   ],
+   "posologieAdulte": [
+    "Une prise par jour, à la dose la plus faible et la plus courte possible"
+   ],
+   "posologieEnfant": [
+    "Non recommandé avant 16 ans"
+   ],
+   "contreIndications": [
+    "Ulcère gastroduodénal évolutif ou antécédent de saignement digestif",
+    "Insuffisance rénale, hépatique ou cardiaque sévère",
+    "Grossesse à partir de 20 semaines (6 mois)",
+    "Asthme déclenché par l'aspirine ou les AINS",
+    "Suspicion de dengue ou de fièvre hémorragique",
+    "Cardiopathie ischémique, artériopathie, antécédent d'AVC",
+    "Hypertension non contrôlée (supérieure à 140/90)"
+   ],
+   "precautions": [
+    "Contrôler la tension 2 semaines après le début",
+    "Moins de risque digestif que les AINS classiques, mais risque cardiovasculaire"
+   ],
+   "effetsIndesirables": [
+    "Douleurs d'estomac, ulcère, saignement digestif",
+    "Insuffisance rénale aiguë",
+    "Rétention d'eau, hypertension",
+    "Réactions allergiques",
+    "Hypertension, œdèmes"
+   ],
+   "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
+   "motsCles": "étoricoxib, etoricoxib, arcoxia, coxib, AINS, arthrose, goutte",
+   "famille": "AINS – inhibiteur sélectif de la COX-2 (coxib)",
+   "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
+   "calculs": [],
+   "id": 643
+  },
+  {
+   "dci": "Célécoxib",
+   "noms": "Celebrex, Célécoxib",
+   "classe": "antalgiques",
+   "formes": "Gélule 100 et 200 mg",
+   "indications": [
+    "Arthrose, polyarthrite rhumatoïde, spondylarthrite"
+   ],
+   "posologieAdulte": [
+    "200 mg par jour en 1 ou 2 prises (jusqu'à 200 mg 2 fois par jour dans la polyarthrite)"
+   ],
+   "posologieEnfant": [
+    "Non recommandé chez l'enfant (sauf arthrite juvénile, avis spécialisé)"
+   ],
+   "contreIndications": [
+    "Ulcère gastroduodénal évolutif ou antécédent de saignement digestif",
+    "Insuffisance rénale, hépatique ou cardiaque sévère",
+    "Grossesse à partir de 20 semaines (6 mois)",
+    "Asthme déclenché par l'aspirine ou les AINS",
+    "Suspicion de dengue ou de fièvre hémorragique",
+    "Cardiopathie ischémique, artériopathie, antécédent d'AVC",
+    "Allergie aux sulfamides"
+   ],
+   "precautions": [
+    "Risque cardiovasculaire ; moins de risque digestif que les AINS classiques",
+    "Interactions : fluconazole (augmente ses taux), anticoagulants"
+   ],
+   "effetsIndesirables": [
+    "Douleurs d'estomac, ulcère, saignement digestif",
+    "Insuffisance rénale aiguë",
+    "Rétention d'eau, hypertension",
+    "Réactions allergiques"
+   ],
+   "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
+   "motsCles": "célécoxib, celecoxib, celebrex, coxib, AINS, arthrose",
+   "famille": "AINS – inhibiteur sélectif de la COX-2 (coxib)",
+   "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
+   "calculs": [],
+   "id": 644
+  },
+  {
+   "dci": "Indométacine",
+   "noms": "Indocid, Indométacine, Indocin",
+   "classe": "antalgiques",
+   "formes": "Gélule 25 et 50 mg ; suppositoire 50 et 100 mg ; injectable (néonatologie)",
+   "indications": [
+    "Rhumatismes inflammatoires, spondylarthrite, crise de goutte",
+    "Tocolyse avant 32 semaines (milieu spécialisé)",
+    "Fermeture du canal artériel du prématuré (forme IV)"
+   ],
+   "posologieAdulte": [
+    "25 à 50 mg 2 à 3 fois par jour au cours des repas (maximum 150 mg par jour) ; goutte : 50 mg 3 fois par jour, quelques jours"
+   ],
+   "posologieEnfant": [
+    "Non recommandée chez l'enfant (sauf canal artériel du prématuré : protocole spécialisé)"
+   ],
+   "contreIndications": [
+    "Ulcère gastroduodénal évolutif ou antécédent de saignement digestif",
+    "Insuffisance rénale, hépatique ou cardiaque sévère",
+    "Grossesse à partir de 20 semaines (6 mois)",
+    "Asthme déclenché par l'aspirine ou les AINS",
+    "Suspicion de dengue ou de fièvre hémorragique",
+    "Hémorroïdes ou rectite (suppositoires)"
+   ],
+   "precautions": [
+    "AINS puissant avec beaucoup d'effets indésirables (céphalées, vertiges, troubles digestifs) : durée courte",
+    "Tocolyse : seulement avant 32 semaines et 48 h au maximum (fermeture du canal artériel du fœtus)"
+   ],
+   "effetsIndesirables": [
+    "Douleurs d'estomac, ulcère, saignement digestif",
+    "Insuffisance rénale aiguë",
+    "Rétention d'eau, hypertension",
+    "Réactions allergiques",
+    "Céphalées, vertiges, confusion (sujet âgé)"
+   ],
+   "grossesse": "Contre-indiquée à partir de 20 semaines, sauf tocolyse encadrée avant 32 semaines.",
+   "motsCles": "indométacine, indometacine, indocid, AINS, goutte, rhumatisme, tocolyse",
+   "famille": "AINS – dérivé indolique",
+   "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
+   "calculs": [],
+   "id": 645
+  },
+  {
+   "dci": "Dexkétoprofène",
+   "noms": "Enantyum, Ketesse, Skudexa (+ tramadol)",
+   "classe": "antalgiques",
+   "formes": "Comprimé 12,5 et 25 mg ; ampoule 50 mg/2 ml",
+   "indications": [
+    "Douleurs aiguës légères à modérées (dentaires, musculaires, règles douloureuses), postopératoires (injectable)"
+   ],
+   "posologieAdulte": [
+    "Voie orale : 12,5 mg toutes les 4 à 6 h ou 25 mg toutes les 8 h (maximum 75 mg par jour), quelques jours",
+    "IV ou IM : 50 mg toutes les 8 à 12 h (maximum 150 mg par jour), 2 jours"
+   ],
+   "posologieEnfant": [
+    "Non recommandé chez l'enfant"
+   ],
+   "contreIndications": [
+    "Ulcère gastroduodénal évolutif ou antécédent de saignement digestif",
+    "Insuffisance rénale, hépatique ou cardiaque sévère",
+    "Grossesse à partir de 20 semaines (6 mois)",
+    "Asthme déclenché par l'aspirine ou les AINS",
+    "Suspicion de dengue ou de fièvre hémorragique"
+   ],
+   "precautions": [
+    "Durée la plus courte possible",
+    "Ne pas associer à un autre AINS"
+   ],
+   "effetsIndesirables": [
+    "Douleurs d'estomac, ulcère, saignement digestif",
+    "Insuffisance rénale aiguë",
+    "Rétention d'eau, hypertension",
+    "Réactions allergiques"
+   ],
+   "grossesse": "Contre-indiqué à partir de 20 semaines d'aménorrhée ; éviter avant. Prise ponctuelle possible pendant l'allaitement (préférer l'ibuprofène).",
+   "motsCles": "dexkétoprofène, dexketoprofene, enantyum, AINS, douleur",
+   "famille": "AINS – dérivé de l'acide propionique",
+   "mecanisme": "Inhibe les cyclo-oxygénases (COX) et la production de prostaglandines : effets antalgique, anti-inflammatoire et antipyrétique.",
+   "calculs": [],
+   "id": 646
+  },
+  {
+   "dci": "Chlorzoxazone",
+   "noms": "Parafon, Chlorzoxazone ; associations avec paracétamol ou diclofénac",
+   "classe": "antalgiques",
+   "formes": "Comprimé 250 et 500 mg",
+   "indications": [
+    "Contractures musculaires douloureuses (lombalgie, torticolis), en complément, sur une courte durée"
+   ],
+   "posologieAdulte": [
+    "250 à 500 mg 3 à 4 fois par jour (maximum 750 mg 3 à 4 fois par jour), quelques jours"
+   ],
+   "posologieEnfant": [
+    "Non recommandée chez l'enfant"
+   ],
+   "contreIndications": [
+    "Maladie du foie",
+    "Allergie"
+   ],
+   "precautions": [
+    "Hépatite grave possible : arrêter en cas de fatigue, nausées, urines foncées ou ictère",
+    "Somnolence : prudence au volant, pas d'alcool",
+    "Associations avec paracétamol : compter le paracétamol total"
+   ],
+   "effetsIndesirables": [
+    "Somnolence, vertiges",
+    "Troubles digestifs",
+    "Hépatite (rare, grave)",
+    "Urines orange ou rouges (sans gravité)"
+   ],
+   "grossesse": "Éviter pendant la grossesse et l'allaitement.",
+   "motsCles": "chlorzoxazone, parafon, myorelaxant, contracture, lombalgie",
+   "famille": "Myorelaxant d'action centrale",
+   "mecanisme": "Agit sur la moelle et le tronc cérébral pour diminuer les réflexes responsables des contractures musculaires.",
+   "calculs": [],
+   "id": 647
+  },
+  {
+   "dci": "Clobétasol (crème ou pommade)",
+   "noms": "Dermovate, Clobex, Clobétasol, Lemovate",
+   "classe": "dermato",
+   "formes": "Crème et pommade 0,05 % ; lotion ; shampooing",
+   "indications": [
+    "Psoriasis, eczéma sévère, lichen plan, lupus discoïde : dermatoses résistantes aux corticoïdes moins forts"
+   ],
+   "posologieAdulte": [
+    "1 à 2 applications par jour, 4 semaines au maximum, 50 g par semaine au maximum ; puis espacer progressivement"
+   ],
+   "posologieEnfant": [
+    "Non recommandé avant 12 ans (sauf avis spécialisé, durée très courte)"
+   ],
+   "contreIndications": [
+    "Infections de la peau non traitées (bactéries, champignons, virus, gale)",
+    "Acné, rosacée, dermatite autour de la bouche",
+    "Ulcère de jambe"
+   ],
+   "precautions": [
+    "Dermocorticoïde le plus puissant : pas sur le visage, les plis, les organes génitaux, sauf avis spécialisé",
+    "Très utilisé pour éclaircir la peau : atrophie, vergetures, acné, mycoses étendues, troubles des glandes surrénales, diabète, hypertension ; à déconseiller fermement",
+    "Arrêt progressif (rebond)"
+   ],
+   "effetsIndesirables": [
+    "Atrophie, vergetures, télangiectasies",
+    "Dépigmentation, acné",
+    "Freinage surrénalien (grandes surfaces, longue durée)"
+   ],
+   "grossesse": "Éviter de grandes surfaces et les traitements longs ; ne pas appliquer sur les seins pendant l'allaitement.",
+   "motsCles": "clobétasol, clobetasol, dermovate, dermocorticoïde, psoriasis, eczéma, éclaircissant, dépigmentation",
+   "famille": "Dermocorticoïde très fort (classe IV)",
+   "mecanisme": "Corticoïde local très puissant : réduit l'inflammation, les démangeaisons et la prolifération des cellules de la peau.",
+   "calculs": [],
+   "id": 648
+  },
+  {
+   "dci": "Mométasone",
+   "noms": "Nasonex (spray nasal), Elocom et Elocon (crème), Mometasone",
+   "classe": "respiratoire",
+   "formes": "Spray nasal 50 µg/pulvérisation ; crème, pommade et lotion 0,1 %",
+   "indications": [
+    "Rhinite allergique, polypes nasaux (spray)",
+    "Eczéma, psoriasis, dermatoses inflammatoires (crème)"
+   ],
+   "posologieAdulte": [
+    "Rhinite : 2 pulvérisations dans chaque narine une fois par jour (100 µg par narine) ; polypes : 2 pulvérisations 2 fois par jour",
+    "Peau : une application par jour, quelques semaines au maximum"
+   ],
+   "posologieEnfant": [
+    "Spray, 3 à 11 ans : 1 pulvérisation dans chaque narine une fois par jour ; crème : plus de 2 ans, une application par jour, durée courte"
+   ],
+   "contreIndications": [
+    "Infection nasale ou cutanée non traitée",
+    "Acné, rosacée (crème)"
+   ],
+   "precautions": [
+    "Spray : effet en quelques jours, utiliser régulièrement pendant la saison ; orienter vers la paroi externe de la narine",
+    "Crème : dermocorticoïde fort, éviter le visage et les plis au long cours"
+   ],
+   "effetsIndesirables": [
+    "Saignements de nez, irritation nasale",
+    "Atrophie cutanée (crème, usage prolongé)"
+   ],
+   "grossesse": "Utilisable (spray) ; crème sur de petites surfaces.",
+   "motsCles": "mométasone, mometasone, nasonex, elocom, spray nasal, rhinite allergique, corticoïde",
+   "famille": "Corticoïde local (nasal et cutané)",
+   "mecanisme": "Corticoïde puissant à action locale : réduit l'inflammation allergique de la muqueuse nasale ou de la peau.",
+   "calculs": [],
+   "id": 649
+  },
+  {
+   "dci": "Fluticasone",
+   "noms": "Flixotide (inhalé), Flixonase et Avamys (nasal), Seretide (+ salmétérol)",
+   "classe": "respiratoire",
+   "formes": "Aérosol doseur 50, 125 et 250 µg ; spray nasal 50 µg (propionate) ou 27,5 µg (furoate)",
+   "indications": [
+    "Asthme persistant (traitement de fond)",
+    "BPCO sévère (avec un bronchodilatateur de longue durée)",
+    "Rhinite allergique (spray nasal)"
+   ],
+   "posologieAdulte": [
+    "Asthme : 100 à 500 µg 2 fois par jour selon la sévérité ; rhinite : 2 pulvérisations par narine une fois par jour"
+   ],
+   "posologieEnfant": [
+    "Asthme, 4 ans et plus : 50 à 100 µg 2 fois par jour avec chambre d'inhalation ; rhinite, plus de 4 ans : 1 pulvérisation par narine par jour"
+   ],
+   "contreIndications": [
+    "Allergie",
+    "Crise d'asthme aiguë (ne la traite pas : salbutamol)"
+   ],
+   "precautions": [
+    "Se rincer la bouche après chaque inhalation (muguet, voix rauque)",
+    "Interaction avec le ritonavir : syndrome de Cushing (choisir la béclométasone)",
+    "Vérifier la technique d'inhalation à chaque consultation"
+   ],
+   "effetsIndesirables": [
+    "Candidose buccale, voix rauque",
+    "Saignements de nez (spray)",
+    "Effets généraux à forte dose prolongée"
+   ],
+   "grossesse": "Utilisable pendant la grossesse (asthme non contrôlé plus dangereux).",
+   "motsCles": "fluticasone, flixotide, seretide, flixonase, avamys, corticoïde inhalé, asthme, rhinite",
+   "famille": "Corticoïde inhalé et nasal",
+   "mecanisme": "Corticoïde à action locale : réduit l'inflammation des bronches ou de la muqueuse nasale.",
+   "calculs": [],
+   "id": 650
+  },
+  {
+   "dci": "Déflazacort",
+   "noms": "Calcort, Emflaza, Deflazacort",
+   "classe": "respiratoire",
+   "formes": "Comprimé 6, 30 mg",
+   "indications": [
+    "Maladies inflammatoires et allergiques nécessitant un corticoïde (mêmes indications que la prednisolone)",
+    "Myopathie de Duchenne (avis spécialisé)"
+   ],
+   "posologieAdulte": [
+    "6 à 90 mg par jour selon la maladie (6 mg de déflazacort ≈ 5 mg de prednisolone), puis réduction progressive"
+   ],
+   "posologieEnfant": [
+    "0,25 à 1,5 mg/kg par jour ; Duchenne : 0,9 mg/kg par jour (avis spécialisé)"
+   ],
+   "contreIndications": [
+    "Infection non contrôlée",
+    "Ulcère évolutif",
+    "Vaccins vivants pendant un traitement à forte dose"
+   ],
+   "precautions": [
+    "Mêmes précautions que les autres corticoïdes (glycémie, tension, infections, arrêt progressif)",
+    "Pas d'avantage démontré sur la prednisolone, plus chère"
+   ],
+   "effetsIndesirables": [
+    "Hyperglycémie, prise de poids",
+    "Infections",
+    "Cataracte, ostéoporose (long cours)"
+   ],
+   "grossesse": "Préférer la prednisolone pendant la grossesse.",
+   "motsCles": "déflazacort, deflazacort, calcort, corticoïde",
+   "famille": "Corticoïde (glucocorticoïde)",
+   "mecanisme": "Effets anti-inflammatoire et immunosuppresseur des glucocorticoïdes.",
+   "calculs": [],
+   "id": 651
+  },
+  {
+   "dci": "Cromoglicate de sodium",
+   "noms": "Opticron, Cromabak, Lomusol, Cromoglicate",
+   "classe": "respiratoire",
+   "formes": "Collyre 2 % ; spray nasal 2 % ou 4 %",
+   "indications": [
+    "Conjonctivite allergique (y compris saisonnière et printanière)",
+    "Rhinite allergique (prévention)"
+   ],
+   "posologieAdulte": [
+    "Collyre : 1 à 2 gouttes dans chaque œil 4 à 6 fois par jour ; spray : 1 pulvérisation par narine 4 à 6 fois par jour"
+   ],
+   "posologieEnfant": [
+    "Même posologie chez l'enfant"
+   ],
+   "contreIndications": [
+    "Allergie"
+   ],
+   "precautions": [
+    "Traitement préventif : effet en quelques jours, à utiliser régulièrement pendant l'exposition",
+    "Œil rouge douloureux avec baisse de la vision : autre cause à rechercher"
+   ],
+   "effetsIndesirables": [
+    "Picotements transitoires"
+   ],
+   "grossesse": "Utilisable.",
+   "motsCles": "cromoglicate, cromoglycate, opticron, collyre antiallergique, conjonctivite allergique, rhinite",
+   "famille": "Antiallergique local (stabilisant des mastocytes)",
+   "mecanisme": "Stabilise la membrane des mastocytes et empêche la libération d'histamine au contact de l'allergène.",
+   "calculs": [],
+   "id": 652
+  },
+  {
+   "dci": "Dorzolamide (collyre)",
+   "noms": "Trusopt, Cosopt (+ timolol), Dorzolamide",
+   "classe": "dermato",
+   "formes": "Collyre 2 % ; association dorzolamide 2 % + timolol 0,5 %",
+   "indications": [
+    "Glaucome à angle ouvert, hypertension oculaire (seul ou avec un bêtabloquant)"
+   ],
+   "posologieAdulte": [
+    "Seul : 1 goutte 3 fois par jour ; avec timolol (Cosopt) : 1 goutte 2 fois par jour"
+   ],
+   "posologieEnfant": [
+    "Avis spécialisé"
+   ],
+   "contreIndications": [
+    "Insuffisance rénale sévère",
+    "Allergie aux sulfamides",
+    "Cosopt : asthme, BPCO sévère, bradycardie (timolol)"
+   ],
+   "precautions": [
+    "Espacer de 10 minutes les autres collyres",
+    "Comprimer l'angle interne de l'œil 1 à 2 minutes après l'instillation (moins de passage général)"
+   ],
+   "effetsIndesirables": [
+    "Picotements, goût amer",
+    "Kératite, allergie locale"
+   ],
+   "grossesse": "Éviter pendant la grossesse.",
+   "motsCles": "dorzolamide, trusopt, cosopt, glaucome, collyre, tension oculaire",
+   "famille": "Antiglaucomateux – inhibiteur de l'anhydrase carbonique",
+   "mecanisme": "Diminue la production d'humeur aqueuse par le corps ciliaire, ce qui baisse la pression dans l'œil.",
+   "calculs": [],
+   "id": 653
+  },
+  {
+   "dci": "Guaïfénésine",
+   "noms": "Guaifenesin, Mucinex ; souvent associée (Histaminic, Kaptol, Mucoril, Vifex, Touxil)",
+   "classe": "respiratoire",
+   "formes": "Sirop 100 mg/5 ml ; comprimé 200 mg ; comprimé LP 600 mg",
+   "indications": [
+    "Toux grasse avec expectoration difficile (adulte) ; efficacité modeste"
+   ],
+   "posologieAdulte": [
+    "200 à 400 mg toutes les 4 heures (maximum 2,4 g par jour) ou 600 à 1 200 mg LP toutes les 12 h, 7 jours au maximum"
+   ],
+   "posologieEnfant": [
+    "6 à 11 ans : 100 à 200 mg toutes les 4 heures (maximum 1,2 g par jour) ; déconseillée avant 6 ans"
+   ],
+   "contreIndications": [
+    "Allergie",
+    "Enfant de moins de 6 ans (sirops associés)"
+   ],
+   "precautions": [
+    "Associations avec salbutamol, antihistaminique, antitussif : éviter chez l'enfant ; vérifier chaque composant",
+    "Boire suffisamment ; rechercher la cause d'une toux de plus de 2 semaines"
+   ],
+   "effetsIndesirables": [
+    "Nausées, vomissements",
+    "Vertiges"
+   ],
+   "grossesse": "Éviter au 1er trimestre.",
+   "motsCles": "guaïfénésine, guaifenesine, mucinex, expectorant, toux grasse, sirop",
+   "famille": "Expectorant",
+   "mecanisme": "Augmente le volume et diminue la viscosité des sécrétions bronchiques, ce qui facilite leur évacuation par la toux.",
+   "calculs": [],
+   "id": 654
   }
  ],
  "categoriesPathologies": [
