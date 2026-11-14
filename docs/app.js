@@ -210,7 +210,7 @@ function accueil() {
     ["#/medicaments", "💊", "Médicaments", `${D.medicaments.length} fiches`, "#1565C0"],
     ["#/pathologies", "🩺", "Pathologies", `${D.pathologies.length} fiches`, "#00695C"],
     ["#/symptomes", "🤒", "Symptômes", `${(D.symptomes || []).length} motifs`, "#C62828"],
-    ["#/dispensaire", "🧰", "Dispensaire", "Doses et conduites", "#00838F"],
+    ["#/dispensaire", "🧭", "Que faire devant…", "Signes vitaux et conduites", "#00838F"],
     ["#/protocoles", "🚨", "Protocoles d'urgence", `${(D.protocoles || []).length} protocoles`, "#B71C1C"],
     ["#/scores", "🧮", "Scores médicaux", `${(D.scores || []).length} scores`, "#4527A0"],
     ["#/croissance", "📈", "Courbes de croissance", "OMS et Fenton", "#2E7D32"],
@@ -394,14 +394,14 @@ function blocDisp(b, coul) {
 function dispensaire(route, id) {
   const ch = route === "disp" ? (D.dispensaire || []).find((x) => x.id === id) : null;
   if (!ch) {
-    contenu.innerHTML = `<h1>Dispensaire</h1><p class="sous">Les indispensables du poste et du centre de santé. Saisissez le poids en haut de la page pour voir les doses calculées.</p>
+    contenu.innerHTML = `<h1>Que faire devant…</h1><p class="sous">Signes vitaux normaux et conduites pratiques au centre de santé. Saisissez le poids en haut de la page pour voir les doses calculées.</p>
       <div class="grille">${(D.dispensaire || []).map((c) => `<a class="tuile" href="#/disp/${encodeURIComponent(c.id)}"><span class="ico" style="background:${esc(c.couleur)}22">${picto(c.pictogramme)}</span><b>${esc(c.titre)}</b><span class="petit">${esc(c.intro.slice(0, 90))}…</span></a>`).join("")}</div>
       <p class="petit" style="margin-top:20px">Repères OMS/PCIME et MSF. En cas de différence, l'ordinogramme national et la notice du produit font foi.</p>`;
     return;
   }
   const p = poids();
   const avecKg = ch.blocs.some((b) => [...(b.elements || []), ...(b.lignes || []).flat(), b.texte || ""].some((t) => /\/kg/.test(t)));
-  contenu.innerHTML = `<p><a href="#/dispensaire">← Dispensaire</a></p><div class="fiche">
+  contenu.innerHTML = `<p><a href="#/dispensaire">← Que faire devant…</a></p><div class="fiche">
     <div class="tete"><span class="ico" style="background:${esc(ch.couleur)}22">${picto(ch.pictogramme)}</span><h1>${esc(ch.titre)}</h1></div>
     <div class="section" style="background:${esc(ch.couleur)}1a"><b>${esc(ch.intro)}</b></div>
     ${avecKg ? `<div class="alerte-poids">${p == null ? "Saisissez le poids de l'enfant en haut de la page pour voir les doses calculées." : p <= 35 ? `Doses calculées pour <b>${fmt(p)} kg</b> (en couleur). Vérifiez toujours la dose maximale.` : `Poids de ${fmt(p)} kg : utilisez les doses adultes (pas de calcul par kilo au-delà de 35 kg).`}</div>` : ""}
