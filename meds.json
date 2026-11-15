@@ -1,6 +1,6 @@
 {
- "version": 83,
- "dateMiseAJour": "2026-10-31",
+ "version": 84,
+ "dateMiseAJour": "2026-11-15",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
   "OMS – Lignes directrices pour le paludisme",
@@ -57116,7 +57116,7 @@
    ],
    "traitement": [
     "Femme enceinte (TPIp) : sulfadoxine-pyriméthamine 3 comprimés (1 500/75 mg) en prise unique supervisée à chaque consultation prénatale dès 13 semaines, à au moins 1 mois d'intervalle, jusqu'à l'accouchement ; au moins 3 doses ; peut être prise à jeun",
-    "Pas de SP chez la femme sous cotrimoxazole (VIH) ni pendant le 1er trimestre ; donner l'acide folique à 0,4 mg par jour (les fortes doses de 5 mg diminuent l'efficacité de la SP)",
+    "Pas de SP chez la femme sous cotrimoxazole (VIH) ni pendant le 1er trimestre : chez la femme enceinte vivant avec le VIH sous cotrimoxazole, celui-ci (avec la moustiquaire imprégnée) assure la prévention ; la dihydroartémisinine-pipéraquine n'est pas recommandée en TPIp chez la femme enceinte vivant avec le VIH, quelle que soit la gestité (OMS 2026) ; donner l'acide folique à 0,4 mg par jour (les fortes doses de 5 mg diminuent l'efficacité de la SP)",
     "Nourrisson (chimioprévention pérenne) : SP aux contacts du calendrier vaccinal (vers 10 et 14 semaines, 9 mois, puis au cours de la 2e année) selon le programme national",
     "Après une hospitalisation pour anémie sévère (enfant de moins de 5 ans) : traitement complet par CTA (dihydroartémisinine-pipéraquine ou artéméther-luméfantrine) à 2, 6 et 10 semaines après la sortie",
     "Chimioprévention saisonnière (Sahel) : SP + amodiaquine une fois par mois pendant 4 à 5 mois de la saison des pluies",
