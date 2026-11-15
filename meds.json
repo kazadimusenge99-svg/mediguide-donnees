@@ -51522,9 +51522,9 @@
      "resultat": "Sus-décalage du segment ST ≥ 1 mm dans 2 dérivations contiguës (≥ 2 mm en V2–V3) en territoire coronaire avec miroir = infarctus ST+ ; sous-décalage ou ondes T négatives = SCA sans sus-décalage",
      "image": "ecg-stemi",
      "images": [
-      "ecg-pericardite-r",
       "ecg-stemi-r",
       "ecg-stemi-r2",
+      "ecg-pericardite-r",
       "ecg-stemi"
      ]
     },
@@ -52459,9 +52459,9 @@
      "resultat": "Appendice > 6 mm non compressible, épanchement, lithiase biliaire, invagination (image en cocarde)",
      "image": "echo-vesicule",
      "images": [
+      "echo-lithiase-r",
       "echo-appendicite-r",
       "echo-invagination-r",
-      "echo-lithiase-r",
       "echo-vesicule"
      ]
     },
@@ -57583,9 +57583,9 @@
      "resultat": "Opacité persistante, abcès (cavité avec niveau liquide), épanchement, image de tuberculose",
      "image": "rx-tb-caverne",
      "images": [
-      "rx-abces-r",
       "rx-tb-r",
       "rx-tb-r2",
+      "rx-abces-r",
       "rx-tb-caverne"
      ]
     },
@@ -62474,9 +62474,9 @@
      "resultat": "Fibrillation auriculaire : rythme irrégulièrement irrégulier, absence d'ondes P, trémulation de la ligne de base",
      "image": "ecg-fa",
      "images": [
-      "ecg-flutter-r",
       "ecg-fa-r",
       "ecg-fa-r2",
+      "ecg-flutter-r",
       "ecg-fa"
      ]
     },
@@ -65431,8 +65431,8 @@
      "resultat": "Rythme choquable : fibrillation ventriculaire (ondes anarchiques) ou tachycardie ventriculaire sans pouls ; non choquable : asystolie, activité électrique sans pouls",
      "image": "ecg-fv",
      "images": [
-      "ecg-tv-r",
       "ecg-fv-r",
+      "ecg-tv-r",
       "ecg-fv"
      ]
     },
