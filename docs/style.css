@@ -145,3 +145,8 @@ table.tab td:first-child { font-weight: 600; }
 .ex-img { display: block; margin-top: 8px; text-decoration: none; }
 .ex-img img { width: 100%; max-width: 560px; height: auto; border-radius: 8px; display: block; background: #000; }
 .ex-img span { display: block; font-size: .8em; opacity: .7; margin-top: 3px; }
+.ex-galerie { display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; margin-top: 8px; padding-bottom: 4px; }
+.ex-fig { flex: 0 0 88%; max-width: 520px; margin: 0; scroll-snap-align: start; }
+.ex-fig img { width: 100%; height: 230px; object-fit: contain; background: #000; border-radius: 8px; display: block; }
+.ex-fig figcaption { font-size: .82em; margin-top: 4px; }
+.ex-fig figcaption span { opacity: .65; font-size: .92em; }

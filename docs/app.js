@@ -341,10 +341,19 @@ const IMG_EXAMEN = (n) => `img/examens/${encodeURIComponent(n)}.webp`;
 function paraclinique(p) {
   const ex = p.paraclinique || [];
   if (!ex.length) return "";
-  return `<div class="section"><h3>🧪 Examens paracliniques : résultats en faveur du diagnostic</h3><div class="examens">${ex.map((e) => `<div class="ex-ligne">
-      <div class="ex-nom">${esc(e.examen)}</div><div class="ex-res">${esc(e.resultat)}</div>
-      ${e.image ? `<a class="ex-img" href="${IMG_EXAMEN(e.image)}" target="_blank" rel="noopener"><img src="${IMG_EXAMEN(e.image)}" loading="lazy" alt="Image typique : ${esc(e.examen)}"><span>Image typique (schéma) — toucher pour agrandir</span></a>` : ""}
-    </div>`).join("")}</div><p class="petit">Illustrations schématiques MédiGuide, non issues de patients réels.</p></div>`;
+  const cr = D.creditsImages || {}, lg = D.legendesImages || {};
+  const fig = (n, e) => {
+    const c = cr[n];
+    const leg = lg[n] || "Schéma annoté MédiGuide (illustration pédagogique)";
+    const credit = c ? `${esc(c.auteur)} — ${esc(c.licence)} — <a href="${esc(c.source)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : "MédiGuide";
+    return `<figure class="ex-fig"><a href="${IMG_EXAMEN(n)}" target="_blank" rel="noopener"><img src="${IMG_EXAMEN(n)}" loading="lazy" alt="${esc(leg)}"></a>
+      <figcaption><b>${esc(leg)}</b><br><span>${credit}</span></figcaption></figure>`;
+  };
+  return `<div class="section"><h3>🧪 Examens paracliniques : résultats en faveur du diagnostic</h3><div class="examens">${ex.map((e) => {
+      const imgs = e.images || (e.image ? [e.image] : []);
+      return `<div class="ex-ligne"><div class="ex-nom">${esc(e.examen)}</div><div class="ex-res">${esc(e.resultat)}</div>
+      ${imgs.length ? `<div class="ex-galerie">${imgs.map((n) => fig(n, e)).join("")}</div>${imgs.length > 1 ? `<div class="petit">${imgs.length} images — faire défiler →</div>` : ""}` : ""}</div>`;
+    }).join("")}</div><p class="petit">Images réelles : Wikimedia Commons, licences libres (auteur et licence sous chaque image). Schémas : MédiGuide.</p></div>`;
 }
 function fichePatho(p) {
   const c = D.catParId[p.categorie];

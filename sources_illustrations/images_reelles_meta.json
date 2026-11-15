@@ -1,0 +1,722 @@
+{
+ "ecg-tv-r": {
+  "titre": "Electrocardiogram of Ventricular Tachycardia.png",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Electrocardiogram_of_Ventricular_Tachycardia.png/960px-Electrocardiogram_of_Ventricular_Tachycardia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Electrocardiogram_of_Ventricular_Tachycardia.png",
+  "licence": "CC BY-SA 2.5",
+  "auteur": "The original uploader was Ksheka at English Wikipedia.",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+ },
+ "ecg-stemi-r": {
+  "titre": "12 Lead EKG ST Elevation tracing only.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/12_Lead_EKG_ST_Elevation_tracing_only.jpg/960px-12_Lead_EKG_ST_Elevation_tracing_only.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:12_Lead_EKG_ST_Elevation_tracing_only.jpg",
+  "licence": "Public domain",
+  "auteur": "Displaced",
+  "licenceUrl": ""
+ },
+ "ct-sousdural-r": {
+  "titre": "Ct-scan of the brain with an subdural hematoma.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Ct-scan_of_the_brain_with_an_subdural_hematoma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Ct-scan_of_the_brain_with_an_subdural_hematoma.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Lucien Monfils",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "rx-fracture-r": {
+  "titre": "Tibia and fibula fracture.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Tibia_and_fibula_fracture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Tibia_and_fibula_fracture.jpg",
+  "licence": "Public domain",
+  "auteur": "Jalo",
+  "licenceUrl": ""
+ },
+ "ct-hemorragie-r": {
+  "titre": "Intracerebral hemorrhage 2.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Intracerebral_hemorrhage_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Intracerebral_hemorrhage_2.jpg",
+  "licence": "Public domain",
+  "auteur": "Glitzy queen00 at English Wikipedia",
+  "licenceUrl": ""
+ },
+ "ecg-bav3-r": {
+  "titre": "3rd degree heart block.PNG",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/16/3rd_degree_heart_block.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:3rd_degree_heart_block.PNG",
+  "licence": "CC BY 3.0",
+  "auteur": "Gregory Marcus, MD, MAS, FACC",
+  "licenceUrl": "https://creativecommons.org/licenses/by/3.0"
+ },
+ "ecg-tdp-r": {
+  "titre": "Torsades de Pointes TdP.png",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Torsades_de_Pointes_TdP.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Torsades_de_Pointes_TdP.png",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Jer5150",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "rx-osteomyelite-r": {
+  "titre": "BrodieAbscessRadiograph.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/21/BrodieAbscessRadiograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:BrodieAbscessRadiograph.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Jto410",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "rx-pneumatocele-r": {
+  "titre": "Pneumatozele Verlauf - Roe pa 2007 und 2009.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Pneumatozele_Verlauf_-_Roe_pa_2007_und_2009.jpg/960px-Pneumatozele_Verlauf_-_Roe_pa_2007_und_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Pneumatozele_Verlauf_-_Roe_pa_2007_und_2009.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Hellerhoff",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "ecg-fv-r": {
+  "titre": "Ventricular fibrillation (from ecg-quiz.com).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Ventricular_fibrillation_%28from_ecg-quiz.com%29.jpg/960px-Ventricular_fibrillation_%28from_ecg-quiz.com%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Ventricular_fibrillation_(from_ecg-quiz.com).jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Antoine Ayer",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "ecg-pericardite-r": {
+  "titre": "Acute pericarditis.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Acute_pericarditis.jpg/960px-Acute_pericarditis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Acute_pericarditis.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "James Heilman, MD",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "rx-tb-r2": {
+  "titre": "PulmonaryTBCXR.png",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/68/PulmonaryTBCXR.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:PulmonaryTBCXR.png",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "James Heilman, MD",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "rx-emphyseme-r": {
+  "titre": "BullousEmphysema.png",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ee/BullousEmphysema.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:BullousEmphysema.png",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "James Heilman, MD",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "ecg-stemi-r2": {
+  "titre": "ST Segment Elevation Myocardial Infarction Unlabeled.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/ST_Segment_Elevation_Myocardial_Infarction_Unlabeled.jpg/960px-ST_Segment_Elevation_Myocardial_Infarction_Unlabeled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:ST_Segment_Elevation_Myocardial_Infarction_Unlabeled.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Andrewmeyerson",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "ecg-hvg-r": {
+  "titre": "Left Ventricular Hypertrophy Unlabeled.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Left_Ventricular_Hypertrophy_Unlabeled.jpg/960px-Left_Ventricular_Hypertrophy_Unlabeled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Left_Ventricular_Hypertrophy_Unlabeled.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Andrewmeyerson",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "ecg-bav1-r": {
+  "titre": "First Degree AV Block ECG Unlabeled.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/First_Degree_AV_Block_ECG_Unlabeled.jpg/960px-First_Degree_AV_Block_ECG_Unlabeled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:First_Degree_AV_Block_ECG_Unlabeled.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Andrewmeyerson",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "ecg-hyperk-r": {
+  "titre": "Hyperkalemia ECG.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Hyperkalemia_ECG.jpg/960px-Hyperkalemia_ECG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Hyperkalemia_ECG.jpg",
+  "licence": "CC BY 4.0",
+  "auteur": "Dr. Michael-Joseph F. Agbayani and Dr. Eddieson Gonzales (Manila, Philippines)",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "ecg-ep-r": {
+  "titre": "Pulm embolism.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Pulm_embolism.jpg/960px-Pulm_embolism.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Pulm_embolism.jpg",
+  "licence": "CC BY 3.0",
+  "auteur": "R.W.Koster",
+  "licenceUrl": "https://creativecommons.org/licenses/by/3.0"
+ },
+ "rx-pr-r2": {
+  "titre": "Rheumatoid arthritis with unaffected carpal bones 2009.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Rheumatoid_arthritis_with_unaffected_carpal_bones_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Rheumatoid_arthritis_with_unaffected_carpal_bones_2009.jpg",
+  "licence": "CC0",
+  "auteur": "Mikael Häggström",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "rx-pr-r": {
+  "titre": "Rheumatoid arthritis with carpal ankylosis 2017.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Rheumatoid_arthritis_with_carpal_ankylosis_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Rheumatoid_arthritis_with_carpal_ankylosis_2017.jpg",
+  "licence": "CC0",
+  "auteur": "Mikael Häggström",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "rx-oap-r2": {
+  "titre": "Chest radiograph of a lung with Kerley B lines.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Chest_radiograph_of_a_lung_with_Kerley_B_lines.jpg/960px-Chest_radiograph_of_a_lung_with_Kerley_B_lines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Chest_radiograph_of_a_lung_with_Kerley_B_lines.jpg",
+  "licence": "CC0",
+  "auteur": "Mikael Häggström",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "rx-oap-r": {
+  "titre": "Chest radiograph with signs of congestive heart failure - annotated.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Chest_radiograph_with_signs_of_congestive_heart_failure_-_annotated.jpg/960px-Chest_radiograph_with_signs_of_congestive_heart_failure_-_annotated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Chest_radiograph_with_signs_of_congestive_heart_failure_-_annotated.jpg",
+  "licence": "CC0",
+  "auteur": "Mikael Häggström",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "rx-pneumothorax-r": {
+  "titre": "X-ray of pneumothorax signs.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/X-ray_of_pneumothorax_signs.jpg/960px-X-ray_of_pneumothorax_signs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:X-ray_of_pneumothorax_signs.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Karthik Easvur",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "ct-extradural-r": {
+  "titre": "EpiduralHematoma.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f9/EpiduralHematoma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:EpiduralHematoma.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "James Heilman, MD",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "rx-epanchement-r": {
+  "titre": "Pleural effusion of primary pulmonary tuberculosis.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Pleural_effusion_of_primary_pulmonary_tuberculosis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Pleural_effusion_of_primary_pulmonary_tuberculosis.jpg",
+  "licence": "CC BY 4.0",
+  "auteur": "Basem Abbas Al Ubaidi",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "rx-mmh-r": {
+  "titre": "X-ray of infant respiratory distress syndrome (IRDS).png",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/X-ray_of_infant_respiratory_distress_syndrome_%28IRDS%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:X-ray_of_infant_respiratory_distress_syndrome_(IRDS).png",
+  "licence": "CC0",
+  "auteur": "Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest: None Mikael Häggström, M.D.Consent note: Wri",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "rx-pneumonie-r": {
+  "titre": "X-ray of lobar pneumonia.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/X-ray_of_lobar_pneumonia.jpg/960px-X-ray_of_lobar_pneumonia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:X-ray_of_lobar_pneumonia.jpg",
+  "licence": "CC0",
+  "auteur": "Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest: None Mikael Häggström, M.D.Consent note: Wri",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "rx-myelome-r": {
+  "titre": "Osteolytic Lesions.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Osteolytic_Lesions.jpg/960px-Osteolytic_Lesions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Osteolytic_Lesions.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Medicalpal",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "rx-miliaire-r": {
+  "titre": "Chest radiograph of miliary tuberculosis 1.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Chest_radiograph_of_miliary_tuberculosis_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Chest_radiograph_of_miliary_tuberculosis_1.jpg",
+  "licence": "CC BY 4.0",
+  "auteur": "Benjamín Herreros, Isabel Plaza, Rebeca García, Marta Chichón, Carmen Guerrero and Emilio Pintor",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "rx-tb-r": {
+  "titre": "Chest plain film. Fibrotic cavitary Tuberculosis.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Chest_plain_film._Fibrotic_cavitary_Tuberculosis.jpg/960px-Chest_plain_film._Fibrotic_cavitary_Tuberculosis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Chest_plain_film._Fibrotic_cavitary_Tuberculosis.jpg",
+  "licence": "CC0",
+  "auteur": "Giller Boris",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "rx-pneumocystose-r": {
+  "titre": "X-ray of cyst in pneumocystis pneumonia 1.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f7/X-ray_of_cyst_in_pneumocystis_pneumonia_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:X-ray_of_cyst_in_pneumocystis_pneumonia_1.jpg",
+  "licence": "CC BY 4.0",
+  "auteur": "Carolyn M. Allen, Hamdan H. AL-Jahdali, Klaus L. Irion, Sarah Al Ghanem, Alaa Gouda, and Ali Nawaz Khan",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "ct-covid-r": {
+  "titre": "COVID19CTPneumonia.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/COVID19CTPneumonia.jpg/960px-COVID19CTPneumonia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:COVID19CTPneumonia.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Jin, Y., Cai, L., Cheng, Z. et al.",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "ecg-qt-r": {
+  "titre": "Long QT syndrome type 1.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/22/Long_QT_syndrome_type_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Long_QT_syndrome_type_1.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "PeaBrainC",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "rx-occlusion-r": {
+  "titre": "1. Bowel-obstruction-x-ray.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a3/1._Bowel-obstruction-x-ray.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:1._Bowel-obstruction-x-ray.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Igboeze",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "ecg-fa-r": {
+  "titre": "ECG Atrial Fibrillation 98 bpm.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/ECG_Atrial_Fibrillation_98_bpm.jpg/960px-ECG_Atrial_Fibrillation_98_bpm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:ECG_Atrial_Fibrillation_98_bpm.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Ewingdo",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "ecg-flutter-r": {
+  "titre": "ECG Atrial Flutter 294 bpm.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/ECG_Atrial_Flutter_294_bpm.jpg/960px-ECG_Atrial_Flutter_294_bpm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:ECG_Atrial_Flutter_294_bpm.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Ewingdo",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "ecg-fa-r2": {
+  "titre": "Atrial Fibrillation in two leads.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Atrial_Fibrillation_in_two_leads.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Atrial_Fibrillation_in_two_leads.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "PeaBrainC",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "rx-abces-r": {
+  "titre": "Chest X-ray of right upper to mid zone lung cavity with air fluid level.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Chest_X-ray_of_right_upper_to_mid_zone_lung_cavity_with_air_fluid_level.jpg/960px-Chest_X-ray_of_right_upper_to_mid_zone_lung_cavity_with_air_fluid_level.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Chest_X-ray_of_right_upper_to_mid_zone_lung_cavity_with_air_fluid_level.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Cerevisae",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "rx-pneumoperitoine-r": {
+  "titre": "Chest X-ray showing presence of free air under left diaphragm.png",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Chest_X-ray_showing_presence_of_free_air_under_left_diaphragm.png/960px-Chest_X-ray_showing_presence_of_free_air_under_left_diaphragm.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Chest_X-ray_showing_presence_of_free_air_under_left_diaphragm.png",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Cerevisae",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "ct-ep-r": {
+  "titre": "RVstraininPE.png",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/RVstraininPE.png/960px-RVstraininPE.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:RVstraininPE.png",
+  "licence": "CC0",
+  "auteur": "Michellescot",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "echo-pericarde-r": {
+  "titre": "Pericardial effusion.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/17/Pericardial_effusion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Pericardial_effusion.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Kalumet",
+  "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ "mi-trypano": {
+  "titre": "Trypanosoma sp. PHIL 613 lores.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/23/Trypanosoma_sp._PHIL_613_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Trypanosoma_sp._PHIL_613_lores.jpg",
+  "licence": "Public domain",
+  "auteur": "Photo Credit: Content Providers: CDC/Dr. Myron G. Schultz",
+  "licenceUrl": ""
+ },
+ "mi-crypto": {
+  "titre": "Cryptococcus neoformans using a light India ink staining preparation PHIL 3771 lores.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Cryptococcus_neoformans_using_a_light_India_ink_staining_preparation_PHIL_3771_lores.jpg/960px-Cryptococcus_neoformans_using_a_light_India_ink_staining_preparation_PHIL_3771_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Cryptococcus_neoformans_using_a_light_India_ink_staining_preparation_PHIL_3771_lores.jpg",
+  "licence": "Public domain",
+  "auteur": "Photo Credit: Content Providers(s): CDC/Dr. Leanor Haley",
+  "licenceUrl": ""
+ },
+ "mi-schisto-h": {
+  "titre": "Schistosoma haematobium egg 4843 lores.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Schistosoma_haematobium_egg_4843_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Schistosoma_haematobium_egg_4843_lores.jpg",
+  "licence": "Public domain",
+  "auteur": "CDC, Public Health Image Library (PHIL)",
+  "licenceUrl": ""
+ },
+ "mi-schisto-m": {
+  "titre": "Schistosoma mansoni egg 4841 lores.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Schistosoma_mansoni_egg_4841_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Schistosoma_mansoni_egg_4841_lores.jpg",
+  "licence": "Public domain",
+  "auteur": "",
+  "licenceUrl": ""
+ },
+ "mi-ankylo": {
+  "titre": "Hookworm egg 1.JPG",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Hookworm_egg_1.JPG/960px-Hookworm_egg_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Hookworm_egg_1.JPG",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Joel Mills",
+  "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ "echo-geu-r": {
+  "titre": "Ectopic pregnancy.JPG",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Ectopic_pregnancy.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Ectopic_pregnancy.JPG",
+  "licence": "Public domain",
+  "auteur": "X.Compagnion",
+  "licenceUrl": ""
+ },
+ "echo-cirrhose-r": {
+  "titre": "Ultrasound abdomen - liver cirrhosis - 10.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/15/Ultrasound_abdomen_-_liver_cirrhosis_-_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Ultrasound_abdomen_-_liver_cirrhosis_-_10.jpg",
+  "licence": "CC BY 2.5",
+  "auteur": "Christaras A",
+  "licenceUrl": "https://creativecommons.org/licenses/by/2.5"
+ },
+ "piece-wilms-r": {
+  "titre": "Wilms tumor.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Wilms_tumor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Wilms_tumor.jpg",
+  "licence": "Public domain",
+  "auteur": "The Armed Forces Institute of Pathology",
+  "licenceUrl": ""
+ },
+ "mi-palu-ge": {
+  "titre": "P. falciparum thick smear with ring forms.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/P._falciparum_thick_smear_with_ring_forms.jpg/960px-P._falciparum_thick_smear_with_ring_forms.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:P._falciparum_thick_smear_with_ring_forms.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Jenkayaks",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "hsg-r": {
+  "titre": "HSG adherences FRENCH.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/HSG_adherences_FRENCH.jpg/960px-HSG_adherences_FRENCH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:HSG_adherences_FRENCH.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Neroli",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "echo-vegetation-r": {
+  "titre": "Endocarditis ultrasound.JPG",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Endocarditis_ultrasound.JPG/960px-Endocarditis_ultrasound.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Endocarditis_ultrasound.JPG",
+  "licence": "CC BY 2.0",
+  "auteur": "Endocarditis_ultrasound.gif: Daisuke Koya, Kazuyuki Shibuya, Ryuichi Kikkawa and Masakazu Haneda. derivative work: Mater",
+  "licenceUrl": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "echo-ascite-r": {
+  "titre": "Ascites ultrasound 2.JPG",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Ascites_ultrasound_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Ascites_ultrasound_2.JPG",
+  "licence": "CC BY 3.0",
+  "auteur": "Samir",
+  "licenceUrl": "https://creativecommons.org/licenses/by/3.0"
+ },
+ "mi-baar": {
+  "titre": "M tuberculosis sputum.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/M_tuberculosis_sputum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:M_tuberculosis_sputum.jpg",
+  "licence": "Public domain",
+  "auteur": "Microrao",
+  "licenceUrl": ""
+ },
+ "mi-lmc": {
+  "titre": "Chronic Myeloid Leukemia smear 2009-04-09.JPG",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Chronic_Myeloid_Leukemia_smear_2009-04-09.JPG/960px-Chronic_Myeloid_Leukemia_smear_2009-04-09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Chronic_Myeloid_Leukemia_smear_2009-04-09.JPG",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Paulo Henrique Orlandi Mourao",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "echo-invagination-r": {
+  "titre": "Intussusception on ultrasound.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Intussusception_on_ultrasound.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Intussusception_on_ultrasound.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Frank Gaillard",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "echo-lithiase-r": {
+  "titre": "Gallstones.PNG",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/af/Gallstones.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Gallstones.PNG",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "James Heilman, MD",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "mi-loa": {
+  "titre": "Loa loa - microfilaria.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Loa_loa_-_microfilaria.jpg/960px-Loa_loa_-_microfilaria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Loa_loa_-_microfilaria.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Stefan Walkowski",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "mi-lal": {
+  "titre": "Acute lymphoblastic leukaemia smear.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Acute_lymphoblastic_leukaemia_smear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Acute_lymphoblastic_leukaemia_smear.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "James Grellier - derivative of original work by VashiDonsk at en.wikipedia",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "echo-grossesse-r": {
+  "titre": "Pregnancy ultrasound 110316154227 1549100.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/20/Pregnancy_ultrasound_110316154227_1549100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Pregnancy_ultrasound_110316154227_1549100.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Nevit Dilmen (talk)",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "mi-ferriprive": {
+  "titre": "Iron-deficiency Anemia, Peripheral Blood Smear (4422704616).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Iron-deficiency_Anemia%2C_Peripheral_Blood_Smear_%284422704616%29.jpg/960px-Iron-deficiency_Anemia%2C_Peripheral_Blood_Smear_%284422704616%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Iron-deficiency_Anemia,_Peripheral_Blood_Smear_(4422704616).jpg",
+  "licence": "CC BY 2.0",
+  "auteur": "Ed Uthman from Houston, TX, USA",
+  "licenceUrl": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "echo-mole-r": {
+  "titre": "Molar pregnancy.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Molar_pregnancy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Molar_pregnancy.jpg",
+  "licence": "CC0",
+  "auteur": "Mikael Häggström. When using this image in external works, it may be cited as: Häggström, Mikael (2014). \"Medical galler",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "mi-candida": {
+  "titre": "Vaginal wet mount in candidal vulvovaginitis.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Vaginal_wet_mount_in_candidal_vulvovaginitis.jpg/960px-Vaginal_wet_mount_in_candidal_vulvovaginitis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Vaginal_wet_mount_in_candidal_vulvovaginitis.jpg",
+  "licence": "CC0",
+  "auteur": "Mikael Häggström",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "mi-drepano": {
+  "titre": "Sickle-cell smear 2015-09-10.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Sickle-cell_smear_2015-09-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Sickle-cell_smear_2015-09-10.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paulo Henrique Orlandi Mourao",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "mi-vivax": {
+  "titre": "Schizont of P. vivax in a thin blood smear.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/80/Schizont_of_P._vivax_in_a_thin_blood_smear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Schizont_of_P._vivax_in_a_thin_blood_smear.jpg",
+  "licence": "Public domain",
+  "auteur": "n.a",
+  "licenceUrl": ""
+ },
+ "mi-palu-frottis": {
+  "titre": "Rings of P. falciparum in a thin blood smear.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/53/Rings_of_P._falciparum_in_a_thin_blood_smear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Rings_of_P._falciparum_in_a_thin_blood_smear.jpg",
+  "licence": "Public domain",
+  "auteur": "CDC",
+  "licenceUrl": ""
+ },
+ "echo-tvp-r": {
+  "titre": "Ultrasonography of deep vein thrombosis of the femoral vein.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Ultrasonography_of_deep_vein_thrombosis_of_the_femoral_vein.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Ultrasonography_of_deep_vein_thrombosis_of_the_femoral_vein.jpg",
+  "licence": "CC0",
+  "auteur": "Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest: None Mikael Häggström, M.D.Consent note: Wri",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "irm-toxo-r": {
+  "titre": "BrainToxoplasmosis MRI 2 09.png",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/91/BrainToxoplasmosis_MRI_2_09.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:BrainToxoplasmosis_MRI_2_09.png",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Jmarchn",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "mi-giardia": {
+  "titre": "Giardia intestinalis - trophozoite.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/21/Giardia_intestinalis_-_trophozoite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Giardia_intestinalis_-_trophozoite.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Stefan Walkowski",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "mi-trichomonas": {
+  "titre": "14500 lores.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/14/14500_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:14500_lores.jpg",
+  "licence": "Public domain",
+  "auteur": "CDC/ Joe Miller",
+  "licenceUrl": ""
+ },
+ "mi-leish": {
+  "titre": "Leishmania donovani amastigotes in Giemsa stained smear of FNAC.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Leishmania_donovani_amastigotes_in_Giemsa_stained_smear_of_FNAC.jpg/960px-Leishmania_donovani_amastigotes_in_Giemsa_stained_smear_of_FNAC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Leishmania_donovani_amastigotes_in_Giemsa_stained_smear_of_FNAC.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Ajay Kumar Chaurasiya",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "echo-hydronephrose-r": {
+  "titre": "Ultrasound of right kidney moderate hydronephrosis.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ultrasound_of_right_kidney_moderate_hydronephrosis.jpg/960px-Ultrasound_of_right_kidney_moderate_hydronephrosis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Ultrasound_of_right_kidney_moderate_hydronephrosis.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Cerevisae",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "echo-abces-foie-r": {
+  "titre": "Ultrasound showing segment VI liver abscess.png",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ultrasound_showing_segment_VI_liver_abscess.png/960px-Ultrasound_showing_segment_VI_liver_abscess.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Ultrasound_showing_segment_VI_liver_abscess.png",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Cerevisae",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "mi-clue": {
+  "titre": "Clue cells in bacterial vaginosis.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Clue_cells_in_bacterial_vaginosis.jpg/960px-Clue_cells_in_bacterial_vaginosis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Clue_cells_in_bacterial_vaginosis.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Dr Graham Beards",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "mi-gono": {
+  "titre": "Neisseria gonorrhoeae bacteria and pus cells.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Neisseria_gonorrhoeae_bacteria_and_pus_cells.jpg/960px-Neisseria_gonorrhoeae_bacteria_and_pus_cells.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Neisseria_gonorrhoeae_bacteria_and_pus_cells.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Dr Graham Beards",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "mi-amibe": {
+  "titre": "Entamoeba histolytica trophozoite.png",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Entamoeba_histolytica_trophozoite.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Entamoeba_histolytica_trophozoite.png",
+  "licence": "CC0",
+  "auteur": "Original micrograph: CDC/ Dr. Mae Melvin; Dr. Greene Annotations by Mikael Häggström, M.D. Author info - Reusing images-",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "hsg-normal-r": {
+  "titre": "Hysterosalpingography Normal.png",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hysterosalpingography_Normal.png/960px-Hysterosalpingography_Normal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Hysterosalpingography_Normal.png",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Jmarchn",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "mi-ascaris": {
+  "titre": "Egg of Ascaris lumbricoides.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Egg_of_Ascaris_lumbricoides.jpg/960px-Egg_of_Ascaris_lumbricoides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Egg_of_Ascaris_lumbricoides.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Ajay Kumar Chaurasiya",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "echo-appendicite-r": {
+  "titre": "Appendicitis ultrasound.png",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Appendicitis_ultrasound.png/960px-Appendicitis_ultrasound.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Appendicitis_ultrasound.png",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Borbély Márton",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "ct-cysticercose-r": {
+  "titre": "Neurocysticercosis brain CT.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Neurocysticercosis_brain_CT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Neurocysticercosis_brain_CT.jpg",
+  "licence": "CC BY 4.0",
+  "auteur": "Innocent Lule Segamwenge",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "photo-burkitt": {
+  "titre": "Malignant Burkitt’s lymphoma, a non-Hodgkin’s lymphoma (NHL) 064 lores.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/93/Malignant_Burkitt%E2%80%99s_lymphoma%2C_a_non-Hodgkin%E2%80%99s_lymphoma_%28NHL%29_064_lores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Malignant_Burkitt%E2%80%99s_lymphoma,_a_non-Hodgkin%E2%80%99s_lymphoma_(NHL)_064_lores.jpg",
+  "licence": "Public domain",
+  "auteur": "",
+  "licenceUrl": ""
+ },
+ "mi-burkitt": {
+  "titre": "Burkitt lymphoma, touch prep, Wright stain.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Burkitt_lymphoma%2C_touch_prep%2C_Wright_stain.jpg/960px-Burkitt_lymphoma%2C_touch_prep%2C_Wright_stain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Burkitt_lymphoma,_touch_prep,_Wright_stain.jpg",
+  "licence": "CC BY 2.0",
+  "auteur": "Ed Uthman, MD.",
+  "licenceUrl": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "mi-reed": {
+  "titre": "Reed-Sternberg lymphocyte nci-vol-7172-300.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Reed-Sternberg_lymphocyte_nci-vol-7172-300.jpg/960px-Reed-Sternberg_lymphocyte_nci-vol-7172-300.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Reed-Sternberg_lymphocyte_nci-vol-7172-300.jpg",
+  "licence": "Public domain",
+  "auteur": "Unknown authorUnknown author",
+  "licenceUrl": ""
+ },
+ "photo-retinoblastome": {
+  "titre": "Rb whiteeye.PNG",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Rb_whiteeye.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Rb_whiteeye.PNG",
+  "licence": "Public domain",
+  "auteur": "J Morley-Smith (talk)",
+  "licenceUrl": ""
+ },
+ "fo-hta": {
+  "titre": "Hypertensiveretinopathy.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Hypertensiveretinopathy.jpg/960px-Hypertensiveretinopathy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Hypertensiveretinopathy.jpg",
+  "licence": "CC BY 3.0",
+  "auteur": "Frank Wood",
+  "licenceUrl": "https://creativecommons.org/licenses/by/3.0"
+ },
+ "fo-papille": {
+  "titre": "Papilledema.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Papilledema.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Papilledema.jpg",
+  "licence": "CC BY 3.0",
+  "auteur": "Jonathan Trobe, M.D. - University of Michigan Kellogg Eye Center",
+  "licenceUrl": "https://creativecommons.org/licenses/by/3.0"
+ },
+ "mi-lcr": {
+  "titre": "Neisseria meningitidis CSF Gram 1000.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Neisseria_meningitidis_CSF_Gram_1000.jpg/960px-Neisseria_meningitidis_CSF_Gram_1000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Neisseria_meningitidis_CSF_Gram_1000.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Microman12345",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "fo-retino": {
+  "titre": "Fundus - diabetic retinopathy.png",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Fundus_-_diabetic_retinopathy.png/960px-Fundus_-_diabetic_retinopathy.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Fundus_-_diabetic_retinopathy.png",
+  "licence": "CC BY 4.0",
+  "auteur": "Shaofeng Hao, Changyan Liu, Na Li, Yanrong Wu, Dongdong Li, Qingyue Gao, Ziyou Yuan, Guanyan Li, Huilin Li, Jianzhou Yan",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "fo-cmv": {
+  "titre": "PMID20029144 06 cytomegalovirus retinitis - pizza pie.png",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8d/PMID20029144_06_cytomegalovirus_retinitis_-_pizza_pie.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:PMID20029144_06_cytomegalovirus_retinitis_-_pizza_pie.png",
+  "licence": "CC BY 2.0",
+  "auteur": "S Sudharshan, Sudha K Ganesh, Jyotirmay Biswas",
+  "licenceUrl": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "mi-pneumocoque": {
+  "titre": "Gram stain of Streptococcus pneumoniae.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Gram_stain_of_Streptococcus_pneumoniae.jpg/960px-Gram_stain_of_Streptococcus_pneumoniae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Gram_stain_of_Streptococcus_pneumoniae.jpg",
+  "licence": "CC0",
+  "auteur": "Arnold Kaufman",
+  "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ }
+}
