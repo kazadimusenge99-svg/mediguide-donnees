@@ -136,3 +136,12 @@ table.tab td:first-child { font-weight: 600; }
   .logo span { display: none; }
   .carte-tab .corps-c { grid-template-columns: 100px 1fr; }
 }
+
+/* Examens paracliniques dans les fiches */
+.examens { display: grid; gap: 8px; }
+.ex-ligne { border: 1px solid rgba(127,127,127,.25); border-radius: 12px; padding: 10px 12px; background: rgba(127,127,127,.05); }
+.ex-nom { font-weight: 700; margin-bottom: 3px; }
+.ex-res { font-size: .95em; }
+.ex-img { display: block; margin-top: 8px; text-decoration: none; }
+.ex-img img { width: 100%; max-width: 560px; height: auto; border-radius: 8px; display: block; background: #000; }
+.ex-img span { display: block; font-size: .8em; opacity: .7; margin-top: 3px; }

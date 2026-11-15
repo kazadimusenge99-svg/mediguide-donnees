@@ -337,6 +337,15 @@ function pathologies(route, id) {
   contenu.querySelectorAll(".puce").forEach((b) => b.addEventListener("click", () => { catPatho = b.dataset.c; pathologies(route, id); }));
 }
 
+const IMG_EXAMEN = (n) => `img/examens/${encodeURIComponent(n)}.webp`;
+function paraclinique(p) {
+  const ex = p.paraclinique || [];
+  if (!ex.length) return "";
+  return `<div class="section"><h3>🧪 Examens paracliniques : résultats en faveur du diagnostic</h3><div class="examens">${ex.map((e) => `<div class="ex-ligne">
+      <div class="ex-nom">${esc(e.examen)}</div><div class="ex-res">${esc(e.resultat)}</div>
+      ${e.image ? `<a class="ex-img" href="${IMG_EXAMEN(e.image)}" target="_blank" rel="noopener"><img src="${IMG_EXAMEN(e.image)}" loading="lazy" alt="Image typique : ${esc(e.examen)}"><span>Image typique (schéma) — toucher pour agrandir</span></a>` : ""}
+    </div>`).join("")}</div><p class="petit">Illustrations schématiques MédiGuide, non issues de patients réels.</p></div>`;
+}
 function fichePatho(p) {
   const c = D.catParId[p.categorie];
   const meds = (p.medicaments || []).map((d) => D.medParDci[d]).filter(Boolean);
@@ -346,6 +355,7 @@ function fichePatho(p) {
     ${p.physiopathologie ? `<div class="section"><h3>🔬 Physiopathologie</h3><div>${esc(p.physiopathologie)}</div></div>` : ""}
     ${liste("Signes cliniques", p.signes, "🧑")}
     ${liste("Diagnostic", p.diagnostic, "🔎")}
+    ${paraclinique(p)}
     ${liste("Traitement", p.traitement, "💊", "ok")}
     ${liste("Signes de gravité", p.gravite, "🚩", "danger")}
     ${liste("Prévention", p.prevention, "🛡️")}
