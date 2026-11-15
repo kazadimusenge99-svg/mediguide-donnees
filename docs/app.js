@@ -178,13 +178,13 @@ function router() {
   const [, route = "accueil", a = "", b = ""] = location.hash.split("/");
   document.querySelectorAll(".menu a").forEach((x) => x.classList.toggle("actif", x.dataset.r === route ||
     (x.dataset.r === "medicaments" && route === "med") || (x.dataset.r === "pathologies" && route === "patho") ||
-    (x.dataset.r === "symptomes" && route === "sympt") || (x.dataset.r === "dispensaire" && route === "disp") ||
+    (x.dataset.r === "symptomes" && route === "sympt") || (x.dataset.r === "dispensaire" && route === "disp") || (x.dataset.r === "examens" && route === "exam") ||
     (x.dataset.r === "scores" && route === "score") || (x.dataset.r === "protocoles" && route === "proto")));
   $("#menu").classList.remove("ouvert");
   if (route !== "recherche") $("#champRecherche").value = "";
   const r = decodeURIComponent(a), r2 = decodeURIComponent(b);
   const vues = { accueil, recherche, sujet, medicaments, med: medicaments, pathologies, patho: pathologies, symptomes, sympt: symptomes,
-    dispensaire, disp: dispensaire, croissance, quiz, protocoles, proto: protocoles, scores, score: scores, cas, apropos };
+    dispensaire, disp: dispensaire, examens, exam: examens, croissance, quiz, protocoles, proto: protocoles, scores, score: scores, cas, apropos };
   (vues[route] || accueil)(route, r, r2);
   if (route !== "recherche") window.scrollTo(0, 0);
 }
@@ -211,6 +211,7 @@ function accueil() {
     ["#/pathologies", "🩺", "Pathologies", `${D.pathologies.length} fiches`, "#00695C"],
     ["#/symptomes", "🤒", "Symptômes", `${(D.symptomes || []).length} motifs`, "#C62828"],
     ["#/dispensaire", "🧭", "Que faire devant…", "Signes vitaux et conduites", "#00838F"],
+    ["#/examens", "🧪", "Examens paracliniques", "Quoi demander, quoi attendre", "#5D4037"],
     ["#/protocoles", "🚨", "Protocoles d'urgence", `${(D.protocoles || []).length} protocoles`, "#B71C1C"],
     ["#/scores", "🧮", "Scores médicaux", `${(D.scores || []).length} scores`, "#4527A0"],
     ["#/croissance", "📈", "Courbes de croissance", "OMS et Fenton", "#2E7D32"],
@@ -373,8 +374,8 @@ function ficheSympt(s) {
 // Dispensaire
 // ---------------------------------------------------------------------------
 const estAttention = (c) => /^(attention|remarque)/i.test(c);
-function blocDisp(b, coul) {
-  const p = poids();
+function blocDisp(b, coul, calc = true) {
+  const p = calc ? poids() : null;
   const titre = b.titre ? `<h3 style="color:${esc(coul)}">${esc(b.titre)}</h3>` : "";
   if (b.type === "liste") return titre + `<div class="section"><ul>${b.elements.map((e) => `<li>${texteDoses(e, p)}</li>`).join("")}</ul></div>`;
   if (b.type === "tableau") {
@@ -406,6 +407,37 @@ function dispensaire(route, id) {
     <div class="section" style="background:${esc(ch.couleur)}1a"><b>${esc(ch.intro)}</b></div>
     ${avecKg ? `<div class="alerte-poids">${p == null ? "Saisissez le poids de l'enfant en haut de la page pour voir les doses calculées." : p <= 35 ? `Doses calculées pour <b>${fmt(p)} kg</b> (en couleur). Vérifiez toujours la dose maximale.` : `Poids de ${fmt(p)} kg : utilisez les doses adultes (pas de calcul par kilo au-delà de 35 kg).`}</div>` : ""}
     ${ch.blocs.map((b) => blocDisp(b, ch.couleur)).join("")}</div>`;
+}
+
+// ---------------------------------------------------------------------------
+// Examens paracliniques (même structure que « Que faire devant… », sans calcul de doses)
+// ---------------------------------------------------------------------------
+function examens(route, id) {
+  const chs = D.examens || [];
+  const ch = route === "exam" ? chs.find((x) => x.id === id) : null;
+  if (!ch) {
+    contenu.innerHTML = `<h1>Examens paracliniques</h1><p class="sous">Examens à demander selon la pathologie, résultats attendus et valeurs normales de biologie.</p>
+      <input id="filtreEx" class="filtre" type="search" placeholder="Chercher une pathologie ou un examen (ex. : paludisme, créatinine, CRP)…" style="width:100%;padding:10px;margin:8px 0 14px;border-radius:10px;border:1px solid #ccc;font-size:15px">
+      <div id="resEx"></div>
+      <div class="grille" id="grilleEx">${chs.map((c) => `<a class="tuile" href="#/exam/${encodeURIComponent(c.id)}"><span class="ico" style="background:${esc(c.couleur)}22">${picto(c.pictogramme)}</span><b>${esc(c.titre)}</b><span class="petit">${esc(c.intro.slice(0, 90))}…</span></a>`).join("")}</div>
+      <p class="petit" style="margin-top:20px">Repères OMS, MSF et références de biologie usuelles (adulte). Les normes du laboratoire imprimées sur le résultat font foi.</p>`;
+    const sans = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    $("#filtreEx").addEventListener("input", (e) => {
+      const q = sans(e.target.value.trim());
+      $("#grilleEx").style.display = q.length < 2 ? "" : "none";
+      if (q.length < 2) { $("#resEx").innerHTML = ""; return; }
+      const res = [];
+      chs.forEach((c) => c.blocs.forEach((b) => (b.lignes || []).forEach((l) => { if (sans(l.join(" ") + " " + (b.titre || "")).includes(q)) res.push({ c, b, l }); })));
+      $("#resEx").innerHTML = res.length ? res.slice(0, 40).map(({ c, b, l }) => blocDisp({ type: "tableau", titre: "", colonnes: b.colonnes, lignes: [l] }, c.couleur, false)
+        .replace('<div class="carte-tab">', `<div class="carte-tab"><div class="petit" style="padding:4px 10px">${esc(c.titre)} › ${esc(b.titre || "")}</div>`)
+        .replace("<table", `<p class="petit">${esc(c.titre)} › ${esc(b.titre || "")}</p><table`)).join("") : `<p class="sous">Aucun résultat.</p>`;
+    });
+    return;
+  }
+  contenu.innerHTML = `<p><a href="#/examens">← Examens paracliniques</a></p><div class="fiche">
+    <div class="tete"><span class="ico" style="background:${esc(ch.couleur)}22">${picto(ch.pictogramme)}</span><h1>${esc(ch.titre)}</h1></div>
+    <div class="section" style="background:${esc(ch.couleur)}1a"><b>${esc(ch.intro)}</b></div>
+    ${ch.blocs.map((b) => blocDisp(b, ch.couleur, false)).join("")}</div>`;
 }
 
 // ---------------------------------------------------------------------------
