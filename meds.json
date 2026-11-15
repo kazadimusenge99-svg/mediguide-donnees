@@ -1,5 +1,5 @@
 {
- "version": 88,
+ "version": 89,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -46723,452 +46723,452 @@
  ],
  "creditsImages": {
   "ecg-tv-r": {
-   "auteur": "The original uploader was Ksheka at English Wikipedia",
+   "auteur": "The original uploader was Ksheka at English Wikipedia (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 2.5",
    "source": "https://commons.wikimedia.org/wiki/File:Electrocardiogram_of_Ventricular_Tachycardia.png"
   },
   "ecg-stemi-r": {
-   "auteur": "Displaced",
+   "auteur": "Displaced (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:12_Lead_EKG_ST_Elevation_tracing_only.jpg"
   },
   "ct-sousdural-r": {
-   "auteur": "Lucien Monfils",
+   "auteur": "Lucien Monfils (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Ct-scan_of_the_brain_with_an_subdural_hematoma.jpg"
   },
   "rx-fracture-r": {
-   "auteur": "Jalo",
+   "auteur": "Jalo (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Tibia_and_fibula_fracture.jpg"
   },
   "ct-hemorragie-r": {
-   "auteur": "Glitzy queen00 at English Wikipedia",
+   "auteur": "Glitzy queen00 at English Wikipedia (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Intracerebral_hemorrhage_2.jpg"
   },
   "ecg-bav3-r": {
-   "auteur": "Gregory Marcus, MD, MAS, FACC",
+   "auteur": "Gregory Marcus, MD, MAS, FACC (annotations en français : MédiGuide)",
    "licence": "CC BY 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:3rd_degree_heart_block.PNG"
   },
   "ecg-tdp-r": {
-   "auteur": "Jer5150",
+   "auteur": "Jer5150 (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Torsades_de_Pointes_TdP.png"
   },
   "rx-osteomyelite-r": {
-   "auteur": "Jto410",
+   "auteur": "Jto410 (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:BrodieAbscessRadiograph.jpg"
   },
   "rx-pneumatocele-r": {
-   "auteur": "Hellerhoff",
+   "auteur": "Hellerhoff (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Pneumatozele_Verlauf_-_Roe_pa_2007_und_2009.jpg"
   },
   "ecg-fv-r": {
-   "auteur": "Antoine Ayer",
+   "auteur": "Antoine Ayer (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Ventricular_fibrillation_(from_ecg-quiz.com).jpg"
   },
   "ecg-pericardite-r": {
-   "auteur": "James Heilman, MD",
+   "auteur": "James Heilman, MD (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Acute_pericarditis.jpg"
   },
   "rx-tb-r2": {
-   "auteur": "James Heilman, MD",
+   "auteur": "James Heilman, MD (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:PulmonaryTBCXR.png"
   },
   "rx-emphyseme-r": {
-   "auteur": "James Heilman, MD",
+   "auteur": "James Heilman, MD (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:BullousEmphysema.png"
   },
   "ecg-stemi-r2": {
-   "auteur": "Andrewmeyerson",
+   "auteur": "Andrewmeyerson (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:ST_Segment_Elevation_Myocardial_Infarction_Unlabeled.jpg"
   },
   "ecg-hvg-r": {
-   "auteur": "Andrewmeyerson",
+   "auteur": "Andrewmeyerson (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Left_Ventricular_Hypertrophy_Unlabeled.jpg"
   },
   "ecg-bav1-r": {
-   "auteur": "Andrewmeyerson",
+   "auteur": "Andrewmeyerson (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:First_Degree_AV_Block_ECG_Unlabeled.jpg"
   },
   "ecg-hyperk-r": {
-   "auteur": "Dr. Michael-Joseph F. Agbayani and Dr. Eddieson Gonzales (Manila, Philippines)",
+   "auteur": "Dr. Michael-Joseph F. Agbayani and Dr. Eddieson Gonzales (Manila, Philippines) (annotations en français : MédiGuide)",
    "licence": "CC BY 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Hyperkalemia_ECG.jpg"
   },
   "ecg-ep-r": {
-   "auteur": "R.W.Koster",
+   "auteur": "R.W.Koster (annotations en français : MédiGuide)",
    "licence": "CC BY 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Pulm_embolism.jpg"
   },
   "rx-pr-r2": {
-   "auteur": "Mikael Häggström",
+   "auteur": "Mikael Häggström (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:Rheumatoid_arthritis_with_unaffected_carpal_bones_2009.jpg"
   },
   "rx-pr-r": {
-   "auteur": "Mikael Häggström",
+   "auteur": "Mikael Häggström (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:Rheumatoid_arthritis_with_carpal_ankylosis_2017.jpg"
   },
   "rx-oap-r2": {
-   "auteur": "Mikael Häggström",
+   "auteur": "Mikael Häggström (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:Chest_radiograph_of_a_lung_with_Kerley_B_lines.jpg"
   },
   "rx-oap-r": {
-   "auteur": "Mikael Häggström",
+   "auteur": "Mikael Häggström (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:Chest_radiograph_with_signs_of_congestive_heart_failure_-_annotated.jpg"
   },
   "rx-pneumothorax-r": {
-   "auteur": "Karthik Easvur",
+   "auteur": "Karthik Easvur (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:X-ray_of_pneumothorax_signs.jpg"
   },
   "ct-extradural-r": {
-   "auteur": "James Heilman, MD",
+   "auteur": "James Heilman, MD (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:EpiduralHematoma.jpg"
   },
   "rx-epanchement-r": {
-   "auteur": "Basem Abbas Al Ubaidi",
+   "auteur": "Basem Abbas Al Ubaidi (annotations en français : MédiGuide)",
    "licence": "CC BY 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Pleural_effusion_of_primary_pulmonary_tuberculosis.jpg"
   },
   "rx-mmh-r": {
-   "auteur": "Mikael Häggström, M.D",
+   "auteur": "Mikael Häggström, M.D (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:X-ray_of_infant_respiratory_distress_syndrome_(IRDS).png"
   },
   "rx-pneumonie-r": {
-   "auteur": "Mikael Häggström, M.D",
+   "auteur": "Mikael Häggström, M.D (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:X-ray_of_lobar_pneumonia.jpg"
   },
   "rx-myelome-r": {
-   "auteur": "Medicalpal",
+   "auteur": "Medicalpal (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Osteolytic_Lesions.jpg"
   },
   "rx-miliaire-r": {
-   "auteur": "Benjamín Herreros, Isabel Plaza, Rebeca García, Marta Chichón, Carmen Guerrero and Emilio Pintor",
+   "auteur": "Benjamín Herreros, Isabel Plaza, Rebeca García, Marta Chichón, Carmen Guerrero and Emilio Pintor (annotations en français : MédiGuide)",
    "licence": "CC BY 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Chest_radiograph_of_miliary_tuberculosis_1.jpg"
   },
   "rx-tb-r": {
-   "auteur": "Giller Boris",
+   "auteur": "Giller Boris (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:Chest_plain_film._Fibrotic_cavitary_Tuberculosis.jpg"
   },
   "rx-pneumocystose-r": {
-   "auteur": "Carolyn M. Allen, Hamdan H. AL-Jahdali, Klaus L. Irion, Sarah Al Ghanem, Alaa Gouda, and Ali Nawaz Khan",
+   "auteur": "Carolyn M. Allen, Hamdan H. AL-Jahdali, Klaus L. Irion, Sarah Al Ghanem, Alaa Gouda, and Ali Nawaz Khan (annotations en français : MédiGuide)",
    "licence": "CC BY 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:X-ray_of_cyst_in_pneumocystis_pneumonia_1.jpg"
   },
   "ct-covid-r": {
-   "auteur": "Jin, Y., Cai, L., Cheng, Z. et al",
+   "auteur": "Jin, Y., Cai, L., Cheng, Z. et al (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:COVID19CTPneumonia.jpg"
   },
   "ecg-qt-r": {
-   "auteur": "PeaBrainC",
+   "auteur": "PeaBrainC (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Long_QT_syndrome_type_1.jpg"
   },
   "rx-occlusion-r": {
-   "auteur": "Igboeze",
+   "auteur": "Igboeze (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:1._Bowel-obstruction-x-ray.jpg"
   },
   "ecg-fa-r": {
-   "auteur": "Ewingdo",
+   "auteur": "Ewingdo (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:ECG_Atrial_Fibrillation_98_bpm.jpg"
   },
   "ecg-flutter-r": {
-   "auteur": "Ewingdo",
+   "auteur": "Ewingdo (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:ECG_Atrial_Flutter_294_bpm.jpg"
   },
   "ecg-fa-r2": {
-   "auteur": "PeaBrainC",
+   "auteur": "PeaBrainC (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Atrial_Fibrillation_in_two_leads.jpg"
   },
   "rx-abces-r": {
-   "auteur": "Cerevisae",
+   "auteur": "Cerevisae (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Chest_X-ray_of_right_upper_to_mid_zone_lung_cavity_with_air_fluid_level.jpg"
   },
   "rx-pneumoperitoine-r": {
-   "auteur": "Cerevisae",
+   "auteur": "Cerevisae (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Chest_X-ray_showing_presence_of_free_air_under_left_diaphragm.png"
   },
   "ct-ep-r": {
-   "auteur": "Michellescot",
+   "auteur": "Michellescot (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:RVstraininPE.png"
   },
   "echo-pericarde-r": {
-   "auteur": "Kalumet",
+   "auteur": "Kalumet (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Pericardial_effusion.jpg"
   },
   "mi-trypano": {
-   "auteur": "auteur non précisé",
+   "auteur": "auteur non précisé (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Trypanosoma_sp._PHIL_613_lores.jpg"
   },
   "mi-crypto": {
-   "auteur": "auteur non précisé",
+   "auteur": "auteur non précisé (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Cryptococcus_neoformans_using_a_light_India_ink_staining_preparation_PHIL_3771_lores.jpg"
   },
   "mi-schisto-h": {
-   "auteur": "CDC, Public Health Image Library (PHIL)",
+   "auteur": "CDC, Public Health Image Library (PHIL) (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Schistosoma_haematobium_egg_4843_lores.jpg"
   },
   "mi-schisto-m": {
-   "auteur": "auteur non précisé",
+   "auteur": "auteur non précisé (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Schistosoma_mansoni_egg_4841_lores.jpg"
   },
   "mi-ankylo": {
-   "auteur": "Joel Mills",
+   "auteur": "Joel Mills (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Hookworm_egg_1.JPG"
   },
   "echo-geu-r": {
-   "auteur": "X.Compagnion",
+   "auteur": "X.Compagnion (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Ectopic_pregnancy.JPG"
   },
   "echo-cirrhose-r": {
-   "auteur": "Christaras A",
+   "auteur": "Christaras A (annotations en français : MédiGuide)",
    "licence": "CC BY 2.5",
    "source": "https://commons.wikimedia.org/wiki/File:Ultrasound_abdomen_-_liver_cirrhosis_-_10.jpg"
   },
   "piece-wilms-r": {
-   "auteur": "The Armed Forces Institute of Pathology",
+   "auteur": "The Armed Forces Institute of Pathology (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Wilms_tumor.jpg"
   },
   "mi-palu-ge": {
-   "auteur": "Jenkayaks",
+   "auteur": "Jenkayaks (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:P._falciparum_thick_smear_with_ring_forms.jpg"
   },
   "hsg-r": {
-   "auteur": "Neroli",
+   "auteur": "Neroli (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:HSG_adherences_FRENCH.jpg"
   },
   "echo-vegetation-r": {
-   "auteur": "Endocarditis_ultrasound.gif: Daisuke Koya, Kazuyuki Shibuya, Ryuichi Kikkawa and Masakazu Haneda. derivative work: Mater",
+   "auteur": "Endocarditis_ultrasound.gif: Daisuke Koya, Kazuyuki Shibuya, Ryuichi Kikkawa and Masakazu Haneda. derivative work: Mater (annotations en français : MédiGuide)",
    "licence": "CC BY 2.0",
    "source": "https://commons.wikimedia.org/wiki/File:Endocarditis_ultrasound.JPG"
   },
   "echo-ascite-r": {
-   "auteur": "Samir",
+   "auteur": "Samir (annotations en français : MédiGuide)",
    "licence": "CC BY 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Ascites_ultrasound_2.JPG"
   },
   "mi-baar": {
-   "auteur": "Microrao",
+   "auteur": "Microrao (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:M_tuberculosis_sputum.jpg"
   },
   "mi-lmc": {
-   "auteur": "Paulo Henrique Orlandi Mourao",
+   "auteur": "Paulo Henrique Orlandi Mourao (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Chronic_Myeloid_Leukemia_smear_2009-04-09.JPG"
   },
   "echo-invagination-r": {
-   "auteur": "Frank Gaillard",
+   "auteur": "Frank Gaillard (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Intussusception_on_ultrasound.jpg"
   },
   "echo-lithiase-r": {
-   "auteur": "James Heilman, MD",
+   "auteur": "James Heilman, MD (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Gallstones.PNG"
   },
   "mi-loa": {
-   "auteur": "Stefan Walkowski",
+   "auteur": "Stefan Walkowski (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Loa_loa_-_microfilaria.jpg"
   },
   "mi-lal": {
-   "auteur": "James Grellier - derivative of original work by VashiDonsk at en.wikipedia",
+   "auteur": "James Grellier - derivative of original work by VashiDonsk at en.wikipedia (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Acute_lymphoblastic_leukaemia_smear.jpg"
   },
   "echo-grossesse-r": {
-   "auteur": "Nevit Dilmen (talk)",
+   "auteur": "Nevit Dilmen (talk) (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Pregnancy_ultrasound_110316154227_1549100.jpg"
   },
   "mi-ferriprive": {
-   "auteur": "Ed Uthman from Houston, TX, USA",
+   "auteur": "Ed Uthman from Houston, TX, USA (annotations en français : MédiGuide)",
    "licence": "CC BY 2.0",
    "source": "https://commons.wikimedia.org/wiki/File:Iron-deficiency_Anemia,_Peripheral_Blood_Smear_(4422704616).jpg"
   },
   "echo-mole-r": {
-   "auteur": "Mikael Häggström",
+   "auteur": "Mikael Häggström (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:Molar_pregnancy.jpg"
   },
   "mi-candida": {
-   "auteur": "Mikael Häggström",
+   "auteur": "Mikael Häggström (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:Vaginal_wet_mount_in_candidal_vulvovaginitis.jpg"
   },
   "mi-drepano": {
-   "auteur": "Paulo Henrique Orlandi Mourao",
+   "auteur": "Paulo Henrique Orlandi Mourao (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Sickle-cell_smear_2015-09-10.jpg"
   },
   "mi-vivax": {
-   "auteur": "n.a",
+   "auteur": "n.a (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Schizont_of_P._vivax_in_a_thin_blood_smear.jpg"
   },
   "mi-palu-frottis": {
-   "auteur": "CDC",
+   "auteur": "CDC (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Rings_of_P._falciparum_in_a_thin_blood_smear.jpg"
   },
   "echo-tvp-r": {
-   "auteur": "Mikael Häggström, M.D",
+   "auteur": "Mikael Häggström, M.D (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:Ultrasonography_of_deep_vein_thrombosis_of_the_femoral_vein.jpg"
   },
   "irm-toxo-r": {
-   "auteur": "Jmarchn",
+   "auteur": "Jmarchn (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:BrainToxoplasmosis_MRI_2_09.png"
   },
   "mi-giardia": {
-   "auteur": "Stefan Walkowski",
+   "auteur": "Stefan Walkowski (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Giardia_intestinalis_-_trophozoite.jpg"
   },
   "mi-trichomonas": {
-   "auteur": "CDC/ Joe Miller",
+   "auteur": "CDC/ Joe Miller (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:14500_lores.jpg"
   },
   "mi-leish": {
-   "auteur": "Ajay Kumar Chaurasiya",
+   "auteur": "Ajay Kumar Chaurasiya (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Leishmania_donovani_amastigotes_in_Giemsa_stained_smear_of_FNAC.jpg"
   },
   "echo-hydronephrose-r": {
-   "auteur": "Cerevisae",
+   "auteur": "Cerevisae (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Ultrasound_of_right_kidney_moderate_hydronephrosis.jpg"
   },
   "echo-abces-foie-r": {
-   "auteur": "Cerevisae",
+   "auteur": "Cerevisae (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Ultrasound_showing_segment_VI_liver_abscess.png"
   },
   "mi-clue": {
-   "auteur": "Dr Graham Beards",
+   "auteur": "Dr Graham Beards (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Clue_cells_in_bacterial_vaginosis.jpg"
   },
   "mi-gono": {
-   "auteur": "Dr Graham Beards",
+   "auteur": "Dr Graham Beards (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Neisseria_gonorrhoeae_bacteria_and_pus_cells.jpg"
   },
   "mi-amibe": {
-   "auteur": "Original micrograph: CDC/ Dr. Mae Melvin; Dr. Greene Annotations by Mikael Häggström, M.D",
+   "auteur": "Original micrograph: CDC/ Dr. Mae Melvin; Dr. Greene Annotations by Mikael Häggström, M.D (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:Entamoeba_histolytica_trophozoite.png"
   },
   "hsg-normal-r": {
-   "auteur": "Jmarchn",
+   "auteur": "Jmarchn (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Hysterosalpingography_Normal.png"
   },
   "mi-ascaris": {
-   "auteur": "Ajay Kumar Chaurasiya",
+   "auteur": "Ajay Kumar Chaurasiya (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Egg_of_Ascaris_lumbricoides.jpg"
   },
   "echo-appendicite-r": {
-   "auteur": "Borbély Márton",
+   "auteur": "Borbély Márton (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Appendicitis_ultrasound.png"
   },
   "ct-cysticercose-r": {
-   "auteur": "Innocent Lule Segamwenge",
+   "auteur": "Innocent Lule Segamwenge (annotations en français : MédiGuide)",
    "licence": "CC BY 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Neurocysticercosis_brain_CT.jpg"
   },
   "photo-burkitt": {
-   "auteur": "auteur non précisé",
+   "auteur": "auteur non précisé (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Malignant_Burkitt%E2%80%99s_lymphoma,_a_non-Hodgkin%E2%80%99s_lymphoma_(NHL)_064_lores.jpg"
   },
   "mi-burkitt": {
-   "auteur": "Ed Uthman, MD",
+   "auteur": "Ed Uthman, MD (annotations en français : MédiGuide)",
    "licence": "CC BY 2.0",
    "source": "https://commons.wikimedia.org/wiki/File:Burkitt_lymphoma,_touch_prep,_Wright_stain.jpg"
   },
   "mi-reed": {
-   "auteur": "Unknown authorUnknown author",
+   "auteur": "Unknown authorUnknown author (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Reed-Sternberg_lymphocyte_nci-vol-7172-300.jpg"
   },
   "photo-retinoblastome": {
-   "auteur": "J Morley-Smith (talk)",
+   "auteur": "J Morley-Smith (talk) (annotations en français : MédiGuide)",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:Rb_whiteeye.PNG"
   },
   "fo-hta": {
-   "auteur": "Frank Wood",
+   "auteur": "Frank Wood (annotations en français : MédiGuide)",
    "licence": "CC BY 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Hypertensiveretinopathy.jpg"
   },
   "fo-papille": {
-   "auteur": "Jonathan Trobe, M.D. - University of Michigan Kellogg Eye Center",
+   "auteur": "Jonathan Trobe, M.D. - University of Michigan Kellogg Eye Center (annotations en français : MédiGuide)",
    "licence": "CC BY 3.0",
    "source": "https://commons.wikimedia.org/wiki/File:Papilledema.jpg"
   },
   "mi-lcr": {
-   "auteur": "Microman12345",
+   "auteur": "Microman12345 (annotations en français : MédiGuide)",
    "licence": "CC BY-SA 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Neisseria_meningitidis_CSF_Gram_1000.jpg"
   },
   "fo-retino": {
-   "auteur": "Shaofeng Hao, Changyan Liu, Na Li, Yanrong Wu, Dongdong Li, Qingyue Gao, Ziyou Yuan, Guanyan Li, Huilin Li, Jianzhou Yan",
+   "auteur": "Shaofeng Hao, Changyan Liu, Na Li, Yanrong Wu, Dongdong Li, Qingyue Gao, Ziyou Yuan, Guanyan Li, Huilin Li, Jianzhou Yan (annotations en français : MédiGuide)",
    "licence": "CC BY 4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Fundus_-_diabetic_retinopathy.png"
   },
   "fo-cmv": {
-   "auteur": "S Sudharshan, Sudha K Ganesh, Jyotirmay Biswas",
+   "auteur": "S Sudharshan, Sudha K Ganesh, Jyotirmay Biswas (annotations en français : MédiGuide)",
    "licence": "CC BY 2.0",
    "source": "https://commons.wikimedia.org/wiki/File:PMID20029144_06_cytomegalovirus_retinitis_-_pizza_pie.png"
   },
   "mi-pneumocoque": {
-   "auteur": "Arnold Kaufman",
+   "auteur": "Arnold Kaufman (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:Gram_stain_of_Streptococcus_pneumoniae.jpg"
   }
