@@ -1,5 +1,5 @@
 {
- "version": 84,
+ "version": 85,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -45203,6 +45203,457 @@
    ]
   },
   {
+   "id": "valeurs-enfant",
+   "titre": "Valeurs normales de l'enfant",
+   "pictogramme": "bebe",
+   "couleur": "#0277BD",
+   "intro": "Les normes de l'enfant diffèrent de celles de l'adulte, surtout avant 1 an : ne pas conclure à une anomalie avec les normes adultes.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Hémogramme selon l'âge",
+     "colonnes": [
+      "Âge",
+      "Hémoglobine",
+      "Globules blancs",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Nouveau-né (J1)",
+       "14–22 g/dl",
+       "9 000–30 000/mm³",
+       "Polynucléaires prédominants les premiers jours"
+      ],
+      [
+       "2 mois",
+       "9–14 g/dl (creux physiologique)",
+       "5 000–15 000/mm³",
+       "Anémie physiologique : pas de fer si l'enfant va bien"
+      ],
+      [
+       "6 mois – 5 ans",
+       "≥ 11 g/dl",
+       "6 000–17 000/mm³",
+       "Lymphocytes prédominants jusqu'à 4–5 ans"
+      ],
+      [
+       "5 – 11 ans",
+       "≥ 11,5 g/dl",
+       "5 000–14 000/mm³",
+       "VGM normal : 70 + âge en années (fl)"
+      ],
+      [
+       "12 – 14 ans",
+       "≥ 12 g/dl",
+       "4 500–13 000/mm³",
+       "Puis normes adultes"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Biochimie de l'enfant",
+     "colonnes": [
+      "Paramètre",
+      "Valeur normale"
+     ],
+     "lignes": [
+      [
+       "Glycémie du nouveau-né",
+       "≥ 0,45 g/l (2,5 mmol/l) ; hypoglycémie en dessous"
+      ],
+      [
+       "Glycémie de l'enfant",
+       "0,60–1,10 g/l (3,3–6,1 mmol/l)"
+      ],
+      [
+       "Créatinine",
+       "nouveau-né 25–90 µmol/l (reflet de la mère) ; nourrisson 15–35 ; 1–5 ans 20–45 ; 5–12 ans 30–60 µmol/l"
+      ],
+      [
+       "DFG (formule de Schwartz)",
+       "36,5 × taille (cm) / créatinine (µmol/l) ; normal > 90 ml/min/1,73 m² après 2 ans"
+      ],
+      [
+       "Phosphatases alcalines",
+       "jusqu'à 3 à 4 fois la norme adulte pendant la croissance (normal)"
+      ],
+      [
+       "Calcium",
+       "2,2–2,7 mmol/l (nouveau-né : hypocalcémie < 2 mmol/l)"
+      ],
+      [
+       "Bilirubine du nouveau-né",
+       "ictère physiologique J2–J7, pic < 200–250 µmol/l chez le nouveau-né à terme ; seuils de photothérapie selon l'âge en heures et le terme"
+      ],
+      [
+       "CRP",
+       "< 10 mg/l chez le nouveau-né"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Urines et LCR de l'enfant",
+     "colonnes": [
+      "Paramètre",
+      "Valeur normale"
+     ],
+     "lignes": [
+      [
+       "Diurèse",
+       "nourrisson ≥ 2 ml/kg/h ; enfant ≥ 1 ml/kg/h (oligurie en dessous)"
+      ],
+      [
+       "LCR du nouveau-né",
+       "jusqu'à 20 éléments/mm³, protéines jusqu'à 1,2 g/l"
+      ],
+      [
+       "LCR après 2 mois",
+       "< 5 éléments/mm³, protéines < 0,4 g/l"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "imagerie-ecg",
+   "titre": "Imagerie et ECG",
+   "pictogramme": "cerveau",
+   "couleur": "#37474F",
+   "intro": "Quand demander une radiographie, une échographie, un scanner ou un ECG, et les signes à rechercher.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Quand demander quel examen",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Radiographie du thorax",
+       "Face, debout si possible",
+       "Pneumonie (opacité alvéolaire), tuberculose (sommets, cavernes, miliaire), épanchement pleural, pneumothorax, cardiomégalie (rapport cardio-thoracique > 0,5), œdème pulmonaire",
+       "Toux > 2 semaines, dyspnée inexpliquée, traumatisme du thorax"
+      ],
+      [
+       "Radiographie de l'abdomen sans préparation",
+       "Debout, de face (et couché)",
+       "Occlusion : niveaux hydro-aériques ; perforation : croissant gazeux sous les coupoles",
+       "En cas de suspicion de perforation, cliché debout ou thorax debout"
+      ],
+      [
+       "Radiographie osseuse",
+       "Deux incidences (face et profil)",
+       "Fracture, ostéomyélite (après 10–14 jours), rachitisme, mal de Pott",
+       "Ostéomyélite récente : la radio est normale au début"
+      ],
+      [
+       "Échographie abdominale",
+       "À jeun pour la vésicule",
+       "Calculs, cholécystite, abcès du foie, ascite, splénomégalie, reins dilatés, appendicite, masse",
+       "Examen de première intention de l'abdomen en RDC"
+      ],
+      [
+       "Échographie obstétricale",
+       "Avant 24 semaines au moins une fois (OMS)",
+       "Terme, grossesse multiple, placenta praevia, mort fœtale, présentation, liquide amniotique",
+       "Saignement du 3e trimestre : écho avant tout toucher vaginal"
+      ],
+      [
+       "Échographie pelvienne",
+       "Endovaginale si possible",
+       "GEU, kyste ovarien, fibrome, rétention, endomètre épaissi",
+       "Toujours avec un test de grossesse"
+      ],
+      [
+       "Échographie cardiaque",
+       "—",
+       "Fraction d'éjection, valvulopathie rhumatismale, épanchement péricardique, cardiomyopathie",
+       "Péricardite tuberculeuse fréquente chez le patient VIH"
+      ],
+      [
+       "Doppler veineux",
+       "Membres inférieurs",
+       "Thrombose veineuse profonde (veine non compressible)",
+       "—"
+      ],
+      [
+       "Scanner cérébral",
+       "Sans injection d'abord",
+       "AVC hémorragique, hématome, tumeur, abcès, toxoplasmose cérébrale (VIH)",
+       "Avant la ponction lombaire si signes de localisation ou coma"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "ECG : valeurs normales",
+     "colonnes": [
+      "Paramètre",
+      "Valeur normale"
+     ],
+     "lignes": [
+      [
+       "Fréquence cardiaque",
+       "60–100/min (adulte)"
+      ],
+      [
+       "Onde P",
+       "< 0,12 s, < 2,5 mm"
+      ],
+      [
+       "Intervalle PR",
+       "0,12–0,20 s (bloc auriculo-ventriculaire > 0,20 s)"
+      ],
+      [
+       "QRS",
+       "< 0,12 s (bloc de branche ≥ 0,12 s)"
+      ],
+      [
+       "QT corrigé",
+       "homme < 440 ms ; femme < 460 ms (risque de torsades > 500 ms)"
+      ],
+      [
+       "Axe",
+       "−30° à +90°"
+      ],
+      [
+       "Segment ST",
+       "isoélectrique (sus-décalage ≥ 1 mm dans 2 dérivations contiguës : infarctus)"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "ECG : signes à reconnaître",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Infarctus",
+       "ECG 12 dérivations, répété",
+       "Sus-décalage du ST, onde Q, inversion des ondes T",
+       "Urgence de reperfusion"
+      ],
+      [
+       "Hyperkaliémie",
+       "ECG + kaliémie",
+       "Ondes T amples et pointues, QRS larges, puis onde sinusoïdale",
+       "Gluconate de calcium immédiat"
+      ],
+      [
+       "Hypokaliémie",
+       "ECG + kaliémie",
+       "Ondes T plates, onde U, allongement du QT",
+       "—"
+      ],
+      [
+       "Hypertrophie ventriculaire gauche",
+       "ECG",
+       "Indice de Sokolow (S V1 + R V5 ou V6) > 35 mm",
+       "Signe d'atteinte de l'HTA"
+      ],
+      [
+       "Fibrillation auriculaire",
+       "ECG",
+       "Rythme irrégulier sans onde P",
+       "Évaluer le risque d'AVC (anticoagulation)"
+      ],
+      [
+       "Péricardite, tamponnade",
+       "ECG + échographie",
+       "Sus-décalage du ST diffus, microvoltage, alternance électrique",
+       "—"
+      ],
+      [
+       "Médicaments allongeant le QT",
+       "ECG avant et pendant le traitement",
+       "QTc > 500 ms : arrêter",
+       "Bédaquiline, délamanid, fluoroquinolones, halopéridol, quinine, méfloquine"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "liquides",
+   "titre": "Interprétation des liquides biologiques",
+   "pictogramme": "goutte",
+   "couleur": "#00796B",
+   "intro": "LCR, liquide pleural, ascite et liquide articulaire : aspects typiques selon la cause.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Liquide céphalorachidien (LCR)",
+     "colonnes": [
+      "Cause",
+      "Aspect et cellules",
+      "Protéines et glucose",
+      "Examens spécifiques"
+     ],
+     "lignes": [
+      [
+       "Méningite bactérienne",
+       "Trouble ; > 1 000/mm³, polynucléaires",
+       "Protéines > 1 g/l ; glucose < 0,4 fois la glycémie",
+       "Gram, culture, antigènes solubles"
+      ],
+      [
+       "Méningite virale",
+       "Clair ; 10–500/mm³, lymphocytes",
+       "Protéines < 1 g/l ; glucose normal",
+       "—"
+      ],
+      [
+       "Méningite tuberculeuse",
+       "Clair ; 50–500/mm³, lymphocytes",
+       "Protéines souvent > 1 g/l ; glucose bas",
+       "GeneXpert Ultra (sensibilité moyenne : un résultat négatif n'élimine pas)"
+      ],
+      [
+       "Méningite à cryptocoque",
+       "Clair ; cellules souvent peu nombreuses (VIH)",
+       "Protéines modérément élevées ; glucose normal ou bas",
+       "Encre de Chine, antigène cryptococcique (CrAg) ; pression d'ouverture élevée"
+      ],
+      [
+       "Paludisme grave (neuropaludisme)",
+       "LCR normal",
+       "Normaux",
+       "Ponction pour éliminer une méningite associée"
+      ],
+      [
+       "Trypanosomiase (stade 2)",
+       "> 5 éléments/mm³",
+       "Protéines élevées",
+       "Trypanosomes dans le LCR"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Liquide pleural",
+     "colonnes": [
+      "Cause",
+      "Aspect et cellules",
+      "Biochimie",
+      "Examens spécifiques"
+     ],
+     "lignes": [
+      [
+       "Transsudat (insuffisance cardiaque, cirrhose, néphrose)",
+       "Clair, peu de cellules",
+       "Protéines < 30 g/l ; protéines pleurales/sériques < 0,5 ; LDH pleurale/sérique < 0,6",
+       "Traiter la cause"
+      ],
+      [
+       "Tuberculose",
+       "Citrin ; lymphocytes > 50 %",
+       "Exsudat (protéines > 30 g/l) ; ADA > 40 UI/l",
+       "GeneXpert du liquide (peu sensible), biopsie pleurale"
+      ],
+      [
+       "Pleurésie bactérienne, empyème",
+       "Trouble ou purulent ; polynucléaires",
+       "Glucose < 0,6 g/l ; pH < 7,2",
+       "Gram, culture : drainage"
+      ],
+      [
+       "Cancer",
+       "Souvent hémorragique",
+       "Exsudat",
+       "Cytologie"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Liquide d'ascite",
+     "colonnes": [
+      "Cause",
+      "Aspect et cellules",
+      "Biochimie",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Hypertension portale (cirrhose)",
+       "Clair, jaune citrin",
+       "Gradient albumine sérum − ascite ≥ 11 g/l ; protéines < 25 g/l",
+       "—"
+      ],
+      [
+       "Infection du liquide d'ascite",
+       "Polynucléaires > 250/mm³",
+       "—",
+       "Antibiotique (céfotaxime) sans attendre la culture"
+      ],
+      [
+       "Tuberculose péritonéale",
+       "Lymphocytes",
+       "Gradient < 11 g/l ; protéines > 25 g/l ; ADA élevée",
+       "Fréquente chez le patient VIH"
+      ],
+      [
+       "Cancer (péritonéal, ovaire)",
+       "Parfois hémorragique",
+       "Gradient < 11 g/l",
+       "Cytologie, CA-125, échographie"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Liquide articulaire",
+     "colonnes": [
+      "Cause",
+      "Aspect et cellules",
+      "Microscopie",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Normal ou arthrose (mécanique)",
+       "Clair, visqueux ; < 2 000/mm³",
+       "—",
+       "—"
+      ],
+      [
+       "Inflammatoire (goutte, polyarthrite)",
+       "Trouble ; 2 000–50 000/mm³",
+       "Goutte : cristaux d'urate en aiguille",
+       "—"
+      ],
+      [
+       "Arthrite septique",
+       "Purulent ; > 50 000/mm³, polynucléaires > 90 %",
+       "Gram, culture",
+       "Urgence : lavage articulaire et antibiotiques"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
    "id": "infections",
    "titre": "Fièvre et maladies infectieuses",
    "pictogramme": "thermometre",
@@ -45308,6 +45759,106 @@
        "PCR sur sang (Ebola) ou sur lésion (mpox), selon le circuit de la zone de santé",
        "PCR positive",
        "Isolement et équipement de protection avant tout prélèvement"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "tropicales",
+   "titre": "Maladies tropicales et parasitaires",
+   "pictogramme": "moustique",
+   "couleur": "#558B2F",
+   "intro": "Maladies endémiques en RDC dont le diagnostic repose sur un examen parasitologique spécifique.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Examens selon la maladie",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Trypanosomiase humaine africaine (maladie du sommeil)",
+       "Dépistage sérologique (CATT ou test rapide) ; ponction ganglionnaire, goutte épaisse, concentration ; puis ponction lombaire",
+       "Trypanosomes dans le suc ganglionnaire ou le sang ; LCR > 5 éléments/mm³ ou trypanosomes = stade 2",
+       "Le fexinidazole a simplifié la prise en charge : suivre l'algorithme du programme national"
+      ],
+      [
+       "Filariose à Loa loa",
+       "Goutte épaisse ou frottis de sang prélevé entre 10 h et 15 h (quantitative)",
+       "Microfilaires de Loa loa ; charge > 8 000/ml : risque d'encéphalopathie avec l'ivermectine",
+       "Mesurer la charge avant ivermectine dans les zones à Loa"
+      ],
+      [
+       "Filariose lymphatique",
+       "Test rapide antigène (FTS) ; goutte épaisse de nuit (22 h – 2 h)",
+       "Antigène positif ; microfilaires de Wuchereria",
+       "Hydrocèle et lymphœdème à un stade tardif"
+      ],
+      [
+       "Onchocercose",
+       "Biopsie cutanée exsangue (« snip ») ; examen ophtalmologique ; sérologie Ov16",
+       "Microfilaires d'Onchocerca dans la biopsie",
+       "Rechercher Loa loa avant ivermectine"
+      ],
+      [
+       "Leishmaniose viscérale",
+       "Test rapide rK39 ; NFS ; ponction de rate ou de moelle",
+       "rK39 positif ; pancytopénie ; corps de Leishmania",
+       "Rare en RDC, à évoquer chez un patient venant d'Afrique de l'Est"
+      ],
+      [
+       "Toxoplasmose",
+       "Sérologie IgG et IgM (grossesse) ; scanner cérébral si VIH",
+       "IgM positives : infection récente (avidité des IgG) ; abcès cérébraux en cocarde chez le patient VIH",
+       "Femme enceinte séronégative : règles d'hygiène et contrôle de la sérologie"
+      ],
+      [
+       "Cysticercose, neurocysticercose",
+       "Scanner cérébral ; sérologie",
+       "Kystes ou calcifications cérébrales",
+       "Cause fréquente d'épilepsie tardive"
+      ],
+      [
+       "Strongyloïdose",
+       "Selles par la technique de Baermann ; éosinophilie ; sérologie",
+       "Larves de Strongyloides",
+       "Rechercher avant une corticothérapie (risque d'anguillulose maligne)"
+      ],
+      [
+       "Lèpre",
+       "Frottis cutané (bacilloscopie) ; examen clinique de la sensibilité",
+       "Bacilles acido-alcoolo-résistants (forme multibacillaire)",
+       "Le diagnostic reste surtout clinique"
+      ],
+      [
+       "Ulcère de Buruli",
+       "Écouvillon ou biopsie de l'ulcère : Ziehl, PCR IS2404",
+       "PCR positive",
+       "Programme national"
+      ],
+      [
+       "Peste",
+       "Test rapide antigène F1 sur pus de bubon ou crachat ; frottis (bacilles bipolaires) ; culture",
+       "Test rapide positif ; Yersinia pestis",
+       "Endémique en Ituri : isolement et déclaration immédiate"
+      ],
+      [
+       "Rougeole",
+       "IgM antirougeoleuses (sérum ou salive)",
+       "IgM positives",
+       "Notifier ; vitamine A"
+      ],
+      [
+       "Fièvre jaune",
+       "IgM, PCR (laboratoire de référence)",
+       "IgM positives, confirmées par neutralisation",
+       "Ictère + fièvre : penser aussi à l'hépatite et au paludisme"
       ]
      ],
      "note": ""
@@ -45653,6 +46204,88 @@
    ]
   },
   {
+   "id": "ist-gyneco",
+   "titre": "IST, gynécologie et fertilité",
+   "pictogramme": "grossesse",
+   "couleur": "#8E24AA",
+   "intro": "L'approche syndromique de l'OMS permet de traiter sans attendre ; les examens confirment et orientent.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Examens selon la situation",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Écoulement urétral",
+       "Coloration de Gram de l'écoulement ; PCR gonocoque et chlamydia si disponible ; test VIH, syphilis",
+       "Diplocoques Gram négatif intracellulaires = gonocoque ; leucocytes sans germe = urétrite non gonococcique",
+       "Traiter aussi le ou la partenaire"
+      ],
+      [
+       "Pertes vaginales",
+       "pH vaginal, test à la potasse (odeur de poisson), état frais, Gram",
+       "Vaginose : pH > 4,5, clue cells ; trichomonase : parasites mobiles ; candidose : levures, pH < 4,5",
+       "Cervicite : PCR gonocoque/chlamydia"
+      ],
+      [
+       "Ulcération génitale",
+       "TPHA, VDRL ; test VIH ; PCR herpès si disponible",
+       "Syphilis : tests positifs ; herpès : vésicules douloureuses",
+       "Traitement syndromique (syphilis + chancre mou)"
+      ],
+      [
+       "Dépistage du cancer du col",
+       "Test HPV (de préférence) ; sinon inspection visuelle à l'acide acétique (IVA) ; frottis",
+       "IVA positive : zone blanche acidophile ; HPV positif : triage",
+       "OMS : dépistage dès 30 ans (25 ans si VIH), tous les 5 à 10 ans (3 à 5 ans si VIH)"
+      ],
+      [
+       "Aménorrhée",
+       "Test de grossesse ; prolactine, TSH, FSH, LH ; échographie pelvienne",
+       "Prolactine élevée ; FSH élevée : insuffisance ovarienne",
+       "Toujours éliminer une grossesse d'abord"
+      ],
+      [
+       "Saignement après la ménopause",
+       "Échographie pelvienne (épaisseur de l'endomètre) ; biopsie de l'endomètre",
+       "Endomètre > 4 mm : biopsie",
+       "Rechercher un cancer de l'endomètre ou du col"
+      ],
+      [
+       "Masse du sein",
+       "Échographie (avant 40 ans) ou mammographie ; cytoponction ou biopsie",
+       "Classification BI-RADS ; cytologie",
+       "Toute masse persistante doit être explorée"
+      ],
+      [
+       "Infertilité du couple",
+       "Homme : spermogramme. Femme : progestérone à J21, FSH à J3, prolactine, TSH, hystérosalpingographie, échographie ; sérologie chlamydia",
+       "Spermogramme normal (OMS 2021) : volume ≥ 1,4 ml, concentration ≥ 16 millions/ml, mobilité progressive ≥ 30 %, formes normales ≥ 4 %",
+       "Obstruction tubaire post-infectieuse très fréquente en Afrique centrale"
+      ],
+      [
+       "Avortement, fausse couche",
+       "β-hCG, échographie, Hb, groupe sanguin et Rhésus",
+       "Rétention : débris intra-utérins ; β-hCG qui baisse",
+       "Anti-D si Rhésus négatif"
+      ],
+      [
+       "Môle hydatiforme",
+       "β-hCG quantitative, échographie",
+       "β-hCG très élevée ; écho en « tempête de neige »",
+       "Suivi de la β-hCG jusqu'à négativation"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
    "id": "enfant",
    "titre": "Enfant et nouveau-né",
    "pictogramme": "bebe",
@@ -45774,6 +46407,313 @@
        "VS, CRP, facteur rhumatoïde, anticorps anti-CCP ; radiographies des mains et des pieds",
        "Anti-CCP positifs (très spécifiques), syndrome inflammatoire, érosions osseuses",
        "Avis spécialisé tôt"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "cancers",
+   "titre": "Cancers et marqueurs tumoraux",
+   "pictogramme": "ruban",
+   "couleur": "#5E35B1",
+   "intro": "Le diagnostic d'un cancer repose sur l'histologie (biopsie) ; les marqueurs servent surtout au suivi.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Examens selon le cancer",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Cancer du foie (carcinome hépatocellulaire)",
+       "Échographie, alpha-fœtoprotéine (AFP), AgHBs, anti-VHC, TP, albumine",
+       "AFP > 400 ng/ml très évocateur ; nodule sur foie de cirrhose",
+       "Surveillance par écho tous les 6 mois si hépatite B chronique ou cirrhose"
+      ],
+      [
+       "Cancer de la prostate",
+       "Toucher rectal ; PSA total ; biopsie",
+       "PSA > 4 ng/ml suspect (> 10 très suspect)",
+       "Le PSA monte aussi avec l'adénome, l'infection et la sonde urinaire"
+      ],
+      [
+       "Cancer du col de l'utérus",
+       "Examen au spéculum, biopsie, échographie rénale (hydronéphrose), radio du thorax",
+       "Carcinome épidermoïde ; stade FIGO",
+       "VIH : formes plus précoces et agressives"
+      ],
+      [
+       "Cancer du sein",
+       "Biopsie, récepteurs hormonaux et HER2 ; écho abdominale, radio du thorax",
+       "Carcinome canalaire ; récepteurs positifs : hormonothérapie",
+       "—"
+      ],
+      [
+       "Lymphome de Burkitt",
+       "Cytoponction ou biopsie ; NFS, LDH, acide urique, créatinine ; ponction lombaire",
+       "Cellules en « ciel étoilé » ; LDH très élevée",
+       "Risque de syndrome de lyse : hydratation, allopurinol"
+      ],
+      [
+       "Lymphome, adénopathies chroniques",
+       "Biopsie ganglionnaire ; GeneXpert sur le ganglion ; NFS, LDH, test VIH",
+       "Lymphome (histologie) ou tuberculose ganglionnaire",
+       "Ne pas traiter « à l'aveugle » une adénopathie chronique"
+      ],
+      [
+       "Myélome",
+       "Électrophorèse des protéines, protéinurie de Bence Jones, calcium, créatinine, NFS, radiographies osseuses",
+       "Pic monoclonal, hypercalcémie, insuffisance rénale, anémie, lacunes osseuses",
+       "VS très élevée"
+      ],
+      [
+       "Maladie de Kaposi",
+       "Biopsie de la lésion ; test VIH, CD4 ; radio du thorax",
+       "Prolifération vasculaire (HHV-8)",
+       "ARV en priorité"
+      ],
+      [
+       "Tumeurs germinales, choriocarcinome",
+       "β-hCG, AFP, LDH ; échographie testiculaire ou pelvienne",
+       "Marqueurs élevés",
+       "Suivi par les marqueurs"
+      ],
+      [
+       "Cancer de l'ovaire, du côlon",
+       "CA-125 (ovaire), ACE (côlon) ; échographie, scanner, endoscopie",
+       "Marqueurs élevés",
+       "Marqueurs non fiables pour le dépistage : surtout pour le suivi"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "intoxications",
+   "titre": "Intoxications et envenimations",
+   "pictogramme": "alerte",
+   "couleur": "#D84315",
+   "intro": "Le traitement d'urgence ne doit pas attendre les examens ; ceux-ci orientent l'antidote et la surveillance.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Examens selon l'intoxication",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Bilan de toute intoxication grave",
+       "Glycémie capillaire, ECG, ionogramme, créatinine, gaz du sang ou bicarbonates, bilan hépatique ; test de grossesse",
+       "Hypoglycémie, troubles du rythme, acidose",
+       "Calculer le trou anionique et le trou osmolaire"
+      ],
+      [
+       "Paracétamol",
+       "Paracétamolémie à partir de la 4e heure ; ALAT, TP, créatinine",
+       "Au-dessus de la ligne de traitement du nomogramme (150 mg/l à H4) : N-acétylcystéine",
+       "Si heure inconnue ou dose > 150 mg/kg : N-acétylcystéine sans attendre"
+      ],
+      [
+       "Organophosphorés, carbamates",
+       "Activité cholinestérasique (si disponible) ; ECG",
+       "Cholinestérase effondrée",
+       "Diagnostic surtout clinique (myosis, hypersécrétion, bradycardie) : atropine"
+      ],
+      [
+       "Méthanol, éthylène glycol",
+       "Gaz du sang, trou anionique, osmolarité mesurée",
+       "Acidose métabolique à trou anionique élevé, trou osmolaire > 10",
+       "Alcools frelatés : penser au méthanol devant des troubles visuels"
+      ],
+      [
+       "Envenimation par serpent",
+       "Test de coagulation sur tube sec à 20 minutes ; NFS, plaquettes, créatinine, CPK",
+       "Sang non coagulé à 20 min : venin hémorragique (sérum antivenimeux)",
+       "Répéter le test toutes les 6 h"
+      ],
+      [
+       "Monoxyde de carbone",
+       "Carboxyhémoglobine (gaz du sang) ; ECG, troponine",
+       "HbCO > 10 % (> 15 % chez le fumeur)",
+       "La SpO₂ de l'oxymètre est faussement normale"
+      ],
+      [
+       "Digoxine",
+       "Digoxinémie, kaliémie, ECG",
+       "Troubles du rythme, hyperkaliémie",
+       "Anticorps antidigoxine si disponibles"
+      ],
+      [
+       "Fer (enfant)",
+       "Fer sérique à H4–H6 ; radiographie de l'abdomen (comprimés radio-opaques)",
+       "Fer > 500 µg/dl : intoxication grave",
+       "Déféroxamine"
+      ],
+      [
+       "Salicylés (aspirine)",
+       "Salicylémie, gaz du sang",
+       "Alcalose respiratoire puis acidose métabolique",
+       "—"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "suivi-traitements",
+   "titre": "Surveillance des traitements et bilan préopératoire",
+   "pictogramme": "comprime",
+   "couleur": "#455A64",
+   "intro": "Examens à prévoir avant et pendant les traitements qui exposent à des effets indésirables biologiques.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Surveillance selon le traitement",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Antirétroviraux (TLD)",
+       "Charge virale à 6 mois, à 12 mois puis chaque année ; créatinine (ténofovir) ; glycémie, poids",
+       "Charge virale < 1 000 copies/ml = succès (< 50 idéal)",
+       "Charge virale > 1 000 : renforcer l'observance et contrôler après 3 mois"
+      ],
+      [
+       "Zidovudine (AZT)",
+       "Hb ou NFS à 1, 3 et 6 mois",
+       "Anémie (Hb < 8 g/dl : changer)",
+       "—"
+      ],
+      [
+       "Antituberculeux (régime standard)",
+       "Crachats (microscopie) à la fin du 2e mois, au 5e et au 6e mois ; ALAT si ictère ou symptômes",
+       "Crachats négatifs = bonne évolution ; ALAT > 3 fois la normale avec symptômes (ou > 5 fois) : arrêter",
+       "Toujours tester le VIH"
+      ],
+      [
+       "Tuberculose résistante (BPaLM)",
+       "ECG (QTc), NFS, ALAT, lipase ; cultures mensuelles ; examen de la vision et des nerfs (linézolide)",
+       "QTc > 500 ms : arrêter les médicaments en cause ; anémie ou neuropathie sous linézolide",
+       "—"
+      ],
+      [
+       "Anticoagulants",
+       "AVK : INR (cible 2–3) ; héparine : plaquettes 2 fois par semaine les premières semaines",
+       "INR > 4 : risque de saignement ; plaquettes < 50 % de la valeur initiale : thrombopénie à l'héparine",
+       "Nombreuses interactions médicamenteuses avec les AVK"
+      ],
+      [
+       "IEC, ARA2, diurétiques, spironolactone",
+       "Créatinine et kaliémie avant, puis 1 à 2 semaines après le début",
+       "Hausse de la créatinine > 30 % ou K⁺ > 5,5 mmol/l : réduire ou arrêter",
+       "—"
+      ],
+      [
+       "Metformine",
+       "Créatinine (DFG) chaque année",
+       "DFG < 30 : arrêter ; 30–45 : demi-dose",
+       "Vitamine B12 si traitement long"
+      ],
+      [
+       "Statines",
+       "Lipides à 6–12 semaines ; ALAT et CPK si symptômes",
+       "Douleurs musculaires + CPK > 5 fois la normale : arrêter",
+       "—"
+      ],
+      [
+       "Antiépileptiques",
+       "NFS, ALAT (carbamazépine, valproate) ; taux sanguins si disponibles",
+       "Leucopénie, hépatite",
+       "Valproate contre-indiqué chez la femme en âge de procréer sans contraception"
+      ],
+      [
+       "Amphotéricine B",
+       "Créatinine et kaliémie 2 à 3 fois par semaine ; Hb",
+       "Hypokaliémie, insuffisance rénale",
+       "Hydratation et potassium systématiques"
+      ],
+      [
+       "Aminosides (gentamicine)",
+       "Créatinine ; audition",
+       "Insuffisance rénale, surdité",
+       "Durée la plus courte possible"
+      ],
+      [
+       "Méthotrexate, chimiothérapie",
+       "NFS, ALAT, créatinine avant chaque cure",
+       "Neutrophiles < 1 000 ou plaquettes < 100 000 : reporter",
+       "—"
+      ],
+      [
+       "Lithium",
+       "Lithémie, créatinine, TSH",
+       "Lithémie 0,6–1,0 mmol/l",
+       "—"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Bilan préopératoire",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Patient en bonne santé, chirurgie mineure",
+       "Aucun examen systématique",
+       "—",
+       "Examens guidés par l'interrogatoire et l'examen clinique"
+      ],
+      [
+       "Chirurgie avec risque de saignement",
+       "Hb, groupe sanguin et Rhésus, recherche d'anticorps irréguliers",
+       "Hb > 10 g/dl souhaitable",
+       "Réserver du sang selon l'intervention"
+      ],
+      [
+       "Femme en âge de procréer",
+       "Test de grossesse",
+       "—",
+       "—"
+      ],
+      [
+       "Diabète, maladie rénale, HTA, plus de 60 ans",
+       "Glycémie ou HbA1c, créatinine, kaliémie, ECG",
+       "Glycémie < 1,8 g/l le jour de l'intervention",
+       "—"
+      ],
+      [
+       "Anticoagulant, maladie du foie, saignement anormal",
+       "TP/INR, TCA, plaquettes",
+       "INR < 1,5 pour la plupart des interventions",
+       "—"
+      ],
+      [
+       "Maladie cardiaque ou respiratoire",
+       "ECG, radio du thorax, échographie cardiaque selon le cas",
+       "—",
+       "Avis de l'anesthésiste"
       ]
      ],
      "note": ""
