@@ -1,5 +1,5 @@
 {
- "version": 87,
+ "version": 88,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -40771,11 +40771,11 @@
     "Statut vaccinal (rougeole), VIH, grossesse"
    ],
    "examens": [
-    "TDR ou goutte épaisse pour le paludisme (systématique)",
-    "NFS si disponible",
-    "Bandelette urinaire",
-    "Hémoculture, ponction lombaire selon l'orientation",
-    "Test VIH si fièvre prolongée"
+    "TDR ou goutte épaisse (systématique) → positif = paludisme ; négatif = chercher une autre cause",
+    "NFS → polynucléaires élevés = infection bactérienne ; leucocytes bas = typhoïde, virose, dengue ; anémie",
+    "Bandelette urinaire → leucocytes + nitrites = infection urinaire",
+    "Hémoculture, ponction lombaire selon l'orientation → germe = sepsis ; LCR trouble = méningite",
+    "Test VIH si fièvre > 2 semaines → positif = rechercher tuberculose, cryptococcose"
    ],
    "orientations": [
     {
@@ -40855,11 +40855,11 @@
     "Tabac, BPCO, insuffisance cardiaque"
    ],
    "examens": [
-    "SpO₂",
-    "Fréquence respiratoire",
-    "Recherche de tuberculose (GeneXpert, crachats) si toux ≥ 2 semaines",
-    "Radiographie du thorax si disponible",
-    "Test VIH"
+    "SpO₂ → < 90 % (enfant) ou < 92 % (adulte) = oxygène, forme grave",
+    "Fréquence respiratoire → ≥ 50/min (2–11 mois), ≥ 40/min (1–5 ans), > 30/min (adulte) = pneumonie",
+    "GeneXpert sur crachats si toux ≥ 2 semaines → M. tuberculosis détecté = tuberculose",
+    "Radiographie du thorax → opacité alvéolaire (pneumonie), cavernes (tuberculose), épanchement, cardiomégalie",
+    "Test VIH → positif = penser pneumocystose, tuberculose"
    ],
    "orientations": [
     {
@@ -40936,10 +40936,10 @@
     "Statut VIH, malnutrition"
    ],
    "examens": [
-    "Évaluation de la déshydratation (plans A, B, C de l'OMS)",
-    "Glycémie si léthargie",
-    "Examen des selles si dysenterie ou diarrhée persistante",
-    "Test rapide du choléra en contexte d'épidémie"
+    "Évaluation de la déshydratation → plan A (pas de signe), B (2 signes : yeux enfoncés, soif, pli lent), C (léthargie, boit mal, pli > 2 s)",
+    "Glycémie si léthargie → < 0,54 g/l = hypoglycémie",
+    "Examen des selles (dysenterie, diarrhée > 14 jours) → amibes hématophages, Giardia, œufs ; leucocytes nombreux = Shigella",
+    "Test rapide du choléra (épidémie) → positif = suspicion de choléra (confirmer par culture)"
    ],
    "orientations": [
     {
@@ -41000,10 +41000,10 @@
     "Traumatisme crânien"
    ],
    "examens": [
-    "Test de grossesse",
-    "Glycémie, bandelette urinaire (cétones)",
-    "Examen de l'abdomen",
-    "Évaluation de la déshydratation"
+    "Test de grossesse → positif = vomissements gravidiques (ou GEU si douleur)",
+    "Glycémie, bandelette urinaire → glycémie > 2,5 g/l + cétones = acidocétose ; leucocytes + nitrites = pyélonéphrite",
+    "Examen de l'abdomen → défense, contracture, distension = urgence chirurgicale",
+    "Évaluation de la déshydratation → yeux enfoncés, pli cutané lent, oligurie = réhydrater"
    ],
    "orientations": [
     {
@@ -41062,10 +41062,10 @@
     "Antécédent de chirurgie (occlusion sur bride)"
    ],
    "examens": [
-    "Test de grossesse chez toute femme en âge de procréer",
-    "Bandelette urinaire",
-    "NFS, échographie si disponible",
-    "Recherche de sang occulte ou de méléna"
+    "Test de grossesse (femme en âge de procréer) → positif + douleur = éliminer une GEU par échographie",
+    "Bandelette urinaire → hématurie = colique néphrétique ; leucocytes + nitrites = infection urinaire",
+    "NFS, échographie → hyperleucocytose ; appendice > 6 mm, calcul, épanchement, GEU",
+    "Recherche de sang dans les selles, méléna → hémorragie digestive (ulcère, cancer)"
    ],
    "orientations": [
     {
@@ -41137,10 +41137,10 @@
     "Traumatisme récent"
    ],
    "examens": [
-    "Pression artérielle",
-    "TDR paludisme si fièvre",
-    "Bandelette urinaire (protéinurie) chez la femme enceinte",
-    "Ponction lombaire si suspicion de méningite (après examen neurologique)"
+    "Pression artérielle → ≥ 180/110 mmHg = urgence hypertensive ; ≥ 140/90 chez la femme enceinte = pré-éclampsie",
+    "TDR paludisme si fièvre → positif = paludisme",
+    "Bandelette urinaire (femme enceinte) → protéinurie ≥ 1+ = pré-éclampsie",
+    "Ponction lombaire si signes méningés → LCR trouble à polynucléaires = méningite bactérienne"
    ],
    "orientations": [
     {
@@ -41207,10 +41207,10 @@
     "Traumatisme"
    ],
    "examens": [
-    "Glycémie capillaire immédiate",
-    "TDR paludisme",
-    "Pression artérielle et protéinurie chez la femme enceinte",
-    "Ponction lombaire selon le contexte"
+    "Glycémie capillaire immédiate → < 0,54 g/l (enfant) ou < 0,7 g/l = hypoglycémie à corriger",
+    "TDR paludisme → positif + convulsions = paludisme grave",
+    "PA et protéinurie (femme enceinte) → ≥ 140/90 mmHg + protéinurie = éclampsie (sulfate de magnésium)",
+    "Ponction lombaire selon le contexte → LCR anormal = méningite ou encéphalite"
    ],
    "orientations": [
     {
@@ -41274,10 +41274,10 @@
     "Traumatisme"
    ],
    "examens": [
-    "Glycémie capillaire (toujours en premier)",
-    "TDR paludisme",
-    "Pression artérielle, SpO₂, température",
-    "Score de Glasgow ou de Blantyre"
+    "Glycémie capillaire (toujours en premier) → < 0,7 g/l = hypoglycémie",
+    "TDR paludisme → positif = neuropaludisme",
+    "PA, SpO₂, température → PAS < 90 mmHg = choc ; SpO₂ < 90 % = hypoxie ; fièvre = infection",
+    "Score de Glasgow ou de Blantyre → Glasgow ≤ 8 ou Blantyre ≤ 2 = coma : protéger les voies aériennes"
    ],
    "orientations": [
     {
@@ -41345,10 +41345,10 @@
     "Anémie, grossesse"
    ],
    "examens": [
-    "SpO₂",
-    "Pression artérielle, fréquence cardiaque",
-    "Hémoglobine",
-    "ECG et radiographie si disponibles"
+    "SpO₂ → < 92 % = oxygène",
+    "PA, fréquence cardiaque → hypotension + tachycardie = choc ; HTA sévère = OAP hypertensif",
+    "Hémoglobine → < 7 g/dl = anémie grave (transfusion)",
+    "ECG et radiographie → ischémie, arythmie ; cardiomégalie, œdème pulmonaire, pneumonie, épanchement, pneumothorax"
    ],
    "orientations": [
     {
@@ -41416,10 +41416,10 @@
     "Douleur à la palpation (pariétale)"
    ],
    "examens": [
-    "ECG le plus tôt possible",
-    "Troponine si disponible",
-    "SpO₂, pression artérielle aux deux bras",
-    "Radiographie du thorax"
+    "ECG le plus tôt possible → sus-décalage du ST = infarctus (reperfusion)",
+    "Troponine → élevée avec montée = infarctus",
+    "SpO₂, PA aux deux bras → différence > 20 mmHg = dissection aortique ; SpO₂ basse = embolie, pneumonie",
+    "Radiographie du thorax → pneumothorax, pneumonie, médiastin élargi (dissection)"
    ],
    "orientations": [
     {
@@ -41474,11 +41474,11 @@
     "Vaccination, transfusions, VIH"
    ],
    "examens": [
-    "TDR paludisme",
-    "Hémoglobine",
-    "Bilirubine, transaminases si disponibles",
-    "Test de l'hépatite B (AgHBs)",
-    "Échographie abdominale"
+    "TDR paludisme → positif = paludisme (hémolyse)",
+    "Hémoglobine → basse = ictère hémolytique (paludisme, drépanocytose, G6PD)",
+    "Bilirubine, transaminases → ALAT > 10 fois la normale = hépatite ; bilirubine conjuguée + PAL élevées = cholestase",
+    "AgHBs → positif = hépatite B",
+    "Échographie abdominale → voies biliaires dilatées = obstacle (calcul, tumeur) ; foie bosselé = cirrhose"
    ],
    "orientations": [
     {
@@ -41544,10 +41544,10 @@
     "VIH, tuberculose"
    ],
    "examens": [
-    "Hémoglobine",
-    "TDR paludisme",
-    "Test d'Emmel ou électrophorèse si suspicion de drépanocytose",
-    "Examen des selles"
+    "Hémoglobine → < 7 g/dl (adulte) ou < 5 g/dl (enfant) = anémie grave",
+    "TDR paludisme → positif = anémie palustre",
+    "Test d'Emmel ou électrophorèse → falciformation ou HbSS = drépanocytose",
+    "Examen des selles → œufs d'ankylostome = anémie ferriprive par spoliation"
    ],
    "orientations": [
     {
@@ -41611,10 +41611,10 @@
     "Alimentation de l'enfant"
    ],
    "examens": [
-    "Pression artérielle",
-    "Bandelette urinaire (protéinurie, hématurie)",
-    "Périmètre brachial chez l'enfant",
-    "Créatinine, albumine si disponibles"
+    "Pression artérielle → élevée = glomérulonéphrite, pré-éclampsie, insuffisance cardiaque",
+    "Bandelette urinaire → protéines ≥ 3+ = syndrome néphrotique ; sang + protéines = glomérulonéphrite",
+    "Périmètre brachial (enfant) → œdèmes bilatéraux des pieds = malnutrition aiguë sévère (kwashiorkor)",
+    "Créatinine, albumine → albumine < 30 g/l = néphrose, cirrhose, dénutrition ; créatinine élevée = insuffisance rénale"
    ],
    "orientations": [
     {
@@ -41679,10 +41679,10 @@
     "Cas similaires dans l'entourage"
    ],
    "examens": [
-    "Pression sur les lésions (test du verre)",
-    "Température",
-    "Test VIH selon le contexte",
-    "Prélèvement de vésicule (PCR mpox) si suspicion"
+    "Test du verre (vitropression) → lésions qui ne s'effacent pas = purpura (méningococcémie, dengue : urgence)",
+    "Température → fièvre + éruption = rougeole, varicelle, mpox, dengue",
+    "Test VIH selon le contexte → positif = éruption de primo-infection, prurigo, Kaposi",
+    "PCR mpox sur vésicule → positive = mpox (isolement, déclaration)"
    ],
    "orientations": [
     {
@@ -41748,9 +41748,9 @@
     "Zone d'endémie de l'onchocercose"
    ],
    "examens": [
-    "Examen de toute la peau",
-    "Test VIH selon le contexte",
-    "Bilan hépatique si ictère"
+    "Examen de toute la peau → sillons = gale ; lésions annulaires = teigne ; plaques = eczéma, psoriasis",
+    "Test VIH selon le contexte → positif = prurigo du VIH",
+    "Bilan hépatique si ictère → bilirubine conjuguée et PAL élevées = cholestase"
    ],
    "orientations": [
     {
@@ -41809,10 +41809,10 @@
     "Antécédents personnels ou familiaux de saignement"
    ],
    "examens": [
-    "Hémoglobine, groupe sanguin",
-    "Test de coagulation sur tube sec (TCST20)",
-    "Plaquettes",
-    "Test de grossesse"
+    "Hémoglobine, groupe sanguin → < 7 g/dl = transfusion",
+    "Test de coagulation sur tube sec (20 min) → sang non coagulé = envenimation, CIVD",
+    "Plaquettes → < 20 000/mm³ = risque hémorragique majeur (PTI, leucémie, dengue)",
+    "Test de grossesse → positif = saignement de la grossesse (fausse couche, GEU, placenta)"
    ],
    "orientations": [
     {
@@ -41883,9 +41883,9 @@
     "Zone d'endémie de la bilharziose (hématurie)"
    ],
    "examens": [
-    "Bandelette urinaire (leucocytes, nitrites, sang)",
-    "Examen cytobactériologique des urines si disponible",
-    "Test de grossesse"
+    "Bandelette urinaire → leucocytes + nitrites = infection urinaire ; sang seul = calcul, schistosomiase",
+    "ECBU → leucocyturie > 10⁴/ml et bactériurie significative (E. coli) avec antibiogramme",
+    "Test de grossesse → positif = infection urinaire de la grossesse (toujours traiter)"
    ],
    "orientations": [
     {
@@ -41944,9 +41944,9 @@
     "Grossesse"
    ],
    "examens": [
-    "Examen au spéculum chez la femme",
-    "Test VIH, syphilis (TDR)",
-    "Test de grossesse"
+    "Examen au spéculum (femme) → pus au col = cervicite ; pertes grumeleuses = candidose ; pertes grises malodorantes = vaginose",
+    "Tests VIH et syphilis → positifs = traitement associé",
+    "Test de grossesse → positif = adapter le traitement (pas de doxycycline)"
    ],
    "orientations": [
     {
@@ -42005,10 +42005,10 @@
     "Âge, crises antérieures (goutte)"
    ],
    "examens": [
-    "Température",
-    "NFS, vitesse de sédimentation, CRP si disponibles",
-    "Radiographie",
-    "Ponction articulaire en milieu spécialisé"
+    "Température → fièvre + une articulation = arthrite septique jusqu'à preuve du contraire",
+    "NFS, VS, CRP → hyperleucocytose, CRP élevée = infection ou inflammation",
+    "Radiographie → fracture, ostéomyélite (appositions), pincement articulaire, érosions",
+    "Ponction articulaire → liquide purulent > 50 000/mm³ = arthrite septique ; cristaux = goutte"
    ],
    "orientations": [
     {
@@ -42070,11 +42070,11 @@
     "Diarrhée, troubles de déglutition"
    ],
    "examens": [
-    "Poids, IMC, périmètre brachial",
-    "Test VIH",
-    "Recherche de tuberculose",
-    "Glycémie",
-    "Hémoglobine"
+    "Poids, IMC, périmètre brachial → IMC < 16 ou PB < 115 mm (enfant) = dénutrition sévère",
+    "Test VIH → positif = VIH (cause fréquente)",
+    "Recherche de tuberculose (GeneXpert, radio) → positive = tuberculose",
+    "Glycémie → ≥ 2 g/l = diabète",
+    "Hémoglobine → anémie = maladie chronique, cancer, parasitose"
    ],
    "orientations": [
     {
@@ -42136,9 +42136,9 @@
     "Port de lentilles, carence en vitamine A"
    ],
    "examens": [
-    "Acuité visuelle de chaque œil",
-    "Examen à la lumière (cornée, pupille)",
-    "Test à la fluorescéine si disponible"
+    "Acuité visuelle de chaque œil → baisse = urgence (kératite, glaucome aigu, uvéite)",
+    "Examen à la lumière → pupille en semi-mydriase aréactive = glaucome aigu ; cornée trouble = kératite",
+    "Test à la fluorescéine → ulcère de cornée coloré en vert"
    ],
    "orientations": [
     {
@@ -42195,9 +42195,9 @@
     "Âge"
    ],
    "examens": [
-    "Examen de la gorge et des tympans",
-    "Score de Centor (ou McIsaac) pour l'angine",
-    "Test rapide streptococcique si disponible"
+    "Examen de la gorge et des tympans → amygdales rouges avec exsudats = angine ; tympan bombé = otite ; fausses membranes = diphtérie",
+    "Score de Centor/McIsaac → ≥ 3 = angine streptococcique probable",
+    "Test rapide streptococcique → positif = antibiotique (amoxicilline)"
    ],
    "orientations": [
     {
@@ -42256,9 +42256,9 @@
     "Selles, vomissements"
    ],
    "examens": [
-    "Température, fréquence respiratoire",
-    "Glycémie",
-    "Évaluation PCIME du nourrisson"
+    "Température, fréquence respiratoire → ≥ 37,5 °C ou < 35,5 °C ; ≥ 60/min = infection grave",
+    "Glycémie → < 0,45 g/l = hypoglycémie",
+    "Évaluation PCIME → un signe de danger (ne tète pas, convulsions, léthargie, tirage) = infection grave : référer"
    ],
    "orientations": [
     {
@@ -42311,8 +42311,8 @@
     "Insuffisance rénale ou hépatique, grossesse"
    ],
    "examens": [
-    "Échelle de douleur (score FLACC dans l'onglet Outils)",
-    "Réévaluation après chaque traitement"
+    "Échelle de douleur → 1–3 faible (palier 1), 4–6 modérée (palier 2), ≥ 7 intense (morphine) ; FLACC ≥ 4 = traiter",
+    "Réévaluation après chaque traitement → baisse ≥ 2 points = traitement efficace"
    ],
    "orientations": [
     {
@@ -42368,11 +42368,11 @@
     "Grossesse, antécédents de rhumatisme articulaire aigu, HTA"
    ],
    "examens": [
-    "Pouls compté sur 1 minute (régularité), PA, SpO₂, température, glycémie capillaire",
-    "ECG 12 dérivations, si possible pendant les symptômes (fibrillation auriculaire, tachycardie, QT long, troubles de conduction)",
-    "Hémoglobine ; TSH ; ionogramme (potassium, magnésium), créatinine",
-    "Échographie cardiaque si souffle, insuffisance cardiaque ou ECG anormal",
-    "Holter ECG si crises répétées"
+    "Pouls, PA, SpO₂, température, glycémie → pouls irrégulier = fibrillation auriculaire ; > 150/min = tachycardie ; fièvre, hypoglycémie = cause",
+    "ECG pendant les symptômes → fibrillation auriculaire (pas d'onde P), tachycardie à QRS fins ou larges, QT long, bloc",
+    "Hémoglobine, TSH, potassium, magnésium, créatinine → anémie, TSH < 0,1 (hyperthyroïdie), hypokaliémie",
+    "Échographie cardiaque → valvulopathie rhumatismale, cardiomyopathie, fraction d'éjection basse",
+    "Holter ECG → trouble du rythme paroxystique enregistré"
    ],
    "orientations": [
     {
@@ -42451,11 +42451,11 @@
     "Diabète traité, grossesse, règles, saignements, diarrhée"
    ],
    "examens": [
-    "Glycémie capillaire immédiate",
-    "PA couchée puis debout à 1 et 3 min (hypotension orthostatique si baisse ≥ 20 mmHg de la systolique)",
-    "ECG 12 dérivations chez tous",
-    "Hémoglobine ; test de grossesse chez la femme en âge de procréer ; échographie abdominale si douleur",
-    "Selon l'orientation : échographie cardiaque, ionogramme, recherche de sang dans les selles"
+    "Glycémie capillaire immédiate → < 0,7 g/l = hypoglycémie",
+    "PA couchée puis debout (1 et 3 min) → baisse ≥ 20 mmHg de la systolique = hypotension orthostatique",
+    "ECG chez tous → bloc auriculo-ventriculaire, QT long, tachycardie ventriculaire, Brugada = syncope cardiaque (grave)",
+    "Hémoglobine, test de grossesse, échographie si douleur → anémie, GEU rompue (hémopéritoine)",
+    "Échographie cardiaque, ionogramme, sang dans les selles → rétrécissement aortique, troubles ioniques, hémorragie digestive"
    ],
    "orientations": [
     {
@@ -42537,12 +42537,12 @@
     "Diarrhée, vomissements, saignements, jeûne, grossesse"
    ],
    "examens": [
-    "PA couchée et debout, pouls, glycémie capillaire, température",
-    "Examen neurologique complet (marche, épreuve doigt-nez, mouvements des yeux, nystagmus)",
-    "Otoscopie",
-    "Manœuvre de Dix-Hallpike (vertige positionnel paroxystique bénin)",
-    "Hémoglobine ; ECG si malaise ou palpitations",
-    "Scanner cérébral si signes neurologiques"
+    "PA couchée et debout, pouls, glycémie, température → hypotension orthostatique, hypoglycémie",
+    "Examen neurologique → ataxie, nystagmus vertical, déficit = AVC du cervelet (urgence)",
+    "Otoscopie → otite, otorrhée, vésicules (zona)",
+    "Manœuvre de Dix-Hallpike → vertige + nystagmus rotatoire bref = vertige positionnel paroxystique bénin",
+    "Hémoglobine, ECG → anémie ; trouble du rythme",
+    "Scanner cérébral si signes neurologiques → AVC, tumeur de la fosse postérieure"
    ],
    "orientations": [
     {
@@ -42621,12 +42621,12 @@
     "Facteurs de risque du VIH, séjour en zone de trypanosomiase"
    ],
    "examens": [
-    "Hémoglobine (NFS), glycémie, test VIH, TDR paludisme",
-    "Créatinine, transaminases, TSH, VS ou CRP",
-    "Bandelette urinaire",
-    "Radiographie du thorax et recherche de tuberculose si toux ou amaigrissement",
-    "Test de grossesse",
-    "Ferritine selon le contexte"
+    "NFS, glycémie, test VIH, TDR paludisme → anémie, diabète, VIH, paludisme",
+    "Créatinine, transaminases, TSH, VS ou CRP → insuffisance rénale, hépatite, hypothyroïdie (TSH > 4), inflammation",
+    "Bandelette urinaire → glucose (diabète), protéines (néphropathie)",
+    "Radio du thorax, GeneXpert si toux ou amaigrissement → tuberculose",
+    "Test de grossesse → positif = grossesse",
+    "Ferritine → < 15–30 µg/l = carence en fer"
    ],
    "orientations": [
     {
@@ -42707,10 +42707,10 @@
     "Enfant : retenue volontaire, apprentissage de la propreté, douleur à la défécation (fissure)"
    ],
    "examens": [
-    "Examen de l'abdomen (masse, distension), toucher rectal (fécalome, sang, masse, fissure)",
-    "Radiographie de l'abdomen sans préparation en cas de suspicion d'occlusion (niveaux hydro-aériques)",
-    "Hémoglobine, TSH, calcémie, glycémie selon le contexte",
-    "Coloscopie si signes d'alerte chez l'adulte"
+    "Examen de l'abdomen, toucher rectal → fécalome, sang, masse (cancer), fissure",
+    "ASP si suspicion d'occlusion → niveaux hydro-aériques = occlusion",
+    "Hémoglobine, TSH, calcémie, glycémie → anémie (cancer), hypothyroïdie, hypercalcémie, diabète",
+    "Coloscopie si signes d'alerte → tumeur, polype, rétrécissement"
    ],
    "orientations": [
     {
@@ -42778,11 +42778,11 @@
     "Ingestion accidentelle (enfant)"
    ],
    "examens": [
-    "Examen de la bouche et de la gorge (candidose, angine, abcès), du cou (goitre, ganglions) ; examen neurologique",
-    "Test VIH",
-    "Glycémie",
-    "Endoscopie digestive haute avec biopsie si dysphagie progressive ou signes d'alerte ; transit œsophagien baryté si pas d'endoscopie",
-    "Radiographie si corps étranger"
+    "Examen de la bouche, de la gorge, du cou → candidose, angine, abcès, goitre, ganglions",
+    "Test VIH → positif + dysphagie douloureuse = candidose œsophagienne probable",
+    "Glycémie → diabète (candidose)",
+    "Endoscopie haute avec biopsie → cancer de l'œsophage, œsophagite, sténose ; transit baryté : image de rétrécissement",
+    "Radiographie si corps étranger → corps étranger radio-opaque"
    ],
    "orientations": [
     {
@@ -42862,12 +42862,12 @@
     "Hémorroïdes connues (sang rouge sur les selles)"
    ],
    "examens": [
-    "Pouls, PA, TRC, conscience ; toucher rectal (méléna, sang, masse)",
-    "Hémoglobine (répéter : elle baisse avec retard), groupage sanguin, plaquettes, TP",
-    "Créatinine, urée",
-    "Endoscopie digestive haute dans les 24 h si possible ; coloscopie pour la rectorragie",
-    "Échographie abdominale (cirrhose, rate, ascite)",
-    "Examen des selles (amibes, œufs de schistosomes)"
+    "Pouls, PA, TRC, toucher rectal → pouls > 100, PAS < 90 = choc hémorragique ; méléna = saignement haut",
+    "Hémoglobine répétée, groupe, plaquettes, TP → Hb < 7 g/dl = transfusion ; TP bas = cirrhose",
+    "Urée, créatinine → urée élevée avec créatinine normale = saignement digestif haut",
+    "Endoscopie haute (24 h) ; coloscopie si rectorragie → ulcère, varices œsophagiennes, cancer",
+    "Échographie abdominale → cirrhose, splénomégalie, ascite (hypertension portale)",
+    "Examen des selles → amibes hématophages, œufs de S. mansoni"
    ],
    "orientations": [
     {
@@ -42942,13 +42942,13 @@
     "Consommation de crabes ou d'écrevisses crus (paragonimose)"
    ],
    "examens": [
-    "SpO₂, pouls, PA ; examen des poumons et du cœur",
-    "Test moléculaire (Xpert MTB/RIF) et microscopie sur crachats",
-    "Radiographie du thorax",
-    "Hémoglobine, plaquettes, TP",
-    "Test VIH",
-    "ECG et échographie cardiaque si souffle ou dyspnée",
-    "Scanner thoracique si disponible (cancer, embolie, bronchectasies)"
+    "SpO₂, pouls, PA → SpO₂ < 92 % ou hémoptysie > 200 ml = grave",
+    "GeneXpert et microscopie des crachats → M. tuberculosis détecté = tuberculose (première cause)",
+    "Radiographie du thorax → cavernes, masse, opacité, cardiomégalie",
+    "Hémoglobine, plaquettes, TP → anémie, trouble de la coagulation",
+    "Test VIH → positif",
+    "ECG, échographie cardiaque → rétrécissement mitral (oreillette gauche dilatée)",
+    "Scanner thoracique → cancer, embolie (défect artériel), bronchectasies"
    ],
    "orientations": [
     {
@@ -43021,10 +43021,10 @@
     "Brûlures ou petites quantités (infection urinaire), jet faible (prostate)"
    ],
    "examens": [
-    "Glycémie capillaire immédiate (à jeun ≥ 1,26 g/l à 2 reprises ou au hasard ≥ 2 g/l avec symptômes = diabète) ; HbA1c",
-    "Bandelette urinaire : glucose, cétones, protéines, leucocytes, nitrites",
-    "Créatinine, ionogramme, calcémie",
-    "Test de grossesse selon le cas"
+    "Glycémie capillaire, HbA1c → à jeun ≥ 1,26 g/l (2 fois) ou au hasard ≥ 2 g/l, ou HbA1c ≥ 6,5 % = diabète",
+    "Bandelette urinaire → glucose = diabète ; cétones = acidocétose ; leucocytes + nitrites = infection",
+    "Créatinine, ionogramme, calcémie → insuffisance rénale, hypokaliémie, hypercalcémie (> 2,6 mmol/l)",
+    "Test de grossesse → positif = polyurie de la grossesse"
    ],
    "orientations": [
     {
@@ -43081,13 +43081,13 @@
     "Zone d'endémie de trypanosomiase (ganglions du cou) ou de peste ; contact avec un chat (griffures)"
    ],
    "examens": [
-    "Examen de toutes les aires ganglionnaires, de la rate, du foie, de la région drainée",
-    "Test VIH",
-    "Hémoglobine et frottis sanguin (NFS)",
-    "Ponction à l'aiguille fine du ganglion : examen direct, recherche de BAAR et test Xpert MTB/RIF (tuberculose), cytologie",
-    "Radiographie du thorax",
-    "Biopsie ganglionnaire si la ponction n'est pas concluante",
-    "Recherche de trypanosomes dans le suc ganglionnaire en zone d'endémie"
+    "Examen des aires ganglionnaires, rate, foie → ganglion > 2 cm, dur, fixé = suspect ; splénomégalie = lymphome, leishmaniose",
+    "Test VIH → positif",
+    "NFS et frottis → lymphocytose, blastes (leucémie)",
+    "Ponction à l'aiguille fine → caséum, BAAR, GeneXpert positif = tuberculose ; cellules anormales = lymphome",
+    "Radiographie du thorax → adénopathies médiastinales, tuberculose",
+    "Biopsie ganglionnaire → granulome caséeux (tuberculose), lymphome (Hodgkin : Reed-Sternberg), Kaposi",
+    "Suc ganglionnaire (zone d'endémie) → trypanosomes = maladie du sommeil"
    ],
    "orientations": [
     {
@@ -43168,12 +43168,12 @@
     "Consommation de manioc amer mal préparé (konzo), vaccination antipoliomyélitique"
    ],
    "examens": [
-    "Glycémie capillaire immédiate (l'hypoglycémie peut imiter un AVC)",
-    "PA, température, conscience (Glasgow)",
-    "Examen neurologique : force, réflexes, sensibilité, niveau sensitif, sphincters",
-    "Scanner cérébral en urgence si déficit brutal",
-    "Radiographie ou IRM du rachis si atteinte des 2 jambes",
-    "Test VIH ; ponction lombaire selon l'orientation ; ECG (fibrillation auriculaire)"
+    "Glycémie capillaire → < 0,7 g/l = hypoglycémie (corriger)",
+    "PA, température, Glasgow → PA très élevée, fièvre (abcès, toxoplasmose), coma",
+    "Examen neurologique → hémiplégie (AVC), paraplégie avec niveau sensitif (compression médullaire)",
+    "Scanner cérébral en urgence → hyperdensité = hémorragie ; hypodensité = infarctus ; abcès en cocarde",
+    "Radiographie ou IRM du rachis (2 jambes) → mal de Pott, métastase, compression",
+    "Test VIH, ponction lombaire, ECG → VIH ; LCR anormal ; fibrillation auriculaire (embolie)"
    ],
    "orientations": [
     {
@@ -43256,12 +43256,12 @@
     "Conflits, violences, événements traumatiques"
    ],
    "examens": [
-    "Glycémie capillaire, température, SpO₂, PA",
-    "TDR paludisme",
-    "Examen neurologique et recherche de signes méningés",
-    "Test VIH",
-    "Ponction lombaire si fièvre ou signes méningés",
-    "Créatinine, ionogramme, transaminases selon le contexte"
+    "Glycémie, température, SpO₂, PA → hypoglycémie, fièvre, hypoxie, choc",
+    "TDR paludisme → positif = neuropaludisme",
+    "Examen neurologique, signes méningés → raideur de nuque = méningite",
+    "Test VIH → positif = encéphalite, cryptococcose, toxoplasmose",
+    "Ponction lombaire → LCR anormal = méningite ou encéphalite",
+    "Créatinine, ionogramme, transaminases → insuffisance rénale ou hépatique, hyponatrémie"
    ],
    "orientations": [
     {
@@ -43347,11 +43347,11 @@
     "Grossesse"
    ],
    "examens": [
-    "Examen du rachis (douleur à la percussion, gibbosité), examen neurologique des jambes (force, réflexes, sensibilité), signe de Lasègue",
-    "Bandelette urinaire",
-    "Radiographie du rachis si drapeau rouge",
-    "VS, CRP, NFS ; électrophorèse des protéines ; PSA chez l'homme âgé ; test VIH ; recherche de tuberculose",
-    "IRM ou scanner si déficit neurologique"
+    "Examen du rachis et neurologique → gibbosité (Pott), déficit des jambes = urgence ; Lasègue positif = sciatique",
+    "Bandelette urinaire → hématurie (calcul), leucocytes (pyélonéphrite)",
+    "Radiographie du rachis → pincement discal avec destruction vertébrale = mal de Pott ; tassement, lyse = métastase, myélome",
+    "VS, CRP, NFS, électrophorèse, PSA, VIH → inflammation, pic monoclonal (myélome), PSA élevé (métastases)",
+    "IRM ou scanner → compression médullaire ou radiculaire"
    ],
    "orientations": [
     {
@@ -43425,9 +43425,9 @@
     "Curetage ou infection après un accouchement"
    ],
    "examens": [
-    "Test de grossesse urinaire (βhCG) systématique",
-    "Échographie pelvienne si test positif avec douleur ou saignement, ou pour dater la grossesse",
-    "Si test négatif et absence de règles > 3 mois : TSH, prolactine, FSH selon l'âge ; poids et IMC"
+    "Test de grossesse urinaire → positif = grossesse",
+    "Échographie pelvienne → sac intra-utérin (grossesse évolutive), utérus vide + masse (GEU), débris (fausse couche)",
+    "TSH, prolactine, FSH, IMC (si test négatif > 3 mois) → prolactine élevée, TSH anormale, FSH élevée (insuffisance ovarienne), IMC < 18,5"
    ],
    "orientations": [
     {
@@ -43492,10 +43492,10 @@
     "Statut VIH"
    ],
    "examens": [
-    "Examen de la masse (taille, consistance, mobilité, chaleur, fluctuation) et des ganglions de drainage",
-    "Échographie (sein, abdomen, testicule, cou, tissus mous)",
-    "Ponction à l'aiguille fine (pus, cytologie, Xpert si ganglion) ; biopsie au trocart ou chirurgicale pour toute masse suspecte",
-    "Marqueurs (βhCG, alpha-fœtoprotéine) si masse du testicule"
+    "Examen de la masse et des ganglions → dure, fixée, ganglions = suspect ; fluctuante et chaude = abcès",
+    "Échographie → kyste (liquide) ou masse solide, vascularisation, extension",
+    "Ponction ou biopsie → pus (abcès), cellules malignes, GeneXpert positif (tuberculose)",
+    "Marqueurs (testicule) → β-hCG ou AFP élevées = tumeur germinale"
    ],
    "orientations": [
     {
@@ -43571,10 +43571,10 @@
     "Anxiété avec respiration rapide (fourmillements autour de la bouche et des mains)"
    ],
    "examens": [
-    "Examen neurologique (sensibilité au monofilament, vibrations, réflexes, force) et des pieds",
-    "Glycémie, HbA1c ; test VIH ; hémoglobine et volume globulaire (carence en B12) ; créatinine",
-    "Examen de la peau et palpation des nerfs (lèpre)",
-    "Scanner cérébral si déficit brutal"
+    "Examen neurologique et des pieds → anesthésie au monofilament en chaussettes = neuropathie (diabète, VIH)",
+    "Glycémie, HbA1c, VIH, NFS (VGM), créatinine → diabète, VIH, VGM > 100 fl (carence en B12), insuffisance rénale",
+    "Peau et nerfs → plaque anesthésique, nerf épaissi = lèpre",
+    "Scanner cérébral si déficit brutal → AVC"
    ],
    "orientations": [
     {
@@ -45375,7 +45375,7 @@
       ],
       [
        "Échographie cardiaque",
-       "—",
+       "Voies parasternale, apicale, sous-costale",
        "Fraction d'éjection, valvulopathie rhumatismale, épanchement péricardique, cardiomyopathie",
        "Péricardite tuberculeuse fréquente chez le patient VIH"
       ],
@@ -45602,7 +45602,7 @@
       [
        "Infection du liquide d'ascite",
        "Polynucléaires > 250/mm³",
-       "—",
+       "Culture souvent positive (E. coli, Klebsiella, pneumocoque)",
        "Antibiotique (céfotaxime) sans attendre la culture"
       ],
       [
@@ -45633,8 +45633,8 @@
       [
        "Normal ou arthrose (mécanique)",
        "Clair, visqueux ; < 2 000/mm³",
-       "—",
-       "—"
+       "Pas de cristaux, pas de germe",
+       "Liquide mécanique : pas d'antibiotique"
       ],
       [
        "Inflammatoire (goutte, polyarthrite)",
@@ -46682,7 +46682,7 @@
       [
        "Patient en bonne santé, chirurgie mineure",
        "Aucun examen systématique",
-       "—",
+       "Aucun examen anormal attendu",
        "Examens guidés par l'interrogatoire et l'examen clinique"
       ],
       [
@@ -46694,8 +46694,8 @@
       [
        "Femme en âge de procréer",
        "Test de grossesse",
-       "—",
-       "—"
+       "β-hCG négative (positive : reporter une chirurgie non urgente, adapter l'anesthésie)",
+       "Systématique avant toute anesthésie"
       ],
       [
        "Diabète, maladie rénale, HTA, plus de 60 ans",
@@ -46712,7 +46712,7 @@
       [
        "Maladie cardiaque ou respiratoire",
        "ECG, radio du thorax, échographie cardiaque selon le cas",
-       "—",
+       "ECG sans ischémie ni trouble du rythme ; fraction d'éjection > 40 % ; SpO₂ > 94 %",
        "Avis de l'anesthésiste"
       ]
      ],
@@ -47915,7 +47915,7 @@
     },
     {
      "examen": "Coproculture (2e–3e semaine)",
-     "resultat": "Salmonella"
+     "resultat": "Salmonella Typhi ou Paratyphi (positive surtout la 2e–3e semaine), avec antibiogramme"
     },
     {
      "examen": "NFS",
@@ -48122,7 +48122,7 @@
     },
     {
      "examen": "Test VIH",
-     "resultat": "À faire chez tout tuberculeux"
+     "resultat": "Positif chez 10 à 40 % des tuberculeux en RDC : ARV dans les 2 semaines et cotrimoxazole ; négatif : refaire si exposition"
     }
    ]
   },
@@ -48287,8 +48287,8 @@
    "physiopathologie": "Les spores de Clostridium tetani, présentes dans le sol, germent dans une plaie pauvre en oxygène (plaie souillée, cordon ombilical) et produisent la tétanospasmine. La toxine remonte le long des nerfs jusqu'à la moelle et au tronc cérébral, où elle bloque la libération des neurotransmetteurs inhibiteurs (glycine, GABA) : les motoneurones sont désinhibés, d'où les contractures permanentes (trismus, opisthotonos) et les spasmes déclenchés par les stimulations. L'atteinte du système nerveux autonome provoque instabilité tensionnelle et troubles du rythme. La toxine fixée ne peut plus être neutralisée : l'immunoglobuline ne neutralise que la toxine circulante, et la maladie ne laisse pas d'immunité.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour le diagnostic",
-     "resultat": "Diagnostic clinique (trismus, contractures, spasmes) ; examens seulement pour les complications (CPK, ionogramme, créatinine)"
+     "examen": "Aucun examen pour le diagnostic (clinique)",
+     "resultat": "Trismus, rire sardonique, contractures généralisées, spasmes déclenchés par le bruit ou le toucher, conscience normale ; CPK élevées et myoglobinurie dans les formes graves"
     }
    ]
   },
@@ -48354,7 +48354,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen chez la personne mordue",
-     "resultat": "La décision de vaccination est clinique (catégorie d'exposition OMS)"
+     "resultat": "Catégorie OMS : I = contact sans lésion (pas de vaccin) ; II = morsure ou griffure superficielle (vaccin) ; III = morsure transdermique ou muqueuse (vaccin + immunoglobulines)"
     },
     {
      "examen": "Examen de l'animal (si disponible)",
@@ -48507,7 +48507,7 @@
     },
     {
      "examen": "Bandelette urinaire",
-     "resultat": "Hématurie"
+     "resultat": "Hématurie (sang ≥ 1+) chez l'enfant en zone d'endémie = schistosomiase urinaire probable"
     },
     {
      "examen": "Échographie",
@@ -48743,8 +48743,8 @@
    "physiopathologie": "Chez l'enfant, les germes du nasopharynx (pneumocoque, Haemophilus influenzae b, staphylocoque, virus respiratoires) atteignent les alvéoles lorsque les défenses locales sont dépassées (infection virale, malnutrition, fumée, absence de vaccination). L'inflammation remplit les alvéoles d'exsudat (condensation) et gêne les échanges gazeux : l'enfant respire plus vite et utilise les muscles accessoires (tirage) pour compenser ; l'hypoxémie apparaît dans les formes sévères. Le petit calibre des voies aériennes et les réserves limitées expliquent l'aggravation rapide chez le nourrisson.",
    "paraclinique": [
     {
-     "examen": "Aucun examen indispensable (diagnostic clinique PCIME)",
-     "resultat": "Respiration rapide ou tirage sous-costal"
+     "examen": "Aucun examen indispensable (critères cliniques PCIME)",
+     "resultat": "Respiration rapide : ≥ 50/min (2–11 mois), ≥ 40/min (1–5 ans) = pneumonie ; tirage sous-costal ou SpO₂ < 90 % = pneumonie grave"
     },
     {
      "examen": "Oxymétrie de pouls",
@@ -48842,7 +48842,7 @@
     },
     {
      "examen": "GeneXpert si toux > 2 semaines ou VIH",
-     "resultat": "Recherche de tuberculose"
+     "resultat": "M. tuberculosis détecté (tuberculose associée ou diagnostic différentiel) ; résistance à la rifampicine oui/non"
     }
    ]
   },
@@ -49048,7 +49048,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (diagnostic à l'otoscope)",
-     "resultat": "Tympan rouge et bombé, effacement des reliefs ; otorrhée si perforation"
+     "resultat": "Tympan rouge, bombé, immobile, reliefs effacés ; otorrhée purulente si perforation"
     }
    ]
   },
@@ -49117,8 +49117,8 @@
    "physiopathologie": "Les virus (rotavirus surtout), les bactéries (E. coli, Shigella, Vibrio cholerae) et les parasites altèrent la muqueuse intestinale ou stimulent la sécrétion d'eau et de sels par leurs toxines. Les pertes digestives d'eau, de sodium, de potassium et de bicarbonate entraînent une déshydratation extracellulaire, une hypokaliémie et une acidose ; chez le jeune enfant, dont la part d'eau corporelle est plus grande et les réserves faibles, l'évolution vers le choc hypovolémique est rapide. Le transport couplé du glucose et du sodium reste fonctionnel pendant la diarrhée, ce qui fonde l'efficacité des SRO ; le zinc favorise la réparation de la muqueuse.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour la plupart des diarrhées",
-     "resultat": "Évaluation clinique de la déshydratation"
+     "examen": "Aucun examen pour la plupart des diarrhées (évaluation clinique)",
+     "resultat": "Plan A : pas de signe ; plan B : 2 signes parmi agitation, yeux enfoncés, boit avidement, pli cutané lent ; plan C : 2 signes parmi léthargie, yeux enfoncés, boit mal, pli très lent (> 2 s)"
     },
     {
      "examen": "Ionogramme, créatinine (déshydratation sévère)",
@@ -49126,7 +49126,7 @@
     },
     {
      "examen": "Glycémie (enfant léthargique)",
-     "resultat": "Hypoglycémie"
+     "resultat": "Glycémie < 0,54 g/l (3 mmol/l) = hypoglycémie à corriger (sérum glucosé 10 %)"
     }
    ]
   },
@@ -49417,11 +49417,11 @@
     },
     {
      "examen": "PCR gonocoque et chlamydia (si disponible)",
-     "resultat": "Positive"
+     "resultat": "ADN de Neisseria gonorrhoeae et/ou de Chlamydia trachomatis détecté"
     },
     {
      "examen": "Tests VIH, syphilis",
-     "resultat": "Dépistage associé"
+     "resultat": "VIH : tests rapides positifs = référer pour ARV ; syphilis : TPHA + VDRL positifs = traiter (benzathine benzylpénicilline)"
     }
    ]
   },
@@ -49566,7 +49566,7 @@
     },
     {
      "examen": "Test VIH",
-     "resultat": "Dépistage associé"
+     "resultat": "Positif dans 1 cas sur 5 environ d'ulcération génitale en Afrique centrale : ARV ; négatif : refaire à 6 semaines"
     },
     {
      "examen": "PCR herpès (si disponible)",
@@ -49656,7 +49656,7 @@
     },
     {
      "examen": "Créatinine, NFS, CRP (pyélonéphrite)",
-     "resultat": "Syndrome inflammatoire"
+     "resultat": "Pyélonéphrite : CRP > 20 mg/l, hyperleucocytose à polynucléaires ; créatinine élevée = forme compliquée"
     }
    ]
   },
@@ -49718,7 +49718,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (diagnostic clinique)",
-     "resultat": "Sillons et prurit nocturne ; dermatoscopie ou grattage : sarcopte, œufs (rarement nécessaire)"
+     "resultat": "Sillons entre les doigts et aux poignets, vésicules perlées, prurit à prédominance nocturne, plusieurs cas dans la famille ; grattage (si fait) : sarcopte ou œufs"
     }
    ]
   },
@@ -49790,8 +49790,8 @@
    "physiopathologie": "Staphylococcus aureus et Streptococcus pyogenes pénètrent la peau par une brèche (piqûre, plaie, gale, eczéma) et s'y multiplient. Le staphylocoque produit des abcès (nécrose collectée) et des toxines (impétigo bulleux) ; le streptocoque diffuse dans le derme et l'hypoderme grâce à ses enzymes (érysipèle, cellulite). La chaleur, l'humidité, la promiscuité et le manque d'hygiène favorisent la transmission ; les infections streptococciques cutanées peuvent se compliquer de glomérulonéphrite.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour les formes simples",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen pour les formes simples (diagnostic clinique)",
+     "resultat": "Impétigo : croûtes jaunâtres « mélicériques » ; abcès : collection chaude, fluctuante ; érysipèle : placard rouge, chaud, bien limité avec fièvre"
     },
     {
      "examen": "Prélèvement de pus (abcès récidivant), hémoculture (forme grave)",
@@ -49799,7 +49799,7 @@
     },
     {
      "examen": "Glycémie (infections récidivantes)",
-     "resultat": "Rechercher un diabète"
+     "resultat": "Glycémie à jeun ≥ 1,26 g/l ou au hasard ≥ 2 g/l = diabète favorisant les infections récidivantes"
     }
    ]
   },
@@ -49878,7 +49878,7 @@
     },
     {
      "examen": "Prélèvement de plaie si infection",
-     "resultat": "Germe et antibiogramme"
+     "resultat": "Infection : Staphylococcus aureus, Pseudomonas aeruginosa (pus verdâtre), streptocoque ; > 10⁵ germes/g de tissu sur biopsie"
     }
    ]
   },
@@ -49943,8 +49943,8 @@
    "physiopathologie": "La conjonctive est enflammée par des virus (adénovirus surtout, très contagieux), des bactéries (staphylocoque, pneumocoque, Haemophilus ; gonocoque et Chlamydia chez le nouveau-né contaminé à la naissance) ou une réaction allergique (libération d'histamine par les mastocytes). Les vaisseaux conjonctivaux se dilatent (œil rouge) et les sécrétions augmentent. Le gonocoque peut perforer la cornée en quelques jours, et les médicaments traditionnels ou les corticoïdes peuvent transformer une conjonctivite banale en kératite grave.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour la conjonctivite simple",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen pour la conjonctivite simple (diagnostic clinique)",
+     "resultat": "Rougeur conjonctivale, sécrétions ; bactérienne : pus, paupières collées ; virale : larmoiement, ganglion prétragien ; allergique : prurit, bilatérale ; acuité visuelle normale"
     },
     {
      "examen": "Gram et culture (nouveau-né, conjonctivite purulente grave)",
@@ -50034,7 +50034,7 @@
     },
     {
      "examen": "TDR du paludisme, test VIH, bandelette urinaire",
-     "resultat": "Infections associées fréquentes"
+     "resultat": "TDR positif = paludisme ; test VIH positif (fréquent) ; bandelette : leucocytes et nitrites = infection urinaire"
     },
     {
      "examen": "Radiographie du thorax (toux, fièvre)",
@@ -50262,7 +50262,7 @@
     },
     {
      "examen": "TDR du paludisme, hémoculture si fièvre",
-     "resultat": "Infection déclenchante"
+     "resultat": "TDR positif = paludisme déclencheur ; hémoculture : pneumocoque, salmonelle (risque élevé chez le drépanocytaire)"
     }
    ]
   },
@@ -50345,11 +50345,11 @@
     },
     {
      "examen": "TDR du paludisme, selles (ankylostomes), ferritine",
-     "resultat": "Cause de l'anémie"
+     "resultat": "TDR positif = paludisme ; œufs d'ankylostome dans les selles ; ferritine < 15 µg/l (< 30 si inflammation) = carence en fer"
     },
     {
      "examen": "Groupe sanguin et compatibilité",
-     "resultat": "Avant transfusion"
+     "resultat": "Groupe ABO et Rhésus déterminés ; test de compatibilité au lit sans agglutination = transfusion possible"
     }
    ]
   },
@@ -50591,7 +50591,7 @@
     },
     {
      "examen": "Hémocultures (choc septique), TDR du paludisme",
-     "resultat": "Cause infectieuse"
+     "resultat": "Hémocultures positives (entérobactéries, staphylocoque, pneumocoque) ; TDR positif = paludisme grave"
     },
     {
      "examen": "Échographie au lit (si disponible)",
@@ -50662,8 +50662,8 @@
    "physiopathologie": "L'anaphylaxie est une réaction allergique généralisée : chez une personne sensibilisée, l'allergène (médicament, venin d'hyménoptère, aliment, latex) se lie aux IgE fixées sur les mastocytes et les basophiles, qui libèrent brutalement histamine, tryptase et leucotriènes. Ces médiateurs provoquent une vasodilatation et une fuite capillaire (chute de la PA, choc), un bronchospasme, un œdème des voies aériennes supérieures (larynx) et des signes cutanés et digestifs. L'adrénaline, en contractant les vaisseaux et en dilatant les bronches, s'oppose directement à ces effets.",
    "paraclinique": [
     {
-     "examen": "Aucun examen avant l'adrénaline",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen avant l'adrénaline (diagnostic clinique)",
+     "resultat": "Début brutal après exposition, atteinte cutanée (urticaire, œdème) + respiratoire (sifflements, stridor) ou hypotension (PAS < 90 mmHg)"
     },
     {
      "examen": "Tryptase sérique (1–2 h après le début, si disponible)",
@@ -51423,7 +51423,7 @@
    "paraclinique": [
     {
      "examen": "Glycémie capillaire immédiate",
-     "resultat": "Éliminer une hypoglycémie"
+     "resultat": "Glycémie < 0,7 g/l = hypoglycémie (corriger et réévaluer : le déficit peut disparaître) ; normale = poursuivre la démarche AVC"
     },
     {
      "examen": "Scanner cérébral sans injection",
@@ -51446,7 +51446,7 @@
     },
     {
      "examen": "NFS, TP, glycémie, lipides, créatinine",
-     "resultat": "Facteurs de risque, avant anticoagulant"
+     "resultat": "Plaquettes > 100 000 et INR < 1,7 avant thrombolyse ou anticoagulant ; LDL élevé, diabète = facteurs de risque à traiter"
     }
    ]
   },
@@ -51534,7 +51534,7 @@
     },
     {
      "examen": "Radiographie du thorax",
-     "resultat": "Éliminer une autre cause (pneumothorax, pneumonie, dissection : élargissement du médiastin)"
+     "resultat": "Normale dans l'infarctus ; élargissement du médiastin (> 8 cm) = dissection aortique ; pneumothorax ; pneumonie ; œdème pulmonaire"
     }
    ]
   },
@@ -51758,12 +51758,12 @@
    "physiopathologie": "La dépression associe une vulnérabilité génétique, des événements de vie difficiles (deuils, violences, pauvreté, maladie chronique) et des perturbations biologiques : dérèglement des systèmes de la sérotonine, de la noradrénaline et de la dopamine, hyperactivité de l'axe du stress (cortisol), inflammation et diminution de la plasticité des neurones. Ces modifications altèrent l'humeur, le plaisir, le sommeil, l'appétit et la cognition. Les antidépresseurs et les psychothérapies restaurent progressivement ces circuits, d'où un effet en plusieurs semaines.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour le diagnostic (clinique, PHQ-9)",
-     "resultat": "Score PHQ-9 ≥ 10 = dépression probable"
+     "examen": "Aucun examen pour le diagnostic (questionnaire PHQ-9)",
+     "resultat": "Score PHQ-9 : 5–9 léger, 10–14 modéré, 15–19 modérément sévère, ≥ 20 sévère ; idées suicidaires (question 9) = évaluer le risque"
     },
     {
      "examen": "TSH, NFS, glycémie, test VIH (selon le contexte)",
-     "resultat": "Éliminer une cause organique (hypothyroïdie, anémie)"
+     "resultat": "TSH > 4 mUI/l = hypothyroïdie ; Hb basse = anémie ; test VIH positif ; tous normaux = dépression primaire"
     }
    ]
   },
@@ -51830,7 +51830,7 @@
    "paraclinique": [
     {
      "examen": "Glycémie, TDR du paludisme, ionogramme",
-     "resultat": "Cause organique : hypoglycémie, neuropaludisme, hyponatrémie"
+     "resultat": "Glycémie < 0,7 g/l, TDR positif ou sodium < 125 mmol/l = cause organique à traiter en priorité"
     },
     {
      "examen": "Test VIH, syphilis ; ponction lombaire si fièvre",
@@ -51921,7 +51921,7 @@
     },
     {
      "examen": "Glycémie, calcium, sodium",
-     "resultat": "Cause métabolique"
+     "resultat": "Glycémie < 0,7 g/l, calcium < 2 mmol/l ou sodium < 125 mmol/l = crise provoquée (pas une épilepsie)"
     }
    ]
   },
@@ -51980,12 +51980,12 @@
    "physiopathologie": "Les troubles anxieux et le psychotraumatisme reflètent un dérèglement des circuits cérébraux de la peur : l'amygdale devient hyperréactive, le cortex préfrontal la contrôle moins bien, et l'axe du stress (cortisol, adrénaline) reste activé. Après un traumatisme, la mémoire de l'événement est mal intégrée et resurgit sous forme de reviviscences ; l'hypervigilance et l'évitement entretiennent les symptômes. Les thérapies d'exposition et les ISRS permettent de réapprendre que le danger est passé.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour le diagnostic (clinique, GAD-7)",
-     "resultat": "Score GAD-7 ≥ 10 = anxiété probable"
+     "examen": "Aucun examen pour le diagnostic (questionnaire GAD-7)",
+     "resultat": "Score GAD-7 : 5–9 léger, 10–14 modéré, ≥ 15 sévère"
     },
     {
      "examen": "TSH, ECG, glycémie (selon les symptômes)",
-     "resultat": "Éliminer une hyperthyroïdie, un trouble du rythme"
+     "resultat": "TSH < 0,1 mUI/l = hyperthyroïdie ; ECG : tachycardie, troubles du rythme ; glycémie basse = hypoglycémie"
     }
    ]
   },
@@ -52032,8 +52032,8 @@
    "physiopathologie": "Chlamydia trachomatis (sérotypes A à C), transmis par les mains, le linge et les mouches, infecte la conjonctive des jeunes enfants. Les infections répétées entretiennent une inflammation chronique (follicules) qui aboutit à la cicatrisation de la face interne de la paupière supérieure. Les cicatrices se rétractent et retournent le bord de la paupière vers l'œil : les cils frottent la cornée (trichiasis), qui s'ulcère et s'opacifie progressivement jusqu'à la cécité.",
    "paraclinique": [
     {
-     "examen": "Aucun examen (diagnostic clinique)",
-     "resultat": "Éversion de la paupière : follicules (TF), inflammation intense (TI), cicatrices (TS), trichiasis (TT)"
+     "examen": "Aucun examen (diagnostic clinique, classification simplifiée OMS)",
+     "resultat": "Éversion de la paupière : ≥ 5 follicules (TF), inflammation masquant les vaisseaux (TI), cicatrices blanches (TS), cils frottant la cornée (TT), opacité cornéenne (CO)"
     }
    ]
   },
@@ -52083,7 +52083,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (diagnostic clinique)",
-     "resultat": "Héméralopie, xérose, taches de Bitot, ulcération de la cornée"
+     "resultat": "Héméralopie (XN), xérose conjonctivale (X1A), taches de Bitot (X1B), xérose cornéenne (X2), ulcère ou kératomalacie (X3)"
     },
     {
      "examen": "Rétinolémie (enquête, si disponible)",
@@ -52295,7 +52295,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (évaluation de la douleur)",
-     "resultat": "Échelle numérique (0–10), échelle des visages ou EVENDOL chez l'enfant"
+     "resultat": "Échelle numérique : 1–3 faible, 4–6 modérée, ≥ 7 intense ; enfant : visages, FLACC ou EVENDOL (≥ 4 = traiter)"
     }
    ]
   },
@@ -52366,11 +52366,11 @@
     },
     {
      "examen": "Prélèvement si plaie infectée",
-     "resultat": "Germe et antibiogramme"
+     "resultat": "Staphylococcus aureus, streptocoque, anaérobies (plaie souillée) ; antibiogramme si infection grave"
     },
     {
      "examen": "Glycémie (plaie qui ne guérit pas)",
-     "resultat": "Diabète"
+     "resultat": "Glycémie à jeun ≥ 1,26 g/l ou au hasard ≥ 2 g/l = diabète (cause de mauvaise cicatrisation)"
     }
    ]
   },
@@ -52443,7 +52443,7 @@
     },
     {
      "examen": "Test de grossesse chez la femme",
-     "resultat": "Éliminer une grossesse extra-utérine"
+     "resultat": "β-hCG positive = grossesse : échographie pour éliminer une grossesse extra-utérine ; négative = autre cause"
     },
     {
      "examen": "ASP debout ou radiographie du thorax debout",
@@ -52779,7 +52779,7 @@
     },
     {
      "examen": "Test VIH, syphilis",
-     "resultat": "Co-infections fréquentes"
+     "resultat": "VIH positif = forme plus grave du mpox (ARV) ; TPHA/VDRL positifs = syphilis associée"
     }
    ]
   },
@@ -53210,7 +53210,7 @@
     },
     {
      "examen": "TDR du paludisme",
-     "resultat": "Diagnostic différentiel"
+     "resultat": "TDR positif = paludisme associé ou diagnostic différentiel (à traiter, n'élimine pas la fièvre jaune)"
     }
    ]
   },
@@ -53498,7 +53498,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen pour la candidose buccale ou vaginale typique",
-     "resultat": "Dépôts blancs détachables"
+     "resultat": "Dépôts blancs détachables sur muqueuse rouge (bouche) ; pertes blanches grumeleuses avec prurit (vagin) ; KOH : levures et pseudo-filaments"
     },
     {
      "examen": "Examen direct (KOH)",
@@ -53724,7 +53724,7 @@
    "paraclinique": [
     {
      "examen": "Examens selon la classification PCIME",
-     "resultat": "TDR du paludisme si fièvre ; Hb si pâleur ; glycémie si léthargie ; SpO₂ si toux ou difficulté respiratoire ; test VIH selon le contexte"
+     "resultat": "TDR positif = paludisme ; Hb < 7 g/dl = anémie grave ; glycémie < 0,54 g/l = hypoglycémie ; SpO₂ < 90 % = oxygène et référence"
     }
    ]
   },
@@ -53791,8 +53791,8 @@
    "physiopathologie": "À la naissance, le nouveau-né doit remplacer brutalement la respiration placentaire par la respiration pulmonaire : les alvéoles remplies de liquide doivent s'ouvrir, et les résistances vasculaires pulmonaires baisser. Un manque d'oxygène pendant le travail (asphyxie) ou à la naissance provoque d'abord une apnée primaire réversible par la stimulation, puis une apnée secondaire avec bradycardie, qui ne cède qu'à la ventilation. La ventilation au ballon et au masque dans la première minute (« minute d'or ») est le geste qui sauve la plupart des nouveau-nés.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pendant la réanimation",
-     "resultat": "Évaluation clinique (respiration, fréquence cardiaque, couleur) ; SpO₂ préductale (main droite)"
+     "examen": "Aucun examen pendant la réanimation (évaluation clinique)",
+     "resultat": "Fréquence cardiaque < 100/min = ventiler ; < 60/min malgré 30 s de ventilation efficace = massage ; SpO₂ préductale cible : 60–65 % à 1 min, 80–85 % à 5 min, 85–95 % à 10 min"
     },
     {
      "examen": "Glycémie après la réanimation",
@@ -53868,7 +53868,7 @@
     },
     {
      "examen": "Hémoculture si l'enfant est malade",
-     "resultat": "Infection"
+     "resultat": "Hémoculture positive (streptocoque B, E. coli, Klebsiella) = ictère infectieux"
     }
    ]
   },
@@ -54008,8 +54008,8 @@
    "physiopathologie": "Le virus respiratoire syncytial (VRS) infecte l'épithélium des petites bronches (bronchioles) du nourrisson : nécrose des cellules, afflux de cellules inflammatoires, sécrétions et œdème obstruent ces voies de très petit calibre. L'air est piégé dans les poumons (distension, sifflements) et certaines zones s'affaissent (atélectasies) : la respiration devient rapide et difficile, avec risque d'hypoxémie et d'apnées chez le nourrisson de moins de 3 mois et le prématuré. Les bronchodilatateurs sont peu efficaces car l'obstruction n'est pas due à un bronchospasme.",
    "paraclinique": [
     {
-     "examen": "Aucun examen dans la forme habituelle",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen dans la forme habituelle (diagnostic clinique)",
+     "resultat": "Nourrisson < 2 ans, rhinite puis toux, sifflements et crépitants, en saison épidémique ; gravité : SpO₂ < 92 %, refus de boire, apnées"
     },
     {
      "examen": "SpO₂",
@@ -54083,7 +54083,7 @@
    "paraclinique": [
     {
      "examen": "PCR Bordetella pertussis sur aspiration nasopharyngée (< 3 semaines de toux)",
-     "resultat": "Positive"
+     "resultat": "ADN de Bordetella pertussis détecté (positive surtout les 3 premières semaines de toux)"
     },
     {
      "examen": "NFS",
@@ -54563,7 +54563,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen obligatoire avant la contraception",
-     "resultat": "Test de grossesse si doute ; mesurer la tension avant une contraception œstroprogestative ; dépistage des IST avant un DIU si risque"
+     "resultat": "Test de grossesse négatif si doute ; PA < 140/90 mmHg avant une contraception œstroprogestative ; IST : traiter avant la pose d'un DIU"
     }
    ]
   },
@@ -54632,7 +54632,7 @@
     },
     {
      "examen": "IgM anti-dengue (après J5)",
-     "resultat": "Positives"
+     "resultat": "IgM anti-dengue positives après le 5e jour (confirmation sur un 2e prélèvement si possible)"
     },
     {
      "examen": "Transaminases",
@@ -54696,7 +54696,7 @@
    "paraclinique": [
     {
      "examen": "RT-PCR (J1–J7) puis IgM (après J5)",
-     "resultat": "Positives"
+     "resultat": "RT-PCR positive (J1–J7) ou IgM anti-chikungunya positives après J5"
     },
     {
      "examen": "NFS",
@@ -54907,7 +54907,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen pour le diagnostic (clinique)",
-     "resultat": "Plaques érythémateuses prurigineuses, suintantes ou sèches"
+     "resultat": "Plaques rouges, prurigineuses, mal limitées, suintantes (aiguë) ou sèches et épaissies (chronique) ; plis chez l'enfant (eczéma atopique)"
     },
     {
      "examen": "Patch-tests (eczéma de contact, si disponible)",
@@ -54969,8 +54969,8 @@
    "physiopathologie": "L'urticaire résulte de la libération d'histamine et d'autres médiateurs par les mastocytes de la peau, déclenchée par un mécanisme allergique (IgE : médicaments, aliments, piqûres) ou non allergique (infections virales, parasites, médicaments, froid, pression). L'histamine dilate les vaisseaux et augmente leur perméabilité : plaques rouges et œdémateuses, très prurigineuses et fugaces. L'atteinte des tissus profonds (angio-œdème) des lèvres, de la langue et du larynx peut menacer les voies aériennes.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour une urticaire aiguë",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen pour une urticaire aiguë (diagnostic clinique)",
+     "resultat": "Papules et plaques rouges, œdémateuses, prurigineuses, mobiles, disparaissant en moins de 24 h ; rechercher un angio-œdème ou une anaphylaxie"
     },
     {
      "examen": "Urticaire chronique (> 6 semaines)",
@@ -55039,11 +55039,11 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (diagnostic clinique)",
-     "resultat": "Vésicules d'âges différents (varicelle) ; éruption dans un dermatome (zona)"
+     "resultat": "Varicelle : vésicules d'âges différents, cuir chevelu atteint ; zona : vésicules groupées sur un dermatome, unilatéral, douleur"
     },
     {
      "examen": "PCR VZV (forme atypique, immunodéprimé)",
-     "resultat": "Positive"
+     "resultat": "ADN du virus varicelle-zona détecté dans le liquide de vésicule"
     },
     {
      "examen": "Test VIH (zona de l'adulte jeune)",
@@ -55223,7 +55223,7 @@
     },
     {
      "examen": "Glycémie",
-     "resultat": "Éliminer une hypoglycémie"
+     "resultat": "Glycémie < 0,7 g/l = hypoglycémie (corriger : elle aggrave les troubles de conscience)"
     }
    ]
   },
@@ -55364,8 +55364,8 @@
    "physiopathologie": "Une infection virale des voies respiratoires supérieures provoque un œdème de la muqueuse nasale qui bouche les orifices de drainage des sinus. Les sécrétions s'accumulent et peuvent être surinfectées par les bactéries du nasopharynx (pneumocoque, Haemophilus) : douleur de la face, écoulement purulent, fièvre. Les sinusites bactériennes graves peuvent s'étendre à l'orbite ou au cerveau (cellulite orbitaire, méningite, abcès).",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour la sinusite aiguë",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen pour la sinusite aiguë (diagnostic clinique)",
+     "resultat": "Rhinorrhée purulente, douleur faciale unilatérale augmentée penché en avant, > 10 jours ou aggravation après amélioration"
     },
     {
      "examen": "Scanner des sinus (complication, forme chronique)",
@@ -55427,7 +55427,7 @@
    "paraclinique": [
     {
      "examen": "Hb, groupe sanguin (épistaxis abondante)",
-     "resultat": "Anémie"
+     "resultat": "Hb < 7 g/dl = transfusion à discuter ; groupe sanguin déterminé"
     },
     {
      "examen": "Plaquettes, TP/INR",
@@ -55565,7 +55565,7 @@
     },
     {
      "examen": "Glycémie (cellulite)",
-     "resultat": "Rechercher un diabète"
+     "resultat": "Glycémie au hasard ≥ 2 g/l = diabète (cellulite plus grave)"
     }
    ]
   },
@@ -55628,7 +55628,7 @@
    "paraclinique": [
     {
      "examen": "Test VIH, Hb, glycémie, état nutritionnel",
-     "resultat": "Terrain : malnutrition, VIH, rougeole récente"
+     "resultat": "Test VIH positif, Hb basse, glycémie basse, périmètre brachial < 115 mm (enfant) = terrain du noma"
     }
    ]
   },
@@ -56272,7 +56272,7 @@
     },
     {
      "examen": "AgHBs, anti-VHC",
-     "resultat": "Cause virale"
+     "resultat": "AgHBs positif = cirrhose virale B ; anti-VHC positifs (ARN détectable) = cirrhose virale C"
     }
    ]
   },
@@ -56398,8 +56398,8 @@
    "physiopathologie": "Le manioc amer contient des glucosides cyanogéniques (linamarine) qui libèrent du cyanure s'il n'est pas suffisamment trempé, fermenté et séché. Une exposition prolongée au cyanure, associée à une alimentation pauvre en protéines soufrées (acides aminés nécessaires à sa détoxification en thiocyanate), endommage de façon sélective les motoneurones de la moelle et du cortex moteur : paralysie spastique brutale et irréversible des jambes (konzo), en épidémies lors des famines ou des sécheresses.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour le diagnostic (clinique et contexte alimentaire)",
-     "resultat": "Paraparésie spastique symétrique d'apparition brutale"
+     "examen": "Aucun examen pour le diagnostic (clinique et alimentaire)",
+     "resultat": "Paraparésie spastique symétrique de début brutal, réflexes vifs, Babinski, sans trouble sensitif ; consommation de manioc mal roui"
     },
     {
      "examen": "Thiocyanates urinaires (enquête)",
@@ -56472,8 +56472,8 @@
    "physiopathologie": "La migraine est une maladie neurovasculaire : une hyperexcitabilité du cortex (dépression corticale envahissante, responsable de l'aura) active le système trigémino-vasculaire, qui libère des neuropeptides (CGRP) provoquant une inflammation et une dilatation des vaisseaux méningés et une sensibilisation des voies de la douleur. Les céphalées de tension sont liées à une sensibilisation des voies de la douleur, souvent associée au stress. Les céphalées secondaires (méningite, HTA sévère, tumeur, hémorragie) traduisent une lésion à rechercher.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour une migraine typique",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen pour une migraine typique (diagnostic clinique)",
+     "resultat": "Céphalée unilatérale, pulsatile, aggravée par l'effort, avec nausées, photo- et phonophobie, crises de 4 à 72 h, examen normal"
     },
     {
      "examen": "Scanner cérébral (céphalée brutale, fébrile, avec signes neurologiques, ou nouvelle après 50 ans)",
@@ -56540,7 +56540,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen pour une lombalgie commune de moins de 6 semaines",
-     "resultat": "Diagnostic clinique"
+     "resultat": "Douleur mécanique, sans fièvre, sans amaigrissement, sans déficit neurologique, chez un patient de 20 à 55 ans"
     },
     {
      "examen": "Radiographie du rachis (drapeaux rouges)",
@@ -56616,7 +56616,7 @@
    "paraclinique": [
     {
      "examen": "PCR (première semaine) sur sang",
-     "resultat": "Positive"
+     "resultat": "ADN de Leptospira détecté dans le sang (1re semaine)"
     },
     {
      "examen": "Sérologie (MAT ou ELISA IgM)",
@@ -56691,7 +56691,7 @@
     },
     {
      "examen": "Sérologie (Rose Bengale, agglutination)",
-     "resultat": "Positive"
+     "resultat": "Rose Bengale positif ; agglutination (Wright) ≥ 1/160 ou séroconversion"
     }
    ]
   },
@@ -56765,7 +56765,7 @@
     },
     {
      "examen": "Sérologie (Western blot)",
-     "resultat": "Positive"
+     "resultat": "Anticorps anti-cysticerques positifs (Western blot, très spécifique)"
     },
     {
      "examen": "Fond d'œil",
@@ -56896,7 +56896,7 @@
    "paraclinique": [
     {
      "examen": "TDR du paludisme",
-     "resultat": "Toujours en premier"
+     "resultat": "Positif = paludisme (traiter, mais chercher une autre cause si la fièvre persiste) ; négatif = chercher une autre cause"
     },
     {
      "examen": "NFS, CRP, bandelette urinaire",
@@ -56908,7 +56908,7 @@
     },
     {
      "examen": "Radiographie du thorax, test VIH, GeneXpert (fièvre prolongée)",
-     "resultat": "Tuberculose"
+     "resultat": "Radio : infiltrats, cavernes ou miliaire ; GeneXpert : M. tuberculosis détecté ; VIH positif"
     }
    ]
   },
@@ -56996,7 +56996,7 @@
     },
     {
      "examen": "TDR du paludisme, AgHBs, anti-VHC, NFS",
-     "resultat": "Causes fréquentes"
+     "resultat": "TDR positif = paludisme ; AgHBs ou anti-VHC positifs = hépatite virale ; Hb basse avec bilirubine libre = hémolyse"
     }
    ]
   },
@@ -57056,8 +57056,8 @@
    "physiopathologie": "Les voies aériennes supérieures peuvent être obstruées par un corps étranger inhalé (enfant de 1 à 3 ans), un œdème (anaphylaxie, angio-œdème), une infection (épiglottite, croup, trachéite, abcès, diphtérie), un traumatisme ou une brûlure. Chez l'enfant, le petit diamètre du larynx fait qu'un œdème minime réduit fortement le passage de l'air (la résistance augmente à la puissance 4 de la réduction du rayon). Le stridor, le tirage et l'agitation traduisent l'obstruction ; la cyanose et les troubles de conscience annoncent l'arrêt.",
    "paraclinique": [
     {
-     "examen": "Aucun examen avant de libérer les voies aériennes",
-     "resultat": "Urgence clinique"
+     "examen": "Aucun examen avant de libérer les voies aériennes (diagnostic clinique)",
+     "resultat": "Stridor, tirage, voix ou toux impossible, cyanose ; corps étranger : syndrome de pénétration (toux brutale pendant un repas ou un jeu)"
     },
     {
      "examen": "Radiographie du cou et du thorax (enfant stable)",
@@ -57112,8 +57112,8 @@
    "physiopathologie": "La rhinopharyngite est une infection virale (rhinovirus, coronavirus saisonniers, adénovirus, VRS) de la muqueuse du nez et du pharynx. La réplication virale et la réponse inflammatoire augmentent la production de mucus et provoquent un œdème : écoulement nasal, obstruction, toux, fièvre modérée. Elle guérit spontanément en 7 à 10 jours ; elle peut se compliquer d'otite, de sinusite ou de bronchiolite chez le nourrisson. Les antibiotiques n'ont pas d'effet sur l'infection virale.",
    "paraclinique": [
     {
-     "examen": "Aucun examen",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen (diagnostic clinique)",
+     "resultat": "Rhinorrhée, obstruction nasale, éternuements, fièvre modérée < 3 jours, état général conservé"
     }
    ]
   },
@@ -57243,7 +57243,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (diagnostic clinique)",
-     "resultat": "Toux aboyante, stridor"
+     "resultat": "Toux aboyante, voix rauque, stridor inspiratoire chez l'enfant de 6 mois à 3 ans ; gravité : stridor au repos, tirage, agitation"
     },
     {
      "examen": "Radiographie du cou de face (si doute)",
@@ -57297,8 +57297,8 @@
    "physiopathologie": "L'épiglottite est une infection bactérienne (Haemophilus influenzae b surtout chez l'enfant non vacciné, streptocoques, staphylocoque) de l'épiglotte et des tissus voisins. L'épiglotte gonfle rapidement et peut obstruer complètement l'entrée du larynx en quelques heures : l'enfant assis penché en avant, bave, ne peut pas avaler et a une voix étouffée. Tout examen de la gorge ou toute agitation peut déclencher l'obstruction complète.",
    "paraclinique": [
     {
-     "examen": "Aucun examen avant la sécurisation des voies aériennes",
-     "resultat": "Ne pas examiner la gorge, ne pas allonger l'enfant"
+     "examen": "Aucun examen avant la sécurisation des voies aériennes (diagnostic clinique)",
+     "resultat": "Fièvre élevée, enfant assis penché en avant, bave, voix étouffée, stridor ; ne pas examiner la gorge"
     },
     {
      "examen": "Radiographie du cou de profil (seulement si l'enfant est stable)",
@@ -57412,8 +57412,8 @@
    "physiopathologie": "La bronchite aiguë est le plus souvent virale : l'infection de l'épithélium bronchique provoque une inflammation, une hypersécrétion de mucus et une hyperréactivité bronchique transitoire, responsables d'une toux qui peut durer 2 à 3 semaines. Contrairement à la pneumonie, les alvéoles ne sont pas atteintes (pas de condensation, pas d'hypoxémie chez le sujet sain). Les antibiotiques ne raccourcissent pas la maladie.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour une bronchite aiguë",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen pour une bronchite aiguë (diagnostic clinique)",
+     "resultat": "Toux < 3 semaines, souvent après un rhume, auscultation normale ou râles bronchiques, sans dyspnée ni fièvre élevée"
     },
     {
      "examen": "Radiographie du thorax si doute de pneumonie",
@@ -57591,7 +57591,7 @@
     },
     {
      "examen": "GeneXpert sur crachats, test VIH",
-     "resultat": "Tuberculose"
+     "resultat": "M. tuberculosis détecté = tuberculose (cause fréquente de pneumonie traînante) ; VIH positif"
     },
     {
      "examen": "Bronchoscopie (si disponible)",
@@ -57789,7 +57789,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen avant 45 ans sans signe d'alarme",
-     "resultat": "Diagnostic clinique et test d'IPP"
+     "resultat": "Pyrosis et régurgitations ; amélioration sous IPP en 2 à 4 semaines = diagnostic retenu"
     },
     {
      "examen": "Endoscopie (signes d'alarme)",
@@ -57852,7 +57852,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (diagnostic clinique et alimentaire)",
-     "resultat": "Gencives saignantes, purpura périfolliculaire"
+     "resultat": "Gencives gonflées et saignantes, purpura autour des poils, douleurs des membres ; amélioration rapide sous vitamine C"
     },
     {
      "examen": "Radiographie des os longs (enfant)",
@@ -57909,7 +57909,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (diagnostic clinique)",
-     "resultat": "Dermatite photosensible, diarrhée, démence ; amélioration rapide sous nicotinamide = test diagnostique"
+     "resultat": "Dermatite symétrique des zones exposées (collier de Casal), diarrhée, troubles psychiques ; amélioration rapide sous nicotinamide"
     }
    ]
   },
@@ -57959,8 +57959,8 @@
    "physiopathologie": "Les poux (de tête, de corps, du pubis) sont des insectes hématophages qui se transmettent par contact direct ou par le linge. Leurs piqûres provoquent une réaction allergique prurigineuse ; le grattage favorise les surinfections. Les poux de corps, liés à la promiscuité et au manque d'hygiène (camps, prisons), transmettent le typhus épidémique, la fièvre récurrente et la fièvre des tranchées.",
    "paraclinique": [
     {
-     "examen": "Aucun examen",
-     "resultat": "Poux ou lentes visibles"
+     "examen": "Aucun examen (examen des cheveux)",
+     "resultat": "Poux vivants ou lentes à moins de 1 cm du cuir chevelu = infestation active"
     }
    ]
   },
@@ -58131,12 +58131,12 @@
    "physiopathologie": "Le virus herpès simplex (HSV-1 surtout pour la bouche, HSV-2 pour les organes génitaux) se multiplie dans les cellules de la peau et des muqueuses (vésicules), puis reste latent toute la vie dans les ganglions des nerfs sensitifs. Le stress, la fièvre, le soleil, les règles et l'immunodépression le réactivent : récurrences au même endroit. Chez l'immunodéprimé, les lésions sont étendues, chroniques et ulcérées ; chez le nouveau-né, l'infection peut être disséminée et grave.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour une forme typique",
-     "resultat": "Bouquet de vésicules sur base rouge"
+     "examen": "Aucun examen pour une forme typique (diagnostic clinique)",
+     "resultat": "Bouquet de vésicules sur fond rouge, précédé de brûlures, au même endroit à chaque récidive"
     },
     {
      "examen": "PCR HSV (forme atypique, nouveau-né, immunodéprimé)",
-     "resultat": "Positive"
+     "resultat": "ADN du virus herpès simplex (HSV-1 ou HSV-2) détecté"
     }
    ]
   },
@@ -58185,7 +58185,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (diagnostic clinique)",
-     "resultat": "Plaques rouges squameuses grasses des zones séborrhéiques"
+     "resultat": "Plaques rouges couvertes de squames grasses jaunâtres : cuir chevelu, sourcils, sillons nasogéniens, thorax"
     },
     {
      "examen": "Test VIH (forme étendue de l'adulte)",
@@ -58239,11 +58239,11 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (diagnostic clinique)",
-     "resultat": "Conjonctivite folliculaire, ganglion prétragien, contexte épidémique"
+     "resultat": "Œil rouge avec larmoiement, follicules, ganglion prétragien, contagion dans l'entourage"
     },
     {
      "examen": "PCR adénovirus (épidémie)",
-     "resultat": "Positive"
+     "resultat": "ADN d'adénovirus détecté"
     }
    ]
   },
@@ -58350,7 +58350,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (diagnostic clinique à la lampe)",
-     "resultat": "Repli triangulaire de la conjonctive empiétant sur la cornée"
+     "resultat": "Repli triangulaire charnu de la conjonctive, du côté nasal, empiétant sur la cornée"
     }
    ]
   },
@@ -58404,7 +58404,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen pour le diagnostic (lampe à fente)",
-     "resultat": "Opacité du cristallin, reflet pupillaire gris ou blanc"
+     "resultat": "Opacité du cristallin, reflet pupillaire gris ou blanc, baisse progressive de l'acuité visuelle"
     },
     {
      "examen": "Bilan préopératoire",
@@ -58464,7 +58464,7 @@
     },
     {
      "examen": "Phase chronique : deux sérologies différentes",
-     "resultat": "Positives"
+     "resultat": "Deux sérologies de techniques différentes positives = maladie de Chagas chronique"
     },
     {
      "examen": "ECG, échographie cardiaque",
@@ -59061,15 +59061,15 @@
    "paraclinique": [
     {
      "examen": "Test de grossesse",
-     "resultat": "Éliminer une GEU"
+     "resultat": "β-hCG négative (élimine une GEU) ; positive = échographie en urgence"
     },
     {
      "examen": "PCR gonocoque et chlamydia (endocol)",
-     "resultat": "Positive"
+     "resultat": "ADN de N. gonorrhoeae et/ou de C. trachomatis détecté"
     },
     {
      "examen": "NFS, CRP",
-     "resultat": "Syndrome inflammatoire"
+     "resultat": "Hyperleucocytose > 10 000/mm³, CRP > 20 mg/l (souvent normales dans les formes peu sévères)"
     },
     {
      "examen": "Échographie pelvienne",
@@ -59206,7 +59206,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (diagnostic clinique)",
-     "resultat": "Lésions en « crête de coq »"
+     "resultat": "Lésions verruqueuses en « crête de coq » ou papules de couleur chair, ano-génitales"
     },
     {
      "examen": "Dépistage associé",
@@ -59272,7 +59272,7 @@
    "paraclinique": [
     {
      "examen": "Test de grossesse",
-     "resultat": "Éliminer une grossesse et ses complications"
+     "resultat": "β-hCG positive = saignement lié à une grossesse (fausse couche, GEU, môle) ; négative = cause gynécologique"
     },
     {
      "examen": "Hb, ferritine",
@@ -59288,7 +59288,7 @@
     },
     {
      "examen": "TSH, plaquettes, TP",
-     "resultat": "Cause générale"
+     "resultat": "TSH anormale (hypo- ou hyperthyroïdie), plaquettes < 100 000 ou TP bas = cause générale du saignement"
     }
    ]
   },
@@ -59496,8 +59496,8 @@
    "physiopathologie": "Les infections nécrosantes résultent de bactéries (streptocoque du groupe A, staphylocoque, association d'anaérobies et de bacilles à Gram négatif, Clostridium) qui progressent rapidement le long des fascias, en produisant des toxines qui détruisent les tissus et thrombosent les vaisseaux. Les antibiotiques atteignent mal ces tissus mal vascularisés, d'où l'importance d'une chirurgie précoce d'exérèse des tissus morts ; le choc toxique est fréquent. Le diabète, l'immunodépression et les AINS favorisent ces infections.",
    "paraclinique": [
     {
-     "examen": "Aucun examen ne doit retarder la chirurgie",
-     "resultat": "Diagnostic clinique : douleur intense, nécrose, crépitation"
+     "examen": "Aucun examen ne doit retarder la chirurgie (diagnostic clinique)",
+     "resultat": "Douleur disproportionnée, œdème dur, bulles, nécrose, crépitation, état de choc"
     },
     {
      "examen": "Radiographie",
@@ -59567,7 +59567,7 @@
    "paraclinique": [
     {
      "examen": "Glycémie, ECG (enfant, envenimation grave)",
-     "resultat": "Hyperglycémie ; troubles du rythme, signes d'atteinte myocardique"
+     "resultat": "Hyperglycémie > 1,8 g/l, tachycardie ou troubles du rythme, troponine élevée = envenimation grave"
     },
     {
      "examen": "Radiographie du thorax",
@@ -59628,8 +59628,8 @@
    "physiopathologie": "Le sommeil est régulé par l'horloge biologique (rythme circadien, mélatonine) et par la pression de sommeil qui s'accumule pendant l'éveil. L'insomnie résulte d'un état d'hyperéveil (stress, anxiété, dépression, douleur) qui empêche l'endormissement ou provoque des réveils, entretenue par des comportements inadaptés (sieste, écrans, temps passé au lit éveillé) et des substances (café, alcool, médicaments). Elle est souvent le symptôme d'une autre maladie à rechercher.",
    "paraclinique": [
     {
-     "examen": "Aucun examen en première intention",
-     "resultat": "Diagnostic clinique (agenda du sommeil)"
+     "examen": "Aucun examen en première intention (agenda du sommeil)",
+     "resultat": "Difficulté à s'endormir ou réveils ≥ 3 nuits par semaine depuis ≥ 3 mois, avec retentissement dans la journée"
     },
     {
      "examen": "TSH, ferritine selon le contexte",
@@ -59916,7 +59916,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen avant la vaccination",
-     "resultat": "Sauf avis spécifique (enfant né de mère VIH : suivre le calendrier PTME)"
+     "resultat": "Pas de contre-indication pour la plupart des vaccins ; enfant VIH avec immunodépression sévère : pas de vaccins vivants (BCG chez le nourrisson infecté symptomatique)"
     }
    ]
   },
@@ -60321,7 +60321,7 @@
     },
     {
      "examen": "Glycémie, ionogramme, gaz du sang",
-     "resultat": "Hyperglycémie, acidose"
+     "resultat": "Hyperglycémie, acidose métabolique, hypokaliémie (formes graves)"
     }
    ]
   },
@@ -60643,7 +60643,7 @@
     },
     {
      "examen": "Transaminases (si hépatopathie, alcool)",
-     "resultat": "Contrôle avant et pendant le traitement"
+     "resultat": "ALAT < 3 fois la normale = traitement possible ; ALAT > 3 fois avec symptômes (ou > 5 fois) = arrêter"
     }
    ]
   },
@@ -60782,7 +60782,7 @@
     },
     {
      "examen": "LF-LAM urinaire, GeneXpert",
-     "resultat": "Tuberculose"
+     "resultat": "LF-LAM positif ou GeneXpert positif = tuberculose : traitement sans attendre"
     },
     {
      "examen": "CrAg sérique",
@@ -60857,7 +60857,7 @@
    "paraclinique": [
     {
      "examen": "Test VIH à la 1re CPN, au 3e trimestre et pendant l'allaitement",
-     "resultat": "Dépistage et re-dépistage"
+     "resultat": "Négatif : refaire au 3e trimestre et tous les 3 à 6 mois pendant l'allaitement ; positif : ARV le jour même"
     },
     {
      "examen": "Charge virale de la mère (à 34–36 semaines)",
@@ -60930,7 +60930,7 @@
     },
     {
      "examen": "Statut de la source (test rapide, AgHBs, anti-VHC)",
-     "resultat": "Évaluer le risque"
+     "resultat": "Source VIH positive (ou inconnue) = PEP ; AgHBs positif = vaccination ± immunoglobulines de la personne exposée"
     },
     {
      "examen": "AgHBs, anti-HBs de la personne exposée",
@@ -61002,15 +61002,15 @@
    "paraclinique": [
     {
      "examen": "Test de grossesse",
-     "resultat": "Contraception d'urgence"
+     "resultat": "β-hCG négative = contraception d'urgence (lévonorgestrel, dans les 5 jours) ; positive = grossesse antérieure à l'agression"
     },
     {
      "examen": "Tests VIH, AgHBs, syphilis (et suivi)",
-     "resultat": "Statut de départ, contrôle à 6 semaines et 3 mois"
+     "resultat": "Négatifs au départ = PEP (VIH) et vaccination hépatite B ; contrôles à 6 semaines et 3 mois"
     },
     {
      "examen": "Prélèvements médico-légaux (si possible, consentement)",
-     "resultat": "Recherche de spermatozoïdes, ADN"
+     "resultat": "Spermatozoïdes présents dans le prélèvement vaginal (jusqu'à 72 h) ; ADN exploitable"
     }
    ]
   },
@@ -61080,7 +61080,7 @@
     },
     {
      "examen": "PCR CMV (sang, LCR, humeur aqueuse)",
-     "resultat": "Positive"
+     "resultat": "ADN du CMV détecté (humeur aqueuse = confirmation de la rétinite)"
     }
    ]
   },
@@ -61394,7 +61394,7 @@
    "paraclinique": [
     {
      "examen": "Hémocultures (2 paires avant l'antibiotique)",
-     "resultat": "Germe et antibiogramme (adapter le traitement probabiliste)"
+     "resultat": "Hémocultures positives (E. coli, Klebsiella, S. aureus, pneumocoque) : adapter l'antibiotique selon l'antibiogramme"
     },
     {
      "examen": "Lactates",
@@ -61478,7 +61478,7 @@
    "paraclinique": [
     {
      "examen": "Examens selon le patient (pas de bilan systématique)",
-     "resultat": "Hb, groupe sanguin (chirurgie hémorragique), glycémie et créatinine (diabète, âge), ECG (cardiopathie, > 60 ans), test de grossesse"
+     "resultat": "Hb > 10 g/dl, glycémie < 1,8 g/l, créatinine normale, ECG sans trouble du rythme ni ischémie, test de grossesse négatif = anesthésie possible"
     },
     {
      "examen": "Hémostase (anticoagulant, hépatopathie)",
@@ -61645,8 +61645,8 @@
    "physiopathologie": "Les symptômes de fin de vie résultent de la progression de la maladie (envahissement tumoral, défaillance d'organe), de ses complications (compression nerveuse, occlusion, hypercalcémie, infections) et des traitements. La douleur peut être nociceptive, neuropathique ou mixte ; la dyspnée naît d'une inadéquation entre la commande respiratoire et la capacité ventilatoire ; les râles terminaux sont dus à l'accumulation de sécrétions que le patient ne peut plus avaler ou expectorer. Les soins palliatifs ciblent ces mécanismes pour soulager.",
    "paraclinique": [
     {
-     "examen": "Pas d'examen sans conséquence pour le confort",
-     "resultat": "Examens seulement s'ils changent la prise en charge (hypercalcémie, hypoglycémie, infection urinaire)"
+     "examen": "Pas d'examen systématique (confort avant tout)",
+     "resultat": "Examens seulement s'ils changent la prise en charge : calcium > 2,6 mmol/l (hypercalcémie), glycémie basse, bandelette urinaire positive"
     }
    ]
   },
@@ -61702,8 +61702,8 @@
    "physiopathologie": "La constipation résulte d'un ralentissement du transit dans le côlon (alimentation pauvre en fibres, manque d'eau, sédentarité, médicaments comme les opioïdes et le fer, hypothyroïdie, hypercalcémie, troubles neurologiques) ou d'un trouble de l'évacuation rectale (dyssynergie, fissure douloureuse chez l'enfant). La stase prolongée déshydrate les selles, qui deviennent dures et douloureuses à évacuer ; un obstacle (cancer, occlusion) doit être éliminé devant des signes d'alerte.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour une constipation simple",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen pour une constipation simple (diagnostic clinique)",
+     "resultat": "Moins de 3 selles par semaine, selles dures, efforts ; sans signe d'alarme (sang, amaigrissement, début récent après 50 ans)"
     },
     {
      "examen": "TSH, calcémie, glycémie (constipation récente)",
@@ -61782,11 +61782,11 @@
    "paraclinique": [
     {
      "examen": "Aucun examen pour le diagnostic (clinique)",
-     "resultat": "Tremblement de repos, rigidité, lenteur ; amélioration sous lévodopa"
+     "resultat": "Tremblement de repos unilatéral, rigidité « en roue dentée », lenteur ; nette amélioration sous lévodopa"
     },
     {
      "examen": "Scanner ou IRM (forme atypique)",
-     "resultat": "Éliminer une autre cause (AVC multiples, hydrocéphalie)"
+     "resultat": "Normal dans la maladie de Parkinson ; lacunes multiples (AVC) ou hydrocéphalie = autre cause"
     }
    ]
   },
@@ -61984,7 +61984,7 @@
     },
     {
      "examen": "Test VIH, hépatites B et C, TDR du paludisme",
-     "resultat": "Causes secondaires"
+     "resultat": "VIH, VHC ou VHB positifs, TDR positif = PTI secondaire (traiter la cause)"
     },
     {
      "examen": "Myélogramme (adulte > 60 ans, forme atypique)",
@@ -62117,11 +62117,11 @@
    "paraclinique": [
     {
      "examen": "Recherche urinaire d'opioïdes",
-     "resultat": "Positive"
+     "resultat": "Opiacés détectés dans les urines (morphine, codéine, héroïne)"
     },
     {
      "examen": "Tests VIH, hépatites B et C",
-     "resultat": "Dépistage (usage par injection)"
+     "resultat": "VIH, AgHBs ou anti-VHC positifs (fréquents chez les usagers par injection)"
     }
    ]
   },
@@ -62221,7 +62221,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen (diagnostic clinique, échelle Y-BOCS)",
-     "resultat": "Obsessions et compulsions"
+     "resultat": "Obsessions et compulsions > 1 h par jour avec souffrance ; Y-BOCS : 16–23 modéré, 24–31 sévère, ≥ 32 extrême"
     }
    ]
   },
@@ -62272,8 +62272,8 @@
    "physiopathologie": "L'acné associe une augmentation de la production de sébum sous l'effet des androgènes (puberté), une obstruction des follicules pileux par une kératinisation excessive (comédons), la prolifération de la bactérie Cutibacterium acnes dans le sébum et une réaction inflammatoire (papules, pustules, nodules). Les produits cosmétiques gras, les corticoïdes et les produits éclaircissants la favorisent.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour l'acné commune",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen pour l'acné commune (diagnostic clinique)",
+     "resultat": "Comédons, papules et pustules du visage et du thorax ; nodules = acné sévère"
     },
     {
      "examen": "Bilan avant l'isotrétinoïne",
@@ -62344,7 +62344,7 @@
    "paraclinique": [
     {
      "examen": "Aucun examen pour le diagnostic (clinique)",
-     "resultat": "Plaques rouges bien limitées couvertes de squames blanches"
+     "resultat": "Plaques rouges bien limitées couvertes de squames blanches épaisses : coudes, genoux, cuir chevelu ; ongles ponctués"
     },
     {
      "examen": "Bilan avant méthotrexate",
@@ -63097,7 +63097,7 @@
     },
     {
      "examen": "Hb, groupe sanguin (saignement)",
-     "resultat": "Anémie"
+     "resultat": "Hb < 7 g/dl = transfusion ; groupe sanguin déterminé"
     }
    ]
   },
@@ -63315,7 +63315,7 @@
     },
     {
      "examen": "VS, CRP",
-     "resultat": "Syndrome inflammatoire"
+     "resultat": "VS > 30 mm, CRP > 10 mg/l (polyarthrite active)"
     },
     {
      "examen": "Radiographies des mains et des pieds",
@@ -63492,7 +63492,7 @@
     },
     {
      "examen": "Selles (parasites, coproculture), test VIH, GeneXpert",
-     "resultat": "Éliminer une amibiase, une tuberculose intestinale"
+     "resultat": "Selles : trophozoïtes d'amibes ou œufs = cause parasitaire ; GeneXpert positif = tuberculose intestinale ; négatifs = MICI probable"
     }
    ]
   },
@@ -63772,8 +63772,8 @@
    "physiopathologie": "La rhinite allergique est une réaction d'hypersensibilité immédiate : chez une personne sensibilisée, les allergènes inhalés (acariens, pollens, poils d'animaux, moisissures) se fixent sur les IgE portées par les mastocytes de la muqueuse nasale, qui libèrent histamine et leucotriènes. Il en résulte éternuements, écoulement clair, démangeaisons et obstruction nasale ; l'inflammation chronique est souvent associée à l'asthme.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour une forme typique",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen pour une forme typique (diagnostic clinique)",
+     "resultat": "Éternuements en salve, rhinorrhée claire, prurit nasal et oculaire, au contact de la poussière ou des pollens"
     },
     {
      "examen": "Tests cutanés (prick-tests), IgE spécifiques (si disponibles)",
@@ -63841,8 +63841,8 @@
    "physiopathologie": "Le virus des oreillons (Paramyxovirus), transmis par les gouttelettes, se multiplie dans les voies respiratoires puis diffuse dans le sang vers les glandes salivaires (parotidite), le pancréas, les testicules (orchite, rarement stérilité), les ovaires et les méninges (méningite lymphocytaire) ; il peut provoquer une surdité unilatérale. La vaccination ROR le prévient.",
    "paraclinique": [
     {
-     "examen": "Aucun examen pour une forme typique",
-     "resultat": "Diagnostic clinique"
+     "examen": "Aucun examen pour une forme typique (diagnostic clinique)",
+     "resultat": "Gonflement douloureux d'une ou des deux parotides, fièvre modérée, contage"
     },
     {
      "examen": "Amylase, lipase (douleur abdominale)",
@@ -63906,8 +63906,8 @@
    "physiopathologie": "Les germes se transmettent dans les structures de soins par les mains des soignants, le contact avec le matériel et les surfaces, les gouttelettes et l'air. L'hygiène des mains et la désinfection interrompent cette chaîne de transmission : le chlore oxyde les protéines et les acides nucléiques des micro-organismes, l'alcool dénature leurs protéines. La matière organique (sang, selles) inactive le chlore, d'où la nécessité de nettoyer avant de désinfecter.",
    "paraclinique": [
     {
-     "examen": "Aucun examen",
-     "resultat": "Contrôle de la concentration en chlore des solutions (bandelettes ou titrage)"
+     "examen": "Contrôle de la solution chlorée",
+     "resultat": "Bandelette ou titrage : 0,05 % (500 ppm) pour les mains et la peau ; 0,5 % (5 000 ppm) pour les surfaces et les déversements"
     }
    ]
   },
@@ -64358,7 +64358,7 @@
     },
     {
      "examen": "NFS, VS, LDH, albumine",
-     "resultat": "Facteurs pronostiques (VS élevée, anémie, albumine basse)"
+     "resultat": "VS ≥ 50 mm, Hb < 10,5 g/dl, albumine < 40 g/l, lymphocytes < 600/mm³ = facteurs de mauvais pronostic"
     },
     {
      "examen": "Radiographie et scanner du thorax",
@@ -64366,7 +64366,7 @@
     },
     {
      "examen": "Test VIH, GeneXpert sur le ganglion",
-     "resultat": "Éliminer une tuberculose ganglionnaire"
+     "resultat": "GeneXpert négatif sur le ganglion (élimine une tuberculose) ; VIH positif = lymphome associé au VIH"
     }
    ]
   },
@@ -64439,7 +64439,7 @@
     },
     {
      "examen": "NFS, LDH, créatinine, test VIH, hépatites B et C",
-     "resultat": "Pronostic, terrain"
+     "resultat": "LDH élevée = mauvais pronostic ; VIH positif ; AgHBs positif = prophylaxie avant le rituximab"
     },
     {
      "examen": "Scanner thoraco-abdomino-pelvien (si disponible)",
@@ -64587,7 +64587,7 @@
     },
     {
      "examen": "Protéinurie de Bence Jones (chaînes légères)",
-     "resultat": "Positive"
+     "resultat": "Chaînes légères (kappa ou lambda) monoclonales dans les urines"
     },
     {
      "examen": "Myélogramme",
@@ -64754,7 +64754,7 @@
     },
     {
      "examen": "Radiographie du thorax, Hb, créatinine, test VIH",
-     "resultat": "Bilan d'extension et terrain"
+     "resultat": "Radio : métastases pulmonaires ; créatinine élevée = obstruction des uretères (stade IIIB) ; Hb basse ; VIH positif fréquent"
     }
    ]
   },
@@ -65375,7 +65375,7 @@
     },
     {
      "examen": "HbA1c, tension, lipides",
-     "resultat": "Facteurs aggravants"
+     "resultat": "HbA1c > 7 %, PA > 130/80 mmHg, LDL élevé = aggravation de la rétinopathie (à corriger)"
     }
    ]
   },
@@ -65540,7 +65540,7 @@
     },
     {
      "examen": "ECG",
-     "resultat": "Cause : infarctus (sus-décalage du ST), fibrillation auriculaire rapide",
+     "resultat": "Sus-décalage du ST = infarctus (cause de l'OAP) ; fibrillation auriculaire rapide ; hypertrophie ventriculaire gauche",
      "image": "ecg-stemi",
      "images": [
       "ecg-stemi-r",
