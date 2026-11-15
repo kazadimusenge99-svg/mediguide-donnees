@@ -1,5 +1,5 @@
 {
- "version": 86,
+ "version": 87,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -46721,6 +46721,550 @@
    ]
   }
  ],
+ "creditsImages": {
+  "ecg-tv-r": {
+   "auteur": "The original uploader was Ksheka at English Wikipedia",
+   "licence": "CC BY-SA 2.5",
+   "source": "https://commons.wikimedia.org/wiki/File:Electrocardiogram_of_Ventricular_Tachycardia.png"
+  },
+  "ecg-stemi-r": {
+   "auteur": "Displaced",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:12_Lead_EKG_ST_Elevation_tracing_only.jpg"
+  },
+  "ct-sousdural-r": {
+   "auteur": "Lucien Monfils",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ct-scan_of_the_brain_with_an_subdural_hematoma.jpg"
+  },
+  "rx-fracture-r": {
+   "auteur": "Jalo",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Tibia_and_fibula_fracture.jpg"
+  },
+  "ct-hemorragie-r": {
+   "auteur": "Glitzy queen00 at English Wikipedia",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Intracerebral_hemorrhage_2.jpg"
+  },
+  "ecg-bav3-r": {
+   "auteur": "Gregory Marcus, MD, MAS, FACC",
+   "licence": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:3rd_degree_heart_block.PNG"
+  },
+  "ecg-tdp-r": {
+   "auteur": "Jer5150",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Torsades_de_Pointes_TdP.png"
+  },
+  "rx-osteomyelite-r": {
+   "auteur": "Jto410",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:BrodieAbscessRadiograph.jpg"
+  },
+  "rx-pneumatocele-r": {
+   "auteur": "Hellerhoff",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Pneumatozele_Verlauf_-_Roe_pa_2007_und_2009.jpg"
+  },
+  "ecg-fv-r": {
+   "auteur": "Antoine Ayer",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ventricular_fibrillation_(from_ecg-quiz.com).jpg"
+  },
+  "ecg-pericardite-r": {
+   "auteur": "James Heilman, MD",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Acute_pericarditis.jpg"
+  },
+  "rx-tb-r2": {
+   "auteur": "James Heilman, MD",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:PulmonaryTBCXR.png"
+  },
+  "rx-emphyseme-r": {
+   "auteur": "James Heilman, MD",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:BullousEmphysema.png"
+  },
+  "ecg-stemi-r2": {
+   "auteur": "Andrewmeyerson",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:ST_Segment_Elevation_Myocardial_Infarction_Unlabeled.jpg"
+  },
+  "ecg-hvg-r": {
+   "auteur": "Andrewmeyerson",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Left_Ventricular_Hypertrophy_Unlabeled.jpg"
+  },
+  "ecg-bav1-r": {
+   "auteur": "Andrewmeyerson",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:First_Degree_AV_Block_ECG_Unlabeled.jpg"
+  },
+  "ecg-hyperk-r": {
+   "auteur": "Dr. Michael-Joseph F. Agbayani and Dr. Eddieson Gonzales (Manila, Philippines)",
+   "licence": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Hyperkalemia_ECG.jpg"
+  },
+  "ecg-ep-r": {
+   "auteur": "R.W.Koster",
+   "licence": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Pulm_embolism.jpg"
+  },
+  "rx-pr-r2": {
+   "auteur": "Mikael Häggström",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Rheumatoid_arthritis_with_unaffected_carpal_bones_2009.jpg"
+  },
+  "rx-pr-r": {
+   "auteur": "Mikael Häggström",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Rheumatoid_arthritis_with_carpal_ankylosis_2017.jpg"
+  },
+  "rx-oap-r2": {
+   "auteur": "Mikael Häggström",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Chest_radiograph_of_a_lung_with_Kerley_B_lines.jpg"
+  },
+  "rx-oap-r": {
+   "auteur": "Mikael Häggström",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Chest_radiograph_with_signs_of_congestive_heart_failure_-_annotated.jpg"
+  },
+  "rx-pneumothorax-r": {
+   "auteur": "Karthik Easvur",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:X-ray_of_pneumothorax_signs.jpg"
+  },
+  "ct-extradural-r": {
+   "auteur": "James Heilman, MD",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:EpiduralHematoma.jpg"
+  },
+  "rx-epanchement-r": {
+   "auteur": "Basem Abbas Al Ubaidi",
+   "licence": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Pleural_effusion_of_primary_pulmonary_tuberculosis.jpg"
+  },
+  "rx-mmh-r": {
+   "auteur": "Mikael Häggström, M.D",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:X-ray_of_infant_respiratory_distress_syndrome_(IRDS).png"
+  },
+  "rx-pneumonie-r": {
+   "auteur": "Mikael Häggström, M.D",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:X-ray_of_lobar_pneumonia.jpg"
+  },
+  "rx-myelome-r": {
+   "auteur": "Medicalpal",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Osteolytic_Lesions.jpg"
+  },
+  "rx-miliaire-r": {
+   "auteur": "Benjamín Herreros, Isabel Plaza, Rebeca García, Marta Chichón, Carmen Guerrero and Emilio Pintor",
+   "licence": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Chest_radiograph_of_miliary_tuberculosis_1.jpg"
+  },
+  "rx-tb-r": {
+   "auteur": "Giller Boris",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Chest_plain_film._Fibrotic_cavitary_Tuberculosis.jpg"
+  },
+  "rx-pneumocystose-r": {
+   "auteur": "Carolyn M. Allen, Hamdan H. AL-Jahdali, Klaus L. Irion, Sarah Al Ghanem, Alaa Gouda, and Ali Nawaz Khan",
+   "licence": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:X-ray_of_cyst_in_pneumocystis_pneumonia_1.jpg"
+  },
+  "ct-covid-r": {
+   "auteur": "Jin, Y., Cai, L., Cheng, Z. et al",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:COVID19CTPneumonia.jpg"
+  },
+  "ecg-qt-r": {
+   "auteur": "PeaBrainC",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Long_QT_syndrome_type_1.jpg"
+  },
+  "rx-occlusion-r": {
+   "auteur": "Igboeze",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:1._Bowel-obstruction-x-ray.jpg"
+  },
+  "ecg-fa-r": {
+   "auteur": "Ewingdo",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:ECG_Atrial_Fibrillation_98_bpm.jpg"
+  },
+  "ecg-flutter-r": {
+   "auteur": "Ewingdo",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:ECG_Atrial_Flutter_294_bpm.jpg"
+  },
+  "ecg-fa-r2": {
+   "auteur": "PeaBrainC",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Atrial_Fibrillation_in_two_leads.jpg"
+  },
+  "rx-abces-r": {
+   "auteur": "Cerevisae",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Chest_X-ray_of_right_upper_to_mid_zone_lung_cavity_with_air_fluid_level.jpg"
+  },
+  "rx-pneumoperitoine-r": {
+   "auteur": "Cerevisae",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Chest_X-ray_showing_presence_of_free_air_under_left_diaphragm.png"
+  },
+  "ct-ep-r": {
+   "auteur": "Michellescot",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:RVstraininPE.png"
+  },
+  "echo-pericarde-r": {
+   "auteur": "Kalumet",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Pericardial_effusion.jpg"
+  },
+  "mi-trypano": {
+   "auteur": "auteur non précisé",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Trypanosoma_sp._PHIL_613_lores.jpg"
+  },
+  "mi-crypto": {
+   "auteur": "auteur non précisé",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Cryptococcus_neoformans_using_a_light_India_ink_staining_preparation_PHIL_3771_lores.jpg"
+  },
+  "mi-schisto-h": {
+   "auteur": "CDC, Public Health Image Library (PHIL)",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Schistosoma_haematobium_egg_4843_lores.jpg"
+  },
+  "mi-schisto-m": {
+   "auteur": "auteur non précisé",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Schistosoma_mansoni_egg_4841_lores.jpg"
+  },
+  "mi-ankylo": {
+   "auteur": "Joel Mills",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Hookworm_egg_1.JPG"
+  },
+  "echo-geu-r": {
+   "auteur": "X.Compagnion",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Ectopic_pregnancy.JPG"
+  },
+  "echo-cirrhose-r": {
+   "auteur": "Christaras A",
+   "licence": "CC BY 2.5",
+   "source": "https://commons.wikimedia.org/wiki/File:Ultrasound_abdomen_-_liver_cirrhosis_-_10.jpg"
+  },
+  "piece-wilms-r": {
+   "auteur": "The Armed Forces Institute of Pathology",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Wilms_tumor.jpg"
+  },
+  "mi-palu-ge": {
+   "auteur": "Jenkayaks",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:P._falciparum_thick_smear_with_ring_forms.jpg"
+  },
+  "hsg-r": {
+   "auteur": "Neroli",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:HSG_adherences_FRENCH.jpg"
+  },
+  "echo-vegetation-r": {
+   "auteur": "Endocarditis_ultrasound.gif: Daisuke Koya, Kazuyuki Shibuya, Ryuichi Kikkawa and Masakazu Haneda. derivative work: Mater",
+   "licence": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Endocarditis_ultrasound.JPG"
+  },
+  "echo-ascite-r": {
+   "auteur": "Samir",
+   "licence": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ascites_ultrasound_2.JPG"
+  },
+  "mi-baar": {
+   "auteur": "Microrao",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:M_tuberculosis_sputum.jpg"
+  },
+  "mi-lmc": {
+   "auteur": "Paulo Henrique Orlandi Mourao",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Chronic_Myeloid_Leukemia_smear_2009-04-09.JPG"
+  },
+  "echo-invagination-r": {
+   "auteur": "Frank Gaillard",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Intussusception_on_ultrasound.jpg"
+  },
+  "echo-lithiase-r": {
+   "auteur": "James Heilman, MD",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Gallstones.PNG"
+  },
+  "mi-loa": {
+   "auteur": "Stefan Walkowski",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Loa_loa_-_microfilaria.jpg"
+  },
+  "mi-lal": {
+   "auteur": "James Grellier - derivative of original work by VashiDonsk at en.wikipedia",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Acute_lymphoblastic_leukaemia_smear.jpg"
+  },
+  "echo-grossesse-r": {
+   "auteur": "Nevit Dilmen (talk)",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Pregnancy_ultrasound_110316154227_1549100.jpg"
+  },
+  "mi-ferriprive": {
+   "auteur": "Ed Uthman from Houston, TX, USA",
+   "licence": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Iron-deficiency_Anemia,_Peripheral_Blood_Smear_(4422704616).jpg"
+  },
+  "echo-mole-r": {
+   "auteur": "Mikael Häggström",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Molar_pregnancy.jpg"
+  },
+  "mi-candida": {
+   "auteur": "Mikael Häggström",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Vaginal_wet_mount_in_candidal_vulvovaginitis.jpg"
+  },
+  "mi-drepano": {
+   "auteur": "Paulo Henrique Orlandi Mourao",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Sickle-cell_smear_2015-09-10.jpg"
+  },
+  "mi-vivax": {
+   "auteur": "n.a",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Schizont_of_P._vivax_in_a_thin_blood_smear.jpg"
+  },
+  "mi-palu-frottis": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Rings_of_P._falciparum_in_a_thin_blood_smear.jpg"
+  },
+  "echo-tvp-r": {
+   "auteur": "Mikael Häggström, M.D",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ultrasonography_of_deep_vein_thrombosis_of_the_femoral_vein.jpg"
+  },
+  "irm-toxo-r": {
+   "auteur": "Jmarchn",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:BrainToxoplasmosis_MRI_2_09.png"
+  },
+  "mi-giardia": {
+   "auteur": "Stefan Walkowski",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Giardia_intestinalis_-_trophozoite.jpg"
+  },
+  "mi-trichomonas": {
+   "auteur": "CDC/ Joe Miller",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:14500_lores.jpg"
+  },
+  "mi-leish": {
+   "auteur": "Ajay Kumar Chaurasiya",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Leishmania_donovani_amastigotes_in_Giemsa_stained_smear_of_FNAC.jpg"
+  },
+  "echo-hydronephrose-r": {
+   "auteur": "Cerevisae",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ultrasound_of_right_kidney_moderate_hydronephrosis.jpg"
+  },
+  "echo-abces-foie-r": {
+   "auteur": "Cerevisae",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ultrasound_showing_segment_VI_liver_abscess.png"
+  },
+  "mi-clue": {
+   "auteur": "Dr Graham Beards",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Clue_cells_in_bacterial_vaginosis.jpg"
+  },
+  "mi-gono": {
+   "auteur": "Dr Graham Beards",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Neisseria_gonorrhoeae_bacteria_and_pus_cells.jpg"
+  },
+  "mi-amibe": {
+   "auteur": "Original micrograph: CDC/ Dr. Mae Melvin; Dr. Greene Annotations by Mikael Häggström, M.D",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Entamoeba_histolytica_trophozoite.png"
+  },
+  "hsg-normal-r": {
+   "auteur": "Jmarchn",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Hysterosalpingography_Normal.png"
+  },
+  "mi-ascaris": {
+   "auteur": "Ajay Kumar Chaurasiya",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Egg_of_Ascaris_lumbricoides.jpg"
+  },
+  "echo-appendicite-r": {
+   "auteur": "Borbély Márton",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Appendicitis_ultrasound.png"
+  },
+  "ct-cysticercose-r": {
+   "auteur": "Innocent Lule Segamwenge",
+   "licence": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Neurocysticercosis_brain_CT.jpg"
+  },
+  "photo-burkitt": {
+   "auteur": "auteur non précisé",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Malignant_Burkitt%E2%80%99s_lymphoma,_a_non-Hodgkin%E2%80%99s_lymphoma_(NHL)_064_lores.jpg"
+  },
+  "mi-burkitt": {
+   "auteur": "Ed Uthman, MD",
+   "licence": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Burkitt_lymphoma,_touch_prep,_Wright_stain.jpg"
+  },
+  "mi-reed": {
+   "auteur": "Unknown authorUnknown author",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Reed-Sternberg_lymphocyte_nci-vol-7172-300.jpg"
+  },
+  "photo-retinoblastome": {
+   "auteur": "J Morley-Smith (talk)",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Rb_whiteeye.PNG"
+  },
+  "fo-hta": {
+   "auteur": "Frank Wood",
+   "licence": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Hypertensiveretinopathy.jpg"
+  },
+  "fo-papille": {
+   "auteur": "Jonathan Trobe, M.D. - University of Michigan Kellogg Eye Center",
+   "licence": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Papilledema.jpg"
+  },
+  "mi-lcr": {
+   "auteur": "Microman12345",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Neisseria_meningitidis_CSF_Gram_1000.jpg"
+  },
+  "fo-retino": {
+   "auteur": "Shaofeng Hao, Changyan Liu, Na Li, Yanrong Wu, Dongdong Li, Qingyue Gao, Ziyou Yuan, Guanyan Li, Huilin Li, Jianzhou Yan",
+   "licence": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Fundus_-_diabetic_retinopathy.png"
+  },
+  "fo-cmv": {
+   "auteur": "S Sudharshan, Sudha K Ganesh, Jyotirmay Biswas",
+   "licence": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:PMID20029144_06_cytomegalovirus_retinitis_-_pizza_pie.png"
+  },
+  "mi-pneumocoque": {
+   "auteur": "Arnold Kaufman",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Gram_stain_of_Streptococcus_pneumoniae.jpg"
+  }
+ },
+ "legendesImages": {
+  "ecg-stemi-r": "ECG réel : infarctus avec sus-décalage du ST (12 dérivations)",
+  "ecg-stemi-r2": "ECG réel : infarctus ST+ (sus-décalage et images en miroir)",
+  "ecg-hyperk-r": "ECG réel : hyperkaliémie (ondes T amples et pointues)",
+  "ecg-fa-r": "ECG réel : fibrillation auriculaire (rythme irrégulier, pas d'onde P)",
+  "ecg-fa-r2": "ECG réel : fibrillation auriculaire, agrandissement de deux dérivations",
+  "ecg-flutter-r": "ECG réel : flutter auriculaire (ondes F « en dents de scie »)",
+  "ecg-bav3-r": "ECG réel : bloc auriculo-ventriculaire complet (ondes P indépendantes des QRS)",
+  "ecg-bav1-r": "ECG réel : bloc auriculo-ventriculaire du 1er degré (PR > 0,20 s)",
+  "ecg-hvg-r": "ECG réel : hypertrophie ventriculaire gauche",
+  "ecg-ep-r": "ECG réel : embolie pulmonaire",
+  "ct-ep-r": "Scanner réel : dilatation du ventricule droit dans l'embolie pulmonaire",
+  "ecg-fv-r": "ECG réel : fibrillation ventriculaire",
+  "ecg-tdp-r": "ECG réel : torsades de pointes (complication du QT long)",
+  "ecg-qt-r": "QT long (QTc > 480 ms) : allongement de la repolarisation",
+  "ecg-pericardite-r": "ECG réel : péricardite aiguë (sus-décalage du ST diffus, concave)",
+  "ecg-tv-r": "ECG réel : tachycardie ventriculaire (QRS larges et rapides)",
+  "rx-pneumonie-r": "Radiographie réelle : pneumonie lobaire (flèche)",
+  "rx-tb-r": "Radiographie réelle : tuberculose fibro-cavitaire",
+  "rx-tb-r2": "Radiographie réelle : tuberculose pulmonaire",
+  "rx-miliaire-r": "Radiographie réelle : miliaire tuberculeuse (micronodules diffus)",
+  "rx-pneumothorax-r": "Radiographie réelle : pneumothorax gauche avec ses signes",
+  "rx-oap-r": "Radiographie réelle annotée : insuffisance cardiaque (cardiomégalie, redistribution, lignes de Kerley, épanchement)",
+  "rx-oap-r2": "Radiographie réelle : lignes de Kerley B (œdème interstitiel)",
+  "rx-pneumocystose-r": "Radiographie réelle : pneumocystose (infiltrats bilatéraux, kyste)",
+  "ct-covid-r": "Scanner réel : pneumonie COVID-19 (verre dépoli périphérique)",
+  "rx-pneumatocele-r": "Radiographies réelles : pneumatocèle après pneumonie, évolution",
+  "rx-mmh-r": "Radiographie réelle : maladie des membranes hyalines (opacités granitées, bronchogramme)",
+  "rx-epanchement-r": "Radiographie réelle : épanchement pleural tuberculeux",
+  "rx-abces-r": "Radiographie réelle annotée : abcès pulmonaire (cavité avec niveau hydro-aérique)",
+  "rx-occlusion-r": "Radiographie réelle : occlusion intestinale (niveaux hydro-aériques)",
+  "rx-pneumoperitoine-r": "Radiographie et scanner réels : pneumopéritoine (air sous la coupole)",
+  "rx-emphyseme-r": "Radiographie réelle : emphysème bulleux (distension, bulles)",
+  "rx-fracture-r": "Radiographie réelle : fracture de jambe (tibia et fibula)",
+  "rx-osteomyelite-r": "Radiographie réelle : abcès de Brodie (ostéomyélite subaiguë)",
+  "rx-pr-r": "Radiographie réelle : polyarthrite rhumatoïde évoluée (ankylose du carpe, érosions)",
+  "rx-pr-r2": "Radiographie réelle : polyarthrite rhumatoïde (érosions, pincements)",
+  "rx-myelome-r": "Radiographie réelle : lacunes osseuses du crâne (myélome)",
+  "ct-hemorragie-r": "Scanner réel : hémorragie cérébrale (hyperdensité) avec inondation ventriculaire",
+  "ct-extradural-r": "Scanner réel : hématome extradural (lentille biconvexe, flèche)",
+  "ct-sousdural-r": "Scanner réel : hématome sous-dural (croissant, flèches)",
+  "irm-toxo-r": "IRM réelle : lésion de toxoplasmose cérébrale",
+  "ct-cysticercose-r": "Scanner réel : neurocysticercose (kystes et calcifications)",
+  "echo-abces-foie-r": "Échographie réelle : abcès du foie (segment VI)",
+  "echo-ascite-r": "Échographie réelle : ascite (liquide anéchogène autour des organes)",
+  "echo-cirrhose-r": "Échographie réelle : foie cirrhotique (contours irréguliers, échostructure hétérogène)",
+  "echo-geu-r": "Échographie réelle : grossesse extra-utérine (masse latéro-utérine)",
+  "echo-grossesse-r": "Échographie réelle : sac gestationnel intra-utérin du 1er trimestre",
+  "echo-hydronephrose-r": "Échographie réelle : hydronéphrose modérée (calices dilatés)",
+  "echo-lithiase-r": "Échographie réelle : calcul vésiculaire (flèche) avec cône d'ombre",
+  "piece-wilms-r": "Pièce opératoire : néphroblastome (tumeur de Wilms) — aspect macroscopique",
+  "echo-appendicite-r": "Échographie réelle : appendicite (appendice épaissi, non compressible)",
+  "echo-invagination-r": "Échographie réelle : invagination intestinale (image en cocarde)",
+  "echo-mole-r": "Échographie réelle : môle hydatiforme (aspect « en tempête de neige »)",
+  "echo-tvp-r": "Échographie-doppler réelle : thrombose de la veine fémorale",
+  "echo-vegetation-r": "Échographie cardiaque réelle : végétation valvulaire (flèche) dans l'endocardite",
+  "echo-pericarde-r": "Échographie cardiaque réelle : épanchement péricardique",
+  "hsg-normal-r": "Hystérosalpingographie normale (passage du produit dans les deux trompes)",
+  "hsg-r": "Hystérosalpingographie : adhérences et obstruction tubaire (légendes en français)",
+  "mi-palu-ge": "Goutte épaisse réelle : trophozoïtes de P. falciparum (flèches)",
+  "mi-palu-frottis": "Frottis sanguin réel : anneaux de P. falciparum dans les globules rouges",
+  "mi-vivax": "Frottis réel : schizonte de P. vivax",
+  "mi-trypano": "Frottis sanguin réel : trypanosomes",
+  "mi-gono": "Gram réel : diplocoques Gram négatif dans les polynucléaires (gonocoque)",
+  "mi-clue": "État frais réel : clue cells (vaginose bactérienne)",
+  "mi-candida": "État frais réel : levures et pseudo-filaments de Candida",
+  "mi-trichomonas": "État frais réel : Trichomonas vaginalis",
+  "mi-schisto-h": "Œuf de Schistosoma haematobium (éperon terminal) dans les urines",
+  "mi-schisto-m": "Œuf de Schistosoma mansoni (éperon latéral) dans les selles",
+  "mi-ascaris": "Œuf d'Ascaris lumbricoides dans les selles",
+  "mi-ankylo": "Œuf d'ankylostome dans les selles",
+  "mi-amibe": "Trophozoïte d'Entamoeba histolytica avec globules rouges ingérés (forme invasive)",
+  "mi-giardia": "Trophozoïte de Giardia intestinalis",
+  "mi-crypto": "Encre de Chine réelle : Cryptococcus (levures encapsulées)",
+  "mi-baar": "Ziehl-Neelsen réel : bacilles acido-alcoolo-résistants (rouges) dans un crachat",
+  "mi-loa": "Frottis sanguin réel : microfilaire de Loa loa",
+  "mi-leish": "Frottis de moelle réel : corps de Leishman (amastigotes)",
+  "mi-drepano": "Frottis sanguin réel : drépanocytes (globules rouges en faucille)",
+  "mi-ferriprive": "Frottis sanguin réel : anémie ferriprive (globules rouges petits et pâles)",
+  "mi-lal": "Frottis sanguin réel : blastes de leucémie aiguë lymphoblastique",
+  "mi-lmc": "Frottis sanguin réel : leucémie myéloïde chronique (myélémie)",
+  "mi-burkitt": "Cytologie réelle : lymphome de Burkitt (cellules à cytoplasme bleu vacuolé)",
+  "photo-burkitt": "Photo clinique : lymphome de Burkitt de la mâchoire chez l'enfant",
+  "mi-reed": "Histologie : cellule de Reed-Sternberg (lymphome de Hodgkin)",
+  "mi-lcr": "Gram du LCR réel : méningocoques (diplocoques Gram négatif)",
+  "mi-pneumocoque": "Gram réel : pneumocoques (diplocoques Gram positif lancéolés)",
+  "fo-retino": "Fond d'œil réel : rétinopathie diabétique",
+  "fo-papille": "Fond d'œil réel : œdème papillaire",
+  "fo-cmv": "Fond d'œil réel : rétinite à CMV (« pizza »)",
+  "fo-hta": "Fond d'œil réel : rétinopathie hypertensive",
+  "photo-retinoblastome": "Photo clinique : leucocorie (reflet blanc de la pupille) du rétinoblastome"
+ },
  "dateIsoCas": "2026-10-28",
  "casCliniques": [
   {
@@ -47185,7 +47729,11 @@
    "paraclinique": [
     {
      "examen": "TDR du paludisme (HRP2) ou goutte épaisse + frottis",
-     "resultat": "TDR positif, ou trophozoïtes de Plasmodium à la goutte épaisse (densité parasitaire en parasites/µl)"
+     "resultat": "TDR positif, ou trophozoïtes de Plasmodium à la goutte épaisse (densité parasitaire en parasites/µl)",
+     "images": [
+      "mi-palu-ge",
+      "mi-palu-frottis"
+     ]
     },
     {
      "examen": "NFS (si disponible)",
@@ -47274,7 +47822,11 @@
    "paraclinique": [
     {
      "examen": "TDR ou goutte épaisse avec densité parasitaire",
-     "resultat": "Positif ; parasitémie souvent > 4 % (> 10 % = critère de gravité)"
+     "resultat": "Positif ; parasitémie souvent > 4 % (> 10 % = critère de gravité)",
+     "images": [
+      "mi-palu-frottis",
+      "mi-palu-ge"
+     ]
     },
     {
      "examen": "Glycémie capillaire",
@@ -47372,7 +47924,11 @@
     {
      "examen": "Échographie ou ASP si douleur brutale",
      "resultat": "Pneumopéritoine (croissant gazeux sous les coupoles) en cas de perforation intestinale",
-     "image": "rx-pneumoperitoine"
+     "image": "rx-pneumoperitoine",
+     "images": [
+      "rx-pneumoperitoine-r",
+      "rx-pneumoperitoine"
+     ]
     },
     {
      "examen": "Sérodiagnostic de Widal",
@@ -47448,11 +48004,17 @@
    "paraclinique": [
     {
      "examen": "Ponction lombaire (cytologie, protéines, glucose, Gram, culture)",
-     "resultat": "LCR trouble, > 1 000 éléments/mm³ à polynucléaires, protéines > 1 g/l, glucose < 0,4 fois la glycémie ; Gram : diplocoques (méningocoque, pneumocoque)"
+     "resultat": "LCR trouble, > 1 000 éléments/mm³ à polynucléaires, protéines > 1 g/l, glucose < 0,4 fois la glycémie ; Gram : diplocoques (méningocoque, pneumocoque)",
+     "images": [
+      "mi-lcr"
+     ]
     },
     {
      "examen": "Antigènes solubles ou test rapide sur LCR",
-     "resultat": "Positif pour méningocoque, pneumocoque ou Haemophilus"
+     "resultat": "Positif pour méningocoque, pneumocoque ou Haemophilus",
+     "images": [
+      "mi-pneumocoque"
+     ]
     },
     {
      "examen": "Hémoculture, NFS, CRP, glycémie",
@@ -47539,12 +48101,20 @@
     },
     {
      "examen": "Microscopie des crachats (Ziehl-Neelsen)",
-     "resultat": "Bacilles acido-alcoolo-résistants (BAAR)"
+     "resultat": "Bacilles acido-alcoolo-résistants (BAAR)",
+     "images": [
+      "mi-baar"
+     ]
     },
     {
      "examen": "Radiographie du thorax",
      "resultat": "Infiltrats et nodules des sommets, cavernes (images arrondies claires à paroi épaisse), adénopathies ; miliaire : micronodules diffus",
-     "image": "rx-tb-caverne"
+     "image": "rx-tb-caverne",
+     "images": [
+      "rx-tb-r",
+      "rx-tb-r2",
+      "rx-tb-caverne"
+     ]
     },
     {
      "examen": "LF-LAM urinaire (patient VIH)",
@@ -47852,7 +48422,10 @@
     },
     {
      "examen": "Ponction ganglionnaire, goutte épaisse, techniques de concentration (mAECT)",
-     "resultat": "Trypanosomes visibles = diagnostic confirmé"
+     "resultat": "Trypanosomes visibles = diagnostic confirmé",
+     "images": [
+      "mi-trypano"
+     ]
     },
     {
      "examen": "Ponction lombaire (stadification)",
@@ -47920,11 +48493,17 @@
    "paraclinique": [
     {
      "examen": "Urines de midi (filtration ou centrifugation)",
-     "resultat": "Œufs de S. haematobium à éperon terminal"
+     "resultat": "Œufs de S. haematobium à éperon terminal",
+     "images": [
+      "mi-schisto-h"
+     ]
     },
     {
      "examen": "Selles (Kato-Katz)",
-     "resultat": "Œufs de S. mansoni à éperon latéral"
+     "resultat": "Œufs de S. mansoni à éperon latéral",
+     "images": [
+      "mi-schisto-m"
+     ]
     },
     {
      "examen": "Bandelette urinaire",
@@ -47995,7 +48574,11 @@
    "paraclinique": [
     {
      "examen": "Examen parasitologique des selles (direct, Kato-Katz)",
-     "resultat": "Œufs d'ascaris, d'ankylostomes, de trichocéphales ; scotch-test anal pour l'oxyure"
+     "resultat": "Œufs d'ascaris, d'ankylostomes, de trichocéphales ; scotch-test anal pour l'oxyure",
+     "images": [
+      "mi-ascaris",
+      "mi-ankylo"
+     ]
     },
     {
      "examen": "NFS",
@@ -48004,7 +48587,11 @@
     {
      "examen": "ASP ou échographie si occlusion",
      "resultat": "Paquet d'ascaris : images tubulées dans l'intestin, niveaux hydro-aériques",
-     "image": "rx-occlusion"
+     "image": "rx-occlusion",
+     "images": [
+      "rx-occlusion-r",
+      "rx-occlusion"
+     ]
     }
    ]
   },
@@ -48081,7 +48668,11 @@
     {
      "examen": "Radiographie du thorax si détresse",
      "resultat": "Pneumonie (opacités alvéolaires ou interstitielles)",
-     "image": "rx-pneumonie"
+     "image": "rx-pneumonie",
+     "images": [
+      "rx-pneumonie-r",
+      "rx-pneumonie"
+     ]
     }
    ]
   },
@@ -48162,7 +48753,11 @@
     {
      "examen": "Radiographie du thorax (si disponible, forme grave ou traînante)",
      "resultat": "Opacité alvéolaire systématisée avec bronchogramme aérien ; épanchement pleural ; pneumatocèles (staphylocoque)",
-     "image": "rx-pneumonie"
+     "image": "rx-pneumonie",
+     "images": [
+      "rx-pneumonie-r",
+      "rx-pneumonie"
+     ]
     }
    ]
   },
@@ -48231,7 +48826,11 @@
     {
      "examen": "Radiographie du thorax",
      "resultat": "Opacité alvéolaire systématisée (lobaire) homogène avec bronchogramme aérien",
-     "image": "rx-pneumonie"
+     "image": "rx-pneumonie",
+     "images": [
+      "rx-pneumonie-r",
+      "rx-pneumonie"
+     ]
     },
     {
      "examen": "NFS, CRP",
@@ -48316,7 +48915,11 @@
     {
      "examen": "Radiographie du thorax (seulement si doute)",
      "resultat": "Distension (hyperclarté, coupoles aplaties) ; recherche de pneumothorax ou de pneumonie",
-     "image": "rx-distension"
+     "image": "rx-distension",
+     "images": [
+      "rx-emphyseme-r",
+      "rx-distension"
+     ]
     },
     {
      "examen": "Gaz du sang (crise grave)",
@@ -48729,12 +49332,19 @@
    "paraclinique": [
     {
      "examen": "Examen parasitologique des selles frais (< 30 min)",
-     "resultat": "Trophozoïtes hématophages d'Entamoeba histolytica (dysenterie amibienne)"
+     "resultat": "Trophozoïtes hématophages d'Entamoeba histolytica (dysenterie amibienne)",
+     "images": [
+      "mi-amibe"
+     ]
     },
     {
      "examen": "Échographie abdominale (abcès du foie)",
      "resultat": "Image arrondie hypoéchogène, souvent unique, du lobe droit",
-     "image": "echo-abces-foie"
+     "image": "echo-abces-foie",
+     "images": [
+      "echo-abces-foie-r",
+      "echo-abces-foie"
+     ]
     },
     {
      "examen": "Sérologie amibienne",
@@ -48800,7 +49410,10 @@
    "paraclinique": [
     {
      "examen": "Coloration de Gram de l'écoulement",
-     "resultat": "Diplocoques Gram négatif intracellulaires = gonocoque"
+     "resultat": "Diplocoques Gram négatif intracellulaires = gonocoque",
+     "images": [
+      "mi-gono"
+     ]
     },
     {
      "examen": "PCR gonocoque et chlamydia (si disponible)",
@@ -48871,7 +49484,12 @@
    "paraclinique": [
     {
      "examen": "pH vaginal, test à la potasse, état frais, Gram",
-     "resultat": "Vaginose : pH > 4,5, odeur de poisson, clue cells ; trichomonase : parasites mobiles ; candidose : levures et filaments"
+     "resultat": "Vaginose : pH > 4,5, odeur de poisson, clue cells ; trichomonase : parasites mobiles ; candidose : levures et filaments",
+     "images": [
+      "mi-clue",
+      "mi-candida",
+      "mi-trichomonas"
+     ]
     },
     {
      "examen": "Examen au spéculum, PCR gonocoque/chlamydia",
@@ -49030,7 +49648,11 @@
     {
      "examen": "Échographie rénale (pyélonéphrite grave ou obstructive)",
      "resultat": "Dilatation des cavités pyélocalicielles (obstacle), abcès",
-     "image": "echo-hydronephrose"
+     "image": "echo-hydronephrose",
+     "images": [
+      "echo-hydronephrose-r",
+      "echo-hydronephrose"
+     ]
     },
     {
      "examen": "Créatinine, NFS, CRP (pyélonéphrite)",
@@ -49417,7 +50039,11 @@
     {
      "examen": "Radiographie du thorax (toux, fièvre)",
      "resultat": "Pneumonie, tuberculose",
-     "image": "rx-pneumonie"
+     "image": "rx-pneumonie",
+     "images": [
+      "rx-pneumonie-r",
+      "rx-pneumonie"
+     ]
     },
     {
      "examen": "Ionogramme (si disponible)",
@@ -49616,12 +50242,19 @@
     },
     {
      "examen": "NFS, réticulocytes",
-     "resultat": "Hb habituelle 6–9 g/dl ; chute > 2 g/dl : séquestration splénique ou érythroblastopénie (réticulocytes effondrés)"
+     "resultat": "Hb habituelle 6–9 g/dl ; chute > 2 g/dl : séquestration splénique ou érythroblastopénie (réticulocytes effondrés)",
+     "images": [
+      "mi-drepano"
+     ]
     },
     {
      "examen": "Radiographie du thorax (douleur thoracique, fièvre, dyspnée)",
      "resultat": "Syndrome thoracique aigu : nouvel infiltrat alvéolaire",
-     "image": "rx-pneumonie"
+     "image": "rx-pneumonie",
+     "images": [
+      "rx-pneumonie-r",
+      "rx-pneumonie"
+     ]
     },
     {
      "examen": "Radiographie osseuse",
@@ -49704,7 +50337,11 @@
     },
     {
      "examen": "NFS (VGM), réticulocytes, frottis",
-     "resultat": "Microcytaire (fer), macrocytaire (B12/folates), réticulocytes élevés (hémolyse, saignement)"
+     "resultat": "Microcytaire (fer), macrocytaire (B12/folates), réticulocytes élevés (hémolyse, saignement)",
+     "images": [
+      "mi-ferriprive",
+      "mi-drepano"
+     ]
     },
     {
      "examen": "TDR du paludisme, selles (ankylostomes), ferritine",
@@ -49958,7 +50595,10 @@
     },
     {
      "examen": "Échographie au lit (si disponible)",
-     "resultat": "Veine cave plate (hypovolémie), épanchement péricardique (tamponnade), cœur dilaté hypokinétique (choc cardiogénique), épanchement abdominal"
+     "resultat": "Veine cave plate (hypovolémie), épanchement péricardique (tamponnade), cœur dilaté hypokinétique (choc cardiogénique), épanchement abdominal",
+     "images": [
+      "echo-pericarde-r"
+     ]
     }
    ]
   },
@@ -50118,7 +50758,11 @@
     {
      "examen": "Scanner cérébral (adulte, premier état de mal, signes focaux)",
      "resultat": "Lésion : tumeur, abcès, AVC, toxoplasmose, neurocysticercose",
-     "image": "ct-toxoplasmose"
+     "image": "ct-toxoplasmose",
+     "images": [
+      "irm-toxo-r",
+      "ct-toxoplasmose"
+     ]
     }
    ]
   },
@@ -50324,7 +50968,12 @@
     {
      "examen": "Glycémie, ECG, ionogramme, créatinine, gaz du sang",
      "resultat": "Hypoglycémie, troubles du rythme ou de conduction (QRS larges, QT long), acidose",
-     "image": "ecg-qt-long"
+     "image": "ecg-qt-long",
+     "images": [
+      "ecg-qt-r",
+      "ecg-tdp-r",
+      "ecg-qt-long"
+     ]
     },
     {
      "examen": "Trou anionique et trou osmolaire",
@@ -50411,11 +51060,18 @@
     {
      "examen": "ECG",
      "resultat": "Hypertrophie ventriculaire gauche : indice de Sokolow (S V1 + R V5) > 35 mm, troubles de repolarisation",
-     "image": "ecg-hvg"
+     "image": "ecg-hvg",
+     "images": [
+      "ecg-hvg-r",
+      "ecg-hvg"
+     ]
     },
     {
      "examen": "Fond d'œil (si disponible)",
-     "resultat": "Rétinopathie hypertensive"
+     "resultat": "Rétinopathie hypertensive",
+     "images": [
+      "fo-hta"
+     ]
     }
    ]
   },
@@ -50491,7 +51147,12 @@
     {
      "examen": "Radiographie du thorax",
      "resultat": "Cardiomégalie (rapport cardio-thoracique > 0,5), redistribution vasculaire vers les sommets, lignes de Kerley, opacités alvéolaires péri-hilaires « en ailes de papillon », épanchements pleuraux",
-     "image": "rx-oap"
+     "image": "rx-oap",
+     "images": [
+      "rx-oap-r",
+      "rx-oap-r2",
+      "rx-oap"
+     ]
     },
     {
      "examen": "Échographie cardiaque",
@@ -50504,7 +51165,12 @@
     {
      "examen": "ECG",
      "resultat": "Tachycardie, fibrillation auriculaire, hypertrophie ventriculaire, séquelles d'infarctus",
-     "image": "ecg-fa"
+     "image": "ecg-fa",
+     "images": [
+      "ecg-fa-r",
+      "ecg-fa-r2",
+      "ecg-fa"
+     ]
     },
     {
      "examen": "Créatinine, ionogramme, NFS, TSH",
@@ -50678,7 +51344,11 @@
     {
      "examen": "ECG",
      "resultat": "Signes d'hyper- ou d'hypokaliémie",
-     "image": "ecg-hyperk"
+     "image": "ecg-hyperk",
+     "images": [
+      "ecg-hyperk-r",
+      "ecg-hyperk"
+     ]
     }
    ]
   },
@@ -50758,12 +51428,21 @@
     {
      "examen": "Scanner cérébral sans injection",
      "resultat": "AVC hémorragique : hyperdensité spontanée (blanche) ; AVC ischémique : normal les premières heures puis hypodensité (sombre) dans un territoire artériel",
-     "image": "ct-avc"
+     "image": "ct-avc",
+     "images": [
+      "ct-hemorragie-r",
+      "ct-avc"
+     ]
     },
     {
      "examen": "ECG",
      "resultat": "Fibrillation auriculaire (cause embolique)",
-     "image": "ecg-fa"
+     "image": "ecg-fa",
+     "images": [
+      "ecg-fa-r",
+      "ecg-fa-r2",
+      "ecg-fa"
+     ]
     },
     {
      "examen": "NFS, TP, glycémie, lipides, créatinine",
@@ -50841,7 +51520,13 @@
     {
      "examen": "ECG 12 dérivations dans les 10 minutes, répété",
      "resultat": "Sus-décalage du segment ST ≥ 1 mm dans 2 dérivations contiguës (≥ 2 mm en V2–V3) en territoire coronaire avec miroir = infarctus ST+ ; sous-décalage ou ondes T négatives = SCA sans sus-décalage",
-     "image": "ecg-stemi"
+     "image": "ecg-stemi",
+     "images": [
+      "ecg-pericardite-r",
+      "ecg-stemi-r",
+      "ecg-stemi-r2",
+      "ecg-stemi"
+     ]
     },
     {
      "examen": "Troponine à l'arrivée et 1 à 3 h après",
@@ -50911,7 +51596,10 @@
    "paraclinique": [
     {
      "examen": "Échographie-doppler veineux des membres inférieurs",
-     "resultat": "Veine non compressible, thrombus visible = TVP"
+     "resultat": "Veine non compressible, thrombus visible = TVP",
+     "images": [
+      "echo-tvp-r"
+     ]
     },
     {
      "examen": "D-dimères (probabilité clinique faible ou intermédiaire)",
@@ -50924,7 +51612,12 @@
     {
      "examen": "ECG",
      "resultat": "Tachycardie sinusale ; aspect S1Q3T3, bloc de branche droit, ondes T négatives de V1 à V4",
-     "image": "ecg-ep"
+     "image": "ecg-ep",
+     "images": [
+      "ecg-ep-r",
+      "ct-ep-r",
+      "ecg-ep"
+     ]
     },
     {
      "examen": "Échographie cardiaque (embolie grave)",
@@ -51001,7 +51694,11 @@
     {
      "examen": "ASP ou radiographie du thorax debout (douleur brutale)",
      "resultat": "Pneumopéritoine = perforation",
-     "image": "rx-pneumoperitoine"
+     "image": "rx-pneumoperitoine",
+     "images": [
+      "rx-pneumoperitoine-r",
+      "rx-pneumoperitoine"
+     ]
     }
    ]
   },
@@ -51216,7 +51913,11 @@
     {
      "examen": "Scanner ou IRM cérébrale (crise focale, début chez l'adulte)",
      "resultat": "Lésion : cicatrice, tumeur, neurocysticercose (kystes avec scolex, calcifications)",
-     "image": "ct-cysticercose"
+     "image": "ct-cysticercose",
+     "images": [
+      "ct-cysticercose-r",
+      "ct-cysticercose"
+     ]
     },
     {
      "examen": "Glycémie, calcium, sodium",
@@ -51747,12 +52448,22 @@
     {
      "examen": "ASP debout ou radiographie du thorax debout",
      "resultat": "Pneumopéritoine : croissant gazeux sous les coupoles (perforation) ; niveaux hydro-aériques (occlusion : plus hauts que larges dans le grêle, plus larges que hauts dans le côlon)",
-     "image": "rx-occlusion"
+     "image": "rx-occlusion",
+     "images": [
+      "rx-occlusion-r",
+      "rx-occlusion"
+     ]
     },
     {
      "examen": "Échographie abdominale",
      "resultat": "Appendice > 6 mm non compressible, épanchement, lithiase biliaire, invagination (image en cocarde)",
-     "image": "echo-vesicule"
+     "image": "echo-vesicule",
+     "images": [
+      "echo-appendicite-r",
+      "echo-invagination-r",
+      "echo-lithiase-r",
+      "echo-vesicule"
+     ]
     },
     {
      "examen": "Lipase, bandelette urinaire",
@@ -51821,7 +52532,11 @@
     {
      "examen": "Radiographie osseuse",
      "resultat": "Ostéomyélite : normale les 10–14 premiers jours, puis appositions périostées, lacunes, séquestre ; arthrite : épaississement des parties molles puis pincement articulaire",
-     "image": "rx-osteomyelite"
+     "image": "rx-osteomyelite",
+     "images": [
+      "rx-osteomyelite-r",
+      "rx-osteomyelite"
+     ]
     },
     {
      "examen": "Ponction articulaire (arthrite) avant antibiotique",
@@ -51899,7 +52614,11 @@
     {
      "examen": "Échographie rénale",
      "resultat": "Dilatation des cavités pyélocalicielles, calcul (image hyperéchogène avec cône d'ombre)",
-     "image": "echo-hydronephrose"
+     "image": "echo-hydronephrose",
+     "images": [
+      "echo-hydronephrose-r",
+      "echo-hydronephrose"
+     ]
     },
     {
      "examen": "ASP / scanner sans injection",
@@ -52132,7 +52851,11 @@
     {
      "examen": "Radiographie du thorax (peste pulmonaire)",
      "resultat": "Pneumonie bilatérale, souvent extensive",
-     "image": "rx-pneumonie"
+     "image": "rx-pneumonie",
+     "images": [
+      "rx-pneumonie-r",
+      "rx-pneumonie"
+     ]
     }
    ]
   },
@@ -52198,7 +52921,10 @@
     },
     {
      "examen": "Ponction de rate, de moelle ou de ganglion",
-     "resultat": "Corps de Leishman-Donovan (amastigotes)"
+     "resultat": "Corps de Leishman-Donovan (amastigotes)",
+     "images": [
+      "mi-leish"
+     ]
     },
     {
      "examen": "NFS",
@@ -52267,7 +52993,10 @@
    "paraclinique": [
     {
      "examen": "Goutte épaisse ou frottis de sang (10 h–15 h pour Loa loa ; 22 h–2 h pour Wuchereria)",
-     "resultat": "Microfilaires ; charge de Loa loa > 8 000/ml = risque grave avec l'ivermectine"
+     "resultat": "Microfilaires ; charge de Loa loa > 8 000/ml = risque grave avec l'ivermectine",
+     "images": [
+      "mi-loa"
+     ]
     },
     {
      "examen": "Test rapide antigénique (FTS) pour la filariose lymphatique",
@@ -52547,7 +53276,10 @@
     },
     {
      "examen": "Ponction lombaire avec pression d'ouverture",
-     "resultat": "Pression > 25 cm d'eau ; encre de Chine : levures encapsulées ; peu de cellules"
+     "resultat": "Pression > 25 cm d'eau ; encre de Chine : levures encapsulées ; peu de cellules",
+     "images": [
+      "mi-crypto"
+     ]
     },
     {
      "examen": "CD4",
@@ -52610,7 +53342,12 @@
     {
      "examen": "Radiographie du thorax",
      "resultat": "Opacités interstitielles bilatérales, symétriques, péri-hilaires (« verre dépoli ») ; peut être normale au début",
-     "image": "rx-pneumocystose"
+     "image": "rx-pneumocystose",
+     "images": [
+      "rx-pneumocystose-r",
+      "ct-covid-r",
+      "rx-pneumocystose"
+     ]
     },
     {
      "examen": "SpO₂ (à l'effort)",
@@ -52684,7 +53421,11 @@
     {
      "examen": "Scanner cérébral avec injection",
      "resultat": "Abcès multiples avec prise de contraste « en cocarde » (en anneau) et œdème, aux noyaux gris centraux et à la jonction cortico-sous-corticale",
-     "image": "ct-toxoplasmose"
+     "image": "ct-toxoplasmose",
+     "images": [
+      "irm-toxo-r",
+      "ct-toxoplasmose"
+     ]
     },
     {
      "examen": "Sérologie toxoplasmique IgG",
@@ -52761,7 +53502,10 @@
     },
     {
      "examen": "Examen direct (KOH)",
-     "resultat": "Levures et pseudo-filaments"
+     "resultat": "Levures et pseudo-filaments",
+     "images": [
+      "mi-candida"
+     ]
     },
     {
      "examen": "Test VIH",
@@ -53274,7 +54018,11 @@
     {
      "examen": "Radiographie du thorax (seulement si forme grave ou atypique)",
      "resultat": "Distension thoracique (hyperclarté, coupoles aplaties), atélectasies",
-     "image": "rx-distension"
+     "image": "rx-distension",
+     "images": [
+      "rx-emphyseme-r",
+      "rx-distension"
+     ]
     }
    ]
   },
@@ -53424,7 +54172,11 @@
     {
      "examen": "Échographie obstétricale",
      "resultat": "Âge gestationnel, grossesse multiple, placenta, présentation, liquide amniotique",
-     "image": "echo-grossesse"
+     "image": "echo-grossesse",
+     "images": [
+      "echo-grossesse-r",
+      "echo-grossesse"
+     ]
     }
    ]
   },
@@ -53503,7 +54255,10 @@
     },
     {
      "examen": "Échographie pelvienne",
-     "resultat": "Avortement incomplet : débris dans l'utérus (épaisseur > 15 mm) ; complet : utérus vide ; grossesse arrêtée : embryon sans activité cardiaque"
+     "resultat": "Avortement incomplet : débris dans l'utérus (épaisseur > 15 mm) ; complet : utérus vide ; grossesse arrêtée : embryon sans activité cardiaque",
+     "images": [
+      "echo-grossesse-r"
+     ]
     },
     {
      "examen": "Hb, groupe sanguin et Rhésus",
@@ -53573,7 +54328,11 @@
     {
      "examen": "Échographie endovaginale",
      "resultat": "Utérus vide, masse latéro-utérine (anneau tubaire), épanchement dans le cul-de-sac de Douglas (hémopéritoine si rupture)",
-     "image": "echo-geu"
+     "image": "echo-geu",
+     "images": [
+      "echo-geu-r",
+      "echo-geu"
+     ]
     },
     {
      "examen": "Hb, groupe sanguin",
@@ -54013,7 +54772,12 @@
     {
      "examen": "Radiographie du thorax ou scanner",
      "resultat": "Opacités en verre dépoli bilatérales, périphériques et basales (COVID-19)",
-     "image": "rx-pneumocystose"
+     "image": "rx-pneumocystose",
+     "images": [
+      "rx-pneumocystose-r",
+      "ct-covid-r",
+      "rx-pneumocystose"
+     ]
     }
    ]
   },
@@ -54361,7 +55125,11 @@
     {
      "examen": "Radiographie du thorax et du bassin",
      "resultat": "Pneumothorax, hémothorax, fractures de côtes, fracture du bassin",
-     "image": "rx-pneumothorax"
+     "image": "rx-pneumothorax",
+     "images": [
+      "rx-pneumothorax-r",
+      "rx-pneumothorax"
+     ]
     },
     {
      "examen": "Hb, groupe sanguin, compatibilité, lactates",
@@ -54442,7 +55210,12 @@
     {
      "examen": "Scanner cérébral sans injection (Glasgow < 15, signes de gravité)",
      "resultat": "Hématome extradural : lentille biconvexe hyperdense ; hématome sous-dural : croissant hyperdense ; contusions ; fracture",
-     "image": "ct-hematome"
+     "image": "ct-hematome",
+     "images": [
+      "ct-extradural-r",
+      "ct-sousdural-r",
+      "ct-hematome"
+     ]
     },
     {
      "examen": "Radiographie du rachis cervical (si scanner indisponible)",
@@ -54523,7 +55296,11 @@
     {
      "examen": "Radiographie de face et de profil, articulations au-dessus et au-dessous",
      "resultat": "Trait de fracture, déplacement, luxation",
-     "image": "rx-fracture"
+     "image": "rx-fracture",
+     "images": [
+      "rx-fracture-r",
+      "rx-fracture"
+     ]
     },
     {
      "examen": "Hb (fractures du fémur, du bassin)",
@@ -55094,7 +55871,11 @@
     {
      "examen": "ECG",
      "resultat": "Hyperkaliémie : ondes T pointues, QRS larges",
-     "image": "ecg-hyperk"
+     "image": "ecg-hyperk",
+     "images": [
+      "ecg-hyperk-r",
+      "ecg-hyperk"
+     ]
     },
     {
      "examen": "Bandelette urinaire, natriurèse",
@@ -55103,7 +55884,11 @@
     {
      "examen": "Échographie rénale",
      "resultat": "Dilatation des cavités = obstacle",
-     "image": "echo-hydronephrose"
+     "image": "echo-hydronephrose",
+     "images": [
+      "echo-hydronephrose-r",
+      "echo-hydronephrose"
+     ]
     }
    ]
   },
@@ -55470,7 +56255,12 @@
     {
      "examen": "Échographie abdominale",
      "resultat": "Foie dysmorphique à contours irréguliers (bosselés), splénomégalie, ascite, veine porte dilatée ; nodule suspect",
-     "image": "echo-ascite"
+     "image": "echo-ascite",
+     "images": [
+      "echo-cirrhose-r",
+      "echo-ascite-r",
+      "echo-ascite"
+     ]
     },
     {
      "examen": "TP, albumine, bilirubine, plaquettes, créatinine, sodium",
@@ -55755,7 +56545,10 @@
     {
      "examen": "Radiographie du rachis (drapeaux rouges)",
      "resultat": "Mal de Pott : pincement discal et destruction des vertèbres adjacentes ; métastases ; arthrose : ostéophytes, pincement",
-     "image": "rx-pott"
+     "image": "rx-pott",
+     "images": [
+      "rx-pott"
+     ]
     },
     {
      "examen": "VS, CRP, NFS",
@@ -55964,7 +56757,11 @@
     {
      "examen": "Scanner cérébral (ou IRM)",
      "resultat": "Kystes avec scolex (point blanc central) au stade vésiculaire, kystes avec prise de contraste annulaire, calcifications au stade séquellaire",
-     "image": "ct-cysticercose"
+     "image": "ct-cysticercose",
+     "images": [
+      "ct-cysticercose-r",
+      "ct-cysticercose"
+     ]
     },
     {
      "examen": "Sérologie (Western blot)",
@@ -55972,7 +56769,10 @@
     },
     {
      "examen": "Fond d'œil",
-     "resultat": "Œdème papillaire (hypertension intracrânienne) ; kyste intraoculaire"
+     "resultat": "Œdème papillaire (hypertension intracrânienne) ; kyste intraoculaire",
+     "images": [
+      "fo-papille"
+     ]
     }
    ]
   },
@@ -56188,7 +56988,11 @@
     {
      "examen": "Échographie hépatobiliaire",
      "resultat": "Dilatation des voies biliaires = obstacle (calcul, tumeur du pancréas)",
-     "image": "echo-vesicule"
+     "image": "echo-vesicule",
+     "images": [
+      "echo-lithiase-r",
+      "echo-vesicule"
+     ]
     },
     {
      "examen": "TDR du paludisme, AgHBs, anti-VHC, NFS",
@@ -56380,7 +57184,12 @@
     {
      "examen": "ECG (surveillance)",
      "resultat": "Myocardite : troubles de conduction (blocs), troubles de repolarisation",
-     "image": "ecg-bav"
+     "image": "ecg-bav",
+     "images": [
+      "ecg-bav1-r",
+      "ecg-bav3-r",
+      "ecg-bav"
+     ]
     }
    ]
   },
@@ -56687,7 +57496,11 @@
     {
      "examen": "Radiographie du thorax",
      "resultat": "Distension (hyperclarté, coupoles aplaties, cœur vertical), bulles d'emphysème",
-     "image": "rx-distension"
+     "image": "rx-distension",
+     "images": [
+      "rx-emphyseme-r",
+      "rx-distension"
+     ]
     },
     {
      "examen": "SpO₂, gaz du sang (forme évoluée)",
@@ -56768,7 +57581,13 @@
     {
      "examen": "Radiographie du thorax",
      "resultat": "Opacité persistante, abcès (cavité avec niveau liquide), épanchement, image de tuberculose",
-     "image": "rx-tb-caverne"
+     "image": "rx-tb-caverne",
+     "images": [
+      "rx-abces-r",
+      "rx-tb-r",
+      "rx-tb-r2",
+      "rx-tb-caverne"
+     ]
     },
     {
      "examen": "GeneXpert sur crachats, test VIH",
@@ -56834,7 +57653,12 @@
     {
      "examen": "Radiographie du thorax",
      "resultat": "Bulles (pneumatocèles) à paroi fine, pyopneumothorax (niveau hydro-aérique pleural), épanchement",
-     "image": "rx-staph"
+     "image": "rx-staph",
+     "images": [
+      "rx-pneumatocele-r",
+      "rx-abces-r",
+      "rx-staph"
+     ]
     },
     {
      "examen": "Ponction pleurale",
@@ -57645,7 +58469,12 @@
     {
      "examen": "ECG, échographie cardiaque",
      "resultat": "Bloc de branche droit, bloc auriculo-ventriculaire ; cardiomyopathie dilatée, anévrisme de la pointe",
-     "image": "ecg-bav"
+     "image": "ecg-bav",
+     "images": [
+      "ecg-bav1-r",
+      "ecg-bav3-r",
+      "ecg-bav"
+     ]
     }
    ]
   },
@@ -57759,7 +58588,10 @@
    "paraclinique": [
     {
      "examen": "Examen parasitologique des selles (3 échantillons)",
-     "resultat": "Kystes ou trophozoïtes de Giardia ; Cryptosporidium (Ziehl modifié)"
+     "resultat": "Kystes ou trophozoïtes de Giardia ; Cryptosporidium (Ziehl modifié)",
+     "images": [
+      "mi-giardia"
+     ]
     },
     {
      "examen": "Antigène dans les selles (si disponible)",
@@ -58312,7 +59144,11 @@
     {
      "examen": "Échographie pelvienne",
      "resultat": "GEU, kyste ou torsion d'ovaire, abcès, fibrome",
-     "image": "echo-geu"
+     "image": "echo-geu",
+     "images": [
+      "echo-geu-r",
+      "echo-geu"
+     ]
     },
     {
      "examen": "NFS, CRP",
@@ -58736,7 +59572,12 @@
     {
      "examen": "Radiographie du thorax",
      "resultat": "Œdème pulmonaire (piqûre de scorpion grave)",
-     "image": "rx-oap"
+     "image": "rx-oap",
+     "images": [
+      "rx-oap-r",
+      "rx-oap-r2",
+      "rx-oap"
+     ]
     }
    ]
   },
@@ -58861,7 +59702,12 @@
     {
      "examen": "Scanner cérébral (signes focaux, chute)",
      "resultat": "Hématome sous-dural, AVC",
-     "image": "ct-hematome"
+     "image": "ct-hematome",
+     "images": [
+      "ct-extradural-r",
+      "ct-sousdural-r",
+      "ct-hematome"
+     ]
     }
    ]
   },
@@ -58927,7 +59773,12 @@
     {
      "examen": "Surveillance des antipsychotiques",
      "resultat": "Poids, glycémie, lipides ; ECG (QT) ; NFS sous clozapine",
-     "image": "ecg-qt-long"
+     "image": "ecg-qt-long",
+     "images": [
+      "ecg-qt-r",
+      "ecg-tdp-r",
+      "ecg-qt-long"
+     ]
     }
    ]
   },
@@ -59461,7 +60312,12 @@
     {
      "examen": "ECG",
      "resultat": "Bradycardie, allongement du QT",
-     "image": "ecg-qt-long"
+     "image": "ecg-qt-long",
+     "images": [
+      "ecg-qt-r",
+      "ecg-tdp-r",
+      "ecg-qt-long"
+     ]
     },
     {
      "examen": "Glycémie, ionogramme, gaz du sang",
@@ -59526,7 +60382,10 @@
    "paraclinique": [
     {
      "examen": "GeneXpert MTB/RIF",
-     "resultat": "Résistance à la rifampicine détectée = TB-RR"
+     "resultat": "Résistance à la rifampicine détectée = TB-RR",
+     "images": [
+      "mi-baar"
+     ]
     },
     {
      "examen": "Test moléculaire de 2e ligne (GeneXpert XDR, LPA) et culture avec antibiogramme",
@@ -59535,7 +60394,12 @@
     {
      "examen": "Bilan avant traitement",
      "resultat": "ECG (QTc < 450–500 ms), NFS, créatinine, kaliémie, magnésium, ALAT, lipase, test VIH, test de grossesse",
-     "image": "ecg-qt-long"
+     "image": "ecg-qt-long",
+     "images": [
+      "ecg-qt-r",
+      "ecg-tdp-r",
+      "ecg-qt-long"
+     ]
     },
     {
      "examen": "Cultures mensuelles",
@@ -59611,12 +60475,18 @@
     },
     {
      "examen": "Liquide pleural ou d'ascite",
-     "resultat": "Exsudat à lymphocytes, ADA > 40 UI/l"
+     "resultat": "Exsudat à lymphocytes, ADA > 40 UI/l",
+     "images": [
+      "rx-epanchement-r"
+     ]
     },
     {
      "examen": "Radiographie du rachis (mal de Pott)",
      "resultat": "Pincement discal, destruction des corps vertébraux adjacents, abcès paravertébral",
-     "image": "rx-pott"
+     "image": "rx-pott",
+     "images": [
+      "rx-pott"
+     ]
     },
     {
      "examen": "Échographie (péricarde, abdomen)",
@@ -59690,12 +60560,19 @@
    "paraclinique": [
     {
      "examen": "GeneXpert Ultra sur crachats, aspiration gastrique, aspiration nasopharyngée ou selles",
-     "resultat": "M. tuberculosis (souvent négatif : le diagnostic peut rester clinique)"
+     "resultat": "M. tuberculosis (souvent négatif : le diagnostic peut rester clinique)",
+     "images": [
+      "mi-baar"
+     ]
     },
     {
      "examen": "Radiographie du thorax",
      "resultat": "Adénopathies hilaires ou médiastinales, miliaire (micronodules diffus), opacité persistante",
-     "image": "rx-miliaire"
+     "image": "rx-miliaire",
+     "images": [
+      "rx-miliaire-r",
+      "rx-miliaire"
+     ]
     },
     {
      "examen": "Test tuberculinique ou IGRA",
@@ -59914,7 +60791,12 @@
     {
      "examen": "Radiographie du thorax",
      "resultat": "Tuberculose, pneumocystose",
-     "image": "rx-pneumocystose"
+     "image": "rx-pneumocystose",
+     "images": [
+      "rx-pneumocystose-r",
+      "ct-covid-r",
+      "rx-pneumocystose"
+     ]
     }
    ]
   },
@@ -60187,7 +61069,10 @@
    "paraclinique": [
     {
      "examen": "Fond d'œil",
-     "resultat": "Rétinite : plages blanches nécrotiques avec hémorragies (« fromage et ketchup ») le long des vaisseaux"
+     "resultat": "Rétinite : plages blanches nécrotiques avec hémorragies (« fromage et ketchup ») le long des vaisseaux",
+     "images": [
+      "fo-cmv"
+     ]
     },
     {
      "examen": "CD4",
@@ -60272,7 +61157,11 @@
     {
      "examen": "Radiographie du thorax",
      "resultat": "Micronodules ou infiltrats diffus (ressemble à la miliaire tuberculeuse)",
-     "image": "rx-miliaire"
+     "image": "rx-miliaire",
+     "images": [
+      "rx-miliaire-r",
+      "rx-miliaire"
+     ]
     }
    ]
   },
@@ -60667,7 +61556,11 @@
     {
      "examen": "Toxicité des anesthésiques locaux",
      "resultat": "ECG : QRS larges, bradycardie, arythmie ventriculaire",
-     "image": "ecg-fv"
+     "image": "ecg-fv",
+     "images": [
+      "ecg-fv-r",
+      "ecg-fv"
+     ]
     }
    ]
   },
@@ -60819,7 +61712,11 @@
     {
      "examen": "ASP (douleurs, vomissements)",
      "resultat": "Fécalome, occlusion",
-     "image": "rx-occlusion"
+     "image": "rx-occlusion",
+     "images": [
+      "rx-occlusion-r",
+      "rx-occlusion"
+     ]
     },
     {
      "examen": "Coloscopie (> 50 ans, sang, amaigrissement, anémie)",
@@ -61575,7 +62472,13 @@
     {
      "examen": "ECG 12 dérivations",
      "resultat": "Fibrillation auriculaire : rythme irrégulièrement irrégulier, absence d'ondes P, trémulation de la ligne de base",
-     "image": "ecg-fa"
+     "image": "ecg-fa",
+     "images": [
+      "ecg-flutter-r",
+      "ecg-fa-r",
+      "ecg-fa-r2",
+      "ecg-fa"
+     ]
     },
     {
      "examen": "Échographie cardiaque",
@@ -61664,7 +62567,12 @@
     {
      "examen": "ECG",
      "resultat": "Allongement de l'espace PR (> 0,20 s chez l'adulte, critère mineur)",
-     "image": "ecg-bav"
+     "image": "ecg-bav",
+     "images": [
+      "ecg-bav1-r",
+      "ecg-bav3-r",
+      "ecg-bav"
+     ]
     },
     {
      "examen": "Échographie cardiaque (doppler)",
@@ -61740,7 +62648,10 @@
     },
     {
      "examen": "Échographie cardiaque (transthoracique, transœsophagienne)",
-     "resultat": "Végétation mobile sur une valve, abcès, nouvelle insuffisance valvulaire"
+     "resultat": "Végétation mobile sur une valve, abcès, nouvelle insuffisance valvulaire",
+     "images": [
+      "echo-vegetation-r"
+     ]
     },
     {
      "examen": "NFS, CRP, créatinine, bandelette urinaire",
@@ -61814,7 +62725,12 @@
     {
      "examen": "ECG, troponine",
      "resultat": "Ischémie, infarctus",
-     "image": "ecg-stemi"
+     "image": "ecg-stemi",
+     "images": [
+      "ecg-stemi-r",
+      "ecg-stemi-r2",
+      "ecg-stemi"
+     ]
     },
     {
      "examen": "Créatinine, bandelette urinaire",
@@ -61823,11 +62739,20 @@
     {
      "examen": "Radiographie du thorax",
      "resultat": "Œdème pulmonaire, élargissement du médiastin (dissection)",
-     "image": "rx-oap"
+     "image": "rx-oap",
+     "images": [
+      "rx-oap-r",
+      "rx-oap-r2",
+      "rx-oap"
+     ]
     },
     {
      "examen": "Fond d'œil",
-     "resultat": "Hémorragies, exsudats, œdème papillaire"
+     "resultat": "Hémorragies, exsudats, œdème papillaire",
+     "images": [
+      "fo-hta",
+      "fo-papille"
+     ]
     },
     {
      "examen": "Scanner cérébral (signes neurologiques)",
@@ -61890,7 +62815,10 @@
    "paraclinique": [
     {
      "examen": "Goutte épaisse et frottis",
-     "resultat": "P. vivax ou ovale : globules rouges augmentés de volume, granulations de Schüffner ; P. malariae : formes en bande"
+     "resultat": "P. vivax ou ovale : globules rouges augmentés de volume, granulations de Schüffner ; P. malariae : formes en bande",
+     "images": [
+      "mi-vivax"
+     ]
     },
     {
      "examen": "TDR (pan-LDH ou aldolase)",
@@ -62019,7 +62947,11 @@
     {
      "examen": "Scanner cérébral si crises (Taenia solium)",
      "resultat": "Neurocysticercose",
-     "image": "ct-cysticercose"
+     "image": "ct-cysticercose",
+     "images": [
+      "ct-cysticercose-r",
+      "ct-cysticercose"
+     ]
     }
    ]
   },
@@ -62240,7 +63172,11 @@
     {
      "examen": "Échographie rénale",
      "resultat": "Reins petits et dédifférenciés (chronicité) ; polykystose ; obstacle",
-     "image": "echo-hydronephrose"
+     "image": "echo-hydronephrose",
+     "images": [
+      "echo-hydronephrose-r",
+      "echo-hydronephrose"
+     ]
     },
     {
      "examen": "Ionogramme, bicarbonates, calcium, phosphore, PTH, NFS",
@@ -62249,7 +63185,11 @@
     {
      "examen": "ECG (hyperkaliémie)",
      "resultat": "Ondes T pointues",
-     "image": "ecg-hyperk"
+     "image": "ecg-hyperk",
+     "images": [
+      "ecg-hyperk-r",
+      "ecg-hyperk"
+     ]
     }
    ]
   },
@@ -62380,7 +63320,12 @@
     {
      "examen": "Radiographies des mains et des pieds",
      "resultat": "Déminéralisation en bande, pincement articulaire, érosions (carpes, métacarpophalangiennes, 5e métatarsien)",
-     "image": "rx-polyarthrite"
+     "image": "rx-polyarthrite",
+     "images": [
+      "rx-pr-r",
+      "rx-pr-r2",
+      "rx-polyarthrite"
+     ]
     }
    ]
   },
@@ -62620,7 +63565,11 @@
     },
     {
      "examen": "Hystérosalpingographie",
-     "resultat": "Obstruction tubaire, hydrosalpinx, synéchies utérines"
+     "resultat": "Obstruction tubaire, hydrosalpinx, synéchies utérines",
+     "images": [
+      "hsg-r",
+      "hsg-normal-r"
+     ]
     },
     {
      "examen": "Échographie pelvienne",
@@ -62682,7 +63631,11 @@
     {
      "examen": "Radiographie du thorax",
      "resultat": "Opacités réticulo-granitées diffuses (« verre dépoli »), bronchogramme aérien, petits poumons ; « poumon blanc » dans les formes graves",
-     "image": "rx-mmh"
+     "image": "rx-mmh",
+     "images": [
+      "rx-mmh-r",
+      "rx-mmh"
+     ]
     },
     {
      "examen": "SpO₂, gaz du sang",
@@ -63081,7 +64034,11 @@
    "paraclinique": [
     {
      "examen": "Cytoponction ou biopsie de la masse",
-     "resultat": "Cellules lymphoïdes avec macrophages : aspect en « ciel étoilé » ; Ki-67 proche de 100 %"
+     "resultat": "Cellules lymphoïdes avec macrophages : aspect en « ciel étoilé » ; Ki-67 proche de 100 %",
+     "images": [
+      "mi-burkitt",
+      "photo-burkitt"
+     ]
     },
     {
      "examen": "NFS, LDH, acide urique, créatinine, kaliémie, phosphore, calcium",
@@ -63170,7 +64127,10 @@
    "paraclinique": [
     {
      "examen": "NFS avec frottis sanguin",
-     "resultat": "Blastes dans le sang ; anémie, thrombopénie ; globules blancs très élevés ou bas"
+     "resultat": "Blastes dans le sang ; anémie, thrombopénie ; globules blancs très élevés ou bas",
+     "images": [
+      "mi-lal"
+     ]
     },
     {
      "examen": "Myélogramme",
@@ -63243,7 +64203,10 @@
    "paraclinique": [
     {
      "examen": "Fond d'œil sous anesthésie",
-     "resultat": "Masse rétinienne blanchâtre (leucocorie)"
+     "resultat": "Masse rétinienne blanchâtre (leucocorie)",
+     "images": [
+      "photo-retinoblastome"
+     ]
     },
     {
      "examen": "Échographie oculaire",
@@ -63310,7 +64273,11 @@
     {
      "examen": "Échographie abdominale",
      "resultat": "Masse rénale solide, refoulant les organes ; thrombus dans la veine cave",
-     "image": "echo-wilms"
+     "image": "echo-wilms",
+     "images": [
+      "piece-wilms-r",
+      "echo-wilms"
+     ]
     },
     {
      "examen": "Scanner abdominal",
@@ -63384,7 +64351,10 @@
    "paraclinique": [
     {
      "examen": "Biopsie ganglionnaire (ganglion entier)",
-     "resultat": "Cellules de Reed-Sternberg (CD15, CD30)"
+     "resultat": "Cellules de Reed-Sternberg (CD15, CD30)",
+     "images": [
+      "mi-reed"
+     ]
     },
     {
      "examen": "NFS, VS, LDH, albumine",
@@ -63531,7 +64501,10 @@
    "paraclinique": [
     {
      "examen": "NFS et frottis",
-     "resultat": "Hyperleucocytose majeure (souvent > 100 000/mm³) avec myélémie (toute la lignée granuleuse), basophilie, plaquettes élevées"
+     "resultat": "Hyperleucocytose majeure (souvent > 100 000/mm³) avec myélémie (toute la lignée granuleuse), basophilie, plaquettes élevées",
+     "images": [
+      "mi-lmc"
+     ]
     },
     {
      "examen": "Recherche du chromosome Philadelphie ou du transcrit BCR-ABL (PCR)",
@@ -63627,7 +64600,11 @@
     {
      "examen": "Radiographies osseuses (crâne, rachis, bassin)",
      "resultat": "Lacunes « à l'emporte-pièce », tassements vertébraux",
-     "image": "rx-myelome"
+     "image": "rx-myelome",
+     "images": [
+      "rx-myelome-r",
+      "rx-myelome"
+     ]
     }
    ]
   },
@@ -63769,7 +64746,11 @@
     {
      "examen": "Échographie rénale",
      "resultat": "Hydronéphrose (envahissement des uretères : stade IIIB)",
-     "image": "echo-hydronephrose"
+     "image": "echo-hydronephrose",
+     "images": [
+      "echo-hydronephrose-r",
+      "echo-hydronephrose"
+     ]
     },
     {
      "examen": "Radiographie du thorax, Hb, créatinine, test VIH",
@@ -64075,7 +65056,10 @@
     },
     {
      "examen": "Échographie pelvienne ou testiculaire",
-     "resultat": "Môle : utérus « en tempête de neige » (vésicules) ; masse testiculaire hypoéchogène"
+     "resultat": "Môle : utérus « en tempête de neige » (vésicules) ; masse testiculaire hypoéchogène",
+     "images": [
+      "echo-mole-r"
+     ]
     },
     {
      "examen": "Radiographie du thorax",
@@ -64380,7 +65364,10 @@
    "paraclinique": [
     {
      "examen": "Fond d'œil (dilatation pupillaire) annuel chez le diabétique",
-     "resultat": "Microanévrismes, hémorragies, exsudats durs, néovaisseaux (rétinopathie proliférante), œdème maculaire"
+     "resultat": "Microanévrismes, hémorragies, exsudats durs, néovaisseaux (rétinopathie proliférante), œdème maculaire",
+     "images": [
+      "fo-retino"
+     ]
     },
     {
      "examen": "Grille d'Amsler (DMLA)",
@@ -64442,7 +65429,12 @@
     {
      "examen": "Analyse du rythme sur le scope ou le défibrillateur",
      "resultat": "Rythme choquable : fibrillation ventriculaire (ondes anarchiques) ou tachycardie ventriculaire sans pouls ; non choquable : asystolie, activité électrique sans pouls",
-     "image": "ecg-fv"
+     "image": "ecg-fv",
+     "images": [
+      "ecg-tv-r",
+      "ecg-fv-r",
+      "ecg-fv"
+     ]
     },
     {
      "examen": "Glycémie, kaliémie, gaz du sang (causes réversibles)",
@@ -64450,7 +65442,10 @@
     },
     {
      "examen": "Échographie au lit (si disponible)",
-     "resultat": "Tamponnade, embolie (ventricule droit dilaté), hypovolémie"
+     "resultat": "Tamponnade, embolie (ventricule droit dilaté), hypovolémie",
+     "images": [
+      "echo-pericarde-r"
+     ]
     }
    ]
   },
@@ -64536,12 +65531,22 @@
     {
      "examen": "Radiographie du thorax",
      "resultat": "Œdème pulmonaire : opacités alvéolaires péri-hilaires en « ailes de papillon », lignes de Kerley B, épanchements pleuraux, cardiomégalie",
-     "image": "rx-oap"
+     "image": "rx-oap",
+     "images": [
+      "rx-oap-r",
+      "rx-oap-r2",
+      "rx-oap"
+     ]
     },
     {
      "examen": "ECG",
      "resultat": "Cause : infarctus (sus-décalage du ST), fibrillation auriculaire rapide",
-     "image": "ecg-stemi"
+     "image": "ecg-stemi",
+     "images": [
+      "ecg-stemi-r",
+      "ecg-stemi-r2",
+      "ecg-stemi"
+     ]
     },
     {
      "examen": "Troponine, BNP ou NT-proBNP",
