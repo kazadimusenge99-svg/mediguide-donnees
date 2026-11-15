@@ -1,29 +1,29 @@
 {
- "dateActualites": "14 novembre 2026",
- "dateIsoActualites": "2026-11-14",
+ "dateActualites": "15 novembre 2026",
+ "dateIsoActualites": "2026-11-15",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DU DIABÈTE (14 NOVEMBRE)",
-   "titre": "Diabète : agir tôt",
+   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DE LA PRÉMATURITÉ (15 NOVEMBRE)",
+   "titre": "Prématurité",
    "lieu": "Monde · Afrique · RDC",
-   "chiffre": "589 millions d'adultes diabétiques, dont 252 millions qui l'ignorent (FID, 2024)",
-   "texte": "Ce 14 novembre, la Journée mondiale du diabète ouvre la campagne 2026-2027 « Agir tôt contre le diabète » (OMS et FID) : diagnostiquer plus tôt, assurer des soins continus et réduire la stigmatisation. Plus de 4 diabétiques sur 10 dans le monde ne sont pas diagnostiqués, et l'Afrique connaît l'une des hausses les plus rapides.",
+   "chiffre": "13,4 millions de naissances prématurées (2020) et environ 900 000 décès (2019) (OMS)",
+   "texte": "Ce 15 novembre, l'OMS célèbre la Journée mondiale de la prématurité, inscrite à son calendrier officiel depuis 2025. Les complications de la prématurité sont la première cause de décès des enfants de moins de 5 ans, et les trois quarts de ces décès pourraient être évités par des soins simples, au premier rang desquels la méthode mère kangourou.",
    "details": [
-    "Monde : 589 millions d'adultes de 20 à 79 ans vivent avec le diabète (près de 1 sur 9), 252 millions l'ignorent, et le diabète cause plus de 3,4 millions de décès par an (FID, Atlas du diabète, 11e édition)",
-    "Région africaine : plus de 24 millions d'adultes diabétiques selon l'OMS Afrique, avec une forte proportion de cas non diagnostiqués, souvent découverts au stade des complications (plaie du pied, AVC, insuffisance rénale, cécité)",
-    "Dépister par une glycémie capillaire : adulte de plus de 40 ans, surpoids, HTA, antécédents familiaux, ancien diabète gestationnel, tuberculose, personne vivant avec le VIH ; y penser devant soif, urines abondantes, amaigrissement, infections répétées ou vision floue",
-    "Diagnostic : glycémie à jeun ≥ 126 mg/dl (7 mmol/l) à 2 reprises, ou glycémie ≥ 200 mg/dl (11,1 mmol/l) avec symptômes, ou HbA1c ≥ 6,5 % ; sujet jeune et mince, amaigrissement rapide ou cétonurie : penser au diabète de type 1 ou cétosique et ne pas retarder l'insuline",
-    "Traiter : éducation et mode de vie pour tous, metformine en 1re intention (500 mg par jour au repas, augmentée progressivement jusqu'à 1 g 2 fois par jour), objectif HbA1c < 7 % ; PA < 130/80 et statine après 40 ans",
-    "À chaque visite : examiner les pieds (sensibilité, pouls, plaies) ; chaque année : fond d'œil, créatinine et protéinurie ; apprendre au patient sous sulfamide ou insuline à reconnaître et corriger une hypoglycémie"
+    "Monde : environ 1 naissance sur 10 survient avant 37 semaines d'aménorrhée, soit 13,4 millions de bébés en 2020 ; l'Asie du Sud et l'Afrique subsaharienne concentrent plus de 65 % des naissances prématurées (OMS)",
+    "Les complications de la prématurité ont causé environ 900 000 décès d'enfants en 2019 ; les trois quarts pourraient être évités par des interventions efficaces et peu coûteuses",
+    "Nouveauté : le guide de pratique clinique de l'OMS sur la méthode mère kangourou (novembre 2025) recommande le peau à peau pour tout bébé prématuré ou de faible poids, à commencer immédiatement après la naissance sauf en cas de choc ou s'il ne respire pas seul, à l'hôpital comme à domicile",
+    "En salle de naissance : peser tout nouveau-né, clampage retardé du cordon (au moins 1 min) s'il n'a pas besoin de réanimation, séchage, bonnet, peau à peau continu, mise au sein précoce, vitamine K1 ; viser une température de 36,5 à 37,5 °C",
+    "Alimenter au lait maternel exclusif (au sein, à la tasse ou par sonde), contrôler la glycémie les premiers jours, hygiène des mains stricte ; transférer en néonatologie si poids < 1 500 g, moins de 32 semaines, apnées, détresse respiratoire ou signes d'infection",
+    "Prévenir : consultations prénatales, TPIp, traitement des infections urinaires et de l'anémie ; en cas de menace d'accouchement prématuré entre 24 et 34 semaines, dexaméthasone anténatale, et sulfate de magnésium avant 32 semaines"
    ],
-   "couleur": "#0D47A1",
-   "icone": "🩸",
-   "pathologie": 44,
-   "source": "OMS et FID, campagne de la Journée mondiale du diabète 2026-2027 (14/11/2026) ; FID, Atlas du diabète 11e édition du 04/04/2025 ; OMS Afrique, message de la Journée mondiale du diabète du 14/11/2025",
-   "pictogramme": "glucometre"
+   "couleur": "#AD1457",
+   "icone": "👶",
+   "pathologie": 80,
+   "source": "OMS, Journée mondiale de la prématurité (15/11/2026) ; OMS, aide-mémoire « Naissance prématurée » (données 2020) ; OMS, guide de pratique clinique sur la méthode mère kangourou du 14/11/2025",
+   "pictogramme": "bebe"
   },
   {
-   "etiquette": "BIENTÔT · SEMAINE MONDIALE DE LA RÉSISTANCE AUX ANTIMICROBIENS (18-24 NOVEMBRE)",
+   "etiquette": "DANS 3 JOURS · SEMAINE MONDIALE DE LA RÉSISTANCE AUX ANTIMICROBIENS (18-24 NOVEMBRE)",
    "titre": "Antibiorésistance",
    "lieu": "Monde · Région africaine",
    "chiffre": "1 infection bactérienne sur 5 résistante en Afrique (OMS, données 2023)",
@@ -44,20 +44,20 @@
   {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
-   "lieu": "RDC (8 provinces) · Kenya (9 cas) · cas importé au Nigeria",
-   "chiffre": "Plus de 10 700 cas confirmés et plus de 5 200 décès en RDC (CDC, au 6 novembre)",
-   "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, se poursuit avec de nouveaux cas chaque semaine au Nord-Kivu, en Ituri et dans le Haut-Uélé ; près d'un malade sur deux en meurt.",
+   "lieu": "RDC (8 provinces) · Ouganda · Kenya · cas importé au Nigeria",
+   "chiffre": "11 114 cas confirmés et 5 433 décès en RDC (CDC et ECDC, au 10 novembre)",
+   "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, continue de progresser en RDC, avec environ 70 nouveaux cas confirmés par jour selon l'ECDC ; près d'un malade sur deux en meurt.",
    "details": [
-    "RDC au 6 novembre : plus de 10 700 cas confirmés et plus de 5 200 décès dans 67 zones de santé de 8 provinces ; l'Ituri reste l'épicentre ; début novembre, nouveaux cas surtout au Nord-Kivu, en Ituri et dans le Haut-Uélé",
-    "Kenya : 9 cas confirmés, dernier cas le 20 octobre, contacts sortis de quarantaine début novembre ; un cas confirmé au Nigeria le 20 octobre",
-    "Aucun vaccin ni traitement homologué contre le virus Bundibugyo : les vaccins et anticorps existants visent le virus Zaïre ; l'essai TUMAINI (Bunia, depuis le 23 octobre) évalue des vaccins en vaccination en anneau",
+    "RDC au 10 novembre : 11 114 cas confirmés et 5 433 décès dans 8 provinces ; l'Ituri reste l'épicentre (7 485 cas confirmés et 3 532 décès au 3 novembre) et le Nord-Kivu enregistre le plus de nouveaux cas",
+    "Ouganda : 20 cas confirmés et 2 décès ; Kenya : 9 cas dont 2 décès, aucun nouveau cas depuis le 19 octobre ; un cas confirmé au Nigeria le 20 octobre",
+    "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; l'OMS a recommandé début novembre d'ajouter deux vaccins candidats spécifiques (ChAdOx1 BDBV d'Oxford et Serum Institute of India, mRNA-1469 de Moderna) à l'essai TUMAINI de vaccination en anneau à Bunia, après autorisation nationale ; résultats attendus début 2027",
     "Tout patient fébrile ayant eu un contact avec un cas, ou présentant des signes hémorragiques, une diarrhée ou des vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte",
     "Hygiène des mains, triage à l'entrée de toutes les structures, enterrements dignes et sécurisés ; faire aussi un TDR paludisme"
    ],
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "CDC, résumé de situation mis à jour le 09/11/2026 (données au 06/11) ; OMS, bulletin d'épidémie début novembre 2026 ; ECDC, mise à jour du 03/11/2026",
+   "source": "CDC, résumé de situation (données au 10/11/2026) ; ECDC, mise à jour du 12/11/2026 ; OMS, bulletin d'épidémie du 03/11/2026 ; OMS, recommandation sur les vaccins candidats relayée par Al Jazeera le 04/11/2026",
    "pictogramme": "virus"
   },
   {
@@ -75,7 +75,7 @@
    "couleur": "#0277BD",
    "icone": "💧",
    "pathologie": 19,
-   "source": "OMS, bilan de la semaine 42 relayé par mesvaccins.net et AFP (04/11/2026) ; allAfrica du 06/11/2026 (Kinshasa)",
+   "source": "OMS, bilan de la semaine 42 annoncé le 04/11/2026 (AFP, Vidal) ; allAfrica du 06/11 et du 11/11/2026 (Kinshasa)",
    "pictogramme": "goutte"
   },
   {
