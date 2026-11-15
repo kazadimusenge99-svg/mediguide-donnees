@@ -41,15 +41,16 @@ for p in meds["pathologies"]:
         if d not in dcis: err(f"pathologie {p['id']} : médicament inconnu « {d} » (utiliser la DCI exacte)")
 
 # --- symptômes (dans meds.json) ---
-_dids = set()
-for c in meds.get("dispensaire", []):
-    if c.get("id") in _dids: err(f"dispensaire : id en double {c.get('id')}")
-    _dids.add(c.get("id"))
-    if not c.get("titre"): err(f"dispensaire {c.get('id')} : titre manquant")
-    for b in c.get("blocs", []):
-        if b.get("type") not in ("liste", "texte", "tableau"): err(f"dispensaire {c['id']} : type de bloc inconnu")
-        if b.get("type") == "tableau" and any(len(l) != len(b.get("colonnes", [])) for l in b.get("lignes", [])):
-            err(f"dispensaire {c['id']} : tableau « {b.get('titre')} » mal formé")
+for _sec in ("dispensaire", "examens"):
+  _dids = set()
+  for c in meds.get(_sec, []):
+      if c.get("id") in _dids: err(f"{_sec} : id en double {c.get('id')}")
+      _dids.add(c.get("id"))
+      if not c.get("titre"): err(f"{_sec} {c.get('id')} : titre manquant")
+      for b in c.get("blocs", []):
+          if b.get("type") not in ("liste", "texte", "tableau"): err(f"{_sec} {c['id']} : type de bloc inconnu")
+          if b.get("type") == "tableau" and any(len(l) != len(b.get("colonnes", [])) for l in b.get("lignes", [])):
+              err(f"{_sec} {c['id']} : tableau « {b.get('titre')} » mal formé")
 for y in meds.get("symptomes", []):
     for k in ("id", "nom", "pictogramme", "couleur", "resume", "alarme", "questions", "examens", "orientations", "conduite"):
         if k not in y: err(f"symptôme {y.get('id')} : champ {k} manquant")
