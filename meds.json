@@ -1,5 +1,5 @@
 {
- "version": 83,
+ "version": 84,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -44817,6 +44817,966 @@
       "Test de grossesse urinaire : positif dès le jour du retard des règles ; un test négatif trop précoce est à refaire 1 semaine plus tard. Toujours faire un test avant une radiographie ou un médicament dangereux chez une femme en âge de procréer.",
       "Couches pour adultes : changer dès qu'elles sont souillées, laver et sécher la peau, oxyde de zinc pour protéger ; prévenir les escarres (changer de position toutes les 2 à 3 h)."
      ]
+    }
+   ]
+  }
+ ],
+ "examens": [
+  {
+   "id": "valeurs-normales",
+   "titre": "Valeurs normales de biologie",
+   "pictogramme": "stethoscope",
+   "couleur": "#00695C",
+   "intro": "Valeurs usuelles de l'adulte ; elles varient selon le laboratoire et la technique : se référer aux normes imprimées sur le résultat.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Hémogramme (NFS)",
+     "colonnes": [
+      "Paramètre",
+      "Valeur normale"
+     ],
+     "lignes": [
+      [
+       "Hémoglobine",
+       "homme 13–17 g/dl ; femme 12–16 g/dl ; femme enceinte ≥ 11 g/dl ; enfant 6 mois–5 ans ≥ 11 g/dl ; 5–11 ans ≥ 11,5 g/dl"
+      ],
+      [
+       "Hématocrite",
+       "homme 40–52 % ; femme 36–48 %"
+      ],
+      [
+       "VGM (volume globulaire moyen)",
+       "80–100 fl (enfant : plus bas, 70 + âge en années)"
+      ],
+      [
+       "Globules blancs",
+       "4 000–10 000/mm³ (nouveau-né jusqu'à 25 000, enfant 5 000–15 000)"
+      ],
+      [
+       "Polynucléaires neutrophiles",
+       "1 500–7 000/mm³ (neutropénie sévère < 500)"
+      ],
+      [
+       "Lymphocytes",
+       "1 000–4 000/mm³ (plus élevés chez l'enfant)"
+      ],
+      [
+       "Éosinophiles",
+       "< 500/mm³ (hyperéosinophilie : parasites, allergie)"
+      ],
+      [
+       "Plaquettes",
+       "150 000–400 000/mm³ (saignement spontané possible < 20 000)"
+      ],
+      [
+       "Réticulocytes",
+       "25 000–100 000/mm³ (> 120 000 : anémie régénérative, hémolyse ou saignement)"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Hémostase",
+     "colonnes": [
+      "Paramètre",
+      "Valeur normale"
+     ],
+     "lignes": [
+      [
+       "Taux de prothrombine (TP)",
+       "70–100 %"
+      ],
+      [
+       "INR",
+       "1 (cible sous AVK : 2–3 ; valve mécanique : 2,5–3,5)"
+      ],
+      [
+       "TCA (rapport malade/témoin)",
+       "< 1,2"
+      ],
+      [
+       "Fibrinogène",
+       "2–4 g/l (< 1 g/l : CIVD, hémorragie grave)"
+      ],
+      [
+       "Temps de coagulation sur tube sec (20 min)",
+       "sang coagulé (non coagulé : envenimation, CIVD)"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Biochimie sanguine",
+     "colonnes": [
+      "Paramètre",
+      "Valeur normale"
+     ],
+     "lignes": [
+      [
+       "Glycémie à jeun",
+       "0,70–1,10 g/l (3,9–6,1 mmol/l)"
+      ],
+      [
+       "HbA1c",
+       "< 5,7 % (diabète ≥ 6,5 %)"
+      ],
+      [
+       "Urée",
+       "0,15–0,45 g/l (2,5–7,5 mmol/l)"
+      ],
+      [
+       "Créatinine",
+       "homme 60–110 µmol/l (7–12 mg/l) ; femme 45–90 µmol/l (5–10 mg/l)"
+      ],
+      [
+       "Clairance (DFG)",
+       "> 90 ml/min/1,73 m² (insuffisance rénale < 60)"
+      ],
+      [
+       "Acide urique",
+       "homme < 70 mg/l (420 µmol/l) ; femme < 60 mg/l (360 µmol/l)"
+      ],
+      [
+       "Protéines totales",
+       "60–80 g/l"
+      ],
+      [
+       "Albumine",
+       "35–50 g/l"
+      ],
+      [
+       "Calcium total",
+       "2,2–2,6 mmol/l (88–104 mg/l)"
+      ],
+      [
+       "Phosphore",
+       "0,8–1,5 mmol/l"
+      ],
+      [
+       "Magnésium",
+       "0,7–1 mmol/l"
+      ],
+      [
+       "Ferritine",
+       "homme 30–300 µg/l ; femme 15–150 µg/l (< 15 : carence en fer ; < 30 si inflammation)"
+      ],
+      [
+       "CRP",
+       "< 5 mg/l (> 100 : infection bactérienne probable)"
+      ],
+      [
+       "VS (1re heure)",
+       "homme < âge/2 ; femme < (âge + 10)/2 mm"
+      ],
+      [
+       "Lactates",
+       "< 2 mmol/l (> 4 : choc)"
+      ],
+      [
+       "Procalcitonine",
+       "< 0,5 ng/ml"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Ionogramme",
+     "colonnes": [
+      "Paramètre",
+      "Valeur normale"
+     ],
+     "lignes": [
+      [
+       "Sodium (Na⁺)",
+       "135–145 mmol/l"
+      ],
+      [
+       "Potassium (K⁺)",
+       "3,5–5 mmol/l (danger < 2,5 ou > 6,5)"
+      ],
+      [
+       "Chlore (Cl⁻)",
+       "98–107 mmol/l"
+      ],
+      [
+       "Bicarbonates (HCO₃⁻)",
+       "22–28 mmol/l"
+      ],
+      [
+       "Trou anionique Na − (Cl + HCO₃)",
+       "8–16 mmol/l"
+      ],
+      [
+       "Osmolarité plasmatique",
+       "285–295 mOsm/l"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Bilan hépatique et pancréatique",
+     "colonnes": [
+      "Paramètre",
+      "Valeur normale"
+     ],
+     "lignes": [
+      [
+       "ASAT (TGO)",
+       "< 40 UI/l"
+      ],
+      [
+       "ALAT (TGP)",
+       "< 40 UI/l (hépatite aiguë : souvent > 10 fois la normale)"
+      ],
+      [
+       "Gamma-GT",
+       "homme < 55 UI/l ; femme < 38 UI/l"
+      ],
+      [
+       "Phosphatases alcalines",
+       "40–130 UI/l (plus élevées chez l'enfant et la femme enceinte)"
+      ],
+      [
+       "Bilirubine totale",
+       "< 17 µmol/l (10 mg/l) ; ictère visible > 35–50 µmol/l"
+      ],
+      [
+       "Bilirubine conjuguée",
+       "< 5 µmol/l"
+      ],
+      [
+       "Lipase",
+       "< 60 UI/l (pancréatite > 3 fois la normale)"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Lipides, thyroïde, cœur",
+     "colonnes": [
+      "Paramètre",
+      "Valeur normale"
+     ],
+     "lignes": [
+      [
+       "Cholestérol total",
+       "< 2 g/l (5,2 mmol/l)"
+      ],
+      [
+       "LDL-cholestérol",
+       "< 1,6 g/l ; < 1 g/l si diabète ; < 0,55 g/l après infarctus ou AVC"
+      ],
+      [
+       "HDL-cholestérol",
+       "> 0,4 g/l"
+      ],
+      [
+       "Triglycérides",
+       "< 1,5 g/l (1,7 mmol/l)"
+      ],
+      [
+       "TSH",
+       "0,4–4 mUI/l"
+      ],
+      [
+       "T4 libre",
+       "10–22 pmol/l"
+      ],
+      [
+       "Troponine (hypersensible)",
+       "< 99e percentile du laboratoire (souvent < 14 ng/l)"
+      ],
+      [
+       "BNP / NT-proBNP",
+       "BNP < 100 pg/ml ; NT-proBNP < 300 pg/ml"
+      ],
+      [
+       "D-dimères",
+       "< 500 µg/l (ou âge × 10 après 50 ans)"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Gaz du sang artériel",
+     "colonnes": [
+      "Paramètre",
+      "Valeur normale"
+     ],
+     "lignes": [
+      [
+       "pH",
+       "7,38–7,42"
+      ],
+      [
+       "PaO₂",
+       "80–100 mmHg"
+      ],
+      [
+       "PaCO₂",
+       "35–45 mmHg"
+      ],
+      [
+       "Bicarbonates",
+       "22–26 mmol/l"
+      ],
+      [
+       "SaO₂",
+       "> 95 %"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Urines",
+     "colonnes": [
+      "Paramètre",
+      "Valeur normale"
+     ],
+     "lignes": [
+      [
+       "Bandelette",
+       "négative (protéines, sang, leucocytes, nitrites, glucose, cétones)"
+      ],
+      [
+       "Protéinurie des 24 h",
+       "< 150 mg/24 h (syndrome néphrotique > 3 g/24 h ; pré-éclampsie ≥ 300 mg/24 h)"
+      ],
+      [
+       "Rapport albumine/créatinine",
+       "< 3 mg/mmol (30 mg/g)"
+      ],
+      [
+       "ECBU : leucocytes",
+       "< 10 000/ml (10/mm³)"
+      ],
+      [
+       "ECBU : bactéries",
+       "infection si ≥ 10³ à 10⁵ UFC/ml selon le germe et le sexe, avec leucocyturie"
+      ],
+      [
+       "Diurèse",
+       "adulte 0,8–2 l/24 h"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "tableau",
+     "titre": "Liquide céphalorachidien (LCR) normal",
+     "colonnes": [
+      "Paramètre",
+      "Valeur normale"
+     ],
+     "lignes": [
+      [
+       "Aspect",
+       "clair, « eau de roche »"
+      ],
+      [
+       "Éléments",
+       "< 5/mm³ (nouveau-né < 20/mm³)"
+      ],
+      [
+       "Protéines",
+       "0,15–0,45 g/l (nouveau-né jusqu'à 1,2 g/l)"
+      ],
+      [
+       "Glucose",
+       "> 0,5 fois la glycémie (environ 0,5–0,8 g/l)"
+      ],
+      [
+       "Coloration de Gram, culture",
+       "négatives"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "infections",
+   "titre": "Fièvre et maladies infectieuses",
+   "pictogramme": "thermometre",
+   "couleur": "#EF6C00",
+   "intro": "Toujours un test du paludisme devant une fièvre en zone d'endémie ; les autres examens selon l'orientation clinique.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Examens selon la maladie",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Paludisme",
+       "TDR (HRP2) ou goutte épaisse + frottis ; NFS, glycémie ; créatinine, bilirubine si forme grave",
+       "TDR positif ; goutte épaisse : parasites (densité, en /µl) ; forme grave : Hb < 7 g/dl, glycémie < 2,2 mmol/l, créatinine > 265 µmol/l, parasitémie > 10 %, bilirubine > 50 µmol/l",
+       "Un TDR HRP2 reste positif 2 à 4 semaines après la guérison : contrôler par goutte épaisse si nouvelle fièvre"
+      ],
+      [
+       "Fièvre typhoïde",
+       "Hémoculture (1re semaine) ; NFS ; coproculture (2e–3e semaine)",
+       "Salmonella Typhi à l'hémoculture ; NFS : leucocytes normaux ou bas, éosinophiles absents",
+       "Le sérodiagnostic de Widal est peu fiable (faux positifs fréquents) : ne pas traiter sur Widal seul"
+      ],
+      [
+       "Méningite",
+       "Ponction lombaire (aspect, cellules, protéines, glucose, Gram, culture) ; glycémie ; hémoculture",
+       "Bactérienne : LCR trouble, > 1 000 éléments/mm³ à polynucléaires, protéines > 1 g/l, glucose < 0,4 fois la glycémie, Gram positif",
+       "Ne pas retarder la ceftriaxone ; pas de ponction si signes d'hypertension intracrânienne ou de choc"
+      ],
+      [
+       "Sepsis, choc septique",
+       "NFS, CRP, hémocultures (avant antibiotiques), lactates, créatinine, bilirubine, plaquettes, TP, glycémie",
+       "Leucocytes > 12 000 ou < 4 000/mm³, CRP élevée, lactates > 2 mmol/l (choc si > 4), thrombopénie, insuffisance rénale",
+       "Antibiotiques dans l'heure ; rechercher le foyer (urines, poumon, abdomen, peau)"
+      ],
+      [
+       "Pneumonie",
+       "Radiographie du thorax ; SpO₂ ; NFS, CRP ; GeneXpert si toux > 2 semaines ou VIH",
+       "Opacité alvéolaire systématisée ; leucocytose à polynucléaires, CRP > 100 mg/l",
+       "Le diagnostic chez l'enfant est clinique (respiration rapide, tirage) : la radio n'est pas indispensable"
+      ],
+      [
+       "Infection urinaire",
+       "Bandelette urinaire ; ECBU avant antibiotique (homme, enfant, femme enceinte, pyélonéphrite) ; créatinine",
+       "Leucocytes + et nitrites + ; ECBU : leucocyturie > 10 000/ml et bactériurie significative (E. coli le plus souvent)",
+       "Bandelette négative chez la femme sans grossesse : infection peu probable"
+      ],
+      [
+       "Tuberculose",
+       "GeneXpert MTB/RIF sur crachats (ou aspiration gastrique chez l'enfant) ; radiographie du thorax ; test VIH ; LF-LAM urinaire si VIH",
+       "GeneXpert : M. tuberculosis détecté, résistance à la rifampicine oui/non ; radio : infiltrats ou cavernes des sommets, miliaire, adénopathies chez l'enfant",
+       "Microscopie (BAAR) moins sensible ; culture pour l'antibiogramme si résistance"
+      ],
+      [
+       "VIH",
+       "Algorithme national de tests rapides (2 à 3 tests) ; puis CD4, charge virale, créatinine, hépatite B, CrAg si CD4 < 200",
+       "Tests rapides positifs concordants ; CD4 < 200/mm³ : stade avancé ; charge virale < 1 000 copies/ml : succès du traitement",
+       "Nourrisson de moins de 18 mois : PCR (les anticorps de la mère persistent)"
+      ],
+      [
+       "Hépatite B",
+       "AgHBs ; si positif : ALAT, AgHBe, charge virale ADN VHB, plaquettes, échographie ; anti-HBc, anti-HBs",
+       "AgHBs positif > 6 mois = infection chronique ; ALAT élevées et charge virale > 2 000 UI/ml : traitement à discuter",
+       "Femme enceinte AgHBs positive : vaccin + immunoglobulines au nouveau-né, ténofovir si charge virale élevée"
+      ],
+      [
+       "Hépatite C",
+       "Anticorps anti-VHC ; si positifs : ARN du VHC (charge virale), ALAT, plaquettes",
+       "Anticorps positifs + ARN détectable = infection active",
+       "Anticorps positifs avec ARN indétectable : infection guérie"
+      ],
+      [
+       "Syphilis",
+       "Test rapide tréponémique (TPHA) ; VDRL ou RPR quantitatif",
+       "TPHA positif + VDRL positif : syphilis active (titre du VDRL pour suivre le traitement)",
+       "TPHA reste positif à vie ; le VDRL baisse après traitement"
+      ],
+      [
+       "Dengue, arboviroses",
+       "NFS (plaquettes, hématocrite) ; antigène NS1 (jours 1 à 5), IgM (après J5)",
+       "Leucopénie, thrombopénie, hématocrite qui monte (fuite plasmatique)",
+       "Pas d'aspirine ni d'AINS"
+      ],
+      [
+       "Schistosomiase",
+       "Urines de midi (S. haematobium), selles (S. mansoni) ; bandelette (sang) ; échographie",
+       "Œufs dans les urines ou les selles ; hématurie ; éosinophilie",
+       "Antigène CCA urinaire pour S. mansoni si disponible"
+      ],
+      [
+       "Choléra",
+       "Test rapide sur selles (dépistage) ; coproculture pour confirmation ; ionogramme dans les formes graves",
+       "Test rapide positif ; culture : Vibrio cholerae O1 ; hypokaliémie, acidose",
+       "Ne pas attendre le résultat pour réhydrater ; déclarer"
+      ],
+      [
+       "Ebola, mpox, fièvres hémorragiques",
+       "PCR sur sang (Ebola) ou sur lésion (mpox), selon le circuit de la zone de santé",
+       "PCR positive",
+       "Isolement et équipement de protection avant tout prélèvement"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "cardio-renal",
+   "titre": "Cœur, vaisseaux et reins",
+   "pictogramme": "coeur",
+   "couleur": "#C62828",
+   "intro": "Bilan initial et de suivi des maladies cardiovasculaires et rénales.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Examens selon la maladie",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Hypertension artérielle (bilan initial)",
+       "Créatinine (DFG), kaliémie, glycémie, lipides, bandelette urinaire (protéines, sang), ECG",
+       "Recherche d'atteinte des organes : DFG < 60, protéinurie, hypertrophie ventriculaire gauche à l'ECG",
+       "Hypokaliémie spontanée ou hypertension du jeune : chercher une cause secondaire"
+      ],
+      [
+       "Insuffisance cardiaque",
+       "ECG, radiographie du thorax, échographie cardiaque, NT-proBNP, créatinine, ionogramme, NFS",
+       "NT-proBNP élevé ; radio : cardiomégalie, œdème pulmonaire ; écho : fraction d'éjection < 40 % ou cardiopathie",
+       "Un BNP normal élimine presque l'insuffisance cardiaque"
+      ],
+      [
+       "Infarctus (syndrome coronarien aigu)",
+       "ECG dans les 10 minutes, répété ; troponine à l'arrivée et 1 à 3 h après",
+       "Sus-décalage du segment ST (urgence de reperfusion) ; troponine qui monte",
+       "Un ECG normal n'élimine pas un infarctus : répéter"
+      ],
+      [
+       "AVC",
+       "Glycémie capillaire immédiate ; scanner cérébral (hémorragie ?) ; ECG ; NFS, TP",
+       "Scanner : hématome (hyperdense) ou normal au début dans l'AVC ischémique",
+       "Hypoglycémie et crise d'épilepsie peuvent imiter un AVC"
+      ],
+      [
+       "Thrombose veineuse, embolie pulmonaire",
+       "Échographie-doppler veineux ; D-dimères si probabilité faible ; angioscanner si embolie ; ECG",
+       "Doppler : veine non compressible ; D-dimères normaux : thrombose peu probable",
+       "Grossesse, cancer, âge : D-dimères souvent élevés sans thrombose"
+      ],
+      [
+       "Insuffisance rénale aiguë",
+       "Créatinine, urée, ionogramme (potassium), bicarbonates, bandelette urinaire, échographie rénale, diurèse",
+       "Créatinine qui monte de ≥ 26 µmol/l en 48 h ou de 1,5 fois ; hyperkaliémie, acidose",
+       "Potassium > 6,5 mmol/l ou modifications à l'ECG : urgence (gluconate de calcium)"
+      ],
+      [
+       "Maladie rénale chronique",
+       "Créatinine (DFG), rapport albumine/créatinine urinaire, ionogramme, calcium, phosphore, NFS, échographie",
+       "DFG < 60 pendant plus de 3 mois ou albuminurie ; anémie, hyperphosphorémie aux stades avancés",
+       "Adapter les doses de tous les médicaments au DFG"
+      ],
+      [
+       "Syndrome néphrotique",
+       "Protéinurie des 24 h ou rapport protéines/créatinine, albumine, cholestérol, créatinine, bandelette (sang)",
+       "Protéinurie > 3 g/24 h (enfant > 50 mg/kg/j) et albumine < 30 g/l ; hypercholestérolémie",
+       "Chercher VIH, hépatite B, syphilis, paludisme chronique"
+      ],
+      [
+       "Glomérulonéphrite aiguë",
+       "Bandelette (sang, protéines), sédiment urinaire, créatinine, C3, ASLO",
+       "Hématurie, cylindres hématiques, protéinurie modérée ; C3 bas et ASLO élevés (post-streptococcique)",
+       "Surveiller tension et diurèse"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "metabolisme",
+   "titre": "Diabète, thyroïde et métabolisme",
+   "pictogramme": "glucometre",
+   "couleur": "#1565C0",
+   "intro": "Diagnostic et suivi des maladies métaboliques et endocriniennes.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Examens selon la maladie",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Diabète (diagnostic)",
+       "Glycémie à jeun ; HbA1c ; glycémie au hasard si symptômes ; HGPO 75 g",
+       "Glycémie à jeun ≥ 1,26 g/l (7 mmol/l) à 2 reprises, ou HbA1c ≥ 6,5 %, ou glycémie ≥ 2 g/l avec symptômes",
+       "Prédiabète : glycémie à jeun 1,10–1,25 g/l ou HbA1c 5,7–6,4 %"
+      ],
+      [
+       "Diabète (suivi)",
+       "HbA1c tous les 3 à 6 mois ; créatinine, albuminurie, lipides, fond d'œil, examen des pieds une fois par an",
+       "Objectif HbA1c < 7 % (moins strict chez le sujet âgé fragile)",
+       "Albuminurie : IEC ou ARA2"
+      ],
+      [
+       "Acidocétose diabétique",
+       "Glycémie, cétonémie ou cétonurie, gaz du sang ou bicarbonates, ionogramme (potassium), créatinine",
+       "Glycémie > 2,5 g/l, cétones +++, pH < 7,30, bicarbonates < 18 mmol/l, trou anionique élevé",
+       "Doser le potassium avant l'insuline (risque d'hypokaliémie)"
+      ],
+      [
+       "Hypothyroïdie",
+       "TSH, puis T4 libre",
+       "TSH élevée + T4 libre basse (TSH élevée seule : forme fruste)",
+       "Grossesse : TSH cible < 2,5 mUI/l au 1er trimestre"
+      ],
+      [
+       "Hyperthyroïdie",
+       "TSH, T4 libre (± T3) ; échographie ; anticorps anti-récepteurs de la TSH",
+       "TSH effondrée (< 0,1) + T4 libre élevée",
+       "Goitre en zone de carence en iode : TSH et échographie"
+      ],
+      [
+       "Goutte",
+       "Acide urique (à distance de la crise), ponction du liquide articulaire si possible, créatinine",
+       "Cristaux d'urate dans le liquide ; acide urique > 60 mg/l",
+       "L'acide urique peut être normal pendant la crise"
+      ],
+      [
+       "Dyslipidémie",
+       "Bilan lipidique à jeun (cholestérol total, HDL, LDL, triglycérides)",
+       "Voir les valeurs normales ; objectif LDL selon le risque",
+       "Rechercher hypothyroïdie et diabète"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "digestif",
+   "titre": "Appareil digestif et foie",
+   "pictogramme": "estomac",
+   "couleur": "#6D4C41",
+   "intro": "Examens des maladies digestives, hépatiques et des urgences abdominales.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Examens selon la maladie",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Hépatite virale aiguë",
+       "ALAT, ASAT, bilirubine, TP ; AgHBs, IgM anti-HBc, IgM anti-VHA, anticorps anti-VHE ; anti-VHC",
+       "Transaminases > 10 fois la normale ; TP < 50 % = forme grave",
+       "Hépatite E grave chez la femme enceinte"
+      ],
+      [
+       "Cirrhose",
+       "NFS (plaquettes), TP, albumine, bilirubine, créatinine, sodium ; échographie ; ponction d'ascite si ascite",
+       "Plaquettes basses, TP bas, albumine basse ; écho : foie dysmorphique, ascite, splénomégalie",
+       "Liquide d'ascite > 250 polynucléaires/mm³ : infection (antibiotique)"
+      ],
+      [
+       "Abcès amibien du foie",
+       "Échographie abdominale, NFS, CRP, sérologie amibienne",
+       "Écho : image hypoéchogène du foie droit ; hyperleucocytose ; sérologie positive",
+       "Les selles sont souvent négatives"
+      ],
+      [
+       "Pancréatite aiguë",
+       "Lipase, NFS, CRP, créatinine, glycémie, calcium, triglycérides, bilan hépatique ; échographie",
+       "Lipase > 3 fois la normale ; écho : calculs biliaires",
+       "Chercher alcool, calculs, triglycérides élevés"
+      ],
+      [
+       "Appendicite, péritonite",
+       "NFS, CRP, bandelette urinaire, test de grossesse ; échographie",
+       "Hyperleucocytose, CRP élevée ; écho : appendice > 6 mm non compressible",
+       "Le diagnostic reste clinique : avis chirurgical"
+      ],
+      [
+       "Ulcère, Helicobacter pylori",
+       "Antigène de H. pylori dans les selles ou test respiratoire ; endoscopie si signes d'alarme ; NFS",
+       "Test positif : éradication ; anémie ferriprive possible",
+       "Arrêter l'IPP 2 semaines avant le test"
+      ],
+      [
+       "Hémorragie digestive",
+       "NFS, groupe sanguin et compatibilité, TP, urée, créatinine ; endoscopie",
+       "Hb basse (peut être normale au début) ; urée élevée (saignement haut)",
+       "Transfuser si Hb < 7 g/dl (< 8 si maladie cardiaque)"
+      ],
+      [
+       "Diarrhée, parasites intestinaux",
+       "Examen parasitologique des selles (3 échantillons) ; coproculture si sang ou fièvre ; test VIH si diarrhée chronique",
+       "Kystes ou trophozoïtes (amibes, giardia), œufs (ascaris, ankylostomes, trichocéphales) ; Shigella, Salmonella",
+       "Éosinophilie : helminthes"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "sang",
+   "titre": "Sang et anémies",
+   "pictogramme": "goutte",
+   "couleur": "#B71C1C",
+   "intro": "Devant une anémie, le VGM et les réticulocytes orientent vers la cause.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Examens selon la maladie",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Anémie ferriprive",
+       "NFS (Hb, VGM), ferritine, réticulocytes ; selles (ankylostomes, sang)",
+       "Hb basse, VGM < 80 fl, ferritine < 15–30 µg/l",
+       "Chercher la cause : saignements (règles, digestifs), vers, grossesse"
+      ],
+      [
+       "Anémie mégaloblastique",
+       "NFS, réticulocytes, vitamine B12, folates",
+       "VGM > 100 fl, réticulocytes bas, B12 ou folates bas",
+       "Ne pas donner l'acide folique seul si carence en B12"
+      ],
+      [
+       "Anémie hémolytique",
+       "NFS, réticulocytes, bilirubine libre, LDH, haptoglobine, test de Coombs, G6PD, frottis",
+       "Réticulocytes élevés, bilirubine libre et LDH élevées, haptoglobine effondrée",
+       "Déficit en G6PD : crise après primaquine, sulfamides, fèves"
+      ],
+      [
+       "Drépanocytose",
+       "Test de falciformation (Emmel), électrophorèse de l'hémoglobine (ou test rapide), NFS, réticulocytes",
+       "HbSS : HbS > 80 %, HbF variable, pas d'HbA ; Hb de base 6–9 g/dl ; réticulocytes élevés",
+       "Crise : NFS (séquestration splénique si Hb chute), radio du thorax (syndrome thoracique)"
+      ],
+      [
+       "Thrombopénie",
+       "NFS répétée sur tube citraté, frottis, TP, TCA, fibrinogène ; paludisme, VIH, dengue",
+       "Plaquettes < 150 000 ; < 20 000 avec saignement : urgence",
+       "Fausse thrombopénie possible sur tube EDTA (agrégats)"
+      ],
+      [
+       "Leucémie aiguë",
+       "NFS avec frottis sanguin, puis myélogramme",
+       "Blastes sur le frottis ; anémie, thrombopénie, globules blancs très hauts ou bas",
+       "Référer en hématologie"
+      ],
+      [
+       "Avant transfusion",
+       "Groupe sanguin ABO et Rhésus, test de compatibilité au lit du malade ; dépistage VIH, hépatites, syphilis du don",
+       "Compatibilité confirmée",
+       "Indication : Hb < 7 g/dl (enfant < 4 g/dl, ou < 6 g/dl avec signes de gravité)"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "grossesse",
+   "titre": "Grossesse",
+   "pictogramme": "grossesse",
+   "couleur": "#AD1457",
+   "intro": "Bilan prénatal de base (OMS) et examens des complications de la grossesse.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Bilan et complications",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Bilan prénatal (1re consultation)",
+       "Groupe sanguin et Rhésus, NFS ou Hb, test VIH, syphilis (TPHA/VDRL), AgHBs, glycémie, bandelette urinaire ; échographie avant 24 semaines",
+       "Hb ≥ 11 g/dl ; tests infectieux négatifs ; échographie : terme, nombre de fœtus, placenta",
+       "Rhésus négatif : anticorps irréguliers et anti-D à 28 semaines et après l'accouchement"
+      ],
+      [
+       "Anémie de la grossesse",
+       "Hb, NFS, ferritine ; goutte épaisse",
+       "Hb < 11 g/dl (sévère < 7 g/dl)",
+       "Fer + acide folique ; traiter le paludisme"
+      ],
+      [
+       "Diabète gestationnel",
+       "Glycémie à jeun au 1er trimestre ; HGPO 75 g entre 24 et 28 semaines si facteurs de risque",
+       "Glycémie à jeun ≥ 0,92 g/l, ou ≥ 1,80 g/l à 1 h, ou ≥ 1,53 g/l à 2 h",
+       "Glycémie à jeun ≥ 1,26 g/l : diabète préexistant"
+      ],
+      [
+       "Pré-éclampsie, HELLP",
+       "Bandelette urinaire (protéines), protéinurie des 24 h ; NFS (plaquettes), ASAT, ALAT, LDH, créatinine, acide urique ; échographie et doppler fœtaux",
+       "Protéinurie ≥ 300 mg/24 h ; HELLP : hémolyse (LDH > 600 UI/l), ASAT/ALAT > 2 fois la normale, plaquettes < 100 000",
+       "Plaquettes basses + transaminases élevées : extraction fœtale à discuter en urgence"
+      ],
+      [
+       "Grossesse extra-utérine",
+       "Test de grossesse (β-hCG), échographie pelvienne (endovaginale), Hb",
+       "β-hCG positive, utérus vide, masse latérale ou épanchement dans le Douglas",
+       "β-hCG > 1 500–2 000 UI/l et utérus vide : très suspect"
+      ],
+      [
+       "Rupture prématurée des membranes, chorioamniotite",
+       "Examen au spéculum (liquide), test à la nitrazine si disponible ; NFS, CRP ; ECBU, prélèvement vaginal",
+       "Liquide amniotique dans le vagin ; fièvre, hyperleucocytose, CRP élevée = infection",
+       "Pas de toucher vaginal répété"
+      ],
+      [
+       "Infection urinaire de la grossesse",
+       "Bandelette et ECBU à chaque trimestre",
+       "Bactériurie même sans symptômes = traiter",
+       "Contrôle par ECBU après traitement"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "enfant",
+   "titre": "Enfant et nouveau-né",
+   "pictogramme": "bebe",
+   "couleur": "#00838F",
+   "intro": "Examens utiles chez l'enfant malade et le nouveau-né ; prélever le minimum de sang nécessaire.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Examens selon la maladie",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Infection néonatale",
+       "NFS, CRP (à H0 puis H24–48), hémoculture, glycémie ; ponction lombaire si signes neurologiques ou hémoculture positive",
+       "Leucocytes < 5 000 ou > 25 000/mm³, CRP > 10 mg/l, thrombopénie",
+       "Une CRP normale à 24–48 h permet souvent d'arrêter les antibiotiques"
+      ],
+      [
+       "Ictère du nouveau-né",
+       "Bilirubine totale et conjuguée, groupe sanguin et Rhésus de la mère et de l'enfant, Coombs direct, NFS, réticulocytes ; G6PD",
+       "Bilirubine au-dessus de la courbe de photothérapie selon l'âge en heures ; Coombs positif = incompatibilité",
+       "Ictère dans les 24 premières heures ou bilirubine conjuguée élevée : pathologique"
+      ],
+      [
+       "Hypoglycémie du nouveau-né",
+       "Glycémie capillaire (dans les 2 h pour les nouveau-nés à risque)",
+       "Glycémie < 0,45 g/l (2,5 mmol/l)",
+       "À risque : faible poids, prématuré, mère diabétique, hypothermie"
+      ],
+      [
+       "Malnutrition aiguë sévère compliquée",
+       "Glycémie, Hb ou NFS, goutte épaisse, test VIH, bandelette urinaire, radio du thorax si toux ; ionogramme si disponible",
+       "Hypoglycémie, anémie, infections fréquentes (urines, poumon, tuberculose)",
+       "Pas de bilan qui retarde la prise en charge"
+      ],
+      [
+       "Déshydratation sévère",
+       "Ionogramme (sodium, potassium), créatinine, glycémie si disponible",
+       "Hypo- ou hypernatrémie, hypokaliémie, insuffisance rénale fonctionnelle",
+       "La réhydratation ne doit pas attendre les résultats"
+      ],
+      [
+       "Rhumatisme articulaire aigu, angine",
+       "Test de diagnostic rapide du streptocoque (si disponible) ; ASLO, VS, CRP, ECG, échographie cardiaque (RAA)",
+       "TDR positif ; ASLO élevés, VS et CRP élevées, allongement du PR ; écho : atteinte valvulaire",
+       "ASLO élevés seuls ne suffisent pas"
+      ],
+      [
+       "Retard de croissance, rachitisme",
+       "Courbes de croissance ; calcium, phosphore, phosphatases alcalines ; radiographie du poignet",
+       "Rachitisme : phosphatases alcalines élevées, calcium ou phosphore bas, métaphyses élargies",
+       "Penser au VIH, à la tuberculose, à la maladie cœliaque"
+      ]
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "respiratoire-neuro",
+   "titre": "Poumons, système nerveux et articulations",
+   "pictogramme": "poumons",
+   "couleur": "#4527A0",
+   "intro": "Examens des maladies respiratoires, neurologiques et rhumatologiques fréquentes.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Examens selon la maladie",
+     "colonnes": [
+      "Pathologie",
+      "Examens à demander",
+      "Résultats attendus",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Asthme",
+       "Débit expiratoire de pointe (DEP) avant et après salbutamol ; spirométrie si disponible ; SpO₂ en crise",
+       "Amélioration du DEP ou du VEMS ≥ 12 % après bronchodilatateur ; crise grave : DEP < 50 % de la valeur attendue, SpO₂ < 92 %",
+       "Radio seulement si doute (pneumonie, corps étranger, pneumothorax)"
+      ],
+      [
+       "BPCO",
+       "Spirométrie ; radiographie du thorax ; SpO₂ ; NFS",
+       "VEMS/CVF < 0,70 après bronchodilatateur",
+       "Arrêt du tabac, exposition à la fumée de bois"
+      ],
+      [
+       "Pleurésie",
+       "Radiographie du thorax, échographie ; ponction pleurale (aspect, protéines, LDH, cellules, glucose, Gram, GeneXpert, ADA)",
+       "Exsudat (protéines > 30 g/l) à lymphocytes : tuberculose fréquente ; liquide purulent : empyème (drainage)",
+       "VIH : tuberculose très probable"
+      ],
+      [
+       "Épilepsie, convulsions",
+       "Glycémie, calcium, sodium ; goutte épaisse ; ponction lombaire si fièvre ; EEG et scanner selon le contexte",
+       "Recherche d'une cause aiguë (hypoglycémie, paludisme, méningite, hyponatrémie)",
+       "Une première crise de l'adulte justifie une imagerie"
+      ],
+      [
+       "Méningite tuberculeuse ou cryptococcique",
+       "Ponction lombaire : cellules, protéines, glucose, encre de Chine ou antigène cryptococcique (CrAg), GeneXpert Ultra",
+       "Tuberculose : LCR clair à lymphocytes, protéines élevées, glucose bas ; cryptocoque : CrAg positif, pression d'ouverture élevée",
+       "CrAg sérique chez tout adulte VIH avec CD4 < 200"
+      ],
+      [
+       "Arthrite septique",
+       "Ponction articulaire (cellules, Gram, culture) avant antibiotique ; NFS, CRP, hémoculture ; radiographie",
+       "Liquide trouble, > 50 000 éléments/mm³ à polynucléaires, germe au Gram (staphylocoque)",
+       "Drépanocytaire : salmonelle possible"
+      ],
+      [
+       "Polyarthrite rhumatoïde",
+       "VS, CRP, facteur rhumatoïde, anticorps anti-CCP ; radiographies des mains et des pieds",
+       "Anti-CCP positifs (très spécifiques), syndrome inflammatoire, érosions osseuses",
+       "Avis spécialisé tôt"
+      ]
+     ],
+     "note": ""
     }
    ]
   }
