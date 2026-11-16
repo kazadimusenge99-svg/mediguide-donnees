@@ -150,3 +150,5 @@ table.tab td:first-child { font-weight: 600; }
 .ex-fig img { width: 100%; height: 230px; object-fit: contain; background: #000; border-radius: 8px; display: block; }
 .ex-fig figcaption { font-size: .82em; margin-top: 4px; }
 .ex-fig figcaption span { opacity: .65; font-size: .92em; }
+
+.etiquette { display: inline-block; color: #fff; font-size: .78em; font-weight: 700; padding: 2px 8px; border-radius: 10px; margin: 2px 4px 2px 0; }

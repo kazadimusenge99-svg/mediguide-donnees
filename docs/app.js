@@ -67,6 +67,7 @@ async function demarrer() {
     (maj ? `<br>Vérifié le ${new Date(maj).toLocaleDateString("fr-FR")}` : "") + (navigator.onLine ? "" : "<br>Hors connexion");
   window.addEventListener("hashchange", router);
   router();
+  setTimeout(prechargerImages, 4000);
 }
 
 // ---------------------------------------------------------------------------
@@ -136,7 +137,7 @@ function preparer() {
   const L = (a) => (a || []).join(" ");
   IDX = {
     med: (m, plusieurs) => [[decouper(m.dci), 10], [decouper(m.noms), 9], [decouper(m.motsCles), 6], [decouper(m.famille), 5], [decouper(L(m.indications)), 4]],
-    patho: (p, plusieurs) => [[decouper(p.nom), plusieurs ? 7 : 10], [decouper(p.synonymes), 7], [decouper(L(p.signes)), plusieurs ? 6 : 4], [decouper(p.resume), 2.5], [decouper(L(p.diagnostic)), 1]],
+    patho: (p, plusieurs) => [[decouper(p.nom), plusieurs ? 7 : 10], [decouper(p.synonymes), 7], [decouper(L(p.signes)), plusieurs ? 6 : 4], [decouper(p.resume), 2.5], [decouper(L(p.diagnostic)), 1], [decouper((p.paraclinique || []).map((e) => e.examen).join(" ")), 1]],
     sympt: (s) => [[decouper(s.nom), 10], [decouper((s.orientations || []).map((o) => o.indice).join(" ")), 4], [decouper(s.resume), 3]],
   };
 }
@@ -184,7 +185,7 @@ function router() {
   if (route !== "recherche") $("#champRecherche").value = "";
   const r = decodeURIComponent(a), r2 = decodeURIComponent(b);
   const vues = { accueil, recherche, sujet, medicaments, med: medicaments, pathologies, patho: pathologies, symptomes, sympt: symptomes,
-    dispensaire, disp: dispensaire, examens, exam: examens, croissance, quiz, protocoles, proto: protocoles, scores, score: scores, cas, apropos };
+    dispensaire, disp: dispensaire, examens, exam: examens, croissance, quiz, protocoles, proto: protocoles, scores, score: scores, cas, apropos, interactions, patient };
   (vues[route] || accueil)(route, r, r2);
   if (route !== "recherche") window.scrollTo(0, 0);
 }
@@ -215,7 +216,9 @@ function accueil() {
     ["#/protocoles", "🚨", "Protocoles d'urgence", `${(D.protocoles || []).length} protocoles`, "#B71C1C"],
     ["#/scores", "🧮", "Scores médicaux", `${(D.scores || []).length} scores`, "#4527A0"],
     ["#/croissance", "📈", "Courbes de croissance", "OMS et Fenton", "#2E7D32"],
-    ["#/quiz", "❓", "Quiz", `${(D.quiz || []).length} questions`, "#AD1457"],
+    ["#/interactions", "⚠️", "Interactions", "Vérifier une association", "#E65100"],
+    ["#/patient", "🧑", "Patient en cours", "Poids, âge, valeurs normales", "#37474F"],
+    ["#/quiz", "❓", "Quiz", `${(D.quiz || []).length + ((D.quizImages || {}).questions || []).length} questions, dont images`, "#AD1457"],
     ["#/cas", "🎓", "Cas cliniques", `${(CAS.casCliniques || []).length} cas`, "#6D4C41"],
   ];
   contenu.innerHTML = `
@@ -238,7 +241,19 @@ function recherche(_r, q) {
   contenu.innerHTML = `<h1>Résultats pour « ${esc(q)} »</h1><p class="sous">Classés du plus probable au moins probable.</p>` +
     [[pa, () => bloc("Pathologies", pa, (r) => lignePatho(r.e, null, r.niveau)), 2], [me, () => bloc("Médicaments", me, (r) => ligneMed(r.e)), 1], [sy, () => bloc("Symptômes", sy, (r) => ligneSympt(r.e)), 0]]
       .sort((a, b) => ((b[0][0]?.n || 0) - (a[0][0]?.n || 0)) || ((b[0][0]?.s || 0) - (a[0][0]?.s || 0)) || b[2] - a[2]).map((x) => x[1]()).join("") +
+    examensTrouves(q) +
     (!pa.length && !me.length && !sy.length ? `<p>Aucun résultat. Essayez un autre mot (nom commercial, DCI, symptôme).</p>` : "");
+}
+
+const sansAccent = (t) => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+function examensTrouves(q) {
+  const ms = sansAccent(q).split(/\s+/).filter((m) => m.length >= 3);
+  if (!ms.length) return "";
+  const res = [];
+  (D.examens || []).forEach((c) => c.blocs.forEach((b) => (b.lignes || []).forEach((l) => { const t = sansAccent(l.join(" ")); if (ms.every((m) => t.includes(m))) res.push({ c, b, l }); })));
+  if (!res.length) return "";
+  return `<h2>Examens paracliniques (${res.length})</h2>` + res.slice(0, 12).map(({ c, b, l }) => `<p class="petit" style="margin:10px 0 2px"><a href="#/exam/${encodeURIComponent(c.id)}">${esc(c.titre)}</a> › ${esc(b.titre || "")}</p>` +
+    blocDisp({ type: "tableau", titre: "", colonnes: b.colonnes, lignes: [l] }, c.couleur, false)).join("");
 }
 
 // ---------------------------------------------------------------------------
@@ -263,21 +278,45 @@ const liste = (titre, arr, ico, cls = "") => arr && arr.length ? `<div class="se
 // ---------------------------------------------------------------------------
 // Médicaments
 // ---------------------------------------------------------------------------
-let filtreMed = "", classeMed = "";
+let filtreMed = "", classeMed = "", grossesseMed = false;
+const GROSSESSE = { ok: ["Utilisable pendant la grossesse", "var(--ok)"], prudence: ["Grossesse : prudence (selon le trimestre ou si nécessaire)", "var(--attention)"],
+  eviter: ["Grossesse : à éviter", "var(--danger)"], ci: ["Grossesse : contre-indiqué", "var(--danger)"] };
+const badgeGrossesse = (m) => GROSSESSE[m.grossesseStatut] ? `<span class="etiquette" style="background:${GROSSESSE[m.grossesseStatut][1]}">🤰 ${GROSSESSE[m.grossesseStatut][0]}</span>` : "";
+function reglesEntre(g1, g2) {
+  return ((D.interactions || {}).regles || []).filter((r) => (g1.includes(r.a) && g2.includes(r.b)) || (g1.includes(r.b) && g2.includes(r.a)));
+}
+const GRAV = { ci: ["Contre-indiquée", "var(--danger)"], majeure: ["À éviter ou à adapter", "#E65100"], prudence: ["Précaution", "var(--attention)"] };
+function carteInteraction(r, titre) {
+  const [lib, coul] = GRAV[r.gravite] || GRAV.prudence;
+  return `<div class="section" style="border-left:5px solid ${coul}"><div><span class="etiquette" style="background:${coul}">${lib}</span> <b>${titre}</b></div>
+    <div style="margin-top:4px">${esc(r.effet)}</div><div style="margin-top:4px"><b>Conduite :</b> ${esc(r.conduite)}</div></div>`;
+}
+function interactionsDuMed(m) {
+  const g = m.groupesInteraction || [], G = (D.interactions || {}).groupes || {};
+  const rs = ((D.interactions || {}).regles || []).filter((r) => g.includes(r.a) || g.includes(r.b));
+  if (!rs.length) return "";
+  const ordre = { ci: 0, majeure: 1, prudence: 2 };
+  rs.sort((x, y) => ordre[x.gravite] - ordre[y.gravite]);
+  return `<div class="section"><h3>⚠️ Interactions à connaître (${rs.length})</h3>${rs.map((r) => carteInteraction(r, "avec : " + esc(G[g.includes(r.a) ? r.b : r.a] || ""))).join("")}
+    <p class="petit"><a href="#/interactions">Vérifier une association précise →</a></p></div>`;
+}
+const blocNote = (cle) => `<div class="section"><h3>📝 Mes notes</h3><textarea data-note="${esc(cle)}" rows="3" placeholder="Note personnelle (protocole du service, produit disponible…). Enregistrée sur cet appareil uniquement." style="width:100%;box-sizing:border-box;padding:8px;border-radius:8px;border:1px solid #bbb;font:inherit">${esc(sto.get("note-" + cle, ""))}</textarea></div>`;
+document.addEventListener("input", (e) => { const c = e.target?.dataset?.note; if (c) sto.set("note-" + c, e.target.value); });
 function medicaments(route, id) {
   const m = route === "med" ? D.medicaments.find((x) => String(x.id) === id) : null;
   const ms = mots(filtreMed);
-  let l = D.medicaments.filter((x) => !classeMed || x.classe === classeMed);
+  let l = D.medicaments.filter((x) => (!classeMed || x.classe === classeMed) && (!grossesseMed || x.grossesseStatut === "ok"));
   l = ms.length ? rechMed(ms, l).map((r) => r.e) : l;
   contenu.innerHTML = `<div class="deux${m ? " avec-detail" : ""}"><div class="col-liste">
       <h1>Médicaments</h1><p class="sous">${l.length} fiches</p>
       <input class="filtre" id="fMed" placeholder="Filtrer (DCI, nom commercial, famille, indication)…" value="${esc(filtreMed)}">
-      <div class="puces"><button class="puce${classeMed ? "" : " actif"}" data-c="">Toutes</button>${D.classes.map((c) => `<button class="puce${classeMed === c.id ? " actif" : ""}" data-c="${esc(c.id)}">${esc(c.icone)} ${esc(c.nom)}</button>`).join("")}</div>
+      <div class="puces"><button class="puce${grossesseMed ? " actif" : ""}" id="pGross">🤰 Utilisables pendant la grossesse</button><button class="puce${classeMed ? "" : " actif"}" data-c="">Toutes</button>${D.classes.map((c) => `<button class="puce${classeMed === c.id ? " actif" : ""}" data-c="${esc(c.id)}">${esc(c.icone)} ${esc(c.nom)}</button>`).join("")}</div>
       <div class="liste">${l.map((x) => ligneMed(x, m && x.id === m.id)).join("")}</div></div>
     <div>${m ? ficheMed(m) : `<div class="fiche"><p class="sous">Choisissez un médicament dans la liste.</p></div>`}</div></div>`;
   const f = $("#fMed");
   f.addEventListener("input", () => { filtreMed = f.value; medicaments(route, id); const g = $("#fMed"); g.focus(); g.setSelectionRange(g.value.length, g.value.length); });
-  contenu.querySelectorAll(".puce").forEach((b) => b.addEventListener("click", () => { classeMed = b.dataset.c; medicaments(route, id); }));
+  contenu.querySelectorAll(".puce[data-c]").forEach((b) => b.addEventListener("click", () => { classeMed = b.dataset.c; medicaments(route, id); }));
+  $("#pGross").addEventListener("click", () => { grossesseMed = !grossesseMed; medicaments(route, id); });
 }
 
 function blocCalcul(c) {
@@ -311,9 +350,11 @@ function ficheMed(m) {
     ${liste("Contre-indications", m.contreIndications, "⛔", "danger")}
     ${liste("Précautions", m.precautions, "⚠️")}
     ${liste("Effets indésirables", m.effetsIndesirables, "💢")}
-    ${m.grossesse ? `<div class="section"><h3>🤰 Grossesse et allaitement</h3><div>${esc(m.grossesse)}</div></div>` : ""}
+    ${m.grossesse ? `<div class="section"><h3>🤰 Grossesse et allaitement</h3>${badgeGrossesse(m)}<div>${esc(m.grossesse)}</div></div>` : ""}
+    ${interactionsDuMed(m)}
     ${(m.marquesRdc || []).length ? `<div class="section"><h3>🇨🇩 Noms commerciaux autorisés en RDC (${m.marquesRdc.length})</h3><div class="liens">${m.marquesRdc.map((x) => `<span class="lien">${esc(x)}</span>`).join("")}</div><div class="petit" style="margin-top:6px">Source : répertoire des AMM de l'ACOREP (février 2026). Vérifier le dosage sur la boîte.</div></div>` : ""}
     ${pathos.length ? `<div class="section"><h3>🩺 Utilisé dans</h3><div class="liens">${pathos.map((p) => `<a class="lien" href="#/patho/${p.id}">${esc(p.nom)}</a>`).join("")}</div></div>` : ""}
+    ${blocNote("med-" + m.id)}
   </div>`;
 }
 
@@ -369,6 +410,7 @@ function fichePatho(p) {
     ${liste("Signes de gravité", p.gravite, "🚩", "danger")}
     ${liste("Prévention", p.prevention, "🛡️")}
     ${meds.length ? `<div class="section"><h3>💊 Médicaments</h3><div class="liens">${meds.map((m) => `<a class="lien" href="#/med/${m.id}">${esc(m.dci)}</a>`).join("")}</div></div>` : ""}
+    ${blocNote("patho-" + p.id)}
   </div>`;
 }
 
@@ -519,6 +561,10 @@ const CHAMPS_F = {
   ckdepi: [["a", "Âge (ans)"], ["c", "Créatinine (µmol/l)"], ["s", "Sexe"]],
   calcemie: [["a", "Calcémie mesurée (mmol/l)"], ["b", "Albumine (g/l)"]],
   trouanionique: [["a", "Sodium Na⁺ (mmol/l)"], ["b", "Chlore Cl⁻ (mmol/l)"], ["c", "Bicarbonates HCO₃⁻ (mmol/l)"]],
+  qtc: [["a", "QT mesuré (ms)"], ["b", "Fréquence cardiaque (/min)"], ["s", "Sexe"]],
+  schwartz: [["a", "Taille (cm)"], ["c", "Créatinine (µmol/l)"]],
+  saag: [["a", "Albumine du sérum (g/l)"], ["b", "Albumine de l'ascite (g/l)"]],
+  osmolarite: [["a", "Sodium Na⁺ (mmol/l)"], ["b", "Glycémie (mmol/l)"], ["c", "Urée (mmol/l)"], ["d", "Osmolarité mesurée (mOsm/l, facultatif)"]],
 };
 function formule(id) {
   return (CHAMPS_F[id] || []).map(([k, l]) => k === "s"
@@ -540,10 +586,118 @@ function brancherFormule(id) {
     if (id === "ckdepi" && a > 0 && c > 0) { const scr = c / 88.4, k = f ? 0.7 : 0.9, al = f ? -0.241 : -0.302; const x = 142 * Math.min(scr / k, 1) ** al * Math.max(scr / k, 1) ** -1.2 * 0.9938 ** a * (f ? 1.012 : 1); const [t, n] = stadeRenal(x); r = [fmt(x), "ml/min/1,73 m²", t, n]; }
     if (id === "calcemie" && a > 0 && b > 0) { const x = a + 0.02 * (40 - b); r = [fmt(x), "mmol/l", ...(x < 1.9 ? ["Hypocalcémie sévère", "danger"] : x < 2.2 ? ["Hypocalcémie", "attention"] : x <= 2.6 ? ["Calcémie normale", "ok"] : x < 3 ? ["Hypercalcémie", "attention"] : ["Hypercalcémie sévère (urgence)", "danger"])]; }
     if (id === "trouanionique" && a > 0 && b != null && c != null) { const x = a - (b + c); r = [fmt(x), "mmol/l", ...(x > 16 ? ["Trou anionique élevé : acidocétose, acidose lactique, insuffisance rénale, intoxication", "danger"] : x < 8 ? ["Trou anionique bas (hypoalbuminémie fréquente)", "attention"] : ["Trou anionique normal (si acidose : perte digestive ou rénale de bicarbonates)", "ok"])]; }
+    const d = v("d");
+    if (id === "qtc" && a > 0 && b > 20) { const x = a / Math.sqrt(60 / b), lim = f ? 460 : 440; r = [fmt(Math.round(x)), "ms", ...(x > 500 ? ["QT très allongé : risque de torsades de pointes — arrêter les médicaments en cause, corriger potassium et magnésium", "danger"] : x > lim ? ["QT allongé : éviter les médicaments qui allongent le QT, contrôler l'ECG", "attention"] : ["QT corrigé normal", "ok"])]; }
+    if (id === "schwartz" && a > 30 && c > 0) { const x = 36.5 * a / c; const [t, n] = stadeRenal(x); r = [fmt(x), "ml/min/1,73 m²", t + " (enfant de 1 à 17 ans)", n]; }
+    if (id === "saag" && a > 0 && b != null && b >= 0) { const x = a - b; r = [fmt(x), "g/l", ...(x >= 11 ? ["Gradient élevé : hypertension portale (cirrhose, insuffisance cardiaque)", "attention"] : ["Gradient bas : tuberculose péritonéale, cancer, syndrome néphrotique, pancréatite", "attention"])]; }
+    if (id === "osmolarite" && a > 0 && b != null && c != null) { const x = 2 * a + b + c; const trou = d > 0 ? d - x : null; r = [fmt(Math.round(x)), "mOsm/l" + (trou != null ? ` · trou osmolaire ${fmt(Math.round(trou))}` : ""), ...(trou != null && trou > 10 ? ["Trou osmolaire élevé : méthanol, éthylène glycol, éthanol, mannitol", "danger"] : x > 320 ? ["Hyperosmolarité sévère (coma hyperosmolaire)", "danger"] : x > 295 ? ["Hyperosmolarité", "attention"] : x < 275 ? ["Hypo-osmolarité (hyponatrémie)", "attention"] : ["Osmolarité normale", "ok"])]; }
     $("#resF").innerHTML = r ? `<div class="resultat" style="background:${COUL[r[3]]}"><b style="font-size:20px">${r[0]} ${r[1]}</b><div>${esc(r[2])}</div></div>` : "";
   };
   contenu.querySelectorAll("input,select").forEach((x) => x.addEventListener("input", calc));
   calc();
+}
+
+// ---------------------------------------------------------------------------
+// Interactions médicamenteuses et grossesse
+// ---------------------------------------------------------------------------
+let filtreInter = "";
+function interactions() {
+  const ids = sto.get("inter", []);
+  const choisis = ids.map((i) => D.medicaments.find((m) => m.id === i)).filter(Boolean);
+  const alertes = [];
+  for (let i = 0; i < choisis.length; i++) for (let j = i + 1; j < choisis.length; j++)
+    reglesEntre(choisis[i].groupesInteraction || [], choisis[j].groupesInteraction || []).forEach((r) => alertes.push([r, choisis[i], choisis[j]]));
+  const ordre = { ci: 0, majeure: 1, prudence: 2 };
+  alertes.sort((x, y) => ordre[x[0].gravite] - ordre[y[0].gravite]);
+  const ms = mots(filtreInter);
+  const prop = ms.length ? rechMed(ms).map((r) => r.e).filter((m) => !ids.includes(m.id)).slice(0, 8) : [];
+  contenu.innerHTML = `<h1>⚠️ Interactions médicamenteuses</h1><p class="sous">Choisissez 2 médicaments ou plus : l'application signale les associations dangereuses et le statut pendant la grossesse.</p>
+    <input class="filtre" id="fInter" placeholder="Ajouter un médicament (DCI ou nom commercial)…" value="${esc(filtreInter)}">
+    <div class="liste">${prop.map((m) => `<a class="ligne" href="javascript:void 0" data-add="${m.id}"><span class="ico" style="background:var(--surface2)">➕</span><span class="txt"><b>${esc(m.dci)}</b><span>${esc(m.noms || "")}</span></span></a>`).join("")}</div>
+    <div class="liens" style="margin:12px 0">${choisis.map((m) => `<span class="lien">${esc(m.dci)} <a href="javascript:void 0" data-del="${m.id}" title="Retirer">✕</a></span>`).join("")}</div>
+    ${choisis.length >= 2 ? (alertes.length ? `<h2>${alertes.length} interaction${alertes.length > 1 ? "s" : ""} à connaître</h2>` + alertes.map(([r, a, b]) => carteInteraction(r, esc(a.dci) + " + " + esc(b.dci))).join("")
+      : `<div class="section ok"><b>Aucune interaction majeure répertoriée entre ces médicaments.</b></div>`) : `<p class="sous">Ajoutez au moins deux médicaments.</p>`}
+    ${choisis.length ? `<h2>🤰 Pendant la grossesse</h2>` + choisis.map((m) => `<div class="section"><b><a href="#/med/${m.id}">${esc(m.dci)}</a></b> ${badgeGrossesse(m)}<div>${esc(m.grossesse || "")}</div></div>`).join("") : ""}
+    <p class="petit" style="margin-top:16px">${esc((D.interactions || {}).note || "")}</p>
+    ${choisis.length ? `<button class="bouton second" id="viderInter">Tout effacer</button>` : ""}`;
+  const f = $("#fInter");
+  f.addEventListener("input", () => { filtreInter = f.value; interactions(); const g = $("#fInter"); g.focus(); g.setSelectionRange(g.value.length, g.value.length); });
+  contenu.querySelectorAll("[data-add]").forEach((b) => b.addEventListener("click", () => { sto.set("inter", [...ids, +b.dataset.add]); filtreInter = ""; interactions(); }));
+  contenu.querySelectorAll("[data-del]").forEach((b) => b.addEventListener("click", () => { sto.set("inter", ids.filter((i) => i !== +b.dataset.del)); interactions(); }));
+  $("#viderInter")?.addEventListener("click", () => { sto.set("inter", []); interactions(); });
+}
+
+// ---------------------------------------------------------------------------
+// Patient en cours : poids, âge et valeurs normales selon l'âge
+// ---------------------------------------------------------------------------
+function patient() {
+  const ans = nombre(sto.get("age-ans", "")), mois = nombre(sto.get("age-mois", ""));
+  const total = ans == null && mois == null ? null : (ans || 0) * 12 + (mois || 0);
+  const n = total == null ? null : (D.normesAge || []).find((x) => total >= x.moisMin && total < x.moisMax);
+  contenu.innerHTML = `<h1>🧑 Patient en cours</h1><p class="sous">Le poids sert au calcul des doses ; l'âge affiche les valeurs normales correspondantes. Rien n'est envoyé : ces données restent sur cet appareil.</p>
+    <div class="fiche"><label class="champ">Poids (kg)<input id="pPoids" inputmode="decimal" value="${esc(sto.get("poids", ""))}"></label>
+    <label class="champ">Âge : années<input id="pAns" inputmode="numeric" value="${esc(sto.get("age-ans", ""))}"></label>
+    <label class="champ">Âge : mois (en plus)<input id="pMois" inputmode="numeric" value="${esc(sto.get("age-mois", ""))}"></label>
+    <button class="bouton second" id="pEffacer">Effacer le patient</button></div>
+    ${n ? `<h2>Valeurs normales : ${esc(n.libelle)}</h2><div class="fiche"><table class="tab"><tbody>${n.valeurs.map(([k, v]) => `<tr><th style="text-align:left">${esc(k)}</th><td>${esc(v)}</td></tr>`).join("")}</tbody></table></div>
+      <p class="petit">Repères OMS/PCIME et biologie pédiatrique usuelle. Voir aussi <a href="#/disp/signes-vitaux">Signes vitaux normaux</a> et <a href="#/exam/valeurs-enfant">Valeurs normales de l'enfant</a>.</p>`
+      : `<p class="sous">Saisissez l'âge pour afficher les signes vitaux et les valeurs biologiques normales.</p>`}`;
+  const maj = (id, cle) => $(id).addEventListener("change", () => { sto.set(cle, $(id).value.trim()); const ch = $("#poids"); if (ch && cle === "poids") ch.value = $(id).value.trim(); patient(); });
+  maj("#pPoids", "poids"); maj("#pAns", "age-ans"); maj("#pMois", "age-mois");
+  $("#pEffacer").addEventListener("click", () => { ["poids", "age-ans", "age-mois"].forEach((k) => sto.set(k, "")); const ch = $("#poids"); if (ch) ch.value = ""; patient(); });
+}
+
+// ---------------------------------------------------------------------------
+// Quiz d'images
+// ---------------------------------------------------------------------------
+function quizImages(groupe) {
+  const Q = (D.quizImages || {}).questions || [], Gs = (D.quizImages || {}).groupes || [];
+  const melange = (a) => a.map((x) => [Math.random(), x]).sort((x, y) => x[0] - y[0]).map((x) => x[1]);
+  const qs = melange(groupe && groupe !== "tout" ? Q.filter((q) => q.groupe === groupe) : Q).slice(0, 10);
+  let i = 0, bons = 0;
+  const cle = "images-" + (groupe || "tout");
+  const rendre = () => {
+    const q = qs[i];
+    if (!q) {
+      const pc = Math.round(bons / Math.max(qs.length, 1) * 100);
+      const m = sto.get("quiz-scores", {}); if (m[cle] == null || pc > m[cle]) { m[cle] = pc; sto.set("quiz-scores", m); }
+      contenu.innerHTML = `<p><a href="#/quiz">← Quiz</a></p><div class="fiche" style="text-align:center"><h1>${pc >= 80 ? "🏆" : pc >= 50 ? "👍" : "📚"} ${bons} / ${qs.length}</h1>
+        <button class="bouton" id="rejouer">Rejouer</button> <a class="bouton second" href="#/quiz">Autres quiz</a></div>`;
+      $("#rejouer").addEventListener("click", () => quizImages(groupe));
+      return;
+    }
+    const memes = [...new Set(Q.filter((x) => x.groupe === q.groupe && x.reponse !== q.reponse).map((x) => x.reponse))];
+    const autres = [...new Set(Q.filter((x) => x.groupe !== q.groupe).map((x) => x.reponse))];
+    const options = melange([q.reponse, ...melange(memes).concat(melange(autres)).slice(0, 3)]);
+    contenu.innerHTML = `<p><a href="#/quiz">← Quiz</a> · Images · ${esc(Gs.find((g) => g.id === q.groupe)?.nom || "")}</p><div class="fiche">
+      <div class="petit">Image ${i + 1} / ${qs.length} · score ${bons}</div><h2 style="margin-top:8px">Quel est le diagnostic ?</h2>
+      <img id="imgQ" src="img/quiz/${encodeURIComponent(q.image)}.webp" alt="Image à reconnaître" style="width:100%;max-width:640px;max-height:60vh;object-fit:contain;background:#000;border-radius:8px;display:block;margin:8px 0">
+      ${options.map((o) => `<button class="choix" data-o="${esc(o)}">${esc(o)}</button>`).join("")}<div id="expl"></div></div>`;
+    contenu.querySelectorAll("[data-o]").forEach((b) => b.addEventListener("click", () => {
+      contenu.querySelectorAll("[data-o]").forEach((x) => { x.disabled = true; if (x.dataset.o === q.reponse) x.classList.add("bon"); });
+      const ok = b.dataset.o === q.reponse; if (ok) bons++; else b.classList.add("faux");
+      $("#imgQ").src = IMG_EXAMEN(q.image);
+      $("#expl").innerHTML = `<p>${ok ? "✅ <b>Bonne réponse.</b>" : "❌ <b>Réponse : " + esc(q.reponse) + ".</b>"} ${esc((D.legendesImages || {})[q.image] || "")} — les signes sont fléchés sur l'image.</p>
+        <button class="bouton" id="suiv">${i + 1 < qs.length ? "Image suivante" : "Voir le résultat"}</button>`;
+      $("#suiv").addEventListener("click", () => { i++; rendre(); window.scrollTo(0, 0); });
+    }));
+  };
+  rendre();
+}
+
+// ---------------------------------------------------------------------------
+// Images disponibles hors connexion : préchargement en arrière-plan (mis en cache par le service worker)
+// ---------------------------------------------------------------------------
+async function prechargerImages() {
+  if (!navigator.onLine || !("caches" in window) || sto.get("images-version", 0) === D.version) return;
+  const noms = new Set();
+  D.pathologies.forEach((p) => (p.paraclinique || []).forEach((e) => (e.images || (e.image ? [e.image] : [])).forEach((n) => noms.add("img/examens/" + n + ".webp"))));
+  ((D.quizImages || {}).questions || []).forEach((q) => noms.add("img/quiz/" + q.image + ".webp"));
+  let echecs = 0;
+  for (const u of noms) {
+    try { if (!(await caches.match(u))) { const r = await fetch(u); if (!r.ok) echecs++; } } catch { echecs++; }
+  }
+  if (!echecs) sto.set("images-version", D.version);
 }
 
 // ---------------------------------------------------------------------------
@@ -726,13 +880,16 @@ async function croissance() {
 // ---------------------------------------------------------------------------
 // Quiz
 // ---------------------------------------------------------------------------
-function quiz(_r, theme) {
+function quiz(_r, theme, sous) {
+  if (theme === "images") return quizImages(sous);
   const themes = D.themesQuiz || [];
   const th = themes.find((t) => t.id === theme);
   if (!theme) {
     const meilleur = sto.get("quiz-scores", {});
     contenu.innerHTML = `<h1>❓ Quiz</h1><p class="sous">${(D.quiz || []).length} questions pour réviser, par thème</p>
       <div class="grille"><a class="tuile" href="#/quiz/tout"><span class="ico" style="background:#00695C22">🎲</span><b>Tous les thèmes</b><span class="petit">10 questions au hasard</span></a>
+      <a class="tuile" href="#/quiz/images/tout"><span class="ico" style="background:#4527A022">🖼️</span><b>Quiz d'images</b><span class="petit">ECG, radios, lames… ${((D.quizImages || {}).questions || []).length} images${meilleur["images-tout"] != null ? ` · meilleur score ${meilleur["images-tout"]} %` : ""}</span></a>
+      ${((D.quizImages || {}).groupes || []).map((g) => `<a class="tuile" href="#/quiz/images/${encodeURIComponent(g.id)}"><span class="ico" style="background:#4527A022">🖼️</span><b>Images : ${esc(g.nom)}</b><span class="petit">${D.quizImages.questions.filter((q) => q.groupe === g.id).length} images</span></a>`).join("")}
       ${themes.map((t) => { const n = D.quiz.filter((q) => q.theme === t.id).length; return n ? `<a class="tuile" href="#/quiz/${encodeURIComponent(t.id)}"><span class="ico" style="background:${esc(t.couleur)}22">${esc(t.icone)}</span><b>${esc(t.nom)}</b><span class="petit">${n} questions${meilleur[t.id] != null ? ` · meilleur score ${meilleur[t.id]} %` : ""}</span></a>` : ""; }).join("")}</div>`;
     return;
   }
