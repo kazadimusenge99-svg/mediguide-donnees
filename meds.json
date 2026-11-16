@@ -1,5 +1,5 @@
 {
- "version": 90,
+ "version": 91,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -10538,9 +10538,7 @@
     "Sayana Press"
    ],
    "grossesseStatut": "eviter",
-   "groupesInteraction": [
-    "contraception"
-   ]
+   "groupesInteraction": []
   },
   {
    "id": 178,
@@ -21317,9 +21315,7 @@
    "famille": "Contraception hormonale progestative",
    "mecanisme": "Libère localement un progestatif qui épaissit la glaire et amincit l'endomètre : contraception de 5 à 8 ans et réduction des règles abondantes.",
    "grossesseStatut": "eviter",
-   "groupesInteraction": [
-    "contraception"
-   ]
+   "groupesInteraction": []
   },
   {
    "id": 402,
