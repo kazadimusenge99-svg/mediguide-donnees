@@ -1,5 +1,5 @@
 {
- "version": 91,
+ "version": 92,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -9496,7 +9496,8 @@
     "Toux sèche rebelle (rare)"
    ],
    "posologieAdulte": [
-    "30 à 60 mg toutes les 4 à 6 h (max 240 mg/jour), associé au paracétamol"
+    "30 à 60 mg toutes les 4 à 6 h (max 240 mg/jour), associé au paracétamol",
+    "Toux sèche rebelle (adulte) : 15 à 30 mg 3 à 4 fois par jour, maximum 120 mg par jour, quelques jours seulement (préférer le dextrométhorphane)"
    ],
    "posologieEnfant": [
     "Contre-indiquée avant 12 ans et après amygdalectomie chez l'adolescent (dépression respiratoire mortelle chez les métaboliseurs rapides)"
@@ -9520,7 +9521,7 @@
     "Dépression respiratoire (surdosage)"
    ],
    "grossesse": "À éviter en fin de grossesse ; contre-indiquée pendant l'allaitement.",
-   "motsCles": "douleur, antalgique palier 2, toux, klipal codéine, paraco denk",
+   "motsCles": "douleur, antalgique palier 2, toux, klipal codéine, paraco denk, antitussif, antitussifs",
    "famille": "Opioïde faible",
    "mecanisme": "Agoniste faible des récepteurs opioïdes μ (et, pour le tramadol, inhibiteur de la recapture de la sérotonine et de la noradrénaline) : antalgique de palier 2.",
    "marquesRdc": [
@@ -26566,7 +26567,7 @@
     "Réactions allergiques, rarement graves"
    ],
    "grossesse": "Éviter au 1er trimestre et pendant l'allaitement.",
-   "motsCles": "ambroxol, sekrol, mucosolvan, toux grasse, expectorant, mucolytique, bronchite, ambrovie, broly adulte, broly enfant, tossego",
+   "motsCles": "ambroxol, sekrol, mucosolvan, toux grasse, expectorant, mucolytique, bronchite, ambrovie, broly adulte, broly enfant, tossego, toux, sirop toux, pas un antitussif",
    "famille": "Mucolytique",
    "mecanisme": "Métabolite de la bromhexine : fluidifie le mucus bronchique et stimule la production de surfactant et le battement des cils.",
    "calculs": [],
@@ -26612,7 +26613,7 @@
     "Réactions allergiques, rarement cutanées graves"
    ],
    "grossesse": "Éviter au 1er trimestre et pendant l'allaitement.",
-   "motsCles": "bromhexine, bisolvon, toux grasse, mucolytique, expectorant, bromovan, muco-asthalin expectorant, mucoril expectorant, toux conquer, touxil, vifex",
+   "motsCles": "bromhexine, bisolvon, toux grasse, mucolytique, expectorant, bromovan, muco-asthalin expectorant, mucoril expectorant, toux conquer, touxil, vifex, toux, sirop toux, pas un antitussif",
    "famille": "Mucolytique",
    "mecanisme": "Fragmente les fibres de mucopolysaccharides du mucus bronchique, qui devient plus fluide et plus facile à expectorer.",
    "calculs": [],
@@ -26658,7 +26659,7 @@
     "Saignement digestif rare (ulcère)"
    ],
    "grossesse": "Éviter au 1er trimestre et pendant l'allaitement.",
-   "motsCles": "carbocistéine, fluditec, rhinathiol, toux grasse, mucolytique, sirop",
+   "motsCles": "carbocistéine, fluditec, rhinathiol, toux grasse, mucolytique, sirop, toux, sirop toux, pas un antitussif",
    "famille": "Mucolytique",
    "mecanisme": "Modifie la composition du mucus bronchique (rapport sialomucines/fucomucines), le rendant plus fluide.",
    "calculs": [],
@@ -26700,7 +26701,7 @@
     "Palpitations (rares)"
    ],
    "grossesse": "Contre-indiquée pendant la grossesse et l'allaitement.",
-   "motsCles": "lévodropropizine, hactosec, levotuss, toux sèche, antitussif, levotoux",
+   "motsCles": "lévodropropizine, hactosec, levotuss, toux sèche, antitussif, levotoux, antitussifs",
    "famille": "Antitussif périphérique (non opioïde)",
    "mecanisme": "Diminue la sensibilité des fibres sensitives des voies respiratoires (inhibe la libération de neuropeptides) : calme la toux sans agir sur le centre bulbaire.",
    "calculs": [
@@ -26762,7 +26763,7 @@
     "Photosensibilisation"
    ],
    "grossesse": "Éviter au 1er trimestre ; contre-indiquée pendant l'allaitement.",
-   "motsCles": "oxomémazine, toplexil, toux sèche, toux nocturne, antitussif, sirop, kopazil",
+   "motsCles": "oxomémazine, toplexil, toux sèche, toux nocturne, antitussif, sirop, kopazil, antitussifs",
    "famille": "Antihistaminique phénothiazine",
    "mecanisme": "Bloque les récepteurs H1 (et en partie muscariniques) : effet antitussif, sédatif et antiallergique.",
    "calculs": [],
@@ -32564,7 +32565,7 @@
     "Vertiges"
    ],
    "grossesse": "Éviter au 1er trimestre.",
-   "motsCles": "guaïfénésine, guaifenesine, mucinex, expectorant, toux grasse, sirop, mucoril expectorant, unadol all in one",
+   "motsCles": "guaïfénésine, guaifenesine, mucinex, expectorant, toux grasse, sirop, mucoril expectorant, unadol all in one, toux, sirop toux, pas un antitussif",
    "famille": "Expectorant",
    "mecanisme": "Augmente le volume et diminue la viscosité des sécrétions bronchiques, ce qui facilite leur évacuation par la toux.",
    "calculs": [],
@@ -32579,6 +32580,196 @@
    ],
    "grossesseStatut": "prudence",
    "groupesInteraction": []
+  },
+  {
+   "dci": "Dextrométhorphane",
+   "noms": "Tussidane, Pulmodexane, Drill toux sèche, Vicks toux sèche dextrométhorphane, Robitussin toux sèche",
+   "classe": "respiratoire",
+   "formes": "Sirop 15 mg/10 ml (1,5 mg/ml) ; gélule ou comprimé 15 à 30 mg ; présent dans de nombreux sirops associés",
+   "indications": [
+    "Toux sèche (non productive) gênante, notamment nocturne, de l'adulte et de l'enfant de plus de 6 ans"
+   ],
+   "posologieAdulte": [
+    "15 à 30 mg toutes les 6 à 8 heures (soit 10 à 20 ml du sirop 1,5 mg/ml)",
+    "Maximum 120 mg par jour",
+    "Traitement court : 5 jours au maximum sans avis médical"
+   ],
+   "posologieEnfant": [
+    "Moins de 6 ans : déconseillé (efficacité non démontrée, risque de surdosage) ; préférer lavage du nez, boissons chaudes, miel après 1 an",
+    "6 à 11 ans : 0,25 mg/kg par prise, 3 à 4 fois par jour (environ 7,5 à 15 mg par prise), maximum 60 mg par jour",
+    "12 ans et plus : dose adulte"
+   ],
+   "contreIndications": [
+    "Toux productive (expectoration)",
+    "Asthme, insuffisance respiratoire",
+    "Traitement par IMAO en cours ou arrêté depuis moins de 14 jours",
+    "Enfant de moins de 6 ans (sirops seuls ou associés)"
+   ],
+   "precautions": [
+    "Un antitussif ne traite pas la cause : rechercher une pneumonie (respiration rapide, tirage), un asthme, une coqueluche, une insuffisance cardiaque ou une tuberculose (toux de plus de 2 semaines)",
+    "Ne pas associer à un mucolytique ou un expectorant (blocage des sécrétions) ni à un autre antitussif",
+    "Syndrome sérotoninergique avec les antidépresseurs (fluoxétine, amitriptyline…), le linézolide, le tramadol",
+    "Risque d'abus (effet dissociatif à forte dose) : surveiller les demandes répétées, surtout chez l'adolescent",
+    "Vérifier la composition des sirops associés : ne pas cumuler deux produits contenant du dextrométhorphane"
+   ],
+   "effetsIndesirables": [
+    "Somnolence, vertiges, nausées, constipation",
+    "Surdosage : agitation, hallucinations, ataxie, dépression respiratoire chez l'enfant"
+   ],
+   "grossesse": "Utilisable ponctuellement pendant la grossesse si la toux est gênante, à dose minimale et sur une courte durée ; éviter pendant l'allaitement.",
+   "motsCles": "dextrométhorphane, dextromethorphane, dxm, tussidane, pulmodexane, drill toux sèche, antitussif, antitussifs, toux sèche, toux nocturne, sirop",
+   "famille": "Antitussif central non opioïde (dérivé morphinane)",
+   "mecanisme": "Agit sur le centre bulbaire de la toux (antagoniste NMDA, agoniste sigma-1) sans effet antalgique ni dépendance morphinique aux doses usuelles.",
+   "calculs": [
+    {
+     "titre": "Toux sèche, 6 à 11 ans",
+     "doseKg": 0.25,
+     "unite": "mg",
+     "frequence": "3 à 4 fois par jour",
+     "doseMax": 15,
+     "presentations": [
+      {
+       "nom": "Sirop 15 mg/10 ml",
+       "dose": 15,
+       "par": 10,
+       "unite": "ml"
+      }
+     ]
+    }
+   ],
+   "grossesseStatut": "prudence",
+   "groupesInteraction": [
+    "dextromethorphane"
+   ],
+   "id": 655
+  },
+  {
+   "dci": "Pholcodine",
+   "noms": "Respilène, Biocalyptol, Dimétane (retirés en France et dans l'Union européenne en 2022-2023)",
+   "classe": "respiratoire",
+   "formes": "Sirop 1 à 1,31 mg/ml ; encore vendue dans certains pays",
+   "indications": [
+    "Toux sèche gênante de l'adulte (si aucune autre option)"
+   ],
+   "posologieAdulte": [
+    "10 à 15 mg 3 à 4 fois par jour",
+    "Maximum 60 mg par jour, quelques jours"
+   ],
+   "posologieEnfant": [
+    "Ne pas utiliser chez l'enfant (préférer les mesures simples)"
+   ],
+   "contreIndications": [
+    "Toux productive",
+    "Insuffisance respiratoire, asthme",
+    "Enfant",
+    "Allaitement"
+   ],
+   "precautions": [
+    "Retirée du marché européen : exposition dans les 12 mois précédents liée à un risque accru d'anaphylaxie aux curares lors d'une anesthésie générale",
+    "Toujours demander au patient s'il a pris de la pholcodine avant une anesthésie générale ; en informer l'anesthésiste",
+    "Un antitussif ne traite pas la cause : rechercher une pneumonie (respiration rapide, tirage), un asthme, une coqueluche, une insuffisance cardiaque ou une tuberculose (toux de plus de 2 semaines)",
+    "Ne pas associer à un mucolytique ou un expectorant (blocage des sécrétions) ni à un autre antitussif",
+    "Effet sédatif majoré par l'alcool, les benzodiazépines et les autres opioïdes"
+   ],
+   "effetsIndesirables": [
+    "Somnolence, constipation, nausées",
+    "Rares réactions allergiques"
+   ],
+   "grossesse": "À éviter pendant la grossesse ; préférer le dextrométhorphane si un antitussif est indispensable.",
+   "motsCles": "pholcodine, respilène, biocalyptol, dimétane, antitussif, antitussifs, toux sèche, opiacé, curares, anaphylaxie",
+   "famille": "Antitussif opiacé (dérivé de la morphine)",
+   "mecanisme": "Dérivé morphinique qui déprime le centre bulbaire de la toux, avec peu d'effet antalgique ; longue demi-vie et sensibilisation croisée avec les curares (ammonium quaternaire).",
+   "calculs": [],
+   "grossesseStatut": "eviter",
+   "groupesInteraction": [
+    "opioide"
+   ],
+   "id": 656
+  },
+  {
+   "dci": "Butamirate",
+   "noms": "Sinecod, Sinecod toux sèche, Butamirate Denk",
+   "classe": "respiratoire",
+   "formes": "Sirop 1,5 mg/ml (adulte) et 0,4 mg/ml (enfant) ; gouttes 5 mg/ml ; comprimé à libération prolongée 50 mg",
+   "indications": [
+    "Toux sèche irritative de l'adulte et de l'enfant de plus de 3 ans (irritation des voies aériennes, coqueluche en traitement d'appoint)"
+   ],
+   "posologieAdulte": [
+    "Sirop : 22,5 mg (15 ml du sirop 1,5 mg/ml) 3 à 4 fois par jour",
+    "Comprimé LP 50 mg : 1 comprimé 2 à 3 fois par jour",
+    "Durée maximale sans avis médical : 1 semaine"
+   ],
+   "posologieEnfant": [
+    "Moins de 3 ans : déconseillé avec les sirops (les gouttes existent dès 2 mois mais un avis médical est nécessaire)",
+    "3 à 5 ans : 7,5 mg 3 fois par jour",
+    "6 à 12 ans : 15 mg 3 fois par jour",
+    "Plus de 12 ans : 22,5 mg 3 fois par jour",
+    "Toujours vérifier la concentration du sirop (enfant ou adulte) sur la boîte"
+   ],
+   "contreIndications": [
+    "Toux productive",
+    "Allergie au butamirate",
+    "1er trimestre de la grossesse"
+   ],
+   "precautions": [
+    "Un antitussif ne traite pas la cause : rechercher une pneumonie (respiration rapide, tirage), un asthme, une coqueluche, une insuffisance cardiaque ou une tuberculose (toux de plus de 2 semaines)",
+    "Ne pas associer à un mucolytique ou un expectorant (blocage des sécrétions) ni à un autre antitussif",
+    "Peut gêner la conduite (somnolence légère)"
+   ],
+   "effetsIndesirables": [
+    "Somnolence, nausées, diarrhée, vertiges",
+    "Rares éruptions cutanées"
+   ],
+   "grossesse": "À éviter au 1er trimestre ; utilisable ensuite sur une courte durée si nécessaire ; éviter pendant l'allaitement.",
+   "motsCles": "butamirate, sinecod, antitussif, antitussifs, toux sèche, toux irritative, sirop, coqueluche",
+   "famille": "Antitussif central non opioïde",
+   "mecanisme": "Agit sur le centre bulbaire de la toux, avec un léger effet bronchodilatateur et anti-inflammatoire ; pas d'effet morphinique ni de dépendance.",
+   "calculs": [],
+   "grossesseStatut": "prudence",
+   "groupesInteraction": [],
+   "id": 657
+  },
+  {
+   "dci": "Noscapine",
+   "noms": "Tussisedal, Tussisedal enfant",
+   "classe": "respiratoire",
+   "formes": "Sirop 1 mg/ml ; comprimé 15 mg",
+   "indications": [
+    "Toux sèche gênante de l'adulte et de l'adolescent"
+   ],
+   "posologieAdulte": [
+    "15 à 30 mg 3 fois par jour",
+    "Maximum 150 mg par jour, 5 jours au maximum sans avis médical"
+   ],
+   "posologieEnfant": [
+    "Moins de 15 ans : déconseillée (données insuffisantes)"
+   ],
+   "contreIndications": [
+    "Toux productive",
+    "Insuffisance respiratoire",
+    "Grossesse et allaitement",
+    "Association à la warfarine"
+   ],
+   "precautions": [
+    "Un antitussif ne traite pas la cause : rechercher une pneumonie (respiration rapide, tirage), un asthme, une coqueluche, une insuffisance cardiaque ou une tuberculose (toux de plus de 2 semaines)",
+    "Ne pas associer à un mucolytique ou un expectorant (blocage des sécrétions) ni à un autre antitussif",
+    "Warfarine : augmentation forte de l'INR et risque hémorragique ; ne pas associer",
+    "Pas d'effet antalgique ni de dépendance aux doses usuelles"
+   ],
+   "effetsIndesirables": [
+    "Somnolence, céphalées, nausées",
+    "Rares réactions allergiques"
+   ],
+   "grossesse": "Contre-indiquée pendant la grossesse (effet aneugène observé in vitro) et l'allaitement.",
+   "motsCles": "noscapine, tussisedal, antitussif, antitussifs, toux sèche",
+   "famille": "Antitussif central (alcaloïde de l'opium non morphinique)",
+   "mecanisme": "Alcaloïde de l'opium de la famille des phtalide-isoquinoléines : agit sur le centre de la toux sans effet analgésique, euphorisant ni dépresseur respiratoire notable.",
+   "calculs": [],
+   "grossesseStatut": "ci",
+   "groupesInteraction": [
+    "noscapine"
+   ],
+   "id": 658
   }
  ],
  "categoriesPathologies": [
@@ -49412,7 +49603,9 @@
    "bedaquiline": "Bédaquiline",
    "paracetamol": "Paracétamol",
    "colchicine": "Colchicine",
-   "curare": "Curare"
+   "curare": "Curare",
+   "dextromethorphane": "Dextrométhorphane",
+   "noscapine": "Noscapine"
   },
   "regles": [
    {
@@ -50086,6 +50279,41 @@
     "gravite": "prudence",
     "effet": "Oméprazole et ésoméprazole diminuent l'effet du clopidogrel.",
     "conduite": "Préférer le pantoprazole."
+   },
+   {
+    "a": "dextromethorphane",
+    "b": "serotonine",
+    "gravite": "majeure",
+    "effet": "Syndrome sérotoninergique (agitation, fièvre, tremblements, diarrhée).",
+    "conduite": "Éviter ; préférer un autre antitussif."
+   },
+   {
+    "a": "dextromethorphane",
+    "b": "linezolide",
+    "gravite": "majeure",
+    "effet": "Syndrome sérotoninergique.",
+    "conduite": "Éviter pendant le traitement par linézolide."
+   },
+   {
+    "a": "dextromethorphane",
+    "b": "tramadol",
+    "gravite": "prudence",
+    "effet": "Syndrome sérotoninergique et convulsions possibles.",
+    "conduite": "Éviter l'association si possible ; surveiller."
+   },
+   {
+    "a": "dextromethorphane",
+    "b": "sedatif",
+    "gravite": "prudence",
+    "effet": "Somnolence majorée.",
+    "conduite": "Prévenir le patient ; pas de conduite."
+   },
+   {
+    "a": "noscapine",
+    "b": "avk",
+    "gravite": "ci",
+    "effet": "Augmentation importante de l'INR et risque hémorragique.",
+    "conduite": "Ne pas associer ; choisir un autre antitussif."
    }
   ],
   "note": "Liste des interactions les plus dangereuses ou les plus fréquentes ; l'absence d'alerte ne garantit pas l'absence d'interaction. Vérifier la notice et le Formulaire OMS."
