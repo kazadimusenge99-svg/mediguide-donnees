@@ -1,33 +1,32 @@
 {
- "dateActualites": "15 novembre 2026",
- "dateIsoActualites": "2026-11-15",
+ "dateActualites": "17 novembre 2026",
+ "dateIsoActualites": "2026-11-17",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DE LA PRÉMATURITÉ (15 NOVEMBRE)",
-   "titre": "Prématurité",
+   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DE L'ÉLIMINATION DU CANCER DU COL (17 NOVEMBRE)",
+   "titre": "Cancer du col",
    "lieu": "Monde · Afrique · RDC",
-   "chiffre": "13,4 millions de naissances prématurées (2020) et environ 900 000 décès (2019) (OMS)",
-   "texte": "Ce 15 novembre, l'OMS célèbre la Journée mondiale de la prématurité, inscrite à son calendrier officiel depuis 2025. Les complications de la prématurité sont la première cause de décès des enfants de moins de 5 ans, et les trois quarts de ces décès pourraient être évités par des soins simples, au premier rang desquels la méthode mère kangourou.",
+   "chiffre": "Environ 660 000 nouveaux cas et 350 000 décès dans le monde en 2022 (OMS)",
+   "texte": "Ce 17 novembre, l'OMS célèbre la deuxième Journée mondiale de l'élimination du cancer du col de l'utérus, première journée mondiale consacrée à l'élimination d'un cancer. Grâce à la vaccination contre le VPH, au dépistage et au traitement des lésions précancéreuses, il pourrait devenir le premier cancer éliminé de l'histoire.",
    "details": [
-    "Monde : environ 1 naissance sur 10 survient avant 37 semaines d'aménorrhée, soit 13,4 millions de bébés en 2020 ; l'Asie du Sud et l'Afrique subsaharienne concentrent plus de 65 % des naissances prématurées (OMS)",
-    "Les complications de la prématurité ont causé environ 900 000 décès d'enfants en 2019 ; les trois quarts pourraient être évités par des interventions efficaces et peu coûteuses",
-    "Nouveauté : le guide de pratique clinique de l'OMS sur la méthode mère kangourou (novembre 2025) recommande le peau à peau pour tout bébé prématuré ou de faible poids, à commencer immédiatement après la naissance sauf en cas de choc ou s'il ne respire pas seul, à l'hôpital comme à domicile",
-    "En salle de naissance : peser tout nouveau-né, clampage retardé du cordon (au moins 1 min) s'il n'a pas besoin de réanimation, séchage, bonnet, peau à peau continu, mise au sein précoce, vitamine K1 ; viser une température de 36,5 à 37,5 °C",
-    "Alimenter au lait maternel exclusif (au sein, à la tasse ou par sonde), contrôler la glycémie les premiers jours, hygiène des mains stricte ; transférer en néonatologie si poids < 1 500 g, moins de 32 semaines, apnées, détresse respiratoire ou signes d'infection",
-    "Prévenir : consultations prénatales, TPIp, traitement des infections urinaires et de l'anémie ; en cas de menace d'accouchement prématuré entre 24 et 34 semaines, dexaméthasone anténatale, et sulfate de magnésium avant 32 semaines"
+    "Monde : environ 660 000 nouveaux cas et 350 000 décès en 2022, dont 94 % dans les pays à revenu faible ou intermédiaire ; c'est la première cause de décès par cancer chez la femme en Afrique subsaharienne, et 18 des 20 pays les plus touchés sont dans la Région africaine (OMS)",
+    "Objectifs 90-70-90 pour 2030 : 90 % des filles vaccinées contre le VPH avant 15 ans, 70 % des femmes dépistées par un test performant à 35 puis 45 ans, 90 % des lésions précancéreuses et des cancers traités ; la couverture vaccinale mondiale n'est encore que de 33 % selon l'OMS",
+    "Vaccination : une seule dose de vaccin anti-VPH suffit pour les filles de 9 à 14 ans (recommandation OMS) ; en RDC, l'introduction du vaccin chez les filles de 9 à 14 ans est prévue à partir de 2026",
+    "Dépistage : test VPH de préférence (auto-prélèvement possible), sinon inspection visuelle à l'acide acétique (IVA) ; dès 30 ans tous les 5 à 10 ans, et dès 25 ans tous les 3 à 5 ans chez la femme vivant avec le VIH, six fois plus exposée",
+    "« Dépister et traiter » au cours de la même visite : thermo-ablation ou cryothérapie si la lésion est éligible, résection à l'anse si elle est étendue ; examen au spéculum et biopsie de toute lésion visible devant des saignements après les rapports, entre les règles ou après la ménopause, puis orientation vers un centre de cancérologie"
    ],
-   "couleur": "#AD1457",
-   "icone": "👶",
-   "pathologie": 80,
-   "source": "OMS, Journée mondiale de la prématurité (15/11/2026) ; OMS, aide-mémoire « Naissance prématurée » (données 2020) ; OMS, guide de pratique clinique sur la méthode mère kangourou du 14/11/2025",
-   "pictogramme": "bebe"
+   "couleur": "#00695C",
+   "icone": "🎗️",
+   "pathologie": 232,
+   "source": "OMS, aide-mémoire « Cancer du col de l'utérus » (données 2022) ; OMS, Journée mondiale de l'élimination du cancer du col (17/11/2026) ; OMS, tribune publiée par allAfrica le 16/11/2026 ; Banque mondiale, article du 19/08/2025 (introduction du vaccin en RDC)",
+   "pictogramme": "ruban"
   },
   {
-   "etiquette": "DANS 3 JOURS · SEMAINE MONDIALE DE LA RÉSISTANCE AUX ANTIMICROBIENS (18-24 NOVEMBRE)",
+   "etiquette": "DEMAIN · SEMAINE MONDIALE DE LA RÉSISTANCE AUX ANTIMICROBIENS (18-24 NOVEMBRE)",
    "titre": "Antibiorésistance",
    "lieu": "Monde · Région africaine",
    "chiffre": "1 infection bactérienne sur 5 résistante en Afrique (OMS, données 2023)",
-   "texte": "À l'approche de la Semaine mondiale de sensibilisation à la résistance aux antimicrobiens, l'OMS rappelle qu'une infection bactérienne confirmée sur six dans le monde résiste aux antibiotiques habituels, une sur cinq dans la Région africaine.",
+   "texte": "La Semaine mondiale de sensibilisation à la résistance aux antimicrobiens s'ouvre demain : selon l'OMS, une infection bactérienne confirmée sur six dans le monde résiste aux antibiotiques habituels, une sur cinq dans la Région africaine.",
    "details": [
     "Selon le rapport mondial de surveillance de l'OMS (GLASS), 1 infection bactérienne confirmée sur 6 dans le monde en 2023 était résistante au traitement antibiotique standard ; dans la Région africaine, 1 sur 5, avec plus de 70 % de résistance pour certains antibiotiques clés",
     "Prescrire un antibiotique seulement en cas d'infection bactérienne probable : pas d'antibiotique pour un rhume, une diarrhée aqueuse simple sans signe de gravité ni la plupart des bronchites aiguës",
@@ -45,10 +44,10 @@
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
    "lieu": "RDC (8 provinces) · Ouganda · Kenya · cas importé au Nigeria",
-   "chiffre": "11 114 cas confirmés et 5 433 décès en RDC (CDC et ECDC, au 10 novembre)",
-   "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, continue de progresser en RDC, avec environ 70 nouveaux cas confirmés par jour selon l'ECDC ; près d'un malade sur deux en meurt.",
+   "chiffre": "11 254 cas confirmés et 5 505 décès en RDC (INSP et CDC, au 12 novembre)",
+   "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, continue de progresser en RDC avec 50 à 60 nouveaux cas confirmés par jour ; près d'un malade sur deux en meurt, et les violences et déplacements de population entravent la riposte.",
    "details": [
-    "RDC au 10 novembre : 11 114 cas confirmés et 5 433 décès dans 8 provinces ; l'Ituri reste l'épicentre (7 485 cas confirmés et 3 532 décès au 3 novembre) et le Nord-Kivu enregistre le plus de nouveaux cas",
+    "RDC au 12 novembre : 11 254 cas confirmés et 5 505 décès dans 8 provinces (57 nouveaux cas et 34 décès ce jour-là) ; l'Ituri reste l'épicentre et le Nord-Kivu enregistre la plus forte hausse récente",
     "Ouganda : 20 cas confirmés et 2 décès ; Kenya : 9 cas dont 2 décès, aucun nouveau cas depuis le 19 octobre ; un cas confirmé au Nigeria le 20 octobre",
     "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; l'OMS a recommandé début novembre d'ajouter deux vaccins candidats spécifiques (ChAdOx1 BDBV d'Oxford et Serum Institute of India, mRNA-1469 de Moderna) à l'essai TUMAINI de vaccination en anneau à Bunia, après autorisation nationale ; résultats attendus début 2027",
     "Tout patient fébrile ayant eu un contact avec un cas, ou présentant des signes hémorragiques, une diarrhée ou des vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte",
@@ -57,7 +56,7 @@
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "CDC, résumé de situation (données au 10/11/2026) ; ECDC, mise à jour du 12/11/2026 ; OMS, bulletin d'épidémie du 03/11/2026 ; OMS, recommandation sur les vaccins candidats relayée par Al Jazeera le 04/11/2026",
+   "source": "INSP, bulletin n° 182 et CDC, résumé de situation (données au 12/11/2026) ; ECDC, mise à jour du 12/11/2026 ; ONU Info, novembre 2026 ; OMS, recommandation sur les vaccins candidats relayée par Al Jazeera le 04/11/2026",
    "pictogramme": "virus"
   },
   {
