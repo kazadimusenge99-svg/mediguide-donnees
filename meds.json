@@ -26567,7 +26567,7 @@
     "Réactions allergiques, rarement graves"
    ],
    "grossesse": "Éviter au 1er trimestre et pendant l'allaitement.",
-   "motsCles": "ambroxol, sekrol, mucosolvan, toux grasse, expectorant, mucolytique, bronchite, ambrovie, broly adulte, broly enfant, tossego, toux, sirop toux, pas un antitussif",
+   "motsCles": "ambroxol, sekrol, mucosolvan, toux grasse, expectorant, mucolytique, bronchite, ambrovie, broly adulte, broly enfant, tossego",
    "famille": "Mucolytique",
    "mecanisme": "Métabolite de la bromhexine : fluidifie le mucus bronchique et stimule la production de surfactant et le battement des cils.",
    "calculs": [],
@@ -26613,7 +26613,7 @@
     "Réactions allergiques, rarement cutanées graves"
    ],
    "grossesse": "Éviter au 1er trimestre et pendant l'allaitement.",
-   "motsCles": "bromhexine, bisolvon, toux grasse, mucolytique, expectorant, bromovan, muco-asthalin expectorant, mucoril expectorant, toux conquer, touxil, vifex, toux, sirop toux, pas un antitussif",
+   "motsCles": "bromhexine, bisolvon, toux grasse, mucolytique, expectorant, bromovan, muco-asthalin expectorant, mucoril expectorant, toux conquer, touxil, vifex",
    "famille": "Mucolytique",
    "mecanisme": "Fragmente les fibres de mucopolysaccharides du mucus bronchique, qui devient plus fluide et plus facile à expectorer.",
    "calculs": [],
@@ -26659,7 +26659,7 @@
     "Saignement digestif rare (ulcère)"
    ],
    "grossesse": "Éviter au 1er trimestre et pendant l'allaitement.",
-   "motsCles": "carbocistéine, fluditec, rhinathiol, toux grasse, mucolytique, sirop, toux, sirop toux, pas un antitussif",
+   "motsCles": "carbocistéine, fluditec, rhinathiol, toux grasse, mucolytique, sirop",
    "famille": "Mucolytique",
    "mecanisme": "Modifie la composition du mucus bronchique (rapport sialomucines/fucomucines), le rendant plus fluide.",
    "calculs": [],
@@ -32565,7 +32565,7 @@
     "Vertiges"
    ],
    "grossesse": "Éviter au 1er trimestre.",
-   "motsCles": "guaïfénésine, guaifenesine, mucinex, expectorant, toux grasse, sirop, mucoril expectorant, unadol all in one, toux, sirop toux, pas un antitussif",
+   "motsCles": "guaïfénésine, guaifenesine, mucinex, expectorant, toux grasse, sirop, mucoril expectorant, unadol all in one",
    "famille": "Expectorant",
    "mecanisme": "Augmente le volume et diminue la viscosité des sécrétions bronchiques, ce qui facilite leur évacuation par la toux.",
    "calculs": [],
