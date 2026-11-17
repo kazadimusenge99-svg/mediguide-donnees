@@ -33,6 +33,12 @@ const PICTO = { thermometre: "🌡️", poumons: "🫁", coeur: "❤️", cervea
   ver: "🪱", eclair: "⚡", cellule: "🔬", patient: "🧑", peau: "🖐️", oreille: "👂", douleur: "🤕", masque: "😷", savon: "🧼",
   bouclier: "🛡️", stethoscope: "🩺", trousse: "🧰", sang: "🩸", toux: "😮‍💨" };
 const picto = (n) => PICTO[n] || "🩺";
+const enceinte = () => sto.get("sexe", "") === "F" && sto.get("enceinte", false) === true;
+const resumePatient = () => {
+  const p = poids(), a = nombre(sto.get("age-ans", "")), mo = nombre(sto.get("age-mois", ""));
+  const t = a == null && mo == null ? null : (a || 0) * 12 + (mo || 0);
+  return [p ? fmt(p) + " kg" : "", t == null ? "" : t < 24 ? t + " mois" : Math.floor(t / 12) + " ans", sto.get("sexe", ""), enceinte() ? "enceinte" : ""].filter(Boolean).join(" · ");
+};
 const poids = () => { const p = nombre(sto.get("poids", "")); return p && p > 0 && p < 300 ? p : null; };
 
 // ---------------------------------------------------------------------------
@@ -66,6 +72,10 @@ async function demarrer() {
   $("#etatDonnees").innerHTML = `Données v${esc(D.version)} · ${esc(D.dateMiseAJour || "")}<br>${D.medicaments.length} médicaments · ${D.pathologies.length} pathologies` +
     (maj ? `<br>Vérifié le ${new Date(maj).toLocaleDateString("fr-FR")}` : "") + (navigator.onLine ? "" : "<br>Hors connexion");
   window.addEventListener("hashchange", router);
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-cible]");
+    if (b) document.getElementById(b.dataset.cible)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
   router();
   setTimeout(prechargerImages, 4000);
 }
@@ -207,27 +217,35 @@ function carteUne(a, grande) {
 
 function accueil() {
   const act = ACT.actualites || [];
-  const tuiles = [
-    ["#/medicaments", "💊", "Médicaments", `${D.medicaments.length} fiches`, "#1565C0"],
-    ["#/pathologies", "🩺", "Pathologies", `${D.pathologies.length} fiches`, "#00695C"],
-    ["#/symptomes", "🤒", "Symptômes", `${(D.symptomes || []).length} motifs`, "#C62828"],
-    ["#/dispensaire", "🧭", "Que faire devant…", "Signes vitaux et conduites", "#00838F"],
-    ["#/examens", "🧪", "Examens paracliniques", "Quoi demander, quoi attendre", "#5D4037"],
-    ["#/protocoles", "🚨", "Protocoles d'urgence", `${(D.protocoles || []).length} protocoles`, "#B71C1C"],
-    ["#/scores", "🧮", "Scores médicaux", `${(D.scores || []).length} scores`, "#4527A0"],
-    ["#/croissance", "📈", "Courbes de croissance", "OMS et Fenton", "#2E7D32"],
-    ["#/interactions", "⚠️", "Interactions", "Vérifier une association", "#E65100"],
-    ["#/patient", "🧑", "Patient en cours", "Poids, âge, valeurs normales", "#37474F"],
-    ["#/quiz", "❓", "Quiz", `${(D.quiz || []).length + ((D.quizImages || {}).questions || []).length} questions, dont images`, "#AD1457"],
-    ["#/cas", "🎓", "Cas cliniques", `${(CAS.casCliniques || []).length} cas`, "#6D4C41"],
+  const rp = resumePatient();
+  const urgence = [
+    ["#/protocoles", "🚨", "Urgences vitales", "#B71C1C"],
+    ["#/dispensaire", "🧭", "Que faire devant…", "#00695C"],
+    ["#/scores", "🧮", "Scores", "#4527A0"],
+    ["#/interactions", "⚠️", "Interactions", "#E65100"],
+    ["#/patient", "🧑", rp ? "Patient : " + rp : "Patient en cours", "#6A1B9A"],
+  ];
+  const urg = (D.urgencesRapides || []).map((id) => D.pathoParId[String(id)]).filter(Boolean);
+  const rec = sto.get("recents", []).map((k) => k.startsWith("m:") ? D.medicaments.find((m) => String(m.id) === k.slice(2)) && ligneMed(D.medicaments.find((m) => String(m.id) === k.slice(2)))
+    : k.startsWith("p:") && D.pathoParId[k.slice(2)] ? lignePatho(D.pathoParId[k.slice(2)]) : "").filter(Boolean).slice(0, 5);
+  const explorer = [
+    ["#/medicaments", "💊", "Médicaments", `${D.medicaments.length} fiches`],
+    ["#/pathologies", "🩺", "Pathologies", `${D.pathologies.length} fiches`],
+    ["#/symptomes", "🤒", "Symptômes", `${(D.symptomes || []).length} motifs`],
+    ["#/examens", "🧪", "Examens paracliniques", "Quoi demander, quoi attendre"],
+    ["#/croissance", "📈", "Courbes de croissance", "OMS et Fenton"],
+    ["#/quiz", "❓", "Quiz et cas cliniques", "Formation"],
   ];
   contenu.innerHTML = `
-    <h1>Bienvenue</h1><p class="sous">${D.medicaments.length} médicaments · ${D.pathologies.length} pathologies · ${(D.scores || []).length} scores</p>
+    <h1>Bienvenue</h1><p class="sous">${D.medicaments.length} médicaments · ${D.pathologies.length} pathologies · ${(D.scores || []).length} scores — tapez en haut un médicament, une maladie, un score ou un examen.</p>
+    <div class="urgence">${urgence.map(([h, i, n, c]) => `<a href="${h}" style="--c:${c}"><span>${i}</span><b>${esc(n)}</b></a>`).join("")}</div>
+    ${rec.length ? `<h2>🕘 Consultés récemment</h2><div class="liste">${rec.join("")}</div>` : ""}
+    ${urg.length ? `<h2>🚑 Fiches d'urgence</h2><div class="liens">${urg.map((p) => `<a class="lien" href="#/patho/${p.id}">${esc(p.nom)}</a>`).join("")}</div>` : ""}
+    <h2>Explorer</h2>
+    <div class="grille">${explorer.map(([h, i, n, d]) => `<a class="tuile" href="${h}"><span class="ico" style="background:var(--surface2)">${i}</span><b>${n}</b><span class="petit">${d}</span></a>`).join("")}</div>
     ${act.length ? `<h2>🌍 Sujet du jour · ${esc(ACT.dateActualites)}</h2>
       <div class="grille" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr))">${act.slice(0, 4).map((a) => carteUne(a, false)).join("")}</div>
-      <p><a href="#/sujet">Tout lire →</a></p>` : ""}
-    <h2>Accès rapide</h2>
-    <div class="grille">${tuiles.map(([h, i, n, d, c]) => `<a class="tuile" href="${h}"><span class="ico" style="background:${c}22;color:${c}">${i}</span><b>${n}</b><span class="petit">${d}</span></a>`).join("")}</div>`;
+      <p><a href="#/sujet">Tout lire →</a></p>` : ""}`;
 }
 
 // ---------------------------------------------------------------------------
@@ -238,11 +256,37 @@ function recherche(_r, q) {
   if (!ms.length) return accueil();
   const pa = rechPatho(ms), me = rechMed(ms), sy = rechSympt(ms).filter((r) => r.niveau >= 2 || ms.length === 1);
   const bloc = (titre, items, rendu) => items.length ? `<h2>${titre} (${items.length})</h2><div class="liste">${items.slice(0, 25).map(rendu).join("")}</div>` : "";
+  const ou = outilsTrouves(q);
   contenu.innerHTML = `<h1>Résultats pour « ${esc(q)} »</h1><p class="sous">Classés du plus probable au moins probable.</p>` +
+    (ou.length ? `<h2>Outils, scores et protocoles (${ou.length})</h2><div class="liste">${ou.slice(0, 8).map(([h, i, t, st]) => `<a class="ligne" href="${h}"><span class="ico" style="background:var(--surface2)">${i}</span><span class="txt"><b>${esc(t)}</b><span>${esc(st)}</span></span></a>`).join("")}</div>` : "") +
     [[pa, () => bloc("Pathologies", pa, (r) => lignePatho(r.e, null, r.niveau)), 2], [me, () => bloc("Médicaments", me, (r) => ligneMed(r.e)), 1], [sy, () => bloc("Symptômes", sy, (r) => ligneSympt(r.e)), 0]]
       .sort((a, b) => ((b[0][0]?.n || 0) - (a[0][0]?.n || 0)) || ((b[0][0]?.s || 0) - (a[0][0]?.s || 0)) || b[2] - a[2]).map((x) => x[1]()).join("") +
     examensTrouves(q) +
-    (!pa.length && !me.length && !sy.length ? `<p>Aucun résultat. Essayez un autre mot (nom commercial, DCI, symptôme).</p>` : "");
+    (!pa.length && !me.length && !sy.length && !ou.length ? `<p>Aucun résultat. Essayez un autre mot (nom commercial, DCI, symptôme).</p>` : "");
+}
+
+const OUTILS_RECH = [
+  ["#/interactions", "⚠️", "Interactions médicamenteuses", "Outil", "interactions association contre-indication grossesse"],
+  ["#/patient", "🧑", "Patient en cours", "Poids, âge, sexe, grossesse, valeurs normales", "patient poids age sexe enceinte normes normales valeurs frequence"],
+  ["#/croissance", "📈", "Courbes de croissance", "Outil", "croissance z-score poids taille malnutrition fenton"],
+  ["#/protocoles", "🚨", "Protocoles d'urgence", "Outil", "protocoles urgence reanimation"],
+  ["#/scores", "🧮", "Scores médicaux", "Outil", "scores echelles"],
+  ["#/dispensaire", "🧭", "Que faire devant…", "Outil", "conduite pratique dispensaire"],
+  ["#/examens", "🧪", "Examens paracliniques", "Outil", "examens biologie laboratoire imagerie"],
+  ["#/quiz", "❓", "Quiz", "Formation", "quiz formation images ecg radio"],
+  ["#/cas", "🎓", "Cas cliniques", "Formation", "cas cliniques"],
+];
+function outilsTrouves(q) {
+  const ms = sansAccent(q).split(/\s+/).filter((m) => m.length >= 2);
+  if (!ms.length) return [];
+  const res = [];
+  const test = (titre, texte) => ms.every((m) => sansAccent(titre).includes(m)) ? 2 : ms.every((m) => sansAccent(titre + " " + texte).includes(m)) ? 1 : 0;
+  OUTILS_RECH.forEach(([h, i, t, st, k]) => { const r = test(t, k); if (r) res.push([h, i, t, st, r]); });
+  (D.scores || []).forEach((x) => { const r = test(x.nom + " " + x.id, x.description || ""); if (r) res.push(["#/score/" + encodeURIComponent(x.id), "🧮", x.nom, "Score", r]); });
+  (D.protocoles || []).forEach((x) => { const r = test(x.nom, x.public || ""); if (r) res.push(["#/proto/" + encodeURIComponent(x.id), "🚨", x.nom, "Protocole d'urgence pas à pas", r]); });
+  (D.dispensaire || []).forEach((c) => { const r = test(c.titre, c.intro || ""); if (r) res.push(["#/disp/" + encodeURIComponent(c.id), picto(c.pictogramme), c.titre, "Que faire devant…", r]); });
+  (D.examens || []).forEach((c) => { const r = test(c.titre, c.intro || ""); if (r) res.push(["#/exam/" + encodeURIComponent(c.id), "🧪", c.titre, "Examens paracliniques", r]); });
+  return res.sort((a, b) => b[4] - a[4]);
 }
 
 const sansAccent = (t) => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -336,12 +380,15 @@ function blocCalcul(c) {
     ${pres ? `<div style="margin-top:6px"><b>Soit :</b><ul style="margin:2px 0 0;padding-left:20px">${pres}</ul></div>` : ""}${c.note ? `<div class="petit">${esc(c.note)}</div>` : ""}</div>`;
 }
 
+const noterRecent = (k) => sto.set("recents", [k, ...sto.get("recents", []).filter((x) => x !== k)].slice(0, 12));
 function ficheMed(m) {
+  noterRecent("m:" + m.id);
   const c = D.classesParId[m.classe];
   const pathos = D.pathologies.filter((p) => (p.medicaments || []).includes(m.dci));
   return `<div class="fiche"><div class="tete"><span class="ico" style="background:var(--surface2)">${esc(c?.icone || "💊")}</span>
       <div><h1>${esc(m.dci)}</h1><div class="sous" style="margin:0">${esc(m.noms)}</div></div></div>
     <div class="petit">${esc(c?.nom || "")} · ${esc(m.formes)}</div>
+    ${enceinte() && ["ci", "eviter", "prudence"].includes(m.grossesseStatut) ? `<div class="section ${m.grossesseStatut === "prudence" ? "" : "danger"}"><h3>🤰 Patiente enceinte : ${m.grossesseStatut === "ci" ? "contre-indiqué" : m.grossesseStatut === "eviter" ? "à éviter" : "prudence"}</h3><div>${esc(m.grossesse || "")}</div></div>` : ""}
     ${m.famille || m.mecanisme ? `<div class="section"><h3>🔬 Famille et mécanisme d'action</h3>${m.famille ? `<div><b>Famille :</b> ${esc(m.famille)}</div>` : ""}<div>${esc(m.mecanisme || "")}</div></div>` : ""}
     ${(m.calculs || []).length ? `<h3>🧮 Calcul de la dose</h3>${m.calculs.map(blocCalcul).join("")}` : ""}
     ${liste("Indications", m.indications, "✅")}
@@ -397,19 +444,22 @@ function paraclinique(p) {
     }).join("")}</div><p class="petit">Images réelles : Wikimedia Commons, licences libres (auteur et licence sous chaque image). Schémas : MédiGuide.</p></div>`;
 }
 function fichePatho(p) {
+  noterRecent("p:" + p.id);
   const c = D.catParId[p.categorie];
   const meds = (p.medicaments || []).map((d) => D.medParDci[d]).filter(Boolean);
   return `<div class="fiche"><div class="tete"><span class="ico" style="background:${esc(c?.couleur || "#00695C")}22">${esc(c?.icone || "🩺")}</span>
       <div><h1>${esc(p.nom)}</h1><div class="sous" style="margin:0">${esc(c?.nom || "")}${p.synonymes ? " · " + esc(p.synonymes) : ""}</div></div></div>
+    <nav class="sommaire">${[["s-diag", "Diagnostic"], ["s-ttt", "Traitement"], (p.paraclinique || []).length ? ["s-para", "Examens"] : null, ["s-grav", "Gravité"]]
+      .filter(Boolean).map(([id, n]) => `<button data-cible="${id}">${n}</button>`).join("")}</nav>
     <p>${esc(p.resume)}</p>
     ${p.physiopathologie ? `<div class="section"><h3>🔬 Physiopathologie</h3><div>${esc(p.physiopathologie)}</div></div>` : ""}
     ${liste("Signes cliniques", p.signes, "🧑")}
-    ${liste("Diagnostic", p.diagnostic, "🔎")}
-    ${paraclinique(p)}
-    ${liste("Traitement", p.traitement, "💊", "ok")}
-    ${liste("Signes de gravité", p.gravite, "🚩", "danger")}
+    <div id="s-diag">${liste("Diagnostic", p.diagnostic, "🔎")}</div>
+    <div id="s-ttt">${liste("Traitement", p.traitement, "💊", "ok")}
+    ${meds.length ? `<div class="section"><h3>💊 Médicaments</h3><div class="liens">${meds.map((m) => `<a class="lien" href="#/med/${m.id}">${esc(m.dci)}</a>`).join("")}</div></div>` : ""}</div>
+    <div id="s-para">${paraclinique(p)}</div>
+    <div id="s-grav">${liste("Signes de gravité", p.gravite, "🚩", "danger")}</div>
     ${liste("Prévention", p.prevention, "🛡️")}
-    ${meds.length ? `<div class="section"><h3>💊 Médicaments</h3><div class="liens">${meds.map((m) => `<a class="lien" href="#/med/${m.id}">${esc(m.dci)}</a>`).join("")}</div></div>` : ""}
     ${blocNote("patho-" + p.id)}
   </div>`;
 }
@@ -617,7 +667,7 @@ function interactions() {
     <div class="liens" style="margin:12px 0">${choisis.map((m) => `<span class="lien">${esc(m.dci)} <a href="javascript:void 0" data-del="${m.id}" title="Retirer">✕</a></span>`).join("")}</div>
     ${choisis.length >= 2 ? (alertes.length ? `<h2>${alertes.length} interaction${alertes.length > 1 ? "s" : ""} à connaître</h2>` + alertes.map(([r, a, b]) => carteInteraction(r, esc(a.dci) + " + " + esc(b.dci))).join("")
       : `<div class="section ok"><b>Aucune interaction majeure répertoriée entre ces médicaments.</b></div>`) : `<p class="sous">Ajoutez au moins deux médicaments.</p>`}
-    ${choisis.length ? `<h2>🤰 Pendant la grossesse</h2>` + choisis.map((m) => `<div class="section"><b><a href="#/med/${m.id}">${esc(m.dci)}</a></b> ${badgeGrossesse(m)}<div>${esc(m.grossesse || "")}</div></div>`).join("") : ""}
+    ${choisis.length ? `<h2>🤰 ${enceinte() ? "Patiente enceinte : statut de chaque médicament" : "Pendant la grossesse"}</h2>` + choisis.map((m) => `<div class="section"><b><a href="#/med/${m.id}">${esc(m.dci)}</a></b> ${badgeGrossesse(m)}<div>${esc(m.grossesse || "")}</div></div>`).join("") : ""}
     <p class="petit" style="margin-top:16px">${esc((D.interactions || {}).note || "")}</p>
     ${choisis.length ? `<button class="bouton second" id="viderInter">Tout effacer</button>` : ""}`;
   const f = $("#fInter");
@@ -634,17 +684,20 @@ function patient() {
   const ans = nombre(sto.get("age-ans", "")), mois = nombre(sto.get("age-mois", ""));
   const total = ans == null && mois == null ? null : (ans || 0) * 12 + (mois || 0);
   const n = total == null ? null : (D.normesAge || []).find((x) => total >= x.moisMin && total < x.moisMax);
-  contenu.innerHTML = `<h1>🧑 Patient en cours</h1><p class="sous">Le poids sert au calcul des doses ; l'âge affiche les valeurs normales correspondantes. Rien n'est envoyé : ces données restent sur cet appareil.</p>
+  contenu.innerHTML = `<h1>🧑 Patient en cours</h1><p class="sous">Le poids sert au calcul des doses ; l'âge affiche les valeurs normales ; une grossesse déclenche les alertes sur les fiches et les interactions. Rien n'est envoyé : ces données restent sur cet appareil.</p>
     <div class="fiche"><label class="champ">Poids (kg)<input id="pPoids" inputmode="decimal" value="${esc(sto.get("poids", ""))}"></label>
     <label class="champ">Âge : années<input id="pAns" inputmode="numeric" value="${esc(sto.get("age-ans", ""))}"></label>
     <label class="champ">Âge : mois (en plus)<input id="pMois" inputmode="numeric" value="${esc(sto.get("age-mois", ""))}"></label>
+    <label class="champ">Sexe<select id="pSexe"><option value="">—</option><option value="F" ${sto.get("sexe", "") === "F" ? "selected" : ""}>Féminin</option><option value="M" ${sto.get("sexe", "") === "M" ? "selected" : ""}>Masculin</option></select></label>
+    ${sto.get("sexe", "") === "F" ? `<label class="champ"><span><input type="checkbox" id="pEnceinte" ${enceinte() ? "checked" : ""}> Enceinte (alertes sur les fiches et les interactions)</span></label>` : ""}
     <button class="bouton second" id="pEffacer">Effacer le patient</button></div>
     ${n ? `<h2>Valeurs normales : ${esc(n.libelle)}</h2><div class="fiche"><table class="tab"><tbody>${n.valeurs.map(([k, v]) => `<tr><th style="text-align:left">${esc(k)}</th><td>${esc(v)}</td></tr>`).join("")}</tbody></table></div>
       <p class="petit">Repères OMS/PCIME et biologie pédiatrique usuelle. Voir aussi <a href="#/disp/signes-vitaux">Signes vitaux normaux</a> et <a href="#/exam/valeurs-enfant">Valeurs normales de l'enfant</a>.</p>`
       : `<p class="sous">Saisissez l'âge pour afficher les signes vitaux et les valeurs biologiques normales.</p>`}`;
   const maj = (id, cle) => $(id).addEventListener("change", () => { sto.set(cle, $(id).value.trim()); const ch = $("#poids"); if (ch && cle === "poids") ch.value = $(id).value.trim(); patient(); });
-  maj("#pPoids", "poids"); maj("#pAns", "age-ans"); maj("#pMois", "age-mois");
-  $("#pEffacer").addEventListener("click", () => { ["poids", "age-ans", "age-mois"].forEach((k) => sto.set(k, "")); const ch = $("#poids"); if (ch) ch.value = ""; patient(); });
+  maj("#pPoids", "poids"); maj("#pAns", "age-ans"); maj("#pMois", "age-mois"); maj("#pSexe", "sexe");
+  $("#pEnceinte")?.addEventListener("change", (e) => { sto.set("enceinte", e.target.checked); patient(); });
+  $("#pEffacer").addEventListener("click", () => { ["poids", "age-ans", "age-mois", "sexe"].forEach((k) => sto.set(k, "")); sto.set("enceinte", false); const ch = $("#poids"); if (ch) ch.value = ""; patient(); });
 }
 
 // ---------------------------------------------------------------------------

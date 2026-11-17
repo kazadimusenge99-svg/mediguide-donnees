@@ -152,3 +152,16 @@ table.tab td:first-child { font-weight: 600; }
 .ex-fig figcaption span { opacity: .65; font-size: .92em; }
 
 .etiquette { display: inline-block; color: #fff; font-size: .78em; font-weight: 700; padding: 2px 8px; border-radius: 10px; margin: 2px 4px 2px 0; }
+
+/* Menu groupé, accès d'urgence de l'accueil, sommaire des fiches */
+.menu .rubrique { margin: 14px 12px 4px; font-size: 11.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--primaire); }
+.urgence { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 6px 0 4px; }
+.urgence a { display: flex; align-items: center; gap: 10px; padding: 14px; border-radius: var(--rayon); background: color-mix(in srgb, var(--c) 12%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--c) 35%, transparent); color: var(--texte); }
+.urgence a:hover { text-decoration: none; border-color: var(--c); }
+.urgence span { font-size: 26px; }
+.urgence b { font-size: 14.5px; line-height: 1.25; }
+.sommaire { position: sticky; top: 58px; z-index: 5; display: flex; gap: 8px; flex-wrap: wrap; padding: 8px 0; margin: 4px 0 6px; background: var(--surface); }
+.sommaire button { border: 1px solid var(--bord); background: var(--surface2); color: var(--texte); border-radius: 999px; padding: 5px 14px; font-size: 13.5px; font-weight: 600; }
+.sommaire button:hover { border-color: var(--primaire); color: var(--primaire); }
+[id^="s-"] { scroll-margin-top: 110px; }

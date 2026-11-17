@@ -17,7 +17,7 @@
   <a class="logo" href="#/accueil"><img src="icone-192.png" alt=""><span>MédiGuide</span></a>
   <div class="recherche">
     <span class="loupe">🔍</span>
-    <input id="champRecherche" type="search" placeholder="Rechercher un médicament, une maladie, un symptôme…" autocomplete="off">
+    <input id="champRecherche" type="search" placeholder="Médicament, maladie, symptôme, score, examen…" autocomplete="off">
   </div>
   <label class="poids" title="Poids du patient : sert au calcul des doses">
     <span>Poids</span><input id="champPoids" type="text" inputmode="decimal" placeholder="—"><span>kg</span>
@@ -27,19 +27,24 @@
 <div class="corps">
   <nav class="menu" id="menu">
     <a href="#/accueil" data-r="accueil">🏠 Accueil</a>
-    <a href="#/sujet" data-r="sujet">🌍 Sujet du jour</a>
     <a href="#/medicaments" data-r="medicaments">💊 Médicaments</a>
     <a href="#/pathologies" data-r="pathologies">🩺 Pathologies</a>
-    <a href="#/symptomes" data-r="symptomes">🤒 Symptômes</a>
-    <a href="#/dispensaire" data-r="dispensaire">🧭 Que faire devant…</a>
-    <a href="#/examens" data-r="examens">🧪 Examens paracliniques</a>
-    <a href="#/protocoles" data-r="protocoles">🚨 Protocoles d'urgence</a>
-    <a href="#/scores" data-r="scores">🧮 Scores médicaux</a>
-    <a href="#/croissance" data-r="croissance">📈 Courbes de croissance</a>
-    <a href="#/interactions" data-r="interactions">⚠️ Interactions</a>
     <a href="#/patient" data-r="patient">🧑 Patient en cours</a>
-    <a href="#/quiz" data-r="quiz">❓ Quiz</a>
+    <div class="rubrique">Urgence</div>
+    <a href="#/protocoles" data-r="protocoles">🚨 Protocoles d'urgence</a>
+    <a href="#/dispensaire" data-r="dispensaire">🧭 Que faire devant…</a>
+    <div class="rubrique">Calculs et prescription</div>
+    <a href="#/interactions" data-r="interactions">⚠️ Interactions</a>
+    <a href="#/croissance" data-r="croissance">📈 Courbes de croissance</a>
+    <div class="rubrique">Diagnostic</div>
+    <a href="#/symptomes" data-r="symptomes">🤒 Partir d'un symptôme</a>
+    <a href="#/examens" data-r="examens">🧪 Examens paracliniques</a>
+    <a href="#/scores" data-r="scores">🧮 Scores médicaux</a>
+    <div class="rubrique">Formation</div>
+    <a href="#/quiz" data-r="quiz">❓ Quiz (dont images)</a>
     <a href="#/cas" data-r="cas">🎓 Cas cliniques</a>
+    <a href="#/sujet" data-r="sujet">🌍 Sujet du jour</a>
+    <div class="rubrique"></div>
     <a href="#/apropos" data-r="apropos">ℹ️ À propos</a>
     <div class="etat" id="etatDonnees"></div>
   </nav>
