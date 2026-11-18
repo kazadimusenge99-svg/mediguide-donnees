@@ -1,5 +1,5 @@
 {
- "version": 92,
+ "version": 93,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -9521,12 +9521,16 @@
     "Dépression respiratoire (surdosage)"
    ],
    "grossesse": "À éviter en fin de grossesse ; contre-indiquée pendant l'allaitement.",
-   "motsCles": "douleur, antalgique palier 2, toux, klipal codéine, paraco denk, antitussif, antitussifs",
+   "motsCles": "douleur, antalgique palier 2, toux, klipal codéine, paraco denk, antitussif, antitussifs, néocodion, neocodion adultes, procodion, terpine codéine",
    "famille": "Opioïde faible",
    "mecanisme": "Agoniste faible des récepteurs opioïdes μ (et, pour le tramadol, inhibiteur de la recapture de la sérotonine et de la noradrénaline) : antalgique de palier 2.",
    "marquesRdc": [
     "Klipal Codéine (+ paracétamol)",
-    "Paraco Denk (+ paracétamol)"
+    "Neocodion Adultes",
+    "Néocodion (+ sulfogaïacol)",
+    "Paraco Denk (+ paracétamol)",
+    "Procodion",
+    "Terpine Codéine (+ terpine)"
    ],
    "grossesseStatut": "eviter",
    "groupesInteraction": [
@@ -26769,7 +26773,8 @@
    "calculs": [],
    "id": 523,
    "marquesRdc": [
-    "Kopazil"
+    "Kopazil",
+    "Toplexil"
    ],
    "grossesseStatut": "prudence",
    "groupesInteraction": []
@@ -32606,6 +32611,7 @@
     "Enfant de moins de 6 ans (sirops seuls ou associés)"
    ],
    "precautions": [
+    "En RDC, le dextrométhorphane est surtout vendu dans des sirops associés (antihistaminique, paracétamol, décongestionnant, mucolytique) : lire la composition, éviter de cumuler le paracétamol, ne pas donner avant 6 ans ; Mucosif Ped contient de la pseudoéphédrine, dangereuse chez le jeune enfant",
     "Un antitussif ne traite pas la cause : rechercher une pneumonie (respiration rapide, tirage), un asthme, une coqueluche, une insuffisance cardiaque ou une tuberculose (toux de plus de 2 semaines)",
     "Ne pas associer à un mucolytique ou un expectorant (blocage des sécrétions) ni à un autre antitussif",
     "Syndrome sérotoninergique avec les antidépresseurs (fluoxétine, amitriptyline…), le linézolide, le tramadol",
@@ -32617,7 +32623,7 @@
     "Surdosage : agitation, hallucinations, ataxie, dépression respiratoire chez l'enfant"
    ],
    "grossesse": "Utilisable ponctuellement pendant la grossesse si la toux est gênante, à dose minimale et sur une courte durée ; éviter pendant l'allaitement.",
-   "motsCles": "dextrométhorphane, dextromethorphane, dxm, tussidane, pulmodexane, drill toux sèche, antitussif, antitussifs, toux sèche, toux nocturne, sirop",
+   "motsCles": "dextrométhorphane, dextromethorphane, dxm, tussidane, pulmodexane, drill toux sèche, antitussif, antitussifs, toux sèche, toux nocturne, sirop, antigrip, dawakof, dr toux, febrilex, indatoux adulte, mixacol, mucoflex adulte, mucolyn, mucosif ped, mucovie, shaltoux dry cough",
    "famille": "Antitussif central non opioïde (dérivé morphinane)",
    "mecanisme": "Agit sur le centre bulbaire de la toux (antagoniste NMDA, agoniste sigma-1) sans effet antalgique ni dépendance morphinique aux doses usuelles.",
    "calculs": [
@@ -32641,7 +32647,20 @@
    "groupesInteraction": [
     "dextromethorphane"
    ],
-   "id": 655
+   "id": 655,
+   "marquesRdc": [
+    "Antigrip (+ chlorphénamine, paracétamol)",
+    "Dawakof (+ bromhexine, chlorphénamine, chlorure d'ammonium)",
+    "Dr Toux (+ cétirizine, chlorure d'ammonium, zinc)",
+    "Febrilex (+ paracétamol, chlorphénamine)",
+    "Indatoux Adulte (+ phényléphrine, antihistaminique)",
+    "Mixacol (+ paracétamol, chlorphénamine, phényléphrine)",
+    "Mucoflex Adulte (+ cétirizine, bromhexine)",
+    "Mucolyn (+ bromhexine, chlorphénamine, chlorure d'ammonium)",
+    "Mucosif Ped (+ chlorphénamine, chlorure d'ammonium, pseudoéphédrine)",
+    "Mucovie (+ diphénhydramine, menthol)",
+    "Shaltoux Dry Cough (+ diphénhydramine, lévomenthol)"
+   ]
   },
   {
    "dci": "Pholcodine",
@@ -32721,13 +32740,16 @@
     "Rares éruptions cutanées"
    ],
    "grossesse": "À éviter au 1er trimestre ; utilisable ensuite sur une courte durée si nécessaire ; éviter pendant l'allaitement.",
-   "motsCles": "butamirate, sinecod, antitussif, antitussifs, toux sèche, toux irritative, sirop, coqueluche",
+   "motsCles": "butamirate, sinecod, antitussif, antitussifs, toux sèche, toux irritative, sirop, coqueluche, butagon",
    "famille": "Antitussif central non opioïde",
    "mecanisme": "Agit sur le centre bulbaire de la toux, avec un léger effet bronchodilatateur et anti-inflammatoire ; pas d'effet morphinique ni de dépendance.",
    "calculs": [],
    "grossesseStatut": "prudence",
    "groupesInteraction": [],
-   "id": 657
+   "id": 657,
+   "marquesRdc": [
+    "Butagon"
+   ]
   },
   {
    "dci": "Noscapine",
