@@ -349,13 +349,19 @@ document.addEventListener("input", (e) => { const c = e.target?.dataset?.note; i
 function medicaments(route, id) {
   const m = route === "med" ? D.medicaments.find((x) => String(x.id) === id) : null;
   const ms = mots(filtreMed);
-  let l = D.medicaments.filter((x) => (!classeMed || x.classe === classeMed) && (!grossesseMed || x.grossesseStatut === "ok"));
+  let l = D.medicaments.filter((x) => (!classeMed || x.classe === classeMed || (x.autresClasses || []).includes(classeMed)) && (!grossesseMed || x.grossesseStatut === "ok"));
   l = ms.length ? rechMed(ms, l).map((r) => r.e) : l;
+  // Classe découpée en sections (ex. Toux : antitussifs, mucolytiques, expectorants)
+  const secs = !ms.length && classeMed ? D.classesParId[classeMed]?.sections || [] : [];
+  const listeHtml = secs.length
+    ? secs.map((s) => { const g = l.filter((x) => x.sousClasse === s); return g.length ? `<h3 class="sous-section">${esc(s)} (${g.length})</h3>${g.map((x) => ligneMed(x, m && x.id === m.id)).join("")}` : ""; }).join("") +
+      l.filter((x) => !secs.includes(x.sousClasse)).map((x) => ligneMed(x, m && x.id === m.id)).join("")
+    : l.map((x) => ligneMed(x, m && x.id === m.id)).join("");
   contenu.innerHTML = `<div class="deux${m ? " avec-detail" : ""}"><div class="col-liste">
       <h1>Médicaments</h1><p class="sous">${l.length} fiches</p>
       <input class="filtre" id="fMed" placeholder="Filtrer (DCI, nom commercial, famille, indication)…" value="${esc(filtreMed)}">
       <div class="puces"><button class="puce${grossesseMed ? " actif" : ""}" id="pGross">🤰 Utilisables pendant la grossesse</button><button class="puce${classeMed ? "" : " actif"}" data-c="">Toutes</button>${D.classes.map((c) => `<button class="puce${classeMed === c.id ? " actif" : ""}" data-c="${esc(c.id)}">${esc(c.icone)} ${esc(c.nom)}</button>`).join("")}</div>
-      <div class="liste">${l.map((x) => ligneMed(x, m && x.id === m.id)).join("")}</div></div>
+      <div class="liste">${listeHtml}</div></div>
     <div>${m ? ficheMed(m) : `<div class="fiche"><p class="sous">Choisissez un médicament dans la liste.</p></div>`}</div></div>`;
   const f = $("#fMed");
   f.addEventListener("input", () => { filtreMed = f.value; medicaments(route, id); const g = $("#fMed"); g.focus(); g.setSelectionRange(g.value.length, g.value.length); });

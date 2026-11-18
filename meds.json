@@ -1,5 +1,5 @@
 {
- "version": 93,
+ "version": 94,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -75,6 +75,17 @@
    "id": "respiratoire",
    "nom": "Respiratoire, allergie et urgences",
    "icone": "🌬️"
+  },
+  {
+   "id": "toux",
+   "nom": "Toux : antitussifs, mucolytiques, expectorants",
+   "icone": "🫁",
+   "sections": [
+    "Antitussifs (toux sèche)",
+    "Mucolytiques (toux grasse)",
+    "Expectorants (toux grasse)",
+    "Sirops associés"
+   ]
   },
   {
    "id": "obstetrique",
@@ -8272,19 +8283,22 @@
   {
    "id": 134,
    "dci": "N-acétylcystéine",
-   "noms": "Fluimucil injectable, Hidonac (exemples)",
+   "noms": "Fluimucil injectable, Hidonac (exemples), Exomuc, Mucomyst",
    "classe": "antidotes",
-   "formes": "Flacon injectable 200 mg/ml (5 g/25 ml) ; sachets oraux",
+   "formes": "Flacon injectable 200 mg/ml (5 g/25 ml) ; sachets oraux ; mucolytique : sachets ou comprimés 100, 200 et 600 mg",
    "indications": [
     "Intoxication au paracétamol (antidote), même tardive",
-    "Hépatite fulminante liée au paracétamol"
+    "Hépatite fulminante liée au paracétamol",
+    "Mucolytique : toux grasse avec sécrétions épaisses (bronchite aiguë, BPCO)"
    ],
    "posologieAdulte": [
     "IV (schéma classique sur 21 h) : 150 mg/kg en 1 h, puis 50 mg/kg en 4 h, puis 100 mg/kg en 16 h",
-    "Voie orale : 140 mg/kg, puis 70 mg/kg toutes les 4 h (17 doses)"
+    "Voie orale : 140 mg/kg, puis 70 mg/kg toutes les 4 h (17 doses)",
+    "Mucolytique : 200 mg 3 fois par jour ou 600 mg 1 fois par jour (sachet ou comprimé effervescent), 8 à 10 jours au maximum"
    ],
    "posologieEnfant": [
-    "Mêmes doses en mg/kg ; adapter les volumes de dilution (glucosé 5 %) au poids"
+    "Mêmes doses en mg/kg ; adapter les volumes de dilution (glucosé 5 %) au poids",
+    "Mucolytique : contre-indiqué avant 2 ans (risque d'encombrement bronchique) ; 2 à 7 ans : 100 mg 2 à 3 fois par jour ; plus de 7 ans : 200 mg 2 à 3 fois par jour"
    ],
    "contreIndications": [
     "Aucune en cas d'intoxication avérée"
@@ -8292,14 +8306,15 @@
    "precautions": [
     "Commencer le plus tôt possible (idéalement < 8 h après l'ingestion), sans attendre si la dose ingérée est toxique (> 150 mg/kg)",
     "Surveiller la fonction hépatique et l'INR",
-    "Réaction anaphylactoïde : ralentir ou arrêter la perfusion, antihistaminique, puis reprendre"
+    "Réaction anaphylactoïde : ralentir ou arrêter la perfusion, antihistaminique, puis reprendre",
+    "Mucolytique : ne pas associer à un antitussif ; prudence en cas d'ulcère gastroduodénal et d'asthme (bronchospasme)"
    ],
    "effetsIndesirables": [
     "Réactions anaphylactoïdes (rash, bronchospasme) pendant la première perfusion",
     "Nausées, vomissements (voie orale)"
    ],
    "grossesse": "Utilisable (protège la mère et le fœtus).",
-   "motsCles": "intoxication paracétamol, surdosage, antidote, hépatite",
+   "motsCles": "intoxication paracétamol, surdosage, antidote, hépatite, mucolytique, toux grasse, exomuc, mucomyst, fluimucil",
    "calculs": [
     {
      "titre": "1re perfusion (en 1 h)",
@@ -8347,7 +8362,14 @@
    "famille": "Antidote du paracétamol (donneur de glutathion)",
    "mecanisme": "Reconstitue le glutathion du foie qui neutralise le métabolite toxique du paracétamol ; fluidifie aussi les sécrétions bronchiques.",
    "grossesseStatut": "ok",
-   "groupesInteraction": []
+   "groupesInteraction": [],
+   "autresClasses": [
+    "toux"
+   ],
+   "sousClasse": "Mucolytiques (toux grasse)",
+   "marquesRdc": [
+    "Exomuc"
+   ]
   },
   {
    "id": 135,
@@ -9535,7 +9557,11 @@
    "grossesseStatut": "eviter",
    "groupesInteraction": [
     "opioide"
-   ]
+   ],
+   "autresClasses": [
+    "toux"
+   ],
+   "sousClasse": "Antitussifs (toux sèche)"
   },
   {
    "id": 159,
@@ -26542,7 +26568,7 @@
   {
    "dci": "Ambroxol",
    "noms": "Sekrol, Mucosolvan, Cesakrol",
-   "classe": "respiratoire",
+   "classe": "toux",
    "formes": "Comprimé 30 mg ; sirop 15 mg/5 ml et 30 mg/5 ml",
    "indications": [
     "Toux grasse avec expectoration difficile (bronchite aiguë, BPCO)"
@@ -26584,12 +26610,13 @@
     "Tossego"
    ],
    "grossesseStatut": "prudence",
-   "groupesInteraction": []
+   "groupesInteraction": [],
+   "sousClasse": "Mucolytiques (toux grasse)"
   },
   {
    "dci": "Bromhexine",
    "noms": "Bisolvon",
-   "classe": "respiratoire",
+   "classe": "toux",
    "formes": "Comprimé 8 mg ; sirop 4 mg/5 ml",
    "indications": [
     "Toux grasse avec expectoration difficile"
@@ -26631,12 +26658,13 @@
     "Vifex (+ guaïfénésine, salbutamol)"
    ],
    "grossesseStatut": "prudence",
-   "groupesInteraction": []
+   "groupesInteraction": [],
+   "sousClasse": "Mucolytiques (toux grasse)"
   },
   {
    "dci": "Carbocistéine",
    "noms": "Fluditec, Rhinathiol, Bronchokod",
-   "classe": "respiratoire",
+   "classe": "toux",
    "formes": "Sirop 2 % (enfant, 100 mg/5 ml) et 5 % (adulte, 250 mg/5 ml)",
    "indications": [
     "Toux grasse avec expectoration difficile (adulte)"
@@ -26672,12 +26700,13 @@
     "Fluditec"
    ],
    "grossesseStatut": "prudence",
-   "groupesInteraction": []
+   "groupesInteraction": [],
+   "sousClasse": "Mucolytiques (toux grasse)"
   },
   {
    "dci": "Lévodropropizine",
    "noms": "Hactosec, Levotuss",
-   "classe": "respiratoire",
+   "classe": "toux",
    "formes": "Sirop 30 mg/5 ml (6 mg/ml)",
    "indications": [
     "Toux sèche irritative gênante (sans expectoration)"
@@ -26731,12 +26760,13 @@
     "Levotoux (+ chlorphénamine)"
    ],
    "grossesseStatut": "ci",
-   "groupesInteraction": []
+   "groupesInteraction": [],
+   "sousClasse": "Antitussifs (toux sèche)"
   },
   {
    "dci": "Oxomémazine",
    "noms": "Toplexil, Doxergan",
-   "classe": "respiratoire",
+   "classe": "toux",
    "formes": "Sirop 0,33 mg/ml (avec guaïfénésine et paracétamol selon les formules)",
    "indications": [
     "Toux sèche d'origine allergique ou irritative, surtout nocturne"
@@ -26777,7 +26807,8 @@
     "Toplexil"
    ],
    "grossesseStatut": "prudence",
-   "groupesInteraction": []
+   "groupesInteraction": [],
+   "sousClasse": "Antitussifs (toux sèche)"
   },
   {
    "dci": "Aténolol",
@@ -28252,7 +28283,7 @@
   {
    "dci": "Sirops contre la toux et le rhume en association",
    "noms": "Bronchaline (à confirmer : salbutamol + guaïfénésine + bromhexine), Mucolyn adulte (chlorphénamine + chlorure d'ammonium + bromhexine + dextrométhorphane), Mucolyn pédiatrique (+ pseudoéphédrine), Kaptol sirop et pastilles (Arauphar : eucalyptol 10 mg + guaïfénésine 50 mg + vitamine C 5 mg par 5 ml), Dr Cold (Astra Labs : paracétamol 500 mg + chlorphénamine 2 mg + phényléphrine 5 mg + caféine 25 mg), Histaminic sirop (PROMED : guaïfénésine + prométhazine + extrait fluide d'ipéca)",
-   "classe": "respiratoire",
+   "classe": "toux",
    "formes": "Sirops ou comprimés associant 2 à 4 principes actifs (bronchodilatateur, expectorant, mucolytique, antihistaminique, décongestionnant, antalgique)",
    "indications": [
     "Soulagement des symptômes du rhume ou de la toux chez l'adulte ; aucune efficacité démontrée sur la durée de la maladie"
@@ -28292,7 +28323,8 @@
    "calculs": [],
    "id": 557,
    "grossesseStatut": "prudence",
-   "groupesInteraction": []
+   "groupesInteraction": [],
+   "sousClasse": "Sirops associés"
   },
   {
    "dci": "Kaolin + pectine",
@@ -32546,7 +32578,7 @@
   {
    "dci": "Guaïfénésine",
    "noms": "Guaifenesin, Mucinex ; souvent associée (Histaminic, Kaptol, Mucoril, Vifex, Touxil)",
-   "classe": "respiratoire",
+   "classe": "toux",
    "formes": "Sirop 100 mg/5 ml ; comprimé 200 mg ; comprimé LP 600 mg",
    "indications": [
     "Toux grasse avec expectoration difficile (adulte) ; efficacité modeste"
@@ -32584,12 +32616,13 @@
     "Vifex (+ bromhexine, salbutamol)"
    ],
    "grossesseStatut": "prudence",
-   "groupesInteraction": []
+   "groupesInteraction": [],
+   "sousClasse": "Expectorants (toux grasse)"
   },
   {
    "dci": "Dextrométhorphane",
    "noms": "Tussidane, Pulmodexane, Drill toux sèche, Vicks toux sèche dextrométhorphane, Robitussin toux sèche",
-   "classe": "respiratoire",
+   "classe": "toux",
    "formes": "Sirop 15 mg/10 ml (1,5 mg/ml) ; gélule ou comprimé 15 à 30 mg ; présent dans de nombreux sirops associés",
    "indications": [
     "Toux sèche (non productive) gênante, notamment nocturne, de l'adulte et de l'enfant de plus de 6 ans"
@@ -32660,12 +32693,13 @@
     "Mucosif Ped (+ chlorphénamine, chlorure d'ammonium, pseudoéphédrine)",
     "Mucovie (+ diphénhydramine, menthol)",
     "Shaltoux Dry Cough (+ diphénhydramine, lévomenthol)"
-   ]
+   ],
+   "sousClasse": "Antitussifs (toux sèche)"
   },
   {
    "dci": "Pholcodine",
    "noms": "Respilène, Biocalyptol, Dimétane (retirés en France et dans l'Union européenne en 2022-2023)",
-   "classe": "respiratoire",
+   "classe": "toux",
    "formes": "Sirop 1 à 1,31 mg/ml ; encore vendue dans certains pays",
    "indications": [
     "Toux sèche gênante de l'adulte (si aucune autre option)"
@@ -32703,12 +32737,13 @@
    "groupesInteraction": [
     "opioide"
    ],
-   "id": 656
+   "id": 656,
+   "sousClasse": "Antitussifs (toux sèche)"
   },
   {
    "dci": "Butamirate",
    "noms": "Sinecod, Sinecod toux sèche, Butamirate Denk",
-   "classe": "respiratoire",
+   "classe": "toux",
    "formes": "Sirop 1,5 mg/ml (adulte) et 0,4 mg/ml (enfant) ; gouttes 5 mg/ml ; comprimé à libération prolongée 50 mg",
    "indications": [
     "Toux sèche irritative de l'adulte et de l'enfant de plus de 3 ans (irritation des voies aériennes, coqueluche en traitement d'appoint)"
@@ -32749,12 +32784,13 @@
    "id": 657,
    "marquesRdc": [
     "Butagon"
-   ]
+   ],
+   "sousClasse": "Antitussifs (toux sèche)"
   },
   {
    "dci": "Noscapine",
    "noms": "Tussisedal, Tussisedal enfant",
-   "classe": "respiratoire",
+   "classe": "toux",
    "formes": "Sirop 1 mg/ml ; comprimé 15 mg",
    "indications": [
     "Toux sèche gênante de l'adulte et de l'adolescent"
@@ -32791,7 +32827,8 @@
    "groupesInteraction": [
     "noscapine"
    ],
-   "id": 658
+   "id": 658,
+   "sousClasse": "Antitussifs (toux sèche)"
   }
  ],
  "categoriesPathologies": [
