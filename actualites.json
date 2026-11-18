@@ -1,62 +1,62 @@
 {
- "dateActualites": "17 novembre 2026",
- "dateIsoActualites": "2026-11-17",
+ "dateActualites": "18 novembre 2026",
+ "dateIsoActualites": "2026-11-18",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DE L'ÉLIMINATION DU CANCER DU COL (17 NOVEMBRE)",
-   "titre": "Cancer du col",
-   "lieu": "Monde · Afrique · RDC",
-   "chiffre": "Environ 660 000 nouveaux cas et 350 000 décès dans le monde en 2022 (OMS)",
-   "texte": "Ce 17 novembre, l'OMS célèbre la deuxième Journée mondiale de l'élimination du cancer du col de l'utérus, première journée mondiale consacrée à l'élimination d'un cancer. Grâce à la vaccination contre le VPH, au dépistage et au traitement des lésions précancéreuses, il pourrait devenir le premier cancer éliminé de l'histoire.",
-   "details": [
-    "Monde : environ 660 000 nouveaux cas et 350 000 décès en 2022, dont 94 % dans les pays à revenu faible ou intermédiaire ; c'est la première cause de décès par cancer chez la femme en Afrique subsaharienne, et 18 des 20 pays les plus touchés sont dans la Région africaine (OMS)",
-    "Objectifs 90-70-90 pour 2030 : 90 % des filles vaccinées contre le VPH avant 15 ans, 70 % des femmes dépistées par un test performant à 35 puis 45 ans, 90 % des lésions précancéreuses et des cancers traités ; la couverture vaccinale mondiale n'est encore que de 33 % selon l'OMS",
-    "Vaccination : une seule dose de vaccin anti-VPH suffit pour les filles de 9 à 14 ans (recommandation OMS) ; en RDC, l'introduction du vaccin chez les filles de 9 à 14 ans est prévue à partir de 2026",
-    "Dépistage : test VPH de préférence (auto-prélèvement possible), sinon inspection visuelle à l'acide acétique (IVA) ; dès 30 ans tous les 5 à 10 ans, et dès 25 ans tous les 3 à 5 ans chez la femme vivant avec le VIH, six fois plus exposée",
-    "« Dépister et traiter » au cours de la même visite : thermo-ablation ou cryothérapie si la lésion est éligible, résection à l'anse si elle est étendue ; examen au spéculum et biopsie de toute lésion visible devant des saignements après les rapports, entre les règles ou après la ménopause, puis orientation vers un centre de cancérologie"
-   ],
-   "couleur": "#00695C",
-   "icone": "🎗️",
-   "pathologie": 232,
-   "source": "OMS, aide-mémoire « Cancer du col de l'utérus » (données 2022) ; OMS, Journée mondiale de l'élimination du cancer du col (17/11/2026) ; OMS, tribune publiée par allAfrica le 16/11/2026 ; Banque mondiale, article du 19/08/2025 (introduction du vaccin en RDC)",
-   "pictogramme": "ruban"
-  },
-  {
-   "etiquette": "DEMAIN · SEMAINE MONDIALE DE LA RÉSISTANCE AUX ANTIMICROBIENS (18-24 NOVEMBRE)",
+   "etiquette": "SUJET DU JOUR · SEMAINE MONDIALE DE LA RÉSISTANCE AUX ANTIMICROBIENS (18-24 NOVEMBRE)",
    "titre": "Antibiorésistance",
-   "lieu": "Monde · Région africaine",
-   "chiffre": "1 infection bactérienne sur 5 résistante en Afrique (OMS, données 2023)",
-   "texte": "La Semaine mondiale de sensibilisation à la résistance aux antimicrobiens s'ouvre demain : selon l'OMS, une infection bactérienne confirmée sur six dans le monde résiste aux antibiotiques habituels, une sur cinq dans la Région africaine.",
+   "lieu": "Monde · Afrique · RDC",
+   "chiffre": "1 infection bactérienne sur 5 résistante dans la Région africaine (OMS, GLASS, données 2023)",
+   "texte": "La Semaine mondiale de sensibilisation à la résistance aux antimicrobiens s'ouvre aujourd'hui sur le thème « Une seule santé, une action commune : prévenir la RAM maintenant ». Elle accompagne le nouveau plan d'action mondial 2026-2036 contre la résistance aux antimicrobiens.",
    "details": [
-    "Selon le rapport mondial de surveillance de l'OMS (GLASS), 1 infection bactérienne confirmée sur 6 dans le monde en 2023 était résistante au traitement antibiotique standard ; dans la Région africaine, 1 sur 5, avec plus de 70 % de résistance pour certains antibiotiques clés",
-    "Prescrire un antibiotique seulement en cas d'infection bactérienne probable : pas d'antibiotique pour un rhume, une diarrhée aqueuse simple sans signe de gravité ni la plupart des bronchites aiguës",
-    "Choisir la bonne molécule, la bonne dose et la bonne durée ; préférer les antibiotiques de la liste « Accès » de l'OMS (amoxicilline, cotrimoxazole, doxycycline) et réserver ceftriaxone, quinolones et carbapénèmes aux indications précises",
-    "Faire un prélèvement (ECBU, hémoculture, pus) avant l'antibiotique quand c'est possible ; réévaluer à 48-72 h",
-    "Prévenir les infections : hygiène des mains, solutions chlorées, asepsie des soins et vaccination"
+    "Selon le rapport mondial de surveillance de l'OMS (GLASS), 1 infection bactérienne confirmée sur 6 dans le monde en 2023 résistait au traitement antibiotique standard ; dans la Région africaine, 1 sur 5, avec plus de 70 % de résistance pour certains antibiotiques clés",
+    "L'étude GRAM publiée dans The Lancet estime à 1,14 million les décès directement dus à la résistance bactérienne en 2021 et prévoit plus de 39 millions de décès directs entre 2025 et 2050 ; l'Afrique subsaharienne figure parmi les régions qui gagneraient le plus à de meilleurs soins et à un meilleur accès aux antibiotiques",
+    "Prescrire un antibiotique seulement en cas d'infection bactérienne probable : pas d'antibiotique pour un rhume, une diarrhée aqueuse simple sans signe de gravité ni la plupart des bronchites aiguës ; tester toute fièvre (TDR paludisme) avant de prescrire",
+    "Choisir la bonne molécule, la bonne dose et la bonne durée : préférer les antibiotiques du groupe « Accès » de l'OMS (amoxicilline, cotrimoxazole, doxycycline), réserver ceftriaxone, quinolones et carbapénèmes aux indications précises, et réévaluer à 48-72 h",
+    "Faire un prélèvement (ECBU, hémoculture, pus) avant l'antibiotique quand c'est possible ; devant une bactérie multirésistante : isolement de contact, hygiène des mains et avis spécialisé",
+    "Prévenir les infections pour moins prescrire : hygiène des mains, solutions chlorées, asepsie des soins, eau potable et vaccination à jour"
    ],
    "couleur": "#4527A0",
    "icone": "💊",
    "pathologie": 185,
-   "source": "OMS, rapport mondial de surveillance de la résistance aux antibiotiques (GLASS) du 13/10/2025",
+   "source": "OMS, page de la Semaine mondiale de sensibilisation à la RAM 2026 (18-24/11/2026) ; OMS, rapport mondial de surveillance GLASS du 13/10/2025 ; GRAM Collaborators, The Lancet, 16/09/2024",
    "pictogramme": "comprime"
+  },
+  {
+   "etiquette": "JOURNÉE MONDIALE DE LA BPCO (18 NOVEMBRE)",
+   "titre": "BPCO",
+   "lieu": "Monde",
+   "chiffre": "3,5 millions de décès en 2021, 4e cause de décès dans le monde (OMS)",
+   "texte": "La Journée mondiale de la BPCO est aussi célébrée aujourd'hui, avec un appel à diagnostiquer et traiter plus tôt ; l'initiative GOLD publie à cette occasion son rapport 2027.",
+   "details": [
+    "Près de 90 % des décès par BPCO chez les moins de 70 ans surviennent dans les pays à revenu faible ou intermédiaire ; en Afrique, la fumée du bois et du charbon de cuisine, le tabac, la tuberculose ancienne et les poussières professionnelles sont les principaux facteurs (OMS)",
+    "Penser à la BPCO devant une toux et des expectorations chroniques ou un essoufflement progressif après 40 ans chez un fumeur ou une personne exposée à la fumée domestique",
+    "Confirmer par spirométrie si possible (VEMS/CVF < 0,70 après bronchodilatateur) et éliminer une tuberculose (GeneXpert) devant toute toux de plus de 2 semaines",
+    "Traitement : arrêt du tabac et réduction de l'exposition à la fumée, bronchodilatateur inhalé avec technique d'inhalation vérifiée, vaccination, activité physique ; exacerbation : bronchodilatateur, prednisolone 40 mg pendant 5 jours, antibiotique seulement si expectorations purulentes"
+   ],
+   "couleur": "#37474F",
+   "icone": "🫁",
+   "pathologie": 129,
+   "source": "OMS, aide-mémoire « Bronchopneumopathie chronique obstructive » (données 2021) ; GOLD, Journée mondiale de la BPCO du 18/11/2026",
+   "pictogramme": "poumons"
   },
   {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
-   "lieu": "RDC (8 provinces) · Ouganda · Kenya · cas importé au Nigeria",
-   "chiffre": "11 254 cas confirmés et 5 505 décès en RDC (INSP et CDC, au 12 novembre)",
-   "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, continue de progresser en RDC avec 50 à 60 nouveaux cas confirmés par jour ; près d'un malade sur deux en meurt, et les violences et déplacements de population entravent la riposte.",
+   "lieu": "RDC (8 provinces, 67 zones de santé) · Kenya · cas importé au Nigeria",
+   "chiffre": "11 376 cas confirmés et 5 568 décès en RDC (CDC et ECDC, au 14 novembre)",
+   "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, continue de progresser en RDC ; l'OMS s'inquiète de la hausse des décès et de l'insécurité qui entrave la riposte. Près d'un malade sur deux en meurt.",
    "details": [
-    "RDC au 12 novembre : 11 254 cas confirmés et 5 505 décès dans 8 provinces (57 nouveaux cas et 34 décès ce jour-là) ; l'Ituri reste l'épicentre et le Nord-Kivu enregistre la plus forte hausse récente",
-    "Ouganda : 20 cas confirmés et 2 décès ; Kenya : 9 cas dont 2 décès, aucun nouveau cas depuis le 19 octobre ; un cas confirmé au Nigeria le 20 octobre",
-    "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; l'OMS a recommandé début novembre d'ajouter deux vaccins candidats spécifiques (ChAdOx1 BDBV d'Oxford et Serum Institute of India, mRNA-1469 de Moderna) à l'essai TUMAINI de vaccination en anneau à Bunia, après autorisation nationale ; résultats attendus début 2027",
+    "RDC au 14 novembre : 11 376 cas confirmés et 5 568 décès dans 8 provinces et 67 zones de santé ; l'Ituri reste l'épicentre et le Nord-Kivu enregistre la plus forte hausse récente",
+    "Ouganda : épidémie terminée (20 cas confirmés, 2 décès) ; Kenya : 9 cas dont 2 décès, tous issus d'une seule introduction depuis la RDC, dernier patient sorti le 11 novembre ; Nigeria : 1 cas importé le 20 octobre, suivi des contacts presque achevé",
+    "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; deux vaccins candidats spécifiques doivent être évalués dans l'essai TUMAINI de vaccination en anneau à Bunia ; des soins de soutien précoces améliorent nettement la survie",
     "Tout patient fébrile ayant eu un contact avec un cas, ou présentant des signes hémorragiques, une diarrhée ou des vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte",
     "Hygiène des mains, triage à l'entrée de toutes les structures, enterrements dignes et sécurisés ; faire aussi un TDR paludisme"
    ],
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "INSP, bulletin n° 182 et CDC, résumé de situation (données au 12/11/2026) ; ECDC, mise à jour du 12/11/2026 ; ONU Info, novembre 2026 ; OMS, recommandation sur les vaccins candidats relayée par Al Jazeera le 04/11/2026",
+   "source": "CDC, résumé de situation du 16/11/2026 (données au 14/11) ; ECDC, mises à jour du 12/11 et du 15/11/2026 ; OMS, déclaration relayée par la presse le 17/11/2026",
    "pictogramme": "virus"
   },
   {
