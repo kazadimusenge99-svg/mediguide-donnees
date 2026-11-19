@@ -1,53 +1,54 @@
 {
- "dateActualites": "18 novembre 2026",
- "dateIsoActualites": "2026-11-18",
+ "dateActualites": "19 novembre 2026",
+ "dateIsoActualites": "2026-11-19",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · SEMAINE MONDIALE DE LA RÉSISTANCE AUX ANTIMICROBIENS (18-24 NOVEMBRE)",
-   "titre": "Antibiorésistance",
+   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DES TOILETTES (19 NOVEMBRE)",
+   "titre": "Toilettes et santé",
    "lieu": "Monde · Afrique · RDC",
-   "chiffre": "1 infection bactérienne sur 5 résistante dans la Région africaine (OMS, GLASS, données 2023)",
-   "texte": "La Semaine mondiale de sensibilisation à la résistance aux antimicrobiens s'ouvre aujourd'hui sur le thème « Une seule santé, une action commune : prévenir la RAM maintenant ». Elle accompagne le nouveau plan d'action mondial 2026-2036 contre la résistance aux antimicrobiens.",
+   "chiffre": "3,4 milliards de personnes sans assainissement géré en toute sécurité, dont 354 millions défèquent à l'air libre (OMS/UNICEF, JMP, données 2024)",
+   "texte": "La Journée mondiale des toilettes 2026 a pour thème « Des toilettes sûres, des avenirs égaux ». Elle tombe en pleine épidémie de choléra en RDC, maladie directement liée au manque d'assainissement et d'eau potable.",
    "details": [
-    "Selon le rapport mondial de surveillance de l'OMS (GLASS), 1 infection bactérienne confirmée sur 6 dans le monde en 2023 résistait au traitement antibiotique standard ; dans la Région africaine, 1 sur 5, avec plus de 70 % de résistance pour certains antibiotiques clés",
-    "L'étude GRAM publiée dans The Lancet estime à 1,14 million les décès directement dus à la résistance bactérienne en 2021 et prévoit plus de 39 millions de décès directs entre 2025 et 2050 ; l'Afrique subsaharienne figure parmi les régions qui gagneraient le plus à de meilleurs soins et à un meilleur accès aux antibiotiques",
-    "Prescrire un antibiotique seulement en cas d'infection bactérienne probable : pas d'antibiotique pour un rhume, une diarrhée aqueuse simple sans signe de gravité ni la plupart des bronchites aiguës ; tester toute fièvre (TDR paludisme) avant de prescrire",
-    "Choisir la bonne molécule, la bonne dose et la bonne durée : préférer les antibiotiques du groupe « Accès » de l'OMS (amoxicilline, cotrimoxazole, doxycycline), réserver ceftriaxone, quinolones et carbapénèmes aux indications précises, et réévaluer à 48-72 h",
-    "Faire un prélèvement (ECBU, hémoculture, pus) avant l'antibiotique quand c'est possible ; devant une bactérie multirésistante : isolement de contact, hygiène des mains et avis spécialisé",
-    "Prévenir les infections pour moins prescrire : hygiène des mains, solutions chlorées, asepsie des soins, eau potable et vaccination à jour"
+    "Selon le rapport OMS/UNICEF (JMP) publié en août 2025, 3,4 milliards de personnes n'avaient pas accès en 2024 à un assainissement géré en toute sécurité et 354 millions pratiquaient encore la défécation à l'air libre, quatre fois plus fréquente dans les pays à faible revenu que dans la moyenne mondiale",
+    "L'OMS attribue chaque année environ 564 000 décès à un assainissement insalubre, surtout par maladies diarrhéiques ; l'eau, l'assainissement et l'hygiène insuffisants causent au total 1,4 million de décès par an",
+    "Le thème 2026 rappelle que l'absence de toilettes sûres, privées et équipées pour l'hygiène menstruelle pèse d'abord sur les filles et les femmes (scolarité, sécurité, dignité)",
+    "Devant toute diarrhée aiguë : évaluer la déshydratation, donner les SRO dès le début et le zinc pendant 10 à 14 jours chez l'enfant, poursuivre l'alimentation ; diarrhée aqueuse abondante en zone d'épidémie = suspicion de choléra à notifier",
+    "Conseiller à chaque consultation : utiliser des latrines couvertes, éliminer les selles des enfants dans les latrines, se laver les mains au savon après les toilettes et avant de manger ou de cuisiner, traiter l'eau de boisson (chloration ou ébullition)",
+    "Dans la structure de santé : latrines propres et séparées, point de lavage des mains avec savon ou solution chlorée, désinfection des selles et vomissements des malades"
    ],
-   "couleur": "#4527A0",
-   "icone": "💊",
-   "pathologie": 185,
-   "source": "OMS, page de la Semaine mondiale de sensibilisation à la RAM 2026 (18-24/11/2026) ; OMS, rapport mondial de surveillance GLASS du 13/10/2025 ; GRAM Collaborators, The Lancet, 16/09/2024",
-   "pictogramme": "comprime"
+   "couleur": "#00695C",
+   "icone": "🚻",
+   "pathologie": 18,
+   "source": "ONU-Eau, Journée mondiale des toilettes du 19/11/2026 ; OMS/UNICEF, rapport JMP 2000-2024 du 26/08/2025 ; OMS, aide-mémoire « Assainissement » (dernière mise à jour)",
+   "pictogramme": "savon"
   },
   {
-   "etiquette": "JOURNÉE MONDIALE DE LA BPCO (18 NOVEMBRE)",
-   "titre": "BPCO",
-   "lieu": "Monde",
-   "chiffre": "3,5 millions de décès en 2021, 4e cause de décès dans le monde (OMS)",
-   "texte": "La Journée mondiale de la BPCO est aussi célébrée aujourd'hui, avec un appel à diagnostiquer et traiter plus tôt ; l'initiative GOLD publie à cette occasion son rapport 2027.",
+   "etiquette": "JOURNÉE INTERNATIONALE DE L'HOMME · MOVEMBER",
+   "titre": "Cancer de la prostate",
+   "lieu": "Monde · Afrique subsaharienne",
+   "chiffre": "1er cancer de l'homme en Afrique subsaharienne (CIRC, GLOBOCAN)",
+   "texte": "La Journée internationale de l'homme, le 19 novembre, et le mois de Movember mettent l'accent sur la santé des hommes, en particulier le cancer de la prostate, souvent diagnostiqué tardivement en Afrique.",
    "details": [
-    "Près de 90 % des décès par BPCO chez les moins de 70 ans surviennent dans les pays à revenu faible ou intermédiaire ; en Afrique, la fumée du bois et du charbon de cuisine, le tabac, la tuberculose ancienne et les poussières professionnelles sont les principaux facteurs (OMS)",
-    "Penser à la BPCO devant une toux et des expectorations chroniques ou un essoufflement progressif après 40 ans chez un fumeur ou une personne exposée à la fumée domestique",
-    "Confirmer par spirométrie si possible (VEMS/CVF < 0,70 après bronchodilatateur) et éliminer une tuberculose (GeneXpert) devant toute toux de plus de 2 semaines",
-    "Traitement : arrêt du tabac et réduction de l'exposition à la fumée, bronchodilatateur inhalé avec technique d'inhalation vérifiée, vaccination, activité physique ; exacerbation : bronchodilatateur, prednisolone 40 mg pendant 5 jours, antibiotique seulement si expectorations purulentes"
+    "Le cancer de la prostate est le cancer le plus fréquent chez l'homme en Afrique subsaharienne, région où la mortalité par ce cancer est parmi les plus élevées au monde (CIRC, GLOBOCAN)",
+    "Les hommes d'ascendance africaine ont un risque plus élevé et des formes souvent plus précoces et plus agressives",
+    "Rechercher les signes : troubles mictionnels, hématurie, rétention urinaire, douleurs osseuses (dos, bassin) chez un homme de plus de 50 ans",
+    "Toucher rectal et dosage du PSA, en expliquant au patient les avantages et limites du dépistage ; dès 45 ans en cas d'antécédent familial ; orienter vers un urologue si prostate dure ou nodulaire ou PSA élevé",
+    "Profiter de la consultation pour dépister aussi l'hypertension, le diabète et le tabagisme, fréquents et sous-diagnostiqués chez l'homme"
    ],
-   "couleur": "#37474F",
-   "icone": "🫁",
-   "pathologie": 129,
-   "source": "OMS, aide-mémoire « Bronchopneumopathie chronique obstructive » (données 2021) ; GOLD, Journée mondiale de la BPCO du 18/11/2026",
-   "pictogramme": "poumons"
+   "couleur": "#1A237E",
+   "icone": "🎗️",
+   "pathologie": 234,
+   "source": "CIRC, GLOBOCAN (fiche Afrique subsaharienne) ; Journée internationale de l'homme du 19/11/2026",
+   "pictogramme": "ruban"
   },
   {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
-   "lieu": "RDC (8 provinces, 67 zones de santé) · Kenya · cas importé au Nigeria",
-   "chiffre": "11 376 cas confirmés et 5 568 décès en RDC (CDC et ECDC, au 14 novembre)",
+   "lieu": "RDC (8 provinces) · Kenya · cas importé au Nigeria",
+   "chiffre": "11 432 cas confirmés et 5 593 décès en RDC (CDC, au 15 novembre)",
    "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, continue de progresser en RDC ; l'OMS s'inquiète de la hausse des décès et de l'insécurité qui entrave la riposte. Près d'un malade sur deux en meurt.",
    "details": [
-    "RDC au 14 novembre : 11 376 cas confirmés et 5 568 décès dans 8 provinces et 67 zones de santé ; l'Ituri reste l'épicentre et le Nord-Kivu enregistre la plus forte hausse récente",
+    "RDC au 15 novembre : 11 432 cas confirmés et 5 593 décès confirmés dans 8 provinces ; l'Ituri reste l'épicentre et le Nord-Kivu enregistre la plus forte hausse récente ; plus de 3 000 patients guéris",
     "Ouganda : épidémie terminée (20 cas confirmés, 2 décès) ; Kenya : 9 cas dont 2 décès, tous issus d'une seule introduction depuis la RDC, dernier patient sorti le 11 novembre ; Nigeria : 1 cas importé le 20 octobre, suivi des contacts presque achevé",
     "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; deux vaccins candidats spécifiques doivent être évalués dans l'essai TUMAINI de vaccination en anneau à Bunia ; des soins de soutien précoces améliorent nettement la survie",
     "Tout patient fébrile ayant eu un contact avec un cas, ou présentant des signes hémorragiques, une diarrhée ou des vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte",
@@ -56,17 +57,17 @@
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "CDC, résumé de situation du 16/11/2026 (données au 14/11) ; ECDC, mises à jour du 12/11 et du 15/11/2026 ; OMS, déclaration relayée par la presse le 17/11/2026",
+   "source": "CDC, résumé de situation du 17/11/2026 (données au 15/11) ; ECDC, mise à jour du 16/11/2026 ; OMS, bulletins Disease Outbreak News de novembre 2026",
    "pictogramme": "virus"
   },
   {
    "etiquette": "ÉPIDÉMIE EN HAUSSE",
    "titre": "Choléra en RDC",
    "lieu": "RDC · Nord-Kivu et Sud-Kivu en tête · cas à Kinshasa",
-   "chiffre": "62 036 cas et 1 839 décès en 2026 (OMS, semaine 42)",
-   "texte": "L'OMS qualifie l'épidémie de choléra en RDC de pire depuis des décennies ; des cas ont été signalés à Kinshasa (Kingabwa) début novembre et une campagne de vaccination orale est en cours.",
+   "chiffre": "65 698 cas suspects et 1 892 décès en 2026 (OMS, semaine 44)",
+   "texte": "L'OMS qualifie l'épidémie de choléra en RDC de pire depuis des décennies ; en semaine 44, 2 083 nouveaux cas et 46 décès, avec des cas le long du fleuve Congo et à Kinshasa.",
    "details": [
-    "Du 1er janvier au 18 octobre 2026 : 62 036 cas et 1 839 décès, létalité proche de 3 % ; la majorité des cas au Nord-Kivu et au Sud-Kivu",
+    "Cumul 2026 à la semaine 44 : 65 698 cas suspects et 1 892 décès ; semaine 44 : 2 083 cas (−4,7 % par rapport à la semaine 43) et 46 décès, létalité 2,2 % ; Nord-Kivu, Sud-Kivu, Haut-Katanga, Haut-Lomami et Tanganyika en tête",
     "Kinshasa : 3 cas signalés à Kingabwa début novembre ; campagne de vaccination orale visant environ 2 millions de personnes à Kinshasa et à Brazzaville",
     "Réhydratation précoce (SRO ; Ringer lactate si déshydratation sévère), azithromycine ou doxycycline dans les formes sévères, zinc chez l'enfant",
     "Chloration de l'eau, désinfection des selles et vomissements (solutions chlorées 0,05 % et 0,5 %), notification immédiate de tout cas suspect"
@@ -74,7 +75,7 @@
    "couleur": "#0277BD",
    "icone": "💧",
    "pathologie": 19,
-   "source": "OMS, bilan de la semaine 42 annoncé le 04/11/2026 (AFP, Vidal) ; allAfrica du 06/11 et du 11/11/2026 (Kinshasa)",
+   "source": "OMS, rapport de situation de la semaine 44 (Reporter.cd, vers le 17/11/2026) ; OMS, déclaration du 04/11/2026 ; allAfrica du 06/11 et du 11/11/2026 (Kinshasa)",
    "pictogramme": "goutte"
   },
   {
