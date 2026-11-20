@@ -1,5 +1,5 @@
 {
- "version": 94,
+ "version": 95,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -32980,7 +32980,20 @@
   41,
   40,
   96,
-  28
+  28,
+  47,
+  46,
+  249,
+  243,
+  245,
+  251,
+  259,
+  261,
+  85,
+  45,
+  4,
+  172,
+  248
  ],
  "dateActualites": "28 octobre 2026",
  "dateIsoActualites": "2026-10-28",
@@ -51440,6 +51453,9 @@
      "examen": "Ponction lombaire si coma ou convulsions",
      "resultat": "LCR normal (élimine une méningite associée)"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -51616,6 +51632,9 @@
      "examen": "Hémoculture, NFS, CRP, glycémie",
      "resultat": "Hyperleucocytose à polynucléaires, CRP élevée"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -51886,6 +51905,9 @@
      "examen": "Aucun examen pour le diagnostic (clinique)",
      "resultat": "Trismus, rire sardonique, contractures généralisées, spasmes déclenchés par le bruit ou le toucher, conscience normale ; CPK élevées et myoglobinurie dans les formes graves"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -52521,6 +52543,9 @@
      "examen": "Gaz du sang (crise grave)",
      "resultat": "PaCO₂ normale ou élevée (> 45 mmHg) = épuisement"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -52724,6 +52749,9 @@
      "examen": "Glycémie (enfant léthargique)",
      "resultat": "Glycémie < 0,54 g/l (3 mmol/l) = hypoglycémie à corriger (sérum glucosé 10 %)"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -52804,6 +52832,9 @@
      "examen": "Ionogramme (forme grave)",
      "resultat": "Hypokaliémie, acidose métabolique"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -53758,6 +53789,9 @@
      "examen": "Ponction lombaire (signes neurologiques ou hémoculture positive)",
      "resultat": "Méningite : > 20 éléments/mm³, glucose bas, germes"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -53860,6 +53894,9 @@
      "examen": "TDR du paludisme, hémoculture si fièvre",
      "resultat": "TDR positif = paludisme déclencheur ; hémoculture : pneumocoque, salmonelle (risque élevé chez le drépanocytaire)"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -53947,6 +53984,9 @@
      "examen": "Groupe sanguin et compatibilité",
      "resultat": "Groupe ABO et Rhésus déterminés ; test de compatibilité au lit sans agglutination = transfusion possible"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -54029,6 +54069,9 @@
      "examen": "Échographie obstétricale et doppler",
      "resultat": "Retard de croissance, oligoamnios, doppler ombilical pathologique ; hématome rétroplacentaire"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -54111,6 +54154,9 @@
      "examen": "Échographie (si disponible)",
      "resultat": "Rétention placentaire, hématome"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -54496,6 +54542,9 @@
      "examen": "NFS (plaquettes), créatinine, CPK, bandelette urinaire",
      "resultat": "Thrombopénie, insuffisance rénale, myoglobinurie (urines foncées)"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -54579,6 +54628,9 @@
      "examen": "Dosages spécifiques (si disponibles)",
      "resultat": "Paracétamolémie, salicylémie, fer, digoxine, lithium, cholinestérases"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -54946,6 +54998,9 @@
       "ecg-hyperk"
      ]
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -55044,6 +55099,9 @@
      "examen": "NFS, TP, glycémie, lipides, créatinine",
      "resultat": "Plaquettes > 100 000 et INR < 1,7 avant thrombolyse ou anticoagulant ; LDL élevé, diabète = facteurs de risque à traiter"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -55132,6 +55190,9 @@
      "examen": "Radiographie du thorax",
      "resultat": "Normale dans l'infarctus ; élargissement du médiastin (> 8 cm) = dissection aortique ; pneumothorax ; pneumonie ; œdème pulmonaire"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -55219,6 +55280,9 @@
      "examen": "Échographie cardiaque (embolie grave)",
      "resultat": "Dilatation du ventricule droit"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -55436,6 +55500,9 @@
      "examen": "Recherche de toxiques (si disponible)",
      "resultat": "Cannabis, alcool, amphétamines"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -56065,6 +56132,9 @@
      "examen": "Lipase, bandelette urinaire",
      "resultat": "Pancréatite ; infection urinaire, colique néphrétique"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -57394,6 +57464,9 @@
      "examen": "Glycémie après la réanimation",
      "resultat": "Hypoglycémie < 0,45 g/l (2,5 mmol/l)"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -57860,6 +57933,9 @@
      "examen": "Hb, groupe sanguin et Rhésus",
      "resultat": "Anémie ; anti-D si Rhésus négatif"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -57938,6 +58014,9 @@
      "examen": "Ponction du cul-de-sac de Douglas (sans échographie)",
      "resultat": "Sang incoagulable"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -59486,6 +59565,9 @@
       "echo-hydronephrose"
      ]
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -59557,6 +59639,9 @@
      "examen": "PSA (à distance, homme > 50 ans)",
      "resultat": "Élevé dans le cancer de la prostate (aussi après rétention ou sondage)"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -60904,6 +60989,9 @@
      "examen": "Hémoculture (après intubation)",
      "resultat": "Haemophilus influenzae b, streptocoque"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -63103,6 +63191,9 @@
      "examen": "NFS, CRP, créatinine, CPK, lactates, hémocultures",
      "resultat": "Score LRINEC élevé, insuffisance rénale, choc"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -63175,6 +63266,9 @@
       "rx-oap"
      ]
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -63305,6 +63399,9 @@
       "ct-hematome"
      ]
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -63713,6 +63810,9 @@
      "examen": "Gaz du sang, glycémie, transaminases",
      "resultat": "Acidose métabolique, hyperglycémie, hépatite"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -63785,6 +63885,9 @@
      "examen": "Méthanolémie (si disponible)",
      "resultat": "> 0,5 g/l = intoxication grave"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -63842,6 +63945,9 @@
      "examen": "Gaz du sang veineux et artériel",
      "resultat": "Acidose métabolique ; sang veineux très oxygéné (rouge vif)"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -63919,6 +64025,9 @@
      "examen": "Glycémie, ionogramme, gaz du sang",
      "resultat": "Hyperglycémie, acidose métabolique, hypokaliémie (formes graves)"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -64834,6 +64943,9 @@
      "examen": "EEG",
      "resultat": "Activités lentes, ondes périodiques temporales"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -65158,6 +65270,9 @@
       "ecg-fv"
      ]
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -65521,6 +65636,9 @@
      "examen": "Capacité vitale, SpO₂",
      "resultat": "Capacité vitale < 20 ml/kg = risque d'insuffisance respiratoire"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -66088,6 +66206,9 @@
      "examen": "Holter (formes paroxystiques)",
      "resultat": "Accès de fibrillation"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -66618,6 +66739,9 @@
      "examen": "Recherche de la cause",
      "resultat": "Tuberculose (calcifications surrénaliennes), VIH, CMV"
     }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   },
   {
@@ -69156,6 +69280,1573 @@
      "examen": "Créatinine, ionogramme, NFS, gaz du sang",
      "resultat": "Insuffisance rénale, hyponatrémie, anémie, hypoxémie"
     }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 243,
+   "nom": "Hémorragie digestive (haute et basse)",
+   "categorie": "urgences",
+   "synonymes": "hémorragie digestive, hématémèse, méléna, rectorragie, vomissement de sang, selles noires, varices œsophagiennes, ulcère qui saigne",
+   "resume": "Saignement du tube digestif, haut (au-dessus de l'angle de Treitz : ulcère gastroduodénal, varices œsophagiennes de la cirrhose ou de la schistosomiase, gastrite aux AINS, syndrome de Mallory-Weiss) ou bas (hémorroïdes, typhoïde, dysenterie, schistosomiase intestinale, cancer du côlon, diverticules). La gravité dépend du retentissement hémodynamique : réanimer d'abord, chercher la cause ensuite.",
+   "signes": [
+    "Hématémèse (sang rouge ou « marc de café »)",
+    "Méléna : selles noires, goudronneuses, fétides",
+    "Rectorragie (sang rouge par l'anus) ; une rectorragie abondante avec choc peut venir d'un saignement haut",
+    "Malaise, lipothymie, soif, pâleur, sueurs",
+    "Tachycardie, hypotension, extrémités froides, oligurie",
+    "Signes de cirrhose (ascite, ictère, circulation collatérale) ou de schistosomiase (grosse rate)"
+   ],
+   "diagnostic": [
+    "Évaluer le choc (pouls, TA, temps de recoloration, conscience, diurèse)",
+    "Interroger : AINS, aspirine, anticoagulant, alcool, hépatite, schistosomiase, vomissements répétés",
+    "Toucher rectal (méléna)",
+    "Score de Glasgow-Blatchford : 0 à 1 = faible risque",
+    "Endoscopie (FOGD) dans les 24 h, dans les 12 h si varices suspectées"
+   ],
+   "traitement": [
+    "2 voies veineuses de gros calibre, oxygène, patient à jeun, position latérale si vomissements",
+    "Remplissage par Ringer lactate ou NaCl 0,9 % (500 ml à répéter selon la réponse), sans viser une TA normale si le saignement continue (PAS 90 à 100 mmHg)",
+    "Transfusion de culots globulaires si Hb < 7 g/dl (< 8 g/dl si maladie coronarienne) ou choc persistant ; sang total si pas de culot ; PFC si INR élevé",
+    "Saignement haut : oméprazole 80 mg IV puis 40 mg IV toutes les 12 h (ou 8 mg/h en continu) jusqu'à l'endoscopie",
+    "Cirrhose ou varices suspectées : ceftriaxone 1 g IV par jour pendant 7 jours ; terlipressine ou octréotide si disponibles ; transfusion prudente (Hb cible 7 à 8 g/dl) ; lactulose pour prévenir l'encéphalopathie ; vitamine K1 si INR élevé",
+    "Hémorragie massive par varices sans endoscopie : sonde de tamponnement (Blakemore) par une équipe entraînée",
+    "Arrêter AINS, aspirine et anticoagulants ; antivitamine K : vitamine K1 10 mg IV et PFC",
+    "Acide tranexamique non recommandé (pas de bénéfice, plus de thromboses)",
+    "Après l'arrêt : éradication d'H. pylori (ulcère), propranolol (prévention des récidives de varices), traitement de la schistosomiase (praziquantel)"
+   ],
+   "gravite": [
+    "Choc, besoin de plus de 2 culots",
+    "Récidive de l'hémorragie à l'hôpital",
+    "Cirrhose (Child-Pugh C), encéphalopathie",
+    "Âge > 60 ans, insuffisance cardiaque ou rénale",
+    "Hématémèse de sang rouge"
+   ],
+   "prevention": [
+    "Éviter les AINS sans protection gastrique chez les sujets à risque",
+    "Éradication d'H. pylori",
+    "Dépistage et traitement des hépatites B et C, arrêt de l'alcool",
+    "Traitement de masse de la schistosomiase",
+    "Propranolol chez le cirrhotique avec grosses varices"
+   ],
+   "medicaments": [
+    "Oméprazole",
+    "Pantoprazole",
+    "Ésoméprazole",
+    "Ringer lactate",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
+    "Concentré de globules rouges (culot globulaire)",
+    "Sang total",
+    "Plasma frais congelé (PFC)",
+    "Ceftriaxone",
+    "Lactulose",
+    "Vitamine K1 (phytoménadione)",
+    "Propranolol",
+    "Praziquantel"
+   ],
+   "frequence": 2,
+   "physiopathologie": "La perte sanguine aiguë réduit le volume circulant : tachycardie puis hypotension quand plus de 30 % du volume est perdu. L'hémoglobine reste normale pendant les premières heures (hémodilution retardée). Le sang digéré dans l'intestin donne le méléna et augmente l'urée. Dans l'hypertension portale, la pression élevée dilate les veines œsophagiennes qui se rompent ; la cirrhose ajoute des troubles de la coagulation et un risque d'infection et d'encéphalopathie.",
+   "paraclinique": [
+    {
+     "examen": "Hémoglobine et hématocrite",
+     "resultat": "Peuvent être normales au début (hémodilution retardée de 24 à 72 h) ; Hb < 7 g/dl = transfusion"
+    },
+    {
+     "examen": "Groupe sanguin, Rhésus et compatibilité",
+     "resultat": "À faire dès l'arrivée pour préparer la transfusion"
+    },
+    {
+     "examen": "Urée et créatinine",
+     "resultat": "Urée élevée avec créatinine normale (rapport urée/créatinine augmenté) évoque un saignement haut"
+    },
+    {
+     "examen": "TP/INR et plaquettes",
+     "resultat": "INR élevé et plaquettes basses en cas de cirrhose ou d'antivitamine K"
+    },
+    {
+     "examen": "Fibroscopie œso-gastro-duodénale",
+     "resultat": "Ulcère avec saignement actif ou vaisseau visible (Forrest Ia, Ib, IIa) ; varices œsophagiennes avec signes rouges ; traitement endoscopique dans le même temps"
+    },
+    {
+     "examen": "Score de Glasgow-Blatchford",
+     "resultat": "0 à 1 : faible risque, prise en charge ambulatoire possible ; ≥ 7 : forte probabilité d'intervention"
+    }
+   ],
+   "autresCategories": []
+  },
+  {
+   "id": 244,
+   "nom": "Bradycardies graves et blocs auriculo-ventriculaires",
+   "categorie": "cardio",
+   "synonymes": "bradycardie, pouls lent, bloc auriculo-ventriculaire, BAV, bloc complet, syncope, Adams-Stokes",
+   "resume": "Fréquence cardiaque trop lente (moins de 50/min chez l'adulte) avec retentissement : malaise, syncope, hypotension, insuffisance cardiaque. Causes : bloc auriculo-ventriculaire (dégénératif, infarctus inférieur, myocardite), médicaments (bêtabloquants, digoxine, vérapamil, amiodarone), hyperkaliémie, hypoxie (cause principale chez l'enfant), hypothermie, hypothyroïdie, organophosphorés, hypertension intracrânienne.",
+   "signes": [
+    "Pouls lent et régulier (bloc) ou irrégulier",
+    "Fatigue, vertiges, malaise, syncope brutale sans prodrome",
+    "Hypotension, extrémités froides, confusion",
+    "Douleur thoracique, essoufflement, œdème pulmonaire",
+    "Enfant : bradycardie < 60/min avec signes de mauvaise perfusion = réanimation"
+   ],
+   "diagnostic": [
+    "ECG 12 dérivations",
+    "Rechercher les signes d'instabilité : choc, syncope, insuffisance cardiaque, ischémie myocardique",
+    "Rechercher les causes réversibles : kaliémie, médicaments, hypoxie, température, glycémie, intoxication"
+   ],
+   "traitement": [
+    "Oxygène si SpO2 < 94 %, voie veineuse, monitorage",
+    "Enfant : bradycardie = hypoxie : libérer les voies aériennes, ventiler au masque ; massage cardiaque si < 60/min avec signes de mauvaise perfusion malgré la ventilation ; adrénaline 10 µg/kg IV/IO",
+    "Adulte instable : atropine 0,5 à 1 mg IV, à répéter toutes les 3 à 5 min jusqu'à 3 mg",
+    "Si échec : adrénaline en perfusion 2 à 10 µg/min (ou dopamine 5 à 20 µg/kg/min) ; entraînement électrosystolique externe (pacemaker transcutané) si disponible, sous sédation",
+    "Traiter la cause : hyperkaliémie (gluconate de calcium), surdosage en bêtabloquant (glucagon 5 à 10 mg IV), organophosphorés (atropine à fortes doses), hypothermie (réchauffement)",
+    "Arrêter les médicaments bradycardisants",
+    "Bloc de haut degré persistant : transfert pour pacemaker définitif"
+   ],
+   "gravite": [
+    "Syncope, choc, insuffisance cardiaque",
+    "Bloc de 2e degré Mobitz II ou bloc complet à QRS larges",
+    "Pauses > 3 s",
+    "Bradycardie de l'enfant (arrêt imminent)"
+   ],
+   "prevention": [
+    "Adapter les doses de bêtabloquants, de digoxine (insuffisance rénale) et de vérapamil",
+    "Ne pas associer bêtabloquant et vérapamil",
+    "Surveiller la kaliémie sous IEC, ARA2 et spironolactone"
+   ],
+   "medicaments": [
+    "Atropine",
+    "Adrénaline (épinéphrine)",
+    "Dopamine",
+    "Glucagon",
+    "Gluconate de calcium 10 %",
+    "Oxygène"
+   ],
+   "frequence": 1,
+   "physiopathologie": "Le débit cardiaque est le produit de la fréquence par le volume d'éjection : quand la fréquence baisse trop, le débit chute et le cerveau est mal perfusé (syncope d'Adams-Stokes). Dans le bloc complet, l'oreillette et le ventricule battent indépendamment ; l'échappement ventriculaire est lent et instable et peut s'arrêter (asystolie). Chez l'enfant, la bradycardie est presque toujours le signe d'une hypoxie qui précède l'arrêt cardiaque.",
+   "paraclinique": [
+    {
+     "examen": "ECG 12 dérivations",
+     "resultat": "BAV 1er degré (PR > 200 ms), 2e degré Mobitz I (allongement progressif de PR) ou Mobitz II (onde P bloquée sans allongement), 3e degré (dissociation complète P/QRS) ; bradycardie sinusale ; signes d'hyperkaliémie (T pointues)"
+    },
+    {
+     "examen": "Kaliémie et créatinine",
+     "resultat": "Hyperkaliémie > 6 mmol/l = cause fréquente et réversible"
+    },
+    {
+     "examen": "Troponine",
+     "resultat": "Élevée si infarctus (inférieur surtout)"
+    },
+    {
+     "examen": "Digoxinémie, TSH, glycémie, température",
+     "resultat": "Selon le contexte : surdosage en digoxine, hypothyroïdie, hypothermie"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 245,
+   "nom": "Hyperkaliémie",
+   "categorie": "urgences",
+   "synonymes": "hyperkaliémie, potassium élevé, kaliémie élevée",
+   "resume": "Excès de potassium dans le sang (> 5,5 mmol/l ; grave au-delà de 6,5 mmol/l ou s'il existe des signes ECG). Elle peut provoquer un arrêt cardiaque sans signe d'alerte. Causes : insuffisance rénale aiguë ou chronique, IEC, ARA2, spironolactone, AINS, acidocétose, rhabdomyolyse (écrasement, électrisation, coup de chaleur), syndrome de lyse tumorale, hémolyse, transfusions massives, insuffisance surrénale.",
+   "signes": [
+    "Souvent aucun symptôme",
+    "Faiblesse musculaire, paralysie ascendante, paresthésies",
+    "Pouls lent ou irrégulier, malaise, syncope",
+    "Arrêt cardiaque",
+    "Contexte : oligurie, insuffisance rénale, écrasement, chimiothérapie, acidocétose"
+   ],
+   "diagnostic": [
+    "Kaliémie (éliminer une fausse hyperkaliémie par hémolyse du prélèvement)",
+    "ECG immédiat",
+    "Créatinine, diurèse, glycémie, bicarbonates",
+    "Revoir les médicaments"
+   ],
+   "traitement": [
+    "Monitorage, voie veineuse",
+    "Signes ECG ou K ≥ 6,5 mmol/l : gluconate de calcium 10 % 30 ml IV en 5 à 10 min (enfant 0,5 ml/kg, maximum 20 ml), à répéter après 5 à 10 min si l'ECG reste anormal ; effet en minutes, durée 30 à 60 min",
+    "Insuline rapide 10 UI dans 50 ml de glucose 50 % (ou 250 ml de glucose 10 %) IV en 15 à 30 min ; enfant : insuline 0,1 UI/kg + glucose 0,5 g/kg ; glycémie toutes les heures pendant 6 h (risque d'hypoglycémie)",
+    "Salbutamol 10 à 20 mg en nébulisation (enfant 2,5 à 5 mg)",
+    "Bicarbonate de sodium 8,4 % 50 ml si acidose métabolique sévère",
+    "Éliminer le potassium : furosémide 40 à 80 mg IV si le patient urine ; dialyse (péritonéale ou hémodialyse) si insuffisance rénale anurique ou échec",
+    "Arrêter les apports de potassium, IEC, ARA2, spironolactone, AINS ; traiter la cause",
+    "Contrôler la kaliémie à 1 h, 2 h, 4 h puis 6 h"
+   ],
+   "gravite": [
+    "K ≥ 6,5 mmol/l",
+    "Anomalies ECG (QRS larges, disparition des ondes P, aspect sinusoïdal)",
+    "Bradycardie, troubles du rythme",
+    "Insuffisance rénale anurique"
+   ],
+   "prevention": [
+    "Surveiller la kaliémie et la créatinine sous IEC, ARA2, spironolactone, surtout chez le diabétique et l'insuffisant rénal",
+    "Hydratation et allopurinol ou rasburicase avant chimiothérapie des lymphomes et leucémies",
+    "Remplissage précoce dans les écrasements"
+   ],
+   "medicaments": [
+    "Gluconate de calcium 10 %",
+    "Insuline humaine (rapide et NPH)",
+    "Glucose hypertonique 30 % / 50 %",
+    "Glucose 10 %",
+    "Salbutamol",
+    "Bicarbonate de sodium 8,4 % / 4,2 %",
+    "Furosémide",
+    "Solution de dialyse péritonéale"
+   ],
+   "frequence": 2,
+   "physiopathologie": "Le potassium est surtout intracellulaire ; le rein en élimine l'excès. Quand l'élimination baisse ou que les cellules en libèrent (lyse, acidose, manque d'insuline), le potassium extracellulaire monte et dépolarise les membranes : la conduction cardiaque ralentit (QRS larges), jusqu'à la fibrillation ventriculaire ou l'asystolie. Le calcium stabilise la membrane cardiaque sans baisser la kaliémie ; l'insuline et le salbutamol font rentrer le potassium dans les cellules ; seuls le rein, les diurétiques et la dialyse l'éliminent.",
+   "paraclinique": [
+    {
+     "examen": "Kaliémie",
+     "resultat": "> 5,5 mmol/l ; ≥ 6,5 mmol/l = sévère ; refaire sans garrot prolongé si hémolyse du tube"
+    },
+    {
+     "examen": "ECG",
+     "resultat": "Ondes T amples et pointues, puis PR allongé, ondes P aplaties, QRS élargis, aspect sinusoïdal, bradycardie ; l'ECG peut être normal même à K élevé"
+    },
+    {
+     "examen": "Créatinine et urée",
+     "resultat": "Élevées dans l'insuffisance rénale (cause la plus fréquente)"
+    },
+    {
+     "examen": "Gaz du sang ou bicarbonates",
+     "resultat": "Acidose métabolique associée (bicarbonates < 15 mmol/l)"
+    },
+    {
+     "examen": "CPK",
+     "resultat": "Très élevées (> 5 fois la normale) en cas de rhabdomyolyse"
+    }
+   ],
+   "autresCategories": []
+  },
+  {
+   "id": 246,
+   "nom": "Troubles hydroélectrolytiques graves (sodium, potassium, calcium)",
+   "categorie": "urgences",
+   "synonymes": "hyponatrémie, hypernatrémie, hypokaliémie, hypocalcémie, ionogramme, natrémie, tétanie, sodium bas",
+   "resume": "Anomalies graves du sodium, du potassium ou du calcium, fréquentes à l'hôpital : diarrhées et choléra, vomissements, diurétiques, perfusions inadaptées (soluté glucosé seul chez l'enfant), méningite, pneumonie ou tuberculose (sécrétion inappropriée d'ADH), malnutrition (syndrome de renutrition), insuffisance surrénale. Une correction trop rapide est aussi dangereuse que le trouble lui-même.",
+   "signes": [
+    "Hyponatrémie : nausées, céphalées, confusion, convulsions, coma",
+    "Hypernatrémie : soif intense, irritabilité, cri aigu du nourrisson, peau pâteuse, convulsions",
+    "Hypokaliémie : faiblesse musculaire, iléus (ventre ballonné), crampes, palpitations",
+    "Hypocalcémie : fourmillements des lèvres et des doigts, crampes, spasme carpopédal, signes de Chvostek et de Trousseau, convulsions, laryngospasme"
+   ],
+   "diagnostic": [
+    "Ionogramme sanguin, créatinine, glycémie (le glucose élevé abaisse faussement le sodium)",
+    "Apprécier l'hydratation (déshydraté, normal ou œdémateux)",
+    "Durée d'installation (moins ou plus de 48 h)",
+    "Calcémie corrigée par l'albumine, magnésémie",
+    "ECG si potassium ou calcium anormal"
+   ],
+   "traitement": [
+    "Hyponatrémie avec signes graves (convulsions, coma, vomissements répétés) : NaCl 3 % 150 ml IV en 20 min (enfant 2 à 3 ml/kg), à répéter 1 à 2 fois jusqu'à +5 mmol/l ou disparition des signes ; puis ne pas dépasser +10 mmol/l par 24 h (+8 si alcoolisme, malnutrition, hypokaliémie)",
+    "Hyponatrémie sans signe grave : selon l'hydratation : NaCl 0,9 % si déshydratation, restriction hydrique (800 ml/j) si SIADH, diurétique et restriction si œdèmes ; arrêter les thiazides",
+    "Hypernatrémie : réhydrater lentement sur 48 h (baisse du sodium ≤ 10 à 12 mmol/l par 24 h) ; nourrisson : SRO si possible, sinon NaCl 0,9 % puis glucosé-salé",
+    "Hypokaliémie : KCl par la bouche si possible ; IV : KCl dilué (≤ 40 mmol/l en veine périphérique), débit ≤ 10 à 20 mmol/h (enfant 0,2 à 0,5 mmol/kg/h), jamais en bolus ; corriger le magnésium (sulfate de magnésium 2 g IV)",
+    "Hypocalcémie symptomatique : gluconate de calcium 10 % 10 à 20 ml IV lente en 10 min (enfant 0,5 ml/kg), puis perfusion ; corriger le magnésium",
+    "Contrôler l'ionogramme toutes les 4 à 6 h pendant la correction",
+    "Enfant hospitalisé : solutés isotoniques (Ringer lactate, NaCl 0,9 % + glucose), jamais de glucosé 5 % seul"
+   ],
+   "gravite": [
+    "Convulsions, coma",
+    "Sodium < 120 ou > 160 mmol/l",
+    "Potassium < 2,5 mmol/l ou troubles du rythme",
+    "Calcium bas avec laryngospasme ou convulsions",
+    "Correction trop rapide (troubles neurologiques retardés)"
+   ],
+   "prevention": [
+    "Solutés isotoniques chez l'enfant hospitalisé",
+    "Réhydratation par SRO dans les diarrhées",
+    "Surveillance de l'ionogramme sous diurétiques",
+    "Renutrition progressive du malnutri (F-75)"
+   ],
+   "medicaments": [
+    "Chlorure de sodium hypertonique 3 %",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
+    "Glucosé-salé (G5 % + NaCl)",
+    "Ringer lactate",
+    "Chlorure de potassium (KCl) injectable",
+    "Sulfate de magnésium",
+    "Gluconate de calcium 10 %",
+    "Sels de réhydratation orale (SRO)"
+   ],
+   "frequence": 2,
+   "physiopathologie": "Le sodium détermine l'eau des cellules : une hyponatrémie rapide fait gonfler le cerveau (œdème cérébral, convulsions), une hypernatrémie le déshydrate. Le cerveau s'adapte en 48 h : corriger trop vite une hyponatrémie chronique provoque une myélinolyse (atteinte irréversible du tronc cérébral), et une hypernatrémie trop vite corrigée un œdème cérébral. Le potassium et le calcium règlent l'excitabilité du cœur et des muscles : hypokaliémie (faiblesse, arythmies), hypocalcémie (tétanie, convulsions, QT long).",
+   "paraclinique": [
+    {
+     "examen": "Natrémie",
+     "resultat": "Normale 135 à 145 mmol/l ; < 125 mmol/l ou signes neurologiques = grave ; > 155 mmol/l = hypernatrémie sévère"
+    },
+    {
+     "examen": "Kaliémie",
+     "resultat": "Normale 3,5 à 5 mmol/l ; < 2,5 mmol/l = grave"
+    },
+    {
+     "examen": "Calcémie corrigée",
+     "resultat": "Calcium total + 0,02 × (40 − albumine g/l) ; < 1,9 mmol/l (7,6 mg/dl) ou calcium ionisé < 1 mmol/l = grave"
+    },
+    {
+     "examen": "Glycémie et osmolalité",
+     "resultat": "Hyperglycémie : le sodium corrigé = Na + 1,6 par 5,5 mmol/l de glucose au-delà de la normale"
+    },
+    {
+     "examen": "Natriurèse",
+     "resultat": "< 20 mmol/l : perte digestive ou déshydratation ; > 30 mmol/l : diurétiques, SIADH, insuffisance surrénale"
+    },
+    {
+     "examen": "ECG",
+     "resultat": "Hypokaliémie : ondes U, sous-décalage de ST, QT allongé ; hypocalcémie : QT allongé"
+    }
+   ],
+   "autresCategories": []
+  },
+  {
+   "id": 247,
+   "nom": "Dissection aortique",
+   "categorie": "cardio",
+   "synonymes": "dissection aortique, douleur thoracique déchirante, syndrome aortique aigu, Marfan",
+   "resume": "Déchirure de la paroi de l'aorte qui crée un faux chenal ; mortalité de 1 à 2 % par heure sans traitement dans les dissections de l'aorte ascendante. Terrain : hypertension artérielle (souvent mal contrôlée), maladie de Marfan, bicuspidie aortique, grossesse, cocaïne. À évoquer devant toute douleur thoracique brutale et intense, surtout irradiant au dos.",
+   "signes": [
+    "Douleur thoracique ou dorsale brutale, maximale d'emblée, « déchirante », migrant vers le dos ou l'abdomen",
+    "Asymétrie des pouls ou de la TA entre les deux bras (> 20 mmHg)",
+    "Souffle diastolique (insuffisance aortique)",
+    "Déficit neurologique, paraplégie, syncope",
+    "Douleur abdominale, ischémie d'un membre, anurie",
+    "Choc, tamponnade"
+   ],
+   "diagnostic": [
+    "Penser à la dissection avant de donner un anticoagulant, de l'aspirine ou un thrombolytique pour un « infarctus »",
+    "Mesurer la TA aux deux bras",
+    "ECG (souvent normal ou peu spécifique)",
+    "Radiographie : élargissement du médiastin",
+    "Échographie cardiaque, scanner thoracique injecté (examen de référence)"
+   ],
+   "traitement": [
+    "Oxygène, 2 voies veineuses, monitorage, morphine IV titrée contre la douleur",
+    "Baisser d'abord la fréquence puis la tension : objectif FC < 60/min et PAS 100 à 120 mmHg en 20 min",
+    "Labétalol 20 mg IV en 2 min puis 20 à 80 mg toutes les 10 min (maximum 300 mg) ou perfusion 1 à 2 mg/min ; si bêtabloquant contre-indiqué (asthme) : vérapamil",
+    "Si la TA reste haute après le bêtabloquant : nicardipine en perfusion (jamais avant le bêtabloquant : tachycardie réflexe)",
+    "Pas d'anticoagulant, d'aspirine ni de thrombolyse",
+    "Type A : transfert immédiat en chirurgie cardiaque",
+    "Type B non compliqué : traitement médical, contrôle tensionnel strict au long cours ; compliqué (ischémie, rupture) : chirurgie ou endoprothèse",
+    "Choc ou tamponnade : remplissage prudent, pas de péricardiocentèse sauf arrêt imminent"
+   ],
+   "gravite": [
+    "Atteinte de l'aorte ascendante (type A)",
+    "Choc, tamponnade, hémothorax",
+    "Ischémie cérébrale, médullaire, mésentérique ou rénale",
+    "Insuffisance aortique aiguë"
+   ],
+   "prevention": [
+    "Contrôle de l'hypertension artérielle",
+    "Surveillance de l'aorte dans la maladie de Marfan et les bicuspidies",
+    "Éviter la cocaïne"
+   ],
+   "medicaments": [
+    "Labétalol",
+    "Propranolol",
+    "Nicardipine",
+    "Vérapamil",
+    "Morphine",
+    "Oxygène"
+   ],
+   "frequence": 1,
+   "physiopathologie": "Le sang pénètre dans la média par une brèche de l'intima et décolle la paroi sur une longueur variable. Le faux chenal peut comprimer les branches de l'aorte (cerveau, moelle, reins, intestin, membres), rompre dans le péricarde (tamponnade) ou la plèvre, ou désinsérer la valve aortique (insuffisance aortique). Type A : aorte ascendante (chirurgie urgente) ; type B : au-delà de la sous-clavière gauche (traitement médical le plus souvent).",
+   "paraclinique": [
+    {
+     "examen": "Scanner thoracique injecté (angioscanner)",
+     "resultat": "Voile intimal séparant vrai et faux chenal ; précise le type (A ou B) et les branches atteintes"
+    },
+    {
+     "examen": "Échographie cardiaque",
+     "resultat": "Voile intimal dans l'aorte ascendante, insuffisance aortique, épanchement péricardique (tamponnade)"
+    },
+    {
+     "examen": "Radiographie du thorax",
+     "resultat": "Élargissement du médiastin, double contour aortique (normale dans 1 cas sur 5)"
+    },
+    {
+     "examen": "ECG",
+     "resultat": "Souvent normal ou hypertrophie ventriculaire gauche ; parfois aspect d'infarctus inférieur si la coronaire droite est atteinte"
+    },
+    {
+     "examen": "D-dimères",
+     "resultat": "< 500 ng/ml : dissection peu probable si le risque clinique est faible"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 248,
+   "nom": "Pneumothorax",
+   "categorie": "respiratoire",
+   "synonymes": "pneumothorax, air dans la plèvre, poumon décollé, pneumothorax compressif, pneumothorax sous tension",
+   "resume": "Air dans la cavité pleurale qui décolle le poumon. Spontané primaire (homme jeune, grand, mince, fumeur), secondaire à une maladie pulmonaire (tuberculose, très fréquente en RDC, pneumocystose du VIH, BPCO, asthme, staphylococcie de l'enfant), traumatique ou après un geste (ponction, voie veineuse sous-clavière). Le pneumothorax compressif (sous tension) tue en quelques minutes : son diagnostic est clinique.",
+   "signes": [
+    "Douleur thoracique brutale, latérale, augmentée par la respiration",
+    "Essoufflement, toux sèche",
+    "Diminution du murmure vésiculaire, tympanisme du côté atteint, emphysème sous-cutané",
+    "Compressif : détresse respiratoire, cyanose, turgescence des jugulaires, trachée déviée du côté opposé, hypotension, tachycardie, arrêt cardiaque"
+   ],
+   "diagnostic": [
+    "Diagnostic clinique du pneumothorax compressif : traiter sans attendre la radiographie",
+    "Radiographie du thorax de face",
+    "Échographie pleurale (absence de glissement pleural)",
+    "Rechercher une tuberculose (toux chronique, amaigrissement), un VIH"
+   ],
+   "traitement": [
+    "Oxygène à haut débit (accélère la résorption de l'air)",
+    "Compressif : décompression immédiate à l'aiguille (cathéter 14 ou 16 G) au 4e ou 5e espace intercostal sur la ligne axillaire moyenne (adulte) ou au 2e espace sur la ligne médioclaviculaire (enfant), puis drain thoracique",
+    "Pneumothorax primaire petit et bien toléré : oxygène, antalgiques, surveillance, radiographie de contrôle",
+    "Primaire grand ou symptomatique : exsufflation à l'aiguille ou drain fin ; drain si échec",
+    "Secondaire (tuberculose, VIH, BPCO) : drain thoracique et hospitalisation ; traiter la maladie causale",
+    "Traumatique ouvert (plaie soufflante) : pansement occlusif fixé sur 3 côtés, puis drain",
+    "Pose de drain : anesthésie locale à la lidocaïne, 4e ou 5e espace intercostal en avant de la ligne axillaire moyenne, bocal sous eau",
+    "Pas de voyage en avion avant guérison ; arrêt du tabac"
+   ],
+   "gravite": [
+    "Pneumothorax compressif (choc, détresse)",
+    "Pneumothorax bilatéral ou sur poumon unique",
+    "Pneumothorax secondaire (tuberculose, VIH)",
+    "Hémopneumothorax",
+    "Patient ventilé"
+   ],
+   "prevention": [
+    "Arrêt du tabac",
+    "Dépistage et traitement précoce de la tuberculose",
+    "Prudence lors des ponctions pleurales et des voies veineuses centrales"
+   ],
+   "medicaments": [
+    "Oxygène",
+    "Lidocaïne (lignocaïne)",
+    "Morphine",
+    "Paracétamol"
+   ],
+   "frequence": 1,
+   "physiopathologie": "L'air entre dans la plèvre par une brèche du poumon ou de la paroi. Si la brèche fait clapet, l'air entre à chaque inspiration sans ressortir : la pression monte, écrase le poumon, repousse le médiastin, coude les veines caves et empêche le retour veineux (choc obstructif).",
+   "paraclinique": [
+    {
+     "examen": "Radiographie du thorax",
+     "resultat": "Ligne pleurale fine avec absence de trame pulmonaire au-delà ; compressif : déviation du médiastin, aplatissement de la coupole (ne pas attendre la radiographie)"
+    },
+    {
+     "examen": "Échographie pleurale",
+     "resultat": "Absence de glissement pleural, absence de lignes B, « point poumon » (spécifique)"
+    },
+    {
+     "examen": "GeneXpert MTB/RIF sur crachats",
+     "resultat": "Recherche de tuberculose si pneumothorax secondaire ou contexte évocateur"
+    },
+    {
+     "examen": "Test VIH",
+     "resultat": "Pneumocystose ou tuberculose sur VIH"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 249,
+   "nom": "Coma (conduite à tenir initiale)",
+   "categorie": "urgences",
+   "synonymes": "coma, perte de connaissance, inconscient, trouble de conscience, Glasgow bas, ne répond pas",
+   "resume": "Altération profonde de la conscience (Glasgow ≤ 8 chez l'adulte, Blantyre ≤ 2 chez l'enfant). En RDC, les causes les plus fréquentes sont le paludisme grave, l'hypoglycémie, la méningite, les intoxications, le traumatisme crânien, l'AVC, l'état de mal épileptique, l'acidocétose et les causes métaboliques. La prise en charge commence avant le diagnostic : protéger les fonctions vitales et corriger d'emblée les causes vite réversibles.",
+   "signes": [
+    "Absence de réponse aux ordres, ouverture des yeux à la douleur ou nulle",
+    "Respiration bruyante (obstruction), irrégulière ou lente",
+    "Signes associés à rechercher : fièvre, raideur de nuque, purpura, odeur (alcool, acétone, pesticide), myosis (opioïdes, organophosphorés), mydriase unilatérale (engagement), traces de traumatisme, convulsions, ictère, déshydratation"
+   ],
+   "diagnostic": [
+    "Score de Glasgow (adulte) ou de Blantyre (enfant)",
+    "Glycémie capillaire immédiate",
+    "TDR ou goutte épaisse du paludisme",
+    "Pupilles, signes de focalisation, raideur de nuque, fond d'œil",
+    "Interroger l'entourage : début brutal ou progressif, médicaments, toxiques, diabète, épilepsie, VIH, traumatisme",
+    "Ponction lombaire si méningite suspectée et pas de signe d'hypertension intracrânienne ni de focalisation"
+   ],
+   "traitement": [
+    "Libérer les voies aériennes (subluxation de la mâchoire, canule), aspiration, position latérale de sécurité ; oxygène ; intubation si Glasgow ≤ 8 et matériel disponible",
+    "Voie veineuse, remplissage si choc",
+    "Glycémie < 70 mg/dl ou inconnue : glucose 10 % 5 ml/kg (enfant) ou glucose 50 % 50 ml (adulte) ; thiamine 100 mg IV avant chez l'alcoolique ou le dénutri",
+    "Myosis, respiration lente : naloxone 0,4 mg IV, à répéter",
+    "Convulsions : diazépam ou midazolam",
+    "Fièvre ou TDR positif : artésunate IV sans attendre ; suspicion de méningite : ceftriaxone 2 g IV (enfant 100 mg/kg) immédiatement, même avant la ponction",
+    "Signes d'engagement : tête à 30°, mannitol 20 % 0,5 à 1 g/kg",
+    "Soins de nursing : retournement toutes les 2 h, protection des yeux, sonde gastrique, sonde urinaire, température, hydratation, prévention des escarres",
+    "Surveiller Glasgow, pupilles, respiration et glycémie toutes les heures"
+   ],
+   "gravite": [
+    "Glasgow ≤ 8 ou Blantyre ≤ 2",
+    "Mydriase unilatérale, posture de décérébration, respiration irrégulière (engagement)",
+    "Choc, détresse respiratoire",
+    "Hypoglycémie récidivante",
+    "Convulsions persistantes"
+   ],
+   "prevention": [
+    "Diagnostic et traitement précoces du paludisme",
+    "Surveillance de la glycémie des diabétiques traités",
+    "Stockage des pesticides et médicaments hors de portée des enfants",
+    "Port du casque à moto"
+   ],
+   "medicaments": [
+    "Glucose 10 %",
+    "Glucose hypertonique 30 % / 50 %",
+    "Thiamine (vitamine B1)",
+    "Naloxone",
+    "Artésunate (injectable)",
+    "Ceftriaxone",
+    "Diazépam",
+    "Midazolam",
+    "Mannitol 20 %",
+    "Oxygène"
+   ],
+   "frequence": 2,
+   "physiopathologie": "La conscience dépend de la formation réticulée du tronc cérébral et des deux hémisphères. Un coma vient d'une lésion du tronc (AVC, engagement), d'une atteinte diffuse des deux hémisphères (hypoglycémie, hypoxie, infection, toxique, convulsions) ou d'une hypertension intracrânienne. Le patient comateux perd ses réflexes de protection : inhalation, obstruction des voies aériennes par la langue, escarres, hypothermie.",
+   "paraclinique": [
+    {
+     "examen": "Glycémie capillaire",
+     "resultat": "< 70 mg/dl (3,9 mmol/l) : hypoglycémie à corriger immédiatement ; > 250 mg/dl avec cétonurie : acidocétose"
+    },
+    {
+     "examen": "TDR ou goutte épaisse du paludisme",
+     "resultat": "Positif : paludisme grave (coma = critère de gravité)"
+    },
+    {
+     "examen": "Ponction lombaire",
+     "resultat": "LCR trouble, > 100 éléments/mm³ à polynucléaires, glucose bas, protéines élevées : méningite bactérienne ; encre de Chine ou CrAg : cryptococcose"
+    },
+    {
+     "examen": "Ionogramme, urée, créatinine",
+     "resultat": "Hyponatrémie, hypernatrémie, insuffisance rénale (urémie)"
+    },
+    {
+     "examen": "Gaz du sang ou bicarbonates",
+     "resultat": "Acidose métabolique (acidocétose, intoxication au méthanol, choc) ; hypercapnie (insuffisance respiratoire)"
+    },
+    {
+     "examen": "Scanner cérébral",
+     "resultat": "Hémorragie, infarctus, abcès, tumeur, hématome, œdème avec engagement"
+    },
+    {
+     "examen": "Recherche de toxiques",
+     "resultat": "Paracétamolémie, alcoolémie, cholinestérases (organophosphorés) selon le contexte"
+    }
+   ],
+   "autresCategories": []
+  },
+  {
+   "id": 250,
+   "nom": "Hypertension intracrânienne et engagement cérébral",
+   "categorie": "neuro",
+   "synonymes": "hypertension intracrânienne, HTIC, engagement, œdème cérébral, œdème papillaire, céphalées en casque, vomissements en jet",
+   "resume": "Augmentation de la pression dans le crâne : tumeur, abcès (souvent compliquant une otite ou une sinusite), méningite et encéphalite, paludisme cérébral, hématome, AVC étendu, traumatisme crânien, thrombose veineuse cérébrale, toxoplasmose ou cryptococcose du VIH, hydrocéphalie, HTA maligne. L'engagement (hernie du cerveau) est l'urgence ultime : il tue en quelques heures.",
+   "signes": [
+    "Céphalées progressives, matinales, aggravées par la toux et le décubitus",
+    "Vomissements en jet",
+    "Troubles visuels, diplopie (paralysie du VI)",
+    "Somnolence puis coma",
+    "Nourrisson : fontanelle bombée, augmentation du périmètre crânien, regard en coucher de soleil",
+    "Engagement : mydriase unilatérale aréactive, hémiplégie, posture de décérébration, HTA avec bradycardie, respiration irrégulière"
+   ],
+   "diagnostic": [
+    "Fond d'œil : œdème papillaire",
+    "Examen neurologique complet, Glasgow",
+    "Rechercher : fièvre, otite, sinusite, VIH, traumatisme, HTA",
+    "Scanner cérébral avant toute ponction lombaire si signes de focalisation, œdème papillaire ou coma",
+    "La ponction lombaire est contre-indiquée en cas de signes d'engagement"
+   ],
+   "traitement": [
+    "Tête surélevée à 30°, cou dans l'axe (pas de compression des jugulaires)",
+    "Oxygène, éviter l'hypoxie et l'hypercapnie ; intubation si Glasgow ≤ 8",
+    "Maintenir une TA normale, normothermie (paracétamol), normoglycémie, natrémie normale ; solutés isotoniques uniquement",
+    "Traiter les convulsions (diazépam puis phénytoïne ou lévétiracétam)",
+    "Osmothérapie si aggravation ou signes d'engagement : mannitol 20 % 0,5 à 1 g/kg (2,5 à 5 ml/kg) IV en 20 min, à répéter toutes les 6 h si besoin, ou NaCl 3 % 2 à 5 ml/kg en 15 min",
+    "Hyperventilation brève (objectif PaCO2 30 à 35 mmHg) seulement en attendant un geste en cas d'engagement",
+    "Dexaméthasone 10 mg IV puis 4 mg toutes les 6 h seulement pour une tumeur ou un abcès (inutile et nuisible dans le traumatisme et l'AVC)",
+    "Traiter la cause : antibiotiques (méningite, abcès), artésunate (paludisme), traitement de la toxoplasmose ou de la cryptococcose (ponctions évacuatrices répétées), chirurgie (hématome, abcès, hydrocéphalie)"
+   ],
+   "gravite": [
+    "Mydriase unilatérale, triade de Cushing",
+    "Glasgow ≤ 8 ou baisse de 2 points",
+    "Convulsions répétées",
+    "Œdème papillaire avec baisse de la vision"
+   ],
+   "prevention": [
+    "Traitement correct des otites et sinusites",
+    "Prophylaxie et dépistage du VIH (toxoplasmose, cryptococcose)",
+    "Contrôle de l'HTA",
+    "Port du casque"
+   ],
+   "medicaments": [
+    "Mannitol 20 %",
+    "Chlorure de sodium hypertonique 3 %",
+    "Dexaméthasone",
+    "Diazépam",
+    "Phénytoïne",
+    "Lévétiracétam",
+    "Paracétamol",
+    "Oxygène"
+   ],
+   "frequence": 1,
+   "physiopathologie": "Le crâne est une boîte rigide : quand un volume augmente (masse, œdème, sang, LCR), la pression monte et la perfusion du cerveau baisse. Au-delà des capacités de compensation, le cerveau se déplace et s'engage sous la tente du cervelet (compression du nerf III : mydriase) ou dans le trou occipital (compression du bulbe : arrêt respiratoire). La réponse de Cushing (HTA, bradycardie, respiration irrégulière) signe une pression critique.",
+   "paraclinique": [
+    {
+     "examen": "Fond d'œil",
+     "resultat": "Œdème papillaire bilatéral (bords flous, papilles saillantes, hémorragies en flammèches)"
+    },
+    {
+     "examen": "Scanner cérébral",
+     "resultat": "Masse, abcès en cocarde, hématome, œdème, effacement des sillons et des citernes, déviation de la ligne médiane, hydrocéphalie"
+    },
+    {
+     "examen": "Ponction lombaire (seulement après scanner ou en l'absence de signes)",
+     "resultat": "Pression d'ouverture > 25 cm d'eau ; dans la cryptococcose, souvent > 25 et à évacuer"
+    },
+    {
+     "examen": "Natrémie et glycémie",
+     "resultat": "À maintenir normales (hyponatrémie = aggravation de l'œdème)"
+    },
+    {
+     "examen": "Test VIH, CD4, CrAg sérique",
+     "resultat": "Orientation vers toxoplasmose ou cryptococcose"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 251,
+   "nom": "Réanimation cardio-pulmonaire de l'enfant et du nourrisson",
+   "categorie": "urgences",
+   "synonymes": "arrêt cardiaque de l'enfant, RCP pédiatrique, massage cardiaque enfant, nourrisson qui ne respire pas, réanimation pédiatrique",
+   "resume": "Chez l'enfant, l'arrêt cardiaque est rarement d'origine cardiaque : il fait suite à une hypoxie (détresse respiratoire, noyade, obstruction) ou à un choc (déshydratation, sepsis, hémorragie). La réanimation commence donc par 5 insufflations. Le pronostic est bien meilleur en cas d'arrêt respiratoire isolé traité rapidement. (Pour le nouveau-né en salle de naissance, voir « Réanimation du nouveau-né ».)",
+   "signes": [
+    "Enfant qui ne répond pas",
+    "Ne respire pas ou respiration agonique (gasps)",
+    "Absence de signes de vie (pas de mouvement, pas de toux)",
+    "Pouls absent ou < 60/min chez le nourrisson ou l'enfant (pouls brachial chez le nourrisson, carotidien ou fémoral chez l'enfant), à ne pas chercher plus de 10 s"
+   ],
+   "diagnostic": [
+    "Rythme sur le moniteur : asystolie ou activité électrique sans pouls (non choquables, les plus fréquents) ; fibrillation ou tachycardie ventriculaire sans pouls (choquables)",
+    "Causes réversibles (4 H et 4 T) : hypoxie, hypovolémie, hypo- ou hyperkaliémie (et hypoglycémie), hypothermie ; pneumothorax sous tension, tamponnade, toxiques, thrombose"
+   ],
+   "traitement": [
+    "Sécurité, stimulation, appel à l'aide, libérer les voies aériennes (bascule de la tête modérée, en position neutre chez le nourrisson)",
+    "5 insufflations initiales (bouche-à-bouche-nez chez le nourrisson ou ballon avec masque et oxygène)",
+    "Puis 15 compressions pour 2 insufflations, fréquence 100 à 120/min, profondeur 1/3 du thorax (4 cm nourrisson, 5 cm enfant) ; nourrisson : 2 pouces en encerclant le thorax ; relâchement complet, interruptions < 10 s",
+    "Voie veineuse ou intra-osseuse (tibia)",
+    "Rythme non choquable : adrénaline 10 µg/kg IV/IO (0,1 ml/kg d'adrénaline diluée à 1 mg pour 10 ml) dès que possible, puis toutes les 3 à 5 min",
+    "Rythme choquable : choc de 4 J/kg, reprise immédiate des compressions 2 min ; adrénaline et amiodarone 5 mg/kg après le 3e choc, amiodarone à nouveau après le 5e",
+    "Traiter la cause : remplissage NaCl 0,9 % ou Ringer lactate 10 ml/kg (hypovolémie), glucose 10 % 2 ml/kg (hypoglycémie), exsufflation (pneumothorax)",
+    "Après reprise : oxygène (SpO2 94 à 98 %), TA normale, glycémie, température, transfert en soins intensifs",
+    "Arrêt après 20 min de réanimation bien conduite sans reprise (sauf hypothermie, noyade en eau froide, intoxication) : décision d'équipe, accompagnement de la famille"
+   ],
+   "gravite": [
+    "Délai avant la réanimation",
+    "Asystolie prolongée",
+    "Arrêt en contexte de choc septique ou de malnutrition"
+   ],
+   "prevention": [
+    "Reconnaître et traiter tôt les signes de danger (PCIME, triage ETAT) : détresse respiratoire, choc, déshydratation sévère",
+    "Formation des soignants et des parents aux gestes de premiers secours",
+    "Surveillance des enfants près de l'eau"
+   ],
+   "medicaments": [
+    "Adrénaline (épinéphrine)",
+    "Amiodarone",
+    "Oxygène",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
+    "Ringer lactate",
+    "Glucose 10 %"
+   ],
+   "frequence": 1,
+   "physiopathologie": "L'hypoxie et le choc épuisent les réserves du myocarde : bradycardie puis asystolie ou activité électrique sans pouls ; la fibrillation ventriculaire est rare (cardiopathie, électrisation, intoxication). Les compressions thoraciques assurent un débit cérébral et coronaire minimal ; l'oxygénation et la correction de la cause permettent la reprise.",
+   "paraclinique": [
+    {
+     "examen": "Monitorage du rythme (scope ou défibrillateur)",
+     "resultat": "Asystolie ou activité électrique sans pouls dans la majorité des cas ; fibrillation ventriculaire rare"
+    },
+    {
+     "examen": "Glycémie capillaire",
+     "resultat": "< 54 mg/dl (3 mmol/l) : glucose 10 % 2 ml/kg"
+    },
+    {
+     "examen": "Kaliémie et gaz du sang",
+     "resultat": "Hyper- ou hypokaliémie, acidose sévère"
+    },
+    {
+     "examen": "Échographie au lit (si disponible)",
+     "resultat": "Pneumothorax, épanchement péricardique, absence de contraction cardiaque"
+    }
+   ],
+   "autresCategories": []
+  },
+  {
+   "id": 252,
+   "nom": "Coup de chaleur",
+   "categorie": "urgences",
+   "synonymes": "coup de chaleur, hyperthermie, insolation, chaleur d'effort, malaise de chaleur",
+   "resume": "Élévation de la température centrale au-delà de 40 °C avec atteinte du système nerveux. Forme classique (nourrisson, personne âgée, malade chronique lors des fortes chaleurs, enfant laissé dans un véhicule) ou d'effort (sport, militaires, travail physique en mine ou en fonderie). C'est une urgence : le refroidissement immédiat sauve la vie, les antipyrétiques ne servent à rien.",
+   "signes": [
+    "Température > 40 °C (rectale)",
+    "Confusion, agitation, propos incohérents, convulsions, coma",
+    "Peau chaude, sèche ou encore en sueur (forme d'effort)",
+    "Tachycardie, hypotension, polypnée",
+    "Vomissements, diarrhée",
+    "Urines foncées (rhabdomyolyse), saignements (CIVD)"
+   ],
+   "diagnostic": [
+    "Contexte de chaleur ou d'effort",
+    "Éliminer en priorité un paludisme grave (TDR), une méningite, un sepsis, une intoxication (cocaïne, amphétamines, anticholinergiques), une hyperthermie maligne de l'anesthésie ou un syndrome malin des neuroleptiques"
+   ],
+   "traitement": [
+    "Sortir de la chaleur, déshabiller, refroidir immédiatement : immersion dans l'eau froide (forme d'effort, adulte jeune) ou eau tiède pulvérisée sur tout le corps avec ventilation, linges mouillés, glace aux aisselles, au cou et à l'aine",
+    "Arrêter le refroidissement actif à 38,5 à 39 °C",
+    "Libérer les voies aériennes, oxygène, position latérale si coma",
+    "Voie veineuse : Ringer lactate ou NaCl 0,9 % 1 à 2 litres (enfant 20 ml/kg), puis selon la TA et la diurèse",
+    "Convulsions ou frissons intenses : diazépam",
+    "Corriger l'hypoglycémie",
+    "Rhabdomyolyse : hydratation pour une diurèse de 1 à 2 ml/kg/h",
+    "Pas de paracétamol ni d'aspirine (inefficaces, toxiques pour le foie et la coagulation)",
+    "Hospitaliser et surveiller rein, foie, coagulation pendant 48 à 72 h"
+   ],
+   "gravite": [
+    "Coma, convulsions",
+    "Température > 41 °C ou refroidissement tardif",
+    "Rhabdomyolyse, insuffisance rénale, insuffisance hépatique",
+    "CIVD, saignements"
+   ],
+   "prevention": [
+    "Boire régulièrement, pauses à l'ombre, horaires adaptés lors des travaux physiques",
+    "Acclimatation progressive à l'effort",
+    "Ne jamais laisser un enfant dans une voiture",
+    "Surveillance des personnes âgées et malades pendant les fortes chaleurs"
+   ],
+   "medicaments": [
+    "Ringer lactate",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
+    "Diazépam",
+    "Glucose 10 %",
+    "Oxygène"
+   ],
+   "frequence": 1,
+   "physiopathologie": "Quand la production de chaleur (effort) ou la chaleur ambiante dépasse les capacités d'évacuation (sueur, vasodilatation cutanée, déshydratation), la température monte. Au-delà de 40 à 41 °C, les protéines et les membranes cellulaires sont lésées : œdème cérébral, rhabdomyolyse, insuffisance rénale et hépatique, coagulation intravasculaire disséminée et défaillance multiviscérale.",
+   "paraclinique": [
+    {
+     "examen": "TDR ou goutte épaisse du paludisme",
+     "resultat": "Négatif (un paludisme grave doit être éliminé avant de retenir le coup de chaleur)"
+    },
+    {
+     "examen": "CPK et myoglobinurie",
+     "resultat": "CPK très élevées ; bandelette urinaire positive au sang sans hématies au microscope (myoglobine)"
+    },
+    {
+     "examen": "Créatinine, kaliémie",
+     "resultat": "Insuffisance rénale aiguë, hyperkaliémie (rhabdomyolyse)"
+    },
+    {
+     "examen": "Transaminases",
+     "resultat": "Élevées (souvent > 1 000 UI/l à J2-J3)"
+    },
+    {
+     "examen": "TP, plaquettes, fibrinogène",
+     "resultat": "Baisse évoquant une coagulation intravasculaire disséminée"
+    },
+    {
+     "examen": "Glycémie",
+     "resultat": "Hypoglycémie possible"
+    }
+   ],
+   "autresCategories": []
+  },
+  {
+   "id": 253,
+   "nom": "Noyade",
+   "categorie": "urgences",
+   "synonymes": "noyade, noyé, submersion, inhalation d'eau, quasi-noyade",
+   "resume": "Détresse respiratoire par submersion ou immersion dans un liquide ; une des premières causes de décès accidentel de l'enfant en Afrique (lacs, rivières, puits, bassines). Le problème central est l'hypoxie : la ventilation rapide est le geste qui sauve. Même un noyé en apparence rétabli peut s'aggraver dans les heures suivantes.",
+   "signes": [
+    "Toux, crachats mousseux, essoufflement, crépitants",
+    "Cyanose, tachypnée, désaturation",
+    "Confusion, agitation, coma",
+    "Vomissements (fréquents pendant la réanimation)",
+    "Hypothermie",
+    "Arrêt cardio-respiratoire"
+   ],
+   "diagnostic": [
+    "Durée de submersion, température de l'eau, circonstances (plongeon : traumatisme du rachis ; malaise, convulsion ou alcool à l'origine)",
+    "SpO2, auscultation, radiographie du thorax",
+    "Température centrale"
+   ],
+   "traitement": [
+    "Sortir de l'eau en sécurité ; pas de manœuvre de Heimlich ni de tentative de vider l'eau des poumons",
+    "Arrêt respiratoire ou cardiaque : 5 insufflations d'abord, puis 30 compressions pour 2 insufflations (adulte) ou 15 pour 2 (enfant) ; oxygène dès que possible",
+    "Immobiliser le rachis cervical seulement si plongeon ou traumatisme",
+    "Oxygène pour SpO2 ≥ 94 % ; ventilation en pression positive (CPAP, ventilation au masque ou intubation) si l'hypoxie persiste",
+    "Sécher, réchauffer (couvertures, solutés tièdes)",
+    "Salbutamol si bronchospasme",
+    "Pas d'antibiotique systématique (sauf eau très souillée et signes d'infection) ni de corticoïde",
+    "Surveillance hospitalière au moins 6 à 8 h même si le patient va bien, en cas de toux, d'essoufflement ou de crépitants à l'arrivée",
+    "Réanimation prolongée si eau froide (hypothermie)"
+   ],
+   "gravite": [
+    "Arrêt cardiaque, durée de submersion > 10 min",
+    "Coma à l'arrivée",
+    "Œdème pulmonaire, hypoxie persistante",
+    "Hypothermie profonde"
+   ],
+   "prevention": [
+    "Surveillance constante des enfants près de l'eau, puits et bassins couverts",
+    "Gilets de sauvetage sur les embarcations",
+    "Apprentissage de la natation et des premiers secours",
+    "Pas d'alcool avant la baignade ou la navigation"
+   ],
+   "medicaments": [
+    "Oxygène",
+    "Salbutamol",
+    "Adrénaline (épinéphrine)",
+    "Chlorure de sodium 0,9 % (sérum physiologique)"
+   ],
+   "frequence": 1,
+   "physiopathologie": "L'inhalation, même de petites quantités d'eau, détruit le surfactant et provoque un œdème pulmonaire lésionnel (shunt, hypoxie). L'hypoxie entraîne la perte de connaissance puis l'arrêt cardiaque. L'eau froide ajoute l'hypothermie, qui protège un peu le cerveau mais favorise les troubles du rythme. La différence entre eau douce et eau salée n'a pas de conséquence pratique.",
+   "paraclinique": [
+    {
+     "examen": "Saturation en oxygène (SpO2)",
+     "resultat": "< 94 % : œdème pulmonaire, oxygène et parfois ventilation"
+    },
+    {
+     "examen": "Radiographie du thorax",
+     "resultat": "Opacités alvéolaires bilatérales (peut être normale au début et s'aggraver en quelques heures)"
+    },
+    {
+     "examen": "Gaz du sang",
+     "resultat": "Hypoxémie, acidose métabolique ou mixte"
+    },
+    {
+     "examen": "Glycémie et ionogramme",
+     "resultat": "Hypoglycémie possible ; troubles du sodium rares"
+    },
+    {
+     "examen": "Température centrale",
+     "resultat": "< 35 °C : hypothermie à corriger"
+    }
+   ],
+   "autresCategories": []
+  },
+  {
+   "id": 254,
+   "nom": "Électrisation et foudroiement",
+   "categorie": "urgences",
+   "synonymes": "électrisation, électrocution, choc électrique, foudre, foudroiement, brûlure électrique",
+   "resume": "Passage d'un courant électrique dans l'organisme : branchements clandestins, câbles tombés, travaux électriques, foudre (fréquente dans la région des Grands Lacs et au Katanga pendant la saison des pluies). Les lésions visibles (brûlures d'entrée et de sortie) sous-estiment les lésions profondes des muscles, des nerfs et des vaisseaux.",
+   "signes": [
+    "Arrêt cardiaque ou respiratoire",
+    "Perte de connaissance, confusion, amnésie",
+    "Brûlures d'entrée et de sortie (mains, pieds), souvent petites mais profondes ; figures arborescentes (foudre)",
+    "Douleurs musculaires, membre dur et douloureux (syndrome des loges)",
+    "Urines rouges ou foncées",
+    "Lésions associées : chutes, fractures, perforation des tympans, cataracte tardive"
+   ],
+   "diagnostic": [
+    "Courant haute ou basse tension, trajet (main-main ou main-pied : traverse le cœur)",
+    "ECG systématique",
+    "Recherche de traumatisme (chute)",
+    "CPK, myoglobinurie, créatinine"
+   ],
+   "traitement": [
+    "Couper le courant avant de toucher la victime ; à distance d'un câble haute tension",
+    "Foudre : triage inversé, réanimer d'abord les victimes en arrêt (bonnes chances de reprise)",
+    "Réanimation cardio-pulmonaire standard, défibrillation si fibrillation",
+    "Immobilisation du rachis si chute ou projection",
+    "Brûlures : refroidir, pansement (sulfadiazine argentique), antalgiques (morphine) ; la surface brûlée sous-estime les besoins : Ringer lactate pour une diurèse de 1 à 1,5 ml/kg/h si urines foncées",
+    "Myoglobinurie : hydratation abondante ; bicarbonate discuté",
+    "Syndrome des loges : aponévrotomie urgente",
+    "Monitorage ECG 24 h si haute tension, perte de connaissance, ECG anormal, douleur thoracique ou trajet transthoracique",
+    "Vaccination antitétanique",
+    "Basse tension (< 1 000 V), asymptomatique, ECG normal : sortie possible avec conseils"
+   ],
+   "gravite": [
+    "Haute tension (> 1 000 V) ou foudre",
+    "Arrêt cardiaque, troubles du rythme",
+    "Brûlures profondes étendues, syndrome des loges",
+    "Rhabdomyolyse avec insuffisance rénale",
+    "Traumatismes associés"
+   ],
+   "prevention": [
+    "Installations électriques aux normes, pas de branchements clandestins",
+    "Signalement des câbles tombés",
+    "Pendant l'orage : s'abriter dans un bâtiment, éviter les arbres isolés, les étendues d'eau et les terrains découverts"
+   ],
+   "medicaments": [
+    "Ringer lactate",
+    "Morphine",
+    "Sulfadiazine argentique 1 %",
+    "Vaccin antitétanique (Td / VAT)",
+    "Bicarbonate de sodium 8,4 % / 4,2 %",
+    "Adrénaline (épinéphrine)",
+    "Amiodarone"
+   ],
+   "frequence": 1,
+   "physiopathologie": "Le courant suit les tissus les moins résistants (nerfs, vaisseaux, muscles) et les chauffe. Le courant alternatif domestique provoque une tétanisation (la victime ne peut pas lâcher) et une fibrillation ventriculaire ; la foudre, un courant continu massif et bref, provoque surtout une asystolie et un arrêt respiratoire. La destruction musculaire libère myoglobine et potassium (insuffisance rénale, hyperkaliémie).",
+   "paraclinique": [
+    {
+     "examen": "ECG",
+     "resultat": "Normal le plus souvent ; troubles du rythme, troubles de conduction, anomalies de ST"
+    },
+    {
+     "examen": "CPK et myoglobinurie",
+     "resultat": "CPK élevées, urines foncées positives au sang sans hématies"
+    },
+    {
+     "examen": "Créatinine et kaliémie",
+     "resultat": "Insuffisance rénale, hyperkaliémie"
+    },
+    {
+     "examen": "Troponine",
+     "resultat": "Élevée en cas d'atteinte myocardique"
+    }
+   ],
+   "autresCategories": []
+  },
+  {
+   "id": 255,
+   "nom": "Intoxication au paracétamol",
+   "categorie": "intoxications",
+   "synonymes": "intoxication au paracétamol, surdosage paracétamol, Doliprane, Efferalgan, overdose paracétamol",
+   "resume": "Intoxication fréquente (tentative de suicide, erreurs de dose chez l'enfant, associations cachées dans les sirops et les antalgiques combinés). Elle est presque silencieuse au début mais peut détruire le foie en 2 à 4 jours. L'antidote, la N-acétylcystéine, est très efficace s'il est donné dans les 8 heures.",
+   "signes": [
+    "0 à 24 h : rien, ou nausées, vomissements, malaise",
+    "24 à 72 h : douleur de l'hypochondre droit, transaminases qui montent",
+    "72 à 96 h : ictère, saignements, encéphalopathie, hypoglycémie, insuffisance rénale (insuffisance hépatique aiguë)",
+    "Guérison ou décès vers 4 à 14 jours"
+   ],
+   "diagnostic": [
+    "Dose ingérée : toxique à partir de 150 mg/kg (75 mg/kg chez les sujets à risque) ou 10 g chez l'adulte",
+    "Heure de la prise",
+    "Paracétamolémie à 4 h (ou plus tard) reportée sur le nomogramme",
+    "Rechercher les co-ingestions (codéine, tramadol, sirops associés)"
+   ],
+   "traitement": [
+    "Charbon activé 1 g/kg (maximum 50 g) si ingestion de moins de 1 h",
+    "N-acétylcystéine IV si paracétamolémie au-dessus de la ligne de traitement, dose > 150 mg/kg, heure inconnue, prises répétées ou transaminases élevées ; si la paracétamolémie n'est pas disponible : traiter selon la dose",
+    "Ne pas attendre le résultat si plus de 8 h se sont écoulées",
+    "Schéma IV en 21 h : 150 mg/kg dans 200 ml de glucose 5 % en 1 h, puis 50 mg/kg dans 500 ml en 4 h, puis 100 mg/kg dans 1 000 ml en 16 h (volumes réduits chez l'enfant)",
+    "Sans forme IV : N-acétylcystéine par la bouche 140 mg/kg puis 70 mg/kg toutes les 4 h, 17 doses",
+    "En fin de cure : contrôler transaminases et INR ; prolonger la N-acétylcystéine si elles sont anormales",
+    "Antiémétique (ondansétron) ; glycémie régulière ; vitamine K1 si INR élevé",
+    "Insuffisance hépatique grave : avis spécialisé (transplantation hors de portée en RDC)",
+    "Évaluation psychiatrique après une prise volontaire"
+   ],
+   "gravite": [
+    "Prise > 250 mg/kg ou > 12 g",
+    "Traitement débuté après 8 h",
+    "INR > 3, encéphalopathie, hypoglycémie, acidose (pH < 7,3), créatinine élevée",
+    "Terrain : malnutrition, alcoolisme, inducteurs enzymatiques"
+   ],
+   "prevention": [
+    "Respect des doses (15 mg/kg par prise, 60 mg/kg par jour chez l'enfant) et de l'intervalle de 4 à 6 h",
+    "Ne pas cumuler plusieurs produits contenant du paracétamol",
+    "Médicaments hors de portée des enfants",
+    "Délivrance de petites quantités aux personnes à risque suicidaire"
+   ],
+   "medicaments": [
+    "N-acétylcystéine",
+    "Charbon activé",
+    "Glucose 5 % (sérum glucosé isotonique)",
+    "Ondansétron",
+    "Vitamine K1 (phytoménadione)"
+   ],
+   "frequence": 1,
+   "physiopathologie": "Aux doses normales, le paracétamol est éliminé par conjugaison. À forte dose, ces voies sont saturées et une plus grande part est transformée par le cytochrome P450 en NAPQI, métabolite toxique normalement neutralisé par le glutathion. Quand le glutathion est épuisé, le NAPQI détruit les hépatocytes (nécrose centrolobulaire). La N-acétylcystéine reconstitue le glutathion. Le risque augmente avec le jeûne, la malnutrition, l'alcoolisme et les inducteurs enzymatiques (rifampicine, isoniazide, carbamazépine).",
+   "paraclinique": [
+    {
+     "examen": "Paracétamolémie à 4 h ou plus après la prise",
+     "resultat": "Au-dessus de la ligne de traitement du nomogramme (environ 100 à 150 mg/l à 4 h) : N-acétylcystéine ; ininterprétable si prises répétées ou heure inconnue"
+    },
+    {
+     "examen": "ALAT et ASAT",
+     "resultat": "Normales au début ; > 1 000 UI/l à partir de 24 à 72 h en cas d'hépatite toxique"
+    },
+    {
+     "examen": "TP/INR",
+     "resultat": "INR > 1,5 : atteinte hépatique ; > 3 = grave"
+    },
+    {
+     "examen": "Glycémie, créatinine, gaz du sang, lactates",
+     "resultat": "Hypoglycémie, insuffisance rénale, acidose = critères de gravité"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 256,
+   "nom": "Intoxication au monoxyde de carbone",
+   "categorie": "intoxications",
+   "synonymes": "monoxyde de carbone, CO, brasero, makala, charbon de bois, groupe électrogène, intoxication aux fumées",
+   "resume": "Gaz invisible et sans odeur produit par une combustion incomplète : brasero ou réchaud à charbon de bois (makala) dans une pièce fermée, groupe électrogène à l'intérieur, moteur dans un garage, incendie. Intoxication fréquente et souvent collective (toute une famille malade le matin). La saturation au doigt est trompeuse : elle reste normale.",
+   "signes": [
+    "Céphalées, vertiges, nausées, fatigue, souvent chez plusieurs personnes du même logement",
+    "Confusion, troubles du comportement, perte de connaissance, convulsions, coma",
+    "Douleur thoracique, palpitations, essoufflement",
+    "Coloration rouge cerise de la peau (rare et tardive)",
+    "Femme enceinte : risque fœtal même si la mère va bien"
+   ],
+   "diagnostic": [
+    "Contexte : brasero, groupe électrogène, incendie, plusieurs victimes",
+    "Carboxyhémoglobine si disponible",
+    "La SpO2 du saturomètre est faussement normale",
+    "ECG et troponine si douleur thoracique, sujet âgé ou coma",
+    "Test de grossesse chez la femme"
+   ],
+   "traitement": [
+    "Sortir les victimes de la pièce et aérer ; sauveteurs protégés",
+    "Oxygène pur au masque à haute concentration (15 l/min), le plus tôt possible, pendant au moins 6 h ou jusqu'à disparition des symptômes (plus longtemps chez la femme enceinte)",
+    "Coma : libérer les voies aériennes, intubation et ventilation en oxygène pur si nécessaire",
+    "Traiter les convulsions (diazépam)",
+    "Incendie avec coma ou choc : penser aussi au cyanure (hydroxocobalamine)",
+    "Oxygénothérapie hyperbare si disponible pour coma, grossesse ou atteinte cardiaque (rarement accessible)",
+    "Surveillance cardiaque ; repos",
+    "Prévenir la famille : supprimer la source avant le retour à domicile",
+    "Consultation de contrôle à 1 mois (troubles neurologiques retardés)"
+   ],
+   "gravite": [
+    "Perte de connaissance, coma, convulsions",
+    "Atteinte cardiaque (douleur, ECG anormal, troponine)",
+    "Grossesse",
+    "Acidose, lactates élevés"
+   ],
+   "prevention": [
+    "Jamais de brasero, réchaud ou groupe électrogène dans une pièce fermée ou pour dormir",
+    "Aérer les pièces chauffées",
+    "Information des familles en saison froide"
+   ],
+   "medicaments": [
+    "Oxygène",
+    "Diazépam",
+    "Hydroxocobalamine (vitamine B12)"
+   ],
+   "frequence": 2,
+   "physiopathologie": "Le monoxyde de carbone se fixe sur l'hémoglobine avec une affinité 200 à 250 fois supérieure à celle de l'oxygène (carboxyhémoglobine) et empêche la libération d'oxygène aux tissus ; il bloque aussi la respiration cellulaire. Le cerveau et le cœur sont les plus touchés. L'oxygène à haute concentration raccourcit la demi-vie du CO de 5 h à environ 1 h. Des séquelles neurologiques peuvent apparaître des semaines après.",
+   "paraclinique": [
+    {
+     "examen": "Carboxyhémoglobine (co-oxymètre ou gaz du sang)",
+     "resultat": "> 5 % chez le non-fumeur, > 10 % chez le fumeur ; le taux ne reflète pas exactement la gravité"
+    },
+    {
+     "examen": "SpO2 du saturomètre",
+     "resultat": "Faussement normale (le saturomètre confond carboxyhémoglobine et oxyhémoglobine)"
+    },
+    {
+     "examen": "ECG et troponine",
+     "resultat": "Signes d'ischémie, troubles du rythme, troponine élevée = atteinte cardiaque"
+    },
+    {
+     "examen": "Lactates",
+     "resultat": "Élevés (hypoxie tissulaire ; > 10 mmol/l en cas d'incendie fait suspecter le cyanure)"
+    },
+    {
+     "examen": "Test de grossesse",
+     "resultat": "Positif : oxygénothérapie prolongée"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 257,
+   "nom": "Surdosage en opioïdes",
+   "categorie": "intoxications",
+   "synonymes": "surdosage morphine, overdose, opioïdes, tramadol, codéine, héroïne, méthadone, fentanyl, naloxone",
+   "resume": "Intoxication par la morphine, le tramadol (très répandu et détourné en Afrique), la codéine (sirops et antalgiques), la méthadone, le fentanyl ou l'héroïne, accidentelle (enfant, erreur de dose, insuffisance rénale) ou volontaire. La dépression respiratoire tue ; la naloxone est un antidote efficace mais d'action courte.",
+   "signes": [
+    "Somnolence, coma",
+    "Respiration lente (< 12/min chez l'adulte) et superficielle, apnées, cyanose",
+    "Pupilles en tête d'épingle (myosis), parfois absent (tramadol, hypoxie)",
+    "Hypotension, bradycardie, hypothermie",
+    "Convulsions (tramadol)",
+    "Œdème pulmonaire"
+   ],
+   "diagnostic": [
+    "Contexte : prescription de morphine, insuffisance rénale, toxicomanie, enfant ayant avalé un médicament",
+    "Fréquence respiratoire, SpO2",
+    "Glycémie (éliminer une hypoglycémie)",
+    "Rechercher une co-ingestion (paracétamol, benzodiazépines, alcool)"
+   ],
+   "traitement": [
+    "Libérer les voies aériennes, ventiler au ballon avec oxygène avant la naloxone si apnée",
+    "Naloxone 0,4 mg IV (ou IM, ou intranasale), à répéter toutes les 2 à 3 min jusqu'à une respiration > 10/min (maximum habituel 2 à 4 mg) ; chez le patient dépendant ou sous morphine pour la douleur : doses de 0,04 à 0,1 mg pour éviter un sevrage brutal",
+    "Enfant : naloxone 0,01 mg/kg IV, à répéter (0,1 mg/kg si arrêt respiratoire)",
+    "Surveillance au moins 6 h après la dernière dose (24 h pour la méthadone) ; si récidive : perfusion de naloxone (2/3 de la dose efficace par heure)",
+    "Convulsions (tramadol) : diazépam",
+    "Charbon activé si ingestion récente et patient protégé",
+    "Paracétamolémie si produit associé (codéine-paracétamol, tramadol-paracétamol)",
+    "Après : revoir la prescription (dose, rein), proposer un traitement de la dépendance (méthadone, buprénorphine) et de la naloxone à emporter"
+   ],
+   "gravite": [
+    "Apnée, arrêt cardiaque",
+    "Coma prolongé, inhalation",
+    "Méthadone ou forme à libération prolongée (récidive tardive)",
+    "Convulsions, syndrome sérotoninergique (tramadol)"
+   ],
+   "prevention": [
+    "Doses adaptées à l'âge et à la fonction rénale ; titration de la morphine",
+    "Pas de codéine chez l'enfant de moins de 12 ans",
+    "Médicaments hors de portée des enfants",
+    "Programmes de réduction des risques et de substitution pour les usagers de drogues"
+   ],
+   "medicaments": [
+    "Naloxone",
+    "Oxygène",
+    "Diazépam",
+    "Charbon activé",
+    "Méthadone",
+    "Buprénorphine (substitution)"
+   ],
+   "frequence": 1,
+   "physiopathologie": "Les opioïdes stimulent les récepteurs mu du tronc cérébral et diminuent la réponse des centres respiratoires au CO2 : la respiration ralentit puis s'arrête (hypoxie, arrêt cardiaque). Ils provoquent un myosis et une somnolence. Le tramadol abaisse le seuil épileptogène et a un effet sérotoninergique ; la méthadone allonge le QT. La naloxone déplace l'opioïde de ses récepteurs, mais son effet dure 30 à 90 min, moins que la plupart des opioïdes : le patient peut se rendormir.",
+   "paraclinique": [
+    {
+     "examen": "Fréquence respiratoire et SpO2",
+     "resultat": "< 12/min et SpO2 < 94 % = dépression respiratoire"
+    },
+    {
+     "examen": "Glycémie capillaire",
+     "resultat": "Éliminer une hypoglycémie"
+    },
+    {
+     "examen": "Gaz du sang",
+     "resultat": "Acidose respiratoire (PaCO2 élevée)"
+    },
+    {
+     "examen": "Paracétamolémie",
+     "resultat": "À faire si association avec le paracétamol"
+    },
+    {
+     "examen": "ECG",
+     "resultat": "QT allongé (méthadone)"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 258,
+   "nom": "Crise suicidaire et tentative de suicide",
+   "categorie": "mentale",
+   "synonymes": "suicide, tentative de suicide, idées suicidaires, envie de mourir, crise suicidaire, autolyse",
+   "resume": "Le suicide est une cause majeure de décès chez les jeunes ; en Afrique, les moyens les plus fréquents sont les pesticides, la pendaison et les médicaments. Toute personne qui exprime des idées de mort ou qui a fait une tentative doit être évaluée et protégée. Parler du suicide ouvertement ne pousse pas au passage à l'acte : cela soulage et permet d'aider.",
+   "signes": [
+    "Idées de mort, désespoir, sentiment d'être un fardeau",
+    "Isolement, adieux, dons d'objets, préparatifs",
+    "Changement brutal du comportement, calme soudain après une période d'agitation",
+    "Tentative : intoxication (pesticides, médicaments, produits ménagers), pendaison, phlébotomie, chute"
+   ],
+   "diagnostic": [
+    "Demander directement : « Avez-vous pensé à mettre fin à vos jours ? Avez-vous un plan ? Avez-vous le moyen ? »",
+    "Évaluer le risque (antécédents, troubles psychiques, alcool, isolement), l'urgence (plan précis, date, moyen disponible) et la dangerosité du moyen",
+    "Rechercher dépression, psychose, consommation de substances, violences, douleur chronique",
+    "Après une intoxication : examiner et traiter d'abord le corps"
+   ],
+   "traitement": [
+    "Traiter d'abord l'urgence somatique : voir les fiches d'intoxication (organophosphorés, paracétamol, opioïdes) ; paracétamolémie systématique après une prise médicamenteuse",
+    "Ne jamais laisser seule une personne à risque élevé ; lieu sûr, retirer les moyens (pesticides, médicaments, cordes, objets tranchants), impliquer la famille",
+    "Écoute sans jugement, prise au sérieux, alliance ; ne pas promettre le secret si la vie est en danger",
+    "Hospitalisation si urgence élevée (plan précis, moyen disponible, absence de soutien) ou si trouble psychiatrique grave",
+    "Agitation intense : halopéridol 5 mg IM ± diazépam 10 mg",
+    "Traiter la cause : dépression (fluoxétine ou sertraline, à petite quantité et surveillée), psychose, sevrage alcoolique",
+    "Plan de sécurité écrit avec le patient : signes d'alerte, personnes à appeler, moyens retirés",
+    "Revoir le patient dans la semaine, puis régulièrement pendant 2 à 3 mois ; contacter s'il ne vient pas"
+   ],
+   "gravite": [
+    "Plan précis avec moyen disponible",
+    "Tentative avec moyen violent ou hautement létal (pesticide, pendaison)",
+    "Dépression sévère, psychose, alcool",
+    "Isolement, absence de soutien",
+    "Antécédents de tentative"
+   ],
+   "prevention": [
+    "Stockage sécurisé des pesticides (sous clé), réduction de l'accès aux moyens",
+    "Délivrance de petites quantités de médicaments",
+    "Dépistage et traitement de la dépression et de l'alcoolisme (programme mhGAP)",
+    "Suivi rapproché après une tentative et après une hospitalisation psychiatrique",
+    "Information des médias et des communautés"
+   ],
+   "medicaments": [
+    "Fluoxétine",
+    "Sertraline",
+    "Halopéridol",
+    "Diazépam",
+    "Atropine",
+    "N-acétylcystéine"
+   ],
+   "frequence": 2,
+   "physiopathologie": "La crise suicidaire survient quand la souffrance psychique dépasse les capacités à y faire face (dépression, psychose, alcool et drogues, deuil, conflits, violences, maladie chronique, précarité). Le risque augmente avec la disponibilité d'un moyen létal. La période qui suit une tentative, et la sortie d'hospitalisation, sont les moments de plus grand risque de récidive.",
+   "paraclinique": [
+    {
+     "examen": "Paracétamolémie",
+     "resultat": "Systématique après toute prise médicamenteuse volontaire (souvent cachée)"
+    },
+    {
+     "examen": "Activité cholinestérasique",
+     "resultat": "Abaissée en cas d'intoxication aux organophosphorés"
+    },
+    {
+     "examen": "ECG",
+     "resultat": "QRS > 100 ms ou QT long : antidépresseurs tricycliques, autres toxiques"
+    },
+    {
+     "examen": "Glycémie, ionogramme, alcoolémie",
+     "resultat": "Selon le moyen utilisé"
+    },
+    {
+     "examen": "Test de grossesse",
+     "resultat": "Chez l'adolescente et la femme jeune"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 259,
+   "nom": "Rupture utérine",
+   "categorie": "grossesse",
+   "synonymes": "rupture utérine, utérus rompu, déchirure de l'utérus, rupture de cicatrice de césarienne",
+   "resume": "Déchirure de la paroi de l'utérus pendant la grossesse ou le travail, encore fréquente en RDC : travail prolongé ou dystocie non surveillée (disproportion, présentation transverse), utérus cicatriciel (césarienne), usage excessif d'ocytocine ou de misoprostol, manœuvres obstétricales, grande multiparité. La mortalité fœtale est très élevée et la mère peut mourir d'hémorragie en moins d'une heure.",
+   "signes": [
+    "Pré-rupture : contractions très douloureuses, utérus en sablier (anneau de Bandl), agitation, tachycardie, souffrance fœtale",
+    "Rupture : douleur brutale « en coup de poignard », arrêt soudain des contractions",
+    "Saignement vaginal (parfois faible), choc disproportionné",
+    "Parties fœtales palpables sous la peau, disparition des bruits du cœur fœtal, remontée de la présentation",
+    "Hématurie (atteinte de la vessie)"
+   ],
+   "diagnostic": [
+    "Diagnostic clinique : ne pas retarder la laparotomie pour des examens",
+    "Échographie si disponible et sans retard",
+    "Groupe sanguin, Hb, test de coagulation au lit"
+   ],
+   "traitement": [
+    "Appeler l'équipe, 2 voies veineuses, Ringer lactate, sang (sang total ou culots, PFC), oxygène",
+    "Arrêter immédiatement l'ocytocine",
+    "Acide tranexamique 1 g IV en 10 min",
+    "Laparotomie immédiate : extraction du fœtus et du placenta, suture de l'utérus si la déchirure est nette et la patiente stable (proposer une ligature des trompes ou informer du risque élevé pour les grossesses suivantes), sinon hystérectomie subtotale ; vérifier vessie et uretères",
+    "Antibiotiques : ampicilline (ou céfazoline) + métronidazole, puis selon l'état",
+    "Ocytocine après la suture pour aider la rétraction",
+    "Pré-rupture : arrêter l'ocytocine, tocolyse (salbutamol), césarienne en urgence"
+   ],
+   "gravite": [
+    "Choc hémorragique",
+    "Délai avant la chirurgie (transfert)",
+    "Rupture de la vessie, fistule vésico-vaginale",
+    "Infection, péritonite"
+   ],
+   "prevention": [
+    "Consultations prénatales : repérer l'utérus cicatriciel, la disproportion, les présentations anormales et orienter vers un hôpital avec bloc opératoire",
+    "Surveillance du travail avec le partogramme",
+    "Ocytocine uniquement avec pompe ou décompte des gouttes, jamais sur utérus cicatriciel sans surveillance ; pas de misoprostol sur utérus cicatriciel au 3e trimestre",
+    "Accès à la césarienne"
+   ],
+   "medicaments": [
+    "Ringer lactate",
+    "Sang total",
+    "Concentré de globules rouges (culot globulaire)",
+    "Plasma frais congelé (PFC)",
+    "Acide tranexamique",
+    "Ocytocine",
+    "Ampicilline",
+    "Céfazoline",
+    "Métronidazole",
+    "Salbutamol"
+   ],
+   "frequence": 2,
+   "physiopathologie": "Quand l'utérus se contracte contre un obstacle, le segment inférieur s'étire et s'amincit (anneau de Bandl) jusqu'à la rupture ; une cicatrice de césarienne cède plus facilement. Le sang et souvent le fœtus et le placenta passent dans la cavité abdominale : choc hémorragique maternel et anoxie fœtale.",
+   "paraclinique": [
+    {
+     "examen": "Test de coagulation au lit (tube sec)",
+     "resultat": "Pas de caillot après 7 min ou caillot qui se lyse : coagulopathie, transfuser plasma et sang frais"
+    },
+    {
+     "examen": "Hémoglobine, groupe sanguin et compatibilité",
+     "resultat": "Hb basse ; préparer plusieurs unités de sang"
+    },
+    {
+     "examen": "Échographie (sans retarder la chirurgie)",
+     "resultat": "Fœtus hors de l'utérus, liquide libre (hémopéritoine), utérus vide"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 260,
+   "nom": "Procidence du cordon et dystocie des épaules",
+   "categorie": "grossesse",
+   "synonymes": "procidence du cordon, cordon prolabé, dystocie des épaules, épaules bloquées, signe de la tortue",
+   "resume": "Deux urgences obstétricales de quelques minutes. Procidence du cordon : le cordon glisse devant la présentation après la rupture des membranes et se comprime (présentation du siège ou transverse, prématurité, hydramnios, rupture artificielle sur présentation haute). Dystocie des épaules : après la sortie de la tête, les épaules restent bloquées derrière la symphyse (gros bébé, diabète, travail prolongé, extraction instrumentale).",
+   "signes": [
+    "Procidence : cordon visible ou palpé dans le vagin, souvent après la rupture des membranes ; bradycardie fœtale brutale ou décélérations",
+    "Dystocie des épaules : la tête sort puis se rétracte contre le périnée (signe de la tortue), rotation de la tête impossible, l'accouchement des épaules n'avance pas malgré les poussées"
+   ],
+   "diagnostic": [
+    "Toucher vaginal après toute rupture des membranes sur présentation haute ou anormale",
+    "Battements cardiaques fœtaux immédiatement après la rupture",
+    "Noter l'heure de sortie de la tête (dystocie)"
+   ],
+   "traitement": [
+    "Procidence : appeler à l'aide, ne pas manipuler le cordon",
+    "Refouler la présentation avec 2 doigts dans le vagin et la maintenir jusqu'à la césarienne ; position genu-pectorale (à genoux, poitrine contre le lit) ou Trendelenburg ; remplir la vessie avec 500 ml de NaCl 0,9 % par sonde ; arrêter l'ocytocine ; tocolyse (salbutamol)",
+    "Césarienne immédiate si le fœtus est vivant ; si dilatation complète et tête basse : accouchement rapide par voie basse (ventouse)",
+    "Fœtus mort : accouchement par voie basse",
+    "Dystocie des épaules : appeler à l'aide, ne pas tirer fort sur la tête, ne pas appuyer sur le fond utérin",
+    "Manœuvre de McRoberts (cuisses hyperfléchies sur le ventre) avec pression sus-pubienne (main du côté du dos du bébé), traction douce",
+    "Si échec : épisiotomie pour faire de la place, manœuvres internes (rotation des épaules de Wood ou de Rubin), dégagement du bras postérieur, position à quatre pattes (Gaskin)",
+    "Ensuite : réanimation du nouveau-né, prévention de l'hémorragie du post-partum (ocytocine), examen du bras et de la clavicule du bébé, révision du périnée"
+   ],
+   "gravite": [
+    "Bradycardie fœtale prolongée",
+    "Délai > 5 min entre la tête et les épaules",
+    "Asphyxie néonatale, paralysie du plexus brachial",
+    "Hémorragie du post-partum, déchirures périnéales"
+   ],
+   "prevention": [
+    "Accouchement à l'hôpital des présentations anormales et des gros bébés suspectés",
+    "Pas de rupture artificielle des membranes sur présentation haute",
+    "Dépistage et contrôle du diabète gestationnel",
+    "Formation régulière des équipes aux manœuvres (simulation)"
+   ],
+   "medicaments": [
+    "Salbutamol",
+    "Ocytocine",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
+    "Ringer lactate"
+   ],
+   "frequence": 1,
+   "physiopathologie": "Dans la procidence, le cordon comprimé entre la présentation et le bassin, ou refroidi et en spasme hors du vagin, n'apporte plus d'oxygène au fœtus : bradycardie puis mort en quelques minutes. Dans la dystocie des épaules, le thorax est comprimé et le cordon écrasé ; une traction forte sur la tête lèse le plexus brachial (paralysie du bras) et peut fracturer la clavicule.",
+   "paraclinique": [
+    {
+     "examen": "Battements cardiaques fœtaux (Pinard, Doppler ou monitoring)",
+     "resultat": "Bradycardie < 100/min ou décélérations profondes après la rupture des membranes : procidence"
+    },
+    {
+     "examen": "Échographie (sans retarder le geste)",
+     "resultat": "Présentation, vitalité fœtale, cordon devant la présentation"
+    },
+    {
+     "examen": "Gaz du sang au cordon après la naissance",
+     "resultat": "Acidose (pH < 7,0) = asphyxie"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 261,
+   "nom": "Hématome rétroplacentaire et placenta prævia",
+   "categorie": "grossesse",
+   "synonymes": "hématome rétroplacentaire, HRP, décollement placentaire, placenta prævia, placenta bas inséré, saignement du 3e trimestre",
+   "resume": "Les deux grandes causes d'hémorragie du 3e trimestre. L'hématome rétroplacentaire (décollement prématuré du placenta normalement inséré) survient surtout dans la pré-éclampsie, après un traumatisme ou chez la grande multipare ; il menace la mère (choc, troubles de coagulation) et tue souvent le fœtus. Le placenta prævia (inséré sur le segment inférieur) saigne sans douleur ; le toucher vaginal peut déclencher une hémorragie massive.",
+   "signes": [
+    "HRP : douleur abdominale brutale et permanente, utérus dur « de bois » et sensible, saignement noirâtre souvent peu abondant et sans rapport avec la gravité, choc, bruits du cœur fœtal anormaux ou absents ; contexte de pré-éclampsie",
+    "Placenta prævia : saignement rouge vif, indolore, souvent répété, utérus souple, présentation haute ou anormale"
+   ],
+   "diagnostic": [
+    "Ne jamais faire de toucher vaginal devant un saignement du 3e trimestre tant que le placenta prævia n'est pas éliminé (échographie) ; examen au spéculum possible au bloc",
+    "TA, protéinurie (pré-éclampsie)",
+    "Battements cardiaques fœtaux",
+    "Échographie : localisation du placenta",
+    "Hb, groupe, test de coagulation au lit"
+   ],
+   "traitement": [
+    "2 voies veineuses, Ringer lactate, oxygène, groupe sanguin et sang compatible ; transfusion selon la perte (sang total frais ou culots + PFC si coagulopathie)",
+    "HRP : accouchement rapide : rupture artificielle des membranes, ocytocine ; voie basse si fœtus mort et mère stable ; césarienne si fœtus vivant en souffrance ou si hémorragie non contrôlée ; traiter la pré-éclampsie (sulfate de magnésium, antihypertenseur) ; risque élevé d'hémorragie du post-partum (ocytocine, acide tranexamique)",
+    "Placenta prævia : saignement abondant ou à terme : césarienne ; saignement modéré avant 37 SA et mère stable : hospitalisation, repos, dexaméthasone 6 mg IM toutes les 12 h × 4 (ou bétaméthasone) pour la maturation pulmonaire fœtale, transfusion si besoin, accouchement programmé",
+    "Rhésus négatif : immunoglobuline anti-D"
+   ],
+   "gravite": [
+    "Choc, CIVD (sang qui ne coagule pas)",
+    "Mort fœtale",
+    "Pré-éclampsie, éclampsie",
+    "Hémorragie du post-partum, insuffisance rénale"
+   ],
+   "prevention": [
+    "Dépistage et traitement de la pré-éclampsie (aspirine à faible dose si risque élevé)",
+    "Échographie du 3e trimestre pour localiser le placenta",
+    "Accouchement à l'hôpital en cas de placenta prævia",
+    "Prévention des traumatismes et des violences pendant la grossesse"
+   ],
+   "medicaments": [
+    "Ringer lactate",
+    "Sang total",
+    "Concentré de globules rouges (culot globulaire)",
+    "Plasma frais congelé (PFC)",
+    "Ocytocine",
+    "Acide tranexamique",
+    "Sulfate de magnésium",
+    "Dexaméthasone",
+    "Bétaméthasone (voie orale et injectable)",
+    "Immunoglobuline anti-D"
+   ],
+   "frequence": 2,
+   "physiopathologie": "Dans l'HRP, un hématome se forme entre le placenta et l'utérus, décolle le placenta et prive le fœtus d'oxygène ; il libère des facteurs tissulaires qui consomment la coagulation (CIVD) et le saignement peut rester caché dans l'utérus. Dans le placenta prævia, l'étirement du segment inférieur en fin de grossesse ou pendant le travail décolle le placenta et ouvre des vaisseaux maternels.",
+   "paraclinique": [
+    {
+     "examen": "Échographie obstétricale",
+     "resultat": "Placenta prævia : placenta recouvrant ou proche (< 2 cm) de l'orifice interne du col ; HRP : hématome rétroplacentaire parfois visible (échographie normale n'élimine pas l'HRP), vitalité fœtale"
+    },
+    {
+     "examen": "Test de coagulation au lit (tube sec)",
+     "resultat": "Pas de caillot à 7 min : coagulopathie (CIVD), fréquente dans l'HRP"
+    },
+    {
+     "examen": "Hémoglobine, plaquettes, fibrinogène",
+     "resultat": "Fibrinogène < 2 g/l et plaquettes basses : CIVD"
+    },
+    {
+     "examen": "Protéinurie à la bandelette",
+     "resultat": "≥ 2+ : pré-éclampsie associée"
+    },
+    {
+     "examen": "Groupe sanguin et Rhésus",
+     "resultat": "Rhésus négatif : immunoglobuline anti-D"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 262,
+   "nom": "Torsion du testicule",
+   "categorie": "genital",
+   "synonymes": "torsion testiculaire, torsion du cordon spermatique, douleur du testicule, bourse douloureuse aiguë",
+   "resume": "Rotation du testicule sur son cordon qui coupe sa vascularisation ; surtout chez l'adolescent et le nouveau-né. C'est une urgence chirurgicale : le testicule est sauvé dans plus de 90 % des cas opérés avant 6 h, rarement après 24 h. Toute bourse douloureuse aiguë chez un jeune est une torsion jusqu'à preuve du contraire.",
+   "signes": [
+    "Douleur testiculaire brutale et intense, parfois nocturne ou après un effort, irradiant à l'aine ou au bas-ventre",
+    "Nausées, vomissements",
+    "Testicule ascensionné, horizontal, très sensible ; réflexe crémastérien absent",
+    "Pas de fièvre ni de signes urinaires au début",
+    "Nouveau-né : bourse dure, bleutée, peu douloureuse"
+   ],
+   "diagnostic": [
+    "Diagnostic clinique : ne pas retarder la chirurgie pour une échographie",
+    "Écho-Doppler seulement si disponible immédiatement",
+    "Bandelette urinaire (normale ; leucocytes et nitrites orientent vers une orchi-épididymite)"
+   ],
+   "traitement": [
+    "Antalgiques (morphine IV titrée)",
+    "Exploration chirurgicale immédiate : détorsion, appréciation de la vitalité, fixation du testicule (orchidopexie) et du testicule opposé ; orchidectomie si nécrose",
+    "En attendant le chirurgien ou le transfert : tentative de détorsion manuelle sous antalgie, en tournant le testicule vers l'extérieur (« ouvrir le livre », vers la cuisse), 1 à 2 tours ; un soulagement brutal confirme le succès mais l'opération reste nécessaire",
+    "Ne jamais renvoyer avec des antibiotiques un jeune ayant une bourse douloureuse brutale sans avoir éliminé une torsion"
+   ],
+   "gravite": [
+    "Délai > 6 h",
+    "Testicule noir à l'intervention (nécrose)",
+    "Torsion néonatale"
+   ],
+   "prevention": [
+    "Information des adolescents et des parents : consulter immédiatement pour une douleur du testicule",
+    "Fixation du testicule controlatéral lors de l'intervention"
+   ],
+   "medicaments": [
+    "Morphine",
+    "Paracétamol",
+    "Lidocaïne (lignocaïne)"
+   ],
+   "frequence": 1,
+   "physiopathologie": "Une fixation anormale du testicule dans sa vaginale (anomalie « en battant de cloche », souvent bilatérale) lui permet de tourner. La torsion du cordon bloque d'abord le retour veineux (œdème) puis l'apport artériel : nécrose du testicule en quelques heures.",
+   "paraclinique": [
+    {
+     "examen": "Écho-Doppler scrotal (sans retarder la chirurgie)",
+     "resultat": "Absence ou diminution du flux artériel testiculaire, signe du tourbillon (« whirlpool ») du cordon"
+    },
+    {
+     "examen": "Bandelette urinaire",
+     "resultat": "Normale dans la torsion ; leucocytes et nitrites : orchi-épididymite"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
+   ]
+  },
+  {
+   "id": 263,
+   "nom": "Priapisme",
+   "categorie": "genital",
+   "synonymes": "priapisme, érection prolongée, érection douloureuse, drépanocytose et priapisme",
+   "resume": "Érection prolongée de plus de 4 heures sans désir sexuel. Le priapisme ischémique (douloureux, verge dure) est une urgence : au-delà de 24 à 48 h, il laisse une impuissance définitive. En Afrique, la cause principale est la drépanocytose (enfant et adolescent) ; autres causes : injections intracaverneuses, sildénafil, antipsychotiques, trazodone, leucémie, cannabis et cocaïne.",
+   "signes": [
+    "Érection persistante, douloureuse, verge dure avec gland mou",
+    "Durée > 4 h ou épisodes répétés de quelques heures (priapisme intermittent, annonce un épisode grave)",
+    "Contexte : drépanocytose, médicaments, traumatisme"
+   ],
+   "diagnostic": [
+    "Durée, douleur, épisodes antérieurs, médicaments, drépanocytose connue",
+    "Gaz du sang caverneux si possible",
+    "NFS, électrophorèse de l'hémoglobine ou test de falciformation, frottis (leucémie)"
+   ],
+   "traitement": [
+    "Dès le début (< 4 h) : uriner, hydratation (orale ou IV), antalgiques (morphine si douleur forte), oxygène si SpO2 basse, réchauffement, exercice léger ; étiléfrine orale possible",
+    "Après 4 h, ou douleur intense : aspiration des corps caverneux après anesthésie locale (lidocaïne) : aiguille 19 à 21 G dans un corps caverneux, aspirer le sang noir jusqu'à obtenir du sang rouge, lavage au NaCl 0,9 %",
+    "Si l'érection persiste : injection intracaverneuse d'un vasoconstricteur dilué (phényléphrine 100 à 200 µg ou éphédrine), à répéter toutes les 5 à 10 min, sous surveillance de la TA et du pouls",
+    "Échec après 1 h : chirurgie (shunt)",
+    "Drépanocytose : traitement de la crise associée ; la transfusion ou l'échange transfusionnel ne remplace pas l'aspiration",
+    "Prévention des récidives : hydroxyurée, étiléfrine"
+   ],
+   "gravite": [
+    "Durée > 24 h (impuissance probable)",
+    "Récidives fréquentes (priapisme intermittent)",
+    "Drépanocytose avec autre complication (syndrome thoracique)"
+   ],
+   "prevention": [
+    "Hydroxyurée chez le drépanocytaire",
+    "Hydratation, éviter le froid et la déshydratation",
+    "Consulter avant 4 h d'érection",
+    "Prudence avec les médicaments à risque"
+   ],
+   "medicaments": [
+    "Morphine",
+    "Lidocaïne (lignocaïne)",
+    "Chlorure de sodium 0,9 % (sérum physiologique)",
+    "Éphédrine",
+    "Étiléfrine",
+    "Hydroxyurée (hydroxycarbamide)",
+    "Oxygène"
+   ],
+   "frequence": 1,
+   "physiopathologie": "Dans le priapisme ischémique, le sang reste bloqué dans les corps caverneux (falcification des hématies, médicaments) : il devient pauvre en oxygène et acide, ce qui entretient la stase et lèse le muscle lisse puis le remplace par de la fibrose. Le priapisme non ischémique (artériel, après traumatisme du périnée) est peu douloureux et non urgent.",
+   "paraclinique": [
+    {
+     "examen": "Gaz du sang caverneux",
+     "resultat": "Ischémique : sang noir, pH < 7,25, PO2 < 30 mmHg, PCO2 > 60 mmHg ; artériel : sang rouge, gaz normaux"
+    },
+    {
+     "examen": "NFS et frottis",
+     "resultat": "Anémie de la drépanocytose, hyperleucocytose et blastes (leucémie)"
+    },
+    {
+     "examen": "Test de falciformation (Emmel) ou électrophorèse de l'hémoglobine",
+     "resultat": "Hémoglobine S (drépanocytose)"
+    },
+    {
+     "examen": "Écho-Doppler pénien",
+     "resultat": "Absence de flux dans les corps caverneux (ischémique) ; flux élevé ou fistule (artériel)"
+    }
+   ],
+   "autresCategories": [
+    "urgences"
    ]
   }
  ]
