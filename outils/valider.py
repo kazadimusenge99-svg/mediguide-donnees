@@ -41,7 +41,7 @@ for p in meds["pathologies"]:
         if d not in dcis: err(f"pathologie {p['id']} : médicament inconnu « {d} » (utiliser la DCI exacte)")
 
 # --- symptômes (dans meds.json) ---
-for _sec in ("dispensaire", "examens"):
+for _sec in ("dispensaire", "examens", "reperes", "materiel"):
   _dids = set()
   for c in meds.get(_sec, []):
       if c.get("id") in _dids: err(f"{_sec} : id en double {c.get('id')}")

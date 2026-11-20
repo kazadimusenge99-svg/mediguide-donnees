@@ -1,5 +1,5 @@
 {
- "version": 96,
+ "version": 97,
  "dateMiseAJour": "2026-10-31",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -46034,106 +46034,6 @@
    "groupe": "Enfant et nouveau-né"
   },
   {
-   "id": "neonatologie",
-   "titre": "Couveuse et besoins hydriques du nouveau-né",
-   "pictogramme": "bebe",
-   "couleur": "#00838F",
-   "intro": "Le nouveau-né de petit poids perd sa chaleur très vite : couveuse réglée selon le poids, ou peau à peau (méthode mère kangourou), et apports hydriques augmentés progressivement chaque jour.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Réglage de la température de la couveuse",
-     "colonnes": [
-      "Poids",
-      "Température"
-     ],
-     "lignes": [
-      [
-       "< 1 000 g",
-       "35 °C"
-      ],
-      [
-       "1 000–1 500 g",
-       "34 °C"
-      ],
-      [
-       "1 600–2 000 g",
-       "33 °C"
-      ],
-      [
-       "2 100–2 500 g",
-       "32 °C"
-      ]
-     ],
-     "note": "Ajuster pour garder une température axillaire de 36,5 à 37,5 °C (contrôle toutes les 3 à 4 h) ; baisser la consigne si le bébé dépasse 37,5 °C. Dès que possible : peau à peau avec la mère."
-    },
-    {
-     "type": "tableau",
-     "titre": "Besoins hydriques journaliers (ml/kg/jour, lait et perfusion compris)",
-     "colonnes": [
-      "Jour de vie",
-      "Prématuré",
-      "Nouveau-né à terme"
-     ],
-     "lignes": [
-      [
-       "J1",
-       "40 ml/kg",
-       "60 ml/kg"
-      ],
-      [
-       "J2",
-       "50 ml/kg",
-       "80 ml/kg"
-      ],
-      [
-       "J3",
-       "60 ml/kg",
-       "100 ml/kg"
-      ],
-      [
-       "J4",
-       "70 ml/kg",
-       "120 ml/kg"
-      ],
-      [
-       "J5",
-       "80 ml/kg",
-       "140 ml/kg"
-      ],
-      [
-       "J6",
-       "90 ml/kg",
-       "160 ml/kg"
-      ],
-      [
-       "J7",
-       "100 ml/kg",
-       "180 ml/kg"
-      ],
-      [
-       "J8–J28",
-       "150–180 ml/kg",
-       "180–200 ml/kg"
-      ]
-     ],
-     "note": "Protocole affiché en néonatologie (Pr Dr Monga, Dr Ngimbi, Dr Kalanda). Repère OMS pour comparaison : J1 60 ml/kg (80 ml/kg si moins de 1 500 g), puis + 20 ml/kg par jour jusqu'à 150 ml/kg/j ; plus d'apports sous photothérapie ou sous lampe chauffante, moins en cas d'asphyxie ou d'insuffisance rénale."
-    },
-    {
-     "type": "liste",
-     "titre": "Quantité par repas",
-     "elements": [
-      "Prématuré (12 repas par jour, toutes les 2 h) : quantité par repas (ml) = poids actuel (kg) × besoin du jour (ml/kg) ÷ 12.",
-      "Nouveau-né à terme (8 repas par jour, toutes les 3 h) : quantité par repas (ml) = poids actuel (kg) × besoin du jour (ml/kg) ÷ 8.",
-      "Exemple : prématuré de 1,5 kg à J4 (70 ml/kg) : 1,5 × 70 = 105 ml par jour, soit 105 ÷ 12 ≈ 9 ml toutes les 2 h.",
-      "Lait maternel en priorité (au sein, à la tasse ou par sonde) ; soustraire du total ce qui est donné en perfusion.",
-      "Surveiller chaque jour : poids, diurèse (au moins 1 ml/kg/h), glycémie, signes de surcharge (œdèmes, détresse respiratoire) ou de déshydratation."
-     ]
-    }
-   ],
-   "groupe": "Enfant et nouveau-né"
-  },
-  {
    "id": "malnutrition",
    "titre": "Devant un enfant maigre ou gonflé (malnutrition)",
    "pictogramme": "pomme",
@@ -46278,639 +46178,6 @@
     }
    ],
    "groupe": "Grossesse et accouchement"
-  },
-  {
-   "id": "signes-vitaux",
-   "titre": "Signes vitaux normaux selon l'âge",
-   "pictogramme": "stethoscope",
-   "couleur": "#00695C",
-   "intro": "Valeurs de repos chez un patient calme ; les comparer à l'âge, à l'état clinique et à l'évolution. Une valeur anormale isolée se recontrôle.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Fréquences et tension",
-     "colonnes": [
-      "Âge",
-      "Respiration (/min)",
-      "Pouls (/min)",
-      "Tension systolique (mmHg)"
-     ],
-     "lignes": [
-      [
-       "Nouveau-né (0–1 mois)",
-       "40–60",
-       "110–160",
-       "60–90"
-      ],
-      [
-       "Nourrisson (1–12 mois)",
-       "30–50",
-       "100–160",
-       "70–100"
-      ],
-      [
-       "1–2 ans",
-       "25–35",
-       "95–150",
-       "80–105"
-      ],
-      [
-       "2–5 ans",
-       "20–30",
-       "90–140",
-       "85–110"
-      ],
-      [
-       "5–12 ans",
-       "18–25",
-       "80–120",
-       "90–115"
-      ],
-      [
-       "Plus de 12 ans et adulte",
-       "12–20",
-       "60–100",
-       "100–130 (moins de 140/90)"
-      ]
-     ],
-     "note": "Pendant les pleurs ou la fièvre, le pouls et la respiration augmentent (environ +10 battements/min par degré de fièvre)."
-    },
-    {
-     "type": "tableau",
-     "titre": "Respiration rapide (PCIME : seuils de pneumonie)",
-     "colonnes": [
-      "Âge",
-      "Respiration rapide si"
-     ],
-     "lignes": [
-      [
-       "Moins de 2 mois",
-       "60/min ou plus"
-      ],
-      [
-       "2 à 12 mois",
-       "50/min ou plus"
-      ],
-      [
-       "1 à 5 ans",
-       "40/min ou plus"
-      ],
-      [
-       "Plus de 5 ans",
-       "30/min ou plus"
-      ],
-      [
-       "Adulte",
-       "plus de 20/min (plus de 30/min : gravité)"
-      ]
-     ],
-     "note": "Compter pendant une minute entière, enfant calme, thorax découvert."
-    },
-    {
-     "type": "liste",
-     "titre": "Tension artérielle basse (hypotension)",
-     "elements": [
-      "Nouveau-né : systolique inférieure à 60 mmHg.",
-      "Nourrisson : inférieure à 70 mmHg.",
-      "1 à 10 ans : inférieure à 70 + (2 × âge en années) mmHg.",
-      "Plus de 10 ans et adulte : inférieure à 90 mmHg (ou chute de plus de 40 mmHg chez l'hypertendu).",
-      "Chez l'enfant, l'hypotension est un signe tardif de choc : chercher avant les mains froides, le pouls rapide et faible et un temps de recoloration de 3 secondes ou plus."
-     ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Tension de l'adulte (OMS / ISH 2020)",
-     "colonnes": [
-      "Classe",
-      "Tension (mmHg)"
-     ],
-     "lignes": [
-      [
-       "Normale",
-       "moins de 130/85"
-      ],
-      [
-       "Normale haute",
-       "130–139 / 85–89"
-      ],
-      [
-       "Hypertension grade 1",
-       "140–159 / 90–99"
-      ],
-      [
-       "Hypertension grade 2",
-       "160 / 100 ou plus"
-      ],
-      [
-       "Hypertension sévère (urgence si signes d'atteinte d'organe)",
-       "180 / 110 ou plus"
-      ],
-      [
-       "Grossesse : hypertension",
-       "140 / 90 ou plus"
-      ],
-      [
-       "Grossesse : hypertension sévère",
-       "160 / 110 ou plus"
-      ]
-     ],
-     "note": "Mesure au repos, assis, brassard adapté au bras ; confirmer une hypertension sur plusieurs mesures."
-    },
-    {
-     "type": "tableau",
-     "titre": "Température",
-     "colonnes": [
-      "Situation",
-      "Valeur"
-     ],
-     "lignes": [
-      [
-       "Normale (axillaire)",
-       "36,5 – 37,4 °C"
-      ],
-      [
-       "Fièvre (PCIME, axillaire)",
-       "37,5 °C ou plus"
-      ],
-      [
-       "Fièvre (rectale)",
-       "38 °C ou plus"
-      ],
-      [
-       "Fièvre élevée",
-       "39 °C ou plus"
-      ],
-      [
-       "Hypothermie du nouveau-né",
-       "moins de 36,5 °C (légère), moins de 36 °C (modérée), moins de 32 °C (sévère)"
-      ],
-      [
-       "Hypothermie de l'enfant et de l'adulte",
-       "moins de 35,5 °C"
-      ]
-     ],
-     "note": "Nourrisson de moins de 2 mois avec fièvre ou hypothermie : signe de danger, référer."
-    },
-    {
-     "type": "tableau",
-     "titre": "Oxygène, glycémie et diurèse",
-     "colonnes": [
-      "Mesure",
-      "Normale",
-      "Anormale"
-     ],
-     "lignes": [
-      [
-       "SpO₂ (air ambiant)",
-       "95 % ou plus",
-       "moins de 90 % : oxygène (moins de 94 % si détresse, choc, convulsions)"
-      ],
-      [
-       "Glycémie à jeun (adulte)",
-       "0,70 – 1,10 g/l (3,9 – 6,1 mmol/l)",
-       "1,26 g/l ou plus à 2 reprises : diabète ; 2 g/l ou plus à tout moment avec signes : diabète"
-      ],
-      [
-       "Hypoglycémie (adulte)",
-       "—",
-       "moins de 0,70 g/l (3,9 mmol/l) ; grave si moins de 0,54 g/l (3 mmol/l)"
-      ],
-      [
-       "Hypoglycémie (enfant)",
-       "—",
-       "moins de 0,45 g/l (2,5 mmol/l) ; malnutrition : moins de 0,54 g/l (3 mmol/l)"
-      ],
-      [
-       "Hypoglycémie (nouveau-né)",
-       "—",
-       "moins de 0,45 g/l (2,5 mmol/l)"
-      ],
-      [
-       "Diurèse",
-       "adulte : 0,5 ml/kg/h ou plus ; enfant : 1 ml/kg/h ou plus",
-       "inférieure : déshydratation, choc, atteinte rénale"
-      ],
-      [
-       "Temps de recoloration cutanée",
-       "moins de 3 secondes",
-       "3 secondes ou plus : choc probable"
-      ]
-     ],
-     "note": ""
-    },
-    {
-     "type": "liste",
-     "titre": "Conscience et poids",
-     "elements": [
-      "État de conscience (AVPU) : A = éveillé, V = répond à la voix, P = répond seulement à la douleur, U = ne répond pas. P ou U : urgence (protéger les voies aériennes, glycémie).",
-      "Poids estimé de l'enfant (si pas de balance) : 1 à 5 ans = (2 × âge) + 8 kg ; 6 à 12 ans = (3 × âge) + 7 kg. Toujours peser quand c'est possible.",
-      "Périmètre brachial (6 à 59 mois) : moins de 115 mm = malnutrition aiguë sévère ; 115 à 124 mm = modérée."
-     ]
-    }
-   ],
-   "groupe": "Repères cliniques"
-  },
-  {
-   "id": "materiel-abords",
-   "titre": "Abords veineux, injections et perfusion",
-   "pictogramme": "seringue",
-   "couleur": "#37474F",
-   "intro": "Choisir le cathéter, l'aiguille, la seringue et la trousse adaptés à l'âge et au produit ; tout le matériel stérile est à usage unique.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Cathéters veineux périphériques (Abbocath, Venflon)",
-     "colonnes": [
-      "Calibre",
-      "Couleur",
-      "Débit (environ)",
-      "Usage"
-     ],
-     "lignes": [
-      [
-       "14 G",
-       "Orange",
-       "250–300 ml/min",
-       "Choc hémorragique, traumatisme grave (adulte)"
-      ],
-      [
-       "16 G",
-       "Gris",
-       "180–200 ml/min",
-       "Remplissage rapide, chirurgie (adulte)"
-      ],
-      [
-       "18 G",
-       "Vert",
-       "90–100 ml/min",
-       "Transfusion, césarienne, hémorragie du post-partum"
-      ],
-      [
-       "20 G",
-       "Rose",
-       "50–60 ml/min",
-       "Adulte : perfusion standard, transfusion possible"
-      ],
-      [
-       "22 G",
-       "Bleu",
-       "30–35 ml/min",
-       "Enfant, sujet âgé, petites veines"
-      ],
-      [
-       "24 G",
-       "Jaune",
-       "15–20 ml/min",
-       "Nourrisson, nouveau-né"
-      ],
-      [
-       "26 G",
-       "Violet",
-       "≈ 13 ml/min",
-       "Prématuré"
-      ]
-     ],
-     "note": "Choisir le plus petit calibre adapté au traitement, sauf urgence hémorragique (2 voies de gros calibre). Changer le cathéter et le site toutes les 72 à 96 h ou en cas de rougeur."
-    },
-    {
-     "type": "tableau",
-     "titre": "Aiguilles (couleurs ISO)",
-     "colonnes": [
-      "Calibre",
-      "Couleur",
-      "Usage"
-     ],
-     "lignes": [
-      [
-       "18 G",
-       "Rose",
-       "Pompage et reconstitution des médicaments"
-      ],
-      [
-       "21 G",
-       "Vert",
-       "Prélèvement sanguin, IM ou IV chez l'adulte"
-      ],
-      [
-       "22 G",
-       "Noir",
-       "IM chez l'adulte mince"
-      ],
-      [
-       "23 G",
-       "Bleu",
-       "IM chez l'enfant, prélèvement de petites veines"
-      ],
-      [
-       "25 G",
-       "Orange",
-       "Sous-cutanée, IM du nourrisson (cuisse)"
-      ],
-      [
-       "26–27 G",
-       "Marron, gris",
-       "Intradermique (BCG, IDR), insuline"
-      ]
-     ],
-     "note": "Ne jamais recapuchonner une aiguille : collecteur (boîte de sécurité) immédiatement après usage."
-    },
-    {
-     "type": "liste",
-     "titre": "Seringues",
-     "elements": [
-      "Seringue de 1 ml : vaccins, insuline (seringue graduée en unités), petites doses de l'enfant.",
-      "Seringues de 2 et 5 ml : injections IM et IV courantes ; 10 ml : dilution, injection IV lente, rinçage des cathéters ; 20 et 50 ml : lavage de plaie, alimentation par sonde, pousse-seringue.",
-      "Choisir la plus petite seringue qui contient le volume, pour une dose précise.",
-      "Seringue autobloquante pour les vaccins (PEV) ; jamais de réutilisation, même pour le même patient."
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Trousses de perfusion et de transfusion",
-     "elements": [
-      "Perfuseur standard (macro-goutte) : 20 gouttes = 1 ml. Débit en gouttes/min = volume (ml) × 20 ÷ durée (min). Exemple : 500 ml en 4 h = 500 × 20 ÷ 240 ≈ 42 gouttes/min.",
-      "Perfuseur pédiatrique à burette (micro-goutte) : 60 gouttes = 1 ml ; nombre de gouttes/min = nombre de ml/h. Indispensable chez le nourrisson et l'enfant (risque de surcharge).",
-      "Transfuseur : filtre de 170 à 200 µm ; généralement 15 gouttes = 1 ml (vérifier l'emballage). Ne jamais perfuser du sang avec un perfuseur sans filtre.",
-      "Purger la tubulure pour chasser l'air ; noter l'heure de pose et changer la tubulure toutes les 72 à 96 h, et après chaque transfusion."
-     ]
-    }
-   ],
-   "groupe": "Matériel et consommables"
-  },
-  {
-   "id": "materiel-sondes",
-   "titre": "Sondes urinaires et gastriques",
-   "pictogramme": "rein",
-   "couleur": "#37474F",
-   "intro": "Taille de la sonde selon l'âge, pose aseptique, et entretien de la sonde à demeure.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Sondes vésicales (urinaires) : taille selon l'âge",
-     "colonnes": [
-      "Patient",
-      "Taille (Ch = Fr)"
-     ],
-     "lignes": [
-      [
-       "Nouveau-né",
-       "5–6 (sonde d'alimentation si besoin)"
-      ],
-      [
-       "Nourrisson",
-       "6–8"
-      ],
-      [
-       "Enfant de 2 à 10 ans",
-       "8–10"
-      ],
-      [
-       "Adolescent",
-       "10–12"
-      ],
-      [
-       "Femme",
-       "12–14"
-      ],
-      [
-       "Homme",
-       "14–16"
-      ],
-      [
-       "Hématurie avec caillots",
-       "18–22 (sonde à 3 voies)"
-      ]
-     ],
-     "note": "Pose stérile (gants stériles, antiseptique, lubrifiant), ballonnet gonflé à l'eau stérile (pas d'air, pas de sérum salé) seulement après le retour d'urine. Rétention chez l'homme impossible à sonder : ne pas forcer (cathéter sus-pubien par un médecin)."
-    },
-    {
-     "type": "liste",
-     "titre": "Poche à urine et sonde à demeure",
-     "elements": [
-      "Système clos : ne pas déconnecter la poche de la sonde.",
-      "Garder la poche sous le niveau de la vessie, jamais posée au sol ; vider quand elle est remplie aux deux tiers.",
-      "Retirer la sonde dès qu'elle n'est plus indispensable (infection urinaire liée aux sondes)."
-     ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Sondes naso-gastriques",
-     "colonnes": [
-      "Patient",
-      "Taille (Ch = Fr)"
-     ],
-     "lignes": [
-      [
-       "Prématuré, nouveau-né",
-       "5–8"
-      ],
-      [
-       "Nourrisson",
-       "8–10"
-      ],
-      [
-       "Enfant",
-       "10–12"
-      ],
-      [
-       "Adolescent",
-       "12–14"
-      ],
-      [
-       "Adulte",
-       "14–18 (aspiration : 16–18)"
-      ]
-     ],
-     "note": "Longueur : du bout du nez au lobe de l'oreille, puis à l'appendice xiphoïde (nouveau-né : jusqu'à mi-chemin entre l'appendice xiphoïde et l'ombilic). Vérifier la position avant chaque utilisation : aspiration de liquide gastrique (pH ≤ 5 si bandelette disponible)."
-    }
-   ],
-   "groupe": "Matériel et consommables"
-  },
-  {
-   "id": "materiel-respiration",
-   "titre": "Oxygène, ventilation et aspiration",
-   "pictogramme": "poumons",
-   "couleur": "#37474F",
-   "intro": "Interface d'oxygène selon le débit, ballon et masque selon l'âge, aspiration des voies aériennes.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Oxygène : choix de l'interface",
-     "colonnes": [
-      "Interface",
-      "Débit",
-      "Remarque"
-     ],
-     "lignes": [
-      [
-       "Lunettes nasales (canule) – nouveau-né",
-       "0,5–1 l/min",
-       "Ne pas dépasser 2 l/min"
-      ],
-      [
-       "Lunettes nasales – nourrisson et enfant",
-       "1–2 l/min",
-       "OMS : interface de choix chez l'enfant"
-      ],
-      [
-       "Lunettes nasales – adulte",
-       "1–5 l/min",
-       "Environ 24 à 40 % d'oxygène"
-      ],
-      [
-       "Masque simple",
-       "5–10 l/min",
-       "Jamais moins de 5 l/min (le patient réinspire son CO₂)"
-      ],
-      [
-       "Masque à réservoir (haute concentration)",
-       "10–15 l/min",
-       "Ballon toujours gonflé ; détresse grave, choc"
-      ]
-     ],
-     "note": "Objectif : SpO₂ ≥ 94 % en cas de détresse (OMS), puis 90 % ou plus une fois stable (88–92 % dans la BPCO). Humidifier au-delà de 4 l/min chez l'adulte et chez le nourrisson."
-    },
-    {
-     "type": "tableau",
-     "titre": "Ballon auto-remplisseur (BAVU) et masques",
-     "colonnes": [
-      "Patient",
-      "Ballon",
-      "Masque",
-      "Fréquence des insufflations"
-     ],
-     "lignes": [
-      [
-       "Nouveau-né",
-       "240–500 ml",
-       "N° 0 (prématuré), n° 1 (à terme)",
-       "40 à 60 par minute (pendant la 1re minute de vie)"
-      ],
-      [
-       "Enfant",
-       "500 ml",
-       "Taille couvrant nez et bouche, sans appuyer sur les yeux",
-       "12 à 20 par minute, ou 15 compressions pour 2 insufflations"
-      ],
-      [
-       "Adulte",
-       "1 500 ml",
-       "N° 4 ou 5",
-       "10 par minute, ou 30 compressions pour 2 insufflations"
-      ]
-     ],
-     "note": "Tête en position neutre chez le nouveau-né (légère extension chez l'adulte), masque bien appliqué en « C-E ». Insufflation efficace : le thorax se soulève. Toujours prêt, vérifié et propre en salle d'accouchement."
-    },
-    {
-     "type": "liste",
-     "titre": "Poire en caoutchouc (n° 4)",
-     "elements": [
-      "Aspiration douce de la bouche puis du nez du nouveau-né seulement s'il est encombré (pas d'aspiration de routine).",
-      "Nourrisson enrhumé : lavage du nez au sérum physiologique, puis aspiration douce."
-     ]
-    }
-   ],
-   "groupe": "Matériel et consommables"
-  },
-  {
-   "id": "materiel-soins",
-   "titre": "Sutures, pansements, protection et accouchement",
-   "pictogramme": "pansement",
-   "couleur": "#37474F",
-   "intro": "Fils et lames pour les sutures, pansements et immobilisation, protection du soignant, kit d'accouchement propre.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Sutures : choix du fil",
-     "colonnes": [
-      "Région",
-      "Fil",
-      "Retrait des points"
-     ],
-     "lignes": [
-      [
-       "Visage",
-       "Non résorbable 5-0 ou 6-0 (nylon)",
-       "5 jours"
-      ],
-      [
-       "Cuir chevelu",
-       "Non résorbable 3-0 ou 4-0",
-       "7 jours"
-      ],
-      [
-       "Tronc, bras",
-       "Non résorbable 3-0 ou 4-0",
-       "7 à 10 jours"
-      ],
-      [
-       "Jambes, mains, pieds",
-       "Non résorbable 3-0 ou 4-0",
-       "10 à 14 jours"
-      ],
-      [
-       "Articulations (genou, coude)",
-       "Non résorbable 3-0",
-       "14 jours"
-      ],
-      [
-       "Plans profonds, muqueuses, périnée (épisiotomie, déchirure)",
-       "Résorbable : Vicryl 2-0 ou 3-0 (rapide pour le périnée), catgut chromé",
-       "Ne se retirent pas"
-      ]
-     ],
-     "note": "Plaie de plus de 6 à 12 h, morsure ou plaie très souillée : laver abondamment, ne pas fermer (fermeture différée à 48–72 h), sauf visage. Vérifier la vaccination antitétanique."
-    },
-    {
-     "type": "liste",
-     "titre": "Lames de bistouri",
-     "elements": [
-      "N° 11 (pointue) : incision d'abcès, ponction, petites incisions précises.",
-      "N° 15 (petite lame courbe) : petites incisions de la peau, chirurgie fine.",
-      "N° 10 et n° 20 à 24 (grandes lames courbes, ex. n° 22) : grandes incisions de l'adulte (laparotomie, césarienne).",
-      "Monter et démonter la lame avec une pince, jamais avec les doigts ; jeter dans le collecteur."
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Pansements et immobilisation",
-     "elements": [
-      "Compresses stériles : nettoyage et pansement des plaies ; gaze hydrophile et ouate : rembourrage, absorption (jamais d'ouate directement sur une plaie).",
-      "Tulle gras : brûlures et plaies superficielles qui ne doivent pas coller ; changer tous les 2 à 3 jours.",
-      "Bandes élastiques (5, 10, 15 cm) : maintien des pansements, entorses, contention ; enrouler de l'extrémité vers le cœur, sans serrer ; vérifier la couleur et la chaleur des doigts.",
-      "Bandes plâtrées (10, 15, 20 cm) : attelles et plâtres ; bien rembourrer les reliefs osseux ; plâtre circulaire sur une fracture récente : risque de compression, surveiller douleur, gonflement, couleur et sensibilité des doigts dans les 24 à 48 h.",
-      "Sparadrap : fixation des pansements et des cathéters ; ne pas faire le tour complet d'un membre."
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Gants, masques, protection",
-     "elements": [
-      "Gants d'examen non stériles : contact avec le sang, les liquides biologiques, les muqueuses.",
-      "Gants chirurgicaux stériles (tailles 6 à 8,5) : chirurgie, accouchement, sondage urinaire, pose de cathéter central.",
-      "Hygiène des mains avant et après chaque patient, même avec des gants (friction hydro-alcoolique ou lavage au savon).",
-      "Masque chirurgical : patient qui tousse, gestes au contact des muqueuses ; masque FFP2/N95 : tuberculose, suspicion d'infection respiratoire grave."
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Kit d'accouchement stérile (OMS)",
-     "elements": [
-      "Contenu minimal : savon, champ propre, gants stériles, lame stérile, 2 clamps ou liens stériles pour le cordon, compresses, alèse.",
-      "À préparer aussi : ocytocine 10 UI (prévention de l'hémorragie), chlorhexidine 7,1 % pour le cordon, tétracycline pommade ophtalmique, vitamine K1, BAVU néonatal vérifié, linge chaud pour le bébé.",
-      "Couper le cordon 1 à 3 minutes après la naissance (sauf réanimation nécessaire) avec une lame stérile."
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Autres consommables",
-     "elements": [
-      "Test de grossesse urinaire : positif dès le jour du retard des règles ; un test négatif trop précoce est à refaire 1 semaine plus tard. Toujours faire un test avant une radiographie ou un médicament dangereux chez une femme en âge de procréer.",
-      "Couches pour adultes : changer dès qu'elles sont souillées, laver et sécher la peau, oxyde de zinc pour protéger ; prévenir les escarres (changer de position toutes les 2 à 3 h)."
-     ]
-    }
-   ],
-   "groupe": "Matériel et consommables"
   }
  ],
  "examens": [
@@ -48811,6 +48078,743 @@
      "note": ""
     }
    ]
+  }
+ ],
+ "reperes": [
+  {
+   "id": "signes-vitaux",
+   "titre": "Signes vitaux normaux selon l'âge",
+   "pictogramme": "stethoscope",
+   "couleur": "#00695C",
+   "intro": "Valeurs de repos chez un patient calme ; les comparer à l'âge, à l'état clinique et à l'évolution. Une valeur anormale isolée se recontrôle.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Fréquences et tension",
+     "colonnes": [
+      "Âge",
+      "Respiration (/min)",
+      "Pouls (/min)",
+      "Tension systolique (mmHg)"
+     ],
+     "lignes": [
+      [
+       "Nouveau-né (0–1 mois)",
+       "40–60",
+       "110–160",
+       "60–90"
+      ],
+      [
+       "Nourrisson (1–12 mois)",
+       "30–50",
+       "100–160",
+       "70–100"
+      ],
+      [
+       "1–2 ans",
+       "25–35",
+       "95–150",
+       "80–105"
+      ],
+      [
+       "2–5 ans",
+       "20–30",
+       "90–140",
+       "85–110"
+      ],
+      [
+       "5–12 ans",
+       "18–25",
+       "80–120",
+       "90–115"
+      ],
+      [
+       "Plus de 12 ans et adulte",
+       "12–20",
+       "60–100",
+       "100–130 (moins de 140/90)"
+      ]
+     ],
+     "note": "Pendant les pleurs ou la fièvre, le pouls et la respiration augmentent (environ +10 battements/min par degré de fièvre)."
+    },
+    {
+     "type": "tableau",
+     "titre": "Respiration rapide (PCIME : seuils de pneumonie)",
+     "colonnes": [
+      "Âge",
+      "Respiration rapide si"
+     ],
+     "lignes": [
+      [
+       "Moins de 2 mois",
+       "60/min ou plus"
+      ],
+      [
+       "2 à 12 mois",
+       "50/min ou plus"
+      ],
+      [
+       "1 à 5 ans",
+       "40/min ou plus"
+      ],
+      [
+       "Plus de 5 ans",
+       "30/min ou plus"
+      ],
+      [
+       "Adulte",
+       "plus de 20/min (plus de 30/min : gravité)"
+      ]
+     ],
+     "note": "Compter pendant une minute entière, enfant calme, thorax découvert."
+    },
+    {
+     "type": "liste",
+     "titre": "Tension artérielle basse (hypotension)",
+     "elements": [
+      "Nouveau-né : systolique inférieure à 60 mmHg.",
+      "Nourrisson : inférieure à 70 mmHg.",
+      "1 à 10 ans : inférieure à 70 + (2 × âge en années) mmHg.",
+      "Plus de 10 ans et adulte : inférieure à 90 mmHg (ou chute de plus de 40 mmHg chez l'hypertendu).",
+      "Chez l'enfant, l'hypotension est un signe tardif de choc : chercher avant les mains froides, le pouls rapide et faible et un temps de recoloration de 3 secondes ou plus."
+     ]
+    },
+    {
+     "type": "tableau",
+     "titre": "Tension de l'adulte (OMS / ISH 2020)",
+     "colonnes": [
+      "Classe",
+      "Tension (mmHg)"
+     ],
+     "lignes": [
+      [
+       "Normale",
+       "moins de 130/85"
+      ],
+      [
+       "Normale haute",
+       "130–139 / 85–89"
+      ],
+      [
+       "Hypertension grade 1",
+       "140–159 / 90–99"
+      ],
+      [
+       "Hypertension grade 2",
+       "160 / 100 ou plus"
+      ],
+      [
+       "Hypertension sévère (urgence si signes d'atteinte d'organe)",
+       "180 / 110 ou plus"
+      ],
+      [
+       "Grossesse : hypertension",
+       "140 / 90 ou plus"
+      ],
+      [
+       "Grossesse : hypertension sévère",
+       "160 / 110 ou plus"
+      ]
+     ],
+     "note": "Mesure au repos, assis, brassard adapté au bras ; confirmer une hypertension sur plusieurs mesures."
+    },
+    {
+     "type": "tableau",
+     "titre": "Température",
+     "colonnes": [
+      "Situation",
+      "Valeur"
+     ],
+     "lignes": [
+      [
+       "Normale (axillaire)",
+       "36,5 – 37,4 °C"
+      ],
+      [
+       "Fièvre (PCIME, axillaire)",
+       "37,5 °C ou plus"
+      ],
+      [
+       "Fièvre (rectale)",
+       "38 °C ou plus"
+      ],
+      [
+       "Fièvre élevée",
+       "39 °C ou plus"
+      ],
+      [
+       "Hypothermie du nouveau-né",
+       "moins de 36,5 °C (légère), moins de 36 °C (modérée), moins de 32 °C (sévère)"
+      ],
+      [
+       "Hypothermie de l'enfant et de l'adulte",
+       "moins de 35,5 °C"
+      ]
+     ],
+     "note": "Nourrisson de moins de 2 mois avec fièvre ou hypothermie : signe de danger, référer."
+    },
+    {
+     "type": "tableau",
+     "titre": "Oxygène, glycémie et diurèse",
+     "colonnes": [
+      "Mesure",
+      "Normale",
+      "Anormale"
+     ],
+     "lignes": [
+      [
+       "SpO₂ (air ambiant)",
+       "95 % ou plus",
+       "moins de 90 % : oxygène (moins de 94 % si détresse, choc, convulsions)"
+      ],
+      [
+       "Glycémie à jeun (adulte)",
+       "0,70 – 1,10 g/l (3,9 – 6,1 mmol/l)",
+       "1,26 g/l ou plus à 2 reprises : diabète ; 2 g/l ou plus à tout moment avec signes : diabète"
+      ],
+      [
+       "Hypoglycémie (adulte)",
+       "—",
+       "moins de 0,70 g/l (3,9 mmol/l) ; grave si moins de 0,54 g/l (3 mmol/l)"
+      ],
+      [
+       "Hypoglycémie (enfant)",
+       "—",
+       "moins de 0,45 g/l (2,5 mmol/l) ; malnutrition : moins de 0,54 g/l (3 mmol/l)"
+      ],
+      [
+       "Hypoglycémie (nouveau-né)",
+       "—",
+       "moins de 0,45 g/l (2,5 mmol/l)"
+      ],
+      [
+       "Diurèse",
+       "adulte : 0,5 ml/kg/h ou plus ; enfant : 1 ml/kg/h ou plus",
+       "inférieure : déshydratation, choc, atteinte rénale"
+      ],
+      [
+       "Temps de recoloration cutanée",
+       "moins de 3 secondes",
+       "3 secondes ou plus : choc probable"
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "type": "liste",
+     "titre": "Conscience et poids",
+     "elements": [
+      "État de conscience (AVPU) : A = éveillé, V = répond à la voix, P = répond seulement à la douleur, U = ne répond pas. P ou U : urgence (protéger les voies aériennes, glycémie).",
+      "Poids estimé de l'enfant (si pas de balance) : 1 à 5 ans = (2 × âge) + 8 kg ; 6 à 12 ans = (3 × âge) + 7 kg. Toujours peser quand c'est possible.",
+      "Périmètre brachial (6 à 59 mois) : moins de 115 mm = malnutrition aiguë sévère ; 115 à 124 mm = modérée."
+     ]
+    }
+   ],
+   "groupe": "Signes vitaux"
+  },
+  {
+   "id": "neonatologie",
+   "titre": "Couveuse et besoins hydriques du nouveau-né",
+   "pictogramme": "bebe",
+   "couleur": "#00838F",
+   "intro": "Le nouveau-né de petit poids perd sa chaleur très vite : couveuse réglée selon le poids, ou peau à peau (méthode mère kangourou), et apports hydriques augmentés progressivement chaque jour.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Réglage de la température de la couveuse",
+     "colonnes": [
+      "Poids",
+      "Température"
+     ],
+     "lignes": [
+      [
+       "< 1 000 g",
+       "35 °C"
+      ],
+      [
+       "1 000–1 500 g",
+       "34 °C"
+      ],
+      [
+       "1 600–2 000 g",
+       "33 °C"
+      ],
+      [
+       "2 100–2 500 g",
+       "32 °C"
+      ]
+     ],
+     "note": "Ajuster pour garder une température axillaire de 36,5 à 37,5 °C (contrôle toutes les 3 à 4 h) ; baisser la consigne si le bébé dépasse 37,5 °C. Dès que possible : peau à peau avec la mère."
+    },
+    {
+     "type": "tableau",
+     "titre": "Besoins hydriques journaliers (ml/kg/jour, lait et perfusion compris)",
+     "colonnes": [
+      "Jour de vie",
+      "Prématuré",
+      "Nouveau-né à terme"
+     ],
+     "lignes": [
+      [
+       "J1",
+       "40 ml/kg",
+       "60 ml/kg"
+      ],
+      [
+       "J2",
+       "50 ml/kg",
+       "80 ml/kg"
+      ],
+      [
+       "J3",
+       "60 ml/kg",
+       "100 ml/kg"
+      ],
+      [
+       "J4",
+       "70 ml/kg",
+       "120 ml/kg"
+      ],
+      [
+       "J5",
+       "80 ml/kg",
+       "140 ml/kg"
+      ],
+      [
+       "J6",
+       "90 ml/kg",
+       "160 ml/kg"
+      ],
+      [
+       "J7",
+       "100 ml/kg",
+       "180 ml/kg"
+      ],
+      [
+       "J8–J28",
+       "150–180 ml/kg",
+       "180–200 ml/kg"
+      ]
+     ],
+     "note": "Protocole affiché en néonatologie (Pr Dr Monga, Dr Ngimbi, Dr Kalanda). Repère OMS pour comparaison : J1 60 ml/kg (80 ml/kg si moins de 1 500 g), puis + 20 ml/kg par jour jusqu'à 150 ml/kg/j ; plus d'apports sous photothérapie ou sous lampe chauffante, moins en cas d'asphyxie ou d'insuffisance rénale."
+    },
+    {
+     "type": "liste",
+     "titre": "Quantité par repas",
+     "elements": [
+      "Prématuré (12 repas par jour, toutes les 2 h) : quantité par repas (ml) = poids actuel (kg) × besoin du jour (ml/kg) ÷ 12.",
+      "Nouveau-né à terme (8 repas par jour, toutes les 3 h) : quantité par repas (ml) = poids actuel (kg) × besoin du jour (ml/kg) ÷ 8.",
+      "Exemple : prématuré de 1,5 kg à J4 (70 ml/kg) : 1,5 × 70 = 105 ml par jour, soit 105 ÷ 12 ≈ 9 ml toutes les 2 h.",
+      "Lait maternel en priorité (au sein, à la tasse ou par sonde) ; soustraire du total ce qui est donné en perfusion.",
+      "Surveiller chaque jour : poids, diurèse (au moins 1 ml/kg/h), glycémie, signes de surcharge (œdèmes, détresse respiratoire) ou de déshydratation."
+     ]
+    }
+   ],
+   "groupe": "Nouveau-né"
+  }
+ ],
+ "materiel": [
+  {
+   "id": "materiel-abords",
+   "titre": "Abords veineux, injections et perfusion",
+   "pictogramme": "seringue",
+   "couleur": "#37474F",
+   "intro": "Choisir le cathéter, l'aiguille, la seringue et la trousse adaptés à l'âge et au produit ; tout le matériel stérile est à usage unique.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Cathéters veineux périphériques (Abbocath, Venflon)",
+     "colonnes": [
+      "Calibre",
+      "Couleur",
+      "Débit (environ)",
+      "Usage"
+     ],
+     "lignes": [
+      [
+       "14 G",
+       "Orange",
+       "250–300 ml/min",
+       "Choc hémorragique, traumatisme grave (adulte)"
+      ],
+      [
+       "16 G",
+       "Gris",
+       "180–200 ml/min",
+       "Remplissage rapide, chirurgie (adulte)"
+      ],
+      [
+       "18 G",
+       "Vert",
+       "90–100 ml/min",
+       "Transfusion, césarienne, hémorragie du post-partum"
+      ],
+      [
+       "20 G",
+       "Rose",
+       "50–60 ml/min",
+       "Adulte : perfusion standard, transfusion possible"
+      ],
+      [
+       "22 G",
+       "Bleu",
+       "30–35 ml/min",
+       "Enfant, sujet âgé, petites veines"
+      ],
+      [
+       "24 G",
+       "Jaune",
+       "15–20 ml/min",
+       "Nourrisson, nouveau-né"
+      ],
+      [
+       "26 G",
+       "Violet",
+       "≈ 13 ml/min",
+       "Prématuré"
+      ]
+     ],
+     "note": "Choisir le plus petit calibre adapté au traitement, sauf urgence hémorragique (2 voies de gros calibre). Changer le cathéter et le site toutes les 72 à 96 h ou en cas de rougeur."
+    },
+    {
+     "type": "tableau",
+     "titre": "Aiguilles (couleurs ISO)",
+     "colonnes": [
+      "Calibre",
+      "Couleur",
+      "Usage"
+     ],
+     "lignes": [
+      [
+       "18 G",
+       "Rose",
+       "Pompage et reconstitution des médicaments"
+      ],
+      [
+       "21 G",
+       "Vert",
+       "Prélèvement sanguin, IM ou IV chez l'adulte"
+      ],
+      [
+       "22 G",
+       "Noir",
+       "IM chez l'adulte mince"
+      ],
+      [
+       "23 G",
+       "Bleu",
+       "IM chez l'enfant, prélèvement de petites veines"
+      ],
+      [
+       "25 G",
+       "Orange",
+       "Sous-cutanée, IM du nourrisson (cuisse)"
+      ],
+      [
+       "26–27 G",
+       "Marron, gris",
+       "Intradermique (BCG, IDR), insuline"
+      ]
+     ],
+     "note": "Ne jamais recapuchonner une aiguille : collecteur (boîte de sécurité) immédiatement après usage."
+    },
+    {
+     "type": "liste",
+     "titre": "Seringues",
+     "elements": [
+      "Seringue de 1 ml : vaccins, insuline (seringue graduée en unités), petites doses de l'enfant.",
+      "Seringues de 2 et 5 ml : injections IM et IV courantes ; 10 ml : dilution, injection IV lente, rinçage des cathéters ; 20 et 50 ml : lavage de plaie, alimentation par sonde, pousse-seringue.",
+      "Choisir la plus petite seringue qui contient le volume, pour une dose précise.",
+      "Seringue autobloquante pour les vaccins (PEV) ; jamais de réutilisation, même pour le même patient."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Trousses de perfusion et de transfusion",
+     "elements": [
+      "Perfuseur standard (macro-goutte) : 20 gouttes = 1 ml. Débit en gouttes/min = volume (ml) × 20 ÷ durée (min). Exemple : 500 ml en 4 h = 500 × 20 ÷ 240 ≈ 42 gouttes/min.",
+      "Perfuseur pédiatrique à burette (micro-goutte) : 60 gouttes = 1 ml ; nombre de gouttes/min = nombre de ml/h. Indispensable chez le nourrisson et l'enfant (risque de surcharge).",
+      "Transfuseur : filtre de 170 à 200 µm ; généralement 15 gouttes = 1 ml (vérifier l'emballage). Ne jamais perfuser du sang avec un perfuseur sans filtre.",
+      "Purger la tubulure pour chasser l'air ; noter l'heure de pose et changer la tubulure toutes les 72 à 96 h, et après chaque transfusion."
+     ]
+    }
+   ],
+   "groupe": ""
+  },
+  {
+   "id": "materiel-sondes",
+   "titre": "Sondes urinaires et gastriques",
+   "pictogramme": "rein",
+   "couleur": "#37474F",
+   "intro": "Taille de la sonde selon l'âge, pose aseptique, et entretien de la sonde à demeure.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Sondes vésicales (urinaires) : taille selon l'âge",
+     "colonnes": [
+      "Patient",
+      "Taille (Ch = Fr)"
+     ],
+     "lignes": [
+      [
+       "Nouveau-né",
+       "5–6 (sonde d'alimentation si besoin)"
+      ],
+      [
+       "Nourrisson",
+       "6–8"
+      ],
+      [
+       "Enfant de 2 à 10 ans",
+       "8–10"
+      ],
+      [
+       "Adolescent",
+       "10–12"
+      ],
+      [
+       "Femme",
+       "12–14"
+      ],
+      [
+       "Homme",
+       "14–16"
+      ],
+      [
+       "Hématurie avec caillots",
+       "18–22 (sonde à 3 voies)"
+      ]
+     ],
+     "note": "Pose stérile (gants stériles, antiseptique, lubrifiant), ballonnet gonflé à l'eau stérile (pas d'air, pas de sérum salé) seulement après le retour d'urine. Rétention chez l'homme impossible à sonder : ne pas forcer (cathéter sus-pubien par un médecin)."
+    },
+    {
+     "type": "liste",
+     "titre": "Poche à urine et sonde à demeure",
+     "elements": [
+      "Système clos : ne pas déconnecter la poche de la sonde.",
+      "Garder la poche sous le niveau de la vessie, jamais posée au sol ; vider quand elle est remplie aux deux tiers.",
+      "Retirer la sonde dès qu'elle n'est plus indispensable (infection urinaire liée aux sondes)."
+     ]
+    },
+    {
+     "type": "tableau",
+     "titre": "Sondes naso-gastriques",
+     "colonnes": [
+      "Patient",
+      "Taille (Ch = Fr)"
+     ],
+     "lignes": [
+      [
+       "Prématuré, nouveau-né",
+       "5–8"
+      ],
+      [
+       "Nourrisson",
+       "8–10"
+      ],
+      [
+       "Enfant",
+       "10–12"
+      ],
+      [
+       "Adolescent",
+       "12–14"
+      ],
+      [
+       "Adulte",
+       "14–18 (aspiration : 16–18)"
+      ]
+     ],
+     "note": "Longueur : du bout du nez au lobe de l'oreille, puis à l'appendice xiphoïde (nouveau-né : jusqu'à mi-chemin entre l'appendice xiphoïde et l'ombilic). Vérifier la position avant chaque utilisation : aspiration de liquide gastrique (pH ≤ 5 si bandelette disponible)."
+    }
+   ],
+   "groupe": ""
+  },
+  {
+   "id": "materiel-respiration",
+   "titre": "Oxygène, ventilation et aspiration",
+   "pictogramme": "poumons",
+   "couleur": "#37474F",
+   "intro": "Interface d'oxygène selon le débit, ballon et masque selon l'âge, aspiration des voies aériennes.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Oxygène : choix de l'interface",
+     "colonnes": [
+      "Interface",
+      "Débit",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "Lunettes nasales (canule) – nouveau-né",
+       "0,5–1 l/min",
+       "Ne pas dépasser 2 l/min"
+      ],
+      [
+       "Lunettes nasales – nourrisson et enfant",
+       "1–2 l/min",
+       "OMS : interface de choix chez l'enfant"
+      ],
+      [
+       "Lunettes nasales – adulte",
+       "1–5 l/min",
+       "Environ 24 à 40 % d'oxygène"
+      ],
+      [
+       "Masque simple",
+       "5–10 l/min",
+       "Jamais moins de 5 l/min (le patient réinspire son CO₂)"
+      ],
+      [
+       "Masque à réservoir (haute concentration)",
+       "10–15 l/min",
+       "Ballon toujours gonflé ; détresse grave, choc"
+      ]
+     ],
+     "note": "Objectif : SpO₂ ≥ 94 % en cas de détresse (OMS), puis 90 % ou plus une fois stable (88–92 % dans la BPCO). Humidifier au-delà de 4 l/min chez l'adulte et chez le nourrisson."
+    },
+    {
+     "type": "tableau",
+     "titre": "Ballon auto-remplisseur (BAVU) et masques",
+     "colonnes": [
+      "Patient",
+      "Ballon",
+      "Masque",
+      "Fréquence des insufflations"
+     ],
+     "lignes": [
+      [
+       "Nouveau-né",
+       "240–500 ml",
+       "N° 0 (prématuré), n° 1 (à terme)",
+       "40 à 60 par minute (pendant la 1re minute de vie)"
+      ],
+      [
+       "Enfant",
+       "500 ml",
+       "Taille couvrant nez et bouche, sans appuyer sur les yeux",
+       "12 à 20 par minute, ou 15 compressions pour 2 insufflations"
+      ],
+      [
+       "Adulte",
+       "1 500 ml",
+       "N° 4 ou 5",
+       "10 par minute, ou 30 compressions pour 2 insufflations"
+      ]
+     ],
+     "note": "Tête en position neutre chez le nouveau-né (légère extension chez l'adulte), masque bien appliqué en « C-E ». Insufflation efficace : le thorax se soulève. Toujours prêt, vérifié et propre en salle d'accouchement."
+    },
+    {
+     "type": "liste",
+     "titre": "Poire en caoutchouc (n° 4)",
+     "elements": [
+      "Aspiration douce de la bouche puis du nez du nouveau-né seulement s'il est encombré (pas d'aspiration de routine).",
+      "Nourrisson enrhumé : lavage du nez au sérum physiologique, puis aspiration douce."
+     ]
+    }
+   ],
+   "groupe": ""
+  },
+  {
+   "id": "materiel-soins",
+   "titre": "Sutures, pansements, protection et accouchement",
+   "pictogramme": "pansement",
+   "couleur": "#37474F",
+   "intro": "Fils et lames pour les sutures, pansements et immobilisation, protection du soignant, kit d'accouchement propre.",
+   "blocs": [
+    {
+     "type": "tableau",
+     "titre": "Sutures : choix du fil",
+     "colonnes": [
+      "Région",
+      "Fil",
+      "Retrait des points"
+     ],
+     "lignes": [
+      [
+       "Visage",
+       "Non résorbable 5-0 ou 6-0 (nylon)",
+       "5 jours"
+      ],
+      [
+       "Cuir chevelu",
+       "Non résorbable 3-0 ou 4-0",
+       "7 jours"
+      ],
+      [
+       "Tronc, bras",
+       "Non résorbable 3-0 ou 4-0",
+       "7 à 10 jours"
+      ],
+      [
+       "Jambes, mains, pieds",
+       "Non résorbable 3-0 ou 4-0",
+       "10 à 14 jours"
+      ],
+      [
+       "Articulations (genou, coude)",
+       "Non résorbable 3-0",
+       "14 jours"
+      ],
+      [
+       "Plans profonds, muqueuses, périnée (épisiotomie, déchirure)",
+       "Résorbable : Vicryl 2-0 ou 3-0 (rapide pour le périnée), catgut chromé",
+       "Ne se retirent pas"
+      ]
+     ],
+     "note": "Plaie de plus de 6 à 12 h, morsure ou plaie très souillée : laver abondamment, ne pas fermer (fermeture différée à 48–72 h), sauf visage. Vérifier la vaccination antitétanique."
+    },
+    {
+     "type": "liste",
+     "titre": "Lames de bistouri",
+     "elements": [
+      "N° 11 (pointue) : incision d'abcès, ponction, petites incisions précises.",
+      "N° 15 (petite lame courbe) : petites incisions de la peau, chirurgie fine.",
+      "N° 10 et n° 20 à 24 (grandes lames courbes, ex. n° 22) : grandes incisions de l'adulte (laparotomie, césarienne).",
+      "Monter et démonter la lame avec une pince, jamais avec les doigts ; jeter dans le collecteur."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Pansements et immobilisation",
+     "elements": [
+      "Compresses stériles : nettoyage et pansement des plaies ; gaze hydrophile et ouate : rembourrage, absorption (jamais d'ouate directement sur une plaie).",
+      "Tulle gras : brûlures et plaies superficielles qui ne doivent pas coller ; changer tous les 2 à 3 jours.",
+      "Bandes élastiques (5, 10, 15 cm) : maintien des pansements, entorses, contention ; enrouler de l'extrémité vers le cœur, sans serrer ; vérifier la couleur et la chaleur des doigts.",
+      "Bandes plâtrées (10, 15, 20 cm) : attelles et plâtres ; bien rembourrer les reliefs osseux ; plâtre circulaire sur une fracture récente : risque de compression, surveiller douleur, gonflement, couleur et sensibilité des doigts dans les 24 à 48 h.",
+      "Sparadrap : fixation des pansements et des cathéters ; ne pas faire le tour complet d'un membre."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Gants, masques, protection",
+     "elements": [
+      "Gants d'examen non stériles : contact avec le sang, les liquides biologiques, les muqueuses.",
+      "Gants chirurgicaux stériles (tailles 6 à 8,5) : chirurgie, accouchement, sondage urinaire, pose de cathéter central.",
+      "Hygiène des mains avant et après chaque patient, même avec des gants (friction hydro-alcoolique ou lavage au savon).",
+      "Masque chirurgical : patient qui tousse, gestes au contact des muqueuses ; masque FFP2/N95 : tuberculose, suspicion d'infection respiratoire grave."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Kit d'accouchement stérile (OMS)",
+     "elements": [
+      "Contenu minimal : savon, champ propre, gants stériles, lame stérile, 2 clamps ou liens stériles pour le cordon, compresses, alèse.",
+      "À préparer aussi : ocytocine 10 UI (prévention de l'hémorragie), chlorhexidine 7,1 % pour le cordon, tétracycline pommade ophtalmique, vitamine K1, BAVU néonatal vérifié, linge chaud pour le bébé.",
+      "Couper le cordon 1 à 3 minutes après la naissance (sauf réanimation nécessaire) avec une lame stérile."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Autres consommables",
+     "elements": [
+      "Test de grossesse urinaire : positif dès le jour du retard des règles ; un test négatif trop précoce est à refaire 1 semaine plus tard. Toujours faire un test avant une radiographie ou un médicament dangereux chez une femme en âge de procréer.",
+      "Couches pour adultes : changer dès qu'elles sont souillées, laver et sécher la peau, oxyde de zinc pour protéger ; prévenir les escarres (changer de position toutes les 2 à 3 h)."
+     ]
+    }
+   ],
+   "groupe": ""
   }
  ],
  "creditsImages": {

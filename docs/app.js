@@ -189,14 +189,14 @@ function router() {
   const [, route = "accueil", a = "", b = ""] = location.hash.split("/");
   document.querySelectorAll(".menu a").forEach((x) => x.classList.toggle("actif", x.dataset.r === route ||
     (x.dataset.r === "medicaments" && route === "med") || (x.dataset.r === "pathologies" && route === "patho") ||
-    (x.dataset.r === "symptomes" && route === "sympt") || (x.dataset.r === "dispensaire" && route === "disp") || (x.dataset.r === "examens" && route === "exam") ||
+    (x.dataset.r === "symptomes" && route === "sympt") || (x.dataset.r === "dispensaire" && route === "disp") || (x.dataset.r === "reperes" && route === "rep") || (x.dataset.r === "materiel" && route === "mat") || (x.dataset.r === "examens" && route === "exam") ||
     (x.dataset.r === "scores" && route === "score") || (x.dataset.r === "protocoles" && route === "proto")));
   $("#menu").classList.remove("ouvert");
   if (route !== "recherche") $("#champRecherche").value = "";
   const r = decodeURIComponent(a), r2 = decodeURIComponent(b);
   const vues = { accueil, recherche, sujet, medicaments, med: medicaments, pathologies, patho: pathologies, symptomes, sympt: symptomes,
     urgences: (r) => { catPatho = "urgences"; filtrePatho = ""; pathologies("pathologies"); },
-    dispensaire, disp: dispensaire, examens, exam: examens, croissance, quiz, protocoles, proto: protocoles, scores, score: scores, cas, apropos, interactions, patient };
+    dispensaire, disp: dispensaire, reperes, rep: reperes, materiel, mat: materiel, examens, exam: examens, croissance, quiz, protocoles, proto: protocoles, scores, score: scores, cas, apropos, interactions, patient };
   (vues[route] || accueil)(route, r, r2);
   if (route !== "recherche") window.scrollTo(0, 0);
 }
@@ -274,6 +274,8 @@ const OUTILS_RECH = [
   ["#/scores", "🧮", "Scores médicaux", "Outil", "scores echelles"],
   ["#/dispensaire", "🧭", "Que faire devant…", "Outil", "conduite pratique dispensaire"],
   ["#/examens", "🧪", "Examens paracliniques", "Outil", "examens biologie laboratoire imagerie"],
+  ["#/reperes", "🩺", "Repères cliniques", "Signes vitaux, couveuse, besoins hydriques", "signes vitaux normaux frequence tension temperature couveuse besoins hydriques nouveau-ne"],
+  ["#/materiel", "💉", "Matériel et consommables", "Cathéters, sondes, fils, oxygène", "materiel catheter abbocath sonde fil suture aiguille seringue oxygene masque bavu"],
   ["#/quiz", "❓", "Quiz", "Formation", "quiz formation images ecg radio"],
   ["#/cas", "🎓", "Cas cliniques", "Formation", "cas cliniques"],
 ];
@@ -287,6 +289,8 @@ function outilsTrouves(q) {
   (D.protocoles || []).forEach((x) => { const r = test(x.nom, x.public || ""); if (r) res.push(["#/proto/" + encodeURIComponent(x.id), "🚨", x.nom, "Protocole d'urgence pas à pas", r]); });
   (D.dispensaire || []).forEach((c) => { const r = test(c.titre, c.intro || ""); if (r) res.push(["#/disp/" + encodeURIComponent(c.id), picto(c.pictogramme), c.titre, "Que faire devant…", r]); });
   (D.examens || []).forEach((c) => { const r = test(c.titre, c.intro || ""); if (r) res.push(["#/exam/" + encodeURIComponent(c.id), "🧪", c.titre, "Examens paracliniques", r]); });
+  (D.reperes || []).forEach((c) => { const r = test(c.titre, c.intro || ""); if (r) res.push(["#/rep/" + encodeURIComponent(c.id), picto(c.pictogramme), c.titre, "Repères cliniques", r]); });
+  (D.materiel || []).forEach((c) => { const r = test(c.titre, c.intro + " " + c.blocs.map((b) => b.titre).join(" ")); if (r) res.push(["#/mat/" + encodeURIComponent(c.id), picto(c.pictogramme), c.titre, "Matériel et consommables", r]); });
   return res.sort((a, b) => b[4] - a[4]);
 }
 
@@ -511,28 +515,42 @@ function blocDisp(b, coul, calc = true) {
   }
   return titre + `<p>${texteDoses(b.texte || "", p, false)}</p>`;
 }
-function dispensaire(route, id) {
-  const ch = route === "disp" ? (D.dispensaire || []).find((x) => x.id === id) : null;
+// Sections faites de chapitres : « Que faire devant… », « Repères cliniques », « Matériel et consommables »
+const SECTIONS_CHAP = {
+  dispensaire: { cle: "dispensaire", chap: "disp", titre: "Que faire devant…",
+    sous: "Conduites pratiques au centre de santé, devant un signe ou une situation. Saisissez le poids en haut de la page pour voir les doses calculées.",
+    pied: "Repères OMS/PCIME et MSF. En cas de différence, l'ordinogramme national et la notice du produit font foi." },
+  reperes: { cle: "reperes", chap: "rep", titre: "Repères cliniques",
+    sous: "Signes vitaux normaux selon l'âge ; couveuse et besoins hydriques du nouveau-né.",
+    pied: "Valeurs de référence OMS, PCIME et sociétés savantes. Voir aussi « Patient en cours » pour les valeurs de l'âge du patient." },
+  materiel: { cle: "materiel", chap: "mat", titre: "Matériel et consommables",
+    sous: "Choisir la bonne taille de cathéter, de sonde, de fil ou de masque, et bien utiliser le petit matériel.",
+    pied: "Le matériel stérile est à usage unique. Les tailles sont indicatives : adapter au patient." },
+};
+function sectionChapitres(sec, id) {
+  const liste = D[sec.cle] || [];
+  const ch = id ? liste.find((x) => x.id === id) : null;
   if (!ch) {
-    contenu.innerHTML = `<h1>Que faire devant…</h1><p class="sous">Signes vitaux normaux et conduites pratiques au centre de santé. Saisissez le poids en haut de la page pour voir les doses calculées.</p>
-      ${(() => {
-        // Chapitres regroupés par section (Urgences, Symptômes fréquents, Enfant, Grossesse, Repères, Matériel)
-        const tuile = (c) => `<a class="tuile" href="#/disp/${encodeURIComponent(c.id)}"><span class="ico" style="background:${esc(c.couleur)}22">${picto(c.pictogramme)}</span><b>${esc(c.titre)}</b><span class="petit">${esc(c.intro.slice(0, 90))}…</span></a>`;
-        const groupes = [];
-        (D.dispensaire || []).forEach((c) => { const g = c.groupe || ""; let e = groupes.find((x) => x.g === g); if (!e) groupes.push(e = { g, l: [] }); e.l.push(c); });
-        return groupes.map((e) => `${e.g ? `<h2>${esc(e.g)}</h2>` : ""}<div class="grille">${e.l.map(tuile).join("")}</div>`).join("");
-      })()}
-      <p class="petit" style="margin-top:20px">Repères OMS/PCIME et MSF. En cas de différence, l'ordinogramme national et la notice du produit font foi.</p>`;
+    // Chapitres regroupés par sous-section (champ « groupe »)
+    const tuile = (c) => `<a class="tuile" href="#/${sec.chap}/${encodeURIComponent(c.id)}"><span class="ico" style="background:${esc(c.couleur)}22">${picto(c.pictogramme)}</span><b>${esc(c.titre)}</b><span class="petit">${esc(c.intro.slice(0, 90))}…</span></a>`;
+    const groupes = [];
+    liste.forEach((c) => { const g = c.groupe || ""; let e = groupes.find((x) => x.g === g); if (!e) groupes.push(e = { g, l: [] }); e.l.push(c); });
+    contenu.innerHTML = `<h1>${esc(sec.titre)}</h1><p class="sous">${esc(sec.sous)}</p>
+      ${liste.length ? groupes.map((e) => `${e.g ? `<h2>${esc(e.g)}</h2>` : ""}<div class="grille">${e.l.map(tuile).join("")}</div>`).join("") : `<p class="sous">Section disponible après la prochaine mise à jour des données.</p>`}
+      <p class="petit" style="margin-top:20px">${esc(sec.pied)}</p>`;
     return;
   }
   const p = poids();
   const avecKg = ch.blocs.some((b) => [...(b.elements || []), ...(b.lignes || []).flat(), b.texte || ""].some((t) => /\/kg/.test(t)));
-  contenu.innerHTML = `<p><a href="#/dispensaire">← Que faire devant…</a></p><div class="fiche">
+  contenu.innerHTML = `<p><a href="#/${sec.cle}">← ${esc(sec.titre)}</a></p><div class="fiche">
     <div class="tete"><span class="ico" style="background:${esc(ch.couleur)}22">${picto(ch.pictogramme)}</span><h1>${esc(ch.titre)}</h1></div>
     <div class="section" style="background:${esc(ch.couleur)}1a"><b>${esc(ch.intro)}</b></div>
     ${avecKg ? `<div class="alerte-poids">${p == null ? "Saisissez le poids de l'enfant en haut de la page pour voir les doses calculées." : p <= 35 ? `Doses calculées pour <b>${fmt(p)} kg</b> (en couleur). Vérifiez toujours la dose maximale.` : `Poids de ${fmt(p)} kg : utilisez les doses adultes (pas de calcul par kilo au-delà de 35 kg).`}</div>` : ""}
     ${ch.blocs.map((b) => blocDisp(b, ch.couleur)).join("")}</div>`;
 }
+const dispensaire = (route, id) => sectionChapitres(SECTIONS_CHAP.dispensaire, route === "disp" ? id : null);
+const reperes = (route, id) => sectionChapitres(SECTIONS_CHAP.reperes, route === "rep" ? id : null);
+const materiel = (route, id) => sectionChapitres(SECTIONS_CHAP.materiel, route === "mat" ? id : null);
 
 // ---------------------------------------------------------------------------
 // Examens paracliniques (même structure que « Que faire devant… », sans calcul de doses)
@@ -706,7 +724,7 @@ function patient() {
     ${sto.get("sexe", "") === "F" ? `<label class="champ"><span><input type="checkbox" id="pEnceinte" ${enceinte() ? "checked" : ""}> Enceinte (alertes sur les fiches et les interactions)</span></label>` : ""}
     <button class="bouton second" id="pEffacer">Effacer le patient</button></div>
     ${n ? `<h2>Valeurs normales : ${esc(n.libelle)}</h2><div class="fiche"><table class="tab"><tbody>${n.valeurs.map(([k, v]) => `<tr><th style="text-align:left">${esc(k)}</th><td>${esc(v)}</td></tr>`).join("")}</tbody></table></div>
-      <p class="petit">Repères OMS/PCIME et biologie pédiatrique usuelle. Voir aussi <a href="#/disp/signes-vitaux">Signes vitaux normaux</a> et <a href="#/exam/valeurs-enfant">Valeurs normales de l'enfant</a>.</p>`
+      <p class="petit">Repères OMS/PCIME et biologie pédiatrique usuelle. Voir aussi <a href="#/rep/signes-vitaux">Signes vitaux normaux</a> et <a href="#/exam/valeurs-enfant">Valeurs normales de l'enfant</a>.</p>`
       : `<p class="sous">Saisissez l'âge pour afficher les signes vitaux et les valeurs biologiques normales.</p>`}`;
   const maj = (id, cle) => $(id).addEventListener("change", () => { sto.set(cle, $(id).value.trim()); const ch = $("#poids"); if (ch && cle === "poids") ch.value = $(id).value.trim(); patient(); });
   maj("#pPoids", "poids"); maj("#pAns", "age-ans"); maj("#pMois", "age-mois"); maj("#pSexe", "sexe");
