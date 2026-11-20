@@ -1,63 +1,64 @@
 {
- "dateActualites": "19 novembre 2026",
- "dateIsoActualites": "2026-11-19",
+ "dateActualites": "20 novembre 2026",
+ "dateIsoActualites": "2026-11-20",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DES TOILETTES (19 NOVEMBRE)",
-   "titre": "Toilettes et santé",
-   "lieu": "Monde · Afrique · RDC",
-   "chiffre": "3,4 milliards de personnes sans assainissement géré en toute sécurité, dont 354 millions défèquent à l'air libre (OMS/UNICEF, JMP, données 2024)",
-   "texte": "La Journée mondiale des toilettes 2026 a pour thème « Des toilettes sûres, des avenirs égaux ». Elle tombe en pleine épidémie de choléra en RDC, maladie directement liée au manque d'assainissement et d'eau potable.",
+   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DE L'ENFANCE (20 NOVEMBRE)",
+   "titre": "Survie de l'enfant",
+   "lieu": "Monde · Afrique subsaharienne · RDC",
+   "chiffre": "4,9 millions de décès d'enfants de moins de 5 ans en 2024, dont 58 % en Afrique subsaharienne (UN IGME, mars 2026)",
+   "texte": "La Journée mondiale de l'enfance, anniversaire de la Convention relative aux droits de l'enfant, rappelle que les progrès contre la mortalité infantile ralentissent. La plupart de ces décès sont évitables par des gestes simples du premier niveau de soins.",
    "details": [
-    "Selon le rapport OMS/UNICEF (JMP) publié en août 2025, 3,4 milliards de personnes n'avaient pas accès en 2024 à un assainissement géré en toute sécurité et 354 millions pratiquaient encore la défécation à l'air libre, quatre fois plus fréquente dans les pays à faible revenu que dans la moyenne mondiale",
-    "L'OMS attribue chaque année environ 564 000 décès à un assainissement insalubre, surtout par maladies diarrhéiques ; l'eau, l'assainissement et l'hygiène insuffisants causent au total 1,4 million de décès par an",
-    "Le thème 2026 rappelle que l'absence de toilettes sûres, privées et équipées pour l'hygiène menstruelle pèse d'abord sur les filles et les femmes (scolarité, sécurité, dignité)",
-    "Devant toute diarrhée aiguë : évaluer la déshydratation, donner les SRO dès le début et le zinc pendant 10 à 14 jours chez l'enfant, poursuivre l'alimentation ; diarrhée aqueuse abondante en zone d'épidémie = suspicion de choléra à notifier",
-    "Conseiller à chaque consultation : utiliser des latrines couvertes, éliminer les selles des enfants dans les latrines, se laver les mains au savon après les toilettes et avant de manger ou de cuisiner, traiter l'eau de boisson (chloration ou ébullition)",
-    "Dans la structure de santé : latrines propres et séparées, point de lavage des mains avec savon ou solution chlorée, désinfection des selles et vomissements des malades"
+    "Selon le rapport du groupe interagences des Nations unies (UN IGME) publié le 18 mars 2026, 4,9 millions d'enfants sont morts avant 5 ans en 2024 ; le nombre de décès a diminué de plus de moitié depuis 2000, mais le rythme de baisse a ralenti de plus de 60 % depuis 2015",
+    "L'Afrique subsaharienne concentre 58 % de ces décès (environ 2,8 millions) ; les neuf principales maladies infectieuses y causent 54 % des décès avant 5 ans, en tête le paludisme, la pneumonie et la diarrhée",
+    "Les nouveau-nés représentent près de la moitié des décès avant 5 ans (prématurité, complications de l'accouchement, infections) ; plus de 100 000 enfants de 1 mois à 5 ans meurent chaque année directement de malnutrition aiguë sévère, première estimation mondiale",
+    "Pour tout enfant malade, appliquer la PCIME : rechercher les signes généraux de danger (incapacité de boire ou de téter, vomissements incoercibles, convulsions, léthargie), compter la fréquence respiratoire, faire un TDR paludisme devant toute fièvre, évaluer la déshydratation, mesurer le périmètre brachial",
+    "Traiter sans délai au premier niveau : CTA pour le paludisme simple, amoxicilline pour la pneumonie, SRO et zinc pour la diarrhée ; référer en urgence tout signe de danger après une première dose (artésunate, antibiotique)",
+    "Profiter de chaque contact pour vérifier le calendrier vaccinal (PEV), la vitamine A, le déparasitage et l'usage de la moustiquaire imprégnée, et promouvoir l'allaitement maternel exclusif jusqu'à 6 mois"
    ],
-   "couleur": "#00695C",
-   "icone": "🚻",
-   "pathologie": 18,
-   "source": "ONU-Eau, Journée mondiale des toilettes du 19/11/2026 ; OMS/UNICEF, rapport JMP 2000-2024 du 26/08/2025 ; OMS, aide-mémoire « Assainissement » (dernière mise à jour)",
-   "pictogramme": "savon"
+   "couleur": "#01579B",
+   "icone": "🧒",
+   "pathologie": 77,
+   "source": "UN IGME (UNICEF, OMS, Banque mondiale, ONU-DAES), rapport sur la mortalité de l'enfant du 18/03/2026 ; UNICEF, Journée mondiale de l'enfance du 20/11/2026",
+   "pictogramme": "bebe"
   },
   {
-   "etiquette": "JOURNÉE INTERNATIONALE DE L'HOMME · MOVEMBER",
-   "titre": "Cancer de la prostate",
-   "lieu": "Monde · Afrique subsaharienne",
-   "chiffre": "1er cancer de l'homme en Afrique subsaharienne (CIRC, GLOBOCAN)",
-   "texte": "La Journée internationale de l'homme, le 19 novembre, et le mois de Movember mettent l'accent sur la santé des hommes, en particulier le cancer de la prostate, souvent diagnostiqué tardivement en Afrique.",
+   "etiquette": "DANS LE MONDE",
+   "titre": "Obésité : appel à agir",
+   "lieu": "Monde",
+   "chiffre": "Objectif : −5 % de prévalence de l'obésité d'ici 2030 (OMS/UNICEF, 17/11/2026)",
+   "texte": "L'Espagne et 20 autres pays ont lancé avec l'OMS et l'UNICEF un appel mondial à l'action contre l'obésité, avec l'objectif de réduire de 5 % la prévalence nationale d'ici 2030.",
    "details": [
-    "Le cancer de la prostate est le cancer le plus fréquent chez l'homme en Afrique subsaharienne, région où la mortalité par ce cancer est parmi les plus élevées au monde (CIRC, GLOBOCAN)",
-    "Les hommes d'ascendance africaine ont un risque plus élevé et des formes souvent plus précoces et plus agressives",
-    "Rechercher les signes : troubles mictionnels, hématurie, rétention urinaire, douleurs osseuses (dos, bassin) chez un homme de plus de 50 ans",
-    "Toucher rectal et dosage du PSA, en expliquant au patient les avantages et limites du dépistage ; dès 45 ans en cas d'antécédent familial ; orienter vers un urologue si prostate dure ou nodulaire ou PSA élevé",
-    "Profiter de la consultation pour dépister aussi l'hypertension, le diabète et le tabagisme, fréquents et sous-diagnostiqués chez l'homme"
+    "L'obésité progresse aussi en Afrique, surtout en ville, et favorise le diabète de type 2, l'hypertension, les maladies cardiovasculaires et rénales",
+    "Peser et mesurer chaque adulte et chaque enfant en consultation ; calculer l'IMC (obésité si ≥ 30 kg/m² chez l'adulte) et mesurer le tour de taille",
+    "Chez l'adulte en surpoids ou obèse : mesurer la tension artérielle et dépister le diabète (glycémie à jeun)",
+    "Conseils pratiques : limiter les boissons sucrées, l'huile et le sel, privilégier les aliments locaux peu transformés (légumes, légumineuses, fruits), au moins 150 minutes d'activité physique par semaine",
+    "Chez l'enfant : promouvoir l'allaitement maternel et limiter les boissons sucrées et les aliments ultra-transformés"
    ],
-   "couleur": "#1A237E",
-   "icone": "🎗️",
-   "pathologie": 234,
-   "source": "CIRC, GLOBOCAN (fiche Afrique subsaharienne) ; Journée internationale de l'homme du 19/11/2026",
-   "pictogramme": "ruban"
+   "couleur": "#4E342E",
+   "icone": "⚖️",
+   "pathologie": 44,
+   "source": "OMS, communiqué « Leaders commit to accelerate action on obesity prevention and control » du 17/11/2026",
+   "pictogramme": "pomme"
   },
   {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
    "lieu": "RDC (8 provinces) · Kenya · cas importé au Nigeria",
-   "chiffre": "11 432 cas confirmés et 5 593 décès en RDC (CDC, au 15 novembre)",
-   "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, continue de progresser en RDC ; l'OMS s'inquiète de la hausse des décès et de l'insécurité qui entrave la riposte. Près d'un malade sur deux en meurt.",
+   "chiffre": "11 432 cas confirmés et 5 593 décès en RDC (OMS AFRO, au 15 novembre)",
+   "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, a plus que doublé en trois mois en RDC ; les enfants représentent plus d'un quart des cas confirmés et un tiers des décès.",
    "details": [
-    "RDC au 15 novembre : 11 432 cas confirmés et 5 593 décès confirmés dans 8 provinces ; l'Ituri reste l'épicentre et le Nord-Kivu enregistre la plus forte hausse récente ; plus de 3 000 patients guéris",
-    "Ouganda : épidémie terminée (20 cas confirmés, 2 décès) ; Kenya : 9 cas dont 2 décès, tous issus d'une seule introduction depuis la RDC, dernier patient sorti le 11 novembre ; Nigeria : 1 cas importé le 20 octobre, suivi des contacts presque achevé",
-    "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; deux vaccins candidats spécifiques doivent être évalués dans l'essai TUMAINI de vaccination en anneau à Bunia ; des soins de soutien précoces améliorent nettement la survie",
-    "Tout patient fébrile ayant eu un contact avec un cas, ou présentant des signes hémorragiques, une diarrhée ou des vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte",
-    "Hygiène des mains, triage à l'entrée de toutes les structures, enterrements dignes et sécurisés ; faire aussi un TDR paludisme"
+    "RDC au 15 novembre : 11 432 cas confirmés et 5 593 décès confirmés dans 67 zones de santé de 8 provinces ; semaine du 9 au 15 novembre : 442 nouveaux cas confirmés et 239 décès ; l'Ituri reste l'épicentre",
+    "Selon le directeur général de l'OMS, sept enfants de moins de 5 ans sur dix ayant un Ebola confirmé sont décédés : penser à Ebola devant un enfant fébrile en zone touchée",
+    "Ouganda : épidémie terminée ; Kenya : 9 cas dont 2 décès, dernier patient sorti le 11 novembre ; Nigeria : 1 cas importé le 20 octobre",
+    "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; des vaccins candidats doivent être évalués dans l'essai TUMAINI à Bunia ; des soins de soutien précoces (réhydratation, correction des troubles électrolytiques) améliorent nettement la survie",
+    "Tout patient fébrile ayant eu un contact avec un cas, ou présentant des signes hémorragiques, une diarrhée ou des vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte ; faire aussi un TDR paludisme",
+    "Hygiène des mains, triage à l'entrée de toutes les structures, enterrements dignes et sécurisés"
    ],
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "CDC, résumé de situation du 17/11/2026 (données au 15/11) ; ECDC, mise à jour du 16/11/2026 ; OMS, bulletins Disease Outbreak News de novembre 2026",
+   "source": "OMS AFRO, rapport de situation externe (données au 15/11/2026) ; ONU Info, déclaration du directeur général de l'OMS du 17/11/2026 ; ECDC, mise à jour du 16/11/2026",
    "pictogramme": "virus"
   },
   {
