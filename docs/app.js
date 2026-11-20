@@ -195,6 +195,7 @@ function router() {
   if (route !== "recherche") $("#champRecherche").value = "";
   const r = decodeURIComponent(a), r2 = decodeURIComponent(b);
   const vues = { accueil, recherche, sujet, medicaments, med: medicaments, pathologies, patho: pathologies, symptomes, sympt: symptomes,
+    urgences: (r) => { catPatho = "urgences"; filtrePatho = ""; pathologies("pathologies"); },
     dispensaire, disp: dispensaire, examens, exam: examens, croissance, quiz, protocoles, proto: protocoles, scores, score: scores, cas, apropos, interactions, patient };
   (vues[route] || accueil)(route, r, r2);
   if (route !== "recherche") window.scrollTo(0, 0);
@@ -219,7 +220,7 @@ function accueil() {
   const act = ACT.actualites || [];
   const rp = resumePatient();
   const urgence = [
-    ["#/protocoles", "🚨", "Urgences vitales", "#B71C1C"],
+    ["#/urgences", "🚨", "Urgences vitales", "#B71C1C"],
     ["#/dispensaire", "🧭", "Que faire devant…", "#00695C"],
     ["#/scores", "🧮", "Scores", "#4527A0"],
     ["#/interactions", "⚠️", "Interactions", "#E65100"],
@@ -418,12 +419,13 @@ let filtrePatho = "", catPatho = "";
 function pathologies(route, id) {
   const p = route === "patho" ? D.pathoParId[id] : null;
   const ms = mots(filtrePatho);
-  let l = D.pathologies.filter((x) => !catPatho || x.categorie === catPatho);
+  let l = D.pathologies.filter((x) => !catPatho || x.categorie === catPatho || (x.autresCategories || []).includes(catPatho));
   const classes = ms.length ? rechPatho(ms, l) : l.map((e) => ({ e }));
   contenu.innerHTML = `<div class="deux${p ? " avec-detail" : ""}"><div class="col-liste">
       <h1>Pathologies</h1><p class="sous">${classes.length} fiches</p>
       <input class="filtre" id="fPatho" placeholder="Filtrer, ou taper des signes (ex. fièvre toux)…" value="${esc(filtrePatho)}">
       <div class="puces"><button class="puce${catPatho ? "" : " actif"}" data-c="">Toutes</button>${(D.categoriesPathologies || []).map((c) => `<button class="puce${catPatho === c.id ? " actif" : ""}" data-c="${esc(c.id)}">${esc(c.icone)} ${esc(c.nom)}</button>`).join("")}</div>
+      ${catPatho === "urgences" && !ms.length ? `<div class="liste"><a class="ligne" href="#/protocoles"><span class="ico" style="background:#FDE7E7">🚨</span><span class="txt"><b>Protocoles pas à pas (${(D.protocoles || []).length})</b><span>RCP, choc, convulsions, hémorragie du post-partum, éclampsie…</span></span></a></div>` : ""}
       <div class="liste">${classes.map((r) => lignePatho(r.e, p && r.e.id === p.id, r.niveau)).join("")}</div></div>
     <div>${p ? fichePatho(p) : `<div class="fiche"><p class="sous">Choisissez une pathologie dans la liste.</p></div>`}</div></div>`;
   const f = $("#fPatho");
