@@ -515,7 +515,13 @@ function dispensaire(route, id) {
   const ch = route === "disp" ? (D.dispensaire || []).find((x) => x.id === id) : null;
   if (!ch) {
     contenu.innerHTML = `<h1>Que faire devant…</h1><p class="sous">Signes vitaux normaux et conduites pratiques au centre de santé. Saisissez le poids en haut de la page pour voir les doses calculées.</p>
-      <div class="grille">${(D.dispensaire || []).map((c) => `<a class="tuile" href="#/disp/${encodeURIComponent(c.id)}"><span class="ico" style="background:${esc(c.couleur)}22">${picto(c.pictogramme)}</span><b>${esc(c.titre)}</b><span class="petit">${esc(c.intro.slice(0, 90))}…</span></a>`).join("")}</div>
+      ${(() => {
+        // Chapitres regroupés par section (Urgences, Symptômes fréquents, Enfant, Grossesse, Repères, Matériel)
+        const tuile = (c) => `<a class="tuile" href="#/disp/${encodeURIComponent(c.id)}"><span class="ico" style="background:${esc(c.couleur)}22">${picto(c.pictogramme)}</span><b>${esc(c.titre)}</b><span class="petit">${esc(c.intro.slice(0, 90))}…</span></a>`;
+        const groupes = [];
+        (D.dispensaire || []).forEach((c) => { const g = c.groupe || ""; let e = groupes.find((x) => x.g === g); if (!e) groupes.push(e = { g, l: [] }); e.l.push(c); });
+        return groupes.map((e) => `${e.g ? `<h2>${esc(e.g)}</h2>` : ""}<div class="grille">${e.l.map(tuile).join("")}</div>`).join("");
+      })()}
       <p class="petit" style="margin-top:20px">Repères OMS/PCIME et MSF. En cas de différence, l'ordinogramme national et la notice du produit font foi.</p>`;
     return;
   }
