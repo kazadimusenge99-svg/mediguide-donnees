@@ -1,45 +1,44 @@
 {
- "dateActualites": "20 novembre 2026",
- "dateIsoActualites": "2026-11-20",
+ "dateActualites": "21 novembre 2026",
+ "dateIsoActualites": "2026-11-21",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · JOURNÉE MONDIALE DE L'ENFANCE (20 NOVEMBRE)",
-   "titre": "Survie de l'enfant",
-   "lieu": "Monde · Afrique subsaharienne · RDC",
-   "chiffre": "4,9 millions de décès d'enfants de moins de 5 ans en 2024, dont 58 % en Afrique subsaharienne (UN IGME, mars 2026)",
-   "texte": "La Journée mondiale de l'enfance, anniversaire de la Convention relative aux droits de l'enfant, rappelle que les progrès contre la mortalité infantile ralentissent. La plupart de ces décès sont évitables par des gestes simples du premier niveau de soins.",
+   "etiquette": "SUJET DU JOUR · NOUVEAU RAPPORT GOLD 2027 SUR LA BPCO",
+   "titre": "BPCO : dépister tôt",
+   "lieu": "Monde · Afrique · RDC",
+   "chiffre": "3,4 millions de décès en 2023, environ 6 % des décès mondiaux (OMS)",
+   "texte": "Publié pour la Journée mondiale de la BPCO (18 novembre), le rapport GOLD 2027 insiste sur le diagnostic précoce et la réhabilitation respiratoire. En RDC, la fumée de cuisine, le tabac, les poussières minières et les séquelles de tuberculose exposent de nombreux adultes à cette maladie sous-diagnostiquée.",
    "details": [
-    "Selon le rapport du groupe interagences des Nations unies (UN IGME) publié le 18 mars 2026, 4,9 millions d'enfants sont morts avant 5 ans en 2024 ; le nombre de décès a diminué de plus de moitié depuis 2000, mais le rythme de baisse a ralenti de plus de 60 % depuis 2015",
-    "L'Afrique subsaharienne concentre 58 % de ces décès (environ 2,8 millions) ; les neuf principales maladies infectieuses y causent 54 % des décès avant 5 ans, en tête le paludisme, la pneumonie et la diarrhée",
-    "Les nouveau-nés représentent près de la moitié des décès avant 5 ans (prématurité, complications de l'accouchement, infections) ; plus de 100 000 enfants de 1 mois à 5 ans meurent chaque année directement de malnutrition aiguë sévère, première estimation mondiale",
-    "Pour tout enfant malade, appliquer la PCIME : rechercher les signes généraux de danger (incapacité de boire ou de téter, vomissements incoercibles, convulsions, léthargie), compter la fréquence respiratoire, faire un TDR paludisme devant toute fièvre, évaluer la déshydratation, mesurer le périmètre brachial",
-    "Traiter sans délai au premier niveau : CTA pour le paludisme simple, amoxicilline pour la pneumonie, SRO et zinc pour la diarrhée ; référer en urgence tout signe de danger après une première dose (artésunate, antibiotique)",
-    "Profiter de chaque contact pour vérifier le calendrier vaccinal (PEV), la vitamine A, le déparasitage et l'usage de la moustiquaire imprégnée, et promouvoir l'allaitement maternel exclusif jusqu'à 6 mois"
+    "Selon l'OMS, la BPCO est la 3e cause de décès dans le monde, avec 3,4 millions de décès en 2023, et près de 90 % des décès avant 70 ans surviennent dans les pays à revenu faible ou intermédiaire",
+    "Le thème 2026 de la journée mondiale, « Diagnostic précoce et prise en charge pour une vie meilleure », cible le sous-diagnostic : beaucoup de patients sont traités à tort pour asthme ou bronchites répétées",
+    "Nouveautés du rapport GOLD 2027 : chapitre de réhabilitation respiratoire entièrement revu, définitions précisées des stades précoces (« pré-BPCO »), section cardiovasculaire révisée ; en traitement initial des patients peu symptomatiques (groupe A), un anticholinergique de longue durée (LAMA, tiotropium) est désormais proposé",
+    "Penser à la BPCO devant tout adulte de plus de 40 ans avec toux, crachats ou essoufflement chroniques et une exposition (tabac, cuisine au bois ou au charbon de bois, mines, antécédent de tuberculose) ; confirmer par spirométrie si possible (VEMS/CVF < 0,70) et éliminer une tuberculose (GeneXpert)",
+    "Traitement : arrêt du tabac et de l'exposition aux fumées, salbutamol à la demande, traitement de fond par tiotropium si disponible, technique d'inhalation vérifiée à chaque visite (chambre d'inhalation), marche quotidienne et exercices respiratoires, vaccination antigrippale et antipneumococcique",
+    "Exacerbation : bronchodilatateurs, prednisolone 40 mg/j pendant 5 jours, antibiotique si crachats purulents ; oxygène prudent avec SpO₂ cible 88 à 92 % ; référer si somnolence, cyanose ou SpO₂ < 88 % malgré l'oxygène"
    ],
-   "couleur": "#01579B",
-   "icone": "🧒",
-   "pathologie": 77,
-   "source": "UN IGME (UNICEF, OMS, Banque mondiale, ONU-DAES), rapport sur la mortalité de l'enfant du 18/03/2026 ; UNICEF, Journée mondiale de l'enfance du 20/11/2026",
-   "pictogramme": "bebe"
+   "couleur": "#37474F",
+   "icone": "🫁",
+   "pathologie": 129,
+   "source": "GOLD, rapport 2027 (Journée mondiale de la BPCO du 18/11/2026) ; OMS, aide-mémoire BPCO (données 2023)",
+   "pictogramme": "poumons"
   },
   {
    "etiquette": "DANS LE MONDE",
-   "titre": "Obésité : appel à agir",
-   "lieu": "Monde",
-   "chiffre": "Objectif : −5 % de prévalence de l'obésité d'ici 2030 (OMS/UNICEF, 17/11/2026)",
-   "texte": "L'Espagne et 20 autres pays ont lancé avec l'OMS et l'UNICEF un appel mondial à l'action contre l'obésité, avec l'objectif de réduire de 5 % la prévalence nationale d'ici 2030.",
+   "titre": "Rougeole : recul",
+   "lieu": "Amériques · États-Unis, Mexique, Bolivie",
+   "chiffre": "3 pays perdent leur statut d'élimination (OPS, 17/11/2026)",
+   "texte": "L'Organisation panaméricaine de la santé a retiré aux États-Unis, au Mexique et à la Bolivie leur statut d'élimination de la rougeole, après plus de 12 mois de transmission continue d'une même souche, conséquence de la baisse de la couverture vaccinale.",
    "details": [
-    "L'obésité progresse aussi en Afrique, surtout en ville, et favorise le diabète de type 2, l'hypertension, les maladies cardiovasculaires et rénales",
-    "Peser et mesurer chaque adulte et chaque enfant en consultation ; calculer l'IMC (obésité si ≥ 30 kg/m² chez l'adulte) et mesurer le tour de taille",
-    "Chez l'adulte en surpoids ou obèse : mesurer la tension artérielle et dépister le diabète (glycémie à jeun)",
-    "Conseils pratiques : limiter les boissons sucrées, l'huile et le sel, privilégier les aliments locaux peu transformés (légumes, légumineuses, fruits), au moins 150 minutes d'activité physique par semaine",
-    "Chez l'enfant : promouvoir l'allaitement maternel et limiter les boissons sucrées et les aliments ultra-transformés"
+    "Le Canada avait déjà perdu ce statut ; aux États-Unis, 5 838 cas confirmés ont été notifiés en 2026 au 19 novembre (CDC)",
+    "Même dans des pays riches, une couverture vaccinale insuffisante suffit à faire revenir la rougeole : en RDC, les épidémies sont récurrentes",
+    "Vérifier à chaque contact les deux doses de vaccin antirougeoleux (VAR) du PEV et rattraper les enfants non vaccinés",
+    "Devant fièvre, éruption et toux, rhinite ou conjonctivite : isoler, notifier, donner la vitamine A (2 doses), traiter les complications (pneumonie, diarrhée, atteinte oculaire) et dépister la malnutrition"
    ],
-   "couleur": "#4E342E",
-   "icone": "⚖️",
-   "pathologie": 44,
-   "source": "OMS, communiqué « Leaders commit to accelerate action on obesity prevention and control » du 17/11/2026",
-   "pictogramme": "pomme"
+   "couleur": "#AD1457",
+   "icone": "💉",
+   "pathologie": 12,
+   "source": "OPS, annonce du 17/11/2026 (Health Policy Watch, 18/11/2026) ; CDC, données rougeole au 19/11/2026",
+   "pictogramme": "seringue"
   },
   {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
