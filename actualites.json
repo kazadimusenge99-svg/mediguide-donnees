@@ -1,53 +1,54 @@
 {
- "dateActualites": "21 novembre 2026",
- "dateIsoActualites": "2026-11-21",
+ "dateActualites": "22 novembre 2026",
+ "dateIsoActualites": "2026-11-22",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · NOUVEAU RAPPORT GOLD 2027 SUR LA BPCO",
-   "titre": "BPCO : dépister tôt",
+   "etiquette": "SUJET DU JOUR · RAPPORT MONDIAL OMS SUR LA TUBERCULOSE",
+   "titre": "Tuberculose : rapport OMS",
    "lieu": "Monde · Afrique · RDC",
-   "chiffre": "3,4 millions de décès en 2023, environ 6 % des décès mondiaux (OMS)",
-   "texte": "Publié pour la Journée mondiale de la BPCO (18 novembre), le rapport GOLD 2027 insiste sur le diagnostic précoce et la réhabilitation respiratoire. En RDC, la fumée de cuisine, le tabac, les poussières minières et les séquelles de tuberculose exposent de nombreux adultes à cette maladie sous-diagnostiquée.",
+   "chiffre": "10,6 millions de malades et environ 1,1 million de décès en 2025 (OMS)",
+   "texte": "Le rapport mondial 2026 de l'OMS sur la tuberculose montre que les décès ont baissé de 35 % depuis 2015, avec cinq ans de retard sur l'objectif, alors que l'aide internationale recule. La RDC fait partie des huit pays qui concentrent environ deux tiers des cas dans le monde.",
    "details": [
-    "Selon l'OMS, la BPCO est la 3e cause de décès dans le monde, avec 3,4 millions de décès en 2023, et près de 90 % des décès avant 70 ans surviennent dans les pays à revenu faible ou intermédiaire",
-    "Le thème 2026 de la journée mondiale, « Diagnostic précoce et prise en charge pour une vie meilleure », cible le sous-diagnostic : beaucoup de patients sont traités à tort pour asthme ou bronchites répétées",
-    "Nouveautés du rapport GOLD 2027 : chapitre de réhabilitation respiratoire entièrement revu, définitions précisées des stades précoces (« pré-BPCO »), section cardiovasculaire révisée ; en traitement initial des patients peu symptomatiques (groupe A), un anticholinergique de longue durée (LAMA, tiotropium) est désormais proposé",
-    "Penser à la BPCO devant tout adulte de plus de 40 ans avec toux, crachats ou essoufflement chroniques et une exposition (tabac, cuisine au bois ou au charbon de bois, mines, antécédent de tuberculose) ; confirmer par spirométrie si possible (VEMS/CVF < 0,70) et éliminer une tuberculose (GeneXpert)",
-    "Traitement : arrêt du tabac et de l'exposition aux fumées, salbutamol à la demande, traitement de fond par tiotropium si disponible, technique d'inhalation vérifiée à chaque visite (chambre d'inhalation), marche quotidienne et exercices respiratoires, vaccination antigrippale et antipneumococcique",
-    "Exacerbation : bronchodilatateurs, prednisolone 40 mg/j pendant 5 jours, antibiotique si crachats purulents ; oxygène prudent avec SpO₂ cible 88 à 92 % ; référer si somnolence, cyanose ou SpO₂ < 88 % malgré l'oxygène"
+    "Selon l'OMS, 10,6 millions de personnes ont développé une tuberculose en 2025 et environ 1,1 million en sont mortes : la tuberculose reste la première cause de décès d'origine infectieuse",
+    "Les décès ont reculé de 35 % depuis 2015, mais l'incidence baisse beaucoup trop lentement ; 30 pays, dont la RDC, regroupent 88 % des cas, et huit pays (Inde, Indonésie, Philippines, Chine, Pakistan, Nigeria, RDC, Bangladesh) environ deux tiers",
+    "Ce qui est nouveau : l'aide internationale diminue, en partie compensée par une hausse de 14 % des budgets nationaux (5,6 milliards de dollars) ; l'OMS demande de ne pas laisser se dégrader le dépistage et l'approvisionnement en médicaments",
+    "Tester tout patient qui tousse depuis plus de 2 semaines (toute toux, fièvre, sueurs ou perte de poids chez la personne vivant avec le VIH) par GeneXpert sur crachats en première intention ; TB-LAM urinaire chez le patient VIH avancé ; test VIH et glycémie chez tout tuberculeux",
+    "Tuberculose sensible de l'adulte : 2 mois de RHZE puis 4 mois de RH, gratuits, avec observation directe et soutien à l'observance ; résistance à la rifampicine détectée : référer selon la fiche tuberculose pharmacorésistante",
+    "Dépister tous les contacts du foyer et proposer un traitement préventif (3HP, 6H ou 3HR) après avoir exclu une tuberculose active, en priorité aux enfants de moins de 5 ans et aux personnes vivant avec le VIH"
    ],
-   "couleur": "#37474F",
+   "couleur": "#4E342E",
    "icone": "🫁",
-   "pathologie": 129,
-   "source": "GOLD, rapport 2027 (Journée mondiale de la BPCO du 18/11/2026) ; OMS, aide-mémoire BPCO (données 2023)",
+   "pathologie": 5,
+   "source": "OMS, rapport mondial sur la tuberculose 2026 (publié le 12/11/2026 ; Forbes et RSTMH, 12/11/2026 ; OMS AFRO, page tuberculose)",
    "pictogramme": "poumons"
   },
   {
    "etiquette": "DANS LE MONDE",
-   "titre": "Rougeole : recul",
-   "lieu": "Amériques · États-Unis, Mexique, Bolivie",
-   "chiffre": "3 pays perdent leur statut d'élimination (OPS, 17/11/2026)",
-   "texte": "L'Organisation panaméricaine de la santé a retiré aux États-Unis, au Mexique et à la Bolivie leur statut d'élimination de la rougeole, après plus de 12 mois de transmission continue d'une même souche, conséquence de la baisse de la couverture vaccinale.",
+   "titre": "VIH : rapport ONUSIDA",
+   "lieu": "Monde · Afrique subsaharienne",
+   "chiffre": "1,2 million de nouvelles infections et 570 000 décès en 2025 (ONUSIDA)",
+   "texte": "À l'approche de la Journée mondiale du sida (1er décembre), l'ONUSIDA publie le 24 novembre son rapport « Mettre fin au sida commence par l'accès », qui alerte sur des progrès inégaux et la baisse des financements.",
    "details": [
-    "Le Canada avait déjà perdu ce statut ; aux États-Unis, 5 838 cas confirmés ont été notifiés en 2026 au 19 novembre (CDC)",
-    "Même dans des pays riches, une couverture vaccinale insuffisante suffit à faire revenir la rougeole : en RDC, les épidémies sont récurrentes",
-    "Vérifier à chaque contact les deux doses de vaccin antirougeoleux (VAR) du PEV et rattraper les enfants non vaccinés",
-    "Devant fièvre, éruption et toux, rhinite ou conjonctivite : isoler, notifier, donner la vitamine A (2 doses), traiter les complications (pneumonie, diarrhée, atteinte oculaire) et dépister la malnutrition"
+    "Depuis 2010, les nouvelles infections ont baissé de 42 % et les décès liés au sida de 57 %, mais le monde n'est pas sur la trajectoire de l'objectif 2030",
+    "En 2025, 1,2 million de personnes ont été infectées par le VIH et 570 000 sont mortes de maladies liées au sida (ONUSIDA)",
+    "Proposer le dépistage du VIH à chaque occasion : consultation prénatale, tuberculose, IST, malnutrition, hospitalisation",
+    "Tout résultat positif : traitement antirétroviral le jour même ou dans les 7 jours (TLD), dépistage de la tuberculose et des signes de maladie avancée, CD4 si disponible",
+    "Femme enceinte : dépistage, traitement immédiat et prophylaxie du nouveau-né pour éliminer la transmission mère-enfant"
    ],
-   "couleur": "#AD1457",
-   "icone": "💉",
-   "pathologie": 12,
-   "source": "OPS, annonce du 17/11/2026 (Health Policy Watch, 18/11/2026) ; CDC, données rougeole au 19/11/2026",
-   "pictogramme": "seringue"
+   "couleur": "#C62828",
+   "icone": "🎗️",
+   "pathologie": 6,
+   "source": "ONUSIDA, avis aux médias du 19/11/2026 et page Journée mondiale du sida 2026 ; ONUSIDA, rapport de juillet 2026 (données 2025)",
+   "pictogramme": "ruban"
   },
   {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
    "lieu": "RDC (8 provinces) · Kenya · cas importé au Nigeria",
-   "chiffre": "11 432 cas confirmés et 5 593 décès en RDC (OMS AFRO, au 15 novembre)",
-   "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, a plus que doublé en trois mois en RDC ; les enfants représentent plus d'un quart des cas confirmés et un tiers des décès.",
+   "chiffre": "11 613 cas confirmés et 5 678 décès en RDC (OMS, au 17 novembre)",
+   "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, reste une urgence de santé publique de portée internationale (décision de l'OMS du 18 novembre) ; la transmission est active dans 48 zones de santé.",
    "details": [
-    "RDC au 15 novembre : 11 432 cas confirmés et 5 593 décès confirmés dans 67 zones de santé de 8 provinces ; semaine du 9 au 15 novembre : 442 nouveaux cas confirmés et 239 décès ; l'Ituri reste l'épicentre",
+    "RDC au 17 novembre : 11 613 cas confirmés dont 5 678 décès (létalité 48,9 %) dans 68 zones de santé de 8 provinces, transmission active dans 48 zones ; semaine du 9 au 15 novembre : 442 nouveaux cas confirmés et 239 décès ; l'Ituri reste l'épicentre",
     "Selon le directeur général de l'OMS, sept enfants de moins de 5 ans sur dix ayant un Ebola confirmé sont décédés : penser à Ebola devant un enfant fébrile en zone touchée",
     "Ouganda : épidémie terminée ; Kenya : 9 cas dont 2 décès, dernier patient sorti le 11 novembre ; Nigeria : 1 cas importé le 20 octobre",
     "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; des vaccins candidats doivent être évalués dans l'essai TUMAINI à Bunia ; des soins de soutien précoces (réhydratation, correction des troubles électrolytiques) améliorent nettement la survie",
@@ -57,7 +58,7 @@
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "OMS AFRO, rapport de situation externe (données au 15/11/2026) ; ONU Info, déclaration du directeur général de l'OMS du 17/11/2026 ; ECDC, mise à jour du 16/11/2026",
+   "source": "OMS, bulletin d'information sur les flambées du 20/11/2026 (données au 17/11) ; OMS AFRO, rapport de situation n° 27 (semaine 46) ; OMS, avis du directeur général du 18/11/2026 ; ECDC, mise à jour du 16/11/2026",
    "pictogramme": "virus"
   },
   {
