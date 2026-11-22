@@ -1,6 +1,6 @@
 {
- "version": 97,
- "dateMiseAJour": "2026-10-31",
+ "version": 98,
+ "dateMiseAJour": "2026-11-22",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
   "OMS – Lignes directrices pour le paludisme",
@@ -12197,7 +12197,8 @@
     "Non utilisé chez l'adulte"
    ],
    "posologieEnfant": [
-    "4 doses de 0,5 ml IM : 3 doses à 1 mois d'intervalle à partir de 5 mois (par ex. 5, 6 et 7 mois), puis 4e dose 12 mois après la 3e (vers 15–18 mois)",
+    "4 doses de 0,5 ml IM à partir de 5 mois : 3 doses à au moins 4 semaines d'intervalle (par ex. 5, 6 et 7 mois), puis 4e dose 6 à 18 mois après la 3e (par ex. vers 15–18 mois) pour prolonger la protection",
+    "Si la 4e dose ne peut temporairement pas être administrée (contexte fragile, rupture), l'enfant bénéficie déjà de 3 doses : donner la 4e dès que l'obstacle est levé (OMS 2026)",
     "Suivre l'âge et le calendrier fixés par le programme national (introduction progressive en RDC)"
    ],
    "contreIndications": [
