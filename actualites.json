@@ -1,33 +1,33 @@
 {
- "dateActualites": "22 novembre 2026",
- "dateIsoActualites": "2026-11-22",
+ "dateActualites": "23 novembre 2026",
+ "dateIsoActualites": "2026-11-23",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · RAPPORT MONDIAL OMS SUR LA TUBERCULOSE",
-   "titre": "Tuberculose : rapport OMS",
-   "lieu": "Monde · Afrique · RDC",
-   "chiffre": "10,6 millions de malades et environ 1,1 million de décès en 2025 (OMS)",
-   "texte": "Le rapport mondial 2026 de l'OMS sur la tuberculose montre que les décès ont baissé de 35 % depuis 2015, avec cinq ans de retard sur l'objectif, alors que l'aide internationale recule. La RDC fait partie des huit pays qui concentrent environ deux tiers des cas dans le monde.",
+   "etiquette": "SUJET DU JOUR · ÉTUDE DU LANCET GLOBAL HEALTH",
+   "titre": "Maladies chroniques",
+   "lieu": "Afrique · RDC",
+   "chiffre": "4,70 millions de décès par maladies non transmissibles en Afrique en 2023 (GBD 2023)",
+   "texte": "Selon l'analyse Global Burden of Disease 2023 pour l'Afrique, publiée dans le numéro de novembre 2026 de The Lancet Global Health, les maladies non transmissibles causent désormais environ 45 % des décès sur le continent. L'hypertension artérielle en est le premier facteur de risque modifiable.",
    "details": [
-    "Selon l'OMS, 10,6 millions de personnes ont développé une tuberculose en 2025 et environ 1,1 million en sont mortes : la tuberculose reste la première cause de décès d'origine infectieuse",
-    "Les décès ont reculé de 35 % depuis 2015, mais l'incidence baisse beaucoup trop lentement ; 30 pays, dont la RDC, regroupent 88 % des cas, et huit pays (Inde, Indonésie, Philippines, Chine, Pakistan, Nigeria, RDC, Bangladesh) environ deux tiers",
-    "Ce qui est nouveau : l'aide internationale diminue, en partie compensée par une hausse de 14 % des budgets nationaux (5,6 milliards de dollars) ; l'OMS demande de ne pas laisser se dégrader le dépistage et l'approvisionnement en médicaments",
-    "Tester tout patient qui tousse depuis plus de 2 semaines (toute toux, fièvre, sueurs ou perte de poids chez la personne vivant avec le VIH) par GeneXpert sur crachats en première intention ; TB-LAM urinaire chez le patient VIH avancé ; test VIH et glycémie chez tout tuberculeux",
-    "Tuberculose sensible de l'adulte : 2 mois de RHZE puis 4 mois de RH, gratuits, avec observation directe et soutien à l'observance ; résistance à la rifampicine détectée : référer selon la fiche tuberculose pharmacorésistante",
-    "Dépister tous les contacts du foyer et proposer un traitement préventif (3HP, 6H ou 3HR) après avoir exclu une tuberculose active, en priorité aux enfants de moins de 5 ans et aux personnes vivant avec le VIH"
+    "En 2023, les maladies non transmissibles ont causé 4,70 millions de décès en Afrique, soit environ 45 % des 10,48 millions de décès du continent, et 263 millions d'années de vie ajustées sur l'incapacité",
+    "Premières causes de décès : cardiopathie ischémique (801 000) et AVC (700 000), suivis de la maladie rénale chronique et de la cardiopathie hypertensive ; le poids du diabète et de la maladie rénale chronique augmente",
+    "57,4 % des décès par maladies non transmissibles sont attribuables à des facteurs de risque connus, d'abord la pression artérielle systolique élevée, puis l'alimentation (excès de sel notamment) et la pollution de l'air ; les troubles mentaux et musculosquelettiques dominent les années vécues avec une incapacité",
+    "Mesurer la tension de tout adulte à chaque consultation, quel qu'en soit le motif (patient assis 5 min, brassard adapté, 2 mesures) ; HTA si PA ≥ 140/90 mmHg confirmée à 2 visites ; rechercher aussi un diabète (glycémie) et une atteinte rénale (créatinine, bandelette urinaire)",
+    "Traitement simple selon le protocole HEARTS de l'OMS : amlodipine 5 mg en 1re intention, puis 10 mg ou association avec un IEC/sartan ou un thiazidique ; IEC ou sartan en priorité si diabète ou protéinurie ; objectif < 140/90 (< 130/80 si haut risque et bien toléré)",
+    "Pour tous : moins de 5 g de sel par jour (éviter les cubes de bouillon), activité physique, arrêt du tabac, moins d'alcool, et suivi régulier pour éviter les ruptures de traitement"
    ],
-   "couleur": "#4E342E",
-   "icone": "🫁",
-   "pathologie": 5,
-   "source": "OMS, rapport mondial sur la tuberculose 2026 (publié le 12/11/2026 ; Forbes et RSTMH, 12/11/2026 ; OMS AFRO, page tuberculose)",
-   "pictogramme": "poumons"
+   "couleur": "#AD1457",
+   "icone": "❤️",
+   "pathologie": 42,
+   "source": "The Lancet Global Health, vol. 14, n° 11 (novembre 2026), GBD 2023 Africa NCD Collaborators (publication en ligne le 21/09/2026)",
+   "pictogramme": "coeur"
   },
   {
    "etiquette": "DANS LE MONDE",
    "titre": "VIH : rapport ONUSIDA",
    "lieu": "Monde · Afrique subsaharienne",
    "chiffre": "1,2 million de nouvelles infections et 570 000 décès en 2025 (ONUSIDA)",
-   "texte": "À l'approche de la Journée mondiale du sida (1er décembre), l'ONUSIDA publie le 24 novembre son rapport « Mettre fin au sida commence par l'accès », qui alerte sur des progrès inégaux et la baisse des financements.",
+   "texte": "À l'approche de la Journée mondiale du sida (1er décembre), l'ONUSIDA publie demain, 24 novembre, son rapport « Mettre fin au sida commence par l'accès », qui alerte sur des progrès inégaux et la baisse des financements.",
    "details": [
     "Depuis 2010, les nouvelles infections ont baissé de 42 % et les décès liés au sida de 57 %, mais le monde n'est pas sur la trajectoire de l'objectif 2030",
     "En 2025, 1,2 million de personnes ont été infectées par le VIH et 570 000 sont mortes de maladies liées au sida (ONUSIDA)",
@@ -42,6 +42,24 @@
    "pictogramme": "ruban"
   },
   {
+   "etiquette": "JOURNÉE DU 25 NOVEMBRE",
+   "titre": "Violences sexuelles",
+   "lieu": "Monde · RDC",
+   "chiffre": "840 millions de femmes victimes de violences conjugales ou sexuelles (OMS, 2025)",
+   "texte": "Le 25 novembre, Journée internationale pour l'élimination de la violence à l'égard des femmes, ouvre 16 jours d'activisme jusqu'au 10 décembre. Selon l'OMS, près d'une femme sur trois a subi au cours de sa vie des violences de la part d'un partenaire ou des violences sexuelles.",
+   "details": [
+    "Selon le rapport de l'OMS de novembre 2025, 840 millions de femmes ont subi des violences conjugales ou sexuelles au cours de leur vie, et 316 millions (11 % des femmes de 15 ans et plus) des violences d'un partenaire au cours des 12 derniers mois",
+    "Le soignant est souvent le premier contact : écouter sans juger, croire, garantir la confidentialité, évaluer la sécurité et le risque suicidaire",
+    "Après un viol, prise en charge urgente dans les 72 heures : PEP VIH (TLD pendant 28 jours), contraception d'urgence (jusqu'à 120 h), prévention des IST, vaccination hépatite B et antitétanique selon le statut",
+    "Soutien psychologique, orientation vers les services sociaux, juridiques et de protection avec l'accord de la victime ; le certificat médical est gratuit en RDC"
+   ],
+   "couleur": "#4A148C",
+   "icone": "🟠",
+   "pathologie": 181,
+   "source": "OMS, rapport sur la violence à l'égard des femmes du 19/11/2025 ; ONU, Journée internationale du 25 novembre",
+   "pictogramme": "bouclier"
+  },
+  {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
    "lieu": "RDC (8 provinces) · Kenya · cas importé au Nigeria",
@@ -51,14 +69,14 @@
     "RDC au 17 novembre : 11 613 cas confirmés dont 5 678 décès (létalité 48,9 %) dans 68 zones de santé de 8 provinces, transmission active dans 48 zones ; semaine du 9 au 15 novembre : 442 nouveaux cas confirmés et 239 décès ; l'Ituri reste l'épicentre",
     "Selon le directeur général de l'OMS, sept enfants de moins de 5 ans sur dix ayant un Ebola confirmé sont décédés : penser à Ebola devant un enfant fébrile en zone touchée",
     "Ouganda : épidémie terminée ; Kenya : 9 cas dont 2 décès, dernier patient sorti le 11 novembre ; Nigeria : 1 cas importé le 20 octobre",
-    "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; des vaccins candidats doivent être évalués dans l'essai TUMAINI à Bunia ; des soins de soutien précoces (réhydratation, correction des troubles électrolytiques) améliorent nettement la survie",
+    "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; l'essai TUMAINI à Bunia doit intégrer deux vaccins spécifiques (ChAdOx1 BDBV et mRNA-1469) après les autorisations nationales (OMS, 17 novembre) ; des soins de soutien précoces (réhydratation, correction des troubles électrolytiques) améliorent nettement la survie",
     "Tout patient fébrile ayant eu un contact avec un cas, ou présentant des signes hémorragiques, une diarrhée ou des vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte ; faire aussi un TDR paludisme",
     "Hygiène des mains, triage à l'entrée de toutes les structures, enterrements dignes et sécurisés"
    ],
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "OMS, bulletin d'information sur les flambées du 20/11/2026 (données au 17/11) ; OMS AFRO, rapport de situation n° 27 (semaine 46) ; OMS, avis du directeur général du 18/11/2026 ; ECDC, mise à jour du 16/11/2026",
+   "source": "OMS, bulletin d'information sur les flambées du 20/11/2026 (données au 17/11) ; OMS, avis du directeur général du 18/11/2026 ; OMS, communiqués des 04/11 et 17/11/2026 (vaccins candidats)",
    "pictogramme": "virus"
   },
   {
@@ -80,7 +98,7 @@
    "pictogramme": "goutte"
   },
   {
-   "etiquette": "ÉPIDÉMIE EN HAUSSE",
+   "etiquette": "SURVEILLANCE",
    "titre": "Mpox au Kasaï",
    "lieu": "RDC · Kasaï (Luebo, Tshikapa, Mweka, Ilebo, Dekese)",
    "chiffre": "Environ 1 263 cas suspects · plus de 30 décès (fin octobre)",
