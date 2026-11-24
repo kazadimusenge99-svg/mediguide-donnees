@@ -167,3 +167,21 @@ table.tab td:first-child { font-weight: 600; }
 [id^="s-"] { scroll-margin-top: 110px; }
 
 .liste .sous-section { margin: 14px 4px 4px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--primaire); }
+
+/* Outils de fiche : taille du texte, plein écran, impression */
+.fiche { zoom: var(--zoom-fiche, 1); }
+.outils-fiche { float: right; display: flex; gap: 6px; margin: -6px -8px 6px 12px; }
+.outils-fiche button { border: 1px solid var(--bord); background: var(--surface2); color: var(--texte); border-radius: 999px; padding: 5px 12px; font-size: 13px; font-weight: 700; }
+.outils-fiche button:hover { border-color: var(--primaire); color: var(--primaire); }
+.outils-fiche .grand { font-size: 15px; }
+body.plein-ecran .entete, body.plein-ecran .menu, body.plein-ecran .col-liste { display: none !important; }
+body.plein-ecran .deux { display: block; }
+body.plein-ecran main { padding: 18px 24px 60px; }
+body.plein-ecran .fiche { max-width: 1200px; margin: 0 auto; }
+body.plein-ecran .sommaire { top: 0; }
+body.plein-ecran main > p:first-child { max-width: 1200px; margin-left: auto; margin-right: auto; }
+@media (max-width: 900px) { .outils-fiche { float: none; justify-content: flex-end; margin: 0 0 8px; } .outils-fiche .bt-imp { display: none; } }
+@media print {
+  .entete, .menu, .col-liste, .outils-fiche, .sommaire, .bloc-note { display: none !important; }
+  .deux { display: block; } main { padding: 0; } .fiche { box-shadow: none; border: 0; zoom: 1; }
+}

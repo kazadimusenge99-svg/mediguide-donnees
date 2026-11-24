@@ -76,6 +76,10 @@ async function demarrer() {
     const b = e.target.closest("[data-cible]");
     if (b) document.getElementById(b.dataset.cible)?.scrollIntoView({ behavior: "smooth", block: "start" });
   });
+  new MutationObserver(outilsFiche).observe(contenu, { childList: true });
+  document.addEventListener("fullscreenchange", () => { if (!document.fullscreenElement) quitterPleinEcran(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && document.body.classList.contains("plein-ecran")) quitterPleinEcran(); });
+  appliquerZoom();
   router();
   setTimeout(prechargerImages, 4000);
 }
@@ -185,6 +189,51 @@ function texteDoses(t, p, gras = true) {
 // ---------------------------------------------------------------------------
 // Routeur
 // ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// Fiche en plein écran et taille du texte (surtout pour l'ordinateur)
+// ---------------------------------------------------------------------------
+const ROUTES_FICHE = ["med", "patho", "sympt", "disp", "rep", "mat", "exam", "proto", "score"];
+const ZOOMS = [0.9, 1, 1.15, 1.3, 1.5, 1.75, 2];
+function appliquerZoom() { document.documentElement.style.setProperty("--zoom-fiche", sto.get("zoom-fiche", 1)); }
+function changerZoom(sens) {
+  const z = sto.get("zoom-fiche", 1), i = ZOOMS.indexOf(ZOOMS.reduce((a, b) => Math.abs(b - z) < Math.abs(a - z) ? b : a));
+  sto.set("zoom-fiche", ZOOMS[Math.max(0, Math.min(ZOOMS.length - 1, i + sens))]);
+  appliquerZoom();
+}
+function entrerPleinEcran() {
+  document.body.classList.add("plein-ecran");
+  document.documentElement.requestFullscreen?.().catch(() => { /* refusé : on garde la mise en page agrandie */ });
+  majBoutonsFiche();
+  window.scrollTo(0, 0);
+}
+function quitterPleinEcran() {
+  document.body.classList.remove("plein-ecran");
+  if (document.fullscreenElement) document.exitFullscreen?.().catch(() => {});
+  majBoutonsFiche();
+}
+function majBoutonsFiche() {
+  const pe = document.body.classList.contains("plein-ecran");
+  document.querySelectorAll(".outils-fiche .bt-pe").forEach((b) => { b.textContent = pe ? "✕ Quitter le plein écran" : "⛶ Plein écran"; b.title = pe ? "Revenir à l'affichage normal (Échap)" : "Afficher la fiche sur tout l'écran"; });
+}
+function outilsFiche() {
+  const route = location.hash.split("/")[1] || "";
+  const fiche = ROUTES_FICHE.includes(route) ? [...contenu.querySelectorAll(".fiche")].find((f) => f.querySelector("h1")) : null;
+  if (!fiche) { if (document.body.classList.contains("plein-ecran")) quitterPleinEcran(); return; }
+  if (fiche.querySelector(".outils-fiche")) return;
+  const barre = document.createElement("div");
+  barre.className = "outils-fiche";
+  barre.innerHTML = `<button class="bt-zoom" data-z="-1" title="Texte plus petit">A−</button><button class="bt-zoom grand" data-z="1" title="Texte plus grand">A+</button>
+    <button class="bt-pe"></button><button class="bt-imp" title="Imprimer la fiche">🖨️</button>`;
+  barre.addEventListener("click", (e) => {
+    const b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.z) changerZoom(+b.dataset.z);
+    else if (b.classList.contains("bt-pe")) document.body.classList.contains("plein-ecran") ? quitterPleinEcran() : entrerPleinEcran();
+    else if (b.classList.contains("bt-imp")) window.print();
+  });
+  fiche.prepend(barre);
+  majBoutonsFiche();
+}
+
 function router() {
   const [, route = "accueil", a = "", b = ""] = location.hash.split("/");
   document.querySelectorAll(".menu a").forEach((x) => x.classList.toggle("actif", x.dataset.r === route ||
