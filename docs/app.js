@@ -919,7 +919,13 @@ $("#boutonMenu").addEventListener("click", () => $("#menu").classList.toggle("ou
 let invite = null;
 window.addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); invite = e; $("#boutonInstaller").hidden = false; });
 $("#boutonInstaller").addEventListener("click", async () => { if (!invite) return; invite.prompt(); await invite.userChoice; invite = null; $("#boutonInstaller").hidden = true; });
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+if ("serviceWorker" in navigator) {
+  // Une nouvelle version publiée remplace l'ancienne : on recharge une fois pour l'afficher tout de suite.
+  const dejaControle = !!navigator.serviceWorker.controller;
+  let recharge = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => { if (dejaControle && !recharge) { recharge = true; location.reload(); } });
+  navigator.serviceWorker.register("sw.js").then((r) => r.update()).catch(() => {});
+}
 
 
 // ---------------------------------------------------------------------------
