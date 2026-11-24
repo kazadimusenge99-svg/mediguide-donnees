@@ -1,5 +1,5 @@
 {
- "version": 98,
+ "version": 99,
  "dateMiseAJour": "2026-11-24",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -49467,6 +49467,141 @@
    "auteur": "Глей А.І., Шкурба А.В.",
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B2%D0%B8%D1%81%D0%B8%D0%BF_%D0%BD%D0%B0_%D0%BA%D0%B8%D1%81%D1%82%D1%96_%D0%BF%D1%80%D0%B8_%D0%BC%D0%B5%D0%BD%D1%96%D0%BD%D0%B3%D0%BE%D0%BA%D0%BE%D0%BA%D1%86%D0%B5%D0%BC%D1%96%D1%97.jpg"
+  },
+  "clin-ascaris": {
+   "auteur": "SuSanA Secretariat",
+   "licence": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ascaris_lumbricoides_adult_worms.png"
+  },
+  "clin-oma": {
+   "auteur": "B. Welleschik",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Otitis_media_incipient.jpg"
+  },
+  "clin-brulure": {
+   "auteur": "Themidget17",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Second_degree_burn_after_2_days.JPG"
+  },
+  "clin-paleur": {
+   "auteur": "James Heilman, MD",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Anemia.JPG"
+  },
+  "clin-ulcere-cornee": {
+   "auteur": "Yoanmb",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Corneal_Ulcer.png"
+  },
+  "clin-peste": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Plague_-buboes.jpg"
+  },
+  "clin-perforation": {
+   "auteur": "Didier Descouens",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:PerforationTympan.jpg"
+  },
+  "clin-nephrotique": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Plasmodium_falciparum_nephrosis_edema_PHIL_3894_lores.jpg"
+  },
+  "clin-goutte": {
+   "auteur": "Chainwit.",
+   "licence": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Tophaceous_gout_of_Lt_MTP_joint,_elder_female_patient,_Thailand.jpg"
+  },
+  "clin-ascite": {
+   "auteur": "James Heilman, MD",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Hepaticfailure.jpg"
+  },
+  "clin-diphterie-membrane": {
+   "auteur": "User:Dileepunnikri",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Dirty_white_pseudomembrane_classically_seen_in_diphtheria_2013-07-06_11-07.jpg"
+  },
+  "clin-diphterie-cou": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Diphtheria_bull_neck.5325_lores.jpg"
+  },
+  "clin-scorbut": {
+   "auteur": "Centers for Disease Control and Prevention",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Scorbutic_gums.jpg"
+  },
+  "clin-pellagre": {
+   "auteur": "Dr James W Babcock (1856-1922)",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Pellagra_NIH.jpg"
+  },
+  "clin-poux": {
+   "auteur": "Aditya Suseno",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Head_Infested_With_Louse.jpg"
+  },
+  "clin-charbon": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Cutaneous_anthrax_lesion_on_the_neck._PHIL_1934_lores.jpg"
+  },
+  "clin-cellulite-orbitaire": {
+   "auteur": "Jonathan Trobe, M.D. - University of Michigan Kellogg Eye Center",
+   "licence": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Orbital_cellulitis.jpg"
+  },
+  "clin-pterygion": {
+   "auteur": "José Miguel Varas, MD",
+   "licence": "CC BY 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Pterygium_Slitlamp.jpg"
+  },
+  "clin-romana": {
+   "auteur": "Louis-Alexandre Romaña (PLOS NTD)",
+   "licence": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Signo_de_Roma%C3%B1a_pntd.0008836.g002_Modificado.jpg"
+  },
+  "clin-polio": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Polio_sequelle.jpg"
+  },
+  "clin-ulcere-tropical": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Tropical_ulcer.jpg"
+  },
+  "clin-fasciite": {
+   "auteur": "Piotr Smuszkiewicz, Iwona Trojanowska and Hanna Tomczak",
+   "licence": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Necrotizing_fasciitis_left_leg.JPEG"
+  },
+  "clin-scrofule": {
+   "auteur": "Auteur inconnu (Bramwell, 1893)",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Scrofula.jpeg"
+  },
+  "clin-pr-mains": {
+   "auteur": "User:Phoenix119",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Swan_neck_deformity_in_a_65_year_old_Rheumatoid_Arthritis_patient-_2014-05-27_01-49.jpg"
+  },
+  "clin-lupus": {
+   "auteur": "CNX OpenStax",
+   "licence": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Butterfly_rash_of_lupus_erythematosus.jpg"
+  },
+  "clin-burkitt": {
+   "auteur": "Mike Blyth",
+   "licence": "CC BY-SA 2.5",
+   "source": "https://commons.wikimedia.org/wiki/File:Large_facial_Burkitt%27s_Lymphoma.JPG"
+  },
+  "clin-retinoblastome": {
+   "auteur": "National Cancer Institute (NCI)",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Retinoblastoma.jpg"
   }
  },
  "normesAge": [
@@ -51170,7 +51305,34 @@
   "clin-leishmaniose-cut": "Leishmaniose cutanée : ulcère arrondi à bords surélevés",
   "clin-muguet": "Candidose buccale (muguet) : dépôts blancs sur la langue",
   "clin-cataracte": "Cataracte : opacité blanchâtre du cristallin derrière la pupille",
-  "clin-purpura-meningo": "Méningococcie : purpura (taches qui ne s'effacent pas à la pression)"
+  "clin-purpura-meningo": "Méningococcie : purpura (taches qui ne s'effacent pas à la pression)",
+  "clin-ascaris": "Ascaris : vers adultes (15 à 35 cm) expulsés dans les selles",
+  "clin-oma": "Otite moyenne aiguë débutante : tympan rouge, congestif",
+  "clin-brulure": "Brûlure du 2e degré superficiel : phlyctène (cloque) sur peau rouge",
+  "clin-paleur": "Pâleur cutanée de l'anémie (main de gauche) comparée à une main normale",
+  "clin-ulcere-cornee": "Ulcère de cornée (kératite bactérienne) coloré à la fluorescéine",
+  "clin-peste": "Peste bubonique : bubon inguinal (adénopathie volumineuse, douloureuse)",
+  "clin-perforation": "Otite chronique : large perforation du tympan",
+  "clin-nephrotique": "Œdèmes généralisés (anasarque) chez un enfant : syndrome néphrotique",
+  "clin-goutte": "Goutte chronique : tophus de la 1re articulation métatarso-phalangienne",
+  "clin-ascite": "Ascite massive (cirrhose avec hypertension portale)",
+  "clin-diphterie-membrane": "Diphtérie : fausse membrane blanc grisâtre adhérente sur les amygdales et le pharynx",
+  "clin-diphterie-cou": "Diphtérie : « cou proconsulaire » (gonflement massif du cou)",
+  "clin-scorbut": "Scorbut : gencives gonflées, violacées et hémorragiques",
+  "clin-pellagre": "Pellagre : dermatite des zones exposées au soleil (mains, visage)",
+  "clin-poux": "Pédiculose du cuir chevelu : lentes accrochées aux cheveux",
+  "clin-charbon": "Charbon cutané : escarre noire indolore entourée d'œdème",
+  "clin-cellulite-orbitaire": "Cellulite orbitaire : paupières rouges, très gonflées, œil fermé",
+  "clin-pterygion": "Ptérygion : voile de conjonctive épaissie envahissant la cornée",
+  "clin-romana": "Maladie de Chagas : signe de Romaña (œdème unilatéral des paupières)",
+  "clin-polio": "Séquelle de poliomyélite : membre inférieur atrophié et déformé",
+  "clin-ulcere-tropical": "Ulcère tropical phagédénique : ulcère profond à bords surélevés",
+  "clin-fasciite": "Fasciite nécrosante : érythème extensif, bulles et nécrose cutanée",
+  "clin-scrofule": "Adénite tuberculeuse cervicale (scrofule) fistulisée",
+  "clin-pr-mains": "Polyarthrite rhumatoïde : doigts en col de cygne",
+  "clin-lupus": "Lupus : érythème en ailes de papillon (joues et nez)",
+  "clin-burkitt": "Lymphome de Burkitt : tumeur de la mâchoire chez un enfant",
+  "clin-retinoblastome": "Rétinoblastome : leucocorie (reflet blanc de la pupille droite)"
  },
  "dateIsoCas": "2026-10-28",
  "casCliniques": [
@@ -52516,6 +52678,9 @@
       "rx-occlusion"
      ]
     }
+   ],
+   "imagesCliniques": [
+    "clin-ascaris"
    ]
   },
   {
@@ -52981,6 +53146,9 @@
      "examen": "Aucun examen (diagnostic à l'otoscope)",
      "resultat": "Tympan rouge, bombé, immobile, reliefs effacés ; otorrhée purulente si perforation"
     }
+   ],
+   "imagesCliniques": [
+    "clin-oma"
    ]
   },
   {
@@ -53828,6 +53996,9 @@
      "examen": "Prélèvement de plaie si infection",
      "resultat": "Infection : Staphylococcus aureus, Pseudomonas aeruginosa (pus verdâtre), streptocoque ; > 10⁵ germes/g de tissu sur biopsie"
     }
+   ],
+   "imagesCliniques": [
+    "clin-brulure"
    ]
   },
   {
@@ -54315,6 +54486,9 @@
    ],
    "autresCategories": [
     "urgences"
+   ],
+   "imagesCliniques": [
+    "clin-paleur"
    ]
   },
   {
@@ -56221,6 +56395,9 @@
      "examen": "Radiographie ou scanner de l'orbite",
      "resultat": "Corps étranger intraoculaire métallique, fracture du plancher de l'orbite"
     }
+   ],
+   "imagesCliniques": [
+    "clin-ulcere-cornee"
    ]
   },
   {
@@ -56856,6 +57033,9 @@
       "rx-pneumonie"
      ]
     }
+   ],
+   "imagesCliniques": [
+    "clin-peste"
    ]
   },
   {
@@ -59542,6 +59722,9 @@
      "examen": "Scanner du rocher (complication)",
      "resultat": "Cholestéatome, mastoïdite, abcès"
     }
+   ],
+   "imagesCliniques": [
+    "clin-perforation"
    ]
   },
   {
@@ -59762,6 +59945,9 @@
      "examen": "Échographie rénale",
      "resultat": "Reins de taille normale ou augmentée"
     }
+   ],
+   "imagesCliniques": [
+    "clin-nephrotique"
    ]
   },
   {
@@ -60231,6 +60417,9 @@
      "examen": "Radiographie (goutte chronique)",
      "resultat": "Encoches osseuses à l'emporte-pièce, tophus"
     }
+   ],
+   "imagesCliniques": [
+    "clin-goutte"
    ]
   },
   {
@@ -60325,6 +60514,9 @@
      "examen": "AgHBs, anti-VHC",
      "resultat": "AgHBs positif = cirrhose virale B ; anti-VHC positifs (ARN détectable) = cirrhose virale C"
     }
+   ],
+   "imagesCliniques": [
+    "clin-ascite"
    ]
   },
   {
@@ -61242,6 +61434,10 @@
       "ecg-bav"
      ]
     }
+   ],
+   "imagesCliniques": [
+    "clin-diphterie-membrane",
+    "clin-diphterie-cou"
    ]
   },
   {
@@ -61912,6 +62108,9 @@
      "examen": "Radiographie des os longs (enfant)",
      "resultat": "Hématomes sous-périostés, liseré dense des métaphyses"
     }
+   ],
+   "imagesCliniques": [
+    "clin-scorbut"
    ]
   },
   {
@@ -61965,6 +62164,9 @@
      "examen": "Aucun examen (diagnostic clinique)",
      "resultat": "Dermatite symétrique des zones exposées (collier de Casal), diarrhée, troubles psychiques ; amélioration rapide sous nicotinamide"
     }
+   ],
+   "imagesCliniques": [
+    "clin-pellagre"
    ]
   },
   {
@@ -62016,6 +62218,9 @@
      "examen": "Aucun examen (examen des cheveux)",
      "resultat": "Poux vivants ou lentes à moins de 1 cm du cuir chevelu = infestation active"
     }
+   ],
+   "imagesCliniques": [
+    "clin-poux"
    ]
   },
   {
@@ -62075,6 +62280,9 @@
      "examen": "Culture, PCR (laboratoire de référence)",
      "resultat": "Confirmation ; déclaration"
     }
+   ],
+   "imagesCliniques": [
+    "clin-charbon"
    ]
   },
   {
@@ -62367,6 +62575,9 @@
      "examen": "NFS, CRP, hémoculture",
      "resultat": "Syndrome inflammatoire, germe"
     }
+   ],
+   "imagesCliniques": [
+    "clin-cellulite-orbitaire"
    ]
   },
   {
@@ -62413,6 +62624,9 @@
      "examen": "Aucun examen (diagnostic clinique à la lampe)",
      "resultat": "Repli triangulaire charnu de la conjonctive, du côté nasal, empiétant sur la cornée"
     }
+   ],
+   "imagesCliniques": [
+    "clin-pterygion"
    ]
   },
   {
@@ -62540,6 +62754,9 @@
       "ecg-bav"
      ]
     }
+   ],
+   "imagesCliniques": [
+    "clin-romana"
    ]
   },
   {
@@ -62851,6 +63068,9 @@
      "examen": "Ponction lombaire (si faite)",
      "resultat": "LCR clair, légère pléiocytose, protéines modérément élevées"
     }
+   ],
+   "imagesCliniques": [
+    "clin-polio"
    ]
   },
   {
@@ -63500,6 +63720,9 @@
      "examen": "Radiographie (ulcère profond)",
      "resultat": "Ostéite sous-jacente"
     }
+   ],
+   "imagesCliniques": [
+    "clin-ulcere-tropical"
    ]
   },
   {
@@ -63577,6 +63800,9 @@
    ],
    "autresCategories": [
     "urgences"
+   ],
+   "imagesCliniques": [
+    "clin-fasciite"
    ]
   },
   {
@@ -64584,6 +64810,9 @@
      "examen": "LF-LAM urinaire (patient VIH)",
      "resultat": "Positif"
     }
+   ],
+   "imagesCliniques": [
+    "clin-scrofule"
    ]
   },
   {
@@ -67433,6 +67662,9 @@
       "rx-polyarthrite"
      ]
     }
+   ],
+   "imagesCliniques": [
+    "clin-pr-mains"
    ]
   },
   {
@@ -67516,6 +67748,9 @@
      "examen": "NFS, créatinine, bandelette urinaire, protéinurie",
      "resultat": "Cytopénies ; néphropathie lupique (protéinurie > 0,5 g/24 h, hématurie)"
     }
+   ],
+   "imagesCliniques": [
+    "clin-lupus"
    ]
   },
   {
@@ -68161,6 +68396,9 @@
      "examen": "Ponction lombaire et myélogramme",
      "resultat": "Envahissement du système nerveux ou de la moelle"
     }
+   ],
+   "imagesCliniques": [
+    "clin-burkitt"
    ]
   },
   {
@@ -68325,6 +68563,9 @@
      "examen": "Scanner ou IRM des orbites",
      "resultat": "Extension au nerf optique et à l'orbite"
     }
+   ],
+   "imagesCliniques": [
+    "clin-retinoblastome"
    ]
   },
   {
