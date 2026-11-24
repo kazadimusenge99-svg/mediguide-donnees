@@ -1,52 +1,33 @@
 {
- "dateActualites": "23 novembre 2026",
- "dateIsoActualites": "2026-11-23",
+ "dateActualites": "24 novembre 2026",
+ "dateIsoActualites": "2026-11-24",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · ÉTUDE DU LANCET GLOBAL HEALTH",
-   "titre": "Maladies chroniques",
-   "lieu": "Afrique · RDC",
-   "chiffre": "4,70 millions de décès par maladies non transmissibles en Afrique en 2023 (GBD 2023)",
-   "texte": "Selon l'analyse Global Burden of Disease 2023 pour l'Afrique, publiée dans le numéro de novembre 2026 de The Lancet Global Health, les maladies non transmissibles causent désormais environ 45 % des décès sur le continent. L'hypertension artérielle en est le premier facteur de risque modifiable.",
-   "details": [
-    "En 2023, les maladies non transmissibles ont causé 4,70 millions de décès en Afrique, soit environ 45 % des 10,48 millions de décès du continent, et 263 millions d'années de vie ajustées sur l'incapacité",
-    "Premières causes de décès : cardiopathie ischémique (801 000) et AVC (700 000), suivis de la maladie rénale chronique et de la cardiopathie hypertensive ; le poids du diabète et de la maladie rénale chronique augmente",
-    "57,4 % des décès par maladies non transmissibles sont attribuables à des facteurs de risque connus, d'abord la pression artérielle systolique élevée, puis l'alimentation (excès de sel notamment) et la pollution de l'air ; les troubles mentaux et musculosquelettiques dominent les années vécues avec une incapacité",
-    "Mesurer la tension de tout adulte à chaque consultation, quel qu'en soit le motif (patient assis 5 min, brassard adapté, 2 mesures) ; HTA si PA ≥ 140/90 mmHg confirmée à 2 visites ; rechercher aussi un diabète (glycémie) et une atteinte rénale (créatinine, bandelette urinaire)",
-    "Traitement simple selon le protocole HEARTS de l'OMS : amlodipine 5 mg en 1re intention, puis 10 mg ou association avec un IEC/sartan ou un thiazidique ; IEC ou sartan en priorité si diabète ou protéinurie ; objectif < 140/90 (< 130/80 si haut risque et bien toléré)",
-    "Pour tous : moins de 5 g de sel par jour (éviter les cubes de bouillon), activité physique, arrêt du tabac, moins d'alcool, et suivi régulier pour éviter les ruptures de traitement"
-   ],
-   "couleur": "#AD1457",
-   "icone": "❤️",
-   "pathologie": 42,
-   "source": "The Lancet Global Health, vol. 14, n° 11 (novembre 2026), GBD 2023 Africa NCD Collaborators (publication en ligne le 21/09/2026)",
-   "pictogramme": "coeur"
-  },
-  {
-   "etiquette": "DANS LE MONDE",
-   "titre": "VIH : rapport ONUSIDA",
-   "lieu": "Monde · Afrique subsaharienne",
+   "etiquette": "SUJET DU JOUR · RAPPORT DE L'ONUSIDA",
+   "titre": "VIH : l'accès d'abord",
+   "lieu": "Monde · Afrique subsaharienne · RDC",
    "chiffre": "1,2 million de nouvelles infections et 570 000 décès en 2025 (ONUSIDA)",
-   "texte": "À l'approche de la Journée mondiale du sida (1er décembre), l'ONUSIDA publie demain, 24 novembre, son rapport « Mettre fin au sida commence par l'accès », qui alerte sur des progrès inégaux et la baisse des financements.",
+   "texte": "À une semaine de la Journée mondiale du sida (1er décembre), l'ONUSIDA publie aujourd'hui, 24 novembre, son rapport « Mettre fin au sida commence par l'accès ». Il alerte sur des progrès inégaux et sur la baisse des financements, qui menace les acquis.",
    "details": [
-    "Depuis 2010, les nouvelles infections ont baissé de 42 % et les décès liés au sida de 57 %, mais le monde n'est pas sur la trajectoire de l'objectif 2030",
-    "En 2025, 1,2 million de personnes ont été infectées par le VIH et 570 000 sont mortes de maladies liées au sida (ONUSIDA)",
-    "Proposer le dépistage du VIH à chaque occasion : consultation prénatale, tuberculose, IST, malnutrition, hospitalisation",
-    "Tout résultat positif : traitement antirétroviral le jour même ou dans les 7 jours (TLD), dépistage de la tuberculose et des signes de maladie avancée, CD4 si disponible",
-    "Femme enceinte : dépistage, traitement immédiat et prophylaxie du nouveau-né pour éliminer la transmission mère-enfant"
+    "En 2025, 1,2 million de personnes ont été infectées par le VIH et 570 000 sont mortes de maladies liées au sida ; 32,1 millions de personnes reçoivent un traitement antirétroviral (ONUSIDA)",
+    "Environ 5 millions de personnes ignorent encore leur séropositivité et près de 9 millions n'ont pas accès au traitement ; l'Afrique subsaharienne reste la région la plus touchée",
+    "Proposer le dépistage du VIH à chaque occasion : consultation prénatale, tuberculose, IST, malnutrition, hospitalisation, violences sexuelles ; tout test réactif doit être confirmé selon l'algorithme national",
+    "Tout résultat positif : traitement antirétroviral le jour même ou dans les 7 jours (TLD : ténofovir + lamivudine + dolutégravir), dépistage de la tuberculose, recherche des signes de maladie avancée (CD4 < 200, stade 3 ou 4) et cotrimoxazole si indiqué",
+    "Suivre la charge virale (à 6 mois puis chaque année) et soutenir l'observance pour éviter les ruptures de traitement ; femme enceinte : traitement immédiat et prophylaxie du nouveau-né pour éliminer la transmission mère-enfant",
+    "Prévention : préservatifs, PrEP pour les personnes à risque élevé, PEP dans les 72 heures après une exposition"
    ],
    "couleur": "#C62828",
    "icone": "🎗️",
    "pathologie": 6,
-   "source": "ONUSIDA, avis aux médias du 19/11/2026 et page Journée mondiale du sida 2026 ; ONUSIDA, rapport de juillet 2026 (données 2025)",
+   "source": "ONUSIDA, avis aux médias du 19/11/2026 (lancement du rapport le 24/11/2026) et page Journée mondiale du sida 2026",
    "pictogramme": "ruban"
   },
   {
-   "etiquette": "JOURNÉE DU 25 NOVEMBRE",
+   "etiquette": "DEMAIN · 25 NOVEMBRE",
    "titre": "Violences sexuelles",
    "lieu": "Monde · RDC",
    "chiffre": "840 millions de femmes victimes de violences conjugales ou sexuelles (OMS, 2025)",
-   "texte": "Le 25 novembre, Journée internationale pour l'élimination de la violence à l'égard des femmes, ouvre 16 jours d'activisme jusqu'au 10 décembre. Selon l'OMS, près d'une femme sur trois a subi au cours de sa vie des violences de la part d'un partenaire ou des violences sexuelles.",
+   "texte": "Demain, 25 novembre, Journée internationale pour l'élimination de la violence à l'égard des femmes, s'ouvrent 16 jours d'activisme jusqu'au 10 décembre. Selon l'OMS, près d'une femme sur trois a subi au cours de sa vie des violences de la part d'un partenaire ou des violences sexuelles.",
    "details": [
     "Selon le rapport de l'OMS de novembre 2025, 840 millions de femmes ont subi des violences conjugales ou sexuelles au cours de leur vie, et 316 millions (11 % des femmes de 15 ans et plus) des violences d'un partenaire au cours des 12 derniers mois",
     "Le soignant est souvent le premier contact : écouter sans juger, croire, garantir la confidentialité, évaluer la sécurité et le risque suicidaire",
