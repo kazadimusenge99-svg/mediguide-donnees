@@ -1,6 +1,6 @@
 {
- "version": 97,
- "dateMiseAJour": "2026-10-31",
+ "version": 98,
+ "dateMiseAJour": "2026-11-24",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
   "OMS – Lignes directrices pour le paludisme",
@@ -49267,6 +49267,206 @@
    "auteur": "Arnold Kaufman (annotations en français : MédiGuide)",
    "licence": "CC0",
    "source": "https://commons.wikimedia.org/wiki/File:Gram_stain_of_Streptococcus_pneumoniae.jpg"
+  },
+  "clin-rougeole-eruption": {
+   "auteur": "CDC/NIP/Barbara Rice",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:RougeoleDP.jpg"
+  },
+  "clin-rougeole-koplik": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Koplik_spots,_measles_6111_lores.jpg"
+  },
+  "clin-rougeole-enfant": {
+   "auteur": "Mike Blyth",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Measles_in_African_Child.jpg"
+  },
+  "clin-varicelle": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Chickenpox.jpg"
+  },
+  "clin-zona": {
+   "auteur": "Gentgeen (Wikimedia Commons)",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Herpes_zoster_neck.png"
+  },
+  "clin-mpox-2": {
+   "auteur": "CDC/ Brian W.J. Mahy",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:12783_lores.jpg"
+  },
+  "clin-mpox-1": {
+   "auteur": "CDC/ Brian W.J. Mahy",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Monkeypox_12761.jpg"
+  },
+  "clin-mpox-3": {
+   "auteur": "CDC/ Brian W.J. Mahy",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:12779_lores.jpg"
+  },
+  "clin-gale-main": {
+   "auteur": "Taofeeq Abdulkareem",
+   "licence": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Scabies_infection_on_an_adult_hand.jpg"
+  },
+  "clin-gale-doigts": {
+   "auteur": "Gzzz",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Scabies_hand_and_fingers_1.jpg"
+  },
+  "clin-teigne-tondante": {
+   "auteur": "Gzzz",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Teigne_tondante_enfant.jpg"
+  },
+  "clin-herpes-circine": {
+   "auteur": "CDC/ Dr. Lucille K. Georg",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Ringworm_on_the_arm,_or_tinea_corporis_due_to_Trichophyton_mentagrophytes_PHIL_2938_lores.jpg"
+  },
+  "clin-pityriasis-versicolor": {
+   "auteur": "Grook Da Oger",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Pityriasis_versicolor_frontal_originale.jpg"
+  },
+  "clin-erysipele": {
+   "auteur": "Grook Da Oger",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%C3%89rysip%C3%A8le_jambe-_Leg_erysipelas.jpg"
+  },
+  "clin-kwashiorkor": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Kwashiorkor_6180.jpg"
+  },
+  "clin-marasme": {
+   "auteur": "CDC/ Don Eddins",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Starved_child.jpg"
+  },
+  "clin-lepre": {
+   "auteur": "US Department of Health and Human Services",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Leprosy_thigh_demarcated_cutaneous_lesions.jpg"
+  },
+  "clin-buruli": {
+   "auteur": "George Amofah et al. (Emerging Infectious Diseases, CDC)",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Buruli_ulcer_left_ankle_EID.jpg"
+  },
+  "clin-pian-1": {
+   "auteur": "Michael Marks",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:10.1177_0956462414549036-fig4-Secondary_yaws-_multiple_small_ulcerative_lesions.jpg"
+  },
+  "clin-pian-2": {
+   "auteur": "Auteurs de l'étude (Wikimedia Commons)",
+   "licence": "CC BY 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Plantar_yaws_lesions_%E2%80%93_deep_punched-out_erosions.jpg"
+  },
+  "clin-syphilis-chancre": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Primary_stage_syphilis_sore_(chancre)_on_the_surface_of_a_tongue-CDC.jpg"
+  },
+  "clin-syphilis-paumes": {
+   "auteur": "CDC/ Robert Sumpter",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Secondary_Syphilis_on_palms_CDC_6809_lores.rsh.jpg"
+  },
+  "clin-herpes-labial": {
+   "auteur": "Wikimedia Commons",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Herpes_labialis_-_opryszczka_wargowa.jpg"
+  },
+  "clin-conjonctivite": {
+   "auteur": "Aykhan Zayedzadeh",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Conjunctivitis_eye_2026_1.jpg"
+  },
+  "clin-goitre": {
+   "auteur": "Martin Finborud",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Kone_med_stor_struma.jpg"
+  },
+  "clin-kaposi": {
+   "auteur": "National Cancer Institute (auteur inconnu)",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Kaposi%27s_Sarcoma.jpg"
+  },
+  "clin-oreillons": {
+   "auteur": "Heinrich Weingaertner",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Mumps.jpg"
+  },
+  "clin-tetanos-neonatal": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Neonatal_tetanus_6374.jpg"
+  },
+  "clin-tetanos": {
+   "auteur": "CDC",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:PHIL_tetanus.jpg"
+  },
+  "clin-noma": {
+   "auteur": "PLoS (Wikimedia Commons)",
+   "licence": "CC BY 2.5",
+   "source": "https://commons.wikimedia.org/wiki/File:Noma_(cancrum_oris)_case_(PLoS).jpg"
+  },
+  "clin-elephantiasis": {
+   "auteur": "Sakaori (Wikimedia Commons)",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Elephantiasis_of_the_legs_due_to_filariasis._Hachijo-Kojima_Island.jpg"
+  },
+  "clin-loa-loa": {
+   "auteur": "Nathan Reading",
+   "licence": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Adult_female_Loa_loa_filarial_worm_-_Extracted_from_a_patient%27s_conjunctiva_in_the_left_eye_-_(1).jpg"
+  },
+  "clin-ictere-nn": {
+   "auteur": "Dr. Hudson",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Jaundice_in_newborn.jpg"
+  },
+  "clin-acne": {
+   "auteur": "Sedef94",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%C3%9Czd%C9%99_d%C3%BCy%C3%BCnl%C3%BC_v%C9%99_kistik_s%C4%B1zanaqlar_(Acne_Vulgaris)_12.jpg"
+  },
+  "clin-eczema": {
+   "auteur": "Eisfelder (Wikipédia allemande)",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Atopic_dermatitis_child.JPG"
+  },
+  "clin-urticaire": {
+   "auteur": "Allergyresearch",
+   "licence": "CC BY-SA 4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Hives_Urticaria.jpg"
+  },
+  "clin-leishmaniose-cut": {
+   "auteur": "Layne Harris",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Leishmaniasis_ulcer.jpg"
+  },
+  "clin-muguet": {
+   "auteur": "James Heilman, MD",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Human_tongue_infected_with_oral_candidiasis.jpg"
+  },
+  "clin-cataracte": {
+   "auteur": "Rakesh Ahuja, MD",
+   "licence": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Cataract_in_human_eye.png"
+  },
+  "clin-purpura-meningo": {
+   "auteur": "Глей А.І., Шкурба А.В.",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B2%D0%B8%D1%81%D0%B8%D0%BF_%D0%BD%D0%B0_%D0%BA%D0%B8%D1%81%D1%82%D1%96_%D0%BF%D1%80%D0%B8_%D0%BC%D0%B5%D0%BD%D1%96%D0%BD%D0%B3%D0%BE%D0%BA%D0%BE%D0%BA%D1%86%D0%B5%D0%BC%D1%96%D1%97.jpg"
   }
  },
  "normesAge": [
@@ -50930,7 +51130,47 @@
   "fo-papille": "Fond d'œil réel : œdème papillaire",
   "fo-cmv": "Fond d'œil réel : rétinite à CMV (« pizza »)",
   "fo-hta": "Fond d'œil réel : rétinopathie hypertensive",
-  "photo-retinoblastome": "Photo clinique : leucocorie (reflet blanc de la pupille) du rétinoblastome"
+  "photo-retinoblastome": "Photo clinique : leucocorie (reflet blanc de la pupille) du rétinoblastome",
+  "clin-rougeole-eruption": "Rougeole : éruption maculo-papuleuse généralisée, débutant au visage",
+  "clin-rougeole-koplik": "Rougeole : signe de Koplik (petits points blancs sur la muqueuse de la joue)",
+  "clin-rougeole-enfant": "Rougeole : éruption en voie de desquamation, yeux larmoyants (conjonctivite)",
+  "clin-varicelle": "Varicelle : vésicules et croûtes d'âges différents, visage et tronc",
+  "clin-zona": "Zona : vésicules groupées sur le trajet d'un nerf, d'un seul côté",
+  "clin-mpox-2": "Mpox : lésions profondes, toutes au même stade, sur le visage",
+  "clin-mpox-1": "Mpox : pustules ombiliquées sur les mains et les paumes",
+  "clin-mpox-3": "Mpox : lésions disséminées sur le bras et le tronc",
+  "clin-gale-main": "Gale : papules et sillons entre les doigts et sur le bord des mains",
+  "clin-gale-doigts": "Gale : papules grattées sur la paume et entre les doigts",
+  "clin-teigne-tondante": "Teigne du cuir chevelu : plaque d'alopécie squameuse, cheveux cassés",
+  "clin-herpes-circine": "Dermatophytie (herpès circiné) : plaque arrondie à bordure active",
+  "clin-pityriasis-versicolor": "Pityriasis versicolor : petites taches dépigmentées, finement squameuses",
+  "clin-erysipele": "Érysipèle : placard rouge, chaud, douloureux et bien limité de la jambe",
+  "clin-kwashiorkor": "Kwashiorkor : œdème du visage (« visage lunaire »), cheveux décolorés",
+  "clin-marasme": "Marasme : fonte musculaire et graisseuse extrême, côtes visibles",
+  "clin-lepre": "Lèpre : plaques hypopigmentées bien limitées (rechercher l'anesthésie)",
+  "clin-buruli": "Ulcère de Buruli : ulcère peu douloureux à bords décollés (cheville)",
+  "clin-pian-1": "Pian secondaire : petites lésions ulcérées et croûteuses de la jambe",
+  "clin-pian-2": "Pian : lésions plantaires creusées (érosions profondes)",
+  "clin-syphilis-chancre": "Syphilis primaire : chancre indolore et induré (ici sur la langue)",
+  "clin-syphilis-paumes": "Syphilis secondaire : macules cuivrées et squameuses des paumes",
+  "clin-herpes-labial": "Herpès labial : vésicules groupées puis croûtes au bord des lèvres",
+  "clin-conjonctivite": "Conjonctivite : œil rouge, larmoiement, vision conservée",
+  "clin-goitre": "Goitre : augmentation de volume de la thyroïde à l'avant du cou",
+  "clin-kaposi": "Sarcome de Kaposi : macules et nodules violacés (VIH)",
+  "clin-oreillons": "Oreillons : gonflement des parotides, sous et devant les oreilles",
+  "clin-tetanos-neonatal": "Tétanos néonatal : raideur généralisée, dos arqué (opisthotonos)",
+  "clin-tetanos": "Tétanos : contractures et opisthotonos (dos arqué)",
+  "clin-noma": "Noma : destruction des tissus de la bouche et du visage (séquelles)",
+  "clin-elephantiasis": "Filariose lymphatique : éléphantiasis des deux jambes",
+  "clin-loa-loa": "Loase : ver adulte (Loa loa) extrait de la conjonctive",
+  "clin-ictere-nn": "Ictère du nouveau-né : coloration jaune de la peau et du blanc des yeux",
+  "clin-acne": "Acné : papules, pustules et comédons du visage",
+  "clin-eczema": "Eczéma atopique : plaques rouges, sèches et grattées",
+  "clin-urticaire": "Urticaire : plaques rouges en relief, fugaces et qui démangent",
+  "clin-leishmaniose-cut": "Leishmaniose cutanée : ulcère arrondi à bords surélevés",
+  "clin-muguet": "Candidose buccale (muguet) : dépôts blancs sur la langue",
+  "clin-cataracte": "Cataracte : opacité blanchâtre du cristallin derrière la pupille",
+  "clin-purpura-meningo": "Méningococcie : purpura (taches qui ne s'effacent pas à la pression)"
  },
  "dateIsoCas": "2026-10-28",
  "casCliniques": [
@@ -51693,6 +51933,9 @@
    ],
    "autresCategories": [
     "urgences"
+   ],
+   "imagesCliniques": [
+    "clin-purpura-meningo"
    ]
   },
   {
@@ -51966,6 +52209,10 @@
    ],
    "autresCategories": [
     "urgences"
+   ],
+   "imagesCliniques": [
+    "clin-tetanos-neonatal",
+    "clin-tetanos"
    ]
   },
   {
@@ -52350,6 +52597,11 @@
       "rx-pneumonie"
      ]
     }
+   ],
+   "imagesCliniques": [
+    "clin-rougeole-eruption",
+    "clin-rougeole-koplik",
+    "clin-rougeole-enfant"
    ]
   },
   {
@@ -53257,6 +53509,10 @@
      "examen": "PCR herpès (si disponible)",
      "resultat": "HSV-2 dans les vésicules ou ulcérations douloureuses"
     }
+   ],
+   "imagesCliniques": [
+    "clin-syphilis-chancre",
+    "clin-syphilis-paumes"
    ]
   },
   {
@@ -53405,6 +53661,10 @@
      "examen": "Aucun examen (diagnostic clinique)",
      "resultat": "Sillons entre les doigts et aux poignets, vésicules perlées, prurit à prédominance nocturne, plusieurs cas dans la famille ; grattage (si fait) : sarcopte ou œufs"
     }
+   ],
+   "imagesCliniques": [
+    "clin-gale-main",
+    "clin-gale-doigts"
    ]
   },
   {
@@ -53486,6 +53746,9 @@
      "examen": "Glycémie (infections récidivantes)",
      "resultat": "Glycémie à jeun ≥ 1,26 g/l ou au hasard ≥ 2 g/l = diabète favorisant les infections récidivantes"
     }
+   ],
+   "imagesCliniques": [
+    "clin-erysipele"
    ]
   },
   {
@@ -53635,6 +53898,9 @@
      "examen": "Gram et culture (nouveau-né, conjonctivite purulente grave)",
      "resultat": "Gonocoque (diplocoques Gram négatif) ou chlamydia"
     }
+   ],
+   "imagesCliniques": [
+    "clin-conjonctivite"
    ]
   },
   {
@@ -53734,6 +54000,10 @@
      "examen": "Ionogramme (si disponible)",
      "resultat": "Hypokaliémie, hyponatrémie"
     }
+   ],
+   "imagesCliniques": [
+    "clin-kwashiorkor",
+    "clin-marasme"
    ]
   },
   {
@@ -56505,6 +56775,11 @@
      "examen": "Test VIH, syphilis",
      "resultat": "VIH positif = forme plus grave du mpox (ARV) ; TPHA/VDRL positifs = syphilis associée"
     }
+   ],
+   "imagesCliniques": [
+    "clin-mpox-2",
+    "clin-mpox-1",
+    "clin-mpox-3"
    ]
   },
   {
@@ -56738,6 +57013,10 @@
      "examen": "Échographie scrotale (filariose lymphatique)",
      "resultat": "« Danse des filaires » dans les vaisseaux lymphatiques"
     }
+   ],
+   "imagesCliniques": [
+    "clin-elephantiasis",
+    "clin-loa-loa"
    ]
   },
   {
@@ -56802,6 +57081,9 @@
      "examen": "Coloration de Ziehl-Neelsen",
      "resultat": "BAAR (sensibilité faible)"
     }
+   ],
+   "imagesCliniques": [
+    "clin-buruli"
    ]
   },
   {
@@ -56868,6 +57150,9 @@
      "examen": "Examen de la sensibilité (clinique)",
      "resultat": "Plaque hypopigmentée anesthésique, nerfs hypertrophiés"
     }
+   ],
+   "imagesCliniques": [
+    "clin-lepre"
    ]
   },
   {
@@ -57235,6 +57520,9 @@
      "examen": "Test VIH",
      "resultat": "Candidose buccale de l'adulte ou œsophagienne = stade avancé"
     }
+   ],
+   "imagesCliniques": [
+    "clin-muguet"
    ]
   },
   {
@@ -57597,6 +57885,9 @@
      "examen": "Hémoculture si l'enfant est malade",
      "resultat": "Hémoculture positive (streptocoque B, E. coli, Klebsiella) = ictère infectieux"
     }
+   ],
+   "imagesCliniques": [
+    "clin-ictere-nn"
    ]
   },
   {
@@ -58578,6 +58869,11 @@
      "examen": "Lampe de Wood (teignes)",
      "resultat": "Fluorescence verte (Microsporum)"
     }
+   ],
+   "imagesCliniques": [
+    "clin-teigne-tondante",
+    "clin-herpes-circine",
+    "clin-pityriasis-versicolor"
    ]
   },
   {
@@ -58646,6 +58942,9 @@
      "examen": "Patch-tests (eczéma de contact, si disponible)",
      "resultat": "Positif à l'allergène en cause"
     }
+   ],
+   "imagesCliniques": [
+    "clin-eczema"
    ]
   },
   {
@@ -58709,6 +59008,9 @@
      "examen": "Urticaire chronique (> 6 semaines)",
      "resultat": "NFS (éosinophilie : parasites), selles, TSH, CRP selon le contexte"
     }
+   ],
+   "imagesCliniques": [
+    "clin-urticaire"
    ]
   },
   {
@@ -58782,6 +59084,10 @@
      "examen": "Test VIH (zona de l'adulte jeune)",
      "resultat": "Le zona peut révéler une infection à VIH"
     }
+   ],
+   "imagesCliniques": [
+    "clin-varicelle",
+    "clin-zona"
    ]
   },
   {
@@ -59363,6 +59669,9 @@
      "examen": "Test VIH, Hb, glycémie, état nutritionnel",
      "resultat": "Test VIH positif, Hb basse, glycémie basse, périmètre brachial < 115 mm (enfant) = terrain du noma"
     }
+   ],
+   "imagesCliniques": [
+    "clin-noma"
    ]
   },
   {
@@ -59769,6 +60078,9 @@
      "examen": "Échographie thyroïdienne (goitre, nodule)",
      "resultat": "Goitre diffus ou nodulaire ; nodule suspect (hypoéchogène, microcalcifications) : cytoponction"
     }
+   ],
+   "imagesCliniques": [
+    "clin-goitre"
    ]
   },
   {
@@ -61818,6 +62130,10 @@
      "examen": "PCR de la lésion (si disponible)",
      "resultat": "Treponema pallidum subsp. pertenue"
     }
+   ],
+   "imagesCliniques": [
+    "clin-pian-1",
+    "clin-pian-2"
    ]
   },
   {
@@ -61880,6 +62196,9 @@
      "examen": "PCR HSV (forme atypique, nouveau-né, immunodéprimé)",
      "resultat": "ADN du virus herpès simplex (HSV-1 ou HSV-2) détecté"
     }
+   ],
+   "imagesCliniques": [
+    "clin-herpes-labial"
    ]
   },
   {
@@ -62152,6 +62471,9 @@
      "examen": "Bilan préopératoire",
      "resultat": "Glycémie, tension ; échographie oculaire si fond d'œil invisible ; biométrie pour l'implant"
     }
+   ],
+   "imagesCliniques": [
+    "clin-cataracte"
    ]
   },
   {
@@ -62274,6 +62596,9 @@
      "examen": "PCR (si disponible)",
      "resultat": "Identification de l'espèce"
     }
+   ],
+   "imagesCliniques": [
+    "clin-leishmaniose-cut"
    ]
   },
   {
@@ -66051,6 +66376,9 @@
      "examen": "Bilan avant l'isotrétinoïne",
      "resultat": "Test de grossesse (mensuel), transaminases, lipides"
     }
+   ],
+   "imagesCliniques": [
+    "clin-acne"
    ]
   },
   {
@@ -67630,6 +67958,9 @@
      "examen": "Ponction lombaire (céphalées, raideur)",
      "resultat": "Méningite lymphocytaire"
     }
+   ],
+   "imagesCliniques": [
+    "clin-oreillons"
    ]
   },
   {
@@ -68456,6 +68787,9 @@
      "examen": "Radiographie du thorax, endoscopie (atteinte viscérale)",
      "resultat": "Opacités nodulaires et péri-bronchiques ; lésions digestives violacées"
     }
+   ],
+   "imagesCliniques": [
+    "clin-kaposi"
    ]
   },
   {

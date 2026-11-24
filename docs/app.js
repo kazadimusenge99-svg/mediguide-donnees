@@ -455,6 +455,20 @@ function paraclinique(p) {
       ${imgs.length ? `<div class="ex-galerie">${imgs.map((n) => fig(n, e)).join("")}</div>${imgs.length > 1 ? `<div class="petit">${imgs.length} images — faire défiler →</div>` : ""}` : ""}</div>`;
     }).join("")}</div><p class="petit">Images réelles : Wikimedia Commons, licences libres (auteur et licence sous chaque image). Schémas : MédiGuide.</p></div>`;
 }
+// Aspect clinique : photos réelles typiques (rougeole, mpox, gale, kwashiorkor…), légende française et crédit
+const IMG_CLINIQUE = (n) => `img/cliniques/${n}.webp`;
+function aspectClinique(p) {
+  const imgs = p.imagesCliniques || [];
+  if (!imgs.length) return "";
+  const cr = D.creditsImages || {}, lg = D.legendesImages || {};
+  return `<div class="section"><h3>📷 Aspect clinique typique</h3><div class="ex-galerie">${imgs.map((n) => {
+      const c = cr[n], leg = lg[n] || "";
+      const credit = c ? `${esc(c.auteur)} — ${esc(c.licence)} — <a href="${esc(c.source)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : "";
+      return `<figure class="ex-fig"><a href="${IMG_CLINIQUE(n)}" target="_blank" rel="noopener"><img src="${IMG_CLINIQUE(n)}" loading="lazy" alt="${esc(leg)}"></a>
+        <figcaption><b>${esc(leg)}</b><br><span>${credit}</span></figcaption></figure>`;
+    }).join("")}</div>${imgs.length > 1 ? `<div class="petit">${imgs.length} images — faire défiler →</div>` : ""}
+    <p class="petit">Photos à visée pédagogique : l'aspect varie selon la couleur de peau et le stade de la maladie.</p></div>`;
+}
 function fichePatho(p) {
   noterRecent("p:" + p.id);
   const c = D.catParId[p.categorie];
@@ -466,6 +480,7 @@ function fichePatho(p) {
     <p>${esc(p.resume)}</p>
     ${p.physiopathologie ? `<div class="section"><h3>🔬 Physiopathologie</h3><div>${esc(p.physiopathologie)}</div></div>` : ""}
     ${liste("Signes cliniques", p.signes, "🧑")}
+    ${aspectClinique(p)}
     <div id="s-diag">${liste("Diagnostic", p.diagnostic, "🔎")}</div>
     <div id="s-ttt">${liste("Traitement", p.traitement, "💊", "ok")}
     ${meds.length ? `<div class="section"><h3>💊 Médicaments</h3><div class="liens">${meds.map((m) => `<a class="lien" href="#/med/${m.id}">${esc(m.dci)}</a>`).join("")}</div></div>` : ""}</div>
@@ -778,6 +793,7 @@ async function prechargerImages() {
   const noms = new Set();
   D.pathologies.forEach((p) => (p.paraclinique || []).forEach((e) => (e.images || (e.image ? [e.image] : [])).forEach((n) => noms.add("img/examens/" + n + ".webp"))));
   ((D.quizImages || {}).questions || []).forEach((q) => noms.add("img/quiz/" + q.image + ".webp"));
+  D.pathologies.forEach((p) => (p.imagesCliniques || []).forEach((n) => noms.add("img/cliniques/" + n + ".webp")));
   let echecs = 0;
   for (const u of noms) {
     try { if (!(await caches.match(u))) { const r = await fetch(u); if (!r.ok) echecs++; } } catch { echecs++; }
