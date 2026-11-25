@@ -1,44 +1,44 @@
 {
- "dateActualites": "24 novembre 2026",
- "dateIsoActualites": "2026-11-24",
+ "dateActualites": "25 novembre 2026",
+ "dateIsoActualites": "2026-11-25",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · RAPPORT DE L'ONUSIDA",
-   "titre": "VIH : l'accès d'abord",
-   "lieu": "Monde · Afrique subsaharienne · RDC",
-   "chiffre": "1,2 million de nouvelles infections et 570 000 décès en 2025 (ONUSIDA)",
-   "texte": "À une semaine de la Journée mondiale du sida (1er décembre), l'ONUSIDA publie aujourd'hui, 24 novembre, son rapport « Mettre fin au sida commence par l'accès ». Il alerte sur des progrès inégaux et sur la baisse des financements, qui menace les acquis.",
-   "details": [
-    "En 2025, 1,2 million de personnes ont été infectées par le VIH et 570 000 sont mortes de maladies liées au sida ; 32,1 millions de personnes reçoivent un traitement antirétroviral (ONUSIDA)",
-    "Environ 5 millions de personnes ignorent encore leur séropositivité et près de 9 millions n'ont pas accès au traitement ; l'Afrique subsaharienne reste la région la plus touchée",
-    "Proposer le dépistage du VIH à chaque occasion : consultation prénatale, tuberculose, IST, malnutrition, hospitalisation, violences sexuelles ; tout test réactif doit être confirmé selon l'algorithme national",
-    "Tout résultat positif : traitement antirétroviral le jour même ou dans les 7 jours (TLD : ténofovir + lamivudine + dolutégravir), dépistage de la tuberculose, recherche des signes de maladie avancée (CD4 < 200, stade 3 ou 4) et cotrimoxazole si indiqué",
-    "Suivre la charge virale (à 6 mois puis chaque année) et soutenir l'observance pour éviter les ruptures de traitement ; femme enceinte : traitement immédiat et prophylaxie du nouveau-né pour éliminer la transmission mère-enfant",
-    "Prévention : préservatifs, PrEP pour les personnes à risque élevé, PEP dans les 72 heures après une exposition"
-   ],
-   "couleur": "#C62828",
-   "icone": "🎗️",
-   "pathologie": 6,
-   "source": "ONUSIDA, avis aux médias du 19/11/2026 (lancement du rapport le 24/11/2026) et page Journée mondiale du sida 2026",
-   "pictogramme": "ruban"
-  },
-  {
-   "etiquette": "DEMAIN · 25 NOVEMBRE",
+   "etiquette": "SUJET DU JOUR · JOURNÉE CONTRE LA VIOLENCE À L'ÉGARD DES FEMMES",
    "titre": "Violences sexuelles",
-   "lieu": "Monde · RDC",
-   "chiffre": "840 millions de femmes victimes de violences conjugales ou sexuelles (OMS, 2025)",
-   "texte": "Demain, 25 novembre, Journée internationale pour l'élimination de la violence à l'égard des femmes, s'ouvrent 16 jours d'activisme jusqu'au 10 décembre. Selon l'OMS, près d'une femme sur trois a subi au cours de sa vie des violences de la part d'un partenaire ou des violences sexuelles.",
+   "lieu": "Monde · RDC (Est en particulier)",
+   "chiffre": "Près d'une femme sur trois victime de violences conjugales ou sexuelles (OMS, 2025)",
+   "texte": "Aujourd'hui, 25 novembre, Journée internationale pour l'élimination de la violence à l'égard des femmes, s'ouvrent les 16 jours d'activisme (jusqu'au 10 décembre) sur le thème « Garantir la justice, protéger les victimes, mettre fin à l'impunité ». En RDC, les violences sexuelles restent massives, surtout dans l'Est en conflit.",
    "details": [
-    "Selon le rapport de l'OMS de novembre 2025, 840 millions de femmes ont subi des violences conjugales ou sexuelles au cours de leur vie, et 316 millions (11 % des femmes de 15 ans et plus) des violences d'un partenaire au cours des 12 derniers mois",
-    "Le soignant est souvent le premier contact : écouter sans juger, croire, garantir la confidentialité, évaluer la sécurité et le risque suicidaire",
-    "Après un viol, prise en charge urgente dans les 72 heures : PEP VIH (TLD pendant 28 jours), contraception d'urgence (jusqu'à 120 h), prévention des IST, vaccination hépatite B et antitétanique selon le statut",
-    "Soutien psychologique, orientation vers les services sociaux, juridiques et de protection avec l'accord de la victime ; le certificat médical est gratuit en RDC"
+    "Selon l'OMS (rapport de novembre 2025), 840 millions de femmes ont subi au cours de leur vie des violences de la part d'un partenaire ou des violences sexuelles, soit près d'une sur trois",
+    "En RDC, les structures soutenues par MSF ont pris en charge environ 53 000 victimes de violences sexuelles en 2025 (45 000 en 2024) ; au Nord-Kivu, plus de 19 400 au premier semestre 2026, mais MSF signale une baisse de 41 % des consultations de janvier à août 2026 liée à des restrictions d'accès aux soins",
+    "Le soignant est souvent le premier contact : accueillir en privé, écouter sans juger, croire, garantir la confidentialité, évaluer la sécurité et le risque suicidaire, respecter les choix de la personne",
+    "Après un viol, c'est une urgence dans les 72 heures : PEP VIH (TLD pendant 28 jours), contraception d'urgence (DIU au cuivre jusqu'à 5 jours, ulipristal jusqu'à 120 h ou lévonorgestrel), prévention des IST (ceftriaxone + azithromycine ± métronidazole), vaccination hépatite B et antitétanique selon le statut",
+    "Soins des plaies, premiers secours psychologiques, certificat médical gratuit remis à la victime, orientation avec son accord vers les services psychosociaux, juridiques et de protection ; enfant : protection de l'enfance",
+    "Suivi à 2 semaines, 6 semaines, 3 et 6 mois (tests VIH et syphilis, grossesse, vaccination, santé mentale) ; même après 72 heures, la prise en charge reste utile"
    ],
    "couleur": "#4A148C",
    "icone": "🟠",
    "pathologie": 181,
-   "source": "OMS, rapport sur la violence à l'égard des femmes du 19/11/2025 ; ONU, Journée internationale du 25 novembre",
+   "source": "ONU, Journée internationale du 25/11/2026 et campagne des 16 jours 2026 ; OMS, rapport sur la violence à l'égard des femmes du 19/11/2025 ; MSF, communiqués de 2026 sur les violences sexuelles en RDC",
    "pictogramme": "bouclier"
+  },
+  {
+   "etiquette": "NOUVELLE ANALYSE IPC",
+   "titre": "Faim record en RDC",
+   "lieu": "RDC · Nord-Kivu, Sud-Kivu, Ituri en tête",
+   "chiffre": "28,8 millions de personnes en insécurité alimentaire aiguë (IPC, 12/11/2026)",
+   "texte": "La 25e analyse IPC, présentée le 12 novembre à Kinshasa, estime que 28,8 millions de personnes (23 % de la population) sont en insécurité alimentaire aiguë de septembre à décembre 2026 ; conflits et Ebola aggravent la crise.",
+   "details": [
+    "Environ 3 millions de personnes en phase d'urgence ; Nord-Kivu, Sud-Kivu et Ituri regroupent environ 10,4 millions de personnes en phase 3 ou plus",
+    "Projection : 30,3 millions de personnes en insécurité alimentaire aiguë de janvier à juin 2027",
+    "Dépister chaque enfant de 6 à 59 mois (PB, œdèmes, poids/taille) : PB < 115 mm ou œdèmes bilatéraux = malnutrition aiguë sévère ; complications ou test de l'appétit négatif = hospitalisation",
+    "MAS sans complication : ATPE, amoxicilline, suivi hebdomadaire ; vérifier la vaccination (rougeole) et traiter le paludisme : les enfants malnutris sont plus exposés au choléra, à la rougeole et au paludisme grave"
+   ],
+   "couleur": "#E65100",
+   "icone": "🥣",
+   "pathologie": 30,
+   "source": "IPC, 25e cycle d'analyse présenté le 12/11/2026 (Radio Okapi du 13/11/2026 ; Actualite.cd du 14/11/2026)",
+   "pictogramme": "pomme"
   },
   {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
@@ -68,6 +68,7 @@
    "texte": "L'OMS qualifie l'épidémie de choléra en RDC de pire depuis des décennies ; en semaine 44, 2 083 nouveaux cas et 46 décès, avec des cas le long du fleuve Congo et à Kinshasa.",
    "details": [
     "Cumul 2026 à la semaine 44 : 65 698 cas suspects et 1 892 décès ; semaine 44 : 2 083 cas (−4,7 % par rapport à la semaine 43) et 46 décès, létalité 2,2 % ; Nord-Kivu, Sud-Kivu, Haut-Katanga, Haut-Lomami et Tanganyika en tête",
+    "Sud-Kivu en semaine 46 : 584 cas et 7 décès (en légère hausse) ; cumul 2026 de la province : 18 942 cas suspects et 325 décès",
     "Kinshasa : 3 cas signalés à Kingabwa début novembre ; campagne de vaccination orale visant environ 2 millions de personnes à Kinshasa et à Brazzaville",
     "Réhydratation précoce (SRO ; Ringer lactate si déshydratation sévère), azithromycine ou doxycycline dans les formes sévères, zinc chez l'enfant",
     "Chloration de l'eau, désinfection des selles et vomissements (solutions chlorées 0,05 % et 0,5 %), notification immédiate de tout cas suspect"
@@ -75,7 +76,7 @@
    "couleur": "#0277BD",
    "icone": "💧",
    "pathologie": 19,
-   "source": "OMS, rapport de situation de la semaine 44 (Reporter.cd, vers le 17/11/2026) ; OMS, déclaration du 04/11/2026 ; allAfrica du 06/11 et du 11/11/2026 (Kinshasa)",
+   "source": "OMS, rapport de situation de la semaine 44 (Reporter.cd, vers le 17/11/2026) ; OMS, déclaration du 04/11/2026 ; allAfrica du 06/11 et du 11/11/2026 (Kinshasa) ; Sud-Kivu, données de la semaine 46 (23/11/2026)",
    "pictogramme": "goutte"
   },
   {
@@ -113,23 +114,6 @@
    "pathologie": 2,
    "source": "MSF, communiqué du 26/10/2026",
    "pictogramme": "moustique"
-  },
-  {
-   "etiquette": "SITUATION HUMANITAIRE",
-   "titre": "Malnutrition infantile",
-   "lieu": "RDC · Nord-Kivu",
-   "chiffre": "26 millions de personnes en insécurité alimentaire",
-   "texte": "Plus de 33 000 enfants malnutris pris en charge de janvier à août 2026 dans cinq structures soutenues par MSF au Nord-Kivu.",
-   "details": [
-    "Près de 4 millions de personnes en crise alimentaire au Nord-Kivu",
-    "Dépister chaque enfant (PB, œdèmes) : PB < 115 mm ou œdèmes bilatéraux = malnutrition aiguë sévère",
-    "Les enfants malnutris sont plus exposés à la rougeole, au choléra et au paludisme grave : vérifier la vaccination"
-   ],
-   "couleur": "#E65100",
-   "icone": "🥣",
-   "pathologie": 30,
-   "source": "MSF, communiqué du 26/10/2026",
-   "pictogramme": "pomme"
   }
  ]
 }
