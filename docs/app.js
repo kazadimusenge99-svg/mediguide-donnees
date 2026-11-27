@@ -509,11 +509,10 @@ function paraclinique(p) {
 }
 // Aspect clinique : photos réelles typiques (rougeole, mpox, gale, kwashiorkor…), légende française et crédit
 const IMG_CLINIQUE = (n) => `img/cliniques/${n}.webp`;
-function aspectClinique(p) {
-  const imgs = p.imagesCliniques || [];
-  if (!imgs.length) return "";
+function galerieClinique(imgs, titre) {
+  if (!imgs || !imgs.length) return "";
   const cr = D.creditsImages || {}, lg = D.legendesImages || {};
-  return `<div class="section"><h3>📷 Aspect clinique typique</h3><div class="ex-galerie">${imgs.map((n) => {
+  return `<div class="section"><h3>📷 ${esc(titre)}</h3><div class="ex-galerie">${imgs.map((n) => {
       const c = cr[n], leg = lg[n] || "";
       const credit = c ? `${esc(c.auteur)} — ${esc(c.licence)} — <a href="${esc(c.source)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : "";
       return `<figure class="ex-fig"><a href="${IMG_CLINIQUE(n)}" target="_blank" rel="noopener"><img src="${IMG_CLINIQUE(n)}" loading="lazy" alt="${esc(leg)}"></a>
@@ -521,6 +520,7 @@ function aspectClinique(p) {
     }).join("")}</div>${imgs.length > 1 ? `<div class="petit">${imgs.length} images — faire défiler →</div>` : ""}
     <p class="petit">Photos à visée pédagogique : l'aspect varie selon la couleur de peau et le stade de la maladie.</p></div>`;
 }
+const aspectClinique = (p) => galerieClinique(p.imagesCliniques, "Aspect clinique typique");
 function fichePatho(p) {
   noterRecent("p:" + p.id);
   const c = D.catParId[p.categorie];
@@ -567,6 +567,7 @@ const estAttention = (c) => /^(attention|remarque)/i.test(c);
 function blocDisp(b, coul, calc = true) {
   const p = calc ? poids() : null;
   const titre = b.titre ? `<h3 style="color:${esc(coul)}">${esc(b.titre)}</h3>` : "";
+  if (b.type === "images") return galerieClinique(b.noms, b.titre || "Photos");
   if (b.type === "liste") return titre + `<div class="section"><ul>${b.elements.map((e) => `<li>${texteDoses(e, p)}</li>`).join("")}</ul></div>`;
   if (b.type === "tableau") {
     let corps;
