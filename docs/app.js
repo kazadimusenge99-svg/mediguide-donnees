@@ -192,7 +192,7 @@ function texteDoses(t, p, gras = true) {
 // ---------------------------------------------------------------------------
 // Fiche en plein écran et taille du texte (surtout pour l'ordinateur)
 // ---------------------------------------------------------------------------
-const ROUTES_FICHE = ["med", "patho", "sympt", "disp", "rep", "mat", "exam", "proto", "score"];
+const ROUTES_FICHE = ["med", "patho", "sympt", "disp", "rep", "sem", "mat", "exam", "proto", "score"];
 const ZOOMS = [0.9, 1, 1.15, 1.3, 1.5, 1.75, 2];
 function appliquerZoom() { document.documentElement.style.setProperty("--zoom-fiche", sto.get("zoom-fiche", 1)); }
 function changerZoom(sens) {
@@ -238,14 +238,14 @@ function router() {
   const [, route = "accueil", a = "", b = ""] = location.hash.split("/");
   document.querySelectorAll(".menu a").forEach((x) => x.classList.toggle("actif", x.dataset.r === route ||
     (x.dataset.r === "medicaments" && route === "med") || (x.dataset.r === "pathologies" && route === "patho") ||
-    (x.dataset.r === "symptomes" && route === "sympt") || (x.dataset.r === "dispensaire" && route === "disp") || (x.dataset.r === "reperes" && route === "rep") || (x.dataset.r === "materiel" && route === "mat") || (x.dataset.r === "examens" && route === "exam") ||
+    (x.dataset.r === "symptomes" && route === "sympt") || (x.dataset.r === "dispensaire" && route === "disp") || (x.dataset.r === "reperes" && route === "rep") || (x.dataset.r === "semiologie" && route === "sem") || (x.dataset.r === "materiel" && route === "mat") || (x.dataset.r === "examens" && route === "exam") ||
     (x.dataset.r === "scores" && route === "score") || (x.dataset.r === "protocoles" && route === "proto")));
   $("#menu").classList.remove("ouvert");
   if (route !== "recherche") $("#champRecherche").value = "";
   const r = decodeURIComponent(a), r2 = decodeURIComponent(b);
   const vues = { accueil, recherche, sujet, medicaments, med: medicaments, pathologies, patho: pathologies, symptomes, sympt: symptomes,
     urgences: (r) => { catPatho = "urgences"; filtrePatho = ""; pathologies("pathologies"); },
-    dispensaire, disp: dispensaire, reperes, rep: reperes, materiel, mat: materiel, examens, exam: examens, croissance, quiz, protocoles, proto: protocoles, scores, score: scores, cas, apropos, interactions, patient };
+    dispensaire, disp: dispensaire, reperes, rep: reperes, semiologie, sem: semiologie, materiel, mat: materiel, examens, exam: examens, croissance, quiz, protocoles, proto: protocoles, scores, score: scores, cas, apropos, interactions, patient };
   (vues[route] || accueil)(route, r, r2);
   if (route !== "recherche") window.scrollTo(0, 0);
 }
@@ -283,6 +283,7 @@ function accueil() {
     ["#/pathologies", "🩺", "Pathologies", `${D.pathologies.length} fiches`],
     ["#/symptomes", "🤒", "Symptômes", `${(D.symptomes || []).length} motifs`],
     ["#/examens", "🧪", "Examens paracliniques", "Quoi demander, quoi attendre"],
+    ["#/semiologie", "🔎", "Sémiologie", `${(D.semiologie || []).length} chapitres`],
     ["#/croissance", "📈", "Courbes de croissance", "OMS et Fenton"],
     ["#/quiz", "❓", "Quiz et cas cliniques", "Formation"],
   ];
@@ -324,6 +325,7 @@ const OUTILS_RECH = [
   ["#/dispensaire", "🧭", "Que faire devant…", "Outil", "conduite pratique dispensaire"],
   ["#/examens", "🧪", "Examens paracliniques", "Outil", "examens biologie laboratoire imagerie"],
   ["#/reperes", "🩺", "Repères cliniques", "Signes vitaux, couveuse, besoins hydriques", "signes vitaux normaux frequence tension temperature couveuse besoins hydriques nouveau-ne"],
+  ["#/semiologie", "🔎", "Sémiologie", "Examen clinique par appareil", "semiologie examen clinique signes syndromes inspection palpation percussion auscultation interrogatoire observation"],
   ["#/materiel", "💉", "Matériel et consommables", "Cathéters, sondes, fils, oxygène", "materiel catheter abbocath sonde fil suture aiguille seringue oxygene masque bavu"],
   ["#/quiz", "❓", "Quiz", "Formation", "quiz formation images ecg radio"],
   ["#/cas", "🎓", "Cas cliniques", "Formation", "cas cliniques"],
@@ -339,6 +341,7 @@ function outilsTrouves(q) {
   (D.dispensaire || []).forEach((c) => { const r = test(c.titre, c.intro || ""); if (r) res.push(["#/disp/" + encodeURIComponent(c.id), picto(c.pictogramme), c.titre, "Que faire devant…", r]); });
   (D.examens || []).forEach((c) => { const r = test(c.titre, c.intro || ""); if (r) res.push(["#/exam/" + encodeURIComponent(c.id), "🧪", c.titre, "Examens paracliniques", r]); });
   (D.reperes || []).forEach((c) => { const r = test(c.titre, c.intro || ""); if (r) res.push(["#/rep/" + encodeURIComponent(c.id), picto(c.pictogramme), c.titre, "Repères cliniques", r]); });
+  (D.semiologie || []).forEach((c) => { const r = test(c.titre, c.intro + " " + c.blocs.map((b) => (b.titre || "") + " " + (b.lignes || []).map((l) => l[0]).join(" ")).join(" ")); if (r) res.push(["#/sem/" + encodeURIComponent(c.id), picto(c.pictogramme), c.titre, "Sémiologie", r]); });
   (D.materiel || []).forEach((c) => { const r = test(c.titre, c.intro + " " + c.blocs.map((b) => b.titre).join(" ")); if (r) res.push(["#/mat/" + encodeURIComponent(c.id), picto(c.pictogramme), c.titre, "Matériel et consommables", r]); });
   return res.sort((a, b) => b[4] - a[4]);
 }
@@ -587,6 +590,9 @@ const SECTIONS_CHAP = {
   reperes: { cle: "reperes", chap: "rep", titre: "Repères cliniques",
     sous: "Signes vitaux normaux selon l'âge ; couveuse et besoins hydriques du nouveau-né.",
     pied: "Valeurs de référence OMS, PCIME et sociétés savantes. Voir aussi « Patient en cours » pour les valeurs de l'âge du patient." },
+  semiologie: { cle: "semiologie", chap: "sem", titre: "Sémiologie",
+    sous: "L'examen clinique pas à pas : interrogatoire, examen par appareil, signes à rechercher, syndromes et check-lists.",
+    pied: "Plan inspiré des manuels de sémiologie médicale par appareil (dont B. Coustet, Sémiologie médicale) ; textes rédigés pour MédiGuide et adaptés au contexte de la RDC." },
   materiel: { cle: "materiel", chap: "mat", titre: "Matériel et consommables",
     sous: "Choisir la bonne taille de cathéter, de sonde, de fil ou de masque, et bien utiliser le petit matériel.",
     pied: "Le matériel stérile est à usage unique. Les tailles sont indicatives : adapter au patient." },
@@ -614,6 +620,7 @@ function sectionChapitres(sec, id) {
 }
 const dispensaire = (route, id) => sectionChapitres(SECTIONS_CHAP.dispensaire, route === "disp" ? id : null);
 const reperes = (route, id) => sectionChapitres(SECTIONS_CHAP.reperes, route === "rep" ? id : null);
+const semiologie = (route, id) => sectionChapitres(SECTIONS_CHAP.semiologie, route === "sem" ? id : null);
 const materiel = (route, id) => sectionChapitres(SECTIONS_CHAP.materiel, route === "mat" ? id : null);
 
 // ---------------------------------------------------------------------------
