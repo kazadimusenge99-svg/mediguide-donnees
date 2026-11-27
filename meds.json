@@ -1,5 +1,5 @@
 {
- "version": 102,
+ "version": 103,
  "dateMiseAJour": "2026-11-24",
  "sources": [
   "Liste modèle OMS des médicaments essentiels (2025)",
@@ -46846,6 +46846,124 @@
       ]
      ],
      "note": ""
+    },
+    {
+     "type": "liste",
+     "titre": "Lire un ECG : méthode",
+     "elements": [
+      "Toujours le même ordre : rythme, fréquence, axe, onde P, PR, QRS, repolarisation (ST, T, QT) ; comparer aux valeurs normales ci-dessus.",
+      "Papier à 25 mm/s : un petit carreau = 0,04 s, un grand carreau = 0,20 s.",
+      "Rythme sinusal : une onde P avant chaque QRS, régulière. Pas d'onde P et rythme irrégulier : fibrillation atriale.",
+      "Fréquence : 300 divisé par le nombre de grands carreaux entre deux QRS, ou nombre de QRS sur 10 s × 6.",
+      "Axe normal : QRS positif en DI et en aVF."
+     ]
+    },
+    {
+     "type": "liste",
+     "titre": "Lire une radiographie du thorax : méthode",
+     "elements": [
+      "Qualité : bonne inspiration (6 arcs costaux antérieurs au-dessus de la coupole droite), bon centrage (clavicules symétriques par rapport aux épineuses), vertèbres devinées derrière le cœur.",
+      "Puis toujours dans l'ordre : os et parties molles, coupoles (air sous la coupole = perforation digestive), culs-de-sac, médiastin et trachée, cœur (index cardio-thoracique > 0,5 = cardiomégalie), hiles, poumons en comparant les deux côtés.",
+      "Lire tout le cliché même après avoir trouvé une lésion : une deuxième anomalie passe facilement inaperçue."
+     ]
+    },
+    {
+     "type": "tableau",
+     "titre": "Radiographie du thorax : images à reconnaître",
+     "colonnes": [
+      "Image",
+      "Évoque"
+     ],
+     "lignes": [
+      [
+       "Opacité homogène d'un lobe avec bronchogramme aérien",
+       "Pneumonie lobaire"
+      ],
+      [
+       "Infiltrats et cavernes des sommets",
+       "Tuberculose pulmonaire"
+      ],
+      [
+       "Multiples petits nodules de 1 à 2 mm dans les deux poumons",
+       "Tuberculose miliaire"
+      ],
+      [
+       "Opacité de la base effaçant le cul-de-sac, à limite concave en haut",
+       "Épanchement pleural"
+      ],
+      [
+       "Hyperclarté sans trame vasculaire avec ligne pleurale visible",
+       "Pneumothorax"
+      ],
+      [
+       "Opacités péri-hilaires en ailes de papillon, lignes de Kerley",
+       "Œdème pulmonaire"
+      ],
+      [
+       "Cavité avec niveau liquide horizontal",
+       "Abcès pulmonaire"
+      ],
+      [
+       "Cœur augmenté de volume, globuleux « en carafe »",
+       "Épanchement péricardique"
+      ]
+     ]
+    },
+    {
+     "type": "tableau",
+     "titre": "Abdomen sans préparation : images à reconnaître",
+     "colonnes": [
+      "Image",
+      "Évoque"
+     ],
+     "lignes": [
+      [
+       "Croissant clair sous les coupoles (cliché debout)",
+       "Pneumopéritoine : perforation d'un organe creux"
+      ],
+      [
+       "Niveaux hydro-aériques plus larges que hauts, centraux",
+       "Occlusion du grêle"
+      ],
+      [
+       "Niveaux plus hauts que larges, en périphérie",
+       "Occlusion du côlon"
+      ],
+      [
+       "Image en « grain de café » géant",
+       "Volvulus du sigmoïde"
+      ],
+      [
+       "Calcifications vésicales en coquille",
+       "Bilharziose urinaire"
+      ]
+     ]
+    },
+    {
+     "type": "tableau",
+     "titre": "Échographie au lit du malade : questions simples",
+     "colonnes": [
+      "Question",
+      "Ce qu'on cherche"
+     ],
+     "lignes": [
+      [
+       "Liquide dans le ventre ?",
+       "Épanchement autour du foie, de la rate, dans le Douglas : hémopéritoine, ascite"
+      ],
+      [
+       "Grossesse intra-utérine ?",
+       "Sac dans l'utérus ; utérus vide, test positif et liquide = grossesse extra-utérine probable"
+      ],
+      [
+       "Épanchement péricardique ?",
+       "Liquide autour du cœur ; tamponnade si le cœur droit est comprimé"
+      ],
+      [
+       "Reins dilatés ?",
+       "Hydronéphrose (obstacle)"
+      ]
+     ]
     }
    ]
   },
@@ -71712,8 +71830,8 @@
    "groupe": "Bases de l'examen clinique",
    "pictogramme": "douleur",
    "couleur": "#5D4037",
-   "titre": "Fièvre, douleur, amaigrissement",
-   "intro": "Trois plaintes très fréquentes et peu spécifiques. Leur analyse précise (allure, terrain, signes associés) oriente plus qu'un examen complémentaire demandé au hasard.",
+   "titre": "Allures de la fièvre et types de douleur",
+   "intro": "L'allure d'une fièvre et le type d'une douleur orientent avant tout examen complémentaire. La conduite devant une fièvre, une douleur ou un amaigrissement est dans « Partir d'un symptôme ».",
    "blocs": [
     {
      "type": "tableau",
@@ -71756,17 +71874,6 @@
       ]
      ],
      "note": "En zone d'endémie, toute fièvre impose d'abord un test du paludisme, sans s'arrêter là s'il est positif et que le tableau ne s'explique pas."
-    },
-    {
-     "type": "liste",
-     "titre": "Devant une fièvre, rechercher",
-     "elements": [
-      "Frissons (bactériémie, paludisme), sueurs nocturnes (tuberculose, lymphome).",
-      "Foyer : gorge, oreilles, poumons, urines, peau, méninges, abdomen, os et articulations.",
-      "Contexte : voyage, contage, eau non potable, piqûres, rapports sexuels non protégés, soins récents.",
-      "Terrain fragile : nourrisson, femme enceinte, drépanocytaire, VIH, diabète, sujet âgé.",
-      "Signes de gravité : voir Examen général ; purpura fébrile = urgence absolue."
-     ]
     },
     {
      "type": "tableau",
@@ -71815,14 +71922,21 @@
      ]
     },
     {
-     "type": "liste",
-     "titre": "Amaigrissement : questions clés",
-     "elements": [
-      "Chiffrer : poids antérieur, délai. Une perte > 5 % en 1 mois ou > 10 % en 6 mois est significative.",
-      "Appétit conservé (diabète, hyperthyroïdie, malabsorption, vers) ou perdu (cancer, infection chronique, dépression).",
-      "Signes associés : fièvre et sueurs (tuberculose, VIH, lymphome), diarrhée chronique, soif et polyurie, toux, dysphagie.",
-      "Accès à la nourriture, alcool, isolement, état dentaire.",
-      "Examens simples : test VIH, glycémie, NFS, VS, radiographie du thorax, recherche de BK si toux."
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "sympt",
+       "id": "fievre"
+      },
+      {
+       "type": "sympt",
+       "id": "douleur"
+      },
+      {
+       "type": "sympt",
+       "id": "amaigrissement"
+      }
      ]
     }
    ]
@@ -71889,6 +72003,24 @@
       "Respiration lente, irrégulière, gasps.",
       "Chute de la TA chez l'enfant (signe tardif : l'enfant compense longtemps par la tachycardie).",
       "Trouble de conscience qui s'aggrave, pupilles dilatées."
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "disp",
+       "id": "choc"
+      },
+      {
+       "type": "score",
+       "id": "glasgow"
+      },
+      {
+       "type": "score",
+       "id": "blantyre"
+      }
      ]
     }
    ]
@@ -72001,36 +72133,6 @@
     },
     {
      "type": "tableau",
-     "titre": "Syndromes",
-     "colonnes": [
-      "Syndrome",
-      "Éléments évocateurs"
-     ],
-     "lignes": [
-      [
-       "Insuffisance cardiaque gauche",
-       "Dyspnée d'effort puis orthopnée, crépitants aux deux bases, galop, tachycardie"
-      ],
-      [
-       "Insuffisance cardiaque droite",
-       "Œdèmes des jambes, turgescence jugulaire, reflux hépato-jugulaire, hépatomégalie douloureuse, ascite"
-      ],
-      [
-       "Syndrome coronarien aigu",
-       "Douleur constrictive rétrosternale > 20 min, irradiation au bras gauche ou à la mâchoire, sueurs ; l'ECG confirme"
-      ],
-      [
-       "Tamponnade",
-       "Dyspnée, TA basse, turgescence jugulaire, bruits assourdis, pouls paradoxal (baisse de la TA > 10 mmHg à l'inspiration)"
-      ],
-      [
-       "Choc cardiogénique",
-       "TA basse, extrémités froides, marbrures, oligurie, crépitants pulmonaires"
-      ]
-     ]
-    },
-    {
-     "type": "tableau",
      "titre": "Pouls anormaux",
      "colonnes": [
       "Pouls",
@@ -72077,6 +72179,40 @@
       "Auscultation des 4 foyers, puis latéral gauche et penché en avant.",
       "Auscultation pulmonaire (crépitants).",
       "Pouls périphériques (fémoraux, pédieux)."
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "patho",
+       "id": 43
+      },
+      {
+       "type": "patho",
+       "id": 242
+      },
+      {
+       "type": "patho",
+       "id": 47
+      },
+      {
+       "type": "patho",
+       "id": 203
+      },
+      {
+       "type": "sympt",
+       "id": "douleur-thoracique"
+      },
+      {
+       "type": "sympt",
+       "id": "palpitations"
+      },
+      {
+       "type": "sympt",
+       "id": "dyspnee"
+      }
      ]
     }
    ]
@@ -72161,14 +72297,17 @@
      ]
     },
     {
-     "type": "liste",
-     "titre": "Retentissement de l'HTA (à chercher chez tout hypertendu)",
-     "elements": [
-      "Cœur : dyspnée, signes d'insuffisance cardiaque, ECG.",
-      "Rein : protéinurie à la bandelette, créatinine.",
-      "Cerveau : antécédent d'AVC ou d'accident transitoire, troubles de mémoire.",
-      "Yeux : baisse de vision, fond d'œil si disponible.",
-      "Artères : pouls des membres inférieurs."
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "patho",
+       "id": 42
+      },
+      {
+       "type": "patho",
+       "id": 48
+      }
      ]
     }
    ]
@@ -72296,33 +72435,6 @@
      ]
     },
     {
-     "type": "tableau",
-     "titre": "Chez l'enfant (PCIME)",
-     "colonnes": [
-      "Élément",
-      "Seuil ou signe"
-     ],
-     "lignes": [
-      [
-       "Respiration rapide",
-       "< 2 mois : ≥ 60/min · 2 à 12 mois : ≥ 50/min · 1 à 5 ans : ≥ 40/min"
-      ],
-      [
-       "Pneumonie",
-       "Toux ou difficulté respiratoire + respiration rapide ou tirage sous-costal"
-      ],
-      [
-       "Pneumonie grave",
-       "Signe général de danger, stridor au repos, SpO₂ < 90 %, cyanose centrale, geignement, battement des ailes du nez (nourrisson)"
-      ],
-      [
-       "Sifflement",
-       "Asthme ou bronchiolite : réévaluer après un bronchodilatateur"
-      ]
-     ],
-     "note": "Compter la respiration pendant une minute entière, enfant calme, de préférence pendant qu'il tète ou dort."
-    },
-    {
      "type": "liste",
      "titre": "Check-list",
      "elements": [
@@ -72330,8 +72442,29 @@
       "Vibrations vocales comparées.",
       "Percussion de haut en bas, comparée.",
       "Auscultation : murmure, bruits surajoutés, comparée, en faisant tousser.",
-      "Trachée (position), adénopathies sus-claviculaires.",
-      "Toux > 2 semaines : crachats pour BK (GeneXpert)."
+      "Trachée (position), adénopathies sus-claviculaires."
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "sympt",
+       "id": "toux"
+      },
+      {
+       "type": "sympt",
+       "id": "dyspnee"
+      },
+      {
+       "type": "sympt",
+       "id": "hemoptysie"
+      },
+      {
+       "type": "disp",
+       "id": "toux"
+      }
      ]
     }
    ]
@@ -72438,40 +72571,6 @@
      ]
     },
     {
-     "type": "tableau",
-     "titre": "Syndromes",
-     "colonnes": [
-      "Syndrome",
-      "Éléments évocateurs"
-     ],
-     "lignes": [
-      [
-       "Péritonite",
-       "Douleur intense, contracture abdominale, fièvre, vomissements ; disparition de la matité du foie si perforation"
-      ],
-      [
-       "Occlusion intestinale",
-       "Douleur en crises, vomissements, arrêt des matières et des gaz, ventre ballonné et tympanique"
-      ],
-      [
-       "Hémorragie digestive",
-       "Hématémèse ou méléna, pâleur, tachycardie, TA basse ; chercher alcool, AINS, ulcère, varices œsophagiennes"
-      ],
-      [
-       "Syndrome dysentérique",
-       "Selles nombreuses glairo-sanglantes, épreintes (fausses envies douloureuses), ténesme (shigellose, amibiase)"
-      ],
-      [
-       "Syndrome cholériforme",
-       "Diarrhée aqueuse très abondante sans fièvre, déshydratation rapide"
-      ],
-      [
-       "Syndrome ulcéreux",
-       "Douleur épigastrique en crampe, rythmée par les repas, calmée par l'alimentation (ulcère duodénal)"
-      ]
-     ]
-    },
-    {
      "type": "liste",
      "titre": "Les 9 régions de l'abdomen",
      "elements": [
@@ -72492,6 +72591,48 @@
       "Orifices herniaires.",
       "Toucher rectal si douleur, saignement ou trouble du transit."
      ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "patho",
+       "id": 60
+      },
+      {
+       "type": "patho",
+       "id": 243
+      },
+      {
+       "type": "patho",
+       "id": 49
+      },
+      {
+       "type": "patho",
+       "id": 20
+      },
+      {
+       "type": "patho",
+       "id": 19
+      },
+      {
+       "type": "sympt",
+       "id": "douleur-abdominale"
+      },
+      {
+       "type": "sympt",
+       "id": "diarrhee"
+      },
+      {
+       "type": "sympt",
+       "id": "vomissements"
+      },
+      {
+       "type": "sympt",
+       "id": "sang-digestif"
+      }
+     ]
     }
    ]
   },
@@ -72503,32 +72644,6 @@
    "titre": "Foie et voies biliaires",
    "intro": "Ictère, ascite et gros foie sont les signes principaux. En RDC, les causes les plus fréquentes sont les hépatites virales B et C, l'alcool, le paludisme, les médicaments et la bilharziose.",
    "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Analyse d'un ictère",
-     "colonnes": [
-      "Type",
-      "Arguments cliniques",
-      "Causes fréquentes"
-     ],
-     "lignes": [
-      [
-       "Hémolytique (bilirubine libre)",
-       "Ictère modéré, pâleur, urines foncées sans selles décolorées, splénomégalie",
-       "Paludisme, drépanocytose, déficit en G6PD, réaction transfusionnelle"
-      ],
-      [
-       "Hépatocellulaire",
-       "Asthénie, anorexie, fièvre au début, foie sensible",
-       "Hépatites virales, alcool, médicaments (INH, rifampicine, paracétamol en surdose), fièvre jaune"
-      ],
-      [
-       "Cholestatique (obstruction)",
-       "Urines foncées, selles décolorées, démangeaisons, vésicule parfois palpable",
-       "Calculs, cancer de la tête du pancréas, compression ; fièvre + frissons + ictère = angiocholite (urgence)"
-      ]
-     ]
-    },
     {
      "type": "tableau",
      "titre": "Signes d'insuffisance hépatique et d'hypertension portale",
@@ -72582,12 +72697,48 @@
     },
     {
      "type": "liste",
-     "titre": "Caractères d'un gros foie à décrire",
+     "titre": "Décrire un gros foie",
      "elements": [
-      "Flèche hépatique, bord inférieur (mousse ou tranchant), surface (lisse ou nodulaire), consistance (souple, ferme, dure, pierreuse), sensibilité.",
-      "Foie dur, nodulaire, irrégulier chez un porteur de l'hépatite B : carcinome hépatocellulaire jusqu'à preuve du contraire.",
-      "Foie douloureux et fébrile, douleur à l'ébranlement : abcès amibien du foie.",
-      "Foie gros, lisse, douloureux avec turgescence jugulaire : foie cardiaque."
+      "Flèche hépatique sur la ligne médio-claviculaire (normale : 10 à 12 cm chez l'adulte), bord inférieur (mousse ou tranchant), surface (lisse ou nodulaire), consistance (souple, ferme, dure), sensibilité.",
+      "Rechercher en même temps une grosse rate, une ascite, une circulation collatérale et des adénopathies."
+     ]
+    },
+    {
+     "type": "tableau",
+     "titre": "Gros foie, grosse rate : orientation",
+     "colonnes": [
+      "Tableau",
+      "Causes à évoquer"
+     ],
+     "lignes": [
+      [
+       "Gros foie douloureux et fébrile",
+       "Abcès amibien, hépatite aiguë, angiocholite"
+      ],
+      [
+       "Gros foie dur, nodulaire",
+       "Carcinome hépatocellulaire (hépatite B), métastases, cirrhose"
+      ],
+      [
+       "Gros foie lisse avec turgescence jugulaire",
+       "Foie cardiaque, péricardite constrictive (tuberculose)"
+      ],
+      [
+       "Grosse rate fébrile aiguë",
+       "Paludisme, typhoïde, septicémie, endocardite"
+      ],
+      [
+       "Grosse rate chronique importante",
+       "Paludisme chronique (splénomégalie palustre hyperimmune), leishmaniose viscérale, leucémie myéloïde chronique, bilharziose"
+      ],
+      [
+       "Grosse rate avec ictère et anémie",
+       "Hémolyse : paludisme, drépanocytose du jeune enfant, déficit en G6PD"
+      ],
+      [
+       "Foie, rate et ganglions augmentés",
+       "Lymphome, leucémie, VIH, tuberculose disséminée, trypanosomiase"
+      ]
      ]
     },
     {
@@ -72595,6 +72746,20 @@
      "titre": "Aspect clinique en photos",
      "noms": [
       "clin-ascite"
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "patho",
+       "id": 121
+      },
+      {
+       "type": "sympt",
+       "id": "ictere"
+      }
      ]
     }
    ]
@@ -72672,33 +72837,37 @@
      ]
     },
     {
-     "type": "tableau",
-     "titre": "Syndromes",
-     "colonnes": [
-      "Syndrome",
-      "Éléments évocateurs"
-     ],
-     "lignes": [
-      [
-       "Syndrome néphrotique",
-       "Œdèmes, protéinurie massive, urines mousseuses ; chez l'enfant, souvent sensible aux corticoïdes"
-      ],
-      [
-       "Syndrome néphritique",
-       "Hématurie (urines coca), œdèmes, HTA, oligurie ; après une angine ou une infection cutanée (glomérulonéphrite)"
-      ],
-      [
-       "Insuffisance rénale chronique",
-       "Pâleur, prurit, nausées, HTA, haleine urémique, crampes ; créatinine élevée, reins petits à l'échographie"
-      ],
-      [
-       "Infection urinaire basse",
-       "Brûlures, pollakiurie, sans fièvre"
-      ],
-      [
-       "Pyélonéphrite",
-       "Fièvre, frissons, douleur lombaire unilatérale, ébranlement douloureux"
-      ]
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "patho",
+       "id": 25
+      },
+      {
+       "type": "patho",
+       "id": 104
+      },
+      {
+       "type": "patho",
+       "id": 105
+      },
+      {
+       "type": "patho",
+       "id": 106
+      },
+      {
+       "type": "patho",
+       "id": 211
+      },
+      {
+       "type": "sympt",
+       "id": "urinaire"
+      },
+      {
+       "type": "sympt",
+       "id": "polyurie"
+      }
      ]
     }
    ]
@@ -72745,34 +72914,25 @@
      ]
     },
     {
-     "type": "tableau",
-     "titre": "Orientation devant des leucorrhées",
-     "colonnes": [
-      "Aspect",
-      "Signes associés",
-      "Évoque"
-     ],
-     "lignes": [
-      [
-       "Blanches, épaisses, « lait caillé »",
-       "Démangeaisons, vulve rouge",
-       "Candidose"
-      ],
-      [
-       "Grisâtres, odeur de poisson",
-       "Peu d'irritation",
-       "Vaginose bactérienne"
-      ],
-      [
-       "Jaune-vert, mousseuses",
-       "Irritation, col framboisé",
-       "Trichomonase"
-      ],
-      [
-       "Purulentes du col",
-       "Douleur pelvienne, fièvre, col douloureux",
-       "Gonocoque, chlamydia ; infection génitale haute si douleur à la mobilisation"
-      ]
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "patho",
+       "id": 23
+      },
+      {
+       "type": "patho",
+       "id": 157
+      },
+      {
+       "type": "sympt",
+       "id": "ecoulement-genital"
+      },
+      {
+       "type": "sympt",
+       "id": "retard-regles"
+      }
      ]
     }
    ]
@@ -72799,48 +72959,6 @@
      ]
     },
     {
-     "type": "tableau",
-     "titre": "Signes d'alerte : référer",
-     "colonnes": [
-      "Signe",
-      "Penser à"
-     ],
-     "lignes": [
-      [
-       "Saignement vaginal au 1er trimestre avec douleur",
-       "Fausse couche, grossesse extra-utérine (choc possible)"
-      ],
-      [
-       "Saignement au 3e trimestre",
-       "Placenta prævia (indolore, rouge) ; hématome rétroplacentaire (douloureux, utérus dur) — pas de toucher vaginal avant l'échographie si prævia possible"
-      ],
-      [
-       "Maux de tête, troubles visuels, douleur épigastrique, TA élevée",
-       "Pré-éclampsie sévère, risque d'éclampsie"
-      ],
-      [
-       "Convulsions",
-       "Éclampsie (sulfate de magnésium)"
-      ],
-      [
-       "Perte de liquide clair",
-       "Rupture prématurée des membranes"
-      ],
-      [
-       "Fièvre",
-       "Paludisme, infection urinaire, chorioamniotite"
-      ],
-      [
-       "Diminution des mouvements fœtaux",
-       "Souffrance ou mort fœtale"
-      ],
-      [
-       "Contractions régulières avant 37 SA",
-       "Menace d'accouchement prématuré"
-      ]
-     ]
-    },
-    {
      "type": "liste",
      "titre": "Pendant le travail",
      "elements": [
@@ -72848,6 +72966,36 @@
       "Remplir le partogramme ; franchissement de la ligne d'alerte = travail trop lent, rechercher une disproportion.",
       "Bruits du cœur fœtal toutes les 30 minutes (toutes les 5 minutes pendant l'expulsion), surtout après une contraction.",
       "Liquide amniotique teinté de méconium : souffrance fœtale possible."
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "patho",
+       "id": 34
+      },
+      {
+       "type": "patho",
+       "id": 261
+      },
+      {
+       "type": "patho",
+       "id": 85
+      },
+      {
+       "type": "patho",
+       "id": 87
+      },
+      {
+       "type": "disp",
+       "id": "saignement-grossesse"
+      },
+      {
+       "type": "disp",
+       "id": "hta-grossesse"
+      }
      ]
     }
    ]
@@ -72870,29 +73018,6 @@
       "Déficit : quel membre, depuis quand ; troubles de la parole, de la vision, de l'équilibre.",
       "Terrain : HTA, diabète, VIH (toxoplasmose, cryptococcose), drépanocytose (AVC de l'enfant), alcool, consommation de manioc mal roui (konzo)."
      ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Évaluer la conscience : score de Glasgow",
-     "colonnes": [
-      "Réponse",
-      "Cotation"
-     ],
-     "lignes": [
-      [
-       "Ouverture des yeux",
-       "4 spontanée · 3 à la voix · 2 à la douleur · 1 aucune"
-      ],
-      [
-       "Réponse verbale",
-       "5 orientée · 4 confuse · 3 mots inappropriés · 2 sons incompréhensibles · 1 aucune"
-      ],
-      [
-       "Réponse motrice",
-       "6 obéit · 5 localise la douleur · 4 retrait · 3 flexion anormale (décortication) · 2 extension (décérébration) · 1 aucune"
-      ]
-     ],
-     "note": "Score sur 15 ; ≤ 8 = coma, protéger les voies aériennes. Chez l'enfant de moins de 5 ans, utiliser l'échelle de Blantyre (sur 5)."
     },
     {
      "type": "tableau",
@@ -73022,40 +73147,6 @@
      ]
     },
     {
-     "type": "tableau",
-     "titre": "Crise épileptique, convulsion fébrile ou autre ?",
-     "colonnes": [
-      "Situation",
-      "Arguments"
-     ],
-     "lignes": [
-      [
-       "Convulsion fébrile simple",
-       "Enfant de 6 mois à 5 ans, généralisée, < 15 min, une seule en 24 h, réveil complet rapide ; rechercher la cause de la fièvre (paludisme)"
-      ],
-      [
-       "Convulsion fébrile compliquée",
-       "Focale, > 15 min, répétée, ou déficit après : ponction lombaire, rechercher méningite et neuropaludisme"
-      ],
-      [
-       "Crise épileptique",
-       "Sans fièvre, morsure latérale de la langue, perte d'urines, confusion après la crise, crises répétées"
-      ],
-      [
-       "Syncope convulsivante",
-       "Quelques secousses brèves après une perte de connaissance, réveil rapide sans confusion"
-      ],
-      [
-       "Crise non épileptique psychogène",
-       "Yeux fermés résistant à l'ouverture, mouvements désordonnés, durée longue, pas de confusion après — diagnostic prudent"
-      ],
-      [
-       "Tétanie, hypocalcémie",
-       "Contractures des mains « en main d'accoucheur », fourmillements autour de la bouche"
-      ]
-     ]
-    },
-    {
      "type": "liste",
      "titre": "Check-list",
      "elements": [
@@ -73073,6 +73164,52 @@
      "noms": [
       "clin-polio",
       "clin-tetanos"
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "score",
+       "id": "glasgow"
+      },
+      {
+       "type": "score",
+       "id": "blantyre"
+      },
+      {
+       "type": "patho",
+       "id": 4
+      },
+      {
+       "type": "patho",
+       "id": 46
+      },
+      {
+       "type": "patho",
+       "id": 38
+      },
+      {
+       "type": "patho",
+       "id": 52
+      },
+      {
+       "type": "sympt",
+       "id": "cephalees"
+      },
+      {
+       "type": "sympt",
+       "id": "convulsions"
+      },
+      {
+       "type": "sympt",
+       "id": "trouble-conscience"
+      },
+      {
+       "type": "sympt",
+       "id": "deficit-neurologique"
+      }
      ]
     }
    ]
@@ -73157,41 +73294,37 @@
      ]
     },
     {
-     "type": "tableau",
-     "titre": "Orientation devant une arthrite",
-     "colonnes": [
-      "Tableau",
-      "Évoque"
-     ],
-     "lignes": [
-      [
-       "Monoarthrite aiguë fébrile, très douloureuse",
-       "Arthrite septique (ponction en urgence) ; chez le jeune, gonocoque"
-      ],
-      [
-       "Monoarthrite aiguë du gros orteil, nocturne",
-       "Goutte"
-      ],
-      [
-       "Polyarthrite migratrice de l'enfant après une angine",
-       "Rhumatisme articulaire aigu : ausculter le cœur"
-      ],
-      [
-       "Polyarthrite symétrique des mains, raideur matinale",
-       "Polyarthrite rhumatoïde, lupus"
-      ],
-      [
-       "Douleur lombaire nocturne du sujet jeune, raideur",
-       "Spondylarthrite ; chez tout âge en Afrique, penser aussi au mal de Pott"
-      ]
-     ]
-    },
-    {
      "type": "images",
      "titre": "Aspect clinique en photos",
      "noms": [
       "clin-goutte",
       "clin-pr-mains"
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "patho",
+       "id": 61
+      },
+      {
+       "type": "patho",
+       "id": 110
+      },
+      {
+       "type": "patho",
+       "id": 213
+      },
+      {
+       "type": "sympt",
+       "id": "douleur-articulaire"
+      },
+      {
+       "type": "sympt",
+       "id": "mal-de-dos"
+      }
      ]
     }
    ]
@@ -73313,14 +73446,6 @@
      ]
     },
     {
-     "type": "liste",
-     "titre": "Prurit : causes à rechercher",
-     "elements": [
-      "Avec lésions : gale (nocturne, familial, entre les doigts), dermatophytie, eczéma, urticaire, prurigo du VIH, onchocercose, pédiculose.",
-      "Sans lésion spécifique (lésions de grattage seulement) : cholestase (ictère), insuffisance rénale, carence en fer, hémopathie, diabète, grossesse, médicament (chloroquine, fréquent chez les personnes à peau noire)."
-     ]
-    },
-    {
      "type": "images",
      "titre": "Aspect clinique en photos",
      "noms": [
@@ -73332,6 +73457,20 @@
       "clin-purpura-meningo",
       "clin-lepre",
       "clin-kaposi"
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "sympt",
+       "id": "eruption"
+      },
+      {
+       "type": "sympt",
+       "id": "prurit"
+      }
      ]
     }
    ]
@@ -73402,11 +73541,6 @@
        "Signe de Rinne et Weber",
        "Diapason sur la mastoïde puis devant l'oreille ; au milieu du front",
        "Différencier surdité de transmission (oreille moyenne) et de perception (nerf)"
-      ],
-      [
-       "Thyroïde",
-       "Palper par derrière, faire avaler",
-       "Goitre (diffus ou nodulaire), nodule dur et fixé (cancer), sensibilité (thyroïdite)"
       ]
      ]
     },
@@ -73417,6 +73551,16 @@
       "clin-diphterie-membrane",
       "clin-oma",
       "clin-perforation"
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "sympt",
+       "id": "douleur-gorge-oreille"
+      }
      ]
     }
    ]
@@ -73442,49 +73586,6 @@
      ]
     },
     {
-     "type": "tableau",
-     "titre": "Orientation devant un œil rouge",
-     "colonnes": [
-      "Tableau",
-      "Évoque",
-      "Conduite"
-     ],
-     "lignes": [
-      [
-       "Rougeur diffuse, sécrétions, vision normale, pas de douleur",
-       "Conjonctivite",
-       "Lavage, collyre antibiotique si purulente"
-      ],
-      [
-       "Douleur, photophobie, baisse de vision, cercle périkératique",
-       "Kératite, ulcère de cornée, uvéite",
-       "Fluorescéine ; référer en ophtalmologie"
-      ],
-      [
-       "Douleur intense, vomissements, pupille moyenne aréactive, œil dur, halos",
-       "Glaucome aigu par fermeture de l'angle",
-       "Urgence (acétazolamide) ; référer"
-      ],
-      [
-       "Rougeur en nappe, sans douleur",
-       "Hémorragie sous-conjonctivale",
-       "Vérifier la TA ; coqueluche chez l'enfant"
-      ],
-      [
-       "Traumatisme, pupille déformée",
-       "Plaie du globe",
-       "Ne pas appuyer, coque de protection, référer"
-      ]
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Baisse de vision progressive : causes fréquentes",
-     "elements": [
-      "Cataracte (pupille blanche, reflet atténué), glaucome chronique (champ visuel rétréci, sans douleur), rétinopathie diabétique ou hypertensive, carence en vitamine A (héméralopie, c'est-à-dire mauvaise vision la nuit), trouble de réfraction."
-     ]
-    },
-    {
      "type": "images",
      "titre": "Aspect clinique en photos",
      "noms": [
@@ -73494,6 +73595,28 @@
       "clin-cataracte",
       "clin-retinoblastome",
       "clin-cellulite-orbitaire"
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "patho",
+       "id": 29
+      },
+      {
+       "type": "patho",
+       "id": 56
+      },
+      {
+       "type": "patho",
+       "id": 57
+      },
+      {
+       "type": "sympt",
+       "id": "douleur-oeil"
+      }
      ]
     }
    ]
@@ -73507,44 +73630,6 @@
    "intro": "Les signes endocriniens sont souvent progressifs et généraux. Penser à les rechercher devant une fatigue, une variation de poids ou une soif inexpliquées.",
    "blocs": [
     {
-     "type": "tableau",
-     "titre": "Tableaux à reconnaître",
-     "colonnes": [
-      "Syndrome",
-      "Éléments évocateurs"
-     ],
-     "lignes": [
-      [
-       "Diabète (hyperglycémie)",
-       "Soif, urines abondantes (polyurie), amaigrissement malgré l'appétit, infections répétées, vision floue"
-      ],
-      [
-       "Acidocétose diabétique",
-       "Polyurie, déshydratation, vomissements, douleurs abdominales, respiration rapide et profonde (Kussmaul), haleine d'acétone, troubles de conscience"
-      ],
-      [
-       "Hypoglycémie",
-       "Sueurs, tremblements, faim, palpitations, puis confusion, comportement anormal, convulsions, coma"
-      ],
-      [
-       "Hyperthyroïdie",
-       "Amaigrissement, tachycardie, tremblement fin, chaleur mal supportée, diarrhée, nervosité ; goitre, yeux saillants (Basedow)"
-      ],
-      [
-       "Hypothyroïdie",
-       "Fatigue, frilosité, prise de poids, constipation, peau sèche, voix rauque, bradycardie, pensée ralentie ; crétinisme chez l'enfant (carence en iode)"
-      ],
-      [
-       "Insuffisance surrénale",
-       "Fatigue, amaigrissement, TA basse, peau et muqueuses pigmentées (mélanodermie) ; crise aiguë avec choc (penser à la tuberculose des surrénales, au VIH)"
-      ],
-      [
-       "Hypercorticisme (Cushing)",
-       "Obésité du tronc et du visage, vergetures pourpres larges, HTA, diabète ; le plus souvent dû aux corticoïdes pris longtemps"
-      ]
-     ]
-    },
-    {
      "type": "liste",
      "titre": "Pied diabétique : examen annuel au minimum",
      "elements": [
@@ -73555,10 +73640,54 @@
      ]
     },
     {
+     "type": "liste",
+     "titre": "Examen de la thyroïde",
+     "elements": [
+      "Inspection de face et de profil, tête légèrement en arrière, en faisant avaler : un goitre monte à la déglutition.",
+      "Palpation par derrière, les deux mains, pouces sur la nuque : taille, consistance, nodules, sensibilité.",
+      "Goitre diffus (carence en iode, Basedow), nodule dur et fixé avec ganglion (cancer), thyroïde douloureuse (thyroïdite).",
+      "Rechercher les signes d'hyper- ou d'hypothyroïdie et une compression (gêne à avaler, voix rauque, dyspnée)."
+     ]
+    },
+    {
      "type": "images",
      "titre": "Aspect clinique en photos",
      "noms": [
       "clin-goitre"
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "patho",
+       "id": 44
+      },
+      {
+       "type": "patho",
+       "id": 45
+      },
+      {
+       "type": "patho",
+       "id": 39
+      },
+      {
+       "type": "patho",
+       "id": 109
+      },
+      {
+       "type": "patho",
+       "id": 108
+      },
+      {
+       "type": "patho",
+       "id": 209
+      },
+      {
+       "type": "sympt",
+       "id": "polyurie"
+      }
      ]
     }
    ]
@@ -73602,59 +73731,39 @@
      ]
     },
     {
-     "type": "tableau",
-     "titre": "Examen des ganglions",
-     "colonnes": [
-      "Caractère",
-      "Rassurant",
-      "Inquiétant"
-     ],
-     "lignes": [
-      [
-       "Taille",
-       "< 1 cm (< 1,5 cm en inguinal)",
-       "> 2 cm, augmentation progressive"
-      ],
-      [
-       "Consistance",
-       "Souple",
-       "Dure (cancer), ferme et élastique (lymphome), fluctuante ou fistulisée (tuberculose)"
-      ],
-      [
-       "Mobilité",
-       "Mobile",
-       "Fixé à la peau ou aux plans profonds"
-      ],
-      [
-       "Sensibilité",
-       "Douloureux avec infection proche (adénite réactionnelle)",
-       "Indolore et persistant > 4 semaines"
-      ],
-      [
-       "Siège",
-       "Cervical chez l'enfant avec angine",
-       "Sus-claviculaire (toujours suspect), généralisé (VIH, lymphome, leucémie, trypanosomiase)"
-      ]
-     ],
-     "note": "Toujours examiner la zone que draine le ganglion (porte d'entrée). Adénopathie persistante sans cause : ponction ou biopsie, test VIH."
-    },
-    {
      "type": "liste",
      "titre": "Rate",
      "elements": [
       "Normalement non palpable chez l'adulte.",
       "Classification de Hackett (paludisme) : de 1 (palpable en inspiration profonde) à 5 (atteint la fosse iliaque).",
       "Grosse rate chez l'adulte en zone d'endémie : paludisme chronique (splénomégalie palustre hyperimmune), bilharziose, leishmaniose viscérale, hypertension portale, hémopathie.",
-      "Risque de rupture lors d'un traumatisme : éviter les sports de contact."
+      "Risque de rupture lors d'un traumatisme : éviter les sports de contact.",
+      "Chez le drépanocytaire, la rate grossit chez le petit enfant puis s'atrophie ; une rate qui grossit brutalement avec une pâleur intense = séquestration splénique, urgence vitale."
      ]
     },
     {
      "type": "images",
      "titre": "Aspect clinique en photos",
      "noms": [
-      "clin-paleur",
-      "clin-purpura-meningo",
       "clin-scrofule"
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "sympt",
+       "id": "paleur"
+      },
+      {
+       "type": "sympt",
+       "id": "saignement"
+      },
+      {
+       "type": "sympt",
+       "id": "ganglions"
+      }
      ]
     }
    ]
@@ -73669,25 +73778,12 @@
    "blocs": [
     {
      "type": "liste",
-     "titre": "Signes généraux de danger (PCIME, 2 mois à 5 ans)",
-     "elements": [
-      "Incapable de boire ou de téter.",
-      "Vomit tout ce qu'il consomme.",
-      "A convulsé pendant la maladie actuelle ou convulse.",
-      "Léthargique ou inconscient.",
-      "Un seul signe = référence urgente après le premier traitement."
-     ]
-    },
-    {
-     "type": "liste",
      "titre": "Examen du nouveau-né",
      "elements": [
-      "Score d'Apgar à 1 et 5 minutes : fréquence cardiaque, respiration, tonus, réactivité, couleur (0 à 2 chacun).",
       "Poids, taille, périmètre crânien ; âge gestationnel.",
       "Respiration (FR > 60/min ou tirage sous-costal marqué = signe de gravité), couleur (cyanose, ictère dans les 24 premières heures = pathologique).",
       "Cordon (rougeur qui s'étend à la peau = omphalite), fontanelles, palais (fente), anus perméable, organes génitaux, hanches (manœuvre d'Ortolani-Barlow), clavicules.",
-      "Réflexes archaïques : succion, Moro, grasping, marche automatique ; leur absence chez le nouveau-né est anormale.",
-      "Signes d'infection néonatale : refus de téter, hypothermie ou fièvre, léthargie, convulsions, respiration rapide."
+      "Réflexes archaïques : succion, Moro, grasping, marche automatique ; leur absence chez le nouveau-né est anormale."
      ]
     },
     {
@@ -73730,45 +73826,46 @@
      "note": "Un retard dans plusieurs domaines, ou la perte d'acquisitions, justifie un avis spécialisé."
     },
     {
-     "type": "liste",
-     "titre": "Évaluation nutritionnelle",
-     "elements": [
-      "Poids pour taille (z-score), périmètre brachial (PB) entre 6 et 59 mois : < 115 mm = malnutrition aiguë sévère, 115 à 124 mm = modérée.",
-      "Œdèmes bilatéraux des pieds prenant le godet = malnutrition aiguë sévère (kwashiorkor), quel que soit le poids.",
-      "Signes associés : cheveux décolorés, peau craquelée, apathie (kwashiorkor) ; fonte musculaire, « visage de vieillard » (marasme)."
-     ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Déshydratation de l'enfant (PCIME)",
-     "colonnes": [
-      "Classification",
-      "Signes (au moins 2)"
-     ],
-     "lignes": [
-      [
-       "Déshydratation sévère",
-       "Léthargique ou inconscient · yeux enfoncés · incapable de boire ou boit difficilement · pli cutané qui s'efface très lentement (> 2 s)"
-      ],
-      [
-       "Signes évidents de déshydratation",
-       "Agité, irritable · yeux enfoncés · boit avidement, assoiffé · pli cutané qui s'efface lentement"
-      ],
-      [
-       "Pas de déshydratation",
-       "Pas assez de signes pour classer dans les deux catégories ci-dessus"
-      ]
-     ],
-     "note": "Plan A (pas de déshydratation), B (SRO au centre) ou C (perfusion) : voir Que faire devant… Chez l'enfant sévèrement malnutri, les signes de déshydratation sont trompeurs."
-    },
-    {
      "type": "images",
      "titre": "Aspect clinique en photos",
      "noms": [
       "clin-kwashiorkor",
       "clin-marasme",
-      "clin-ictere-nn",
       "clin-nephrotique"
+     ]
+    },
+    {
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "disp",
+       "id": "danger-enfant"
+      },
+      {
+       "type": "patho",
+       "id": 77
+      },
+      {
+       "type": "score",
+       "id": "apgar"
+      },
+      {
+       "type": "disp",
+       "id": "nouveau-ne"
+      },
+      {
+       "type": "disp",
+       "id": "malnutrition"
+      },
+      {
+       "type": "score",
+       "id": "deshydratation"
+      },
+      {
+       "type": "disp",
+       "id": "diarrhee"
+      }
      ]
     }
    ]
@@ -73796,33 +73893,33 @@
      ]
     },
     {
-     "type": "tableau",
-     "titre": "Tableaux à reconnaître",
-     "colonnes": [
-      "Syndrome",
-      "Éléments évocateurs"
-     ],
-     "lignes": [
-      [
-       "Épisode dépressif",
-       "Tristesse et perte d'intérêt > 2 semaines, fatigue, troubles du sommeil et de l'appétit, culpabilité, idées de mort ; plaintes physiques fréquentes"
-      ],
-      [
-       "Épisode maniaque",
-       "Euphorie ou irritabilité, peu de sommeil sans fatigue, logorrhée, dépenses, projets démesurés"
-      ],
-      [
-       "Psychose",
-       "Idées délirantes, hallucinations, discours désorganisé, retrait"
-      ],
-      [
-       "Confusion mentale (delirium)",
-       "Début brutal, désorientation, fluctuation dans la journée, troubles de l'attention : rechercher une cause médicale urgente"
-      ],
-      [
-       "Sevrage alcoolique",
-       "Tremblements, sueurs, agitation, hallucinations, convulsions 6 à 48 h après l'arrêt ; delirium tremens"
-      ]
+     "type": "liens",
+     "titre": "Voir aussi dans MédiGuide",
+     "liens": [
+      {
+       "type": "patho",
+       "id": 50
+      },
+      {
+       "type": "patho",
+       "id": 165
+      },
+      {
+       "type": "patho",
+       "id": 51
+      },
+      {
+       "type": "patho",
+       "id": 163
+      },
+      {
+       "type": "patho",
+       "id": 112
+      },
+      {
+       "type": "sympt",
+       "id": "agitation"
+      }
      ]
     }
    ]
@@ -73944,1080 +74041,6 @@
       "Vision, audition, continence.",
       "Liste complète des médicaments, y compris achetés sans ordonnance et traditionnels : cause fréquente de chutes et de confusion.",
       "Hypotension orthostatique : mesurer la TA couché puis debout."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tropical",
-   "groupe": "Grandes maladies : signes à reconnaître",
-   "pictogramme": "moustique",
-   "couleur": "#2E7D32",
-   "titre": "Maladies infectieuses tropicales",
-   "intro": "Les signes cliniques qui orientent vers les grandes maladies infectieuses de la région. Ils guident les examens à demander ; aucun ne dispense de la confirmation biologique quand elle est disponible.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Signes évocateurs",
-     "colonnes": [
-      "Maladie",
-      "Signes cliniques qui orientent"
-     ],
-     "lignes": [
-      [
-       "Paludisme grave",
-       "Fièvre + un critère : trouble de conscience ou convulsions, prostration, détresse respiratoire (respiration acidosique), anémie sévère (pâleur extrême), ictère, urines « coca », saignements, choc, hypoglycémie"
-      ],
-      [
-       "Fièvre typhoïde",
-       "Fièvre en plateau qui monte progressivement, céphalées, pouls relativement lent pour la fièvre (dissociation pouls-température), langue saburrale, ventre sensible, troubles du transit, tuphos (prostration) ; complication : perforation intestinale"
-      ],
-      [
-       "Méningite bactérienne",
-       "Fièvre, céphalée, vomissements, raideur de nuque, Kernig ; purpura extensif = méningocoque ; nourrisson : fontanelle bombée, refus de téter"
-      ],
-      [
-       "Trypanosomiase (maladie du sommeil)",
-       "Fièvre irrégulière, adénopathies cervicales postérieures (signe de Winterbottom), prurit, œdème du visage, puis troubles du sommeil (somnolence le jour, insomnie la nuit), troubles du comportement, hyperesthésie profonde (signe de Kérandel)"
-      ],
-      [
-       "Tétanos",
-       "Trismus (impossibilité d'ouvrir la bouche), rire sardonique, raideur du dos et de l'abdomen, spasmes déclenchés par le bruit et le toucher, conscience conservée ; nouveau-né : cesse de téter vers le 3e à 10e jour"
-      ],
-      [
-       "Rage",
-       "Après une morsure : fourmillements au site, agitation, hydrophobie (spasmes à la vue de l'eau), aérophobie, hypersalivation ; mortelle une fois déclarée"
-      ],
-      [
-       "Choléra",
-       "Diarrhée aqueuse « eau de riz » très abondante, vomissements, sans fièvre, déshydratation rapide, crampes"
-      ],
-      [
-       "Fièvre hémorragique (Ebola, Marburg)",
-       "Fièvre brutale, grande fatigue, myalgies, vomissements, diarrhée, puis saignements ; contexte épidémique ou contact : isoler et alerter"
-      ],
-      [
-       "Rougeole",
-       "Fièvre, toux, rhinite, conjonctivite, signe de Koplik, puis éruption de la tête vers les pieds au 4e jour"
-      ],
-      [
-       "Mpox",
-       "Fièvre, adénopathies, puis éruption qui évolue au même stade (macule, papule, vésicule, pustule ombiliquée, croûte), visage, paumes, plantes, organes génitaux"
-      ],
-      [
-       "Filariose lymphatique, loase",
-       "Lymphœdème puis éléphantiasis des jambes, hydrocèle ; ver passant sous la conjonctive, œdèmes fugaces (Calabar) dans la loase"
-      ],
-      [
-       "Onchocercose",
-       "Prurit intense, peau épaissie, dépigmentée « en peau de léopard » des tibias, nodules sous-cutanés, atteinte oculaire (cécité des rivières)"
-      ],
-      [
-       "Bilharziose",
-       "Urinaire : hématurie terminale ; intestinale : diarrhée sanglante, puis gros foie, grosse rate et hypertension portale"
-      ],
-      [
-       "Ulcère de Buruli",
-       "Nodule indolore puis ulcère indolore à bords décollés, souvent sur un membre, chez l'enfant vivant près des eaux stagnantes"
-      ],
-      [
-       "Lèpre",
-       "Taches hypopigmentées avec perte de sensibilité, nerfs augmentés de volume, griffe des doigts, plaies indolores des mains et des pieds"
-      ]
-     ]
-    },
-    {
-     "type": "images",
-     "titre": "Aspect clinique en photos",
-     "noms": [
-      "clin-tetanos-neonatal",
-      "clin-diphterie-cou",
-      "clin-mpox-2",
-      "clin-buruli",
-      "clin-elephantiasis",
-      "clin-loa-loa",
-      "clin-lepre",
-      "clin-charbon",
-      "clin-peste"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "vih-tb",
-   "groupe": "Grandes maladies : signes à reconnaître",
-   "pictogramme": "ruban",
-   "couleur": "#6A1B9A",
-   "titre": "VIH et tuberculose",
-   "intro": "Le VIH et la tuberculose modifient la présentation de presque toutes les maladies. Certains signes cliniques doivent faire proposer un test VIH ou rechercher une tuberculose, quel que soit le motif de consultation.",
-   "blocs": [
-    {
-     "type": "liste",
-     "titre": "Signes qui doivent faire proposer un test VIH",
-     "elements": [
-      "Amaigrissement inexpliqué, fièvre ou diarrhée prolongées (> 1 mois).",
-      "Muguet chez l'adulte, leucoplasie orale chevelue, zona chez l'adulte jeune (surtout plusieurs dermatomes), prurigo (papules qui démangent).",
-      "Tuberculose sous toutes ses formes, pneumonies répétées, infections sexuellement transmissibles.",
-      "Adénopathies généralisées persistantes, sarcome de Kaposi.",
-      "Chez l'enfant : retard de croissance, malnutrition qui ne répond pas au traitement, parotides gonflées, infections répétées, mère séropositive."
-     ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Stades cliniques de l'OMS (adulte, principaux critères)",
-     "colonnes": [
-      "Stade",
-      "Exemples de signes"
-     ],
-     "lignes": [
-      [
-       "1",
-       "Asymptomatique, adénopathies généralisées persistantes"
-      ],
-      [
-       "2",
-       "Perte de poids < 10 %, infections ORL répétées, zona, chéilite, ulcérations buccales récidivantes, prurigo, mycoses des ongles"
-      ],
-      [
-       "3",
-       "Perte de poids > 10 %, diarrhée > 1 mois, fièvre > 1 mois, candidose buccale, leucoplasie chevelue, tuberculose pulmonaire, infections bactériennes graves, anémie < 8 g/dL"
-      ],
-      [
-       "4",
-       "Cachexie (wasting), pneumocystose, toxoplasmose cérébrale, cryptococcose, sarcome de Kaposi, tuberculose extrapulmonaire, candidose de l'œsophage, encéphalopathie à VIH"
-      ]
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Rechercher une tuberculose à chaque consultation (dépistage des 4 signes)",
-     "elements": [
-      "Toux actuelle (quelle que soit la durée chez la personne vivant avec le VIH ; > 2 semaines sinon).",
-      "Fièvre.",
-      "Sueurs nocturnes.",
-      "Perte de poids.",
-      "Un seul signe présent : examens (GeneXpert, radiographie, LAM urinaire chez le patient VIH avancé)."
-     ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Formes de tuberculose à reconnaître à l'examen",
-     "colonnes": [
-      "Forme",
-      "Signes"
-     ],
-     "lignes": [
-      [
-       "Ganglionnaire",
-       "Adénopathies cervicales fermes puis fluctuantes, fistulisées (écrouelles)"
-      ],
-      [
-       "Pleurale",
-       "Syndrome d'épanchement liquide, souvent unilatéral, chez l'adulte jeune"
-      ],
-      [
-       "Péricardique",
-       "Dyspnée, gros cœur, bruits assourdis, turgescence jugulaire, frottement"
-      ],
-      [
-       "Péritonéale",
-       "Ascite, fièvre, ventre « pâteux », amaigrissement"
-      ],
-      [
-       "Vertébrale (mal de Pott)",
-       "Douleur du dos, gibbosité, abcès froid, déficit des jambes"
-      ],
-      [
-       "Méningée",
-       "Céphalées et fièvre progressives sur des jours, troubles de conscience, paralysies des nerfs crâniens"
-      ],
-      [
-       "Miliaire",
-       "Fièvre, altération sévère de l'état général, dyspnée, gros foie et grosse rate"
-      ],
-      [
-       "Chez l'enfant",
-       "Contact avec un adulte tuberculeux, mauvaise prise de poids, toux persistante, fièvre ; l'examen des crachats est souvent négatif"
-      ]
-     ]
-    },
-    {
-     "type": "images",
-     "titre": "Aspect clinique en photos",
-     "noms": [
-      "clin-kaposi",
-      "clin-muguet",
-      "clin-scrofule"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "or-douleur-thoracique",
-   "groupe": "Orientation devant un signe",
-   "pictogramme": "coeur",
-   "couleur": "#C62828",
-   "titre": "Douleur thoracique",
-   "intro": "Éliminer d'abord les quatre urgences qui tuent : syndrome coronarien aigu, embolie pulmonaire, dissection aortique, pneumothorax compressif (et tamponnade).",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Orientation",
-     "colonnes": [
-      "Cause",
-      "Caractères de la douleur",
-      "Signes associés"
-     ],
-     "lignes": [
-      [
-       "Syndrome coronarien",
-       "Rétrosternale, constrictive, > 20 min, irradie au bras gauche ou à la mâchoire",
-       "Sueurs, nausées, terrain à risque ; ECG"
-      ],
-      [
-       "Embolie pulmonaire",
-       "Latérale, augmentée par l'inspiration, d'apparition brutale",
-       "Dyspnée, tachycardie, SpO₂ basse, phlébite, post-partum, alitement"
-      ],
-      [
-       "Dissection aortique",
-       "Déchirante, dans le dos, migratrice",
-       "HTA, asymétrie des pouls et de la TA entre les deux bras, souffle aortique"
-      ],
-      [
-       "Pneumothorax",
-       "Brutale, latérale, en coup de poignard",
-       "Dyspnée, tympanisme, murmure aboli d'un côté"
-      ],
-      [
-       "Péricardite",
-       "Rétrosternale, augmentée en décubitus, soulagée penché en avant",
-       "Fièvre, frottement péricardique"
-      ],
-      [
-       "Pneumonie, pleurésie",
-       "Latérale, augmentée par la toux et l'inspiration",
-       "Fièvre, toux, crépitants, matité"
-      ],
-      [
-       "Œsophage, estomac",
-       "Brûlure rétrosternale après les repas ou en se penchant",
-       "Pyrosis, régurgitations"
-      ],
-      [
-       "Pariétale",
-       "Reproduite exactement par la palpation",
-       "Effort, traumatisme ; diagnostic après avoir éliminé le reste"
-      ],
-      [
-       "Crise vaso-occlusive thoracique (drépanocytose)",
-       "Douleur thoracique avec fièvre",
-       "Syndrome thoracique aigu : toux, dyspnée, SpO₂ basse — urgence"
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "or-dyspnee",
-   "groupe": "Orientation devant un signe",
-   "pictogramme": "poumons",
-   "couleur": "#1565C0",
-   "titre": "Dyspnée aiguë",
-   "intro": "Évaluer d'abord la gravité (signes de lutte, SpO₂, conscience, impossibilité de parler), puis chercher la cause à partir de l'auscultation et du terrain.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Orientation selon l'auscultation",
-     "colonnes": [
-      "Auscultation",
-      "Causes à évoquer"
-     ],
-     "lignes": [
-      [
-       "Crépitants aux deux bases",
-       "Œdème pulmonaire (insuffisance cardiaque, crise hypertensive, surcharge en liquides de perfusion)"
-      ],
-      [
-       "Crépitants localisés, souffle tubaire, fièvre",
-       "Pneumonie"
-      ],
-      [
-       "Sibilants diffus",
-       "Asthme, BPCO, bronchiolite (nourrisson), parfois œdème pulmonaire"
-      ],
-      [
-       "Silence d'un côté",
-       "Épanchement pleural (matité) ou pneumothorax (tympanisme)"
-      ],
-      [
-       "Stridor",
-       "Obstacle haut : croup, corps étranger, épiglottite, diphtérie, œdème allergique"
-      ],
-      [
-       "Auscultation normale",
-       "Embolie pulmonaire, acidose (paludisme grave, acidocétose, insuffisance rénale), anémie sévère, anxiété (diagnostic d'élimination), pneumocystose (VIH)"
-      ]
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Respiration ample et rapide sans encombrement",
-     "elements": [
-      "Respiration de Kussmaul : profonde et rapide, auscultation normale. Évoque une acidose métabolique : acidocétose diabétique (glycémie, cétones), paludisme grave de l'enfant, insuffisance rénale, intoxication (aspirine)."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "or-cephalee",
-   "groupe": "Orientation devant un signe",
-   "pictogramme": "cerveau",
-   "couleur": "#4527A0",
-   "titre": "Céphalées",
-   "intro": "La plupart des céphalées sont bénignes. Les signes d'alarme ci-dessous imposent une prise en charge urgente et souvent une ponction lombaire ou une imagerie.",
-   "blocs": [
-    {
-     "type": "liste",
-     "titre": "Signes d'alarme",
-     "elements": [
-      "Début brutal, maximal en quelques secondes (« coup de tonnerre ») : hémorragie méningée.",
-      "Fièvre et raideur de nuque : méningite, neuropaludisme.",
-      "Aggravation progressive sur des jours ou des semaines, vomissements en jet, réveil nocturne : hypertension intracrânienne (tumeur, abcès, tuberculome).",
-      "Signe neurologique focal, convulsion, trouble de conscience.",
-      "Personne vivant avec le VIH : cryptococcose, toxoplasmose.",
-      "Femme enceinte ou en post-partum avec TA élevée : pré-éclampsie, thrombose veineuse cérébrale.",
-      "Début après 50 ans, douleur de la tempe, baisse de vision : maladie de Horton.",
-      "Traumatisme crânien récent, anticoagulant."
-     ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Céphalées primaires (sans signe d'alarme)",
-     "colonnes": [
-      "Type",
-      "Caractères"
-     ],
-     "lignes": [
-      [
-       "Migraine",
-       "Crises de 4 à 72 h, souvent d'un côté, pulsatile, aggravée par l'effort, nausées, gêne à la lumière et au bruit ; examen normal entre les crises"
-      ],
-      [
-       "Céphalée de tension",
-       "En casque ou en étau, des deux côtés, modérée, pas de nausées, liée au stress"
-      ],
-      [
-       "Abus de médicaments",
-       "Céphalée presque quotidienne chez un patient qui prend des antalgiques plus de 10 à 15 jours par mois"
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "or-coma",
-   "groupe": "Orientation devant un signe",
-   "pictogramme": "eclair",
-   "couleur": "#37474F",
-   "titre": "Trouble de conscience et coma",
-   "intro": "Glycémie immédiate, puis ABCDE. L'examen cherche la cause : fièvre, signes méningés, signes de localisation, pupilles, odeur, traces d'injection ou de médicaments.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Orientation",
-     "colonnes": [
-      "Éléments",
-      "Cause probable"
-     ],
-     "lignes": [
-      [
-       "Glycémie basse",
-       "Hypoglycémie (diabétique traité, paludisme grave, sepsis, alcool, malnutrition)"
-      ],
-      [
-       "Fièvre, sans signe de localisation",
-       "Neuropaludisme, méningite, encéphalite, sepsis"
-      ],
-      [
-       "Fièvre et raideur de nuque",
-       "Méningite (la raideur peut manquer dans le coma profond et chez le nourrisson)"
-      ],
-      [
-       "Hémiplégie, déviation des yeux, début brutal",
-       "AVC (hémorragique ou ischémique), toxoplasmose ou tuberculome si VIH"
-      ],
-      [
-       "Pupilles en myosis serré, respiration lente",
-       "Opiacés, organophosphorés (avec hypersalivation, sueurs, bradycardie)"
-      ],
-      [
-       "Pupilles dilatées",
-       "Atropiniques, antidépresseurs, engagement cérébral si une seule pupille"
-      ],
-      [
-       "Haleine d'acétone, respiration de Kussmaul",
-       "Acidocétose diabétique"
-      ],
-      [
-       "Convulsions récentes",
-       "État post-critique (doit s'améliorer en moins d'une heure), état de mal épileptique"
-      ],
-      [
-       "Femme enceinte, TA élevée",
-       "Éclampsie"
-      ],
-      [
-       "Ictère, astérixis",
-       "Encéphalopathie hépatique"
-      ],
-      [
-       "Traumatisme",
-       "Hématome intracrânien (surveiller pupilles et Glasgow)"
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "or-oedemes",
-   "groupe": "Orientation devant un signe",
-   "pictogramme": "goutte",
-   "couleur": "#0277BD",
-   "titre": "Œdèmes",
-   "intro": "Distinguer des œdèmes généralisés (des deux côtés, prenant le godet) d'un œdème localisé (un seul membre, inflammatoire ou non). Toujours faire une bandelette urinaire.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Œdèmes généralisés",
-     "colonnes": [
-      "Cause",
-      "Arguments"
-     ],
-     "lignes": [
-      [
-       "Insuffisance cardiaque",
-       "Dyspnée, turgescence jugulaire, reflux hépato-jugulaire, crépitants, gros foie"
-      ],
-      [
-       "Syndrome néphrotique",
-       "Œdème des paupières le matin, protéinurie massive à la bandelette, urines mousseuses"
-      ],
-      [
-       "Glomérulonéphrite",
-       "Urines coca, HTA, oligurie"
-      ],
-      [
-       "Cirrhose",
-       "Ascite au premier plan, signes d'insuffisance hépatique, circulation collatérale"
-      ],
-      [
-       "Malnutrition (kwashiorkor)",
-       "Enfant, œdèmes des pieds remontant, lésions de peau, cheveux décolorés, apathie"
-      ],
-      [
-       "Grossesse",
-       "Œdèmes de fin de grossesse ; avec HTA et protéinurie : pré-éclampsie"
-      ],
-      [
-       "Médicaments",
-       "Nifédipine, amlodipine, corticoïdes, AINS"
-      ]
-     ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Œdème d'un seul membre",
-     "colonnes": [
-      "Cause",
-      "Arguments"
-     ],
-     "lignes": [
-      [
-       "Thrombose veineuse profonde",
-       "Douleur du mollet, chaleur, contexte à risque"
-      ],
-      [
-       "Érysipèle, cellulite",
-       "Rouge, chaud, douloureux, fièvre, porte d'entrée"
-      ],
-      [
-       "Lymphœdème (filariose)",
-       "Dur, ne prend pas le godet, peau épaissie, ancien"
-      ],
-      [
-       "Compression",
-       "Tumeur pelvienne, adénopathies inguinales"
-      ]
-     ]
-    },
-    {
-     "type": "images",
-     "titre": "Aspect clinique en photos",
-     "noms": [
-      "clin-nephrotique",
-      "clin-kwashiorkor",
-      "clin-elephantiasis"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "or-foie-rate",
-   "groupe": "Orientation devant un signe",
-   "pictogramme": "estomac",
-   "couleur": "#F9A825",
-   "titre": "Gros foie, grosse rate",
-   "intro": "En zone d'endémie, la splénomégalie est fréquente et souvent liée au paludisme. Associer à l'âge, à la fièvre, à l'anémie et aux adénopathies pour orienter.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Orientation",
-     "colonnes": [
-      "Tableau",
-      "Causes à évoquer"
-     ],
-     "lignes": [
-      [
-       "Hépatomégalie douloureuse fébrile",
-       "Abcès amibien du foie, hépatite aiguë, angiocholite"
-      ],
-      [
-       "Hépatomégalie dure, nodulaire",
-       "Carcinome hépatocellulaire (hépatite B), métastases, cirrhose"
-      ],
-      [
-       "Hépatomégalie lisse avec turgescence jugulaire",
-       "Foie cardiaque, péricardite constrictive (tuberculose)"
-      ],
-      [
-       "Splénomégalie fébrile aiguë",
-       "Paludisme, typhoïde, septicémie, endocardite"
-      ],
-      [
-       "Splénomégalie importante chronique",
-       "Paludisme chronique (splénomégalie palustre hyperimmune), leishmaniose viscérale, leucémie myéloïde chronique, bilharziose (hypertension portale)"
-      ],
-      [
-       "Splénomégalie avec ictère et anémie",
-       "Hémolyse : paludisme, drépanocytose chez le jeune enfant, déficit en G6PD"
-      ],
-      [
-       "Hépatosplénomégalie avec adénopathies",
-       "Lymphome, leucémie, VIH, tuberculose disséminée, trypanosomiase"
-      ]
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Rappel",
-     "elements": [
-      "Chez le drépanocytaire, la rate grossit chez le petit enfant puis s'atrophie (autosplénectomie) ; une rate qui grossit brutalement avec pâleur intense = séquestration splénique (urgence vitale)."
-     ]
-    },
-    {
-     "type": "images",
-     "titre": "Aspect clinique en photos",
-     "noms": [
-      "clin-ascite"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "or-abdomen-aigu",
-   "groupe": "Orientation devant un signe",
-   "pictogramme": "estomac",
-   "couleur": "#EF6C00",
-   "titre": "Douleur abdominale aiguë selon le siège",
-   "intro": "Le siège de la douleur oriente, mais une douleur au début mal localisée peut migrer (appendicite). Chez toute femme en âge de procréer : test de grossesse. Penser aussi aux causes extra-abdominales.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Orientation topographique",
-     "colonnes": [
-      "Siège",
-      "Causes à évoquer"
-     ],
-     "lignes": [
-      [
-       "Épigastre",
-       "Ulcère (perforé si contracture), pancréatite (alcool, irradiation dans le dos), infarctus inférieur, gastrite, cholécystite"
-      ],
-      [
-       "Hypocondre droit",
-       "Cholécystite, colique hépatique, abcès amibien, hépatite, pneumonie de la base droite"
-      ],
-      [
-       "Hypocondre gauche",
-       "Rate (infarctus splénique du drépanocytaire, rupture), pneumonie de la base gauche"
-      ],
-      [
-       "Péri-ombilicale",
-       "Début d'appendicite, occlusion du grêle, gastro-entérite, ischémie mésentérique (douleur intense, examen pauvre)"
-      ],
-      [
-       "Fosse iliaque droite",
-       "Appendicite, iléite (typhoïde), grossesse extra-utérine, salpingite, kyste ovarien tordu, colique néphrétique"
-      ],
-      [
-       "Fosse iliaque gauche",
-       "Sigmoïdite, volvulus du sigmoïde (sujet âgé, ventre très ballonné), annexes, colique néphrétique"
-      ],
-      [
-       "Hypogastre",
-       "Rétention d'urine, cystite, salpingite, grossesse extra-utérine, avortement compliqué"
-      ],
-      [
-       "Lombaire",
-       "Colique néphrétique, pyélonéphrite, dissection aortique"
-      ],
-      [
-       "Diffuse",
-       "Péritonite, occlusion, crise drépanocytaire, acidocétose, paludisme de l'enfant, saturnisme"
-      ]
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Causes extra-abdominales à ne pas oublier",
-     "elements": [
-      "Infarctus du myocarde (épigastre), pneumonie de base (surtout chez l'enfant), acidocétose diabétique, crise drépanocytaire, torsion du testicule (douleur de l'aine), zona avant l'éruption."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "or-malaise",
-   "groupe": "Orientation devant un signe",
-   "pictogramme": "alerte",
-   "couleur": "#AD1457",
-   "titre": "Malaise et perte de connaissance brève",
-   "intro": "Une syncope est une perte de connaissance brève avec retour rapide et complet à la normale. Le témoin est essentiel. Toujours faire un ECG et une glycémie.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Orientation",
-     "colonnes": [
-      "Circonstances",
-      "Cause probable"
-     ],
-     "lignes": [
-      [
-       "Debout longtemps, chaleur, émotion, douleur ; nausées et sueurs avant",
-       "Syncope vagale (bénigne)"
-      ],
-      [
-       "En se levant",
-       "Hypotension orthostatique : déshydratation, saignement, médicaments antihypertenseurs, diabète"
-      ],
-      [
-       "À l'effort",
-       "Cause cardiaque (rétrécissement aortique, cardiomyopathie, trouble du rythme) : à explorer en urgence"
-      ],
-      [
-       "Sans prodrome, palpitations, cardiopathie connue",
-       "Trouble du rythme ou de la conduction"
-      ],
-      [
-       "Mouvements tonico-cloniques, morsure du bord de la langue, confusion prolongée après",
-       "Crise d'épilepsie plutôt que syncope"
-      ],
-      [
-       "Sueurs, faim, diabétique traité",
-       "Hypoglycémie"
-      ],
-      [
-       "Femme jeune avec douleur pelvienne",
-       "Grossesse extra-utérine rompue (choc hémorragique)"
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "lire-lcr",
-   "groupe": "Biologie et imagerie",
-   "pictogramme": "cerveau",
-   "couleur": "#4527A0",
-   "titre": "Lire une ponction lombaire (LCR)",
-   "intro": "L'aspect du liquide et quelques analyses simples permettent d'orienter rapidement une méningite. Ne pas retarder l'antibiotique s'il y a un purpura ou si la ponction ne peut être faite tout de suite.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Interprétation",
-     "colonnes": [
-      "Résultat",
-      "Normal",
-      "Bactérienne",
-      "Virale",
-      "Tuberculeuse / cryptococcique"
-     ],
-     "lignes": [
-      [
-       "Aspect",
-       "Clair « eau de roche »",
-       "Trouble, purulent",
-       "Clair",
-       "Clair (parfois jaunâtre)"
-      ],
-      [
-       "Cellules /mm³",
-       "< 5",
-       "> 1 000, surtout neutrophiles",
-       "10 à 500, lymphocytes",
-       "50 à 500, lymphocytes (peu de cellules possible dans la cryptococcose)"
-      ],
-      [
-       "Protéines (g/L)",
-       "< 0,4",
-       "> 1",
-       "Normales ou peu élevées",
-       "Élevées (> 1 dans la tuberculose)"
-      ],
-      [
-       "Glucose LCR / sang",
-       "> 0,6",
-       "Bas (< 0,4)",
-       "Normal",
-       "Bas"
-      ],
-      [
-       "Examen direct",
-       "—",
-       "Gram : bactéries",
-       "—",
-       "Encre de Chine ou antigène cryptococcique (VIH)"
-      ]
-     ],
-     "note": "Liquide rosé uniformément dans 3 tubes successifs = hémorragie méningée ; qui s'éclaircit = ponction traumatique. Contre-indications à discuter : signes d'hypertension intracrânienne avec signe de localisation, troubles de la coagulation, infection au point de ponction."
-    }
-   ]
-  },
-  {
-   "id": "lire-ecg",
-   "groupe": "Biologie et imagerie",
-   "pictogramme": "coeur",
-   "couleur": "#C62828",
-   "titre": "Lire un électrocardiogramme",
-   "intro": "Lecture systématique en 7 étapes, à faire toujours dans le même ordre. Papier à 25 mm/s : un petit carreau = 0,04 s, un grand carreau = 0,20 s.",
-   "blocs": [
-    {
-     "type": "liste",
-     "titre": "Méthode",
-     "elements": [
-      "Rythme : une onde P avant chaque QRS, régulière = rythme sinusal ; pas d'onde P et rythme irrégulier = fibrillation atriale.",
-      "Fréquence : 300 divisé par le nombre de grands carreaux entre deux QRS (ou nombre de QRS sur 10 s × 6).",
-      "Axe : QRS positif en DI et en aVF = axe normal.",
-      "Onde P : < 0,12 s et < 2,5 mm.",
-      "PR : 0,12 à 0,20 s ; > 0,20 s = bloc auriculo-ventriculaire du 1er degré.",
-      "QRS : < 0,12 s ; ≥ 0,12 s = bloc de branche ou rythme ventriculaire.",
-      "Repolarisation : segment ST (sus- ou sous-décalage), onde T (inversée, ample et pointue), QT (corrigé < 0,44 s chez l'homme, < 0,46 s chez la femme)."
-     ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Anomalies à reconnaître",
-     "colonnes": [
-      "Aspect",
-      "Évoque"
-     ],
-     "lignes": [
-      [
-       "Sus-décalage du ST dans 2 dérivations voisines",
-       "Infarctus en cours : reperfusion urgente"
-      ],
-      [
-       "Sus-décalage diffus concave, sous-décalage du PR",
-       "Péricardite"
-      ],
-      [
-       "Ondes T amples et pointues, QRS larges",
-       "Hyperkaliémie (insuffisance rénale) : urgence"
-      ],
-      [
-       "Ondes T plates, ondes U",
-       "Hypokaliémie (diarrhée, diurétiques)"
-      ],
-      [
-       "Microvoltage, alternance électrique",
-       "Épanchement péricardique abondant"
-      ],
-      [
-       "Grandes ondes R en V5-V6, grandes S en V1",
-       "Hypertrophie ventriculaire gauche (HTA, rétrécissement aortique)"
-      ],
-      [
-       "QT long",
-       "Médicaments (quinine, chloroquine, halofantrine, macrolides, antipsychotiques), hypokaliémie : risque de torsade de pointes"
-      ],
-      [
-       "Rythme très rapide à QRS fins réguliers",
-       "Tachycardie supraventriculaire (manœuvre vagale)"
-      ],
-      [
-       "Rythme rapide à QRS larges",
-       "Tachycardie ventriculaire jusqu'à preuve du contraire"
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "lire-asp-echo",
-   "groupe": "Biologie et imagerie",
-   "pictogramme": "estomac",
-   "couleur": "#455A64",
-   "titre": "Abdomen sans préparation et échographie",
-   "intro": "Deux examens simples souvent disponibles. L'abdomen sans préparation (ASP) répond surtout à deux questions : y a-t-il une occlusion ? une perforation ? L'échographie au lit du malade répond à des questions ciblées.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "ASP : images à reconnaître",
-     "colonnes": [
-      "Image",
-      "Évoque"
-     ],
-     "lignes": [
-      [
-       "Croissant clair sous les coupoles (cliché debout ou thorax de face)",
-       "Pneumopéritoine : perforation d'un organe creux (ulcère, typhoïde) — chirurgie"
-      ],
-      [
-       "Niveaux hydro-aériques plus larges que hauts, centraux",
-       "Occlusion du grêle"
-      ],
-      [
-       "Niveaux plus hauts que larges, en périphérie (cadre colique)",
-       "Occlusion du côlon"
-      ],
-      [
-       "Image en « grain de café » géant",
-       "Volvulus du sigmoïde"
-      ],
-      [
-       "Opacité calcique sur le trajet urinaire",
-       "Calcul (beaucoup ne sont pas visibles)"
-      ],
-      [
-       "Calcifications vésicales en coquille",
-       "Bilharziose urinaire"
-      ]
-     ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Échographie ciblée au lit (questions simples)",
-     "colonnes": [
-      "Question",
-      "Ce qu'on cherche"
-     ],
-     "lignes": [
-      [
-       "Y a-t-il du liquide dans le ventre ?",
-       "Épanchement autour du foie, de la rate, dans le Douglas : hémopéritoine (traumatisme, grossesse extra-utérine rompue), ascite"
-      ],
-      [
-       "Grossesse intra-utérine ?",
-       "Sac gestationnel dans l'utérus ; utérus vide avec test positif et liquide = grossesse extra-utérine probable"
-      ],
-      [
-       "Activité cardiaque fœtale, présentation, placenta",
-       "Vitalité, présentation, placenta prævia"
-      ],
-      [
-       "Épanchement péricardique ?",
-       "Liquide noir autour du cœur ; tamponnade si cœur droit comprimé"
-      ],
-      [
-       "Reins dilatés ?",
-       "Hydronéphrose (obstacle)"
-      ],
-      [
-       "Foie",
-       "Abcès (zone ronde hypoéchogène), nodules, signes de cirrhose, fibrose bilharzienne"
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "lire-nfs",
-   "groupe": "Biologie et imagerie",
-   "pictogramme": "cellule",
-   "couleur": "#00695C",
-   "titre": "Lire une numération et un bilan courant",
-   "intro": "Un examen biologique répond à une question posée par la clinique. Lire d'abord ce qui peut tuer (hémoglobine très basse, potassium, glycémie), puis interpréter le reste avec le patient en tête. Valeurs détaillées : section Examens paracliniques.",
-   "blocs": [
-    {
-     "type": "tableau",
-     "titre": "Numération formule sanguine (NFS)",
-     "colonnes": [
-      "Anomalie",
-      "Seuil adulte (indicatif)",
-      "Causes fréquentes"
-     ],
-     "lignes": [
-      [
-       "Anémie",
-       "Hb < 13 g/dL (homme), < 12 (femme), < 11 (femme enceinte, enfant de 6 mois à 5 ans)",
-       "VGM bas : carence en fer (saignement, vers), thalassémie ; VGM normal : inflammation, hémolyse, insuffisance rénale ; VGM élevé : carence en B12/folates, alcool, zidovudine"
-      ],
-      [
-       "Hyperleucocytose à neutrophiles",
-       "> 7 500/mm³",
-       "Infection bactérienne, corticoïdes, stress, drépanocytose"
-      ],
-      [
-       "Neutropénie",
-       "< 1 500/mm³ (entre 1 000 et 1 500, souvent normal chez de nombreux sujets d’origine africaine)",
-       "Médicaments (cotrimoxazole, zidovudine), VIH, infections virales, typhoïde"
-      ],
-      [
-       "Lymphocytose",
-       "> 4 000/mm³",
-       "Infections virales, coqueluche, leucémie lymphoïde chronique"
-      ],
-      [
-       "Éosinophilie",
-       "> 500/mm³",
-       "Parasites (ankylostome, bilharziose, filaires, ascaris en migration), allergie"
-      ],
-      [
-       "Thrombopénie",
-       "< 150 000/mm³ ; risque hémorragique < 20 000",
-       "Paludisme, sepsis, VIH, dengue, médicaments, CIVD"
-      ]
-     ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Autres examens fréquents",
-     "colonnes": [
-      "Examen",
-      "Ce qu'il apporte"
-     ],
-     "lignes": [
-      [
-       "CRP, VS",
-       "Inflammation ; CRP très élevée (> 100 mg/L) : infection bactérienne probable ; VS très élevée : tuberculose, myélome, maladie inflammatoire"
-      ],
-      [
-       "Créatinine, urée",
-       "Fonction rénale ; estimer le débit de filtration (DFG) pour adapter les doses de médicaments"
-      ],
-      [
-       "Ionogramme",
-       "Sodium (troubles neurologiques si < 125 ou > 155), potassium (risque cardiaque si < 3 ou > 6 mmol/L)"
-      ],
-      [
-       "Transaminases (ALAT, ASAT)",
-       "Atteinte des cellules du foie (hépatite) ; > 10 fois la normale : hépatite aiguë virale, médicamenteuse ou ischémique"
-      ],
-      [
-       "Bilirubine, phosphatases alcalines, gamma-GT",
-       "Ictère ; PAL et gamma-GT élevées : cholestase"
-      ],
-      [
-       "Glycémie",
-       "À jeun ≥ 1,26 g/L (7 mmol/L) à 2 reprises, ou ≥ 2 g/L à tout moment avec symptômes = diabète ; < 0,7 g/L = hypoglycémie"
-      ],
-      [
-       "Bandelette urinaire",
-       "Infection, protéinurie, sang, glucose, cétones : rapide et peu coûteuse"
-      ],
-      [
-       "Goutte épaisse / TDR paludisme",
-       "Diagnostic du paludisme ; la goutte épaisse donne aussi la densité parasitaire"
-      ]
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Pièges",
-     "elements": [
-      "Un résultat discordant avec la clinique se recontrôle avant de traiter.",
-      "Un prélèvement hémolysé fausse le potassium (faux élevé).",
-      "Les normes de l'enfant diffèrent de celles de l'adulte (hémoglobine, globules blancs, créatinine)."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "lire-radio",
-   "groupe": "Biologie et imagerie",
-   "pictogramme": "poumons",
-   "couleur": "#37474F",
-   "titre": "Lire une radiographie du thorax",
-   "intro": "Toujours la même méthode, dans le même ordre, avant de regarder « la » lésion. On évite ainsi de passer à côté d'une deuxième anomalie (un pneumothorax derrière une pneumonie, un nodule, une côte cassée).",
-   "blocs": [
-    {
-     "type": "liste",
-     "titre": "Vérifier la qualité du cliché",
-     "elements": [
-      "Identité, date, incidence (de face PA debout de préférence).",
-      "Inspiration : on compte 6 arcs costaux antérieurs ou 10 postérieurs au-dessus de la coupole droite.",
-      "Centrage : extrémités internes des clavicules à égale distance des épineuses.",
-      "Pénétration : on devine les vertèbres derrière le cœur."
-     ]
-    },
-    {
-     "type": "liste",
-     "titre": "Lecture dans l'ordre",
-     "elements": [
-      "Parties molles et os : côtes (fractures, lyses), clavicules, épaules, rachis.",
-      "Coupoles diaphragmatiques : la droite est plus haute ; air sous la coupole = perforation digestive.",
-      "Culs-de-sac costo-diaphragmatiques : émoussés = épanchement pleural.",
-      "Médiastin : trachée médiane, élargissement (adénopathies de tuberculose, lymphome).",
-      "Cœur : index cardio-thoracique (plus grand diamètre du cœur / plus grand diamètre du thorax) > 0,5 = cardiomégalie (sur un cliché de face debout) ; cœur en carafe = péricardite.",
-      "Hiles : taille, densité.",
-      "Poumons : comparer les deux côtés, du haut vers le bas, à la recherche d'opacités ou d'hyperclartés."
-     ]
-    },
-    {
-     "type": "tableau",
-     "titre": "Images à reconnaître",
-     "colonnes": [
-      "Image",
-      "Description",
-      "Évoque"
-     ],
-     "lignes": [
-      [
-       "Opacité alvéolaire systématisée",
-       "Opacité homogène limitée à un lobe, bronches visibles à l'intérieur (bronchogramme aérien)",
-       "Pneumonie lobaire"
-      ],
-      [
-       "Opacités des sommets, cavernes",
-       "Infiltrats des lobes supérieurs, cavités à paroi épaisse",
-       "Tuberculose pulmonaire"
-      ],
-      [
-       "Miliaire",
-       "Multiples petits nodules de 1 à 2 mm dans les deux poumons",
-       "Tuberculose miliaire (urgence)"
-      ],
-      [
-       "Opacité déclive à limite concave",
-       "Opacité de la base effaçant le cul-de-sac, ligne de Damoiseau",
-       "Épanchement pleural liquide"
-      ],
-      [
-       "Hyperclarté sans trame avec ligne pleurale",
-       "Zone noire sans vaisseaux, poumon rétracté vers le hile",
-       "Pneumothorax"
-      ],
-      [
-       "Opacités péri-hilaires en ailes de papillon",
-       "Opacités des deux hiles, lignes de Kerley, cardiomégalie",
-       "Œdème pulmonaire (insuffisance cardiaque)"
-      ],
-      [
-       "Image hydro-aérique",
-       "Cavité avec niveau liquide horizontal",
-       "Abcès pulmonaire"
-      ]
      ]
     }
    ]

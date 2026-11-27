@@ -509,6 +509,18 @@ function paraclinique(p) {
 }
 // Aspect clinique : photos réelles typiques (rougeole, mpox, gale, kwashiorkor…), légende française et crédit
 const IMG_CLINIQUE = (n) => `img/cliniques/${n}.webp`;
+// Lien vers une autre partie de MédiGuide (évite de répéter un contenu qui existe déjà ailleurs)
+function lienInterne(l) {
+  const t = {
+    patho: () => { const p = D.pathoParId[String(l.id)]; return p && ["#/patho/" + p.id, "🩺 " + p.nom]; },
+    sympt: () => { const x = (D.symptomes || []).find((y) => y.id === l.id); return x && ["#/sympt/" + encodeURIComponent(x.id), "🤒 " + x.nom]; },
+    score: () => { const x = (D.scores || []).find((y) => y.id === l.id); return x && ["#/score/" + encodeURIComponent(x.id), "🧮 " + x.nom]; },
+    disp: () => { const x = (D.dispensaire || []).find((y) => y.id === l.id); return x && ["#/disp/" + encodeURIComponent(x.id), "🧭 " + x.titre]; },
+    exam: () => { const x = (D.examens || []).find((y) => y.id === l.id); return x && ["#/exam/" + encodeURIComponent(x.id), "🧪 " + x.titre]; },
+  }[l.type];
+  const r = t && t();
+  return r ? `<a class="lien" href="${r[0]}">${esc(r[1])}</a>` : "";
+}
 function galerieClinique(imgs, titre) {
   if (!imgs || !imgs.length) return "";
   const cr = D.creditsImages || {}, lg = D.legendesImages || {};
@@ -568,6 +580,7 @@ function blocDisp(b, coul, calc = true) {
   const p = calc ? poids() : null;
   const titre = b.titre ? `<h3 style="color:${esc(coul)}">${esc(b.titre)}</h3>` : "";
   if (b.type === "images") return galerieClinique(b.noms, b.titre || "Photos");
+  if (b.type === "liens") return titre + `<div class="section"><div class="liens">${b.liens.map(lienInterne).filter(Boolean).join("")}</div></div>`;
   if (b.type === "liste") return titre + `<div class="section"><ul>${b.elements.map((e) => `<li>${texteDoses(e, p)}</li>`).join("")}</ul></div>`;
   if (b.type === "tableau") {
     let corps;
