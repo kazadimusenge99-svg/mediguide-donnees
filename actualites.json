@@ -1,43 +1,43 @@
 {
- "dateActualites": "26 novembre 2026",
- "dateIsoActualites": "2026-11-26",
+ "dateActualites": "27 novembre 2026",
+ "dateIsoActualites": "2026-11-27",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · NOUVELLE RECOMMANDATION OMS",
-   "titre": "Gonococcie : voie orale",
+   "etiquette": "SUJET DU JOUR · ÉTUDE DU NEJM",
+   "titre": "HTA : chaque mmHg compte",
    "lieu": "Monde · Afrique",
-   "chiffre": "Zoliflodacine 3 g per os en dose unique (OMS, 25/11/2026)",
-   "texte": "Le 25 novembre, l'OMS a publié des lignes directrices provisoires recommandant, sous condition, la zoliflodacine, premier antibiotique oral en dose unique d'une nouvelle classe, comme alternative à la ceftriaxone dans la gonococcie urogénitale non compliquée. Elle publie en même temps son rapport 2026 de surveillance de la résistance du gonocoque (EGASP).",
+   "chiffre": "−10 % d'événements cardiovasculaires majeurs par baisse de 5 mmHg de la PA systolique (NEJM, novembre 2026)",
+   "texte": "Une grande méta-analyse sur données individuelles de la collaboration BPLTTC (Oxford), publiée dans le NEJM fin novembre, montre que baisser la pression artérielle protège à tous les niveaux de risque cardiovasculaire, même chez les patients à faible risque.",
    "details": [
-    "La zoliflodacine (3 g par voie orale en dose unique) est recommandée chez l'adolescent et l'adulte (12 ans ou plus, au moins 35 kg) avec une gonococcie urogénitale non compliquée, en alternative à la ceftriaxone, là où elle est disponible ; elle n'est pas recommandée pendant la grossesse ; la gépotidacine n'est retenue que dans des situations particulières",
-    "Dans l'essai de phase 3 publié dans The Lancet (930 patients, dont près de la moitié en Afrique du Sud), la zoliflodacine a été non inférieure à l'association ceftriaxone + azithromycine (guérison urogénitale 90,9 % contre 96,2 %), avec une tolérance comparable",
-    "Le rapport EGASP 2026 (10 pays sentinelles) retrouve une résistance à la ceftriaxone et au céfixime dans plusieurs pays et une résistance fréquente à l'azithromycine : la ceftriaxone reste le traitement de référence, à préserver",
-    "En RDC, la zoliflodacine n'est pas encore disponible : continuer l'approche syndromique de l'OMS (fiche Écoulement urétral) : ceftriaxone 1 g IM en dose unique + doxycycline 100 mg 2 fois par jour pendant 7 jours ; céfixime 800 mg per os seulement si l'injection est impossible",
-    "Traiter les partenaires des 60 derniers jours, proposer un test VIH et syphilis, remettre des préservatifs ; tout écoulement persistant après un traitement bien pris et sans nouvelle exposition doit faire suspecter une résistance : prélèvement pour culture et antibiogramme si possible, et signalement"
+    "Les participants des essais randomisés ont été classés en dix groupes selon leur risque prédit d'événement cardiovasculaire majeur à 5 ans (médiane 12,3 % ; moins de 4 % dans le groupe le plus bas, plus de 27 % dans le plus haut)",
+    "Chaque baisse de 5 mmHg de la pression systolique réduit d'environ 10 % le risque d'infarctus, d'AVC, d'insuffisance cardiaque ou de décès cardiovasculaire (rapport de risque 0,90), sans différence nette entre les groupes de risque ; le bénéfice absolu est le plus grand chez les patients à haut risque",
+    "En pratique : mesurer la PA de tout adulte à chaque consultation (patient assis depuis 5 minutes, brassard adapté, 2 mesures) et confirmer à une 2e visite, sauf PA ≥ 180/110",
+    "Traiter si PA ≥ 140/90 confirmée (≥ 130/80 en cas de diabète, de maladie rénale ou cardiovasculaire) selon le protocole HEARTS : amlodipine 5 mg, puis 10 mg ou association avec un IEC/sartan ou un thiazidique, de préférence en un seul comprimé",
+    "Chaque mmHg compte : vérifier l'observance, réduire le sel (moins de 5 g par jour, pas de cube de bouillon), revoir le patient chaque mois jusqu'à l'objectif < 140/90 (< 130/80 chez le patient à haut risque si bien toléré)"
    ],
-   "couleur": "#1A237E",
-   "icone": "💊",
-   "pathologie": 22,
-   "source": "OMS, lignes directrices provisoires sur le traitement de la gonococcie et rapport EGASP 2026 du 25/11/2026 ; The Lancet, essai de phase 3 de la zoliflodacine (publié en décembre 2025)",
-   "pictogramme": "comprime"
+   "couleur": "#880E4F",
+   "icone": "🩺",
+   "pathologie": 42,
+   "source": "NEJM, « Blood-Pressure–Lowering Treatment across the Cardiovascular Risk Spectrum », BPLTTC, vol. 395 n° 21, novembre 2026 ; OMS, protocole HEARTS",
+   "pictogramme": "coeur"
   },
   {
-   "etiquette": "MOIS DE MOVEMBER",
-   "titre": "Cancer de la prostate",
-   "lieu": "Monde · Afrique subsaharienne",
-   "chiffre": "Environ 1,5 million de nouveaux cas et près de 400 000 décès dans le monde (GLOBOCAN 2022)",
-   "texte": "Novembre est le mois de la santé des hommes (Movember). Le cancer de la prostate est le cancer le plus fréquent chez l'homme en Afrique subsaharienne, souvent découvert au stade métastatique.",
+   "etiquette": "NOUVELLE ÉTUDE",
+   "titre": "Obésité clinique",
+   "lieu": "Monde · 4 cohortes",
+   "chiffre": "844 108 adultes suivis ; mortalité × 1,69 en cas d'obésité clinique (Nature, 11/11/2026)",
+   "texte": "Une étude publiée dans Nature valide la définition de l'obésité de la Commission du Lancet (2025), qui ne se fonde plus sur le seul IMC : l'obésité « clinique », avec retentissement sur les organes, est associée à une nette surmortalité.",
    "details": [
-    "La Commission du Lancet sur le cancer de la prostate (2024) prévoit un doublement des cas dans le monde d'ici 2040, avec la plus forte hausse dans les pays à revenu faible et intermédiaire",
-    "Le cancer est plus fréquent, plus précoce et plus agressif chez les hommes d'ascendance africaine ; le stade précoce ne donne aucun symptôme",
-    "Devant des troubles urinaires, des douleurs osseuses, une anémie ou une faiblesse des jambes chez un homme de plus de 50 ans : toucher rectal et PSA ; une compression médullaire est une urgence",
-    "Informer les hommes de 50 ans ou plus (45 ans en cas d'antécédent familial) sur le dépistage par PSA et en discuter avec eux ; orienter vers l'urologie pour biopsie et bilan"
+    "Par rapport à la nouvelle définition, l'IMC seul sous-estimait l'obésité chez 5,2 à 8,6 % des participants et la surestimait chez 1,2 à 3,1 %",
+    "L'obésité clinique (excès de graisse avec atteinte d'un organe ou limitation des activités) augmente la mortalité toutes causes de 69 % ; l'obésité « préclinique » n'est associée qu'à un risque modeste et n'a pas évolué vers l'obésité clinique en 10 ans chez 77 à 91 % des personnes",
+    "En consultation : mesurer le poids, la taille et le tour de taille (excès si > 102 cm chez l'homme, > 88 cm chez la femme), puis rechercher le retentissement : PA, glycémie, essoufflement, douleurs articulaires, apnées du sommeil",
+    "Prise en charge : alimentation moins sucrée et moins raffinée, activité physique 150 minutes par semaine, objectif de perte de 5 à 10 % du poids ; traiter l'HTA et le diabète associés (fiche Diabète de type 2)"
    ],
-   "couleur": "#0D47A1",
-   "icone": "🎗️",
-   "pathologie": 234,
-   "source": "CIRC, GLOBOCAN 2022 (Global Cancer Observatory) ; Commission du Lancet sur le cancer de la prostate du 04/04/2024",
-   "pictogramme": "ruban"
+   "couleur": "#4E342E",
+   "icone": "⚖️",
+   "pathologie": 44,
+   "source": "Nature, étude publiée en ligne le 11/11/2026 (doi 10.1038/s41586-026-11237-5) ; News-Medical du 12/11/2026",
+   "pictogramme": "pomme"
   },
   {
    "etiquette": "NOUVELLE ANALYSE IPC",
@@ -61,20 +61,20 @@
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
    "lieu": "RDC (8 provinces) · Kenya · cas importé au Nigeria",
-   "chiffre": "11 613 cas confirmés et 5 678 décès en RDC (OMS, au 17 novembre)",
-   "texte": "L'épidémie due au virus Bundibugyo, la 2e plus grande épidémie d'Ebola jamais enregistrée, reste une urgence de santé publique de portée internationale (décision de l'OMS du 18 novembre) ; la transmission est active dans 48 zones de santé.",
+   "chiffre": "12 021 cas confirmés et 5 904 décès en RDC (ECDC, données au 24 novembre)",
+   "texte": "L'épidémie due au virus Bundibugyo, la plus grande épidémie d'Ebola jamais enregistrée en RDC, reste une urgence de santé publique de portée internationale ; la transmission communautaire se poursuit et les combats dans l'Est gênent la riposte.",
    "details": [
-    "RDC au 17 novembre : 11 613 cas confirmés dont 5 678 décès (létalité 48,9 %) dans 68 zones de santé de 8 provinces, transmission active dans 48 zones ; semaine du 9 au 15 novembre : 442 nouveaux cas confirmés et 239 décès ; l'Ituri reste l'épicentre",
-    "Selon le directeur général de l'OMS, sept enfants de moins de 5 ans sur dix ayant un Ebola confirmé sont décédés : penser à Ebola devant un enfant fébrile en zone touchée",
-    "Ouganda : épidémie terminée ; Kenya : 9 cas dont 2 décès, dernier patient sorti le 11 novembre ; Nigeria : 1 cas importé le 20 octobre",
-    "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; l'essai TUMAINI à Bunia doit intégrer deux vaccins spécifiques (ChAdOx1 BDBV et mRNA-1469) après les autorisations nationales (OMS, 17 novembre) ; des soins de soutien précoces (réhydratation, correction des troubles électrolytiques) améliorent nettement la survie",
+    "RDC au 24 novembre : 12 021 cas confirmés dont 5 904 décès (létalité environ 49 %) dans 8 provinces : Ituri, Nord-Kivu, Sud-Kivu, Tshopo, Haut-Uélé, Bas-Uélé, Sud-Ubangi et Nord-Ubangi ; l'Ituri reste l'épicentre",
+    "Selon l'OMS (17 novembre), sept enfants de moins de 5 ans sur dix ayant un Ebola confirmé sont décédés : penser à Ebola devant un enfant fébrile en zone touchée",
+    "Hors RDC : Ouganda (épidémie terminée), Kenya (9 cas confirmés, dernier patient sorti le 11 novembre), Nigeria (1 cas importé, contacts sortis de quarantaine le 13 novembre)",
+    "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; deux vaccins candidats doivent être évalués dans l'essai TUMAINI à Bunia ; des soins de soutien précoces (réhydratation, correction des troubles électrolytiques) améliorent nettement la survie",
     "Tout patient fébrile ayant eu un contact avec un cas, ou présentant des signes hémorragiques, une diarrhée ou des vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte ; faire aussi un TDR paludisme",
     "Hygiène des mains, triage à l'entrée de toutes les structures, enterrements dignes et sécurisés"
    ],
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "OMS, bulletin d'information sur les flambées du 20/11/2026 (données au 17/11) ; OMS, avis du directeur général du 18/11/2026 ; OMS, communiqués des 04/11 et 17/11/2026 (vaccins candidats)",
+   "source": "ECDC, point épidémiologique du 25/11/2026 (données au 24/11) et page de l'épidémie mise à jour le 26/11/2026 ; OMS, bulletin du 20/11/2026 et communiqué du 17/11/2026",
    "pictogramme": "virus"
   },
   {
