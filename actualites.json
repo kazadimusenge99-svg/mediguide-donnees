@@ -1,80 +1,63 @@
 {
- "dateActualites": "27 novembre 2026",
- "dateIsoActualites": "2026-11-27",
+ "dateActualites": "28 novembre 2026",
+ "dateIsoActualites": "2026-11-28",
  "actualites": [
   {
-   "etiquette": "SUJET DU JOUR · ÉTUDE DU NEJM",
-   "titre": "HTA : chaque mmHg compte",
-   "lieu": "Monde · Afrique",
-   "chiffre": "−10 % d'événements cardiovasculaires majeurs par baisse de 5 mmHg de la PA systolique (NEJM, novembre 2026)",
-   "texte": "Une grande méta-analyse sur données individuelles de la collaboration BPLTTC (Oxford), publiée dans le NEJM fin novembre, montre que baisser la pression artérielle protège à tous les niveaux de risque cardiovasculaire, même chez les patients à faible risque.",
+   "etiquette": "SUJET DU JOUR · RAPPORT MONDIAL OMS",
+   "titre": "Rougeole : alerte OMS",
+   "lieu": "Monde · 28 pays africains en flambée",
+   "chiffre": "72 000 décès et 9,8 millions de cas dans le monde en 2025 (OMS, 27/11/2026)",
+   "texte": "Le rapport annuel de l'OMS publié le 27 novembre montre que les décès par rougeole sont au plus bas historique, mais que les lacunes de vaccination entretiennent de grandes flambées, dont 28 dans la Région africaine.",
    "details": [
-    "Les participants des essais randomisés ont été classés en dix groupes selon leur risque prédit d'événement cardiovasculaire majeur à 5 ans (médiane 12,3 % ; moins de 4 % dans le groupe le plus bas, plus de 27 % dans le plus haut)",
-    "Chaque baisse de 5 mmHg de la pression systolique réduit d'environ 10 % le risque d'infarctus, d'AVC, d'insuffisance cardiaque ou de décès cardiovasculaire (rapport de risque 0,90), sans différence nette entre les groupes de risque ; le bénéfice absolu est le plus grand chez les patients à haut risque",
-    "En pratique : mesurer la PA de tout adulte à chaque consultation (patient assis depuis 5 minutes, brassard adapté, 2 mesures) et confirmer à une 2e visite, sauf PA ≥ 180/110",
-    "Traiter si PA ≥ 140/90 confirmée (≥ 130/80 en cas de diabète, de maladie rénale ou cardiovasculaire) selon le protocole HEARTS : amlodipine 5 mg, puis 10 mg ou association avec un IEC/sartan ou un thiazidique, de préférence en un seul comprimé",
-    "Chaque mmHg compte : vérifier l'observance, réduire le sel (moins de 5 g par jour, pas de cube de bouillon), revoir le patient chaque mois jusqu'à l'objectif < 140/90 (< 130/80 chez le patient à haut risque si bien toléré)"
+    "En 2025, environ 72 000 décès (−91 % depuis 2000), surtout des enfants de moins de 5 ans, et 9,8 millions de cas (−74 % depuis 2000)",
+    "La couverture mondiale stagne : 84 % pour la 1re dose et 77 % pour la 2e dose, loin des 95 % nécessaires ; plus de 29 millions d'enfants non ou sous-vaccinés",
+    "59 pays ont connu des flambées importantes en 2025, dont 28 dans la Région africaine ; 11 pays auparavant indemnes ont perdu leur statut d'élimination ; la RDC a dépassé 108 000 cas suspects et 1 390 décès de janvier à juillet 2026 (MSF, août 2026)",
+    "Suspecter la rougeole devant fièvre + éruption maculopapuleuse + toux, rhume ou conjonctivite ; notifier chaque cas et isoler l'enfant (contagieux 4 jours avant et après l'éruption)",
+    "Traiter : vitamine A à J1 et J2 (50 000 UI avant 6 mois, 100 000 UI de 6 à 11 mois, 200 000 UI à partir de 12 mois), dépister la malnutrition (PB, œdèmes), traiter tôt pneumonie, diarrhée et atteinte oculaire",
+    "Prévenir : vérifier le carnet à chaque contact et rattraper RR1 (9 mois) et RR2 (15-18 mois) ; en épidémie ou à l'hospitalisation, vacciner dès 6 mois (dose supplémentaire)"
    ],
-   "couleur": "#880E4F",
-   "icone": "🩺",
-   "pathologie": 42,
-   "source": "NEJM, « Blood-Pressure–Lowering Treatment across the Cardiovascular Risk Spectrum », BPLTTC, vol. 395 n° 21, novembre 2026 ; OMS, protocole HEARTS",
-   "pictogramme": "coeur"
+   "couleur": "#AD1457",
+   "icone": "💉",
+   "pathologie": 12,
+   "source": "OMS, communiqué « Historic low in measles deaths, but immunization gaps threaten progress » du 27/11/2026 ; MSF, données de janvier à juillet 2026 (août 2026)",
+   "pictogramme": "seringue"
   },
   {
    "etiquette": "NOUVELLE ÉTUDE",
-   "titre": "Obésité clinique",
-   "lieu": "Monde · 4 cohortes",
-   "chiffre": "844 108 adultes suivis ; mortalité × 1,69 en cas d'obésité clinique (Nature, 11/11/2026)",
-   "texte": "Une étude publiée dans Nature valide la définition de l'obésité de la Commission du Lancet (2025), qui ne se fonde plus sur le seul IMC : l'obésité « clinique », avec retentissement sur les organes, est associée à une nette surmortalité.",
+   "titre": "Rougeole et grossesse",
+   "lieu": "États-Unis · leçons pour la RDC",
+   "chiffre": "112 femmes enceintes atteintes, près d'un quart hospitalisées (NEJM Evidence, 16/11/2026)",
+   "texte": "Un rapport de surveillance publié dans NEJM Evidence décrit 112 femmes enceintes atteintes de rougeole aux États-Unis entre janvier 2025 et septembre 2026, presque toutes non vaccinées ou de statut inconnu.",
    "details": [
-    "Par rapport à la nouvelle définition, l'IMC seul sous-estimait l'obésité chez 5,2 à 8,6 % des participants et la surestimait chez 1,2 à 3,1 %",
-    "L'obésité clinique (excès de graisse avec atteinte d'un organe ou limitation des activités) augmente la mortalité toutes causes de 69 % ; l'obésité « préclinique » n'est associée qu'à un risque modeste et n'a pas évolué vers l'obésité clinique en 10 ans chez 77 à 91 % des personnes",
-    "En consultation : mesurer le poids, la taille et le tour de taille (excès si > 102 cm chez l'homme, > 88 cm chez la femme), puis rechercher le retentissement : PA, glycémie, essoufflement, douleurs articulaires, apnées du sommeil",
-    "Prise en charge : alimentation moins sucrée et moins raffinée, activité physique 150 minutes par semaine, objectif de perte de 5 à 10 % du poids ; traiter l'HTA et le diabète associés (fiche Diabète de type 2)"
+    "Près d'un quart des femmes ont été hospitalisées pour des complications (pneumonie, insuffisance respiratoire) ; des nouveau-nés ont présenté une rougeole, dont un avec des signes de méningo-encéphalite",
+    "La rougeole pendant la grossesse expose à la pneumonie maternelle, à la fausse couche, à l'accouchement prématuré et à la rougeole néonatale",
+    "Le vaccin RR est un vaccin vivant : il n'est pas administré pendant la grossesse ; vérifier le statut vaccinal des femmes en âge de procréer et vacciner avant ou après la grossesse",
+    "Femme enceinte fébrile avec éruption : isoler, notifier, rechercher une pneumonie, surveiller la grossesse et examiner le nouveau-né ; vacciner l'entourage non protégé"
    ],
-   "couleur": "#4E342E",
-   "icone": "⚖️",
-   "pathologie": 44,
-   "source": "Nature, étude publiée en ligne le 11/11/2026 (doi 10.1038/s41586-026-11237-5) ; News-Medical du 12/11/2026",
-   "pictogramme": "pomme"
-  },
-  {
-   "etiquette": "NOUVELLE ANALYSE IPC",
-   "titre": "Faim record en RDC",
-   "lieu": "RDC · Nord-Kivu, Sud-Kivu, Ituri en tête",
-   "chiffre": "28,8 millions de personnes en insécurité alimentaire aiguë (IPC, 12/11/2026)",
-   "texte": "La 25e analyse IPC, présentée le 12 novembre à Kinshasa, estime que 28,8 millions de personnes (23 % de la population) sont en insécurité alimentaire aiguë de septembre à décembre 2026 ; conflits et Ebola aggravent la crise.",
-   "details": [
-    "Environ 3 millions de personnes en phase d'urgence ; Nord-Kivu, Sud-Kivu et Ituri regroupent environ 10,4 millions de personnes en phase 3 ou plus",
-    "Projection : 30,3 millions de personnes en insécurité alimentaire aiguë de janvier à juin 2027",
-    "Dépister chaque enfant de 6 à 59 mois (PB, œdèmes, poids/taille) : PB < 115 mm ou œdèmes bilatéraux = malnutrition aiguë sévère ; complications ou test de l'appétit négatif = hospitalisation",
-    "MAS sans complication : ATPE, amoxicilline, suivi hebdomadaire ; vérifier la vaccination (rougeole) et traiter le paludisme : les enfants malnutris sont plus exposés au choléra, à la rougeole et au paludisme grave"
-   ],
-   "couleur": "#E65100",
-   "icone": "🥣",
-   "pathologie": 30,
-   "source": "IPC, 25e cycle d'analyse présenté le 12/11/2026 (Radio Okapi du 13/11/2026 ; Actualite.cd du 14/11/2026)",
-   "pictogramme": "pomme"
+   "couleur": "#4527A0",
+   "icone": "🤰",
+   "pathologie": 83,
+   "source": "NEJM Evidence, Lewis et al., rapport du 16/11/2026 (doi 10.1056/EVIDpha2600416) ; News-Medical du 18/11/2026",
+   "pictogramme": "grossesse"
   },
   {
    "etiquette": "ALERTE · URGENCE INTERNATIONALE",
    "titre": "Ebola Bundibugyo",
    "lieu": "RDC (8 provinces) · Kenya · cas importé au Nigeria",
-   "chiffre": "12 021 cas confirmés et 5 904 décès en RDC (ECDC, données au 24 novembre)",
+   "chiffre": "12 021 cas confirmés et 5 904 décès en RDC (données gouvernementales du 26/11/2026)",
    "texte": "L'épidémie due au virus Bundibugyo, la plus grande épidémie d'Ebola jamais enregistrée en RDC, reste une urgence de santé publique de portée internationale ; la transmission communautaire se poursuit et les combats dans l'Est gênent la riposte.",
    "details": [
-    "RDC au 24 novembre : 12 021 cas confirmés dont 5 904 décès (létalité environ 49 %) dans 8 provinces : Ituri, Nord-Kivu, Sud-Kivu, Tshopo, Haut-Uélé, Bas-Uélé, Sud-Ubangi et Nord-Ubangi ; l'Ituri reste l'épicentre",
+    "RDC au 26 novembre : 12 021 cas confirmés dont 5 904 décès (létalité environ 49 %) dans 69 zones de santé de 8 provinces : Ituri, Nord-Kivu, Sud-Kivu, Tshopo, Haut-Uélé, Bas-Uélé, Sud-Ubangi et Nord-Ubangi ; l'Ituri, épicentre, compte 8 140 cas confirmés et 3 843 décès",
+    "Selon l'Africa CDC, près de neuf cas confirmés sur dix ne figuraient pas sur les listes de contacts : de nombreux malades sont identifiés tard, d'où l'importance du triage de tout patient fébrile",
     "Selon l'OMS (17 novembre), sept enfants de moins de 5 ans sur dix ayant un Ebola confirmé sont décédés : penser à Ebola devant un enfant fébrile en zone touchée",
     "Hors RDC : Ouganda (épidémie terminée), Kenya (9 cas confirmés, dernier patient sorti le 11 novembre), Nigeria (1 cas importé, contacts sortis de quarantaine le 13 novembre)",
     "Aucun vaccin ni traitement homologué contre le virus Bundibugyo ; deux vaccins candidats doivent être évalués dans l'essai TUMAINI à Bunia ; des soins de soutien précoces (réhydratation, correction des troubles électrolytiques) améliorent nettement la survie",
-    "Tout patient fébrile ayant eu un contact avec un cas, ou présentant des signes hémorragiques, une diarrhée ou des vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte ; faire aussi un TDR paludisme",
-    "Hygiène des mains, triage à l'entrée de toutes les structures, enterrements dignes et sécurisés"
+    "Tout patient fébrile ayant eu un contact avec un cas, ou présentant des signes hémorragiques, une diarrhée ou des vomissements en zone touchée : isolement immédiat, EPI complet, alerte de l'équipe de riposte ; faire aussi un TDR paludisme"
    ],
    "couleur": "#B71C1C",
    "icone": "🦠",
    "pathologie": 63,
-   "source": "ECDC, point épidémiologique du 25/11/2026 (données au 24/11) et page de l'épidémie mise à jour le 26/11/2026 ; OMS, bulletin du 20/11/2026 et communiqué du 17/11/2026",
+   "source": "Gouvernement de la RDC, données du 26/11/2026 (Reuters ; allAfrica du 27/11/2026) ; ECDC, point du 25/11/2026 ; OMS, communiqué du 17/11/2026 ; Africa CDC",
    "pictogramme": "virus"
   },
   {
@@ -114,6 +97,24 @@
    "pathologie": 64,
    "source": "ACT Alliance, alerte d'octobre 2026 (bilan fin octobre) ; ministère de la Santé de la RDC, déclaration de fin d'urgence du 02/04/2026",
    "pictogramme": "virus"
+  },
+  {
+   "etiquette": "NOUVELLE ANALYSE IPC",
+   "titre": "Faim record en RDC",
+   "lieu": "RDC · Nord-Kivu, Sud-Kivu, Ituri en tête",
+   "chiffre": "28,8 millions de personnes en insécurité alimentaire aiguë (IPC, 12/11/2026)",
+   "texte": "La 25e analyse IPC, présentée le 12 novembre à Kinshasa, estime que 28,8 millions de personnes (23 % de la population) sont en insécurité alimentaire aiguë de septembre à décembre 2026 ; conflits et Ebola aggravent la crise.",
+   "details": [
+    "Environ 3 millions de personnes en phase d'urgence ; Nord-Kivu, Sud-Kivu et Ituri regroupent environ 10,4 millions de personnes en phase 3 ou plus",
+    "Projection : 30,3 millions de personnes en insécurité alimentaire aiguë de janvier à juin 2027",
+    "Dépister chaque enfant de 6 à 59 mois (PB, œdèmes, poids/taille) : PB < 115 mm ou œdèmes bilatéraux = malnutrition aiguë sévère ; complications ou test de l'appétit négatif = hospitalisation",
+    "MAS sans complication : ATPE, amoxicilline, suivi hebdomadaire ; vérifier la vaccination (rougeole) et traiter le paludisme : les enfants malnutris sont plus exposés au choléra, à la rougeole et au paludisme grave"
+   ],
+   "couleur": "#E65100",
+   "icone": "🥣",
+   "pathologie": 30,
+   "source": "IPC, 25e cycle d'analyse présenté le 12/11/2026 (Radio Okapi du 13/11/2026 ; Actualite.cd du 14/11/2026)",
+   "pictogramme": "pomme"
   },
   {
    "etiquette": "PREMIÈRE CAUSE DE CONSULTATION",
